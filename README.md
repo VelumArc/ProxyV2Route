@@ -11,11 +11,13 @@
 
 **1.2.73** · Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
 
-> [Windows 安装说明](https://github.com/VelumArc/ProxyV2Route/blob/main/INSTALL.md) · [完整包与源码](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.73)。安装器包含本地组件与 Xray，目前未作代码签名。Chrome 版可从[应用商店](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm)安装；Firefox 扩展尚未签名，永久安装需 Mozilla 签名。
+## 三步开始使用
 
-直连和系统代理可在情景列表中编辑，工具栏快捷按钮使用同一套规则。节点和手动代理的高级选项支持绕过地址与指定代理策略。规则优先匹配绕过地址，再按顺序选择第一个命中的策略，最后使用情景的默认线路。
+1. **安装浏览器扩展。** Chrome 从[应用商店](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm)安装。Firefox 正在等待审核；可按[本地测试说明](INSTALL.md#firefox)临时加载未签名包，浏览器重启后需重新加载。
+2. **[安装 Windows 配套组件——使用节点线路必需](https://github.com/VelumArc/ProxyV2Route/blob/main/INSTALL.md#windows-companion)。** 安装器已包含 Python、Xray 和 MTR 诊断，无需另装；v2rayN 仅是可选节点来源或“跟随”入口。
+3. **检查连接，导入并使用。** 打开扩展“设置”，点击“重新检测”；连接成功后导入自己的节点或订阅，创建情景并点击“应用情景”，再到 IP 工具确认出口。
 
-底部「保存」记录修改，「应用情景」保存并立即切换。自建情景可在右上角删除。
+> Windows 安装器目前未作代码签名；Firefox 永久安装需 Mozilla 签名。本项目不提供代理服务器或订阅。[完整包与源码](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.73)
 
 [![Proxy V2Route 情景工作区](docs/assets/workspace-zh.png)](docs/assets/workspace-zh.png)
 
@@ -30,11 +32,9 @@
 - **网络检测：**节点测速、出口 IP、下载／上传、Ping、TCPing、MTR 与网站连通检测。
 - **界面与迁移：**55 个语言／地区选项、深浅主题；导出情景及所用节点与链路。新增界面译文为机器翻译初稿，尚未全部经过人工审校。
 
-## 开始使用
+直连和系统代理可在情景列表中编辑，工具栏快捷按钮使用同一套规则。节点和手动代理的高级选项支持绕过地址与指定代理策略。规则优先匹配绕过地址，再按顺序选择第一个命中的策略，最后使用情景的默认线路。
 
-1. 运行安装器，或完整包中的 `V2Route-Setup.exe`，一次安装 Windows 本地组件与 Xray。节点线路与 MTR 需要该组件；无需另装 v2rayN 或 MTR 工具。
-2. Chrome 从[应用商店](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm)安装。使用本地包时，按[安装说明](INSTALL.md#chrome)加载。Firefox：在 `about:debugging` 临时加载未签名 XPI 或 `firefox-extension/manifest.json`；重启后需重新加载。
-3. 导入自己的节点或订阅，创建情景并应用。v2rayN 仅是可选节点来源或“跟随”入口；本项目不提供代理服务器或订阅。
+底部「保存」记录修改，「应用情景」保存并立即切换。自建情景可在右上角删除。
 
 [安装、升级与备份](INSTALL.md) · [从源码构建](SOURCES.md) · [当前源码 ZIP](https://github.com/VelumArc/ProxyV2Route/archive/refs/heads/main.zip)
 

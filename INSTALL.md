@@ -2,17 +2,29 @@
 
 **Proxy V2Route 1.2.73** · Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
 
-[Windows 安装器](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.73/Proxy-V2Route-Setup-1.2.73-Windows-x64.exe) · [完整包与源码](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.73)。[从 Chrome 应用商店安装扩展](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm)；Firefox 提供未签名测试包。自行打包见[来源与构建](SOURCES.md)。
+<a id="windows-companion"></a>
 
-[Windows installer](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.73/Proxy-V2Route-Setup-1.2.73-Windows-x64.exe) · [Complete package and source](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.73). [Install from the Chrome Web Store](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm); Firefox is available as an unsigned test package. To build packages, see [SOURCES.md](SOURCES.md).
+## [下载 Windows 必备组件安装器 1.2.73 / Download Windows companion](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.73/Proxy-V2Route-Setup-1.2.73-Windows-x64.exe)
 
-## 本地组件 / Windows companion
+> **使用节点线路必须安装。** 安装器已包含本地组件、Python、Xray 与 MTR 诊断；v2rayN 可选，无需另装核心或 MTR 工具。Windows 安装器目前未作代码签名。
+>
+> **Required for node routes.** Includes the companion, Python, Xray and MTR diagnostics. v2rayN is optional; no separate core or MTR tool is needed. The Windows installer is currently unsigned.
 
-1. 运行 Windows 安装器或完整包内的 `V2Route-Setup.exe`。独立安装器解压至选择的新空文件夹，完整 ZIP 内的入口直接注册当前目录。
-2. 点击“安装”，一次安装并为当前 Windows 用户注册组件；完整包已包含 Python 与 Xray，无需另装核心。
-3. 在扩展“设置”中检查连接。需要读取 v2rayN 时，可重新扫描或选择其文件夹。
+[完整包与源码 / Complete package and source](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.73) · [自行构建 / Build from source](SOURCES.md)
 
-Run the matching setup in a permanent writable folder and click Install. Python and Xray are included; no separate core installation is needed. Use extension Settings to check the connection or locate v2rayN.
+## 三步开始使用 / Get started in three steps
+
+1. **安装浏览器扩展。** Chrome 从[应用商店](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm)安装；Firefox 正在等待审核，可按下方 [Firefox 测试说明](#firefox)临时加载未签名包。
+
+   **Install the browser extension.** Get the Chrome extension from the [Chrome Web Store](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm). Firefox is awaiting review; use the [Firefox testing instructions](#firefox) below to load the unsigned package temporarily.
+
+2. **安装 Windows 配套组件。** 运行[上方安装器](#windows-companion)，选择可长期保留、可写的新空文件夹，再点击“安装”。组件为当前 Windows 用户注册；若使用完整 ZIP，运行其中的 `V2Route-Setup.exe` 会直接注册当前目录。
+
+   **Install the Windows companion.** Run the [installer above](#windows-companion), choose a new empty, permanent writable folder and click **Install**. It registers the companion for the current Windows user. With the complete ZIP, run its `V2Route-Setup.exe` to register the current folder instead.
+
+3. **检查连接，导入并应用。** 在扩展“设置”点击“重新检测”。连接成功后，导入自己的节点或订阅，创建情景并点击“应用情景”，再到 IP 工具确认出口。需要读取 v2rayN 时，可重新扫描或选择其文件夹；本项目不提供代理服务器或订阅。
+
+   **Check the connection, import and apply.** In extension **Settings**, click **Check again**. Once connected, import your own nodes or subscriptions, create a profile and click **Apply profile**, then check the exit IP in IP Tools. To read v2rayN nodes, rescan or select its folder. This project does not provide proxy servers or subscriptions.
 
 ## 浏览器扩展 / Browser extension
 
@@ -28,9 +40,9 @@ Extract the Chrome ZIP to a permanent folder. Enable Developer mode at `chrome:/
 
 ### Firefox
 
-当前测试包未签名。进入 `about:debugging` →“此 Firefox”→“临时载入附加组件”，选择 `Proxy-V2Route-Firefox-1.2.73-unsigned.xpi` 或 `firefox-extension/manifest.json`。临时加载在浏览器重启后失效，永久安装需要 Mozilla 签名。
+Firefox 1.2.73 正在等待审核，当前本地测试包未签名。进入 `about:debugging` →“此 Firefox”→“临时载入附加组件”，选择 `Proxy-V2Route-Firefox-1.2.73-unsigned.xpi` 或 `firefox-extension/manifest.json`。临时加载在浏览器重启后失效，永久安装需要 Mozilla 签名。
 
-Load the unsigned test XPI through `about:debugging` → **This Firefox** → **Load Temporary Add-on**. Temporary loading lasts until Firefox restarts. Permanent installation requires Mozilla signing.
+Firefox 1.2.73 is awaiting review; the local test package is unsigned. Load it through `about:debugging` → **This Firefox** → **Load Temporary Add-on**, selecting the unsigned XPI or `firefox-extension/manifest.json`. Temporary loading lasts until Firefox restarts. Permanent installation requires Mozilla signing.
 
 每个浏览器用户需分别启用扩展，无痕访问需在扩展详情中允许。
 

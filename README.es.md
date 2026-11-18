@@ -11,11 +11,13 @@
 
 **1.2.73** · Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
 
-> [Guía de instalación para Windows](https://github.com/VelumArc/ProxyV2Route/blob/main/INSTALL.md) · [Paquete completo y código fuente](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.73). El instalador incluye el componente local y Xray; actualmente no tiene firma de código. La extensión para Chrome está disponible en [Chrome Web Store](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm). La extensión de Firefox aún no está firmada y necesita la firma de Mozilla para una instalación permanente.
+## Empieza en tres pasos
 
-Puedes editar la conexión directa y el proxy del sistema desde Perfiles. Los accesos de la barra de herramientas aplican las mismas reglas. En los perfiles de nodo y manuales, las exclusiones tienen prioridad. Después se aplica la primera regla coincidente o, en su defecto, la ruta predeterminada.
+1. **Instala la extensión del navegador.** Instala la extensión para Chrome desde [Chrome Web Store](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm). Firefox está pendiente de revisión; sigue la [guía de pruebas locales](INSTALL.md#firefox) para cargar temporalmente el paquete sin firmar. Debes volver a cargarlo tras reiniciar Firefox.
+2. **[Instala el componente de Windows — obligatorio para las rutas mediante nodos](https://github.com/VelumArc/ProxyV2Route/blob/main/INSTALL.md#windows-companion).** El instalador incluye Python, Xray y diagnóstico MTR; no hace falta instalarlos por separado. v2rayN es solo una fuente de nodos o un destino de seguimiento opcional.
+3. **Comprueba la conexión, importa y conecta.** Abre la configuración de la extensión y vuelve a comprobar la conexión. Una vez conectado el componente, importa tus nodos o suscripciones, crea un perfil y aplícalo. Comprueba después la IP de salida en las herramientas IP.
 
-Al pie del editor, «Guardar» conserva los cambios y «Aplicar perfil» los guarda y cambia de ruta al instante. Puedes eliminar un perfil personalizado desde la esquina superior derecha.
+> El instalador de Windows no tiene firma de código. La instalación permanente en Firefox requiere la firma de Mozilla. Este proyecto no proporciona servidores proxy ni suscripciones. [Paquete completo y código fuente](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.73)
 
 [![Perfiles de Proxy V2Route](docs/assets/workspace-en.png)](docs/assets/workspace-en.png)
 
@@ -30,11 +32,9 @@ Al pie del editor, «Guardar» conserva los cambios y «Aplicar perfil» los gua
 - **Diagnóstico de red:** mediciones de nodos, IP de salida, descarga/subida, Ping, TCPing, MTR y acceso a sitios web.
 - **Interfaz y migración:** 55 opciones de idioma/región, temas claro/oscuro y exportación de perfiles con sus nodos y rutas. Las traducciones de interfaz añadidas son borradores generados automáticamente y no todas han pasado una revisión humana.
 
-## Primeros pasos
+Puedes editar la conexión directa y el proxy del sistema desde Perfiles. Los accesos de la barra de herramientas aplican las mismas reglas. En los perfiles de nodo y manuales, las exclusiones tienen prioridad. Después se aplica la primera regla coincidente o, en su defecto, la ruta predeterminada.
 
-1. Ejecuta el instalador o `V2Route-Setup.exe` del paquete completo para instalar juntos el componente de Windows y Xray. Las rutas mediante nodos y MTR necesitan este componente; no hace falta instalar v2rayN ni una herramienta MTR por separado.
-2. Instala la extensión de Chrome desde [Chrome Web Store](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm). Para cargar un paquete local, sigue la [guía de instalación](INSTALL.md#chrome). Firefox: carga temporalmente el XPI sin firmar o `firefox-extension/manifest.json` desde `about:debugging`; tendrás que volver a cargarlo tras reiniciar Firefox.
-3. Importa tus propios nodos o suscripciones, crea un perfil y aplícalo. v2rayN es una fuente de nodos o un destino de seguimiento opcional; este proyecto no proporciona servidores proxy ni suscripciones.
+Al pie del editor, «Guardar» conserva los cambios y «Aplicar perfil» los guarda y cambia de ruta al instante. Puedes eliminar un perfil personalizado desde la esquina superior derecha.
 
 [Instalación, actualizaciones y copias de seguridad (chino/inglés)](INSTALL.md) · [Compilar desde el código fuente](SOURCES.md) · [ZIP del código fuente actual](https://github.com/VelumArc/ProxyV2Route/archive/refs/heads/main.zip)
 

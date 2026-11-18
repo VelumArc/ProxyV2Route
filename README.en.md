@@ -11,11 +11,13 @@
 
 **1.2.73** · Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
 
-> [Windows installation guide](https://github.com/VelumArc/ProxyV2Route/blob/main/INSTALL.md) · [Complete package and source](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.73). The installer includes the local companion and Xray and is currently unsigned. Install the Chrome extension from the [Chrome Web Store](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm); the Firefox add-on is unsigned and requires Mozilla signing for permanent installation.
+## Get started in three steps
 
-Edit Direct and System in Profiles. Their toolbar shortcuts apply the same rules. For node and manual profiles, Advanced options checks bypass addresses first, then applies the first matching proxy policy. Remaining requests use the profile’s default route.
+1. **Install the browser extension.** Install the Chrome extension from the [Chrome Web Store](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm). Firefox is awaiting review; follow the [local testing guide](INSTALL.md#firefox) to load the unsigned package temporarily, and reload it after restarting Firefox.
+2. **[Install the Windows companion — required for node routes](https://github.com/VelumArc/ProxyV2Route/blob/main/INSTALL.md#windows-companion).** The installer includes Python, Xray and MTR diagnostics; no separate installation is needed. v2rayN is only an optional node source or Follow endpoint.
+3. **Check the connection, import and connect.** Open extension **Settings** and click **Check again**. Once connected, import your own nodes or subscriptions, create a profile and click **Apply profile**, then check the exit IP in IP Tools.
 
-In the footer, Save keeps your edits for later. Apply profile saves them and switches immediately. You can delete a custom profile from its top-right corner.
+> The Windows installer is currently unsigned. Permanent Firefox installation requires Mozilla signing. This project does not provide proxy servers or subscriptions. [Complete package and source](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.73)
 
 [![Proxy V2Route profiles workspace](docs/assets/workspace-en.png)](docs/assets/workspace-en.png)
 
@@ -30,11 +32,9 @@ In the footer, Save keeps your edits for later. Apply profile saves them and swi
 - **Network checks:** node measurements, exit IP, download/upload, Ping, TCPing, MTR and website reachability.
 - **Interface and portability:** 55 language/region options, light/dark themes and profile exports with their nodes and paths. Newly added interface translations are machine-generated drafts and have not all undergone human review.
 
-## Get started
+Edit Direct and System in Profiles. Their toolbar shortcuts apply the same rules. For node and manual profiles, Advanced options checks bypass addresses first, then applies the first matching proxy policy. Remaining requests use the profile’s default route.
 
-1. Run the installer or `V2Route-Setup.exe` from the complete package to install the Windows companion and Xray together. Node routes and MTR require this companion; a separate v2rayN or MTR installation is not required.
-2. Install for Chrome from the [Chrome Web Store](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm). Follow the [installation guide](INSTALL.md#chrome) to load a local build. Firefox: temporarily load the unsigned XPI or `firefox-extension/manifest.json` at `about:debugging`; reload it after restarting Firefox.
-3. Import your own nodes or subscriptions, create a profile and apply it. v2rayN is an optional node source or Follow endpoint; this project does not provide proxy servers or subscriptions.
+In the footer, Save keeps your edits for later. Apply profile saves them and switches immediately. You can delete a custom profile from its top-right corner.
 
 [Installation, upgrades and backups](INSTALL.md) · [Build from source](SOURCES.md) · [Current source ZIP](https://github.com/VelumArc/ProxyV2Route/archive/refs/heads/main.zip)
 

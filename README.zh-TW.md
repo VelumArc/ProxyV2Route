@@ -11,11 +11,13 @@
 
 **1.2.73** · Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
 
-> [Windows 安裝說明](https://github.com/VelumArc/ProxyV2Route/blob/main/INSTALL.md) · [完整套件與原始碼](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.73)。安裝程式包含本機元件與 Xray，目前未經程式碼簽章。Chrome 版可從[線上應用程式商店](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm)安裝；Firefox 擴充套件尚未簽署，永久安裝需要 Mozilla 簽署。
+## 三步開始使用
 
-可在情境清單中編輯直連與系統代理，工具列捷徑會套用相同規則。節點與手動代理的進階選項支援略過位址及指定代理策略。先檢查略過位址，再依序套用第一條符合的策略，其餘使用情境的預設路線。
+1. **安裝瀏覽器擴充套件。** Chrome 可從[線上應用程式商店](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm)安裝。Firefox 正在等待審核；可依[本機測試說明](INSTALL.md#firefox)暫時載入未簽署套件，瀏覽器重新啟動後需再次載入。
+2. **[安裝 Windows 配套元件——使用節點路線必需](https://github.com/VelumArc/ProxyV2Route/blob/main/INSTALL.md#windows-companion)。** 安裝程式已包含 Python、Xray 與 MTR 診斷，不必另裝；v2rayN 僅是選用的節點來源或「跟隨」入口。
+3. **檢查連線，匯入並使用。** 開啟擴充套件「設定」，點選「重新檢測」；連線成功後匯入自己的節點或訂閱，建立情境並點選「套用情境」，再到 IP 工具確認出口。
 
-下方「儲存」保留變更，「套用情境」會儲存並立即切換。自訂情境可在右上角刪除。
+> Windows 安裝程式目前未經程式碼簽章；Firefox 永久安裝需要 Mozilla 簽署。本專案不提供代理伺服器或訂閱。[完整套件與原始碼](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.73)
 
 [![Proxy V2Route 情境工作區](docs/assets/workspace-zh.png)](docs/assets/workspace-zh.png)
 
@@ -30,11 +32,9 @@
 - **網路檢測：**節點測速、出口 IP、下載／上傳、Ping、TCPing、MTR 與網站連線檢測。
 - **介面與移轉：**55 個語言／地區選項、明暗主題；匯出情境及所用節點與代理鏈。新增介面譯文為機器翻譯初稿，尚未全部經過人工校對。
 
-## 開始使用
+可在情境清單中編輯直連與系統代理，工具列捷徑會套用相同規則。節點與手動代理的進階選項支援略過位址及指定代理策略。先檢查略過位址，再依序套用第一條符合的策略，其餘使用情境的預設路線。
 
-1. 執行安裝程式或完整套件中的 `V2Route-Setup.exe`，一次安裝 Windows 本機元件與 Xray。節點路線與 MTR 需要此元件；不必另裝 v2rayN 或 MTR 工具。
-2. Chrome 可從[線上應用程式商店](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm)安裝。使用本機套件時，請依[安裝說明](INSTALL.md#chrome)載入。Firefox：在 `about:debugging` 暫時載入未簽署的 XPI 或 `firefox-extension/manifest.json`；重新啟動後需再次載入。
-3. 匯入自己的節點或訂閱，建立情境並套用。v2rayN 僅是選用的節點來源或「跟隨」入口；本專案不提供代理伺服器或訂閱。
+下方「儲存」保留變更，「套用情境」會儲存並立即切換。自訂情境可在右上角刪除。
 
 [安裝、升級與備份（簡中／英文）](INSTALL.md) · [原始碼建置](SOURCES.md) · [目前原始碼 ZIP](https://github.com/VelumArc/ProxyV2Route/archive/refs/heads/main.zip)
 

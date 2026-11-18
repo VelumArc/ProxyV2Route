@@ -11,11 +11,13 @@
 
 **1.2.73** · Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
 
-> [Windows インストールガイド](https://github.com/VelumArc/ProxyV2Route/blob/main/INSTALL.md) · [完全パッケージとソースコード](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.73)。インストーラーにはローカル連携コンポーネントと Xray が含まれます。現在、コード署名はありません。Chrome 版は [Chrome ウェブストア](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm) からインストールできます。Firefox 版は未署名で、常用には Mozilla による署名が必要です。
+## 3 ステップで使い始める
 
-直接接続とシステムプロキシはプロファイル一覧で編集でき、ツールバーからも同じルールが適用されます。ノードと手動プロキシの詳細設定では、除外先を優先し、次に最初に一致したプロキシルールを使います。どちらにも一致しない場合は既定の経路を使います。
+1. **ブラウザー拡張機能をインストール。** Chrome 版は [Chrome ウェブストア](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm)からインストールできます。Firefox 版は審査待ちです。[ローカルテスト手順](INSTALL.md#firefox)に従って未署名パッケージを一時的に読み込めますが、ブラウザーの再起動後は再読み込みが必要です。
+2. **[Windows 連携コンポーネントをインストール — ノード経由の接続に必須](https://github.com/VelumArc/ProxyV2Route/blob/main/INSTALL.md#windows-companion)。** Python、Xray、MTR 診断が含まれ、別途インストールする必要はありません。v2rayN は任意のノード取得元、または追従先として使えます。
+3. **接続を確認してインポート・適用。** 拡張機能の設定で接続を再確認します。接続できたら自分のノードやサブスクリプションをインポートし、プロファイルを作成して適用します。最後に IP ツールで出口 IP を確認します。
 
-下部の「保存」は変更を記録し、「プロファイルを適用」は保存と切り替えを同時に行います。自分で作成したプロファイルは右上から削除できます。
+> Windows インストーラーは現在未署名です。Firefox の常用には Mozilla による署名が必要です。このプロジェクトはプロキシサーバーやサブスクリプションを提供しません。[完全パッケージとソースコード](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.73)
 
 [![Proxy V2Route のプロファイル画面](docs/assets/workspace-en.png)](docs/assets/workspace-en.png)
 
@@ -30,11 +32,9 @@
 - **ネットワーク診断：**ノードの速度、出口 IP、ダウンロード／アップロード、Ping、TCPing、MTR、サイトへの到達性を確認できます。
 - **表示と移行：**55 の言語・地域オプション、ライト／ダークテーマ、使用ノードと経路を含むプロファイルのエクスポート。追加された UI 翻訳は機械翻訳の初稿で、すべてが人手で確認済みではありません。
 
-## 使い始める
+直接接続とシステムプロキシはプロファイル一覧で編集でき、ツールバーからも同じルールが適用されます。ノードと手動プロキシの詳細設定では、除外先を優先し、次に最初に一致したプロキシルールを使います。どちらにも一致しない場合は既定の経路を使います。
 
-1. インストーラー、または完全パッケージ内の `V2Route-Setup.exe` を実行し、Windows 用の連携コンポーネントと Xray をまとめてインストールします。ノード経由の接続と MTR にはこのコンポーネントが必要です。v2rayN や MTR ツールの別途インストールは不要です。
-2. Chrome 版は [Chrome ウェブストア](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm)からインストールできます。ローカルパッケージを使う場合は[インストールガイド](INSTALL.md#chrome)に従ってください。Firefox：`about:debugging` で未署名の XPI または `firefox-extension/manifest.json` を一時的に読み込みます。再起動後は再読み込みが必要です。
-3. 自分のノードやサブスクリプションをインポートし、プロファイルを作成して適用します。v2rayN は任意のノード取得元、または追従先として使えます。このプロジェクトはプロキシサーバーやサブスクリプションを提供しません。
+下部の「保存」は変更を記録し、「プロファイルを適用」は保存と切り替えを同時に行います。自分で作成したプロファイルは右上から削除できます。
 
 [インストール・更新・バックアップ（中国語／英語）](INSTALL.md) · [ソースからビルド](SOURCES.md) · [現在のソース ZIP](https://github.com/VelumArc/ProxyV2Route/archive/refs/heads/main.zip)
 

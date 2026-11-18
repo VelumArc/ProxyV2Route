@@ -11,11 +11,13 @@
 
 **1.2.73** · Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
 
-> [Windows-Installationsanleitung](https://github.com/VelumArc/ProxyV2Route/blob/main/INSTALL.md) · [Komplettpaket und Quellcode](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.73). Der Installer enthält die lokale Begleitkomponente und Xray und ist derzeit nicht codesigniert. Die Chrome-Erweiterung ist im [Chrome Web Store](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm) erhältlich. Die Firefox-Erweiterung ist noch nicht signiert; eine dauerhafte Installation erfordert die Signatur von Mozilla.
+## In drei Schritten starten
 
-Direktverbindung und Systemproxy lassen sich in der Profilliste bearbeiten. Die Schaltflächen in der Symbolleiste verwenden dieselben Regeln. Bei Knoten- und manuellen Profilen haben Ausnahmen Vorrang. Danach gilt die erste passende Proxyregel, sonst die Standardroute.
+1. **Browser-Erweiterung installieren.** Installiere die Chrome-Erweiterung aus dem [Chrome Web Store](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm). Firefox wartet noch auf die Prüfung; die [lokale Testanleitung](INSTALL.md#firefox) erklärt, wie du das unsignierte Paket vorübergehend lädst. Nach einem Firefox-Neustart musst du es erneut laden.
+2. **[Windows-Begleitkomponente installieren — für Knotenverbindungen erforderlich](https://github.com/VelumArc/ProxyV2Route/blob/main/INSTALL.md#windows-companion).** Python, Xray und MTR-Diagnose sind enthalten; eine separate Installation ist nicht nötig. v2rayN dient nur optional als Knotenquelle oder laufender Endpunkt.
+3. **Verbindung prüfen, importieren und verbinden.** Öffne die Einstellungen der Erweiterung und prüfe die Verbindung erneut. Sobald die Komponente verbunden ist, importiere deine Knoten oder Abonnements, erstelle ein Profil und wende es an. Prüfe anschließend die Ausgangs-IP in den IP-Werkzeugen.
 
-Unten sichert „Speichern“ die Änderungen. „Profil anwenden“ speichert sie und wechselt sofort zur neuen Route. Eigene Profile können Sie oben rechts löschen.
+> Der Windows-Installer ist derzeit nicht codesigniert. Eine dauerhafte Firefox-Installation erfordert die Signatur von Mozilla. Dieses Projekt stellt keine Proxy-Server oder Abonnements bereit. [Komplettpaket und Quellcode](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.73)
 
 [![Profilansicht von Proxy V2Route](docs/assets/workspace-en.png)](docs/assets/workspace-en.png)
 
@@ -30,11 +32,9 @@ Unten sichert „Speichern“ die Änderungen. „Profil anwenden“ speichert s
 - **Netzwerkdiagnose:** Knotenmessungen, Ausgangs-IP, Download/Upload, Ping, TCPing, MTR und Erreichbarkeit von Websites.
 - **Oberfläche und Umzug:** 55 Sprach-/Regionsoptionen, helle/dunkle Designs und Profilexport mit den verwendeten Knoten und Routen. Die ergänzten Übersetzungen der Oberfläche sind maschinell erstellte Entwürfe und noch nicht alle manuell geprüft.
 
-## Erste Schritte
+Direktverbindung und Systemproxy lassen sich in der Profilliste bearbeiten. Die Schaltflächen in der Symbolleiste verwenden dieselben Regeln. Bei Knoten- und manuellen Profilen haben Ausnahmen Vorrang. Danach gilt die erste passende Proxyregel, sonst die Standardroute.
 
-1. Starte den Installer oder `V2Route-Setup.exe` aus dem Komplettpaket, um die Windows-Begleitkomponente und Xray gemeinsam zu installieren. Knotenverbindungen und MTR benötigen diese Komponente; eine separate Installation von v2rayN oder einem MTR-Werkzeug ist nicht nötig.
-2. Installiere die Chrome-Erweiterung aus dem [Chrome Web Store](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm). Wie du ein lokales Paket lädst, steht in der [Installationsanleitung](INSTALL.md#chrome). Firefox: Lade die unsignierte XPI oder `firefox-extension/manifest.json` unter `about:debugging` vorübergehend. Nach einem Firefox-Neustart muss sie erneut geladen werden.
-3. Importiere deine eigenen Knoten oder Abonnements, erstelle ein Profil und wende es an. v2rayN dient optional als Knotenquelle oder laufender Endpunkt. Dieses Projekt stellt keine Proxy-Server oder Abonnements bereit.
+Unten sichert „Speichern“ die Änderungen. „Profil anwenden“ speichert sie und wechselt sofort zur neuen Route. Eigene Profile können Sie oben rechts löschen.
 
 [Installation, Updates und Sicherungen (Chinesisch/Englisch)](INSTALL.md) · [Aus dem Quellcode bauen](SOURCES.md) · [Aktuelles Quellcode-ZIP](https://github.com/VelumArc/ProxyV2Route/archive/refs/heads/main.zip)
 
