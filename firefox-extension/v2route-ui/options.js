@@ -215,7 +215,7 @@
       const saved=!isNew&&!dirty;
       const applied=saved&&current()===p.name&&data.state.currentProfileApplied&&data.state.availableProfiles?.[p.name]?.revision===p.revision;
       saveButton.disabled=saving||incomplete||saved;
-      applyButton.disabled=saving||incomplete;
+      applyButton.disabled=saving||incomplete||applied;
       saveButton.textContent=t(saving==='save'?'saving':isNew?'create':dirty?'save':'saved');
       applyButton.textContent=t(saving==='apply'?'switching':applied?'profileApplied':'apply');
       saveButton.dataset.complete=String(saved&&saving!=='save');

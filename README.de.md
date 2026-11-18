@@ -9,9 +9,9 @@
 
 ---
 
-**1.2.71** · Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
+**1.2.72** · Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
 
-> [Windows-Installer](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.71/Proxy-V2Route-Setup-1.2.71-Windows-x64.exe) · [Komplettpaket und Quellcode](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.71). Der Installer enthält die lokale Begleitkomponente und Xray und ist derzeit nicht codesigniert. Die Chrome-Erweiterung ist im [Chrome Web Store](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm) erhältlich. Die Firefox-Erweiterung ist noch nicht signiert; eine dauerhafte Installation erfordert die Signatur von Mozilla.
+> [Windows-Installer](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.72/Proxy-V2Route-Setup-1.2.72-Windows-x64.exe) · [Komplettpaket und Quellcode](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.72). Der Installer enthält die lokale Begleitkomponente und Xray und ist derzeit nicht codesigniert. Die Chrome-Erweiterung ist im [Chrome Web Store](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm) erhältlich. Die Firefox-Erweiterung ist noch nicht signiert; eine dauerhafte Installation erfordert die Signatur von Mozilla.
 
 Direktverbindung und Systemproxy lassen sich in der Profilliste bearbeiten. Die Schaltflächen in der Symbolleiste verwenden dieselben Regeln. Bei Knoten- und manuellen Profilen haben Ausnahmen Vorrang. Danach gilt die erste passende Proxyregel, sonst die Standardroute.
 
