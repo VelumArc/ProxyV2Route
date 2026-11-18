@@ -91,10 +91,8 @@ select option, select optgroup { background-color: var(--surface); color: var(--
   gap: 9px;
   min-width: 142px;
   max-width: 100%;
-  min-height: 52px;
-  height: auto;
   margin-inline-start: auto;
-  padding: 10px 20px;
+  padding: 5px 20px;
   border: 1px solid color-mix(in srgb, var(--danger) 48%, var(--border));
   border-radius: 11px;
   background: linear-gradient(130deg, color-mix(in srgb, var(--danger) 4%, var(--surface)), color-mix(in srgb, var(--danger) 11%, var(--surface)));
