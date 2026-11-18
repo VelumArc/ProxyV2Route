@@ -11,7 +11,7 @@
 
 **1.2.73** · Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
 
-> [Windows installer](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.73/Proxy-V2Route-Setup-1.2.73-Windows-x64.exe) · [Complete package and source](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.73). The installer includes the local companion and Xray and is currently unsigned. Install the Chrome extension from the [Chrome Web Store](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm); the Firefox add-on is unsigned and requires Mozilla signing for permanent installation.
+> [Windows installation guide](https://github.com/VelumArc/ProxyV2Route/blob/main/INSTALL.md) · [Complete package and source](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.73). The installer includes the local companion and Xray and is currently unsigned. Install the Chrome extension from the [Chrome Web Store](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm); the Firefox add-on is unsigned and requires Mozilla signing for permanent installation.
 
 Edit Direct and System in Profiles. Their toolbar shortcuts apply the same rules. For node and manual profiles, Advanced options checks bypass addresses first, then applies the first matching proxy policy. Remaining requests use the profile’s default route.
 

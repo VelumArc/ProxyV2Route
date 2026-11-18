@@ -11,7 +11,7 @@
 
 **1.2.73** · Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
 
-> [Instalador para Windows](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.73/Proxy-V2Route-Setup-1.2.73-Windows-x64.exe) · [Paquete completo y código fuente](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.73). El instalador incluye el componente local y Xray; actualmente no tiene firma de código. La extensión para Chrome está disponible en [Chrome Web Store](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm). La extensión de Firefox aún no está firmada y necesita la firma de Mozilla para una instalación permanente.
+> [Guía de instalación para Windows](https://github.com/VelumArc/ProxyV2Route/blob/main/INSTALL.md) · [Paquete completo y código fuente](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.73). El instalador incluye el componente local y Xray; actualmente no tiene firma de código. La extensión para Chrome está disponible en [Chrome Web Store](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm). La extensión de Firefox aún no está firmada y necesita la firma de Mozilla para una instalación permanente.
 
 Puedes editar la conexión directa y el proxy del sistema desde Perfiles. Los accesos de la barra de herramientas aplican las mismas reglas. En los perfiles de nodo y manuales, las exclusiones tienen prioridad. Después se aplica la primera regla coincidente o, en su defecto, la ruta predeterminada.
 

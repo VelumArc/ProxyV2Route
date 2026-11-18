@@ -38,6 +38,10 @@ Enable the extension separately in each browser profile and allow private-window
 
 ## 升级 / Upgrade
 
+浏览器扩展与 Windows 配套组件分别更新。扩展更新不会自动安装或替换本机组件；升级组件前，请查看本页的版本要求和发布说明。
+
+The browser extension and Windows companion update separately. An extension update does not install or replace the native companion. Check the requirements on this page and the release notes before upgrading the companion.
+
 将匹配的新完整包装入新空文件夹，运行安装器并确认升级。安装器校验已有安装归属，迁移组件设置、导入节点、线路绑定及端口，仅重启已验证的本地组件。随后更新浏览器扩展，保留相同扩展身份并重新加载。
 
 Install the matching complete package into a new empty folder and confirm the verified upgrade. Setup preserves companion settings, imported nodes, route bindings and ports, then restarts the verified companion. Update and reload the browser extension with the same identity.

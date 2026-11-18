@@ -8,16 +8,16 @@
   "executables_included": false,
   "files": {
     ".gitignore": "6a1423637c749a66c0ac33a8cf98c6ad6aac8abfe8cc19970c9e340cf5629cc3",
-    "INSTALL.md": "ebbd213869decd3261d80469c66c633a934ba9ccae0fa0aac376ced0c0cb77e5",
+    "INSTALL.md": "ec69c59c5364c3cd77c07f52fc7d8de396e3e17fab6ac08392a0bece200f5435",
     "LICENSE-GPL-3.0.txt": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
     "NativeHost.cs": "80f53368f4da022b08fbc91690a229a2b67233976e545eae98d1c04c3fc8583f",
-    "README.de.md": "4560b00b25c1c39136cc80374c109dc8780b9f41acbfe3dd2bf492d33e654761",
-    "README.en.md": "70d3dca4839a83077b05ba481814b971035a1045becd404668a7d3298b29b61d",
-    "README.es.md": "88ab8a4dfc8626f567ecb95367b5a69b1c65cd01c6664bcbc05c5baa70dcd8e9",
-    "README.ja.md": "5ce7ad03e5a919ee50dc800333ecc6116d7f5f9d54c63e04ac8ada1a0290cbea",
-    "README.md": "69e7c19585ea094e76e1d2e80a8615b8152025086c711d2829868d104fd7fa04",
-    "README.zh-TW.md": "6cea77924c5a8de41c2911eab8ae0009377a4a8b7f08501eea216caab59b4d72",
-    "REBUILD-MANIFEST.json": "1b15ba8a06fa59de157ea10cbd437765666a83a65cb16f43c448b15ee83743e0",
+    "README.de.md": "ae0c9af26ae13b247a7525fd571df0bd42f5c1afbd8668d4fedc78c78cf1ff31",
+    "README.en.md": "85c7804fb1984c18b1253c342e244ec3264e3d7befb86d4f7bd4e606388cf90b",
+    "README.es.md": "45c8bbefad09e1ed6c89f50d532f0196de14b67b19eb1dcf4cca603a0c8f7d5f",
+    "README.ja.md": "2b57800eb1b9a24966ed4f895e749e16eee4bd7d7751485e5eb18d6defbb16f0",
+    "README.md": "bb613ea6e4f43267a5748a388c6b8692cec7d852093cf9fcb0461894a42025e2",
+    "README.zh-TW.md": "558a83f6ac1d8bc54c1da7cb4abea1710d8af0303f22056c1267ccef5c460e9e",
+    "REBUILD-MANIFEST.json": "9c86c3ccbeb9609d27df2568bf3c4252a8761913de0d0f54ee51a040a76f7047",
     "SOURCES.md": "99cdf8c1332d6e8ae9ec00a4564c3d95f4a2e69283ed9d0141e5f1a037e16d33",
     "SetupLauncher.cs": "69d9b6c1c7810d85677655651bec100508f504e89007f7a8cbe24bd8aa0a7e2f",
     "assemble_public_repo.py": "765c712d5e8115f0efd4a5eb3c78b3c7c19c163a5b94c911ef148ba8b39c7a16",
@@ -440,7 +440,7 @@
     "docs/assets/workspace-en.png": "96ebd11573a98feedffa52a58901833f643df79cfe99041433f93a1ae07e157d",
     "docs/assets/workspace-zh.png": "52b91aeda1ee43fbb6c2d04fa8e2be8013737e90b6dcca3265639bdd0c23d77e",
     "docs/brand-icon.png": "d64cadfdbbb22be74c936797dfa773e1b00824a063267bded629fece28c3683e",
-    "docs/index.html": "f57b0860388ae04cb38d58da7a31b774d87dd59039bb628d545a29fa27c5c2f2",
+    "docs/index.html": "1bec38dc9876df01406f9cb5914e73aabd78e4e56a28e443c141ac7886af13cb",
     "docs/privacy.html": "1385751dfeb6499a1ecdd1475677b5fbe22564150d1307b83606d364fc32b500",
     "docs/site.css": "fbcdde040de967f71cfff28f92e6b1e95dd712096cfbf839c44bd4fad451d9c9",
     "docs/site.js": "4e6dea4ef62b4f313c49db7f5b401321389d2fa985d1f1ea4f359d1edefbe2e6",
@@ -973,5 +973,20 @@
     "vendor_yaml/scanner.py": "60433788b652690c17710460da5d91e0c753d3318fd85f5e1e42862a71f25906",
     "vendor_yaml/serializer.py": "0a1b85826854d35863e31808f0668abfabdf33606e8f06bd8bb7761401e3edc0",
     "vendor_yaml/tokens.py": "953408cd2570f0c83dc2fe39f7e4e388e41eeb05738aa69196a5f6ffcf6ba79e"
+  },
+  "documentation_only_update": {
+    "base_release": "v1.2.73",
+    "base_commit": "a7c57a2d7a1a405f8e7ab83c9285bc2ab3a1ba03",
+    "files": [
+      "INSTALL.md",
+      "README.de.md",
+      "README.en.md",
+      "README.es.md",
+      "README.ja.md",
+      "README.md",
+      "README.zh-TW.md",
+      "docs/index.html"
+    ],
+    "release_assets_unchanged": true
   }
 }
