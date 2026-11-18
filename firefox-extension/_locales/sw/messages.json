@@ -735,7 +735,7 @@
     "message": "Funga"
   },
   "apply": {
-    "message": "Tumia wasifu huu"
+    "message": "Tumia wasifu"
   },
   "applied": {
     "message": "Wasifu umebadilishwa"
@@ -2146,5 +2146,8 @@
   },
   "policyMoveDown": {
     "message": "Sogeza sheria chini"
+  },
+  "systemV2rayNote": {
+    "message": "v2rayN imepatikana kwenye kifaa hiki. Ikiwa Windows inatumia v2rayN kama proksi ya mfumo, kanuni zake hutumika tu kwa maombi ambayo kivinjari kinaitumia. Acha orodha zote mbili tupu ili kufuata v2rayN kwa maeneo yote lengwa."
   }
 }

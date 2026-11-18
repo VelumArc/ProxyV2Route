@@ -735,7 +735,7 @@
     "message": "關閉"
   },
   "apply": {
-    "message": "切換到此情景"
+    "message": "套用情境"
   },
   "applied": {
     "message": "已切換情景"
@@ -2146,5 +2146,8 @@
   },
   "policyMoveDown": {
     "message": "下移策略"
+  },
+  "systemV2rayNote": {
+    "message": "已偵測到本機的 v2rayN。當 Windows 系統代理指向 v2rayN 時，只有送往它的請求才會依照它的路由規則分流。若要完全沿用 v2rayN，請將兩個欄位留白。"
   }
 }

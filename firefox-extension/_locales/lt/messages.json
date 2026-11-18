@@ -735,7 +735,7 @@
     "message": "Uždaryti"
   },
   "apply": {
-    "message": "Naudokite šį profilį"
+    "message": "Taikyti profilį"
   },
   "applied": {
     "message": "Profilis perjungtas"
@@ -2146,5 +2146,8 @@
   },
   "policyMoveDown": {
     "message": "Perkelti taisyklę žemyn"
+  },
+  "systemV2rayNote": {
+    "message": "Šiame įrenginyje aptikta v2rayN. Jei „Windows“ naudoja v2rayN kaip sistemos tarpinį serverį, jo taisyklės taikomos tik užklausoms, kurias jam perduoda naršyklė. Norėdami naudoti v2rayN visiems adresams, palikite abu sąrašus tuščius."
   }
 }

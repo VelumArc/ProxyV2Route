@@ -735,7 +735,7 @@
     "message": "Zapri"
   },
   "apply": {
-    "message": "Uporabi ta profil"
+    "message": "Uporabi profil"
   },
   "applied": {
     "message": "Profil zamenjan"
@@ -2146,5 +2146,8 @@
   },
   "policyMoveDown": {
     "message": "Premakni pravilo dol"
+  },
+  "systemV2rayNote": {
+    "message": "V tej napravi je bil zaznan v2rayN. Če ga Windows uporablja kot sistemski posredniški strežnik, njegova pravila veljajo samo za zahteve, ki mu jih pošlje brskalnik. Če želite za vse cilje slediti pravilom v2rayN, pustite oba seznama prazna."
   }
 }

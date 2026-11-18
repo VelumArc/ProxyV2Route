@@ -735,7 +735,7 @@
     "message": "ዝጋ"
   },
   "apply": {
-    "message": "ይህን መገለጫ ይጠቀሙ"
+    "message": "መገለጫውን ተግብር"
   },
   "applied": {
     "message": "መገለጫ ተቀይሯል።"
@@ -2146,5 +2146,8 @@
   },
   "policyMoveDown": {
     "message": "ደንቡን ወደ ታች አንቀሳቅስ"
+  },
+  "systemV2rayNote": {
+    "message": "በዚህ መሣሪያ ላይ v2rayN ተገኝቷል። Windows ለስርዓቱ ፕሮክሲ v2rayN የሚጠቀም ከሆነ፣ የv2rayN ደንቦች የሚሠሩት አሳሹ ወደ እሱ በሚልካቸው ጥያቄዎች ላይ ብቻ ነው። ለሁሉም መዳረሻዎች v2rayNን ለመከተል ሁለቱንም ዝርዝሮች ባዶ ይተዉ።"
   }
 }

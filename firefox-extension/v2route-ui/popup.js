@@ -46,7 +46,7 @@
   }
   translateLabels();$('popup-version').textContent='v'+chrome.runtime.getManifest().version;
   $('popup-settings').onclick=()=>{chrome.runtime.openOptionsPage();};
-  $('popup-ip-tools').onclick=()=>{const message=V2RFeedback.begin($('popup-ip-tools'),{key:'popup:tools'});chrome.tabs.create({url:chrome.runtime.getURL('v2route-ui/options.html#ip-tools')},()=>{if(chrome.runtime.lastError)message.error(chrome.runtime.lastError);else window.close();});};
+  $('popup-ip-tools').onclick=()=>{chrome.tabs.create({url:chrome.runtime.getURL('v2route-ui/options.html#ip-tools')},()=>{if(chrome.runtime.lastError)error(chrome.runtime.lastError);else window.close();});};
   let statusValue=null;
   function error(value){statusValue=value;$('popup-status').hidden=false;$('popup-status').textContent=value?.key?t(value.key):V2R.errorText(value);}
   let switching=false,activeName='',lastStatus=null,syncSelection=null,translateSelection=null,closed=false;
@@ -61,7 +61,7 @@
   const health=V2RHealth.create({inspect:()=>V2R.rpc('v2routeConnectionState',[!!chrome.extension?.inIncognitoContext]),probe:signal=>V2RIP.runCheck({family:'dual',signal,timeoutMs:8000}),onChange:showHealth});
   showHealth(health.value);
   // Language assets must never delay cached profiles or restart a selection.
-  void localeReady.then(language=>{if(closed)return;I18n.set(language);translateLabels();if(statusValue)error(statusValue);V2RFeedback.refresh();if(translateSelection)translateSelection();else if(lastStatus)showHealth(lastStatus);fitLabels();});
+  void localeReady.then(language=>{if(closed)return;I18n.set(language);translateLabels();if(statusValue)error(statusValue);if(translateSelection)translateSelection();else if(lastStatus)showHealth(lastStatus);fitLabels();});
   const check=force=>{if(!switching){if(navigator.onLine===false)health.invalidate('OFFLINE','error');else health.check({force});}};
   connection.addEventListener('mouseenter',()=>check(false));connection.addEventListener('focus',()=>check(false));
   connection.addEventListener('click',()=>check(true));connection.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();check(true);}});
@@ -79,12 +79,12 @@
   }
   // Stored profiles are display data only. Confirm selection through the
   // background, without holding the real buttons behind its startup queue.
-  try{const options=await V2R.popupProfiles();if(closed)return;const all=[],host=$('popup-profiles'),icons=new Map();let active='',countries={},readGeneration=0,profileSignature='',textObserver=null,selectionConfirmed=false;
+  try{const options=await V2R.popupProfiles();if(closed)return;const all=[],host=$('popup-profiles'),icons=new Map();let active='',appliedIcon=null,countries={},readGeneration=0,profileSignature='',textObserver=null,selectionConfirmed=false;
     function updateSelection(name){
       active=name;const current=all.find(p=>p.name===active);
       $('popup-current').textContent=(active==='direct'?t('direct'):active==='system'?t('system'):active)||t('healthUnknown');$('popup-current').title=$('popup-current').textContent;
       activeName=$('popup-current').textContent;if(lastStatus)showHealth(lastStatus);
-      if(current)showIcon($('popup-current-icon'),current,countries[active]);else $('popup-current-icon').replaceChildren();
+      if(current)showIcon($('popup-current-icon'),appliedIcon||current,countries[active]);else $('popup-current-icon').replaceChildren();
       for(const row of host.querySelectorAll('.popup-profile')){const selected=row.dataset.profile===active;row.classList.toggle('active',selected);row.setAttribute('aria-pressed',String(selected));row.querySelector('.check')?.remove();if(selected){const check=el('span','check','✓');check.setAttribute('aria-hidden','true');row.append(check);}}
       fitLabels();
       if(active&&!selectionConfirmed){selectionConfirmed=true;if(!host.contains(document.activeElement))$('popup-scenarios').querySelector('[aria-pressed=true]')?.scrollIntoView({block:'nearest',inline:'nearest'});}
@@ -98,7 +98,7 @@
     for(const p of all){const selected=p.name===active,row=el('button','popup-profile'+(selected?' active':''));row.type='button';row.dataset.profile=p.name;row.dataset.orderKey=PopupOrder.key(p);if(p.name!=='direct'&&p.name!=='system')row.setAttribute('aria-description',t('popupOrderHelp'));row.setAttribute('aria-pressed',String(selected));
       const icon=el('span','popup-icon-slot');icon.setAttribute('aria-hidden','true');showIcon(icon,p,countries[p.name]);icons.set(p.name,icon);row.append(icon);
       const text=p.name==='direct'?t('direct'):p.name==='system'?t('system'):p.name;row.append(el('span','grow',text));row.title=text;if(selected){const check=el('span','check','✓');check.setAttribute('aria-hidden','true');row.append(check);}
-      row.onclick=async()=>{if(row.disabled||switching)return;const message=V2RFeedback.begin(()=>[...host.querySelectorAll('.popup-profile')].find(n=>n.dataset.profile===p.name),{key:'popup:apply'});switching=true;++readGeneration;health.invalidate('SWITCHING','checking');for(const b of host.querySelectorAll('button'))b.disabled=true;row.setAttribute('aria-busy','true');$('popup-status').hidden=true;statusValue=null;let applied=false,failed=false;try{await V2R.rpc('applyProfile',[p.name]);const latest=await V2R.read();if(!closed){applied=renderRead(latest);if(applied)message.success('applied');}}catch(e){failed=true;if(!closed){message.error(e);health.invalidate('APPLY_FAILED','error');}}finally{switching=false;row.removeAttribute('aria-busy');for(const b of host.querySelectorAll('button'))b.disabled=false;if(applied)check(true);else if(failed&&!closed)void syncSelection({preserveError:true});}};
+      row.onclick=async()=>{if(row.disabled||switching)return;switching=true;++readGeneration;health.invalidate('SWITCHING','checking');for(const b of host.querySelectorAll('button'))b.disabled=true;row.setAttribute('aria-busy','true');$('popup-status').hidden=true;statusValue=null;let applied=false,failed=false;try{await V2R.rpc('applyProfile',[p.name]);const latest=await V2R.read();if(!closed)applied=renderRead(latest);}catch(e){failed=true;if(!closed){error(e);health.invalidate('APPLY_FAILED','error');}}finally{switching=false;row.removeAttribute('aria-busy');for(const b of host.querySelectorAll('button'))b.disabled=false;if(applied)check(true);else if(failed&&!closed)void syncSelection({preserveError:true});}};
       (p.name==='direct'||p.name==='system'?$('popup-builtins'):$('popup-scenarios')).append(row);
     }
       $('popup-scenarios').scrollTop=scrollTop;
@@ -106,7 +106,7 @@
       if(textObserver){textObserver.disconnect();observeLabels();}
     }
     function renderRead(latest,preserveError=false){
-      renderProfiles(latest.options);updateSelection(latest.state.isSystemProfile?'system':latest.state.currentProfileName);
+      appliedIcon=latest.state.appliedIcon||null;renderProfiles(latest.options);updateSelection(latest.state.isSystemProfile?'system':latest.state.currentProfileName);
       if(latest.state.proxyNotControllable){error({key:'externalControl'});health.invalidate('OVERRIDDEN','error');return false;}
       if(latest.state.zeroRouteError){error(latest.state.zeroRouteErrorInfo||{message:latest.state.zeroRouteError});health.invalidate('APPLY_FAILED','error');return false;}
       if(!preserveError){$('popup-status').hidden=true;statusValue=null;}return true;
@@ -115,7 +115,7 @@
     const orderAnnouncement=el('span','health-sr-only');orderAnnouncement.setAttribute('role','status');orderAnnouncement.setAttribute('aria-live','polite');document.body.append(orderAnnouncement);
     PopupOrder.attach($('popup-scenarios'),{canStart:()=>!switching,save:async order=>{
       const latest=await V2R.prefsGet();await V2R.prefsSet({...latest,popupProfileOrder:order});prefs.popupProfileOrder=order;
-    },onError:(errorValue,row)=>{const name=row?.dataset.profile;V2RFeedback.begin(()=>[...$('popup-scenarios').querySelectorAll('.popup-profile')].find(n=>n.dataset.profile===name),{key:'popup:order'}).error(errorValue);},onSaved:row=>{orderAnnouncement.textContent=t('popupOrderSaved');const name=row?.dataset.profile;V2RFeedback.begin(()=>[...$('popup-scenarios').querySelectorAll('.popup-profile')].find(n=>n.dataset.profile===name),{key:'popup:order'}).success('popupOrderSaved');}});
+    },onError:errorValue=>error(errorValue),onSaved:()=>{orderAnnouncement.textContent=t('popupOrderSaved');}});
     fitLabels();
     function observeLabels(){textObserver.observe($('popup-scenarios'));for(const label of document.querySelectorAll('#popup-current, .popup-profile .grow, .popup-tool>span'))textObserver.observe(label);}
     textObserver = new ResizeObserver(fitLabels);
@@ -123,13 +123,13 @@
     $('popup-scenarios').addEventListener('scroll',updateScrollHint,{passive:true});
     document.fonts.ready.then(fitLabels);
     window.addEventListener('pagehide', () => {textObserver.disconnect();$('popup-scenarios').removeEventListener('scroll',updateScrollHint);}, {once:true});
-    syncSelection=async({preserveError=false}={})=>{const generation=++readGeneration;try{const latest=await V2R.read();if(closed||switching||generation!==readGeneration)return;if(renderRead(latest,preserveError)&&!preserveError)check(true);V2RFeedback.refresh();}catch(e){if(!closed&&!switching&&generation===readGeneration){if(!preserveError)error(e);health.invalidate('BACKGROUND','error');}}};
+    syncSelection=async({preserveError=false}={})=>{const generation=++readGeneration;try{const latest=await V2R.read();if(closed||switching||generation!==readGeneration)return;if(renderRead(latest,preserveError)&&!preserveError)check(true);}catch(e){if(!closed&&!switching&&generation===readGeneration){if(!preserveError)error(e);health.invalidate('BACKGROUND','error');}}};
     void syncSelection();
     // Cached display metadata only: never start the companion, scan nodes, or
     // hold up profile switching just to render a flag.
     if(all.some(p=>p._zeroRouteChoice?.startsWith('node:'))){
       V2R.rpc('v2routeCachedProfileCountries').then(result=>{countries=result||{};
-        for(const p of all){const metadata=countries?.[p.name];if(!metadata||metadata.choice!==p._zeroRouteChoice)continue;showIcon(icons.get(p.name),p,metadata);if(p.name===active)showIcon($('popup-current-icon'),p,metadata);}
+        for(const p of all){const metadata=countries?.[p.name];if(!metadata||metadata.choice!==p._zeroRouteChoice)continue;showIcon(icons.get(p.name),p,metadata);if(p.name===active)showIcon($('popup-current-icon'),appliedIcon||p,metadata);}
         fitLabels();
       }).catch(()=>{});
     }

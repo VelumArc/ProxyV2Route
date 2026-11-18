@@ -735,7 +735,7 @@
     "message": "关闭"
   },
   "apply": {
-    "message": "切换到此情景"
+    "message": "应用情景"
   },
   "applied": {
     "message": "已切换情景"
@@ -2146,5 +2146,8 @@
   },
   "policyMoveDown": {
     "message": "下移策略"
+  },
+  "systemV2rayNote": {
+    "message": "已检测到本地 v2rayN。当 Windows 系统代理指向 v2rayN 时，只有交给它的请求才按它的路由规则分流。要完全跟随 v2rayN，请将两栏留空。"
   }
 }

@@ -735,7 +735,7 @@
     "message": "Isara"
   },
   "apply": {
-    "message": "Gamitin ang profile na ito"
+    "message": "Ilapat ang profile"
   },
   "applied": {
     "message": "Inilipat ang profile"
@@ -2146,5 +2146,8 @@
   },
   "policyMoveDown": {
     "message": "Ibaba ang patakaran"
+  },
+  "systemV2rayNote": {
+    "message": "May nakitang v2rayN sa device na ito. Kung ginagamit ng Windows ang v2rayN bilang system proxy, ang mga panuntunan nito ay nalalapat lang sa mga kahilingang ipinapadala rito ng browser. Iwanang walang laman ang dalawang listahan para sundin ang v2rayN sa lahat ng destinasyon."
   }
 }

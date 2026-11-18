@@ -735,7 +735,7 @@
     "message": "Închide"
   },
   "apply": {
-    "message": "Utilizați acest profil"
+    "message": "Aplică profilul"
   },
   "applied": {
     "message": "Profil schimbat"
@@ -2146,5 +2146,8 @@
   },
   "policyMoveDown": {
     "message": "Mută regula în jos"
+  },
+  "systemV2rayNote": {
+    "message": "v2rayN a fost detectat pe acest dispozitiv. Dacă Windows folosește v2rayN ca proxy de sistem, regulile sale se aplică numai solicitărilor pe care i le trimite browserul. Lasă ambele liste goale pentru a urma v2rayN pentru toate destinațiile."
   }
 }

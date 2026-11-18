@@ -735,7 +735,7 @@
     "message": "Tancar"
   },
   "apply": {
-    "message": "Utilitza aquest perfil"
+    "message": "Aplica el perfil"
   },
   "applied": {
     "message": "Perfil canviat"
@@ -2146,5 +2146,8 @@
   },
   "policyMoveDown": {
     "message": "Baixa la regla"
+  },
+  "systemV2rayNote": {
+    "message": "S’ha detectat v2rayN en aquest dispositiu. Si el Windows utilitza v2rayN com a servidor intermediari del sistema, les seves regles només s’apliquen a les sol·licituds que hi envia el navegador. Deixeu les dues llistes buides per seguir v2rayN per a totes les destinacions."
   }
 }

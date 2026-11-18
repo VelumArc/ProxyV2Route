@@ -735,7 +735,7 @@
     "message": "Sulje"
   },
   "apply": {
-    "message": "Käytä tätä profiilia"
+    "message": "Ota profiili käyttöön"
   },
   "applied": {
     "message": "Profiili vaihdettu"
@@ -2146,5 +2146,8 @@
   },
   "policyMoveDown": {
     "message": "Siirrä sääntö alas"
+  },
+  "systemV2rayNote": {
+    "message": "Laitteesta löytyi v2rayN. Jos Windows käyttää v2rayN:ää järjestelmän välityspalvelimena, sen säännöt koskevat vain selaimen sille lähettämiä pyyntöjä. Jätä molemmat luettelot tyhjiksi, jos haluat käyttää v2rayN:n sääntöjä kaikille kohteille."
   }
 }

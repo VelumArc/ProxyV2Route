@@ -9,11 +9,13 @@
 
 ---
 
-**1.2.65** · Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
+**1.2.66** · Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
 
-> [Windows 安装器](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.65/Proxy-V2Route-Setup-1.2.65-Windows-x64.exe) · [完整包与源码](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.65)。安装器包含本地组件与 Xray，目前未作代码签名。Chrome 版可从[应用商店](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm)安装；Firefox 扩展尚未签名，永久安装需 Mozilla 签名。
+> [Windows 安装器](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.66/Proxy-V2Route-Setup-1.2.66-Windows-x64.exe) · [完整包与源码](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.66)。安装器包含本地组件与 Xray，目前未作代码签名。Chrome 版可从[应用商店](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm)安装；Firefox 扩展尚未签名，永久安装需 Mozilla 签名。
 
 直连和系统代理可在情景列表中编辑，工具栏快捷按钮使用同一套规则。节点和手动代理的高级选项支持绕过地址与指定代理策略。规则优先匹配绕过地址，再按顺序选择第一个命中的策略，最后使用情景的默认线路。
+
+点击「保存」可保留修改，浏览器继续使用原线路。「应用情景」会保存并切换线路，扩展弹窗同步显示正在使用的情景。
 
 [![Proxy V2Route 情景工作区](docs/assets/workspace-zh.png)](docs/assets/workspace-zh.png)
 

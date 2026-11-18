@@ -735,7 +735,7 @@
     "message": "Đóng"
   },
   "apply": {
-    "message": "Sử dụng hồ sơ này"
+    "message": "Áp dụng hồ sơ"
   },
   "applied": {
     "message": "Đã chuyển hồ sơ"
@@ -2146,5 +2146,8 @@
   },
   "policyMoveDown": {
     "message": "Chuyển quy tắc xuống"
+  },
+  "systemV2rayNote": {
+    "message": "Đã phát hiện v2rayN trên thiết bị này. Nếu Windows dùng v2rayN làm proxy hệ thống, quy tắc của v2rayN chỉ áp dụng cho các yêu cầu mà trình duyệt gửi đến nó. Để trống cả hai danh sách để dùng v2rayN cho mọi đích."
   }
 }

@@ -735,7 +735,7 @@
     "message": "Sule"
   },
   "apply": {
-    "message": "Kasutage seda profiili"
+    "message": "Rakenda profiil"
   },
   "applied": {
     "message": "Profiil vahetatud"
@@ -2146,5 +2146,8 @@
   },
   "policyMoveDown": {
     "message": "Liiguta reegel alla"
+  },
+  "systemV2rayNote": {
+    "message": "Seadmes tuvastati v2rayN. Kui Windows kasutab süsteemi puhverserverina v2rayN-i, kehtivad selle reeglid ainult päringutele, mille brauser sinna saadab. Kõigi sihtkohtade puhul v2rayN-i järgimiseks jäta mõlemad loendid tühjaks."
   }
 }

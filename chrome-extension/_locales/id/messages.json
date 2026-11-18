@@ -735,7 +735,7 @@
     "message": "Tutup"
   },
   "apply": {
-    "message": "Gunakan profil ini"
+    "message": "Terapkan profil"
   },
   "applied": {
     "message": "Profil dialihkan"
@@ -2146,5 +2146,8 @@
   },
   "policyMoveDown": {
     "message": "Pindahkan aturan ke bawah"
+  },
+  "systemV2rayNote": {
+    "message": "v2rayN terdeteksi di perangkat ini. Jika Windows menggunakan v2rayN sebagai proksi sistem, aturan v2rayN hanya berlaku untuk permintaan yang dikirim browser kepadanya. Kosongkan kedua daftar untuk mengikuti v2rayN bagi semua tujuan."
   }
 }

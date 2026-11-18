@@ -735,7 +735,7 @@
     "message": "Zavřít"
   },
   "apply": {
-    "message": "Použijte tento profil"
+    "message": "Použít profil"
   },
   "applied": {
     "message": "Profil přepnut"
@@ -2146,5 +2146,8 @@
   },
   "policyMoveDown": {
     "message": "Posunout pravidlo dolů"
+  },
+  "systemV2rayNote": {
+    "message": "Na tomto zařízení byl zjištěn v2rayN. Pokud jej Windows používá jako systémovou proxy, pravidla v2rayN platí jen pro požadavky, které mu prohlížeč předá. Chcete-li používat v2rayN pro všechny cíle, ponechte oba seznamy prázdné."
   }
 }

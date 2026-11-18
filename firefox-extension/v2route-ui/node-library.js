@@ -138,7 +138,7 @@
       search.placeholder=t('searchRoutes');search.setAttribute('aria-label',t('searchRoutes'));searchWrap.append(icon('search'),search);
       const control=(n,label,kind)=>{const w=el('label','nl-top-control');n.setAttribute('aria-label',t(label));w.append(icon(kind),n);return w;};
       const filterChanged=()=>{tablePage=0;if(!running())frozenOrder=null;drawGroups();drawRows();updateControls();paintCurrent();};
-      sourceControl.onchange=()=>{source=sourceControl.value;filterChanged();};groupControl.onchange=()=>{grouping=groupControl.value;currentGroup='all';filterChanged();const message=V2RFeedback.begin(groupControl,{key:'library:grouping'});context.savePrefs(p=>({nodeGrouping:grouping})).then(()=>message.success(),error=>message.error(error));};
+      sourceControl.onchange=()=>{source=sourceControl.value;filterChanged();};groupControl.onchange=()=>{grouping=groupControl.value;currentGroup='all';filterChanged();const message=V2RFeedback.begin(groupControl,{key:'library:grouping'});context.savePrefs(p=>({nodeGrouping:grouping})).then(()=>message.clear(),error=>message.error(error));};
       search.oninput=()=>{query=search.value;filterChanged();};sortControl.onchange=()=>{if(running())return;sort=sortControl.value;direction=['name','latency'].includes(sort)?1:-1;frozenOrder=null;drawRows();};
       filters.append(searchWrap,control(sourceControl,'source','layers'),control(groupControl,'grouping','layers'),control(sortControl,'nlSort','sort'));workspace.append(filters);
       const groups=panel(t('grouping'),'nl-groups'),middle=panel(t('nlNodeResults'),'nl-results'),center=panel(t('nlTestCenter'),'nl-center');workspace.append(groups,middle,center);
@@ -241,7 +241,7 @@
         const actions=el('td'),buttons=el('div','nl-row-actions'),test=button(t('nlTestNode'),()=>{focusedRoute=r.value;testScope='single';start([r.value]);},'button subtle');test.disabled=running()||!eligible(r)||!root.V2RNodeMeasure;test.title=t(mode==='full'?'nlFull':'nlQuick');test.dataset.action='test';
         const create=button(t(r.supported===false&&r.override_supported?'preConfigure':'useNode'),()=>context.onCreate(r.value),'button subtle');create.disabled=(r.supported===false&&!r.override_supported)||hidden(r);create.dataset.action='create';buttons.append(test,create);
         if(local(r)){const remove=button(t('remove'),()=>confirmAction(t('removeNode'),t('removeNodeHelp'),async()=>{await V2R.rpc('v2routeRemoveNode',[r.id||r.value.replace(/^node:/,'')]);await loadState();}),'button danger-text');remove.disabled=running()||mutation;remove.dataset.action='remove';buttons.append(remove);}
-        else{const toggle=button(t(hidden(r)?'restoreNode':'hideNode'),async()=>{toggle.disabled=true;const message=V2RFeedback.begin(()=>[...view.body.querySelectorAll('.nl-row')].find(n=>n.dataset.route===r.value)?.querySelector('[data-action=hide]')||view.hiddenLabel,{key:'library:hide:'+r.value});try{await context.savePrefs(p=>{const values=new Set(p.hiddenRouteValues||[]);hidden(r)?values.delete(r.value):values.add(r.value);return{hiddenRouteValues:[...values]};});if(!alive)return;chosen.delete(r.value);drawGroups();drawRows();updateControls();message.success();}catch(error){message.error(error);toggle.disabled=false;}},'button subtle');toggle.disabled=running();toggle.dataset.action='hide';toggle.title=t('hideNodeHelp');buttons.append(toggle);}
+        else{const toggle=button(t(hidden(r)?'restoreNode':'hideNode'),async()=>{toggle.disabled=true;const message=V2RFeedback.begin(()=>[...view.body.querySelectorAll('.nl-row')].find(n=>n.dataset.route===r.value)?.querySelector('[data-action=hide]')||view.hiddenLabel,{key:'library:hide:'+r.value});try{await context.savePrefs(p=>{const values=new Set(p.hiddenRouteValues||[]);hidden(r)?values.delete(r.value):values.add(r.value);return{hiddenRouteValues:[...values]};});if(!alive)return;chosen.delete(r.value);drawGroups();drawRows();updateControls();message.clear();}catch(error){message.error(error);toggle.disabled=false;}},'button subtle');toggle.disabled=running();toggle.dataset.action='hide';toggle.title=t('hideNodeHelp');buttons.append(toggle);}
         for(const b of buttons.children)decorate(b,{test:'bolt',create:'plus',hide:'eye',remove:'trash'}[b.dataset.action],b.textContent,!['test','create'].includes(b.dataset.action));if(!(r.supported===false&&r.override_supported)){create.querySelector('span').className='nl-action-long';const short=el('span','nl-action-short',t('nlProfileShort'));short.setAttribute('aria-hidden','true');create.append(short);}actions.append(buttons);row.append(name,latency,metricCell(result,'download','downloadAverageMbps'),metricCell(result,'upload','uploadAverageMbps'),status,actions);view.body.append(row);
       }
       if(!items.length){const row=el('tr'),cell=el('td','nl-empty',t(routes().length?'adjustNodeFilters':'noNodesHelp'));cell.colSpan=6;row.append(cell);view.body.append(row);}
@@ -344,7 +344,16 @@
     function dialogActions(form,submitLabel,action){
       const actions=el('div','nl-dialog-actions'),cancel=button(t('cancel'),()=>form.n.close(),'button subtle'),submit=button(submitLabel,async()=>{
         if(submit.disabled)return;submit.disabled=true;const message=V2RFeedback.begin(()=>form.n.open?submit:form.returnTo?.(),{key:form.n,className:'nl-dialog-feedback'});
-        try{const outcome=await action();if(alive&&dialog===form.n){const outside=form.returnTo?.();if(outside?.isConnected){form.n.close();if(outcome?.warning)message.show(()=>t('nlPartial')+' · '+errorText(outcome.warning),'error');else message.success();}else{message.success();setTimeout(()=>{if(alive&&dialog===form.n)form.n.close();},1000);}}}
+        try{
+          const outcome=await action();
+          if(!alive||dialog!==form.n)return;
+          form.n.close();
+          if(outcome?.warning){
+            const warning=()=>t('nlPartial')+' · '+errorText(outcome.warning);
+            if(form.returnTo?.()?.isConnected)message.show(warning,'error');
+            else{message.clear();notice(warning());}
+          }else message.clear();
+        }
         catch(err){if(alive&&dialog===form.n){message.error(err);submit.disabled=false;}}
       },'button primary');actions.append(cancel,submit);form.body.append(actions);return submit;
     }

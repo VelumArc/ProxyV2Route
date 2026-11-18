@@ -735,7 +735,7 @@
     "message": "Zatvori"
   },
   "apply": {
-    "message": "Koristi ovaj profil"
+    "message": "Primijeni profil"
   },
   "applied": {
     "message": "Profil promijenjen"
@@ -2146,5 +2146,8 @@
   },
   "policyMoveDown": {
     "message": "Pomakni pravilo dolje"
+  },
+  "systemV2rayNote": {
+    "message": "Na uređaju je pronađen v2rayN. Ako Windows koristi v2rayN kao sistemski proxy, njegova pravila vrijede samo za zahtjeve koje mu preglednik pošalje. Ostavite oba popisa prazna da biste za sva odredišta slijedili v2rayN."
   }
 }

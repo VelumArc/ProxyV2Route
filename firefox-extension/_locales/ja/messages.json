@@ -735,7 +735,7 @@
     "message": "閉じる"
   },
   "apply": {
-    "message": "このプロファイルを使用します"
+    "message": "プロファイルを適用"
   },
   "applied": {
     "message": "プロファイルが切り替わりました"
@@ -2146,5 +2146,8 @@
   },
   "policyMoveDown": {
     "message": "ルールを下へ"
+  },
+  "systemV2rayNote": {
+    "message": "この端末で v2rayN が見つかりました。Windows のシステムプロキシが v2rayN の場合、v2rayN はブラウザーから渡された通信だけを振り分けます。すべての宛先で v2rayN に従うには、両方のリストを空にしてください。"
   }
 }

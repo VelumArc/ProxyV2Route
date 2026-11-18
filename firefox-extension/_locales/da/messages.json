@@ -735,7 +735,7 @@
     "message": "Luk"
   },
   "apply": {
-    "message": "Brug denne profil"
+    "message": "Anvend profil"
   },
   "applied": {
     "message": "Profil skiftet"
@@ -2146,5 +2146,8 @@
   },
   "policyMoveDown": {
     "message": "Flyt regel ned"
+  },
+  "systemV2rayNote": {
+    "message": "v2rayN blev fundet på denne enhed. Hvis Windows bruger v2rayN som systemproxy, gælder reglerne i v2rayN kun for de anmodninger, som browseren sender til den. Lad begge lister være tomme for at følge v2rayN for alle destinationer."
   }
 }

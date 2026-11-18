@@ -19,7 +19,7 @@
   }
   async function read() {
     const [options, state] = await Promise.all([
-      rpc('getAll'), rpc('getState', [['availableProfiles', 'currentProfileName', 'isSystemProfile', 'proxyNotControllable', 'zeroRouteError','zeroRouteErrorInfo']])
+      rpc('getAll'), rpc('getState', [['availableProfiles', 'appliedIcon', 'currentProfileName', 'isSystemProfile', 'proxyNotControllable', 'zeroRouteError','zeroRouteErrorInfo']])
     ]);
     return {options, state};
   }

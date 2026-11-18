@@ -100,7 +100,7 @@
     return {...value,language,theme};
   }
   function render(keepLibrary=false){if(page!=='settings')activeCore=null;const retained=keepLibrary&&page==='nodes'&&activeLibrary;if(!retained){activeLibrary?.destroy();activeLibrary=null;}V2RIPPanel.stop(page!=='ip-tools');picker?.destroy();picker=null;activeEditor?.destroy?.();activeEditor=null;applyTheme();renderNav();document.body.dataset.page=page;$('page-title').textContent=t(page);const pageIcon=el('span','page-title-icon');pageIcon.append(uiIcon(page));$('page-title').prepend(pageIcon);$('page-intro').textContent=t(page==='profiles'?'profileIntro':page==='nodes'?'nodesIntro':page==='ip-tools'?'ipIntro':'settingsIntro');$('page-intro').title=$('page-intro').textContent;$('header-actions').replaceChildren();
-    const banner=$('native-banner');banner.hidden=!!native||page==='ip-tools';if(!native&&page!=='ip-tools'){banner.className='native-banner';banner.replaceChildren(el('strong','',t('nativeMissing')),el('p','',t('nativeHelp')),el('small','',nativeError?V2R.errorText(nativeError):''),mark(button(t('retry'),()=>action('native-retry',async message=>{await reload();message.success();}),'button subtle'),'native-retry'));}
+    const banner=$('native-banner');banner.hidden=!!native||page==='ip-tools';if(!native&&page!=='ip-tools'){banner.className='native-banner';banner.replaceChildren(el('strong','',t('nativeMissing')),el('p','',t('nativeHelp')),el('small','',nativeError?V2R.errorText(nativeError):''),mark(button(t('retry'),()=>action('native-retry',async message=>{await reload();if(!native)message.error(nativeError||V2R.uiError('nativeMissing'));else message.clear();}),'button subtle'),'native-retry'));}
     if(retained){activeLibrary.translate();return;}
     $('content').replaceChildren();if(page==='profiles')renderProfiles();else if(page==='nodes')renderNodes();else if(page==='ip-tools')V2RIPPanel.render($('content'));else renderSettings();
     if(data.state.proxyNotControllable)report({key:'externalControl'},'error');V2RFeedback.refresh();
@@ -115,7 +115,6 @@
     function draw(){rows.replaceChildren();for(const p of all.filter(p=>displayName(p).toLocaleLowerCase().includes(search.value.toLocaleLowerCase()))){const b=button('',()=>{if(busy)return;V2RFeedback.clear();creating=null;selected=p.name;draw();drawEditor(editor,p);},'profile-item'+(p.name===selected?' selected':''));b.dataset.profile=p.name;b.append(iconFor(p));const text=el('span','grow');text.append(el('strong','',displayName(p)));if(!p.builtin)text.append(el('small','muted',profileType(p)));b.append(text);if(current()===p.name)b.append(el('span','active-label',t('active')));rows.append(b);}}
     search.oninput=draw;draw();if(creating){const pending=creating.snapshot;drawEditor(editor,creating.profile,true);if(pending)activeEditor?.restore(pending);}else if(selected)drawEditor(editor,all.find(p=>p.name===selected));else{const empty=card(t('noSelection'));empty.append(button('+ '+t('newProfile'),()=>showCreate(),'button primary'));editor.append(empty);}
   }
-  async function activate(name){await action('apply-profile',async message=>{message.show({key:'switching'},'pending');await rpc('applyProfile',[name]);data=await read();render();message.success('applied');});}
   function predecessorControl(host,initial,onChange,context={}){
     let value=initial??'inherit',nodeValue=value.startsWith('node:')?value:'',prePicker=null;
     // The header mode buttons own visibility; predecessor fields stay expanded.
@@ -133,7 +132,7 @@
     const initialRules=()=>clone(p.rules||[]).map(r=>({pattern:r.condition?.pattern||'',type:r.condition?.conditionType||'HostWildcardCondition',target:r.route||'profile:'+r.profileName}));
     const manual=p._v2routeManual,initialRoute=p._zeroRouteChoice||'follow',initialPredecessor=p._zeroRoutePredecessor||(isNew?'none':'inherit');
     const nodeModes=clone(p._v2routeNodeModes||{version:1,active:Array.isArray(p._zeroRouteChain)?'chain':initialPredecessor==='none'?'base':'predecessor',base:{route:initialRoute},predecessor:{route:initialRoute,predecessor:initialPredecessor},chain:{route:initialRoute,chain:clone(p._zeroRouteChain||[])}});
-    let type=initialType,saving=false,preControl=null,chainControl=null,defaultControl=null,chainDraft=null,rulePickers=[],baseline='',saveButton=null,controls={},drafts={
+    let type=initialType,saving=false,preControl=null,chainControl=null,defaultControl=null,chainDraft=null,rulePickers=[],baseline='',saveButton=null,applyButton=null,controls={},drafts={
       node:{route:initialRoute,predecessor:initialPredecessor,chain:p._zeroRouteChain===undefined?undefined:clone(p._zeroRouteChain),modes:nodeModes,rules:initialRules(),bypass:(p.bypassList||[]).map(x=>typeof x==='string'?x:x.pattern||'').join('\n')},
       manual:{scheme:manual?.scheme||(p._zeroRouteSlot?'socks5':p.fallbackProxy?.scheme||'socks5'),host:manual?.host||(p._zeroRouteSlot?'127.0.0.1':p.fallbackProxy?.host||'127.0.0.1'),port:String(manual?.port||(p._zeroRouteSlot?'10808':p.fallbackProxy?.port||'10808')),username:manual?.username||'',password:manual?.password||'',rules:initialRules(),bypass:(p.bypassList||[]).map(x=>typeof x==='string'?x:x.pattern||'').join('\n')},
       auto:{defaultProfile:p.defaultProfileName||'direct',rules:initialRules()},
@@ -158,14 +157,25 @@
       const proxy=p.fallbackProxy,port=Number(proxy?.port);
       return !isNew&&p._zeroRouteSlot&&['127.0.0.1','localhost','::1'].includes(proxy?.host)&&Number.isInteger(port)&&port>0&&port<=65535?port:null;
     }
-    const typeField=field(t('type'),typeSelect);typeField.classList.add('heading-mode');heading.append(title,typeField,isNew?button(t('cancel'),()=>{creating=null;render();},'button subtle'):mark(button(current()===p.name?t('active'):t('apply'),()=>activate(p.name),'button '+(current()===p.name?'subtle':'primary')),'apply-profile'));container.append(heading);
+    const typeField=field(t('type'),typeSelect);typeField.classList.add('heading-mode');heading.append(title,typeField,isNew?button(t('cancel'),()=>{creating=null;render();},'button subtle'):mark(button(current()===p.name?t('active'):t('apply'),()=>submit(true,'apply-profile'),'button '+(current()===p.name?'subtle':'primary')),'apply-profile'));container.append(heading);
     V2RProfileTypeSelect.mount(typeSelect,{label:t('type')});
     const modeHost=el('div','profile-chain-actions');heading.insertBefore(modeHost,typeField);
     const panel=card(),body=el('div','editor-fields'),actions=el('div','editor-actions');panel.append(body,actions);container.append(panel);
     function capture(){if(chainControl)chainDraft=chainControl.capture();const d=drafts[type];for(const [key,control]of Object.entries(controls))if(control&&typeof control.value==='string')d[key]=control.value;return d;}
     function snapshot(){const d=clone(capture());if(d.bypass!==undefined)d.bypass=d.bypass.split(/\r?\n/).map(v=>v.trim()).filter(Boolean);if(d.host)d.host=d.host.trim();if(d.rules)d.rules=d.rules.map(r=>({...r,pattern:r.type==='HostWildcardCondition'?r.pattern:r.pattern.trim()}));return JSON.stringify({type,name:name.value.trim(),draft:d},(_key,value)=>value&&typeof value==='object'&&!Array.isArray(value)?Object.fromEntries(Object.entries(value).sort(([a],[b])=>a<b?-1:a>b?1:0)):value);}
     function draftState(){capture();return{profile:p.name,name:name.value,editingName,nameBeforeEdit,type,drafts:clone(drafts),chainDraft:clone(chainDraft),advancedOpen:!!body.querySelector('details')?.open};}
-    function sync(){if(!saveButton)return;const dirty=snapshot()!==baseline;if(isNew&&creating)creating.snapshot=draftState();saveButton.disabled=saving||(!isNew&&!dirty)||(type==='node'&&Array.isArray(drafts.node.chain)&&(drafts.node.route==='follow'||drafts.node.chain.some(value=>!/^node:[A-Za-z0-9_-]{1,128}$/.test(value))));saveButton.textContent=t(saving?'saving':isNew?'create':dirty?'save':'saved');saveButton.setAttribute('aria-busy',String(saving));if(dirty&&reportValue?.key==='saved')report('');}
+    function sync(){
+      if(!saveButton||!applyButton)return;
+      const dirty=snapshot()!==baseline;
+      if(isNew&&creating)creating.snapshot=draftState();
+      const incomplete=type==='node'&&Array.isArray(drafts.node.chain)&&(drafts.node.route==='follow'||drafts.node.chain.some(value=>!/^node:[A-Za-z0-9_-]{1,128}$/.test(value)));
+      saveButton.disabled=saving||incomplete||(!isNew&&!dirty);
+      applyButton.disabled=saving||incomplete;
+      saveButton.textContent=t(saving==='save'?'saving':isNew?'create':dirty?'save':'saved');
+      applyButton.textContent=t(saving==='apply'?'switching':'apply');
+      for(const [control,intent] of [[saveButton,'save'],[applyButton,'apply']])control.setAttribute('aria-busy',String(saving===intent));
+      if(dirty&&reportValue?.key==='saved')report('');
+    }
     function drawFields(){modeHost.hidden=type!=='node'||!native;const deletion=actions.querySelector('.danger-text');if(deletion)actions.append(deletion);
       picker?.destroy();picker=null;chainControl?.destroy();chainControl=null;preControl?.destroy();preControl=null;defaultControl?.destroy();defaultControl=null;rulePickers.forEach(control=>control.destroy());rulePickers=[];body.replaceChildren();controls={};const d=drafts[type];let fieldsHost=body;
       if(type==='node'){
@@ -202,12 +212,22 @@
       }else if(type==='auto'){
         controls.defaultProfile=select(profileChoices(p.name),d.defaultProfile);body.append(field(t('defaultRoute'),controls.defaultProfile),el('p','muted',t('ruleHelp')),el('p','muted auto-system-help',t('autoSystemHelp')));defaultControl=V2RProfileTypeSelect.mount(controls.defaultProfile,{label:t('defaultRoute'),className:'default-profile-control',icon:profileChoiceType,describe:value=>t('defaultChoice_'+profileChoiceType(value))});drawRules(d,body,false);
       }else if(type==='direct'||type==='system'){
-        const defaultNote=el('div','policy-default-note');defaultNote.append(uiIcon(type==='direct'?'route':'program'),el('p','muted',t(type==='direct'?'policyDirectHelp':'policySystemHelp')));body.append(defaultNote);
+        const discovery=native?.catalog?.discovery;
+        const localV2ray=type==='system'&&(discovery?.ok&&discovery.selected||discovery?.candidates?.some(item=>item.valid===true));
+        if(localV2ray){
+          const note=el('p','system-v2ray-note');
+          note.append(uiIcon('info'),el('span','',[t('policyPriority'),t('policySystemHelp'),t('systemV2rayNote')].join(' ')));
+          body.append(note);
+        }else{
+          const defaultNote=el('div','policy-default-note');
+          defaultNote.append(uiIcon(type==='direct'?'route':'program'),el('p','muted',t(type==='direct'?'policyDirectHelp':'policySystemHelp')));
+          body.append(defaultNote);
+        }
       }else{controls.pacScript=area(d.pacScript,10);controls.pacScript.className='code-input';body.append(field(t('pacScript'),controls.pacScript,t('pacHelp')));}
       if(['node','manual','direct','system'].includes(type)){
         const advanced=el('details','advanced editor-panel routing-policies'),summary=el('summary','editor-panel-header',t('advanced')),inside=el('div','advanced-body');advanced.append(summary,inside);advanced.open=builtin;
         if(type!=='direct'){const bypass=el('section','policy-section policy-bypass');controls.bypass=area(d.bypass,3);controls.bypass.placeholder="example.com\n*.example.org\n192.0.2.1:8443";controls.bypass.spellcheck=false;bypass.append(field(t('bypass'),controls.bypass,t('bypassHelp')));inside.append(bypass);}
-        const policies=el('section','policy-section policy-overrides');policies.append(el('h3','policy-heading',t('policyRules')),el('p','muted policy-address-help',t('policyAddressHelp')));drawRules(d,policies,true);inside.append(policies);if(type!=='direct')inside.append(el('p','muted policy-priority',t('policyPriority')));fieldsHost.append(advanced);
+        const policies=el('section','policy-section policy-overrides');policies.append(el('h3','policy-heading',t('policyRules')),el('p','muted policy-address-help',t('policyAddressHelp')));drawRules(d,policies,true);inside.append(policies);if(type!=='direct'&&!body.querySelector('.system-v2ray-note'))inside.append(el('p','muted policy-priority',t('policyPriority')));fieldsHost.append(advanced);
       }
     }
     function drawRules(d,host,policy){
@@ -226,20 +246,31 @@
       const add=button('+ '+t('addRule'),()=>{d.rules.push({pattern:'',type:'HostWildcardCondition',target:policy?'':'profile:direct'});redraw();sync();list.lastElementChild?.querySelector('input')?.focus();},'button subtle policy-add');redraw();host.append(list,...(policy?[empty]:[]),add);
     }
     typeSelect.onchange=()=>{capture();type=typeSelect.value;drawFields();sync();};drawFields();
-    saveButton=button(t('saved'),async()=>{
-      if(saveButton.disabled||busy)return;const message=V2RFeedback.begin(()=>document.querySelector('[data-feedback=save-profile]'),{key:'options:save-profile',className:'profile-save-error'});saving=true;sync();heading.inert=true;body.inert=true;
+    async function submit(applyNow,anchor){
+      if(busy||saving||(applyNow?applyButton:saveButton).disabled)return;
+      const message=V2RFeedback.begin(()=>document.querySelector('[data-feedback="'+anchor+'"]'),{key:'options:'+anchor,className:'profile-save-error'});
+      saving=applyNow?'apply':'save';sync();heading.inert=true;body.inert=true;
       await perform(async()=>{
-        const wanted=name.value.trim();if(!wanted)throw V2R.uiError('fieldRequired');const all=await rpc('getAll'),latest=isNew?p:all['+'+p.name];if(!isNew&&(!latest||latest.revision!==p.revision))throw V2R.uiError('updatedElsewhere');if((isNew||wanted!==p.name)&&all['+'+wanted])throw V2R.uiError('profileExists');
+        const wanted=name.value.trim();if(!wanted)throw V2R.uiError('fieldRequired');
+        const all=await rpc('getAll'),latest=isNew?p:all['+'+p.name];
+        if(!isNew&&(!latest||latest.revision!==p.revision))throw V2R.uiError('updatedElsewhere');
+        if((isNew||wanted!==p.name)&&all['+'+wanted])throw V2R.uiError('profileExists');
+        if(applyNow&&!isNew&&snapshot()===baseline){
+          await rpc('applyProfile',[wanted,latest.revision??null]);await reload();message.success('applied');return;
+        }
         const d=capture(),next={name:isNew?wanted:p.name,color:latest.color,profileType:builtin?p.profileType:type==='auto'?'SwitchProfile':type==='pac'?'PacProfile':'FixedProfile',...(builtin?{builtin:true}:{}),revision:latest.revision};let routing;
         if(type==='node'||type==='manual'){next.proxyDNS=true;next.bypassList=d.bypass.split(/\r?\n/).map(v=>v.trim()).filter(Boolean).map(pattern=>({conditionType:'BypassCondition',pattern}));if(type==='node'){if(!native)throw V2R.uiError('noNativeRoute');if(!d.predecessor)throw V2R.uiError('preSelectRequired');routing={route:d.route,predecessor:d.chain===undefined?d.predecessor:'none',...(d.chain===undefined?{}:{chain:d.chain}),modes:clone(d.modes)};}else{const port=Number(d.port);if(!Number.isInteger(port)||port<1||port>65535)throw V2R.uiError('invalidPort');if(d.scheme==='socks4'&&(d.username||d.password))throw V2R.uiError('proxyAuthSocks4');next.fallbackProxy={scheme:d.scheme,host:d.host.trim(),port};routing={route:'manual',auth:{username:d.username,password:d.password}};}}
         else if(type==='auto'){if(d.rules.some(r=>!r.pattern.trim()||!r.target))throw V2R.uiError('rulesError');next.defaultProfileName=d.defaultProfile;next.rules=d.rules.map(r=>({condition:{conditionType:r.type,pattern:r.type==='HostWildcardCondition'?r.pattern:r.pattern.trim()},...(r.target.startsWith('node:')?{route:r.target}:{profileName:r.target.slice('profile:'.length)})}));}
         else if(!builtin){next.pacUrl='';next.pacScript=d.pacScript;}
         if(builtin&&type==='system')next.bypassList=d.bypass.split(/\r?\n/).map(v=>v.trim()).filter(Boolean).map(pattern=>({conditionType:'BypassCondition',pattern}));
         if(['node','manual','direct','system'].includes(type)){if(d.rules.some(r=>!r.pattern.trim()||!r.target))throw V2R.uiError('rulesError');next.rules=d.rules.map(r=>({condition:{conditionType:r.type,pattern:r.type==='HostWildcardCondition'?r.pattern:r.pattern.trim()},...(r.target.startsWith('node:')?{route:r.target}:{profileName:r.target.slice('profile:'.length)})}));}
-        const saved=await rpc('v2routeSaveProfile',[next,isNew?null:next.revision,routing||null,wanted]);if(saved?.revision)p.revision=saved.revision;if(saved?.name)p.name=saved.name;
-        selected=isNew?wanted:p.name;if(isNew)creating=null;await reload();message.success();
+        const saved=await rpc('v2routeSaveProfile',[next,isNew?null:next.revision,routing||null,wanted,applyNow?'apply':'save']);if(saved?.revision)p.revision=saved.revision;if(saved?.name)p.name=saved.name;
+        selected=isNew?wanted:p.name;if(isNew)creating=null;await reload();message.success(applyNow?'applied':'saved');
       },null,message);saving=false;heading.inert=false;body.inert=false;if(panel.isConnected)sync();
-    },'button primary');mark(saveButton,'save-profile');actions.append(saveButton);if(!isNew&&!builtin)actions.append(button(t('delete'),()=>{
+    }
+    saveButton=mark(button(t('saved'),()=>submit(false,'save-profile'),'button subtle'),'save-profile');
+    applyButton=mark(button(t('apply'),()=>submit(true,'apply-edited-profile'),'button primary'),'apply-edited-profile');
+    actions.append(saveButton,applyButton);if(!isNew&&!builtin)actions.append(button(t('delete'),()=>{
       const active=current()===p.name;
       confirm(t('deleteProfile'),t(active?'deleteActiveHelp':'deleteProfileHelp'),async()=>{
         await rpc('v2routeDeleteProfile',[p.name,p.revision,active?{switchTo:'system'}:null]);
@@ -275,9 +306,9 @@
   }
   function renderSettings(){
     const grid=el('div','settings-grid');$('content').append(grid);
-    if(!native){const setup=card(t('setupTitle'),t('setupIntro'));setup.classList.add('setup-card');const steps=el('ol','setup-steps');for(const text of [t('setupStepOne'),t('setupStepTwo'),t('setupStepThree')])steps.append(el('li','',text));setup.append(steps);const links=el('div','setup-actions'),download=el('a','button subtle',t('downloadCompanion'));download.href='https://github.com/VelumArc/ProxyV2Route/blob/main/INSTALL.md';download.target='_blank';download.rel='noopener noreferrer';links.append(mark(button(t('setupCheck'),()=>action('setup-check',async message=>{await reload();if(native)message.success();else message.error(nativeError||V2R.uiError('nativeMissing'));}),'button primary'),'setup-check'),download);setup.append(links,el('p','muted',t('setupDownloadNote')));grid.append(setup);}
+    if(!native){const setup=card(t('setupTitle'),t('setupIntro'));setup.classList.add('setup-card');const steps=el('ol','setup-steps');for(const text of [t('setupStepOne'),t('setupStepTwo'),t('setupStepThree')])steps.append(el('li','',text));setup.append(steps);const links=el('div','setup-actions'),download=el('a','button subtle',t('downloadCompanion'));download.href='https://github.com/VelumArc/ProxyV2Route/blob/main/INSTALL.md';download.target='_blank';download.rel='noopener noreferrer';links.append(mark(button(t('setupCheck'),()=>action('setup-check',async message=>{await reload();if(!native)message.error(nativeError||V2R.uiError('nativeMissing'));else message.clear();}),'button primary'),'setup-check'),download);setup.append(links,el('p','muted',t('setupDownloadNote')));grid.append(setup);}
     const host=card(t('localComponent'),t('pathsHelp')),status=el('div','component-status');status.append(el('span','local-dot'+(native?'':' offline')),el('strong','',native?(native.status?.running?t('ready'):t('connectedIdle')):t('stopped')));host.classList.add('companion-settings');host.querySelector('h2').append(status);
-    if(native){const discoveryActions=el('div','setup-actions');discoveryActions.append(mark(button(t('chooseFolder'),async()=>{const selected=await V2RFolderPicker.open({path:rootPath.value.trim(),rpc});if(selected!==null){rootPath.value=selected;feedback('choose-folder').success();}},'button subtle'),'choose-folder'),mark(button(t('rescanLocal'),()=>action('rescan-local',rescanLocal),'button subtle'),'rescan-local'));host.append(discoveryActions);}
+    if(native){const discoveryActions=el('div','setup-actions');discoveryActions.append(mark(button(t('chooseFolder'),async()=>{const selected=await V2RFolderPicker.open({path:rootPath.value.trim(),rpc});if(selected!==null)rootPath.value=selected;},'button subtle'),'choose-folder'),mark(button(t('rescanLocal'),()=>action('rescan-local',rescanLocal),'button subtle'),'rescan-local'));host.append(discoveryActions);}
     const pathSettings=native?.hostSettings||native?.catalog?.hostSettings||{},rootPath=input(pathSettings.v2raynRoot||''),corePath=input(pathSettings.corePath||'');rootPath.placeholder=corePath.placeholder=t('optionalPath');const saveActions=el('div','settings-save-actions');
     saveActions.append(mark(button(t('savePaths'),()=>action('save-paths',async message=>{
       await rpc('v2routeHostSettings',[{v2raynRoot:rootPath.value.trim(),corePath:corePath.value.trim()}]);await reload();

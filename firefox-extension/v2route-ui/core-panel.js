@@ -44,7 +44,7 @@
         versionRow.hidden=!verified||!value.version;
         canRepair=value.repairSupported!==false;download.hidden=true;
         noticeKey='help';notice.textContent=t(noticeKey);
-        if(message)message.show({key:'core_'+resultKey},verified?'success':'notice');
+        message?.clear();
       }catch(error){
         if(ticket!==sequence||!panel.isConnected)return;
         setStatus(repair?'failed':'absent','error');

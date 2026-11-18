@@ -735,7 +735,7 @@
     "message": "Cerrar"
   },
   "apply": {
-    "message": "Utilice este perfil"
+    "message": "Aplicar perfil"
   },
   "applied": {
     "message": "Perfil cambiado"
@@ -2146,5 +2146,8 @@
   },
   "policyMoveDown": {
     "message": "Bajar política"
+  },
+  "systemV2rayNote": {
+    "message": "Se ha detectado v2rayN en este equipo. Si Windows usa v2rayN como proxy del sistema, v2rayN solo aplica sus reglas a las solicitudes que recibe del navegador. Deja ambas listas vacías para seguir v2rayN en todos los destinos."
   }
 }

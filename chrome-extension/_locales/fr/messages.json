@@ -735,7 +735,7 @@
     "message": "Fermer"
   },
   "apply": {
-    "message": "Utiliser ce profil"
+    "message": "Appliquer le profil"
   },
   "applied": {
     "message": "Profil changé"
@@ -2146,5 +2146,8 @@
   },
   "policyMoveDown": {
     "message": "Descendre la règle"
+  },
+  "systemV2rayNote": {
+    "message": "v2rayN a été détecté sur cet appareil. Si Windows utilise v2rayN comme proxy système, ses règles s’appliquent uniquement aux requêtes que le navigateur lui transmet. Laissez les deux listes vides pour suivre v2rayN pour toutes les destinations."
   }
 }

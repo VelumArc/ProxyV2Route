@@ -735,7 +735,7 @@
     "message": "Sluiten"
   },
   "apply": {
-    "message": "Gebruik dit profiel"
+    "message": "Profiel toepassen"
   },
   "applied": {
     "message": "Profiel gewijzigd"
@@ -2146,5 +2146,8 @@
   },
   "policyMoveDown": {
     "message": "Regel omlaag"
+  },
+  "systemV2rayNote": {
+    "message": "v2rayN is op dit apparaat gevonden. Als Windows v2rayN als systeemproxy gebruikt, gelden de regels van v2rayN alleen voor verzoeken die de browser ernaartoe stuurt. Laat beide lijsten leeg om v2rayN voor alle bestemmingen te volgen."
   }
 }
