@@ -45,4 +45,28 @@
   applyLanguage(languages.has(requested) ? requested : languages.has(saved) ? saved : 'zh');
   buttons.forEach(button => button.addEventListener('click', () => applyLanguage(button.dataset.language, true)));
   document.querySelector('.language-switch').hidden = false;
+
+  const preview = document.querySelector('.image-preview');
+  if (typeof preview?.showModal === 'function') {
+    const link = document.querySelector('.screenshot-link');
+    const image = new Image();
+    preview.append(image);
+    link.setAttribute('aria-haspopup', 'dialog');
+    link.addEventListener('click', event => {
+      if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+      event.preventDefault();
+      image.src = link.href;
+      image.alt = link.querySelector('img').alt;
+      preview.showModal();
+    });
+    // Older browsers support modal dialogs but lack native backdrop dismissal.
+    if (!('closedBy' in preview)) {
+      let pressedBackdrop = false;
+      preview.addEventListener('pointerdown', event => { pressedBackdrop = event.target === preview; });
+      preview.addEventListener('click', event => {
+        if (pressedBackdrop && event.target === preview) preview.close();
+      });
+    }
+    preview.addEventListener('close', () => link.focus({ preventScroll: true }));
+  }
 })();
