@@ -716,6 +716,9 @@
   "name": {
     "message": "情景名称"
   },
+  "proxyType": {
+    "message": "代理类型"
+  },
   "type": {
     "message": "情景类型"
   },

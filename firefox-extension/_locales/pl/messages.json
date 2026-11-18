@@ -716,6 +716,9 @@
   "name": {
     "message": "Nazwa profilu"
   },
+  "proxyType": {
+    "message": "Typ serwera proxy"
+  },
   "type": {
     "message": "Typ profilu"
   },

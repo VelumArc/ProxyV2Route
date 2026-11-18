@@ -716,6 +716,9 @@
   "name": {
     "message": "Profiilin nimi"
   },
+  "proxyType": {
+    "message": "Välityspalvelimen tyyppi"
+  },
   "type": {
     "message": "Profiilin tyyppi"
   },

@@ -9,9 +9,9 @@
 
 ---
 
-**1.2.68** · Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
+**1.2.69** · Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
 
-> [Windows 安裝程式](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.68/Proxy-V2Route-Setup-1.2.68-Windows-x64.exe) · [完整套件與原始碼](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.68)。安裝程式包含本機元件與 Xray，目前未經程式碼簽章。Chrome 版可從[線上應用程式商店](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm)安裝；Firefox 擴充套件尚未簽署，永久安裝需要 Mozilla 簽署。
+> [Windows 安裝程式](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.69/Proxy-V2Route-Setup-1.2.69-Windows-x64.exe) · [完整套件與原始碼](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.69)。安裝程式包含本機元件與 Xray，目前未經程式碼簽章。Chrome 版可從[線上應用程式商店](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm)安裝；Firefox 擴充套件尚未簽署，永久安裝需要 Mozilla 簽署。
 
 可在情境清單中編輯直連與系統代理，工具列捷徑會套用相同規則。節點與手動代理的進階選項支援略過位址及指定代理策略。先檢查略過位址，再依序套用第一條符合的策略，其餘使用情境的預設路線。
 

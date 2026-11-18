@@ -287,7 +287,7 @@ body[data-page="ip-tools"] #page-intro,.ip-tools-layout :is(.muted,.ip-small,.ip
 .editor-heading .profile-name-row .rename-link{grid-column:2;grid-row:1;justify-self:start}
 .editor-heading .heading-mode{align-self:flex-end;margin:0;gap:4px}
 .editor-heading .heading-mode :is(.profile-type-control,.profile-type-trigger){height:var(--profile-heading-control-height);min-height:var(--profile-heading-control-height)}
-.editor-heading .heading-mode .field-label{height:20px;line-height:20px}
+.editor-heading :is(.profile-chain-actions,.heading-mode)>.field-label{min-height:20px;line-height:20px}
 .editor-heading .heading-mode .profile-type-trigger{padding-block:5px}
 .editor-heading>.button{align-self:flex-end;margin-top:0;height:var(--profile-heading-control-height);min-height:var(--profile-heading-control-height)}
 .companion-settings>h2{display:flex;align-items:center;flex-wrap:wrap;gap:12px}
@@ -455,9 +455,9 @@ html:has(.ip-tool-dialog[open][data-expanded=true]){overflow:hidden}
 .profile-list .profile-item .profile-symbol{width:34px;height:34px;flex:none}
 .profile-list .profile-item .profile-symbol svg{width:25px;height:25px}
 .profile-list .profile-item .active-label{font-size:12px;flex:none}
-.editor-heading .profile-chain-actions{align-self:flex-end;flex:0 1 auto;width:auto;max-width:100%}
-.editor-heading .profile-chain-actions .chain-mode-actions{box-sizing:border-box;height:var(--profile-heading-control-height);max-width:100%;padding:0;gap:4px;flex-wrap:nowrap;border:0;border-radius:11px;box-shadow:inset 0 0 0 1px var(--panel-edge)}
-.editor-heading .profile-chain-actions .chain-mode-actions .button{height:100%;min-height:0;padding:0 16px;font-size:15px;font-weight:650;white-space:nowrap;border-radius:10px}
+.editor-heading .profile-chain-actions{align-self:flex-end;flex:0 1 auto;flex-direction:column;gap:4px;width:auto;max-width:100%}
+.editor-heading .profile-chain-actions .chain-mode-actions{box-sizing:border-box;max-width:100%;padding:5px;gap:5px}
+.editor-heading .profile-chain-actions .chain-mode-actions .button{min-height:40px;padding:5px 16px;font-size:15px;font-weight:650;white-space:nowrap}
 @container profile-editor (max-width:1000px){.editor-heading .profile-chain-actions .chain-mode-actions .button{padding-inline:10px;font-size:14px}.editor-heading .profile-heading-name{flex-basis:160px}}
 @container profile-editor (max-width:800px){
   .editor-heading:has(.profile-chain-actions:not([hidden])) .profile-heading-name{flex-basis:100%}

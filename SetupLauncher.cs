@@ -49,7 +49,7 @@ sealed class SetupAction : Button {
 }
 
 static class SetupLauncher {
-    const string Version="1.2.68";
+    const string Version="1.2.69";
     const string Payload="V2Route.Payload.zip";
     static bool Embedded { get { return Array.IndexOf(Assembly.GetExecutingAssembly().GetManifestResourceNames(),Payload)>=0; } }
     static string Base { get { return AppDomain.CurrentDomain.BaseDirectory.TrimEnd(Path.DirectorySeparatorChar); } }

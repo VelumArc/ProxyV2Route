@@ -716,6 +716,9 @@
   "name": {
     "message": "Numele profilului"
   },
+  "proxyType": {
+    "message": "Tip de proxy"
+  },
   "type": {
     "message": "Tip profil"
   },

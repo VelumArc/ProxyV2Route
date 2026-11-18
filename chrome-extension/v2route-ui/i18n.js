@@ -2,6 +2,7 @@
 (function (root) {
   'use strict';
   const en = {
+    proxyType:"Proxy type",
     policyRules:"Proxy routing policies",
     policyPriority:"Order: bypass addresses → first matching policy → default route.",
     policyDirectHelp:"Unmatched addresses connect directly. The popup Direct button uses these policies too.",
@@ -94,6 +95,7 @@
     backupDone:'Browser profiles exported', managed:'Managed node',
   };
   const zh = {
+    proxyType:"代理类型",
     policyRules:"指定代理策略",
     policyPriority:"匹配顺序：不代理的地址 → 首条匹配的策略 → 默认线路。",
     policyDirectHelp:"未匹配策略的地址直接连接。扩展菜单中的直连按钮也使用这些策略。",

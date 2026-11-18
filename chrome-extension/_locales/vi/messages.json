@@ -716,6 +716,9 @@
   "name": {
     "message": "Tên hồ sơ"
   },
+  "proxyType": {
+    "message": "Loại proxy"
+  },
   "type": {
     "message": "Loại hồ sơ"
   },

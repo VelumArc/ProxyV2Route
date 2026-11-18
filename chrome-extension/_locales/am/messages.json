@@ -716,6 +716,9 @@
   "name": {
     "message": "የመገለጫ ስም"
   },
+  "proxyType": {
+    "message": "የፕሮክሲ አይነት"
+  },
   "type": {
     "message": "የመገለጫ አይነት"
   },

@@ -716,6 +716,9 @@
   "name": {
     "message": "Ime profila"
   },
+  "proxyType": {
+    "message": "Vrsta proxyja"
+  },
   "type": {
     "message": "Vrsta profila"
   },

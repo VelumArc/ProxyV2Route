@@ -716,6 +716,9 @@
   "name": {
     "message": "Profilio pavadinimas"
   },
+  "proxyType": {
+    "message": "Tarpinio serverio tipas"
+  },
   "type": {
     "message": "Profilio tipas"
   },

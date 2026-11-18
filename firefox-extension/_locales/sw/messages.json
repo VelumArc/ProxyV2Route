@@ -716,6 +716,9 @@
   "name": {
     "message": "Jina la wasifu"
   },
+  "proxyType": {
+    "message": "Aina ya seva mbadala"
+  },
   "type": {
     "message": "Aina ya wasifu"
   },

@@ -716,6 +716,9 @@
   "name": {
     "message": "Profil neve"
   },
+  "proxyType": {
+    "message": "Proxy típusa"
+  },
   "type": {
     "message": "Profil típusa"
   },

@@ -1,6 +1,6 @@
 # 运行环境 / Runtime requirements
 
-Proxy V2Route 1.2.68
+Proxy V2Route 1.2.69
 
 | 项目 / Component | 要求 / Requirement |
 | --- | --- |

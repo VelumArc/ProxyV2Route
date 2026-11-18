@@ -716,6 +716,9 @@
   "name": {
     "message": "പ്രൊഫൈൽ പേര്"
   },
+  "proxyType": {
+    "message": "പ്രോക്സി തരം"
+  },
   "type": {
     "message": "പ്രൊഫൈൽ തരം"
   },

@@ -716,6 +716,9 @@
   "name": {
     "message": "சுயவிவரப் பெயர்"
   },
+  "proxyType": {
+    "message": "ப்ராக்ஸி வகை"
+  },
   "type": {
     "message": "சுயவிவர வகை"
   },

@@ -716,6 +716,9 @@
   "name": {
     "message": "プロファイル名"
   },
+  "proxyType": {
+    "message": "プロキシの種類"
+  },
   "type": {
     "message": "プロファイルタイプ"
   },

@@ -716,6 +716,9 @@
   "name": {
     "message": "Profil adı"
   },
+  "proxyType": {
+    "message": "Proxy türü"
+  },
   "type": {
     "message": "Profil türü"
   },

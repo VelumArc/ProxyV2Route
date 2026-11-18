@@ -716,6 +716,9 @@
   "name": {
     "message": "Nama profil"
   },
+  "proxyType": {
+    "message": "Jenis proksi"
+  },
   "type": {
     "message": "Jenis profil"
   },

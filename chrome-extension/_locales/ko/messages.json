@@ -716,6 +716,9 @@
   "name": {
     "message": "프로필 이름"
   },
+  "proxyType": {
+    "message": "프록시 유형"
+  },
   "type": {
     "message": "프로필 유형"
   },

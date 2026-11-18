@@ -716,6 +716,9 @@
   "name": {
     "message": "Profiili nimi"
   },
+  "proxyType": {
+    "message": "Puhverserveri tüüp"
+  },
   "type": {
     "message": "Profiili tüüp"
   },

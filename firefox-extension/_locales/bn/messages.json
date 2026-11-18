@@ -716,6 +716,9 @@
   "name": {
     "message": "প্রোফাইল নাম"
   },
+  "proxyType": {
+    "message": "প্রক্সির ধরন"
+  },
   "type": {
     "message": "প্রোফাইলের ধরন"
   },

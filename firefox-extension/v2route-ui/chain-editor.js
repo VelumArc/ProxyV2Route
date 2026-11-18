@@ -15,7 +15,9 @@
     const shell=el('section','chain-editor'),bar=el('div','chain-toolbar'),title=el('h3','',t('chainTitle')),base=el('button','button subtle chain-mode-base',t('chainBase')),pre=el('button','button subtle chain-mode-pre',t('predecessor')),multi=el('button','button subtle chain-mode-multi',t('chainTitle')),add=el('button','button subtle',t('chainAdd')),test=el('button','button subtle',t('chainTest')),stop=el('button','button subtle',t('netStop')),status=el('p','chain-test-status'),list=el('div','chain-hops');
     base.type=pre.type=multi.type=add.type=test.type=stop.type='button';stop.hidden=true;status.setAttribute('role','status');
     add.classList.add('chain-add');test.classList.add('chain-test');stop.classList.add('chain-stop');
-    const modes=el('div','chain-mode-actions'),tools=el('div','chain-tools');modes.setAttribute('aria-label',t('chainMode'));modes.append(base,pre,multi);tools.append(add);modeHost.append(modes);bar.append(title,tools);shell.append(bar,list,legacy.element);host.insertBefore(shell,landing);
+    const modeLabel=el('span','field-label',t('proxyType')),modes=el('div','chain-mode-actions'),tools=el('div','chain-tools');
+    modeLabel.id='profile-proxy-type-label';modes.setAttribute('role','group');modes.setAttribute('aria-labelledby',modeLabel.id);
+    modes.append(base,pre,multi);tools.append(add);modeHost.append(modeLabel,modes);bar.append(title,tools);shell.append(bar,list,legacy.element);host.insertBefore(shell,landing);
     const preview=el('section','editor-panel proxy-path-preview'),previewHeader=el('header','editor-panel-header'),previewList=el('ol','proxy-path-list'),previewFooter=el('footer','proxy-path-footer'),previewActions=el('div','proxy-path-actions'),previewResults=new Map(),previewByIndex=new Map();
     previewActions.append(test,stop);previewHeader.append(el('h3','',t('chain')),previewActions);previewFooter.append(status);preview.append(previewHeader,previewList,previewFooter);previewHost.append(preview);
     function connector(){const link=el('span','proxy-edit-connector');link.setAttribute('aria-hidden','true');return link;}
@@ -125,7 +127,7 @@
     test.onclick=diagnose;stop.onclick=()=>{stopping=true;stop.disabled=true;status.textContent=t('chainStopping');};
     const hidden=()=>{if(document.hidden)stopping=true;};document.addEventListener('visibilitychange',hidden);
     draw();
-    return{capture(){remember();return{view,seeded:true,predecessor:memory.predecessor.predecessor,items:memory.chain.chain.slice()};},refresh(){if(destroyed)return;invalidate();draw();},diagnose,destroy(){destroyed=true;stopping=true;generation++;pickers.forEach(p=>p.destroy());document.removeEventListener('visibilitychange',hidden);modes.remove();preview.remove();previewByIndex.clear();previewResults.clear();badge.remove();exitStatus.remove();landingLink.remove();legacyLink.remove();host.classList.remove('has-proxy-sequence');}};
+    return{capture(){remember();return{view,seeded:true,predecessor:memory.predecessor.predecessor,items:memory.chain.chain.slice()};},refresh(){if(destroyed)return;invalidate();draw();},diagnose,destroy(){destroyed=true;stopping=true;generation++;pickers.forEach(p=>p.destroy());document.removeEventListener('visibilitychange',hidden);modeLabel.remove();modes.remove();preview.remove();previewByIndex.clear();previewResults.clear();badge.remove();exitStatus.remove();landingLink.remove();legacyLink.remove();host.classList.remove('has-proxy-sequence');}};
   }
   root.V2RChainEditor=Object.freeze({mount});
 })(globalThis);

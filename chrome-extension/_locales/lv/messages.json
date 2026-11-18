@@ -716,6 +716,9 @@
   "name": {
     "message": "Profila nosaukums"
   },
+  "proxyType": {
+    "message": "Starpniekservera veids"
+  },
   "type": {
     "message": "Profila veids"
   },

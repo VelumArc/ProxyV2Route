@@ -716,6 +716,9 @@
   "name": {
     "message": "Pangalan ng profile"
   },
+  "proxyType": {
+    "message": "Uri ng proxy"
+  },
   "type": {
     "message": "Uri ng profile"
   },

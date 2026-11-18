@@ -716,6 +716,9 @@
   "name": {
     "message": "ప్రొఫైల్ పేరు"
   },
+  "proxyType": {
+    "message": "ప్రాక్సీ రకం"
+  },
   "type": {
     "message": "ప్రొఫైల్ రకం"
   },
