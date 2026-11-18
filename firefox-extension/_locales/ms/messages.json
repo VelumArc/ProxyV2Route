@@ -1,0 +1,2150 @@
+{
+  "ruleTargetUnavailable": {
+    "message": "Sasaran tidak tersedia"
+  },
+  "rulePatternPlaceholder": {
+    "message": "example.com, *.example.org, 192.0.2.1:8443"
+  },
+  "rulePatternHelp": {
+    "message": "Pisahkan alamat dengan koma. Satu corak URL setiap baris. PAC mungkin tidak dapat melihat laluan HTTPS."
+  },
+  "defaultChoice_direct": {
+    "message": "Sambung tanpa proksi"
+  },
+  "defaultChoice_system": {
+    "message": "Gunakan tetapan proksi sistem"
+  },
+  "defaultChoice_node": {
+    "message": "Gunakan nod pilihan profil ini"
+  },
+  "defaultChoice_manual": {
+    "message": "Gunakan tetapan proksi profil ini"
+  },
+  "defaultChoice_auto": {
+    "message": "Gunakan peraturan penghalaan profil ini"
+  },
+  "nlHttpsLatency": {
+    "message": "HTTPS respons"
+  },
+  "nlLatencyMethod": {
+    "message": "Cloudflare · Minimum dua respons · Guna semula sambungan apabila tersedia"
+  },
+  "nlLatencyFast": {
+    "message": "Cepat"
+  },
+  "nlLatencyModerate": {
+    "message": "Sederhana"
+  },
+  "nlLatencySlow": {
+    "message": "Perlahan"
+  },
+  "nlSortName": {
+    "message": "Nama"
+  },
+  "nlSortLatency": {
+    "message": "Latensi: rendah ke tinggi"
+  },
+  "nlSortDownload": {
+    "message": "Muat turun: tinggi ke rendah"
+  },
+  "nlSortUpload": {
+    "message": "Muat naik: tinggi ke rendah"
+  },
+  "nlSingle": {
+    "message": "Nod tunggal"
+  },
+  "nlGroupBatch": {
+    "message": "Kumpulan / kelompok"
+  },
+  "nlTestScope": {
+    "message": "Skop ujian"
+  },
+  "nlCurrentNode": {
+    "message": "Nod yang dipilih"
+  },
+  "nlCurrentGroup": {
+    "message": "Kumpulan terpilih"
+  },
+  "nlChooseNode": {
+    "message": "Pilih nod dalam senarai"
+  },
+  "nlStart": {
+    "message": "Mulakan ujian"
+  },
+  "nlService": {
+    "message": "Perkhidmatan ujian"
+  },
+  "nlMeasured": {
+    "message": "diukur"
+  },
+  "nlMeanLatency": {
+    "message": "Kependaman purata"
+  },
+  "nlGroupBySource": {
+    "message": "Mengikut kumpulan sumber"
+  },
+  "nlPreviousPage": {
+    "message": "Halaman sebelumnya"
+  },
+  "nlNextPage": {
+    "message": "Halaman seterusnya"
+  },
+  "nlName": {
+    "message": "Nama"
+  },
+  "nlEdit": {
+    "message": "Sunting"
+  },
+  "nlStop": {
+    "message": "Berhenti"
+  },
+  "nlConfirm": {
+    "message": "Sahkan"
+  },
+  "nlAllNodes": {
+    "message": "Semua nod"
+  },
+  "nlNodeResults": {
+    "message": "Hasil nod"
+  },
+  "nlTestCenter": {
+    "message": "Pusat ujian"
+  },
+  "nlNewGroup": {
+    "message": "Kumpulan baharu"
+  },
+  "nlRenameGroup": {
+    "message": "Namakan semula kumpulan"
+  },
+  "nlRemoveGroup": {
+    "message": "Alih keluar kumpulan"
+  },
+  "nlRemoveGroupHelp": {
+    "message": "Simpan setiap nod dan langganan, dan alihkannya ke nod Diimport."
+  },
+  "nlNode": {
+    "message": "Nod"
+  },
+  "nlStatus": {
+    "message": "Status"
+  },
+  "nlActions": {
+    "message": "Tindakan"
+  },
+  "nlSort": {
+    "message": "Isih jadual ini sahaja"
+  },
+  "nlSelected": {
+    "message": "dipilih"
+  },
+  "nlTestNode": {
+    "message": "Ujian"
+  },
+  "nlProfileShort": {
+    "message": "Profil"
+  },
+  "nlQuick": {
+    "message": "Kependaman pantas"
+  },
+  "nlFull": {
+    "message": "Muat turun + muat naik"
+  },
+  "nlTraffic": {
+    "message": "Saiz data ujian"
+  },
+  "nlConcurrency": {
+    "message": "Nod serentak"
+  },
+  "nlTrafficFullOnly": {
+    "message": "Digunakan untuk ujian muat turun dan muat naik"
+  },
+  "nlTestMode": {
+    "message": "Mod ujian"
+  },
+  "nlBudget": {
+    "message": "Trafik muatan maksimum"
+  },
+  "nlViaGroup": {
+    "message": "Melalui pra-proksi kumpulan"
+  },
+  "nlTestSelected": {
+    "message": "Ujian dipilih"
+  },
+  "nlTestVisible": {
+    "message": "Ujian ditunjukkan nod"
+  },
+  "nlTestAll": {
+    "message": "Uji semua nod"
+  },
+  "nlTestGroup": {
+    "message": "Uji nod kumpulan"
+  },
+  "nlProgress": {
+    "message": "Kemajuan pengukuran"
+  },
+  "nlReady": {
+    "message": "Pilih nod untuk bermula. Tiada ujian telah dijalankan."
+  },
+  "nlStarting": {
+    "message": "Memulakan pengukuran terpencil…"
+  },
+  "nlQueued": {
+    "message": "Beratur"
+  },
+  "nlRunning": {
+    "message": "Ujian"
+  },
+  "nlStopping": {
+    "message": "Berhenti…"
+  },
+  "nlComplete": {
+    "message": "Lengkap"
+  },
+  "nlFailed": {
+    "message": "Gagal"
+  },
+  "nlStopped": {
+    "message": "Berhenti"
+  },
+  "nlPartial": {
+    "message": "Separa"
+  },
+  "nlUntested": {
+    "message": "Tidak diuji"
+  },
+  "nlSucceeded": {
+    "message": "lulus"
+  },
+  "nlMeasureDisconnected": {
+    "message": "Sambungan pengukuran ditamatkan. Nilai yang tidak lengkap bukanlah hasil akhir."
+  },
+  "nlUpgrade": {
+    "message": "Kemas kini Companion tempatan untuk mengurus kumpulan dan langganan. Nod sedia ada kekal tersedia."
+  },
+  "nlOperationFailed": {
+    "message": "Operasi tidak dapat diselesaikan. Cuba lagi."
+  },
+  "nlEditSubscription": {
+    "message": "Edit langganan"
+  },
+  "nlPasteContent": {
+    "message": "Pautan / kandungan proksi"
+  },
+  "nlSubscriptionURL": {
+    "message": "Langganan URL"
+  },
+  "nlKeepURL": {
+    "message": "Biarkan kosong untuk menyimpan yang disimpan URL"
+  },
+  "nlConnectionPolicy": {
+    "message": "Kemas kini sambungan"
+  },
+  "nlProxyFirst": {
+    "message": "Proksi dahulu, kemudian teruskan pada kegagalan"
+  },
+  "nlProxyOnly": {
+    "message": "Proksi sahaja"
+  },
+  "nlDirectOnly": {
+    "message": "Langsung sahaja"
+  },
+  "nlProxyFirstHelp": {
+    "message": "Proksi pertama kali berhenti selepas pengambilan berjaya. Langsung dicuba hanya jika percubaan proksi gagal."
+  },
+  "nlAutoUpdate": {
+    "message": "Dayakan kemas kini automatik"
+  },
+  "nlInterval": {
+    "message": "Selang kemas kini (minit)"
+  },
+  "nlDestinationGroup": {
+    "message": "Kumpulan destinasi"
+  },
+  "nlSubscriptionOwnGroup": {
+    "message": "Kumpulan baharu…"
+  },
+  "nlNameGroup": {
+    "message": "Nama (kumpulan)"
+  },
+  "nlCustomGroup": {
+    "message": "Kumpulan tersuai"
+  },
+  "nlNameRequired": {
+    "message": "Masukkan nama."
+  },
+  "nlContentRequired": {
+    "message": "Tampal pautan proksi atau kandungan langganan."
+  },
+  "nlGroupRequired": {
+    "message": "Pilih kumpulan destinasi."
+  },
+  "nlURLRequired": {
+    "message": "Masukkan langganan HTTP(S) URL tanpa nama pengguna atau kata laluan."
+  },
+  "nlIntervalInvalid": {
+    "message": "Masukkan nombor bulat dari 5 hingga 43200 minit."
+  },
+  "folderTitle": {
+    "message": "Pilih folder v2rayN."
+  },
+  "folderHint": {
+    "message": "Pilih folder, kemudian gunakannya dengan Simpan tetapan sambungan."
+  },
+  "folderPath": {
+    "message": "Laluan folder tempatan penuh"
+  },
+  "folderGo": {
+    "message": "Buka"
+  },
+  "folderUp": {
+    "message": "Naik"
+  },
+  "folderDrives": {
+    "message": "Pemanduan"
+  },
+  "folderCurrent": {
+    "message": "Laluan semasa"
+  },
+  "folderChoose": {
+    "message": "Gunakan folder ini"
+  },
+  "folderList": {
+    "message": "Folder"
+  },
+  "folderTruncated": {
+    "message": "Penyenaraian adalah terhad. Masukkan laluan penuh di atas untuk membuka folder yang tidak ditunjukkan."
+  },
+  "folderReady": {
+    "message": "v2rayN fail ditemui. Gunakan folder ini untuk mengesahkan konfigurasi."
+  },
+  "folderInvalid": {
+    "message": "Pilih folder yang mengandungi guiConfigs, guiNConfig.json dan guiNDB.db."
+  },
+  "folderSelectDrive": {
+    "message": "Pilih pemacu tempatan atau masukkan laluan folder penuh."
+  },
+  "folderEmpty": {
+    "message": "Tiada subfolder yang kelihatan."
+  },
+  "folderUnavailable": {
+    "message": "Tidak boleh menyemak imbas folder ini. Semak laluan dan aksesnya. Jika Companion lebih tua, kemas kini dahulu."
+  },
+  "folderValidating": {
+    "message": "Mengesahkan konfigurasi v2rayN…"
+  },
+  "folderInvalidConfig": {
+    "message": "Konfigurasi atau pangkalan data v2rayN tidak lengkap atau tidak sah. Pilih folder lain."
+  },
+  "copyPath": {
+    "message": "Salin laluan"
+  },
+  "pathCopyHint": {
+    "message": "Salin laluan yang sedang dalam medan ini."
+  },
+  "preMode": {
+    "message": "Mod pra-proksi"
+  },
+  "preNode": {
+    "message": "Nod pra-proksi"
+  },
+  "preIntro": {
+    "message": "Gunakan rantaian kumpulan, langkaunya atau pilih pra-proksi untuk profil ini."
+  },
+  "healthLabel": {
+    "message": "Status sambungan semasa"
+  },
+  "healthOk": {
+    "message": "Biasa"
+  },
+  "healthError": {
+    "message": "Tidak normal"
+  },
+  "healthChecking": {
+    "message": "Menyemak"
+  },
+  "healthUnknown": {
+    "message": "Belum disahkan"
+  },
+  "autoSystemHelp": {
+    "message": "Peraturan sistem memerlukan komponen Windows dan salinan tetapan proksi tetap. Gunakan semula selepas perubahan. PAC/WPAD tidak disokong; Sistem tanpa peraturan menggunakan tetapan asal pelayar."
+  },
+  "backgroundUnavailable": {
+    "message": "Latar belakang sambungan tidak tersedia."
+  },
+  "backgroundNoResponse": {
+    "message": "The background did not respond."
+  },
+  "backupTooLarge": {
+    "message": "Backup exceeds 5 MB."
+  },
+  "proxyUsername": {
+    "message": "Nama pengguna"
+  },
+  "proxyPassword": {
+    "message": "Kata laluan"
+  },
+  "proxyAuthHelp": {
+    "message": "Pilihan. Proksi yang disahkan bersambung melalui Companion. Bukti kelayakan disimpan dalam konfigurasi penyemak imbas ini dan Companion, dan disertakan dalam eksport profil."
+  },
+  "proxyAuthSocks4": {
+    "message": "SOCKS4 tidak menyokong pengesahan nama pengguna/kata laluan ini; use HTTP(S) or SOCKS5."
+  },
+  "importExamples": {
+    "message": "Contoh format"
+  },
+  "ipCopying": {
+    "message": "Menyalin…"
+  },
+  "netDnsUnavailable": {
+    "message": "Alamat pelayan tidak dapat diselesaikan dalam masa. Semak hos atau alamat IP dan cuba lagi."
+  },
+  "netCurrentTarget": {
+    "message": "Selected proxy endpoint"
+  },
+  "netCustomTarget": {
+    "message": "Pelayan tersuai"
+  },
+  "netHost": {
+    "message": "Host or IP address"
+  },
+  "netPort": {
+    "message": "TCP port"
+  },
+  "netHostRequired": {
+    "message": "Masukkan hos pelayan atau alamat IP."
+  },
+  "netCurrentUnavailable": {
+    "message": "Pilih nod atau profil proksi manual, atau masukkan sasaran tersuai."
+  },
+  "netInvalidTarget": {
+    "message": "Enter a valid diagnostic host and port."
+  },
+  "netIpv6PingUnavailable": {
+    "message": "IPv6 ICMP is not available; gunakan TCPing."
+  },
+  "preNeedsFix": {
+    "message": "Pilih pra-proksi yang sah atau tiada pra-proksi sebelum menyimpan."
+  },
+  "preConfigure": {
+    "message": "Konfigurasikan pra-proksi"
+  },
+  "preFollowInvalid": {
+    "message": "Ikut v2rayN tidak menerima pra-proksi tersuai."
+  },
+  "followChainHelp": {
+    "message": "Ikuti menggunakan laluan dan rantaian proksi yang sudah aktif dalam v2rayN."
+  },
+  "netTitle": {
+    "message": "Ujian sambungan"
+  },
+  "ipTestDetails": {
+    "message": "Butiran ujian"
+  },
+  "netTarget": {
+    "message": "Ping / TCPing target"
+  },
+  "netDownload": {
+    "message": "Muat turun ujian"
+  },
+  "netPartial": {
+    "message": "Sampel separa"
+  },
+  "netComplete": {
+    "message": "Sampel lengkap"
+  },
+  "netDirect": {
+    "message": "Rangkaian sistem"
+  },
+  "netUnreachable": {
+    "message": "No reply / failed"
+  },
+  "netAverage": {
+    "message": "Purata"
+  },
+  "predecessor": {
+    "message": "Pra-proksi"
+  },
+  "preInherit": {
+    "message": "Use the v2rayN group chain"
+  },
+  "preNone": {
+    "message": "Tiada pra-proksi"
+  },
+  "preSpecific": {
+    "message": "Pilih nod"
+  },
+  "preHelp": {
+    "message": "Applies to this profile. Gunakan rantai kumpulan v2rayN, tiada pra-proksi atau nod tertentu. Follow v2rayN uses its existing chain."
+  },
+  "preSelectRequired": {
+    "message": "Pilih nod pra-proksi, atau pilih lalai Kumpulan / Tiada."
+  },
+  "ipPing0Permission": {
+    "message": "Benarkan Ping0 akses tapak web untuk memuatkan laporan awam."
+  },
+  "ipPublicChallenge": {
+    "message": "The website requires verification. Buka halaman Ping0 untuk melengkapkannya dan lihat hasilnya."
+  },
+  "ipPublicReport": {
+    "message": "Ping0 public report"
+  },
+  "ipPublicSource": {
+    "message": "Source: Ping0 public page"
+  },
+  "ipPublicOriginal": {
+    "message": "Ping0 laporan"
+  },
+  "ipPublicPartial": {
+    "message": "Hanya medan yang disediakan pada halaman awam ditunjukkan, dalam bahasa asalnya. Klasifikasi dan anggaran pengguna dikongsi adalah daripada Ping0."
+  },
+  "setupTitle": {
+    "message": "Sambung Proxy V2Route"
+  },
+  "setupIntro": {
+    "message": "Pasang pasangan Windows untuk menggunakan laluan v2rayN atau nod import anda sendiri."
+  },
+  "setupStepOne": {
+    "message": "Ekstrak pakej lengkap Windows padanan ke folder kekal."
+  },
+  "setupStepTwo": {
+    "message": "Buka V2Route-Setup.exe dan klik Pasang."
+  },
+  "setupStepThree": {
+    "message": "Kembali ke sini dan semak sambungan. Pilih folder v2rayN jika perlu."
+  },
+  "setupCheck": {
+    "message": "Semak sambungan"
+  },
+  "downloadCompanion": {
+    "message": "Panduan pemasangan ↗"
+  },
+  "setupDownloadNote": {
+    "message": "Gunakan pakej Windows tempatan yang sepadan, atau ikut panduan untuk membinanya daripada sumber semasa."
+  },
+  "chooseFolder": {
+    "message": "Pilih folder v2rayN…"
+  },
+  "rescanDone": {
+    "message": "Nod setempat diimbas semula"
+  },
+  "grouping": {
+    "message": "Nod kumpulan"
+  },
+  "groupByCountry": {
+    "message": "Mengikut negara"
+  },
+  "unknownCountry": {
+    "message": "Lain-lain / Tidak Diketahui"
+  },
+  "ungrouped": {
+    "message": "Tidak berkumpul"
+  },
+  "adjustNodeFilters": {
+    "message": "Cuba kumpulan lain, sumber atau carian atau tunjukkan nod tersembunyi."
+  },
+  "rescanLocal": {
+    "message": "Imbas semula v2rayN nod"
+  },
+  "showHidden": {
+    "message": "Tunjukkan nod tersembunyi"
+  },
+  "hideNode": {
+    "message": "Sembunyi"
+  },
+  "restoreNode": {
+    "message": "Pulihkan"
+  },
+  "hiddenNode": {
+    "message": "Tersembunyi"
+  },
+  "hideNodeHelp": {
+    "message": "Sembunyikan hanya daripada pustaka nod penyemak imbas ini. v2rayN dan profil sedia ada tidak berubah."
+  },
+  "ipContextTimeout": {
+    "message": "Membaca profil semasa tamat masa. Cuba lagi."
+  },
+  "ipStaleResult": {
+    "message": "Profil semasa berubah. Keputusan ini mungkin sudah lapuk; semak semula."
+  },
+  "ip_tools": {
+    "message": "IP Alatan"
+  },
+  "ipIntro": {
+    "message": "Keluar semasa IP dan laporan awam."
+  },
+  "ipCurrentProfile": {
+    "message": "Profil penyemak imbas semasa"
+  },
+  "ipRouteCaution": {
+    "message": "Peraturan automatik dan PAC mungkin menggunakan laluan berbeza untuk destinasi berbeza. Semakan ini hanya menerangkan permintaannya sendiri."
+  },
+  "ipDisclosure": {
+    "message": "Auto semak keluar IP · Laporan oleh Ping0"
+  },
+  "ipMethod": {
+    "message": "Semakan alamat"
+  },
+  "ipDual": {
+    "message": "IPv4 / IPv6"
+  },
+  "ipCheck": {
+    "message": "Semak semula"
+  },
+  "ipChecking": {
+    "message": "Menyemak…"
+  },
+  "ipDualHelp": {
+    "message": "IPv4 / IPv6 mengembalikan keluarga alamat yang digunakan untuk permintaan ini, bukan kedua-dua alamat."
+  },
+  "ipDurationHelp": {
+    "message": "Berlalu HTTP masa permintaan termasuk rangkaian dan masa tindak balas perkhidmatan. Ia bukan ICMP ping atau ujian lebar jalur."
+  },
+  "ipCopy": {
+    "message": "Salin IP"
+  },
+  "ipCopied": {
+    "message": "Disalin"
+  },
+  "ipCopyFailed": {
+    "message": "Tidak dapat menyalin. Pilih alamat dan salin secara manual."
+  },
+  "ipNoResult": {
+    "message": "Tiada semakan lagi"
+  },
+  "ipContextUnknown": {
+    "message": "Profil tidak tersedia"
+  },
+  "ipTimeout": {
+    "message": "Cek telah tamat masa. Cuba lagi atau gunakan laluan lain."
+  },
+  "ipCancelled": {
+    "message": "Cek dibatalkan"
+  },
+  "ipNetwork": {
+    "message": "Tidak dapat mencapai ipify. Semak sambungan dan cuba lagi."
+  },
+  "ipHttp": {
+    "message": "Perkhidmatan IP tidak menerima permintaan itu. Cuba lagi nanti."
+  },
+  "ipInvalid": {
+    "message": "Perkhidmatan IP mengembalikan respons yang tidak sah."
+  },
+  "ipFailure": {
+    "message": "Cek gagal. Cuba lagi."
+  },
+  "ipStale": {
+    "message": "Tetapan proksi anda berubah semasa semakan. Keputusan lama dibuang; semak semula."
+  },
+  "ipQuality": {
+    "message": "Alat luaran"
+  },
+  "ipQualityPrivacy": {
+    "message": "Alat berjalan hanya pada klik. Pembekal menerima data sambungan biasa. Semakan tapak web menghantar permintaan tanpa bukti kelayakan selepas Mula. Penutupan menghentikan ujian tempatan; tab luaran diuruskan oleh penyemak imbas."
+  },
+  "ipReport": {
+    "message": "Salin laporan yang disunting"
+  },
+  "ipReportCopied": {
+    "message": "Laporan yang disunting disalin; tiada IP atau nama profil disertakan."
+  },
+  "popupSelected": {
+    "message": "Dipilih"
+  },
+  "popupFooter": {
+    "message": "v2rayN & profil nod"
+  },
+  "subtitle": {
+    "message": "Laluan penyemak imbas bebas"
+  },
+  "profiles": {
+    "message": "Profil"
+  },
+  "nodes": {
+    "message": "Pustaka Nod"
+  },
+  "settings": {
+    "message": "Tetapan"
+  },
+  "connected": {
+    "message": "Profil aktif"
+  },
+  "noProfile": {
+    "message": "Lalai sistem"
+  },
+  "newProfile": {
+    "message": "Profil baharu"
+  },
+  "searchProfiles": {
+    "message": "Cari profil"
+  },
+  "direct": {
+    "message": "Rangkaian langsung"
+  },
+  "system": {
+    "message": "Proksi sistem"
+  },
+  "follow": {
+    "message": "Ikuti v2rayN"
+  },
+  "manual": {
+    "message": "Proksi manual"
+  },
+  "auto": {
+    "message": "Suis automatik"
+  },
+  "pac": {
+    "message": "PAC skrip"
+  },
+  "virtual": {
+    "message": "Profil maya"
+  },
+  "profileIntro": {
+    "message": "Pilih laluan penyemak imbas tanpa menukar laluan utama v2rayN."
+  },
+  "nodesIntro": {
+    "message": "Semak imbas nod v2rayN setempat dan pautan import anda."
+  },
+  "settingsIntro": {
+    "message": "Sambungan tempatan, bahasa dan rupa."
+  },
+  "refresh": {
+    "message": "Muat semula"
+  },
+  "create": {
+    "message": "Cipta profil"
+  },
+  "name": {
+    "message": "Nama profil"
+  },
+  "type": {
+    "message": "Jenis profil"
+  },
+  "save": {
+    "message": "Simpan"
+  },
+  "saved": {
+    "message": "Disimpan"
+  },
+  "saving": {
+    "message": "Menyimpan…"
+  },
+  "cancel": {
+    "message": "Batal"
+  },
+  "close": {
+    "message": "Tutup"
+  },
+  "apply": {
+    "message": "Gunakan profil ini"
+  },
+  "applied": {
+    "message": "Profil ditukar"
+  },
+  "active": {
+    "message": "Aktif"
+  },
+  "delete": {
+    "message": "Padam"
+  },
+  "remove": {
+    "message": "Alih keluar"
+  },
+  "rename": {
+    "message": "Namakan semula"
+  },
+  "route": {
+    "message": "Laluan proksi"
+  },
+  "selectRoute": {
+    "message": "Pilih laluan"
+  },
+  "routeMissing": {
+    "message": "Laluan tidak tersedia — pilih yang lain"
+  },
+  "chain": {
+    "message": "Rantai sambungan"
+  },
+  "connection": {
+    "message": "Sambungan tempatan"
+  },
+  "proxy": {
+    "message": "Pelayan proksi"
+  },
+  "address": {
+    "message": "Alamat"
+  },
+  "port": {
+    "message": "Pelabuhan"
+  },
+  "scheme": {
+    "message": "Protokol"
+  },
+  "proxyDns": {
+    "message": "SOCKS5 DNS menyelesaikan melalui proksi."
+  },
+  "connectedIdle": {
+    "message": "Bersambung · Melahu"
+  },
+  "bypass": {
+    "message": "Senarai pintasan"
+  },
+  "bypassHelp": {
+    "message": "Satu domain, domain kad bebas, alamat IP atau IP:port setiap baris."
+  },
+  "advanced": {
+    "message": "Pilihan lanjutan"
+  },
+  "searchRoutes": {
+    "message": "Cari kumpulan atau nod"
+  },
+  "selectGroup": {
+    "message": "Pilih kumpulan"
+  },
+  "empty": {
+    "message": "Tiada item yang sepadan"
+  },
+  "unavailable": {
+    "message": "Tidak tersedia"
+  },
+  "groupHint": {
+    "message": "Tahan kumpulan selama 250 ms, kemudian seret. Alt + ↑ / ↓ juga membuat pesanan semula. Perubahan disimpan secara automatik."
+  },
+  "searchSort": {
+    "message": "Kosongkan carian sebelum mengisih."
+  },
+  "dragHint": {
+    "message": "Bergerak ke atas atau ke bawah, kemudian lepaskan untuk menyimpan. Esc membatalkan."
+  },
+  "orderSaved": {
+    "message": "Pesanan kumpulan disimpan"
+  },
+  "orderCancelled": {
+    "message": "Penyusunan semula dibatalkan"
+  },
+  "loading": {
+    "message": "Memuatkan…"
+  },
+  "reading": {
+    "message": "Membaca nod tempatan…"
+  },
+  "nativeMissing": {
+    "message": "Komponen tempatan tidak disambungkan"
+  },
+  "retry": {
+    "message": "Cuba semula"
+  },
+  "nativeHelp": {
+    "message": "Laluan nod memerlukan pasangan Windows. Proksi langsung, Sistem dan manual tersedia sekarang."
+  },
+  "imported": {
+    "message": "Diimport"
+  },
+  "v2rayn": {
+    "message": "v2rayN"
+  },
+  "allSources": {
+    "message": "Semua sumber"
+  },
+  "importNodes": {
+    "message": "Import proksi"
+  },
+  "importTitle": {
+    "message": "Import proksi"
+  },
+  "importHelp": {
+    "message": "Tampal pautan proksi, langganan keluar JSON atau Base64. SOCKS menyokong bukti kelayakan biasa atau Base64. Penggunaan alamat bebas skim HTTP."
+  },
+  "importPrivacy": {
+    "message": "Butiran dan bukti kelayakan proksi diserahkan kepada rakan Proxy V2Route setempat untuk penyimpanan dan sambungan kepada proksi yang anda pilih. Pembangun tidak menerima maklumat ini."
+  },
+  "import": {
+    "message": "Import profil"
+  },
+  "nodeCount": {
+    "message": "nod"
+  },
+  "source": {
+    "message": "Sumber"
+  },
+  "protocol": {
+    "message": "Protokol"
+  },
+  "useNode": {
+    "message": "Cipta profil"
+  },
+  "removeNode": {
+    "message": "Alih keluar nod yang diimport?"
+  },
+  "removeNodeHelp": {
+    "message": "Profil yang menggunakan nod ini mesti ditetapkan semula sebelum ia boleh dialih keluar."
+  },
+  "deleteProfile": {
+    "message": "Padamkan profil ini?"
+  },
+  "deleteProfileHelp": {
+    "message": "Ini hanya mengalih keluar profil penyemak imbas ini. Nod yang diimport dan konfigurasi v2rayN disimpan."
+  },
+  "language": {
+    "message": "Bahasa"
+  },
+  "automatic": {
+    "message": "Pelayar lalai"
+  },
+  "theme": {
+    "message": "Rupa"
+  },
+  "light": {
+    "message": "Cahaya"
+  },
+  "dark": {
+    "message": "Gelap"
+  },
+  "switchToEnglish": {
+    "message": "Tukar kepada Bahasa Inggeris"
+  },
+  "switchToChinese": {
+    "message": "Tukar kepada Bahasa Cina Ringkas"
+  },
+  "switchToLight": {
+    "message": "Beralih kepada rupa yang terang"
+  },
+  "switchToDark": {
+    "message": "Tukar kepada rupa gelap"
+  },
+  "localComponent": {
+    "message": "Komponen pendamping"
+  },
+  "ready": {
+    "message": "Bersambung"
+  },
+  "stopped": {
+    "message": "Tidak berjalan"
+  },
+  "discovery": {
+    "message": "v2rayN pengesanan"
+  },
+  "rootPath": {
+    "message": "v2rayN folder"
+  },
+  "corePath": {
+    "message": "Teras proksi boleh laku"
+  },
+  "optionalPath": {
+    "message": "Biarkan kosong untuk pengesanan automatik"
+  },
+  "pathsHelp": {
+    "message": "v2rayN dikesan secara automatik; pilih foldernya jika perlu. Nod yang diimport menggunakan teras yang disertakan."
+  },
+  "savePaths": {
+    "message": "Simpan tetapan sambungan"
+  },
+  "privacy": {
+    "message": "Tetapan disimpan secara setempat"
+  },
+  "privacyText": {
+    "message": "Pautan nod dan bukti kelayakan kekal dalam pasangan tempatan. Trafik penyemak imbas melalui proksi pilihan anda ke tapak web destinasi; pemaju tidak menerimanya."
+  },
+  "privacyDetails": {
+    "message": "Privasi dan aliran data"
+  },
+  "export": {
+    "message": "Eksport profil"
+  },
+  "about": {
+    "message": "Kira-kira Proxy V2Route"
+  },
+  "aboutText": {
+    "message": "Pilih laluan penyemak imbas tanpa menukar laluan utama v2rayN. Laluan nod menggunakan pasangan Windows dan nod anda sendiri."
+  },
+  "licenses": {
+    "message": "Notis sumber terbuka"
+  },
+  "version": {
+    "message": "Versi"
+  },
+  "fieldRequired": {
+    "message": "Masukkan nama profil."
+  },
+  "profileExists": {
+    "message": "Profil dengan nama ini sudah wujud."
+  },
+  "ruleHelp": {
+    "message": "Asingkan domain dalam satu baris dengan koma. Baris padanan pertama menang. Pastikan laluan lalai tersedia."
+  },
+  "rules": {
+    "message": "Peraturan laluan"
+  },
+  "pattern": {
+    "message": "Corak hos"
+  },
+  "target": {
+    "message": "Sasaran peraturan"
+  },
+  "addRule": {
+    "message": "Tambah peraturan"
+  },
+  "defaultRoute": {
+    "message": "Profil lalai"
+  },
+  "pacHelp": {
+    "message": "Tampal sumber PAC dipercayai yang mengandungi FindProxyForURL. Skrip ini menentukan cara permintaan tapak web dihalakan."
+  },
+  "pacUrl": {
+    "message": "PAC URL"
+  },
+  "pacScript": {
+    "message": "PAC skrip"
+  },
+  "noSelection": {
+    "message": "Pilih profil atau buat satu."
+  },
+  "details": {
+    "message": "Butiran"
+  },
+  "noNodes": {
+    "message": "Tiada nod lagi"
+  },
+  "noNodesHelp": {
+    "message": "Sambung v2rayN atau import pautan proksi, JSON atau langganan untuk bermula."
+  },
+  "openSettings": {
+    "message": "Buka tetapan"
+  },
+  "proxySettings": {
+    "message": "Tetapan proksi"
+  },
+  "switching": {
+    "message": "Menukar…"
+  },
+  "updatedElsewhere": {
+    "message": "Profil ini ditukar dalam tetingkap lain. Buka semula sebelum menyimpan."
+  },
+  "choose": {
+    "message": "Pilih"
+  },
+  "popupIntro": {
+    "message": "Sambungan:"
+  },
+  "invalidPort": {
+    "message": "Masukkan port dari 1 hingga 65535."
+  },
+  "externalControl": {
+    "message": "Sambungan atau dasar lain ialah mengawal proksi penyemak imbas."
+  },
+  "noNativeRoute": {
+    "message": "Sambungkan komponen setempat sebelum membuat profil nod."
+  },
+  "reload": {
+    "message": "Muat semula"
+  },
+  "rulesError": {
+    "message": "Setiap peraturan memerlukan corak dan sasaran."
+  },
+  "backupDone": {
+    "message": "Profil penyemak imbas dieksport"
+  },
+  "managed": {
+    "message": "Nod terurus"
+  },
+  "netRegion": {
+    "message": "Kawasan sasaran"
+  },
+  "netNodeArea": {
+    "message": "Nod proksi"
+  },
+  "netChina": {
+    "message": "Tanah Besar China"
+  },
+  "netGlobal": {
+    "message": "Global"
+  },
+  "netAli": {
+    "message": "AliDNS"
+  },
+  "netTencent": {
+    "message": "DNSPod"
+  },
+  "netStartHelp": {
+    "message": "Pilih sasaran, kemudian mulakan ujian langsung."
+  },
+  "netConsole": {
+    "message": "Diagnostik langsung"
+  },
+  "netStop": {
+    "message": "Berhenti"
+  },
+  "netRunning": {
+    "message": "Berlari"
+  },
+  "netStopped": {
+    "message": "Berhenti"
+  },
+  "netSent": {
+    "message": "Dihantar"
+  },
+  "netLoss": {
+    "message": "Kerugian"
+  },
+  "netAverageShort": {
+    "message": "Purata"
+  },
+  "netLogClear": {
+    "message": "Jelas"
+  },
+  "netFinishing": {
+    "message": "Siasatan sebelumnya sedang selesai…"
+  },
+  "netRound": {
+    "message": "Bulat"
+  },
+  "netDestination": {
+    "message": "Destinasi"
+  },
+  "netHop": {
+    "message": "Hop"
+  },
+  "netAddress": {
+    "message": "IP alamat"
+  },
+  "netLast": {
+    "message": "Terakhir"
+  },
+  "netConsoleHelp": {
+    "message": "Ping / TCPing / MTR menggunakan rangkaian sistem, bukan rantai proksi. Tiada ICMP balasan tidak membuktikan kehilangan trafik. Muat turun menggunakan laluan penyemak imbas dan had saiz yang dipilih. Ujian berhenti apabila anda meninggalkan atau menyembunyikan halaman ini."
+  },
+  "netDirectShort": {
+    "message": "Rangkaian sistem"
+  },
+  "netIcmpShort": {
+    "message": "Tidak ICMP balasan"
+  },
+  "netProbeError": {
+    "message": "Ralat siasatan setempat"
+  },
+  "netNoDestination": {
+    "message": "Destinasi tidak tercapai"
+  },
+  "deleteActive": {
+    "message": "Tukar kepada sistem dan padam"
+  },
+  "deleteActiveHelp": {
+    "message": "Profil ini aktif. Memadamkannya menukar penyemak imbas kepada proksi sistem."
+  },
+  "netDownloadSize": {
+    "message": "Saiz muat turun"
+  },
+  "netReceived": {
+    "message": "Diterima"
+  },
+  "netBest": {
+    "message": "Terbaik"
+  },
+  "netWorst": {
+    "message": "Paling teruk"
+  },
+  "netStdDev": {
+    "message": "Std dev"
+  },
+  "netLocation": {
+    "message": "Lokasi"
+  },
+  "toolWall": {
+    "message": "Semakan menyekat domain"
+  },
+  "toolSites": {
+    "message": "Tapak web popular"
+  },
+  "toolGlobal": {
+    "message": "Diagnostik global"
+  },
+  "toolFast": {
+    "message": "Kelajuan Netflix"
+  },
+  "toolSpeed": {
+    "message": "Ujian kelajuan"
+  },
+  "toolStart": {
+    "message": "Mula"
+  },
+  "toolReady": {
+    "message": "Sedia"
+  },
+  "toolResponded": {
+    "message": "Menjawab"
+  },
+  "toolNoResponse": {
+    "message": "Belum disahkan"
+  },
+  "toolCacheUnsupported": {
+    "message": "Penyemak imbas ini tidak boleh mengosongkan cache mengikut tapak; halaman telah dimuat semula."
+  },
+  "toolCacheFailed": {
+    "message": "Pembersihan cache tidak selesai. Tutup dan cuba semula."
+  },
+  "toolClose": {
+    "message": "Tutup"
+  },
+  "toolReload": {
+    "message": "Muat semula"
+  },
+  "toolLoading": {
+    "message": "Memuatkan…"
+  },
+  "toolFrameError": {
+    "message": "Tidak dapat memuatkan. Cuba Muat Semula."
+  },
+  "toolSiteHelp": {
+    "message": "Kebolehcapaian penyemak imbas sahaja. Ini tidak mengesahkan akaun atau akses serantau."
+  },
+  "toolFallback": {
+    "message": "Ujian kelajuan sandaran"
+  },
+  "toolFullscreen": {
+    "message": "Skrin penuh"
+  },
+  "toolRestore": {
+    "message": "Keluar dari skrin penuh"
+  },
+  "ipReadFailed": {
+    "message": "Bacaan gagal. 👉"
+  },
+  "ipViewSource": {
+    "message": "Lihat tapak sumber"
+  },
+  "toolDownloadError": {
+    "message": "Tidak dapat mencapai pelayan muat turun. Cuba lagi."
+  },
+  "toolAccess": {
+    "message": "Dayakan akses tapak"
+  },
+  "toolPermission": {
+    "message": "Benarkan akses ke tapak ini untuk keserasian sesi terbenam."
+  },
+  "toolAsia": {
+    "message": "Asia"
+  },
+  "toolEurope": {
+    "message": "Eropah"
+  },
+  "toolAmerica": {
+    "message": "Amerika Utara"
+  },
+  "toolGlobalHelp": {
+    "message": "Praisi pintu keluar penyemak imbas IP. Pilih tanah besar China atau wilayah lain untuk membandingkan laluan; Mula menghantar sasaran yang dipaparkan kepada sehingga tiga probe Globalping."
+  },
+  "toolServiceError": {
+    "message": "Perkhidmatan ujian tidak tersedia. Cuba lagi."
+  },
+  "popupOrderHelp": {
+    "message": "Tahan dan seret untuk menyusun semula. Kekunci Alt+anak panah turut mengalihkan profil ini."
+  },
+  "popupOrderSaved": {
+    "message": "Pesanan disimpan"
+  },
+  "toolGroupIP": {
+    "message": "IP ujian"
+  },
+  "toolGroupWeb": {
+    "message": "Ujian laman web"
+  },
+  "toolGroupSpeed": {
+    "message": "Kelajuan"
+  },
+  "toolCurrentIP": {
+    "message": "Keluar semasa IP"
+  },
+  "toolCurrentIPLoading": {
+    "message": "Memuatkan keluar semasa IP…"
+  },
+  "toolCurrentIPFailed": {
+    "message": "Tidak dapat membaca arus IP. Masukkan sasaran."
+  },
+  "speedMode": {
+    "message": "Mod ujian"
+  },
+  "speedBoth": {
+    "message": "Muat turun + muat naik"
+  },
+  "speedDownload": {
+    "message": "Muat turun"
+  },
+  "speedUpload": {
+    "message": "Muat naik"
+  },
+  "speedLatency": {
+    "message": "HTTP kependaman"
+  },
+  "speedBudget": {
+    "message": "{n} MiB setiap fasa · {total} MiB jumlah, serta sampel kependaman kecil."
+  },
+  "siteCategory": {
+    "message": "Kategori laman web"
+  },
+  "siteAll": {
+    "message": "Semua tapak web"
+  },
+  "siteAI": {
+    "message": "AI"
+  },
+  "siteDevelopment": {
+    "message": "Pembangunan"
+  },
+  "siteVideo": {
+    "message": "Video / muzik"
+  },
+  "siteSocial": {
+    "message": "Sosial"
+  },
+  "siteDomestic": {
+    "message": "Perkhidmatan tanah besar"
+  },
+  "siteServices": {
+    "message": "Perkhidmatan biasa"
+  },
+  "globalMethod": {
+    "message": "Jenis ukuran"
+  },
+  "localPort": {
+    "message": "Pelabuhan tempatan:"
+  },
+  "chainChooseNode": {
+    "message": "Pilih nod proksi"
+  },
+  "chainTitle": {
+    "message": "Rantaian proksi"
+  },
+  "chainSelectExit": {
+    "message": "Pilih nod keluar khusus di bawah untuk menyimpan atau menguji rantaian tersuai ini. Ikuti v2rayN diuruskan oleh v2rayN."
+  },
+  "chainSelectExitShort": {
+    "message": "Pilih nod keluar"
+  },
+  "chainAdd": {
+    "message": "+ Tambah lapisan proksi"
+  },
+  "chainTest": {
+    "message": "Rantai ujian"
+  },
+  "chainMode": {
+    "message": "Mod rantai"
+  },
+  "chainBase": {
+    "message": "Proksi Asas"
+  },
+  "chainExit": {
+    "message": "Keluar Proksi"
+  },
+  "chainEgress": {
+    "message": "Jalan Keluar Rantai"
+  },
+  "chainExitBadge": {
+    "message": "Keluar IP"
+  },
+  "chainEntry": {
+    "message": "Kemasukan Rantaian"
+  },
+  "chainTransit": {
+    "message": "Nod Jambatan"
+  },
+  "chainUntested": {
+    "message": "Tidak diuji"
+  },
+  "chainMissing": {
+    "message": "Nod tidak tersedia"
+  },
+  "chainUnresolved": {
+    "message": "Tidak dapat menyelesaikan rantai yang diwarisi. Baiki tetapan terdahulu atau pilih rantai tersuai."
+  },
+  "chainUpgrade": {
+    "message": "Kemas kini rakan tempatan untuk mendayakan rantaian yang dipesan."
+  },
+  "chainBusy": {
+    "message": "Ujian rantaian lain sedang dijalankan"
+  },
+  "chainOK": {
+    "message": "Boleh dihubungi"
+  },
+  "chainFailed": {
+    "message": "Lompatan gagal dalam ujian ini"
+  },
+  "chainBlocked": {
+    "message": "Tidak diuji · lompatan sebelumnya gagal"
+  },
+  "chainFailureHelp": {
+    "message": "Lompatan ini atau laluan ke sana tidak melepasi. Kemudian hop tidak diuji."
+  },
+  "chainAllOK": {
+    "message": "Semua laluan kumulatif bertindak balas"
+  },
+  "chainStopping": {
+    "message": "Berhenti selepas siasatan sempadan semasa…"
+  },
+  "globalWorld": {
+    "message": "Seluruh Dunia"
+  },
+  "globalUnavailable": {
+    "message": "Sasaran atau rantau tidak tersedia. Semak sasaran atau pilih kawasan lain."
+  },
+  "globalRateLimited": {
+    "message": "Had kadar perkhidmatan telah dicapai. Cuba lagi nanti."
+  },
+  "globalNoResults": {
+    "message": "Perkhidmatan tidak mengembalikan hasil siasatan. Cuba kawasan lain."
+  },
+  "globalProbeFailed": {
+    "message": "Siasatan gagal"
+  },
+  "globalProbeOffline": {
+    "message": "Siasatan di luar talian"
+  },
+  "globalIcmpCaution": {
+    "message": "Tiada ICMP balasan sahaja tidak membuktikan menyekat. Bandingkan laluan tanah besar dan luar negara serta jenis ujian lain."
+  },
+  "speedRealtime": {
+    "message": "Kelajuan langsung"
+  },
+  "speedAverage": {
+    "message": "Kelajuan purata"
+  },
+  "ipToolsBrief": {
+    "message": "Keputusan pihak ketiga adalah untuk rujukan."
+  },
+  "ipReportBrief": {
+    "message": "Keputusan berbeza mengikut keluar IP dan adalah untuk rujukan."
+  },
+  "toolPingPe": {
+    "message": "IP cek menyekat"
+  },
+  "toolTargetIP": {
+    "message": "Sasaran IP"
+  },
+  "toolOpenPingPe": {
+    "message": "Ujian rasmi terbuka"
+  },
+  "toolInvalidIP": {
+    "message": "Masukkan alamat IPv4 atau IPv6 yang sah."
+  },
+  "toolInvalidPort": {
+    "message": "Masukkan port TCP dari 1 hingga 65535."
+  },
+  "toolExternalFailed": {
+    "message": "Tidak dapat membuka tapak web. Cuba lagi."
+  },
+  "ipBrowserReading": {
+    "message": "Membaca Ping0 melalui penyemak imbas…"
+  },
+  "ipVerifyBrowser": {
+    "message": "Buka halaman pengesahan"
+  },
+  "policyCenter": {
+    "message": "Privasi, perisytiharan & Soalan Lazim"
+  },
+  "policyCenterIntro": {
+    "message": "Pengendalian data tempatan, had ujian dan jawapan biasa."
+  },
+  "policyPrivacyTitle": {
+    "message": "Dasar privasi"
+  },
+  "policyPrivacySummary": {
+    "message": "Profil dan bukti kelayakan kekal pada peranti ini. Semakan pop timbul dan diagnostik menghubungi pembekal mereka yang dinyatakan. Tiada pengiklanan atau analisis tingkah laku."
+  },
+  "policyDeclarationTitle": {
+    "message": "Pernyataan penggunaan dan ukuran"
+  },
+  "policyDeclarationSummary": {
+    "message": "Sambungan ini ialah pengurus laluan tempatan, bukan proksi atau pembekal VPN. Pengukuran ialah sampel rujukan yang dipengaruhi oleh rangkaian, proksi dan keadaan pembekal."
+  },
+  "policyFaqTitle": {
+    "message": "Soalan Lazim"
+  },
+  "policyFaqSummary": {
+    "message": "Pengiring Windows diperlukan untuk nod tempatan dan MTR. Latensi boleh berbeza antara penyemak imbas, sistem dan probe awam. Hentikan ujian atau kosongkan data setempat daripada Tetapan."
+  },
+  "policyDetailsLink": {
+    "message": "Baca butiran penuh ↗"
+  },
+  "thirdPartyNotice": {
+    "message": "Notis sumber terbuka ↗"
+  },
+  "columnResizeHelp": {
+    "message": "Seret untuk mengubah saiz; klik dua kali untuk menetapkan semula; gunakan kekunci anak panah untuk melaraskan"
+  },
+  "columnResize": {
+    "message": "Ubah saiz lajur"
+  },
+  "typeDescription_node": {
+    "message": "Sambung melalui nod proksi"
+  },
+  "typeDescription_manual": {
+    "message": "Masukkan tetapan proksi secara manual"
+  },
+  "typeDescription_auto": {
+    "message": "Pilih nod menggunakan peraturan"
+  },
+  "typeDescription_pac": {
+    "message": "Laluan trafik menggunakan peraturan PAC."
+  },
+  "appDescription": {
+    "message": "Urus laluan proksi penyemak imbas bebas, nod, peraturan domain dan semakan sambungan. Laluan nod memerlukan pasangan Windows."
+  },
+  "core_title": {
+    "message": "Teras proksi"
+  },
+  "core_checking": {
+    "message": "Menyemak komponen setempat…"
+  },
+  "core_ready": {
+    "message": "Xray sudah sedia"
+  },
+  "core_missing": {
+    "message": "Teras proksi tiada"
+  },
+  "core_external": {
+    "message": "Teras tersuai: tidak disahkan"
+  },
+  "core_corrupt": {
+    "message": "Xray checksum mismatch — pembaikan diperlukan"
+  },
+  "core_unreadable": {
+    "message": "Fail teras tidak dapat disemak"
+  },
+  "core_intro": {
+    "message": "Pakej Windows lengkap termasuk Xray. v2rayN adalah pilihan."
+  },
+  "core_verify": {
+    "message": "Semak semula"
+  },
+  "core_install": {
+    "message": "Pasang / baiki teras"
+  },
+  "core_installing": {
+    "message": "Memuat turun dan mengesahkan…"
+  },
+  "core_done": {
+    "message": "Teras disahkan dan sedia"
+  },
+  "core_help": {
+    "message": "Pembaikan menggunakan keluaran rasmi Xray yang disematkan dan mengesahkan jumlah semaknya. Sambungan sedia ada kekal berjalan."
+  },
+  "core_absent": {
+    "message": "Pasang komponen tempatan sekali, kemudian kembali ke sini untuk menyemak teras."
+  },
+  "core_download": {
+    "message": "Panduan pemasangan"
+  },
+  "core_absentHelp": {
+    "message": "Gunakan pakej Windows yang sepadan atau ikut panduan untuk membinanya daripada sumber, kemudian jalankan persediaan."
+  },
+  "core_failed": {
+    "message": "Operasi teras gagal. Cuba lagi atau gunakan pakej Windows yang lengkap."
+  },
+  "core_version": {
+    "message": "Versi"
+  },
+  "error_ACTIVE_PROFILE_DELETE": {
+    "message": "Tukar ke profil lain sebelum memadam"
+  },
+  "error_BACKUP_BINDING_TYPE": {
+    "message": "Hanya profil proksi boleh mempunyai ikatan laluan"
+  },
+  "error_BACKUP_FORMAT3_REQUIRED": {
+    "message": "Peraturan nod memerlukan sandaran mudah alih format 3"
+  },
+  "error_BACKUP_INDEPENDENT_PATH_REQUIRED": {
+    "message": "Sandaran mesti mengandungi laluan nod bebas"
+  },
+  "error_BACKUP_INTERNAL_BINDINGS": {
+    "message": "Sandaran mengandungi ikatan dalaman"
+  },
+  "error_BACKUP_MESSAGE_LIMIT": {
+    "message": "Sandaran nod melebihi had mesej aplikasi pendamping"
+  },
+  "error_BACKUP_NODES_INCOMPLETE": {
+    "message": "Sandaran nod tidak lengkap"
+  },
+  "error_BACKUP_NODE_MISSING": {
+    "message": "Sandaran kehilangan nod yang diperlukan"
+  },
+  "error_BACKUP_NODE_PATHS_LIMIT": {
+    "message": "Sandaran menyokong paling banyak {limit} laluan nod"
+  },
+  "error_BACKUP_PATH_INCOMPLETE": {
+    "message": "Laluan nod dalam sandaran tidak lengkap"
+  },
+  "error_BACKUP_PROFILES_LIMIT": {
+    "message": "Sandaran menyokong paling banyak {limit} profil"
+  },
+  "error_BACKUP_PROXY_CONFLICT": {
+    "message": "Sandaran mempunyai tetapan proksi yang bercanggah"
+  },
+  "error_BACKUP_SIZE_LIMIT": {
+    "message": "Sandaran melebihi {limit} MB"
+  },
+  "error_BACKUP_TRANSFER_UNAVAILABLE": {
+    "message": "Kemas kini atau baiki aplikasi pendamping untuk memindahkan sandaran nod."
+  },
+  "error_BACKUP_UNUSED_NODES": {
+    "message": "Sandaran mengandungi nod yang tidak dirujuk"
+  },
+  "error_BODY_TOO_LARGE": {
+    "message": "Respons langganan melebihi saiz yang dibenarkan."
+  },
+  "error_BROWSER_API_FAILED": {
+    "message": "Operasi pelayar gagal. Lihat butiran teknikal."
+  },
+  "error_BROWSER_PROXY_RESTORE_FAILED": {
+    "message": "Operasi gagal dan proksi pelayar sebelumnya tidak dapat dipulihkan"
+  },
+  "error_BROWSER_SCHEDULING_UNAVAILABLE": {
+    "message": "Penjadualan pelayar tidak tersedia."
+  },
+  "error_BUSY": {
+    "message": "Operasi lain sedang berjalan. Cuba lagi sebentar."
+  },
+  "error_CHAIN_PROBE_FAILED": {
+    "message": "Ujian rantaian gagal"
+  },
+  "error_COMPANION_BULK_RELEASE_REQUIRED": {
+    "message": "Naik taraf aplikasi pendamping setempat untuk mengurus berbilang peraturan nod dengan selamat"
+  },
+  "error_COMPANION_CHAINS_REQUIRED": {
+    "message": "Naik taraf aplikasi pendamping setempat untuk mendayakan rantaian tersusun"
+  },
+  "error_COMPANION_MESSAGE_LIMIT": {
+    "message": "Tetapan melebihi had mesej aplikasi pendamping"
+  },
+  "error_COMPANION_OPERATION_FAILED": {
+    "message": "Operasi aplikasi pendamping setempat gagal. Lihat butiran teknikal."
+  },
+  "error_COMPANION_UNAVAILABLE": {
+    "message": "Pasang atau baiki V2Route Companion"
+  },
+  "error_CONNECTION_CLOSED": {
+    "message": "Sambungan ditutup sebelum ujian selesai."
+  },
+  "error_CORE_INSTALL_FAILED": {
+    "message": "Pemasangan teras gagal. Lihat butiran teknikal."
+  },
+  "error_CORE_OWNERSHIP_FAILED": {
+    "message": "Teras ujian terasing tidak dapat dikawal dengan selamat. Ujian dihentikan."
+  },
+  "error_CORE_START_FAILED": {
+    "message": "Teras ujian terasing tidak dapat dimulakan. Semak pemasangan aplikasi pendamping dan teras."
+  },
+  "error_CORE_START_TIMEOUT": {
+    "message": "Teras ujian terasing tidak sedia dalam masa yang ditetapkan."
+  },
+  "error_CORE_STATUS_UNAVAILABLE": {
+    "message": "Status teras tidak tersedia. Lihat butiran teknikal."
+  },
+  "error_CORE_VALIDATION_FAILED": {
+    "message": "Xray tidak dapat mengesahkan nod yang diimport. Semak tetapannya dan cuba lagi."
+  },
+  "error_DETACH_PORT_CONFLICT": {
+    "message": "Port terurus akan dilepaskan. Masukkan proksi manual yang lain"
+  },
+  "error_DETACH_PROXY_REQUIRED": {
+    "message": "Masukkan proksi manual pengganti sebelum melepaskan ikatan"
+  },
+  "error_DNS_BUSY": {
+    "message": "Carian DNS sedang sibuk. Cuba lagi sebentar."
+  },
+  "error_DNS_FAILED": {
+    "message": "Carian DNS gagal. Semak alamat dan sambungan rangkaian."
+  },
+  "error_ENCODING_UNSUPPORTED": {
+    "message": "Langganan menggunakan pengekodan kandungan yang tidak disokong."
+  },
+  "error_FIREFOX_PRIVATE_ACCESS_REQUIRED": {
+    "message": "Benarkan V2Route dalam tetingkap peribadi melalui butiran sambungan sebelum mengubah tetapan proksi"
+  },
+  "error_FOLDER_UNAVAILABLE": {
+    "message": "Folder tidak tersedia; semak laluan, akses dan versi aplikasi pendamping"
+  },
+  "error_GROUP_LIMIT": {
+    "message": "Had kumpulan telah dicapai. Padam kumpulan yang tidak digunakan dan cuba lagi."
+  },
+  "error_GROUP_NOT_EDITABLE": {
+    "message": "Kumpulan sumber ini tidak boleh disunting di sini."
+  },
+  "error_GROUP_NOT_FOUND": {
+    "message": "Kumpulan yang dipilih tidak lagi wujud. Pilih kumpulan lain."
+  },
+  "error_HTTP_ENCODING": {
+    "message": "Pelayan ujian mengembalikan pengekodan yang tidak disokong."
+  },
+  "error_HTTP_LENGTH": {
+    "message": "Saiz respons ujian tidak sepadan dengan saiz yang diminta."
+  },
+  "error_HTTP_RESPONSE_TOO_LARGE": {
+    "message": "Respons ujian melebihi saiz yang dibenarkan."
+  },
+  "error_HTTP_STATUS": {
+    "message": "Pelayan ujian mengembalikan status HTTP yang tidak berjaya."
+  },
+  "error_IMPORTED_PROXY_MISSING": {
+    "message": "Aplikasi pendamping tidak mengembalikan proksi yang diimport"
+  },
+  "error_IMPORTED_RULE_PATH_CONFLICT": {
+    "message": "Nod yang diimport menghasilkan laluan peraturan yang bercanggah"
+  },
+  "error_IMPORT_CLEANUP_FAILED": {
+    "message": "Import gagal; beberapa nod atau port sementara tidak dapat dilepaskan. Profil sedia ada dikekalkan"
+  },
+  "error_IMPORT_PROFILE_NAME_CONFLICT": {
+    "message": "Nama profil pendua atau tidak sah"
+  },
+  "error_INCOMPLETE_RESPONSE": {
+    "message": "Respons langganan tidak lengkap. Cuba lagi."
+  },
+  "error_INVALID_BACKUP": {
+    "message": "Sandaran V2Route tidak sah"
+  },
+  "error_INVALID_BACKUP_NODE": {
+    "message": "Nod sandaran tidak sah atau pendua"
+  },
+  "error_INVALID_BACKUP_NODES": {
+    "message": "Nod sandaran tidak sah"
+  },
+  "error_INVALID_BACKUP_PATH": {
+    "message": "Laluan sandaran tidak sah"
+  },
+  "error_INVALID_BYPASS_ENTRY": {
+    "message": "Entri pintasan tidak sah"
+  },
+  "error_INVALID_BYPASS_LIST": {
+    "message": "Senarai pintasan tidak sah"
+  },
+  "error_INVALID_CHAIN": {
+    "message": "Rantaian tersusun tidak sah"
+  },
+  "error_INVALID_CHAIN_PROBE": {
+    "message": "Ujian rantaian tidak sah"
+  },
+  "error_INVALID_COMPANION_RESPONSE": {
+    "message": "Aplikasi pendamping setempat mengembalikan respons yang tidak sah. Kemas kini atau baikinya."
+  },
+  "error_INVALID_CONTENT": {
+    "message": "Respons langganan tidak mengandungi kandungan yang sah."
+  },
+  "error_INVALID_DOMAIN_PATTERNS": {
+    "message": "Masukkan corak domain yang dipisahkan dengan koma; letakkan setiap URL pada baris tersendiri"
+  },
+  "error_INVALID_ENCODING": {
+    "message": "Respons langganan bukan teks UTF-8 yang sah."
+  },
+  "error_INVALID_FOLDER_REQUEST": {
+    "message": "Permintaan folder tidak sah"
+  },
+  "error_INVALID_GROUP_ACTION": {
+    "message": "Tindakan kumpulan ini tidak disokong."
+  },
+  "error_INVALID_HOP_INDEX": {
+    "message": "Indeks lompatan tidak sah"
+  },
+  "error_INVALID_LEGACY_PREDECESSOR": {
+    "message": "Pendahulu lama tidak sah"
+  },
+  "error_INVALID_LIBRARY_COMMAND": {
+    "message": "Arahan pustaka nod ini tidak disokong."
+  },
+  "error_INVALID_LIBRARY_REQUEST": {
+    "message": "Permintaan pustaka tidak sah"
+  },
+  "error_INVALID_NAME": {
+    "message": "Masukkan nama dengan 1–128 aksara yang boleh dilihat tanpa aksara kawalan."
+  },
+  "error_INVALID_NETWORK_TEST": {
+    "message": "Ujian rangkaian tidak sah"
+  },
+  "error_INVALID_NODE_IMPORT_RESPONSE": {
+    "message": "Respons import nod tidak sah"
+  },
+  "error_INVALID_PREDECESSOR": {
+    "message": "Pendahulu untuk laluan ini tidak sah"
+  },
+  "error_INVALID_PROFILE_NAME": {
+    "message": "Nama profil tidak sah"
+  },
+  "error_INVALID_PROFILE_REFERENCE": {
+    "message": "Rujukan profil tidak sah"
+  },
+  "error_INVALID_PROXY_AUTH": {
+    "message": "Pengesahan proksi tidak sah"
+  },
+  "error_INVALID_PROXY_CREDENTIALS": {
+    "message": "Bukti kelayakan proksi tidak sah"
+  },
+  "error_INVALID_PROXY_ENDPOINT": {
+    "message": "Masukkan hos dan port proksi yang sah"
+  },
+  "error_INVALID_PROXY_HOST": {
+    "message": "Masukkan nama DNS atau alamat IP tanpa port, URL, laluan atau pertanyaan"
+  },
+  "error_INVALID_ROUTE": {
+    "message": "Laluan tidak sah"
+  },
+  "error_INVALID_ROUTE_SETTINGS": {
+    "message": "Tetapan laluan tidak sah"
+  },
+  "error_INVALID_RULES": {
+    "message": "Peraturan tidak sah"
+  },
+  "error_INVALID_RULE_TARGET": {
+    "message": "Pilih satu nod atau profil yang sah untuk setiap peraturan"
+  },
+  "error_INVALID_SUBSCRIPTION": {
+    "message": "Langganan tidak sah"
+  },
+  "error_INVALID_SUBSCRIPTION_REQUEST": {
+    "message": "Permintaan langganan tidak sah"
+  },
+  "error_INVALID_SUBSCRIPTION_SETTINGS": {
+    "message": "Tetapan langganan tidak sah. Semak sela kemas kini dan dasar sambungan."
+  },
+  "error_INVALID_SYSTEM_PROXY_RESPONSE": {
+    "message": "Respons proksi sistem tidak sah; kemas kini atau baiki aplikasi pendamping"
+  },
+  "error_INVALID_TRANSPORT": {
+    "message": "Tetapan sambungan langganan tidak sah."
+  },
+  "error_INVALID_URL": {
+    "message": "Masukkan URL langganan HTTP(S) yang sah tanpa nama pengguna atau kata laluan."
+  },
+  "error_LIBRARY_CHANGED": {
+    "message": "Pustaka nod berubah dalam tetingkap lain. Muat semula dan cuba lagi."
+  },
+  "error_MANUAL_CHAIN_UNSUPPORTED": {
+    "message": "Proksi manual tidak menerima rantaian nod"
+  },
+  "error_MANUAL_PROXY_CLEANUP_FAILED": {
+    "message": "Gagal menyimpan; proksi import sementara masih berada dalam pustaka nod"
+  },
+  "error_NATIVE_BINDING_ID": {
+    "message": "Pengecam ikatan laluan tidak sah."
+  },
+  "error_NATIVE_BINDING_UNKNOWN": {
+    "message": "Ikatan laluan tidak wujud."
+  },
+  "error_NATIVE_BUTTON_NAME": {
+    "message": "Nama butang mesti mengandungi 1–128 aksara yang boleh dilihat."
+  },
+  "error_NATIVE_CATALOG_UNREADABLE": {
+    "message": "Konfigurasi v2rayN tidak dapat dibaca."
+  },
+  "error_NATIVE_CORE_MISSING": {
+    "message": "Xray tidak tersedia. Pasang pakej pendamping."
+  },
+  "error_NATIVE_GROUP_ID_COLLISION": {
+    "message": "Pengecam kumpulan bercanggah."
+  },
+  "error_NATIVE_GROUP_ORDER": {
+    "message": "Susunan kumpulan tidak sah."
+  },
+  "error_NATIVE_NODE_ID_COLLISION": {
+    "message": "Pengecam nod bercanggah."
+  },
+  "error_NATIVE_PREDECESSOR_AMBIGUOUS": {
+    "message": "Nama pendahulu tiada atau berulang. Pilih nod pendahulu tertentu."
+  },
+  "error_NATIVE_PREDECESSOR_CYCLE": {
+    "message": "Rantaian pendahulu mengandungi kitaran atau melebihi enam nod."
+  },
+  "error_NATIVE_PREDECESSOR_INVALID": {
+    "message": "Pilih proksi pendahulu yang sah."
+  },
+  "error_NATIVE_PREDECESSOR_MISSING": {
+    "message": "Pendahulu yang dipilih tidak lagi wujud. Pilih nod lain."
+  },
+  "error_NATIVE_PREDECESSOR_SETTINGS": {
+    "message": "Tetapan pendahulu tidak sah."
+  },
+  "error_NATIVE_ROUTE_INVALID": {
+    "message": "Pilih laluan yang sah."
+  },
+  "error_NATIVE_ROUTE_MISSING": {
+    "message": "Laluan ini tidak lagi wujud. Pilih laluan lain."
+  },
+  "error_NATIVE_ROUTE_PORTS": {
+    "message": "Peruntukan port laluan tidak sah."
+  },
+  "error_NATIVE_ROUTE_UNAVAILABLE": {
+    "message": "Laluan yang dipilih tidak tersedia. Lihat butiran teknikal."
+  },
+  "error_NATIVE_SETTINGS_FORMAT": {
+    "message": "Format tetapan tidak sah."
+  },
+  "error_NATIVE_SETTINGS_REVISION": {
+    "message": "Semakan tetapan tidak sah."
+  },
+  "error_NATIVE_SUCCESSOR_UNSUPPORTED": {
+    "message": "Kumpulan ini menggunakan proksi penerus yang tidak disokong."
+  },
+  "error_NATIVE_UNSUPPORTED_CUSTOM": {
+    "message": "Versi ini tidak menyokong konfigurasi keluar tersuai."
+  },
+  "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
+    "message": "Versi ini tidak menyokong Hysteria2."
+  },
+  "error_NATIVE_UNSUPPORTED_TUIC": {
+    "message": "Versi ini tidak menyepadukan teras sing-box yang diperlukan untuk TUIC."
+  },
+  "error_NATIVE_UNSUPPORTED_TYPE": {
+    "message": "Jenis laluan ini tidak disokong."
+  },
+  "error_NATIVE_V2RAYN_PORT": {
+    "message": "Port v2rayN setempat tidak sah."
+  },
+  "error_NATIVE_V2RAYN_UNAVAILABLE": {
+    "message": "v2rayN tidak tersedia. Pilih nod yang diimport."
+  },
+  "error_NETWORK_FAILED": {
+    "message": "Permintaan rangkaian gagal. Semak sambungan dan cuba lagi."
+  },
+  "error_NETWORK_TEST_FAILED": {
+    "message": "Diagnostik rangkaian gagal. Lihat butiran teknikal."
+  },
+  "error_NODE_LIMIT": {
+    "message": "Operasi ini akan melebihi had nod. Padam nod yang tidak digunakan dan cuba lagi."
+  },
+  "error_NODE_MAPPING_INCOMPLETE": {
+    "message": "Pemetaan nod tidak lengkap"
+  },
+  "error_NODE_NOT_FOUND": {
+    "message": "Nod yang dipilih tidak lagi wujud. Pilih nod lain."
+  },
+  "error_NOT_DUE": {
+    "message": "Belum tiba masa kemas kini berjadual yang seterusnya."
+  },
+  "error_PAC_ENTRY_REQUIRED": {
+    "message": "Masukkan sumber PAC dengan FindProxyForURL"
+  },
+  "error_PAC_FUNCTION_REQUIRED": {
+    "message": "Takrifkan fungsi FindProxyForURL segerak peringkat teratas, pemboleh ubah fungsi atau penetapan"
+  },
+  "error_PAC_PARSER_UNAVAILABLE": {
+    "message": "Penghurai PAC yang disertakan tidak tersedia; pasang semula sambungan"
+  },
+  "error_PAC_RULE_TARGET_UNSUPPORTED": {
+    "message": "Peraturan automatik tidak boleh menyasarkan profil PAC sebaris"
+  },
+  "error_PAC_SOURCE_LIMIT": {
+    "message": "Masukkan sumber PAC dengan paling banyak {limit} aksara"
+  },
+  "error_PAC_SYNTAX_INVALID": {
+    "message": "Sintaks PAC tidak sah"
+  },
+  "error_PAC_SYNTAX_LOCATION": {
+    "message": "Sintaks PAC tidak sah pada baris {line}, lajur {column}"
+  },
+  "error_PARTIAL_TRANSFER": {
+    "message": "Pemindahan ujian tamat sebelum semua data diterima."
+  },
+  "error_PRIVATE_DIRECTORY_FAILED": {
+    "message": "Folder ujian peribadi tidak dapat dilindungi. Ujian dihentikan."
+  },
+  "error_PRIVATE_TARGET": {
+    "message": "Permintaan langganan ke alamat peribadi atau setempat tidak dibenarkan."
+  },
+  "error_PROFILE_NOT_FOUND": {
+    "message": "Profil tidak ditemui"
+  },
+  "error_PROFILE_REFERENCE_CYCLE": {
+    "message": "Rujukan profil berkitar"
+  },
+  "error_PROFILE_REFERENCE_DEPTH": {
+    "message": "Peraturan automatik melebihi kedalaman maksimum {limit}"
+  },
+  "error_PROFILE_REFERENCE_MISSING": {
+    "message": "Profil yang dirujuk tidak wujud: {name}"
+  },
+  "error_PROFILE_SAVE_RESTORE_FAILED": {
+    "message": "Gagal menyimpan dan pemulihan laluan memerlukan perhatian"
+  },
+  "error_PROXY_AUTH_REQUIRED": {
+    "message": "Proksi langganan memerlukan pengesahan yang tidak dapat disediakan oleh permintaan ini."
+  },
+  "error_PROXY_CONTROL_UNAVAILABLE": {
+    "message": "Sambungan atau dasar lain mengawal proksi"
+  },
+  "error_PROXY_DNS_REQUIRED": {
+    "message": "DNS SOCKS5 diselesaikan melalui proksi dalam V2Route"
+  },
+  "error_PROXY_FAILED": {
+    "message": "Sambungan proksi gagal. Semak laluan yang dipilih."
+  },
+  "error_PROXY_PROFILE_REQUIRED": {
+    "message": "Pilih profil proksi"
+  },
+  "error_PROXY_ROLLBACK_REFUSED": {
+    "message": "Pelayar menolak pemulihan proksi sebelumnya"
+  },
+  "error_PROXY_SETTING_REFUSED": {
+    "message": "Pelayar menolak tetapan proksi"
+  },
+  "error_PROXY_UNAVAILABLE": {
+    "message": "Proksi yang dipilih tidak tersedia. Semak laluan semasa."
+  },
+  "error_PROXY_USERNAME_REQUIRED": {
+    "message": "Masukkan nama pengguna proksi"
+  },
+  "error_RECOVERY_BINDINGS_LIMIT": {
+    "message": "Pemulihan boleh mengembalikan paling banyak {limit} ikatan nod. Buka dan simpan profil yang dirujuk secara berasingan."
+  },
+  "error_REDIRECT_LIMIT": {
+    "message": "Langganan mengubah hala terlalu banyak kali. Semak URL-nya."
+  },
+  "error_REFERENCED_PROFILE_DELETE": {
+    "message": "Profil ini dirujuk oleh peraturan automatik"
+  },
+  "error_REMOTE_PAC_UNSUPPORTED": {
+    "message": "Gunakan sumber PAC sebaris; PAC jauh tidak disokong"
+  },
+  "error_ROUTE_PORT_UNAVAILABLE": {
+    "message": "Tiada port diperuntukkan"
+  },
+  "error_ROUTE_RECOVERY_RESTORE_FAILED": {
+    "message": "Pemulihan laluan gagal dan pengembalian keadaan memerlukan perhatian"
+  },
+  "error_ROUTE_REVISION_CONFLICT": {
+    "message": "Laluan berubah dalam tetingkap lain. Muat semula dahulu"
+  },
+  "error_ROUTE_SAVE_ROLLBACK_FAILED": {
+    "message": "Penyimpanan laluan gagal dan pengembalian keadaan memerlukan perhatian"
+  },
+  "error_ROUTE_UNAVAILABLE": {
+    "message": "Laluan ujian tidak tersedia. Semak tetapan nod dan pendahulu."
+  },
+  "error_RULE_BINDING_MISSING": {
+    "message": "Ikatan peraturan nod tiada. Buka semula dan simpan profil automatik: {name}"
+  },
+  "error_RULE_NODES_LIMIT": {
+    "message": "Peraturan automatik menyokong paling banyak {limit} nod berbeza"
+  },
+  "error_RULE_NODE_CHANGED": {
+    "message": "Peraturan nod tidak tersedia atau berubah. Pulihkan nod atau pilih nod lain dan simpan: {name}"
+  },
+  "error_RULE_PATH_CONFLICT": {
+    "message": "Laluan peraturan nod bercanggah"
+  },
+  "error_RULE_PATTERNS_LIMIT": {
+    "message": "Peraturan automatik menyokong jumlah paling banyak {limit} corak padanan"
+  },
+  "error_RULE_PORT_UNAVAILABLE": {
+    "message": "Port peraturan nod tidak tersedia"
+  },
+  "error_RULE_REVISION_CONFLICT": {
+    "message": "Peraturan nod berubah dalam tetingkap lain. Muat semula dahulu"
+  },
+  "error_SELECTED_NODE_UNAVAILABLE": {
+    "message": "Nod yang dipilih tidak tersedia. Pulihkannya atau pilih nod lain"
+  },
+  "error_SOCKS_FAILED": {
+    "message": "Sambungan SOCKS tidak dapat diwujudkan."
+  },
+  "error_STARTUP_FALLBACK_REFUSED": {
+    "message": "Pelayar menolak proksi sandaran semasa permulaan."
+  },
+  "error_SUBSCRIPTION_CHANGED": {
+    "message": "Langganan berubah semasa kemas kini. Muat semula dan cuba lagi."
+  },
+  "error_SUBSCRIPTION_HTTP_STATUS": {
+    "message": "Pelayan langganan mengembalikan HTTP {status}."
+  },
+  "error_SUBSCRIPTION_LIMIT": {
+    "message": "Had langganan telah dicapai. Padam langganan yang tidak digunakan dan cuba lagi."
+  },
+  "error_SUBSCRIPTION_NOT_FOUND": {
+    "message": "Langganan yang dipilih tidak lagi wujud."
+  },
+  "error_SYSTEM_PROXY_SNAPSHOT_UNAVAILABLE": {
+    "message": "Petikan keadaan proksi sistem yang digunakan tidak tersedia."
+  },
+  "error_SYSTEM_PROXY_TIMEOUT": {
+    "message": "Pembacaan proksi sistem tamat masa"
+  },
+  "error_SYSTEM_PROXY_UNAVAILABLE": {
+    "message": "Proksi sistem tidak tersedia. Lihat butiran teknikal."
+  },
+  "error_TIMEOUT": {
+    "message": "Permintaan tamat masa. Semak sambungan dan cuba lagi."
+  },
+  "error_TLS_DOWNGRADE": {
+    "message": "Langganan diubah hala daripada HTTPS kepada HTTP lalu disekat."
+  },
+  "error_TLS_FAILED": {
+    "message": "Sambungan selamat tidak dapat disahkan. Semak pelayan dan sijil."
+  },
+  "error_UNSAFE_TEMP_PATH": {
+    "message": "Folder ujian sementara tidak selamat. Ujian dihentikan."
+  },
+  "error_UNSUPPORTED_LIBRARY_REQUEST": {
+    "message": "Permintaan pustaka tidak disokong"
+  },
+  "error_UNSUPPORTED_PROFILE_TYPE": {
+    "message": "Jenis profil tidak disokong"
+  },
+  "error_UNSUPPORTED_REQUEST": {
+    "message": "Permintaan tidak disokong"
+  },
+  "error_UNSUPPORTED_RULE_CONDITION": {
+    "message": "Hanya peraturan kad bebas hos dan URL disokong"
+  },
+  "error_UPDATE_FAILED": {
+    "message": "Kemas kini langganan gagal. Nod sedia ada dikekalkan."
+  },
+  "error_VALIDATION_FAILED": {
+    "message": "Kandungan langganan tidak dapat disahkan. Nod sedia ada dikekalkan."
+  },
+  "nativeUnnamedNode": {
+    "message": "Nod tanpa nama"
+  },
+  "nativeProtocolCustom": {
+    "message": "Tersuai"
+  },
+  "nativeProtocolOutbound": {
+    "message": "Sambungan keluar tersuai"
+  },
+  "nativeProtocolGroup": {
+    "message": "Kumpulan dasar"
+  },
+  "nativeProtocolChain": {
+    "message": "Rantaian proksi"
+  },
+  "nativeProtocolUnknown": {
+    "message": "Jenis tidak disokong"
+  },
+  "languageLoadFailed": {
+    "message": "Bahasa yang dipilih tidak dapat dimuatkan. Cuba lagi."
+  },
+  "invalidBackupJSON": {
+    "message": "Sandaran bukan JSON yang sah."
+  },
+  "noticeBodyLanguages": {
+    "message": "Teks dasar penuh tersedia dalam bahasa Inggeris dan Cina Ringkas."
+  },
+  "policyRules": {
+    "message": "Peraturan penghalaan proksi"
+  },
+  "policyPriority": {
+    "message": "Turutan: alamat tanpa proksi → peraturan sepadan pertama → laluan lalai."
+  },
+  "policyDirectHelp": {
+    "message": "Alamat tidak sepadan bersambung terus. Butang Terus dalam tetingkap timbul turut menggunakan peraturan ini."
+  },
+  "policySystemHelp": {
+    "message": "Alamat tidak sepadan menggunakan proksi sistem. Butang Sistem dalam tetingkap timbul turut menggunakan peraturan ini."
+  },
+  "policyEmpty": {
+    "message": "Tiada peraturan. Laluan lalai digunakan."
+  },
+  "policyAddressHelp": {
+    "message": "Domain, domain kad bebas, IP atau IP:port. Peraturan IP memadankan IP dalam URL, bukan hasil DNS."
+  },
+  "policyMoveUp": {
+    "message": "Alih peraturan ke atas"
+  },
+  "policyMoveDown": {
+    "message": "Alih peraturan ke bawah"
+  }
+}

@@ -1,0 +1,235 @@
+/* Compact diagnostics. Uses the shared Silver & Ice light/dark tokens. */
+.ip-tools-layout{display:grid;grid-template-columns:minmax(0,1fr) 252px;gap:16px;align-items:start}
+.ip-tools-layout>.card{padding:20px;min-width:0}.ip-tools-layout h2{font-size:17px;margin:0 0 10px}
+.ip-small{font-size:11px;line-height:1.6;margin:0 0 10px}.ip-context{display:flex;align-items:baseline;flex-wrap:wrap;gap:7px 12px;margin-bottom:7px}.ip-context .ip-small{margin:0}.ip-context strong{font-size:14px;overflow-wrap:anywhere}
+.ip-disclosure{font-size:12px;line-height:1.65;border-left:2px solid var(--accent);padding:2px 0 2px 11px;margin:15px 0}
+.ip-controls{display:flex;align-items:center;gap:9px;margin-bottom:9px;flex-wrap:wrap}.ip-controls select{width:145px;min-height:37px;padding:8px 10px}.ip-controls .button{min-height:37px;padding:9px 14px}
+.ip-check-card .ip-check-toolbar>.ip-controls{display:grid;grid-template-columns:minmax(0,1fr);width:140px;max-width:100%}
+.ip-check-card .ip-check-toolbar>.ip-controls>:is(.themed-select,select,.button){box-sizing:border-box;width:100%;min-width:0;max-width:100%}
+.ip-result{margin-top:17px;border-top:1px solid var(--border);padding-top:14px}.ip-address-line{display:flex;align-items:center;gap:12px;justify-content:space-between;margin-bottom:8px}.ip-address{font:600 23px/1.4 Consolas,monospace;overflow-wrap:anywhere;min-width:0;color:var(--text)}.ip-address-line .button{flex:none;padding:6px 10px;font-size:11px;min-height:32px}
+.ip-address-copy{display:block;min-width:0;max-width:100%;padding:3px 5px;margin-left:-5px;border:0;border-radius:6px;background:transparent;text-align:left;cursor:pointer;transition:background-color .15s,box-shadow .15s}
+.ip-address-copy .ip-address{user-select:text}.ip-address-copy:hover{background:color-mix(in srgb,var(--accent) 10%,transparent)}.ip-address-copy[aria-disabled=true],.ip-copy-button[aria-disabled=true]{cursor:progress}
+.ip-address-line[data-copy-state=success] .ip-address-copy{background:color-mix(in srgb,var(--accent) 14%,transparent);box-shadow:0 0 0 2px color-mix(in srgb,var(--accent) 40%,transparent)}
+.ip-address-line[data-copy-state=success] .ip-copy-button{color:var(--accent);border-color:var(--accent)}
+.ip-copy-feedback{min-height:1.5em;font-size:11px;line-height:1.5;color:var(--accent);margin:0 0 10px}.ip-copy-feedback.error{color:var(--danger)}
+.ip-network-custom{display:grid;grid-template-columns:minmax(0,1fr) 120px;gap:12px;margin:8px 0 14px;max-width:620px}.ip-network-custom[hidden]{display:none}.ip-network-custom label{display:grid;min-width:0;gap:5px}.ip-network-custom .ip-small{margin:0}.ip-network-custom input{width:100%;min-width:0;min-height:38px}
+@media(max-width:480px){.ip-network-custom{grid-template-columns:minmax(0,1fr) 90px;gap:9px}.ip-address-line{gap:8px}}
+@media(prefers-reduced-motion:reduce){.ip-address-copy{transition:none}}
+.ip-message{font-size:12px;line-height:1.5;color:var(--accent);margin:10px 0}.ip-message:empty{display:none}.ip-message.error{color:var(--danger)}.ip-empty{font-size:12px;color:var(--muted);margin:9px 0 2px;line-height:1.6}.ip-report{border:0;background:none;padding:0;cursor:pointer;text-align:left;color:var(--accent);font-size:11px}
+.ip-result-stale{color:var(--accent);background:var(--accent-soft);padding:7px 9px;border-radius:5px}
+.ip-links-card .ip-external{display:block;font-size:12px;color:var(--accent);font-weight:600;border-top:1px solid var(--border);padding:11px 0;text-decoration:none}.ip-external small{display:block;font-size:10px;font-weight:400;margin-top:4px}.ip-links-card>.ip-small:last-child{margin-top:6px;margin-bottom:0}
+
+.popup-tool{display:block;width:calc(100% - 34px);margin:0 17px 12px;border:1px solid var(--border);border-radius:7px;background:var(--surface-soft);color:var(--accent);padding:9px 12px;text-align:left;font-size:12px;cursor:pointer}.popup-tool:hover{background:var(--accent-soft)}
+@media(max-width:1050px){.sidebar-bottom>[data-i18n=privacy],.sidebar-bottom>.local-dot{display:none}.sidebar{gap:12px}.nav-item{padding-inline:12px}.ip-tools-layout{grid-template-columns:minmax(0,1fr) 220px}.ip-tools-layout>.card{padding:17px}.ip-address{font-size:20px}}
+@media(max-width:760px){.ip-tools-layout{grid-template-columns:1fr}.ip-links-card{grid-row:4}.ip-controls select{width:155px}}
+@media(max-width:650px){.sidebar nav{gap:0}.nav-item{flex:1;min-width:0;justify-content:center;padding-inline:7px}.nav-symbol{display:none}}
+
+/* Public report contains only inert text copied from the selected result rows. */
+.ip-public-report{margin-top:20px;border-top:1px solid var(--border);padding-top:16px}
+.ip-public-table{width:100%;border-collapse:collapse;table-layout:fixed;margin:8px 0 12px;font-size:13px;line-height:1.6}
+.ip-public-table th,.ip-public-table td{padding:10px 8px;border-bottom:1px solid var(--border);vertical-align:top;text-align:left;overflow-wrap:anywhere}
+.ip-public-table th{width:28%;font-weight:500;color:var(--muted)}
+.ip-public-report>.ip-external{font-size:12px;color:var(--accent)}
+#ip-public-check{margin:2px 0 12px;max-width:100%;white-space:normal}
+#ip-public-original[hidden]{display:none}
+@media(max-width:560px){.ip-public-table th{width:30%}.ip-public-table th,.ip-public-table td{padding:9px 5px}}
+
+.ip-network-card{grid-column:1/-1}
+
+/* Provider report: retain exact text, with explicit classifications in colour. */
+.ip-public-report{--report-good:#176f47;--report-good-bg:#e5f5ec;--report-good-line:#b8ddc8;--report-warm:#815512;--report-warm-bg:#fff2d7;--report-warm-line:#eed29a;--report-coral:#a53f55;--report-coral-bg:#ffedf0;--report-coral-line:#ebc0c9;--report-neutral:#496388;--report-neutral-bg:#ecf2fb;--report-neutral-line:#cfdded}
+.ip-public-report h2{font-size:17px;letter-spacing:-.2px;margin-bottom:14px}
+.ip-public-table{border-collapse:separate;border-spacing:0;overflow:hidden;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin:0 0 14px}
+.ip-public-table th,.ip-public-table td{padding:12px 14px;vertical-align:middle;border-bottom:1px solid color-mix(in srgb,var(--border) 70%,transparent)}
+.ip-public-table th{width:29%;font-size:12px;background:color-mix(in srgb,var(--surface-soft) 65%,transparent);font-weight:550}
+.ip-public-table tr:nth-child(even) td{background:color-mix(in srgb,var(--surface-soft) 50%,var(--surface))}
+.ip-public-table tr:last-child :is(th,td){border-bottom:0}
+.ip-public-table td{color:var(--text);font-size:13px}
+.ip-public-table [data-report-field=asn] td{color:var(--accent);font:600 12px/1.6 Consolas,monospace}
+.ip-result-badge{display:inline-flex;align-items:center;gap:7px;max-width:100%;padding:4px 11px;border-radius:999px;border:1px solid var(--report-neutral-line);background:var(--report-neutral-bg);color:var(--report-neutral);font-size:12px;line-height:1.5;font-weight:650;vertical-align:middle;overflow-wrap:anywhere}
+.ip-tone-good{background:var(--report-good-bg);border-color:var(--report-good-line);color:var(--report-good)}
+.ip-tone-warm{background:var(--report-warm-bg);border-color:var(--report-warm-line);color:var(--report-warm)}
+.ip-tone-coral{background:var(--report-coral-bg);border-color:var(--report-coral-line);color:var(--report-coral)}
+.ip-risk-badge::before{content:'';flex:0 0 6px;width:6px;height:6px;border-radius:50%;background:currentColor}
+.ip-public-table :is([data-report-field=owner],[data-report-field=organization]) .ip-result-badge{font-size:10px;border-radius:5px;padding:0 5px;margin-right:4px}
+:root[data-theme=dark] .ip-public-report{--report-good:#91dfb3;--report-good-bg:#203e38;--report-good-line:#3d6855;--report-warm:#f4cf87;--report-warm-bg:#443c2d;--report-warm-line:#766244;--report-coral:#ffb0bd;--report-coral-bg:#483043;--report-coral-line:#7c4a61;--report-neutral:#b6c9e6;--report-neutral-bg:#2c405f;--report-neutral-line:#4b6584}
+@media(prefers-color-scheme:dark){:root[data-theme=auto] .ip-public-report{--report-good:#91dfb3;--report-good-bg:#203e38;--report-good-line:#3d6855;--report-warm:#f4cf87;--report-warm-bg:#443c2d;--report-warm-line:#766244;--report-coral:#ffb0bd;--report-coral-bg:#483043;--report-coral-line:#7c4a61;--report-neutral:#b6c9e6;--report-neutral-bg:#2c405f;--report-neutral-line:#4b6584}}
+@media(max-width:560px){.ip-public-table th,.ip-public-table td{padding:10px 9px}.ip-public-table th{width:31%;font-size:11px}.ip-result-badge{padding:3px 9px;font-size:11px}.ip-public-table td{font-size:12px}}
+
+/* Compact provider form shares the site's glass surfaces and theme tokens. */
+.ip-tool-dialog[data-kind=pingpe] {
+  width: min(880px, calc(100vw - 40px));
+  height: fit-content;
+  max-height: calc(100dvh - 40px);
+}
+.ip-tool-dialog[data-kind=pingpe] .ip-tool-surface {
+  height: auto;
+  background: var(--panel-glass, var(--surface));
+}
+.ip-tool-dialog[data-kind=pingpe] .ip-tool-header {
+  padding: 16px 20px;
+}
+.ip-tool-dialog[data-kind=pingpe] .ip-tool-body {
+  padding: 22px 20px;
+  overflow: visible;
+}
+.ip-pingpe .ip-pingpe-controls {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 14px;
+}
+.ip-pingpe .ip-pingpe-controls label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+  margin: 0;
+}
+.ip-pingpe .ip-pingpe-controls label[hidden] {
+  display: none;
+}
+.ip-pingpe-controls label > .ip-small {
+  flex: none;
+  margin: 0;
+  color: var(--support-ink, var(--text));
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.ip-pingpe .ip-pingpe-target {
+  flex: 1;
+}
+.ip-pingpe .ip-pingpe-method {
+  flex: none;
+}
+.ip-pingpe .ip-pingpe-port {
+  flex: none;
+}
+.ip-pingpe-controls input,
+.ip-pingpe-controls select,
+.ip-pingpe-controls .themed-select {
+  min-width: 0;
+  width: 100%;
+}
+.ip-pingpe .ip-pingpe-controls input,
+.ip-pingpe .ip-pingpe-controls .themed-select-trigger,
+.ip-pingpe .ip-pingpe-controls > button {
+  height: 44px;
+  box-sizing: border-box;
+}
+.ip-pingpe .ip-pingpe-controls > button {
+  flex: none;
+  min-width: 136px;
+  white-space: nowrap;
+  padding-inline: 16px;
+}
+.ip-pingpe .ip-tool-status {
+  margin: 12px 0 0;
+}
+.ip-pingpe .ip-tool-status:empty {
+  display: none;
+}
+.ip-side-column #ip-public-original.ip-original-action {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  min-height: 36px;
+  padding: 7px 12px;
+  border: 1px solid var(--control-outline, var(--border));
+  border-radius: 9px;
+  background: var(--surface);
+  color: var(--accent);
+  font-size: 14px;
+  font-weight: 650;
+}
+#ip-public-original .ip-original-icon {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.ip-pingpe .ip-pingpe-method .themed-select {
+  flex: none;
+  width: 100px;
+}
+.ip-pingpe .ip-pingpe-port input {
+  flex: none;
+  width: 84px;
+  padding-inline: 10px;
+}
+
+/* MTR keeps hop/metrics columns compact so long addresses never widen the
+ * desktop card; the scroll container handles narrower windows. */
+.ip-tools-layout .ip-network-card .network-mtr-table { table-layout:fixed; min-width:832px; }
+.ip-tools-layout .ip-network-card .network-mtr-table th,
+.ip-tools-layout .ip-network-card .network-mtr-table td { overflow:hidden; text-overflow:ellipsis; }
+.ip-tools-layout .ip-network-card .network-mtr-table :is(th,td):nth-child(1) { width:42px; }
+.ip-tools-layout .ip-network-card .network-mtr-table :is(th,td):nth-child(2) { width:180px; max-width:180px; text-align:left; }
+.ip-tools-layout .ip-network-card .network-mtr-table :is(th,td):nth-child(3) { width:90px; }
+.ip-tools-layout .ip-network-card .network-mtr-table :is(th,td):nth-child(4),
+.ip-tools-layout .ip-network-card .network-mtr-table :is(th,td):nth-child(5) { width:80px; }
+.ip-tools-layout .ip-network-card .network-mtr-table :is(th,td):nth-child(n+6) { width:90px; }
+
+/* The report and tools share their natural grid-row height. */
+.ip-tools-layout > .ip-check-card,
+.ip-tools-layout > .ip-side-column { align-self:stretch; }
+.ip-tools-layout > .ip-side-column { align-content:stretch; grid-template-rows:1fr; }
+.ip-tools-layout > .ip-side-column > .ip-links-card { align-self:stretch; }
+.ip-tools-layout .ip-brief { margin:0; color:var(--support-ink,var(--muted)); font-size:12px; line-height:1.6; white-space:nowrap; }
+.ip-side-column .ip-tools-brief { margin-top:14px; }
+
+.ip-tools-layout .ip-check-card .ip-check-toolbar { grid-template-columns:minmax(0,1fr) 288px; grid-template-areas:'context context' 'summary controls'; align-items:start; gap:8px 18px; }
+.ip-tools-layout .ip-check-toolbar .ip-context-block { display:flex; grid-area:context; min-width:0; gap:10px; align-items:center; }
+.ip-tools-layout .ip-check-toolbar .ip-context-block .ip-disclosure { margin-left:auto; }
+.ip-tools-layout .ip-check-toolbar > .ip-address-summary { grid-area:summary; }
+.ip-tools-layout .ip-check-toolbar > .ip-controls { grid-area:controls; display:grid; grid-template-columns:140px 140px; width:288px; max-width:100%; margin:0; gap:8px; }
+.ip-tools-layout .ip-check-toolbar > .ip-controls > :is(.themed-select,select,.button) { width:100%; min-width:0; }
+.ip-tools-layout .ip-check-card .ip-context { flex-wrap:nowrap; min-height:34px; }
+.ip-tools-layout .ip-check-card .ip-context .ip-small { flex:none; }
+.ip-tools-layout .ip-check-card .ip-context strong { min-width:0; }
+.ip-tools-layout .ip-check-card .ip-disclosure { margin:0; }
+.ip-tools-layout .ip-check-card .ip-address-summary {
+  box-sizing:border-box;
+  width:100%;
+  height:64px;
+  min-height:64px;
+  align-self:start;
+}
+.ip-tools-layout .ip-check-card .ip-address-line { min-height:42px; }
+.ip-tools-layout .ip-check-card .ip-result-meta { min-height:20px; line-height:20px; margin-top:2px; }
+.ip-tools-layout .ip-check-card .ip-copy-feedback:empty { display:none; margin:0; min-height:0; }
+/* MTR compact columns: keep the address and location readable without reserving a
+ * large empty spacer. Native MTR returns hop IPs only; location stays an honest
+ * dash unless an upstream supplies a location field. */
+.network-mtr-table { min-width:0 !important; width:100%; }
+.network-mtr-table th:nth-child(1),.network-mtr-table td:nth-child(1) { width:4% !important; }
+.network-mtr-table th:nth-child(2),.network-mtr-table td:nth-child(2) { width:18% !important; max-width:none; }
+.network-mtr-table th:nth-child(3),.network-mtr-table td:nth-child(3) { width:7% !important; }
+.network-mtr-table th:nth-child(4),.network-mtr-table td:nth-child(4),
+.network-mtr-table th:nth-child(5),.network-mtr-table td:nth-child(5) { width:7% !important; }
+.network-mtr-table th:nth-child(6),.network-mtr-table td:nth-child(6),
+.network-mtr-table th:nth-child(7),.network-mtr-table td:nth-child(7),
+.network-mtr-table th:nth-child(8),.network-mtr-table td:nth-child(8),
+.network-mtr-table th:nth-child(9),.network-mtr-table td:nth-child(9),
+.network-mtr-table th:nth-child(10),.network-mtr-table td:nth-child(10) { width:8% !important; }
+.network-mtr-table th:nth-child(11),.network-mtr-table td:nth-child(11) { width:16% !important; }
+.ip-tools-layout .ip-network-card .network-mtr-table { min-width:0 !important; width:100%; }
+.ip-tools-layout .ip-network-card .network-mtr-table :is(th,td):nth-child(1) { width:4% !important; }
+.ip-tools-layout .ip-network-card .network-mtr-table :is(th,td):nth-child(2) { width:18% !important; max-width:none; }
+.ip-tools-layout .ip-network-card .network-mtr-table :is(th,td):nth-child(3) { width:7% !important; }
+.ip-tools-layout .ip-network-card .network-mtr-table :is(th,td):nth-child(4),
+.ip-tools-layout .ip-network-card .network-mtr-table :is(th,td):nth-child(5) { width:7% !important; }
+.ip-tools-layout .ip-network-card .network-mtr-table :is(th,td):nth-child(n+6):nth-child(-n+10) { width:8% !important; }
+.ip-tools-layout .ip-network-card .network-mtr-table :is(th,td):nth-child(11) { width:16% !important; }
+
+
+/* Final compact MTR sizing: keep hop IP/location visible without a forced spacer. */
+.ip-tools-layout .ip-network-card .network-mtr-table { table-layout:fixed; min-width:0 !important; width:100% !important; }
+.ip-tools-layout .ip-network-card .network-mtr-table :is(th,td):nth-child(1) { width:4% !important; }
+.ip-tools-layout .ip-network-card .network-mtr-table :is(th,td):nth-child(2) { width:18% !important; max-width:none !important; text-align:left; }
+.ip-tools-layout .ip-network-card .network-mtr-table :is(th,td):nth-child(3) { width:7% !important; }
+.ip-tools-layout .ip-network-card .network-mtr-table :is(th,td):nth-child(4),
+.ip-tools-layout .ip-network-card .network-mtr-table :is(th,td):nth-child(5) { width:7% !important; }
+.ip-tools-layout .ip-network-card .network-mtr-table :is(th,td):nth-child(n+6):nth-child(-n+10) { width:8% !important; }
+.ip-tools-layout .ip-network-card .network-mtr-table :is(th,td):nth-child(11) { width:16% !important; text-align:left; }

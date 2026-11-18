@@ -1,0 +1,2150 @@
+{
+  "ruleTargetUnavailable": {
+    "message": "Nepasiekiamas tikslas"
+  },
+  "rulePatternPlaceholder": {
+    "message": "example.com, *.example.org, 192.0.2.1:8443"
+  },
+  "rulePatternHelp": {
+    "message": "Atskirkite adresus kableliais. Kiekvienas URL šablonas atskiroje eilutėje. PAC gali nematyti HTTPS kelių."
+  },
+  "defaultChoice_direct": {
+    "message": "Prisijunkite be tarpinio serverio"
+  },
+  "defaultChoice_system": {
+    "message": "Naudokite sistemos tarpinio serverio nustatymus"
+  },
+  "defaultChoice_node": {
+    "message": "Naudokite šio profilio pasirinktą mazgą"
+  },
+  "defaultChoice_manual": {
+    "message": "Naudokite šio profilio tarpinio serverio nustatymus"
+  },
+  "defaultChoice_auto": {
+    "message": "Taikykite šio profilio maršruto parinkimo taisykles"
+  },
+  "nlHttpsLatency": {
+    "message": "HTTPS atsakymas"
+  },
+  "nlLatencyMethod": {
+    "message": "Cloudflare · Mažiausiai du atsakymai · Pakartotinis ryšio naudojimas, kai įmanoma"
+  },
+  "nlLatencyFast": {
+    "message": "Greitai"
+  },
+  "nlLatencyModerate": {
+    "message": "Vidutinis"
+  },
+  "nlLatencySlow": {
+    "message": "Lėtas"
+  },
+  "nlSortName": {
+    "message": "Vardas"
+  },
+  "nlSortLatency": {
+    "message": "Vėlavimas: nuo mažo iki didelio"
+  },
+  "nlSortDownload": {
+    "message": "Atsisiuntimas: nuo didelio iki žemo"
+  },
+  "nlSortUpload": {
+    "message": "Įkėlimas: nuo didelio iki mažo"
+  },
+  "nlSingle": {
+    "message": "Vienas mazgas"
+  },
+  "nlGroupBatch": {
+    "message": "Grupė / partija"
+  },
+  "nlTestScope": {
+    "message": "Bandymo apimtis"
+  },
+  "nlCurrentNode": {
+    "message": "Pasirinktas mazgas"
+  },
+  "nlCurrentGroup": {
+    "message": "Pasirinkta grupė"
+  },
+  "nlChooseNode": {
+    "message": "Sąraše pasirinkite mazgą"
+  },
+  "nlStart": {
+    "message": "Pradėkite bandymą"
+  },
+  "nlService": {
+    "message": "Bandymo paslauga"
+  },
+  "nlMeasured": {
+    "message": "išmatuotas"
+  },
+  "nlMeanLatency": {
+    "message": "Vidutinė delsa"
+  },
+  "nlGroupBySource": {
+    "message": "Pagal šaltinių grupę"
+  },
+  "nlPreviousPage": {
+    "message": "Ankstesnis puslapis"
+  },
+  "nlNextPage": {
+    "message": "Kitas puslapis"
+  },
+  "nlName": {
+    "message": "Vardas"
+  },
+  "nlEdit": {
+    "message": "Redaguoti"
+  },
+  "nlStop": {
+    "message": "Stop"
+  },
+  "nlConfirm": {
+    "message": "Patvirtinkite"
+  },
+  "nlAllNodes": {
+    "message": "Visi mazgai"
+  },
+  "nlNodeResults": {
+    "message": "Mazgo rezultatai"
+  },
+  "nlTestCenter": {
+    "message": "Bandymų centras"
+  },
+  "nlNewGroup": {
+    "message": "Nauja grupė"
+  },
+  "nlRenameGroup": {
+    "message": "Pervardyti grupę"
+  },
+  "nlRemoveGroup": {
+    "message": "Pašalinti grupę"
+  },
+  "nlRemoveGroupHelp": {
+    "message": "Išsaugokite kiekvieną mazgą ir prenumeratą ir perkelkite juos į Importuotus mazgus."
+  },
+  "nlNode": {
+    "message": "Mazgas"
+  },
+  "nlStatus": {
+    "message": "Būsena"
+  },
+  "nlActions": {
+    "message": "Veiksmai"
+  },
+  "nlSort": {
+    "message": "Rūšiuoti tik šią lentelę"
+  },
+  "nlSelected": {
+    "message": "pasirinkta"
+  },
+  "nlTestNode": {
+    "message": "Bandymas"
+  },
+  "nlProfileShort": {
+    "message": "Profilis"
+  },
+  "nlQuick": {
+    "message": "Greita delsa"
+  },
+  "nlFull": {
+    "message": "Atsisiųsti ir įkelti"
+  },
+  "nlTraffic": {
+    "message": "Bandymo duomenų dydis"
+  },
+  "nlConcurrency": {
+    "message": "Lygiagrečiai esantys mazgai"
+  },
+  "nlTrafficFullOnly": {
+    "message": "Naudojamas atsisiuntimo ir įkėlimo testams"
+  },
+  "nlTestMode": {
+    "message": "Bandymo režimas"
+  },
+  "nlBudget": {
+    "message": "Didžiausias naudingosios apkrovos srautas"
+  },
+  "nlViaGroup": {
+    "message": "Per grupės išankstinį įgaliotinį"
+  },
+  "nlTestSelected": {
+    "message": "Testas pasirinktas"
+  },
+  "nlTestVisible": {
+    "message": "Išbandykite rodomus mazgus"
+  },
+  "nlTestAll": {
+    "message": "Patikrinkite visus mazgus"
+  },
+  "nlTestGroup": {
+    "message": "Bandymo grupės mazgai"
+  },
+  "nlProgress": {
+    "message": "Matavimo eiga"
+  },
+  "nlReady": {
+    "message": "Pasirinkite mazgus, kuriuos norite pradėti. Nebuvo atliktas joks testas."
+  },
+  "nlStarting": {
+    "message": "Pradedamas atskiras matavimas…"
+  },
+  "nlQueued": {
+    "message": "Eilėje"
+  },
+  "nlRunning": {
+    "message": "Testavimas"
+  },
+  "nlStopping": {
+    "message": "Sustabdoma…"
+  },
+  "nlComplete": {
+    "message": "Užbaigta"
+  },
+  "nlFailed": {
+    "message": "Nepavyko"
+  },
+  "nlStopped": {
+    "message": "Sustojo"
+  },
+  "nlPartial": {
+    "message": "Dalinis"
+  },
+  "nlUntested": {
+    "message": "Neišbandyta"
+  },
+  "nlSucceeded": {
+    "message": "praėjo"
+  },
+  "nlMeasureDisconnected": {
+    "message": "Matavimo ryšys baigtas. Neužbaigtos reikšmės nėra galutiniai rezultatai."
+  },
+  "nlUpgrade": {
+    "message": "Atnaujinkite vietinį kompanioną, kad galėtumėte valdyti grupes ir prenumeratas. Esami mazgai lieka pasiekiami."
+  },
+  "nlOperationFailed": {
+    "message": "Operacijos užbaigti nepavyko. Bandykite dar kartą."
+  },
+  "nlEditSubscription": {
+    "message": "Redaguoti prenumeratą"
+  },
+  "nlPasteContent": {
+    "message": "Tarpinio serverio nuorodos / turinys"
+  },
+  "nlSubscriptionURL": {
+    "message": "Prenumerata URL"
+  },
+  "nlKeepURL": {
+    "message": "Palikite tuščią, kad išsaugotumėte URL"
+  },
+  "nlConnectionPolicy": {
+    "message": "Atnaujinkite ryšį"
+  },
+  "nlProxyFirst": {
+    "message": "Pirmiausia tarpinis serveris, tada tiesioginis gedimo atveju"
+  },
+  "nlProxyOnly": {
+    "message": "Tik įgaliotasis serveris"
+  },
+  "nlDirectOnly": {
+    "message": "Tik tiesiogiai"
+  },
+  "nlProxyFirstHelp": {
+    "message": "Įgaliotasis serveris pirmą kartą sustoja po sėkmingo gavimo. Tiesioginis bandomas tik tuo atveju, jei tarpinio serverio bandymas nepavyksta."
+  },
+  "nlAutoUpdate": {
+    "message": "Įgalinti automatinius naujinimus"
+  },
+  "nlInterval": {
+    "message": "Atnaujinimo intervalas (minutės)"
+  },
+  "nlDestinationGroup": {
+    "message": "Paskirties grupė"
+  },
+  "nlSubscriptionOwnGroup": {
+    "message": "Nauja grupė…"
+  },
+  "nlNameGroup": {
+    "message": "Vardas (grupė)"
+  },
+  "nlCustomGroup": {
+    "message": "Pasirinktinė grupė"
+  },
+  "nlNameRequired": {
+    "message": "Įveskite pavadinimą."
+  },
+  "nlContentRequired": {
+    "message": "Įklijuokite tarpinio serverio nuorodas arba prenumeratos turinį."
+  },
+  "nlGroupRequired": {
+    "message": "Pasirinkite paskirties grupę."
+  },
+  "nlURLRequired": {
+    "message": "Įveskite HTTP(S) prenumeratą URL be vartotojo vardo ar slaptažodžio."
+  },
+  "nlIntervalInvalid": {
+    "message": "Įveskite sveiką skaičių nuo 5 iki 43200 minučių."
+  },
+  "folderTitle": {
+    "message": "Pasirinkite aplanką v2rayN"
+  },
+  "folderHint": {
+    "message": "Pasirinkite aplanką, tada pritaikykite jį naudodami Išsaugoti ryšio nustatymus."
+  },
+  "folderPath": {
+    "message": "Visas vietinio aplanko kelias"
+  },
+  "folderGo": {
+    "message": "Atidaryta"
+  },
+  "folderUp": {
+    "message": "Aukštyn"
+  },
+  "folderDrives": {
+    "message": "Pavaros"
+  },
+  "folderCurrent": {
+    "message": "Dabartinis kelias"
+  },
+  "folderChoose": {
+    "message": "Naudokite šį aplanką"
+  },
+  "folderList": {
+    "message": "Aplankai"
+  },
+  "folderTruncated": {
+    "message": "Sąrašas ribotas. Įveskite visą aukščiau esantį kelią, kad atidarytumėte nerodomą aplanką.\nRasta"
+  },
+  "folderReady": {
+    "message": "v2rayN failų. Naudokite šį aplanką konfigūracijai patvirtinti."
+  },
+  "folderInvalid": {
+    "message": "Pasirinkite aplanką, kuriame yra guiConfigs, guiNConfig.json ir guiNDB.db."
+  },
+  "folderSelectDrive": {
+    "message": "Pasirinkite vietinį diską arba įveskite visą aplanko kelią."
+  },
+  "folderEmpty": {
+    "message": "Nėra matomų poaplankių."
+  },
+  "folderUnavailable": {
+    "message": "Negalima naršyti šiame aplanke. Patikrinkite jo kelią ir prieigą. Jei kompanionas yra senesnis, pirmiausia atnaujinkite jį."
+  },
+  "folderValidating": {
+    "message": "Patvirtinama v2rayN konfigūracija…"
+  },
+  "folderInvalidConfig": {
+    "message": "v2rayN konfigūracija arba duomenų bazė yra neišsami arba neteisinga. Pasirinkite kitą aplanką."
+  },
+  "copyPath": {
+    "message": "Kopijuoti kelią"
+  },
+  "pathCopyHint": {
+    "message": "Nukopijuokite kelią šiuo metu šiame lauke."
+  },
+  "preMode": {
+    "message": "Išankstinis tarpinio serverio režimas"
+  },
+  "preNode": {
+    "message": "Išankstinis tarpinio serverio mazgas"
+  },
+  "preIntro": {
+    "message": "Naudokite grupės grandinę, praleiskite ją arba pasirinkite išankstinį šio profilio įgaliotąjį serverį."
+  },
+  "healthLabel": {
+    "message": "Dabartinė ryšio būsena"
+  },
+  "healthOk": {
+    "message": "Normalus"
+  },
+  "healthError": {
+    "message": "Nenormalus"
+  },
+  "healthChecking": {
+    "message": "Tikrinama"
+  },
+  "healthUnknown": {
+    "message": "Nepatvirtinta"
+  },
+  "autoSystemHelp": {
+    "message": "Sistemos taisyklėms reikia Windows komponento ir fiksuoto tarpinio serverio nuostatų kopijos. Po pakeitimų taikykite iš naujo. PAC/WPAD nepalaikomi; sistema be taisyklių naudoja naršyklės savąsias nuostatas."
+  },
+  "backgroundUnavailable": {
+    "message": "Plėtinio fonas nepasiekiamas."
+  },
+  "backgroundNoResponse": {
+    "message": "Fonas neatsakė."
+  },
+  "backupTooLarge": {
+    "message": "Atsarginė kopija viršija 5 MB."
+  },
+  "proxyUsername": {
+    "message": "Vartotojo vardas"
+  },
+  "proxyPassword": {
+    "message": "Slaptažodis"
+  },
+  "proxyAuthHelp": {
+    "message": "Neprivaloma. Autentifikuoti tarpiniai serveriai jungiasi per kompanioną. Kredencialai saugomi šioje naršyklės konfigūracijoje ir pagalbinėje programoje bei įtraukiami į profilio eksportavimą."
+  },
+  "proxyAuthSocks4": {
+    "message": "SOCKS4 nepalaiko šio vartotojo vardo / slaptažodžio autentifikavimo; naudokite HTTP(S) arba SOCKS5."
+  },
+  "importExamples": {
+    "message": "Formato pavyzdžiai"
+  },
+  "ipCopying": {
+    "message": "Kopijuojama…"
+  },
+  "netDnsUnavailable": {
+    "message": "Serverio adreso nepavyko nustatyti laiku. Patikrinkite pagrindinio kompiuterio arba IP adresą ir bandykite dar kartą."
+  },
+  "netCurrentTarget": {
+    "message": "Pasirinktas tarpinio serverio galutinis taškas"
+  },
+  "netCustomTarget": {
+    "message": "Pasirinktinis serveris"
+  },
+  "netHost": {
+    "message": "Prieglobos arba IP adresas"
+  },
+  "netPort": {
+    "message": "TCP prievadas"
+  },
+  "netHostRequired": {
+    "message": "Įveskite serverio pagrindinio kompiuterio arba IP adresą."
+  },
+  "netCurrentUnavailable": {
+    "message": "Pasirinkite mazgą arba rankinį tarpinio serverio profilį arba įveskite pasirinktinį tikslą."
+  },
+  "netInvalidTarget": {
+    "message": "Įveskite tinkamą diagnostikos pagrindinį kompiuterį ir prievadą."
+  },
+  "netIpv6PingUnavailable": {
+    "message": "IPv6 ICMP nepasiekiamas; naudokite TCPing."
+  },
+  "preNeedsFix": {
+    "message": "Prieš išsaugodami pasirinkite tinkamą išankstinį įgaliotąjį serverį arba jo nėra."
+  },
+  "preConfigure": {
+    "message": "Konfigūruoti išankstinį tarpinį serverį"
+  },
+  "preFollowInvalid": {
+    "message": "Follow v2rayN nepriima pasirinktinio išankstinio tarpinio serverio."
+  },
+  "followChainHelp": {
+    "message": "Follow naudoja maršrutą ir tarpinio serverio grandinę, kuri jau aktyvi v2rayN."
+  },
+  "netTitle": {
+    "message": "Ryšio testai"
+  },
+  "ipTestDetails": {
+    "message": "Bandymo detalės"
+  },
+  "netTarget": {
+    "message": "Ping / TCPing tikslas"
+  },
+  "netDownload": {
+    "message": "Atsisiuntimo testas"
+  },
+  "netPartial": {
+    "message": "Dalinis pavyzdys"
+  },
+  "netComplete": {
+    "message": "Pavyzdys baigtas"
+  },
+  "netDirect": {
+    "message": "Sistemos tinklas"
+  },
+  "netUnreachable": {
+    "message": "Nėra atsakymo / nepavyko"
+  },
+  "netAverage": {
+    "message": "Vidutinis"
+  },
+  "predecessor": {
+    "message": "Išankstinis įgaliotinis"
+  },
+  "preInherit": {
+    "message": "Naudokite v2rayN grupės grandinę"
+  },
+  "preNone": {
+    "message": "Nėra išankstinio įgaliotinio"
+  },
+  "preSpecific": {
+    "message": "Pasirinkite mazgą"
+  },
+  "preHelp": {
+    "message": "Taikoma šiam profiliui. Naudokite v2rayN grupės grandinę, be išankstinio tarpinio serverio arba konkretaus mazgo. Follow v2rayN naudoja esamą grandinę."
+  },
+  "preSelectRequired": {
+    "message": "Pasirinkite išankstinį tarpinio serverio mazgą arba pasirinkite Grupės numatytasis / Nėra."
+  },
+  "ipPing0Permission": {
+    "message": "Leisti Ping0 svetainei įkelti viešąją ataskaitą."
+  },
+  "ipPublicChallenge": {
+    "message": "Svetainę reikia patvirtinti. Atidarykite Ping0 puslapį, kad jį užbaigtumėte ir peržiūrėtumėte rezultatą."
+  },
+  "ipPublicReport": {
+    "message": "Ping0 vieša ataskaita"
+  },
+  "ipPublicSource": {
+    "message": "Šaltinis: Ping0 viešas puslapis"
+  },
+  "ipPublicOriginal": {
+    "message": "Ping0 ataskaita"
+  },
+  "ipPublicPartial": {
+    "message": "Rodomi tik viešajame puslapyje pateikti laukai originalo kalba. Klasifikacijos ir bendro naudotojo įvertinimai yra iš Ping0."
+  },
+  "setupTitle": {
+    "message": "Prijunkite Proxy V2Route"
+  },
+  "setupIntro": {
+    "message": "Įdiekite Windows kompanioną, kad galėtumėte naudoti v2rayN maršrutus arba savo importuotus mazgus."
+  },
+  "setupStepOne": {
+    "message": "Išskleiskite visą atitinkantį Windows paketą į nuolatinį aplanką."
+  },
+  "setupStepTwo": {
+    "message": "Atidarykite V2Route-Setup.exe ir spustelėkite Įdiegti."
+  },
+  "setupStepThree": {
+    "message": "Grįžkite čia ir patikrinkite ryšį. Jei reikia, pasirinkite aplanką v2rayN."
+  },
+  "setupCheck": {
+    "message": "Patikrinkite jungtį"
+  },
+  "downloadCompanion": {
+    "message": "Montavimo vadovas ↗"
+  },
+  "setupDownloadNote": {
+    "message": "Naudokite atitinkamą vietinį Windows paketą arba vadovaukitės vadovu, kad sukurtumėte jį iš dabartinio šaltinio."
+  },
+  "chooseFolder": {
+    "message": "Pasirinkite v2rayN aplanką…"
+  },
+  "rescanDone": {
+    "message": "Vietiniai mazgai nuskaityti iš naujo"
+  },
+  "grouping": {
+    "message": "Grupės mazgai"
+  },
+  "groupByCountry": {
+    "message": "Pagal šalį"
+  },
+  "unknownCountry": {
+    "message": "Kita / Nežinoma"
+  },
+  "ungrouped": {
+    "message": "Negrupuotas"
+  },
+  "adjustNodeFilters": {
+    "message": "Išbandykite kitą grupę, šaltinį ar paiešką arba parodykite paslėptus mazgus."
+  },
+  "rescanLocal": {
+    "message": "Iš naujo nuskaityti v2rayN mazgus"
+  },
+  "showHidden": {
+    "message": "Rodyti paslėptus mazgus"
+  },
+  "hideNode": {
+    "message": "Slėpti"
+  },
+  "restoreNode": {
+    "message": "Atkurti"
+  },
+  "hiddenNode": {
+    "message": "Paslėpta"
+  },
+  "hideNodeHelp": {
+    "message": "Slėpti tik šios naršyklės mazgų bibliotekoje. v2rayN ir esami profiliai nesikeičia."
+  },
+  "ipContextTimeout": {
+    "message": "Baigėsi dabartinio profilio skaitymo laikas. Bandykite dar kartą."
+  },
+  "ipStaleResult": {
+    "message": "Dabartinis profilis pasikeitė. Šis rezultatas gali būti pasenęs; dar kartą patikrinkite."
+  },
+  "ip_tools": {
+    "message": "IP Įrankiai"
+  },
+  "ipIntro": {
+    "message": "Dabartinis išėjimas IP ir vieša ataskaita."
+  },
+  "ipCurrentProfile": {
+    "message": "Dabartinis naršyklės profilis"
+  },
+  "ipRouteCaution": {
+    "message": "Automatinės taisyklės ir PAC gali naudoti skirtingus maršrutus skirtingiems tikslams. Šis patikrinimas apibūdina tik jo paties prašymą."
+  },
+  "ipDisclosure": {
+    "message": "Automatinio tikrinimo išėjimas IP · Pranešimas, kurį pateikė Ping0"
+  },
+  "ipMethod": {
+    "message": "Adreso patikrinimas"
+  },
+  "ipDual": {
+    "message": "IPv4 / IPv6"
+  },
+  "ipCheck": {
+    "message": "Patikrinkite dar kartą"
+  },
+  "ipChecking": {
+    "message": "Tikrinama…"
+  },
+  "ipDualHelp": {
+    "message": "IPv4 / IPv6 grąžina šiai užklausai naudojamą adresų šeimą, o ne abu adresus."
+  },
+  "ipDurationHelp": {
+    "message": "Praėjęs HTTP užklausos laikas apima tinklo ir paslaugos atsako laiką. Tai nėra ICMP ping arba pralaidumo testas."
+  },
+  "ipCopy": {
+    "message": "Kopija IP"
+  },
+  "ipCopied": {
+    "message": "Nukopijuotas"
+  },
+  "ipCopyFailed": {
+    "message": "Nepavyko nukopijuoti. Pasirinkite adresą ir nukopijuokite jį rankiniu būdu."
+  },
+  "ipNoResult": {
+    "message": "Dar nėra čekio"
+  },
+  "ipContextUnknown": {
+    "message": "Profilis nepasiekiamas"
+  },
+  "ipTimeout": {
+    "message": "Baigėsi čekio skirtasis laikas. Bandykite dar kartą arba naudokite kitą maršrutą."
+  },
+  "ipCancelled": {
+    "message": "Čekis atšauktas"
+  },
+  "ipNetwork": {
+    "message": "Nepavyko pasiekti ipify. Patikrinkite ryšį ir bandykite dar kartą."
+  },
+  "ipHttp": {
+    "message": "IP tarnyba nepriėmė prašymo. Vėliau bandykite dar kartą."
+  },
+  "ipInvalid": {
+    "message": "Paslauga IP pateikė neteisingą atsakymą."
+  },
+  "ipFailure": {
+    "message": "Patikra nepavyko. Bandykite dar kartą."
+  },
+  "ipStale": {
+    "message": "Tikrinant pasikeitė tarpinio serverio nustatymai. Senas rezultatas buvo atmestas; dar kartą patikrinkite."
+  },
+  "ipQuality": {
+    "message": "Išoriniai įrankiai"
+  },
+  "ipQualityPrivacy": {
+    "message": "Įrankiai paleidžiami tik spustelėjus. Teikėjai gauna įprastus ryšio duomenis. Svetainės patikrinimai siunčia užklausas be kredencialų po pradžios. Uždarymas sustabdo vietinius bandymus; išorinius skirtukus valdo naršyklė."
+  },
+  "ipReport": {
+    "message": "Redaguotos ataskaitos kopija"
+  },
+  "ipReportCopied": {
+    "message": "Redaguota ataskaita nukopijuota; neįtraukti IP arba profilių vardai."
+  },
+  "popupSelected": {
+    "message": "Pasirinkta"
+  },
+  "popupFooter": {
+    "message": "v2rayN ir mazgų profiliai"
+  },
+  "subtitle": {
+    "message": "Nepriklausomi naršyklės maršrutai"
+  },
+  "profiles": {
+    "message": "Profiliai"
+  },
+  "nodes": {
+    "message": "Mazgų biblioteka"
+  },
+  "settings": {
+    "message": "Nustatymai"
+  },
+  "connected": {
+    "message": "Aktyvus profilis"
+  },
+  "noProfile": {
+    "message": "Numatytasis sistemos nustatymas"
+  },
+  "newProfile": {
+    "message": "Naujas profilis"
+  },
+  "searchProfiles": {
+    "message": "Ieškoti profilių"
+  },
+  "direct": {
+    "message": "Tiesioginis tinklas"
+  },
+  "system": {
+    "message": "Sistemos tarpinis serveris"
+  },
+  "follow": {
+    "message": "Sekite v2rayN"
+  },
+  "manual": {
+    "message": "Rankinis įgaliotasis serveris"
+  },
+  "auto": {
+    "message": "Automatinis jungiklis"
+  },
+  "pac": {
+    "message": "PAC scenarijus"
+  },
+  "virtual": {
+    "message": "Virtualus profilis"
+  },
+  "profileIntro": {
+    "message": "Pasirinkite naršyklės maršrutą neperjungdami pagrindinio v2rayN maršruto."
+  },
+  "nodesIntro": {
+    "message": "Naršykite vietinius v2rayN mazgus ir importuotas nuorodas."
+  },
+  "settingsIntro": {
+    "message": "Vietinis ryšys, kalba ir išvaizda."
+  },
+  "refresh": {
+    "message": "Atnaujinti"
+  },
+  "create": {
+    "message": "Sukurti profilį"
+  },
+  "name": {
+    "message": "Profilio pavadinimas"
+  },
+  "type": {
+    "message": "Profilio tipas"
+  },
+  "save": {
+    "message": "Išsaugoti"
+  },
+  "saved": {
+    "message": "Išsaugota"
+  },
+  "saving": {
+    "message": "Išsaugoma…"
+  },
+  "cancel": {
+    "message": "Atšaukti"
+  },
+  "close": {
+    "message": "Uždaryti"
+  },
+  "apply": {
+    "message": "Naudokite šį profilį"
+  },
+  "applied": {
+    "message": "Profilis perjungtas"
+  },
+  "active": {
+    "message": "Aktyvus"
+  },
+  "delete": {
+    "message": "Ištrinti"
+  },
+  "remove": {
+    "message": "Pašalinti"
+  },
+  "rename": {
+    "message": "Pervardyti"
+  },
+  "route": {
+    "message": "Tarpinio serverio maršrutas"
+  },
+  "selectRoute": {
+    "message": "Pasirinkite maršrutą"
+  },
+  "routeMissing": {
+    "message": "Maršrutas nepasiekiamas – pasirinkite kitą"
+  },
+  "chain": {
+    "message": "Sujungimo grandinė"
+  },
+  "connection": {
+    "message": "Vietinis ryšys"
+  },
+  "proxy": {
+    "message": "Tarpinis serveris"
+  },
+  "address": {
+    "message": "Adresas"
+  },
+  "port": {
+    "message": "Uostas"
+  },
+  "scheme": {
+    "message": "Protokolas"
+  },
+  "proxyDns": {
+    "message": "SOCKS5 DNS išsprendžia per tarpinį serverį."
+  },
+  "connectedIdle": {
+    "message": "Prisijungta · Neveikia"
+  },
+  "bypass": {
+    "message": "Apėjimo sąrašas"
+  },
+  "bypassHelp": {
+    "message": "Vienas domenas, pakaitos šablonas, IP adresas arba IP:prievadas eilutėje."
+  },
+  "advanced": {
+    "message": "Išplėstinės parinktys"
+  },
+  "searchRoutes": {
+    "message": "Ieškokite grupių arba mazgų"
+  },
+  "selectGroup": {
+    "message": "Pasirinkite grupę"
+  },
+  "empty": {
+    "message": "Atitinkamų elementų nėra"
+  },
+  "unavailable": {
+    "message": "Nepasiekiamas"
+  },
+  "groupHint": {
+    "message": "Laikykite grupę 250 ms, tada vilkite. Alt + ↑ / ↓ taip pat keičia tvarką. Pakeitimai išsaugomi automatiškai."
+  },
+  "searchSort": {
+    "message": "Prieš rūšiuodami išvalykite paiešką."
+  },
+  "dragHint": {
+    "message": "Judinkite aukštyn arba žemyn, tada atleiskite, kad išsaugotumėte. Esc atšaukia."
+  },
+  "orderSaved": {
+    "message": "Grupinis užsakymas išsaugotas"
+  },
+  "orderCancelled": {
+    "message": "Pakartotinis užsakymas atšauktas"
+  },
+  "loading": {
+    "message": "Įkeliama…"
+  },
+  "reading": {
+    "message": "Skaitomi vietiniai mazgai…"
+  },
+  "nativeMissing": {
+    "message": "Vietinis komponentas neprijungtas"
+  },
+  "retry": {
+    "message": "Bandykite dar kartą"
+  },
+  "nativeHelp": {
+    "message": "Mazgo maršrutams reikalingas Windows kompanionas. Dabar pasiekiami tiesioginiai, sisteminiai ir rankiniai tarpiniai serveriai."
+  },
+  "imported": {
+    "message": "Importuota"
+  },
+  "v2rayn": {
+    "message": "v2rayN"
+  },
+  "allSources": {
+    "message": "Visi šaltiniai"
+  },
+  "importNodes": {
+    "message": "Importuoti įgaliotuosius serverius"
+  },
+  "importTitle": {
+    "message": "Importuoti įgaliotuosius serverius"
+  },
+  "importHelp": {
+    "message": "Įklijuokite tarpinio serverio nuorodas, siunčiamą JSON arba Base64 prenumeratą. SOCKS palaiko paprastus arba Base64 kredencialus. Adresai be schemų naudoja HTTP."
+  },
+  "importPrivacy": {
+    "message": "Išsami tarpinio serverio informacija ir kredencialai perduodami vietiniam Proxy V2Route kompanionui, kad būtų galima saugoti ir prisijungti prie jūsų pasirinkto tarpinio serverio. Kūrėjas šios informacijos negauna."
+  },
+  "import": {
+    "message": "Importuoti profilius"
+  },
+  "nodeCount": {
+    "message": "mazgai"
+  },
+  "source": {
+    "message": "Šaltinis"
+  },
+  "protocol": {
+    "message": "Protokolas"
+  },
+  "useNode": {
+    "message": "Sukurti profilį"
+  },
+  "removeNode": {
+    "message": "Pašalinti importuotą mazgą?"
+  },
+  "removeNodeHelp": {
+    "message": "Profiliai, naudojantys šį mazgą, turi būti priskirti iš naujo, kad jį būtų galima pašalinti."
+  },
+  "deleteProfile": {
+    "message": "Ištrinti šį profilį?"
+  },
+  "deleteProfileHelp": {
+    "message": "Taip pašalinamas tik šis naršyklės profilis. Išsaugomi importuoti mazgai ir v2rayN konfigūracija."
+  },
+  "language": {
+    "message": "Kalba"
+  },
+  "automatic": {
+    "message": "Numatytoji naršyklė"
+  },
+  "theme": {
+    "message": "Išvaizda"
+  },
+  "light": {
+    "message": "Šviesa"
+  },
+  "dark": {
+    "message": "Tamsus"
+  },
+  "switchToEnglish": {
+    "message": "Perjungti į anglų kalbą"
+  },
+  "switchToChinese": {
+    "message": "Perjungti į supaprastintą kinų kalbą"
+  },
+  "switchToLight": {
+    "message": "Perjungti į šviesų vaizdą"
+  },
+  "switchToDark": {
+    "message": "Perjungti į tamsią išvaizdą"
+  },
+  "localComponent": {
+    "message": "Papildomas komponentas"
+  },
+  "ready": {
+    "message": "Prijungta"
+  },
+  "stopped": {
+    "message": "Neveikia"
+  },
+  "discovery": {
+    "message": "v2rayN aptikimas"
+  },
+  "rootPath": {
+    "message": "v2rayN aplankas"
+  },
+  "corePath": {
+    "message": "Tarpinio serverio branduolio vykdomasis failas"
+  },
+  "optionalPath": {
+    "message": "Palikite tuščią automatiniam aptikimui"
+  },
+  "pathsHelp": {
+    "message": "v2rayN aptinkamas automatiškai; jei reikia, pasirinkite aplanką. Importuoti mazgai naudoja įtrauktą branduolį."
+  },
+  "savePaths": {
+    "message": "Išsaugokite ryšio nustatymus"
+  },
+  "privacy": {
+    "message": "Nustatymai saugomi vietoje"
+  },
+  "privacyText": {
+    "message": "Mazgo nuorodos ir kredencialai lieka vietiniame kompanione. Naršyklės srautas per jūsų pasirinktą tarpinį serverį patenka į paskirties svetaines; kūrėjas jo negauna."
+  },
+  "privacyDetails": {
+    "message": "Privatumas ir duomenų srautas"
+  },
+  "export": {
+    "message": "Eksportuoti profilius"
+  },
+  "about": {
+    "message": "Apie Proxy V2Route"
+  },
+  "aboutText": {
+    "message": "Pasirinkite naršyklės maršrutą neperjungdami pagrindinio v2rayN maršruto. Mazgų maršrutai naudoja Windows kompanioną ir jūsų mazgus."
+  },
+  "licenses": {
+    "message": "Atvirojo kodo pranešimai"
+  },
+  "version": {
+    "message": "Versija"
+  },
+  "fieldRequired": {
+    "message": "Įveskite profilio pavadinimą."
+  },
+  "profileExists": {
+    "message": "Profilis tokiu pavadinimu jau yra."
+  },
+  "ruleHelp": {
+    "message": "Atskirkite domenus vienoje eilutėje kableliais. Pirmoji atitinkanti eilutė laimi. Palikti pasiekiamą numatytąjį maršrutą."
+  },
+  "rules": {
+    "message": "Maršruto parinkimo taisyklės"
+  },
+  "pattern": {
+    "message": "Pagrindinio kompiuterio modelis"
+  },
+  "target": {
+    "message": "Taisyklės tikslas"
+  },
+  "addRule": {
+    "message": "Pridėti taisyklę"
+  },
+  "defaultRoute": {
+    "message": "Numatytasis profilis"
+  },
+  "pacHelp": {
+    "message": "Įklijuokite patikimą PAC šaltinį, kuriame yra FindProxyForURL. Šis scenarijus nusprendžia, kaip nukreipiamos svetainės užklausos."
+  },
+  "pacUrl": {
+    "message": "PAC URL"
+  },
+  "pacScript": {
+    "message": "PAC scenarijus"
+  },
+  "noSelection": {
+    "message": "Pasirinkite profilį arba sukurkite jį."
+  },
+  "details": {
+    "message": "Išsami informacija"
+  },
+  "noNodes": {
+    "message": "Dar nėra mazgų"
+  },
+  "noNodesHelp": {
+    "message": "Norėdami pradėti, prijunkite v2rayN arba importuokite tarpinio serverio nuorodas, JSON arba prenumeratą."
+  },
+  "openSettings": {
+    "message": "Atidarykite nustatymus"
+  },
+  "proxySettings": {
+    "message": "Tarpinio serverio nustatymai"
+  },
+  "switching": {
+    "message": "Perjungiama…"
+  },
+  "updatedElsewhere": {
+    "message": "Šis profilis pasikeitė kitame lange. Prieš išsaugodami atidarykite jį iš naujo."
+  },
+  "choose": {
+    "message": "Pasirinkite"
+  },
+  "popupIntro": {
+    "message": "Ryšys:"
+  },
+  "invalidPort": {
+    "message": "Įveskite prievadą nuo 1 iki 65535."
+  },
+  "externalControl": {
+    "message": "Kitas plėtinys arba politika valdo naršyklės tarpinį serverį."
+  },
+  "noNativeRoute": {
+    "message": "Prieš kurdami mazgo profilį, prijunkite vietinį komponentą."
+  },
+  "reload": {
+    "message": "Įkelti iš naujo"
+  },
+  "rulesError": {
+    "message": "Kiekvienai taisyklei reikia šablono ir tikslo."
+  },
+  "backupDone": {
+    "message": "Eksportuoti naršyklės profiliai"
+  },
+  "managed": {
+    "message": "Valdomas mazgas"
+  },
+  "netRegion": {
+    "message": "Tikslinė sritis"
+  },
+  "netNodeArea": {
+    "message": "Tarpinio serverio mazgas"
+  },
+  "netChina": {
+    "message": "Žemyninė Kinija"
+  },
+  "netGlobal": {
+    "message": "Pasaulinis"
+  },
+  "netAli": {
+    "message": "AliDNS"
+  },
+  "netTencent": {
+    "message": "DNSPod"
+  },
+  "netStartHelp": {
+    "message": "Pasirinkite tikslą, tada pradėkite tiesioginį testą."
+  },
+  "netConsole": {
+    "message": "Tiesioginė diagnostika"
+  },
+  "netStop": {
+    "message": "Stop"
+  },
+  "netRunning": {
+    "message": "Bėgimas"
+  },
+  "netStopped": {
+    "message": "Sustojo"
+  },
+  "netSent": {
+    "message": "Išsiųsta"
+  },
+  "netLoss": {
+    "message": "Nuostolis"
+  },
+  "netAverageShort": {
+    "message": "Vid"
+  },
+  "netLogClear": {
+    "message": "Aišku"
+  },
+  "netFinishing": {
+    "message": "Ankstesnis tyrimas baigiamas…"
+  },
+  "netRound": {
+    "message": "Apvalus"
+  },
+  "netDestination": {
+    "message": "Paskirtis"
+  },
+  "netHop": {
+    "message": "Apyniai"
+  },
+  "netAddress": {
+    "message": "IP adresas"
+  },
+  "netLast": {
+    "message": "Paskutinis"
+  },
+  "netConsoleHelp": {
+    "message": "Ping / TCPing / MTR naudoja sistemos tinklą, o ne tarpinio serverio grandinę. Trūksta ICMP atsakymų neįrodo srauto praradimo. Atsisiunčiant naudojamas naršyklės maršrutas ir pasirinktas dydžio apribojimas. Bandymai sustabdomi, kai išeinate arba paslėpsite šį puslapį."
+  },
+  "netDirectShort": {
+    "message": "Sistemos tinklas"
+  },
+  "netIcmpShort": {
+    "message": "Nr ICMP atsakymas"
+  },
+  "netProbeError": {
+    "message": "Vietinė zondo klaida"
+  },
+  "netNoDestination": {
+    "message": "Paskirties vieta nepasiekta"
+  },
+  "deleteActive": {
+    "message": "Perjunkite į sistemą ir ištrinkite"
+  },
+  "deleteActiveHelp": {
+    "message": "Šis profilis aktyvus. Ištrynus jį, naršyklė perjungiama į sistemos tarpinį serverį."
+  },
+  "netDownloadSize": {
+    "message": "Atsisiuntimo dydis"
+  },
+  "netReceived": {
+    "message": "Gauta"
+  },
+  "netBest": {
+    "message": "Geriausias"
+  },
+  "netWorst": {
+    "message": "Blogiausia"
+  },
+  "netStdDev": {
+    "message": "Std dev"
+  },
+  "netLocation": {
+    "message": "Vieta"
+  },
+  "toolWall": {
+    "message": "Domeno blokavimo patikra"
+  },
+  "toolSites": {
+    "message": "Populiarios svetainės"
+  },
+  "toolGlobal": {
+    "message": "Visuotinė diagnostika"
+  },
+  "toolFast": {
+    "message": "„Netflix“ greitis"
+  },
+  "toolSpeed": {
+    "message": "Greičio testas"
+  },
+  "toolStart": {
+    "message": "Pradžia"
+  },
+  "toolReady": {
+    "message": "Pasiruošę"
+  },
+  "toolResponded": {
+    "message": "Atsakyta"
+  },
+  "toolNoResponse": {
+    "message": "Nepatvirtinta"
+  },
+  "toolCacheUnsupported": {
+    "message": "Ši naršyklė negali išvalyti talpyklos pagal svetainę; puslapis buvo įkeltas iš naujo."
+  },
+  "toolCacheFailed": {
+    "message": "Talpyklos valymas nebuvo baigtas. Uždarykite ir bandykite dar kartą."
+  },
+  "toolClose": {
+    "message": "Uždaryti"
+  },
+  "toolReload": {
+    "message": "Įkelti iš naujo"
+  },
+  "toolLoading": {
+    "message": "Įkeliama…"
+  },
+  "toolFrameError": {
+    "message": "Nepavyko įkelti. Pabandykite įkelti iš naujo."
+  },
+  "toolSiteHelp": {
+    "message": "Tik naršyklės pasiekiamumas. Tai nepatvirtina paskyros ar regioninės prieigos."
+  },
+  "toolFallback": {
+    "message": "Atsarginio greičio bandymas"
+  },
+  "toolFullscreen": {
+    "message": "Visas ekranas"
+  },
+  "toolRestore": {
+    "message": "Išeikite per visą ekraną"
+  },
+  "ipReadFailed": {
+    "message": "Nuskaityti nepavyko. 👉"
+  },
+  "ipViewSource": {
+    "message": "Peržiūrėkite šaltinio svetainę"
+  },
+  "toolDownloadError": {
+    "message": "Nepavyko pasiekti atsisiuntimo serverio. Bandykite dar kartą."
+  },
+  "toolAccess": {
+    "message": "Įgalinti prieigą prie svetainės"
+  },
+  "toolPermission": {
+    "message": "Suteikite prieigą prie šios svetainės, kad būtų suderinamas įterptosios sesijos."
+  },
+  "toolAsia": {
+    "message": "Azija"
+  },
+  "toolEurope": {
+    "message": "Europa"
+  },
+  "toolAmerica": {
+    "message": "Šiaurės Amerika"
+  },
+  "toolGlobalHelp": {
+    "message": "Iš anksto užpildomas naršyklės išėjimas IP. Norėdami palyginti kelius, pasirinkite žemyninę Kiniją ar kitą regioną; Pradėti siunčia rodomą taikinį iki trijų Globalping zondų."
+  },
+  "toolServiceError": {
+    "message": "Bandymo paslauga nepasiekiama. Bandykite dar kartą."
+  },
+  "popupOrderHelp": {
+    "message": "Laikykite ir vilkite, kad pakeistumėte tvarką. Alt + rodyklės klavišai taip pat perkelia šį profilį."
+  },
+  "popupOrderSaved": {
+    "message": "Užsakymas išsaugotas"
+  },
+  "toolGroupIP": {
+    "message": "IP bandymai"
+  },
+  "toolGroupWeb": {
+    "message": "Svetainės bandymai"
+  },
+  "toolGroupSpeed": {
+    "message": "Greitis"
+  },
+  "toolCurrentIP": {
+    "message": "Dabartinis išėjimas IP"
+  },
+  "toolCurrentIPLoading": {
+    "message": "Įkeliama srovės išėjimas IP…"
+  },
+  "toolCurrentIPFailed": {
+    "message": "Nepavyko nuskaityti dabartinio IP. Įveskite tikslą."
+  },
+  "speedMode": {
+    "message": "Bandymo režimas"
+  },
+  "speedBoth": {
+    "message": "Atsisiųsti ir įkelti"
+  },
+  "speedDownload": {
+    "message": "Atsisiųsti"
+  },
+  "speedUpload": {
+    "message": "Įkelti"
+  },
+  "speedLatency": {
+    "message": "HTTP delsa"
+  },
+  "speedBudget": {
+    "message": "{n} MiB vienai fazei · {total} MiB iš viso, plius nedideli delsos pavyzdžiai."
+  },
+  "siteCategory": {
+    "message": "Svetainės kategorija"
+  },
+  "siteAll": {
+    "message": "Visos svetainės"
+  },
+  "siteAI": {
+    "message": "AI"
+  },
+  "siteDevelopment": {
+    "message": "Vystymas"
+  },
+  "siteVideo": {
+    "message": "Vaizdo įrašas / muzika"
+  },
+  "siteSocial": {
+    "message": "Socialinis"
+  },
+  "siteDomestic": {
+    "message": "Žemyninės paslaugos"
+  },
+  "siteServices": {
+    "message": "Bendrosios paslaugos"
+  },
+  "globalMethod": {
+    "message": "Matavimo tipas"
+  },
+  "localPort": {
+    "message": "Vietinis prievadas:"
+  },
+  "chainChooseNode": {
+    "message": "Pasirinkite tarpinį serverį"
+  },
+  "chainTitle": {
+    "message": "Proxy grandinė"
+  },
+  "chainSelectExit": {
+    "message": "Toliau pasirinkite konkretų išėjimo mazgą, kad išsaugotumėte arba patikrintumėte šią tinkintą grandinę. Stebėti v2rayN valdo v2rayN."
+  },
+  "chainSelectExitShort": {
+    "message": "Pasirinkite išėjimo mazgą"
+  },
+  "chainAdd": {
+    "message": "+ Pridėti tarpinio serverio sluoksnį"
+  },
+  "chainTest": {
+    "message": "Bandymo grandinė"
+  },
+  "chainMode": {
+    "message": "Grandininis režimas"
+  },
+  "chainBase": {
+    "message": "Pagrindinis tarpinis serveris"
+  },
+  "chainExit": {
+    "message": "Išeiti iš tarpinio serverio"
+  },
+  "chainEgress": {
+    "message": "Grandinės išėjimas"
+  },
+  "chainExitBadge": {
+    "message": "Išėjimas IP"
+  },
+  "chainEntry": {
+    "message": "Grandininis įėjimas"
+  },
+  "chainTransit": {
+    "message": "Tilto mazgas"
+  },
+  "chainUntested": {
+    "message": "Neišbandyta"
+  },
+  "chainMissing": {
+    "message": "Nepasiekiamas mazgas"
+  },
+  "chainUnresolved": {
+    "message": "Nepavyko išspręsti paveldėtos grandinės. Pataisykite ankstesnius nustatymus arba pasirinkite tinkintą grandinę."
+  },
+  "chainUpgrade": {
+    "message": "Atnaujinkite vietinį kompanioną, kad įgalintumėte užsakytas grandines."
+  },
+  "chainBusy": {
+    "message": "Vykdomas kitas grandinės bandymas"
+  },
+  "chainOK": {
+    "message": "Pasiekiamas"
+  },
+  "chainFailed": {
+    "message": "Nepavyko peršokti šiame teste"
+  },
+  "chainBlocked": {
+    "message": "Neišbandyta · ankstesnis šuolis nepavyko"
+  },
+  "chainFailureHelp": {
+    "message": "Šis šuolis ar kelias į jį nepraėjo. Vėliau apyniai nebuvo išbandyti."
+  },
+  "chainAllOK": {
+    "message": "Atsiliepė visi kaupiami keliai"
+  },
+  "chainStopping": {
+    "message": "Sustabdoma po srovės apriboto zondo…"
+  },
+  "globalWorld": {
+    "message": "Visame pasaulyje"
+  },
+  "globalUnavailable": {
+    "message": "Tikslas arba regionas nepasiekiamas. Patikrinkite tikslą arba pasirinkite kitą regioną."
+  },
+  "globalRateLimited": {
+    "message": "Pasiektas paslaugų tarifo limitas. Vėliau bandykite dar kartą."
+  },
+  "globalNoResults": {
+    "message": "Paslauga nepateikė jokių tyrimo rezultatų. Išbandykite kitą regioną."
+  },
+  "globalProbeFailed": {
+    "message": "Tyrimas nepavyko"
+  },
+  "globalProbeOffline": {
+    "message": "Tyrimas neprisijungęs"
+  },
+  "globalIcmpCaution": {
+    "message": "Vien trūkstami ICMP atsakymų blokavimas neįrodo. Palyginkite žemyno ir užjūrio kelius ir kitus bandymų tipus."
+  },
+  "speedRealtime": {
+    "message": "Tiesioginis greitis"
+  },
+  "speedAverage": {
+    "message": "Vidutinis greitis"
+  },
+  "ipToolsBrief": {
+    "message": "Trečiųjų šalių rezultatai yra nuoroda."
+  },
+  "ipReportBrief": {
+    "message": "Rezultatai skiriasi priklausomai nuo išėjimo IP ir yra nuoroda."
+  },
+  "toolPingPe": {
+    "message": "IP blokavimo patikrinimas"
+  },
+  "toolTargetIP": {
+    "message": "Tikslas IP"
+  },
+  "toolOpenPingPe": {
+    "message": "Atviras oficialus testas"
+  },
+  "toolInvalidIP": {
+    "message": "Įveskite galiojantį IPv4 arba IPv6 adresą."
+  },
+  "toolInvalidPort": {
+    "message": "Įveskite TCP prievadą nuo 1 iki 65535."
+  },
+  "toolExternalFailed": {
+    "message": "Nepavyko atidaryti svetainės. Bandykite dar kartą."
+  },
+  "ipBrowserReading": {
+    "message": "Skaitymas Ping0 per naršyklę…"
+  },
+  "ipVerifyBrowser": {
+    "message": "Atidarykite patvirtinimo puslapį"
+  },
+  "policyCenter": {
+    "message": "Privatumas, deklaracija ir DUK"
+  },
+  "policyCenterIntro": {
+    "message": "Vietinis duomenų tvarkymas, bandymų ribos ir bendri atsakymai."
+  },
+  "policyPrivacyTitle": {
+    "message": "Privatumo politika"
+  },
+  "policyPrivacySummary": {
+    "message": "Profiliai ir kredencialai lieka šiame įrenginyje. Iššokančiųjų langų patikrinimai ir diagnostika susisiekite su nurodytais teikėjais. Jokios reklamos ar elgesio analizės."
+  },
+  "policyDeclarationTitle": {
+    "message": "Naudojimo ir matavimo pareiškimas"
+  },
+  "policyDeclarationSummary": {
+    "message": "Šis plėtinys yra vietinis maršruto valdytojas, o ne tarpinis serveris ar VPN teikėjas. Matavimai yra atskaitos pavyzdžiai, paveikti tinklo, tarpinio serverio ir teikėjo sąlygų."
+  },
+  "policyFaqTitle": {
+    "message": "DUK"
+  },
+  "policyFaqSummary": {
+    "message": "Papildomas Windows reikalingas vietiniams mazgams ir MTR. Vėlavimas gali skirtis tarp naršyklės, sistemos ir viešųjų zondų. Sustabdykite bandymą arba išvalykite vietinius duomenis iš „Nustatymų“."
+  },
+  "policyDetailsLink": {
+    "message": "Skaitykite visą informaciją ↗"
+  },
+  "thirdPartyNotice": {
+    "message": "Atvirojo kodo pranešimai ↗"
+  },
+  "columnResizeHelp": {
+    "message": "Vilkite, kad pakeistumėte dydį; dukart spustelėkite, kad nustatytumėte iš naujo; reguliuoti naudokite rodyklių klavišus"
+  },
+  "columnResize": {
+    "message": "Keisti stulpelio dydį"
+  },
+  "typeDescription_node": {
+    "message": "Prisijunkite per tarpinį mazgą"
+  },
+  "typeDescription_manual": {
+    "message": "Įveskite tarpinio serverio nustatymus rankiniu būdu"
+  },
+  "typeDescription_auto": {
+    "message": "Pasirinkite mazgą naudodami taisykles"
+  },
+  "typeDescription_pac": {
+    "message": "Maršruto eismas naudojant PAC taisykles"
+  },
+  "appDescription": {
+    "message": "Naršyklės tarpinio serverio maršrutai, mazgai ir domeno taisyklės. Mazgo maršrutams reikalingas Windows kompanionas."
+  },
+  "core_title": {
+    "message": "Tarpinio serverio branduolys"
+  },
+  "core_checking": {
+    "message": "Tikrinamas vietinis komponentas…"
+  },
+  "core_ready": {
+    "message": "Xray paruošta"
+  },
+  "core_missing": {
+    "message": "Trūksta tarpinio serverio branduolio"
+  },
+  "core_external": {
+    "message": "Pasirinktinis branduolys: nepatikrinta"
+  },
+  "core_corrupt": {
+    "message": "Xray kontrolinės sumos neatitikimas – reikalingas remontas"
+  },
+  "core_unreadable": {
+    "message": "Nepavyko patikrinti pagrindinio failo"
+  },
+  "core_intro": {
+    "message": "Visas Windows paketas apima Xray. v2rayN yra neprivalomas."
+  },
+  "core_verify": {
+    "message": "Patikrinkite dar kartą"
+  },
+  "core_install": {
+    "message": "Įdiekite / pataisykite šerdį"
+  },
+  "core_installing": {
+    "message": "Atsisiunčiama ir tikrinama…"
+  },
+  "core_done": {
+    "message": "Šerdis patikrinta ir paruošta"
+  },
+  "core_help": {
+    "message": "Remontas naudoja prisegtą oficialų Xray leidimą ir patikrina jo kontrolinę sumą. Esami ryšiai veikia."
+  },
+  "core_absent": {
+    "message": "Vieną kartą įdiekite vietinį komponentą, tada grįžkite čia ir patikrinkite branduolį."
+  },
+  "core_download": {
+    "message": "Montavimo vadovas"
+  },
+  "core_absentHelp": {
+    "message": "Naudokite atitinkamą Windows paketą arba vadovaukitės vadovu, kad sukurtumėte jį iš šaltinio, tada paleiskite sąranką."
+  },
+  "core_failed": {
+    "message": "Pagrindinė operacija nepavyko. Bandykite dar kartą arba naudokite visą Windows paketą."
+  },
+  "core_version": {
+    "message": "Versija"
+  },
+  "error_ACTIVE_PROFILE_DELETE": {
+    "message": "Prieš ištrindami perjunkite kitą profilį"
+  },
+  "error_BACKUP_BINDING_TYPE": {
+    "message": "Maršrutų susiejimus gali turėti tik tarpinio serverio profiliai"
+  },
+  "error_BACKUP_FORMAT3_REQUIRED": {
+    "message": "Mazgų taisyklėms reikia 3 formato perkeliamos atsarginės kopijos"
+  },
+  "error_BACKUP_INDEPENDENT_PATH_REQUIRED": {
+    "message": "Atsarginėje kopijoje turi būti nepriklausomas mazgų kelias"
+  },
+  "error_BACKUP_INTERNAL_BINDINGS": {
+    "message": "Atsarginėje kopijoje yra vidinių susiejimų"
+  },
+  "error_BACKUP_MESSAGE_LIMIT": {
+    "message": "Mazgų atsarginė kopija viršija pagalbinės programos pranešimo dydžio ribą"
+  },
+  "error_BACKUP_NODES_INCOMPLETE": {
+    "message": "Nepilna mazgų atsarginė kopija"
+  },
+  "error_BACKUP_NODE_MISSING": {
+    "message": "Atsarginėje kopijoje trūksta būtino mazgo"
+  },
+  "error_BACKUP_NODE_PATHS_LIMIT": {
+    "message": "Atsarginė kopija palaiko daugiausia {limit} mazgų kelių"
+  },
+  "error_BACKUP_PATH_INCOMPLETE": {
+    "message": "Nepilnas mazgų kelias atsarginėje kopijoje"
+  },
+  "error_BACKUP_PROFILES_LIMIT": {
+    "message": "Atsarginė kopija palaiko daugiausia {limit} profilių"
+  },
+  "error_BACKUP_PROXY_CONFLICT": {
+    "message": "Atsarginėje kopijoje yra nesuderinamų tarpinio serverio nuostatų"
+  },
+  "error_BACKUP_SIZE_LIMIT": {
+    "message": "Atsarginė kopija viršija {limit} MB"
+  },
+  "error_BACKUP_TRANSFER_UNAVAILABLE": {
+    "message": "Norėdami perkelti mazgų atsargines kopijas, atnaujinkite arba pataisykite pagalbinę programą."
+  },
+  "error_BACKUP_UNUSED_NODES": {
+    "message": "Atsarginėje kopijoje yra mazgų be nuorodų"
+  },
+  "error_BODY_TOO_LARGE": {
+    "message": "Prenumeratos atsakymas viršija leistiną dydį."
+  },
+  "error_BROWSER_API_FAILED": {
+    "message": "Naršyklės operacija nepavyko. Žr. techninę informaciją."
+  },
+  "error_BROWSER_PROXY_RESTORE_FAILED": {
+    "message": "Operacija nepavyko ir ankstesnio naršyklės tarpinio serverio atkurti nepavyko"
+  },
+  "error_BROWSER_SCHEDULING_UNAVAILABLE": {
+    "message": "Naršyklės planavimas neprieinamas."
+  },
+  "error_BUSY": {
+    "message": "Vykdoma kita operacija. Netrukus bandykite dar kartą."
+  },
+  "error_CHAIN_PROBE_FAILED": {
+    "message": "Grandinės patikra nepavyko"
+  },
+  "error_COMPANION_BULK_RELEASE_REQUIRED": {
+    "message": "Norėdami saugiai valdyti kelias mazgų taisykles, atnaujinkite vietinę pagalbinę programą"
+  },
+  "error_COMPANION_CHAINS_REQUIRED": {
+    "message": "Norėdami įjungti surikiuotas grandines, atnaujinkite vietinę pagalbinę programą"
+  },
+  "error_COMPANION_MESSAGE_LIMIT": {
+    "message": "Nuostatos viršija pagalbinės programos pranešimo dydžio ribą"
+  },
+  "error_COMPANION_OPERATION_FAILED": {
+    "message": "Vietinės pagalbinės programos operacija nepavyko. Žr. techninę informaciją."
+  },
+  "error_COMPANION_UNAVAILABLE": {
+    "message": "Įdiekite arba pataisykite V2Route Companion"
+  },
+  "error_CONNECTION_CLOSED": {
+    "message": "Ryšys nutrauktas prieš baigiant bandymą."
+  },
+  "error_CORE_INSTALL_FAILED": {
+    "message": "Branduolio įdiegti nepavyko. Žr. techninę informaciją."
+  },
+  "error_CORE_OWNERSHIP_FAILED": {
+    "message": "Izoliuoto bandymo branduolio saugiai valdyti nepavyko. Bandymas sustabdytas."
+  },
+  "error_CORE_START_FAILED": {
+    "message": "Izoliuoto bandymo branduolio paleisti nepavyko. Patikrinkite pagalbinės programos ir branduolio diegimą."
+  },
+  "error_CORE_START_TIMEOUT": {
+    "message": "Izoliuotas bandymo branduolys laiku nepasiruošė."
+  },
+  "error_CORE_STATUS_UNAVAILABLE": {
+    "message": "Branduolio būsena neprieinama. Žr. techninę informaciją."
+  },
+  "error_CORE_VALIDATION_FAILED": {
+    "message": "Xray nepavyko patikrinti importuotų mazgų. Patikrinkite jų nuostatas ir bandykite dar kartą."
+  },
+  "error_DETACH_PORT_CONFLICT": {
+    "message": "Valdomas prievadas bus atlaisvintas. Įveskite kitą rankinį tarpinį serverį"
+  },
+  "error_DETACH_PROXY_REQUIRED": {
+    "message": "Prieš atsiedami įveskite pakaitinį rankinį tarpinį serverį"
+  },
+  "error_DNS_BUSY": {
+    "message": "DNS paieška užimta. Netrukus bandykite dar kartą."
+  },
+  "error_DNS_FAILED": {
+    "message": "DNS paieška nepavyko. Patikrinkite adresą ir tinklo ryšį."
+  },
+  "error_ENCODING_UNSUPPORTED": {
+    "message": "Prenumerata naudoja nepalaikomą turinio kodavimą."
+  },
+  "error_FIREFOX_PRIVATE_ACCESS_REQUIRED": {
+    "message": "Prieš keisdami tarpinio serverio nuostatas, plėtinio informacijoje leiskite V2Route veikti privačiuose languose"
+  },
+  "error_FOLDER_UNAVAILABLE": {
+    "message": "Aplankas neprieinamas; patikrinkite kelią, prieigą ir pagalbinės programos versiją"
+  },
+  "error_GROUP_LIMIT": {
+    "message": "Pasiekta grupių skaičiaus riba. Pašalinkite nenaudojamą grupę ir bandykite dar kartą."
+  },
+  "error_GROUP_NOT_EDITABLE": {
+    "message": "Šios šaltinio grupės čia redaguoti negalima."
+  },
+  "error_GROUP_NOT_FOUND": {
+    "message": "Pasirinktos grupės nebėra. Pasirinkite kitą grupę."
+  },
+  "error_HTTP_ENCODING": {
+    "message": "Bandymo serveris grąžino nepalaikomą kodavimą."
+  },
+  "error_HTTP_LENGTH": {
+    "message": "Bandymo atsakymo dydis neatitiko prašyto dydžio."
+  },
+  "error_HTTP_RESPONSE_TOO_LARGE": {
+    "message": "Bandymo atsakymas viršijo leistiną dydį."
+  },
+  "error_HTTP_STATUS": {
+    "message": "Bandymo serveris grąžino nesėkmingą HTTP būseną."
+  },
+  "error_IMPORTED_PROXY_MISSING": {
+    "message": "Pagalbinė programa negrąžino importuoto tarpinio serverio"
+  },
+  "error_IMPORTED_RULE_PATH_CONFLICT": {
+    "message": "Importuoti mazgai lemia nesuderinamus taisyklių kelius"
+  },
+  "error_IMPORT_CLEANUP_FAILED": {
+    "message": "Importuoti nepavyko; kai kurių laikinų mazgų ar prievadų atlaisvinti nepavyko. Esami profiliai išsaugoti"
+  },
+  "error_IMPORT_PROFILE_NAME_CONFLICT": {
+    "message": "Pasikartojantis arba netinkamas profilio pavadinimas"
+  },
+  "error_INCOMPLETE_RESPONSE": {
+    "message": "Prenumeratos atsakymas buvo nepilnas. Bandykite dar kartą."
+  },
+  "error_INVALID_BACKUP": {
+    "message": "Netinkama V2Route atsarginė kopija"
+  },
+  "error_INVALID_BACKUP_NODE": {
+    "message": "Netinkamas arba pasikartojantis atsarginės kopijos mazgas"
+  },
+  "error_INVALID_BACKUP_NODES": {
+    "message": "Netinkami atsarginės kopijos mazgai"
+  },
+  "error_INVALID_BACKUP_PATH": {
+    "message": "Netinkamas atsarginės kopijos kelias"
+  },
+  "error_INVALID_BYPASS_ENTRY": {
+    "message": "Netinkamas apėjimo įrašas"
+  },
+  "error_INVALID_BYPASS_LIST": {
+    "message": "Netinkamas apėjimo sąrašas"
+  },
+  "error_INVALID_CHAIN": {
+    "message": "Netinkama surikiuota grandinė"
+  },
+  "error_INVALID_CHAIN_PROBE": {
+    "message": "Netinkama grandinės patikra"
+  },
+  "error_INVALID_COMPANION_RESPONSE": {
+    "message": "Vietinė pagalbinė programa grąžino netinkamą atsakymą. Atnaujinkite arba pataisykite ją."
+  },
+  "error_INVALID_CONTENT": {
+    "message": "Prenumeratos atsakyme nėra tinkamo turinio."
+  },
+  "error_INVALID_DOMAIN_PATTERNS": {
+    "message": "Įveskite kableliais atskirtus domenų šablonus; kiekvieną URL įrašykite atskiroje eilutėje"
+  },
+  "error_INVALID_ENCODING": {
+    "message": "Prenumeratos atsakymas nėra tinkamas UTF-8 tekstas."
+  },
+  "error_INVALID_FOLDER_REQUEST": {
+    "message": "Netinkama aplanko užklausa"
+  },
+  "error_INVALID_GROUP_ACTION": {
+    "message": "Šis grupės veiksmas nepalaikomas."
+  },
+  "error_INVALID_HOP_INDEX": {
+    "message": "Netinkamas šuolio indeksas"
+  },
+  "error_INVALID_LEGACY_PREDECESSOR": {
+    "message": "Netinkamas senasis pirmtakas"
+  },
+  "error_INVALID_LIBRARY_COMMAND": {
+    "message": "Ši mazgų bibliotekos komanda nepalaikoma."
+  },
+  "error_INVALID_LIBRARY_REQUEST": {
+    "message": "Netinkama bibliotekos užklausa"
+  },
+  "error_INVALID_NAME": {
+    "message": "Įveskite pavadinimą iš 1–128 matomų ženklų be valdymo ženklų."
+  },
+  "error_INVALID_NETWORK_TEST": {
+    "message": "Netinkamas tinklo bandymas"
+  },
+  "error_INVALID_NODE_IMPORT_RESPONSE": {
+    "message": "Netinkamas mazgų importo atsakymas"
+  },
+  "error_INVALID_PREDECESSOR": {
+    "message": "Netinkamas šio maršruto pirmtakas"
+  },
+  "error_INVALID_PROFILE_NAME": {
+    "message": "Netinkamas profilio pavadinimas"
+  },
+  "error_INVALID_PROFILE_REFERENCE": {
+    "message": "Netinkama profilio nuoroda"
+  },
+  "error_INVALID_PROXY_AUTH": {
+    "message": "Netinkamas tarpinio serverio tapatybės nustatymas"
+  },
+  "error_INVALID_PROXY_CREDENTIALS": {
+    "message": "Netinkami tarpinio serverio prisijungimo duomenys"
+  },
+  "error_INVALID_PROXY_ENDPOINT": {
+    "message": "Įveskite tinkamą tarpinio serverio pagrindinį kompiuterį ir prievadą"
+  },
+  "error_INVALID_PROXY_HOST": {
+    "message": "Įveskite DNS vardą arba IP adresą be prievado, URL, kelio ar užklausos"
+  },
+  "error_INVALID_ROUTE": {
+    "message": "Netinkamas maršrutas"
+  },
+  "error_INVALID_ROUTE_SETTINGS": {
+    "message": "Netinkamos maršruto nuostatos"
+  },
+  "error_INVALID_RULES": {
+    "message": "Netinkamos taisyklės"
+  },
+  "error_INVALID_RULE_TARGET": {
+    "message": "Kiekvienai taisyklei pasirinkite vieną tinkamą mazgą arba profilį"
+  },
+  "error_INVALID_SUBSCRIPTION": {
+    "message": "Netinkama prenumerata"
+  },
+  "error_INVALID_SUBSCRIPTION_REQUEST": {
+    "message": "Netinkama prenumeratos užklausa"
+  },
+  "error_INVALID_SUBSCRIPTION_SETTINGS": {
+    "message": "Prenumeratos nuostatos netinkamos. Patikrinkite naujinimo intervalą ir ryšio politiką."
+  },
+  "error_INVALID_SYSTEM_PROXY_RESPONSE": {
+    "message": "Netinkamas sistemos tarpinio serverio atsakymas; atnaujinkite arba pataisykite pagalbinę programą"
+  },
+  "error_INVALID_TRANSPORT": {
+    "message": "Prenumeratos ryšio nuostatos netinkamos."
+  },
+  "error_INVALID_URL": {
+    "message": "Įveskite tinkamą HTTP(S) prenumeratos URL be naudotojo vardo ar slaptažodžio."
+  },
+  "error_LIBRARY_CHANGED": {
+    "message": "Mazgų biblioteka pakeista kitame lange. Atnaujinkite rodinį ir bandykite dar kartą."
+  },
+  "error_MANUAL_CHAIN_UNSUPPORTED": {
+    "message": "Rankiniai tarpiniai serveriai nepalaiko mazgų grandinės"
+  },
+  "error_MANUAL_PROXY_CLEANUP_FAILED": {
+    "message": "Išsaugoti nepavyko; mazgų bibliotekoje liko laikinai importuotas tarpinis serveris"
+  },
+  "error_NATIVE_BINDING_ID": {
+    "message": "Netinkamas maršruto susiejimo identifikatorius."
+  },
+  "error_NATIVE_BINDING_UNKNOWN": {
+    "message": "Maršruto susiejimo nėra."
+  },
+  "error_NATIVE_BUTTON_NAME": {
+    "message": "Mygtuko pavadinime turi būti 1–128 matomi ženklai."
+  },
+  "error_NATIVE_CATALOG_UNREADABLE": {
+    "message": "Nepavyko perskaityti v2rayN konfigūracijos."
+  },
+  "error_NATIVE_CORE_MISSING": {
+    "message": "Xray neprieinamas. Įdiekite pagalbinės programos paketą."
+  },
+  "error_NATIVE_GROUP_ID_COLLISION": {
+    "message": "Grupių identifikatoriai konfliktuoja."
+  },
+  "error_NATIVE_GROUP_ORDER": {
+    "message": "Netinkama grupių tvarka."
+  },
+  "error_NATIVE_NODE_ID_COLLISION": {
+    "message": "Mazgų identifikatoriai konfliktuoja."
+  },
+  "error_NATIVE_PREDECESSOR_AMBIGUOUS": {
+    "message": "Pirmtako pavadinimo nėra arba jis kartojasi. Pasirinkite konkretų pirmtako mazgą."
+  },
+  "error_NATIVE_PREDECESSOR_CYCLE": {
+    "message": "Pirmtakų grandinėje yra ciklas arba daugiau nei šeši mazgai."
+  },
+  "error_NATIVE_PREDECESSOR_INVALID": {
+    "message": "Pasirinkite tinkamą pirmtako tarpinį serverį."
+  },
+  "error_NATIVE_PREDECESSOR_MISSING": {
+    "message": "Pasirinkto pirmtako nebėra. Pasirinkite kitą mazgą."
+  },
+  "error_NATIVE_PREDECESSOR_SETTINGS": {
+    "message": "Netinkamos pirmtako nuostatos."
+  },
+  "error_NATIVE_ROUTE_INVALID": {
+    "message": "Pasirinkite tinkamą maršrutą."
+  },
+  "error_NATIVE_ROUTE_MISSING": {
+    "message": "Šio maršruto nebėra. Pasirinkite kitą maršrutą."
+  },
+  "error_NATIVE_ROUTE_PORTS": {
+    "message": "Netinkamas maršruto prievadų priskyrimas."
+  },
+  "error_NATIVE_ROUTE_UNAVAILABLE": {
+    "message": "Pasirinktas maršrutas neprieinamas. Žr. techninę informaciją."
+  },
+  "error_NATIVE_SETTINGS_FORMAT": {
+    "message": "Netinkamas nuostatų formatas."
+  },
+  "error_NATIVE_SETTINGS_REVISION": {
+    "message": "Netinkama nuostatų revizija."
+  },
+  "error_NATIVE_SUCCESSOR_UNSUPPORTED": {
+    "message": "Ši grupė naudoja nepalaikomą paskesnį tarpinį serverį."
+  },
+  "error_NATIVE_UNSUPPORTED_CUSTOM": {
+    "message": "Ši versija nepalaiko pasirinktinių išeinančiojo ryšio konfigūracijų."
+  },
+  "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
+    "message": "Ši versija nepalaiko Hysteria2."
+  },
+  "error_NATIVE_UNSUPPORTED_TUIC": {
+    "message": "Šioje versijoje nėra integruoto sing-box branduolio, būtino TUIC."
+  },
+  "error_NATIVE_UNSUPPORTED_TYPE": {
+    "message": "Šis maršruto tipas nepalaikomas."
+  },
+  "error_NATIVE_V2RAYN_PORT": {
+    "message": "Vietinis v2rayN prievadas netinkamas."
+  },
+  "error_NATIVE_V2RAYN_UNAVAILABLE": {
+    "message": "v2rayN neprieinamas. Pasirinkite importuotą mazgą."
+  },
+  "error_NETWORK_FAILED": {
+    "message": "Tinklo užklausa nepavyko. Patikrinkite ryšį ir bandykite dar kartą."
+  },
+  "error_NETWORK_TEST_FAILED": {
+    "message": "Tinklo diagnostika nepavyko. Žr. techninę informaciją."
+  },
+  "error_NODE_LIMIT": {
+    "message": "Operacija viršytų mazgų skaičiaus ribą. Pašalinkite nenaudojamus mazgus ir bandykite dar kartą."
+  },
+  "error_NODE_MAPPING_INCOMPLETE": {
+    "message": "Nepilna mazgų atitiktis"
+  },
+  "error_NODE_NOT_FOUND": {
+    "message": "Pasirinkto mazgo nebėra. Pasirinkite kitą mazgą."
+  },
+  "error_NOT_DUE": {
+    "message": "Kito suplanuoto naujinimo laikas dar neatėjo."
+  },
+  "error_PAC_ENTRY_REQUIRED": {
+    "message": "Įveskite PAC pirminį kodą su FindProxyForURL"
+  },
+  "error_PAC_FUNCTION_REQUIRED": {
+    "message": "Apibrėžkite sinchroninę aukščiausio lygio FindProxyForURL funkciją, funkcijos kintamąjį arba priskyrimą"
+  },
+  "error_PAC_PARSER_UNAVAILABLE": {
+    "message": "Pakete esantis PAC analizatorius neprieinamas; iš naujo įdiekite plėtinį"
+  },
+  "error_PAC_RULE_TARGET_UNSUPPORTED": {
+    "message": "Automatinių taisyklių tikslas negali būti įterpto PAC profilis"
+  },
+  "error_PAC_SOURCE_LIMIT": {
+    "message": "Įveskite ne ilgesnį kaip {limit} ženklų PAC pirminį kodą"
+  },
+  "error_PAC_SYNTAX_INVALID": {
+    "message": "Netinkama PAC sintaksė"
+  },
+  "error_PAC_SYNTAX_LOCATION": {
+    "message": "Netinkama PAC sintaksė: eilutė {line}, stulpelis {column}"
+  },
+  "error_PARTIAL_TRANSFER": {
+    "message": "Bandymo perdavimas baigėsi dar negavus visų duomenų."
+  },
+  "error_PRIVATE_DIRECTORY_FAILED": {
+    "message": "Nepavyko apsaugoti privataus bandymo aplanko. Bandymas sustabdytas."
+  },
+  "error_PRIVATE_TARGET": {
+    "message": "Prenumeratos užklausos privačiais ar vietiniais adresais neleidžiamos."
+  },
+  "error_PROFILE_NOT_FOUND": {
+    "message": "Profilis nerastas"
+  },
+  "error_PROFILE_REFERENCE_CYCLE": {
+    "message": "Ciklinės profilių nuorodos"
+  },
+  "error_PROFILE_REFERENCE_DEPTH": {
+    "message": "Automatinės taisyklės viršija didžiausią gylį {limit}"
+  },
+  "error_PROFILE_REFERENCE_MISSING": {
+    "message": "Nurodyto profilio nėra: {name}"
+  },
+  "error_PROFILE_SAVE_RESTORE_FAILED": {
+    "message": "Išsaugoti nepavyko, o maršruto atkūrimui reikia dėmesio"
+  },
+  "error_PROXY_AUTH_REQUIRED": {
+    "message": "Prenumeratos tarpiniam serveriui reikia tapatybės nustatymo, kurio ši užklausa negali pateikti."
+  },
+  "error_PROXY_CONTROL_UNAVAILABLE": {
+    "message": "Tarpinį serverį valdo kitas plėtinys arba politika"
+  },
+  "error_PROXY_DNS_REQUIRED": {
+    "message": "V2Route atlieka SOCKS5 DNS vardų nustatymą per tarpinį serverį"
+  },
+  "error_PROXY_FAILED": {
+    "message": "Prisijungti prie tarpinio serverio nepavyko. Patikrinkite pasirinktą maršrutą."
+  },
+  "error_PROXY_PROFILE_REQUIRED": {
+    "message": "Pasirinkite tarpinio serverio profilį"
+  },
+  "error_PROXY_ROLLBACK_REFUSED": {
+    "message": "Naršyklė atsisakė grąžinti ankstesnį tarpinį serverį"
+  },
+  "error_PROXY_SETTING_REFUSED": {
+    "message": "Naršyklė atmetė tarpinio serverio nuostatą"
+  },
+  "error_PROXY_UNAVAILABLE": {
+    "message": "Pasirinktas tarpinis serveris neprieinamas. Patikrinkite dabartinį maršrutą."
+  },
+  "error_PROXY_USERNAME_REQUIRED": {
+    "message": "Įveskite tarpinio serverio naudotojo vardą"
+  },
+  "error_RECOVERY_BINDINGS_LIMIT": {
+    "message": "Atkūrimas gali atkurti daugiausia {limit} mazgų susiejimų. Atverkite ir išsaugokite nurodytus profilius atskirai."
+  },
+  "error_REDIRECT_LIMIT": {
+    "message": "Prenumerata peradresavo per daug kartų. Patikrinkite jos URL."
+  },
+  "error_REFERENCED_PROFILE_DELETE": {
+    "message": "Į šį profilį nurodo automatinė taisyklė"
+  },
+  "error_REMOTE_PAC_UNSUPPORTED": {
+    "message": "Naudokite įterptą PAC pirminį kodą; nuotolinis PAC nepalaikomas"
+  },
+  "error_ROUTE_PORT_UNAVAILABLE": {
+    "message": "Nepriskirtas joks prievadas"
+  },
+  "error_ROUTE_RECOVERY_RESTORE_FAILED": {
+    "message": "Maršruto atkūrimas nepavyko, o grąžinimui reikia dėmesio"
+  },
+  "error_ROUTE_REVISION_CONFLICT": {
+    "message": "Maršrutas pakeistas kitame lange. Pirmiausia atnaujinkite rodinį"
+  },
+  "error_ROUTE_SAVE_ROLLBACK_FAILED": {
+    "message": "Maršruto išsaugoti nepavyko, o grąžinimui reikia dėmesio"
+  },
+  "error_ROUTE_UNAVAILABLE": {
+    "message": "Bandymo maršrutas neprieinamas. Patikrinkite mazgo ir pirmtako nuostatas."
+  },
+  "error_RULE_BINDING_MISSING": {
+    "message": "Trūksta mazgo taisyklės susiejimo. Iš naujo atverkite ir išsaugokite automatinį profilį: {name}"
+  },
+  "error_RULE_NODES_LIMIT": {
+    "message": "Automatinės taisyklės palaiko daugiausia {limit} skirtingų mazgų"
+  },
+  "error_RULE_NODE_CHANGED": {
+    "message": "Mazgo taisyklė neprieinama arba pakeista. Atkurkite mazgą arba pasirinkite kitą ir išsaugokite: {name}"
+  },
+  "error_RULE_PATH_CONFLICT": {
+    "message": "Nesuderinami mazgų taisyklių keliai"
+  },
+  "error_RULE_PATTERNS_LIMIT": {
+    "message": "Automatinės taisyklės iš viso palaiko daugiausia {limit} atitikties šablonų"
+  },
+  "error_RULE_PORT_UNAVAILABLE": {
+    "message": "Mazgo taisyklės prievadas neprieinamas"
+  },
+  "error_RULE_REVISION_CONFLICT": {
+    "message": "Mazgo taisyklė pakeista kitame lange. Pirmiausia atnaujinkite rodinį"
+  },
+  "error_SELECTED_NODE_UNAVAILABLE": {
+    "message": "Pasirinktas mazgas neprieinamas. Atkurkite jį arba pasirinkite kitą mazgą"
+  },
+  "error_SOCKS_FAILED": {
+    "message": "Nepavyko užmegzti SOCKS ryšio."
+  },
+  "error_STARTUP_FALLBACK_REFUSED": {
+    "message": "Naršyklė atmetė atsarginį paleidimo tarpinį serverį."
+  },
+  "error_SUBSCRIPTION_CHANGED": {
+    "message": "Prenumerata pakeista naujinimo metu. Atnaujinkite rodinį ir bandykite dar kartą."
+  },
+  "error_SUBSCRIPTION_HTTP_STATUS": {
+    "message": "Prenumeratos serveris grąžino HTTP {status}."
+  },
+  "error_SUBSCRIPTION_LIMIT": {
+    "message": "Pasiekta prenumeratų skaičiaus riba. Pašalinkite nenaudojamą prenumeratą ir bandykite dar kartą."
+  },
+  "error_SUBSCRIPTION_NOT_FOUND": {
+    "message": "Pasirinktos prenumeratos nebėra."
+  },
+  "error_SYSTEM_PROXY_SNAPSHOT_UNAVAILABLE": {
+    "message": "Pritaikyto sistemos tarpinio serverio momentinė kopija neprieinama."
+  },
+  "error_SYSTEM_PROXY_TIMEOUT": {
+    "message": "Baigėsi sistemos tarpinio serverio nuskaitymo laikas"
+  },
+  "error_SYSTEM_PROXY_UNAVAILABLE": {
+    "message": "Sistemos tarpinis serveris neprieinamas. Žr. techninę informaciją."
+  },
+  "error_TIMEOUT": {
+    "message": "Baigėsi užklausos laikas. Patikrinkite ryšį ir bandykite dar kartą."
+  },
+  "error_TLS_DOWNGRADE": {
+    "message": "Prenumerata peradresavo iš HTTPS į HTTP ir buvo užblokuota."
+  },
+  "error_TLS_FAILED": {
+    "message": "Saugaus ryšio patvirtinti nepavyko. Patikrinkite serverį ir sertifikatą."
+  },
+  "error_UNSAFE_TEMP_PATH": {
+    "message": "Laikinas bandymo aplankas nesaugus. Bandymas sustabdytas."
+  },
+  "error_UNSUPPORTED_LIBRARY_REQUEST": {
+    "message": "Nepalaikoma bibliotekos užklausa"
+  },
+  "error_UNSUPPORTED_PROFILE_TYPE": {
+    "message": "Nepalaikomas profilio tipas"
+  },
+  "error_UNSUPPORTED_REQUEST": {
+    "message": "Nepalaikoma užklausa"
+  },
+  "error_UNSUPPORTED_RULE_CONDITION": {
+    "message": "Palaikomos tik pagrindinio kompiuterio ir URL pakaitos simbolių taisyklės"
+  },
+  "error_UPDATE_FAILED": {
+    "message": "Prenumeratos atnaujinti nepavyko. Esami mazgai išsaugoti."
+  },
+  "error_VALIDATION_FAILED": {
+    "message": "Prenumeratos turinio patikrinti nepavyko. Esami mazgai išsaugoti."
+  },
+  "nativeUnnamedNode": {
+    "message": "Nepavadintas mazgas"
+  },
+  "nativeProtocolCustom": {
+    "message": "Pasirinktinis"
+  },
+  "nativeProtocolOutbound": {
+    "message": "Pasirinktinis išeinantysis ryšys"
+  },
+  "nativeProtocolGroup": {
+    "message": "Politikos grupė"
+  },
+  "nativeProtocolChain": {
+    "message": "Tarpinių serverių grandinė"
+  },
+  "nativeProtocolUnknown": {
+    "message": "Nepalaikomas tipas"
+  },
+  "languageLoadFailed": {
+    "message": "Nepavyko įkelti pasirinktos kalbos. Bandykite dar kartą."
+  },
+  "invalidBackupJSON": {
+    "message": "Atsarginė kopija nėra tinkamas JSON."
+  },
+  "noticeBodyLanguages": {
+    "message": "Visas politikos tekstas pateikiamas anglų ir supaprastinta kinų kalba."
+  },
+  "policyRules": {
+    "message": "Tarpinio serverio maršruto taisyklės"
+  },
+  "policyPriority": {
+    "message": "Tvarka: išimčių adresai → pirma atitinkanti taisyklė → numatytasis maršrutas."
+  },
+  "policyDirectHelp": {
+    "message": "Neatitinkantys adresai jungiami tiesiogiai. Tiesioginio ryšio mygtukas taip pat naudoja šias taisykles."
+  },
+  "policySystemHelp": {
+    "message": "Neatitinkantys adresai naudoja sistemos tarpinį serverį. Sistemos mygtukas taip pat naudoja šias taisykles."
+  },
+  "policyEmpty": {
+    "message": "Taisyklių nėra. Naudojamas numatytasis maršrutas."
+  },
+  "policyAddressHelp": {
+    "message": "Domenai, pakaitos simboliai, IP arba IP:prievadas. IP taisyklės tikrina URL esantį IP, ne DNS rezultatus."
+  },
+  "policyMoveUp": {
+    "message": "Perkelti taisyklę aukštyn"
+  },
+  "policyMoveDown": {
+    "message": "Perkelti taisyklę žemyn"
+  }
+}

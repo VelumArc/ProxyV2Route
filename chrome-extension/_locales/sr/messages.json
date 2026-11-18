@@ -1,0 +1,2150 @@
+{
+  "ruleTargetUnavailable": {
+    "message": "Недоступна мета"
+  },
+  "rulePatternPlaceholder": {
+    "message": "example.com, *.example.org, 192.0.2.1:8443"
+  },
+  "rulePatternHelp": {
+    "message": "Адресе одвојите зарезима. Сваки URL образац у посебан ред. PAC можда не види HTTPS путање."
+  },
+  "defaultChoice_direct": {
+    "message": "Повежите се без проксија"
+  },
+  "defaultChoice_system": {
+    "message": "Користи подешавања проксија система"
+  },
+  "defaultChoice_node": {
+    "message": "Користите изабрани чвор овог профила"
+  },
+  "defaultChoice_manual": {
+    "message": "Користите подешавања проксија овог профила"
+  },
+  "defaultChoice_auto": {
+    "message": "Примените правила рутирања овог профила"
+  },
+  "nlHttpsLatency": {
+    "message": "HTTPS одговор"
+  },
+  "nlLatencyMethod": {
+    "message": "Cloudflare · Најмање два одговора · Поновна употреба везе када је доступна"
+  },
+  "nlLatencyFast": {
+    "message": "Брзо"
+  },
+  "nlLatencyModerate": {
+    "message": "Умерено"
+  },
+  "nlLatencySlow": {
+    "message": "Споро"
+  },
+  "nlSortName": {
+    "message": "Име"
+  },
+  "nlSortLatency": {
+    "message": "Латенција: мала до висока"
+  },
+  "nlSortDownload": {
+    "message": "Преузимање: од високе до ниске"
+  },
+  "nlSortUpload": {
+    "message": "Отпремање: од највише до ниске"
+  },
+  "nlSingle": {
+    "message": "Један чвор"
+  },
+  "nlGroupBatch": {
+    "message": "Група / серија"
+  },
+  "nlTestScope": {
+    "message": "Опсег тестирања"
+  },
+  "nlCurrentNode": {
+    "message": "Изабрани чвор"
+  },
+  "nlCurrentGroup": {
+    "message": "Изабрана група"
+  },
+  "nlChooseNode": {
+    "message": "Изаберите чвор на листи"
+  },
+  "nlStart": {
+    "message": "Покрени тест"
+  },
+  "nlService": {
+    "message": "Тест услуга"
+  },
+  "nlMeasured": {
+    "message": "измерено"
+  },
+  "nlMeanLatency": {
+    "message": "Просечно кашњење"
+  },
+  "nlGroupBySource": {
+    "message": "По изворној групи"
+  },
+  "nlPreviousPage": {
+    "message": "Претходна страна"
+  },
+  "nlNextPage": {
+    "message": "Следећа страница"
+  },
+  "nlName": {
+    "message": "Име"
+  },
+  "nlEdit": {
+    "message": "Уреди"
+  },
+  "nlStop": {
+    "message": "Стани"
+  },
+  "nlConfirm": {
+    "message": "Потврдите"
+  },
+  "nlAllNodes": {
+    "message": "Сви чворови"
+  },
+  "nlNodeResults": {
+    "message": "Резултати чворова"
+  },
+  "nlTestCenter": {
+    "message": "Тест центар"
+  },
+  "nlNewGroup": {
+    "message": "Нова група"
+  },
+  "nlRenameGroup": {
+    "message": "Преименуј групу"
+  },
+  "nlRemoveGroup": {
+    "message": "Уклони групу"
+  },
+  "nlRemoveGroupHelp": {
+    "message": "Задржите сваки чвор и претплату и преместите их у Увезене чворове."
+  },
+  "nlNode": {
+    "message": "Чвор"
+  },
+  "nlStatus": {
+    "message": "Статус"
+  },
+  "nlActions": {
+    "message": "Акције"
+  },
+  "nlSort": {
+    "message": "Сортирај само ову табелу"
+  },
+  "nlSelected": {
+    "message": "изабрано"
+  },
+  "nlTestNode": {
+    "message": "Тест"
+  },
+  "nlProfileShort": {
+    "message": "Профил"
+  },
+  "nlQuick": {
+    "message": "Брзо кашњење"
+  },
+  "nlFull": {
+    "message": "Преузимање + отпремање"
+  },
+  "nlTraffic": {
+    "message": "Величина тестних података"
+  },
+  "nlConcurrency": {
+    "message": "Истовремени чворови"
+  },
+  "nlTrafficFullOnly": {
+    "message": "Користи се за тестове преузимања и отпремања"
+  },
+  "nlTestMode": {
+    "message": "Тестни режим"
+  },
+  "nlBudget": {
+    "message": "Саобраћај максималног терета"
+  },
+  "nlViaGroup": {
+    "message": "Преко групног пре-проксија"
+  },
+  "nlTestSelected": {
+    "message": "Изабран је тест"
+  },
+  "nlTestVisible": {
+    "message": "Тест приказани чворови"
+  },
+  "nlTestAll": {
+    "message": "Тестирајте све чворове"
+  },
+  "nlTestGroup": {
+    "message": "Чворови тест групе"
+  },
+  "nlProgress": {
+    "message": "Напредак мерења"
+  },
+  "nlReady": {
+    "message": "Изаберите чворове за почетак. Ниједан тест није покренут."
+  },
+  "nlStarting": {
+    "message": "Покретање изолованог мерења…"
+  },
+  "nlQueued": {
+    "message": "У реду"
+  },
+  "nlRunning": {
+    "message": "Тестирање"
+  },
+  "nlStopping": {
+    "message": "Заустављање…"
+  },
+  "nlComplete": {
+    "message": "Завршено"
+  },
+  "nlFailed": {
+    "message": "Није успело"
+  },
+  "nlStopped": {
+    "message": "Заустављено"
+  },
+  "nlPartial": {
+    "message": "Делимично"
+  },
+  "nlUntested": {
+    "message": "Није тестирано"
+  },
+  "nlSucceeded": {
+    "message": "прошао"
+  },
+  "nlMeasureDisconnected": {
+    "message": "Веза за мерење је завршена. Непотпуне вредности нису коначни резултати."
+  },
+  "nlUpgrade": {
+    "message": "Ажурирајте локални Цомпанион да бисте управљали групама и претплатама. Постојећи чворови остају доступни."
+  },
+  "nlOperationFailed": {
+    "message": "Операција није могла да се заврши. Покушајте поново."
+  },
+  "nlEditSubscription": {
+    "message": "Уреди претплату"
+  },
+  "nlPasteContent": {
+    "message": "Прокси везе / садржај"
+  },
+  "nlSubscriptionURL": {
+    "message": "Претплата URL"
+  },
+  "nlKeepURL": {
+    "message": "Оставите празно да сачувате URL"
+  },
+  "nlConnectionPolicy": {
+    "message": "Ажурирајте везу"
+  },
+  "nlProxyFirst": {
+    "message": "Прво прокси, а затим директно у случају грешке"
+  },
+  "nlProxyOnly": {
+    "message": "Само прокси"
+  },
+  "nlDirectOnly": {
+    "message": "Само директно"
+  },
+  "nlProxyFirstHelp": {
+    "message": "Прокси се прво зауставља након успешног преузимања. Директно се покушава само ако покушај проксија не успе."
+  },
+  "nlAutoUpdate": {
+    "message": "Омогући аутоматска ажурирања"
+  },
+  "nlInterval": {
+    "message": "Интервал ажурирања (минути)"
+  },
+  "nlDestinationGroup": {
+    "message": "Одредишна група"
+  },
+  "nlSubscriptionOwnGroup": {
+    "message": "Нова група…"
+  },
+  "nlNameGroup": {
+    "message": "Име (група)"
+  },
+  "nlCustomGroup": {
+    "message": "Прилагођена група"
+  },
+  "nlNameRequired": {
+    "message": "Унесите име."
+  },
+  "nlContentRequired": {
+    "message": "Налепите прокси везе или садржај претплате."
+  },
+  "nlGroupRequired": {
+    "message": "Изаберите одредишну групу."
+  },
+  "nlURLRequired": {
+    "message": "Унесите HTTP(С) претплату URL без корисничког имена или лозинке."
+  },
+  "nlIntervalInvalid": {
+    "message": "Унесите цео број од 5 до 43200 минута."
+  },
+  "folderTitle": {
+    "message": "Изаберите фасциклу v2rayN."
+  },
+  "folderHint": {
+    "message": "Изаберите фасциклу, а затим је примените помоћу Сачувај подешавања везе."
+  },
+  "folderPath": {
+    "message": "Пуна путања локалне фасцикле"
+  },
+  "folderGo": {
+    "message": "Отвори"
+  },
+  "folderUp": {
+    "message": "Горе"
+  },
+  "folderDrives": {
+    "message": "Дривес"
+  },
+  "folderCurrent": {
+    "message": "Тренутни пут"
+  },
+  "folderChoose": {
+    "message": "Користите овај фолдер"
+  },
+  "folderList": {
+    "message": "Фасцикле"
+  },
+  "folderTruncated": {
+    "message": "Оглас је ограничен. Унесите пуну путању изнад да бисте отворили фасциклу која није приказана."
+  },
+  "folderReady": {
+    "message": "v2rayN пронађених датотека. Користите ову фасциклу да потврдите конфигурацију."
+  },
+  "folderInvalid": {
+    "message": "Изаберите фасциклу која садржи guiConfigs, guiNConfig.json и guiNDB.db."
+  },
+  "folderSelectDrive": {
+    "message": "Изаберите локални диск или унесите пуну путању фасцикле."
+  },
+  "folderEmpty": {
+    "message": "Нема видљивих подфолдера."
+  },
+  "folderUnavailable": {
+    "message": "Није могуће прегледати ову фасциклу. Проверите његову путању и приступ. Ако је Цомпанион старији, прво га ажурирајте."
+  },
+  "folderValidating": {
+    "message": "Провера конфигурације v2rayN…"
+  },
+  "folderInvalidConfig": {
+    "message": "v2rayN конфигурација или база података је непотпуна или неважећа. Изаберите другу фасциклу."
+  },
+  "copyPath": {
+    "message": "Копирај путању"
+  },
+  "pathCopyHint": {
+    "message": "Копирајте путању која је тренутно у овом пољу."
+  },
+  "preMode": {
+    "message": "Пре-проки режим"
+  },
+  "preNode": {
+    "message": "Пре-прокси чвор"
+  },
+  "preIntro": {
+    "message": "Користите ланац група, прескочите га или изаберите пре-прокси за овај профил."
+  },
+  "healthLabel": {
+    "message": "Тренутни статус везе"
+  },
+  "healthOk": {
+    "message": "Нормално"
+  },
+  "healthError": {
+    "message": "Абнормално"
+  },
+  "healthChecking": {
+    "message": "Проверавам"
+  },
+  "healthUnknown": {
+    "message": "Непотврђено"
+  },
+  "autoSystemHelp": {
+    "message": "Системска правила захтевају Windows компоненту и снимак подешавања фиксног проксија. После измена примените поново. PAC/WPAD нису подржани; Систем без правила користи изворна подешавања прегледача."
+  },
+  "backgroundUnavailable": {
+    "message": "Позадина екстензије није доступна."
+  },
+  "backgroundNoResponse": {
+    "message": "Позадина није реаговала."
+  },
+  "backupTooLarge": {
+    "message": "Резервна копија прелази 5 МБ."
+  },
+  "proxyUsername": {
+    "message": "Корисничко име"
+  },
+  "proxyPassword": {
+    "message": "Лозинка"
+  },
+  "proxyAuthHelp": {
+    "message": "Опционо. Овлашћени проксији се повезују преко Цомпанион-а. Акредитиви се чувају у овој конфигурацији прегледача и пратиоцу и укључују се у извоз профила."
+  },
+  "proxyAuthSocks4": {
+    "message": "SOCKS4 не подржава ову аутентификацију корисничког имена/лозинке; користите HTTP(С) или SOCKS5."
+  },
+  "importExamples": {
+    "message": "Примери формата"
+  },
+  "ipCopying": {
+    "message": "Копирање…"
+  },
+  "netDnsUnavailable": {
+    "message": "Адреса сервера није могла бити решена на време. Проверите адресу хоста или IP и покушајте поново."
+  },
+  "netCurrentTarget": {
+    "message": "Изабрана крајња тачка проксија"
+  },
+  "netCustomTarget": {
+    "message": "Прилагођени сервер"
+  },
+  "netHost": {
+    "message": "Хост или IP адреса"
+  },
+  "netPort": {
+    "message": "TCP порт"
+  },
+  "netHostRequired": {
+    "message": "Унесите хост сервера или IP адресу."
+  },
+  "netCurrentUnavailable": {
+    "message": "Изаберите чвор или ручни прокси профил или унесите прилагођени циљ."
+  },
+  "netInvalidTarget": {
+    "message": "Унесите важећи дијагностички хост и порт."
+  },
+  "netIpv6PingUnavailable": {
+    "message": "IPv6 ICMP није доступан; користите TCPing."
+  },
+  "preNeedsFix": {
+    "message": "Изаберите важећи пре-прокси или не пре него што сачувате."
+  },
+  "preConfigure": {
+    "message": "Конфигуришите пре-прокси"
+  },
+  "preFollowInvalid": {
+    "message": "Фоллов v2rayN не прихвата прилагођени пре-прокси."
+  },
+  "followChainHelp": {
+    "message": "Праћење користи руту и ​​прокси ланац који су већ активни у v2rayN."
+  },
+  "netTitle": {
+    "message": "Тестови везе"
+  },
+  "ipTestDetails": {
+    "message": "Детаљи теста"
+  },
+  "netTarget": {
+    "message": "Пинг / TCPing мета"
+  },
+  "netDownload": {
+    "message": "Преузми тест"
+  },
+  "netPartial": {
+    "message": "Делимичан узорак"
+  },
+  "netComplete": {
+    "message": "Узорак завршен"
+  },
+  "netDirect": {
+    "message": "Системска мрежа"
+  },
+  "netUnreachable": {
+    "message": "Без одговора / није успело"
+  },
+  "netAverage": {
+    "message": "Просек"
+  },
+  "predecessor": {
+    "message": "Пре-прокси"
+  },
+  "preInherit": {
+    "message": "Користите v2rayN групни ланац"
+  },
+  "preNone": {
+    "message": "Нема пре-проксија"
+  },
+  "preSpecific": {
+    "message": "Изаберите чвор"
+  },
+  "preHelp": {
+    "message": "Односи се на овај профил. Користите v2rayN ланац групе, без пре-проксија или одређеног чвора. Фоллов v2rayN користи свој постојећи ланац."
+  },
+  "preSelectRequired": {
+    "message": "Изаберите пре-прокси чвор или изаберите Група подразумевано / Ништа."
+  },
+  "ipPing0Permission": {
+    "message": "Дозволи Ping0 приступ веб локацији за учитавање јавног извештаја."
+  },
+  "ipPublicChallenge": {
+    "message": "Веб локација захтева верификацију. Отворите страницу Ping0 да бисте је довршили и видели резултат."
+  },
+  "ipPublicReport": {
+    "message": "Ping0 јавни извештај"
+  },
+  "ipPublicSource": {
+    "message": "Извор: Ping0 јавна страница"
+  },
+  "ipPublicOriginal": {
+    "message": "Ping0 извештај"
+  },
+  "ipPublicPartial": {
+    "message": "Приказују се само поља наведена на јавној страници, на њиховом оригиналном језику. Класификације и процене заједничких корисника су од Ping0."
+  },
+  "setupTitle": {
+    "message": "Повежи Proxy V2Route"
+  },
+  "setupIntro": {
+    "message": "Инсталирајте Windows пратилац да бисте користили v2rayN руте или сопствене увезене чворове."
+  },
+  "setupStepOne": {
+    "message": "Извуците одговарајући комплетни пакет Windows у трајну фасциклу."
+  },
+  "setupStepTwo": {
+    "message": "Отворите V2Route-Setup.exe и кликните на Инсталирај."
+  },
+  "setupStepThree": {
+    "message": "Вратите се овде и проверите везу. Изаберите фасциклу v2rayN ако је потребно."
+  },
+  "setupCheck": {
+    "message": "Проверите везу"
+  },
+  "downloadCompanion": {
+    "message": "Упутство за инсталацију ↗"
+  },
+  "setupDownloadNote": {
+    "message": "Користите одговарајући локални Windows пакет или пратите водич да бисте га направили из тренутног извора."
+  },
+  "chooseFolder": {
+    "message": "Изаберите фасциклу v2rayN…"
+  },
+  "rescanDone": {
+    "message": "Локални чворови су поново скенирани"
+  },
+  "grouping": {
+    "message": "Групни чворови"
+  },
+  "groupByCountry": {
+    "message": "По земљи"
+  },
+  "unknownCountry": {
+    "message": "Друго / Непознато"
+  },
+  "ungrouped": {
+    "message": "Унгроупед"
+  },
+  "adjustNodeFilters": {
+    "message": "Покушајте са другом групом, извором или претраживањем или прикажите скривене чворове."
+  },
+  "rescanLocal": {
+    "message": "Поново скенирај v2rayN чворове"
+  },
+  "showHidden": {
+    "message": "Прикажи скривене чворове"
+  },
+  "hideNode": {
+    "message": "Сакриј"
+  },
+  "restoreNode": {
+    "message": "Обнови"
+  },
+  "hiddenNode": {
+    "message": "Скривено"
+  },
+  "hideNodeHelp": {
+    "message": "Сакриј само из библиотеке чворова овог прегледача. v2rayN и постојећи профили су непромењени."
+  },
+  "ipContextTimeout": {
+    "message": "Истекло је време за читање тренутног профила. Покушајте поново."
+  },
+  "ipStaleResult": {
+    "message": "Тренутни профил је промењен. Овај резултат може бити застарео; провери поново."
+  },
+  "ip_tools": {
+    "message": "IP Алати"
+  },
+  "ipIntro": {
+    "message": "Тренутни излаз IP и јавни извештај."
+  },
+  "ipCurrentProfile": {
+    "message": "Тренутни профил прегледача"
+  },
+  "ipRouteCaution": {
+    "message": "Аутоматска правила и PAC могу користити различите руте за различита одредишта. Ова провера описује само сопствени захтев."
+  },
+  "ipDisclosure": {
+    "message": "Аутоматска провера излаз IP · Извештај од Ping0"
+  },
+  "ipMethod": {
+    "message": "Провера адресе"
+  },
+  "ipDual": {
+    "message": "IPv4 / IPv6"
+  },
+  "ipCheck": {
+    "message": "Проверите поново"
+  },
+  "ipChecking": {
+    "message": "Проверавам…"
+  },
+  "ipDualHelp": {
+    "message": "IPv4 / IPv6 враћа породицу адреса која се користи за овај захтев, а не обе адресе."
+  },
+  "ipDurationHelp": {
+    "message": "Протекло HTTP време захтева укључује време одговора мреже и услуге. То није ICMP пинг или тест пропусног опсега."
+  },
+  "ipCopy": {
+    "message": "Копија IP"
+  },
+  "ipCopied": {
+    "message": "Копирано"
+  },
+  "ipCopyFailed": {
+    "message": "Није могуће копирати. Изаберите адресу и копирајте је ручно."
+  },
+  "ipNoResult": {
+    "message": "Још нема провере"
+  },
+  "ipContextUnknown": {
+    "message": "Профил недоступан"
+  },
+  "ipTimeout": {
+    "message": "Провера је истекла. Покушајте поново или користите другу руту."
+  },
+  "ipCancelled": {
+    "message": "Провера је отказана"
+  },
+  "ipNetwork": {
+    "message": "Није могуће доћи до ipify. Проверите везу и покушајте поново."
+  },
+  "ipHttp": {
+    "message": "Услуга IP није прихватила захтев. Покушајте поново касније."
+  },
+  "ipInvalid": {
+    "message": "Услуга IP је вратила неважећи одговор."
+  },
+  "ipFailure": {
+    "message": "Провера није успела. Покушајте поново."
+  },
+  "ipStale": {
+    "message": "Подешавања проксија су се променила током провере. Стари резултат је одбачен; провери поново."
+  },
+  "ipQuality": {
+    "message": "Спољни алати"
+  },
+  "ipQualityPrivacy": {
+    "message": "Алати се покрећу само на клик. Провајдери добијају нормалне податке о вези. Провере веб локација шаљу захтеве без акредитива након Старт. Затварање зауставља локалне тестове; спољним картицама управља прегледач."
+  },
+  "ipReport": {
+    "message": "Копирај редиговани извештај"
+  },
+  "ipReportCopied": {
+    "message": "Редиговани извештај је копиран; није укључено IP или имена профила."
+  },
+  "popupSelected": {
+    "message": "Изабрано"
+  },
+  "popupFooter": {
+    "message": "v2rayN и профили чворова"
+  },
+  "subtitle": {
+    "message": "Независне руте претраживача"
+  },
+  "profiles": {
+    "message": "Профили"
+  },
+  "nodes": {
+    "message": "Библиотека чворова"
+  },
+  "settings": {
+    "message": "Подешавања"
+  },
+  "connected": {
+    "message": "Активан профил"
+  },
+  "noProfile": {
+    "message": "Подразумевано по систему"
+  },
+  "newProfile": {
+    "message": "Нови профил"
+  },
+  "searchProfiles": {
+    "message": "Претрага профила"
+  },
+  "direct": {
+    "message": "Директна мрежа"
+  },
+  "system": {
+    "message": "Системски прокси"
+  },
+  "follow": {
+    "message": "Прати v2rayN"
+  },
+  "manual": {
+    "message": "Ручни прокси"
+  },
+  "auto": {
+    "message": "Аутоматски прекидач"
+  },
+  "pac": {
+    "message": "PAC скрипта"
+  },
+  "virtual": {
+    "message": "Виртуелни профил"
+  },
+  "profileIntro": {
+    "message": "Изаберите руту прегледача без пребацивања главне руте v2rayN."
+  },
+  "nodesIntro": {
+    "message": "Прегледајте локалне v2rayN чворове и ваше увезене везе."
+  },
+  "settingsIntro": {
+    "message": "Локална веза, језик и изглед."
+  },
+  "refresh": {
+    "message": "Освежи"
+  },
+  "create": {
+    "message": "Креирај профил"
+  },
+  "name": {
+    "message": "Име профила"
+  },
+  "type": {
+    "message": "Тип профила"
+  },
+  "save": {
+    "message": "Сачувај"
+  },
+  "saved": {
+    "message": "Сачувано"
+  },
+  "saving": {
+    "message": "Чување…"
+  },
+  "cancel": {
+    "message": "Откажи"
+  },
+  "close": {
+    "message": "Затвори"
+  },
+  "apply": {
+    "message": "Користите овај профил"
+  },
+  "applied": {
+    "message": "Профил замењен"
+  },
+  "active": {
+    "message": "Активан"
+  },
+  "delete": {
+    "message": "Избриши"
+  },
+  "remove": {
+    "message": "Уклони"
+  },
+  "rename": {
+    "message": "Преименуј"
+  },
+  "route": {
+    "message": "Прокси рута"
+  },
+  "selectRoute": {
+    "message": "Изаберите руту"
+  },
+  "routeMissing": {
+    "message": "Рута није доступна — изаберите другу"
+  },
+  "chain": {
+    "message": "Ланац повезивања"
+  },
+  "connection": {
+    "message": "Локална веза"
+  },
+  "proxy": {
+    "message": "Прокси сервер"
+  },
+  "address": {
+    "message": "Адреса"
+  },
+  "port": {
+    "message": "Порт"
+  },
+  "scheme": {
+    "message": "Протокол"
+  },
+  "proxyDns": {
+    "message": "SOCKS5 DNS решава преко проксија."
+  },
+  "connectedIdle": {
+    "message": "Повезано · Неактиван"
+  },
+  "bypass": {
+    "message": "Листа заобилажења"
+  },
+  "bypassHelp": {
+    "message": "Један домен, џокерски образац, IP адреса или IP:порт по реду."
+  },
+  "advanced": {
+    "message": "Напредне опције"
+  },
+  "searchRoutes": {
+    "message": "Претрага група или чворова"
+  },
+  "selectGroup": {
+    "message": "Изаберите групу"
+  },
+  "empty": {
+    "message": "Нема одговарајућих ставки"
+  },
+  "unavailable": {
+    "message": "Недоступно"
+  },
+  "groupHint": {
+    "message": "Задржите групу за 250 ms, а затим превуците. Алт + ↑ / ↓ такође мења редослед. Промене се аутоматски чувају."
+  },
+  "searchSort": {
+    "message": "Обришите претрагу пре сортирања."
+  },
+  "dragHint": {
+    "message": "Померите се горе или доле, а затим отпустите да бисте сачували. Есц отказује."
+  },
+  "orderSaved": {
+    "message": "Групни налог је сачуван"
+  },
+  "orderCancelled": {
+    "message": "Промена редоследа је отказана"
+  },
+  "loading": {
+    "message": "Учитавање…"
+  },
+  "reading": {
+    "message": "Читање локалних чворова…"
+  },
+  "nativeMissing": {
+    "message": "Локална компонента није повезана"
+  },
+  "retry": {
+    "message": "Покушај поново"
+  },
+  "nativeHelp": {
+    "message": "Руте чворова захтевају пратиоца Windows. Директни, системски и ручни проксији су сада доступни."
+  },
+  "imported": {
+    "message": "Увезено"
+  },
+  "v2rayn": {
+    "message": "v2rayN"
+  },
+  "allSources": {
+    "message": "Сви извори"
+  },
+  "importNodes": {
+    "message": "Увоз проксија"
+  },
+  "importTitle": {
+    "message": "Увоз проксија"
+  },
+  "importHelp": {
+    "message": "Налепите прокси везе, одлазну JSON или Base64 претплату. SOCKS подржава обичне или Base64 акредитиве. Адресе без шеме користе HTTP."
+  },
+  "importPrivacy": {
+    "message": "Детаљи проксија и акредитиви се прослеђују локалном Proxy V2Route пратиоцу за складиштење и повезивање са проксијем који изаберете. Програмер не прима ове информације."
+  },
+  "import": {
+    "message": "Увезите профиле"
+  },
+  "nodeCount": {
+    "message": "чворова"
+  },
+  "source": {
+    "message": "Извор"
+  },
+  "protocol": {
+    "message": "Протокол"
+  },
+  "useNode": {
+    "message": "Креирај профил"
+  },
+  "removeNode": {
+    "message": "Уклонити увезени чвор?"
+  },
+  "removeNodeHelp": {
+    "message": "Профили који користе овај чвор морају бити поново додељени пре него што се може уклонити."
+  },
+  "deleteProfile": {
+    "message": "Избрисати овај профил?"
+  },
+  "deleteProfileHelp": {
+    "message": "Ово уклања само овај профил прегледача. Увезени чворови и v2rayN конфигурација се чувају."
+  },
+  "language": {
+    "message": "Језик"
+  },
+  "automatic": {
+    "message": "Подразумевани претраживач"
+  },
+  "theme": {
+    "message": "Изглед"
+  },
+  "light": {
+    "message": "Светло"
+  },
+  "dark": {
+    "message": "Тамно"
+  },
+  "switchToEnglish": {
+    "message": "Пребаците се на енглески"
+  },
+  "switchToChinese": {
+    "message": "Пребаците се на поједностављени кинески"
+  },
+  "switchToLight": {
+    "message": "Пребаците се на светли изглед"
+  },
+  "switchToDark": {
+    "message": "Пребаците се на тамни изглед"
+  },
+  "localComponent": {
+    "message": "Пратећа компонента"
+  },
+  "ready": {
+    "message": "Повезано"
+  },
+  "stopped": {
+    "message": "Не ради"
+  },
+  "discovery": {
+    "message": "v2rayN детекција"
+  },
+  "rootPath": {
+    "message": "v2rayN фолдер"
+  },
+  "corePath": {
+    "message": "Извршна датотека језгра проксија"
+  },
+  "optionalPath": {
+    "message": "Оставите празно за аутоматско откривање"
+  },
+  "pathsHelp": {
+    "message": "v2rayN се детектује аутоматски; изаберите њену фасциклу ако је потребно. Увезени чворови користе укључено језгро."
+  },
+  "savePaths": {
+    "message": "Сачувајте подешавања везе"
+  },
+  "privacy": {
+    "message": "Подешавања се чувају локално"
+  },
+  "privacyText": {
+    "message": "Везе чворова и акредитиви остају у локалном пратиоцу. Саобраћај прегледача иде преко вашег изабраног проксија до одредишних веб локација; програмер га не прима."
+  },
+  "privacyDetails": {
+    "message": "Приватност и проток података"
+  },
+  "export": {
+    "message": "Извези профиле"
+  },
+  "about": {
+    "message": "О Proxy V2Route"
+  },
+  "aboutText": {
+    "message": "Изаберите руту прегледача без промене главне руте v2rayN. Руте чворова користе Windows пратиоца и ваше сопствене чворове."
+  },
+  "licenses": {
+    "message": "Обавештења о отвореном коду"
+  },
+  "version": {
+    "message": "Верзија"
+  },
+  "fieldRequired": {
+    "message": "Унесите име профила."
+  },
+  "profileExists": {
+    "message": "Профил са овим именом већ постоји."
+  },
+  "ruleHelp": {
+    "message": "Одвојите домене у једном реду зарезима. Први одговарајући ред побеђује. Нека подразумевана рута буде доступна."
+  },
+  "rules": {
+    "message": "Правила рутирања"
+  },
+  "pattern": {
+    "message": "Шаблон домаћина"
+  },
+  "target": {
+    "message": "Циљ правила"
+  },
+  "addRule": {
+    "message": "Додај правило"
+  },
+  "defaultRoute": {
+    "message": "Подразумевани профил"
+  },
+  "pacHelp": {
+    "message": "Налепите поуздани PAC извор који садржи FindProxyForURL. Ова скрипта одлучује како се захтеви за веб локацију усмеравају."
+  },
+  "pacUrl": {
+    "message": "PAC URL"
+  },
+  "pacScript": {
+    "message": "PAC скрипта"
+  },
+  "noSelection": {
+    "message": "Изаберите профил или га креирајте."
+  },
+  "details": {
+    "message": "Детаљи"
+  },
+  "noNodes": {
+    "message": "Још нема чворова"
+  },
+  "noNodesHelp": {
+    "message": "Повежите v2rayN или увезите прокси везе, JSON или претплату да бисте започели."
+  },
+  "openSettings": {
+    "message": "Отворите подешавања"
+  },
+  "proxySettings": {
+    "message": "Подешавања проксија"
+  },
+  "switching": {
+    "message": "Пребацивање…"
+  },
+  "updatedElsewhere": {
+    "message": "Овај профил је промењен у другом прозору. Поново га отворите пре чувања."
+  },
+  "choose": {
+    "message": "Изаберите"
+  },
+  "popupIntro": {
+    "message": "Веза:"
+  },
+  "invalidPort": {
+    "message": "Унесите порт од 1 до 65535."
+  },
+  "externalControl": {
+    "message": "Друго проширење или смерница контролише прокси претраживач."
+  },
+  "noNativeRoute": {
+    "message": "Повежите локалну компоненту пре креирања профила чвора."
+  },
+  "reload": {
+    "message": "Поново учитај"
+  },
+  "rulesError": {
+    "message": "Свако правило захтева образац и циљ."
+  },
+  "backupDone": {
+    "message": "Извезени су профили прегледача"
+  },
+  "managed": {
+    "message": "Управљани чвор"
+  },
+  "netRegion": {
+    "message": "Циљна област"
+  },
+  "netNodeArea": {
+    "message": "Прокси чвор"
+  },
+  "netChina": {
+    "message": "Континентална Кина"
+  },
+  "netGlobal": {
+    "message": "Глобално"
+  },
+  "netAli": {
+    "message": "АлиДНС"
+  },
+  "netTencent": {
+    "message": "ДНСПод"
+  },
+  "netStartHelp": {
+    "message": "Одаберите мету, а затим започните тестирање уживо."
+  },
+  "netConsole": {
+    "message": "Дијагностика уживо"
+  },
+  "netStop": {
+    "message": "Стани"
+  },
+  "netRunning": {
+    "message": "Трчање"
+  },
+  "netStopped": {
+    "message": "Заустављен"
+  },
+  "netSent": {
+    "message": "Послано"
+  },
+  "netLoss": {
+    "message": "Губитак"
+  },
+  "netAverageShort": {
+    "message": "Прос"
+  },
+  "netLogClear": {
+    "message": "Ведро"
+  },
+  "netFinishing": {
+    "message": "Претходна сонда се завршава…"
+  },
+  "netRound": {
+    "message": "Округли"
+  },
+  "netDestination": {
+    "message": "Одредиште"
+  },
+  "netHop": {
+    "message": "Хоп"
+  },
+  "netAddress": {
+    "message": "IP адреса"
+  },
+  "netLast": {
+    "message": "Последњи"
+  },
+  "netConsoleHelp": {
+    "message": "Пинг / TCPing / MTR користе системску мрежу, а не прокси ланац. Недостајући одговори ICMP не доказују губитак саобраћаја. Преузимање користи руту претраживача и одабрано ограничење величине. Тестови се заустављају када напустите или сакријете ову страницу."
+  },
+  "netDirectShort": {
+    "message": "Системска мрежа"
+  },
+  "netIcmpShort": {
+    "message": "Не ICMP одговор"
+  },
+  "netProbeError": {
+    "message": "Грешка локалне сонде"
+  },
+  "netNoDestination": {
+    "message": "Одредиште није достигнуто"
+  },
+  "deleteActive": {
+    "message": "Пребаците се на систем и избришите"
+  },
+  "deleteActiveHelp": {
+    "message": "Овај профил је активан. Брисањем се прегледач пребацује на системски прокси."
+  },
+  "netDownloadSize": {
+    "message": "Величина преузимања"
+  },
+  "netReceived": {
+    "message": "Примљено"
+  },
+  "netBest": {
+    "message": "Најбољи"
+  },
+  "netWorst": {
+    "message": "Најгоре"
+  },
+  "netStdDev": {
+    "message": "Стд дев"
+  },
+  "netLocation": {
+    "message": "Локација"
+  },
+  "toolWall": {
+    "message": "Провера блокирања домена"
+  },
+  "toolSites": {
+    "message": "Популарне веб странице"
+  },
+  "toolGlobal": {
+    "message": "Глобална дијагностика"
+  },
+  "toolFast": {
+    "message": "Netflix брзина"
+  },
+  "toolSpeed": {
+    "message": "Тест брзине"
+  },
+  "toolStart": {
+    "message": "Старт"
+  },
+  "toolReady": {
+    "message": "Спреман"
+  },
+  "toolResponded": {
+    "message": "Одговорио"
+  },
+  "toolNoResponse": {
+    "message": "Непотврђено"
+  },
+  "toolCacheUnsupported": {
+    "message": "Овај прегледач не може да обрише кеш по сајту; страница је поново учитана."
+  },
+  "toolCacheFailed": {
+    "message": "Чишћење кеша није завршено. Затворите и покушајте поново."
+  },
+  "toolClose": {
+    "message": "Затвори"
+  },
+  "toolReload": {
+    "message": "Поново учитај"
+  },
+  "toolLoading": {
+    "message": "Учитавање…"
+  },
+  "toolFrameError": {
+    "message": "Није могуће учитати. Покушајте поново учитати."
+  },
+  "toolSiteHelp": {
+    "message": "Само доступност претраживача. Ово не верификује налог или регионални приступ."
+  },
+  "toolFallback": {
+    "message": "Тест брзине резервне копије"
+  },
+  "toolFullscreen": {
+    "message": "Цео екран"
+  },
+  "toolRestore": {
+    "message": "Изађите преко целог екрана"
+  },
+  "ipReadFailed": {
+    "message": "Читање није успело. 👉"
+  },
+  "ipViewSource": {
+    "message": "Погледај изворни сајт"
+  },
+  "toolDownloadError": {
+    "message": "Није могуће доћи до сервера за преузимање. Покушајте поново."
+  },
+  "toolAccess": {
+    "message": "Омогући приступ сајту"
+  },
+  "toolPermission": {
+    "message": "Дозволите приступ овој локацији ради компатибилности уграђене сесије."
+  },
+  "toolAsia": {
+    "message": "Азија"
+  },
+  "toolEurope": {
+    "message": "Европа"
+  },
+  "toolAmerica": {
+    "message": "Северна Америка"
+  },
+  "toolGlobalHelp": {
+    "message": "Унапред попуњава излаз из прегледача IP. Изаберите континенталну Кину или неки други регион да бисте упоредили путеве; Старт шаље приказани циљ до три Globalping сонде."
+  },
+  "toolServiceError": {
+    "message": "Услуга тестирања је недоступна. Покушајте поново."
+  },
+  "popupOrderHelp": {
+    "message": "Држите и превуците да бисте променили редослед. Алт+тастери са стрелицама такође померају овај профил."
+  },
+  "popupOrderSaved": {
+    "message": "Поруџбина је сачувана"
+  },
+  "toolGroupIP": {
+    "message": "IP тестови"
+  },
+  "toolGroupWeb": {
+    "message": "Тестови веб локација"
+  },
+  "toolGroupSpeed": {
+    "message": "Брзина"
+  },
+  "toolCurrentIP": {
+    "message": "Тренутни излаз IP"
+  },
+  "toolCurrentIPLoading": {
+    "message": "Учитавање излаза струје IP…"
+  },
+  "toolCurrentIPFailed": {
+    "message": "Није могуће прочитати тренутни IP. Унесите циљ."
+  },
+  "speedMode": {
+    "message": "Тестни режим"
+  },
+  "speedBoth": {
+    "message": "Преузимање + отпремање"
+  },
+  "speedDownload": {
+    "message": "Преузми"
+  },
+  "speedUpload": {
+    "message": "Уплоад"
+  },
+  "speedLatency": {
+    "message": "HTTP кашњење"
+  },
+  "speedBudget": {
+    "message": "{n} MiB по фази · {total} MiB укупно, плус узорци мале латенције."
+  },
+  "siteCategory": {
+    "message": "Категорија веб сајта"
+  },
+  "siteAll": {
+    "message": "Све веб странице"
+  },
+  "siteAI": {
+    "message": "АИ"
+  },
+  "siteDevelopment": {
+    "message": "Развој"
+  },
+  "siteVideo": {
+    "message": "Видео / музика"
+  },
+  "siteSocial": {
+    "message": "Социал"
+  },
+  "siteDomestic": {
+    "message": "Услуге копна"
+  },
+  "siteServices": {
+    "message": "Заједничке службе"
+  },
+  "globalMethod": {
+    "message": "Врста мерења"
+  },
+  "localPort": {
+    "message": "Локални порт:"
+  },
+  "chainChooseNode": {
+    "message": "Изаберите прокси чвор"
+  },
+  "chainTitle": {
+    "message": "Прокси ланац"
+  },
+  "chainSelectExit": {
+    "message": "Изаберите одређени излазни чвор испод да бисте сачували или тестирали овај прилагођени ланац. Праћењем v2rayN управља v2rayN."
+  },
+  "chainSelectExitShort": {
+    "message": "Изаберите излазни чвор"
+  },
+  "chainAdd": {
+    "message": "+ Додајте прокси слој"
+  },
+  "chainTest": {
+    "message": "Тестни ланац"
+  },
+  "chainMode": {
+    "message": "Режим ланца"
+  },
+  "chainBase": {
+    "message": "Основни прокси"
+  },
+  "chainExit": {
+    "message": "Излаз из проксија"
+  },
+  "chainEgress": {
+    "message": "Ланчани излаз"
+  },
+  "chainExitBadge": {
+    "message": "Излаз IP"
+  },
+  "chainEntry": {
+    "message": "Улаз у ланац"
+  },
+  "chainTransit": {
+    "message": "Мостни чвор"
+  },
+  "chainUntested": {
+    "message": "Није тестирано"
+  },
+  "chainMissing": {
+    "message": "Недоступан чвор"
+  },
+  "chainUnresolved": {
+    "message": "Не може да се реши наслеђени ланац. Поправите претходне поставке или изаберите прилагођени ланац."
+  },
+  "chainUpgrade": {
+    "message": "Ажурирајте локалног пратиоца да бисте омогућили уређене ланце."
+  },
+  "chainBusy": {
+    "message": "У току је још један тест ланца"
+  },
+  "chainOK": {
+    "message": "Доступан"
+  },
+  "chainFailed": {
+    "message": "Неуспео скок у овом тесту"
+  },
+  "chainBlocked": {
+    "message": "Није тестирано · претходни скок није успео"
+  },
+  "chainFailureHelp": {
+    "message": "Овај скок или пут до њега није прошао. Касније хмељ није тестиран."
+  },
+  "chainAllOK": {
+    "message": "Све кумулативне путање су одговориле"
+  },
+  "chainStopping": {
+    "message": "Заустављање након тренутно ограничене сонде…"
+  },
+  "globalWorld": {
+    "message": "Широм света"
+  },
+  "globalUnavailable": {
+    "message": "Циљ или регион су недоступни. Проверите циљ или изаберите други регион."
+  },
+  "globalRateLimited": {
+    "message": "Достигнуто је ограничење брзине услуге. Покушајте поново касније."
+  },
+  "globalNoResults": {
+    "message": "Услуга није вратила резултате сонде. Покушајте са другим регионом."
+  },
+  "globalProbeFailed": {
+    "message": "Сонда није успела"
+  },
+  "globalProbeOffline": {
+    "message": "Сонда није на мрежи"
+  },
+  "globalIcmpCaution": {
+    "message": "Недостатак ICMP одговора сам по себи не доказује блокирање. Упоредите копнене и прекоморске путеве и друге типове тестова."
+  },
+  "speedRealtime": {
+    "message": "Брзина уживо"
+  },
+  "speedAverage": {
+    "message": "Просечна брзина"
+  },
+  "ipToolsBrief": {
+    "message": "Резултати треће стране су за референцу."
+  },
+  "ipReportBrief": {
+    "message": "Резултати се разликују у зависности од излаза IP и служе као референца."
+  },
+  "toolPingPe": {
+    "message": "IP провера блокирања"
+  },
+  "toolTargetIP": {
+    "message": "Циљ IP"
+  },
+  "toolOpenPingPe": {
+    "message": "Отворени званични тест"
+  },
+  "toolInvalidIP": {
+    "message": "Унесите важећу IPv4 или IPv6 адресу."
+  },
+  "toolInvalidPort": {
+    "message": "Унесите TCP порт од 1 до 65535."
+  },
+  "toolExternalFailed": {
+    "message": "Није могуће отворити веб локацију. Покушајте поново."
+  },
+  "ipBrowserReading": {
+    "message": "Читање Ping0 преко претраживача…"
+  },
+  "ipVerifyBrowser": {
+    "message": "Отворите страницу за верификацију"
+  },
+  "policyCenter": {
+    "message": "Приватност, декларација и честа питања"
+  },
+  "policyCenterIntro": {
+    "message": "Локално руковање подацима, ограничења тестирања и уобичајени одговори."
+  },
+  "policyPrivacyTitle": {
+    "message": "Политика приватности"
+  },
+  "policyPrivacySummary": {
+    "message": "Профили и акредитиви остају на овом уређају. Провере искачућих прозора и дијагностика контактирају њихове наведене добављаче. Без оглашавања или аналитике понашања."
+  },
+  "policyDeclarationTitle": {
+    "message": "Изјава о употреби и мерењу"
+  },
+  "policyDeclarationSummary": {
+    "message": "Ово проширење је локални менаџер рута, а не проки или VPN провајдер. Мерења су референтни узорци на које утичу услови мреже, проксија и провајдера."
+  },
+  "policyFaqTitle": {
+    "message": "ФАК"
+  },
+  "policyFaqSummary": {
+    "message": "Windows пратилац је неопходан за локалне чворове и MTR. Латенција може да се разликује између прегледача, система и јавних сонди. Зауставите тест или обришите локалне податке из подешавања."
+  },
+  "policyDetailsLink": {
+    "message": "Прочитајте све детаље ↗"
+  },
+  "thirdPartyNotice": {
+    "message": "Обавештења о отвореном коду ↗"
+  },
+  "columnResizeHelp": {
+    "message": "Превуците да бисте променили величину; двапут кликните за ресетовање; користите тастере са стрелицама за подешавање"
+  },
+  "columnResize": {
+    "message": "Промена величине колоне"
+  },
+  "typeDescription_node": {
+    "message": "Повежите се преко прокси чвора"
+  },
+  "typeDescription_manual": {
+    "message": "Ручно унесите подешавања проксија"
+  },
+  "typeDescription_auto": {
+    "message": "Изаберите чвор користећи правила"
+  },
+  "typeDescription_pac": {
+    "message": "Рутирајте саобраћај користећи PAC правила"
+  },
+  "appDescription": {
+    "message": "Прокси руте претраживача, чворови и правила домена. Рутама чворова је потребан пратилац Windows."
+  },
+  "core_title": {
+    "message": "Прокси језгро"
+  },
+  "core_checking": {
+    "message": "Провера локалне компоненте…"
+  },
+  "core_ready": {
+    "message": "Xray је спреман"
+  },
+  "core_missing": {
+    "message": "Прокси језгро недостаје"
+  },
+  "core_external": {
+    "message": "Прилагођено језгро: није верификовано"
+  },
+  "core_corrupt": {
+    "message": "Xray неусклађеност контролне суме — потребна је поправка"
+  },
+  "core_unreadable": {
+    "message": "Основна датотека није могла да се провери"
+  },
+  "core_intro": {
+    "message": "Комплетан Windows пакет укључује Xray. v2rayN је опционо."
+  },
+  "core_verify": {
+    "message": "Проверите поново"
+  },
+  "core_install": {
+    "message": "Инсталирајте / поправите језгро"
+  },
+  "core_installing": {
+    "message": "Преузимање и провера…"
+  },
+  "core_done": {
+    "message": "Језгро је верификовано и спремно"
+  },
+  "core_help": {
+    "message": "Поправка користи закачено званично Xray издање и проверава његов контролни збир. Постојеће везе остају активне."
+  },
+  "core_absent": {
+    "message": "Инсталирајте локалну компоненту једном, а затим се вратите овде да проверите језгро."
+  },
+  "core_download": {
+    "message": "Упутство за инсталацију"
+  },
+  "core_absentHelp": {
+    "message": "Користите одговарајући пакет Windows или пратите водич да бисте га направили из извора, а затим покрените подешавање."
+  },
+  "core_failed": {
+    "message": "Основна операција није успела. Покушајте поново или користите комплетан Windows пакет."
+  },
+  "core_version": {
+    "message": "Верзија"
+  },
+  "error_ACTIVE_PROFILE_DELETE": {
+    "message": "Пре брисања пређите на други профил"
+  },
+  "error_BACKUP_BINDING_TYPE": {
+    "message": "Само прокси профили могу имати везе рута"
+  },
+  "error_BACKUP_FORMAT3_REQUIRED": {
+    "message": "Правила чворова захтевају преносиву резервну копију у формату 3"
+  },
+  "error_BACKUP_INDEPENDENT_PATH_REQUIRED": {
+    "message": "Резервна копија мора да садржи независну путању чворова"
+  },
+  "error_BACKUP_INTERNAL_BINDINGS": {
+    "message": "Резервна копија садржи унутрашње везе"
+  },
+  "error_BACKUP_MESSAGE_LIMIT": {
+    "message": "Резервна копија чворова премашује ограничење величине поруке пратеће апликације"
+  },
+  "error_BACKUP_NODES_INCOMPLETE": {
+    "message": "Непотпуна резервна копија чворова"
+  },
+  "error_BACKUP_NODE_MISSING": {
+    "message": "У резервној копији недостаје потребан чвор"
+  },
+  "error_BACKUP_NODE_PATHS_LIMIT": {
+    "message": "Резервна копија подржава највише {limit} путања чворова"
+  },
+  "error_BACKUP_PATH_INCOMPLETE": {
+    "message": "Непотпуна путања чворова у резервној копији"
+  },
+  "error_BACKUP_PROFILES_LIMIT": {
+    "message": "Резервна копија подржава највише {limit} профила"
+  },
+  "error_BACKUP_PROXY_CONFLICT": {
+    "message": "Резервна копија садржи неусаглашена подешавања проксија"
+  },
+  "error_BACKUP_SIZE_LIMIT": {
+    "message": "Резервна копија премашује {limit} MB"
+  },
+  "error_BACKUP_TRANSFER_UNAVAILABLE": {
+    "message": "За пренос резервних копија чворова ажурирајте или поправите пратећу апликацију."
+  },
+  "error_BACKUP_UNUSED_NODES": {
+    "message": "Резервна копија садржи чворове без референци"
+  },
+  "error_BODY_TOO_LARGE": {
+    "message": "Одговор претплате премашује дозвољену величину."
+  },
+  "error_BROWSER_API_FAILED": {
+    "message": "Радња прегледача није успела. Погледајте техничке детаље."
+  },
+  "error_BROWSER_PROXY_RESTORE_FAILED": {
+    "message": "Радња није успела и претходни прокси прегледача није могао да се врати"
+  },
+  "error_BROWSER_SCHEDULING_UNAVAILABLE": {
+    "message": "Заказивање у прегледачу није доступно."
+  },
+  "error_BUSY": {
+    "message": "Друга радња је у току. Покушајте поново ускоро."
+  },
+  "error_CHAIN_PROBE_FAILED": {
+    "message": "Провера ланца није успела"
+  },
+  "error_COMPANION_BULK_RELEASE_REQUIRED": {
+    "message": "Надоградите локалну пратећу апликацију за безбедно управљање већим бројем правила чворова"
+  },
+  "error_COMPANION_CHAINS_REQUIRED": {
+    "message": "Надоградите локалну пратећу апликацију да бисте омогућили уређене ланце"
+  },
+  "error_COMPANION_MESSAGE_LIMIT": {
+    "message": "Подешавања премашују ограничење величине поруке пратеће апликације"
+  },
+  "error_COMPANION_OPERATION_FAILED": {
+    "message": "Радња локалне пратеће апликације није успела. Погледајте техничке детаље."
+  },
+  "error_COMPANION_UNAVAILABLE": {
+    "message": "Инсталирајте или поправите V2Route Companion"
+  },
+  "error_CONNECTION_CLOSED": {
+    "message": "Веза је затворена пре завршетка теста."
+  },
+  "error_CORE_INSTALL_FAILED": {
+    "message": "Инсталација језгра није успела. Погледајте техничке детаље."
+  },
+  "error_CORE_OWNERSHIP_FAILED": {
+    "message": "Изолисаним тестним језгром није могло безбедно да се управља. Тест је заустављен."
+  },
+  "error_CORE_START_FAILED": {
+    "message": "Изолисано тестно језгро није могло да се покрене. Проверите инсталацију пратеће апликације и језгра."
+  },
+  "error_CORE_START_TIMEOUT": {
+    "message": "Изолисано тестно језгро није било спремно на време."
+  },
+  "error_CORE_STATUS_UNAVAILABLE": {
+    "message": "Статус језгра није доступан. Погледајте техничке детаље."
+  },
+  "error_CORE_VALIDATION_FAILED": {
+    "message": "Xray није могао да провери увезене чворове. Проверите њихова подешавања и покушајте поново."
+  },
+  "error_DETACH_PORT_CONFLICT": {
+    "message": "Управљани порт ће бити ослобођен. Унесите други ручни прокси"
+  },
+  "error_DETACH_PROXY_REQUIRED": {
+    "message": "Пре одвајања унесите заменски ручни прокси"
+  },
+  "error_DNS_BUSY": {
+    "message": "DNS претрага је заузета. Покушајте поново ускоро."
+  },
+  "error_DNS_FAILED": {
+    "message": "DNS претрага није успела. Проверите адресу и мрежну везу."
+  },
+  "error_ENCODING_UNSUPPORTED": {
+    "message": "Претплата користи неподржано кодирање садржаја."
+  },
+  "error_FIREFOX_PRIVATE_ACCESS_REQUIRED": {
+    "message": "Пре промене подешавања проксија у детаљима проширења дозволите V2Route у приватним прозорима"
+  },
+  "error_FOLDER_UNAVAILABLE": {
+    "message": "Фасцикла није доступна; проверите путању, приступ и верзију пратеће апликације"
+  },
+  "error_GROUP_LIMIT": {
+    "message": "Достигнуто је ограничење броја група. Уклоните некоришћену групу и покушајте поново."
+  },
+  "error_GROUP_NOT_EDITABLE": {
+    "message": "Ову изворну групу није могуће уређивати овде."
+  },
+  "error_GROUP_NOT_FOUND": {
+    "message": "Изабрана група више не постоји. Изаберите другу групу."
+  },
+  "error_HTTP_ENCODING": {
+    "message": "Тестни сервер је вратио неподржано кодирање."
+  },
+  "error_HTTP_LENGTH": {
+    "message": "Величина тестног одговора није одговарала траженој величини."
+  },
+  "error_HTTP_RESPONSE_TOO_LARGE": {
+    "message": "Тестни одговор је премашио дозвољену величину."
+  },
+  "error_HTTP_STATUS": {
+    "message": "Тестни сервер је вратио неуспешан HTTP статус."
+  },
+  "error_IMPORTED_PROXY_MISSING": {
+    "message": "Пратећа апликација није вратила увезени прокси"
+  },
+  "error_IMPORTED_RULE_PATH_CONFLICT": {
+    "message": "Увезени чворови воде до неусаглашених путања правила"
+  },
+  "error_IMPORT_CLEANUP_FAILED": {
+    "message": "Увоз није успео; неки привремени чворови или портови нису могли да се ослободе. Постојећи профили су задржани"
+  },
+  "error_IMPORT_PROFILE_NAME_CONFLICT": {
+    "message": "Дуплиран или неисправан назив профила"
+  },
+  "error_INCOMPLETE_RESPONSE": {
+    "message": "Одговор претплате је био непотпун. Покушајте поново."
+  },
+  "error_INVALID_BACKUP": {
+    "message": "Неисправна резервна копија V2Route"
+  },
+  "error_INVALID_BACKUP_NODE": {
+    "message": "Неисправан или дуплиран чвор резервне копије"
+  },
+  "error_INVALID_BACKUP_NODES": {
+    "message": "Неисправни чворови резервне копије"
+  },
+  "error_INVALID_BACKUP_PATH": {
+    "message": "Неисправна путања резервне копије"
+  },
+  "error_INVALID_BYPASS_ENTRY": {
+    "message": "Неисправан унос заобилажења"
+  },
+  "error_INVALID_BYPASS_LIST": {
+    "message": "Неисправан списак заобилажења"
+  },
+  "error_INVALID_CHAIN": {
+    "message": "Неисправан уређени ланац"
+  },
+  "error_INVALID_CHAIN_PROBE": {
+    "message": "Неисправна провера ланца"
+  },
+  "error_INVALID_COMPANION_RESPONSE": {
+    "message": "Локална пратећа апликација је вратила неисправан одговор. Ажурирајте је или поправите."
+  },
+  "error_INVALID_CONTENT": {
+    "message": "Одговор претплате не садржи исправан садржај."
+  },
+  "error_INVALID_DOMAIN_PATTERNS": {
+    "message": "Унесите обрасце домена одвојене зарезима; сваки URL ставите у посебан ред"
+  },
+  "error_INVALID_ENCODING": {
+    "message": "Одговор претплате није исправан UTF-8 текст."
+  },
+  "error_INVALID_FOLDER_REQUEST": {
+    "message": "Неисправан захтев за фасциклу"
+  },
+  "error_INVALID_GROUP_ACTION": {
+    "message": "Ова радња групе није подржана."
+  },
+  "error_INVALID_HOP_INDEX": {
+    "message": "Неисправан индекс скока"
+  },
+  "error_INVALID_LEGACY_PREDECESSOR": {
+    "message": "Неисправан наслеђени претходник"
+  },
+  "error_INVALID_LIBRARY_COMMAND": {
+    "message": "Ова команда библиотеке чворова није подржана."
+  },
+  "error_INVALID_LIBRARY_REQUEST": {
+    "message": "Неисправан захтев библиотеке"
+  },
+  "error_INVALID_NAME": {
+    "message": "Унесите назив са 1–128 видљивих знакова, без контролних знакова."
+  },
+  "error_INVALID_NETWORK_TEST": {
+    "message": "Неисправан мрежни тест"
+  },
+  "error_INVALID_NODE_IMPORT_RESPONSE": {
+    "message": "Неисправан одговор увоза чворова"
+  },
+  "error_INVALID_PREDECESSOR": {
+    "message": "Неисправан претходник за ову руту"
+  },
+  "error_INVALID_PROFILE_NAME": {
+    "message": "Неисправан назив профила"
+  },
+  "error_INVALID_PROFILE_REFERENCE": {
+    "message": "Неисправна референца на профил"
+  },
+  "error_INVALID_PROXY_AUTH": {
+    "message": "Неисправна аутентификација проксија"
+  },
+  "error_INVALID_PROXY_CREDENTIALS": {
+    "message": "Неисправни подаци за пријаву на прокси"
+  },
+  "error_INVALID_PROXY_ENDPOINT": {
+    "message": "Унесите исправан хост и порт проксија"
+  },
+  "error_INVALID_PROXY_HOST": {
+    "message": "Унесите DNS назив или IP адресу без порта, URL-а, путање или упита"
+  },
+  "error_INVALID_ROUTE": {
+    "message": "Неисправна рута"
+  },
+  "error_INVALID_ROUTE_SETTINGS": {
+    "message": "Неисправна подешавања руте"
+  },
+  "error_INVALID_RULES": {
+    "message": "Неисправна правила"
+  },
+  "error_INVALID_RULE_TARGET": {
+    "message": "За свако правило изаберите један исправан чвор или профил"
+  },
+  "error_INVALID_SUBSCRIPTION": {
+    "message": "Неисправна претплата"
+  },
+  "error_INVALID_SUBSCRIPTION_REQUEST": {
+    "message": "Неисправан захтев претплате"
+  },
+  "error_INVALID_SUBSCRIPTION_SETTINGS": {
+    "message": "Подешавања претплате нису исправна. Проверите интервал ажурирања и смернице повезивања."
+  },
+  "error_INVALID_SYSTEM_PROXY_RESPONSE": {
+    "message": "Неисправан одговор системског проксија; ажурирајте или поправите пратећу апликацију"
+  },
+  "error_INVALID_TRANSPORT": {
+    "message": "Подешавања повезивања претплате нису исправна."
+  },
+  "error_INVALID_URL": {
+    "message": "Унесите исправан HTTP(S) URL претплате без корисничког имена или лозинке."
+  },
+  "error_LIBRARY_CHANGED": {
+    "message": "Библиотека чворова је промењена у другом прозору. Освежите је и покушајте поново."
+  },
+  "error_MANUAL_CHAIN_UNSUPPORTED": {
+    "message": "Ручни проксији не прихватају ланац чворова"
+  },
+  "error_MANUAL_PROXY_CLEANUP_FAILED": {
+    "message": "Чување није успело; привремено увезени прокси остаје у библиотеци чворова"
+  },
+  "error_NATIVE_BINDING_ID": {
+    "message": "Неисправан идентификатор везе руте."
+  },
+  "error_NATIVE_BINDING_UNKNOWN": {
+    "message": "Веза руте не постоји."
+  },
+  "error_NATIVE_BUTTON_NAME": {
+    "message": "Назив дугмета мора да садржи 1–128 видљивих знакова."
+  },
+  "error_NATIVE_CATALOG_UNREADABLE": {
+    "message": "Конфигурација v2rayN није могла да се прочита."
+  },
+  "error_NATIVE_CORE_MISSING": {
+    "message": "Xray није доступан. Инсталирајте пакет пратеће апликације."
+  },
+  "error_NATIVE_GROUP_ID_COLLISION": {
+    "message": "Идентификатори група су у сукобу."
+  },
+  "error_NATIVE_GROUP_ORDER": {
+    "message": "Неисправан редослед група."
+  },
+  "error_NATIVE_NODE_ID_COLLISION": {
+    "message": "Идентификатори чворова су у сукобу."
+  },
+  "error_NATIVE_PREDECESSOR_AMBIGUOUS": {
+    "message": "Назив претходника недостаје или је дуплиран. Изаберите одређени претходни чвор."
+  },
+  "error_NATIVE_PREDECESSOR_CYCLE": {
+    "message": "Ланац претходника садржи циклус или премашује шест чворова."
+  },
+  "error_NATIVE_PREDECESSOR_INVALID": {
+    "message": "Изаберите исправан претходни прокси."
+  },
+  "error_NATIVE_PREDECESSOR_MISSING": {
+    "message": "Изабрани претходник више не постоји. Изаберите други чвор."
+  },
+  "error_NATIVE_PREDECESSOR_SETTINGS": {
+    "message": "Неисправна подешавања претходника."
+  },
+  "error_NATIVE_ROUTE_INVALID": {
+    "message": "Изаберите исправну руту."
+  },
+  "error_NATIVE_ROUTE_MISSING": {
+    "message": "Ова рута више не постоји. Изаберите другу руту."
+  },
+  "error_NATIVE_ROUTE_PORTS": {
+    "message": "Неисправне доделе портова руте."
+  },
+  "error_NATIVE_ROUTE_UNAVAILABLE": {
+    "message": "Изабрана рута није доступна. Погледајте техничке детаље."
+  },
+  "error_NATIVE_SETTINGS_FORMAT": {
+    "message": "Неисправан формат подешавања."
+  },
+  "error_NATIVE_SETTINGS_REVISION": {
+    "message": "Неисправна ревизија подешавања."
+  },
+  "error_NATIVE_SUCCESSOR_UNSUPPORTED": {
+    "message": "Ова група користи накнадни прокси који није подржан."
+  },
+  "error_NATIVE_UNSUPPORTED_CUSTOM": {
+    "message": "Ова верзија не подржава прилагођене излазне конфигурације."
+  },
+  "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
+    "message": "Ова верзија не подржава Hysteria2."
+  },
+  "error_NATIVE_UNSUPPORTED_TUIC": {
+    "message": "Ова верзија не интегрише језгро sing-box потребно за TUIC."
+  },
+  "error_NATIVE_UNSUPPORTED_TYPE": {
+    "message": "Ова врста руте није подржана."
+  },
+  "error_NATIVE_V2RAYN_PORT": {
+    "message": "Локални порт v2rayN није исправан."
+  },
+  "error_NATIVE_V2RAYN_UNAVAILABLE": {
+    "message": "v2rayN није доступан. Изаберите увезени чвор."
+  },
+  "error_NETWORK_FAILED": {
+    "message": "Мрежни захтев није успео. Проверите везу и покушајте поново."
+  },
+  "error_NETWORK_TEST_FAILED": {
+    "message": "Мрежна дијагностика није успела. Погледајте техничке детаље."
+  },
+  "error_NODE_LIMIT": {
+    "message": "Радња би премашила ограничење броја чворова. Уклоните некоришћене чворове и покушајте поново."
+  },
+  "error_NODE_MAPPING_INCOMPLETE": {
+    "message": "Мапирање чворова је непотпуно"
+  },
+  "error_NODE_NOT_FOUND": {
+    "message": "Изабрани чвор више не постоји. Изаберите други чвор."
+  },
+  "error_NOT_DUE": {
+    "message": "Време следећег заказаног ажурирања још није стигло."
+  },
+  "error_PAC_ENTRY_REQUIRED": {
+    "message": "Унесите PAC изворни код са FindProxyForURL"
+  },
+  "error_PAC_FUNCTION_REQUIRED": {
+    "message": "Дефинишите синхрону функцију FindProxyForURL највишег нивоа, променљиву функције или доделу"
+  },
+  "error_PAC_PARSER_UNAVAILABLE": {
+    "message": "Приложени PAC парсер није доступан; поново инсталирајте проширење"
+  },
+  "error_PAC_RULE_TARGET_UNSUPPORTED": {
+    "message": "Аутоматска правила не могу да циљају профил уграђеног PAC кода"
+  },
+  "error_PAC_SOURCE_LIMIT": {
+    "message": "Унесите PAC изворни код са највише {limit} знакова"
+  },
+  "error_PAC_SYNTAX_INVALID": {
+    "message": "Неисправна PAC синтакса"
+  },
+  "error_PAC_SYNTAX_LOCATION": {
+    "message": "Неисправна PAC синтакса у реду {line}, колони {column}"
+  },
+  "error_PARTIAL_TRANSFER": {
+    "message": "Тестни пренос је завршен пре пријема свих података."
+  },
+  "error_PRIVATE_DIRECTORY_FAILED": {
+    "message": "Приватна тестна фасцикла није могла да се заштити. Тест је заустављен."
+  },
+  "error_PRIVATE_TARGET": {
+    "message": "Захтеви претплате ка приватним или локалним адресама нису дозвољени."
+  },
+  "error_PROFILE_NOT_FOUND": {
+    "message": "Профил није пронађен"
+  },
+  "error_PROFILE_REFERENCE_CYCLE": {
+    "message": "Кружне референце профила"
+  },
+  "error_PROFILE_REFERENCE_DEPTH": {
+    "message": "Аутоматска правила премашују највећу дубину {limit}"
+  },
+  "error_PROFILE_REFERENCE_MISSING": {
+    "message": "Наведени профил не постоји: {name}"
+  },
+  "error_PROFILE_SAVE_RESTORE_FAILED": {
+    "message": "Чување није успело и враћање руте захтева пажњу"
+  },
+  "error_PROXY_AUTH_REQUIRED": {
+    "message": "Прокси претплате захтева аутентификацију коју овај захтев не може да пружи."
+  },
+  "error_PROXY_CONTROL_UNAVAILABLE": {
+    "message": "Друго проширење или смернице управљају проксијем"
+  },
+  "error_PROXY_DNS_REQUIRED": {
+    "message": "V2Route разрешава SOCKS5 DNS преко проксија"
+  },
+  "error_PROXY_FAILED": {
+    "message": "Повезивање са проксијем није успело. Проверите изабрану руту."
+  },
+  "error_PROXY_PROFILE_REQUIRED": {
+    "message": "Изаберите прокси профил"
+  },
+  "error_PROXY_ROLLBACK_REFUSED": {
+    "message": "Прегледач је одбио враћање претходног проксија"
+  },
+  "error_PROXY_SETTING_REFUSED": {
+    "message": "Прегледач је одбио подешавање проксија"
+  },
+  "error_PROXY_UNAVAILABLE": {
+    "message": "Изабрани прокси није доступан. Проверите тренутну руту."
+  },
+  "error_PROXY_USERNAME_REQUIRED": {
+    "message": "Унесите корисничко име проксија"
+  },
+  "error_RECOVERY_BINDINGS_LIMIT": {
+    "message": "Опоравак може да врати највише {limit} веза чворова. Отворите и сачувајте наведене профиле одвојено."
+  },
+  "error_REDIRECT_LIMIT": {
+    "message": "Претплата је превише пута преусмерила захтев. Проверите њен URL."
+  },
+  "error_REFERENCED_PROFILE_DELETE": {
+    "message": "Аутоматско правило упућује на овај профил"
+  },
+  "error_REMOTE_PAC_UNSUPPORTED": {
+    "message": "Користите уграђени PAC изворни код; удаљени PAC није подржан"
+  },
+  "error_ROUTE_PORT_UNAVAILABLE": {
+    "message": "Ниједан порт није додељен"
+  },
+  "error_ROUTE_RECOVERY_RESTORE_FAILED": {
+    "message": "Опоравак руте није успео и враћање захтева пажњу"
+  },
+  "error_ROUTE_REVISION_CONFLICT": {
+    "message": "Рута је промењена у другом прозору. Најпре освежите"
+  },
+  "error_ROUTE_SAVE_ROLLBACK_FAILED": {
+    "message": "Чување руте није успело и повратак на претходно стање захтева пажњу"
+  },
+  "error_ROUTE_UNAVAILABLE": {
+    "message": "Тестна рута није доступна. Проверите подешавања чвора и претходника."
+  },
+  "error_RULE_BINDING_MISSING": {
+    "message": "Недостаје веза правила чвора. Поново отворите и сачувајте аутоматски профил: {name}"
+  },
+  "error_RULE_NODES_LIMIT": {
+    "message": "Аутоматска правила подржавају највише {limit} различитих чворова"
+  },
+  "error_RULE_NODE_CHANGED": {
+    "message": "Правило чвора није доступно или је промењено. Вратите чвор или изаберите други и сачувајте: {name}"
+  },
+  "error_RULE_PATH_CONFLICT": {
+    "message": "Неусаглашене путање правила чворова"
+  },
+  "error_RULE_PATTERNS_LIMIT": {
+    "message": "Аутоматска правила подржавају укупно највише {limit} образаца подударања"
+  },
+  "error_RULE_PORT_UNAVAILABLE": {
+    "message": "Порт правила чвора није доступан"
+  },
+  "error_RULE_REVISION_CONFLICT": {
+    "message": "Правило чвора је промењено у другом прозору. Најпре освежите"
+  },
+  "error_SELECTED_NODE_UNAVAILABLE": {
+    "message": "Изабрани чвор није доступан. Вратите га или изаберите други чвор"
+  },
+  "error_SOCKS_FAILED": {
+    "message": "SOCKS веза није могла да се успостави."
+  },
+  "error_STARTUP_FALLBACK_REFUSED": {
+    "message": "Прегледач је одбио резервни прокси при покретању."
+  },
+  "error_SUBSCRIPTION_CHANGED": {
+    "message": "Претплата се променила током ажурирања. Освежите је и покушајте поново."
+  },
+  "error_SUBSCRIPTION_HTTP_STATUS": {
+    "message": "Сервер претплате је вратио HTTP {status}."
+  },
+  "error_SUBSCRIPTION_LIMIT": {
+    "message": "Достигнуто је ограничење броја претплата. Уклоните некоришћену претплату и покушајте поново."
+  },
+  "error_SUBSCRIPTION_NOT_FOUND": {
+    "message": "Изабрана претплата више не постоји."
+  },
+  "error_SYSTEM_PROXY_SNAPSHOT_UNAVAILABLE": {
+    "message": "Примењени снимак системског проксија није доступан."
+  },
+  "error_SYSTEM_PROXY_TIMEOUT": {
+    "message": "Истекло је време читања системског проксија"
+  },
+  "error_SYSTEM_PROXY_UNAVAILABLE": {
+    "message": "Системски прокси није доступан. Погледајте техничке детаље."
+  },
+  "error_TIMEOUT": {
+    "message": "Захтев је истекао. Проверите везу и покушајте поново."
+  },
+  "error_TLS_DOWNGRADE": {
+    "message": "Претплата је преусмерила са HTTPS на HTTP и блокирана је."
+  },
+  "error_TLS_FAILED": {
+    "message": "Безбедна веза није могла да се потврди. Проверите сервер и сертификат."
+  },
+  "error_UNSAFE_TEMP_PATH": {
+    "message": "Привремена тестна фасцикла није безбедна. Тест је заустављен."
+  },
+  "error_UNSUPPORTED_LIBRARY_REQUEST": {
+    "message": "Неподржан захтев библиотеке"
+  },
+  "error_UNSUPPORTED_PROFILE_TYPE": {
+    "message": "Неподржана врста профила"
+  },
+  "error_UNSUPPORTED_REQUEST": {
+    "message": "Неподржан захтев"
+  },
+  "error_UNSUPPORTED_RULE_CONDITION": {
+    "message": "Подржана су само правила са џокер знаковима за хост и URL"
+  },
+  "error_UPDATE_FAILED": {
+    "message": "Ажурирање претплате није успело. Постојећи чворови су задржани."
+  },
+  "error_VALIDATION_FAILED": {
+    "message": "Садржај претплате није могао да се провери. Постојећи чворови су задржани."
+  },
+  "nativeUnnamedNode": {
+    "message": "Неименовани чвор"
+  },
+  "nativeProtocolCustom": {
+    "message": "Прилагођено"
+  },
+  "nativeProtocolOutbound": {
+    "message": "Прилагођени излаз"
+  },
+  "nativeProtocolGroup": {
+    "message": "Група смерница"
+  },
+  "nativeProtocolChain": {
+    "message": "Ланац проксија"
+  },
+  "nativeProtocolUnknown": {
+    "message": "Неподржана врста"
+  },
+  "languageLoadFailed": {
+    "message": "Изабрани језик није могао да се учита. Покушајте поново."
+  },
+  "invalidBackupJSON": {
+    "message": "Резервна копија није исправан JSON."
+  },
+  "noticeBodyLanguages": {
+    "message": "Цео текст смерница доступан је на енглеском и поједностављеном кинеском језику."
+  },
+  "policyRules": {
+    "message": "Правила усмеравања проксија"
+  },
+  "policyPriority": {
+    "message": "Редослед: изузете адресе → прво одговарајуће правило → подразумевана путања."
+  },
+  "policyDirectHelp": {
+    "message": "Адресе без подударања повезују се директно. Дугме Директно такође користи ова правила."
+  },
+  "policySystemHelp": {
+    "message": "Адресе без подударања користе системски прокси. Дугме Систем такође користи ова правила."
+  },
+  "policyEmpty": {
+    "message": "Нема правила. Користи се подразумевана путања."
+  },
+  "policyAddressHelp": {
+    "message": "Домени, џокерски обрасци, IP или IP:порт. IP правила пореде IP у URL-у, не DNS резултате."
+  },
+  "policyMoveUp": {
+    "message": "Помери правило нагоре"
+  },
+  "policyMoveDown": {
+    "message": "Помери правило надоле"
+  }
+}

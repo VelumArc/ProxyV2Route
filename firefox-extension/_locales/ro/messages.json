@@ -1,0 +1,2150 @@
+{
+  "ruleTargetUnavailable": {
+    "message": "Țintă indisponibilă"
+  },
+  "rulePatternPlaceholder": {
+    "message": "example.com, *.example.org, 192.0.2.1:8443"
+  },
+  "rulePatternHelp": {
+    "message": "Separați adresele prin virgule. Fiecare model URL pe un rând separat. PAC poate să nu vadă căile HTTPS."
+  },
+  "defaultChoice_direct": {
+    "message": "Conectați-vă fără un proxy"
+  },
+  "defaultChoice_system": {
+    "message": "Utilizați setările proxy de sistem"
+  },
+  "defaultChoice_node": {
+    "message": "Utilizați nodul selectat al acestui profil"
+  },
+  "defaultChoice_manual": {
+    "message": "Utilizați setările proxy ale acestui profil"
+  },
+  "defaultChoice_auto": {
+    "message": "Aplicați regulile de rutare ale acestui profil"
+  },
+  "nlHttpsLatency": {
+    "message": "HTTPS răspuns"
+  },
+  "nlLatencyMethod": {
+    "message": "Cloudflare · Minim două răspunsuri · Reutilizarea conexiunii atunci când este disponibilă"
+  },
+  "nlLatencyFast": {
+    "message": "Rapid"
+  },
+  "nlLatencyModerate": {
+    "message": "Moderat"
+  },
+  "nlLatencySlow": {
+    "message": "Încet"
+  },
+  "nlSortName": {
+    "message": "Nume"
+  },
+  "nlSortLatency": {
+    "message": "Latență: de la mic la mare"
+  },
+  "nlSortDownload": {
+    "message": "Descărcare: de la mare la scăzut"
+  },
+  "nlSortUpload": {
+    "message": "Încărcare: de la mare la scăzut"
+  },
+  "nlSingle": {
+    "message": "Un singur nod"
+  },
+  "nlGroupBatch": {
+    "message": "Grup / lot"
+  },
+  "nlTestScope": {
+    "message": "Scopul testului"
+  },
+  "nlCurrentNode": {
+    "message": "Nodul selectat"
+  },
+  "nlCurrentGroup": {
+    "message": "Grup selectat"
+  },
+  "nlChooseNode": {
+    "message": "Alegeți un nod din listă"
+  },
+  "nlStart": {
+    "message": "Începeți testul"
+  },
+  "nlService": {
+    "message": "Serviciu de testare"
+  },
+  "nlMeasured": {
+    "message": "măsurat"
+  },
+  "nlMeanLatency": {
+    "message": "Latență medie"
+  },
+  "nlGroupBySource": {
+    "message": "După grup de surse"
+  },
+  "nlPreviousPage": {
+    "message": "Pagina anterioară"
+  },
+  "nlNextPage": {
+    "message": "Pagina următoare"
+  },
+  "nlName": {
+    "message": "Nume"
+  },
+  "nlEdit": {
+    "message": "Editare"
+  },
+  "nlStop": {
+    "message": "Opriți"
+  },
+  "nlConfirm": {
+    "message": "Confirmați"
+  },
+  "nlAllNodes": {
+    "message": "Toate nodurile"
+  },
+  "nlNodeResults": {
+    "message": "Rezultate nod"
+  },
+  "nlTestCenter": {
+    "message": "Centru de testare"
+  },
+  "nlNewGroup": {
+    "message": "Grup nou"
+  },
+  "nlRenameGroup": {
+    "message": "Redenumiți grupul"
+  },
+  "nlRemoveGroup": {
+    "message": "Eliminați grupul"
+  },
+  "nlRemoveGroupHelp": {
+    "message": "Păstrați fiecare nod și abonament și mutați-le în nodurile importate."
+  },
+  "nlNode": {
+    "message": "Nod"
+  },
+  "nlStatus": {
+    "message": "Stare"
+  },
+  "nlActions": {
+    "message": "Acțiuni"
+  },
+  "nlSort": {
+    "message": "Sortați numai acest tabel"
+  },
+  "nlSelected": {
+    "message": "selectat"
+  },
+  "nlTestNode": {
+    "message": "Test"
+  },
+  "nlProfileShort": {
+    "message": "Profil"
+  },
+  "nlQuick": {
+    "message": "Latență rapidă"
+  },
+  "nlFull": {
+    "message": "Descărcare + încărcare"
+  },
+  "nlTraffic": {
+    "message": "Dimensiunea datelor de testare"
+  },
+  "nlConcurrency": {
+    "message": "Noduri concurente"
+  },
+  "nlTrafficFullOnly": {
+    "message": "Folosit pentru teste de descărcare și încărcare"
+  },
+  "nlTestMode": {
+    "message": "Mod de testare"
+  },
+  "nlBudget": {
+    "message": "Trafic maxim de sarcină utilă"
+  },
+  "nlViaGroup": {
+    "message": "Prin pre-proxy de grup"
+  },
+  "nlTestSelected": {
+    "message": "Testul selectat"
+  },
+  "nlTestVisible": {
+    "message": "Testați nodurile prezentate"
+  },
+  "nlTestAll": {
+    "message": "Testați toate nodurile"
+  },
+  "nlTestGroup": {
+    "message": "Nodurile grupului de testare"
+  },
+  "nlProgress": {
+    "message": "Progresul măsurării"
+  },
+  "nlReady": {
+    "message": "Alegeți nodurile pentru a începe. Nu s-a derulat niciun test."
+  },
+  "nlStarting": {
+    "message": "Se începe măsurarea izolată..."
+  },
+  "nlQueued": {
+    "message": "În coadă"
+  },
+  "nlRunning": {
+    "message": "Testare"
+  },
+  "nlStopping": {
+    "message": "Se oprește..."
+  },
+  "nlComplete": {
+    "message": "Complet"
+  },
+  "nlFailed": {
+    "message": "Eșuat"
+  },
+  "nlStopped": {
+    "message": "Oprit"
+  },
+  "nlPartial": {
+    "message": "Parțial"
+  },
+  "nlUntested": {
+    "message": "Nu a fost testat"
+  },
+  "nlSucceeded": {
+    "message": "a trecut"
+  },
+  "nlMeasureDisconnected": {
+    "message": "Conexiunea de măsurare sa încheiat. Valorile incomplete nu sunt rezultate finale."
+  },
+  "nlUpgrade": {
+    "message": "Actualizați Companionul local pentru a gestiona grupuri și abonamente. Nodurile existente rămân disponibile."
+  },
+  "nlOperationFailed": {
+    "message": "Operația nu a putut fi finalizată. Încearcă din nou."
+  },
+  "nlEditSubscription": {
+    "message": "Editați abonamentul"
+  },
+  "nlPasteContent": {
+    "message": "Link-uri/conținut proxy"
+  },
+  "nlSubscriptionURL": {
+    "message": "Abonament URL"
+  },
+  "nlKeepURL": {
+    "message": "Lăsați necompletat pentru a păstra fișierul salvat URL"
+  },
+  "nlConnectionPolicy": {
+    "message": "Actualizați conexiunea"
+  },
+  "nlProxyFirst": {
+    "message": "Mai întâi proxy, apoi direct la eșec"
+  },
+  "nlProxyOnly": {
+    "message": "Numai proxy"
+  },
+  "nlDirectOnly": {
+    "message": "Numai direct"
+  },
+  "nlProxyFirstHelp": {
+    "message": "Proxy-ul se oprește mai întâi după o preluare cu succes. Direct este încercat numai dacă încercarea de proxy eșuează."
+  },
+  "nlAutoUpdate": {
+    "message": "Activați actualizările automate"
+  },
+  "nlInterval": {
+    "message": "Interval de actualizare (minute)"
+  },
+  "nlDestinationGroup": {
+    "message": "Grup de destinație"
+  },
+  "nlSubscriptionOwnGroup": {
+    "message": "Grup nou..."
+  },
+  "nlNameGroup": {
+    "message": "Nume (grup)"
+  },
+  "nlCustomGroup": {
+    "message": "Grup personalizat"
+  },
+  "nlNameRequired": {
+    "message": "Introduceți un nume."
+  },
+  "nlContentRequired": {
+    "message": "Lipiți linkuri proxy sau conținut de abonament."
+  },
+  "nlGroupRequired": {
+    "message": "Alegeți un grup de destinație."
+  },
+  "nlURLRequired": {
+    "message": "Introduceți un abonament HTTP(S) URL fără nume de utilizator sau parolă."
+  },
+  "nlIntervalInvalid": {
+    "message": "Introduceți un număr întreg de la 5 la 43200 de minute."
+  },
+  "folderTitle": {
+    "message": "Alegeți folderul v2rayN."
+  },
+  "folderHint": {
+    "message": "Alegeți un folder, apoi aplicați-l cu Salvare setări de conexiune."
+  },
+  "folderPath": {
+    "message": "Calea completă a folderului local"
+  },
+  "folderGo": {
+    "message": "Deschis"
+  },
+  "folderUp": {
+    "message": "Sus"
+  },
+  "folderDrives": {
+    "message": "Unități"
+  },
+  "folderCurrent": {
+    "message": "Calea curentă"
+  },
+  "folderChoose": {
+    "message": "Folosiți acest folder"
+  },
+  "folderList": {
+    "message": "Dosare"
+  },
+  "folderTruncated": {
+    "message": "Lista este limitată. Introduceți calea completă de mai sus pentru a deschide un dosar care nu este afișat."
+  },
+  "folderReady": {
+    "message": "v2rayN fișiere găsite. Utilizați acest folder pentru a valida configurația."
+  },
+  "folderInvalid": {
+    "message": "Alegeți folderul care conține guiConfigs, guiNConfig.json și guiNDB.db."
+  },
+  "folderSelectDrive": {
+    "message": "Alegeți o unitate locală sau introduceți o cale completă a folderului."
+  },
+  "folderEmpty": {
+    "message": "Nu există subdosare vizibile."
+  },
+  "folderUnavailable": {
+    "message": "Nu se poate răsfoi acest folder. Verificați calea și accesul acestuia. Dacă Companion-ul este mai vechi, actualizați-l mai întâi."
+  },
+  "folderValidating": {
+    "message": "Se validează configurația v2rayN..."
+  },
+  "folderInvalidConfig": {
+    "message": "Configurația sau baza de date v2rayN este incompletă sau invalidă. Alege alt folder."
+  },
+  "copyPath": {
+    "message": "Copiați calea"
+  },
+  "pathCopyHint": {
+    "message": "Copiați calea în prezent în acest câmp."
+  },
+  "preMode": {
+    "message": "Modul pre-proxy"
+  },
+  "preNode": {
+    "message": "Nod pre-proxy"
+  },
+  "preIntro": {
+    "message": "Utilizați lanțul de grup, omiteți-l sau alegeți un pre-proxy pentru acest profil."
+  },
+  "healthLabel": {
+    "message": "Starea actuală a conexiunii"
+  },
+  "healthOk": {
+    "message": "Normal"
+  },
+  "healthError": {
+    "message": "Anormal"
+  },
+  "healthChecking": {
+    "message": "Verificare"
+  },
+  "healthUnknown": {
+    "message": "Neconfirmat"
+  },
+  "autoSystemHelp": {
+    "message": "Regulile de sistem necesită componenta Windows și o copie a setărilor proxy fix. Reaplicați după modificări. PAC/WPAD nu sunt acceptate; Sistem fără reguli folosește setările native ale browserului."
+  },
+  "backgroundUnavailable": {
+    "message": "Fundalul extensiei nu este disponibil."
+  },
+  "backgroundNoResponse": {
+    "message": "Fundalul nu a răspuns."
+  },
+  "backupTooLarge": {
+    "message": "Backup-ul depășește 5 MB."
+  },
+  "proxyUsername": {
+    "message": "Nume de utilizator"
+  },
+  "proxyPassword": {
+    "message": "Parolă"
+  },
+  "proxyAuthHelp": {
+    "message": "Opțional. Proxy-urile autentificate se conectează prin Companion. Acreditările sunt stocate în această configurație de browser și în Companion și incluse în exporturile de profil."
+  },
+  "proxyAuthSocks4": {
+    "message": "SOCKS4 nu acceptă această autentificare de nume de utilizator/parolă; utilizați HTTP(S) sau SOCKS5."
+  },
+  "importExamples": {
+    "message": "Exemple de format"
+  },
+  "ipCopying": {
+    "message": "Se copiează..."
+  },
+  "netDnsUnavailable": {
+    "message": "Adresa serverului nu a putut fi rezolvată la timp. Verificați gazda sau adresa IP și încercați din nou."
+  },
+  "netCurrentTarget": {
+    "message": "Punct final proxy selectat"
+  },
+  "netCustomTarget": {
+    "message": "Server personalizat"
+  },
+  "netHost": {
+    "message": "Adresă gazdă sau IP."
+  },
+  "netPort": {
+    "message": "TCP port"
+  },
+  "netHostRequired": {
+    "message": "Introduceți o gazdă de server sau adresa IP."
+  },
+  "netCurrentUnavailable": {
+    "message": "Selectați un nod sau un profil proxy manual sau introduceți o țintă personalizată."
+  },
+  "netInvalidTarget": {
+    "message": "Introduceți o gazdă și un port de diagnosticare valide."
+  },
+  "netIpv6PingUnavailable": {
+    "message": "IPv6 ICMP nu este disponibil; utilizați TCPing."
+  },
+  "preNeedsFix": {
+    "message": "Alegeți un pre-proxy valid sau niciun pre-proxy înainte de a salva."
+  },
+  "preConfigure": {
+    "message": "Configurați pre-proxy"
+  },
+  "preFollowInvalid": {
+    "message": "Urmăriți v2rayN nu acceptă un pre-proxy personalizat."
+  },
+  "followChainHelp": {
+    "message": "Follow folosește ruta și lanțul de proxy deja active în v2rayN."
+  },
+  "netTitle": {
+    "message": "Teste de conectare"
+  },
+  "ipTestDetails": {
+    "message": "Detalii test"
+  },
+  "netTarget": {
+    "message": "Ping / TCPing țintă"
+  },
+  "netDownload": {
+    "message": "Descărcați testul"
+  },
+  "netPartial": {
+    "message": "Probă parțială"
+  },
+  "netComplete": {
+    "message": "Eșantion complet"
+  },
+  "netDirect": {
+    "message": "Rețea de sistem"
+  },
+  "netUnreachable": {
+    "message": "Niciun răspuns / eșuat"
+  },
+  "netAverage": {
+    "message": "Medie"
+  },
+  "predecessor": {
+    "message": "Pre-proxy"
+  },
+  "preInherit": {
+    "message": "Utilizați lanțul de grup v2rayN."
+  },
+  "preNone": {
+    "message": "Fără proxy prealabil"
+  },
+  "preSpecific": {
+    "message": "Alegeți un nod"
+  },
+  "preHelp": {
+    "message": "Se aplică acestui profil. Utilizați lanțul de grup v2rayN, fără pre-proxy sau un nod specific. Follow v2rayN își folosește lanțul existent."
+  },
+  "preSelectRequired": {
+    "message": "Alegeți un nod pre-proxy sau selectați Grup implicit / Nici unul."
+  },
+  "ipPing0Permission": {
+    "message": "Permiteți Ping0 acces la site-ul web pentru a încărca raportul public."
+  },
+  "ipPublicChallenge": {
+    "message": "Site-ul web necesită verificare. Deschideți pagina Ping0 pentru a o finaliza și vizualizați rezultatul."
+  },
+  "ipPublicReport": {
+    "message": "Ping0 raport public"
+  },
+  "ipPublicSource": {
+    "message": "Sursa: Ping0 pagina publica"
+  },
+  "ipPublicOriginal": {
+    "message": "Ping0 raport"
+  },
+  "ipPublicPartial": {
+    "message": "Sunt afișate numai câmpurile furnizate pe pagina publică, în limba lor originală. Clasificările și estimările utilizatorilor partajați sunt de la Ping0."
+  },
+  "setupTitle": {
+    "message": "Conectare Proxy V2Route"
+  },
+  "setupIntro": {
+    "message": "Instalați însoțitorul Windows pentru a utiliza rutele v2rayN sau propriile noduri importate."
+  },
+  "setupStepOne": {
+    "message": "Extrageți pachetul complet potrivit Windows într-un folder permanent."
+  },
+  "setupStepTwo": {
+    "message": "Deschideți V2Route-Setup.exe și faceți clic pe Instalare."
+  },
+  "setupStepThree": {
+    "message": "Reveniți aici și verificați conexiunea. Alegeți folderul v2rayN dacă este necesar."
+  },
+  "setupCheck": {
+    "message": "Verificați conexiunea"
+  },
+  "downloadCompanion": {
+    "message": "Ghid de instalare ↗"
+  },
+  "setupDownloadNote": {
+    "message": "Folosiți pachetul local Windows potrivit sau urmați ghidul pentru al construi din sursa curentă."
+  },
+  "chooseFolder": {
+    "message": "Alegeți folderul v2rayN..."
+  },
+  "rescanDone": {
+    "message": "Nodurile locale au fost rescanate"
+  },
+  "grouping": {
+    "message": "Gruparea nodurilor"
+  },
+  "groupByCountry": {
+    "message": "După țară"
+  },
+  "unknownCountry": {
+    "message": "Altele / Necunoscut"
+  },
+  "ungrouped": {
+    "message": "Negrupat"
+  },
+  "adjustNodeFilters": {
+    "message": "Încercați alt grup, sursă sau căutare sau afișați noduri ascunse."
+  },
+  "rescanLocal": {
+    "message": "Rescanați v2rayN nodurile"
+  },
+  "showHidden": {
+    "message": "Afișați nodurile ascunse"
+  },
+  "hideNode": {
+    "message": "Ascunde"
+  },
+  "restoreNode": {
+    "message": "Restaurare"
+  },
+  "hiddenNode": {
+    "message": "Ascuns"
+  },
+  "hideNodeHelp": {
+    "message": "Ascundeți numai din biblioteca de noduri a acestui browser. v2rayN și profilurile existente sunt neschimbate."
+  },
+  "ipContextTimeout": {
+    "message": "Citirea profilului curent a expirat. Încearcă din nou."
+  },
+  "ipStaleResult": {
+    "message": "Profilul actual s-a schimbat. Acest rezultat poate fi depășit; verifica din nou."
+  },
+  "ip_tools": {
+    "message": "IP Instrumente"
+  },
+  "ipIntro": {
+    "message": "Ieșire curentă IP și raport public."
+  },
+  "ipCurrentProfile": {
+    "message": "Profil curent de browser"
+  },
+  "ipRouteCaution": {
+    "message": "Regulile automate și PAC pot folosi rute diferite pentru destinații diferite. Această verificare descrie doar propria sa cerere."
+  },
+  "ipDisclosure": {
+    "message": "Ieșire de verificare automată IP · Raportare de Ping0"
+  },
+  "ipMethod": {
+    "message": "Verificarea adresei"
+  },
+  "ipDual": {
+    "message": "IPv4 / IPv6"
+  },
+  "ipCheck": {
+    "message": "Verificați din nou"
+  },
+  "ipChecking": {
+    "message": "Se verifică..."
+  },
+  "ipDualHelp": {
+    "message": "IPv4 / IPv6 returnează familia de adrese utilizată pentru această solicitare, nu ambele adrese."
+  },
+  "ipDurationHelp": {
+    "message": "Timpul de solicitare scurs HTTP include timpul de răspuns al rețelei și al serviciului. Nu este ICMP ping sau un test de lățime de bandă."
+  },
+  "ipCopy": {
+    "message": "Copiere IP"
+  },
+  "ipCopied": {
+    "message": "Copiat"
+  },
+  "ipCopyFailed": {
+    "message": "Nu s-a putut copia. Selectați adresa și copiați-o manual."
+  },
+  "ipNoResult": {
+    "message": "Nicio verificare încă"
+  },
+  "ipContextUnknown": {
+    "message": "Profil indisponibil"
+  },
+  "ipTimeout": {
+    "message": "Verificarea a expirat. Încercați din nou sau utilizați o altă rută."
+  },
+  "ipCancelled": {
+    "message": "Cec anulat"
+  },
+  "ipNetwork": {
+    "message": "Nu s-a putut ajunge la ipify. Verificați conexiunea și încercați din nou."
+  },
+  "ipHttp": {
+    "message": "Serviciul IP nu a acceptat cererea. Încercați din nou mai târziu."
+  },
+  "ipInvalid": {
+    "message": "Serviciul IP a returnat un răspuns nevalid."
+  },
+  "ipFailure": {
+    "message": "Verificarea a eșuat. Încearcă din nou."
+  },
+  "ipStale": {
+    "message": "Setările dvs. proxy s-au schimbat în timpul verificării. Vechiul rezultat a fost eliminat; verifica din nou."
+  },
+  "ipQuality": {
+    "message": "Scule externe"
+  },
+  "ipQualityPrivacy": {
+    "message": "Instrumentele rulează numai prin clic. Furnizorii primesc date normale de conectare. Verificările site-ului trimit solicitări fără acreditări după Start. Închiderea oprește testele locale; filele externe sunt gestionate de browser."
+  },
+  "ipReport": {
+    "message": "Copiați raportul redactat"
+  },
+  "ipReportCopied": {
+    "message": "Raport reformulat copiat; nu IP sau nume de profil incluse."
+  },
+  "popupSelected": {
+    "message": "Selectat"
+  },
+  "popupFooter": {
+    "message": "v2rayN și profiluri de noduri"
+  },
+  "subtitle": {
+    "message": "Rute independente de browser"
+  },
+  "profiles": {
+    "message": "Profiluri"
+  },
+  "nodes": {
+    "message": "Biblioteca de noduri"
+  },
+  "settings": {
+    "message": "Setări"
+  },
+  "connected": {
+    "message": "Profil activ"
+  },
+  "noProfile": {
+    "message": "Implicit sistem"
+  },
+  "newProfile": {
+    "message": "Profil nou"
+  },
+  "searchProfiles": {
+    "message": "Căutați profiluri"
+  },
+  "direct": {
+    "message": "Rețea directă"
+  },
+  "system": {
+    "message": "Proxy de sistem"
+  },
+  "follow": {
+    "message": "Urmăriți v2rayN"
+  },
+  "manual": {
+    "message": "Proxy manual"
+  },
+  "auto": {
+    "message": "Comutator automat"
+  },
+  "pac": {
+    "message": "PAC script"
+  },
+  "virtual": {
+    "message": "Profil virtual"
+  },
+  "profileIntro": {
+    "message": "Alegeți o rută de browser fără a schimba ruta principală a v2rayN."
+  },
+  "nodesIntro": {
+    "message": "Răsfoiți nodurile locale v2rayN și linkurile dvs. importate."
+  },
+  "settingsIntro": {
+    "message": "Conexiune locală, limbă și aspect."
+  },
+  "refresh": {
+    "message": "Reîmprospătare"
+  },
+  "create": {
+    "message": "Creați profil"
+  },
+  "name": {
+    "message": "Numele profilului"
+  },
+  "type": {
+    "message": "Tip profil"
+  },
+  "save": {
+    "message": "Salvați"
+  },
+  "saved": {
+    "message": "Salvat"
+  },
+  "saving": {
+    "message": "Se salvează..."
+  },
+  "cancel": {
+    "message": "Anulează"
+  },
+  "close": {
+    "message": "Închide"
+  },
+  "apply": {
+    "message": "Utilizați acest profil"
+  },
+  "applied": {
+    "message": "Profil schimbat"
+  },
+  "active": {
+    "message": "Activ"
+  },
+  "delete": {
+    "message": "Ștergeți"
+  },
+  "remove": {
+    "message": "Îndepărtați"
+  },
+  "rename": {
+    "message": "Redenumiți"
+  },
+  "route": {
+    "message": "Rută proxy"
+  },
+  "selectRoute": {
+    "message": "Selectați o rută"
+  },
+  "routeMissing": {
+    "message": "Rută indisponibilă — selectați altul"
+  },
+  "chain": {
+    "message": "Lanț de legătură"
+  },
+  "connection": {
+    "message": "Conexiune locală"
+  },
+  "proxy": {
+    "message": "Server proxy"
+  },
+  "address": {
+    "message": "Adresa"
+  },
+  "port": {
+    "message": "Port"
+  },
+  "scheme": {
+    "message": "Protocol"
+  },
+  "proxyDns": {
+    "message": "SOCKS5 DNS rezolvă prin proxy."
+  },
+  "connectedIdle": {
+    "message": "Conectat · Inactiv"
+  },
+  "bypass": {
+    "message": "Lista de ocolire"
+  },
+  "bypassHelp": {
+    "message": "Un domeniu, model cu metacaractere, adresă IP sau IP:port pe rând."
+  },
+  "advanced": {
+    "message": "Opțiuni avansate"
+  },
+  "searchRoutes": {
+    "message": "Căutați grupuri sau noduri"
+  },
+  "selectGroup": {
+    "message": "Selectați un grup"
+  },
+  "empty": {
+    "message": "Nu există articole care se potrivesc"
+  },
+  "unavailable": {
+    "message": "Indisponibil"
+  },
+  "groupHint": {
+    "message": "Țineți un grup timp de 250 ms, apoi trageți. Alt + ↑ / ↓ reordonează și ele. Modificările se salvează automat."
+  },
+  "searchSort": {
+    "message": "Ștergeți căutarea înainte de a sorta."
+  },
+  "dragHint": {
+    "message": "Deplasați în sus sau în jos, apoi eliberați pentru a salva. Esc se anulează."
+  },
+  "orderSaved": {
+    "message": "Comanda de grup a fost salvată"
+  },
+  "orderCancelled": {
+    "message": "Recomandarea a fost anulată"
+  },
+  "loading": {
+    "message": "Se încarcă..."
+  },
+  "reading": {
+    "message": "Se citesc nodurile locale..."
+  },
+  "nativeMissing": {
+    "message": "Componenta locală nu este conectată"
+  },
+  "retry": {
+    "message": "Reîncercați"
+  },
+  "nativeHelp": {
+    "message": "Rutele nodului necesită însoțitorul Windows. Proxy-urile directe, de sistem și manuale sunt disponibile acum."
+  },
+  "imported": {
+    "message": "Importat"
+  },
+  "v2rayn": {
+    "message": "v2rayN"
+  },
+  "allSources": {
+    "message": "Toate sursele"
+  },
+  "importNodes": {
+    "message": "Importați proxy"
+  },
+  "importTitle": {
+    "message": "Importați proxy"
+  },
+  "importHelp": {
+    "message": "Lipiți linkuri proxy, ieșire JSON sau un abonament Base64. SOCKS acceptă acreditările simple sau Base64. Adresele fără schemă folosesc HTTP."
+  },
+  "importPrivacy": {
+    "message": "Detaliile proxy și acreditările sunt transmise însoțitorului local Proxy V2Route pentru stocare și conectare la proxy-ul pe care îl selectați. Dezvoltatorul nu primește aceste informații."
+  },
+  "import": {
+    "message": "Importați profiluri"
+  },
+  "nodeCount": {
+    "message": "noduri"
+  },
+  "source": {
+    "message": "Sursa"
+  },
+  "protocol": {
+    "message": "Protocol"
+  },
+  "useNode": {
+    "message": "Creați profil"
+  },
+  "removeNode": {
+    "message": "Eliminați nodul importat?"
+  },
+  "removeNodeHelp": {
+    "message": "Profilurile care folosesc acest nod trebuie reatribuite înainte de a putea fi eliminate."
+  },
+  "deleteProfile": {
+    "message": "Ștergeți acest profil?"
+  },
+  "deleteProfileHelp": {
+    "message": "Aceasta elimină numai acest profil de browser. Nodurile importate și configurația v2rayN sunt păstrate."
+  },
+  "language": {
+    "message": "Limbă"
+  },
+  "automatic": {
+    "message": "Browser implicit"
+  },
+  "theme": {
+    "message": "Aspect"
+  },
+  "light": {
+    "message": "Lumină"
+  },
+  "dark": {
+    "message": "Întuneric"
+  },
+  "switchToEnglish": {
+    "message": "Comutați la engleză"
+  },
+  "switchToChinese": {
+    "message": "Comutați la chineză simplificată"
+  },
+  "switchToLight": {
+    "message": "Comutați la aspectul luminos"
+  },
+  "switchToDark": {
+    "message": "Comutați la aspectul întunecat"
+  },
+  "localComponent": {
+    "message": "Componentă însoțitoare"
+  },
+  "ready": {
+    "message": "Conectat"
+  },
+  "stopped": {
+    "message": "Nu rulează"
+  },
+  "discovery": {
+    "message": "v2rayN detectie"
+  },
+  "rootPath": {
+    "message": "v2rayN folder"
+  },
+  "corePath": {
+    "message": "Executabil de bază proxy"
+  },
+  "optionalPath": {
+    "message": "Lăsați necompletat pentru detectarea automată"
+  },
+  "pathsHelp": {
+    "message": "v2rayN este detectat automat; alege folderul său dacă este necesar. Nodurile importate folosesc nucleul inclus."
+  },
+  "savePaths": {
+    "message": "Salvați setările de conexiune"
+  },
+  "privacy": {
+    "message": "Setări stocate local"
+  },
+  "privacyText": {
+    "message": "Link-urile nodurilor și acreditările rămân în companionul local. Traficul din browser trece prin proxy-ul selectat către site-urile web de destinație; dezvoltatorul nu îl primește."
+  },
+  "privacyDetails": {
+    "message": "Confidențialitate și flux de date"
+  },
+  "export": {
+    "message": "Export profile"
+  },
+  "about": {
+    "message": "Despre Proxy V2Route"
+  },
+  "aboutText": {
+    "message": "Alegeți o rută de browser fără a schimba ruta principală a v2rayN. Rutele nodurilor folosesc însoțitorul Windows și propriile noduri."
+  },
+  "licenses": {
+    "message": "Notificări cu sursă deschisă"
+  },
+  "version": {
+    "message": "Versiunea"
+  },
+  "fieldRequired": {
+    "message": "Introduceți un nume de profil."
+  },
+  "profileExists": {
+    "message": "Există deja un profil cu acest nume."
+  },
+  "ruleHelp": {
+    "message": "Separați domeniile pe un rând cu virgule. Primul rând potrivit câștigă. Păstrați ruta implicită disponibilă."
+  },
+  "rules": {
+    "message": "Reguli de rutare"
+  },
+  "pattern": {
+    "message": "Model gazdă"
+  },
+  "target": {
+    "message": "Regulă țintă"
+  },
+  "addRule": {
+    "message": "Adăugați o regulă"
+  },
+  "defaultRoute": {
+    "message": "Profil implicit"
+  },
+  "pacHelp": {
+    "message": "Lipiți sursa de încredere PAC care conține FindProxyForURL. Acest script decide cum sunt direcționate solicitările site-ului."
+  },
+  "pacUrl": {
+    "message": "PAC URL"
+  },
+  "pacScript": {
+    "message": "PAC script"
+  },
+  "noSelection": {
+    "message": "Selectați un profil sau creați unul."
+  },
+  "details": {
+    "message": "Detalii"
+  },
+  "noNodes": {
+    "message": "Încă nu există noduri"
+  },
+  "noNodesHelp": {
+    "message": "Conectați v2rayN sau importați linkuri proxy, JSON sau un abonament pentru a începe."
+  },
+  "openSettings": {
+    "message": "Deschideți setările"
+  },
+  "proxySettings": {
+    "message": "Setări proxy"
+  },
+  "switching": {
+    "message": "Se comută..."
+  },
+  "updatedElsewhere": {
+    "message": "Acest profil s-a schimbat într-o altă fereastră. Redeschideți-l înainte de a salva."
+  },
+  "choose": {
+    "message": "Alegeți"
+  },
+  "popupIntro": {
+    "message": "Conexiune:"
+  },
+  "invalidPort": {
+    "message": "Introduceți un port de la 1 la 65535."
+  },
+  "externalControl": {
+    "message": "O altă extensie sau politică este controlul proxy-ului browserului."
+  },
+  "noNativeRoute": {
+    "message": "Conectați componenta locală înainte de a crea un profil de nod."
+  },
+  "reload": {
+    "message": "Reîncărcați"
+  },
+  "rulesError": {
+    "message": "Fiecare regulă necesită un model și o țintă."
+  },
+  "backupDone": {
+    "message": "Profiluri de browser exportate"
+  },
+  "managed": {
+    "message": "Nod gestionat"
+  },
+  "netRegion": {
+    "message": "Zona țintă"
+  },
+  "netNodeArea": {
+    "message": "Nod proxy"
+  },
+  "netChina": {
+    "message": "China continentală"
+  },
+  "netGlobal": {
+    "message": "Global"
+  },
+  "netAli": {
+    "message": "AliDNS"
+  },
+  "netTencent": {
+    "message": "DNSPod"
+  },
+  "netStartHelp": {
+    "message": "Alegeți o țintă, apoi începeți un test live."
+  },
+  "netConsole": {
+    "message": "Diagnosticare în direct"
+  },
+  "netStop": {
+    "message": "Opriți"
+  },
+  "netRunning": {
+    "message": "Alergare"
+  },
+  "netStopped": {
+    "message": "Oprit"
+  },
+  "netSent": {
+    "message": "Trimis"
+  },
+  "netLoss": {
+    "message": "Pierdere"
+  },
+  "netAverageShort": {
+    "message": "Avg"
+  },
+  "netLogClear": {
+    "message": "Clar"
+  },
+  "netFinishing": {
+    "message": "Sonda anterioară se termină..."
+  },
+  "netRound": {
+    "message": "Rotund"
+  },
+  "netDestination": {
+    "message": "Destinație"
+  },
+  "netHop": {
+    "message": "Hop"
+  },
+  "netAddress": {
+    "message": "IP adresa"
+  },
+  "netLast": {
+    "message": "Ultimul"
+  },
+  "netConsoleHelp": {
+    "message": "Ping / TCPing / MTR utilizează rețeaua sistemului, nu lanțul proxy. Lipsa ICMP răspunsuri nu dovedesc pierderea traficului. Descărcarea utilizează ruta browserului și limita de dimensiune selectată. Testele se opresc când părăsiți sau ascundeți această pagină."
+  },
+  "netDirectShort": {
+    "message": "Rețea de sistem"
+  },
+  "netIcmpShort": {
+    "message": "Nu ICMP răspuns"
+  },
+  "netProbeError": {
+    "message": "Eroare de sondă locală"
+  },
+  "netNoDestination": {
+    "message": "Destinația nu a fost atinsă"
+  },
+  "deleteActive": {
+    "message": "Comutați la sistem și ștergeți"
+  },
+  "deleteActiveHelp": {
+    "message": "Acest profil este activ. Ștergerea acestuia trece browserul la proxy de sistem."
+  },
+  "netDownloadSize": {
+    "message": "Dimensiunea descărcarii"
+  },
+  "netReceived": {
+    "message": "Primit"
+  },
+  "netBest": {
+    "message": "Cel mai bun"
+  },
+  "netWorst": {
+    "message": "Cel mai rău"
+  },
+  "netStdDev": {
+    "message": "Std dev"
+  },
+  "netLocation": {
+    "message": "Localizare"
+  },
+  "toolWall": {
+    "message": "Verificare blocare domeniu"
+  },
+  "toolSites": {
+    "message": "Site-uri web populare"
+  },
+  "toolGlobal": {
+    "message": "Diagnosticare globală"
+  },
+  "toolFast": {
+    "message": "Viteza Netflix"
+  },
+  "toolSpeed": {
+    "message": "Test de viteză"
+  },
+  "toolStart": {
+    "message": "Începeți"
+  },
+  "toolReady": {
+    "message": "Gata"
+  },
+  "toolResponded": {
+    "message": "A răspuns"
+  },
+  "toolNoResponse": {
+    "message": "Neconfirmat"
+  },
+  "toolCacheUnsupported": {
+    "message": "Acest browser nu poate șterge memoria cache după site; pagina a fost reîncărcată."
+  },
+  "toolCacheFailed": {
+    "message": "Curățarea memoriei cache nu s-a terminat. Închideți și reîncercați."
+  },
+  "toolClose": {
+    "message": "Închide"
+  },
+  "toolReload": {
+    "message": "Reîncărcați"
+  },
+  "toolLoading": {
+    "message": "Se încarcă..."
+  },
+  "toolFrameError": {
+    "message": "Nu s-a putut încărca. Încercați Reîncărcați."
+  },
+  "toolSiteHelp": {
+    "message": "Accesibilitate numai în browser. Acest lucru nu verifică contul sau accesul regional."
+  },
+  "toolFallback": {
+    "message": "Test de viteză de rezervă"
+  },
+  "toolFullscreen": {
+    "message": "Ecran complet"
+  },
+  "toolRestore": {
+    "message": "Ieșiți din ecranul complet"
+  },
+  "ipReadFailed": {
+    "message": "Citirea a eșuat. 👉"
+  },
+  "ipViewSource": {
+    "message": "Vizualizați site-ul sursă"
+  },
+  "toolDownloadError": {
+    "message": "Nu s-a putut accesa serverul de descărcare. Încearcă din nou."
+  },
+  "toolAccess": {
+    "message": "Activați accesul la site"
+  },
+  "toolPermission": {
+    "message": "Permiteți accesul la acest site pentru compatibilitatea cu sesiunile încorporate."
+  },
+  "toolAsia": {
+    "message": "Asia"
+  },
+  "toolEurope": {
+    "message": "Europa"
+  },
+  "toolAmerica": {
+    "message": "America de Nord"
+  },
+  "toolGlobalHelp": {
+    "message": "Pre-completează ieșirea browserului IP. Alegeți China continentală sau altă regiune pentru a compara căile; Start trimite ținta afișată la până la trei Globalping sonde."
+  },
+  "toolServiceError": {
+    "message": "Serviciul de testare nu este disponibil. Încearcă din nou."
+  },
+  "popupOrderHelp": {
+    "message": "Țineți apăsat și trageți pentru a reordona. Tastele Alt+săgeată mută și acest profil."
+  },
+  "popupOrderSaved": {
+    "message": "Comanda a fost salvată"
+  },
+  "toolGroupIP": {
+    "message": "IP teste"
+  },
+  "toolGroupWeb": {
+    "message": "Teste site-uri"
+  },
+  "toolGroupSpeed": {
+    "message": "Viteză"
+  },
+  "toolCurrentIP": {
+    "message": "Ieșire curentă IP"
+  },
+  "toolCurrentIPLoading": {
+    "message": "Se încarcă ieșirea curentă IP..."
+  },
+  "toolCurrentIPFailed": {
+    "message": "Nu s-a putut citi curentul IP. Introduceți o țintă."
+  },
+  "speedMode": {
+    "message": "Mod de testare"
+  },
+  "speedBoth": {
+    "message": "Descărcare + încărcare"
+  },
+  "speedDownload": {
+    "message": "Descărcați"
+  },
+  "speedUpload": {
+    "message": "Încărcați"
+  },
+  "speedLatency": {
+    "message": "HTTP latență"
+  },
+  "speedBudget": {
+    "message": "{n} MiB pe fază · {total} MiB total, plus eșantioane cu latență mică."
+  },
+  "siteCategory": {
+    "message": "Categoria site-ului web"
+  },
+  "siteAll": {
+    "message": "Toate site-urile web"
+  },
+  "siteAI": {
+    "message": "AI"
+  },
+  "siteDevelopment": {
+    "message": "Dezvoltare"
+  },
+  "siteVideo": {
+    "message": "Video / muzică"
+  },
+  "siteSocial": {
+    "message": "Social"
+  },
+  "siteDomestic": {
+    "message": "Servicii continentale"
+  },
+  "siteServices": {
+    "message": "Servicii comune"
+  },
+  "globalMethod": {
+    "message": "Tip de măsurare"
+  },
+  "localPort": {
+    "message": "Port local:"
+  },
+  "chainChooseNode": {
+    "message": "Alegeți un nod proxy"
+  },
+  "chainTitle": {
+    "message": "Lanț proxy"
+  },
+  "chainSelectExit": {
+    "message": "Alegeți un anumit nod de ieșire de mai jos pentru a salva sau a testa acest lanț personalizat. Follow v2rayN este gestionat de v2rayN."
+  },
+  "chainSelectExitShort": {
+    "message": "Selectați un nod de ieșire"
+  },
+  "chainAdd": {
+    "message": "+ Adăugați un strat proxy"
+  },
+  "chainTest": {
+    "message": "Lanț de testare"
+  },
+  "chainMode": {
+    "message": "Modul în lanț"
+  },
+  "chainBase": {
+    "message": "Proxy de bază"
+  },
+  "chainExit": {
+    "message": "Ieșiți din proxy"
+  },
+  "chainEgress": {
+    "message": "Ieșire în lanț"
+  },
+  "chainExitBadge": {
+    "message": "Ieșire IP"
+  },
+  "chainEntry": {
+    "message": "Intrare în lanț"
+  },
+  "chainTransit": {
+    "message": "Bridge Node"
+  },
+  "chainUntested": {
+    "message": "Nu a fost testat"
+  },
+  "chainMissing": {
+    "message": "Nod indisponibil"
+  },
+  "chainUnresolved": {
+    "message": "Nu se poate rezolva lanțul moștenit. Reparați setările predecesorului sau alegeți un lanț personalizat."
+  },
+  "chainUpgrade": {
+    "message": "Actualizați însoțitorul local pentru a activa lanțurile ordonate."
+  },
+  "chainBusy": {
+    "message": "Se execută un alt test de lanț"
+  },
+  "chainOK": {
+    "message": "Accesibil"
+  },
+  "chainFailed": {
+    "message": "Salt eșuat în acest test"
+  },
+  "chainBlocked": {
+    "message": "Netestat · hop anterior eșuat"
+  },
+  "chainFailureHelp": {
+    "message": "Acest hop sau calea către el nu a trecut. Ulterior, hameiul nu a fost testat."
+  },
+  "chainAllOK": {
+    "message": "Toate căile cumulate au răspuns"
+  },
+  "chainStopping": {
+    "message": "Oprire după sonda delimitată curentă..."
+  },
+  "globalWorld": {
+    "message": "La nivel mondial"
+  },
+  "globalUnavailable": {
+    "message": "Ținta sau regiunea este indisponibilă. Verificați ținta sau alegeți o altă regiune."
+  },
+  "globalRateLimited": {
+    "message": "Limita ratei de serviciu a fost atinsă. Încercați din nou mai târziu."
+  },
+  "globalNoResults": {
+    "message": "Serviciul nu a returnat niciun rezultat al probei. Încercați în altă regiune."
+  },
+  "globalProbeFailed": {
+    "message": "Sonda a eșuat"
+  },
+  "globalProbeOffline": {
+    "message": "Sonda offline"
+  },
+  "globalIcmpCaution": {
+    "message": "Numai răspunsurile lipsă de ICMP nu dovedesc blocarea. Comparați căile continentale și de peste mări și alte tipuri de teste."
+  },
+  "speedRealtime": {
+    "message": "Viteza live"
+  },
+  "speedAverage": {
+    "message": "Viteza medie"
+  },
+  "ipToolsBrief": {
+    "message": "Rezultatele terților sunt pentru referință."
+  },
+  "ipReportBrief": {
+    "message": "Rezultatele variază în funcție de ieșire IP și sunt pentru referință."
+  },
+  "toolPingPe": {
+    "message": "IP verificare blocare"
+  },
+  "toolTargetIP": {
+    "message": "Țintă IP"
+  },
+  "toolOpenPingPe": {
+    "message": "Deschideți testul oficial"
+  },
+  "toolInvalidIP": {
+    "message": "Introduceți o adresă IPv4 sau IPv6 validă."
+  },
+  "toolInvalidPort": {
+    "message": "Introduceți un port TCP de la 1 la 65535."
+  },
+  "toolExternalFailed": {
+    "message": "Nu s-a putut deschide site-ul web. Încearcă din nou."
+  },
+  "ipBrowserReading": {
+    "message": "Citirea Ping0 prin browser..."
+  },
+  "ipVerifyBrowser": {
+    "message": "Deschideți pagina de verificare"
+  },
+  "policyCenter": {
+    "message": "Confidențialitate, declarație și întrebări frecvente"
+  },
+  "policyCenterIntro": {
+    "message": "Manipularea datelor locale, limitele de testare și răspunsurile comune."
+  },
+  "policyPrivacyTitle": {
+    "message": "Politica de confidențialitate"
+  },
+  "policyPrivacySummary": {
+    "message": "Profilurile și acreditările rămân pe acest dispozitiv. Verificările pop-up și diagnosticarea contactează furnizorii lor declarați. Fără publicitate sau analize comportamentale."
+  },
+  "policyDeclarationTitle": {
+    "message": "Declarație de utilizare și măsurare"
+  },
+  "policyDeclarationSummary": {
+    "message": "Această extensie este un manager de rută local, nu un proxy sau un furnizor VPN. Măsurătorile sunt mostre de referință afectate de condițiile de rețea, proxy și furnizor."
+  },
+  "policyFaqTitle": {
+    "message": "Întrebări frecvente"
+  },
+  "policyFaqSummary": {
+    "message": "Companionul Windows este necesar pentru nodurile locale și MTR. Latența poate diferi între browser, sistem și sondele publice. Opriți un test sau ștergeți datele locale din Setări."
+  },
+  "policyDetailsLink": {
+    "message": "Citiți detaliile complete ↗"
+  },
+  "thirdPartyNotice": {
+    "message": "Notificări open-source ↗"
+  },
+  "columnResizeHelp": {
+    "message": "Trageți pentru a redimensiona; dublu clic pentru a reseta; utilizați tastele săgeți pentru a ajusta"
+  },
+  "columnResize": {
+    "message": "Redimensionați coloana"
+  },
+  "typeDescription_node": {
+    "message": "Conectați-vă printr-un nod proxy"
+  },
+  "typeDescription_manual": {
+    "message": "Introduceți manual setările proxy"
+  },
+  "typeDescription_auto": {
+    "message": "Selectați un nod folosind reguli"
+  },
+  "typeDescription_pac": {
+    "message": "Dirijați traficul folosind regulile PAC."
+  },
+  "appDescription": {
+    "message": "Rute proxy de browser, noduri și reguli de domeniu. Rutele nodului au nevoie de însoțitorul Windows."
+  },
+  "core_title": {
+    "message": "Miez proxy"
+  },
+  "core_checking": {
+    "message": "Se verifică componenta locală..."
+  },
+  "core_ready": {
+    "message": "Xray este gata"
+  },
+  "core_missing": {
+    "message": "Nucleul proxy lipsește"
+  },
+  "core_external": {
+    "message": "Miez personalizat: neverificat"
+  },
+  "core_corrupt": {
+    "message": "Xray nepotrivire a sumei de control — este necesară reparația"
+  },
+  "core_unreadable": {
+    "message": "Fișierul de bază nu a putut fi verificat"
+  },
+  "core_intro": {
+    "message": "Pachetul complet Windows include Xray. v2rayN este opțional."
+  },
+  "core_verify": {
+    "message": "Verificați din nou"
+  },
+  "core_install": {
+    "message": "Instalați/reparați miezul"
+  },
+  "core_installing": {
+    "message": "Se descarcă și se verifică..."
+  },
+  "core_done": {
+    "message": "Core verificat și gata"
+  },
+  "core_help": {
+    "message": "Repair folosește o versiune oficială fixată Xray și își verifică suma de control. Conexiunile existente rămân în funcțiune."
+  },
+  "core_absent": {
+    "message": "Instalați componenta locală o dată, apoi reveniți aici pentru a verifica miezul."
+  },
+  "core_download": {
+    "message": "Ghid de instalare"
+  },
+  "core_absentHelp": {
+    "message": "Utilizați pachetul potrivit Windows sau urmați ghidul pentru a-l crea din sursă, apoi rulați configurarea."
+  },
+  "core_failed": {
+    "message": "Operarea de bază a eșuat. Încercați din nou sau utilizați pachetul complet Windows."
+  },
+  "core_version": {
+    "message": "Versiunea"
+  },
+  "error_ACTIVE_PROFILE_DELETE": {
+    "message": "Comutați la alt profil înainte de ștergere"
+  },
+  "error_BACKUP_BINDING_TYPE": {
+    "message": "Numai profilurile proxy pot avea asocieri de rute"
+  },
+  "error_BACKUP_FORMAT3_REQUIRED": {
+    "message": "Regulile pentru noduri necesită o copie de siguranță portabilă în format 3"
+  },
+  "error_BACKUP_INDEPENDENT_PATH_REQUIRED": {
+    "message": "Copia de siguranță trebuie să conțină o cale de noduri independentă"
+  },
+  "error_BACKUP_INTERNAL_BINDINGS": {
+    "message": "Copia de siguranță conține asocieri interne"
+  },
+  "error_BACKUP_MESSAGE_LIMIT": {
+    "message": "Copia de siguranță a nodurilor depășește limita mesajelor componentei locale"
+  },
+  "error_BACKUP_NODES_INCOMPLETE": {
+    "message": "Copie de siguranță a nodurilor incompletă"
+  },
+  "error_BACKUP_NODE_MISSING": {
+    "message": "Din copia de siguranță lipsește un nod necesar"
+  },
+  "error_BACKUP_NODE_PATHS_LIMIT": {
+    "message": "Copia de siguranță acceptă cel mult {limit} căi de noduri"
+  },
+  "error_BACKUP_PATH_INCOMPLETE": {
+    "message": "Cale incompletă în copia de siguranță a nodurilor"
+  },
+  "error_BACKUP_PROFILES_LIMIT": {
+    "message": "Copia de siguranță acceptă cel mult {limit} profiluri"
+  },
+  "error_BACKUP_PROXY_CONFLICT": {
+    "message": "Copia de siguranță conține setări proxy incompatibile"
+  },
+  "error_BACKUP_SIZE_LIMIT": {
+    "message": "Copia de siguranță depășește {limit} MB"
+  },
+  "error_BACKUP_TRANSFER_UNAVAILABLE": {
+    "message": "Actualizați sau reparați componenta locală pentru a transfera copiile de siguranță ale nodurilor."
+  },
+  "error_BACKUP_UNUSED_NODES": {
+    "message": "Copia de siguranță conține noduri fără referințe"
+  },
+  "error_BODY_TOO_LARGE": {
+    "message": "Răspunsul abonamentului depășește dimensiunea permisă."
+  },
+  "error_BROWSER_API_FAILED": {
+    "message": "Operația browserului a eșuat. Consultați detaliile tehnice."
+  },
+  "error_BROWSER_PROXY_RESTORE_FAILED": {
+    "message": "Operația a eșuat, iar configurația proxy anterioară a browserului nu a putut fi restaurată"
+  },
+  "error_BROWSER_SCHEDULING_UNAVAILABLE": {
+    "message": "Programarea în browser nu este disponibilă."
+  },
+  "error_BUSY": {
+    "message": "Se execută altă operație. Încercați din nou în curând."
+  },
+  "error_CHAIN_PROBE_FAILED": {
+    "message": "Testarea lanțului a eșuat"
+  },
+  "error_COMPANION_BULK_RELEASE_REQUIRED": {
+    "message": "Actualizați componenta locală pentru a gestiona în siguranță mai multe reguli pentru noduri"
+  },
+  "error_COMPANION_CHAINS_REQUIRED": {
+    "message": "Actualizați componenta locală pentru a activa lanțurile ordonate"
+  },
+  "error_COMPANION_MESSAGE_LIMIT": {
+    "message": "Setările depășesc limita mesajelor componentei locale"
+  },
+  "error_COMPANION_OPERATION_FAILED": {
+    "message": "Operația componentei locale a eșuat. Consultați detaliile tehnice."
+  },
+  "error_COMPANION_UNAVAILABLE": {
+    "message": "Instalați sau reparați V2Route Companion"
+  },
+  "error_CONNECTION_CLOSED": {
+    "message": "Conexiunea s-a închis înainte de terminarea testului."
+  },
+  "error_CORE_INSTALL_FAILED": {
+    "message": "Instalarea nucleului a eșuat. Consultați detaliile tehnice."
+  },
+  "error_CORE_OWNERSHIP_FAILED": {
+    "message": "Nucleul de testare izolat nu a putut fi controlat în siguranță. Testul a fost oprit."
+  },
+  "error_CORE_START_FAILED": {
+    "message": "Nucleul de testare izolat nu a putut porni. Verificați instalarea componentei locale și a nucleului."
+  },
+  "error_CORE_START_TIMEOUT": {
+    "message": "Nucleul de testare izolat nu a fost gata la timp."
+  },
+  "error_CORE_STATUS_UNAVAILABLE": {
+    "message": "Starea nucleului nu este disponibilă. Consultați detaliile tehnice."
+  },
+  "error_CORE_VALIDATION_FAILED": {
+    "message": "Xray nu a putut valida nodurile importate. Verificați setările acestora și încercați din nou."
+  },
+  "error_DETACH_PORT_CONFLICT": {
+    "message": "Portul gestionat va fi eliberat. Introduceți alt proxy manual"
+  },
+  "error_DETACH_PROXY_REQUIRED": {
+    "message": "Introduceți proxy-ul manual înlocuitor înainte de detașare"
+  },
+  "error_DNS_BUSY": {
+    "message": "Căutarea DNS este ocupată. Încercați din nou în curând."
+  },
+  "error_DNS_FAILED": {
+    "message": "Căutarea DNS a eșuat. Verificați adresa și conexiunea la rețea."
+  },
+  "error_ENCODING_UNSUPPORTED": {
+    "message": "Abonamentul folosește o codificare a conținutului neacceptată."
+  },
+  "error_FIREFOX_PRIVATE_ACCESS_REQUIRED": {
+    "message": "Permiteți V2Route în ferestre private din detaliile extensiei înainte de a modifica setările proxy"
+  },
+  "error_FOLDER_UNAVAILABLE": {
+    "message": "Dosarul nu este disponibil; verificați calea, accesul și versiunea componentei locale"
+  },
+  "error_GROUP_LIMIT": {
+    "message": "S-a atins limita grupurilor. Eliminați un grup neutilizat și încercați din nou."
+  },
+  "error_GROUP_NOT_EDITABLE": {
+    "message": "Acest grup sursă nu poate fi editat aici."
+  },
+  "error_GROUP_NOT_FOUND": {
+    "message": "Grupul selectat nu mai există. Selectați alt grup."
+  },
+  "error_HTTP_ENCODING": {
+    "message": "Serverul de testare a returnat o codificare neacceptată."
+  },
+  "error_HTTP_LENGTH": {
+    "message": "Dimensiunea răspunsului de testare nu corespunde celei solicitate."
+  },
+  "error_HTTP_RESPONSE_TOO_LARGE": {
+    "message": "Răspunsul de testare a depășit dimensiunea permisă."
+  },
+  "error_HTTP_STATUS": {
+    "message": "Serverul de testare a returnat un cod de stare HTTP de eroare."
+  },
+  "error_IMPORTED_PROXY_MISSING": {
+    "message": "Componenta locală nu a returnat proxy-ul importat"
+  },
+  "error_IMPORTED_RULE_PATH_CONFLICT": {
+    "message": "Nodurile importate duc la căi de reguli incompatibile"
+  },
+  "error_IMPORT_CLEANUP_FAILED": {
+    "message": "Importul a eșuat; unele noduri sau porturi temporare nu au putut fi eliberate. Profilurile existente au fost păstrate"
+  },
+  "error_IMPORT_PROFILE_NAME_CONFLICT": {
+    "message": "Nume de profil duplicat sau nevalid"
+  },
+  "error_INCOMPLETE_RESPONSE": {
+    "message": "Răspunsul abonamentului a fost incomplet. Încercați din nou."
+  },
+  "error_INVALID_BACKUP": {
+    "message": "Copie de siguranță V2Route nevalidă"
+  },
+  "error_INVALID_BACKUP_NODE": {
+    "message": "Nod nevalid sau duplicat în copia de siguranță"
+  },
+  "error_INVALID_BACKUP_NODES": {
+    "message": "Noduri nevalide în copia de siguranță"
+  },
+  "error_INVALID_BACKUP_PATH": {
+    "message": "Cale nevalidă în copia de siguranță"
+  },
+  "error_INVALID_BYPASS_ENTRY": {
+    "message": "Intrare de ocolire nevalidă"
+  },
+  "error_INVALID_BYPASS_LIST": {
+    "message": "Listă de ocolire nevalidă"
+  },
+  "error_INVALID_CHAIN": {
+    "message": "Lanț ordonat nevalid"
+  },
+  "error_INVALID_CHAIN_PROBE": {
+    "message": "Test de lanț nevalid"
+  },
+  "error_INVALID_COMPANION_RESPONSE": {
+    "message": "Componenta locală a returnat un răspuns nevalid. Actualizați-o sau reparați-o."
+  },
+  "error_INVALID_CONTENT": {
+    "message": "Răspunsul abonamentului nu conține conținut valid."
+  },
+  "error_INVALID_DOMAIN_PATTERNS": {
+    "message": "Introduceți modele de domenii separate prin virgulă; puneți fiecare URL pe un rând separat"
+  },
+  "error_INVALID_ENCODING": {
+    "message": "Răspunsul abonamentului nu este text UTF-8 valid."
+  },
+  "error_INVALID_FOLDER_REQUEST": {
+    "message": "Cerere de dosar nevalidă"
+  },
+  "error_INVALID_GROUP_ACTION": {
+    "message": "Această acțiune pentru grup nu este acceptată."
+  },
+  "error_INVALID_HOP_INDEX": {
+    "message": "Index de salt nevalid"
+  },
+  "error_INVALID_LEGACY_PREDECESSOR": {
+    "message": "Predecesor vechi nevalid"
+  },
+  "error_INVALID_LIBRARY_COMMAND": {
+    "message": "Această comandă pentru biblioteca de noduri nu este acceptată."
+  },
+  "error_INVALID_LIBRARY_REQUEST": {
+    "message": "Cerere de bibliotecă nevalidă"
+  },
+  "error_INVALID_NAME": {
+    "message": "Introduceți un nume cu 1–128 de caractere vizibile și fără caractere de control."
+  },
+  "error_INVALID_NETWORK_TEST": {
+    "message": "Test de rețea nevalid"
+  },
+  "error_INVALID_NODE_IMPORT_RESPONSE": {
+    "message": "Răspuns de import al nodurilor nevalid"
+  },
+  "error_INVALID_PREDECESSOR": {
+    "message": "Predecesor nevalid pentru această rută"
+  },
+  "error_INVALID_PROFILE_NAME": {
+    "message": "Nume de profil nevalid"
+  },
+  "error_INVALID_PROFILE_REFERENCE": {
+    "message": "Referință de profil nevalidă"
+  },
+  "error_INVALID_PROXY_AUTH": {
+    "message": "Autentificare proxy nevalidă"
+  },
+  "error_INVALID_PROXY_CREDENTIALS": {
+    "message": "Date de autentificare proxy nevalide"
+  },
+  "error_INVALID_PROXY_ENDPOINT": {
+    "message": "Introduceți o gazdă și un port proxy valide"
+  },
+  "error_INVALID_PROXY_HOST": {
+    "message": "Introduceți un nume DNS sau o adresă IP fără port, URL, cale sau interogare"
+  },
+  "error_INVALID_ROUTE": {
+    "message": "Rută nevalidă"
+  },
+  "error_INVALID_ROUTE_SETTINGS": {
+    "message": "Setări de rută nevalide"
+  },
+  "error_INVALID_RULES": {
+    "message": "Reguli nevalide"
+  },
+  "error_INVALID_RULE_TARGET": {
+    "message": "Alegeți un nod sau un profil valid pentru fiecare regulă"
+  },
+  "error_INVALID_SUBSCRIPTION": {
+    "message": "Abonament nevalid"
+  },
+  "error_INVALID_SUBSCRIPTION_REQUEST": {
+    "message": "Cerere de abonament nevalidă"
+  },
+  "error_INVALID_SUBSCRIPTION_SETTINGS": {
+    "message": "Setările abonamentului sunt nevalide. Verificați intervalul de actualizare și politica de conectare."
+  },
+  "error_INVALID_SYSTEM_PROXY_RESPONSE": {
+    "message": "Răspuns nevalid al proxy-ului de sistem; actualizați sau reparați componenta locală"
+  },
+  "error_INVALID_TRANSPORT": {
+    "message": "Setările de conectare ale abonamentului sunt nevalide."
+  },
+  "error_INVALID_URL": {
+    "message": "Introduceți un URL de abonament HTTP(S) valid, fără nume de utilizator sau parolă."
+  },
+  "error_LIBRARY_CHANGED": {
+    "message": "Biblioteca de noduri s-a modificat în altă fereastră. Reîmprospătați-o și încercați din nou."
+  },
+  "error_MANUAL_CHAIN_UNSUPPORTED": {
+    "message": "Proxy-urile manuale nu acceptă un lanț de noduri"
+  },
+  "error_MANUAL_PROXY_CLEANUP_FAILED": {
+    "message": "Salvarea a eșuat; un proxy importat temporar a rămas în biblioteca de noduri"
+  },
+  "error_NATIVE_BINDING_ID": {
+    "message": "Identificator de asociere a rutei nevalid."
+  },
+  "error_NATIVE_BINDING_UNKNOWN": {
+    "message": "Asocierea rutei nu există."
+  },
+  "error_NATIVE_BUTTON_NAME": {
+    "message": "Numele butonului trebuie să conțină 1–128 de caractere vizibile."
+  },
+  "error_NATIVE_CATALOG_UNREADABLE": {
+    "message": "Configurația v2rayN nu a putut fi citită."
+  },
+  "error_NATIVE_CORE_MISSING": {
+    "message": "Xray nu este disponibil. Instalați pachetul componentei locale."
+  },
+  "error_NATIVE_GROUP_ID_COLLISION": {
+    "message": "Identificatorii grupurilor sunt în conflict."
+  },
+  "error_NATIVE_GROUP_ORDER": {
+    "message": "Ordine a grupurilor nevalidă."
+  },
+  "error_NATIVE_NODE_ID_COLLISION": {
+    "message": "Identificatorii nodurilor sunt în conflict."
+  },
+  "error_NATIVE_PREDECESSOR_AMBIGUOUS": {
+    "message": "Numele predecesorului lipsește sau este duplicat. Selectați un nod predecesor precis."
+  },
+  "error_NATIVE_PREDECESSOR_CYCLE": {
+    "message": "Lanțul de predecesori conține un ciclu sau depășește șase noduri."
+  },
+  "error_NATIVE_PREDECESSOR_INVALID": {
+    "message": "Selectați un proxy predecesor valid."
+  },
+  "error_NATIVE_PREDECESSOR_MISSING": {
+    "message": "Predecesorul selectat nu mai există. Selectați alt nod."
+  },
+  "error_NATIVE_PREDECESSOR_SETTINGS": {
+    "message": "Setări ale predecesorului nevalide."
+  },
+  "error_NATIVE_ROUTE_INVALID": {
+    "message": "Selectați o rută validă."
+  },
+  "error_NATIVE_ROUTE_MISSING": {
+    "message": "Această rută nu mai există. Selectați altă rută."
+  },
+  "error_NATIVE_ROUTE_PORTS": {
+    "message": "Atribuiri de porturi ale rutei nevalide."
+  },
+  "error_NATIVE_ROUTE_UNAVAILABLE": {
+    "message": "Ruta selectată nu este disponibilă. Consultați detaliile tehnice."
+  },
+  "error_NATIVE_SETTINGS_FORMAT": {
+    "message": "Format de setări nevalid."
+  },
+  "error_NATIVE_SETTINGS_REVISION": {
+    "message": "Revizie a setărilor nevalidă."
+  },
+  "error_NATIVE_SUCCESSOR_UNSUPPORTED": {
+    "message": "Acest grup folosește un proxy succesor care nu este acceptat."
+  },
+  "error_NATIVE_UNSUPPORTED_CUSTOM": {
+    "message": "Această versiune nu acceptă configurații personalizate de ieșire."
+  },
+  "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
+    "message": "Această versiune nu acceptă Hysteria2."
+  },
+  "error_NATIVE_UNSUPPORTED_TUIC": {
+    "message": "Această versiune nu integrează nucleul sing-box necesar pentru TUIC."
+  },
+  "error_NATIVE_UNSUPPORTED_TYPE": {
+    "message": "Acest tip de rută nu este acceptat."
+  },
+  "error_NATIVE_V2RAYN_PORT": {
+    "message": "Portul local v2rayN este nevalid."
+  },
+  "error_NATIVE_V2RAYN_UNAVAILABLE": {
+    "message": "v2rayN nu este disponibil. Selectați un nod importat."
+  },
+  "error_NETWORK_FAILED": {
+    "message": "Cererea de rețea a eșuat. Verificați conexiunea și încercați din nou."
+  },
+  "error_NETWORK_TEST_FAILED": {
+    "message": "Diagnosticarea rețelei a eșuat. Consultați detaliile tehnice."
+  },
+  "error_NODE_LIMIT": {
+    "message": "Operația ar depăși limita nodurilor. Eliminați nodurile neutilizate și încercați din nou."
+  },
+  "error_NODE_MAPPING_INCOMPLETE": {
+    "message": "Maparea nodurilor este incompletă"
+  },
+  "error_NODE_NOT_FOUND": {
+    "message": "Nodul selectat nu mai există. Selectați alt nod."
+  },
+  "error_NOT_DUE": {
+    "message": "Nu a sosit încă momentul următoarei actualizări programate."
+  },
+  "error_PAC_ENTRY_REQUIRED": {
+    "message": "Introduceți sursa PAC cu FindProxyForURL"
+  },
+  "error_PAC_FUNCTION_REQUIRED": {
+    "message": "Definiți o funcție sincronă FindProxyForURL la nivel superior, o variabilă funcție sau o atribuire"
+  },
+  "error_PAC_PARSER_UNAVAILABLE": {
+    "message": "Analizorul PAC inclus în pachet nu este disponibil; reinstalați extensia"
+  },
+  "error_PAC_RULE_TARGET_UNSUPPORTED": {
+    "message": "Regulile automate nu pot viza un profil PAC încorporat"
+  },
+  "error_PAC_SOURCE_LIMIT": {
+    "message": "Introduceți sursa PAC cu cel mult {limit} caractere"
+  },
+  "error_PAC_SYNTAX_INVALID": {
+    "message": "Sintaxă PAC nevalidă"
+  },
+  "error_PAC_SYNTAX_LOCATION": {
+    "message": "Sintaxă PAC nevalidă la linia {line}, coloana {column}"
+  },
+  "error_PARTIAL_TRANSFER": {
+    "message": "Transferul de testare s-a încheiat înainte de primirea tuturor datelor."
+  },
+  "error_PRIVATE_DIRECTORY_FAILED": {
+    "message": "Dosarul privat de testare nu a putut fi securizat. Testul a fost oprit."
+  },
+  "error_PRIVATE_TARGET": {
+    "message": "Cererile de abonament către adrese private sau locale nu sunt permise."
+  },
+  "error_PROFILE_NOT_FOUND": {
+    "message": "Profilul nu a fost găsit"
+  },
+  "error_PROFILE_REFERENCE_CYCLE": {
+    "message": "Referințe circulare între profiluri"
+  },
+  "error_PROFILE_REFERENCE_DEPTH": {
+    "message": "Regulile automate depășesc adâncimea maximă de {limit}"
+  },
+  "error_PROFILE_REFERENCE_MISSING": {
+    "message": "Profilul referit nu există: {name}"
+  },
+  "error_PROFILE_SAVE_RESTORE_FAILED": {
+    "message": "Salvarea a eșuat, iar restaurarea rutei necesită atenție"
+  },
+  "error_PROXY_AUTH_REQUIRED": {
+    "message": "Proxy-ul abonamentului necesită autentificare pe care această cerere nu o poate furniza."
+  },
+  "error_PROXY_CONTROL_UNAVAILABLE": {
+    "message": "O altă extensie sau politică controlează proxy-ul"
+  },
+  "error_PROXY_DNS_REQUIRED": {
+    "message": "În V2Route, DNS pentru SOCKS5 se rezolvă prin proxy"
+  },
+  "error_PROXY_FAILED": {
+    "message": "Conectarea la proxy a eșuat. Verificați ruta selectată."
+  },
+  "error_PROXY_PROFILE_REQUIRED": {
+    "message": "Alegeți un profil proxy"
+  },
+  "error_PROXY_ROLLBACK_REFUSED": {
+    "message": "Browserul a refuzat restaurarea configurației proxy"
+  },
+  "error_PROXY_SETTING_REFUSED": {
+    "message": "Browserul a refuzat setarea proxy"
+  },
+  "error_PROXY_UNAVAILABLE": {
+    "message": "Proxy-ul selectat nu este disponibil. Verificați ruta curentă."
+  },
+  "error_PROXY_USERNAME_REQUIRED": {
+    "message": "Introduceți un nume de utilizator proxy"
+  },
+  "error_RECOVERY_BINDINGS_LIMIT": {
+    "message": "Recuperarea poate restaura cel mult {limit} asocieri de noduri. Deschideți și salvați separat profilurile referite."
+  },
+  "error_REDIRECT_LIMIT": {
+    "message": "Abonamentul a redirecționat de prea multe ori. Verificați URL-ul său."
+  },
+  "error_REFERENCED_PROFILE_DELETE": {
+    "message": "Acest profil este referit de o regulă automată"
+  },
+  "error_REMOTE_PAC_UNSUPPORTED": {
+    "message": "Folosiți sursă PAC încorporată; PAC la distanță nu este acceptat"
+  },
+  "error_ROUTE_PORT_UNAVAILABLE": {
+    "message": "Nu a fost alocat niciun port"
+  },
+  "error_ROUTE_RECOVERY_RESTORE_FAILED": {
+    "message": "Recuperarea rutei a eșuat, iar restaurarea necesită atenție"
+  },
+  "error_ROUTE_REVISION_CONFLICT": {
+    "message": "Ruta s-a modificat în altă fereastră. Reîmprospătați mai întâi"
+  },
+  "error_ROUTE_SAVE_ROLLBACK_FAILED": {
+    "message": "Salvarea rutei a eșuat, iar revenirea necesită atenție"
+  },
+  "error_ROUTE_UNAVAILABLE": {
+    "message": "Ruta de testare nu este disponibilă. Verificați setările nodului și ale predecesorului."
+  },
+  "error_RULE_BINDING_MISSING": {
+    "message": "Lipsește asocierea regulii pentru nod. Redeschideți și salvați profilul automat: {name}"
+  },
+  "error_RULE_NODES_LIMIT": {
+    "message": "Regulile automate acceptă cel mult {limit} noduri distincte"
+  },
+  "error_RULE_NODE_CHANGED": {
+    "message": "Regula pentru nod nu este disponibilă sau s-a modificat. Restaurați nodul sau selectați altul și salvați: {name}"
+  },
+  "error_RULE_PATH_CONFLICT": {
+    "message": "Căi de reguli pentru noduri incompatibile"
+  },
+  "error_RULE_PATTERNS_LIMIT": {
+    "message": "Regulile automate acceptă cel mult {limit} modele de potrivire în total"
+  },
+  "error_RULE_PORT_UNAVAILABLE": {
+    "message": "Portul regulii pentru nod nu este disponibil"
+  },
+  "error_RULE_REVISION_CONFLICT": {
+    "message": "Regula pentru nod s-a modificat în altă fereastră. Reîmprospătați mai întâi"
+  },
+  "error_SELECTED_NODE_UNAVAILABLE": {
+    "message": "Nodul selectat nu este disponibil. Restaurați-l sau alegeți alt nod"
+  },
+  "error_SOCKS_FAILED": {
+    "message": "Conexiunea SOCKS nu a putut fi stabilită."
+  },
+  "error_STARTUP_FALLBACK_REFUSED": {
+    "message": "Browserul a refuzat proxy-ul de rezervă la pornire."
+  },
+  "error_SUBSCRIPTION_CHANGED": {
+    "message": "Abonamentul s-a modificat în timpul actualizării. Reîmprospătați-l și încercați din nou."
+  },
+  "error_SUBSCRIPTION_HTTP_STATUS": {
+    "message": "Serverul abonamentului a returnat HTTP {status}."
+  },
+  "error_SUBSCRIPTION_LIMIT": {
+    "message": "S-a atins limita abonamentelor. Eliminați un abonament neutilizat și încercați din nou."
+  },
+  "error_SUBSCRIPTION_NOT_FOUND": {
+    "message": "Abonamentul selectat nu mai există."
+  },
+  "error_SYSTEM_PROXY_SNAPSHOT_UNAVAILABLE": {
+    "message": "Instantaneul proxy-ului de sistem aplicat nu este disponibil."
+  },
+  "error_SYSTEM_PROXY_TIMEOUT": {
+    "message": "Citirea proxy-ului de sistem a expirat"
+  },
+  "error_SYSTEM_PROXY_UNAVAILABLE": {
+    "message": "Proxy-ul de sistem nu este disponibil. Consultați detaliile tehnice."
+  },
+  "error_TIMEOUT": {
+    "message": "Cererea a expirat. Verificați conexiunea și încercați din nou."
+  },
+  "error_TLS_DOWNGRADE": {
+    "message": "Abonamentul a redirecționat de la HTTPS la HTTP și a fost blocat."
+  },
+  "error_TLS_FAILED": {
+    "message": "Conexiunea securizată nu a putut fi verificată. Verificați serverul și certificatul."
+  },
+  "error_UNSAFE_TEMP_PATH": {
+    "message": "Dosarul temporar de testare nu este sigur. Testul a fost oprit."
+  },
+  "error_UNSUPPORTED_LIBRARY_REQUEST": {
+    "message": "Cerere de bibliotecă neacceptată"
+  },
+  "error_UNSUPPORTED_PROFILE_TYPE": {
+    "message": "Tip de profil neacceptat"
+  },
+  "error_UNSUPPORTED_REQUEST": {
+    "message": "Cerere neacceptată"
+  },
+  "error_UNSUPPORTED_RULE_CONDITION": {
+    "message": "Sunt acceptate numai regulile cu metacaractere pentru gazdă și URL"
+  },
+  "error_UPDATE_FAILED": {
+    "message": "Actualizarea abonamentului a eșuat. Nodurile existente au fost păstrate."
+  },
+  "error_VALIDATION_FAILED": {
+    "message": "Conținutul abonamentului nu a putut fi validat. Nodurile existente au fost păstrate."
+  },
+  "nativeUnnamedNode": {
+    "message": "Nod fără nume"
+  },
+  "nativeProtocolCustom": {
+    "message": "Personalizat"
+  },
+  "nativeProtocolOutbound": {
+    "message": "Ieșire personalizată"
+  },
+  "nativeProtocolGroup": {
+    "message": "Grup de politici"
+  },
+  "nativeProtocolChain": {
+    "message": "Lanț de proxy-uri"
+  },
+  "nativeProtocolUnknown": {
+    "message": "Tip neacceptat"
+  },
+  "languageLoadFailed": {
+    "message": "Limba selectată nu a putut fi încărcată. Încercați din nou."
+  },
+  "invalidBackupJSON": {
+    "message": "Copia de siguranță nu este JSON valid."
+  },
+  "noticeBodyLanguages": {
+    "message": "Textul integral al politicii este disponibil în engleză și chineză simplificată."
+  },
+  "policyRules": {
+    "message": "Reguli de rutare proxy"
+  },
+  "policyPriority": {
+    "message": "Ordine: adrese exceptate → prima regulă potrivită → ruta implicită."
+  },
+  "policyDirectHelp": {
+    "message": "Adresele fără potrivire se conectează direct. Butonul Direct folosește și el aceste reguli."
+  },
+  "policySystemHelp": {
+    "message": "Adresele fără potrivire folosesc proxy-ul sistemului. Butonul Sistem folosește și el aceste reguli."
+  },
+  "policyEmpty": {
+    "message": "Nu există reguli. Se folosește ruta implicită."
+  },
+  "policyAddressHelp": {
+    "message": "Domenii, metacaractere, IP sau IP:port. Regulile IP compară IP-ul din URL, nu rezultatele DNS."
+  },
+  "policyMoveUp": {
+    "message": "Mută regula în sus"
+  },
+  "policyMoveDown": {
+    "message": "Mută regula în jos"
+  }
+}

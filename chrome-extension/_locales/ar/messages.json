@@ -1,0 +1,2150 @@
+{
+  "ruleTargetUnavailable": {
+    "message": "هدف غير متاح"
+  },
+  "rulePatternPlaceholder": {
+    "message": "example.com, *.example.org, 192.0.2.1:8443"
+  },
+  "rulePatternHelp": {
+    "message": "افصل العناوين بفواصل. ضع كل نمط URL في سطر مستقل. قد لا يرى PAC مسارات HTTPS."
+  },
+  "defaultChoice_direct": {
+    "message": "الاتصال بدون وكيل"
+  },
+  "defaultChoice_system": {
+    "message": "استخدم إعدادات وكيل النظام"
+  },
+  "defaultChoice_node": {
+    "message": "استخدم العقدة المحددة لهذا الملف الشخصي"
+  },
+  "defaultChoice_manual": {
+    "message": "استخدم إعدادات الوكيل لهذا الملف الشخصي"
+  },
+  "defaultChoice_auto": {
+    "message": "تطبيق قواعد التوجيه لهذا الملف الشخصي"
+  },
+  "nlHttpsLatency": {
+    "message": "HTTPS الرد"
+  },
+  "nlLatencyMethod": {
+    "message": "Cloudflare · استجابتين على الأقل · إعادة استخدام الاتصال عند توفره"
+  },
+  "nlLatencyFast": {
+    "message": "سريع"
+  },
+  "nlLatencyModerate": {
+    "message": "معتدل"
+  },
+  "nlLatencySlow": {
+    "message": "بطيء"
+  },
+  "nlSortName": {
+    "message": "الاسم"
+  },
+  "nlSortLatency": {
+    "message": "الكمون: من الأقل إلى الأعلى"
+  },
+  "nlSortDownload": {
+    "message": "التنزيل: من الأعلى إلى الأدنى"
+  },
+  "nlSortUpload": {
+    "message": "الرفع: من الأعلى إلى الأدنى"
+  },
+  "nlSingle": {
+    "message": "عقدة واحدة"
+  },
+  "nlGroupBatch": {
+    "message": "المجموعة/ الدفعة"
+  },
+  "nlTestScope": {
+    "message": "نطاق الاختبار"
+  },
+  "nlCurrentNode": {
+    "message": "العقدة المختارة"
+  },
+  "nlCurrentGroup": {
+    "message": "المجموعة المختارة"
+  },
+  "nlChooseNode": {
+    "message": "اختر عقدة في القائمة"
+  },
+  "nlStart": {
+    "message": "بدء الاختبار"
+  },
+  "nlService": {
+    "message": "خدمة الاختبار"
+  },
+  "nlMeasured": {
+    "message": "قياس"
+  },
+  "nlMeanLatency": {
+    "message": "متوسط الكمون"
+  },
+  "nlGroupBySource": {
+    "message": "حسب مجموعة المصدر"
+  },
+  "nlPreviousPage": {
+    "message": "الصفحة السابقة"
+  },
+  "nlNextPage": {
+    "message": "الصفحة التالية"
+  },
+  "nlName": {
+    "message": "الاسم"
+  },
+  "nlEdit": {
+    "message": "تحرير"
+  },
+  "nlStop": {
+    "message": "الوقف"
+  },
+  "nlConfirm": {
+    "message": "تأكيد"
+  },
+  "nlAllNodes": {
+    "message": "جميع العقد"
+  },
+  "nlNodeResults": {
+    "message": "نتائج العقدة"
+  },
+  "nlTestCenter": {
+    "message": "مركز الاختبار"
+  },
+  "nlNewGroup": {
+    "message": "مجموعة جديدة"
+  },
+  "nlRenameGroup": {
+    "message": "إعادة تسمية المجموعة"
+  },
+  "nlRemoveGroup": {
+    "message": "إزالة المجموعة"
+  },
+  "nlRemoveGroupHelp": {
+    "message": "احتفظ بكل عقدة واشتراك، وانقلهم إلى العقد المستوردة."
+  },
+  "nlNode": {
+    "message": "العقدة"
+  },
+  "nlStatus": {
+    "message": "الحالة"
+  },
+  "nlActions": {
+    "message": "الإجراءات"
+  },
+  "nlSort": {
+    "message": "فرز هذا الجدول فقط"
+  },
+  "nlSelected": {
+    "message": "محدد"
+  },
+  "nlTestNode": {
+    "message": "اختبار"
+  },
+  "nlProfileShort": {
+    "message": "الملف الشخصي"
+  },
+  "nlQuick": {
+    "message": "الكمون السريع"
+  },
+  "nlFull": {
+    "message": "تحميل + تحميل"
+  },
+  "nlTraffic": {
+    "message": "حجم بيانات الاختبار"
+  },
+  "nlConcurrency": {
+    "message": "العقد المتزامنة"
+  },
+  "nlTrafficFullOnly": {
+    "message": "يستخدم لاختبارات التنزيل والرفع"
+  },
+  "nlTestMode": {
+    "message": "وضع الاختبار"
+  },
+  "nlBudget": {
+    "message": "الحد الأقصى لحركة الحمولة"
+  },
+  "nlViaGroup": {
+    "message": "عبر البروكسي الجماعي"
+  },
+  "nlTestSelected": {
+    "message": "تم تحديد الاختبار"
+  },
+  "nlTestVisible": {
+    "message": "عقد الاختبار الموضحة"
+  },
+  "nlTestAll": {
+    "message": "اختبار كافة العقد"
+  },
+  "nlTestGroup": {
+    "message": "عقد مجموعة الاختبار"
+  },
+  "nlProgress": {
+    "message": "تقدم القياس"
+  },
+  "nlReady": {
+    "message": "اختر العقد للبدء. لم يتم تشغيل أي اختبار."
+  },
+  "nlStarting": {
+    "message": "البدء بالقياس المعزول…"
+  },
+  "nlQueued": {
+    "message": "في قائمة الانتظار"
+  },
+  "nlRunning": {
+    "message": "الاختبار"
+  },
+  "nlStopping": {
+    "message": "توقف…"
+  },
+  "nlComplete": {
+    "message": "أكمل"
+  },
+  "nlFailed": {
+    "message": "فشل"
+  },
+  "nlStopped": {
+    "message": "موقوف"
+  },
+  "nlPartial": {
+    "message": "جزئي"
+  },
+  "nlUntested": {
+    "message": "لم يتم اختباره"
+  },
+  "nlSucceeded": {
+    "message": "مضى"
+  },
+  "nlMeasureDisconnected": {
+    "message": "انتهى اتصال القياس. القيم غير المكتملة ليست نتائج نهائية."
+  },
+  "nlUpgrade": {
+    "message": "تحديث الرفيق المحلي لإدارة المجموعات والاشتراكات. العقد الموجودة تظل متاحة."
+  },
+  "nlOperationFailed": {
+    "message": "لا يمكن إكمال العملية. حاول ثانية."
+  },
+  "nlEditSubscription": {
+    "message": "تعديل الاشتراك"
+  },
+  "nlPasteContent": {
+    "message": "روابط البروكسي / المحتوى"
+  },
+  "nlSubscriptionURL": {
+    "message": "الاشتراك URL"
+  },
+  "nlKeepURL": {
+    "message": "اتركه فارغا للاحتفاظ بالمحفوظات URL"
+  },
+  "nlConnectionPolicy": {
+    "message": "تحديث الاتصال"
+  },
+  "nlProxyFirst": {
+    "message": "التوكيل أولا ثم المباشرة عند الفشل"
+  },
+  "nlProxyOnly": {
+    "message": "الوكيل فقط"
+  },
+  "nlDirectOnly": {
+    "message": "مباشر فقط"
+  },
+  "nlProxyFirstHelp": {
+    "message": "يتوقف الوكيل أولاً بعد عملية جلب ناجحة. تتم تجربة Direct فقط في حالة فشل محاولة الوكيل."
+  },
+  "nlAutoUpdate": {
+    "message": "تمكين التحديثات التلقائية"
+  },
+  "nlInterval": {
+    "message": "الفاصل الزمني للتحديث (دقائق)"
+  },
+  "nlDestinationGroup": {
+    "message": "مجموعة الوجهة"
+  },
+  "nlSubscriptionOwnGroup": {
+    "message": "مجموعة جديدة…"
+  },
+  "nlNameGroup": {
+    "message": "الاسم (المجموعة)"
+  },
+  "nlCustomGroup": {
+    "message": "المجموعة المخصصة"
+  },
+  "nlNameRequired": {
+    "message": "أدخل اسمًا."
+  },
+  "nlContentRequired": {
+    "message": "لصق روابط الوكيل أو محتوى الاشتراك."
+  },
+  "nlGroupRequired": {
+    "message": "اختر مجموعة الوجهة."
+  },
+  "nlURLRequired": {
+    "message": "أدخل اشتراك HTTP(S) URL بدون اسم مستخدم أو كلمة مرور."
+  },
+  "nlIntervalInvalid": {
+    "message": "أدخل رقما صحيحا من 5 إلى 43200 دقيقة."
+  },
+  "folderTitle": {
+    "message": "اختر المجلد v2rayN."
+  },
+  "folderHint": {
+    "message": "اختر مجلدًا، ثم قم بتطبيقه باستخدام حفظ إعدادات الاتصال."
+  },
+  "folderPath": {
+    "message": "المسار الكامل للمجلد المحلي"
+  },
+  "folderGo": {
+    "message": "مفتوح"
+  },
+  "folderUp": {
+    "message": "للأعلى"
+  },
+  "folderDrives": {
+    "message": "محركات الأقراص"
+  },
+  "folderCurrent": {
+    "message": "المسار الحالي"
+  },
+  "folderChoose": {
+    "message": "استخدم هذا المجلد"
+  },
+  "folderList": {
+    "message": "المجلدات"
+  },
+  "folderTruncated": {
+    "message": "القائمة محدودة. أدخل المسار الكامل أعلاه لفتح مجلد غير معروض.\nتم العثور على"
+  },
+  "folderReady": {
+    "message": "v2rayN من الملفات. استخدم هذا المجلد للتحقق من صحة التكوين."
+  },
+  "folderInvalid": {
+    "message": "اختر المجلد الذي يحتوي على guiConfigs وguiNConfig.json وguiNDB.db."
+  },
+  "folderSelectDrive": {
+    "message": "اختر محرك أقراص محلي أو أدخل مسار المجلد الكامل."
+  },
+  "folderEmpty": {
+    "message": "لا توجد مجلدات فرعية مرئية."
+  },
+  "folderUnavailable": {
+    "message": "لا يمكن تصفح هذا المجلد. التحقق من مسارها والوصول إليها. إذا كان Companion أكبر سنًا، قم بتحديثه أولاً."
+  },
+  "folderValidating": {
+    "message": "جارٍ التحقق من صحة التكوين v2rayN..."
+  },
+  "folderInvalidConfig": {
+    "message": "التكوين أو قاعدة البيانات v2rayN غير كاملة أو غير صالحة. اختر مجلدًا آخر."
+  },
+  "copyPath": {
+    "message": "مسار النسخ"
+  },
+  "pathCopyHint": {
+    "message": "انسخ المسار الموجود حاليا في هذا الحقل."
+  },
+  "preMode": {
+    "message": "وضع ما قبل الوكيل"
+  },
+  "preNode": {
+    "message": "عقدة ما قبل الوكيل"
+  },
+  "preIntro": {
+    "message": "استخدم سلسلة المجموعة أو قم بتخطيها أو اختر وكيلًا مسبقًا لملف التعريف هذا."
+  },
+  "healthLabel": {
+    "message": "حالة الاتصال الحالية"
+  },
+  "healthOk": {
+    "message": "عادي"
+  },
+  "healthError": {
+    "message": "غير طبيعي"
+  },
+  "healthChecking": {
+    "message": "التدقيق"
+  },
+  "healthUnknown": {
+    "message": "غير مؤكد"
+  },
+  "autoSystemHelp": {
+    "message": "تتطلب قواعد النظام مكوّن Windows ونسخة من إعدادات الوكيل الثابت. أعد التطبيق بعد تغيير الإعدادات. لا يدعم PAC/WPAD؛ يستخدم النظام دون قواعد إعدادات المتصفح الأصلية."
+  },
+  "backgroundUnavailable": {
+    "message": "الخلفية الملحقة غير متاحة."
+  },
+  "backgroundNoResponse": {
+    "message": "الخلفية لم تستجب."
+  },
+  "backupTooLarge": {
+    "message": "حجم النسخة الاحتياطية يتجاوز 5 ميجابايت."
+  },
+  "proxyUsername": {
+    "message": "اسم المستخدم"
+  },
+  "proxyPassword": {
+    "message": "كلمة المرور"
+  },
+  "proxyAuthHelp": {
+    "message": "اختياري. يتصل الوكلاء المعتمدون من خلال Companion. يتم تخزين بيانات الاعتماد في تكوين المتصفح هذا والبرنامج المرافق، ويتم تضمينها في عمليات تصدير الملف الشخصي."
+  },
+  "proxyAuthSocks4": {
+    "message": "SOCKS4 لا يدعم مصادقة اسم المستخدم/كلمة المرور؛ استخدم HTTP(S) أو SOCKS5."
+  },
+  "importExamples": {
+    "message": "أمثلة على التنسيق"
+  },
+  "ipCopying": {
+    "message": "النسخ…"
+  },
+  "netDnsUnavailable": {
+    "message": "تعذر حل عنوان الخادم في الوقت المناسب. تحقق من المضيف أو عنوان IP وحاول مرة أخرى."
+  },
+  "netCurrentTarget": {
+    "message": "نقطة نهاية الوكيل المحددة"
+  },
+  "netCustomTarget": {
+    "message": "خادم مخصص\nعنوان"
+  },
+  "netHost": {
+    "message": "المضيف أو IP"
+  },
+  "netPort": {
+    "message": "TCP منفذ"
+  },
+  "netHostRequired": {
+    "message": "أدخل مضيف الخادم أو عنوان IP."
+  },
+  "netCurrentUnavailable": {
+    "message": "حدد العقدة أو ملف تعريف الوكيل اليدوي، أو أدخل هدفًا مخصصًا."
+  },
+  "netInvalidTarget": {
+    "message": "أدخل مضيف ومنفذ تشخيص صالح."
+  },
+  "netIpv6PingUnavailable": {
+    "message": "IPv6 ICMP غير متوفر؛ استخدم TCPing."
+  },
+  "preNeedsFix": {
+    "message": "اختر وكيلًا مسبقًا صالحًا أو لا يوجد وكيل مسبق قبل الحفظ."
+  },
+  "preConfigure": {
+    "message": "تكوين الوكيل المسبق"
+  },
+  "preFollowInvalid": {
+    "message": "المتابعة v2rayN لا تقبل وكيلًا مسبقًا مخصصًا."
+  },
+  "followChainHelp": {
+    "message": "يستخدم Follow المسار وسلسلة الوكيل النشطة بالفعل في v2rayN."
+  },
+  "netTitle": {
+    "message": "اختبارات الاتصال"
+  },
+  "ipTestDetails": {
+    "message": "تفاصيل الاختبار"
+  },
+  "netTarget": {
+    "message": "بينغ / TCPing الهدف"
+  },
+  "netDownload": {
+    "message": "تحميل الاختبار"
+  },
+  "netPartial": {
+    "message": "عينة جزئية"
+  },
+  "netComplete": {
+    "message": "العينة مكتملة"
+  },
+  "netDirect": {
+    "message": "شبكة النظام"
+  },
+  "netUnreachable": {
+    "message": "لا يوجد رد/فشل"
+  },
+  "netAverage": {
+    "message": "المتوسط"
+  },
+  "predecessor": {
+    "message": "ما قبل الوكالة"
+  },
+  "preInherit": {
+    "message": "استخدم سلسلة المجموعة v2rayN"
+  },
+  "preNone": {
+    "message": "لا يوجد توكيل مسبق"
+  },
+  "preSpecific": {
+    "message": "اختر عقدة"
+  },
+  "preHelp": {
+    "message": "ينطبق على هذا الملف الشخصي. استخدم سلسلة المجموعة v2rayN، بدون وكيل مسبق أو عقدة محددة. اتبع v2rayN يستخدم سلسلته الحالية."
+  },
+  "preSelectRequired": {
+    "message": "اختر عقدة ما قبل الوكيل، أو حدد المجموعة الافتراضية / لا شيء."
+  },
+  "ipPing0Permission": {
+    "message": "السماح لـ Ping0 بالوصول إلى موقع الويب لتحميل التقرير العام."
+  },
+  "ipPublicChallenge": {
+    "message": "الموقع يتطلب التحقق. افتح صفحة Ping0 لإكمالها وعرض النتيجة."
+  },
+  "ipPublicReport": {
+    "message": "Ping0 تقرير عام"
+  },
+  "ipPublicSource": {
+    "message": "المصدر: Ping0 الصفحة العامة"
+  },
+  "ipPublicOriginal": {
+    "message": "Ping0 تقرير"
+  },
+  "ipPublicPartial": {
+    "message": "يتم عرض الحقول المتوفرة في الصفحة العامة فقط بلغتها الأصلية. التصنيفات وتقديرات المستخدم المشترك هي من Ping0."
+  },
+  "setupTitle": {
+    "message": "تواصل Proxy V2Route"
+  },
+  "setupIntro": {
+    "message": "قم بتثبيت المرافق Windows لاستخدام مسارات v2rayN أو العقد المستوردة الخاصة بك."
+  },
+  "setupStepOne": {
+    "message": "قم باستخراج الحزمة المطابقة الكاملة Windows إلى مجلد دائم."
+  },
+  "setupStepTwo": {
+    "message": "افتح V2Route-Setup.exe وانقر على تثبيت."
+  },
+  "setupStepThree": {
+    "message": "ارجع هنا وتأكد من الاتصال. اختر المجلد v2rayN إذا لزم الأمر."
+  },
+  "setupCheck": {
+    "message": "التحقق من الاتصال"
+  },
+  "downloadCompanion": {
+    "message": "دليل التثبيت ↗"
+  },
+  "setupDownloadNote": {
+    "message": "استخدم الحزمة المحلية Windows المطابقة، أو اتبع الدليل لإنشائها من المصدر الحالي."
+  },
+  "chooseFolder": {
+    "message": "اختر المجلد v2rayN…"
+  },
+  "rescanDone": {
+    "message": "تمت إعادة فحص العقد المحلية"
+  },
+  "grouping": {
+    "message": "عقد المجموعة"
+  },
+  "groupByCountry": {
+    "message": "حسب البلد"
+  },
+  "unknownCountry": {
+    "message": "أخرى / غير معروف"
+  },
+  "ungrouped": {
+    "message": "غير مجمع"
+  },
+  "adjustNodeFilters": {
+    "message": "جرب مجموعة أخرى أو مصدر أو بحث أو أظهر العقد المخفية."
+  },
+  "rescanLocal": {
+    "message": "إعادة فحص v2rayN العقد"
+  },
+  "showHidden": {
+    "message": "إظهار العقد المخفية"
+  },
+  "hideNode": {
+    "message": "إخفاء"
+  },
+  "restoreNode": {
+    "message": "إعادة"
+  },
+  "hiddenNode": {
+    "message": "مخفي"
+  },
+  "hideNodeHelp": {
+    "message": "إخفاء فقط من مكتبة عقدة هذا المتصفح. v2rayN ولم تتغير الملفات الشخصية الموجودة."
+  },
+  "ipContextTimeout": {
+    "message": "انتهت مهلة قراءة الملف الشخصي الحالي. حاول ثانية."
+  },
+  "ipStaleResult": {
+    "message": "تم تغيير ملف التعريف الحالي. قد تكون هذه النتيجة قديمة؛ تحقق مرة أخرى."
+  },
+  "ip_tools": {
+    "message": "IP الأدوات"
+  },
+  "ipIntro": {
+    "message": "الخروج الحالي IP والتقرير العام."
+  },
+  "ipCurrentProfile": {
+    "message": "ملف المتصفح الحالي"
+  },
+  "ipRouteCaution": {
+    "message": "قد تستخدم القواعد التلقائية وPAC طرقًا مختلفة لوجهة مختلفة. يصف هذا الاختيار الطلب الخاص به فقط."
+  },
+  "ipDisclosure": {
+    "message": "فحص الخروج تلقائيًا IP · الإبلاغ عن طريق Ping0"
+  },
+  "ipMethod": {
+    "message": "التحقق من العنوان"
+  },
+  "ipDual": {
+    "message": "IPv4 / IPv6"
+  },
+  "ipCheck": {
+    "message": "راجع مرة أخرى"
+  },
+  "ipChecking": {
+    "message": "فحص…"
+  },
+  "ipDualHelp": {
+    "message": "يقوم IPv4 / IPv6 بإرجاع عائلة العناوين المستخدمة لهذا الطلب، وليس كلا العنوانين."
+  },
+  "ipDurationHelp": {
+    "message": "يتضمن وقت الطلب المنقضي HTTP وقت استجابة الشبكة والخدمة. إنه ليس ICMP اختبار ping أو اختبار النطاق الترددي."
+  },
+  "ipCopy": {
+    "message": "نسخة IP"
+  },
+  "ipCopied": {
+    "message": "منقول"
+  },
+  "ipCopyFailed": {
+    "message": "لا يمكن النسخ. حدد العنوان وانسخه يدويًا."
+  },
+  "ipNoResult": {
+    "message": "لم يتم التحقق بعد"
+  },
+  "ipContextUnknown": {
+    "message": "الملف الشخصي غير متاح"
+  },
+  "ipTimeout": {
+    "message": "انتهت مهلة الشيك. حاول مرة أخرى أو استخدم طريقًا آخر."
+  },
+  "ipCancelled": {
+    "message": "تم إلغاء الشيك"
+  },
+  "ipNetwork": {
+    "message": "لا يمكن الوصول إلى ipify. تحقق من الاتصال وحاول مرة أخرى."
+  },
+  "ipHttp": {
+    "message": "خدمة IP لم تقبل الطلب. حاول مرة أخرى لاحقًا."
+  },
+  "ipInvalid": {
+    "message": "قامت الخدمة IP بإرجاع استجابة غير صالحة."
+  },
+  "ipFailure": {
+    "message": "فشل الفحص. حاول ثانية."
+  },
+  "ipStale": {
+    "message": "تم تغيير إعدادات الوكيل أثناء الفحص. تم تجاهل النتيجة القديمة. تحقق مرة أخرى."
+  },
+  "ipQuality": {
+    "message": "الأدوات الخارجية"
+  },
+  "ipQualityPrivacy": {
+    "message": "الأدوات تعمل فقط عند النقر. يتلقى مقدمو الخدمة بيانات الاتصال العادية. ترسل عمليات فحص موقع الويب طلبات خالية من بيانات الاعتماد بعد البدء. إغلاق توقف الاختبارات المحلية. تتم إدارة علامات التبويب الخارجية بواسطة المتصفح."
+  },
+  "ipReport": {
+    "message": "نسخ التقرير المنقح"
+  },
+  "ipReportCopied": {
+    "message": "تم نسخ التقرير المنقح؛ لم يتم تضمين IP أو أسماء الملفات الشخصية."
+  },
+  "popupSelected": {
+    "message": "مختار"
+  },
+  "popupFooter": {
+    "message": "v2rayN وملفات تعريف العقدة"
+  },
+  "subtitle": {
+    "message": "طرق متصفح مستقلة"
+  },
+  "profiles": {
+    "message": "الملفات الشخصية"
+  },
+  "nodes": {
+    "message": "مكتبة العقدة"
+  },
+  "settings": {
+    "message": "الإعدادات"
+  },
+  "connected": {
+    "message": "الملف الشخصي النشط"
+  },
+  "noProfile": {
+    "message": "النظام الافتراضي"
+  },
+  "newProfile": {
+    "message": "ملف تعريف جديد"
+  },
+  "searchProfiles": {
+    "message": "البحث في الملفات الشخصية"
+  },
+  "direct": {
+    "message": "الشبكة المباشرة"
+  },
+  "system": {
+    "message": "وكيل النظام"
+  },
+  "follow": {
+    "message": "متابعة v2rayN"
+  },
+  "manual": {
+    "message": "وكيل يدوي"
+  },
+  "auto": {
+    "message": "التبديل التلقائي"
+  },
+  "pac": {
+    "message": "PAC مخطوطة"
+  },
+  "virtual": {
+    "message": "الملف الشخصي الافتراضي"
+  },
+  "profileIntro": {
+    "message": "اختر مسار المتصفح دون تبديل المسار الرئيسي لـ v2rayN."
+  },
+  "nodesIntro": {
+    "message": "تصفح العقد المحلية v2rayN والروابط المستوردة."
+  },
+  "settingsIntro": {
+    "message": "الاتصال المحلي واللغة والمظهر."
+  },
+  "refresh": {
+    "message": "تحديث"
+  },
+  "create": {
+    "message": "إنشاء الملف الشخصي"
+  },
+  "name": {
+    "message": "اسم الملف الشخصي"
+  },
+  "type": {
+    "message": "نوع الملف الشخصي"
+  },
+  "save": {
+    "message": "حفظ"
+  },
+  "saved": {
+    "message": "محفوظ"
+  },
+  "saving": {
+    "message": "جاري الحفظ..."
+  },
+  "cancel": {
+    "message": "إلغاء"
+  },
+  "close": {
+    "message": "إغلاق"
+  },
+  "apply": {
+    "message": "استخدم هذا الملف الشخصي"
+  },
+  "applied": {
+    "message": "تم تبديل الملف الشخصي"
+  },
+  "active": {
+    "message": "نشط"
+  },
+  "delete": {
+    "message": "حذف"
+  },
+  "remove": {
+    "message": "إزالة"
+  },
+  "rename": {
+    "message": "إعادة التسمية"
+  },
+  "route": {
+    "message": "طريق الوكيل"
+  },
+  "selectRoute": {
+    "message": "حدد الطريق"
+  },
+  "routeMissing": {
+    "message": "الطريق غير متاح — اختر آخر"
+  },
+  "chain": {
+    "message": "سلسلة الاتصال"
+  },
+  "connection": {
+    "message": "اتصال محلي"
+  },
+  "proxy": {
+    "message": "الخادم الوكيل"
+  },
+  "address": {
+    "message": "العنوان"
+  },
+  "port": {
+    "message": "ميناء"
+  },
+  "scheme": {
+    "message": "البروتوكول"
+  },
+  "proxyDns": {
+    "message": "SOCKS5 DNS يتم حله من خلال الوكيل."
+  },
+  "connectedIdle": {
+    "message": "متصل · خامل"
+  },
+  "bypass": {
+    "message": "قائمة التجاوز"
+  },
+  "bypassHelp": {
+    "message": "نطاق أو نطاق بأحرف بدل أو عنوان IP أو IP:منفذ واحد لكل سطر."
+  },
+  "advanced": {
+    "message": "خيارات متقدمة"
+  },
+  "searchRoutes": {
+    "message": "مجموعات البحث أو العقد"
+  },
+  "selectGroup": {
+    "message": "اختر مجموعة"
+  },
+  "empty": {
+    "message": "لا توجد عناصر مطابقة"
+  },
+  "unavailable": {
+    "message": "غير متوفر"
+  },
+  "groupHint": {
+    "message": "أمسك مجموعة بـ 250 ms، ثم اسحب. Alt + ↑ / ↓ يعيد الترتيب أيضًا. يتم حفظ التغييرات تلقائيًا."
+  },
+  "searchSort": {
+    "message": "مسح البحث قبل الفرز."
+  },
+  "dragHint": {
+    "message": "تحرك لأعلى أو لأسفل ثم حرر للحفظ. إلغاء Esc."
+  },
+  "orderSaved": {
+    "message": "تم حفظ ترتيب المجموعة"
+  },
+  "orderCancelled": {
+    "message": "تم إلغاء إعادة الترتيب"
+  },
+  "loading": {
+    "message": "جاري التحميل..."
+  },
+  "reading": {
+    "message": "قراءة العقد المحلية..."
+  },
+  "nativeMissing": {
+    "message": "المكون المحلي غير متصل"
+  },
+  "retry": {
+    "message": "إعادة المحاولة"
+  },
+  "nativeHelp": {
+    "message": "تتطلب مسارات العقدة المرافق Windows. الوكلاء المباشرون والنظام واليدويون متاحون الآن."
+  },
+  "imported": {
+    "message": "مستورد"
+  },
+  "v2rayn": {
+    "message": "v2rayN"
+  },
+  "allSources": {
+    "message": "جميع المصادر"
+  },
+  "importNodes": {
+    "message": "استيراد الوكلاء"
+  },
+  "importTitle": {
+    "message": "استيراد الوكلاء"
+  },
+  "importHelp": {
+    "message": "لصق روابط الوكيل الصادرة JSON أو الاشتراك Base64. SOCKS يدعم بيانات الاعتماد العادية أو Base64. تستخدم العناوين الخالية من المخططات HTTP."
+  },
+  "importPrivacy": {
+    "message": "يتم تمرير تفاصيل الوكيل وبيانات الاعتماد إلى المرافق المحلي Proxy V2Route للتخزين والاتصال بالوكيل الذي تحدده. المطور لا يتلقى هذه المعلومات."
+  },
+  "import": {
+    "message": "ملفات تعريف الاستيراد"
+  },
+  "nodeCount": {
+    "message": "العقد"
+  },
+  "source": {
+    "message": "المصدر"
+  },
+  "protocol": {
+    "message": "البروتوكول"
+  },
+  "useNode": {
+    "message": "إنشاء الملف الشخصي"
+  },
+  "removeNode": {
+    "message": "هل تريد إزالة العقدة المستوردة؟"
+  },
+  "removeNodeHelp": {
+    "message": "يجب إعادة تعيين الملفات الشخصية التي تستخدم هذه العقدة قبل إزالتها."
+  },
+  "deleteProfile": {
+    "message": "هل تريد حذف هذا الملف الشخصي؟"
+  },
+  "deleteProfileHelp": {
+    "message": "يؤدي هذا إلى إزالة ملف تعريف المتصفح هذا فقط. يتم الاحتفاظ بالعقد المستوردة والتكوين v2rayN."
+  },
+  "language": {
+    "message": "اللغة"
+  },
+  "automatic": {
+    "message": "المتصفح الافتراضي"
+  },
+  "theme": {
+    "message": "الظاهر"
+  },
+  "light": {
+    "message": "النور"
+  },
+  "dark": {
+    "message": "الظلام"
+  },
+  "switchToEnglish": {
+    "message": "التبديل إلى اللغة الإنجليزية"
+  },
+  "switchToChinese": {
+    "message": "التبديل إلى اللغة الصينية المبسطة"
+  },
+  "switchToLight": {
+    "message": "التحول إلى المظهر الفاتح"
+  },
+  "switchToDark": {
+    "message": "التحول إلى المظهر الداكن"
+  },
+  "localComponent": {
+    "message": "مكون مصاحب"
+  },
+  "ready": {
+    "message": "متصل"
+  },
+  "stopped": {
+    "message": "لا يعمل"
+  },
+  "discovery": {
+    "message": "v2rayN كشف\nمجلد"
+  },
+  "rootPath": {
+    "message": "v2rayN"
+  },
+  "corePath": {
+    "message": "الوكيل الأساسي قابل للتنفيذ"
+  },
+  "optionalPath": {
+    "message": "اتركه فارغًا للكشف التلقائي\nيتم اكتشاف"
+  },
+  "pathsHelp": {
+    "message": "v2rayN تلقائيًا؛ اختر المجلد الخاص به إذا لزم الأمر. تستخدم العقد المستوردة النواة المضمنة."
+  },
+  "savePaths": {
+    "message": "حفظ إعدادات الاتصال"
+  },
+  "privacy": {
+    "message": "الإعدادات المخزنة محليا"
+  },
+  "privacyText": {
+    "message": "تبقى روابط العقدة وبيانات الاعتماد في الرفيق المحلي. تمر حركة مرور المتصفح عبر الوكيل الذي حددته إلى مواقع الويب المقصودة؛ المطور لا يحصل عليه."
+  },
+  "privacyDetails": {
+    "message": "الخصوصية وتدفق البيانات"
+  },
+  "export": {
+    "message": "ملفات تعريف التصدير"
+  },
+  "about": {
+    "message": "نبذة عن Proxy V2Route"
+  },
+  "aboutText": {
+    "message": "اختر مسار المتصفح دون تبديل المسار الرئيسي لـ v2rayN. تستخدم مسارات العقدة المرافق Windows والعقد الخاصة بك."
+  },
+  "licenses": {
+    "message": "إشعارات مفتوحة المصدر"
+  },
+  "version": {
+    "message": "النسخة"
+  },
+  "fieldRequired": {
+    "message": "أدخل اسم الملف الشخصي."
+  },
+  "profileExists": {
+    "message": "يوجد بالفعل ملف تعريف بهذا الاسم."
+  },
+  "ruleHelp": {
+    "message": "فصل المجالات في صف واحد بفواصل. أول صف مطابق يفوز. احتفظ بالمسار الافتراضي متاحًا."
+  },
+  "rules": {
+    "message": "قواعد التوجيه"
+  },
+  "pattern": {
+    "message": "نمط المضيف"
+  },
+  "target": {
+    "message": "القاعدة المستهدفة"
+  },
+  "addRule": {
+    "message": "إضافة القاعدة"
+  },
+  "defaultRoute": {
+    "message": "الملف الشخصي الافتراضي"
+  },
+  "pacHelp": {
+    "message": "الصق المصدر الموثوق PAC الذي يحتوي على FindProxyForURL. يقرر هذا البرنامج النصي كيفية توجيه طلبات موقع الويب."
+  },
+  "pacUrl": {
+    "message": "PAC URL"
+  },
+  "pacScript": {
+    "message": "PAC مخطوطة"
+  },
+  "noSelection": {
+    "message": "حدد ملفًا شخصيًا أو أنشئ واحدًا."
+  },
+  "details": {
+    "message": "التفاصيل"
+  },
+  "noNodes": {
+    "message": "لا توجد عقد بعد"
+  },
+  "noNodesHelp": {
+    "message": "قم بتوصيل v2rayN أو قم باستيراد روابط الوكيل، JSON أو قم بالاشتراك للبدء."
+  },
+  "openSettings": {
+    "message": "افتح الإعدادات"
+  },
+  "proxySettings": {
+    "message": "إعدادات الوكيل"
+  },
+  "switching": {
+    "message": "التبديل…"
+  },
+  "updatedElsewhere": {
+    "message": "تم تغيير ملف التعريف هذا في نافذة أخرى. أعد فتحه قبل الحفظ."
+  },
+  "choose": {
+    "message": "اختر"
+  },
+  "popupIntro": {
+    "message": "الاتصال:"
+  },
+  "invalidPort": {
+    "message": "أدخل المنفذ من 1 إلى 65535."
+  },
+  "externalControl": {
+    "message": "ملحق أو سياسة أخرى تتحكم في وكيل المتصفح."
+  },
+  "noNativeRoute": {
+    "message": "قم بتوصيل المكون المحلي قبل إنشاء ملف تعريف العقدة."
+  },
+  "reload": {
+    "message": "إعادة التحميل"
+  },
+  "rulesError": {
+    "message": "تحتاج كل قاعدة إلى نمط وهدف."
+  },
+  "backupDone": {
+    "message": "تم تصدير ملفات تعريف المتصفح"
+  },
+  "managed": {
+    "message": "العقدة المدارة"
+  },
+  "netRegion": {
+    "message": "المنطقة المستهدفة"
+  },
+  "netNodeArea": {
+    "message": "عقدة الوكيل"
+  },
+  "netChina": {
+    "message": "البر الرئيسى للصين"
+  },
+  "netGlobal": {
+    "message": "العالمية"
+  },
+  "netAli": {
+    "message": "علي دي ان اس"
+  },
+  "netTencent": {
+    "message": "DNSPod"
+  },
+  "netStartHelp": {
+    "message": "اختر هدفًا، ثم ابدأ الاختبار المباشر."
+  },
+  "netConsole": {
+    "message": "التشخيص المباشر"
+  },
+  "netStop": {
+    "message": "الوقف"
+  },
+  "netRunning": {
+    "message": "الجري"
+  },
+  "netStopped": {
+    "message": "موقوف"
+  },
+  "netSent": {
+    "message": "مرسل"
+  },
+  "netLoss": {
+    "message": "الخسارة"
+  },
+  "netAverageShort": {
+    "message": "متوسط"
+  },
+  "netLogClear": {
+    "message": "واضح"
+  },
+  "netFinishing": {
+    "message": "المسبار السابق انتهى…"
+  },
+  "netRound": {
+    "message": "الجولة"
+  },
+  "netDestination": {
+    "message": "الوجهة"
+  },
+  "netHop": {
+    "message": "هوب\nالعنوان"
+  },
+  "netAddress": {
+    "message": "IP"
+  },
+  "netLast": {
+    "message": "الاخير"
+  },
+  "netConsoleHelp": {
+    "message": "Ping / TCPing / MTR يستخدم شبكة النظام، وليس سلسلة الوكيل. الردود المفقودة ICMP لا تثبت فقدان حركة المرور. يستخدم التنزيل مسار المتصفح والحد الأقصى للحجم المحدد. تتوقف الاختبارات عند مغادرة هذه الصفحة أو إخفائها."
+  },
+  "netDirectShort": {
+    "message": "شبكة النظام"
+  },
+  "netIcmpShort": {
+    "message": "لا يوجد رد ICMP."
+  },
+  "netProbeError": {
+    "message": "خطأ في المسبار المحلي"
+  },
+  "netNoDestination": {
+    "message": "لم يتم الوصول إلى الوجهة"
+  },
+  "deleteActive": {
+    "message": "التبديل إلى النظام والحذف"
+  },
+  "deleteActiveHelp": {
+    "message": "هذا الملف الشخصي نشط. يؤدي حذفه إلى تحويل المتصفح إلى وكيل النظام."
+  },
+  "netDownloadSize": {
+    "message": "حجم التحميل"
+  },
+  "netReceived": {
+    "message": "تم الاستلام"
+  },
+  "netBest": {
+    "message": "الأفضل"
+  },
+  "netWorst": {
+    "message": "الأسوأ"
+  },
+  "netStdDev": {
+    "message": "التطوير القياسي"
+  },
+  "netLocation": {
+    "message": "الموقع"
+  },
+  "toolWall": {
+    "message": "فحص حجب النطاق"
+  },
+  "toolSites": {
+    "message": "المواقع المشهورة"
+  },
+  "toolGlobal": {
+    "message": "التشخيص الشامل"
+  },
+  "toolFast": {
+    "message": "Netflix السرعة"
+  },
+  "toolSpeed": {
+    "message": "اختبار السرعة"
+  },
+  "toolStart": {
+    "message": "ابدأ"
+  },
+  "toolReady": {
+    "message": "جاهز"
+  },
+  "toolResponded": {
+    "message": "مجيب"
+  },
+  "toolNoResponse": {
+    "message": "غير مؤكد"
+  },
+  "toolCacheUnsupported": {
+    "message": "لا يمكن لهذا المتصفح مسح ذاكرة التخزين المؤقت حسب الموقع؛ تم إعادة تحميل الصفحة."
+  },
+  "toolCacheFailed": {
+    "message": "لم تنتهي عملية تنظيف ذاكرة التخزين المؤقت. أغلق ثم أعد المحاولة."
+  },
+  "toolClose": {
+    "message": "إغلاق"
+  },
+  "toolReload": {
+    "message": "إعادة التحميل"
+  },
+  "toolLoading": {
+    "message": "جاري التحميل..."
+  },
+  "toolFrameError": {
+    "message": "تعذر التحميل. حاول إعادة التحميل."
+  },
+  "toolSiteHelp": {
+    "message": "إمكانية الوصول إلى المتصفح فقط. هذا لا يتحقق من الحساب أو الوصول الإقليمي."
+  },
+  "toolFallback": {
+    "message": "اختبار سرعة النسخ الاحتياطي"
+  },
+  "toolFullscreen": {
+    "message": "ملء الشاشة"
+  },
+  "toolRestore": {
+    "message": "الخروج من وضع ملء الشاشة"
+  },
+  "ipReadFailed": {
+    "message": "فشل القراءة. 👉"
+  },
+  "ipViewSource": {
+    "message": "عرض موقع المصدر"
+  },
+  "toolDownloadError": {
+    "message": "تعذر الوصول إلى خادم التنزيل. حاول ثانية."
+  },
+  "toolAccess": {
+    "message": "تمكين الوصول إلى الموقع"
+  },
+  "toolPermission": {
+    "message": "السماح بالوصول إلى هذا الموقع لتوافق الجلسة المضمنة."
+  },
+  "toolAsia": {
+    "message": "آسيا"
+  },
+  "toolEurope": {
+    "message": "أوروبا"
+  },
+  "toolAmerica": {
+    "message": "أمريكا الشمالية"
+  },
+  "toolGlobalHelp": {
+    "message": "تعبئة مخرج المتصفح مسبقًا IP. اختر البر الرئيسي للصين أو منطقة أخرى لمقارنة المسارات؛ البداية ترسل الهدف المعروض إلى ما يصل إلى ثلاثة مجسات Globalping."
+  },
+  "toolServiceError": {
+    "message": "خدمة الاختبار غير متوفرة. حاول ثانية."
+  },
+  "popupOrderHelp": {
+    "message": "اضغط باستمرار واسحب لإعادة الترتيب. يقوم Alt + مفاتيح الأسهم أيضًا بنقل ملف التعريف هذا."
+  },
+  "popupOrderSaved": {
+    "message": "تم حفظ الطلب"
+  },
+  "toolGroupIP": {
+    "message": "IP إختبارات"
+  },
+  "toolGroupWeb": {
+    "message": "اختبارات الموقع"
+  },
+  "toolGroupSpeed": {
+    "message": "السرعة"
+  },
+  "toolCurrentIP": {
+    "message": "الخروج الحالي IP"
+  },
+  "toolCurrentIPLoading": {
+    "message": "تحميل مخرج التيار IP…"
+  },
+  "toolCurrentIPFailed": {
+    "message": "لا يمكن قراءة التيار IP. أدخل هدفا."
+  },
+  "speedMode": {
+    "message": "وضع الاختبار"
+  },
+  "speedBoth": {
+    "message": "تحميل + تحميل"
+  },
+  "speedDownload": {
+    "message": "تحميل"
+  },
+  "speedUpload": {
+    "message": "رفع"
+  },
+  "speedLatency": {
+    "message": "HTTP الكمون"
+  },
+  "speedBudget": {
+    "message": "{n} MiB لكل مرحلة · {total} MiB الإجمالي، بالإضافة إلى عينات الكمون الصغيرة."
+  },
+  "siteCategory": {
+    "message": "فئة المواقع الإلكترونية"
+  },
+  "siteAll": {
+    "message": "جميع المواقع"
+  },
+  "siteAI": {
+    "message": "منظمة العفو الدولية"
+  },
+  "siteDevelopment": {
+    "message": "التنمية"
+  },
+  "siteVideo": {
+    "message": "فيديو/موسيقى"
+  },
+  "siteSocial": {
+    "message": "اجتماعي"
+  },
+  "siteDomestic": {
+    "message": "خدمات البر الرئيسى"
+  },
+  "siteServices": {
+    "message": "الخدمات المشتركة"
+  },
+  "globalMethod": {
+    "message": "نوع القياس"
+  },
+  "localPort": {
+    "message": "المنفذ المحلي:"
+  },
+  "chainChooseNode": {
+    "message": "اختر عقدة الوكيل"
+  },
+  "chainTitle": {
+    "message": "سلسلة الوكالة"
+  },
+  "chainSelectExit": {
+    "message": "اختر عقدة خروج محددة أدناه لحفظ هذه السلسلة المخصصة أو اختبارها. تتم إدارة متابعة v2rayN بواسطة v2rayN."
+  },
+  "chainSelectExitShort": {
+    "message": "حدد عقدة الخروج"
+  },
+  "chainAdd": {
+    "message": "+ إضافة طبقة الوكيل"
+  },
+  "chainTest": {
+    "message": "سلسلة الاختبار"
+  },
+  "chainMode": {
+    "message": "وضع السلسلة"
+  },
+  "chainBase": {
+    "message": "الوكيل الأساسي"
+  },
+  "chainExit": {
+    "message": "خروج الوكيل"
+  },
+  "chainEgress": {
+    "message": "مخرج السلسلة"
+  },
+  "chainExitBadge": {
+    "message": "خروج IP"
+  },
+  "chainEntry": {
+    "message": "دخول السلسلة"
+  },
+  "chainTransit": {
+    "message": "عقدة الجسر"
+  },
+  "chainUntested": {
+    "message": "لم يتم اختباره"
+  },
+  "chainMissing": {
+    "message": "عقدة غير متاحة"
+  },
+  "chainUnresolved": {
+    "message": "لا يمكن حل السلسلة الموروثة. قم بإصلاح الإعدادات السابقة أو اختر سلسلة مخصصة."
+  },
+  "chainUpgrade": {
+    "message": "قم بتحديث الرفيق المحلي لتمكين السلاسل المطلوبة."
+  },
+  "chainBusy": {
+    "message": "يتم الآن إجراء اختبار سلسلة آخر"
+  },
+  "chainOK": {
+    "message": "يمكن الوصول إليه"
+  },
+  "chainFailed": {
+    "message": "فشل في القفز في هذا الاختبار"
+  },
+  "chainBlocked": {
+    "message": "لم يتم اختباره · فشلت القفزة السابقة"
+  },
+  "chainFailureHelp": {
+    "message": "لم تنقض هذه القفزة أو الطريق إليها. لم يتم اختبار القفزات في وقت لاحق."
+  },
+  "chainAllOK": {
+    "message": "تم الرد على جميع المسارات التراكمية"
+  },
+  "chainStopping": {
+    "message": "التوقف بعد المسبار المحدود الحالي…"
+  },
+  "globalWorld": {
+    "message": "عالميًا"
+  },
+  "globalUnavailable": {
+    "message": "الهدف أو المنطقة غير متاحة. تحقق من الهدف أو اختر منطقة أخرى."
+  },
+  "globalRateLimited": {
+    "message": "تم الوصول إلى حد معدل الخدمة. حاول مرة أخرى لاحقًا."
+  },
+  "globalNoResults": {
+    "message": "لم تقم الخدمة بإرجاع نتائج التحقيق. حاول منطقة أخرى."
+  },
+  "globalProbeFailed": {
+    "message": "فشل المسبار"
+  },
+  "globalProbeOffline": {
+    "message": "التحقيق حاليا"
+  },
+  "globalIcmpCaution": {
+    "message": "الردود المفقودة ICMP وحدها لا تثبت الحجب. قارن بين مسارات البر الرئيسي والخارجي وأنواع الاختبارات الأخرى."
+  },
+  "speedRealtime": {
+    "message": "السرعة الحية"
+  },
+  "speedAverage": {
+    "message": "السرعة المتوسطة"
+  },
+  "ipToolsBrief": {
+    "message": "نتائج الطرف الثالث هي للرجوع إليها."
+  },
+  "ipReportBrief": {
+    "message": "تختلف النتائج حسب الخروج IP وهي للرجوع إليها."
+  },
+  "toolPingPe": {
+    "message": "IP شيك مانع"
+  },
+  "toolTargetIP": {
+    "message": "الهدف IP"
+  },
+  "toolOpenPingPe": {
+    "message": "فتح الاختبار الرسمي"
+  },
+  "toolInvalidIP": {
+    "message": "أدخل عنوان IPv4 أو IPv6 صالحًا."
+  },
+  "toolInvalidPort": {
+    "message": "أدخل منفذ TCP من 1 إلى 65535."
+  },
+  "toolExternalFailed": {
+    "message": "تعذر فتح الموقع. حاول ثانية."
+  },
+  "ipBrowserReading": {
+    "message": "قراءة Ping0 من خلال المتصفح…"
+  },
+  "ipVerifyBrowser": {
+    "message": "فتح صفحة التحقق"
+  },
+  "policyCenter": {
+    "message": "الخصوصية والإعلان والأسئلة الشائعة"
+  },
+  "policyCenterIntro": {
+    "message": "معالجة البيانات المحلية وحدود الاختبار والإجابات الشائعة."
+  },
+  "policyPrivacyTitle": {
+    "message": "سياسة الخصوصية"
+  },
+  "policyPrivacySummary": {
+    "message": "تبقى الملفات الشخصية وبيانات الاعتماد على هذا الجهاز. تتصل عمليات فحص وتشخيص النوافذ المنبثقة بمقدمي الخدمات المذكورين. لا إعلانات أو التحليلات السلوكية."
+  },
+  "policyDeclarationTitle": {
+    "message": "بيان الاستخدام والقياس"
+  },
+  "policyDeclarationSummary": {
+    "message": "هذا الامتداد هو مدير توجيه محلي، وليس وكيلًا أو مزود VPN. القياسات هي عينات مرجعية تتأثر بشروط الشبكة والوكيل وموفر الخدمة."
+  },
+  "policyFaqTitle": {
+    "message": "الأسئلة الشائعة"
+  },
+  "policyFaqSummary": {
+    "message": "المرافق Windows مطلوب للعقد المحلية وMTR. يمكن أن يختلف زمن الوصول بين المتصفح والنظام والمسابير العامة. أوقف الاختبار أو امسح البيانات المحلية من الإعدادات."
+  },
+  "policyDetailsLink": {
+    "message": "إقرأ التفاصيل كاملة ↗"
+  },
+  "thirdPartyNotice": {
+    "message": "إشعارات مفتوحة المصدر ↗"
+  },
+  "columnResizeHelp": {
+    "message": "اسحب لتغيير الحجم؛ انقر نقرًا مزدوجًا لإعادة التعيين؛ استخدم مفاتيح الأسهم لضبط"
+  },
+  "columnResize": {
+    "message": "تغيير حجم العمود"
+  },
+  "typeDescription_node": {
+    "message": "الاتصال عبر عقدة الوكيل"
+  },
+  "typeDescription_manual": {
+    "message": "أدخل إعدادات الوكيل يدويًا"
+  },
+  "typeDescription_auto": {
+    "message": "حدد العقدة باستخدام القواعد"
+  },
+  "typeDescription_pac": {
+    "message": "توجيه حركة المرور باستخدام قواعد PAC."
+  },
+  "appDescription": {
+    "message": "إدارة مسارات وكيل المتصفح المستقل والعقد وقواعد المجال وعمليات التحقق من الاتصال. تتطلب مسارات العقدة المرافق Windows."
+  },
+  "core_title": {
+    "message": "نواة الوكيل"
+  },
+  "core_checking": {
+    "message": "فحص المكون المحلي…"
+  },
+  "core_ready": {
+    "message": "Xray جاهز"
+  },
+  "core_missing": {
+    "message": "جوهر الوكيل مفقود"
+  },
+  "core_external": {
+    "message": "النواة المخصصة: لم يتم التحقق منها"
+  },
+  "core_corrupt": {
+    "message": "Xray عدم تطابق المجموع الاختباري - يلزم الإصلاح"
+  },
+  "core_unreadable": {
+    "message": "لا يمكن فحص الملف الأساسي"
+  },
+  "core_intro": {
+    "message": "تتضمن الحزمة الكاملة Windows Xray. v2rayN اختياري."
+  },
+  "core_verify": {
+    "message": "تحقق مرة أخرى"
+  },
+  "core_install": {
+    "message": "تثبيت/إصلاح النواة"
+  },
+  "core_installing": {
+    "message": "جاري التنزيل والتحقق..."
+  },
+  "core_done": {
+    "message": "تم التحقق من النواة وجاهزة"
+  },
+  "core_help": {
+    "message": "يستخدم الإصلاح الإصدار الرسمي المثبت Xray ويتحقق من المجموع الاختباري الخاص به. تظل الاتصالات الموجودة قيد التشغيل."
+  },
+  "core_absent": {
+    "message": "قم بتثبيت المكون المحلي مرة واحدة، ثم ارجع هنا للتحقق من النواة."
+  },
+  "core_download": {
+    "message": "دليل التثبيت"
+  },
+  "core_absentHelp": {
+    "message": "استخدم الحزمة Windows المطابقة أو اتبع الدليل لإنشائها من المصدر، ثم قم بتشغيل الإعداد."
+  },
+  "core_failed": {
+    "message": "فشلت العملية الأساسية. حاول مرة أخرى أو استخدم الحزمة Windows الكاملة."
+  },
+  "core_version": {
+    "message": "النسخة"
+  },
+  "error_ACTIVE_PROFILE_DELETE": {
+    "message": "انتقل إلى ملف تعريف آخر قبل الحذف"
+  },
+  "error_BACKUP_BINDING_TYPE": {
+    "message": "يمكن ربط المسارات بملفات تعريف الوكيل فقط"
+  },
+  "error_BACKUP_FORMAT3_REQUIRED": {
+    "message": "تتطلب قواعد العقد نسخة احتياطية محمولة بالتنسيق 3"
+  },
+  "error_BACKUP_INDEPENDENT_PATH_REQUIRED": {
+    "message": "يجب أن تتضمن النسخة الاحتياطية مسار عقدة مستقلًا"
+  },
+  "error_BACKUP_INTERNAL_BINDINGS": {
+    "message": "تتضمن النسخة الاحتياطية ارتباطات داخلية"
+  },
+  "error_BACKUP_MESSAGE_LIMIT": {
+    "message": "تتجاوز نسخة العقد الاحتياطية حد رسائل المكوّن المرافق"
+  },
+  "error_BACKUP_NODES_INCOMPLETE": {
+    "message": "النسخة الاحتياطية للعقد غير مكتملة"
+  },
+  "error_BACKUP_NODE_MISSING": {
+    "message": "تفتقد النسخة الاحتياطية عقدة مطلوبة"
+  },
+  "error_BACKUP_NODE_PATHS_LIMIT": {
+    "message": "تدعم النسخة الاحتياطية {limit} مسار عقدة كحد أقصى"
+  },
+  "error_BACKUP_PATH_INCOMPLETE": {
+    "message": "مسار العقدة في النسخة الاحتياطية غير مكتمل"
+  },
+  "error_BACKUP_PROFILES_LIMIT": {
+    "message": "تدعم النسخة الاحتياطية {limit} ملف تعريف كحد أقصى"
+  },
+  "error_BACKUP_PROXY_CONFLICT": {
+    "message": "تحتوي النسخة الاحتياطية على إعدادات وكيل متعارضة"
+  },
+  "error_BACKUP_SIZE_LIMIT": {
+    "message": "تتجاوز النسخة الاحتياطية {limit} ميغابايت"
+  },
+  "error_BACKUP_TRANSFER_UNAVAILABLE": {
+    "message": "حدّث المكوّن المرافق أو أصلحه لنقل النسخ الاحتياطية للعقد."
+  },
+  "error_BACKUP_UNUSED_NODES": {
+    "message": "تتضمن النسخة الاحتياطية عقدًا غير مستخدمة في أي مرجع"
+  },
+  "error_BODY_TOO_LARGE": {
+    "message": "تتجاوز استجابة الاشتراك الحجم المسموح به."
+  },
+  "error_BROWSER_API_FAILED": {
+    "message": "فشلت عملية المتصفح. راجع التفاصيل التقنية."
+  },
+  "error_BROWSER_PROXY_RESTORE_FAILED": {
+    "message": "فشلت العملية وتعذرت استعادة وكيل المتصفح السابق"
+  },
+  "error_BROWSER_SCHEDULING_UNAVAILABLE": {
+    "message": "جدولة المتصفح غير متاحة."
+  },
+  "error_BUSY": {
+    "message": "هناك عملية أخرى قيد التنفيذ. أعد المحاولة بعد قليل."
+  },
+  "error_CHAIN_PROBE_FAILED": {
+    "message": "فشل فحص السلسلة"
+  },
+  "error_COMPANION_BULK_RELEASE_REQUIRED": {
+    "message": "رقِّ المكوّن المحلي المرافق لإدارة قواعد متعددة للعقد بأمان"
+  },
+  "error_COMPANION_CHAINS_REQUIRED": {
+    "message": "رقِّ المكوّن المحلي المرافق لتفعيل السلاسل المرتبة"
+  },
+  "error_COMPANION_MESSAGE_LIMIT": {
+    "message": "تتجاوز الإعدادات حد رسائل المكوّن المرافق"
+  },
+  "error_COMPANION_OPERATION_FAILED": {
+    "message": "فشلت عملية المكوّن المحلي المرافق. راجع التفاصيل التقنية."
+  },
+  "error_COMPANION_UNAVAILABLE": {
+    "message": "ثبّت المكوّن المرافق لـ V2Route أو أصلحه"
+  },
+  "error_CONNECTION_CLOSED": {
+    "message": "أُغلق الاتصال قبل انتهاء الاختبار."
+  },
+  "error_CORE_INSTALL_FAILED": {
+    "message": "فشل تثبيت النواة. راجع التفاصيل التقنية."
+  },
+  "error_CORE_OWNERSHIP_FAILED": {
+    "message": "تعذر التحكم بأمان في نواة الاختبار المعزولة. أُوقف الاختبار."
+  },
+  "error_CORE_START_FAILED": {
+    "message": "تعذر تشغيل نواة الاختبار المعزولة. تحقق من تثبيت المكوّن المرافق والنواة."
+  },
+  "error_CORE_START_TIMEOUT": {
+    "message": "لم تصبح نواة الاختبار المعزولة جاهزة في الوقت المحدد."
+  },
+  "error_CORE_STATUS_UNAVAILABLE": {
+    "message": "حالة النواة غير متاحة. راجع التفاصيل التقنية."
+  },
+  "error_CORE_VALIDATION_FAILED": {
+    "message": "تعذر على Xray التحقق من العقد المستوردة. راجع إعداداتها وأعد المحاولة."
+  },
+  "error_DETACH_PORT_CONFLICT": {
+    "message": "سيُحرَّر المنفذ المُدار. أدخل وكيلًا يدويًا مختلفًا"
+  },
+  "error_DETACH_PROXY_REQUIRED": {
+    "message": "أدخل الوكيل اليدوي البديل قبل فك الارتباط"
+  },
+  "error_DNS_BUSY": {
+    "message": "البحث عبر DNS مشغول. أعد المحاولة بعد قليل."
+  },
+  "error_DNS_FAILED": {
+    "message": "فشل البحث عبر DNS. تحقق من العنوان واتصال الشبكة."
+  },
+  "error_ENCODING_UNSUPPORTED": {
+    "message": "يستخدم الاشتراك ترميز محتوى غير مدعوم."
+  },
+  "error_FIREFOX_PRIVATE_ACCESS_REQUIRED": {
+    "message": "اسمح لـ V2Route بالعمل في النوافذ الخاصة من تفاصيل الامتداد قبل تغيير إعدادات الوكيل"
+  },
+  "error_FOLDER_UNAVAILABLE": {
+    "message": "المجلد غير متاح؛ تحقق من المسار والصلاحيات وإصدار المكوّن المرافق"
+  },
+  "error_GROUP_LIMIT": {
+    "message": "بلغ عدد المجموعات الحد الأقصى. أزل مجموعة غير مستخدمة وأعد المحاولة."
+  },
+  "error_GROUP_NOT_EDITABLE": {
+    "message": "لا يمكن تعديل مجموعة المصدر هذه هنا."
+  },
+  "error_GROUP_NOT_FOUND": {
+    "message": "لم تعد المجموعة المحددة موجودة. اختر مجموعة أخرى."
+  },
+  "error_HTTP_ENCODING": {
+    "message": "أعاد خادم الاختبار ترميزًا غير مدعوم."
+  },
+  "error_HTTP_LENGTH": {
+    "message": "لم يطابق حجم استجابة الاختبار الحجم المطلوب."
+  },
+  "error_HTTP_RESPONSE_TOO_LARGE": {
+    "message": "تجاوزت استجابة الاختبار الحجم المسموح به."
+  },
+  "error_HTTP_STATUS": {
+    "message": "أعاد خادم الاختبار حالة HTTP غير ناجحة."
+  },
+  "error_IMPORTED_PROXY_MISSING": {
+    "message": "لم يُرجع المكوّن المرافق الوكيل المستورد"
+  },
+  "error_IMPORTED_RULE_PATH_CONFLICT": {
+    "message": "تنتج عن العقد المستوردة مسارات قواعد متعارضة"
+  },
+  "error_IMPORT_CLEANUP_FAILED": {
+    "message": "فشل الاستيراد؛ تعذر تحرير بعض العقد أو المنافذ المؤقتة. احتُفظ بملفات التعريف الحالية"
+  },
+  "error_IMPORT_PROFILE_NAME_CONFLICT": {
+    "message": "اسم ملف التعريف مكرر أو غير صالح"
+  },
+  "error_INCOMPLETE_RESPONSE": {
+    "message": "استجابة الاشتراك غير مكتملة. أعد المحاولة."
+  },
+  "error_INVALID_BACKUP": {
+    "message": "نسخة V2Route الاحتياطية غير صالحة"
+  },
+  "error_INVALID_BACKUP_NODE": {
+    "message": "عقدة النسخة الاحتياطية غير صالحة أو مكررة"
+  },
+  "error_INVALID_BACKUP_NODES": {
+    "message": "عقد النسخة الاحتياطية غير صالحة"
+  },
+  "error_INVALID_BACKUP_PATH": {
+    "message": "مسار النسخة الاحتياطية غير صالح"
+  },
+  "error_INVALID_BYPASS_ENTRY": {
+    "message": "إدخال التجاوز غير صالح"
+  },
+  "error_INVALID_BYPASS_LIST": {
+    "message": "قائمة التجاوز غير صالحة"
+  },
+  "error_INVALID_CHAIN": {
+    "message": "السلسلة المرتبة غير صالحة"
+  },
+  "error_INVALID_CHAIN_PROBE": {
+    "message": "فحص السلسلة غير صالح"
+  },
+  "error_INVALID_COMPANION_RESPONSE": {
+    "message": "أعاد المكوّن المحلي المرافق استجابة غير صالحة. حدّثه أو أصلحه."
+  },
+  "error_INVALID_CONTENT": {
+    "message": "لا تتضمن استجابة الاشتراك محتوى صالحًا."
+  },
+  "error_INVALID_DOMAIN_PATTERNS": {
+    "message": "أدخل أنماط النطاقات مفصولة بفواصل؛ ضع كل عنوان URL في سطر مستقل"
+  },
+  "error_INVALID_ENCODING": {
+    "message": "استجابة الاشتراك ليست نصًا صالحًا بترميز UTF-8."
+  },
+  "error_INVALID_FOLDER_REQUEST": {
+    "message": "طلب المجلد غير صالح"
+  },
+  "error_INVALID_GROUP_ACTION": {
+    "message": "إجراء المجموعة هذا غير مدعوم."
+  },
+  "error_INVALID_HOP_INDEX": {
+    "message": "فهرس القفزة غير صالح"
+  },
+  "error_INVALID_LEGACY_PREDECESSOR": {
+    "message": "الوكيل السابق القديم غير صالح"
+  },
+  "error_INVALID_LIBRARY_COMMAND": {
+    "message": "أمر مكتبة العقد هذا غير مدعوم."
+  },
+  "error_INVALID_LIBRARY_REQUEST": {
+    "message": "طلب المكتبة غير صالح"
+  },
+  "error_INVALID_NAME": {
+    "message": "أدخل اسمًا من 1–128 محرفًا مرئيًا دون محارف تحكم."
+  },
+  "error_INVALID_NETWORK_TEST": {
+    "message": "اختبار الشبكة غير صالح"
+  },
+  "error_INVALID_NODE_IMPORT_RESPONSE": {
+    "message": "استجابة استيراد العقد غير صالحة"
+  },
+  "error_INVALID_PREDECESSOR": {
+    "message": "الوكيل السابق لهذا المسار غير صالح"
+  },
+  "error_INVALID_PROFILE_NAME": {
+    "message": "اسم ملف التعريف غير صالح"
+  },
+  "error_INVALID_PROFILE_REFERENCE": {
+    "message": "مرجع ملف التعريف غير صالح"
+  },
+  "error_INVALID_PROXY_AUTH": {
+    "message": "مصادقة الوكيل غير صالحة"
+  },
+  "error_INVALID_PROXY_CREDENTIALS": {
+    "message": "بيانات اعتماد الوكيل غير صالحة"
+  },
+  "error_INVALID_PROXY_ENDPOINT": {
+    "message": "أدخل عنوان مضيف ومنفذًا صالحين للوكيل"
+  },
+  "error_INVALID_PROXY_HOST": {
+    "message": "أدخل اسم DNS أو عنوان IP دون منفذ أو عنوان URL أو مسار أو استعلام"
+  },
+  "error_INVALID_ROUTE": {
+    "message": "المسار غير صالح"
+  },
+  "error_INVALID_ROUTE_SETTINGS": {
+    "message": "إعدادات المسار غير صالحة"
+  },
+  "error_INVALID_RULES": {
+    "message": "القواعد غير صالحة"
+  },
+  "error_INVALID_RULE_TARGET": {
+    "message": "اختر عقدة أو ملف تعريف صالحًا واحدًا لكل قاعدة"
+  },
+  "error_INVALID_SUBSCRIPTION": {
+    "message": "الاشتراك غير صالح"
+  },
+  "error_INVALID_SUBSCRIPTION_REQUEST": {
+    "message": "طلب الاشتراك غير صالح"
+  },
+  "error_INVALID_SUBSCRIPTION_SETTINGS": {
+    "message": "إعدادات الاشتراك غير صالحة. تحقق من فترة التحديث وسياسة الاتصال."
+  },
+  "error_INVALID_SYSTEM_PROXY_RESPONSE": {
+    "message": "استجابة وكيل النظام غير صالحة؛ حدّث المكوّن المرافق أو أصلحه"
+  },
+  "error_INVALID_TRANSPORT": {
+    "message": "إعدادات اتصال الاشتراك غير صالحة."
+  },
+  "error_INVALID_URL": {
+    "message": "أدخل عنوان اشتراك HTTP(S) صالحًا دون اسم مستخدم أو كلمة مرور."
+  },
+  "error_LIBRARY_CHANGED": {
+    "message": "تغيرت مكتبة العقد في نافذة أخرى. حدّثها وأعد المحاولة."
+  },
+  "error_MANUAL_CHAIN_UNSUPPORTED": {
+    "message": "لا تقبل الوكلاء اليدوية سلسلة عقد"
+  },
+  "error_MANUAL_PROXY_CLEANUP_FAILED": {
+    "message": "فشل الحفظ؛ لا يزال وكيل مستورد مؤقت في مكتبة العقد"
+  },
+  "error_NATIVE_BINDING_ID": {
+    "message": "معرّف ارتباط المسار غير صالح."
+  },
+  "error_NATIVE_BINDING_UNKNOWN": {
+    "message": "ارتباط المسار غير موجود."
+  },
+  "error_NATIVE_BUTTON_NAME": {
+    "message": "يجب أن يتضمن اسم الزر 1–128 محرفًا مرئيًا."
+  },
+  "error_NATIVE_CATALOG_UNREADABLE": {
+    "message": "تعذرت قراءة إعدادات v2rayN."
+  },
+  "error_NATIVE_CORE_MISSING": {
+    "message": "Xray غير متاح. ثبّت حزمة المكوّن المرافق."
+  },
+  "error_NATIVE_GROUP_ID_COLLISION": {
+    "message": "هناك تعارض في معرّفات المجموعات."
+  },
+  "error_NATIVE_GROUP_ORDER": {
+    "message": "ترتيب المجموعات غير صالح."
+  },
+  "error_NATIVE_NODE_ID_COLLISION": {
+    "message": "هناك تعارض في معرّفات العقد."
+  },
+  "error_NATIVE_PREDECESSOR_AMBIGUOUS": {
+    "message": "اسم الوكيل السابق مفقود أو مكرر. اختر عقدة سابقة محددة."
+  },
+  "error_NATIVE_PREDECESSOR_CYCLE": {
+    "message": "تحتوي سلسلة الوكلاء السابقين على حلقة أو تتجاوز ست عقد."
+  },
+  "error_NATIVE_PREDECESSOR_INVALID": {
+    "message": "اختر وكيلًا سابقًا صالحًا."
+  },
+  "error_NATIVE_PREDECESSOR_MISSING": {
+    "message": "لم يعد الوكيل السابق المحدد موجودًا. اختر عقدة أخرى."
+  },
+  "error_NATIVE_PREDECESSOR_SETTINGS": {
+    "message": "إعدادات الوكيل السابق غير صالحة."
+  },
+  "error_NATIVE_ROUTE_INVALID": {
+    "message": "اختر مسارًا صالحًا."
+  },
+  "error_NATIVE_ROUTE_MISSING": {
+    "message": "لم يعد هذا المسار موجودًا. اختر مسارًا آخر."
+  },
+  "error_NATIVE_ROUTE_PORTS": {
+    "message": "تعيينات منافذ المسارات غير صالحة."
+  },
+  "error_NATIVE_ROUTE_UNAVAILABLE": {
+    "message": "المسار المحدد غير متاح. راجع التفاصيل التقنية."
+  },
+  "error_NATIVE_SETTINGS_FORMAT": {
+    "message": "تنسيق الإعدادات غير صالح."
+  },
+  "error_NATIVE_SETTINGS_REVISION": {
+    "message": "مراجعة الإعدادات غير صالحة."
+  },
+  "error_NATIVE_SUCCESSOR_UNSUPPORTED": {
+    "message": "تستخدم هذه المجموعة وكيلًا لاحقًا غير مدعوم."
+  },
+  "error_NATIVE_UNSUPPORTED_CUSTOM": {
+    "message": "لا يدعم هذا الإصدار إعدادات اتصال صادر مخصصة."
+  },
+  "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
+    "message": "لا يدعم هذا الإصدار Hysteria2."
+  },
+  "error_NATIVE_UNSUPPORTED_TUIC": {
+    "message": "لا يدمج هذا الإصدار نواة sing-box المطلوبة لـ TUIC."
+  },
+  "error_NATIVE_UNSUPPORTED_TYPE": {
+    "message": "نوع المسار هذا غير مدعوم."
+  },
+  "error_NATIVE_V2RAYN_PORT": {
+    "message": "منفذ v2rayN المحلي غير صالح."
+  },
+  "error_NATIVE_V2RAYN_UNAVAILABLE": {
+    "message": "v2rayN غير متاح. اختر عقدة مستوردة."
+  },
+  "error_NETWORK_FAILED": {
+    "message": "فشل طلب الشبكة. تحقق من الاتصال وأعد المحاولة."
+  },
+  "error_NETWORK_TEST_FAILED": {
+    "message": "فشل تشخيص الشبكة. راجع التفاصيل التقنية."
+  },
+  "error_NODE_LIMIT": {
+    "message": "ستتجاوز العملية حد العقد. أزل العقد غير المستخدمة وأعد المحاولة."
+  },
+  "error_NODE_MAPPING_INCOMPLETE": {
+    "message": "تعيين العقد غير مكتمل"
+  },
+  "error_NODE_NOT_FOUND": {
+    "message": "لم تعد العقدة المحددة موجودة. اختر عقدة أخرى."
+  },
+  "error_NOT_DUE": {
+    "message": "لم يحن موعد التحديث المجدول التالي بعد."
+  },
+  "error_PAC_ENTRY_REQUIRED": {
+    "message": "أدخل مصدر PAC يحتوي على FindProxyForURL"
+  },
+  "error_PAC_FUNCTION_REQUIRED": {
+    "message": "عرّف FindProxyForURL كدالة متزامنة في المستوى الأعلى أو متغير دالة أو إسناد"
+  },
+  "error_PAC_PARSER_UNAVAILABLE": {
+    "message": "محلل PAC المرفق غير متاح؛ أعد تثبيت الامتداد"
+  },
+  "error_PAC_RULE_TARGET_UNSUPPORTED": {
+    "message": "لا يمكن للقواعد التلقائية استهداف ملف تعريف PAC مضمّن"
+  },
+  "error_PAC_SOURCE_LIMIT": {
+    "message": "أدخل مصدر PAC لا يتجاوز {limit} محرفًا"
+  },
+  "error_PAC_SYNTAX_INVALID": {
+    "message": "صياغة PAC غير صالحة"
+  },
+  "error_PAC_SYNTAX_LOCATION": {
+    "message": "صياغة PAC غير صالحة في السطر {line}، العمود {column}"
+  },
+  "error_PARTIAL_TRANSFER": {
+    "message": "انتهى نقل الاختبار قبل استلام جميع البيانات."
+  },
+  "error_PRIVATE_DIRECTORY_FAILED": {
+    "message": "تعذر تأمين مجلد الاختبار الخاص. أُوقف الاختبار."
+  },
+  "error_PRIVATE_TARGET": {
+    "message": "لا يُسمح بطلبات الاشتراك إلى العناوين الخاصة أو المحلية."
+  },
+  "error_PROFILE_NOT_FOUND": {
+    "message": "لم يُعثر على ملف التعريف"
+  },
+  "error_PROFILE_REFERENCE_CYCLE": {
+    "message": "توجد مراجع دائرية بين ملفات التعريف"
+  },
+  "error_PROFILE_REFERENCE_DEPTH": {
+    "message": "تتجاوز القواعد التلقائية العمق الأقصى البالغ {limit}"
+  },
+  "error_PROFILE_REFERENCE_MISSING": {
+    "message": "ملف التعريف المشار إليه غير موجود: {name}"
+  },
+  "error_PROFILE_SAVE_RESTORE_FAILED": {
+    "message": "فشل الحفظ وتحتاج استعادة المسار إلى معالجة"
+  },
+  "error_PROXY_AUTH_REQUIRED": {
+    "message": "يتطلب وكيل الاشتراك مصادقة لا يمكن لهذا الطلب توفيرها."
+  },
+  "error_PROXY_CONTROL_UNAVAILABLE": {
+    "message": "يتحكم امتداد آخر أو سياسة في الوكيل"
+  },
+  "error_PROXY_DNS_REQUIRED": {
+    "message": "في V2Route يتم حل DNS لـ SOCKS5 عبر الوكيل"
+  },
+  "error_PROXY_FAILED": {
+    "message": "فشل اتصال الوكيل. تحقق من المسار المحدد."
+  },
+  "error_PROXY_PROFILE_REQUIRED": {
+    "message": "اختر ملف تعريف وكيل"
+  },
+  "error_PROXY_ROLLBACK_REFUSED": {
+    "message": "رفض المتصفح التراجع عن تغيير الوكيل"
+  },
+  "error_PROXY_SETTING_REFUSED": {
+    "message": "رفض المتصفح إعداد الوكيل"
+  },
+  "error_PROXY_UNAVAILABLE": {
+    "message": "الوكيل المحدد غير متاح. تحقق من المسار الحالي."
+  },
+  "error_PROXY_USERNAME_REQUIRED": {
+    "message": "أدخل اسم مستخدم الوكيل"
+  },
+  "error_RECOVERY_BINDINGS_LIMIT": {
+    "message": "يمكن استعادة {limit} ارتباط عقدة كحد أقصى. افتح ملفات التعريف المشار إليها واحفظها بشكل منفصل."
+  },
+  "error_REDIRECT_LIMIT": {
+    "message": "أجرى الاشتراك عمليات إعادة توجيه كثيرة جدًا. تحقق من عنوانه."
+  },
+  "error_REFERENCED_PROFILE_DELETE": {
+    "message": "تُشير قاعدة تلقائية إلى ملف التعريف هذا"
+  },
+  "error_REMOTE_PAC_UNSUPPORTED": {
+    "message": "استخدم مصدر PAC مضمّنًا؛ لا يُدعم PAC البعيد"
+  },
+  "error_ROUTE_PORT_UNAVAILABLE": {
+    "message": "لم يُخصَّص أي منفذ"
+  },
+  "error_ROUTE_RECOVERY_RESTORE_FAILED": {
+    "message": "فشل استرداد المسار وتحتاج الاستعادة إلى معالجة"
+  },
+  "error_ROUTE_REVISION_CONFLICT": {
+    "message": "تغير المسار في نافذة أخرى. حدّث أولًا"
+  },
+  "error_ROUTE_SAVE_ROLLBACK_FAILED": {
+    "message": "فشل حفظ المسار ويحتاج التراجع إلى معالجة"
+  },
+  "error_ROUTE_UNAVAILABLE": {
+    "message": "مسار الاختبار غير متاح. تحقق من إعدادات العقدة والوكيل السابق."
+  },
+  "error_RULE_BINDING_MISSING": {
+    "message": "ارتباط قاعدة العقدة مفقود. أعد فتح ملف التعريف التلقائي واحفظه: {name}"
+  },
+  "error_RULE_NODES_LIMIT": {
+    "message": "تدعم القواعد التلقائية {limit} عقدة مختلفة كحد أقصى"
+  },
+  "error_RULE_NODE_CHANGED": {
+    "message": "قاعدة العقدة غير متاحة أو تغيرت. استعد العقدة أو اختر أخرى واحفظ: {name}"
+  },
+  "error_RULE_PATH_CONFLICT": {
+    "message": "مسارات قواعد العقد متعارضة"
+  },
+  "error_RULE_PATTERNS_LIMIT": {
+    "message": "تدعم القواعد التلقائية {limit} نمط مطابقة إجمالًا كحد أقصى"
+  },
+  "error_RULE_PORT_UNAVAILABLE": {
+    "message": "منفذ قاعدة العقدة غير متاح"
+  },
+  "error_RULE_REVISION_CONFLICT": {
+    "message": "تغيرت قاعدة العقدة في نافذة أخرى. حدّث أولًا"
+  },
+  "error_SELECTED_NODE_UNAVAILABLE": {
+    "message": "العقدة المحددة غير متاحة. استعدها أو اختر عقدة أخرى"
+  },
+  "error_SOCKS_FAILED": {
+    "message": "تعذر إنشاء اتصال SOCKS."
+  },
+  "error_STARTUP_FALLBACK_REFUSED": {
+    "message": "رفض المتصفح وكيل الرجوع الاحتياطي عند بدء التشغيل."
+  },
+  "error_SUBSCRIPTION_CHANGED": {
+    "message": "تغير الاشتراك أثناء التحديث. حدّثه وأعد المحاولة."
+  },
+  "error_SUBSCRIPTION_HTTP_STATUS": {
+    "message": "أعاد خادم الاشتراك HTTP {status}."
+  },
+  "error_SUBSCRIPTION_LIMIT": {
+    "message": "بلغ عدد الاشتراكات الحد الأقصى. أزل اشتراكًا غير مستخدم وأعد المحاولة."
+  },
+  "error_SUBSCRIPTION_NOT_FOUND": {
+    "message": "لم يعد الاشتراك المحدد موجودًا."
+  },
+  "error_SYSTEM_PROXY_SNAPSHOT_UNAVAILABLE": {
+    "message": "لقطة وكيل النظام المطبّقة غير متاحة."
+  },
+  "error_SYSTEM_PROXY_TIMEOUT": {
+    "message": "انتهت مهلة قراءة وكيل النظام"
+  },
+  "error_SYSTEM_PROXY_UNAVAILABLE": {
+    "message": "وكيل النظام غير متاح. راجع التفاصيل التقنية."
+  },
+  "error_TIMEOUT": {
+    "message": "انتهت مهلة الطلب. تحقق من الاتصال وأعد المحاولة."
+  },
+  "error_TLS_DOWNGRADE": {
+    "message": "أعاد الاشتراك التوجيه من HTTPS إلى HTTP فتم حظره."
+  },
+  "error_TLS_FAILED": {
+    "message": "تعذر التحقق من الاتصال الآمن. تحقق من الخادم والشهادة."
+  },
+  "error_UNSAFE_TEMP_PATH": {
+    "message": "مجلد الاختبار المؤقت غير آمن. أُوقف الاختبار."
+  },
+  "error_UNSUPPORTED_LIBRARY_REQUEST": {
+    "message": "طلب المكتبة غير مدعوم"
+  },
+  "error_UNSUPPORTED_PROFILE_TYPE": {
+    "message": "نوع ملف التعريف غير مدعوم"
+  },
+  "error_UNSUPPORTED_REQUEST": {
+    "message": "الطلب غير مدعوم"
+  },
+  "error_UNSUPPORTED_RULE_CONDITION": {
+    "message": "تُدعم فقط قواعد أحرف البدل للمضيف وعناوين URL"
+  },
+  "error_UPDATE_FAILED": {
+    "message": "فشل تحديث الاشتراك. احتُفظ بالعقد الحالية."
+  },
+  "error_VALIDATION_FAILED": {
+    "message": "تعذر التحقق من محتوى الاشتراك. احتُفظ بالعقد الحالية."
+  },
+  "nativeUnnamedNode": {
+    "message": "عقدة بلا اسم"
+  },
+  "nativeProtocolCustom": {
+    "message": "مخصص"
+  },
+  "nativeProtocolOutbound": {
+    "message": "اتصال صادر مخصص"
+  },
+  "nativeProtocolGroup": {
+    "message": "مجموعة سياسات"
+  },
+  "nativeProtocolChain": {
+    "message": "سلسلة وكلاء"
+  },
+  "nativeProtocolUnknown": {
+    "message": "نوع غير مدعوم"
+  },
+  "languageLoadFailed": {
+    "message": "تعذر تحميل اللغة المحددة. أعد المحاولة."
+  },
+  "invalidBackupJSON": {
+    "message": "النسخة الاحتياطية ليست JSON صالحًا."
+  },
+  "noticeBodyLanguages": {
+    "message": "نص السياسة الكامل متاح بالإنجليزية والصينية المبسطة."
+  },
+  "policyRules": {
+    "message": "قواعد توجيه الوكيل"
+  },
+  "policyPriority": {
+    "message": "الترتيب: عناوين التجاوز → أول قاعدة مطابقة → المسار الافتراضي."
+  },
+  "policyDirectHelp": {
+    "message": "تتصل العناوين غير المطابقة مباشرة. يستخدم زر الاتصال المباشر في النافذة المنبثقة هذه القواعد أيضًا."
+  },
+  "policySystemHelp": {
+    "message": "تستخدم العناوين غير المطابقة وكيل النظام. يستخدم زر النظام في النافذة المنبثقة هذه القواعد أيضًا."
+  },
+  "policyEmpty": {
+    "message": "لا توجد قواعد بعد. يُستخدم المسار الافتراضي."
+  },
+  "policyAddressHelp": {
+    "message": "نطاقات أو نطاقات بأحرف بدل أو IP أو IP:منفذ. تطابق قواعد IP العنوان داخل URL، وليس نتائج DNS."
+  },
+  "policyMoveUp": {
+    "message": "نقل القاعدة لأعلى"
+  },
+  "policyMoveDown": {
+    "message": "نقل القاعدة لأسفل"
+  }
+}

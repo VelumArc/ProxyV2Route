@@ -1,0 +1,2150 @@
+{
+  "ruleTargetUnavailable": {
+    "message": "Kohde ei ole käytettävissä"
+  },
+  "rulePatternPlaceholder": {
+    "message": "example.com, *.example.org, 192.0.2.1:8443"
+  },
+  "rulePatternHelp": {
+    "message": "Erota osoitteet pilkuilla. Jokainen URL-malli omalle rivilleen. PAC ei välttämättä näe HTTPS-polkuja."
+  },
+  "defaultChoice_direct": {
+    "message": "Yhdistä ilman välityspalvelinta"
+  },
+  "defaultChoice_system": {
+    "message": "Käytä järjestelmän välityspalvelinasetuksia"
+  },
+  "defaultChoice_node": {
+    "message": "Käytä tämän profiilin valittua solmua"
+  },
+  "defaultChoice_manual": {
+    "message": "Käytä tämän profiilin välityspalvelinasetuksia"
+  },
+  "defaultChoice_auto": {
+    "message": "Käytä tämän profiilin reitityssääntöjä"
+  },
+  "nlHttpsLatency": {
+    "message": "HTTPS vastaus"
+  },
+  "nlLatencyMethod": {
+    "message": "Cloudflare · Vähintään kaksi vastausta · Yhteyden uudelleenkäyttö, kun mahdollista"
+  },
+  "nlLatencyFast": {
+    "message": "Nopea"
+  },
+  "nlLatencyModerate": {
+    "message": "Kohtalainen"
+  },
+  "nlLatencySlow": {
+    "message": "Hidas"
+  },
+  "nlSortName": {
+    "message": "Nimi"
+  },
+  "nlSortLatency": {
+    "message": "Latenssi: matalasta korkeaan"
+  },
+  "nlSortDownload": {
+    "message": "Lataus: korkeasta matalaan"
+  },
+  "nlSortUpload": {
+    "message": "Lataus: korkeasta matalaan"
+  },
+  "nlSingle": {
+    "message": "Yksi solmu"
+  },
+  "nlGroupBatch": {
+    "message": "Ryhmä / erä"
+  },
+  "nlTestScope": {
+    "message": "Testin laajuus"
+  },
+  "nlCurrentNode": {
+    "message": "Valittu solmu"
+  },
+  "nlCurrentGroup": {
+    "message": "Valittu ryhmä"
+  },
+  "nlChooseNode": {
+    "message": "Valitse solmu luettelosta"
+  },
+  "nlStart": {
+    "message": "Aloita testi"
+  },
+  "nlService": {
+    "message": "Testauspalvelu"
+  },
+  "nlMeasured": {
+    "message": "mitattu"
+  },
+  "nlMeanLatency": {
+    "message": "Keskimääräinen latenssi"
+  },
+  "nlGroupBySource": {
+    "message": "Lähderyhmän mukaan"
+  },
+  "nlPreviousPage": {
+    "message": "Edellinen sivu"
+  },
+  "nlNextPage": {
+    "message": "Seuraava sivu"
+  },
+  "nlName": {
+    "message": "Nimi"
+  },
+  "nlEdit": {
+    "message": "Muokkaa"
+  },
+  "nlStop": {
+    "message": "Pysähdy"
+  },
+  "nlConfirm": {
+    "message": "Vahvista"
+  },
+  "nlAllNodes": {
+    "message": "Kaikki solmut"
+  },
+  "nlNodeResults": {
+    "message": "Solmutulokset"
+  },
+  "nlTestCenter": {
+    "message": "Testauskeskus"
+  },
+  "nlNewGroup": {
+    "message": "Uusi ryhmä"
+  },
+  "nlRenameGroup": {
+    "message": "Nimeä ryhmä uudelleen"
+  },
+  "nlRemoveGroup": {
+    "message": "Poista ryhmä"
+  },
+  "nlRemoveGroupHelp": {
+    "message": "Säilytä jokainen solmu ja tilaus ja siirrä ne tuotuihin solmuihin."
+  },
+  "nlNode": {
+    "message": "Solmu"
+  },
+  "nlStatus": {
+    "message": "Tila"
+  },
+  "nlActions": {
+    "message": "Toimet"
+  },
+  "nlSort": {
+    "message": "Lajittele vain tämä taulukko"
+  },
+  "nlSelected": {
+    "message": "valittu"
+  },
+  "nlTestNode": {
+    "message": "Testi"
+  },
+  "nlProfileShort": {
+    "message": "Profiili"
+  },
+  "nlQuick": {
+    "message": "Nopea latenssi"
+  },
+  "nlFull": {
+    "message": "Lataa + lataa"
+  },
+  "nlTraffic": {
+    "message": "Testitietojen koko"
+  },
+  "nlConcurrency": {
+    "message": "Samanaikaiset solmut"
+  },
+  "nlTrafficFullOnly": {
+    "message": "Käytetään lataus- ja lataustesteihin"
+  },
+  "nlTestMode": {
+    "message": "Testitila"
+  },
+  "nlBudget": {
+    "message": "Suurin hyötykuormaliikenne"
+  },
+  "nlViaGroup": {
+    "message": "Ryhmän esivälityspalvelimen kautta"
+  },
+  "nlTestSelected": {
+    "message": "Testi valittu"
+  },
+  "nlTestVisible": {
+    "message": "Testaa näytetyt solmut"
+  },
+  "nlTestAll": {
+    "message": "Testaa kaikki solmut"
+  },
+  "nlTestGroup": {
+    "message": "Testiryhmän solmut"
+  },
+  "nlProgress": {
+    "message": "Mittauksen edistyminen"
+  },
+  "nlReady": {
+    "message": "Valitse aloitettavat solmut. Mitään testiä ei ole suoritettu."
+  },
+  "nlStarting": {
+    "message": "Aloitetaan eristetty mittaus…"
+  },
+  "nlQueued": {
+    "message": "Jonossa"
+  },
+  "nlRunning": {
+    "message": "Testaus"
+  },
+  "nlStopping": {
+    "message": "Lopetetaan…"
+  },
+  "nlComplete": {
+    "message": "Valmis"
+  },
+  "nlFailed": {
+    "message": "Epäonnistui"
+  },
+  "nlStopped": {
+    "message": "Pysäytetty"
+  },
+  "nlPartial": {
+    "message": "Osittainen"
+  },
+  "nlUntested": {
+    "message": "Ei testattu"
+  },
+  "nlSucceeded": {
+    "message": "hyväksytty"
+  },
+  "nlMeasureDisconnected": {
+    "message": "Mittausyhteys päättynyt. Puutteelliset arvot eivät ole lopullisia tuloksia."
+  },
+  "nlUpgrade": {
+    "message": "Päivitä paikallinen Companion hallitaksesi ryhmiä ja tilauksia. Olemassa olevat solmut ovat käytettävissä."
+  },
+  "nlOperationFailed": {
+    "message": "Toimintoa ei voitu suorittaa loppuun. Yritä uudelleen."
+  },
+  "nlEditSubscription": {
+    "message": "Muokkaa tilausta"
+  },
+  "nlPasteContent": {
+    "message": "Välityspalvelimen linkit / sisältö"
+  },
+  "nlSubscriptionURL": {
+    "message": "Tilaus URL"
+  },
+  "nlKeepURL": {
+    "message": "Jätä tyhjäksi säilyttääksesi tallennettu URL"
+  },
+  "nlConnectionPolicy": {
+    "message": "Päivitä yhteys"
+  },
+  "nlProxyFirst": {
+    "message": "Välityspalvelin ensin, sitten suora vikatilanteessa"
+  },
+  "nlProxyOnly": {
+    "message": "Vain välityspalvelin"
+  },
+  "nlDirectOnly": {
+    "message": "Vain suoraan"
+  },
+  "nlProxyFirstHelp": {
+    "message": "Välityspalvelin pysähtyy ensimmäisen kerran onnistuneen noudon jälkeen. Suoraa yritetään vain, jos välityspalvelinyritys epäonnistuu."
+  },
+  "nlAutoUpdate": {
+    "message": "Ota automaattiset päivitykset käyttöön"
+  },
+  "nlInterval": {
+    "message": "Päivitysväli (minuutteja)"
+  },
+  "nlDestinationGroup": {
+    "message": "Kohderyhmä"
+  },
+  "nlSubscriptionOwnGroup": {
+    "message": "Uusi ryhmä…"
+  },
+  "nlNameGroup": {
+    "message": "Nimi (ryhmä)"
+  },
+  "nlCustomGroup": {
+    "message": "Mukautettu ryhmä"
+  },
+  "nlNameRequired": {
+    "message": "Anna nimi."
+  },
+  "nlContentRequired": {
+    "message": "Liitä välityspalvelinlinkit tai tilaussisältö."
+  },
+  "nlGroupRequired": {
+    "message": "Valitse kohderyhmä."
+  },
+  "nlURLRequired": {
+    "message": "Syötä HTTP(S)-tilaus URL ilman käyttäjätunnusta tai salasanaa."
+  },
+  "nlIntervalInvalid": {
+    "message": "Syötä kokonaisluku väliltä 5 - 43200 minuuttia."
+  },
+  "folderTitle": {
+    "message": "Valitse kansio v2rayN"
+  },
+  "folderHint": {
+    "message": "Valitse kansio ja ota se käyttöön Tallenna yhteysasetukset -toiminnolla."
+  },
+  "folderPath": {
+    "message": "Paikallisen kansion täydellinen polku"
+  },
+  "folderGo": {
+    "message": "Avoinna"
+  },
+  "folderUp": {
+    "message": "Ylös"
+  },
+  "folderDrives": {
+    "message": "Asemat"
+  },
+  "folderCurrent": {
+    "message": "Nykyinen polku"
+  },
+  "folderChoose": {
+    "message": "Käytä tätä kansiota"
+  },
+  "folderList": {
+    "message": "Kansiot"
+  },
+  "folderTruncated": {
+    "message": "Listaus on rajoitettu. Kirjoita yllä oleva koko polku avataksesi kansion, jota ei näytetä."
+  },
+  "folderReady": {
+    "message": "v2rayN tiedostoa löydetty. Käytä tätä kansiota määrityksen vahvistamiseen."
+  },
+  "folderInvalid": {
+    "message": "Valitse kansio, joka sisältää guiConfigs, guiNConfig.json ja guiNDB.db."
+  },
+  "folderSelectDrive": {
+    "message": "Valitse paikallinen asema tai anna koko kansion polku."
+  },
+  "folderEmpty": {
+    "message": "Ei näkyviä alikansioita."
+  },
+  "folderUnavailable": {
+    "message": "Tätä kansiota ei voi selata. Tarkista sen polku ja pääsy. Jos Companion on vanhempi, päivitä se ensin."
+  },
+  "folderValidating": {
+    "message": "Vahvistetaan v2rayN määritystä…"
+  },
+  "folderInvalidConfig": {
+    "message": "v2rayN-kokoonpano tai tietokanta on epätäydellinen tai virheellinen. Valitse toinen kansio."
+  },
+  "copyPath": {
+    "message": "Kopioi polku"
+  },
+  "pathCopyHint": {
+    "message": "Kopioi polku tällä hetkellä tässä kentässä."
+  },
+  "preMode": {
+    "message": "Pre-välityspalvelintila"
+  },
+  "preNode": {
+    "message": "Pre-välityspalvelinsolmu"
+  },
+  "preIntro": {
+    "message": "Käytä ryhmäketjua, ohita se tai valitse esivälityspalvelin tälle profiilille."
+  },
+  "healthLabel": {
+    "message": "Nykyinen yhteyden tila"
+  },
+  "healthOk": {
+    "message": "Normaali"
+  },
+  "healthError": {
+    "message": "Epänormaali"
+  },
+  "healthChecking": {
+    "message": "Tarkistetaan"
+  },
+  "healthUnknown": {
+    "message": "Vahvistamaton"
+  },
+  "autoSystemHelp": {
+    "message": "Järjestelmäsäännöt vaativat Windows-komponentin ja tilannekuvan kiinteistä välityspalvelinasetuksista. Ota uudelleen käyttöön muutosten jälkeen. PAC/WPAD eivät ole tuettuja; säännötön järjestelmätila käyttää selaimen omia asetuksia."
+  },
+  "backgroundUnavailable": {
+    "message": "Laajennuksen tausta ei ole käytettävissä."
+  },
+  "backgroundNoResponse": {
+    "message": "Tausta ei vastannut."
+  },
+  "backupTooLarge": {
+    "message": "Varmuuskopion koko ylittää 5 Mt."
+  },
+  "proxyUsername": {
+    "message": "Käyttäjätunnus"
+  },
+  "proxyPassword": {
+    "message": "Salasana"
+  },
+  "proxyAuthHelp": {
+    "message": "Valinnainen. Autentikoidut välityspalvelimet muodostavat yhteyden Companionin kautta. Tunnistetiedot tallennetaan tähän selainkokoonpanoon ja Companioniin, ja ne sisältyvät profiilivientiin."
+  },
+  "proxyAuthSocks4": {
+    "message": "SOCKS4 ei tue tätä käyttäjänimen/salasanan todennusta; käytä HTTP(S) tai SOCKS5."
+  },
+  "importExamples": {
+    "message": "Muotoesimerkkejä"
+  },
+  "ipCopying": {
+    "message": "Kopioidaan…"
+  },
+  "netDnsUnavailable": {
+    "message": "Palvelimen osoitetta ei voitu selvittää ajoissa. Tarkista isäntä- tai IP-osoite ja yritä uudelleen."
+  },
+  "netCurrentTarget": {
+    "message": "Valittu välityspalvelimen päätepiste"
+  },
+  "netCustomTarget": {
+    "message": "Mukautettu palvelin"
+  },
+  "netHost": {
+    "message": "Isäntä- tai IP osoite"
+  },
+  "netPort": {
+    "message": "TCP portti"
+  },
+  "netHostRequired": {
+    "message": "Anna palvelimen isäntä tai IP osoite."
+  },
+  "netCurrentUnavailable": {
+    "message": "Valitse solmu tai manuaalinen välityspalvelinprofiili tai anna mukautettu kohde."
+  },
+  "netInvalidTarget": {
+    "message": "Anna kelvollinen diagnostiikkaisäntä ja portti."
+  },
+  "netIpv6PingUnavailable": {
+    "message": "IPv6 ICMP ei ole saatavilla; käytä TCPing."
+  },
+  "preNeedsFix": {
+    "message": "Valitse kelvollinen esivälityspalvelin tai ei esivälityspalvelinta ennen tallentamista."
+  },
+  "preConfigure": {
+    "message": "Määritä esivälityspalvelin"
+  },
+  "preFollowInvalid": {
+    "message": "Follow v2rayN ei hyväksy mukautettua esivälityspalvelinta."
+  },
+  "followChainHelp": {
+    "message": "Follow käyttää reittiä ja välityspalvelinketjua, joka on jo aktiivinen kohdassa v2rayN."
+  },
+  "netTitle": {
+    "message": "Kytkentätestit"
+  },
+  "ipTestDetails": {
+    "message": "Testin tiedot"
+  },
+  "netTarget": {
+    "message": "Ping / TCPing tavoite"
+  },
+  "netDownload": {
+    "message": "Lataa testi"
+  },
+  "netPartial": {
+    "message": "Osittainen näyte"
+  },
+  "netComplete": {
+    "message": "Näyte valmis"
+  },
+  "netDirect": {
+    "message": "Järjestelmäverkko"
+  },
+  "netUnreachable": {
+    "message": "Ei vastausta / epäonnistui"
+  },
+  "netAverage": {
+    "message": "Keskiarvo"
+  },
+  "predecessor": {
+    "message": "Esivälityspalvelin"
+  },
+  "preInherit": {
+    "message": "Käytä ryhmäketjua v2rayN"
+  },
+  "preNone": {
+    "message": "Ei esivaltakirjaa"
+  },
+  "preSpecific": {
+    "message": "Valitse solmu"
+  },
+  "preHelp": {
+    "message": "Koskee tätä profiilia. Käytä ryhmäketjua v2rayN, ei esivälityspalvelinta tai tiettyä solmua. Follow v2rayN käyttää olemassa olevaa ketjuaan."
+  },
+  "preSelectRequired": {
+    "message": "Valitse esivälityspalvelinsolmu tai valitse Ryhmäoletus / Ei mitään."
+  },
+  "ipPing0Permission": {
+    "message": "Salli Ping0 verkkosivuston pääsy julkisen raportin lataamiseen."
+  },
+  "ipPublicChallenge": {
+    "message": "Sivusto vaatii vahvistuksen. Avaa Ping0-sivu suorittaaksesi sen loppuun ja tarkastellaksesi tulosta."
+  },
+  "ipPublicReport": {
+    "message": "Ping0 julkinen raportti"
+  },
+  "ipPublicSource": {
+    "message": "Lähde: Ping0 julkinen sivu"
+  },
+  "ipPublicOriginal": {
+    "message": "Ping0 raportti"
+  },
+  "ipPublicPartial": {
+    "message": "Vain julkisella sivulla olevat kentät näytetään niiden alkuperäisellä kielellä. Luokitukset ja jaetun käyttäjän arviot ovat peräisin Ping0."
+  },
+  "setupTitle": {
+    "message": "Yhdistä Proxy V2Route"
+  },
+  "setupIntro": {
+    "message": "Asenna Windows kumppani käyttääksesi v2rayN reittejä tai omia tuotuja solmuja."
+  },
+  "setupStepOne": {
+    "message": "Pura vastaava täydellinen Windows-paketti pysyvään kansioon."
+  },
+  "setupStepTwo": {
+    "message": "Avaa V2Route-Setup.exe ja napsauta Asenna."
+  },
+  "setupStepThree": {
+    "message": "Palaa tähän ja tarkista yhteys. Valitse tarvittaessa v2rayN-kansio."
+  },
+  "setupCheck": {
+    "message": "Tarkista liitäntä"
+  },
+  "downloadCompanion": {
+    "message": "Asennusopas ↗"
+  },
+  "setupDownloadNote": {
+    "message": "Käytä vastaavaa paikallista Windows-pakettia tai seuraa ohjetta rakentaaksesi se nykyisestä lähteestä."
+  },
+  "chooseFolder": {
+    "message": "Valitse v2rayN kansio…"
+  },
+  "rescanDone": {
+    "message": "Paikalliset solmut skannattu uudelleen"
+  },
+  "grouping": {
+    "message": "Ryhmäsolmut"
+  },
+  "groupByCountry": {
+    "message": "Maittain"
+  },
+  "unknownCountry": {
+    "message": "Muu / Tuntematon"
+  },
+  "ungrouped": {
+    "message": "Ryhmittelemätön"
+  },
+  "adjustNodeFilters": {
+    "message": "Kokeile toista ryhmää, lähdettä tai hakua tai näytä piilotetut solmut."
+  },
+  "rescanLocal": {
+    "message": "Tarkista v2rayN solmut uudelleen"
+  },
+  "showHidden": {
+    "message": "Näytä piilotetut solmut"
+  },
+  "hideNode": {
+    "message": "Piilota"
+  },
+  "restoreNode": {
+    "message": "Palauta"
+  },
+  "hiddenNode": {
+    "message": "Piilotettu"
+  },
+  "hideNodeHelp": {
+    "message": "Piilota vain tämän selaimen solmukirjastosta. v2rayN ja olemassa olevat profiilit ovat ennallaan."
+  },
+  "ipContextTimeout": {
+    "message": "Nykyisen profiilin lukeminen aikakatkaistiin. Yritä uudelleen."
+  },
+  "ipStaleResult": {
+    "message": "Nykyinen profiili muuttui. Tämä tulos voi olla vanhentunut; tarkista uudelleen."
+  },
+  "ip_tools": {
+    "message": "IP Työkalut"
+  },
+  "ipIntro": {
+    "message": "Nykyinen irtautuminen IP ja julkinen raportti."
+  },
+  "ipCurrentProfile": {
+    "message": "Nykyinen selainprofiili"
+  },
+  "ipRouteCaution": {
+    "message": "Automaattiset säännöt ja PAC voivat käyttää eri reittejä eri kohteisiin. Tämä tarkistus kuvaa vain sen omaa pyyntöä."
+  },
+  "ipDisclosure": {
+    "message": "Automaattisen tarkistuksen poistuminen IP · Raportti: Ping0"
+  },
+  "ipMethod": {
+    "message": "Osoitteen tarkistus"
+  },
+  "ipDual": {
+    "message": "IPv4 / IPv6"
+  },
+  "ipCheck": {
+    "message": "Tarkista uudelleen"
+  },
+  "ipChecking": {
+    "message": "Tarkistetaan…"
+  },
+  "ipDualHelp": {
+    "message": "IPv4 / IPv6 palauttaa tähän pyyntöön käytetyn osoiteperheen, ei molempia osoitteita."
+  },
+  "ipDurationHelp": {
+    "message": "Kulunut HTTP pyyntöaika sisältää verkon ja palvelun vasteajan. Se ei ole ICMP ping tai kaistanleveystesti."
+  },
+  "ipCopy": {
+    "message": "Kopio IP"
+  },
+  "ipCopied": {
+    "message": "Kopioitu"
+  },
+  "ipCopyFailed": {
+    "message": "Ei voitu kopioida. Valitse osoite ja kopioi se manuaalisesti."
+  },
+  "ipNoResult": {
+    "message": "Ei vielä shekkiä"
+  },
+  "ipContextUnknown": {
+    "message": "Profiili ei ole käytettävissä"
+  },
+  "ipTimeout": {
+    "message": "Sekki aikakatkaistiin. Yritä uudelleen tai käytä toista reittiä."
+  },
+  "ipCancelled": {
+    "message": "Sekki peruutettu"
+  },
+  "ipNetwork": {
+    "message": "Ei tavoitettu ipify. Tarkista yhteys ja yritä uudelleen."
+  },
+  "ipHttp": {
+    "message": "Palvelu IP ei hyväksynyt pyyntöä. Yritä myöhemmin uudelleen."
+  },
+  "ipInvalid": {
+    "message": "Palvelu IP palautti virheellisen vastauksen."
+  },
+  "ipFailure": {
+    "message": "Tarkistus epäonnistui. Yritä uudelleen."
+  },
+  "ipStale": {
+    "message": "Välityspalvelinasetuksesi muuttuivat tarkistuksen aikana. Vanha tulos hylättiin; tarkista uudelleen."
+  },
+  "ipQuality": {
+    "message": "Ulkoiset työkalut"
+  },
+  "ipQualityPrivacy": {
+    "message": "Työkalut toimivat vain napsautuksella. Palveluntarjoajat saavat normaalit yhteystiedot. Verkkosivustojen tarkistukset lähettävät tunnistetietovapaita pyyntöjä käynnistyksen jälkeen. Sulkeminen pysäyttää paikalliset testit; ulkoisia välilehtiä hallitsee selain."
+  },
+  "ipReport": {
+    "message": "Kopioi muokattu raportti"
+  },
+  "ipReportCopied": {
+    "message": "Muokattu raportti kopioitu; ei sisällä IP tai profiilinimiä."
+  },
+  "popupSelected": {
+    "message": "Valittu"
+  },
+  "popupFooter": {
+    "message": "v2rayN ja solmuprofiilit"
+  },
+  "subtitle": {
+    "message": "Riippumattomat selainreitit"
+  },
+  "profiles": {
+    "message": "Profiilit"
+  },
+  "nodes": {
+    "message": "Solmukirjasto"
+  },
+  "settings": {
+    "message": "Asetukset"
+  },
+  "connected": {
+    "message": "Aktiivinen profiili"
+  },
+  "noProfile": {
+    "message": "Järjestelmän oletus"
+  },
+  "newProfile": {
+    "message": "Uusi profiili"
+  },
+  "searchProfiles": {
+    "message": "Hae profiileja"
+  },
+  "direct": {
+    "message": "Suora verkko"
+  },
+  "system": {
+    "message": "Järjestelmän välityspalvelin"
+  },
+  "follow": {
+    "message": "Seuraa v2rayN"
+  },
+  "manual": {
+    "message": "Manuaalinen välityspalvelin"
+  },
+  "auto": {
+    "message": "Automaattinen kytkin"
+  },
+  "pac": {
+    "message": "PAC käsikirjoitus"
+  },
+  "virtual": {
+    "message": "Virtuaalinen profiili"
+  },
+  "profileIntro": {
+    "message": "Valitse selainreitti vaihtamatta v2rayN:n pääreittiä."
+  },
+  "nodesIntro": {
+    "message": "Selaa paikallisia v2rayN-solmuja ja tuotuja linkkejäsi."
+  },
+  "settingsIntro": {
+    "message": "Paikallinen yhteys, kieli ja ulkonäkö."
+  },
+  "refresh": {
+    "message": "Päivitä"
+  },
+  "create": {
+    "message": "Luo profiili"
+  },
+  "name": {
+    "message": "Profiilin nimi"
+  },
+  "type": {
+    "message": "Profiilin tyyppi"
+  },
+  "save": {
+    "message": "Tallenna"
+  },
+  "saved": {
+    "message": "Tallennettu"
+  },
+  "saving": {
+    "message": "Tallennetaan…"
+  },
+  "cancel": {
+    "message": "Peruuta"
+  },
+  "close": {
+    "message": "Sulje"
+  },
+  "apply": {
+    "message": "Käytä tätä profiilia"
+  },
+  "applied": {
+    "message": "Profiili vaihdettu"
+  },
+  "active": {
+    "message": "Aktiivinen"
+  },
+  "delete": {
+    "message": "Poista"
+  },
+  "remove": {
+    "message": "Poista"
+  },
+  "rename": {
+    "message": "Nimeä uudelleen"
+  },
+  "route": {
+    "message": "Välityspalvelinreitti"
+  },
+  "selectRoute": {
+    "message": "Valitse reitti"
+  },
+  "routeMissing": {
+    "message": "Reitti ei ole käytettävissä — valitse toinen"
+  },
+  "chain": {
+    "message": "Liitäntäketju"
+  },
+  "connection": {
+    "message": "Paikallinen yhteys"
+  },
+  "proxy": {
+    "message": "Välityspalvelin"
+  },
+  "address": {
+    "message": "Osoite"
+  },
+  "port": {
+    "message": "Portti"
+  },
+  "scheme": {
+    "message": "Protokolla"
+  },
+  "proxyDns": {
+    "message": "SOCKS5 DNS ratkaisee välityspalvelimen kautta."
+  },
+  "connectedIdle": {
+    "message": "Yhdistetty · Idle"
+  },
+  "bypass": {
+    "message": "Ohitusluettelo"
+  },
+  "bypassHelp": {
+    "message": "Yksi verkkotunnus, jokerimerkkiverkkotunnus, IP-osoite tai IP:portti riville."
+  },
+  "advanced": {
+    "message": "Lisäasetukset"
+  },
+  "searchRoutes": {
+    "message": "Hae ryhmiä tai solmuja"
+  },
+  "selectGroup": {
+    "message": "Valitse ryhmä"
+  },
+  "empty": {
+    "message": "Ei vastaavia kohteita"
+  },
+  "unavailable": {
+    "message": "Ei saatavilla"
+  },
+  "groupHint": {
+    "message": "Pidä ryhmää 250 ms ja vedä sitten. Alt + ↑ / ↓ myös järjestää uudelleen. Muutokset tallentuvat automaattisesti."
+  },
+  "searchSort": {
+    "message": "Tyhjennä haku ennen lajittelua."
+  },
+  "dragHint": {
+    "message": "Siirrä ylös tai alas ja vapauta sitten tallentaaksesi. Esc peruuttaa."
+  },
+  "orderSaved": {
+    "message": "Ryhmätilaus tallennettu"
+  },
+  "orderCancelled": {
+    "message": "Uudelleentilaus peruttu"
+  },
+  "loading": {
+    "message": "Ladataan…"
+  },
+  "reading": {
+    "message": "Luetaan paikallisia solmuja…"
+  },
+  "nativeMissing": {
+    "message": "Paikallista komponenttia ei ole kytketty"
+  },
+  "retry": {
+    "message": "Yritä uudelleen"
+  },
+  "nativeHelp": {
+    "message": "Solmureitit vaativat Windows kumppanin. Suorat, järjestelmä- ja manuaaliset välityspalvelimet ovat nyt saatavilla."
+  },
+  "imported": {
+    "message": "Tuotu"
+  },
+  "v2rayn": {
+    "message": "v2rayN"
+  },
+  "allSources": {
+    "message": "Kaikki lähteet"
+  },
+  "importNodes": {
+    "message": "Tuo välityspalvelimet"
+  },
+  "importTitle": {
+    "message": "Tuo välityspalvelimet"
+  },
+  "importHelp": {
+    "message": "Liitä välityspalvelinlinkit, lähtevä JSON tai Base64 tilaus. SOCKS tukee tavallisia tai Base64 valtuustietoja. Kaavittomissa osoitteissa käytetään HTTP."
+  },
+  "importPrivacy": {
+    "message": "Välityspalvelimen tiedot ja valtuustiedot välitetään paikalliselle Proxy V2Route kumppanille tallennusta ja yhteyden muodostamista varten valitsemaasi välityspalvelimeen. Kehittäjä ei saa näitä tietoja."
+  },
+  "import": {
+    "message": "Tuo profiilit"
+  },
+  "nodeCount": {
+    "message": "solmut"
+  },
+  "source": {
+    "message": "Lähde"
+  },
+  "protocol": {
+    "message": "Protokolla"
+  },
+  "useNode": {
+    "message": "Luo profiili"
+  },
+  "removeNode": {
+    "message": "Poistetaanko tuotu solmu?"
+  },
+  "removeNodeHelp": {
+    "message": "Tätä solmua käyttävät profiilit on määritettävä uudelleen, ennen kuin se voidaan poistaa."
+  },
+  "deleteProfile": {
+    "message": "Poistetaanko tämä profiili?"
+  },
+  "deleteProfileHelp": {
+    "message": "Tämä poistaa vain tämän selainprofiilin. Tuodut solmut ja v2rayN konfiguraatio säilytetään."
+  },
+  "language": {
+    "message": "Kieli"
+  },
+  "automatic": {
+    "message": "Selaimen oletusarvo"
+  },
+  "theme": {
+    "message": "Ulkonäkö"
+  },
+  "light": {
+    "message": "Valo"
+  },
+  "dark": {
+    "message": "Tumma"
+  },
+  "switchToEnglish": {
+    "message": "Vaihda englanniksi"
+  },
+  "switchToChinese": {
+    "message": "Vaihda yksinkertaistettuun kiinaan"
+  },
+  "switchToLight": {
+    "message": "Vaihda vaaleaan ulkonäköön"
+  },
+  "switchToDark": {
+    "message": "Vaihda tummaan ulkoasuun"
+  },
+  "localComponent": {
+    "message": "Lisäkomponentti"
+  },
+  "ready": {
+    "message": "Yhdistetty"
+  },
+  "stopped": {
+    "message": "Ei käynnissä"
+  },
+  "discovery": {
+    "message": "v2rayN havaitseminen"
+  },
+  "rootPath": {
+    "message": "v2rayN kansio"
+  },
+  "corePath": {
+    "message": "Välityspalvelimen ydinsuoritettava tiedosto"
+  },
+  "optionalPath": {
+    "message": "Jätä tyhjäksi automaattista tunnistusta varten"
+  },
+  "pathsHelp": {
+    "message": "v2rayN tunnistetaan automaattisesti; valitse sen kansio tarvittaessa. Tuodut solmut käyttävät mukana tulevaa ydintä."
+  },
+  "savePaths": {
+    "message": "Tallenna yhteysasetukset"
+  },
+  "privacy": {
+    "message": "Asetukset tallennetaan paikallisesti"
+  },
+  "privacyText": {
+    "message": "Solmulinkit ja valtuustiedot pysyvät paikallisessa kumppanissa. Selainliikenne kulkee valitsemasi välityspalvelimen kautta kohdesivustoille; kehittäjä ei saa sitä."
+  },
+  "privacyDetails": {
+    "message": "Yksityisyys ja tiedonkulku"
+  },
+  "export": {
+    "message": "Vie profiilit"
+  },
+  "about": {
+    "message": "Noin Proxy V2Route"
+  },
+  "aboutText": {
+    "message": "Valitse selainreitti vaihtamatta v2rayN:n pääreittiä. Solmureitit käyttävät Windows-kumppania ja omia solmujasi."
+  },
+  "licenses": {
+    "message": "Avoimen lähdekoodin ilmoitukset"
+  },
+  "version": {
+    "message": "Versio"
+  },
+  "fieldRequired": {
+    "message": "Anna profiilin nimi."
+  },
+  "profileExists": {
+    "message": "Tämänniminen profiili on jo olemassa."
+  },
+  "ruleHelp": {
+    "message": "Erottele verkkotunnukset yhdellä rivillä pilkuilla. Ensimmäinen vastaava rivi voittaa. Pidä oletusreitti saatavilla."
+  },
+  "rules": {
+    "message": "Reitityssäännöt"
+  },
+  "pattern": {
+    "message": "Isäntäkuvio"
+  },
+  "target": {
+    "message": "Sääntökohde"
+  },
+  "addRule": {
+    "message": "Lisää sääntö"
+  },
+  "defaultRoute": {
+    "message": "Oletusprofiili"
+  },
+  "pacHelp": {
+    "message": "Liitä luotettava PAC lähde, joka sisältää FindProxyForURL. Tämä komentosarja päättää, kuinka verkkosivustopyynnöt reititetään."
+  },
+  "pacUrl": {
+    "message": "PAC URL"
+  },
+  "pacScript": {
+    "message": "PAC käsikirjoitus"
+  },
+  "noSelection": {
+    "message": "Valitse profiili tai luo sellainen."
+  },
+  "details": {
+    "message": "Yksityiskohdat"
+  },
+  "noNodes": {
+    "message": "Ei vielä solmuja"
+  },
+  "noNodesHelp": {
+    "message": "Yhdistä v2rayN tai tuo välityspalvelinlinkkejä, JSON tai tilaus aloittaaksesi."
+  },
+  "openSettings": {
+    "message": "Avaa asetukset"
+  },
+  "proxySettings": {
+    "message": "Välityspalvelimen asetukset"
+  },
+  "switching": {
+    "message": "Vaihdetaan…"
+  },
+  "updatedElsewhere": {
+    "message": "Tämä profiili muuttui toisessa ikkunassa. Avaa se uudelleen ennen tallentamista."
+  },
+  "choose": {
+    "message": "Valitse"
+  },
+  "popupIntro": {
+    "message": "Yhteys:"
+  },
+  "invalidPort": {
+    "message": "Syötä portti väliltä 1–65535."
+  },
+  "externalControl": {
+    "message": "Toinen laajennus tai käytäntö hallitsee selaimen välityspalvelinta."
+  },
+  "noNativeRoute": {
+    "message": "Yhdistä paikallinen komponentti ennen solmuprofiilin luomista."
+  },
+  "reload": {
+    "message": "Lataa uudelleen"
+  },
+  "rulesError": {
+    "message": "Jokainen sääntö tarvitsee mallin ja kohteen."
+  },
+  "backupDone": {
+    "message": "Selainprofiilit viety"
+  },
+  "managed": {
+    "message": "Hallittu solmu"
+  },
+  "netRegion": {
+    "message": "Kohdealue"
+  },
+  "netNodeArea": {
+    "message": "Välityspalvelinsolmu"
+  },
+  "netChina": {
+    "message": "Manner-Kiina"
+  },
+  "netGlobal": {
+    "message": "Maailmanlaajuinen"
+  },
+  "netAli": {
+    "message": "AliDNS"
+  },
+  "netTencent": {
+    "message": "DNSPod"
+  },
+  "netStartHelp": {
+    "message": "Valitse kohde ja aloita sitten live-testi."
+  },
+  "netConsole": {
+    "message": "Live-diagnostiikka"
+  },
+  "netStop": {
+    "message": "Pysähdy"
+  },
+  "netRunning": {
+    "message": "Juokse"
+  },
+  "netStopped": {
+    "message": "Pysäytetty"
+  },
+  "netSent": {
+    "message": "Lähetetty"
+  },
+  "netLoss": {
+    "message": "Tappio"
+  },
+  "netAverageShort": {
+    "message": "Keskim"
+  },
+  "netLogClear": {
+    "message": "Selkeä"
+  },
+  "netFinishing": {
+    "message": "Edellinen luotain on päättymässä…"
+  },
+  "netRound": {
+    "message": "Pyöreä"
+  },
+  "netDestination": {
+    "message": "Määränpää"
+  },
+  "netHop": {
+    "message": "Hop"
+  },
+  "netAddress": {
+    "message": "IP osoite"
+  },
+  "netLast": {
+    "message": "Viimeinen"
+  },
+  "netConsoleHelp": {
+    "message": "Ping / TCPing / MTR käyttää järjestelmäverkkoa, ei välityspalvelinketjua. Puuttuvat ICMP vastaukset eivät todista liikenteen menetystä. Lataus käyttää selaimen reittiä ja valittua kokorajoitusta. Testit pysähtyvät, kun poistut tältä sivulta tai piilotat sen."
+  },
+  "netDirectShort": {
+    "message": "Järjestelmäverkko"
+  },
+  "netIcmpShort": {
+    "message": "Ei ICMP vastausta"
+  },
+  "netProbeError": {
+    "message": "Paikallinen anturivirhe"
+  },
+  "netNoDestination": {
+    "message": "Kohdetta ei saavutettu"
+  },
+  "deleteActive": {
+    "message": "Vaihda järjestelmään ja poista"
+  },
+  "deleteActiveHelp": {
+    "message": "Tämä profiili on aktiivinen. Sen poistaminen vaihtaa selaimen järjestelmän välityspalvelimeen."
+  },
+  "netDownloadSize": {
+    "message": "Latauskoko"
+  },
+  "netReceived": {
+    "message": "Vastaanotettu"
+  },
+  "netBest": {
+    "message": "Paras"
+  },
+  "netWorst": {
+    "message": "Huonoin"
+  },
+  "netStdDev": {
+    "message": "Std dev"
+  },
+  "netLocation": {
+    "message": "Sijainti"
+  },
+  "toolWall": {
+    "message": "Verkkotunnuksen eston tarkistus"
+  },
+  "toolSites": {
+    "message": "Suositut sivustot"
+  },
+  "toolGlobal": {
+    "message": "Globaali diagnostiikka"
+  },
+  "toolFast": {
+    "message": "Netflix nopeus"
+  },
+  "toolSpeed": {
+    "message": "Nopeustesti"
+  },
+  "toolStart": {
+    "message": "Aloita"
+  },
+  "toolReady": {
+    "message": "Valmis"
+  },
+  "toolResponded": {
+    "message": "Vastattu"
+  },
+  "toolNoResponse": {
+    "message": "Vahvistamaton"
+  },
+  "toolCacheUnsupported": {
+    "message": "Tämä selain ei voi tyhjentää välimuistia sivustoittain; sivu on ladattu uudelleen."
+  },
+  "toolCacheFailed": {
+    "message": "Välimuistin puhdistus ei päättynyt. Sulje ja yritä uudelleen."
+  },
+  "toolClose": {
+    "message": "Sulje"
+  },
+  "toolReload": {
+    "message": "Lataa uudelleen"
+  },
+  "toolLoading": {
+    "message": "Ladataan…"
+  },
+  "toolFrameError": {
+    "message": "Ei voitu ladata. Kokeile Reload."
+  },
+  "toolSiteHelp": {
+    "message": "Vain selaimen tavoitettavuus. Tämä ei vahvista tilin tai alueellista pääsyä."
+  },
+  "toolFallback": {
+    "message": "Varanopeustesti"
+  },
+  "toolFullscreen": {
+    "message": "Koko näyttö"
+  },
+  "toolRestore": {
+    "message": "Poistu koko näytöstä"
+  },
+  "ipReadFailed": {
+    "message": "Luku epäonnistui. 👉"
+  },
+  "ipViewSource": {
+    "message": "Näytä lähdesivusto"
+  },
+  "toolDownloadError": {
+    "message": "Latauspalvelimeen ei saatu yhteyttä. Yritä uudelleen."
+  },
+  "toolAccess": {
+    "message": "Salli sivuston käyttö"
+  },
+  "toolPermission": {
+    "message": "Salli pääsy tälle sivustolle upotetun istunnon yhteensopivuuden varmistamiseksi."
+  },
+  "toolAsia": {
+    "message": "Aasia"
+  },
+  "toolEurope": {
+    "message": "Eurooppa"
+  },
+  "toolAmerica": {
+    "message": "Pohjois-Amerikka"
+  },
+  "toolGlobalHelp": {
+    "message": "Esitäyttää selaimen poistumiskohdan IP. Valitse Manner-Kiina tai muu alue vertaillaksesi polkuja; Start lähettää näytetyn kohteen jopa kolmeen Globalping anturiin."
+  },
+  "toolServiceError": {
+    "message": "Testipalvelu ei ole käytettävissä. Yritä uudelleen."
+  },
+  "popupOrderHelp": {
+    "message": "Järjestä uudelleen pitämällä ja vetämällä. Alt+nuolinäppäimet myös siirtävät tätä profiilia."
+  },
+  "popupOrderSaved": {
+    "message": "Tilaus tallennettu"
+  },
+  "toolGroupIP": {
+    "message": "IP testit"
+  },
+  "toolGroupWeb": {
+    "message": "Verkkosivustotestit"
+  },
+  "toolGroupSpeed": {
+    "message": "Nopeus"
+  },
+  "toolCurrentIP": {
+    "message": "Nykyinen poistuminen IP"
+  },
+  "toolCurrentIPLoading": {
+    "message": "Ladataan nykyistä ulostuloa IP…"
+  },
+  "toolCurrentIPFailed": {
+    "message": "Ei voitu lukea nykyistä IP. Anna kohde."
+  },
+  "speedMode": {
+    "message": "Testitila"
+  },
+  "speedBoth": {
+    "message": "Lataa + lataa"
+  },
+  "speedDownload": {
+    "message": "Lataa"
+  },
+  "speedUpload": {
+    "message": "Lataa"
+  },
+  "speedLatency": {
+    "message": "HTTP latenssi"
+  },
+  "speedBudget": {
+    "message": "{n} MiB vaihetta kohti · {total} MiB yhteensä, plus pienet latenssinäytteet."
+  },
+  "siteCategory": {
+    "message": "Verkkosivuston luokka"
+  },
+  "siteAll": {
+    "message": "Kaikki verkkosivustot"
+  },
+  "siteAI": {
+    "message": "AI"
+  },
+  "siteDevelopment": {
+    "message": "Kehitys"
+  },
+  "siteVideo": {
+    "message": "Video/musiikki"
+  },
+  "siteSocial": {
+    "message": "Sosiaalinen"
+  },
+  "siteDomestic": {
+    "message": "Manner-palvelut"
+  },
+  "siteServices": {
+    "message": "Yhteiset palvelut"
+  },
+  "globalMethod": {
+    "message": "Mittaustyyppi"
+  },
+  "localPort": {
+    "message": "Paikallinen portti:"
+  },
+  "chainChooseNode": {
+    "message": "Valitse välityspalvelinsolmu"
+  },
+  "chainTitle": {
+    "message": "Välityspalvelinketju"
+  },
+  "chainSelectExit": {
+    "message": "Valitse alta tietty poistumissolmu tämän mukautetun ketjun tallentamiseksi tai testaamiseksi. Seuraa v2rayN hallinnoi v2rayN."
+  },
+  "chainSelectExitShort": {
+    "message": "Valitse poistumissolmu"
+  },
+  "chainAdd": {
+    "message": "+ Lisää välityspalvelintaso"
+  },
+  "chainTest": {
+    "message": "Testiketju"
+  },
+  "chainMode": {
+    "message": "Ketjutila"
+  },
+  "chainBase": {
+    "message": "Perusvälityspalvelin"
+  },
+  "chainExit": {
+    "message": "Poistu välityspalvelimesta"
+  },
+  "chainEgress": {
+    "message": "Ketjun ulostulo"
+  },
+  "chainExitBadge": {
+    "message": "Poistu IP"
+  },
+  "chainEntry": {
+    "message": "Ketju"
+  },
+  "chainTransit": {
+    "message": "Siltasolmu"
+  },
+  "chainUntested": {
+    "message": "Ei testattu"
+  },
+  "chainMissing": {
+    "message": "Ei käytettävissä solmu"
+  },
+  "chainUnresolved": {
+    "message": "Perinnöllistä ketjua ei voi selvittää. Korjaa edeltäjänsä asetukset tai valitse mukautettu ketju."
+  },
+  "chainUpgrade": {
+    "message": "Päivitä paikallinen kumppani ottaaksesi tilatut ketjut käyttöön."
+  },
+  "chainBusy": {
+    "message": "Toinen ketjutesti on käynnissä"
+  },
+  "chainOK": {
+    "message": "Tavoitettavissa"
+  },
+  "chainFailed": {
+    "message": "Hyppy epäonnistui tässä testissä"
+  },
+  "chainBlocked": {
+    "message": "Ei testattu · edellinen hyppy epäonnistui"
+  },
+  "chainFailureHelp": {
+    "message": "Tämä hyppy tai polku siihen ei mennyt. Myöhemmin humalaa ei testattu."
+  },
+  "chainAllOK": {
+    "message": "Kaikki kumulatiiviset polut vastasivat"
+  },
+  "chainStopping": {
+    "message": "Pysähtyy nykyisen rajatun anturin jälkeen…"
+  },
+  "globalWorld": {
+    "message": "Maailmanlaajuisesti"
+  },
+  "globalUnavailable": {
+    "message": "Kohde tai alue ei ole käytettävissä. Tarkista kohde tai valitse toinen alue."
+  },
+  "globalRateLimited": {
+    "message": "Palvelun nopeusraja saavutettiin. Yritä myöhemmin uudelleen."
+  },
+  "globalNoResults": {
+    "message": "Palvelu ei palauttanut tutkimustuloksia. Kokeile toista aluetta."
+  },
+  "globalProbeFailed": {
+    "message": "Anturi epäonnistui"
+  },
+  "globalProbeOffline": {
+    "message": "Tutki offline-tilassa"
+  },
+  "globalIcmpCaution": {
+    "message": "Puuttuvat ICMP vastaukset eivät yksinään todista estämistä. Vertaa mantereen ja merentakaisten polkuja ja muita testityyppejä."
+  },
+  "speedRealtime": {
+    "message": "Reaaliaikainen nopeus"
+  },
+  "speedAverage": {
+    "message": "Keskinopeus"
+  },
+  "ipToolsBrief": {
+    "message": "Kolmannen osapuolen tulokset ovat viitteellisiä."
+  },
+  "ipReportBrief": {
+    "message": "Tulokset vaihtelevat poistumiskohdan IP mukaan ja ovat viitteellisiä."
+  },
+  "toolPingPe": {
+    "message": "IP eston tarkistus"
+  },
+  "toolTargetIP": {
+    "message": "Kohde IP"
+  },
+  "toolOpenPingPe": {
+    "message": "Avoin virallinen testi"
+  },
+  "toolInvalidIP": {
+    "message": "Anna kelvollinen IPv4- tai IPv6-osoite."
+  },
+  "toolInvalidPort": {
+    "message": "Syötä TCP portti väliltä 1–65535."
+  },
+  "toolExternalFailed": {
+    "message": "Verkkosivustoa ei voitu avata. Yritä uudelleen."
+  },
+  "ipBrowserReading": {
+    "message": "Luetaan Ping0 selaimen kautta…"
+  },
+  "ipVerifyBrowser": {
+    "message": "Avaa vahvistussivu"
+  },
+  "policyCenter": {
+    "message": "Yksityisyys, ilmoitus ja usein kysytyt kysymykset"
+  },
+  "policyCenterIntro": {
+    "message": "Paikallinen tiedonkäsittely, testirajat ja yleiset vastaukset."
+  },
+  "policyPrivacyTitle": {
+    "message": "Tietosuojakäytäntö"
+  },
+  "policyPrivacySummary": {
+    "message": "Profiilit ja kirjautumistiedot pysyvät tällä laitteella. Ponnahdusikkunoiden tarkistukset ja diagnostiikka ottavat yhteyttä ilmoitettuihin palveluntarjoajiinsa. Ei mainontaa tai käyttäytymisanalytiikkaa."
+  },
+  "policyDeclarationTitle": {
+    "message": "Käyttö- ja mittausseloste"
+  },
+  "policyDeclarationSummary": {
+    "message": "Tämä laajennus on paikallinen reitinhallinta, ei välityspalvelin tai VPN-palveluntarjoaja. Mittaukset ovat vertailunäytteitä, joihin verkon, välityspalvelimen ja palveluntarjoajan ehdot vaikuttavat."
+  },
+  "policyFaqTitle": {
+    "message": "FAQ"
+  },
+  "policyFaqSummary": {
+    "message": "Windows kumppani vaaditaan paikallisille solmuille ja MTR:lle. Latenssi voi vaihdella selaimen, järjestelmän ja julkisten koettimien välillä. Pysäytä testi tai tyhjennä paikalliset tiedot asetuksista."
+  },
+  "policyDetailsLink": {
+    "message": "Lue täydelliset tiedot ↗"
+  },
+  "thirdPartyNotice": {
+    "message": "Avoimen lähdekoodin huomautukset ↗"
+  },
+  "columnResizeHelp": {
+    "message": "Muuta kokoa vetämällä; nollaa kaksoisnapsauttamalla; käytä nuolinäppäimiä säätääksesi"
+  },
+  "columnResize": {
+    "message": "Muuta sarakkeen kokoa"
+  },
+  "typeDescription_node": {
+    "message": "Yhdistä välityspalvelinsolmun kautta"
+  },
+  "typeDescription_manual": {
+    "message": "Anna välityspalvelimen asetukset manuaalisesti"
+  },
+  "typeDescription_auto": {
+    "message": "Valitse solmu sääntöjen avulla"
+  },
+  "typeDescription_pac": {
+    "message": "Reititä liikenne PAC sääntöjen mukaan"
+  },
+  "appDescription": {
+    "message": "Selaimen välityspalvelimen reitit, solmut ja verkkotunnuksen säännöt. Solmureitit tarvitsevat kumppanin Windows."
+  },
+  "core_title": {
+    "message": "Välityspalvelimen ydin"
+  },
+  "core_checking": {
+    "message": "Tarkistetaan paikallista komponenttia…"
+  },
+  "core_ready": {
+    "message": "Xray on valmis"
+  },
+  "core_missing": {
+    "message": "Välityspalvelimen ydin puuttuu"
+  },
+  "core_external": {
+    "message": "Mukautettu ydin: ei vahvistettu"
+  },
+  "core_corrupt": {
+    "message": "Xray tarkistussumma ei täsmää — korjaus vaaditaan"
+  },
+  "core_unreadable": {
+    "message": "Ydintiedostoa ei voitu tarkistaa"
+  },
+  "core_intro": {
+    "message": "Täydellinen Windows-paketti sisältää Xray. v2rayN on valinnainen."
+  },
+  "core_verify": {
+    "message": "Tarkista uudelleen"
+  },
+  "core_install": {
+    "message": "Asenna/korjaa ydin"
+  },
+  "core_installing": {
+    "message": "Ladataan ja tarkistetaan…"
+  },
+  "core_done": {
+    "message": "Ydin varmistettu ja valmis"
+  },
+  "core_help": {
+    "message": "Repair käyttää kiinnitettyä virallista Xray julkaisua ja tarkistaa sen tarkistussumman. Olemassa olevat yhteydet pysyvät käynnissä."
+  },
+  "core_absent": {
+    "message": "Asenna paikallinen komponentti kerran ja palaa sitten tänne tarkistaaksesi ytimen."
+  },
+  "core_download": {
+    "message": "Asennusopas"
+  },
+  "core_absentHelp": {
+    "message": "Käytä vastaavaa Windows-pakettia tai noudata ohjetta rakentaaksesi se lähteestä ja suorita sitten asennus."
+  },
+  "core_failed": {
+    "message": "Ydintoiminto epäonnistui. Yritä uudelleen tai käytä koko pakettia Windows."
+  },
+  "core_version": {
+    "message": "Versio"
+  },
+  "error_ACTIVE_PROFILE_DELETE": {
+    "message": "Vaihda toiseen profiiliin ennen poistamista"
+  },
+  "error_BACKUP_BINDING_TYPE": {
+    "message": "Vain välityspalvelinprofiileilla voi olla reittisidoksia"
+  },
+  "error_BACKUP_FORMAT3_REQUIRED": {
+    "message": "Solmusäännöt vaativat siirrettävän varmuuskopion muodossa 3"
+  },
+  "error_BACKUP_INDEPENDENT_PATH_REQUIRED": {
+    "message": "Varmuuskopion on sisällettävä itsenäinen solmupolku"
+  },
+  "error_BACKUP_INTERNAL_BINDINGS": {
+    "message": "Varmuuskopio sisältää sisäisiä sidoksia"
+  },
+  "error_BACKUP_MESSAGE_LIMIT": {
+    "message": "Solmujen varmuuskopio ylittää apuohjelman viestirajan"
+  },
+  "error_BACKUP_NODES_INCOMPLETE": {
+    "message": "Puutteellinen solmujen varmuuskopio"
+  },
+  "error_BACKUP_NODE_MISSING": {
+    "message": "Varmuuskopiosta puuttuu tarvittava solmu"
+  },
+  "error_BACKUP_NODE_PATHS_LIMIT": {
+    "message": "Varmuuskopio tukee enintään {limit} solmupolkua"
+  },
+  "error_BACKUP_PATH_INCOMPLETE": {
+    "message": "Varmuuskopion solmupolku on puutteellinen"
+  },
+  "error_BACKUP_PROFILES_LIMIT": {
+    "message": "Varmuuskopio tukee enintään {limit} profiilia"
+  },
+  "error_BACKUP_PROXY_CONFLICT": {
+    "message": "Varmuuskopion välityspalvelinasetukset ovat ristiriidassa"
+  },
+  "error_BACKUP_SIZE_LIMIT": {
+    "message": "Varmuuskopio ylittää {limit} Mt"
+  },
+  "error_BACKUP_TRANSFER_UNAVAILABLE": {
+    "message": "Päivitä tai korjaa apuohjelma siirtääksesi solmujen varmuuskopioita."
+  },
+  "error_BACKUP_UNUSED_NODES": {
+    "message": "Varmuuskopio sisältää solmuja, joihin ei viitata"
+  },
+  "error_BODY_TOO_LARGE": {
+    "message": "Tilauksen vastaus ylittää sallitun koon."
+  },
+  "error_BROWSER_API_FAILED": {
+    "message": "Selaintoiminto epäonnistui. Katso tekniset tiedot."
+  },
+  "error_BROWSER_PROXY_RESTORE_FAILED": {
+    "message": "Toiminto epäonnistui, eikä selaimen aiempaa välityspalvelinta voitu palauttaa"
+  },
+  "error_BROWSER_SCHEDULING_UNAVAILABLE": {
+    "message": "Selaimen ajastus ei ole käytettävissä."
+  },
+  "error_BUSY": {
+    "message": "Toinen toiminto on käynnissä. Yritä hetken kuluttua uudelleen."
+  },
+  "error_CHAIN_PROBE_FAILED": {
+    "message": "Ketjun testaus epäonnistui"
+  },
+  "error_COMPANION_BULK_RELEASE_REQUIRED": {
+    "message": "Päivitä paikallinen apuohjelma hallitaksesi useita solmusääntöjä turvallisesti"
+  },
+  "error_COMPANION_CHAINS_REQUIRED": {
+    "message": "Päivitä paikallinen apuohjelma ottaaksesi järjestetyt ketjut käyttöön"
+  },
+  "error_COMPANION_MESSAGE_LIMIT": {
+    "message": "Asetukset ylittävät apuohjelman viestirajan"
+  },
+  "error_COMPANION_OPERATION_FAILED": {
+    "message": "Paikallisen apuohjelman toiminto epäonnistui. Katso tekniset tiedot."
+  },
+  "error_COMPANION_UNAVAILABLE": {
+    "message": "Asenna tai korjaa V2Route Companion"
+  },
+  "error_CONNECTION_CLOSED": {
+    "message": "Yhteys sulkeutui ennen testin valmistumista."
+  },
+  "error_CORE_INSTALL_FAILED": {
+    "message": "Ytimen asennus epäonnistui. Katso tekniset tiedot."
+  },
+  "error_CORE_OWNERSHIP_FAILED": {
+    "message": "Eristettyä testiydintä ei voitu hallita turvallisesti. Testi pysäytettiin."
+  },
+  "error_CORE_START_FAILED": {
+    "message": "Eristetty testiydin ei käynnistynyt. Tarkista apuohjelman ja ytimen asennus."
+  },
+  "error_CORE_START_TIMEOUT": {
+    "message": "Eristetty testiydin ei valmistunut ajoissa."
+  },
+  "error_CORE_STATUS_UNAVAILABLE": {
+    "message": "Ytimen tila ei ole saatavilla. Katso tekniset tiedot."
+  },
+  "error_CORE_VALIDATION_FAILED": {
+    "message": "Xray ei voinut vahvistaa tuotuja solmuja. Tarkista niiden asetukset ja yritä uudelleen."
+  },
+  "error_DETACH_PORT_CONFLICT": {
+    "message": "Hallittu portti vapautetaan. Anna toinen manuaalinen välityspalvelin"
+  },
+  "error_DETACH_PROXY_REQUIRED": {
+    "message": "Anna korvaava manuaalinen välityspalvelin ennen irrottamista"
+  },
+  "error_DNS_BUSY": {
+    "message": "DNS-haku on varattu. Yritä hetken kuluttua uudelleen."
+  },
+  "error_DNS_FAILED": {
+    "message": "DNS-haku epäonnistui. Tarkista osoite ja verkkoyhteys."
+  },
+  "error_ENCODING_UNSUPPORTED": {
+    "message": "Tilauksen sisällön koodausta ei tueta."
+  },
+  "error_FIREFOX_PRIVATE_ACCESS_REQUIRED": {
+    "message": "Salli V2Route yksityisissä ikkunoissa laajennuksen tiedoissa ennen välityspalvelinasetusten muuttamista"
+  },
+  "error_FOLDER_UNAVAILABLE": {
+    "message": "Kansio ei ole käytettävissä; tarkista polku, käyttöoikeudet ja apuohjelman versio"
+  },
+  "error_GROUP_LIMIT": {
+    "message": "Ryhmien enimmäismäärä on saavutettu. Poista käyttämätön ryhmä ja yritä uudelleen."
+  },
+  "error_GROUP_NOT_EDITABLE": {
+    "message": "Tätä lähderyhmää ei voi muokata tässä."
+  },
+  "error_GROUP_NOT_FOUND": {
+    "message": "Valittua ryhmää ei enää ole. Valitse toinen ryhmä."
+  },
+  "error_HTTP_ENCODING": {
+    "message": "Testipalvelin palautti koodauksen, jota ei tueta."
+  },
+  "error_HTTP_LENGTH": {
+    "message": "Testivastauksen koko ei vastannut pyydettyä kokoa."
+  },
+  "error_HTTP_RESPONSE_TOO_LARGE": {
+    "message": "Testivastaus ylitti sallitun koon."
+  },
+  "error_HTTP_STATUS": {
+    "message": "Testipalvelin palautti epäonnistuneen HTTP-tilan."
+  },
+  "error_IMPORTED_PROXY_MISSING": {
+    "message": "Apuohjelma ei palauttanut tuotua välityspalvelinta"
+  },
+  "error_IMPORTED_RULE_PATH_CONFLICT": {
+    "message": "Tuodut solmut johtavat ristiriitaisiin sääntöpolkuihin"
+  },
+  "error_IMPORT_CLEANUP_FAILED": {
+    "message": "Tuonti epäonnistui; joitakin väliaikaisia solmuja tai portteja ei voitu vapauttaa. Nykyiset profiilit säilytettiin"
+  },
+  "error_IMPORT_PROFILE_NAME_CONFLICT": {
+    "message": "Päällekkäinen tai virheellinen profiilinimi"
+  },
+  "error_INCOMPLETE_RESPONSE": {
+    "message": "Tilauksen vastaus oli puutteellinen. Yritä uudelleen."
+  },
+  "error_INVALID_BACKUP": {
+    "message": "Virheellinen V2Route-varmuuskopio"
+  },
+  "error_INVALID_BACKUP_NODE": {
+    "message": "Virheellinen tai päällekkäinen varmuuskopion solmu"
+  },
+  "error_INVALID_BACKUP_NODES": {
+    "message": "Virheelliset varmuuskopion solmut"
+  },
+  "error_INVALID_BACKUP_PATH": {
+    "message": "Virheellinen varmuuskopion polku"
+  },
+  "error_INVALID_BYPASS_ENTRY": {
+    "message": "Virheellinen ohitusmerkintä"
+  },
+  "error_INVALID_BYPASS_LIST": {
+    "message": "Virheellinen ohitusluettelo"
+  },
+  "error_INVALID_CHAIN": {
+    "message": "Virheellinen järjestetty ketju"
+  },
+  "error_INVALID_CHAIN_PROBE": {
+    "message": "Virheellinen ketjutesti"
+  },
+  "error_INVALID_COMPANION_RESPONSE": {
+    "message": "Paikallinen apuohjelma palautti virheellisen vastauksen. Päivitä tai korjaa se."
+  },
+  "error_INVALID_CONTENT": {
+    "message": "Tilauksen vastaus ei sisällä kelvollista sisältöä."
+  },
+  "error_INVALID_DOMAIN_PATTERNS": {
+    "message": "Anna verkkotunnusmallit pilkuilla erotettuina; laita jokainen URL omalle rivilleen"
+  },
+  "error_INVALID_ENCODING": {
+    "message": "Tilauksen vastaus ei ole kelvollista UTF-8-tekstiä."
+  },
+  "error_INVALID_FOLDER_REQUEST": {
+    "message": "Virheellinen kansiopyyntö"
+  },
+  "error_INVALID_GROUP_ACTION": {
+    "message": "Tätä ryhmätoimintoa ei tueta."
+  },
+  "error_INVALID_HOP_INDEX": {
+    "message": "Virheellinen hypyn indeksi"
+  },
+  "error_INVALID_LEGACY_PREDECESSOR": {
+    "message": "Virheellinen vanha edeltäjä"
+  },
+  "error_INVALID_LIBRARY_COMMAND": {
+    "message": "Tätä solmukirjaston komentoa ei tueta."
+  },
+  "error_INVALID_LIBRARY_REQUEST": {
+    "message": "Virheellinen kirjastopyyntö"
+  },
+  "error_INVALID_NAME": {
+    "message": "Anna nimi, jossa on 1–128 näkyvää merkkiä eikä ohjausmerkkejä."
+  },
+  "error_INVALID_NETWORK_TEST": {
+    "message": "Virheellinen verkkotesti"
+  },
+  "error_INVALID_NODE_IMPORT_RESPONSE": {
+    "message": "Virheellinen solmutuonnin vastaus"
+  },
+  "error_INVALID_PREDECESSOR": {
+    "message": "Tämän reitin edeltäjä on virheellinen"
+  },
+  "error_INVALID_PROFILE_NAME": {
+    "message": "Virheellinen profiilinimi"
+  },
+  "error_INVALID_PROFILE_REFERENCE": {
+    "message": "Virheellinen profiiliviittaus"
+  },
+  "error_INVALID_PROXY_AUTH": {
+    "message": "Virheellinen välityspalvelimen todennus"
+  },
+  "error_INVALID_PROXY_CREDENTIALS": {
+    "message": "Virheelliset välityspalvelimen tunnistetiedot"
+  },
+  "error_INVALID_PROXY_ENDPOINT": {
+    "message": "Anna kelvollinen välityspalvelimen osoite ja portti"
+  },
+  "error_INVALID_PROXY_HOST": {
+    "message": "Anna DNS-nimi tai IP-osoite ilman porttia, URL-osoitetta, polkua tai kyselyä"
+  },
+  "error_INVALID_ROUTE": {
+    "message": "Virheellinen reitti"
+  },
+  "error_INVALID_ROUTE_SETTINGS": {
+    "message": "Virheelliset reittiasetukset"
+  },
+  "error_INVALID_RULES": {
+    "message": "Virheelliset säännöt"
+  },
+  "error_INVALID_RULE_TARGET": {
+    "message": "Valitse jokaiselle säännölle yksi kelvollinen solmu tai profiili"
+  },
+  "error_INVALID_SUBSCRIPTION": {
+    "message": "Virheellinen tilaus"
+  },
+  "error_INVALID_SUBSCRIPTION_REQUEST": {
+    "message": "Virheellinen tilauspyyntö"
+  },
+  "error_INVALID_SUBSCRIPTION_SETTINGS": {
+    "message": "Tilauksen asetukset ovat virheelliset. Tarkista päivitysväli ja yhteyskäytäntö."
+  },
+  "error_INVALID_SYSTEM_PROXY_RESPONSE": {
+    "message": "Järjestelmän välityspalvelimen vastaus on virheellinen; päivitä tai korjaa apuohjelma"
+  },
+  "error_INVALID_TRANSPORT": {
+    "message": "Tilauksen yhteysasetukset ovat virheelliset."
+  },
+  "error_INVALID_URL": {
+    "message": "Anna kelvollinen HTTP(S)-tilausosoite ilman käyttäjänimeä tai salasanaa."
+  },
+  "error_LIBRARY_CHANGED": {
+    "message": "Solmukirjasto muuttui toisessa ikkunassa. Päivitä näkymä ja yritä uudelleen."
+  },
+  "error_MANUAL_CHAIN_UNSUPPORTED": {
+    "message": "Manuaaliset välityspalvelimet eivät hyväksy solmuketjua"
+  },
+  "error_MANUAL_PROXY_CLEANUP_FAILED": {
+    "message": "Tallennus epäonnistui; väliaikainen tuotu välityspalvelin jäi solmukirjastoon"
+  },
+  "error_NATIVE_BINDING_ID": {
+    "message": "Virheellinen reittisidoksen tunniste."
+  },
+  "error_NATIVE_BINDING_UNKNOWN": {
+    "message": "Reittisidosta ei ole."
+  },
+  "error_NATIVE_BUTTON_NAME": {
+    "message": "Painikkeen nimessä on oltava 1–128 näkyvää merkkiä."
+  },
+  "error_NATIVE_CATALOG_UNREADABLE": {
+    "message": "v2rayN-määritystä ei voitu lukea."
+  },
+  "error_NATIVE_CORE_MISSING": {
+    "message": "Xray ei ole käytettävissä. Asenna apuohjelmapaketti."
+  },
+  "error_NATIVE_GROUP_ID_COLLISION": {
+    "message": "Ryhmätunnisteet ovat ristiriidassa."
+  },
+  "error_NATIVE_GROUP_ORDER": {
+    "message": "Virheellinen ryhmäjärjestys."
+  },
+  "error_NATIVE_NODE_ID_COLLISION": {
+    "message": "Solmutunnisteet ovat ristiriidassa."
+  },
+  "error_NATIVE_PREDECESSOR_AMBIGUOUS": {
+    "message": "Edeltäjän nimi puuttuu tai esiintyy useasti. Valitse tietty edeltäjäsolmu."
+  },
+  "error_NATIVE_PREDECESSOR_CYCLE": {
+    "message": "Edeltäjäketju sisältää silmukan tai yli kuusi solmua."
+  },
+  "error_NATIVE_PREDECESSOR_INVALID": {
+    "message": "Valitse kelvollinen edeltävä välityspalvelin."
+  },
+  "error_NATIVE_PREDECESSOR_MISSING": {
+    "message": "Valittua edeltäjää ei enää ole. Valitse toinen solmu."
+  },
+  "error_NATIVE_PREDECESSOR_SETTINGS": {
+    "message": "Virheelliset edeltäjän asetukset."
+  },
+  "error_NATIVE_ROUTE_INVALID": {
+    "message": "Valitse kelvollinen reitti."
+  },
+  "error_NATIVE_ROUTE_MISSING": {
+    "message": "Tätä reittiä ei enää ole. Valitse toinen reitti."
+  },
+  "error_NATIVE_ROUTE_PORTS": {
+    "message": "Virheelliset reitin porttimääritykset."
+  },
+  "error_NATIVE_ROUTE_UNAVAILABLE": {
+    "message": "Valittu reitti ei ole käytettävissä. Katso tekniset tiedot."
+  },
+  "error_NATIVE_SETTINGS_FORMAT": {
+    "message": "Virheellinen asetusmuoto."
+  },
+  "error_NATIVE_SETTINGS_REVISION": {
+    "message": "Virheellinen asetusten revisio."
+  },
+  "error_NATIVE_SUCCESSOR_UNSUPPORTED": {
+    "message": "Tämä ryhmä käyttää seuraavaa välityspalvelinta, jota ei tueta."
+  },
+  "error_NATIVE_UNSUPPORTED_CUSTOM": {
+    "message": "Tämä versio ei tue mukautettuja ulostulomäärityksiä."
+  },
+  "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
+    "message": "Tämä versio ei tue Hysteria2:ta."
+  },
+  "error_NATIVE_UNSUPPORTED_TUIC": {
+    "message": "Tämä versio ei sisällä TUIC:n tarvitsemaa sing-box-ydintä."
+  },
+  "error_NATIVE_UNSUPPORTED_TYPE": {
+    "message": "Tätä reittityyppiä ei tueta."
+  },
+  "error_NATIVE_V2RAYN_PORT": {
+    "message": "Paikallinen v2rayN-portti on virheellinen."
+  },
+  "error_NATIVE_V2RAYN_UNAVAILABLE": {
+    "message": "v2rayN ei ole käytettävissä. Valitse tuotu solmu."
+  },
+  "error_NETWORK_FAILED": {
+    "message": "Verkkopyyntö epäonnistui. Tarkista yhteys ja yritä uudelleen."
+  },
+  "error_NETWORK_TEST_FAILED": {
+    "message": "Verkkodiagnostiikka epäonnistui. Katso tekniset tiedot."
+  },
+  "error_NODE_LIMIT": {
+    "message": "Toiminto ylittäisi solmujen enimmäismäärän. Poista käyttämättömiä solmuja ja yritä uudelleen."
+  },
+  "error_NODE_MAPPING_INCOMPLETE": {
+    "message": "Solmukartoitus on puutteellinen"
+  },
+  "error_NODE_NOT_FOUND": {
+    "message": "Valittua solmua ei enää ole. Valitse toinen solmu."
+  },
+  "error_NOT_DUE": {
+    "message": "Seuraavan ajastetun päivityksen aika ei ole vielä tullut."
+  },
+  "error_PAC_ENTRY_REQUIRED": {
+    "message": "Anna PAC-lähdekoodi, jossa on FindProxyForURL"
+  },
+  "error_PAC_FUNCTION_REQUIRED": {
+    "message": "Määritä ylimmälle tasolle synkroninen FindProxyForURL-funktio, funktiomuuttuja tai sijoitus"
+  },
+  "error_PAC_PARSER_UNAVAILABLE": {
+    "message": "Mukana toimitettu PAC-jäsennin ei ole käytettävissä; asenna laajennus uudelleen"
+  },
+  "error_PAC_RULE_TARGET_UNSUPPORTED": {
+    "message": "Automaattiset säännöt eivät voi kohdistua profiiliin, jossa on sisäinen PAC"
+  },
+  "error_PAC_SOURCE_LIMIT": {
+    "message": "Anna enintään {limit} merkkiä PAC-lähdekoodia"
+  },
+  "error_PAC_SYNTAX_INVALID": {
+    "message": "Virheellinen PAC-syntaksi"
+  },
+  "error_PAC_SYNTAX_LOCATION": {
+    "message": "Virheellinen PAC-syntaksi rivillä {line}, sarakkeessa {column}"
+  },
+  "error_PARTIAL_TRANSFER": {
+    "message": "Testisiirto päättyi ennen kaikkien tietojen vastaanottamista."
+  },
+  "error_PRIVATE_DIRECTORY_FAILED": {
+    "message": "Yksityistä testikansiota ei voitu suojata. Testi pysäytettiin."
+  },
+  "error_PRIVATE_TARGET": {
+    "message": "Tilauspyyntöjä yksityisiin tai paikallisiin osoitteisiin ei sallita."
+  },
+  "error_PROFILE_NOT_FOUND": {
+    "message": "Profiilia ei löytynyt"
+  },
+  "error_PROFILE_REFERENCE_CYCLE": {
+    "message": "Kehämäiset profiiliviittaukset"
+  },
+  "error_PROFILE_REFERENCE_DEPTH": {
+    "message": "Automaattiset säännöt ylittävät enimmäissyvyyden {limit}"
+  },
+  "error_PROFILE_REFERENCE_MISSING": {
+    "message": "Viitattua profiilia ei ole: {name}"
+  },
+  "error_PROFILE_SAVE_RESTORE_FAILED": {
+    "message": "Tallennus epäonnistui, ja reitin palautus vaatii huomiota"
+  },
+  "error_PROXY_AUTH_REQUIRED": {
+    "message": "Tilauksen välityspalvelin vaatii todennuksen, jota tämä pyyntö ei voi tarjota."
+  },
+  "error_PROXY_CONTROL_UNAVAILABLE": {
+    "message": "Toinen laajennus tai käytäntö hallitsee välityspalvelinta"
+  },
+  "error_PROXY_DNS_REQUIRED": {
+    "message": "V2Route ratkaisee SOCKS5 DNS:n välityspalvelimen kautta"
+  },
+  "error_PROXY_FAILED": {
+    "message": "Välityspalvelinyhteys epäonnistui. Tarkista valittu reitti."
+  },
+  "error_PROXY_PROFILE_REQUIRED": {
+    "message": "Valitse välityspalvelinprofiili"
+  },
+  "error_PROXY_ROLLBACK_REFUSED": {
+    "message": "Selain hylkäsi välityspalvelimen palautuksen"
+  },
+  "error_PROXY_SETTING_REFUSED": {
+    "message": "Selain hylkäsi välityspalvelinasetuksen"
+  },
+  "error_PROXY_UNAVAILABLE": {
+    "message": "Valittu välityspalvelin ei ole käytettävissä. Tarkista nykyinen reitti."
+  },
+  "error_PROXY_USERNAME_REQUIRED": {
+    "message": "Anna välityspalvelimen käyttäjänimi"
+  },
+  "error_RECOVERY_BINDINGS_LIMIT": {
+    "message": "Palautus voi palauttaa enintään {limit} solmusidosta. Avaa ja tallenna viitatut profiilit erikseen."
+  },
+  "error_REDIRECT_LIMIT": {
+    "message": "Tilaus uudelleenohjattiin liian monta kertaa. Tarkista sen URL-osoite."
+  },
+  "error_REFERENCED_PROFILE_DELETE": {
+    "message": "Automaattinen sääntö viittaa tähän profiiliin"
+  },
+  "error_REMOTE_PAC_UNSUPPORTED": {
+    "message": "Käytä sisäistä PAC-lähdekoodia; etä-PAC ei ole tuettu"
+  },
+  "error_ROUTE_PORT_UNAVAILABLE": {
+    "message": "Porttia ei varattu"
+  },
+  "error_ROUTE_RECOVERY_RESTORE_FAILED": {
+    "message": "Reitin palautus epäonnistui ja vaatii huomiota"
+  },
+  "error_ROUTE_REVISION_CONFLICT": {
+    "message": "Reitti muuttui toisessa ikkunassa. Päivitä näkymä ensin"
+  },
+  "error_ROUTE_SAVE_ROLLBACK_FAILED": {
+    "message": "Reitin tallennus epäonnistui, ja palautus vaatii huomiota"
+  },
+  "error_ROUTE_UNAVAILABLE": {
+    "message": "Testireitti ei ole käytettävissä. Tarkista solmun ja edeltäjän asetukset."
+  },
+  "error_RULE_BINDING_MISSING": {
+    "message": "Solmusäännön sidos puuttuu. Avaa ja tallenna automaattinen profiili uudelleen: {name}"
+  },
+  "error_RULE_NODES_LIMIT": {
+    "message": "Automaattiset säännöt tukevat enintään {limit} eri solmua"
+  },
+  "error_RULE_NODE_CHANGED": {
+    "message": "Solmusääntö ei ole käytettävissä tai muuttui. Palauta solmu tai valitse toinen ja tallenna: {name}"
+  },
+  "error_RULE_PATH_CONFLICT": {
+    "message": "Ristiriitaiset solmusääntöpolut"
+  },
+  "error_RULE_PATTERNS_LIMIT": {
+    "message": "Automaattiset säännöt tukevat yhteensä enintään {limit} vastaavuusmallia"
+  },
+  "error_RULE_PORT_UNAVAILABLE": {
+    "message": "Solmusäännön portti ei ole käytettävissä"
+  },
+  "error_RULE_REVISION_CONFLICT": {
+    "message": "Solmusääntö muuttui toisessa ikkunassa. Päivitä näkymä ensin"
+  },
+  "error_SELECTED_NODE_UNAVAILABLE": {
+    "message": "Valittu solmu ei ole käytettävissä. Palauta se tai valitse toinen solmu"
+  },
+  "error_SOCKS_FAILED": {
+    "message": "SOCKS-yhteyttä ei voitu muodostaa."
+  },
+  "error_STARTUP_FALLBACK_REFUSED": {
+    "message": "Selain hylkäsi käynnistyksen varavälityspalvelimen."
+  },
+  "error_SUBSCRIPTION_CHANGED": {
+    "message": "Tilaus muuttui päivityksen aikana. Päivitä näkymä ja yritä uudelleen."
+  },
+  "error_SUBSCRIPTION_HTTP_STATUS": {
+    "message": "Tilauspalvelin palautti HTTP {status}."
+  },
+  "error_SUBSCRIPTION_LIMIT": {
+    "message": "Tilausten enimmäismäärä on saavutettu. Poista käyttämätön tilaus ja yritä uudelleen."
+  },
+  "error_SUBSCRIPTION_NOT_FOUND": {
+    "message": "Valittua tilausta ei enää ole."
+  },
+  "error_SYSTEM_PROXY_SNAPSHOT_UNAVAILABLE": {
+    "message": "Käytetyn järjestelmävälityspalvelimen tilannekuva ei ole saatavilla."
+  },
+  "error_SYSTEM_PROXY_TIMEOUT": {
+    "message": "Järjestelmän välityspalvelimen lukeminen aikakatkaistiin"
+  },
+  "error_SYSTEM_PROXY_UNAVAILABLE": {
+    "message": "Järjestelmän välityspalvelin ei ole käytettävissä. Katso tekniset tiedot."
+  },
+  "error_TIMEOUT": {
+    "message": "Pyyntö aikakatkaistiin. Tarkista yhteys ja yritä uudelleen."
+  },
+  "error_TLS_DOWNGRADE": {
+    "message": "Tilauksen uudelleenohjaus HTTPS:stä HTTP:hen estettiin."
+  },
+  "error_TLS_FAILED": {
+    "message": "Suojattua yhteyttä ei voitu vahvistaa. Tarkista palvelin ja varmenne."
+  },
+  "error_UNSAFE_TEMP_PATH": {
+    "message": "Väliaikainen testikansio ei ole turvallinen. Testi pysäytettiin."
+  },
+  "error_UNSUPPORTED_LIBRARY_REQUEST": {
+    "message": "Kirjastopyyntöä ei tueta"
+  },
+  "error_UNSUPPORTED_PROFILE_TYPE": {
+    "message": "Profiilityyppiä ei tueta"
+  },
+  "error_UNSUPPORTED_REQUEST": {
+    "message": "Pyyntöä ei tueta"
+  },
+  "error_UNSUPPORTED_RULE_CONDITION": {
+    "message": "Vain isäntänimien ja URL-osoitteiden jokerimerkkisääntöjä tuetaan"
+  },
+  "error_UPDATE_FAILED": {
+    "message": "Tilauksen päivitys epäonnistui. Nykyiset solmut säilytettiin."
+  },
+  "error_VALIDATION_FAILED": {
+    "message": "Tilauksen sisältöä ei voitu vahvistaa. Nykyiset solmut säilytettiin."
+  },
+  "nativeUnnamedNode": {
+    "message": "Nimetön solmu"
+  },
+  "nativeProtocolCustom": {
+    "message": "Mukautettu"
+  },
+  "nativeProtocolOutbound": {
+    "message": "Mukautettu ulostulo"
+  },
+  "nativeProtocolGroup": {
+    "message": "Käytäntöryhmä"
+  },
+  "nativeProtocolChain": {
+    "message": "Välityspalvelinketju"
+  },
+  "nativeProtocolUnknown": {
+    "message": "Tyyppiä ei tueta"
+  },
+  "languageLoadFailed": {
+    "message": "Valittua kieltä ei voitu ladata. Yritä uudelleen."
+  },
+  "invalidBackupJSON": {
+    "message": "Varmuuskopio ei ole kelvollista JSON-dataa."
+  },
+  "noticeBodyLanguages": {
+    "message": "Käytäntöjen koko teksti on saatavilla englanniksi ja yksinkertaistetulla kiinalla."
+  },
+  "policyRules": {
+    "message": "Välityspalvelimen reitityssäännöt"
+  },
+  "policyPriority": {
+    "message": "Järjestys: ohitusosoitteet → ensimmäinen täsmäävä sääntö → oletusreitti."
+  },
+  "policyDirectHelp": {
+    "message": "Osoitteet ilman osumaa yhdistetään suoraan. Ponnahdusikkunan Suora-painike käyttää myös näitä sääntöjä."
+  },
+  "policySystemHelp": {
+    "message": "Osoitteet ilman osumaa käyttävät järjestelmän välityspalvelinta. Järjestelmä-painike käyttää myös näitä sääntöjä."
+  },
+  "policyEmpty": {
+    "message": "Ei sääntöjä. Käytetään oletusreittiä."
+  },
+  "policyAddressHelp": {
+    "message": "Verkkotunnukset, jokerimerkit, IP tai IP:portti. IP-säännöt vertaavat URL:n IP-osoitetta, eivät DNS-tuloksia."
+  },
+  "policyMoveUp": {
+    "message": "Siirrä sääntö ylös"
+  },
+  "policyMoveDown": {
+    "message": "Siirrä sääntö alas"
+  }
+}

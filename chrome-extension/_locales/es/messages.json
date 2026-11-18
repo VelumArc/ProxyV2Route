@@ -1,0 +1,2150 @@
+{
+  "ruleTargetUnavailable": {
+    "message": "Objetivo no disponible"
+  },
+  "rulePatternPlaceholder": {
+    "message": "example.com, *.example.org, 192.0.2.1:8443"
+  },
+  "rulePatternHelp": {
+    "message": "Separe las direcciones con comas. Un patrón de URL por fila. PAC puede no ver las rutas HTTPS."
+  },
+  "defaultChoice_direct": {
+    "message": "Conectarse sin proxy"
+  },
+  "defaultChoice_system": {
+    "message": "Usar configuración de proxy del sistema"
+  },
+  "defaultChoice_node": {
+    "message": "Usar el nodo seleccionado de este perfil"
+  },
+  "defaultChoice_manual": {
+    "message": "Usar la configuración de proxy de este perfil"
+  },
+  "defaultChoice_auto": {
+    "message": "Aplicar las reglas de enrutamiento de este perfil"
+  },
+  "nlHttpsLatency": {
+    "message": "HTTPS respuesta"
+  },
+  "nlLatencyMethod": {
+    "message": "Cloudflare · Mínimo de dos respuestas · Reutilización de la conexión cuando esté disponible"
+  },
+  "nlLatencyFast": {
+    "message": "Rápido"
+  },
+  "nlLatencyModerate": {
+    "message": "Moderado"
+  },
+  "nlLatencySlow": {
+    "message": "Lento"
+  },
+  "nlSortName": {
+    "message": "Nombre"
+  },
+  "nlSortLatency": {
+    "message": "Latencia: baja a alta"
+  },
+  "nlSortDownload": {
+    "message": "Descarga: de mayor a menor"
+  },
+  "nlSortUpload": {
+    "message": "Subida: de mayor a menor"
+  },
+  "nlSingle": {
+    "message": "Nodo único"
+  },
+  "nlGroupBatch": {
+    "message": "Grupo/lote"
+  },
+  "nlTestScope": {
+    "message": "Alcance de la prueba"
+  },
+  "nlCurrentNode": {
+    "message": "Nodo seleccionado"
+  },
+  "nlCurrentGroup": {
+    "message": "Grupo seleccionado"
+  },
+  "nlChooseNode": {
+    "message": "Elija un nodo en la lista"
+  },
+  "nlStart": {
+    "message": "Iniciar prueba"
+  },
+  "nlService": {
+    "message": "Servicio de prueba"
+  },
+  "nlMeasured": {
+    "message": "medido"
+  },
+  "nlMeanLatency": {
+    "message": "Latencia promedio"
+  },
+  "nlGroupBySource": {
+    "message": "Por grupo de origen"
+  },
+  "nlPreviousPage": {
+    "message": "Página anterior"
+  },
+  "nlNextPage": {
+    "message": "Página siguiente"
+  },
+  "nlName": {
+    "message": "Nombre"
+  },
+  "nlEdit": {
+    "message": "Editar"
+  },
+  "nlStop": {
+    "message": "Detener"
+  },
+  "nlConfirm": {
+    "message": "Confirmar"
+  },
+  "nlAllNodes": {
+    "message": "Todos los nodos"
+  },
+  "nlNodeResults": {
+    "message": "Resultados del nodo"
+  },
+  "nlTestCenter": {
+    "message": "Centro de pruebas"
+  },
+  "nlNewGroup": {
+    "message": "Nuevo grupo"
+  },
+  "nlRenameGroup": {
+    "message": "Cambiar nombre de grupo"
+  },
+  "nlRemoveGroup": {
+    "message": "Eliminar grupo"
+  },
+  "nlRemoveGroupHelp": {
+    "message": "Conserve todos los nodos y suscripciones y muévalos a nodos importados."
+  },
+  "nlNode": {
+    "message": "Nodo"
+  },
+  "nlStatus": {
+    "message": "Estado"
+  },
+  "nlActions": {
+    "message": "Acciones"
+  },
+  "nlSort": {
+    "message": "Ordenar solo esta tabla"
+  },
+  "nlSelected": {
+    "message": "seleccionado"
+  },
+  "nlTestNode": {
+    "message": "Prueba"
+  },
+  "nlProfileShort": {
+    "message": "Perfil"
+  },
+  "nlQuick": {
+    "message": "Latencia rápida"
+  },
+  "nlFull": {
+    "message": "Descargar + subir"
+  },
+  "nlTraffic": {
+    "message": "Tamaño de los datos de prueba"
+  },
+  "nlConcurrency": {
+    "message": "Nodos concurrentes"
+  },
+  "nlTrafficFullOnly": {
+    "message": "Se utiliza para pruebas de descarga y carga."
+  },
+  "nlTestMode": {
+    "message": "Modo de prueba"
+  },
+  "nlBudget": {
+    "message": "Tráfico de carga útil máximo"
+  },
+  "nlViaGroup": {
+    "message": "A través de proxy previo de grupo"
+  },
+  "nlTestSelected": {
+    "message": "Prueba seleccionada"
+  },
+  "nlTestVisible": {
+    "message": "Prueba de nodos mostrados"
+  },
+  "nlTestAll": {
+    "message": "Probar todos los nodos"
+  },
+  "nlTestGroup": {
+    "message": "Nodos del grupo de prueba"
+  },
+  "nlProgress": {
+    "message": "Progreso de la medición"
+  },
+  "nlReady": {
+    "message": "Elija los nodos para comenzar. No se ha realizado ninguna prueba."
+  },
+  "nlStarting": {
+    "message": "Iniciando medición aislada…"
+  },
+  "nlQueued": {
+    "message": "En cola"
+  },
+  "nlRunning": {
+    "message": "Pruebas"
+  },
+  "nlStopping": {
+    "message": "Deteniendo…"
+  },
+  "nlComplete": {
+    "message": "Completo"
+  },
+  "nlFailed": {
+    "message": "Error"
+  },
+  "nlStopped": {
+    "message": "Detenido"
+  },
+  "nlPartial": {
+    "message": "Parcial"
+  },
+  "nlUntested": {
+    "message": "No probado"
+  },
+  "nlSucceeded": {
+    "message": "pasó"
+  },
+  "nlMeasureDisconnected": {
+    "message": "La conexión de medición finalizó. Los valores incompletos no son resultados finales."
+  },
+  "nlUpgrade": {
+    "message": "Actualice el Companion local para administrar grupos y suscripciones. Los nodos existentes siguen estando disponibles."
+  },
+  "nlOperationFailed": {
+    "message": "No se pudo completar la operación. Intentar otra vez."
+  },
+  "nlEditSubscription": {
+    "message": "Editar suscripción"
+  },
+  "nlPasteContent": {
+    "message": "Enlaces proxy/contenido"
+  },
+  "nlSubscriptionURL": {
+    "message": "Suscripción URL"
+  },
+  "nlKeepURL": {
+    "message": "Déjelo en blanco para conservar el URL guardado"
+  },
+  "nlConnectionPolicy": {
+    "message": "Actualizar conexión"
+  },
+  "nlProxyFirst": {
+    "message": "Proxy primero, luego directo en caso de falla"
+  },
+  "nlProxyOnly": {
+    "message": "Sólo proxy"
+  },
+  "nlDirectOnly": {
+    "message": "Solo directo"
+  },
+  "nlProxyFirstHelp": {
+    "message": "El proxy se detiene por primera vez después de una recuperación exitosa. Direct sólo se prueba si falla el intento de proxy."
+  },
+  "nlAutoUpdate": {
+    "message": "Habilitar actualizaciones automáticas"
+  },
+  "nlInterval": {
+    "message": "Intervalo de actualización (minutos)"
+  },
+  "nlDestinationGroup": {
+    "message": "Grupo de destino"
+  },
+  "nlSubscriptionOwnGroup": {
+    "message": "Nuevo grupo…"
+  },
+  "nlNameGroup": {
+    "message": "Nombre (grupo)"
+  },
+  "nlCustomGroup": {
+    "message": "Grupo personalizado"
+  },
+  "nlNameRequired": {
+    "message": "Ingrese un nombre."
+  },
+  "nlContentRequired": {
+    "message": "Pegue enlaces proxy o contenido de suscripción."
+  },
+  "nlGroupRequired": {
+    "message": "Elija un grupo de destino."
+  },
+  "nlURLRequired": {
+    "message": "Ingrese una suscripción HTTP(S) URL sin nombre de usuario ni contraseña."
+  },
+  "nlIntervalInvalid": {
+    "message": "Ingrese un número entero de 5 a 43200 minutos."
+  },
+  "folderTitle": {
+    "message": "Elija la carpeta v2rayN"
+  },
+  "folderHint": {
+    "message": "Elija una carpeta y luego aplíquela con Guardar configuración de conexión."
+  },
+  "folderPath": {
+    "message": "Ruta completa de la carpeta local"
+  },
+  "folderGo": {
+    "message": "Abierto"
+  },
+  "folderUp": {
+    "message": "Arriba"
+  },
+  "folderDrives": {
+    "message": "Unidades"
+  },
+  "folderCurrent": {
+    "message": "Ruta actual"
+  },
+  "folderChoose": {
+    "message": "Usar esta carpeta"
+  },
+  "folderList": {
+    "message": "Carpetas"
+  },
+  "folderTruncated": {
+    "message": "El listado es limitado. Ingrese la ruta completa arriba para abrir una carpeta que no se muestra."
+  },
+  "folderReady": {
+    "message": "v2rayN archivos encontrados. Utilice esta carpeta para validar la configuración."
+  },
+  "folderInvalid": {
+    "message": "Elija la carpeta que contiene guiConfigs, guiNConfig.json y guiNDB.db."
+  },
+  "folderSelectDrive": {
+    "message": "Elija una unidad local o ingrese una ruta de carpeta completa."
+  },
+  "folderEmpty": {
+    "message": "No hay subcarpetas visibles."
+  },
+  "folderUnavailable": {
+    "message": "No se puede explorar esta carpeta. Consulta su recorrido y acceso. Si Companion es anterior, actualícelo primero."
+  },
+  "folderValidating": {
+    "message": "Validando la configuración v2rayN…"
+  },
+  "folderInvalidConfig": {
+    "message": "La configuración o base de datos v2rayN está incompleta o no es válida. Elija otra carpeta."
+  },
+  "copyPath": {
+    "message": "Copiar ruta"
+  },
+  "pathCopyHint": {
+    "message": "Copie la ruta actualmente en este campo."
+  },
+  "preMode": {
+    "message": "Modo previo al proxy"
+  },
+  "preNode": {
+    "message": "Nodo pre-proxy"
+  },
+  "preIntro": {
+    "message": "Utilice la cadena de grupo, omítala o elija un proxy previo para este perfil."
+  },
+  "healthLabel": {
+    "message": "Estado de conexión actual"
+  },
+  "healthOk": {
+    "message": "Normal"
+  },
+  "healthError": {
+    "message": "Anormal"
+  },
+  "healthChecking": {
+    "message": "Comprobando"
+  },
+  "healthUnknown": {
+    "message": "Sin confirmar"
+  },
+  "autoSystemHelp": {
+    "message": "Las reglas de sistema requieren el componente Windows y una copia de la configuración de proxy fijo. Vuelva a aplicar tras cambiarla. PAC/WPAD no son compatibles; Sistema sin reglas usa la configuración nativa del navegador."
+  },
+  "backgroundUnavailable": {
+    "message": "El fondo de la extensión no está disponible."
+  },
+  "backgroundNoResponse": {
+    "message": "El fondo no respondió."
+  },
+  "backupTooLarge": {
+    "message": "La copia de seguridad supera los 5 MB."
+  },
+  "proxyUsername": {
+    "message": "Nombre de usuario"
+  },
+  "proxyPassword": {
+    "message": "Contraseña"
+  },
+  "proxyAuthHelp": {
+    "message": "Opcional. Los proxies autenticados se conectan a través de Companion. Las credenciales se almacenan en la configuración de este navegador y en Companion, y se incluyen en las exportaciones de perfiles."
+  },
+  "proxyAuthSocks4": {
+    "message": "SOCKS4 no admite esta autenticación de nombre de usuario/contraseña; utilice HTTP(S) o SOCKS5."
+  },
+  "importExamples": {
+    "message": "Ejemplos de formato"
+  },
+  "ipCopying": {
+    "message": "Copiando…"
+  },
+  "netDnsUnavailable": {
+    "message": "La dirección del servidor no se pudo resolver a tiempo. Verifique el host o la dirección IP e inténtelo nuevamente."
+  },
+  "netCurrentTarget": {
+    "message": "Punto final de proxy seleccionado"
+  },
+  "netCustomTarget": {
+    "message": "Servidor personalizado"
+  },
+  "netHost": {
+    "message": "Host o IP dirección"
+  },
+  "netPort": {
+    "message": "TCP puerto"
+  },
+  "netHostRequired": {
+    "message": "Ingrese un host de servidor o una dirección IP."
+  },
+  "netCurrentUnavailable": {
+    "message": "Seleccione un nodo o perfil de proxy manual, o ingrese un destino personalizado."
+  },
+  "netInvalidTarget": {
+    "message": "Ingrese un host y un puerto de diagnóstico válidos."
+  },
+  "netIpv6PingUnavailable": {
+    "message": "IPv6 ICMP no está disponible; utilizar TCPing."
+  },
+  "preNeedsFix": {
+    "message": "Elija un proxy previo válido o ningún proxy previo antes de guardar."
+  },
+  "preConfigure": {
+    "message": "Configurar proxy previo"
+  },
+  "preFollowInvalid": {
+    "message": "Seguir v2rayN no acepta un proxy previo personalizado."
+  },
+  "followChainHelp": {
+    "message": "Seguir utiliza la ruta y la cadena de proxy que ya están activas en v2rayN."
+  },
+  "netTitle": {
+    "message": "Pruebas de conexión"
+  },
+  "ipTestDetails": {
+    "message": "Detalles de la prueba"
+  },
+  "netTarget": {
+    "message": "Ping / TCPing objetivo"
+  },
+  "netDownload": {
+    "message": "Descargar prueba"
+  },
+  "netPartial": {
+    "message": "Muestra parcial"
+  },
+  "netComplete": {
+    "message": "Muestra completa"
+  },
+  "netDirect": {
+    "message": "Red del sistema"
+  },
+  "netUnreachable": {
+    "message": "Sin respuesta / error"
+  },
+  "netAverage": {
+    "message": "Promedio"
+  },
+  "predecessor": {
+    "message": "Pre-proxy"
+  },
+  "preInherit": {
+    "message": "Usar la cadena de grupo v2rayN"
+  },
+  "preNone": {
+    "message": "Sin proxy previo"
+  },
+  "preSpecific": {
+    "message": "Elija un nodo"
+  },
+  "preHelp": {
+    "message": "Aplica a este perfil. Utilice la cadena de grupo v2rayN, sin proxy previo o un nodo específico. Seguir v2rayN utiliza su cadena existente."
+  },
+  "preSelectRequired": {
+    "message": "Elija un nodo pre-proxy o seleccione Grupo predeterminado/Ninguno."
+  },
+  "ipPing0Permission": {
+    "message": "Permitir el acceso al sitio web Ping0 para cargar el informe público."
+  },
+  "ipPublicChallenge": {
+    "message": "El sitio web requiere verificación. Abra la página Ping0 para completarla y ver el resultado."
+  },
+  "ipPublicReport": {
+    "message": "Ping0 informe público"
+  },
+  "ipPublicSource": {
+    "message": "Fuente: Ping0 página pública"
+  },
+  "ipPublicOriginal": {
+    "message": "Ping0 informe"
+  },
+  "ipPublicPartial": {
+    "message": "Sólo se muestran los campos proporcionados en la página pública, en su idioma original. Las clasificaciones y estimaciones de usuarios compartidos provienen de Ping0."
+  },
+  "setupTitle": {
+    "message": "Conectar Proxy V2Route"
+  },
+  "setupIntro": {
+    "message": "Instale el complemento Windows para usar rutas v2rayN o sus propios nodos importados."
+  },
+  "setupStepOne": {
+    "message": "Extraiga el paquete Windows completo coincidente a una carpeta permanente."
+  },
+  "setupStepTwo": {
+    "message": "Abra V2Route-Setup.exe y haga clic en Instalar."
+  },
+  "setupStepThree": {
+    "message": "Regrese aquí y verifique la conexión. Elija la carpeta v2rayN si es necesario."
+  },
+  "setupCheck": {
+    "message": "Verificar conexión"
+  },
+  "downloadCompanion": {
+    "message": "Guía de instalación ↗"
+  },
+  "setupDownloadNote": {
+    "message": "Utilice el paquete local Windows correspondiente o siga la guía para compilarlo a partir del código fuente actual."
+  },
+  "chooseFolder": {
+    "message": "Elija la carpeta v2rayN…"
+  },
+  "rescanDone": {
+    "message": "Nodos locales reexplorados"
+  },
+  "grouping": {
+    "message": "Nodos de grupo"
+  },
+  "groupByCountry": {
+    "message": "Por país"
+  },
+  "unknownCountry": {
+    "message": "Otro / Desconocido"
+  },
+  "ungrouped": {
+    "message": "Desagrupado"
+  },
+  "adjustNodeFilters": {
+    "message": "Pruebe con otro grupo, fuente o búsqueda, o muestre nodos ocultos."
+  },
+  "rescanLocal": {
+    "message": "Volver a escanear v2rayN nodos"
+  },
+  "showHidden": {
+    "message": "Mostrar nodos ocultos"
+  },
+  "hideNode": {
+    "message": "Ocultar"
+  },
+  "restoreNode": {
+    "message": "Restaurar"
+  },
+  "hiddenNode": {
+    "message": "Oculto"
+  },
+  "hideNodeHelp": {
+    "message": "Ocultar solo en la biblioteca de nodos de este navegador. v2rayN y los perfiles existentes no cambian."
+  },
+  "ipContextTimeout": {
+    "message": "Se agotó el tiempo de lectura del perfil actual. Intentar otra vez."
+  },
+  "ipStaleResult": {
+    "message": "El perfil actual cambió. Este resultado puede estar desactualizado; comprobar de nuevo."
+  },
+  "ip_tools": {
+    "message": "IP Herramientas"
+  },
+  "ipIntro": {
+    "message": "Salida actual IP e informe público."
+  },
+  "ipCurrentProfile": {
+    "message": "Perfil de navegador actual"
+  },
+  "ipRouteCaution": {
+    "message": "Las reglas automáticas y PAC pueden usar diferentes rutas para diferentes destinos. Este control describe sólo su propia solicitud."
+  },
+  "ipDisclosure": {
+    "message": "Salida de verificación automática IP · Informe por Ping0"
+  },
+  "ipMethod": {
+    "message": "Verificación de dirección"
+  },
+  "ipDual": {
+    "message": "IPv4/IPv6"
+  },
+  "ipCheck": {
+    "message": "Verificar nuevamente"
+  },
+  "ipChecking": {
+    "message": "Comprobando…"
+  },
+  "ipDualHelp": {
+    "message": "IPv4/IPv6 devuelve la familia de direcciones utilizada para esta solicitud, no ambas direcciones."
+  },
+  "ipDurationHelp": {
+    "message": "El tiempo de solicitud HTTP transcurrido incluye el tiempo de respuesta de la red y del servicio. No es ICMP ping ni una prueba de ancho de banda."
+  },
+  "ipCopy": {
+    "message": "Copiar IP"
+  },
+  "ipCopied": {
+    "message": "Copiado"
+  },
+  "ipCopyFailed": {
+    "message": "No se pudo copiar. Seleccione la dirección y cópiela manualmente."
+  },
+  "ipNoResult": {
+    "message": "Aún no hay verificación"
+  },
+  "ipContextUnknown": {
+    "message": "Perfil no disponible"
+  },
+  "ipTimeout": {
+    "message": "Se agotó el tiempo de espera de la verificación. Inténtalo de nuevo o utiliza otra ruta."
+  },
+  "ipCancelled": {
+    "message": "Cheque cancelado"
+  },
+  "ipNetwork": {
+    "message": "No se pudo alcanzar ipify. Verifique la conexión y vuelva a intentarlo."
+  },
+  "ipHttp": {
+    "message": "El servicio IP no aceptó la solicitud. Vuelve a intentarlo más tarde."
+  },
+  "ipInvalid": {
+    "message": "El servicio IP devolvió una respuesta no válida."
+  },
+  "ipFailure": {
+    "message": "La verificación falló. Intentar otra vez."
+  },
+  "ipStale": {
+    "message": "La configuración de su proxy cambió durante la verificación. El antiguo resultado fue descartado; comprobar de nuevo."
+  },
+  "ipQuality": {
+    "message": "Herramientas externas"
+  },
+  "ipQualityPrivacy": {
+    "message": "Las herramientas se ejecutan solo al hacer clic. Los proveedores reciben datos de conexión normales. Las comprobaciones del sitio web envían solicitudes sin credenciales después del inicio. El cierre detiene las pruebas locales; Las pestañas externas son administradas por el navegador."
+  },
+  "ipReport": {
+    "message": "Copiar informe redactado"
+  },
+  "ipReportCopied": {
+    "message": "Informe redactado copiado; no se incluyen IP ni nombres de perfil."
+  },
+  "popupSelected": {
+    "message": "Seleccionado"
+  },
+  "popupFooter": {
+    "message": "v2rayN y perfiles de nodo"
+  },
+  "subtitle": {
+    "message": "Rutas de navegador independientes"
+  },
+  "profiles": {
+    "message": "Perfiles"
+  },
+  "nodes": {
+    "message": "Biblioteca de nodos"
+  },
+  "settings": {
+    "message": "Configuración"
+  },
+  "connected": {
+    "message": "Perfil activo"
+  },
+  "noProfile": {
+    "message": "Valor predeterminado del sistema"
+  },
+  "newProfile": {
+    "message": "Nuevo perfil"
+  },
+  "searchProfiles": {
+    "message": "Buscar perfiles"
+  },
+  "direct": {
+    "message": "Red directa"
+  },
+  "system": {
+    "message": "Proxy del sistema"
+  },
+  "follow": {
+    "message": "Seguir v2rayN"
+  },
+  "manual": {
+    "message": "Proxy manual"
+  },
+  "auto": {
+    "message": "Detector magnético"
+  },
+  "pac": {
+    "message": "PAC secuencia de comandos"
+  },
+  "virtual": {
+    "message": "Perfil virtual"
+  },
+  "profileIntro": {
+    "message": "Elija una ruta del navegador sin cambiar la ruta principal de v2rayN."
+  },
+  "nodesIntro": {
+    "message": "Explore los nodos locales v2rayN y sus enlaces importados."
+  },
+  "settingsIntro": {
+    "message": "Conexión local, idioma y apariencia."
+  },
+  "refresh": {
+    "message": "Actualizar"
+  },
+  "create": {
+    "message": "Crear perfil"
+  },
+  "name": {
+    "message": "Nombre del perfil"
+  },
+  "type": {
+    "message": "Tipo de perfil"
+  },
+  "save": {
+    "message": "Guardar"
+  },
+  "saved": {
+    "message": "Guardado"
+  },
+  "saving": {
+    "message": "Guardando…"
+  },
+  "cancel": {
+    "message": "Cancelar"
+  },
+  "close": {
+    "message": "Cerrar"
+  },
+  "apply": {
+    "message": "Utilice este perfil"
+  },
+  "applied": {
+    "message": "Perfil cambiado"
+  },
+  "active": {
+    "message": "Activo"
+  },
+  "delete": {
+    "message": "Eliminar"
+  },
+  "remove": {
+    "message": "Quitar"
+  },
+  "rename": {
+    "message": "Cambiar nombre"
+  },
+  "route": {
+    "message": "Ruta proxy"
+  },
+  "selectRoute": {
+    "message": "Seleccione una ruta"
+  },
+  "routeMissing": {
+    "message": "Ruta no disponible: seleccione otra"
+  },
+  "chain": {
+    "message": "Cadena de conexión"
+  },
+  "connection": {
+    "message": "Conexión local"
+  },
+  "proxy": {
+    "message": "Servidor proxy"
+  },
+  "address": {
+    "message": "Dirección"
+  },
+  "port": {
+    "message": "Puerto"
+  },
+  "scheme": {
+    "message": "Protocolo"
+  },
+  "proxyDns": {
+    "message": "SOCKS5 DNS se resuelve a través del proxy."
+  },
+  "connectedIdle": {
+    "message": "Conectado · Inactivo"
+  },
+  "bypass": {
+    "message": "Lista de omisiones"
+  },
+  "bypassHelp": {
+    "message": "Un dominio, comodín, dirección IP o IP:puerto por línea."
+  },
+  "advanced": {
+    "message": "Opciones avanzadas"
+  },
+  "searchRoutes": {
+    "message": "Buscar grupos o nodos"
+  },
+  "selectGroup": {
+    "message": "Seleccione un grupo"
+  },
+  "empty": {
+    "message": "No hay elementos coincidentes"
+  },
+  "unavailable": {
+    "message": "No disponible"
+  },
+  "groupHint": {
+    "message": "Mantenga un grupo durante 250 ms, luego arrastre. Alt + ↑ / ↓ también reordena. Los cambios se guardan automáticamente."
+  },
+  "searchSort": {
+    "message": "Borrar la búsqueda antes de ordenar."
+  },
+  "dragHint": {
+    "message": "Muévase hacia arriba o hacia abajo, luego suéltelo para guardar. Esc se cancela."
+  },
+  "orderSaved": {
+    "message": "Orden de grupo guardada"
+  },
+  "orderCancelled": {
+    "message": "Reordenamiento cancelado"
+  },
+  "loading": {
+    "message": "Cargando…"
+  },
+  "reading": {
+    "message": "Leyendo nodos locales…"
+  },
+  "nativeMissing": {
+    "message": "El componente local no está conectado"
+  },
+  "retry": {
+    "message": "Reintentar"
+  },
+  "nativeHelp": {
+    "message": "Las rutas de nodo requieren el compañero Windows. Los proxies directos, del sistema y manuales ya están disponibles."
+  },
+  "imported": {
+    "message": "Importado"
+  },
+  "v2rayn": {
+    "message": "v2rayN"
+  },
+  "allSources": {
+    "message": "Todas las fuentes"
+  },
+  "importNodes": {
+    "message": "Importar proxies"
+  },
+  "importTitle": {
+    "message": "Importar proxys"
+  },
+  "importHelp": {
+    "message": "Pegue enlaces proxy, salientes JSON o una suscripción Base64. SOCKS admite credenciales simples o Base64. Uso de direcciones sin esquema HTTP."
+  },
+  "importPrivacy": {
+    "message": "Los detalles y las credenciales del proxy se pasan al compañero local Proxy V2Route para su almacenamiento y conexión con el proxy que seleccione. El desarrollador no recibe esta información."
+  },
+  "import": {
+    "message": "Importar perfiles"
+  },
+  "nodeCount": {
+    "message": "nodos"
+  },
+  "source": {
+    "message": "Fuente"
+  },
+  "protocol": {
+    "message": "Protocolo"
+  },
+  "useNode": {
+    "message": "Crear perfil"
+  },
+  "removeNode": {
+    "message": "¿Eliminar el nodo importado?"
+  },
+  "removeNodeHelp": {
+    "message": "Los perfiles que utilizan este nodo deben reasignarse antes de poder eliminarlo."
+  },
+  "deleteProfile": {
+    "message": "¿Eliminar este perfil?"
+  },
+  "deleteProfileHelp": {
+    "message": "Esto elimina solo este perfil de navegador. Se conservan los nodos importados y la configuración v2rayN."
+  },
+  "language": {
+    "message": "Idioma"
+  },
+  "automatic": {
+    "message": "Navegador predeterminado"
+  },
+  "theme": {
+    "message": "Apariencia"
+  },
+  "light": {
+    "message": "Luz"
+  },
+  "dark": {
+    "message": "Oscuro"
+  },
+  "switchToEnglish": {
+    "message": "Cambiar a inglés"
+  },
+  "switchToChinese": {
+    "message": "Cambiar a chino simplificado"
+  },
+  "switchToLight": {
+    "message": "Cambiar a apariencia clara"
+  },
+  "switchToDark": {
+    "message": "Cambiar a apariencia oscura"
+  },
+  "localComponent": {
+    "message": "Componente complementario"
+  },
+  "ready": {
+    "message": "Conectado"
+  },
+  "stopped": {
+    "message": "No está funcionando"
+  },
+  "discovery": {
+    "message": "v2rayN detección"
+  },
+  "rootPath": {
+    "message": "v2rayN carpeta"
+  },
+  "corePath": {
+    "message": "Ejecutable del núcleo proxy"
+  },
+  "optionalPath": {
+    "message": "Dejar en blanco para detección automática"
+  },
+  "pathsHelp": {
+    "message": "v2rayN se detecta automáticamente; elija su carpeta si es necesario. Los nodos importados utilizan el núcleo incluido."
+  },
+  "savePaths": {
+    "message": "Guardar configuración de conexión"
+  },
+  "privacy": {
+    "message": "Configuraciones almacenadas localmente"
+  },
+  "privacyText": {
+    "message": "Los enlaces y las credenciales de los nodos permanecen en el compañero local. El tráfico del navegador pasa a través del proxy seleccionado hacia los sitios web de destino; el desarrollador no lo recibe."
+  },
+  "privacyDetails": {
+    "message": "Privacidad y flujo de datos"
+  },
+  "export": {
+    "message": "Exportar perfiles"
+  },
+  "about": {
+    "message": "Acerca de Proxy V2Route"
+  },
+  "aboutText": {
+    "message": "Elija una ruta del navegador sin cambiar la ruta principal de v2rayN. Las rutas de nodo utilizan el compañero Windows y sus propios nodos."
+  },
+  "licenses": {
+    "message": "Avisos de código abierto"
+  },
+  "version": {
+    "message": "Versión"
+  },
+  "fieldRequired": {
+    "message": "Ingrese un nombre de perfil."
+  },
+  "profileExists": {
+    "message": "Ya existe un perfil con este nombre."
+  },
+  "ruleHelp": {
+    "message": "Separe los dominios en una fila con comas. La primera fila que coincida gana. Mantenga disponible la ruta predeterminada."
+  },
+  "rules": {
+    "message": "Reglas de enrutamiento"
+  },
+  "pattern": {
+    "message": "Patrón de host"
+  },
+  "target": {
+    "message": "Objetivo de regla"
+  },
+  "addRule": {
+    "message": "Agregar regla"
+  },
+  "defaultRoute": {
+    "message": "Perfil predeterminado"
+  },
+  "pacHelp": {
+    "message": "Pegue la fuente confiable PAC que contiene FindProxyForURL. Este script decide cómo se enrutan las solicitudes del sitio web."
+  },
+  "pacUrl": {
+    "message": "PAC URL"
+  },
+  "pacScript": {
+    "message": "PAC secuencia de comandos"
+  },
+  "noSelection": {
+    "message": "Seleccione un perfil o cree uno."
+  },
+  "details": {
+    "message": "Detalles"
+  },
+  "noNodes": {
+    "message": "Aún no hay nodos"
+  },
+  "noNodesHelp": {
+    "message": "Conecte v2rayN o importe enlaces proxy, JSON o una suscripción para comenzar."
+  },
+  "openSettings": {
+    "message": "Abrir configuración"
+  },
+  "proxySettings": {
+    "message": "Configuración de proxy"
+  },
+  "switching": {
+    "message": "Cambiando…"
+  },
+  "updatedElsewhere": {
+    "message": "Este perfil cambió en otra ventana. Vuelva a abrirlo antes de guardar."
+  },
+  "choose": {
+    "message": "Elegir"
+  },
+  "popupIntro": {
+    "message": "Conexión:"
+  },
+  "invalidPort": {
+    "message": "Ingrese un puerto del 1 al 65535."
+  },
+  "externalControl": {
+    "message": "Otra extensión o política es controlar el proxy del navegador."
+  },
+  "noNativeRoute": {
+    "message": "Conecte el componente local antes de crear un perfil de nodo."
+  },
+  "reload": {
+    "message": "Recargar"
+  },
+  "rulesError": {
+    "message": "Cada regla necesita un patrón y un destino."
+  },
+  "backupDone": {
+    "message": "Perfiles del navegador exportados"
+  },
+  "managed": {
+    "message": "Nodo administrado"
+  },
+  "netRegion": {
+    "message": "Área objetivo"
+  },
+  "netNodeArea": {
+    "message": "Nodo proxy"
+  },
+  "netChina": {
+    "message": "China continental"
+  },
+  "netGlobal": {
+    "message": "Mundial"
+  },
+  "netAli": {
+    "message": "AliDNS"
+  },
+  "netTencent": {
+    "message": "DNSPod"
+  },
+  "netStartHelp": {
+    "message": "Elija un objetivo y luego inicie una prueba en vivo."
+  },
+  "netConsole": {
+    "message": "Diagnóstico en vivo"
+  },
+  "netStop": {
+    "message": "Detener"
+  },
+  "netRunning": {
+    "message": "Corriendo"
+  },
+  "netStopped": {
+    "message": "Detenido"
+  },
+  "netSent": {
+    "message": "Enviado"
+  },
+  "netLoss": {
+    "message": "Pérdida"
+  },
+  "netAverageShort": {
+    "message": "Promedio"
+  },
+  "netLogClear": {
+    "message": "Borrar"
+  },
+  "netFinishing": {
+    "message": "La sonda anterior está finalizando…"
+  },
+  "netRound": {
+    "message": "Redondo"
+  },
+  "netDestination": {
+    "message": "Destino"
+  },
+  "netHop": {
+    "message": "Salto"
+  },
+  "netAddress": {
+    "message": "IP dirección"
+  },
+  "netLast": {
+    "message": "Último"
+  },
+  "netConsoleHelp": {
+    "message": "Ping / TCPing / MTR utilizan la red del sistema, no la cadena de proxy. Las respuestas faltantes ICMP no prueban la pérdida de tráfico. La descarga utiliza la ruta del navegador y el límite de tamaño seleccionado. Las pruebas se detienen cuando abandonas u ocultas esta página."
+  },
+  "netDirectShort": {
+    "message": "Red del sistema"
+  },
+  "netIcmpShort": {
+    "message": "No ICMP respuesta"
+  },
+  "netProbeError": {
+    "message": "Error de sonda local"
+  },
+  "netNoDestination": {
+    "message": "Destino no alcanzado"
+  },
+  "deleteActive": {
+    "message": "Cambiar al sistema y eliminar"
+  },
+  "deleteActiveHelp": {
+    "message": "Este perfil está activo. Al eliminarlo, el navegador cambia al proxy del sistema."
+  },
+  "netDownloadSize": {
+    "message": "Tamaño de descarga"
+  },
+  "netReceived": {
+    "message": "Recibido"
+  },
+  "netBest": {
+    "message": "Mejor"
+  },
+  "netWorst": {
+    "message": "Peor"
+  },
+  "netStdDev": {
+    "message": "Desarrollo estándar"
+  },
+  "netLocation": {
+    "message": "Ubicación"
+  },
+  "toolWall": {
+    "message": "Verificación de bloqueo de dominio"
+  },
+  "toolSites": {
+    "message": "Sitios web populares"
+  },
+  "toolGlobal": {
+    "message": "Diagnóstico global"
+  },
+  "toolFast": {
+    "message": "Velocidad de Netflix"
+  },
+  "toolSpeed": {
+    "message": "Prueba de velocidad"
+  },
+  "toolStart": {
+    "message": "Inicio"
+  },
+  "toolReady": {
+    "message": "Listo"
+  },
+  "toolResponded": {
+    "message": "Respondido"
+  },
+  "toolNoResponse": {
+    "message": "Sin confirmar"
+  },
+  "toolCacheUnsupported": {
+    "message": "Este navegador no puede borrar el caché por sitio; la página ha sido recargada."
+  },
+  "toolCacheFailed": {
+    "message": "La limpieza de caché no finalizó. Cierra y vuelve a intentarlo."
+  },
+  "toolClose": {
+    "message": "Cerrar"
+  },
+  "toolReload": {
+    "message": "Recargar"
+  },
+  "toolLoading": {
+    "message": "Cargando…"
+  },
+  "toolFrameError": {
+    "message": "No se pudo cargar. Intente recargar."
+  },
+  "toolSiteHelp": {
+    "message": "Accesibilidad únicamente mediante navegador. Esto no verifica la cuenta ni el acceso regional."
+  },
+  "toolFallback": {
+    "message": "Prueba de velocidad de respaldo"
+  },
+  "toolFullscreen": {
+    "message": "Pantalla completa"
+  },
+  "toolRestore": {
+    "message": "Salir de pantalla completa"
+  },
+  "ipReadFailed": {
+    "message": "Error de lectura. 👉"
+  },
+  "ipViewSource": {
+    "message": "Ver sitio fuente"
+  },
+  "toolDownloadError": {
+    "message": "No se pudo acceder al servidor de descarga. Intentar otra vez."
+  },
+  "toolAccess": {
+    "message": "Habilitar acceso al sitio"
+  },
+  "toolPermission": {
+    "message": "Allow access to this site for embedded session compatibility."
+  },
+  "toolAsia": {
+    "message": "Asia"
+  },
+  "toolEurope": {
+    "message": "Europa"
+  },
+  "toolAmerica": {
+    "message": "América del Norte"
+  },
+  "toolGlobalHelp": {
+    "message": "Precompleta la salida del navegador IP. Choose mainland China or another region to compare paths; Start sends the displayed target to up to three Globalping probes."
+  },
+  "toolServiceError": {
+    "message": "El servicio de prueba no está disponible. Intentar otra vez."
+  },
+  "popupOrderHelp": {
+    "message": "Mantenga presionado y arrastre para reordenar. Las teclas Alt+flecha también mueven este perfil."
+  },
+  "popupOrderSaved": {
+    "message": "Pedido guardado"
+  },
+  "toolGroupIP": {
+    "message": "IP pruebas"
+  },
+  "toolGroupWeb": {
+    "message": "Pruebas del sitio web"
+  },
+  "toolGroupSpeed": {
+    "message": "Velocidad"
+  },
+  "toolCurrentIP": {
+    "message": "Salida actual IP"
+  },
+  "toolCurrentIPLoading": {
+    "message": "Cargando salida actual IP…"
+  },
+  "toolCurrentIPFailed": {
+    "message": "No se pudo leer el IP actual. Introduzca un objetivo."
+  },
+  "speedMode": {
+    "message": "Modo de prueba"
+  },
+  "speedBoth": {
+    "message": "Descargar + subir"
+  },
+  "speedDownload": {
+    "message": "Descargar"
+  },
+  "speedUpload": {
+    "message": "Subir"
+  },
+  "speedLatency": {
+    "message": "HTTP latencia"
+  },
+  "speedBudget": {
+    "message": "{n} MiB per phase · {total} MiB total, plus small latency samples."
+  },
+  "siteCategory": {
+    "message": "Categoría de sitio web"
+  },
+  "siteAll": {
+    "message": "Todos los sitios web"
+  },
+  "siteAI": {
+    "message": "IA"
+  },
+  "siteDevelopment": {
+    "message": "Desarrollo"
+  },
+  "siteVideo": {
+    "message": "Vídeo/música"
+  },
+  "siteSocial": {
+    "message": "Sociales"
+  },
+  "siteDomestic": {
+    "message": "Servicios peninsulares"
+  },
+  "siteServices": {
+    "message": "Servicios comunes"
+  },
+  "globalMethod": {
+    "message": "Tipo de medición"
+  },
+  "localPort": {
+    "message": "Puerto local:"
+  },
+  "chainChooseNode": {
+    "message": "Elija un nodo proxy"
+  },
+  "chainTitle": {
+    "message": "Cadena de proxy"
+  },
+  "chainSelectExit": {
+    "message": "Choose a specific exit node below to save or test this custom chain. Seguir v2rayN es administrado por v2rayN."
+  },
+  "chainSelectExitShort": {
+    "message": "Seleccione un nodo de salida"
+  },
+  "chainAdd": {
+    "message": "+ Agregar capa de proxy"
+  },
+  "chainTest": {
+    "message": "Cadena de prueba"
+  },
+  "chainMode": {
+    "message": "Modo en cadena"
+  },
+  "chainBase": {
+    "message": "Proxy base"
+  },
+  "chainExit": {
+    "message": "Salir del proxy"
+  },
+  "chainEgress": {
+    "message": "Salida de cadena"
+  },
+  "chainExitBadge": {
+    "message": "Salir IP"
+  },
+  "chainEntry": {
+    "message": "Entrada de cadena"
+  },
+  "chainTransit": {
+    "message": "Nodo Puente"
+  },
+  "chainUntested": {
+    "message": "No probado"
+  },
+  "chainMissing": {
+    "message": "Nodo no disponible"
+  },
+  "chainUnresolved": {
+    "message": "No se puede resolver la cadena heredada. Repair the predecessor settings or choose a custom chain."
+  },
+  "chainUpgrade": {
+    "message": "Update the local companion to enable ordered chains."
+  },
+  "chainBusy": {
+    "message": "Se está ejecutando otra prueba de cadena"
+  },
+  "chainOK": {
+    "message": "Accesible"
+  },
+  "chainFailed": {
+    "message": "Salto fallido en esta prueba"
+  },
+  "chainBlocked": {
+    "message": "No probado · salto anterior fallido"
+  },
+  "chainFailureHelp": {
+    "message": "Este salto o el camino hacia él no pasó. Los lúpulos posteriores no fueron probados."
+  },
+  "chainAllOK": {
+    "message": "Todas las rutas acumulativas respondieron"
+  },
+  "chainStopping": {
+    "message": "Deteniéndose después de la sonda limitada actual..."
+  },
+  "globalWorld": {
+    "message": "En todo el mundo"
+  },
+  "globalUnavailable": {
+    "message": "El destino o la región no está disponible. Verifique el destino o elija otra región."
+  },
+  "globalRateLimited": {
+    "message": "Se alcanzó el límite de tarifa de servicio. Vuelve a intentarlo más tarde."
+  },
+  "globalNoResults": {
+    "message": "El servicio no arrojó resultados de sondeo. Prueba con otra región."
+  },
+  "globalProbeFailed": {
+    "message": "Falló la sonda"
+  },
+  "globalProbeOffline": {
+    "message": "Sonda fuera de línea"
+  },
+  "globalIcmpCaution": {
+    "message": "Las ICMP respuestas faltantes por sí solas no prueban el bloqueo. Compare rutas continentales y extranjeras y otros tipos de pruebas."
+  },
+  "speedRealtime": {
+    "message": "Velocidad en vivo"
+  },
+  "speedAverage": {
+    "message": "Velocidad promedio"
+  },
+  "ipToolsBrief": {
+    "message": "Los resultados de terceros son como referencia."
+  },
+  "ipReportBrief": {
+    "message": "Los resultados varían según la salida IP y son como referencia."
+  },
+  "toolPingPe": {
+    "message": "IP verificación de bloqueo"
+  },
+  "toolTargetIP": {
+    "message": "Objetivo IP"
+  },
+  "toolOpenPingPe": {
+    "message": "Prueba oficial abierta"
+  },
+  "toolInvalidIP": {
+    "message": "Ingrese una dirección IPv4 o IPv6 válida."
+  },
+  "toolInvalidPort": {
+    "message": "Ingrese un puerto TCP del 1 al 65535."
+  },
+  "toolExternalFailed": {
+    "message": "No se pudo abrir el sitio web. Intentar otra vez."
+  },
+  "ipBrowserReading": {
+    "message": "Leyendo Ping0 a través del navegador…"
+  },
+  "ipVerifyBrowser": {
+    "message": "Abrir página de verificación"
+  },
+  "policyCenter": {
+    "message": "Privacidad, declaración y preguntas frecuentes"
+  },
+  "policyCenterIntro": {
+    "message": "Manejo de datos locales, límites de prueba y respuestas comunes."
+  },
+  "policyPrivacyTitle": {
+    "message": "Política de privacidad"
+  },
+  "policyPrivacySummary": {
+    "message": "Los perfiles y las credenciales permanecen en este dispositivo. Las comprobaciones y diagnósticos emergentes se comunican con los proveedores indicados. Sin publicidad ni análisis de comportamiento."
+  },
+  "policyDeclarationTitle": {
+    "message": "Declaración de uso y medidas"
+  },
+  "policyDeclarationSummary": {
+    "message": "Esta extensión es un administrador de rutas local, no un proxy ni un proveedor de VPN. Las mediciones son muestras de referencia afectadas por las condiciones de la red, el proxy y el proveedor."
+  },
+  "policyFaqTitle": {
+    "message": "Preguntas frecuentes"
+  },
+  "policyFaqSummary": {
+    "message": "El complemento Windows es necesario para los nodos locales y MTR. La latencia puede diferir entre el navegador, el sistema y las sondas públicas. Detenga una prueba o borre los datos locales de Configuración."
+  },
+  "policyDetailsLink": {
+    "message": "Leer todos los detalles ↗"
+  },
+  "thirdPartyNotice": {
+    "message": "Avisos de código abierto ↗"
+  },
+  "columnResizeHelp": {
+    "message": "Arrastre para cambiar el tamaño; haga doble clic para restablecer; use las teclas de flecha para ajustar"
+  },
+  "columnResize": {
+    "message": "Cambiar tamaño de columna"
+  },
+  "typeDescription_node": {
+    "message": "Conexión a través de un nodo proxy"
+  },
+  "typeDescription_manual": {
+    "message": "Ingresar la configuración del proxy manualmente"
+  },
+  "typeDescription_auto": {
+    "message": "Seleccionar un nodo usando reglas"
+  },
+  "typeDescription_pac": {
+    "message": "Enrutar el tráfico usando reglas PAC"
+  },
+  "appDescription": {
+    "message": "Rutas de proxy del navegador, nodos y reglas de dominio. Las rutas de nodo necesitan el complemento Windows."
+  },
+  "core_title": {
+    "message": "Núcleo proxy"
+  },
+  "core_checking": {
+    "message": "Comprobando el componente local…"
+  },
+  "core_ready": {
+    "message": "Xray está listo"
+  },
+  "core_missing": {
+    "message": "Falta el núcleo del proxy"
+  },
+  "core_external": {
+    "message": "Núcleo personalizado: no verificado"
+  },
+  "core_corrupt": {
+    "message": "Xray La suma de verificación no coincide: se requiere reparación"
+  },
+  "core_unreadable": {
+    "message": "No se pudo verificar el archivo principal"
+  },
+  "core_intro": {
+    "message": "El paquete completo Windows incluye Xray. v2rayN es opcional."
+  },
+  "core_verify": {
+    "message": "Verificar nuevamente"
+  },
+  "core_install": {
+    "message": "Instalar/reparar núcleo"
+  },
+  "core_installing": {
+    "message": "Descargando y verificando…"
+  },
+  "core_done": {
+    "message": "Núcleo verificado y listo"
+  },
+  "core_help": {
+    "message": "La reparación utiliza una versión oficial fijada Xray y verifica su suma de verificación. Las conexiones existentes siguen funcionando."
+  },
+  "core_absent": {
+    "message": "Instale el componente local una vez, luego regrese aquí para verificar el núcleo."
+  },
+  "core_download": {
+    "message": "Guía de instalación"
+  },
+  "core_absentHelp": {
+    "message": "Utilice el paquete Windows correspondiente o siga la guía para compilarlo desde el código fuente y luego ejecute la instalación."
+  },
+  "core_failed": {
+    "message": "Falló la operación principal. Inténtelo de nuevo o utilice el paquete completo Windows."
+  },
+  "core_version": {
+    "message": "Versión"
+  },
+  "error_ACTIVE_PROFILE_DELETE": {
+    "message": "Cambie a otro perfil antes de eliminar este"
+  },
+  "error_BACKUP_BINDING_TYPE": {
+    "message": "Solo los perfiles de proxy pueden tener rutas vinculadas"
+  },
+  "error_BACKUP_FORMAT3_REQUIRED": {
+    "message": "Las reglas de nodos requieren una copia portátil en formato 3"
+  },
+  "error_BACKUP_INDEPENDENT_PATH_REQUIRED": {
+    "message": "La copia debe contener una ruta de nodos independiente"
+  },
+  "error_BACKUP_INTERNAL_BINDINGS": {
+    "message": "La copia contiene vínculos internos"
+  },
+  "error_BACKUP_MESSAGE_LIMIT": {
+    "message": "La copia de nodos supera el límite de mensajes del componente auxiliar"
+  },
+  "error_BACKUP_NODES_INCOMPLETE": {
+    "message": "Copia de nodos incompleta"
+  },
+  "error_BACKUP_NODE_MISSING": {
+    "message": "Falta un nodo necesario en la copia"
+  },
+  "error_BACKUP_NODE_PATHS_LIMIT": {
+    "message": "La copia admite como máximo {limit} rutas de nodos"
+  },
+  "error_BACKUP_PATH_INCOMPLETE": {
+    "message": "Ruta de nodos incompleta en la copia"
+  },
+  "error_BACKUP_PROFILES_LIMIT": {
+    "message": "La copia admite como máximo {limit} perfiles"
+  },
+  "error_BACKUP_PROXY_CONFLICT": {
+    "message": "La copia contiene configuraciones de proxy en conflicto"
+  },
+  "error_BACKUP_SIZE_LIMIT": {
+    "message": "La copia supera {limit} MB"
+  },
+  "error_BACKUP_TRANSFER_UNAVAILABLE": {
+    "message": "Actualice o repare el componente auxiliar para transferir copias de nodos."
+  },
+  "error_BACKUP_UNUSED_NODES": {
+    "message": "La copia contiene nodos sin referencias"
+  },
+  "error_BODY_TOO_LARGE": {
+    "message": "La respuesta de la suscripción supera el tamaño permitido."
+  },
+  "error_BROWSER_API_FAILED": {
+    "message": "La operación del navegador falló. Consulte los detalles técnicos."
+  },
+  "error_BROWSER_PROXY_RESTORE_FAILED": {
+    "message": "La operación falló y no se pudo restaurar el proxy anterior del navegador"
+  },
+  "error_BROWSER_SCHEDULING_UNAVAILABLE": {
+    "message": "La programación de tareas del navegador no está disponible."
+  },
+  "error_BUSY": {
+    "message": "Hay otra operación en curso. Inténtelo de nuevo en unos momentos."
+  },
+  "error_CHAIN_PROBE_FAILED": {
+    "message": "La prueba de la cadena falló"
+  },
+  "error_COMPANION_BULK_RELEASE_REQUIRED": {
+    "message": "Actualice el componente auxiliar local para gestionar varias reglas de nodos de forma segura"
+  },
+  "error_COMPANION_CHAINS_REQUIRED": {
+    "message": "Actualice el componente auxiliar local para usar cadenas ordenadas"
+  },
+  "error_COMPANION_MESSAGE_LIMIT": {
+    "message": "La configuración supera el límite de mensajes del componente auxiliar"
+  },
+  "error_COMPANION_OPERATION_FAILED": {
+    "message": "La operación del componente auxiliar local falló. Consulte los detalles técnicos."
+  },
+  "error_COMPANION_UNAVAILABLE": {
+    "message": "Instale o repare el componente auxiliar de V2Route"
+  },
+  "error_CONNECTION_CLOSED": {
+    "message": "La conexión se cerró antes de finalizar la prueba."
+  },
+  "error_CORE_INSTALL_FAILED": {
+    "message": "La instalación del núcleo falló. Consulte los detalles técnicos."
+  },
+  "error_CORE_OWNERSHIP_FAILED": {
+    "message": "No se pudo controlar de forma segura el núcleo de prueba aislado. Se detuvo la prueba."
+  },
+  "error_CORE_START_FAILED": {
+    "message": "El núcleo de prueba aislado no pudo iniciarse. Revise la instalación del componente auxiliar y del núcleo."
+  },
+  "error_CORE_START_TIMEOUT": {
+    "message": "El núcleo de prueba aislado no estuvo listo a tiempo."
+  },
+  "error_CORE_STATUS_UNAVAILABLE": {
+    "message": "El estado del núcleo no está disponible. Consulte los detalles técnicos."
+  },
+  "error_CORE_VALIDATION_FAILED": {
+    "message": "Xray no pudo validar los nodos importados. Revise su configuración e inténtelo de nuevo."
+  },
+  "error_DETACH_PORT_CONFLICT": {
+    "message": "El puerto gestionado se liberará. Introduzca otro proxy manual"
+  },
+  "error_DETACH_PROXY_REQUIRED": {
+    "message": "Introduzca el proxy manual de reemplazo antes de desvincular la ruta"
+  },
+  "error_DNS_BUSY": {
+    "message": "La resolución DNS está ocupada. Inténtelo de nuevo en unos momentos."
+  },
+  "error_DNS_FAILED": {
+    "message": "La resolución DNS falló. Revise la dirección y la conexión de red."
+  },
+  "error_ENCODING_UNSUPPORTED": {
+    "message": "La suscripción utiliza una codificación de contenido no compatible."
+  },
+  "error_FIREFOX_PRIVATE_ACCESS_REQUIRED": {
+    "message": "Permita V2Route en ventanas privadas desde los detalles de la extensión antes de cambiar la configuración del proxy"
+  },
+  "error_FOLDER_UNAVAILABLE": {
+    "message": "Carpeta no disponible; revise la ruta, los permisos y la versión del componente auxiliar"
+  },
+  "error_GROUP_LIMIT": {
+    "message": "Se alcanzó el límite de grupos. Elimine un grupo que no utilice e inténtelo de nuevo."
+  },
+  "error_GROUP_NOT_EDITABLE": {
+    "message": "Este grupo de origen no se puede editar aquí."
+  },
+  "error_GROUP_NOT_FOUND": {
+    "message": "El grupo seleccionado ya no existe. Seleccione otro grupo."
+  },
+  "error_HTTP_ENCODING": {
+    "message": "El servidor de prueba devolvió una codificación no compatible."
+  },
+  "error_HTTP_LENGTH": {
+    "message": "El tamaño de la respuesta de prueba no coincide con el solicitado."
+  },
+  "error_HTTP_RESPONSE_TOO_LARGE": {
+    "message": "La respuesta de prueba superó el tamaño permitido."
+  },
+  "error_HTTP_STATUS": {
+    "message": "El servidor de prueba devolvió un estado HTTP de error."
+  },
+  "error_IMPORTED_PROXY_MISSING": {
+    "message": "El componente auxiliar no devolvió el proxy importado"
+  },
+  "error_IMPORTED_RULE_PATH_CONFLICT": {
+    "message": "Los nodos importados generan rutas de reglas en conflicto"
+  },
+  "error_IMPORT_CLEANUP_FAILED": {
+    "message": "La importación falló; no se pudieron liberar algunos nodos o puertos temporales. Se conservaron los perfiles existentes"
+  },
+  "error_IMPORT_PROFILE_NAME_CONFLICT": {
+    "message": "Nombre de perfil duplicado o no válido"
+  },
+  "error_INCOMPLETE_RESPONSE": {
+    "message": "La respuesta de la suscripción está incompleta. Inténtelo de nuevo."
+  },
+  "error_INVALID_BACKUP": {
+    "message": "Copia de V2Route no válida"
+  },
+  "error_INVALID_BACKUP_NODE": {
+    "message": "Nodo de la copia no válido o duplicado"
+  },
+  "error_INVALID_BACKUP_NODES": {
+    "message": "Nodos de la copia no válidos"
+  },
+  "error_INVALID_BACKUP_PATH": {
+    "message": "Ruta de la copia no válida"
+  },
+  "error_INVALID_BYPASS_ENTRY": {
+    "message": "Entrada de exclusión del proxy no válida"
+  },
+  "error_INVALID_BYPASS_LIST": {
+    "message": "Lista de exclusión del proxy no válida"
+  },
+  "error_INVALID_CHAIN": {
+    "message": "Cadena ordenada no válida"
+  },
+  "error_INVALID_CHAIN_PROBE": {
+    "message": "Prueba de cadena no válida"
+  },
+  "error_INVALID_COMPANION_RESPONSE": {
+    "message": "El componente auxiliar local devolvió una respuesta no válida. Actualícelo o repárelo."
+  },
+  "error_INVALID_CONTENT": {
+    "message": "La respuesta de la suscripción no contiene información válida."
+  },
+  "error_INVALID_DOMAIN_PATTERNS": {
+    "message": "Separe los patrones de dominio con comas y coloque cada URL en una fila independiente"
+  },
+  "error_INVALID_ENCODING": {
+    "message": "La respuesta de la suscripción no es texto UTF-8 válido."
+  },
+  "error_INVALID_FOLDER_REQUEST": {
+    "message": "Solicitud de carpeta no válida"
+  },
+  "error_INVALID_GROUP_ACTION": {
+    "message": "Esta acción de grupo no es compatible."
+  },
+  "error_INVALID_HOP_INDEX": {
+    "message": "Índice de salto no válido"
+  },
+  "error_INVALID_LEGACY_PREDECESSOR": {
+    "message": "Proxy predecesor antiguo no válido"
+  },
+  "error_INVALID_LIBRARY_COMMAND": {
+    "message": "Este comando de la biblioteca de nodos no es compatible."
+  },
+  "error_INVALID_LIBRARY_REQUEST": {
+    "message": "Solicitud de biblioteca no válida"
+  },
+  "error_INVALID_NAME": {
+    "message": "Introduzca un nombre de 1 a 128 caracteres visibles, sin caracteres de control."
+  },
+  "error_INVALID_NETWORK_TEST": {
+    "message": "Prueba de red no válida"
+  },
+  "error_INVALID_NODE_IMPORT_RESPONSE": {
+    "message": "Respuesta de importación de nodos no válida"
+  },
+  "error_INVALID_PREDECESSOR": {
+    "message": "Proxy predecesor no válido para esta ruta"
+  },
+  "error_INVALID_PROFILE_NAME": {
+    "message": "Nombre de perfil no válido"
+  },
+  "error_INVALID_PROFILE_REFERENCE": {
+    "message": "Referencia de perfil no válida"
+  },
+  "error_INVALID_PROXY_AUTH": {
+    "message": "Autenticación del proxy no válida"
+  },
+  "error_INVALID_PROXY_CREDENTIALS": {
+    "message": "Credenciales del proxy no válidas"
+  },
+  "error_INVALID_PROXY_ENDPOINT": {
+    "message": "Introduzca un host y un puerto de proxy válidos"
+  },
+  "error_INVALID_PROXY_HOST": {
+    "message": "Introduzca un nombre DNS o una dirección IP sin puerto, URL, ruta ni consulta"
+  },
+  "error_INVALID_ROUTE": {
+    "message": "Ruta no válida"
+  },
+  "error_INVALID_ROUTE_SETTINGS": {
+    "message": "Configuración de ruta no válida"
+  },
+  "error_INVALID_RULES": {
+    "message": "Reglas no válidas"
+  },
+  "error_INVALID_RULE_TARGET": {
+    "message": "Elija un nodo o perfil válido para cada regla"
+  },
+  "error_INVALID_SUBSCRIPTION": {
+    "message": "Suscripción no válida"
+  },
+  "error_INVALID_SUBSCRIPTION_REQUEST": {
+    "message": "Solicitud de suscripción no válida"
+  },
+  "error_INVALID_SUBSCRIPTION_SETTINGS": {
+    "message": "La configuración de la suscripción no es válida. Revise el intervalo de actualización y la política de conexión."
+  },
+  "error_INVALID_SYSTEM_PROXY_RESPONSE": {
+    "message": "Respuesta del proxy del sistema no válida; actualice o repare el componente auxiliar"
+  },
+  "error_INVALID_TRANSPORT": {
+    "message": "La configuración de conexión de la suscripción no es válida."
+  },
+  "error_INVALID_URL": {
+    "message": "Introduzca una URL de suscripción HTTP(S) válida, sin nombre de usuario ni contraseña."
+  },
+  "error_LIBRARY_CHANGED": {
+    "message": "La biblioteca de nodos cambió en otra ventana. Actualícela e inténtelo de nuevo."
+  },
+  "error_MANUAL_CHAIN_UNSUPPORTED": {
+    "message": "Los proxies manuales no admiten cadenas de nodos"
+  },
+  "error_MANUAL_PROXY_CLEANUP_FAILED": {
+    "message": "El guardado falló; queda un proxy importado temporal en la biblioteca de nodos"
+  },
+  "error_NATIVE_BINDING_ID": {
+    "message": "Identificador de vínculo de ruta no válido."
+  },
+  "error_NATIVE_BINDING_UNKNOWN": {
+    "message": "El vínculo de ruta no existe."
+  },
+  "error_NATIVE_BUTTON_NAME": {
+    "message": "El nombre del botón debe contener entre 1 y 128 caracteres visibles."
+  },
+  "error_NATIVE_CATALOG_UNREADABLE": {
+    "message": "No se pudo leer la configuración de v2rayN."
+  },
+  "error_NATIVE_CORE_MISSING": {
+    "message": "Xray no está disponible. Instale el paquete del componente auxiliar."
+  },
+  "error_NATIVE_GROUP_ID_COLLISION": {
+    "message": "Los identificadores de grupos están en conflicto."
+  },
+  "error_NATIVE_GROUP_ORDER": {
+    "message": "Orden de grupos no válido."
+  },
+  "error_NATIVE_NODE_ID_COLLISION": {
+    "message": "Los identificadores de nodos están en conflicto."
+  },
+  "error_NATIVE_PREDECESSOR_AMBIGUOUS": {
+    "message": "El nombre del predecesor no existe o está duplicado. Seleccione un nodo predecesor concreto."
+  },
+  "error_NATIVE_PREDECESSOR_CYCLE": {
+    "message": "La cadena de predecesores contiene un ciclo o supera los seis nodos."
+  },
+  "error_NATIVE_PREDECESSOR_INVALID": {
+    "message": "Seleccione un proxy predecesor válido."
+  },
+  "error_NATIVE_PREDECESSOR_MISSING": {
+    "message": "El predecesor seleccionado ya no existe. Seleccione otro nodo."
+  },
+  "error_NATIVE_PREDECESSOR_SETTINGS": {
+    "message": "Configuración del predecesor no válida."
+  },
+  "error_NATIVE_ROUTE_INVALID": {
+    "message": "Seleccione una ruta válida."
+  },
+  "error_NATIVE_ROUTE_MISSING": {
+    "message": "Esta ruta ya no existe. Seleccione otra ruta."
+  },
+  "error_NATIVE_ROUTE_PORTS": {
+    "message": "Asignaciones de puertos de rutas no válidas."
+  },
+  "error_NATIVE_ROUTE_UNAVAILABLE": {
+    "message": "La ruta seleccionada no está disponible. Consulte los detalles técnicos."
+  },
+  "error_NATIVE_SETTINGS_FORMAT": {
+    "message": "Formato de configuración no válido."
+  },
+  "error_NATIVE_SETTINGS_REVISION": {
+    "message": "Revisión de configuración no válida."
+  },
+  "error_NATIVE_SUCCESSOR_UNSUPPORTED": {
+    "message": "Este grupo utiliza un proxy sucesor no compatible."
+  },
+  "error_NATIVE_UNSUPPORTED_CUSTOM": {
+    "message": "Esta versión no admite configuraciones de salida personalizadas."
+  },
+  "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
+    "message": "Esta versión no admite Hysteria2."
+  },
+  "error_NATIVE_UNSUPPORTED_TUIC": {
+    "message": "Esta versión no integra el núcleo sing-box necesario para TUIC."
+  },
+  "error_NATIVE_UNSUPPORTED_TYPE": {
+    "message": "Este tipo de ruta no es compatible."
+  },
+  "error_NATIVE_V2RAYN_PORT": {
+    "message": "El puerto local de v2rayN no es válido."
+  },
+  "error_NATIVE_V2RAYN_UNAVAILABLE": {
+    "message": "v2rayN no está disponible. Seleccione un nodo importado."
+  },
+  "error_NETWORK_FAILED": {
+    "message": "La solicitud de red falló. Revise la conexión e inténtelo de nuevo."
+  },
+  "error_NETWORK_TEST_FAILED": {
+    "message": "El diagnóstico de red falló. Consulte los detalles técnicos."
+  },
+  "error_NODE_LIMIT": {
+    "message": "La operación superaría el límite de nodos. Elimine los nodos que no utilice e inténtelo de nuevo."
+  },
+  "error_NODE_MAPPING_INCOMPLETE": {
+    "message": "La correspondencia de nodos está incompleta"
+  },
+  "error_NODE_NOT_FOUND": {
+    "message": "El nodo seleccionado ya no existe. Seleccione otro nodo."
+  },
+  "error_NOT_DUE": {
+    "message": "Aún no es la hora de la próxima actualización programada."
+  },
+  "error_PAC_ENTRY_REQUIRED": {
+    "message": "Introduzca código PAC con FindProxyForURL"
+  },
+  "error_PAC_FUNCTION_REQUIRED": {
+    "message": "Defina una función FindProxyForURL síncrona de nivel superior, una variable de función o una asignación de función"
+  },
+  "error_PAC_PARSER_UNAVAILABLE": {
+    "message": "El analizador PAC incluido no está disponible; reinstale la extensión"
+  },
+  "error_PAC_RULE_TARGET_UNSUPPORTED": {
+    "message": "Las reglas automáticas no pueden apuntar a un perfil PAC integrado"
+  },
+  "error_PAC_SOURCE_LIMIT": {
+    "message": "Introduzca código PAC de como máximo {limit} caracteres"
+  },
+  "error_PAC_SYNTAX_INVALID": {
+    "message": "Sintaxis PAC no válida"
+  },
+  "error_PAC_SYNTAX_LOCATION": {
+    "message": "Sintaxis PAC no válida en la línea {line}, columna {column}"
+  },
+  "error_PARTIAL_TRANSFER": {
+    "message": "La transferencia de prueba terminó antes de recibir todos los datos."
+  },
+  "error_PRIVATE_DIRECTORY_FAILED": {
+    "message": "No se pudo proteger la carpeta privada de prueba. Se detuvo la prueba."
+  },
+  "error_PRIVATE_TARGET": {
+    "message": "No se permiten solicitudes de suscripción a direcciones privadas o locales."
+  },
+  "error_PROFILE_NOT_FOUND": {
+    "message": "Perfil no encontrado"
+  },
+  "error_PROFILE_REFERENCE_CYCLE": {
+    "message": "Referencias circulares entre perfiles"
+  },
+  "error_PROFILE_REFERENCE_DEPTH": {
+    "message": "Las reglas automáticas superan la profundidad máxima de {limit}"
+  },
+  "error_PROFILE_REFERENCE_MISSING": {
+    "message": "El perfil referenciado no existe: {name}"
+  },
+  "error_PROFILE_SAVE_RESTORE_FAILED": {
+    "message": "El guardado falló y es necesario revisar la restauración de la ruta"
+  },
+  "error_PROXY_AUTH_REQUIRED": {
+    "message": "El proxy de la suscripción requiere una autenticación que esta solicitud no puede proporcionar."
+  },
+  "error_PROXY_CONTROL_UNAVAILABLE": {
+    "message": "Otra extensión o una política controla el proxy"
+  },
+  "error_PROXY_DNS_REQUIRED": {
+    "message": "En V2Route, el DNS de SOCKS5 se resuelve a través del proxy"
+  },
+  "error_PROXY_FAILED": {
+    "message": "La conexión al proxy falló. Revise la ruta seleccionada."
+  },
+  "error_PROXY_PROFILE_REQUIRED": {
+    "message": "Elija un perfil de proxy"
+  },
+  "error_PROXY_ROLLBACK_REFUSED": {
+    "message": "El navegador rechazó la reversión del proxy"
+  },
+  "error_PROXY_SETTING_REFUSED": {
+    "message": "El navegador rechazó la configuración del proxy"
+  },
+  "error_PROXY_UNAVAILABLE": {
+    "message": "El proxy seleccionado no está disponible. Revise la ruta actual."
+  },
+  "error_PROXY_USERNAME_REQUIRED": {
+    "message": "Introduzca un nombre de usuario para el proxy"
+  },
+  "error_RECOVERY_BINDINGS_LIMIT": {
+    "message": "Se pueden restaurar como máximo {limit} vínculos de nodos a la vez. Abra y guarde por separado los perfiles referenciados."
+  },
+  "error_REDIRECT_LIMIT": {
+    "message": "La suscripción se redirigió demasiadas veces. Revise su URL."
+  },
+  "error_REFERENCED_PROFILE_DELETE": {
+    "message": "Una regla automática hace referencia a este perfil"
+  },
+  "error_REMOTE_PAC_UNSUPPORTED": {
+    "message": "Utilice código PAC integrado; el PAC remoto no es compatible"
+  },
+  "error_ROUTE_PORT_UNAVAILABLE": {
+    "message": "No se asignó ningún puerto"
+  },
+  "error_ROUTE_RECOVERY_RESTORE_FAILED": {
+    "message": "La recuperación de la ruta falló y es necesario revisar su restauración"
+  },
+  "error_ROUTE_REVISION_CONFLICT": {
+    "message": "La ruta cambió en otra ventana. Actualice primero"
+  },
+  "error_ROUTE_SAVE_ROLLBACK_FAILED": {
+    "message": "El guardado de la ruta falló y es necesario revisar la reversión"
+  },
+  "error_ROUTE_UNAVAILABLE": {
+    "message": "La ruta de prueba no está disponible. Revise el nodo y la configuración del predecesor."
+  },
+  "error_RULE_BINDING_MISSING": {
+    "message": "Falta el vínculo de la regla de nodo. Vuelva a abrir y guardar el perfil automático: {name}"
+  },
+  "error_RULE_NODES_LIMIT": {
+    "message": "Las reglas automáticas admiten como máximo {limit} nodos distintos"
+  },
+  "error_RULE_NODE_CHANGED": {
+    "message": "La regla de nodo no está disponible o cambió. Restaure el nodo o seleccione otro y guarde: {name}"
+  },
+  "error_RULE_PATH_CONFLICT": {
+    "message": "Rutas de reglas de nodos en conflicto"
+  },
+  "error_RULE_PATTERNS_LIMIT": {
+    "message": "Las reglas automáticas admiten como máximo {limit} patrones de coincidencia en total"
+  },
+  "error_RULE_PORT_UNAVAILABLE": {
+    "message": "El puerto de la regla de nodo no está disponible"
+  },
+  "error_RULE_REVISION_CONFLICT": {
+    "message": "La regla de nodo cambió en otra ventana. Actualice primero"
+  },
+  "error_SELECTED_NODE_UNAVAILABLE": {
+    "message": "El nodo seleccionado no está disponible. Restáurelo o elija otro nodo"
+  },
+  "error_SOCKS_FAILED": {
+    "message": "No se pudo establecer la conexión SOCKS."
+  },
+  "error_STARTUP_FALLBACK_REFUSED": {
+    "message": "El navegador rechazó el proxy alternativo al iniciar."
+  },
+  "error_SUBSCRIPTION_CHANGED": {
+    "message": "La suscripción cambió durante la actualización. Actualícela e inténtelo de nuevo."
+  },
+  "error_SUBSCRIPTION_HTTP_STATUS": {
+    "message": "El servidor de suscripción devolvió HTTP {status}."
+  },
+  "error_SUBSCRIPTION_LIMIT": {
+    "message": "Se alcanzó el límite de suscripciones. Elimine una que no utilice e inténtelo de nuevo."
+  },
+  "error_SUBSCRIPTION_NOT_FOUND": {
+    "message": "La suscripción seleccionada ya no existe."
+  },
+  "error_SYSTEM_PROXY_SNAPSHOT_UNAVAILABLE": {
+    "message": "La instantánea del proxy del sistema aplicado no está disponible."
+  },
+  "error_SYSTEM_PROXY_TIMEOUT": {
+    "message": "Se agotó el tiempo al leer el proxy del sistema"
+  },
+  "error_SYSTEM_PROXY_UNAVAILABLE": {
+    "message": "El proxy del sistema no está disponible. Consulte los detalles técnicos."
+  },
+  "error_TIMEOUT": {
+    "message": "La solicitud agotó el tiempo de espera. Revise la conexión e inténtelo de nuevo."
+  },
+  "error_TLS_DOWNGRADE": {
+    "message": "La suscripción se redirigió de HTTPS a HTTP y fue bloqueada."
+  },
+  "error_TLS_FAILED": {
+    "message": "No se pudo verificar la conexión segura. Revise el servidor y el certificado."
+  },
+  "error_UNSAFE_TEMP_PATH": {
+    "message": "La carpeta temporal de prueba no es segura. Se detuvo la prueba."
+  },
+  "error_UNSUPPORTED_LIBRARY_REQUEST": {
+    "message": "Solicitud de biblioteca no compatible"
+  },
+  "error_UNSUPPORTED_PROFILE_TYPE": {
+    "message": "Tipo de perfil no compatible"
+  },
+  "error_UNSUPPORTED_REQUEST": {
+    "message": "Solicitud no compatible"
+  },
+  "error_UNSUPPORTED_RULE_CONDITION": {
+    "message": "Solo se admiten reglas de comodines para hosts y URL"
+  },
+  "error_UPDATE_FAILED": {
+    "message": "La actualización de la suscripción falló. Se conservaron los nodos existentes."
+  },
+  "error_VALIDATION_FAILED": {
+    "message": "No se pudo validar el contenido de la suscripción. Se conservaron los nodos existentes."
+  },
+  "nativeUnnamedNode": {
+    "message": "Nodo sin nombre"
+  },
+  "nativeProtocolCustom": {
+    "message": "Personalizado"
+  },
+  "nativeProtocolOutbound": {
+    "message": "Salida personalizada"
+  },
+  "nativeProtocolGroup": {
+    "message": "Grupo de políticas"
+  },
+  "nativeProtocolChain": {
+    "message": "Cadena de proxies"
+  },
+  "nativeProtocolUnknown": {
+    "message": "Tipo no compatible"
+  },
+  "languageLoadFailed": {
+    "message": "No se pudo cargar el idioma seleccionado. Inténtelo de nuevo."
+  },
+  "invalidBackupJSON": {
+    "message": "La copia no es un archivo JSON válido."
+  },
+  "noticeBodyLanguages": {
+    "message": "El texto completo de la política está disponible en inglés y chino simplificado."
+  },
+  "policyRules": {
+    "message": "Políticas de enrutamiento proxy"
+  },
+  "policyPriority": {
+    "message": "Orden: direcciones excluidas → primera política coincidente → ruta predeterminada."
+  },
+  "policyDirectHelp": {
+    "message": "Las direcciones sin coincidencia se conectan directamente. El botón Directo también usa estas políticas."
+  },
+  "policySystemHelp": {
+    "message": "Las direcciones sin coincidencia usan el proxy del sistema. El botón Sistema también usa estas reglas."
+  },
+  "policyEmpty": {
+    "message": "Sin políticas. Se usa la ruta predeterminada."
+  },
+  "policyAddressHelp": {
+    "message": "Dominios, comodines, IP o IP:puerto. Las reglas IP comparan la IP de la URL, no los resultados DNS."
+  },
+  "policyMoveUp": {
+    "message": "Subir política"
+  },
+  "policyMoveDown": {
+    "message": "Bajar política"
+  }
+}

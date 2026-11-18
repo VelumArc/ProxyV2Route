@@ -1,0 +1,2150 @@
+{
+  "ruleTargetUnavailable": {
+    "message": "Target tidak tersedia"
+  },
+  "rulePatternPlaceholder": {
+    "message": "example.com, *.example.org, 192.0.2.1:8443"
+  },
+  "rulePatternHelp": {
+    "message": "Pisahkan alamat dengan koma. Satu pola URL per baris. PAC mungkin tidak dapat melihat jalur HTTPS."
+  },
+  "defaultChoice_direct": {
+    "message": "Terhubung tanpa proxy"
+  },
+  "defaultChoice_system": {
+    "message": "Gunakan pengaturan proksi sistem"
+  },
+  "defaultChoice_node": {
+    "message": "Gunakan node yang dipilih pada profil ini"
+  },
+  "defaultChoice_manual": {
+    "message": "Gunakan pengaturan proxy profil ini"
+  },
+  "defaultChoice_auto": {
+    "message": "Terapkan aturan perutean profil ini"
+  },
+  "nlHttpsLatency": {
+    "message": "HTTPS tanggapan"
+  },
+  "nlLatencyMethod": {
+    "message": "Cloudflare · Minimal dua tanggapan · Koneksi digunakan kembali bila tersedia"
+  },
+  "nlLatencyFast": {
+    "message": "Cepat"
+  },
+  "nlLatencyModerate": {
+    "message": "Sedang"
+  },
+  "nlLatencySlow": {
+    "message": "Lambat"
+  },
+  "nlSortName": {
+    "message": "Nama"
+  },
+  "nlSortLatency": {
+    "message": "Latensi: rendah ke tinggi"
+  },
+  "nlSortDownload": {
+    "message": "Unduh: tinggi ke rendah"
+  },
+  "nlSortUpload": {
+    "message": "Unggah: tinggi ke rendah"
+  },
+  "nlSingle": {
+    "message": "Node tunggal"
+  },
+  "nlGroupBatch": {
+    "message": "Grup / kelompok"
+  },
+  "nlTestScope": {
+    "message": "Ruang lingkup pengujian"
+  },
+  "nlCurrentNode": {
+    "message": "Node yang dipilih"
+  },
+  "nlCurrentGroup": {
+    "message": "Grup terpilih"
+  },
+  "nlChooseNode": {
+    "message": "Pilih node dalam daftar"
+  },
+  "nlStart": {
+    "message": "Mulai tes"
+  },
+  "nlService": {
+    "message": "Layanan pengujian"
+  },
+  "nlMeasured": {
+    "message": "diukur"
+  },
+  "nlMeanLatency": {
+    "message": "Latensi rata-rata"
+  },
+  "nlGroupBySource": {
+    "message": "Berdasarkan grup sumber"
+  },
+  "nlPreviousPage": {
+    "message": "Halaman sebelumnya"
+  },
+  "nlNextPage": {
+    "message": "Halaman selanjutnya"
+  },
+  "nlName": {
+    "message": "Nama"
+  },
+  "nlEdit": {
+    "message": "Sunting"
+  },
+  "nlStop": {
+    "message": "Berhenti"
+  },
+  "nlConfirm": {
+    "message": "Konfirmasi"
+  },
+  "nlAllNodes": {
+    "message": "Semua node"
+  },
+  "nlNodeResults": {
+    "message": "Hasil simpul"
+  },
+  "nlTestCenter": {
+    "message": "Pusat ujian"
+  },
+  "nlNewGroup": {
+    "message": "Grup baru"
+  },
+  "nlRenameGroup": {
+    "message": "Ganti nama grup"
+  },
+  "nlRemoveGroup": {
+    "message": "Hapus grup"
+  },
+  "nlRemoveGroupHelp": {
+    "message": "Simpan setiap node dan langganan, dan pindahkan ke node yang Diimpor."
+  },
+  "nlNode": {
+    "message": "Simpul"
+  },
+  "nlStatus": {
+    "message": "Status"
+  },
+  "nlActions": {
+    "message": "Tindakan"
+  },
+  "nlSort": {
+    "message": "Urutkan tabel ini saja"
+  },
+  "nlSelected": {
+    "message": "dipilih"
+  },
+  "nlTestNode": {
+    "message": "Tes"
+  },
+  "nlProfileShort": {
+    "message": "Profil"
+  },
+  "nlQuick": {
+    "message": "Latensi cepat"
+  },
+  "nlFull": {
+    "message": "Unduh + unggah"
+  },
+  "nlTraffic": {
+    "message": "Uji ukuran data"
+  },
+  "nlConcurrency": {
+    "message": "Node serentak"
+  },
+  "nlTrafficFullOnly": {
+    "message": "Digunakan untuk pengujian pengunduhan dan pengunggahan"
+  },
+  "nlTestMode": {
+    "message": "Mode pengujian"
+  },
+  "nlBudget": {
+    "message": "Lalu lintas muatan maksimum"
+  },
+  "nlViaGroup": {
+    "message": "Melalui pra-proksi grup"
+  },
+  "nlTestSelected": {
+    "message": "Tes dipilih"
+  },
+  "nlTestVisible": {
+    "message": "Uji node yang ditampilkan"
+  },
+  "nlTestAll": {
+    "message": "Uji semua node"
+  },
+  "nlTestGroup": {
+    "message": "Uji node grup"
+  },
+  "nlProgress": {
+    "message": "Kemajuan pengukuran"
+  },
+  "nlReady": {
+    "message": "Pilih node untuk memulai. Tidak ada tes yang dijalankan."
+  },
+  "nlStarting": {
+    "message": "Memulai pengukuran terisolasi…"
+  },
+  "nlQueued": {
+    "message": "Mengantri"
+  },
+  "nlRunning": {
+    "message": "Pengujian"
+  },
+  "nlStopping": {
+    "message": "Berhenti…"
+  },
+  "nlComplete": {
+    "message": "Selesai"
+  },
+  "nlFailed": {
+    "message": "Gagal"
+  },
+  "nlStopped": {
+    "message": "Berhenti"
+  },
+  "nlPartial": {
+    "message": "Sebagian"
+  },
+  "nlUntested": {
+    "message": "Tidak diuji"
+  },
+  "nlSucceeded": {
+    "message": "berlalu"
+  },
+  "nlMeasureDisconnected": {
+    "message": "Koneksi pengukuran berakhir. Nilai yang tidak lengkap bukanlah hasil akhir."
+  },
+  "nlUpgrade": {
+    "message": "Perbarui Pendamping lokal untuk mengelola grup dan langganan. Node yang ada tetap tersedia."
+  },
+  "nlOperationFailed": {
+    "message": "Operasi tidak dapat diselesaikan. Coba lagi."
+  },
+  "nlEditSubscription": {
+    "message": "Edit langganan"
+  },
+  "nlPasteContent": {
+    "message": "Tautan/konten proxy"
+  },
+  "nlSubscriptionURL": {
+    "message": "Berlangganan URL"
+  },
+  "nlKeepURL": {
+    "message": "Biarkan kosong untuk menyimpan yang disimpan URL"
+  },
+  "nlConnectionPolicy": {
+    "message": "Perbarui koneksi"
+  },
+  "nlProxyFirst": {
+    "message": "Proksi dulu, lalu langsung jika gagal"
+  },
+  "nlProxyOnly": {
+    "message": "Hanya proksi"
+  },
+  "nlDirectOnly": {
+    "message": "Langsung saja"
+  },
+  "nlProxyFirstHelp": {
+    "message": "Proxy pertama kali berhenti setelah pengambilan berhasil. Langsung dicoba hanya jika upaya proxy gagal."
+  },
+  "nlAutoUpdate": {
+    "message": "Aktifkan pembaruan otomatis"
+  },
+  "nlInterval": {
+    "message": "Interval pembaruan (menit)"
+  },
+  "nlDestinationGroup": {
+    "message": "Grup tujuan"
+  },
+  "nlSubscriptionOwnGroup": {
+    "message": "Grup baru…"
+  },
+  "nlNameGroup": {
+    "message": "Nama (grup)"
+  },
+  "nlCustomGroup": {
+    "message": "Grup khusus"
+  },
+  "nlNameRequired": {
+    "message": "Masukkan nama."
+  },
+  "nlContentRequired": {
+    "message": "Tempel tautan proksi atau konten langganan."
+  },
+  "nlGroupRequired": {
+    "message": "Pilih grup tujuan."
+  },
+  "nlURLRequired": {
+    "message": "Masukkan langganan HTTP(S) URL tanpa nama pengguna atau kata sandi."
+  },
+  "nlIntervalInvalid": {
+    "message": "Masukkan bilangan bulat dari 5 hingga 43200 menit."
+  },
+  "folderTitle": {
+    "message": "Pilih folder v2rayN."
+  },
+  "folderHint": {
+    "message": "Pilih folder, lalu terapkan dengan Simpan pengaturan koneksi."
+  },
+  "folderPath": {
+    "message": "Jalur folder lokal lengkap"
+  },
+  "folderGo": {
+    "message": "Buka"
+  },
+  "folderUp": {
+    "message": "Naik"
+  },
+  "folderDrives": {
+    "message": "Mengemudi"
+  },
+  "folderCurrent": {
+    "message": "Jalur saat ini"
+  },
+  "folderChoose": {
+    "message": "Gunakan folder ini"
+  },
+  "folderList": {
+    "message": "Folder"
+  },
+  "folderTruncated": {
+    "message": "Daftar terbatas. Masukkan jalur lengkap di atas untuk membuka folder yang tidak ditampilkan."
+  },
+  "folderReady": {
+    "message": "v2rayN file ditemukan. Gunakan folder ini untuk memvalidasi konfigurasi."
+  },
+  "folderInvalid": {
+    "message": "Pilih folder yang berisi guiConfigs, guiNConfig.json dan guiNDB.db."
+  },
+  "folderSelectDrive": {
+    "message": "Pilih drive lokal atau masukkan jalur folder lengkap."
+  },
+  "folderEmpty": {
+    "message": "Tidak ada subfolder yang terlihat."
+  },
+  "folderUnavailable": {
+    "message": "Tidak dapat menelusuri folder ini. Periksa jalur dan aksesnya. Jika Pendamping lebih lama, perbarui terlebih dahulu."
+  },
+  "folderValidating": {
+    "message": "Memvalidasi konfigurasi v2rayN…"
+  },
+  "folderInvalidConfig": {
+    "message": "Konfigurasi atau database v2rayN tidak lengkap atau tidak valid. Pilih folder lain."
+  },
+  "copyPath": {
+    "message": "Salin jalur"
+  },
+  "pathCopyHint": {
+    "message": "Salin jalur yang saat ini ada di bidang ini."
+  },
+  "preMode": {
+    "message": "Mode pra-proksi"
+  },
+  "preNode": {
+    "message": "Node pra-proksi"
+  },
+  "preIntro": {
+    "message": "Gunakan rantai grup, lewati, atau pilih pra-proksi untuk profil ini."
+  },
+  "healthLabel": {
+    "message": "Status koneksi saat ini"
+  },
+  "healthOk": {
+    "message": "Biasa"
+  },
+  "healthError": {
+    "message": "Tidak normal"
+  },
+  "healthChecking": {
+    "message": "Memeriksa"
+  },
+  "healthUnknown": {
+    "message": "Belum dikonfirmasi"
+  },
+  "autoSystemHelp": {
+    "message": "Aturan sistem memerlukan komponen Windows dan salinan pengaturan proxy tetap. Terapkan ulang setelah perubahan. PAC/WPAD tidak didukung; Sistem tanpa aturan memakai pengaturan asli browser."
+  },
+  "backgroundUnavailable": {
+    "message": "Latar belakang ekstensi tidak tersedia."
+  },
+  "backgroundNoResponse": {
+    "message": "Latar belakang tidak merespons."
+  },
+  "backupTooLarge": {
+    "message": "Cadangan melebihi 5 MB."
+  },
+  "proxyUsername": {
+    "message": "Nama Pengguna"
+  },
+  "proxyPassword": {
+    "message": "Kata Sandi"
+  },
+  "proxyAuthHelp": {
+    "message": "Opsional. Proksi yang diautentikasi terhubung melalui Pendamping. Kredensial disimpan dalam konfigurasi browser ini dan Pendamping, serta disertakan dalam ekspor profil."
+  },
+  "proxyAuthSocks4": {
+    "message": "SOCKS4 tidak mendukung otentikasi nama pengguna/kata sandi ini; gunakan HTTP(S) atau SOCKS5."
+  },
+  "importExamples": {
+    "message": "Contoh format"
+  },
+  "ipCopying": {
+    "message": "Menyalin…"
+  },
+  "netDnsUnavailable": {
+    "message": "Alamat server tidak dapat diselesaikan tepat waktu. Periksa host atau alamat IP dan coba lagi."
+  },
+  "netCurrentTarget": {
+    "message": "Titik akhir proksi yang dipilih"
+  },
+  "netCustomTarget": {
+    "message": "Server khusus"
+  },
+  "netHost": {
+    "message": "Host atau IP alamat"
+  },
+  "netPort": {
+    "message": "TCP pelabuhan"
+  },
+  "netHostRequired": {
+    "message": "Masukkan host server atau alamat IP."
+  },
+  "netCurrentUnavailable": {
+    "message": "Pilih node atau profil proksi manual, atau masukkan target khusus."
+  },
+  "netInvalidTarget": {
+    "message": "Masukkan host dan port diagnostik yang valid."
+  },
+  "netIpv6PingUnavailable": {
+    "message": "IPv6 ICMP tidak tersedia; gunakan TCPing."
+  },
+  "preNeedsFix": {
+    "message": "Pilih pra-proksi yang valid atau tanpa pra-proksi sebelum menyimpan."
+  },
+  "preConfigure": {
+    "message": "Konfigurasikan pra-proksi"
+  },
+  "preFollowInvalid": {
+    "message": "Ikuti v2rayN tidak menerima pra-proksi khusus."
+  },
+  "followChainHelp": {
+    "message": "Ikuti menggunakan rute dan rantai proxy yang sudah aktif di v2rayN."
+  },
+  "netTitle": {
+    "message": "Tes koneksi"
+  },
+  "ipTestDetails": {
+    "message": "Detail pengujian"
+  },
+  "netTarget": {
+    "message": "Ping / TCPing sasaran"
+  },
+  "netDownload": {
+    "message": "Unduh tes"
+  },
+  "netPartial": {
+    "message": "Sampel sebagian"
+  },
+  "netComplete": {
+    "message": "Sampel selesai"
+  },
+  "netDirect": {
+    "message": "Jaringan sistem"
+  },
+  "netUnreachable": {
+    "message": "Tidak ada balasan / gagal"
+  },
+  "netAverage": {
+    "message": "Rata-rata"
+  },
+  "predecessor": {
+    "message": "Pra-proksi"
+  },
+  "preInherit": {
+    "message": "Gunakan rantai grup v2rayN."
+  },
+  "preNone": {
+    "message": "Tidak ada pra-proksi"
+  },
+  "preSpecific": {
+    "message": "Pilih sebuah simpul"
+  },
+  "preHelp": {
+    "message": "Berlaku untuk profil ini. Gunakan rantai grup v2rayN, tanpa pra-proksi atau node tertentu. Ikuti v2rayN menggunakan rantai yang ada."
+  },
+  "preSelectRequired": {
+    "message": "Pilih node pra-proksi, atau pilih Default grup / Tidak Ada."
+  },
+  "ipPing0Permission": {
+    "message": "Izinkan Ping0 akses situs web untuk memuat laporan publik."
+  },
+  "ipPublicChallenge": {
+    "message": "Situs web memerlukan verifikasi. Buka halaman Ping0 untuk menyelesaikannya dan lihat hasilnya."
+  },
+  "ipPublicReport": {
+    "message": "Ping0 laporan publik"
+  },
+  "ipPublicSource": {
+    "message": "Sumber: Ping0 halaman publik"
+  },
+  "ipPublicOriginal": {
+    "message": "Ping0 laporan"
+  },
+  "ipPublicPartial": {
+    "message": "Hanya kolom yang tersedia di halaman publik yang ditampilkan, dalam bahasa aslinya. Klasifikasi dan perkiraan pengguna bersama berasal dari Ping0."
+  },
+  "setupTitle": {
+    "message": "Hubungkan Proxy V2Route"
+  },
+  "setupIntro": {
+    "message": "Instal pendamping Windows untuk menggunakan rute v2rayN atau node yang Anda impor sendiri."
+  },
+  "setupStepOne": {
+    "message": "Ekstrak paket lengkap Windows yang cocok ke folder permanen."
+  },
+  "setupStepTwo": {
+    "message": "Buka V2Route-Setup.exe dan klik Instal."
+  },
+  "setupStepThree": {
+    "message": "Kembali ke sini dan periksa koneksinya. Pilih folder v2rayN jika diperlukan."
+  },
+  "setupCheck": {
+    "message": "Periksa koneksi"
+  },
+  "downloadCompanion": {
+    "message": "Panduan instalasi ↗"
+  },
+  "setupDownloadNote": {
+    "message": "Gunakan paket lokal Windows yang cocok, atau ikuti panduan untuk membuatnya dari sumber saat ini."
+  },
+  "chooseFolder": {
+    "message": "Pilih folder v2rayN…"
+  },
+  "rescanDone": {
+    "message": "Node lokal dipindai ulang"
+  },
+  "grouping": {
+    "message": "Node grup"
+  },
+  "groupByCountry": {
+    "message": "Berdasarkan negara"
+  },
+  "unknownCountry": {
+    "message": "Lainnya / Tidak Diketahui"
+  },
+  "ungrouped": {
+    "message": "Tidak dikelompokkan"
+  },
+  "adjustNodeFilters": {
+    "message": "Coba grup lain, sumber atau cari, atau tampilkan node tersembunyi."
+  },
+  "rescanLocal": {
+    "message": "Pindai ulang v2rayN node"
+  },
+  "showHidden": {
+    "message": "Tampilkan node tersembunyi"
+  },
+  "hideNode": {
+    "message": "Sembunyikan"
+  },
+  "restoreNode": {
+    "message": "Pulihkan"
+  },
+  "hiddenNode": {
+    "message": "Tersembunyi"
+  },
+  "hideNodeHelp": {
+    "message": "Sembunyikan hanya dari perpustakaan node browser ini. v2rayN dan profil yang ada tidak berubah."
+  },
+  "ipContextTimeout": {
+    "message": "Waktu membaca profil saat ini habis. Coba lagi."
+  },
+  "ipStaleResult": {
+    "message": "Profil saat ini berubah. Hasil ini mungkin sudah ketinggalan jaman; periksa lagi."
+  },
+  "ip_tools": {
+    "message": "IP Alat"
+  },
+  "ipIntro": {
+    "message": "Pintu keluar saat ini IP dan laporan publik."
+  },
+  "ipCurrentProfile": {
+    "message": "Profil browser saat ini"
+  },
+  "ipRouteCaution": {
+    "message": "Aturan otomatis dan PAC dapat menggunakan rute berbeda untuk tujuan berbeda. Pemeriksaan ini hanya menjelaskan permintaannya sendiri."
+  },
+  "ipDisclosure": {
+    "message": "Periksa otomatis keluar IP · Laporan oleh Ping0"
+  },
+  "ipMethod": {
+    "message": "Pemeriksaan alamat"
+  },
+  "ipDual": {
+    "message": "IPv4 / IPv6"
+  },
+  "ipCheck": {
+    "message": "Periksa lagi"
+  },
+  "ipChecking": {
+    "message": "Memeriksa…"
+  },
+  "ipDualHelp": {
+    "message": "IPv4 / IPv6 mengembalikan kelompok alamat yang digunakan untuk permintaan ini, bukan kedua alamat."
+  },
+  "ipDurationHelp": {
+    "message": "Waktu permintaan yang telah berlalu HTTP mencakup waktu respons jaringan dan layanan. Ini bukan ping ICMP atau tes bandwidth."
+  },
+  "ipCopy": {
+    "message": "Salin IP"
+  },
+  "ipCopied": {
+    "message": "Disalin"
+  },
+  "ipCopyFailed": {
+    "message": "Tidak dapat menyalin. Pilih alamat dan salin secara manual."
+  },
+  "ipNoResult": {
+    "message": "Belum ada cek"
+  },
+  "ipContextUnknown": {
+    "message": "Profil tidak tersedia"
+  },
+  "ipTimeout": {
+    "message": "Waktu pemeriksaan habis. Coba lagi atau gunakan rute lain."
+  },
+  "ipCancelled": {
+    "message": "Cek dibatalkan"
+  },
+  "ipNetwork": {
+    "message": "Tidak dapat mencapai ipify. Periksa koneksi dan coba lagi."
+  },
+  "ipHttp": {
+    "message": "Layanan IP tidak menerima permintaan tersebut. Coba lagi nanti."
+  },
+  "ipInvalid": {
+    "message": "Layanan IP mengembalikan respons yang tidak valid."
+  },
+  "ipFailure": {
+    "message": "Pemeriksaan gagal. Coba lagi."
+  },
+  "ipStale": {
+    "message": "Pengaturan proxy Anda berubah selama pemeriksaan. Hasil yang lama dibuang; periksa lagi."
+  },
+  "ipQuality": {
+    "message": "Alat eksternal"
+  },
+  "ipQualityPrivacy": {
+    "message": "Alat hanya berjalan saat diklik. Penyedia menerima data koneksi normal. Pemeriksaan situs web mengirimkan permintaan bebas kredensial setelah Mulai. Penutupan menghentikan pengujian lokal; tab eksternal dikelola oleh browser."
+  },
+  "ipReport": {
+    "message": "Salin laporan yang telah disunting"
+  },
+  "ipReportCopied": {
+    "message": "Laporan yang telah disunting disalin; tidak ada IP atau nama profil disertakan."
+  },
+  "popupSelected": {
+    "message": "Dipilih"
+  },
+  "popupFooter": {
+    "message": "v2rayN & profil simpul"
+  },
+  "subtitle": {
+    "message": "Rute browser independen"
+  },
+  "profiles": {
+    "message": "Profil"
+  },
+  "nodes": {
+    "message": "Perpustakaan Node"
+  },
+  "settings": {
+    "message": "Pengaturan"
+  },
+  "connected": {
+    "message": "Profil aktif"
+  },
+  "noProfile": {
+    "message": "Default sistem"
+  },
+  "newProfile": {
+    "message": "Profil baru"
+  },
+  "searchProfiles": {
+    "message": "Cari profil"
+  },
+  "direct": {
+    "message": "Jaringan langsung"
+  },
+  "system": {
+    "message": "Proksi sistem"
+  },
+  "follow": {
+    "message": "Ikuti v2rayN"
+  },
+  "manual": {
+    "message": "Proksi manual"
+  },
+  "auto": {
+    "message": "Peralihan otomatis"
+  },
+  "pac": {
+    "message": "PAC skrip"
+  },
+  "virtual": {
+    "message": "Profil virtual"
+  },
+  "profileIntro": {
+    "message": "Pilih rute browser tanpa berpindah rute utama v2rayN."
+  },
+  "nodesIntro": {
+    "message": "Jelajahi node lokal v2rayN dan tautan yang Anda impor."
+  },
+  "settingsIntro": {
+    "message": "Koneksi lokal, bahasa dan penampilan."
+  },
+  "refresh": {
+    "message": "Segarkan"
+  },
+  "create": {
+    "message": "Buat profil"
+  },
+  "name": {
+    "message": "Nama profil"
+  },
+  "type": {
+    "message": "Jenis profil"
+  },
+  "save": {
+    "message": "Simpan"
+  },
+  "saved": {
+    "message": "Disimpan"
+  },
+  "saving": {
+    "message": "Menyimpan…"
+  },
+  "cancel": {
+    "message": "Batal"
+  },
+  "close": {
+    "message": "Tutup"
+  },
+  "apply": {
+    "message": "Gunakan profil ini"
+  },
+  "applied": {
+    "message": "Profil dialihkan"
+  },
+  "active": {
+    "message": "Aktif"
+  },
+  "delete": {
+    "message": "Hapus"
+  },
+  "remove": {
+    "message": "Hapus"
+  },
+  "rename": {
+    "message": "Ganti nama"
+  },
+  "route": {
+    "message": "Rute proksi"
+  },
+  "selectRoute": {
+    "message": "Pilih rute"
+  },
+  "routeMissing": {
+    "message": "Rute tidak tersedia — pilih yang lain"
+  },
+  "chain": {
+    "message": "Rantai koneksi"
+  },
+  "connection": {
+    "message": "Koneksi lokal"
+  },
+  "proxy": {
+    "message": "Server proksi"
+  },
+  "address": {
+    "message": "Alamat"
+  },
+  "port": {
+    "message": "Pelabuhan"
+  },
+  "scheme": {
+    "message": "Protokol"
+  },
+  "proxyDns": {
+    "message": "SOCKS5 DNS diselesaikan melalui proxy."
+  },
+  "connectedIdle": {
+    "message": "Terhubung · Menganggur"
+  },
+  "bypass": {
+    "message": "Lewati daftar"
+  },
+  "bypassHelp": {
+    "message": "Satu domain, domain wildcard, alamat IP atau IP:port per baris."
+  },
+  "advanced": {
+    "message": "Opsi lanjutan"
+  },
+  "searchRoutes": {
+    "message": "Cari grup atau node"
+  },
+  "selectGroup": {
+    "message": "Pilih grup"
+  },
+  "empty": {
+    "message": "Tidak ada item yang cocok"
+  },
+  "unavailable": {
+    "message": "Tidak tersedia"
+  },
+  "groupHint": {
+    "message": "Tahan grup selama 250 ms, lalu seret. Alt + ↑ / ↓ juga menyusun ulang. Perubahan disimpan secara otomatis."
+  },
+  "searchSort": {
+    "message": "Hapus pencarian sebelum menyortir."
+  },
+  "dragHint": {
+    "message": "Gerakkan ke atas atau ke bawah, lalu lepaskan untuk menyimpan. Esc dibatalkan."
+  },
+  "orderSaved": {
+    "message": "Pesanan grup disimpan"
+  },
+  "orderCancelled": {
+    "message": "Pemesanan ulang dibatalkan"
+  },
+  "loading": {
+    "message": "Memuat…"
+  },
+  "reading": {
+    "message": "Membaca node lokal…"
+  },
+  "nativeMissing": {
+    "message": "Komponen lokal tidak terhubung"
+  },
+  "retry": {
+    "message": "Coba lagi"
+  },
+  "nativeHelp": {
+    "message": "Rute node memerlukan pendamping Windows. Proksi Langsung, Sistem, dan manual tersedia sekarang."
+  },
+  "imported": {
+    "message": "Diimpor"
+  },
+  "v2rayn": {
+    "message": "v2rayN"
+  },
+  "allSources": {
+    "message": "Semua sumber"
+  },
+  "importNodes": {
+    "message": "Impor proxy"
+  },
+  "importTitle": {
+    "message": "Impor proxy"
+  },
+  "importHelp": {
+    "message": "Tempel tautan proxy, langganan keluar JSON atau Base64. SOCKS mendukung kredensial biasa atau Base64. Alamat bebas skema menggunakan HTTP."
+  },
+  "importPrivacy": {
+    "message": "Detail dan kredensial proxy diteruskan ke pendamping Proxy V2Route lokal untuk penyimpanan dan koneksi ke proxy yang Anda pilih. Pengembang tidak menerima informasi ini."
+  },
+  "import": {
+    "message": "Impor profil"
+  },
+  "nodeCount": {
+    "message": "node"
+  },
+  "source": {
+    "message": "Sumber"
+  },
+  "protocol": {
+    "message": "Protokol"
+  },
+  "useNode": {
+    "message": "Buat profil"
+  },
+  "removeNode": {
+    "message": "Hapus node yang diimpor?"
+  },
+  "removeNodeHelp": {
+    "message": "Profil yang menggunakan node ini harus ditetapkan ulang sebelum dapat dihapus."
+  },
+  "deleteProfile": {
+    "message": "Hapus profil ini?"
+  },
+  "deleteProfileHelp": {
+    "message": "Ini hanya menghapus profil browser ini. Node yang diimpor dan konfigurasi v2rayN disimpan."
+  },
+  "language": {
+    "message": "Bahasa"
+  },
+  "automatic": {
+    "message": "Peramban bawaan"
+  },
+  "theme": {
+    "message": "Penampilan"
+  },
+  "light": {
+    "message": "Ringan"
+  },
+  "dark": {
+    "message": "Gelap"
+  },
+  "switchToEnglish": {
+    "message": "Beralih ke Bahasa Inggris"
+  },
+  "switchToChinese": {
+    "message": "Beralih ke Bahasa Mandarin Sederhana"
+  },
+  "switchToLight": {
+    "message": "Beralih ke tampilan terang"
+  },
+  "switchToDark": {
+    "message": "Beralih ke tampilan gelap"
+  },
+  "localComponent": {
+    "message": "Komponen pendamping"
+  },
+  "ready": {
+    "message": "Terhubung"
+  },
+  "stopped": {
+    "message": "Tidak berjalan"
+  },
+  "discovery": {
+    "message": "v2rayN deteksi\nmap"
+  },
+  "rootPath": {
+    "message": "v2rayN."
+  },
+  "corePath": {
+    "message": "Inti proxy dapat dieksekusi"
+  },
+  "optionalPath": {
+    "message": "Biarkan kosong untuk deteksi otomatis"
+  },
+  "pathsHelp": {
+    "message": "v2rayN terdeteksi secara otomatis; pilih foldernya jika diperlukan. Node yang diimpor menggunakan inti yang disertakan."
+  },
+  "savePaths": {
+    "message": "Simpan pengaturan koneksi"
+  },
+  "privacy": {
+    "message": "Pengaturan disimpan secara lokal"
+  },
+  "privacyText": {
+    "message": "Tautan node dan kredensial tetap berada di pendamping lokal. Lalu lintas browser melewati proxy pilihan Anda ke situs web tujuan; pengembang tidak menerimanya."
+  },
+  "privacyDetails": {
+    "message": "Privasi dan aliran data"
+  },
+  "export": {
+    "message": "Ekspor profil"
+  },
+  "about": {
+    "message": "Tentang Proxy V2Route"
+  },
+  "aboutText": {
+    "message": "Pilih rute browser tanpa berpindah rute utama v2rayN. Rute node menggunakan pendamping Windows dan node Anda sendiri."
+  },
+  "licenses": {
+    "message": "Pemberitahuan sumber terbuka"
+  },
+  "version": {
+    "message": "Versi"
+  },
+  "fieldRequired": {
+    "message": "Masukkan nama profil."
+  },
+  "profileExists": {
+    "message": "Profil dengan nama ini sudah ada."
+  },
+  "ruleHelp": {
+    "message": "Pisahkan domain dalam satu baris dengan koma. Baris pertama yang cocok menang. Jaga agar rute default tetap tersedia."
+  },
+  "rules": {
+    "message": "Aturan perutean"
+  },
+  "pattern": {
+    "message": "Pola inang"
+  },
+  "target": {
+    "message": "Target aturan"
+  },
+  "addRule": {
+    "message": "Tambahkan aturan"
+  },
+  "defaultRoute": {
+    "message": "Profil bawaan"
+  },
+  "pacHelp": {
+    "message": "Tempel sumber tepercaya PAC yang berisi FindProxyForURL. Skrip ini memutuskan bagaimana permintaan situs web dirutekan."
+  },
+  "pacUrl": {
+    "message": "PAC URL"
+  },
+  "pacScript": {
+    "message": "PAC skrip"
+  },
+  "noSelection": {
+    "message": "Pilih profil atau buat profil."
+  },
+  "details": {
+    "message": "Detailnya"
+  },
+  "noNodes": {
+    "message": "Belum ada node"
+  },
+  "noNodesHelp": {
+    "message": "Hubungkan v2rayN atau impor tautan proxy, JSON atau berlangganan untuk memulai."
+  },
+  "openSettings": {
+    "message": "Buka pengaturan"
+  },
+  "proxySettings": {
+    "message": "Pengaturan proksi"
+  },
+  "switching": {
+    "message": "Beralih…"
+  },
+  "updatedElsewhere": {
+    "message": "Profil ini diubah di jendela lain. Buka kembali sebelum disimpan."
+  },
+  "choose": {
+    "message": "Pilih"
+  },
+  "popupIntro": {
+    "message": "Koneksi:"
+  },
+  "invalidPort": {
+    "message": "Masukkan port dari 1 hingga 65535."
+  },
+  "externalControl": {
+    "message": "Ekstensi atau kebijakan lain adalah mengendalikan proxy browser."
+  },
+  "noNativeRoute": {
+    "message": "Hubungkan komponen lokal sebelum membuat profil node."
+  },
+  "reload": {
+    "message": "Muat ulang"
+  },
+  "rulesError": {
+    "message": "Setiap aturan memerlukan pola dan target."
+  },
+  "backupDone": {
+    "message": "Profil browser diekspor"
+  },
+  "managed": {
+    "message": "Node terkelola"
+  },
+  "netRegion": {
+    "message": "Daerah sasaran"
+  },
+  "netNodeArea": {
+    "message": "Node proksi"
+  },
+  "netChina": {
+    "message": "Tiongkok Daratan"
+  },
+  "netGlobal": {
+    "message": "Global"
+  },
+  "netAli": {
+    "message": "AliDNS"
+  },
+  "netTencent": {
+    "message": "DNSPod"
+  },
+  "netStartHelp": {
+    "message": "Pilih target, lalu mulai tes langsung."
+  },
+  "netConsole": {
+    "message": "Diagnostik langsung"
+  },
+  "netStop": {
+    "message": "Berhenti"
+  },
+  "netRunning": {
+    "message": "Berlari"
+  },
+  "netStopped": {
+    "message": "Berhenti"
+  },
+  "netSent": {
+    "message": "Terkirim"
+  },
+  "netLoss": {
+    "message": "Kerugian"
+  },
+  "netAverageShort": {
+    "message": "Rata-rata"
+  },
+  "netLogClear": {
+    "message": "Jelas"
+  },
+  "netFinishing": {
+    "message": "Penyelidikan sebelumnya telah selesai…"
+  },
+  "netRound": {
+    "message": "Putaran"
+  },
+  "netDestination": {
+    "message": "Tujuan"
+  },
+  "netHop": {
+    "message": "Lompat"
+  },
+  "netAddress": {
+    "message": "IP alamat"
+  },
+  "netLast": {
+    "message": "Terakhir"
+  },
+  "netConsoleHelp": {
+    "message": "Ping / TCPing / MTR menggunakan jaringan sistem, bukan rantai proxy. Balasan ICMP yang hilang tidak membuktikan hilangnya lalu lintas. Pengunduhan menggunakan rute browser dan batas ukuran yang dipilih. Pengujian berhenti ketika Anda meninggalkan atau menyembunyikan halaman ini."
+  },
+  "netDirectShort": {
+    "message": "Jaringan sistem"
+  },
+  "netIcmpShort": {
+    "message": "Tidak ICMP balasan"
+  },
+  "netProbeError": {
+    "message": "Kesalahan pemeriksaan lokal"
+  },
+  "netNoDestination": {
+    "message": "Tujuan tidak tercapai"
+  },
+  "deleteActive": {
+    "message": "Beralih ke sistem dan hapus"
+  },
+  "deleteActiveHelp": {
+    "message": "Profil ini aktif. Menghapusnya akan mengalihkan browser ke proxy sistem."
+  },
+  "netDownloadSize": {
+    "message": "Ukuran unduhan"
+  },
+  "netReceived": {
+    "message": "Diterima"
+  },
+  "netBest": {
+    "message": "Terbaik"
+  },
+  "netWorst": {
+    "message": "Terburuk"
+  },
+  "netStdDev": {
+    "message": "Pengembang Std"
+  },
+  "netLocation": {
+    "message": "Lokasi"
+  },
+  "toolWall": {
+    "message": "Pemeriksaan pemblokiran domain"
+  },
+  "toolSites": {
+    "message": "Situs web populer"
+  },
+  "toolGlobal": {
+    "message": "Diagnostik global"
+  },
+  "toolFast": {
+    "message": "Kecepatan Netflix"
+  },
+  "toolSpeed": {
+    "message": "Tes kecepatan"
+  },
+  "toolStart": {
+    "message": "Mulai"
+  },
+  "toolReady": {
+    "message": "Siap"
+  },
+  "toolResponded": {
+    "message": "Menanggapi"
+  },
+  "toolNoResponse": {
+    "message": "Belum dikonfirmasi"
+  },
+  "toolCacheUnsupported": {
+    "message": "Browser ini tidak dapat menghapus cache berdasarkan situs; halaman telah dimuat ulang."
+  },
+  "toolCacheFailed": {
+    "message": "Pembersihan cache tidak selesai. Tutup dan coba lagi."
+  },
+  "toolClose": {
+    "message": "Tutup"
+  },
+  "toolReload": {
+    "message": "Muat ulang"
+  },
+  "toolLoading": {
+    "message": "Memuat…"
+  },
+  "toolFrameError": {
+    "message": "Tidak dapat memuat. Coba Muat Ulang."
+  },
+  "toolSiteHelp": {
+    "message": "Hanya kemampuan jangkauan browser. Ini tidak memverifikasi akses akun atau regional."
+  },
+  "toolFallback": {
+    "message": "Tes kecepatan cadangan"
+  },
+  "toolFullscreen": {
+    "message": "Layar penuh"
+  },
+  "toolRestore": {
+    "message": "Keluar dari layar penuh"
+  },
+  "ipReadFailed": {
+    "message": "Bacaan gagal. 👉"
+  },
+  "ipViewSource": {
+    "message": "Lihat situs sumber"
+  },
+  "toolDownloadError": {
+    "message": "Tidak dapat menjangkau server unduhan. Coba lagi."
+  },
+  "toolAccess": {
+    "message": "Aktifkan akses situs"
+  },
+  "toolPermission": {
+    "message": "Izinkan akses ke situs ini untuk kompatibilitas sesi tertanam."
+  },
+  "toolAsia": {
+    "message": "Asia"
+  },
+  "toolEurope": {
+    "message": "Eropa"
+  },
+  "toolAmerica": {
+    "message": "Amerika Utara"
+  },
+  "toolGlobalHelp": {
+    "message": "Mengisi terlebih dahulu pintu keluar browser IP. Pilih daratan Tiongkok atau wilayah lain untuk membandingkan jalur; Mulai mengirimkan target yang ditampilkan hingga tiga probe Globalping."
+  },
+  "toolServiceError": {
+    "message": "Layanan tes tidak tersedia. Coba lagi."
+  },
+  "popupOrderHelp": {
+    "message": "Tahan dan seret untuk menyusun ulang. Alt+tombol panah juga memindahkan profil ini."
+  },
+  "popupOrderSaved": {
+    "message": "Pesanan disimpan"
+  },
+  "toolGroupIP": {
+    "message": "IP tes"
+  },
+  "toolGroupWeb": {
+    "message": "Tes situs web"
+  },
+  "toolGroupSpeed": {
+    "message": "Kecepatan"
+  },
+  "toolCurrentIP": {
+    "message": "Pintu keluar saat ini IP"
+  },
+  "toolCurrentIPLoading": {
+    "message": "Memuat pintu keluar saat ini IP…"
+  },
+  "toolCurrentIPFailed": {
+    "message": "Tidak dapat membaca arus IP. Masukkan target."
+  },
+  "speedMode": {
+    "message": "Mode pengujian"
+  },
+  "speedBoth": {
+    "message": "Unduh + unggah"
+  },
+  "speedDownload": {
+    "message": "Unduh"
+  },
+  "speedUpload": {
+    "message": "Unggah"
+  },
+  "speedLatency": {
+    "message": "HTTP latensi"
+  },
+  "speedBudget": {
+    "message": "{n} MiB per fase · {total} MiB total, ditambah sampel latensi kecil."
+  },
+  "siteCategory": {
+    "message": "Kategori situs web"
+  },
+  "siteAll": {
+    "message": "Semua situs web"
+  },
+  "siteAI": {
+    "message": "AI"
+  },
+  "siteDevelopment": {
+    "message": "Perkembangan"
+  },
+  "siteVideo": {
+    "message": "Video / musik"
+  },
+  "siteSocial": {
+    "message": "Sosial"
+  },
+  "siteDomestic": {
+    "message": "Layanan daratan"
+  },
+  "siteServices": {
+    "message": "Layanan umum"
+  },
+  "globalMethod": {
+    "message": "Jenis pengukuran"
+  },
+  "localPort": {
+    "message": "Pelabuhan lokal:"
+  },
+  "chainChooseNode": {
+    "message": "Pilih simpul proksi"
+  },
+  "chainTitle": {
+    "message": "Rantai proksi"
+  },
+  "chainSelectExit": {
+    "message": "Pilih simpul keluar tertentu di bawah untuk menyimpan atau menguji rantai khusus ini. Ikuti v2rayN dikelola oleh v2rayN."
+  },
+  "chainSelectExitShort": {
+    "message": "Pilih simpul keluar"
+  },
+  "chainAdd": {
+    "message": "+ Tambahkan lapisan proksi"
+  },
+  "chainTest": {
+    "message": "Rantai uji"
+  },
+  "chainMode": {
+    "message": "Mode rantai"
+  },
+  "chainBase": {
+    "message": "Proksi Dasar"
+  },
+  "chainExit": {
+    "message": "Keluar dari Proksi"
+  },
+  "chainEgress": {
+    "message": "Jalan Keluar Berantai"
+  },
+  "chainExitBadge": {
+    "message": "Keluar IP"
+  },
+  "chainEntry": {
+    "message": "Entri Rantai"
+  },
+  "chainTransit": {
+    "message": "Simpul Jembatan"
+  },
+  "chainUntested": {
+    "message": "Tidak diuji"
+  },
+  "chainMissing": {
+    "message": "Node tidak tersedia"
+  },
+  "chainUnresolved": {
+    "message": "Tidak dapat menyelesaikan rantai yang diwariskan. Perbaiki pengaturan pendahulunya atau pilih rantai khusus."
+  },
+  "chainUpgrade": {
+    "message": "Perbarui pendamping lokal untuk mengaktifkan rantai yang dipesan."
+  },
+  "chainBusy": {
+    "message": "Tes rantai lainnya sedang berjalan"
+  },
+  "chainOK": {
+    "message": "Dapat Dijangkau"
+  },
+  "chainFailed": {
+    "message": "Gagal melompat dalam tes ini"
+  },
+  "chainBlocked": {
+    "message": "Tidak diuji · hop sebelumnya gagal"
+  },
+  "chainFailureHelp": {
+    "message": "Lompatan ini atau jalan menuju ke sana tidak berhasil. Hop selanjutnya tidak diuji."
+  },
+  "chainAllOK": {
+    "message": "Semua jalur kumulatif merespons"
+  },
+  "chainStopping": {
+    "message": "Berhenti setelah probe yang dibatasi saat ini…"
+  },
+  "globalWorld": {
+    "message": "Di seluruh dunia"
+  },
+  "globalUnavailable": {
+    "message": "Target atau wilayah tidak tersedia. Periksa target atau pilih wilayah lain."
+  },
+  "globalRateLimited": {
+    "message": "Batas tarif layanan tercapai. Coba lagi nanti."
+  },
+  "globalNoResults": {
+    "message": "Layanan tidak memberikan hasil penyelidikan. Coba wilayah lain."
+  },
+  "globalProbeFailed": {
+    "message": "Penyelidikan gagal"
+  },
+  "globalProbeOffline": {
+    "message": "Selidiki secara offline"
+  },
+  "globalIcmpCaution": {
+    "message": "Balasan yang hilang ICMP saja tidak membuktikan pemblokiran. Bandingkan jalur daratan dan luar negeri serta jenis tes lainnya."
+  },
+  "speedRealtime": {
+    "message": "Kecepatan langsung"
+  },
+  "speedAverage": {
+    "message": "Kecepatan rata-rata"
+  },
+  "ipToolsBrief": {
+    "message": "Hasil pihak ketiga adalah untuk referensi."
+  },
+  "ipReportBrief": {
+    "message": "Hasil bervariasi menurut pintu keluar IP dan untuk referensi."
+  },
+  "toolPingPe": {
+    "message": "IP pemeriksaan pemblokiran"
+  },
+  "toolTargetIP": {
+    "message": "Sasaran IP"
+  },
+  "toolOpenPingPe": {
+    "message": "Buka tes resmi"
+  },
+  "toolInvalidIP": {
+    "message": "Masukkan alamat IPv4 atau IPv6 yang valid."
+  },
+  "toolInvalidPort": {
+    "message": "Masukkan port TCP dari 1 hingga 65535."
+  },
+  "toolExternalFailed": {
+    "message": "Tidak dapat membuka situs web. Coba lagi."
+  },
+  "ipBrowserReading": {
+    "message": "Membaca Ping0 melalui browser…"
+  },
+  "ipVerifyBrowser": {
+    "message": "Buka halaman verifikasi"
+  },
+  "policyCenter": {
+    "message": "Privasi, deklarasi & FAQ"
+  },
+  "policyCenterIntro": {
+    "message": "Penanganan data lokal, batasan pengujian, dan jawaban umum."
+  },
+  "policyPrivacyTitle": {
+    "message": "Kebijakan privasi"
+  },
+  "policyPrivacySummary": {
+    "message": "Profil dan kredensial tetap ada di perangkat ini. Pemeriksaan popup dan diagnostik menghubungi penyedia yang disebutkan. Tidak ada iklan atau analisis perilaku."
+  },
+  "policyDeclarationTitle": {
+    "message": "Pernyataan penggunaan dan pengukuran"
+  },
+  "policyDeclarationSummary": {
+    "message": "Ekstensi ini adalah pengelola rute lokal, bukan penyedia proxy atau VPN. Pengukuran adalah sampel referensi yang dipengaruhi oleh kondisi jaringan, proxy, dan penyedia."
+  },
+  "policyFaqTitle": {
+    "message": "Pertanyaan Umum"
+  },
+  "policyFaqSummary": {
+    "message": "Pendamping Windows diperlukan untuk node lokal dan MTR. Latensi dapat berbeda antara browser, sistem, dan pemeriksaan publik. Hentikan pengujian atau hapus data lokal dari Pengaturan."
+  },
+  "policyDetailsLink": {
+    "message": "Baca detail selengkapnya ↗"
+  },
+  "thirdPartyNotice": {
+    "message": "Pemberitahuan sumber terbuka ↗"
+  },
+  "columnResizeHelp": {
+    "message": "Seret untuk mengubah ukuran; klik dua kali untuk mengatur ulang; gunakan tombol panah untuk menyesuaikan"
+  },
+  "columnResize": {
+    "message": "Ubah ukuran kolom"
+  },
+  "typeDescription_node": {
+    "message": "Terhubung melalui node proxy"
+  },
+  "typeDescription_manual": {
+    "message": "Masukkan pengaturan proxy secara manual"
+  },
+  "typeDescription_auto": {
+    "message": "Pilih node menggunakan aturan"
+  },
+  "typeDescription_pac": {
+    "message": "Rutekan lalu lintas menggunakan aturan PAC."
+  },
+  "appDescription": {
+    "message": "Kelola rute proxy browser independen, node, aturan domain, dan pemeriksaan koneksi. Rute node memerlukan pendamping Windows."
+  },
+  "core_title": {
+    "message": "Inti proksi"
+  },
+  "core_checking": {
+    "message": "Memeriksa komponen lokal…"
+  },
+  "core_ready": {
+    "message": "Xray siap"
+  },
+  "core_missing": {
+    "message": "Inti proxy tidak ada"
+  },
+  "core_external": {
+    "message": "Inti khusus: tidak terverifikasi"
+  },
+  "core_corrupt": {
+    "message": "Xray ketidakcocokan checksum — diperlukan perbaikan"
+  },
+  "core_unreadable": {
+    "message": "File inti tidak dapat diperiksa"
+  },
+  "core_intro": {
+    "message": "Paket lengkap Windows mencakup Xray. v2rayN adalah opsional."
+  },
+  "core_verify": {
+    "message": "Periksa lagi"
+  },
+  "core_install": {
+    "message": "Memasang/memperbaiki inti"
+  },
+  "core_installing": {
+    "message": "Mengunduh dan memverifikasi…"
+  },
+  "core_done": {
+    "message": "Inti terverifikasi dan siap"
+  },
+  "core_help": {
+    "message": "Perbaikan menggunakan rilis resmi Xray yang disematkan dan memverifikasi checksumnya. Koneksi yang ada tetap berjalan."
+  },
+  "core_absent": {
+    "message": "Instal komponen lokal satu kali, lalu kembali ke sini untuk memeriksa intinya."
+  },
+  "core_download": {
+    "message": "Panduan instalasi"
+  },
+  "core_absentHelp": {
+    "message": "Gunakan paket Windows yang cocok atau ikuti panduan untuk membuatnya dari sumber, lalu jalankan pengaturan."
+  },
+  "core_failed": {
+    "message": "Operasi inti gagal. Coba lagi atau gunakan paket lengkap Windows."
+  },
+  "core_version": {
+    "message": "Versi"
+  },
+  "error_ACTIVE_PROFILE_DELETE": {
+    "message": "Beralih ke profil lain sebelum menghapus"
+  },
+  "error_BACKUP_BINDING_TYPE": {
+    "message": "Hanya profil proksi yang dapat memiliki ikatan rute"
+  },
+  "error_BACKUP_FORMAT3_REQUIRED": {
+    "message": "Aturan simpul memerlukan cadangan portabel berformat 3"
+  },
+  "error_BACKUP_INDEPENDENT_PATH_REQUIRED": {
+    "message": "Cadangan harus berisi jalur simpul yang independen"
+  },
+  "error_BACKUP_INTERNAL_BINDINGS": {
+    "message": "Cadangan berisi ikatan internal"
+  },
+  "error_BACKUP_MESSAGE_LIMIT": {
+    "message": "Cadangan simpul melebihi batas pesan aplikasi pendamping"
+  },
+  "error_BACKUP_NODES_INCOMPLETE": {
+    "message": "Cadangan simpul tidak lengkap"
+  },
+  "error_BACKUP_NODE_MISSING": {
+    "message": "Cadangan tidak memiliki simpul yang diperlukan"
+  },
+  "error_BACKUP_NODE_PATHS_LIMIT": {
+    "message": "Cadangan mendukung maksimal {limit} jalur simpul"
+  },
+  "error_BACKUP_PATH_INCOMPLETE": {
+    "message": "Jalur simpul dalam cadangan tidak lengkap"
+  },
+  "error_BACKUP_PROFILES_LIMIT": {
+    "message": "Cadangan mendukung maksimal {limit} profil"
+  },
+  "error_BACKUP_PROXY_CONFLICT": {
+    "message": "Cadangan memiliki pengaturan proksi yang bertentangan"
+  },
+  "error_BACKUP_SIZE_LIMIT": {
+    "message": "Cadangan melebihi {limit} MB"
+  },
+  "error_BACKUP_TRANSFER_UNAVAILABLE": {
+    "message": "Perbarui atau perbaiki aplikasi pendamping untuk mentransfer cadangan simpul."
+  },
+  "error_BACKUP_UNUSED_NODES": {
+    "message": "Cadangan berisi simpul yang tidak dirujuk"
+  },
+  "error_BODY_TOO_LARGE": {
+    "message": "Respons langganan melebihi ukuran yang diizinkan."
+  },
+  "error_BROWSER_API_FAILED": {
+    "message": "Operasi peramban gagal. Lihat detail teknis."
+  },
+  "error_BROWSER_PROXY_RESTORE_FAILED": {
+    "message": "Operasi gagal dan proksi peramban sebelumnya tidak dapat dipulihkan"
+  },
+  "error_BROWSER_SCHEDULING_UNAVAILABLE": {
+    "message": "Penjadwalan peramban tidak tersedia."
+  },
+  "error_BUSY": {
+    "message": "Operasi lain sedang berjalan. Coba lagi sebentar."
+  },
+  "error_CHAIN_PROBE_FAILED": {
+    "message": "Pengujian rantai gagal"
+  },
+  "error_COMPANION_BULK_RELEASE_REQUIRED": {
+    "message": "Tingkatkan aplikasi pendamping lokal untuk mengelola beberapa aturan simpul dengan aman"
+  },
+  "error_COMPANION_CHAINS_REQUIRED": {
+    "message": "Tingkatkan aplikasi pendamping lokal untuk mengaktifkan rantai berurutan"
+  },
+  "error_COMPANION_MESSAGE_LIMIT": {
+    "message": "Pengaturan melebihi batas pesan aplikasi pendamping"
+  },
+  "error_COMPANION_OPERATION_FAILED": {
+    "message": "Operasi aplikasi pendamping lokal gagal. Lihat detail teknis."
+  },
+  "error_COMPANION_UNAVAILABLE": {
+    "message": "Instal atau perbaiki V2Route Companion"
+  },
+  "error_CONNECTION_CLOSED": {
+    "message": "Koneksi ditutup sebelum pengujian selesai."
+  },
+  "error_CORE_INSTALL_FAILED": {
+    "message": "Instalasi inti gagal. Lihat detail teknis."
+  },
+  "error_CORE_OWNERSHIP_FAILED": {
+    "message": "Inti pengujian terisolasi tidak dapat dikendalikan dengan aman. Pengujian dihentikan."
+  },
+  "error_CORE_START_FAILED": {
+    "message": "Inti pengujian terisolasi tidak dapat dimulai. Periksa instalasi aplikasi pendamping dan inti."
+  },
+  "error_CORE_START_TIMEOUT": {
+    "message": "Inti pengujian terisolasi tidak siap tepat waktu."
+  },
+  "error_CORE_STATUS_UNAVAILABLE": {
+    "message": "Status inti tidak tersedia. Lihat detail teknis."
+  },
+  "error_CORE_VALIDATION_FAILED": {
+    "message": "Xray tidak dapat memvalidasi simpul yang diimpor. Periksa pengaturannya dan coba lagi."
+  },
+  "error_DETACH_PORT_CONFLICT": {
+    "message": "Port terkelola akan dilepaskan. Masukkan proksi manual lain"
+  },
+  "error_DETACH_PROXY_REQUIRED": {
+    "message": "Masukkan proksi manual pengganti sebelum melepas ikatan"
+  },
+  "error_DNS_BUSY": {
+    "message": "Pencarian DNS sedang sibuk. Coba lagi sebentar."
+  },
+  "error_DNS_FAILED": {
+    "message": "Pencarian DNS gagal. Periksa alamat dan koneksi jaringan."
+  },
+  "error_ENCODING_UNSUPPORTED": {
+    "message": "Langganan menggunakan pengodean konten yang tidak didukung."
+  },
+  "error_FIREFOX_PRIVATE_ACCESS_REQUIRED": {
+    "message": "Izinkan V2Route di jendela privat melalui detail ekstensi sebelum mengubah pengaturan proksi"
+  },
+  "error_FOLDER_UNAVAILABLE": {
+    "message": "Folder tidak tersedia; periksa jalur, akses, dan versi aplikasi pendamping"
+  },
+  "error_GROUP_LIMIT": {
+    "message": "Batas grup telah tercapai. Hapus grup yang tidak digunakan dan coba lagi."
+  },
+  "error_GROUP_NOT_EDITABLE": {
+    "message": "Grup sumber ini tidak dapat diedit di sini."
+  },
+  "error_GROUP_NOT_FOUND": {
+    "message": "Grup yang dipilih sudah tidak ada. Pilih grup lain."
+  },
+  "error_HTTP_ENCODING": {
+    "message": "Server pengujian mengembalikan pengodean yang tidak didukung."
+  },
+  "error_HTTP_LENGTH": {
+    "message": "Ukuran respons pengujian tidak sesuai dengan ukuran yang diminta."
+  },
+  "error_HTTP_RESPONSE_TOO_LARGE": {
+    "message": "Respons pengujian melebihi ukuran yang diizinkan."
+  },
+  "error_HTTP_STATUS": {
+    "message": "Server pengujian mengembalikan status HTTP yang tidak berhasil."
+  },
+  "error_IMPORTED_PROXY_MISSING": {
+    "message": "Aplikasi pendamping tidak mengembalikan proksi yang diimpor"
+  },
+  "error_IMPORTED_RULE_PATH_CONFLICT": {
+    "message": "Simpul yang diimpor menghasilkan jalur aturan yang bertentangan"
+  },
+  "error_IMPORT_CLEANUP_FAILED": {
+    "message": "Impor gagal; beberapa simpul atau port sementara tidak dapat dilepaskan. Profil yang ada dipertahankan"
+  },
+  "error_IMPORT_PROFILE_NAME_CONFLICT": {
+    "message": "Nama profil duplikat atau tidak valid"
+  },
+  "error_INCOMPLETE_RESPONSE": {
+    "message": "Respons langganan tidak lengkap. Coba lagi."
+  },
+  "error_INVALID_BACKUP": {
+    "message": "Cadangan V2Route tidak valid"
+  },
+  "error_INVALID_BACKUP_NODE": {
+    "message": "Simpul cadangan tidak valid atau duplikat"
+  },
+  "error_INVALID_BACKUP_NODES": {
+    "message": "Simpul cadangan tidak valid"
+  },
+  "error_INVALID_BACKUP_PATH": {
+    "message": "Jalur cadangan tidak valid"
+  },
+  "error_INVALID_BYPASS_ENTRY": {
+    "message": "Entri pengecualian tidak valid"
+  },
+  "error_INVALID_BYPASS_LIST": {
+    "message": "Daftar pengecualian tidak valid"
+  },
+  "error_INVALID_CHAIN": {
+    "message": "Rantai berurutan tidak valid"
+  },
+  "error_INVALID_CHAIN_PROBE": {
+    "message": "Pengujian rantai tidak valid"
+  },
+  "error_INVALID_COMPANION_RESPONSE": {
+    "message": "Aplikasi pendamping lokal mengembalikan respons yang tidak valid. Perbarui atau perbaiki aplikasi tersebut."
+  },
+  "error_INVALID_CONTENT": {
+    "message": "Respons langganan tidak berisi konten yang valid."
+  },
+  "error_INVALID_DOMAIN_PATTERNS": {
+    "message": "Masukkan pola domain yang dipisahkan koma; tempatkan setiap URL pada baris tersendiri"
+  },
+  "error_INVALID_ENCODING": {
+    "message": "Respons langganan bukan teks UTF-8 yang valid."
+  },
+  "error_INVALID_FOLDER_REQUEST": {
+    "message": "Permintaan folder tidak valid"
+  },
+  "error_INVALID_GROUP_ACTION": {
+    "message": "Tindakan grup ini tidak didukung."
+  },
+  "error_INVALID_HOP_INDEX": {
+    "message": "Indeks lompatan tidak valid"
+  },
+  "error_INVALID_LEGACY_PREDECESSOR": {
+    "message": "Pendahulu lama tidak valid"
+  },
+  "error_INVALID_LIBRARY_COMMAND": {
+    "message": "Perintah pustaka simpul ini tidak didukung."
+  },
+  "error_INVALID_LIBRARY_REQUEST": {
+    "message": "Permintaan pustaka tidak valid"
+  },
+  "error_INVALID_NAME": {
+    "message": "Masukkan nama dengan 1–128 karakter terlihat tanpa karakter kontrol."
+  },
+  "error_INVALID_NETWORK_TEST": {
+    "message": "Pengujian jaringan tidak valid"
+  },
+  "error_INVALID_NODE_IMPORT_RESPONSE": {
+    "message": "Respons impor simpul tidak valid"
+  },
+  "error_INVALID_PREDECESSOR": {
+    "message": "Pendahulu untuk rute ini tidak valid"
+  },
+  "error_INVALID_PROFILE_NAME": {
+    "message": "Nama profil tidak valid"
+  },
+  "error_INVALID_PROFILE_REFERENCE": {
+    "message": "Referensi profil tidak valid"
+  },
+  "error_INVALID_PROXY_AUTH": {
+    "message": "Autentikasi proksi tidak valid"
+  },
+  "error_INVALID_PROXY_CREDENTIALS": {
+    "message": "Kredensial proksi tidak valid"
+  },
+  "error_INVALID_PROXY_ENDPOINT": {
+    "message": "Masukkan host dan port proksi yang valid"
+  },
+  "error_INVALID_PROXY_HOST": {
+    "message": "Masukkan nama DNS atau alamat IP tanpa port, URL, jalur, atau kueri"
+  },
+  "error_INVALID_ROUTE": {
+    "message": "Rute tidak valid"
+  },
+  "error_INVALID_ROUTE_SETTINGS": {
+    "message": "Pengaturan rute tidak valid"
+  },
+  "error_INVALID_RULES": {
+    "message": "Aturan tidak valid"
+  },
+  "error_INVALID_RULE_TARGET": {
+    "message": "Pilih satu simpul atau profil yang valid untuk setiap aturan"
+  },
+  "error_INVALID_SUBSCRIPTION": {
+    "message": "Langganan tidak valid"
+  },
+  "error_INVALID_SUBSCRIPTION_REQUEST": {
+    "message": "Permintaan langganan tidak valid"
+  },
+  "error_INVALID_SUBSCRIPTION_SETTINGS": {
+    "message": "Pengaturan langganan tidak valid. Periksa interval pembaruan dan kebijakan koneksi."
+  },
+  "error_INVALID_SYSTEM_PROXY_RESPONSE": {
+    "message": "Respons proksi sistem tidak valid; perbarui atau perbaiki aplikasi pendamping"
+  },
+  "error_INVALID_TRANSPORT": {
+    "message": "Pengaturan koneksi langganan tidak valid."
+  },
+  "error_INVALID_URL": {
+    "message": "Masukkan URL langganan HTTP(S) yang valid tanpa nama pengguna atau kata sandi."
+  },
+  "error_LIBRARY_CHANGED": {
+    "message": "Pustaka simpul berubah di jendela lain. Muat ulang dan coba lagi."
+  },
+  "error_MANUAL_CHAIN_UNSUPPORTED": {
+    "message": "Proksi manual tidak menerima rantai simpul"
+  },
+  "error_MANUAL_PROXY_CLEANUP_FAILED": {
+    "message": "Penyimpanan gagal; proksi impor sementara masih ada di pustaka simpul"
+  },
+  "error_NATIVE_BINDING_ID": {
+    "message": "Pengenal ikatan rute tidak valid."
+  },
+  "error_NATIVE_BINDING_UNKNOWN": {
+    "message": "Ikatan rute tidak ada."
+  },
+  "error_NATIVE_BUTTON_NAME": {
+    "message": "Nama tombol harus berisi 1–128 karakter terlihat."
+  },
+  "error_NATIVE_CATALOG_UNREADABLE": {
+    "message": "Konfigurasi v2rayN tidak dapat dibaca."
+  },
+  "error_NATIVE_CORE_MISSING": {
+    "message": "Xray tidak tersedia. Instal paket aplikasi pendamping."
+  },
+  "error_NATIVE_GROUP_ID_COLLISION": {
+    "message": "Pengenal grup saling bertentangan."
+  },
+  "error_NATIVE_GROUP_ORDER": {
+    "message": "Urutan grup tidak valid."
+  },
+  "error_NATIVE_NODE_ID_COLLISION": {
+    "message": "Pengenal simpul saling bertentangan."
+  },
+  "error_NATIVE_PREDECESSOR_AMBIGUOUS": {
+    "message": "Nama pendahulu hilang atau duplikat. Pilih simpul pendahulu tertentu."
+  },
+  "error_NATIVE_PREDECESSOR_CYCLE": {
+    "message": "Rantai pendahulu berisi siklus atau lebih dari enam simpul."
+  },
+  "error_NATIVE_PREDECESSOR_INVALID": {
+    "message": "Pilih proksi pendahulu yang valid."
+  },
+  "error_NATIVE_PREDECESSOR_MISSING": {
+    "message": "Pendahulu yang dipilih sudah tidak ada. Pilih simpul lain."
+  },
+  "error_NATIVE_PREDECESSOR_SETTINGS": {
+    "message": "Pengaturan pendahulu tidak valid."
+  },
+  "error_NATIVE_ROUTE_INVALID": {
+    "message": "Pilih rute yang valid."
+  },
+  "error_NATIVE_ROUTE_MISSING": {
+    "message": "Rute ini sudah tidak ada. Pilih rute lain."
+  },
+  "error_NATIVE_ROUTE_PORTS": {
+    "message": "Penetapan port rute tidak valid."
+  },
+  "error_NATIVE_ROUTE_UNAVAILABLE": {
+    "message": "Rute yang dipilih tidak tersedia. Lihat detail teknis."
+  },
+  "error_NATIVE_SETTINGS_FORMAT": {
+    "message": "Format pengaturan tidak valid."
+  },
+  "error_NATIVE_SETTINGS_REVISION": {
+    "message": "Revisi pengaturan tidak valid."
+  },
+  "error_NATIVE_SUCCESSOR_UNSUPPORTED": {
+    "message": "Grup ini menggunakan proksi penerus yang tidak didukung."
+  },
+  "error_NATIVE_UNSUPPORTED_CUSTOM": {
+    "message": "Versi ini tidak mendukung konfigurasi keluar kustom."
+  },
+  "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
+    "message": "Versi ini tidak mendukung Hysteria2."
+  },
+  "error_NATIVE_UNSUPPORTED_TUIC": {
+    "message": "Versi ini tidak mengintegrasikan inti sing-box yang diperlukan untuk TUIC."
+  },
+  "error_NATIVE_UNSUPPORTED_TYPE": {
+    "message": "Jenis rute ini tidak didukung."
+  },
+  "error_NATIVE_V2RAYN_PORT": {
+    "message": "Port v2rayN lokal tidak valid."
+  },
+  "error_NATIVE_V2RAYN_UNAVAILABLE": {
+    "message": "v2rayN tidak tersedia. Pilih simpul yang diimpor."
+  },
+  "error_NETWORK_FAILED": {
+    "message": "Permintaan jaringan gagal. Periksa koneksi dan coba lagi."
+  },
+  "error_NETWORK_TEST_FAILED": {
+    "message": "Diagnostik jaringan gagal. Lihat detail teknis."
+  },
+  "error_NODE_LIMIT": {
+    "message": "Operasi ini akan melebihi batas simpul. Hapus simpul yang tidak digunakan dan coba lagi."
+  },
+  "error_NODE_MAPPING_INCOMPLETE": {
+    "message": "Pemetaan simpul tidak lengkap"
+  },
+  "error_NODE_NOT_FOUND": {
+    "message": "Simpul yang dipilih sudah tidak ada. Pilih simpul lain."
+  },
+  "error_NOT_DUE": {
+    "message": "Belum waktunya pembaruan terjadwal berikutnya."
+  },
+  "error_PAC_ENTRY_REQUIRED": {
+    "message": "Masukkan sumber PAC dengan FindProxyForURL"
+  },
+  "error_PAC_FUNCTION_REQUIRED": {
+    "message": "Definisikan fungsi FindProxyForURL sinkron tingkat teratas, variabel fungsi, atau penetapan"
+  },
+  "error_PAC_PARSER_UNAVAILABLE": {
+    "message": "Parser PAC bawaan tidak tersedia; instal ulang ekstensi"
+  },
+  "error_PAC_RULE_TARGET_UNSUPPORTED": {
+    "message": "Aturan otomatis tidak dapat menargetkan profil PAC sebaris"
+  },
+  "error_PAC_SOURCE_LIMIT": {
+    "message": "Masukkan sumber PAC maksimal {limit} karakter"
+  },
+  "error_PAC_SYNTAX_INVALID": {
+    "message": "Sintaks PAC tidak valid"
+  },
+  "error_PAC_SYNTAX_LOCATION": {
+    "message": "Sintaks PAC tidak valid pada baris {line}, kolom {column}"
+  },
+  "error_PARTIAL_TRANSFER": {
+    "message": "Transfer pengujian berakhir sebelum semua data diterima."
+  },
+  "error_PRIVATE_DIRECTORY_FAILED": {
+    "message": "Folder pengujian privat tidak dapat diamankan. Pengujian dihentikan."
+  },
+  "error_PRIVATE_TARGET": {
+    "message": "Permintaan langganan ke alamat privat atau lokal tidak diizinkan."
+  },
+  "error_PROFILE_NOT_FOUND": {
+    "message": "Profil tidak ditemukan"
+  },
+  "error_PROFILE_REFERENCE_CYCLE": {
+    "message": "Referensi profil melingkar"
+  },
+  "error_PROFILE_REFERENCE_DEPTH": {
+    "message": "Aturan otomatis melebihi kedalaman maksimum {limit}"
+  },
+  "error_PROFILE_REFERENCE_MISSING": {
+    "message": "Profil yang dirujuk tidak ada: {name}"
+  },
+  "error_PROFILE_SAVE_RESTORE_FAILED": {
+    "message": "Penyimpanan gagal dan pemulihan rute perlu diperiksa"
+  },
+  "error_PROXY_AUTH_REQUIRED": {
+    "message": "Proksi langganan memerlukan autentikasi yang tidak dapat disediakan oleh permintaan ini."
+  },
+  "error_PROXY_CONTROL_UNAVAILABLE": {
+    "message": "Ekstensi atau kebijakan lain mengendalikan proksi"
+  },
+  "error_PROXY_DNS_REQUIRED": {
+    "message": "DNS SOCKS5 diselesaikan melalui proksi di V2Route"
+  },
+  "error_PROXY_FAILED": {
+    "message": "Koneksi proksi gagal. Periksa rute yang dipilih."
+  },
+  "error_PROXY_PROFILE_REQUIRED": {
+    "message": "Pilih profil proksi"
+  },
+  "error_PROXY_ROLLBACK_REFUSED": {
+    "message": "Peramban menolak pemulihan proksi sebelumnya"
+  },
+  "error_PROXY_SETTING_REFUSED": {
+    "message": "Peramban menolak pengaturan proksi"
+  },
+  "error_PROXY_UNAVAILABLE": {
+    "message": "Proksi yang dipilih tidak tersedia. Periksa rute saat ini."
+  },
+  "error_PROXY_USERNAME_REQUIRED": {
+    "message": "Masukkan nama pengguna proksi"
+  },
+  "error_RECOVERY_BINDINGS_LIMIT": {
+    "message": "Pemulihan dapat mengembalikan maksimal {limit} ikatan simpul. Buka dan simpan profil yang dirujuk secara terpisah."
+  },
+  "error_REDIRECT_LIMIT": {
+    "message": "Langganan terlalu sering dialihkan. Periksa URL-nya."
+  },
+  "error_REFERENCED_PROFILE_DELETE": {
+    "message": "Profil ini dirujuk oleh aturan otomatis"
+  },
+  "error_REMOTE_PAC_UNSUPPORTED": {
+    "message": "Gunakan sumber PAC sebaris; PAC jarak jauh tidak didukung"
+  },
+  "error_ROUTE_PORT_UNAVAILABLE": {
+    "message": "Tidak ada port yang dialokasikan"
+  },
+  "error_ROUTE_RECOVERY_RESTORE_FAILED": {
+    "message": "Pemulihan rute gagal dan pengembalian keadaan perlu diperiksa"
+  },
+  "error_ROUTE_REVISION_CONFLICT": {
+    "message": "Rute berubah di jendela lain. Muat ulang terlebih dahulu"
+  },
+  "error_ROUTE_SAVE_ROLLBACK_FAILED": {
+    "message": "Penyimpanan rute gagal dan pengembalian keadaan perlu diperiksa"
+  },
+  "error_ROUTE_UNAVAILABLE": {
+    "message": "Rute pengujian tidak tersedia. Periksa pengaturan simpul dan pendahulu."
+  },
+  "error_RULE_BINDING_MISSING": {
+    "message": "Ikatan aturan simpul hilang. Buka kembali dan simpan profil otomatis: {name}"
+  },
+  "error_RULE_NODES_LIMIT": {
+    "message": "Aturan otomatis mendukung maksimal {limit} simpul berbeda"
+  },
+  "error_RULE_NODE_CHANGED": {
+    "message": "Aturan simpul tidak tersedia atau berubah. Pulihkan simpul atau pilih simpul lain dan simpan: {name}"
+  },
+  "error_RULE_PATH_CONFLICT": {
+    "message": "Jalur aturan simpul bertentangan"
+  },
+  "error_RULE_PATTERNS_LIMIT": {
+    "message": "Aturan otomatis mendukung total maksimal {limit} pola pencocokan"
+  },
+  "error_RULE_PORT_UNAVAILABLE": {
+    "message": "Port aturan simpul tidak tersedia"
+  },
+  "error_RULE_REVISION_CONFLICT": {
+    "message": "Aturan simpul berubah di jendela lain. Muat ulang terlebih dahulu"
+  },
+  "error_SELECTED_NODE_UNAVAILABLE": {
+    "message": "Simpul yang dipilih tidak tersedia. Pulihkan atau pilih simpul lain"
+  },
+  "error_SOCKS_FAILED": {
+    "message": "Koneksi SOCKS tidak dapat dibuat."
+  },
+  "error_STARTUP_FALLBACK_REFUSED": {
+    "message": "Peramban menolak proksi cadangan saat mulai."
+  },
+  "error_SUBSCRIPTION_CHANGED": {
+    "message": "Langganan berubah selama pembaruan. Muat ulang dan coba lagi."
+  },
+  "error_SUBSCRIPTION_HTTP_STATUS": {
+    "message": "Server langganan mengembalikan HTTP {status}."
+  },
+  "error_SUBSCRIPTION_LIMIT": {
+    "message": "Batas langganan telah tercapai. Hapus langganan yang tidak digunakan dan coba lagi."
+  },
+  "error_SUBSCRIPTION_NOT_FOUND": {
+    "message": "Langganan yang dipilih sudah tidak ada."
+  },
+  "error_SYSTEM_PROXY_SNAPSHOT_UNAVAILABLE": {
+    "message": "Snapshot proksi sistem yang diterapkan tidak tersedia."
+  },
+  "error_SYSTEM_PROXY_TIMEOUT": {
+    "message": "Waktu pembacaan proksi sistem habis"
+  },
+  "error_SYSTEM_PROXY_UNAVAILABLE": {
+    "message": "Proksi sistem tidak tersedia. Lihat detail teknis."
+  },
+  "error_TIMEOUT": {
+    "message": "Waktu permintaan habis. Periksa koneksi dan coba lagi."
+  },
+  "error_TLS_DOWNGRADE": {
+    "message": "Langganan dialihkan dari HTTPS ke HTTP dan diblokir."
+  },
+  "error_TLS_FAILED": {
+    "message": "Koneksi aman tidak dapat diverifikasi. Periksa server dan sertifikat."
+  },
+  "error_UNSAFE_TEMP_PATH": {
+    "message": "Folder pengujian sementara tidak aman. Pengujian dihentikan."
+  },
+  "error_UNSUPPORTED_LIBRARY_REQUEST": {
+    "message": "Permintaan pustaka tidak didukung"
+  },
+  "error_UNSUPPORTED_PROFILE_TYPE": {
+    "message": "Jenis profil tidak didukung"
+  },
+  "error_UNSUPPORTED_REQUEST": {
+    "message": "Permintaan tidak didukung"
+  },
+  "error_UNSUPPORTED_RULE_CONDITION": {
+    "message": "Hanya aturan wildcard host dan URL yang didukung"
+  },
+  "error_UPDATE_FAILED": {
+    "message": "Pembaruan langganan gagal. Simpul yang ada dipertahankan."
+  },
+  "error_VALIDATION_FAILED": {
+    "message": "Konten langganan tidak dapat divalidasi. Simpul yang ada dipertahankan."
+  },
+  "nativeUnnamedNode": {
+    "message": "Simpul tanpa nama"
+  },
+  "nativeProtocolCustom": {
+    "message": "Kustom"
+  },
+  "nativeProtocolOutbound": {
+    "message": "Koneksi keluar kustom"
+  },
+  "nativeProtocolGroup": {
+    "message": "Grup kebijakan"
+  },
+  "nativeProtocolChain": {
+    "message": "Rantai proksi"
+  },
+  "nativeProtocolUnknown": {
+    "message": "Jenis tidak didukung"
+  },
+  "languageLoadFailed": {
+    "message": "Bahasa yang dipilih tidak dapat dimuat. Coba lagi."
+  },
+  "invalidBackupJSON": {
+    "message": "Cadangan bukan JSON yang valid."
+  },
+  "noticeBodyLanguages": {
+    "message": "Teks kebijakan lengkap tersedia dalam bahasa Inggris dan Tionghoa Sederhana."
+  },
+  "policyRules": {
+    "message": "Aturan perutean proxy"
+  },
+  "policyPriority": {
+    "message": "Urutan: alamat tanpa proxy → aturan pertama yang cocok → rute bawaan."
+  },
+  "policyDirectHelp": {
+    "message": "Alamat yang tidak cocok terhubung langsung. Tombol Langsung pada popup juga memakai aturan ini."
+  },
+  "policySystemHelp": {
+    "message": "Alamat yang tidak cocok memakai proxy sistem. Tombol Sistem pada popup juga memakai aturan ini."
+  },
+  "policyEmpty": {
+    "message": "Belum ada aturan. Rute bawaan digunakan."
+  },
+  "policyAddressHelp": {
+    "message": "Domain, domain wildcard, IP atau IP:port. Aturan IP mencocokkan IP dalam URL, bukan hasil DNS."
+  },
+  "policyMoveUp": {
+    "message": "Pindahkan aturan ke atas"
+  },
+  "policyMoveDown": {
+    "message": "Pindahkan aturan ke bawah"
+  }
+}

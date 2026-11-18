@@ -1,0 +1,2150 @@
+{
+  "ruleTargetUnavailable": {
+    "message": "目标不可用"
+  },
+  "rulePatternPlaceholder": {
+    "message": "example.com, *.example.org, 192.0.2.1:8443"
+  },
+  "rulePatternHelp": {
+    "message": "地址可用逗号分隔。网址模式每行单独填写；PAC 可能无法读取 HTTPS 路径。"
+  },
+  "defaultChoice_direct": {
+    "message": "不经过代理直接连接"
+  },
+  "defaultChoice_system": {
+    "message": "使用系统代理设置"
+  },
+  "defaultChoice_node": {
+    "message": "使用该情景已选的节点"
+  },
+  "defaultChoice_manual": {
+    "message": "使用该情景的代理参数"
+  },
+  "defaultChoice_auto": {
+    "message": "按该情景的规则分流"
+  },
+  "nlHttpsLatency": {
+    "message": "HTTPS 响应"
+  },
+  "nlLatencyMethod": {
+    "message": "Cloudflare · 两次取最小 · 尽可能复用连接"
+  },
+  "nlLatencyFast": {
+    "message": "流畅"
+  },
+  "nlLatencyModerate": {
+    "message": "一般"
+  },
+  "nlLatencySlow": {
+    "message": "较慢"
+  },
+  "nlSortName": {
+    "message": "按名称排序"
+  },
+  "nlSortLatency": {
+    "message": "延迟：从低到高"
+  },
+  "nlSortDownload": {
+    "message": "下载：从高到低"
+  },
+  "nlSortUpload": {
+    "message": "上传：从高到低"
+  },
+  "nlSingle": {
+    "message": "单节点"
+  },
+  "nlGroupBatch": {
+    "message": "分组 / 批量"
+  },
+  "nlTestScope": {
+    "message": "测速范围"
+  },
+  "nlCurrentNode": {
+    "message": "当前选中节点"
+  },
+  "nlCurrentGroup": {
+    "message": "当前选中分组"
+  },
+  "nlChooseNode": {
+    "message": "请在列表选择节点"
+  },
+  "nlStart": {
+    "message": "开始测速"
+  },
+  "nlService": {
+    "message": "测速服务"
+  },
+  "nlMeasured": {
+    "message": "已测"
+  },
+  "nlMeanLatency": {
+    "message": "平均延迟"
+  },
+  "nlGroupBySource": {
+    "message": "按来源分组"
+  },
+  "nlPreviousPage": {
+    "message": "上一页"
+  },
+  "nlNextPage": {
+    "message": "下一页"
+  },
+  "nlName": {
+    "message": "名称"
+  },
+  "nlEdit": {
+    "message": "编辑"
+  },
+  "nlStop": {
+    "message": "停止"
+  },
+  "nlConfirm": {
+    "message": "确认"
+  },
+  "nlAllNodes": {
+    "message": "全部节点"
+  },
+  "nlNodeResults": {
+    "message": "节点结果"
+  },
+  "nlTestCenter": {
+    "message": "测速中心"
+  },
+  "nlNewGroup": {
+    "message": "新建分组"
+  },
+  "nlRenameGroup": {
+    "message": "重命名分组"
+  },
+  "nlRemoveGroup": {
+    "message": "移除分组"
+  },
+  "nlRemoveGroupHelp": {
+    "message": "保留所有节点和订阅，并移入“导入节点”默认分组。"
+  },
+  "nlNode": {
+    "message": "节点"
+  },
+  "nlStatus": {
+    "message": "状态"
+  },
+  "nlActions": {
+    "message": "操作"
+  },
+  "nlSort": {
+    "message": "仅排序当前结果表"
+  },
+  "nlSelected": {
+    "message": "已选"
+  },
+  "nlTestNode": {
+    "message": "测速"
+  },
+  "nlProfileShort": {
+    "message": "情景"
+  },
+  "nlQuick": {
+    "message": "快速延迟"
+  },
+  "nlFull": {
+    "message": "下载 + 上传"
+  },
+  "nlTraffic": {
+    "message": "测试数据量"
+  },
+  "nlConcurrency": {
+    "message": "并发数"
+  },
+  "nlTrafficFullOnly": {
+    "message": "用于下载和上传测速"
+  },
+  "nlTestMode": {
+    "message": "测试模式"
+  },
+  "nlBudget": {
+    "message": "最大有效载荷流量"
+  },
+  "nlViaGroup": {
+    "message": "经分组前置代理"
+  },
+  "nlTestSelected": {
+    "message": "测试已选"
+  },
+  "nlTestVisible": {
+    "message": "测试当前节点"
+  },
+  "nlTestAll": {
+    "message": "测试全部节点"
+  },
+  "nlTestGroup": {
+    "message": "测试分组节点"
+  },
+  "nlProgress": {
+    "message": "测速进度"
+  },
+  "nlReady": {
+    "message": "选择节点后开始，尚未进行测试。"
+  },
+  "nlStarting": {
+    "message": "正在启动独立测速…"
+  },
+  "nlQueued": {
+    "message": "等待中"
+  },
+  "nlRunning": {
+    "message": "测试中"
+  },
+  "nlStopping": {
+    "message": "正在停止…"
+  },
+  "nlComplete": {
+    "message": "完成"
+  },
+  "nlFailed": {
+    "message": "失败"
+  },
+  "nlStopped": {
+    "message": "已停止"
+  },
+  "nlPartial": {
+    "message": "部分完成"
+  },
+  "nlUntested": {
+    "message": "未测试"
+  },
+  "nlSucceeded": {
+    "message": "通过"
+  },
+  "nlMeasureDisconnected": {
+    "message": "测速连接已结束，未完成的数值不会记作最终结果。"
+  },
+  "nlUpgrade": {
+    "message": "请更新本地组件以管理分组和订阅，已有节点仍可使用。"
+  },
+  "nlOperationFailed": {
+    "message": "操作未能完成，请重试。"
+  },
+  "nlEditSubscription": {
+    "message": "编辑订阅"
+  },
+  "nlPasteContent": {
+    "message": "代理链接 / 内容"
+  },
+  "nlSubscriptionURL": {
+    "message": "订阅链接"
+  },
+  "nlKeepURL": {
+    "message": "留空则保留已保存的链接"
+  },
+  "nlConnectionPolicy": {
+    "message": "更新连接方式"
+  },
+  "nlProxyFirst": {
+    "message": "优先代理，失败后直连"
+  },
+  "nlProxyOnly": {
+    "message": "仅使用代理"
+  },
+  "nlDirectOnly": {
+    "message": "仅使用直连"
+  },
+  "nlProxyFirstHelp": {
+    "message": "代理获取成功即停止；仅当代理尝试失败时再使用直连。"
+  },
+  "nlAutoUpdate": {
+    "message": "启用自动更新"
+  },
+  "nlInterval": {
+    "message": "更新间隔（分钟）"
+  },
+  "nlDestinationGroup": {
+    "message": "导入到分组"
+  },
+  "nlSubscriptionOwnGroup": {
+    "message": "新建分组…"
+  },
+  "nlNameGroup": {
+    "message": "名称（分组）"
+  },
+  "nlCustomGroup": {
+    "message": "自定义分组"
+  },
+  "nlNameRequired": {
+    "message": "请输入名称。"
+  },
+  "nlContentRequired": {
+    "message": "请粘贴代理链接或订阅内容。"
+  },
+  "nlGroupRequired": {
+    "message": "请选择目标分组。"
+  },
+  "nlURLRequired": {
+    "message": "请输入不含用户名和密码的 HTTP(S) 订阅链接。"
+  },
+  "nlIntervalInvalid": {
+    "message": "请输入 5 到 43200 之间的整数分钟。"
+  },
+  "folderTitle": {
+    "message": "选择 v2rayN 文件夹"
+  },
+  "folderHint": {
+    "message": "选择后填入路径，点击“保存连接设置”后生效。"
+  },
+  "folderPath": {
+    "message": "完整的本地文件夹路径"
+  },
+  "folderGo": {
+    "message": "打开"
+  },
+  "folderUp": {
+    "message": "上一级"
+  },
+  "folderDrives": {
+    "message": "磁盘"
+  },
+  "folderCurrent": {
+    "message": "当前路径"
+  },
+  "folderChoose": {
+    "message": "使用此文件夹"
+  },
+  "folderList": {
+    "message": "文件夹"
+  },
+  "folderTruncated": {
+    "message": "列表已达到显示上限。可在上方输入完整路径，打开未显示的文件夹。"
+  },
+  "folderReady": {
+    "message": "已找到 v2rayN 文件。点击“使用此文件夹”将校验配置。"
+  },
+  "folderInvalid": {
+    "message": "请选择包含 guiConfigs（内有 guiNConfig.json 和 guiNDB.db）的文件夹。"
+  },
+  "folderSelectDrive": {
+    "message": "选择本地磁盘，或输入完整文件夹路径。"
+  },
+  "folderEmpty": {
+    "message": "没有可显示的子文件夹。"
+  },
+  "folderUnavailable": {
+    "message": "无法浏览此文件夹，请检查路径与访问权限。如果本地组件版本较旧，请先更新。"
+  },
+  "folderValidating": {
+    "message": "正在校验 v2rayN 配置…"
+  },
+  "folderInvalidConfig": {
+    "message": "v2rayN 配置或数据库不完整、无效，请选择其他文件夹。"
+  },
+  "copyPath": {
+    "message": "复制路径"
+  },
+  "pathCopyHint": {
+    "message": "复制当前输入框中的路径。"
+  },
+  "preMode": {
+    "message": "前置模式"
+  },
+  "preNode": {
+    "message": "前置节点"
+  },
+  "preIntro": {
+    "message": "可继承分组前置、不使用前置，或为当前情景指定前置节点。"
+  },
+  "healthLabel": {
+    "message": "当前连接状态"
+  },
+  "healthOk": {
+    "message": "正常"
+  },
+  "healthError": {
+    "message": "异常"
+  },
+  "healthChecking": {
+    "message": "检测中"
+  },
+  "healthUnknown": {
+    "message": "未确认"
+  },
+  "autoSystemHelp": {
+    "message": "系统代理规则需要 Windows 配套组件，并读取应用时的固定代理设置；系统设置改变后请重新应用。规则不支持 PAC/WPAD；无规则的系统代理使用浏览器原生设置。"
+  },
+  "backgroundUnavailable": {
+    "message": "扩展后台暂时不可用。"
+  },
+  "backgroundNoResponse": {
+    "message": "扩展后台没有响应。"
+  },
+  "backupTooLarge": {
+    "message": "备份文件不能超过 5 MB。"
+  },
+  "proxyUsername": {
+    "message": "用户名"
+  },
+  "proxyPassword": {
+    "message": "密码"
+  },
+  "proxyAuthHelp": {
+    "message": "可选。认证代理通过本地组件连接；凭据保存在当前浏览器配置和本地组件中，并包含在情景导出文件中。"
+  },
+  "proxyAuthSocks4": {
+    "message": "SOCKS4 不支持此用户名密码认证，请使用 HTTP(S) 或 SOCKS5。"
+  },
+  "importExamples": {
+    "message": "格式示例"
+  },
+  "ipCopying": {
+    "message": "正在复制…"
+  },
+  "netDnsUnavailable": {
+    "message": "服务器地址解析失败或超时，请检查主机名或 IP 地址后重试。"
+  },
+  "netCurrentTarget": {
+    "message": "所选代理节点"
+  },
+  "netCustomTarget": {
+    "message": "自定义服务器"
+  },
+  "netHost": {
+    "message": "主机名或 IP 地址"
+  },
+  "netPort": {
+    "message": "TCP 端口"
+  },
+  "netHostRequired": {
+    "message": "请输入服务器主机名或 IP 地址。"
+  },
+  "netCurrentUnavailable": {
+    "message": "请先切换到节点或手动代理情景，或填写自定义目标。"
+  },
+  "netInvalidTarget": {
+    "message": "请输入有效的检测地址和端口。"
+  },
+  "netIpv6PingUnavailable": {
+    "message": "暂不支持 IPv6 ICMP，请使用 TCPing。"
+  },
+  "preNeedsFix": {
+    "message": "请先指定有效前置，或选择无前置，再保存。"
+  },
+  "preConfigure": {
+    "message": "配置前置"
+  },
+  "preFollowInvalid": {
+    "message": "“跟随 v2rayN”不能额外指定前置代理。"
+  },
+  "followChainHelp": {
+    "message": "跟随模式使用 v2rayN 当前生效的线路及前置链。"
+  },
+  "netTitle": {
+    "message": "网络测试"
+  },
+  "ipTestDetails": {
+    "message": "检测说明"
+  },
+  "netTarget": {
+    "message": "Ping / TCPing 目标"
+  },
+  "netDownload": {
+    "message": "下载测速"
+  },
+  "netPartial": {
+    "message": "部分样本"
+  },
+  "netComplete": {
+    "message": "样本完成"
+  },
+  "netDirect": {
+    "message": "本机系统网络"
+  },
+  "netUnreachable": {
+    "message": "无响应 / 失败"
+  },
+  "netAverage": {
+    "message": "平均"
+  },
+  "predecessor": {
+    "message": "前置代理"
+  },
+  "preInherit": {
+    "message": "继承 v2rayN 分组前置"
+  },
+  "preNone": {
+    "message": "不使用前置代理"
+  },
+  "preSpecific": {
+    "message": "指定节点"
+  },
+  "preHelp": {
+    "message": "仅影响此情景：可继承分组前置、不使用前置或指定节点。“跟随 v2rayN”使用其已有前置链。"
+  },
+  "preSelectRequired": {
+    "message": "请选择前置节点，或选择分组默认 / 无前置。"
+  },
+  "ipPing0Permission": {
+    "message": "请允许访问 Ping0 网站，以读取公开报告。"
+  },
+  "ipPublicChallenge": {
+    "message": "网站要求验证，请在 Ping0 原网页完成验证并查看结果。"
+  },
+  "ipPublicReport": {
+    "message": "Ping0 公开报告"
+  },
+  "ipPublicSource": {
+    "message": "来源：Ping0 公开网页"
+  },
+  "ipPublicOriginal": {
+    "message": "Ping0 原报告"
+  },
+  "ipPublicPartial": {
+    "message": "只显示公开网页实际提供的字段，保留原文。类型、风控与共用人数估算均来自 Ping0。"
+  },
+  "setupTitle": {
+    "message": "开始使用 Proxy V2Route"
+  },
+  "setupIntro": {
+    "message": "安装 Windows 本地组件，即可使用 v2rayN 线路或自有导入节点。"
+  },
+  "setupStepOne": {
+    "message": "将配套完整 Windows 包解压到长期保留的文件夹。"
+  },
+  "setupStepTwo": {
+    "message": "打开 V2Route-Setup.exe，点击“安装”。"
+  },
+  "setupStepThree": {
+    "message": "回到这里检查连接，必要时选择 v2rayN 文件夹。"
+  },
+  "setupCheck": {
+    "message": "检查连接"
+  },
+  "downloadCompanion": {
+    "message": "安装说明 ↗"
+  },
+  "setupDownloadNote": {
+    "message": "使用配套的本地 Windows 包，或按说明从当前源码构建。"
+  },
+  "chooseFolder": {
+    "message": "选择 v2rayN 文件夹…"
+  },
+  "rescanDone": {
+    "message": "本地节点已重新扫描"
+  },
+  "grouping": {
+    "message": "节点分组"
+  },
+  "groupByCountry": {
+    "message": "按国家分组"
+  },
+  "unknownCountry": {
+    "message": "其他 / 未知地区"
+  },
+  "ungrouped": {
+    "message": "未分组"
+  },
+  "adjustNodeFilters": {
+    "message": "请调整分组、来源或搜索条件，也可显示已隐藏的节点。"
+  },
+  "rescanLocal": {
+    "message": "重新扫描 V2rayN 节点"
+  },
+  "showHidden": {
+    "message": "显示隐藏节点"
+  },
+  "hideNode": {
+    "message": "隐藏"
+  },
+  "restoreNode": {
+    "message": "恢复显示"
+  },
+  "hiddenNode": {
+    "message": "已隐藏"
+  },
+  "hideNodeHelp": {
+    "message": "仅在当前浏览器的节点库隐藏，不修改 v2rayN 或已有情景。"
+  },
+  "ipContextTimeout": {
+    "message": "读取当前情景超时，请重试。"
+  },
+  "ipStaleResult": {
+    "message": "当前情景已变化，结果可能已过期，请重新检测。"
+  },
+  "ip_tools": {
+    "message": "IP 工具"
+  },
+  "ipIntro": {
+    "message": "当前出口 IP 与公开报告。"
+  },
+  "ipCurrentProfile": {
+    "message": "当前浏览器情景"
+  },
+  "ipRouteCaution": {
+    "message": "自动规则和 PAC 可能按目标使用不同线路，本次结果仅代表检测请求。"
+  },
+  "ipDisclosure": {
+    "message": "自动检测出口 IP · 报告来自 Ping0"
+  },
+  "ipMethod": {
+    "message": "地址检测方式"
+  },
+  "ipDual": {
+    "message": "IPv4 / IPv6"
+  },
+  "ipCheck": {
+    "message": "重新检测"
+  },
+  "ipChecking": {
+    "message": "正在检测…"
+  },
+  "ipDualHelp": {
+    "message": "IPv4 / IPv6 返回本次请求使用的地址类型，不代表同时检测两个地址。"
+  },
+  "ipDurationHelp": {
+    "message": "耗时包含网络及服务响应时间，不是 ICMP ping 或带宽测速。"
+  },
+  "ipCopy": {
+    "message": "复制 IP"
+  },
+  "ipCopied": {
+    "message": "已复制"
+  },
+  "ipCopyFailed": {
+    "message": "复制失败，请选中地址手动复制。"
+  },
+  "ipNoResult": {
+    "message": "尚未检测"
+  },
+  "ipContextUnknown": {
+    "message": "暂时无法读取情景"
+  },
+  "ipTimeout": {
+    "message": "检测超时，请重试或切换线路。"
+  },
+  "ipCancelled": {
+    "message": "已取消检测"
+  },
+  "ipNetwork": {
+    "message": "无法连接 ipify，请检查网络后重试。"
+  },
+  "ipHttp": {
+    "message": "IP 服务未接受请求，请稍后重试。"
+  },
+  "ipInvalid": {
+    "message": "IP 服务返回的结果无效。"
+  },
+  "ipFailure": {
+    "message": "检测失败，请重试。"
+  },
+  "ipStale": {
+    "message": "检测过程中代理设置发生变化，已丢弃旧结果，请重新检测。"
+  },
+  "ipQuality": {
+    "message": "第三方工具"
+  },
+  "ipQualityPrivacy": {
+    "message": "点击后才运行工具，服务商会接收常规连接信息。网站连通测试点击开始后发送不带凭据的请求。关闭即停止本地测试；外部标签页由浏览器管理。"
+  },
+  "ipReport": {
+    "message": "复制脱敏报告"
+  },
+  "ipReportCopied": {
+    "message": "已复制脱敏报告，不含 IP 或情景名称。"
+  },
+  "popupSelected": {
+    "message": "当前选择"
+  },
+  "popupFooter": {
+    "message": "v2rayN · 节点情景"
+  },
+  "subtitle": {
+    "message": "浏览器独立选线"
+  },
+  "profiles": {
+    "message": "情景模式"
+  },
+  "nodes": {
+    "message": "节点库"
+  },
+  "settings": {
+    "message": "设置"
+  },
+  "connected": {
+    "message": "当前情景"
+  },
+  "noProfile": {
+    "message": "系统默认"
+  },
+  "newProfile": {
+    "message": "新建情景"
+  },
+  "searchProfiles": {
+    "message": "搜索情景"
+  },
+  "direct": {
+    "message": "直连网络"
+  },
+  "system": {
+    "message": "系统代理"
+  },
+  "follow": {
+    "message": "跟随 v2rayN"
+  },
+  "manual": {
+    "message": "手动代理"
+  },
+  "auto": {
+    "message": "自动切换"
+  },
+  "pac": {
+    "message": "PAC 脚本"
+  },
+  "virtual": {
+    "message": "虚情景"
+  },
+  "profileIntro": {
+    "message": "浏览器独立选线，无需切换 v2rayN 主线路。"
+  },
+  "nodesIntro": {
+    "message": "查看本地 v2rayN 线路和独立导入的节点。"
+  },
+  "settingsIntro": {
+    "message": "管理本地连接、语言和外观。"
+  },
+  "refresh": {
+    "message": "刷新"
+  },
+  "create": {
+    "message": "创建情景"
+  },
+  "name": {
+    "message": "情景名称"
+  },
+  "type": {
+    "message": "情景类型"
+  },
+  "save": {
+    "message": "保存"
+  },
+  "saved": {
+    "message": "已保存"
+  },
+  "saving": {
+    "message": "正在保存…"
+  },
+  "cancel": {
+    "message": "取消"
+  },
+  "close": {
+    "message": "关闭"
+  },
+  "apply": {
+    "message": "切换到此情景"
+  },
+  "applied": {
+    "message": "已切换情景"
+  },
+  "active": {
+    "message": "使用中"
+  },
+  "delete": {
+    "message": "删除"
+  },
+  "remove": {
+    "message": "移除"
+  },
+  "rename": {
+    "message": "重命名"
+  },
+  "route": {
+    "message": "代理线路"
+  },
+  "selectRoute": {
+    "message": "选择线路"
+  },
+  "routeMissing": {
+    "message": "线路不可用，请重新选择"
+  },
+  "chain": {
+    "message": "连接顺序"
+  },
+  "connection": {
+    "message": "本地连接"
+  },
+  "proxy": {
+    "message": "代理服务器"
+  },
+  "address": {
+    "message": "地址"
+  },
+  "port": {
+    "message": "端口"
+  },
+  "scheme": {
+    "message": "协议"
+  },
+  "proxyDns": {
+    "message": "SOCKS5 DNS 由代理解析。"
+  },
+  "connectedIdle": {
+    "message": "已连接 · 待命"
+  },
+  "bypass": {
+    "message": "不代理的地址"
+  },
+  "bypassHelp": {
+    "message": "每行一个域名、泛域名、IP 或 IP:端口。"
+  },
+  "advanced": {
+    "message": "高级选项"
+  },
+  "searchRoutes": {
+    "message": "搜索分组或节点"
+  },
+  "selectGroup": {
+    "message": "选择分组"
+  },
+  "empty": {
+    "message": "没有匹配的内容"
+  },
+  "unavailable": {
+    "message": "不可用"
+  },
+  "groupHint": {
+    "message": "长按分组 250 毫秒后拖动，松开自动保存。也可用 Alt + ↑ / ↓ 排序。"
+  },
+  "searchSort": {
+    "message": "请清空搜索后再排序。"
+  },
+  "dragHint": {
+    "message": "上下拖动，松开保存；Esc 取消。"
+  },
+  "orderSaved": {
+    "message": "分组顺序已保存"
+  },
+  "orderCancelled": {
+    "message": "已取消排序"
+  },
+  "loading": {
+    "message": "正在加载…"
+  },
+  "reading": {
+    "message": "正在读取本地节点…"
+  },
+  "nativeMissing": {
+    "message": "本地组件未连接"
+  },
+  "retry": {
+    "message": "重试"
+  },
+  "nativeHelp": {
+    "message": "节点线路需 Windows 本地组件；直连、系统代理和手动代理可直接使用。"
+  },
+  "imported": {
+    "message": "独立导入"
+  },
+  "v2rayn": {
+    "message": "v2rayN"
+  },
+  "allSources": {
+    "message": "全部来源"
+  },
+  "importNodes": {
+    "message": "导入代理 / 订阅"
+  },
+  "importTitle": {
+    "message": "导入代理"
+  },
+  "importHelp": {
+    "message": "粘贴代理链接、出站 JSON 或 Base64 订阅。SOCKS 支持明文或 Base64 账密，无协议地址按 HTTP 导入。"
+  },
+  "importPrivacy": {
+    "message": "代理信息及凭据交给本机 Proxy V2Route 组件保存，并用于连接你选择的代理；开发者不接收这些信息。"
+  },
+  "import": {
+    "message": "导入情景"
+  },
+  "nodeCount": {
+    "message": "个节点"
+  },
+  "source": {
+    "message": "来源"
+  },
+  "protocol": {
+    "message": "协议"
+  },
+  "useNode": {
+    "message": "创建情景"
+  },
+  "removeNode": {
+    "message": "移除这个导入节点？"
+  },
+  "removeNodeHelp": {
+    "message": "需要先为引用此节点的情景重新分配线路。"
+  },
+  "deleteProfile": {
+    "message": "删除这个情景？"
+  },
+  "deleteProfileHelp": {
+    "message": "只删除当前浏览器的此情景，保留导入节点和 v2rayN 配置。"
+  },
+  "language": {
+    "message": "语言"
+  },
+  "automatic": {
+    "message": "跟随浏览器"
+  },
+  "theme": {
+    "message": "外观"
+  },
+  "light": {
+    "message": "浅色"
+  },
+  "dark": {
+    "message": "深色"
+  },
+  "localComponent": {
+    "message": "本地配套组件"
+  },
+  "ready": {
+    "message": "已连接"
+  },
+  "stopped": {
+    "message": "未运行"
+  },
+  "switchToEnglish": {
+    "message": "切换为英语"
+  },
+  "switchToChinese": {
+    "message": "切换为简体中文"
+  },
+  "switchToLight": {
+    "message": "切换为浅色"
+  },
+  "switchToDark": {
+    "message": "切换为深色"
+  },
+  "discovery": {
+    "message": "v2rayN 自动识别"
+  },
+  "rootPath": {
+    "message": "v2rayN 文件夹"
+  },
+  "corePath": {
+    "message": "代理核心程序"
+  },
+  "optionalPath": {
+    "message": "留空以自动识别"
+  },
+  "pathsHelp": {
+    "message": "自动识别 v2rayN，必要时可选择文件夹；导入节点使用随包核心。"
+  },
+  "savePaths": {
+    "message": "保存连接设置"
+  },
+  "privacy": {
+    "message": "设置保存在本机"
+  },
+  "privacyText": {
+    "message": "节点链接与凭据保存在本机组件；浏览器流量经所选代理到达目标网站，开发者不接收这些信息。"
+  },
+  "privacyDetails": {
+    "message": "隐私与数据流向"
+  },
+  "export": {
+    "message": "导出情景"
+  },
+  "about": {
+    "message": "关于 Proxy V2Route"
+  },
+  "aboutText": {
+    "message": "浏览器独立选线，无需切换 v2rayN 主线路。节点线路需 Windows 本地组件及自备节点。"
+  },
+  "licenses": {
+    "message": "开源声明"
+  },
+  "version": {
+    "message": "版本"
+  },
+  "fieldRequired": {
+    "message": "请输入情景名称。"
+  },
+  "profileExists": {
+    "message": "该情景名称已存在。"
+  },
+  "ruleHelp": {
+    "message": "同一行可用逗号分隔多个域名；按顺序使用首个匹配的规则。请保留可用的默认线路。"
+  },
+  "rules": {
+    "message": "切换规则"
+  },
+  "pattern": {
+    "message": "主机匹配规则"
+  },
+  "target": {
+    "message": "规则目标"
+  },
+  "addRule": {
+    "message": "添加规则"
+  },
+  "defaultRoute": {
+    "message": "默认情景"
+  },
+  "pacHelp": {
+    "message": "粘贴可信且包含 FindProxyForURL 的 PAC 源码。该脚本决定网站请求的代理路由。"
+  },
+  "pacUrl": {
+    "message": "PAC 网址"
+  },
+  "pacScript": {
+    "message": "PAC 脚本"
+  },
+  "noSelection": {
+    "message": "选择已有情景，或创建一个新情景。"
+  },
+  "details": {
+    "message": "详情"
+  },
+  "noNodes": {
+    "message": "还没有节点"
+  },
+  "noNodesHelp": {
+    "message": "连接 v2rayN，或导入代理链接、JSON 或订阅即可开始。"
+  },
+  "openSettings": {
+    "message": "打开设置"
+  },
+  "proxySettings": {
+    "message": "代理设置"
+  },
+  "switching": {
+    "message": "正在切换…"
+  },
+  "updatedElsewhere": {
+    "message": "此情景已在其他窗口修改，请重新打开后再保存。"
+  },
+  "choose": {
+    "message": "选择"
+  },
+  "popupIntro": {
+    "message": "当前连接："
+  },
+  "invalidPort": {
+    "message": "请输入 1 到 65535 的端口。"
+  },
+  "externalControl": {
+    "message": "当前浏览器代理受其他扩展或策略控制。"
+  },
+  "noNativeRoute": {
+    "message": "请先连接本地组件，再创建节点情景。"
+  },
+  "reload": {
+    "message": "重新载入"
+  },
+  "rulesError": {
+    "message": "每条规则都需要匹配内容和目标。"
+  },
+  "backupDone": {
+    "message": "浏览器情景已导出"
+  },
+  "managed": {
+    "message": "节点代理"
+  },
+  "netRegion": {
+    "message": "测试区域"
+  },
+  "netNodeArea": {
+    "message": "代理节点"
+  },
+  "netChina": {
+    "message": "中国大陆"
+  },
+  "netGlobal": {
+    "message": "海外"
+  },
+  "netAli": {
+    "message": "阿里 DNS"
+  },
+  "netTencent": {
+    "message": "腾讯 DNS"
+  },
+  "netStartHelp": {
+    "message": "选择目标，点击开始持续检测。"
+  },
+  "netConsole": {
+    "message": "实时诊断"
+  },
+  "netStop": {
+    "message": "停止"
+  },
+  "netRunning": {
+    "message": "检测中"
+  },
+  "netStopped": {
+    "message": "已停止"
+  },
+  "netSent": {
+    "message": "已发送"
+  },
+  "netLoss": {
+    "message": "丢包率"
+  },
+  "netAverageShort": {
+    "message": "平均"
+  },
+  "netLogClear": {
+    "message": "清屏"
+  },
+  "netFinishing": {
+    "message": "上一轮探测正在结束…"
+  },
+  "netRound": {
+    "message": "轮次"
+  },
+  "netDestination": {
+    "message": "终点"
+  },
+  "netHop": {
+    "message": "跳"
+  },
+  "netAddress": {
+    "message": "IP地址"
+  },
+  "netLast": {
+    "message": "上次"
+  },
+  "netConsoleHelp": {
+    "message": "Ping / TCPing / MTR 走本机系统网络，不经过代理链。ICMP 无回应不等于业务丢包。下载走浏览器线路，流量按所选大小。离开或隐藏此页即停止。"
+  },
+  "netDirectShort": {
+    "message": "本机系统网络"
+  },
+  "netIcmpShort": {
+    "message": "ICMP 无回应"
+  },
+  "netProbeError": {
+    "message": "本地探测错误"
+  },
+  "netNoDestination": {
+    "message": "尚未到达终点"
+  },
+  "deleteActive": {
+    "message": "切换到系统代理并删除"
+  },
+  "deleteActiveHelp": {
+    "message": "此情景正在使用。删除后，浏览器将切换到系统代理。"
+  },
+  "netDownloadSize": {
+    "message": "测速流量"
+  },
+  "netReceived": {
+    "message": "已接收"
+  },
+  "netBest": {
+    "message": "最好"
+  },
+  "netWorst": {
+    "message": "最差"
+  },
+  "netStdDev": {
+    "message": "标准差"
+  },
+  "netLocation": {
+    "message": "地理位置"
+  },
+  "toolWall": {
+    "message": "域名被墙检测"
+  },
+  "toolSites": {
+    "message": "常用网站连通"
+  },
+  "toolGlobal": {
+    "message": "全球网络检测"
+  },
+  "toolFast": {
+    "message": "Netflix 测速"
+  },
+  "toolSpeed": {
+    "message": "网络测速"
+  },
+  "toolStart": {
+    "message": "开始"
+  },
+  "toolReady": {
+    "message": "待检测"
+  },
+  "toolResponded": {
+    "message": "已响应"
+  },
+  "toolNoResponse": {
+    "message": "未能确认"
+  },
+  "toolCacheUnsupported": {
+    "message": "此浏览器不支持按站点清理缓存；网页已重新加载。"
+  },
+  "toolCacheFailed": {
+    "message": "缓存清理未完成，可关闭后重试。"
+  },
+  "toolClose": {
+    "message": "关闭"
+  },
+  "toolReload": {
+    "message": "重载"
+  },
+  "toolLoading": {
+    "message": "正在加载…"
+  },
+  "toolFrameError": {
+    "message": "加载失败，请重载。"
+  },
+  "toolSiteHelp": {
+    "message": "检测浏览器连通性，不代表账号或地区解锁。"
+  },
+  "toolFallback": {
+    "message": "备用测速"
+  },
+  "toolFullscreen": {
+    "message": "全屏"
+  },
+  "toolRestore": {
+    "message": "退出全屏"
+  },
+  "ipReadFailed": {
+    "message": "读取失败，👉"
+  },
+  "ipViewSource": {
+    "message": "点击查看源站"
+  },
+  "toolDownloadError": {
+    "message": "测速服务器连接失败，请重试。"
+  },
+  "toolAccess": {
+    "message": "启用站点访问"
+  },
+  "toolPermission": {
+    "message": "允许访问此站点以兼容嵌入会话。"
+  },
+  "toolAsia": {
+    "message": "亚洲"
+  },
+  "toolEurope": {
+    "message": "欧洲"
+  },
+  "toolAmerica": {
+    "message": "北美"
+  },
+  "toolGlobalHelp": {
+    "message": "默认填入浏览器出口 IP；可选择中国大陆或其他地区对比路径，点击开始才向最多 3 个 Globalping 探针发送当前目标。"
+  },
+  "toolServiceError": {
+    "message": "测试服务暂不可用，请重试。"
+  },
+  "popupOrderHelp": {
+    "message": "长按拖动排序，也可用 Alt+方向键调整。"
+  },
+  "popupOrderSaved": {
+    "message": "顺序已保存"
+  },
+  "toolGroupIP": {
+    "message": "IP 检测"
+  },
+  "toolGroupWeb": {
+    "message": "网站检测"
+  },
+  "toolGroupSpeed": {
+    "message": "测速"
+  },
+  "toolCurrentIP": {
+    "message": "当前出口 IP"
+  },
+  "toolCurrentIPLoading": {
+    "message": "正在读取当前出口 IP…"
+  },
+  "toolCurrentIPFailed": {
+    "message": "读取当前 IP 失败，可手动填写。"
+  },
+  "speedMode": {
+    "message": "测速项目"
+  },
+  "speedBoth": {
+    "message": "下载＋上传"
+  },
+  "speedDownload": {
+    "message": "下载"
+  },
+  "speedUpload": {
+    "message": "上传"
+  },
+  "speedLatency": {
+    "message": "HTTP 延迟"
+  },
+  "speedBudget": {
+    "message": "每项 {n} MiB · 合计 {total} MiB，另有少量延迟样本。"
+  },
+  "siteCategory": {
+    "message": "网站分类"
+  },
+  "siteAll": {
+    "message": "全部网站"
+  },
+  "siteAI": {
+    "message": "AI"
+  },
+  "siteDevelopment": {
+    "message": "开发工具"
+  },
+  "siteVideo": {
+    "message": "视频／音乐"
+  },
+  "siteSocial": {
+    "message": "社交"
+  },
+  "siteDomestic": {
+    "message": "国内服务"
+  },
+  "siteServices": {
+    "message": "常用服务"
+  },
+  "globalMethod": {
+    "message": "检测类型"
+  },
+  "localPort": {
+    "message": "本地端口："
+  },
+  "chainChooseNode": {
+    "message": "请选择代理节点"
+  },
+  "chainTitle": {
+    "message": "链式代理"
+  },
+  "chainSelectExit": {
+    "message": "可先添加代理层；请选择下方的具体出口节点后保存或检测。跟随线路由 v2rayN 管理。"
+  },
+  "chainSelectExitShort": {
+    "message": "请选择出口节点"
+  },
+  "chainAdd": {
+    "message": "＋增加一层代理"
+  },
+  "chainTest": {
+    "message": "检测链路"
+  },
+  "chainMode": {
+    "message": "链路模式"
+  },
+  "chainBase": {
+    "message": "基础代理"
+  },
+  "chainExit": {
+    "message": "出口代理"
+  },
+  "chainEgress": {
+    "message": "链路出口"
+  },
+  "chainExitBadge": {
+    "message": "落地 IP"
+  },
+  "chainEntry": {
+    "message": "链路入口"
+  },
+  "chainTransit": {
+    "message": "桥接节点"
+  },
+  "chainUntested": {
+    "message": "待检测"
+  },
+  "chainMissing": {
+    "message": "失效代理 · 节点不存在"
+  },
+  "chainUnresolved": {
+    "message": "继承链无法解析，请修复前置设置或改用自定义代理链。"
+  },
+  "chainUpgrade": {
+    "message": "升级本地组件后可使用多层代理。"
+  },
+  "chainBusy": {
+    "message": "其他链路正在检测"
+  },
+  "chainOK": {
+    "message": "连接正常"
+  },
+  "chainFailed": {
+    "message": "失效代理 · 本次检测失败"
+  },
+  "chainBlocked": {
+    "message": "未检测 · 前序失败"
+  },
+  "chainFailureHelp": {
+    "message": "本层或到达本层的路径未通过检测，后续层未检测。"
+  },
+  "chainAllOK": {
+    "message": "各段链路均已响应"
+  },
+  "chainStopping": {
+    "message": "当前探测结束后停止…"
+  },
+  "globalWorld": {
+    "message": "全球"
+  },
+  "globalUnavailable": {
+    "message": "目标或地区不可用，请检查目标或更换地区。"
+  },
+  "globalRateLimited": {
+    "message": "已达到服务请求限额，请稍后再试。"
+  },
+  "globalNoResults": {
+    "message": "服务未返回探测结果，请换一个地区。"
+  },
+  "globalProbeFailed": {
+    "message": "探针检测失败"
+  },
+  "globalProbeOffline": {
+    "message": "探针离线"
+  },
+  "globalIcmpCaution": {
+    "message": "ICMP 无回应不能单独判定被墙，请对比中国大陆与海外路径及其他检测类型。"
+  },
+  "speedRealtime": {
+    "message": "实时速度"
+  },
+  "speedAverage": {
+    "message": "平均速度"
+  },
+  "ipToolsBrief": {
+    "message": "第三方检测结果仅供参考。"
+  },
+  "ipReportBrief": {
+    "message": "结果随出口 IP 变化，仅供参考。"
+  },
+  "toolPingPe": {
+    "message": "IP被墙检测"
+  },
+  "toolTargetIP": {
+    "message": "目标 IP"
+  },
+  "toolOpenPingPe": {
+    "message": "打开官网检测"
+  },
+  "toolInvalidIP": {
+    "message": "请输入有效的 IPv4 或 IPv6 地址。"
+  },
+  "toolInvalidPort": {
+    "message": "请输入 1–65535 的 TCP 端口。"
+  },
+  "toolExternalFailed": {
+    "message": "无法打开网站，请重试。"
+  },
+  "ipBrowserReading": {
+    "message": "正在通过浏览器读取 Ping0…"
+  },
+  "ipVerifyBrowser": {
+    "message": "打开验证页面"
+  },
+  "policyCenter": {
+    "message": "隐私、声明与常见问题"
+  },
+  "policyCenterIntro": {
+    "message": "查看本地数据处理、检测边界和常见答案。"
+  },
+  "policyPrivacyTitle": {
+    "message": "隐私政策"
+  },
+  "policyPrivacySummary": {
+    "message": "情景和凭据保存在本机。弹窗连接检查和诊断会访问已说明的服务商；不做广告或行为分析。"
+  },
+  "policyDeclarationTitle": {
+    "message": "使用与检测声明"
+  },
+  "policyDeclarationSummary": {
+    "message": "本扩展是本地线路管理器，不提供代理或 VPN 服务。检测结果是参考样本，会受网络、代理和服务商条件影响。"
+  },
+  "policyFaqTitle": {
+    "message": "常见问题"
+  },
+  "policyFaqSummary": {
+    "message": "本地节点和 MTR 需要 Windows 配套组件。浏览器、本机系统和公共探针的延迟可能不同。可在设置中停止检测或清理本地数据。"
+  },
+  "policyDetailsLink": {
+    "message": "查看完整说明 ↗"
+  },
+  "thirdPartyNotice": {
+    "message": "查看开源声明 ↗"
+  },
+  "columnResizeHelp": {
+    "message": "拖动调整列宽；双击恢复默认；方向键微调"
+  },
+  "columnResize": {
+    "message": "调整列宽"
+  },
+  "typeDescription_node": {
+    "message": "按节点连接代理"
+  },
+  "typeDescription_manual": {
+    "message": "手动填写代理参数"
+  },
+  "typeDescription_auto": {
+    "message": "按规则自动选择节点"
+  },
+  "typeDescription_pac": {
+    "message": "使用 PAC 规则进行代理"
+  },
+  "appDescription": {
+    "message": "独立管理浏览器代理线路、节点、域名规则与连接检查。节点线路需要 Windows 配套组件。"
+  },
+  "core_title": {
+    "message": "代理核心"
+  },
+  "core_checking": {
+    "message": "正在检查本地组件…"
+  },
+  "core_ready": {
+    "message": "Xray 核心已就绪"
+  },
+  "core_missing": {
+    "message": "缺少代理核心"
+  },
+  "core_external": {
+    "message": "自定义核心未验证"
+  },
+  "core_corrupt": {
+    "message": "Xray 校验失败，请修复核心"
+  },
+  "core_unreadable": {
+    "message": "无法校验核心文件"
+  },
+  "core_intro": {
+    "message": "Windows 完整包已包含 Xray，无需安装 v2rayN。"
+  },
+  "core_verify": {
+    "message": "重新检查"
+  },
+  "core_install": {
+    "message": "安装／修复核心"
+  },
+  "core_installing": {
+    "message": "正在下载并校验…"
+  },
+  "core_done": {
+    "message": "核心已校验，可正常使用"
+  },
+  "core_help": {
+    "message": "修复使用固定版本的官方 Xray 并校验文件，当前连接保持运行。"
+  },
+  "core_absent": {
+    "message": "请先安装一次本地组件，再返回检查核心。"
+  },
+  "core_download": {
+    "message": "安装说明"
+  },
+  "core_absentHelp": {
+    "message": "使用配套 Windows 包，或按说明从源码构建，然后运行安装器。"
+  },
+  "core_failed": {
+    "message": "操作失败，可重试或使用 Windows 完整包。"
+  },
+  "core_version": {
+    "message": "版本"
+  },
+  "error_ACTIVE_PROFILE_DELETE": {
+    "message": "请切换到其他情景后再删除"
+  },
+  "error_BACKUP_BINDING_TYPE": {
+    "message": "仅代理情景可以绑定线路"
+  },
+  "error_BACKUP_FORMAT3_REQUIRED": {
+    "message": "节点规则需要格式 3 的可迁移备份"
+  },
+  "error_BACKUP_INDEPENDENT_PATH_REQUIRED": {
+    "message": "备份必须包含独立节点链路"
+  },
+  "error_BACKUP_INTERNAL_BINDINGS": {
+    "message": "备份含内部绑定标识"
+  },
+  "error_BACKUP_MESSAGE_LIMIT": {
+    "message": "节点备份超过本地组件传输上限"
+  },
+  "error_BACKUP_NODES_INCOMPLETE": {
+    "message": "节点备份不完整"
+  },
+  "error_BACKUP_NODE_MISSING": {
+    "message": "备份缺少情景所需节点"
+  },
+  "error_BACKUP_NODE_PATHS_LIMIT": {
+    "message": "备份最多支持 {limit} 条节点链路"
+  },
+  "error_BACKUP_PATH_INCOMPLETE": {
+    "message": "节点备份链路不完整"
+  },
+  "error_BACKUP_PROFILES_LIMIT": {
+    "message": "备份最多支持 {limit} 个情景"
+  },
+  "error_BACKUP_PROXY_CONFLICT": {
+    "message": "备份代理设置冲突"
+  },
+  "error_BACKUP_SIZE_LIMIT": {
+    "message": "备份文件不能超过 {limit} MB"
+  },
+  "error_BACKUP_TRANSFER_UNAVAILABLE": {
+    "message": "请更新或修复本地组件以迁移节点备份。"
+  },
+  "error_BACKUP_UNUSED_NODES": {
+    "message": "备份包含未被情景引用的节点"
+  },
+  "error_BODY_TOO_LARGE": {
+    "message": "订阅响应超过允许的大小。"
+  },
+  "error_BROWSER_API_FAILED": {
+    "message": "浏览器操作失败，请查看技术详情。"
+  },
+  "error_BROWSER_PROXY_RESTORE_FAILED": {
+    "message": "操作失败，且之前的浏览器代理未能恢复"
+  },
+  "error_BROWSER_SCHEDULING_UNAVAILABLE": {
+    "message": "浏览器调度不可用。"
+  },
+  "error_BUSY": {
+    "message": "其他操作正在进行，请稍后重试。"
+  },
+  "error_CHAIN_PROBE_FAILED": {
+    "message": "链路探测失败"
+  },
+  "error_COMPANION_BULK_RELEASE_REQUIRED": {
+    "message": "请升级本地组件以安全管理多个节点规则"
+  },
+  "error_COMPANION_CHAINS_REQUIRED": {
+    "message": "请升级本地组件以启用多层代理"
+  },
+  "error_COMPANION_MESSAGE_LIMIT": {
+    "message": "设置超过本地组件传输上限"
+  },
+  "error_COMPANION_OPERATION_FAILED": {
+    "message": "本地组件操作失败，请查看技术详情。"
+  },
+  "error_COMPANION_UNAVAILABLE": {
+    "message": "请安装或修复 V2Route 本地组件"
+  },
+  "error_CONNECTION_CLOSED": {
+    "message": "测试完成前连接已关闭。"
+  },
+  "error_CORE_INSTALL_FAILED": {
+    "message": "核心安装失败，请查看技术详情。"
+  },
+  "error_CORE_OWNERSHIP_FAILED": {
+    "message": "无法安全控制独立测试核心，测试已停止。"
+  },
+  "error_CORE_START_FAILED": {
+    "message": "独立测试核心无法启动，请检查本地组件与核心安装。"
+  },
+  "error_CORE_START_TIMEOUT": {
+    "message": "独立测试核心未能在限定时间内就绪。"
+  },
+  "error_CORE_STATUS_UNAVAILABLE": {
+    "message": "核心状态不可用，请查看技术详情。"
+  },
+  "error_CORE_VALIDATION_FAILED": {
+    "message": "Xray 无法验证导入节点，请检查节点设置后重试。"
+  },
+  "error_DETACH_PORT_CONFLICT": {
+    "message": "此自动端口即将释放，请填写其他手工代理"
+  },
+  "error_DETACH_PROXY_REQUIRED": {
+    "message": "解除绑定前请填写手工代理"
+  },
+  "error_DNS_BUSY": {
+    "message": "DNS 解析正忙，请稍后重试。"
+  },
+  "error_DNS_FAILED": {
+    "message": "DNS 解析失败，请检查地址和网络连接。"
+  },
+  "error_ENCODING_UNSUPPORTED": {
+    "message": "订阅使用了不支持的内容编码。"
+  },
+  "error_FIREFOX_PRIVATE_ACCESS_REQUIRED": {
+    "message": "请先在扩展详情允许 V2Route 在隐私窗口运行"
+  },
+  "error_FOLDER_UNAVAILABLE": {
+    "message": "文件夹不可用，请检查路径、访问权限及本地组件版本"
+  },
+  "error_GROUP_LIMIT": {
+    "message": "分组数量已达上限，请移除不用的分组后重试。"
+  },
+  "error_GROUP_NOT_EDITABLE": {
+    "message": "此来源分组不能在这里编辑。"
+  },
+  "error_GROUP_NOT_FOUND": {
+    "message": "所选分组已不存在，请选择其他分组。"
+  },
+  "error_HTTP_ENCODING": {
+    "message": "测试服务器返回不支持的编码。"
+  },
+  "error_HTTP_LENGTH": {
+    "message": "测试响应大小与请求大小不符。"
+  },
+  "error_HTTP_RESPONSE_TOO_LARGE": {
+    "message": "测试响应超过允许的大小。"
+  },
+  "error_HTTP_STATUS": {
+    "message": "测试服务器返回失败的 HTTP 状态。"
+  },
+  "error_IMPORTED_PROXY_MISSING": {
+    "message": "本地组件未返回导入的代理"
+  },
+  "error_IMPORTED_RULE_PATH_CONFLICT": {
+    "message": "导入的节点映射到冲突的规则链路"
+  },
+  "error_IMPORT_CLEANUP_FAILED": {
+    "message": "导入失败，部分临时节点或端口未能释放；原有情景已保留"
+  },
+  "error_IMPORT_PROFILE_NAME_CONFLICT": {
+    "message": "名称重复或无效，未导入"
+  },
+  "error_INCOMPLETE_RESPONSE": {
+    "message": "订阅响应不完整，请重试。"
+  },
+  "error_INVALID_BACKUP": {
+    "message": "无效的 V2Route 备份"
+  },
+  "error_INVALID_BACKUP_NODE": {
+    "message": "备份节点无效或重复"
+  },
+  "error_INVALID_BACKUP_NODES": {
+    "message": "备份节点无效"
+  },
+  "error_INVALID_BACKUP_PATH": {
+    "message": "备份链路无效"
+  },
+  "error_INVALID_BYPASS_ENTRY": {
+    "message": "绕过条目无效"
+  },
+  "error_INVALID_BYPASS_LIST": {
+    "message": "绕过列表无效"
+  },
+  "error_INVALID_CHAIN": {
+    "message": "多层代理节点或顺序无效"
+  },
+  "error_INVALID_CHAIN_PROBE": {
+    "message": "链路探测请求无效"
+  },
+  "error_INVALID_COMPANION_RESPONSE": {
+    "message": "本地组件返回无效，请更新或修复组件。"
+  },
+  "error_INVALID_CONTENT": {
+    "message": "订阅响应不包含有效内容。"
+  },
+  "error_INVALID_DOMAIN_PATTERNS": {
+    "message": "请输入用逗号分隔的域名规则；网址请单独填写一行"
+  },
+  "error_INVALID_ENCODING": {
+    "message": "订阅响应不是有效的 UTF-8 文本。"
+  },
+  "error_INVALID_FOLDER_REQUEST": {
+    "message": "文件夹请求无效"
+  },
+  "error_INVALID_GROUP_ACTION": {
+    "message": "不支持此分组操作。"
+  },
+  "error_INVALID_HOP_INDEX": {
+    "message": "链路层号无效"
+  },
+  "error_INVALID_LEGACY_PREDECESSOR": {
+    "message": "继承模式前置无效"
+  },
+  "error_INVALID_LIBRARY_COMMAND": {
+    "message": "不支持此节点库命令。"
+  },
+  "error_INVALID_LIBRARY_REQUEST": {
+    "message": "节点库请求无效"
+  },
+  "error_INVALID_NAME": {
+    "message": "名称需包含 1–128 个可见字符，且不能包含控制字符。"
+  },
+  "error_INVALID_NETWORK_TEST": {
+    "message": "网络检测参数无效"
+  },
+  "error_INVALID_NODE_IMPORT_RESPONSE": {
+    "message": "节点导入返回无效"
+  },
+  "error_INVALID_PREDECESSOR": {
+    "message": "此前置代理不适用于所选线路"
+  },
+  "error_INVALID_PROFILE_NAME": {
+    "message": "情景名称无效"
+  },
+  "error_INVALID_PROFILE_REFERENCE": {
+    "message": "情景引用无效"
+  },
+  "error_INVALID_PROXY_AUTH": {
+    "message": "代理认证参数无效"
+  },
+  "error_INVALID_PROXY_CREDENTIALS": {
+    "message": "代理账号或密码无效"
+  },
+  "error_INVALID_PROXY_ENDPOINT": {
+    "message": "请输入有效代理地址和端口"
+  },
+  "error_INVALID_PROXY_HOST": {
+    "message": "请输入 DNS 主机名或 IP 地址，不要包含端口、网址、路径或查询参数"
+  },
+  "error_INVALID_ROUTE": {
+    "message": "线路无效"
+  },
+  "error_INVALID_ROUTE_SETTINGS": {
+    "message": "线路设置无效"
+  },
+  "error_INVALID_RULES": {
+    "message": "规则无效"
+  },
+  "error_INVALID_RULE_TARGET": {
+    "message": "每条规则请选择一个有效节点或情景"
+  },
+  "error_INVALID_SUBSCRIPTION": {
+    "message": "订阅无效"
+  },
+  "error_INVALID_SUBSCRIPTION_REQUEST": {
+    "message": "订阅请求无效"
+  },
+  "error_INVALID_SUBSCRIPTION_SETTINGS": {
+    "message": "订阅设置无效，请检查更新间隔和连接方式。"
+  },
+  "error_INVALID_SYSTEM_PROXY_RESPONSE": {
+    "message": "系统代理返回无效，请更新或修复本地组件"
+  },
+  "error_INVALID_TRANSPORT": {
+    "message": "订阅连接设置无效。"
+  },
+  "error_INVALID_URL": {
+    "message": "请输入有效且不含用户名和密码的 HTTP(S) 订阅链接。"
+  },
+  "error_LIBRARY_CHANGED": {
+    "message": "节点库已在其他窗口修改，请刷新后重试。"
+  },
+  "error_MANUAL_CHAIN_UNSUPPORTED": {
+    "message": "手工代理不能附带节点链"
+  },
+  "error_MANUAL_PROXY_CLEANUP_FAILED": {
+    "message": "保存失败；临时导入的代理仍保留在节点库，请检查后手动移除"
+  },
+  "error_NATIVE_BINDING_ID": {
+    "message": "线路绑定标识不正确"
+  },
+  "error_NATIVE_BINDING_UNKNOWN": {
+    "message": "线路绑定不存在。"
+  },
+  "error_NATIVE_BUTTON_NAME": {
+    "message": "按钮名称需要 1–128 个可见字符"
+  },
+  "error_NATIVE_CATALOG_UNREADABLE": {
+    "message": "v2rayN 配置暂时无法读取"
+  },
+  "error_NATIVE_CORE_MISSING": {
+    "message": "缺少 Xray 核心，请安装配套本地组件"
+  },
+  "error_NATIVE_GROUP_ID_COLLISION": {
+    "message": "分组标识冲突"
+  },
+  "error_NATIVE_GROUP_ORDER": {
+    "message": "分组排序格式不正确"
+  },
+  "error_NATIVE_NODE_ID_COLLISION": {
+    "message": "节点标识冲突"
+  },
+  "error_NATIVE_PREDECESSOR_AMBIGUOUS": {
+    "message": "前置代理名称不存在或重名，请在前置设置中指定节点"
+  },
+  "error_NATIVE_PREDECESSOR_CYCLE": {
+    "message": "前置代理循环或超过六层"
+  },
+  "error_NATIVE_PREDECESSOR_INVALID": {
+    "message": "请选择有效前置代理"
+  },
+  "error_NATIVE_PREDECESSOR_MISSING": {
+    "message": "指定的前置代理已不存在，请重新选择"
+  },
+  "error_NATIVE_PREDECESSOR_SETTINGS": {
+    "message": "前置代理设置无效"
+  },
+  "error_NATIVE_ROUTE_INVALID": {
+    "message": "请选择有效线路"
+  },
+  "error_NATIVE_ROUTE_MISSING": {
+    "message": "线路已不存在，请重新选择"
+  },
+  "error_NATIVE_ROUTE_PORTS": {
+    "message": "线路端口记录不正确"
+  },
+  "error_NATIVE_ROUTE_UNAVAILABLE": {
+    "message": "所选线路不可用，请查看技术详情。"
+  },
+  "error_NATIVE_SETTINGS_FORMAT": {
+    "message": "设置格式不正确"
+  },
+  "error_NATIVE_SETTINGS_REVISION": {
+    "message": "设置版本不正确"
+  },
+  "error_NATIVE_SUCCESSOR_UNSUPPORTED": {
+    "message": "此分组包含尚未支持的后置代理"
+  },
+  "error_NATIVE_UNSUPPORTED_CUSTOM": {
+    "message": "当前增强版尚未适配自定义出站配置"
+  },
+  "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
+    "message": "当前增强版尚未适配 Hysteria2（不是本机缺少核心）"
+  },
+  "error_NATIVE_UNSUPPORTED_TUIC": {
+    "message": "当前增强版尚未接入 TUIC 所需的 sing-box 核心"
+  },
+  "error_NATIVE_UNSUPPORTED_TYPE": {
+    "message": "当前增强版尚未适配此线路类型"
+  },
+  "error_NATIVE_V2RAYN_PORT": {
+    "message": "v2rayN 本地端口无效"
+  },
+  "error_NATIVE_V2RAYN_UNAVAILABLE": {
+    "message": "未找到 v2rayN，请选择导入节点"
+  },
+  "error_NETWORK_FAILED": {
+    "message": "网络请求失败，请检查连接后重试。"
+  },
+  "error_NETWORK_TEST_FAILED": {
+    "message": "网络检测失败，请查看技术详情。"
+  },
+  "error_NODE_LIMIT": {
+    "message": "此次操作将超过节点数量上限，请移除不用的节点后重试。"
+  },
+  "error_NODE_MAPPING_INCOMPLETE": {
+    "message": "节点映射不完整"
+  },
+  "error_NODE_NOT_FOUND": {
+    "message": "所选节点已不存在，请重新选择。"
+  },
+  "error_NOT_DUE": {
+    "message": "尚未到下次自动更新时间。"
+  },
+  "error_PAC_ENTRY_REQUIRED": {
+    "message": "请输入包含 FindProxyForURL 的 PAC 源码"
+  },
+  "error_PAC_FUNCTION_REQUIRED": {
+    "message": "请在顶层定义同步 FindProxyForURL 函数、函数变量或函数赋值"
+  },
+  "error_PAC_PARSER_UNAVAILABLE": {
+    "message": "本地 PAC 解析器不可用，请重新安装扩展"
+  },
+  "error_PAC_RULE_TARGET_UNSUPPORTED": {
+    "message": "自动规则不能引用内联 PAC 情景"
+  },
+  "error_PAC_SOURCE_LIMIT": {
+    "message": "请输入不超过 {limit} 字符的 PAC 源码"
+  },
+  "error_PAC_SYNTAX_INVALID": {
+    "message": "PAC 语法无效"
+  },
+  "error_PAC_SYNTAX_LOCATION": {
+    "message": "PAC 语法无效（第 {line} 行，第 {column} 列）"
+  },
+  "error_PARTIAL_TRANSFER": {
+    "message": "测试传输提前结束，未收到全部数据。"
+  },
+  "error_PRIVATE_DIRECTORY_FAILED": {
+    "message": "无法保护私有测试目录，测试已停止。"
+  },
+  "error_PRIVATE_TARGET": {
+    "message": "订阅请求不允许访问私有地址或本地地址。"
+  },
+  "error_PROFILE_NOT_FOUND": {
+    "message": "情景不存在"
+  },
+  "error_PROFILE_REFERENCE_CYCLE": {
+    "message": "情景存在循环引用"
+  },
+  "error_PROFILE_REFERENCE_DEPTH": {
+    "message": "自动规则引用层数不能超过 {limit} 层"
+  },
+  "error_PROFILE_REFERENCE_MISSING": {
+    "message": "引用的情景不存在：{name}"
+  },
+  "error_PROFILE_SAVE_RESTORE_FAILED": {
+    "message": "保存失败且线路恢复未完成"
+  },
+  "error_PROXY_AUTH_REQUIRED": {
+    "message": "订阅代理需要身份验证，此请求无法提供所需凭据。"
+  },
+  "error_PROXY_CONTROL_UNAVAILABLE": {
+    "message": "其他扩展或策略控制了代理设置"
+  },
+  "error_PROXY_DNS_REQUIRED": {
+    "message": "V2Route 的 SOCKS5 DNS 使用代理端解析"
+  },
+  "error_PROXY_FAILED": {
+    "message": "代理连接失败，请检查所选线路。"
+  },
+  "error_PROXY_PROFILE_REQUIRED": {
+    "message": "请选择代理情景"
+  },
+  "error_PROXY_ROLLBACK_REFUSED": {
+    "message": "浏览器拒绝恢复代理"
+  },
+  "error_PROXY_SETTING_REFUSED": {
+    "message": "浏览器拒绝代理设置"
+  },
+  "error_PROXY_UNAVAILABLE": {
+    "message": "所选代理不可用，请检查当前线路。"
+  },
+  "error_PROXY_USERNAME_REQUIRED": {
+    "message": "请输入代理用户名"
+  },
+  "error_RECOVERY_BINDINGS_LIMIT": {
+    "message": "一次恢复的节点绑定超过 {limit} 个，请分别打开并保存所引用的情景"
+  },
+  "error_REDIRECT_LIMIT": {
+    "message": "订阅重定向次数过多，请检查链接。"
+  },
+  "error_REFERENCED_PROFILE_DELETE": {
+    "message": "该情景被自动规则引用"
+  },
+  "error_REMOTE_PAC_UNSUPPORTED": {
+    "message": "请粘贴 PAC 源码；不支持远程 PAC 地址"
+  },
+  "error_ROUTE_PORT_UNAVAILABLE": {
+    "message": "未分配有效端口"
+  },
+  "error_ROUTE_RECOVERY_RESTORE_FAILED": {
+    "message": "线路恢复失败且原绑定尚未完全还原"
+  },
+  "error_ROUTE_REVISION_CONFLICT": {
+    "message": "线路已在其他窗口修改，请先刷新"
+  },
+  "error_ROUTE_SAVE_ROLLBACK_FAILED": {
+    "message": "线路保存失败且恢复未完成"
+  },
+  "error_ROUTE_UNAVAILABLE": {
+    "message": "测试线路不可用，请检查节点与前置设置。"
+  },
+  "error_RULE_BINDING_MISSING": {
+    "message": "节点规则绑定缺失，请重新打开并保存自动规则情景：{name}"
+  },
+  "error_RULE_NODES_LIMIT": {
+    "message": "自动规则最多支持 {limit} 个不同节点"
+  },
+  "error_RULE_NODE_CHANGED": {
+    "message": "节点规则不可用或已更改，请恢复节点或重新选择节点并保存：{name}"
+  },
+  "error_RULE_PATH_CONFLICT": {
+    "message": "节点规则链路冲突"
+  },
+  "error_RULE_PATTERNS_LIMIT": {
+    "message": "自动规则的匹配项总数不能超过 {limit} 个"
+  },
+  "error_RULE_PORT_UNAVAILABLE": {
+    "message": "节点规则端口不可用"
+  },
+  "error_RULE_REVISION_CONFLICT": {
+    "message": "节点规则已在其他窗口修改，请先刷新"
+  },
+  "error_SELECTED_NODE_UNAVAILABLE": {
+    "message": "所选节点不可用，请恢复节点或选择其他节点"
+  },
+  "error_SOCKS_FAILED": {
+    "message": "无法建立 SOCKS 连接。"
+  },
+  "error_STARTUP_FALLBACK_REFUSED": {
+    "message": "浏览器拒绝启动时的备用代理设置。"
+  },
+  "error_SUBSCRIPTION_CHANGED": {
+    "message": "更新期间订阅已被修改，请刷新后重试。"
+  },
+  "error_SUBSCRIPTION_HTTP_STATUS": {
+    "message": "订阅服务器返回 HTTP {status}。"
+  },
+  "error_SUBSCRIPTION_LIMIT": {
+    "message": "订阅数量已达上限，请移除不用的订阅后重试。"
+  },
+  "error_SUBSCRIPTION_NOT_FOUND": {
+    "message": "所选订阅已不存在。"
+  },
+  "error_SYSTEM_PROXY_SNAPSHOT_UNAVAILABLE": {
+    "message": "已应用的系统代理快照不可用。"
+  },
+  "error_SYSTEM_PROXY_TIMEOUT": {
+    "message": "读取系统代理超时"
+  },
+  "error_SYSTEM_PROXY_UNAVAILABLE": {
+    "message": "系统代理不可用，请查看技术详情。"
+  },
+  "error_TIMEOUT": {
+    "message": "请求超时，请检查连接后重试。"
+  },
+  "error_TLS_DOWNGRADE": {
+    "message": "订阅从 HTTPS 重定向到 HTTP，已被阻止。"
+  },
+  "error_TLS_FAILED": {
+    "message": "无法验证安全连接，请检查服务器和证书。"
+  },
+  "error_UNSAFE_TEMP_PATH": {
+    "message": "临时测试目录不安全，测试已停止。"
+  },
+  "error_UNSUPPORTED_LIBRARY_REQUEST": {
+    "message": "不支持的节点库请求"
+  },
+  "error_UNSUPPORTED_PROFILE_TYPE": {
+    "message": "不支持的情景类型"
+  },
+  "error_UNSUPPORTED_REQUEST": {
+    "message": "不支持的请求"
+  },
+  "error_UNSUPPORTED_RULE_CONDITION": {
+    "message": "仅支持主机和网址通配规则"
+  },
+  "error_UPDATE_FAILED": {
+    "message": "订阅更新失败，已保留原有节点。"
+  },
+  "error_VALIDATION_FAILED": {
+    "message": "订阅内容未通过验证，已保留原有节点。"
+  },
+  "nativeUnnamedNode": {
+    "message": "未命名节点"
+  },
+  "nativeProtocolCustom": {
+    "message": "自定义"
+  },
+  "nativeProtocolOutbound": {
+    "message": "自定义出站"
+  },
+  "nativeProtocolGroup": {
+    "message": "策略组"
+  },
+  "nativeProtocolChain": {
+    "message": "代理链"
+  },
+  "nativeProtocolUnknown": {
+    "message": "未适配类型"
+  },
+  "languageLoadFailed": {
+    "message": "无法加载所选语言，请重试。"
+  },
+  "invalidBackupJSON": {
+    "message": "备份不是有效的 JSON 文件。"
+  },
+  "noticeBodyLanguages": {
+    "message": "完整政策正文提供英文和简体中文版本。"
+  },
+  "policyRules": {
+    "message": "指定代理策略"
+  },
+  "policyPriority": {
+    "message": "匹配顺序：不代理的地址 → 首条匹配的策略 → 默认线路。"
+  },
+  "policyDirectHelp": {
+    "message": "未匹配策略的地址直接连接。扩展菜单中的直连按钮也使用这些策略。"
+  },
+  "policySystemHelp": {
+    "message": "未匹配规则的地址使用系统代理。扩展菜单中的系统代理按钮也使用这些规则。"
+  },
+  "policyEmpty": {
+    "message": "尚未添加策略，使用默认线路。"
+  },
+  "policyAddressHelp": {
+    "message": "支持域名、泛域名、IP 或 IP:端口。IP 规则匹配网址中的 IP，不查询域名解析结果。"
+  },
+  "policyMoveUp": {
+    "message": "上移策略"
+  },
+  "policyMoveDown": {
+    "message": "下移策略"
+  }
+}

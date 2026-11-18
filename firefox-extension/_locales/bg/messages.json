@@ -1,0 +1,2150 @@
+{
+  "ruleTargetUnavailable": {
+    "message": "Недостъпна цел"
+  },
+  "rulePatternPlaceholder": {
+    "message": "example.com, *.example.org, 192.0.2.1:8443"
+  },
+  "rulePatternHelp": {
+    "message": "Разделяйте адресите със запетаи. Всеки URL шаблон е на отделен ред. PAC може да не вижда HTTPS пътищата."
+  },
+  "defaultChoice_direct": {
+    "message": "Свързване без прокси"
+  },
+  "defaultChoice_system": {
+    "message": "Използване на системни настройки за прокси"
+  },
+  "defaultChoice_node": {
+    "message": "Използвайте избрания възел на този профил"
+  },
+  "defaultChoice_manual": {
+    "message": "Използвайте прокси настройките на този профил"
+  },
+  "defaultChoice_auto": {
+    "message": "Прилагане на правилата за маршрутизиране на този профил"
+  },
+  "nlHttpsLatency": {
+    "message": "HTTPS отговор"
+  },
+  "nlLatencyMethod": {
+    "message": "Cloudflare · Минимум два отговора · Повторно използване на връзката, когато е налице"
+  },
+  "nlLatencyFast": {
+    "message": "Бързо"
+  },
+  "nlLatencyModerate": {
+    "message": "Умерено"
+  },
+  "nlLatencySlow": {
+    "message": "Бавно"
+  },
+  "nlSortName": {
+    "message": "Име"
+  },
+  "nlSortLatency": {
+    "message": "Латентност: ниска към висока"
+  },
+  "nlSortDownload": {
+    "message": "Изтегляне: високо към ниско"
+  },
+  "nlSortUpload": {
+    "message": "Качване: високо към ниско"
+  },
+  "nlSingle": {
+    "message": "Единичен възел"
+  },
+  "nlGroupBatch": {
+    "message": "Група / партида"
+  },
+  "nlTestScope": {
+    "message": "Обхват на теста"
+  },
+  "nlCurrentNode": {
+    "message": "Избран възел"
+  },
+  "nlCurrentGroup": {
+    "message": "Избрана група"
+  },
+  "nlChooseNode": {
+    "message": "Изберете възел от списъка"
+  },
+  "nlStart": {
+    "message": "Стартирайте теста"
+  },
+  "nlService": {
+    "message": "Тестова услуга"
+  },
+  "nlMeasured": {
+    "message": "измерено"
+  },
+  "nlMeanLatency": {
+    "message": "Средна латентност"
+  },
+  "nlGroupBySource": {
+    "message": "По група източници"
+  },
+  "nlPreviousPage": {
+    "message": "Предишна страница"
+  },
+  "nlNextPage": {
+    "message": "Следваща страница"
+  },
+  "nlName": {
+    "message": "Име"
+  },
+  "nlEdit": {
+    "message": "Редактиране"
+  },
+  "nlStop": {
+    "message": "Спри"
+  },
+  "nlConfirm": {
+    "message": "Потвърдете"
+  },
+  "nlAllNodes": {
+    "message": "Всички възли"
+  },
+  "nlNodeResults": {
+    "message": "Резултати от възли"
+  },
+  "nlTestCenter": {
+    "message": "Тестови център"
+  },
+  "nlNewGroup": {
+    "message": "Нова група"
+  },
+  "nlRenameGroup": {
+    "message": "Преименуване на група"
+  },
+  "nlRemoveGroup": {
+    "message": "Премахване на групата"
+  },
+  "nlRemoveGroupHelp": {
+    "message": "Запазете всеки възел и абонамент и ги преместете в Импортирани възли."
+  },
+  "nlNode": {
+    "message": "Възел"
+  },
+  "nlStatus": {
+    "message": "Състояние"
+  },
+  "nlActions": {
+    "message": "Действия"
+  },
+  "nlSort": {
+    "message": "Сортирайте само тази таблица"
+  },
+  "nlSelected": {
+    "message": "избрано"
+  },
+  "nlTestNode": {
+    "message": "Тест"
+  },
+  "nlProfileShort": {
+    "message": "Профил"
+  },
+  "nlQuick": {
+    "message": "Бързо забавяне"
+  },
+  "nlFull": {
+    "message": "Изтегляне + качване"
+  },
+  "nlTraffic": {
+    "message": "Размер на тестовите данни"
+  },
+  "nlConcurrency": {
+    "message": "Едновременни възли"
+  },
+  "nlTrafficFullOnly": {
+    "message": "Използва се за тестове за изтегляне и качване"
+  },
+  "nlTestMode": {
+    "message": "Тестови режим"
+  },
+  "nlBudget": {
+    "message": "Максимален полезен трафик"
+  },
+  "nlViaGroup": {
+    "message": "Чрез групово предварително прокси"
+  },
+  "nlTestSelected": {
+    "message": "Избран тест"
+  },
+  "nlTestVisible": {
+    "message": "Тествайте показани възли"
+  },
+  "nlTestAll": {
+    "message": "Тествайте всички възли"
+  },
+  "nlTestGroup": {
+    "message": "Тестова група възли"
+  },
+  "nlProgress": {
+    "message": "Напредък на измерването"
+  },
+  "nlReady": {
+    "message": "Изберете възли за стартиране. Не е проведен тест."
+  },
+  "nlStarting": {
+    "message": "Стартиране на изолирано измерване..."
+  },
+  "nlQueued": {
+    "message": "На опашка"
+  },
+  "nlRunning": {
+    "message": "Тестване"
+  },
+  "nlStopping": {
+    "message": "Спиране..."
+  },
+  "nlComplete": {
+    "message": "Завършен"
+  },
+  "nlFailed": {
+    "message": "Неуспешно"
+  },
+  "nlStopped": {
+    "message": "Спряно"
+  },
+  "nlPartial": {
+    "message": "Частично"
+  },
+  "nlUntested": {
+    "message": "Не е тествано"
+  },
+  "nlSucceeded": {
+    "message": "премина"
+  },
+  "nlMeasureDisconnected": {
+    "message": "Връзката за измерване приключи. Непълните стойности не са крайни резултати."
+  },
+  "nlUpgrade": {
+    "message": "Актуализирайте локалния Companion, за да управлявате групи и абонаменти. Съществуващите възли остават налични."
+  },
+  "nlOperationFailed": {
+    "message": "Операцията не можа да бъде завършена. Опитайте отново."
+  },
+  "nlEditSubscription": {
+    "message": "Редактиране на абонамент"
+  },
+  "nlPasteContent": {
+    "message": "Прокси връзки / съдържание"
+  },
+  "nlSubscriptionURL": {
+    "message": "Абонамент URL"
+  },
+  "nlKeepURL": {
+    "message": "Оставете празно, за да запазите запазените URL"
+  },
+  "nlConnectionPolicy": {
+    "message": "Актуализиране на връзката"
+  },
+  "nlProxyFirst": {
+    "message": "Първо прокси, след това директно при повреда"
+  },
+  "nlProxyOnly": {
+    "message": "Само прокси"
+  },
+  "nlDirectOnly": {
+    "message": "Само директно"
+  },
+  "nlProxyFirstHelp": {
+    "message": "Прокси първо спира след успешно извличане. Директно се опитва само ако опитът за прокси е неуспешен."
+  },
+  "nlAutoUpdate": {
+    "message": "Активирайте автоматичните актуализации"
+  },
+  "nlInterval": {
+    "message": "Интервал на актуализиране (минути)"
+  },
+  "nlDestinationGroup": {
+    "message": "Група местоназначение"
+  },
+  "nlSubscriptionOwnGroup": {
+    "message": "Нова група..."
+  },
+  "nlNameGroup": {
+    "message": "Име (група)"
+  },
+  "nlCustomGroup": {
+    "message": "Персонализирана група"
+  },
+  "nlNameRequired": {
+    "message": "Въведете име."
+  },
+  "nlContentRequired": {
+    "message": "Поставете прокси връзки или абонаментно съдържание."
+  },
+  "nlGroupRequired": {
+    "message": "Изберете целева група."
+  },
+  "nlURLRequired": {
+    "message": "Въведете HTTP(S) абонамент URL без потребителско име или парола."
+  },
+  "nlIntervalInvalid": {
+    "message": "Въведете цяло число от 5 до 43200 минути."
+  },
+  "folderTitle": {
+    "message": "Изберете папка v2rayN."
+  },
+  "folderHint": {
+    "message": "Изберете папка, след което я приложете със Запазване на настройките за връзка."
+  },
+  "folderPath": {
+    "message": "Пълен път на локална папка"
+  },
+  "folderGo": {
+    "message": "Отворете"
+  },
+  "folderUp": {
+    "message": "Нагоре"
+  },
+  "folderDrives": {
+    "message": "Дискове"
+  },
+  "folderCurrent": {
+    "message": "Текущ път"
+  },
+  "folderChoose": {
+    "message": "Използвайте тази папка"
+  },
+  "folderList": {
+    "message": "Папки"
+  },
+  "folderTruncated": {
+    "message": "Обявата е ограничена. Въведете пълния път по-горе, за да отворите непоказана папка."
+  },
+  "folderReady": {
+    "message": "v2rayN намерени файлове. Използвайте тази папка, за да потвърдите конфигурацията."
+  },
+  "folderInvalid": {
+    "message": "Изберете папката, съдържаща guiConfigs, guiNConfig.json и guiNDB.db."
+  },
+  "folderSelectDrive": {
+    "message": "Изберете локално устройство или въведете пълен път на папката."
+  },
+  "folderEmpty": {
+    "message": "Няма видими подпапки."
+  },
+  "folderUnavailable": {
+    "message": "Не може да разглежда тази папка. Проверете неговия път и достъп. Ако Companion е по-стар, първо го актуализирайте."
+  },
+  "folderValidating": {
+    "message": "Потвърждаване на v2rayN конфигурация..."
+  },
+  "folderInvalidConfig": {
+    "message": "Конфигурацията или базата данни v2rayN е непълна или невалидна. Изберете друга папка."
+  },
+  "copyPath": {
+    "message": "Копиране на пътя"
+  },
+  "pathCopyHint": {
+    "message": "Копирайте пътя в момента в това поле."
+  },
+  "preMode": {
+    "message": "Предпрокси режим"
+  },
+  "preNode": {
+    "message": "Предпрокси възел"
+  },
+  "preIntro": {
+    "message": "Използвайте груповата верига, пропуснете я или изберете предварително прокси за този профил."
+  },
+  "healthLabel": {
+    "message": "Текущо състояние на връзката"
+  },
+  "healthOk": {
+    "message": "Нормално"
+  },
+  "healthError": {
+    "message": "Ненормално"
+  },
+  "healthChecking": {
+    "message": "Проверка"
+  },
+  "healthUnknown": {
+    "message": "Непотвърдено"
+  },
+  "autoSystemHelp": {
+    "message": "Системните правила изискват компонента Windows и снимка на настройките за фиксиран прокси. Приложете отново след промени. PAC/WPAD не се поддържат; Система без правила използва собствените настройки на браузъра."
+  },
+  "backgroundUnavailable": {
+    "message": "Фонът на разширението не е наличен."
+  },
+  "backgroundNoResponse": {
+    "message": "Фонът не реагира."
+  },
+  "backupTooLarge": {
+    "message": "Архивът надвишава 5 MB."
+  },
+  "proxyUsername": {
+    "message": "Потребителско име"
+  },
+  "proxyPassword": {
+    "message": "Парола"
+  },
+  "proxyAuthHelp": {
+    "message": "По избор. Удостоверените проксита се свързват чрез Companion. Идентификационните данни се съхраняват в тази конфигурация на браузъра и Companion и се включват в експортирания профил."
+  },
+  "proxyAuthSocks4": {
+    "message": "SOCKS4 не поддържа това удостоверяване на потребителско име/парола; използвайте HTTP(S) или SOCKS5."
+  },
+  "importExamples": {
+    "message": "Примери за форматиране"
+  },
+  "ipCopying": {
+    "message": "Копиране..."
+  },
+  "netDnsUnavailable": {
+    "message": "Адресът на сървъра не можа да бъде разрешен навреме. Проверете адреса на хоста или IP и опитайте отново."
+  },
+  "netCurrentTarget": {
+    "message": "Избрана крайна точка на прокси"
+  },
+  "netCustomTarget": {
+    "message": "Персонализиран сървър"
+  },
+  "netHost": {
+    "message": "Хост или IP адрес"
+  },
+  "netPort": {
+    "message": "TCP порт"
+  },
+  "netHostRequired": {
+    "message": "Въведете сървърен хост или IP адрес."
+  },
+  "netCurrentUnavailable": {
+    "message": "Изберете възел или ръчен прокси профил или въведете персонализирана цел."
+  },
+  "netInvalidTarget": {
+    "message": "Въведете валиден диагностичен хост и порт."
+  },
+  "netIpv6PingUnavailable": {
+    "message": "IPv6 ICMP не е наличен; използвайте TCPing."
+  },
+  "preNeedsFix": {
+    "message": "Изберете валидно предварително прокси или без предварително прокси, преди да запазите."
+  },
+  "preConfigure": {
+    "message": "Конфигуриране на пре-прокси"
+  },
+  "preFollowInvalid": {
+    "message": "Follow v2rayN не приема персонализирано предварително прокси."
+  },
+  "followChainHelp": {
+    "message": "Follow използва маршрута и прокси веригата, които вече са активни в v2rayN."
+  },
+  "netTitle": {
+    "message": "Тестове за връзка"
+  },
+  "ipTestDetails": {
+    "message": "Подробности за теста"
+  },
+  "netTarget": {
+    "message": "Пинг / TCPing цел"
+  },
+  "netDownload": {
+    "message": "Изтегляне на тест"
+  },
+  "netPartial": {
+    "message": "Частична проба"
+  },
+  "netComplete": {
+    "message": "Пробата е завършена"
+  },
+  "netDirect": {
+    "message": "Системна мрежа"
+  },
+  "netUnreachable": {
+    "message": "Няма отговор/неуспешно"
+  },
+  "netAverage": {
+    "message": "Средно"
+  },
+  "predecessor": {
+    "message": "Предпрокси"
+  },
+  "preInherit": {
+    "message": "Използвайте груповата верига v2rayN."
+  },
+  "preNone": {
+    "message": "Без предварително прокси"
+  },
+  "preSpecific": {
+    "message": "Изберете възел"
+  },
+  "preHelp": {
+    "message": "Отнася се за този профил. Използвайте груповата верига v2rayN, без предварително прокси или конкретен възел. Follow v2rayN използва съществуващата си верига."
+  },
+  "preSelectRequired": {
+    "message": "Изберете предпрокси възел или изберете Група по подразбиране / Няма."
+  },
+  "ipPing0Permission": {
+    "message": "Разрешаване на Ping0 достъп до уебсайта за зареждане на публичния отчет."
+  },
+  "ipPublicChallenge": {
+    "message": "Уебсайтът изисква проверка. Отворете страницата Ping0, за да я завършите и да видите резултата."
+  },
+  "ipPublicReport": {
+    "message": "Ping0 публичен доклад"
+  },
+  "ipPublicSource": {
+    "message": "Източник: Ping0 публична страница"
+  },
+  "ipPublicOriginal": {
+    "message": "Ping0 доклад"
+  },
+  "ipPublicPartial": {
+    "message": "Показани са само полетата, предоставени на публичната страница, на техния оригинален език. Класификациите и споделените потребителски оценки са от Ping0."
+  },
+  "setupTitle": {
+    "message": "Свържи Proxy V2Route"
+  },
+  "setupIntro": {
+    "message": "Инсталирайте придружителя Windows, за да използвате v2rayN маршрути или ваши собствени импортирани възли."
+  },
+  "setupStepOne": {
+    "message": "Извлечете съответстващия пълен пакет Windows в постоянна папка."
+  },
+  "setupStepTwo": {
+    "message": "Отворете V2Route-Setup.exe и щракнете върху Инсталиране."
+  },
+  "setupStepThree": {
+    "message": "Върнете се тук и проверете връзката. Изберете папката v2rayN, ако е необходимо."
+  },
+  "setupCheck": {
+    "message": "Проверете връзката"
+  },
+  "downloadCompanion": {
+    "message": "Ръководство за инсталиране ↗"
+  },
+  "setupDownloadNote": {
+    "message": "Използвайте съответстващия локален пакет Windows или следвайте ръководството, за да го изградите от текущия източник."
+  },
+  "chooseFolder": {
+    "message": "Изберете v2rayN папка..."
+  },
+  "rescanDone": {
+    "message": "Локалните възли са сканирани повторно"
+  },
+  "grouping": {
+    "message": "Групови възли"
+  },
+  "groupByCountry": {
+    "message": "По държави"
+  },
+  "unknownCountry": {
+    "message": "Друго / Неизвестно"
+  },
+  "ungrouped": {
+    "message": "Негрупиран"
+  },
+  "adjustNodeFilters": {
+    "message": "Опитайте друга група, източник или търсене, или покажете скрити възли."
+  },
+  "rescanLocal": {
+    "message": "Повторно сканиране на v2rayN възли"
+  },
+  "showHidden": {
+    "message": "Показване на скритите възли"
+  },
+  "hideNode": {
+    "message": "Скрий се"
+  },
+  "restoreNode": {
+    "message": "Възстановяване"
+  },
+  "hiddenNode": {
+    "message": "Скрит"
+  },
+  "hideNodeHelp": {
+    "message": "Скриване само от библиотеката с възли на този браузър. v2rayN и съществуващите профили са непроменени."
+  },
+  "ipContextTimeout": {
+    "message": "Четенето на текущия профил изтече. Опитайте отново."
+  },
+  "ipStaleResult": {
+    "message": "Текущият профил е променен. Този резултат може да е остарял; проверете отново."
+  },
+  "ip_tools": {
+    "message": "IP Инструменти"
+  },
+  "ipIntro": {
+    "message": "Текущ изход IP и публичен отчет."
+  },
+  "ipCurrentProfile": {
+    "message": "Текущ профил на браузъра"
+  },
+  "ipRouteCaution": {
+    "message": "Автоматичните правила и PAC могат да използват различни маршрути за различни дестинации. Тази проверка описва само собствената си заявка."
+  },
+  "ipDisclosure": {
+    "message": "Изход от автоматична проверка IP · Доклад от Ping0"
+  },
+  "ipMethod": {
+    "message": "Проверка на адрес"
+  },
+  "ipDual": {
+    "message": "IPv4 / IPv6"
+  },
+  "ipCheck": {
+    "message": "Проверете отново"
+  },
+  "ipChecking": {
+    "message": "Проверка..."
+  },
+  "ipDualHelp": {
+    "message": "IPv4 / IPv6 връща фамилията адреси, използвана за тази заявка, а не и двата адреса."
+  },
+  "ipDurationHelp": {
+    "message": "Изминало HTTP време за заявка включва време за отговор на мрежата и услугата. Това не е ICMP ping или тест за честотна лента."
+  },
+  "ipCopy": {
+    "message": "Копие IP"
+  },
+  "ipCopied": {
+    "message": "Копирано"
+  },
+  "ipCopyFailed": {
+    "message": "Не можа да се копира. Изберете адреса и го копирайте ръчно."
+  },
+  "ipNoResult": {
+    "message": "Все още няма проверка"
+  },
+  "ipContextUnknown": {
+    "message": "Профилът не е наличен"
+  },
+  "ipTimeout": {
+    "message": "Времето за изчакване на проверката изтече. Опитайте отново или използвайте друг маршрут."
+  },
+  "ipCancelled": {
+    "message": "Чекът е анулиран"
+  },
+  "ipNetwork": {
+    "message": "Не можа да се достигне ipify. Проверете връзката и опитайте отново."
+  },
+  "ipHttp": {
+    "message": "Услугата IP не прие заявката. Опитайте отново по-късно."
+  },
+  "ipInvalid": {
+    "message": "Услугата IP върна невалиден отговор."
+  },
+  "ipFailure": {
+    "message": "Проверката е неуспешна. Опитайте отново."
+  },
+  "ipStale": {
+    "message": "Настройките на вашия прокси сървър се промениха по време на проверката. Старият резултат беше отхвърлен; проверете отново."
+  },
+  "ipQuality": {
+    "message": "Външни инструменти"
+  },
+  "ipQualityPrivacy": {
+    "message": "Инструментите работят само при щракване. Доставчиците получават нормални данни за връзка. Проверките на уебсайтове изпращат заявки без идентификационни данни след Старт. Затварящи спирания локални тестове; външните раздели се управляват от браузъра."
+  },
+  "ipReport": {
+    "message": "Копиране на редактиран доклад"
+  },
+  "ipReportCopied": {
+    "message": "Редактираният доклад е копиран; не са включени IP или имена на профили."
+  },
+  "popupSelected": {
+    "message": "Избрано"
+  },
+  "popupFooter": {
+    "message": "v2rayN & профили на възли"
+  },
+  "subtitle": {
+    "message": "Независими маршрути на браузъра"
+  },
+  "profiles": {
+    "message": "Профили"
+  },
+  "nodes": {
+    "message": "Библиотека на възли"
+  },
+  "settings": {
+    "message": "Настройки"
+  },
+  "connected": {
+    "message": "Активен профил"
+  },
+  "noProfile": {
+    "message": "Система по подразбиране"
+  },
+  "newProfile": {
+    "message": "Нов профил"
+  },
+  "searchProfiles": {
+    "message": "Търсене на профили"
+  },
+  "direct": {
+    "message": "Директна мрежа"
+  },
+  "system": {
+    "message": "Системен прокси"
+  },
+  "follow": {
+    "message": "Следвайте v2rayN"
+  },
+  "manual": {
+    "message": "Ръчен прокси"
+  },
+  "auto": {
+    "message": "Автоматично превключване"
+  },
+  "pac": {
+    "message": "PAC скрипт"
+  },
+  "virtual": {
+    "message": "Виртуален профил"
+  },
+  "profileIntro": {
+    "message": "Изберете маршрут на браузър, без да превключвате основния маршрут на v2rayN."
+  },
+  "nodesIntro": {
+    "message": "Преглед на локални v2rayN възли и вашите импортирани връзки."
+  },
+  "settingsIntro": {
+    "message": "Местна връзка, език и външен вид."
+  },
+  "refresh": {
+    "message": "Опресняване"
+  },
+  "create": {
+    "message": "Създаване на профил"
+  },
+  "name": {
+    "message": "Име на профила"
+  },
+  "type": {
+    "message": "Тип профил"
+  },
+  "save": {
+    "message": "Запазване"
+  },
+  "saved": {
+    "message": "Запазено"
+  },
+  "saving": {
+    "message": "Запазване..."
+  },
+  "cancel": {
+    "message": "Отказ"
+  },
+  "close": {
+    "message": "Затвори"
+  },
+  "apply": {
+    "message": "Използвайте този профил"
+  },
+  "applied": {
+    "message": "Профилът е сменен"
+  },
+  "active": {
+    "message": "Активен"
+  },
+  "delete": {
+    "message": "Изтриване"
+  },
+  "remove": {
+    "message": "Премахване"
+  },
+  "rename": {
+    "message": "Преименуване"
+  },
+  "route": {
+    "message": "Прокси маршрут"
+  },
+  "selectRoute": {
+    "message": "Изберете маршрут"
+  },
+  "routeMissing": {
+    "message": "Маршрутът не е наличен — изберете друг"
+  },
+  "chain": {
+    "message": "Свързваща верига"
+  },
+  "connection": {
+    "message": "Локална връзка"
+  },
+  "proxy": {
+    "message": "Прокси сървър"
+  },
+  "address": {
+    "message": "Адрес"
+  },
+  "port": {
+    "message": "Порт"
+  },
+  "scheme": {
+    "message": "Протокол"
+  },
+  "proxyDns": {
+    "message": "SOCKS5 DNS разрешава чрез проксито."
+  },
+  "connectedIdle": {
+    "message": "Свързан · Неактивен"
+  },
+  "bypass": {
+    "message": "Списък за байпас"
+  },
+  "bypassHelp": {
+    "message": "Един домейн, шаблон, IP адрес или IP:порт на ред."
+  },
+  "advanced": {
+    "message": "Разширени опции"
+  },
+  "searchRoutes": {
+    "message": "Търсете групи или възли"
+  },
+  "selectGroup": {
+    "message": "Изберете група"
+  },
+  "empty": {
+    "message": "Няма съответстващи елементи"
+  },
+  "unavailable": {
+    "message": "Не е наличен"
+  },
+  "groupHint": {
+    "message": "Задръжте група за 250 ms, след което плъзнете. Alt + ↑ / ↓ също пренарежда. Промените се запазват автоматично."
+  },
+  "searchSort": {
+    "message": "Изчистване на търсенето преди сортиране."
+  },
+  "dragHint": {
+    "message": "Преместете нагоре или надолу, след което пуснете, за да запазите. Esc отменя."
+  },
+  "orderSaved": {
+    "message": "Груповата поръчка е запазена"
+  },
+  "orderCancelled": {
+    "message": "Пренареждането е отменено"
+  },
+  "loading": {
+    "message": "Зареждане..."
+  },
+  "reading": {
+    "message": "Четене на локални възли..."
+  },
+  "nativeMissing": {
+    "message": "Локалният компонент не е свързан"
+  },
+  "retry": {
+    "message": "Опитайте отново"
+  },
+  "nativeHelp": {
+    "message": "Маршрутите на възли изискват придружителя Windows. Вече са налични директни, системни и ръчни проксита."
+  },
+  "imported": {
+    "message": "Внесен"
+  },
+  "v2rayn": {
+    "message": "v2rayN"
+  },
+  "allSources": {
+    "message": "Всички източници"
+  },
+  "importNodes": {
+    "message": "Импортиране на проксита"
+  },
+  "importTitle": {
+    "message": "Импортиране на проксита"
+  },
+  "importHelp": {
+    "message": "Поставете прокси връзки, изходящи JSON или Base64 абонамент. SOCKS поддържа обикновени или Base64 идентификационни данни. Адресите без схеми използват HTTP."
+  },
+  "importPrivacy": {
+    "message": "Подробностите за прокси сървъра и идентификационните данни се предават на локалния Proxy V2Route компаньон за съхранение и връзка с избрания от вас прокси сървър. Разработчикът не получава тази информация."
+  },
+  "import": {
+    "message": "Импортиране на профили"
+  },
+  "nodeCount": {
+    "message": "възли"
+  },
+  "source": {
+    "message": "Източник"
+  },
+  "protocol": {
+    "message": "Протокол"
+  },
+  "useNode": {
+    "message": "Създаване на профил"
+  },
+  "removeNode": {
+    "message": "Премахване на импортирания възел?"
+  },
+  "removeNodeHelp": {
+    "message": "Профилите, използващи този възел, трябва да бъдат преназначени, преди той да може да бъде премахнат."
+  },
+  "deleteProfile": {
+    "message": "Изтриване на този профил?"
+  },
+  "deleteProfileHelp": {
+    "message": "Това премахва само този профил на браузъра. Импортираните възли и конфигурацията v2rayN се запазват."
+  },
+  "language": {
+    "message": "Език"
+  },
+  "automatic": {
+    "message": "Браузър по подразбиране"
+  },
+  "theme": {
+    "message": "Външен вид"
+  },
+  "light": {
+    "message": "Светлина"
+  },
+  "dark": {
+    "message": "Тъмно"
+  },
+  "switchToEnglish": {
+    "message": "Превключване на английски"
+  },
+  "switchToChinese": {
+    "message": "Преминете към опростен китайски"
+  },
+  "switchToLight": {
+    "message": "Преминете към светъл външен вид"
+  },
+  "switchToDark": {
+    "message": "Превключване към тъмен външен вид"
+  },
+  "localComponent": {
+    "message": "Придружаващ компонент"
+  },
+  "ready": {
+    "message": "Свързан"
+  },
+  "stopped": {
+    "message": "Не работи"
+  },
+  "discovery": {
+    "message": "v2rayN откриване"
+  },
+  "rootPath": {
+    "message": "v2rayN папка"
+  },
+  "corePath": {
+    "message": "Прокси ядро изпълним файл"
+  },
+  "optionalPath": {
+    "message": "Оставете празно за автоматично откриване"
+  },
+  "pathsHelp": {
+    "message": "v2rayN се открива автоматично; изберете неговата папка, ако е необходимо. Импортираните възли използват включеното ядро."
+  },
+  "savePaths": {
+    "message": "Запазване на настройките за връзка"
+  },
+  "privacy": {
+    "message": "Настройките се съхраняват локално"
+  },
+  "privacyText": {
+    "message": "Връзките към възлите и идентификационните данни остават в локалния компаньон. Трафикът на браузъра преминава през избрания от вас прокси към целевите уебсайтове; разработчикът не го получава."
+  },
+  "privacyDetails": {
+    "message": "Поверителност и поток от данни"
+  },
+  "export": {
+    "message": "Експортиране на профили"
+  },
+  "about": {
+    "message": "Относно Proxy V2Route"
+  },
+  "aboutText": {
+    "message": "Изберете маршрут на браузъра, без да превключвате основния маршрут на v2rayN. Маршрутите на възлите използват придружителя Windows и вашите собствени възли."
+  },
+  "licenses": {
+    "message": "Бележки с отворен код"
+  },
+  "version": {
+    "message": "Версия"
+  },
+  "fieldRequired": {
+    "message": "Въведете име на профил."
+  },
+  "profileExists": {
+    "message": "Вече съществува профил с това име."
+  },
+  "ruleHelp": {
+    "message": "Разделете домейните в един ред със запетаи. Първият съответстващ ред печели. Поддържане на наличния маршрут по подразбиране."
+  },
+  "rules": {
+    "message": "Правила за маршрутизиране"
+  },
+  "pattern": {
+    "message": "Модел на хост"
+  },
+  "target": {
+    "message": "Цел на правилото"
+  },
+  "addRule": {
+    "message": "Добавяне на правило"
+  },
+  "defaultRoute": {
+    "message": "Профил по подразбиране"
+  },
+  "pacHelp": {
+    "message": "Поставете доверен PAC източник, съдържащ FindProxyForURL. Този скрипт решава как се насочват заявките към уебсайта."
+  },
+  "pacUrl": {
+    "message": "PAC URL"
+  },
+  "pacScript": {
+    "message": "PAC скрипт"
+  },
+  "noSelection": {
+    "message": "Изберете профил или създайте такъв."
+  },
+  "details": {
+    "message": "Подробности"
+  },
+  "noNodes": {
+    "message": "Все още няма възли"
+  },
+  "noNodesHelp": {
+    "message": "Свържете v2rayN или импортирайте прокси връзки, JSON или абонамент, за да започнете."
+  },
+  "openSettings": {
+    "message": "Отворете настройките"
+  },
+  "proxySettings": {
+    "message": "Настройки на прокси"
+  },
+  "switching": {
+    "message": "Превключване..."
+  },
+  "updatedElsewhere": {
+    "message": "Този профил е променен в друг прозорец. Отворете го отново, преди да го запазите."
+  },
+  "choose": {
+    "message": "Изберете"
+  },
+  "popupIntro": {
+    "message": "Връзка:"
+  },
+  "invalidPort": {
+    "message": "Въведете порт от 1 до 65535."
+  },
+  "externalControl": {
+    "message": "Друго разширение или политика контролира проксито на браузъра."
+  },
+  "noNativeRoute": {
+    "message": "Свържете локалния компонент, преди да създадете профил на възел."
+  },
+  "reload": {
+    "message": "Презареждане"
+  },
+  "rulesError": {
+    "message": "Всяко правило се нуждае от шаблон и цел."
+  },
+  "backupDone": {
+    "message": "Експортирани профили на браузъра"
+  },
+  "managed": {
+    "message": "Управляван възел"
+  },
+  "netRegion": {
+    "message": "Целева област"
+  },
+  "netNodeArea": {
+    "message": "Прокси възел"
+  },
+  "netChina": {
+    "message": "Континентален Китай"
+  },
+  "netGlobal": {
+    "message": "Глобален"
+  },
+  "netAli": {
+    "message": "AliDNS"
+  },
+  "netTencent": {
+    "message": "DNSPod"
+  },
+  "netStartHelp": {
+    "message": "Изберете цел, след което започнете тест на живо."
+  },
+  "netConsole": {
+    "message": "Диагностика на живо"
+  },
+  "netStop": {
+    "message": "Спри"
+  },
+  "netRunning": {
+    "message": "Бягане"
+  },
+  "netStopped": {
+    "message": "Спряно"
+  },
+  "netSent": {
+    "message": "Изпратено"
+  },
+  "netLoss": {
+    "message": "Загуба"
+  },
+  "netAverageShort": {
+    "message": "Ср"
+  },
+  "netLogClear": {
+    "message": "Ясно"
+  },
+  "netFinishing": {
+    "message": "Предишната сонда завършва..."
+  },
+  "netRound": {
+    "message": "Кръгъл"
+  },
+  "netDestination": {
+    "message": "Дестинация"
+  },
+  "netHop": {
+    "message": "Хоп"
+  },
+  "netAddress": {
+    "message": "IP адрес"
+  },
+  "netLast": {
+    "message": "Последно"
+  },
+  "netConsoleHelp": {
+    "message": "Ping / TCPing / MTR използва системната мрежа, а не прокси веригата. Липсващите ICMP отговори не доказват загуба на трафик. Изтеглянето използва маршрута на браузъра и избраното ограничение на размера. Тестовете спират, когато напуснете или скриете тази страница."
+  },
+  "netDirectShort": {
+    "message": "Системна мрежа"
+  },
+  "netIcmpShort": {
+    "message": "Няма ICMP отговор"
+  },
+  "netProbeError": {
+    "message": "Локална грешка на сондата"
+  },
+  "netNoDestination": {
+    "message": "Дестинацията не е достигната"
+  },
+  "deleteActive": {
+    "message": "Превключване към системата и изтриване"
+  },
+  "deleteActiveHelp": {
+    "message": "Този профил е активен. Изтриването му превключва браузъра към системен прокси."
+  },
+  "netDownloadSize": {
+    "message": "Размер за изтегляне"
+  },
+  "netReceived": {
+    "message": "Получено"
+  },
+  "netBest": {
+    "message": "Най-добре"
+  },
+  "netWorst": {
+    "message": "Най-лошото"
+  },
+  "netStdDev": {
+    "message": "Стандартно отклонение"
+  },
+  "netLocation": {
+    "message": "Местоположение"
+  },
+  "toolWall": {
+    "message": "Проверка за блокиране на домейн"
+  },
+  "toolSites": {
+    "message": "Популярни уебсайтове"
+  },
+  "toolGlobal": {
+    "message": "Глобална диагностика"
+  },
+  "toolFast": {
+    "message": "Скорост на Netflix"
+  },
+  "toolSpeed": {
+    "message": "Тест за скорост"
+  },
+  "toolStart": {
+    "message": "Старт"
+  },
+  "toolReady": {
+    "message": "Готов"
+  },
+  "toolResponded": {
+    "message": "Отговори"
+  },
+  "toolNoResponse": {
+    "message": "Непотвърдено"
+  },
+  "toolCacheUnsupported": {
+    "message": "Този браузър не може да изчисти кеша по сайт; страницата е презаредена."
+  },
+  "toolCacheFailed": {
+    "message": "Почистването на кеша не завърши. Затворете и опитайте отново."
+  },
+  "toolClose": {
+    "message": "Затвори"
+  },
+  "toolReload": {
+    "message": "Презареждане"
+  },
+  "toolLoading": {
+    "message": "Зареждане..."
+  },
+  "toolFrameError": {
+    "message": "Не можа да се зареди. Опитайте презареждане."
+  },
+  "toolSiteHelp": {
+    "message": "Достъпност само в браузъра. Това не потвърждава акаунт или регионален достъп."
+  },
+  "toolFallback": {
+    "message": "Тест за скорост на архивиране"
+  },
+  "toolFullscreen": {
+    "message": "Цял екран"
+  },
+  "toolRestore": {
+    "message": "Изход от цял екран"
+  },
+  "ipReadFailed": {
+    "message": "Неуспешно четене. 👉"
+  },
+  "ipViewSource": {
+    "message": "Вижте сайта източник"
+  },
+  "toolDownloadError": {
+    "message": "Не можа да се достигне до сървъра за изтегляне. Опитайте отново."
+  },
+  "toolAccess": {
+    "message": "Разрешаване на достъп до сайта"
+  },
+  "toolPermission": {
+    "message": "Разрешете достъп до този сайт за съвместимост на вградената сесия."
+  },
+  "toolAsia": {
+    "message": "Азия"
+  },
+  "toolEurope": {
+    "message": "Европа"
+  },
+  "toolAmerica": {
+    "message": "Северна Америка"
+  },
+  "toolGlobalHelp": {
+    "message": "Предварително попълва изхода на браузъра IP. Изберете континентален Китай или друг регион, за да сравните пътищата; Start изпраща показаната цел до до три Globalping сонди."
+  },
+  "toolServiceError": {
+    "message": "Тестовата услуга не е налична. Опитайте отново."
+  },
+  "popupOrderHelp": {
+    "message": "Задръжте и плъзнете, за да пренаредите. Alt+клавишите със стрелки също преместват този профил."
+  },
+  "popupOrderSaved": {
+    "message": "Поръчката е запазена"
+  },
+  "toolGroupIP": {
+    "message": "IP тестове"
+  },
+  "toolGroupWeb": {
+    "message": "Тестове на уебсайтове"
+  },
+  "toolGroupSpeed": {
+    "message": "Скорост"
+  },
+  "toolCurrentIP": {
+    "message": "Текущ изход IP"
+  },
+  "toolCurrentIPLoading": {
+    "message": "Зареждане на текущия изход IP…"
+  },
+  "toolCurrentIPFailed": {
+    "message": "Не можах да прочета текущия IP. Въведете цел."
+  },
+  "speedMode": {
+    "message": "Тестови режим"
+  },
+  "speedBoth": {
+    "message": "Изтегляне + качване"
+  },
+  "speedDownload": {
+    "message": "Изтегляне"
+  },
+  "speedUpload": {
+    "message": "Качване"
+  },
+  "speedLatency": {
+    "message": "HTTP латентност"
+  },
+  "speedBudget": {
+    "message": "{n} MiB на фаза · {total} MiB общо, плюс малки проби за латентност."
+  },
+  "siteCategory": {
+    "message": "Категория на уебсайта"
+  },
+  "siteAll": {
+    "message": "Всички уебсайтове"
+  },
+  "siteAI": {
+    "message": "AI"
+  },
+  "siteDevelopment": {
+    "message": "Разработка"
+  },
+  "siteVideo": {
+    "message": "Видео / музика"
+  },
+  "siteSocial": {
+    "message": "Социални"
+  },
+  "siteDomestic": {
+    "message": "Континентални услуги"
+  },
+  "siteServices": {
+    "message": "Общи услуги"
+  },
+  "globalMethod": {
+    "message": "Тип измерване"
+  },
+  "localPort": {
+    "message": "Локален порт:"
+  },
+  "chainChooseNode": {
+    "message": "Изберете прокси възел"
+  },
+  "chainTitle": {
+    "message": "Прокси верига"
+  },
+  "chainSelectExit": {
+    "message": "Изберете конкретен изходен възел по-долу, за да запазите или тествате тази персонализирана верига. Follow v2rayN се управлява от v2rayN."
+  },
+  "chainSelectExitShort": {
+    "message": "Изберете изходен възел"
+  },
+  "chainAdd": {
+    "message": "+ Добавяне на прокси слой"
+  },
+  "chainTest": {
+    "message": "Тестова верига"
+  },
+  "chainMode": {
+    "message": "Верижен режим"
+  },
+  "chainBase": {
+    "message": "Базов прокси"
+  },
+  "chainExit": {
+    "message": "Изход от прокси"
+  },
+  "chainEgress": {
+    "message": "Верижен изход"
+  },
+  "chainExitBadge": {
+    "message": "Изход IP"
+  },
+  "chainEntry": {
+    "message": "Влизане във веригата"
+  },
+  "chainTransit": {
+    "message": "Мостов възел"
+  },
+  "chainUntested": {
+    "message": "Не е тествано"
+  },
+  "chainMissing": {
+    "message": "Недостъпен възел"
+  },
+  "chainUnresolved": {
+    "message": "Не може да разреши наследената верига. Поправете настройките на предшественика или изберете персонализирана верига."
+  },
+  "chainUpgrade": {
+    "message": "Актуализирайте локалния придружител, за да активирате подредени вериги."
+  },
+  "chainBusy": {
+    "message": "Друг верижен тест се изпълнява"
+  },
+  "chainOK": {
+    "message": "Достижимо"
+  },
+  "chainFailed": {
+    "message": "Неуспешен скок в този тест"
+  },
+  "chainBlocked": {
+    "message": "Не е тествано · предишният скок е неуспешен"
+  },
+  "chainFailureHelp": {
+    "message": "Този скок или пътят към него не премина. По-късно хмелът не е тестван."
+  },
+  "chainAllOK": {
+    "message": "Всички кумулативни пътища отговориха"
+  },
+  "chainStopping": {
+    "message": "Спиране след текущата ограничена сонда..."
+  },
+  "globalWorld": {
+    "message": "По целия свят"
+  },
+  "globalUnavailable": {
+    "message": "Целта или регионът не е наличен. Проверете целта или изберете друг регион."
+  },
+  "globalRateLimited": {
+    "message": "Лимитът на скоростта на услугата бе достигнат. Опитайте отново по-късно."
+  },
+  "globalNoResults": {
+    "message": "Услугата не върна резултати от сондата. Опитайте друг регион."
+  },
+  "globalProbeFailed": {
+    "message": "Сондата е неуспешна"
+  },
+  "globalProbeOffline": {
+    "message": "Сонда офлайн"
+  },
+  "globalIcmpCaution": {
+    "message": "Липсващите ICMP отговора сами по себе си не доказват блокиране. Сравнете континентални и задгранични пътеки и други видове тестове."
+  },
+  "speedRealtime": {
+    "message": "Скорост на живо"
+  },
+  "speedAverage": {
+    "message": "Средна скорост"
+  },
+  "ipToolsBrief": {
+    "message": "Резултатите от трети страни са за справка."
+  },
+  "ipReportBrief": {
+    "message": "Резултатите варират според изхода IP и са за справка."
+  },
+  "toolPingPe": {
+    "message": "IP блокираща проверка"
+  },
+  "toolTargetIP": {
+    "message": "Цел IP"
+  },
+  "toolOpenPingPe": {
+    "message": "Отворен официален тест"
+  },
+  "toolInvalidIP": {
+    "message": "Въведете валиден IPv4 или IPv6 адрес."
+  },
+  "toolInvalidPort": {
+    "message": "Въведете TCP порт от 1 до 65535."
+  },
+  "toolExternalFailed": {
+    "message": "Не може да се отвори уебсайтът. Опитайте отново."
+  },
+  "ipBrowserReading": {
+    "message": "Четене Ping0 през браузъра..."
+  },
+  "ipVerifyBrowser": {
+    "message": "Отворете страницата за проверка"
+  },
+  "policyCenter": {
+    "message": "Поверителност, декларация и ЧЗВ"
+  },
+  "policyCenterIntro": {
+    "message": "Локална обработка на данни, тестови ограничения и общи отговори."
+  },
+  "policyPrivacyTitle": {
+    "message": "Политика за поверителност"
+  },
+  "policyPrivacySummary": {
+    "message": "Профилите и идентификационните данни остават на това устройство. Проверките и диагностиката на изскачащи прозорци се свързват с посочените от тях доставчици. Без реклама или поведенчески анализи."
+  },
+  "policyDeclarationTitle": {
+    "message": "Декларация за употреба и измерване"
+  },
+  "policyDeclarationSummary": {
+    "message": "Това разширение е локален мениджър на маршрути, а не прокси или VPN доставчик. Измерванията са референтни проби, повлияни от условията на мрежата, проксито и доставчика."
+  },
+  "policyFaqTitle": {
+    "message": "ЧЗВ"
+  },
+  "policyFaqSummary": {
+    "message": "Придружителят Windows е необходим за локални възли и MTR. Закъснението може да се различава между браузъра, системата и публичните проби. Спрете тест или изчистете локалните данни от Настройки."
+  },
+  "policyDetailsLink": {
+    "message": "Прочетете пълните подробности ↗"
+  },
+  "thirdPartyNotice": {
+    "message": "Бележки с отворен код ↗"
+  },
+  "columnResizeHelp": {
+    "message": "Плъзнете, за да преоразмерите; щракнете двукратно за нулиране; използвайте клавишите със стрелки, за да коригирате"
+  },
+  "columnResize": {
+    "message": "Преоразмеряване на колона"
+  },
+  "typeDescription_node": {
+    "message": "Свързване чрез прокси възел"
+  },
+  "typeDescription_manual": {
+    "message": "Въведете настройките на прокси сървъра ръчно"
+  },
+  "typeDescription_auto": {
+    "message": "Изберете възел с помощта на правила"
+  },
+  "typeDescription_pac": {
+    "message": "Маршрутизирайте трафика, като използвате PAC правила"
+  },
+  "appDescription": {
+    "message": "Прокси маршрути, възли и правила на домейна на браузъра. Маршрутите на възли се нуждаят от Windows придружител."
+  },
+  "core_title": {
+    "message": "Прокси ядро"
+  },
+  "core_checking": {
+    "message": "Проверка на локалния компонент..."
+  },
+  "core_ready": {
+    "message": "Xray е готов"
+  },
+  "core_missing": {
+    "message": "Прокси ядрото липсва"
+  },
+  "core_external": {
+    "message": "Персонализирано ядро: не е потвърдено"
+  },
+  "core_corrupt": {
+    "message": "Xray несъответствие на контролната сума — необходим е ремонт"
+  },
+  "core_unreadable": {
+    "message": "Основният файл не може да бъде проверен"
+  },
+  "core_intro": {
+    "message": "Пълният пакет Windows включва Xray. v2rayN не е задължително."
+  },
+  "core_verify": {
+    "message": "Проверете отново"
+  },
+  "core_install": {
+    "message": "Инсталиране / ремонт на ядро"
+  },
+  "core_installing": {
+    "message": "Изтегляне и проверка..."
+  },
+  "core_done": {
+    "message": "Ядрото е проверено и готово"
+  },
+  "core_help": {
+    "message": "Ремонтът използва фиксирано официално Xray издание и проверява неговата контролна сума. Съществуващите връзки продължават да работят."
+  },
+  "core_absent": {
+    "message": "Инсталирайте локалния компонент веднъж, след което се върнете тук, за да проверите ядрото."
+  },
+  "core_download": {
+    "message": "Ръководство за инсталиране"
+  },
+  "core_absentHelp": {
+    "message": "Използвайте съответстващия пакет Windows или следвайте ръководството, за да го изградите от изходния код, след което изпълнете инсталацията."
+  },
+  "core_failed": {
+    "message": "Основната операция е неуспешна. Опитайте отново или използвайте пълния пакет Windows."
+  },
+  "core_version": {
+    "message": "Версия"
+  },
+  "error_ACTIVE_PROFILE_DELETE": {
+    "message": "Превключете към друг профил, преди да изтриете този"
+  },
+  "error_BACKUP_BINDING_TYPE": {
+    "message": "Само прокси профилите могат да имат обвързвания с маршрути"
+  },
+  "error_BACKUP_FORMAT3_REQUIRED": {
+    "message": "Правилата за възли изискват преносимо резервно копие във формат 3"
+  },
+  "error_BACKUP_INDEPENDENT_PATH_REQUIRED": {
+    "message": "Резервното копие трябва да съдържа независим път от възли"
+  },
+  "error_BACKUP_INTERNAL_BINDINGS": {
+    "message": "Резервното копие съдържа вътрешни обвързвания"
+  },
+  "error_BACKUP_MESSAGE_LIMIT": {
+    "message": "Копието на възлите надвишава ограничението за съобщения на придружаващия компонент"
+  },
+  "error_BACKUP_NODES_INCOMPLETE": {
+    "message": "Непълно резервно копие на възлите"
+  },
+  "error_BACKUP_NODE_MISSING": {
+    "message": "В резервното копие липсва необходим възел"
+  },
+  "error_BACKUP_NODE_PATHS_LIMIT": {
+    "message": "Резервното копие поддържа най-много {limit} пътя от възли"
+  },
+  "error_BACKUP_PATH_INCOMPLETE": {
+    "message": "Непълен път от възли в резервното копие"
+  },
+  "error_BACKUP_PROFILES_LIMIT": {
+    "message": "Резервното копие поддържа най-много {limit} профила"
+  },
+  "error_BACKUP_PROXY_CONFLICT": {
+    "message": "Резервното копие съдържа противоречиви прокси настройки"
+  },
+  "error_BACKUP_SIZE_LIMIT": {
+    "message": "Резервното копие надвишава {limit} MB"
+  },
+  "error_BACKUP_TRANSFER_UNAVAILABLE": {
+    "message": "Актуализирайте или поправете придружаващия компонент, за да прехвърляте резервни копия на възли."
+  },
+  "error_BACKUP_UNUSED_NODES": {
+    "message": "Резервното копие съдържа възли без препратки"
+  },
+  "error_BODY_TOO_LARGE": {
+    "message": "Отговорът на абонамента надвишава разрешения размер."
+  },
+  "error_BROWSER_API_FAILED": {
+    "message": "Операцията на браузъра е неуспешна. Вижте техническите подробности."
+  },
+  "error_BROWSER_PROXY_RESTORE_FAILED": {
+    "message": "Операцията е неуспешна и предишното прокси на браузъра не може да бъде възстановено"
+  },
+  "error_BROWSER_SCHEDULING_UNAVAILABLE": {
+    "message": "Планирането в браузъра не е достъпно."
+  },
+  "error_BUSY": {
+    "message": "Изпълнява се друга операция. Опитайте отново след малко."
+  },
+  "error_CHAIN_PROBE_FAILED": {
+    "message": "Проверката на веригата е неуспешна"
+  },
+  "error_COMPANION_BULK_RELEASE_REQUIRED": {
+    "message": "Актуализирайте локалния придружаващ компонент за безопасно управление на множество правила за възли"
+  },
+  "error_COMPANION_CHAINS_REQUIRED": {
+    "message": "Актуализирайте локалния придружаващ компонент, за да използвате подредени вериги"
+  },
+  "error_COMPANION_MESSAGE_LIMIT": {
+    "message": "Настройките надвишават ограничението за съобщения на придружаващия компонент"
+  },
+  "error_COMPANION_OPERATION_FAILED": {
+    "message": "Операцията на локалния придружаващ компонент е неуспешна. Вижте техническите подробности."
+  },
+  "error_COMPANION_UNAVAILABLE": {
+    "message": "Инсталирайте или поправете придружаващия компонент на V2Route"
+  },
+  "error_CONNECTION_CLOSED": {
+    "message": "Връзката е затворена преди края на теста."
+  },
+  "error_CORE_INSTALL_FAILED": {
+    "message": "Инсталирането на ядрото е неуспешно. Вижте техническите подробности."
+  },
+  "error_CORE_OWNERSHIP_FAILED": {
+    "message": "Изолираното тестово ядро не може да бъде управлявано безопасно. Тестът е спрян."
+  },
+  "error_CORE_START_FAILED": {
+    "message": "Изолираното тестово ядро не може да стартира. Проверете инсталацията на компонента и ядрото."
+  },
+  "error_CORE_START_TIMEOUT": {
+    "message": "Изолираното тестово ядро не е готово навреме."
+  },
+  "error_CORE_STATUS_UNAVAILABLE": {
+    "message": "Състоянието на ядрото не е достъпно. Вижте техническите подробности."
+  },
+  "error_CORE_VALIDATION_FAILED": {
+    "message": "Xray не може да провери импортираните възли. Проверете настройките им и опитайте отново."
+  },
+  "error_DETACH_PORT_CONFLICT": {
+    "message": "Управляваният порт ще бъде освободен. Въведете друго ръчно прокси"
+  },
+  "error_DETACH_PROXY_REQUIRED": {
+    "message": "Въведете заместващото ръчно прокси, преди да премахнете обвързването"
+  },
+  "error_DNS_BUSY": {
+    "message": "DNS търсенето е заето. Опитайте отново след малко."
+  },
+  "error_DNS_FAILED": {
+    "message": "DNS търсенето е неуспешно. Проверете адреса и мрежовата връзка."
+  },
+  "error_ENCODING_UNSUPPORTED": {
+    "message": "Абонаментът използва неподдържано кодиране на съдържанието."
+  },
+  "error_FIREFOX_PRIVATE_ACCESS_REQUIRED": {
+    "message": "Разрешете V2Route в частни прозорци от подробностите за разширението, преди да променяте прокси настройките"
+  },
+  "error_FOLDER_UNAVAILABLE": {
+    "message": "Папката е недостъпна; проверете пътя, правата за достъп и версията на компонента"
+  },
+  "error_GROUP_LIMIT": {
+    "message": "Достигнат е лимитът за групи. Премахнете неизползвана група и опитайте отново."
+  },
+  "error_GROUP_NOT_EDITABLE": {
+    "message": "Тази група от източника не може да бъде редактирана тук."
+  },
+  "error_GROUP_NOT_FOUND": {
+    "message": "Избраната група вече не съществува. Изберете друга група."
+  },
+  "error_HTTP_ENCODING": {
+    "message": "Тестовият сървър върна неподдържано кодиране."
+  },
+  "error_HTTP_LENGTH": {
+    "message": "Размерът на тестовия отговор не съответства на заявения размер."
+  },
+  "error_HTTP_RESPONSE_TOO_LARGE": {
+    "message": "Тестовият отговор надвишава разрешения размер."
+  },
+  "error_HTTP_STATUS": {
+    "message": "Тестовият сървър върна HTTP статус за неуспех."
+  },
+  "error_IMPORTED_PROXY_MISSING": {
+    "message": "Придружаващият компонент не върна импортираното прокси"
+  },
+  "error_IMPORTED_RULE_PATH_CONFLICT": {
+    "message": "Импортираните възли водят до противоречиви пътища на правилата"
+  },
+  "error_IMPORT_CLEANUP_FAILED": {
+    "message": "Импортирането е неуспешно; някои временни възли или портове не могат да бъдат освободени. Съществуващите профили са запазени"
+  },
+  "error_IMPORT_PROFILE_NAME_CONFLICT": {
+    "message": "Дублирано или невалидно име на профил"
+  },
+  "error_INCOMPLETE_RESPONSE": {
+    "message": "Отговорът на абонамента е непълен. Опитайте отново."
+  },
+  "error_INVALID_BACKUP": {
+    "message": "Невалидно резервно копие на V2Route"
+  },
+  "error_INVALID_BACKUP_NODE": {
+    "message": "Невалиден или дублиран възел в резервното копие"
+  },
+  "error_INVALID_BACKUP_NODES": {
+    "message": "Невалидни възли в резервното копие"
+  },
+  "error_INVALID_BACKUP_PATH": {
+    "message": "Невалиден път в резервното копие"
+  },
+  "error_INVALID_BYPASS_ENTRY": {
+    "message": "Невалиден запис за заобикаляне на прокси"
+  },
+  "error_INVALID_BYPASS_LIST": {
+    "message": "Невалиден списък за заобикаляне на прокси"
+  },
+  "error_INVALID_CHAIN": {
+    "message": "Невалидна подредена верига"
+  },
+  "error_INVALID_CHAIN_PROBE": {
+    "message": "Невалидна проверка на веригата"
+  },
+  "error_INVALID_COMPANION_RESPONSE": {
+    "message": "Локалният придружаващ компонент върна невалиден отговор. Актуализирайте го или го поправете."
+  },
+  "error_INVALID_CONTENT": {
+    "message": "Отговорът на абонамента не съдържа валидно съдържание."
+  },
+  "error_INVALID_DOMAIN_PATTERNS": {
+    "message": "Разделете шаблоните за домейни със запетаи; поставете всеки URL на отделен ред"
+  },
+  "error_INVALID_ENCODING": {
+    "message": "Отговорът на абонамента не е валиден UTF-8 текст."
+  },
+  "error_INVALID_FOLDER_REQUEST": {
+    "message": "Невалидна заявка за папка"
+  },
+  "error_INVALID_GROUP_ACTION": {
+    "message": "Това действие с група не се поддържа."
+  },
+  "error_INVALID_HOP_INDEX": {
+    "message": "Невалиден индекс на преход"
+  },
+  "error_INVALID_LEGACY_PREDECESSOR": {
+    "message": "Невалидно предходно прокси в стария формат"
+  },
+  "error_INVALID_LIBRARY_COMMAND": {
+    "message": "Тази команда за библиотеката с възли не се поддържа."
+  },
+  "error_INVALID_LIBRARY_REQUEST": {
+    "message": "Невалидна заявка към библиотеката"
+  },
+  "error_INVALID_NAME": {
+    "message": "Въведете име с 1–128 видими знака без контролни знаци."
+  },
+  "error_INVALID_NETWORK_TEST": {
+    "message": "Невалиден мрежов тест"
+  },
+  "error_INVALID_NODE_IMPORT_RESPONSE": {
+    "message": "Невалиден отговор при импортиране на възли"
+  },
+  "error_INVALID_PREDECESSOR": {
+    "message": "Невалидно предходно прокси за този маршрут"
+  },
+  "error_INVALID_PROFILE_NAME": {
+    "message": "Невалидно име на профил"
+  },
+  "error_INVALID_PROFILE_REFERENCE": {
+    "message": "Невалидна препратка към профил"
+  },
+  "error_INVALID_PROXY_AUTH": {
+    "message": "Невалидно удостоверяване за прокси"
+  },
+  "error_INVALID_PROXY_CREDENTIALS": {
+    "message": "Невалидни данни за достъп до прокси"
+  },
+  "error_INVALID_PROXY_ENDPOINT": {
+    "message": "Въведете валиден прокси хост и порт"
+  },
+  "error_INVALID_PROXY_HOST": {
+    "message": "Въведете DNS име или IP адрес без порт, URL, път или заявка"
+  },
+  "error_INVALID_ROUTE": {
+    "message": "Невалиден маршрут"
+  },
+  "error_INVALID_ROUTE_SETTINGS": {
+    "message": "Невалидни настройки на маршрута"
+  },
+  "error_INVALID_RULES": {
+    "message": "Невалидни правила"
+  },
+  "error_INVALID_RULE_TARGET": {
+    "message": "Изберете един валиден възел или профил за всяко правило"
+  },
+  "error_INVALID_SUBSCRIPTION": {
+    "message": "Невалиден абонамент"
+  },
+  "error_INVALID_SUBSCRIPTION_REQUEST": {
+    "message": "Невалидна заявка за абонамент"
+  },
+  "error_INVALID_SUBSCRIPTION_SETTINGS": {
+    "message": "Настройките на абонамента са невалидни. Проверете интервала за обновяване и политиката за свързване."
+  },
+  "error_INVALID_SYSTEM_PROXY_RESPONSE": {
+    "message": "Невалиден отговор от системното прокси; актуализирайте или поправете компонента"
+  },
+  "error_INVALID_TRANSPORT": {
+    "message": "Настройките за свързване на абонамента са невалидни."
+  },
+  "error_INVALID_URL": {
+    "message": "Въведете валиден HTTP(S) URL на абонамент без потребителско име или парола."
+  },
+  "error_LIBRARY_CHANGED": {
+    "message": "Библиотеката с възли е променена в друг прозорец. Обновете я и опитайте отново."
+  },
+  "error_MANUAL_CHAIN_UNSUPPORTED": {
+    "message": "Ръчните проксита не приемат верига от възли"
+  },
+  "error_MANUAL_PROXY_CLEANUP_FAILED": {
+    "message": "Запазването е неуспешно; временно импортирано прокси остава в библиотеката с възли"
+  },
+  "error_NATIVE_BINDING_ID": {
+    "message": "Невалиден идентификатор на обвързване с маршрут."
+  },
+  "error_NATIVE_BINDING_UNKNOWN": {
+    "message": "Обвързването с маршрута не съществува."
+  },
+  "error_NATIVE_BUTTON_NAME": {
+    "message": "Името на бутона трябва да съдържа 1–128 видими знака."
+  },
+  "error_NATIVE_CATALOG_UNREADABLE": {
+    "message": "Конфигурацията на v2rayN не може да бъде прочетена."
+  },
+  "error_NATIVE_CORE_MISSING": {
+    "message": "Xray не е достъпен. Инсталирайте пакета на придружаващия компонент."
+  },
+  "error_NATIVE_GROUP_ID_COLLISION": {
+    "message": "Идентификаторите на групи са в конфликт."
+  },
+  "error_NATIVE_GROUP_ORDER": {
+    "message": "Невалиден ред на групите."
+  },
+  "error_NATIVE_NODE_ID_COLLISION": {
+    "message": "Идентификаторите на възли са в конфликт."
+  },
+  "error_NATIVE_PREDECESSOR_AMBIGUOUS": {
+    "message": "Името на предходното прокси липсва или е дублирано. Изберете конкретен предходен възел."
+  },
+  "error_NATIVE_PREDECESSOR_CYCLE": {
+    "message": "Веригата от предходни възли съдържа цикъл или надвишава шест възела."
+  },
+  "error_NATIVE_PREDECESSOR_INVALID": {
+    "message": "Изберете валидно предходно прокси."
+  },
+  "error_NATIVE_PREDECESSOR_MISSING": {
+    "message": "Избраното предходно прокси вече не съществува. Изберете друг възел."
+  },
+  "error_NATIVE_PREDECESSOR_SETTINGS": {
+    "message": "Невалидни настройки на предходното прокси."
+  },
+  "error_NATIVE_ROUTE_INVALID": {
+    "message": "Изберете валиден маршрут."
+  },
+  "error_NATIVE_ROUTE_MISSING": {
+    "message": "Този маршрут вече не съществува. Изберете друг маршрут."
+  },
+  "error_NATIVE_ROUTE_PORTS": {
+    "message": "Невалидни назначения на портове за маршрутите."
+  },
+  "error_NATIVE_ROUTE_UNAVAILABLE": {
+    "message": "Избраният маршрут не е достъпен. Вижте техническите подробности."
+  },
+  "error_NATIVE_SETTINGS_FORMAT": {
+    "message": "Невалиден формат на настройките."
+  },
+  "error_NATIVE_SETTINGS_REVISION": {
+    "message": "Невалидна ревизия на настройките."
+  },
+  "error_NATIVE_SUCCESSOR_UNSUPPORTED": {
+    "message": "Тази група използва неподдържано следващо прокси."
+  },
+  "error_NATIVE_UNSUPPORTED_CUSTOM": {
+    "message": "Тази версия не поддържа персонализирани изходящи конфигурации."
+  },
+  "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
+    "message": "Тази версия не поддържа Hysteria2."
+  },
+  "error_NATIVE_UNSUPPORTED_TUIC": {
+    "message": "Тази версия не включва ядрото sing-box, необходимо за TUIC."
+  },
+  "error_NATIVE_UNSUPPORTED_TYPE": {
+    "message": "Този тип маршрут не се поддържа."
+  },
+  "error_NATIVE_V2RAYN_PORT": {
+    "message": "Локалният порт на v2rayN е невалиден."
+  },
+  "error_NATIVE_V2RAYN_UNAVAILABLE": {
+    "message": "v2rayN не е достъпен. Изберете импортиран възел."
+  },
+  "error_NETWORK_FAILED": {
+    "message": "Мрежовата заявка е неуспешна. Проверете връзката и опитайте отново."
+  },
+  "error_NETWORK_TEST_FAILED": {
+    "message": "Мрежовата диагностика е неуспешна. Вижте техническите подробности."
+  },
+  "error_NODE_LIMIT": {
+    "message": "Операцията би надвишила лимита за възли. Премахнете неизползваните възли и опитайте отново."
+  },
+  "error_NODE_MAPPING_INCOMPLETE": {
+    "message": "Съпоставянето на възлите е непълно"
+  },
+  "error_NODE_NOT_FOUND": {
+    "message": "Избраният възел вече не съществува. Изберете друг възел."
+  },
+  "error_NOT_DUE": {
+    "message": "Времето за следващото планирано обновяване още не е настъпило."
+  },
+  "error_PAC_ENTRY_REQUIRED": {
+    "message": "Въведете PAC код с FindProxyForURL"
+  },
+  "error_PAC_FUNCTION_REQUIRED": {
+    "message": "Дефинирайте синхронна функция FindProxyForURL на най-горно ниво, променлива с функция или присвояване на функция"
+  },
+  "error_PAC_PARSER_UNAVAILABLE": {
+    "message": "Включеният PAC анализатор не е достъпен; преинсталирайте разширението"
+  },
+  "error_PAC_RULE_TARGET_UNSUPPORTED": {
+    "message": "Автоматичните правила не могат да насочват към профил с вграден PAC"
+  },
+  "error_PAC_SOURCE_LIMIT": {
+    "message": "Въведете PAC код с най-много {limit} знака"
+  },
+  "error_PAC_SYNTAX_INVALID": {
+    "message": "Невалиден PAC синтаксис"
+  },
+  "error_PAC_SYNTAX_LOCATION": {
+    "message": "Невалиден PAC синтаксис на ред {line}, колона {column}"
+  },
+  "error_PARTIAL_TRANSFER": {
+    "message": "Тестовото прехвърляне приключи преди получаването на всички данни."
+  },
+  "error_PRIVATE_DIRECTORY_FAILED": {
+    "message": "Частната тестова папка не може да бъде защитена. Тестът е спрян."
+  },
+  "error_PRIVATE_TARGET": {
+    "message": "Заявки за абонамент към частни или локални адреси не са разрешени."
+  },
+  "error_PROFILE_NOT_FOUND": {
+    "message": "Профилът не е намерен"
+  },
+  "error_PROFILE_REFERENCE_CYCLE": {
+    "message": "Циклични препратки между профили"
+  },
+  "error_PROFILE_REFERENCE_DEPTH": {
+    "message": "Автоматичните правила надвишават максималната дълбочина {limit}"
+  },
+  "error_PROFILE_REFERENCE_MISSING": {
+    "message": "Посоченият профил не съществува: {name}"
+  },
+  "error_PROFILE_SAVE_RESTORE_FAILED": {
+    "message": "Запазването е неуспешно и възстановяването на маршрута трябва да се провери"
+  },
+  "error_PROXY_AUTH_REQUIRED": {
+    "message": "Проксито за абонамента изисква удостоверяване, което тази заявка не може да предостави."
+  },
+  "error_PROXY_CONTROL_UNAVAILABLE": {
+    "message": "Друго разширение или политика управлява проксито"
+  },
+  "error_PROXY_DNS_REQUIRED": {
+    "message": "Във V2Route DNS за SOCKS5 се разрешава през проксито"
+  },
+  "error_PROXY_FAILED": {
+    "message": "Връзката с проксито е неуспешна. Проверете избрания маршрут."
+  },
+  "error_PROXY_PROFILE_REQUIRED": {
+    "message": "Изберете прокси профил"
+  },
+  "error_PROXY_ROLLBACK_REFUSED": {
+    "message": "Браузърът отказа връщане на проксито към предишното състояние"
+  },
+  "error_PROXY_SETTING_REFUSED": {
+    "message": "Браузърът отказа прокси настройката"
+  },
+  "error_PROXY_UNAVAILABLE": {
+    "message": "Избраното прокси не е достъпно. Проверете текущия маршрут."
+  },
+  "error_PROXY_USERNAME_REQUIRED": {
+    "message": "Въведете потребителско име за проксито"
+  },
+  "error_RECOVERY_BINDINGS_LIMIT": {
+    "message": "Възстановяването поддържа най-много {limit} обвързвания с възли. Отворете и запазете посочените профили поотделно."
+  },
+  "error_REDIRECT_LIMIT": {
+    "message": "Абонаментът е пренасочван твърде много пъти. Проверете неговия URL."
+  },
+  "error_REFERENCED_PROFILE_DELETE": {
+    "message": "Този профил е посочен в автоматично правило"
+  },
+  "error_REMOTE_PAC_UNSUPPORTED": {
+    "message": "Използвайте вграден PAC код; отдалечен PAC не се поддържа"
+  },
+  "error_ROUTE_PORT_UNAVAILABLE": {
+    "message": "Не е разпределен порт"
+  },
+  "error_ROUTE_RECOVERY_RESTORE_FAILED": {
+    "message": "Възстановяването на маршрута е неуспешно и трябва да се провери"
+  },
+  "error_ROUTE_REVISION_CONFLICT": {
+    "message": "Маршрутът е променен в друг прозорец. Първо обновете"
+  },
+  "error_ROUTE_SAVE_ROLLBACK_FAILED": {
+    "message": "Запазването на маршрута е неуспешно и връщането към предишното състояние трябва да се провери"
+  },
+  "error_ROUTE_UNAVAILABLE": {
+    "message": "Тестовият маршрут не е достъпен. Проверете възела и настройките на предходното прокси."
+  },
+  "error_RULE_BINDING_MISSING": {
+    "message": "Липсва обвързване за правило на възел. Отворете отново и запазете автоматичния профил: {name}"
+  },
+  "error_RULE_NODES_LIMIT": {
+    "message": "Автоматичните правила поддържат най-много {limit} различни възела"
+  },
+  "error_RULE_NODE_CHANGED": {
+    "message": "Правилото за възела е недостъпно или променено. Възстановете възела или изберете друг и запазете: {name}"
+  },
+  "error_RULE_PATH_CONFLICT": {
+    "message": "Противоречиви пътища на правила за възли"
+  },
+  "error_RULE_PATTERNS_LIMIT": {
+    "message": "Автоматичните правила поддържат общо най-много {limit} шаблона за съвпадение"
+  },
+  "error_RULE_PORT_UNAVAILABLE": {
+    "message": "Портът на правилото за възел е недостъпен"
+  },
+  "error_RULE_REVISION_CONFLICT": {
+    "message": "Правилото за възела е променено в друг прозорец. Първо обновете"
+  },
+  "error_SELECTED_NODE_UNAVAILABLE": {
+    "message": "Избраният възел не е достъпен. Възстановете го или изберете друг възел"
+  },
+  "error_SOCKS_FAILED": {
+    "message": "SOCKS връзката не може да бъде установена."
+  },
+  "error_STARTUP_FALLBACK_REFUSED": {
+    "message": "Браузърът отказа резервното прокси при стартиране."
+  },
+  "error_SUBSCRIPTION_CHANGED": {
+    "message": "Абонаментът е променен по време на обновяването. Обновете изгледа и опитайте отново."
+  },
+  "error_SUBSCRIPTION_HTTP_STATUS": {
+    "message": "Сървърът на абонамента върна HTTP {status}."
+  },
+  "error_SUBSCRIPTION_LIMIT": {
+    "message": "Достигнат е лимитът за абонаменти. Премахнете неизползван абонамент и опитайте отново."
+  },
+  "error_SUBSCRIPTION_NOT_FOUND": {
+    "message": "Избраният абонамент вече не съществува."
+  },
+  "error_SYSTEM_PROXY_SNAPSHOT_UNAVAILABLE": {
+    "message": "Моментното копие на приложеното системно прокси не е достъпно."
+  },
+  "error_SYSTEM_PROXY_TIMEOUT": {
+    "message": "Времето за прочитане на системното прокси изтече"
+  },
+  "error_SYSTEM_PROXY_UNAVAILABLE": {
+    "message": "Системното прокси не е достъпно. Вижте техническите подробности."
+  },
+  "error_TIMEOUT": {
+    "message": "Времето за заявката изтече. Проверете връзката и опитайте отново."
+  },
+  "error_TLS_DOWNGRADE": {
+    "message": "Абонаментът е пренасочен от HTTPS към HTTP и е блокиран."
+  },
+  "error_TLS_FAILED": {
+    "message": "Защитената връзка не може да бъде проверена. Проверете сървъра и сертификата."
+  },
+  "error_UNSAFE_TEMP_PATH": {
+    "message": "Временната тестова папка не е безопасна. Тестът е спрян."
+  },
+  "error_UNSUPPORTED_LIBRARY_REQUEST": {
+    "message": "Неподдържана заявка към библиотеката"
+  },
+  "error_UNSUPPORTED_PROFILE_TYPE": {
+    "message": "Неподдържан тип профил"
+  },
+  "error_UNSUPPORTED_REQUEST": {
+    "message": "Неподдържана заявка"
+  },
+  "error_UNSUPPORTED_RULE_CONDITION": {
+    "message": "Поддържат се само правила с шаблонни знаци за хостове и URL"
+  },
+  "error_UPDATE_FAILED": {
+    "message": "Обновяването на абонамента е неуспешно. Съществуващите възли са запазени."
+  },
+  "error_VALIDATION_FAILED": {
+    "message": "Съдържанието на абонамента не може да бъде проверено. Съществуващите възли са запазени."
+  },
+  "nativeUnnamedNode": {
+    "message": "Възел без име"
+  },
+  "nativeProtocolCustom": {
+    "message": "Персонализиран"
+  },
+  "nativeProtocolOutbound": {
+    "message": "Персонализиран изход"
+  },
+  "nativeProtocolGroup": {
+    "message": "Група политики"
+  },
+  "nativeProtocolChain": {
+    "message": "Прокси верига"
+  },
+  "nativeProtocolUnknown": {
+    "message": "Неподдържан тип"
+  },
+  "languageLoadFailed": {
+    "message": "Избраният език не може да бъде зареден. Опитайте отново."
+  },
+  "invalidBackupJSON": {
+    "message": "Резервното копие не е валиден JSON."
+  },
+  "noticeBodyLanguages": {
+    "message": "Пълният текст на политиката е достъпен на английски и опростен китайски."
+  },
+  "policyRules": {
+    "message": "Правила за прокси маршрутизиране"
+  },
+  "policyPriority": {
+    "message": "Ред: изключени адреси → първо съвпадащо правило → маршрут по подразбиране."
+  },
+  "policyDirectHelp": {
+    "message": "Несъвпадащите адреси се свързват директно. Бутонът за директна връзка също използва тези правила."
+  },
+  "policySystemHelp": {
+    "message": "Несъвпадащите адреси използват системния прокси. Бутонът Система също използва тези правила."
+  },
+  "policyEmpty": {
+    "message": "Няма правила. Използва се маршрутът по подразбиране."
+  },
+  "policyAddressHelp": {
+    "message": "Домейни, шаблони на домейни, IP или IP:порт. IP правилата сравняват IP в URL, не DNS резултатите."
+  },
+  "policyMoveUp": {
+    "message": "Премести правилото нагоре"
+  },
+  "policyMoveDown": {
+    "message": "Премести правилото надолу"
+  }
+}

@@ -1,0 +1,2150 @@
+{
+  "ruleTargetUnavailable": {
+    "message": "Kullanılamayan hedef"
+  },
+  "rulePatternPlaceholder": {
+    "message": "example.com, *.example.org, 192.0.2.1:8443"
+  },
+  "rulePatternHelp": {
+    "message": "Adresleri virgülle ayırın. Her URL kalıbını ayrı satıra yazın. PAC, HTTPS yollarını göremeyebilir."
+  },
+  "defaultChoice_direct": {
+    "message": "Proxy olmadan bağlanın"
+  },
+  "defaultChoice_system": {
+    "message": "Sistem proxy ayarlarını kullan"
+  },
+  "defaultChoice_node": {
+    "message": "Bu profilin seçilen düğümünü kullan"
+  },
+  "defaultChoice_manual": {
+    "message": "Bu profilin proxy ayarlarını kullan"
+  },
+  "defaultChoice_auto": {
+    "message": "Bu profilin yönlendirme kurallarını uygula"
+  },
+  "nlHttpsLatency": {
+    "message": "HTTPS yanıt"
+  },
+  "nlLatencyMethod": {
+    "message": "Cloudflare · Minimum iki yanıt · Mevcut olduğunda bağlantının yeniden kullanılması"
+  },
+  "nlLatencyFast": {
+    "message": "Hızlı"
+  },
+  "nlLatencyModerate": {
+    "message": "Orta"
+  },
+  "nlLatencySlow": {
+    "message": "Yavaş"
+  },
+  "nlSortName": {
+    "message": "Ad"
+  },
+  "nlSortLatency": {
+    "message": "Gecikme: düşükten yükseğe"
+  },
+  "nlSortDownload": {
+    "message": "İndirme: yüksekten düşüğe"
+  },
+  "nlSortUpload": {
+    "message": "Yükleme: yüksekten düşüğe"
+  },
+  "nlSingle": {
+    "message": "Tek düğüm"
+  },
+  "nlGroupBatch": {
+    "message": "Grup / parti"
+  },
+  "nlTestScope": {
+    "message": "Test kapsamı"
+  },
+  "nlCurrentNode": {
+    "message": "Seçilen düğüm"
+  },
+  "nlCurrentGroup": {
+    "message": "Seçilen grup"
+  },
+  "nlChooseNode": {
+    "message": "Listeden bir düğüm seçin"
+  },
+  "nlStart": {
+    "message": "Testi başlat"
+  },
+  "nlService": {
+    "message": "Test hizmeti"
+  },
+  "nlMeasured": {
+    "message": "ölçüldü"
+  },
+  "nlMeanLatency": {
+    "message": "Ortalama gecikme"
+  },
+  "nlGroupBySource": {
+    "message": "Kaynak grubuna göre"
+  },
+  "nlPreviousPage": {
+    "message": "Önceki sayfa"
+  },
+  "nlNextPage": {
+    "message": "Sonraki sayfa"
+  },
+  "nlName": {
+    "message": "Ad"
+  },
+  "nlEdit": {
+    "message": "Düzenle"
+  },
+  "nlStop": {
+    "message": "Durdur"
+  },
+  "nlConfirm": {
+    "message": "Onayla"
+  },
+  "nlAllNodes": {
+    "message": "Tüm düğümler"
+  },
+  "nlNodeResults": {
+    "message": "Düğüm sonuçları"
+  },
+  "nlTestCenter": {
+    "message": "Test merkezi"
+  },
+  "nlNewGroup": {
+    "message": "Yeni grup"
+  },
+  "nlRenameGroup": {
+    "message": "Grubu yeniden adlandır"
+  },
+  "nlRemoveGroup": {
+    "message": "Grubu kaldır"
+  },
+  "nlRemoveGroupHelp": {
+    "message": "Her düğümü ve aboneliği saklayın ve bunları İçe Aktarılan düğümlere taşıyın."
+  },
+  "nlNode": {
+    "message": "Düğüm"
+  },
+  "nlStatus": {
+    "message": "Durum"
+  },
+  "nlActions": {
+    "message": "Eylemler"
+  },
+  "nlSort": {
+    "message": "Yalnızca bu tabloyu sırala"
+  },
+  "nlSelected": {
+    "message": "seçildi"
+  },
+  "nlTestNode": {
+    "message": "Test"
+  },
+  "nlProfileShort": {
+    "message": "Profil"
+  },
+  "nlQuick": {
+    "message": "Hızlı gecikme"
+  },
+  "nlFull": {
+    "message": "İndir + yükle"
+  },
+  "nlTraffic": {
+    "message": "Veri boyutunu test edin"
+  },
+  "nlConcurrency": {
+    "message": "Eşzamanlı düğümler"
+  },
+  "nlTrafficFullOnly": {
+    "message": "İndirme ve yükleme testleri için kullanılır"
+  },
+  "nlTestMode": {
+    "message": "Test modu"
+  },
+  "nlBudget": {
+    "message": "Maksimum yük trafiği"
+  },
+  "nlViaGroup": {
+    "message": "Grup ön proxy'si aracılığıyla"
+  },
+  "nlTestSelected": {
+    "message": "Test seçildi"
+  },
+  "nlTestVisible": {
+    "message": "Gösterilen düğümleri test edin"
+  },
+  "nlTestAll": {
+    "message": "Tüm düğümleri test edin"
+  },
+  "nlTestGroup": {
+    "message": "Test grubu düğümleri"
+  },
+  "nlProgress": {
+    "message": "Ölçüm ilerlemesi"
+  },
+  "nlReady": {
+    "message": "Başlatılacak düğümleri seçin. Hiçbir test çalıştırılmadı."
+  },
+  "nlStarting": {
+    "message": "Yalıtılmış ölçüm başlatılıyor…"
+  },
+  "nlQueued": {
+    "message": "Sıraya alındı"
+  },
+  "nlRunning": {
+    "message": "Test etme"
+  },
+  "nlStopping": {
+    "message": "Durduruluyor…"
+  },
+  "nlComplete": {
+    "message": "Tamamlandı"
+  },
+  "nlFailed": {
+    "message": "Başarısız"
+  },
+  "nlStopped": {
+    "message": "Durduruldu"
+  },
+  "nlPartial": {
+    "message": "Kısmi"
+  },
+  "nlUntested": {
+    "message": "Test edilmedi"
+  },
+  "nlSucceeded": {
+    "message": "geçti"
+  },
+  "nlMeasureDisconnected": {
+    "message": "Ölçüm bağlantısı sona erdi. Eksik değerler nihai sonuç değildir."
+  },
+  "nlUpgrade": {
+    "message": "Grupları ve abonelikleri yönetmek için yerel Yardımcı'yı güncelleyin. Mevcut düğümler kullanılabilir durumda kalır."
+  },
+  "nlOperationFailed": {
+    "message": "İşlem tamamlanamadı. Tekrar deneyin."
+  },
+  "nlEditSubscription": {
+    "message": "Aboneliği düzenle"
+  },
+  "nlPasteContent": {
+    "message": "Proxy bağlantıları / içeriği"
+  },
+  "nlSubscriptionURL": {
+    "message": "Abonelik URL"
+  },
+  "nlKeepURL": {
+    "message": "Kaydedilenleri tutmak için boş bırakın URL"
+  },
+  "nlConnectionPolicy": {
+    "message": "Bağlantıyı güncelle"
+  },
+  "nlProxyFirst": {
+    "message": "Önce proxy, ardından arıza durumunda doğrudan"
+  },
+  "nlProxyOnly": {
+    "message": "Yalnızca proxy"
+  },
+  "nlDirectOnly": {
+    "message": "Yalnızca doğrudan"
+  },
+  "nlProxyFirstHelp": {
+    "message": "Başarılı bir getirme işleminden sonra proxy ilk olarak durur. Doğrudan yalnızca proxy denemesi başarısız olursa denenir."
+  },
+  "nlAutoUpdate": {
+    "message": "Otomatik güncellemeleri etkinleştir"
+  },
+  "nlInterval": {
+    "message": "Güncelleme aralığı (dakika)"
+  },
+  "nlDestinationGroup": {
+    "message": "Hedef grubu"
+  },
+  "nlSubscriptionOwnGroup": {
+    "message": "Yeni grup…"
+  },
+  "nlNameGroup": {
+    "message": "Ad (grup)"
+  },
+  "nlCustomGroup": {
+    "message": "Özel grup"
+  },
+  "nlNameRequired": {
+    "message": "Bir ad girin."
+  },
+  "nlContentRequired": {
+    "message": "Proxy bağlantılarını veya abonelik içeriğini yapıştırın."
+  },
+  "nlGroupRequired": {
+    "message": "Bir hedef grubu seçin."
+  },
+  "nlURLRequired": {
+    "message": "Kullanıcı adı veya şifre olmadan bir HTTP(S) aboneliği URL girin."
+  },
+  "nlIntervalInvalid": {
+    "message": "5 ila 43200 dakika arasında bir tam sayı girin."
+  },
+  "folderTitle": {
+    "message": "v2rayN klasörünü seçin"
+  },
+  "folderHint": {
+    "message": "Bir klasör seçin ve ardından Bağlantı ayarlarını kaydet ile uygulayın."
+  },
+  "folderPath": {
+    "message": "Tam yerel klasör yolu"
+  },
+  "folderGo": {
+    "message": "Açık"
+  },
+  "folderUp": {
+    "message": "Yukarı"
+  },
+  "folderDrives": {
+    "message": "Sürücüler"
+  },
+  "folderCurrent": {
+    "message": "Geçerli yol"
+  },
+  "folderChoose": {
+    "message": "Bu klasörü kullan"
+  },
+  "folderList": {
+    "message": "Klasörler"
+  },
+  "folderTruncated": {
+    "message": "Listeleme sınırlıdır. Gösterilmeyen bir klasörü açmak için yukarıdaki tam yolu girin."
+  },
+  "folderReady": {
+    "message": "v2rayN dosya bulundu. Yapılandırmayı doğrulamak için bu klasörü kullanın."
+  },
+  "folderInvalid": {
+    "message": "guiConfigs, guiNConfig.json ve guiNDB.db içeren klasörü seçin."
+  },
+  "folderSelectDrive": {
+    "message": "Yerel bir sürücü seçin veya tam klasör yolunu girin."
+  },
+  "folderEmpty": {
+    "message": "Görünür alt klasör yok."
+  },
+  "folderUnavailable": {
+    "message": "Bu klasöre göz atılamıyor. Yolunu ve erişimini kontrol edin. Companion daha eskiyse önce onu güncelleyin."
+  },
+  "folderValidating": {
+    "message": "v2rayN yapılandırması doğrulanıyor…"
+  },
+  "folderInvalidConfig": {
+    "message": "v2rayN yapılandırması veya veritabanı eksik veya geçersiz. Başka bir klasör seçin."
+  },
+  "copyPath": {
+    "message": "Yolu kopyala"
+  },
+  "pathCopyHint": {
+    "message": "Şu anda bu alanda bulunan yolu kopyalayın."
+  },
+  "preMode": {
+    "message": "Ön proxy modu"
+  },
+  "preNode": {
+    "message": "Ön proxy düğümü"
+  },
+  "preIntro": {
+    "message": "Grup zincirini kullanın, atlayın veya bu profil için bir ön proxy seçin."
+  },
+  "healthLabel": {
+    "message": "Mevcut bağlantı durumu"
+  },
+  "healthOk": {
+    "message": "Normal"
+  },
+  "healthError": {
+    "message": "Anormal"
+  },
+  "healthChecking": {
+    "message": "Kontrol ediliyor"
+  },
+  "healthUnknown": {
+    "message": "Onaylanmadı"
+  },
+  "autoSystemHelp": {
+    "message": "Sistem kuralları Windows bileşeni ve sabit proxy ayarlarının anlık kopyasını gerektirir. Değişikliklerden sonra yeniden uygulayın. PAC/WPAD desteklenmez; kuralsız Sistem, tarayıcının yerel ayarlarını kullanır."
+  },
+  "backgroundUnavailable": {
+    "message": "Uzantı arka planı kullanılamıyor."
+  },
+  "backgroundNoResponse": {
+    "message": "Arka plan yanıt vermedi."
+  },
+  "backupTooLarge": {
+    "message": "Yedekleme 5 MB'ı aşıyor."
+  },
+  "proxyUsername": {
+    "message": "Kullanıcı adı"
+  },
+  "proxyPassword": {
+    "message": "Şifre"
+  },
+  "proxyAuthHelp": {
+    "message": "İsteğe bağlı. Kimliği doğrulanmış proxy'ler Companion aracılığıyla bağlanır. Kimlik bilgileri bu tarayıcı yapılandırmasında ve Companion'da saklanır ve profil aktarımlarına dahil edilir."
+  },
+  "proxyAuthSocks4": {
+    "message": "SOCKS4 bu kullanıcı adı/şifre kimlik doğrulamasını desteklemiyor; HTTP(S) veya SOCKS5 kullanın."
+  },
+  "importExamples": {
+    "message": "Biçim örnekleri"
+  },
+  "ipCopying": {
+    "message": "Kopyalanıyor…"
+  },
+  "netDnsUnavailable": {
+    "message": "Sunucu adresi zamanında çözümlenemedi. Ana bilgisayarı veya IP adresini kontrol edip tekrar deneyin."
+  },
+  "netCurrentTarget": {
+    "message": "Seçilen proxy uç noktası"
+  },
+  "netCustomTarget": {
+    "message": "Özel sunucu"
+  },
+  "netHost": {
+    "message": "Ana Bilgisayar veya IP adresi"
+  },
+  "netPort": {
+    "message": "TCP bağlantı noktası"
+  },
+  "netHostRequired": {
+    "message": "Bir sunucu ana bilgisayarı veya IP adresi girin."
+  },
+  "netCurrentUnavailable": {
+    "message": "Bir düğüm veya manuel proxy profili seçin ya da özel bir hedef girin."
+  },
+  "netInvalidTarget": {
+    "message": "Geçerli bir tanılama ana bilgisayarı ve bağlantı noktası girin."
+  },
+  "netIpv6PingUnavailable": {
+    "message": "IPv6 ICMP mevcut değil; TCPing kullanın."
+  },
+  "preNeedsFix": {
+    "message": "Kaydetmeden önce geçerli bir ön proxy seçin veya ön proxy yok."
+  },
+  "preConfigure": {
+    "message": "Ön proxy'yi yapılandır"
+  },
+  "preFollowInvalid": {
+    "message": "Follow v2rayN özel bir ön proxy'yi kabul etmiyor."
+  },
+  "followChainHelp": {
+    "message": "Follow, v2rayN'da zaten etkin olan rotayı ve proxy zincirini kullanır."
+  },
+  "netTitle": {
+    "message": "Bağlantı testleri"
+  },
+  "ipTestDetails": {
+    "message": "Test ayrıntıları"
+  },
+  "netTarget": {
+    "message": "Ping / TCPing hedef"
+  },
+  "netDownload": {
+    "message": "Testi indir"
+  },
+  "netPartial": {
+    "message": "Kısmi örnek"
+  },
+  "netComplete": {
+    "message": "Örnek tamamlandı"
+  },
+  "netDirect": {
+    "message": "Sistem ağı"
+  },
+  "netUnreachable": {
+    "message": "Yanıt yok / başarısız oldu"
+  },
+  "netAverage": {
+    "message": "Ortalama"
+  },
+  "predecessor": {
+    "message": "Ön proxy"
+  },
+  "preInherit": {
+    "message": "v2rayN grup zincirini kullanın"
+  },
+  "preNone": {
+    "message": "Ön proxy yok"
+  },
+  "preSpecific": {
+    "message": "Bir düğüm seçin"
+  },
+  "preHelp": {
+    "message": "Bu profil için geçerlidir. v2rayN grup zincirini kullanın, ön proxy veya belirli bir düğüm kullanmayın. Follow v2rayN mevcut zincirini kullanır."
+  },
+  "preSelectRequired": {
+    "message": "Bir proxy öncesi düğüm seçin veya Grup varsayılanı / Yok'u seçin."
+  },
+  "ipPing0Permission": {
+    "message": "Genel raporu yüklemek için Ping0 web sitesine erişim izni verin."
+  },
+  "ipPublicChallenge": {
+    "message": "Web sitesi doğrulama gerektiriyor. Tamamlamak ve sonucu görüntülemek için Ping0 sayfasını açın."
+  },
+  "ipPublicReport": {
+    "message": "Ping0 kamu raporu"
+  },
+  "ipPublicSource": {
+    "message": "Kaynak: Ping0 genel sayfa"
+  },
+  "ipPublicOriginal": {
+    "message": "Ping0 raporu"
+  },
+  "ipPublicPartial": {
+    "message": "Yalnızca genel sayfada sağlanan alanlar orijinal dillerinde gösterilir. Sınıflandırmalar ve paylaşılan kullanıcı tahminleri Ping0'den alınmıştır."
+  },
+  "setupTitle": {
+    "message": "Bağlan Proxy V2Route"
+  },
+  "setupIntro": {
+    "message": "v2rayN rotalarını veya kendi içe aktarılan düğümlerinizi kullanmak için Windows tamamlayıcısını yükleyin."
+  },
+  "setupStepOne": {
+    "message": "Eşleşen tam Windows paketini kalıcı bir klasöre çıkarın."
+  },
+  "setupStepTwo": {
+    "message": "V2Route-Setup.exe'i açın ve Yükle'ye tıklayın."
+  },
+  "setupStepThree": {
+    "message": "Buraya dönün ve bağlantıyı kontrol edin. Gerekirse v2rayN klasörünü seçin."
+  },
+  "setupCheck": {
+    "message": "Bağlantıyı kontrol edin"
+  },
+  "downloadCompanion": {
+    "message": "Kurulum kılavuzu ↗"
+  },
+  "setupDownloadNote": {
+    "message": "Eşleşen yerel Windows paketini kullanın veya mevcut kaynaktan oluşturmak için kılavuzu izleyin."
+  },
+  "chooseFolder": {
+    "message": "v2rayN klasörünü seçin…"
+  },
+  "rescanDone": {
+    "message": "Yerel düğümler yeniden tarandı"
+  },
+  "grouping": {
+    "message": "Grup düğümleri"
+  },
+  "groupByCountry": {
+    "message": "Ülkeye göre"
+  },
+  "unknownCountry": {
+    "message": "Diğer / Bilinmiyor"
+  },
+  "ungrouped": {
+    "message": "Gruplandırılmamış"
+  },
+  "adjustNodeFilters": {
+    "message": "Başka bir grubu, kaynağı deneyin veya arayın ya da gizli düğümleri gösterin."
+  },
+  "rescanLocal": {
+    "message": "v2rayN düğümleri yeniden tara"
+  },
+  "showHidden": {
+    "message": "Gizli düğümleri göster"
+  },
+  "hideNode": {
+    "message": "Gizle"
+  },
+  "restoreNode": {
+    "message": "Geri Yükle"
+  },
+  "hiddenNode": {
+    "message": "Gizli"
+  },
+  "hideNodeHelp": {
+    "message": "Yalnızca bu tarayıcının düğüm kitaplığında gizle. v2rayN ve mevcut profiller değişmedi."
+  },
+  "ipContextTimeout": {
+    "message": "Geçerli profilin okunması zaman aşımına uğradı. Tekrar deneyin."
+  },
+  "ipStaleResult": {
+    "message": "Geçerli profil değişti. Bu sonuç güncelliğini kaybetmiş olabilir; tekrar kontrol edin."
+  },
+  "ip_tools": {
+    "message": "IP Araçlar"
+  },
+  "ipIntro": {
+    "message": "Mevcut çıkış IP ve genel rapor."
+  },
+  "ipCurrentProfile": {
+    "message": "Mevcut tarayıcı profili"
+  },
+  "ipRouteCaution": {
+    "message": "Otomatik kurallar ve PAC, farklı hedefler için farklı rotalar kullanabilir. Bu kontrol yalnızca kendi isteğini açıklar."
+  },
+  "ipDisclosure": {
+    "message": "Otomatik kontrol çıkışı IP · Raporlayan: Ping0"
+  },
+  "ipMethod": {
+    "message": "Adres kontrolü"
+  },
+  "ipDual": {
+    "message": "IPv4 / IPv6"
+  },
+  "ipCheck": {
+    "message": "Tekrar kontrol edin"
+  },
+  "ipChecking": {
+    "message": "Kontrol ediliyor…"
+  },
+  "ipDualHelp": {
+    "message": "IPv4 / IPv6, her iki adresi değil, bu istek için kullanılan adres ailesini döndürür."
+  },
+  "ipDurationHelp": {
+    "message": "Geçen HTTP istek süresi, ağ ve hizmet yanıt süresini içerir. Bu ICMP ping veya bant genişliği testi değildir."
+  },
+  "ipCopy": {
+    "message": "Kopyala IP"
+  },
+  "ipCopied": {
+    "message": "Kopyalandı"
+  },
+  "ipCopyFailed": {
+    "message": "Kopyalanamadı. Adresi seçin ve manuel olarak kopyalayın."
+  },
+  "ipNoResult": {
+    "message": "Henüz kontrol yok"
+  },
+  "ipContextUnknown": {
+    "message": "Profil kullanılamıyor"
+  },
+  "ipTimeout": {
+    "message": "Denetim zaman aşımına uğradı. Tekrar deneyin veya başka bir rota kullanın."
+  },
+  "ipCancelled": {
+    "message": "Çek iptal edildi"
+  },
+  "ipNetwork": {
+    "message": "ipify'e ulaşılamadı. Bağlantıyı kontrol edip tekrar deneyin."
+  },
+  "ipHttp": {
+    "message": "IP hizmeti isteği kabul etmedi. Daha sonra tekrar deneyin."
+  },
+  "ipInvalid": {
+    "message": "IP hizmeti geçersiz bir yanıt döndürdü."
+  },
+  "ipFailure": {
+    "message": "Kontrol başarısız oldu. Tekrar deneyin."
+  },
+  "ipStale": {
+    "message": "Kontrol sırasında proxy ayarlarınız değişti. Eski sonuç atıldı; tekrar kontrol edin."
+  },
+  "ipQuality": {
+    "message": "Harici araçlar"
+  },
+  "ipQualityPrivacy": {
+    "message": "Araçlar yalnızca tıklamayla çalışır. Sağlayıcılar normal bağlantı verilerini alır. Web sitesi kontrolleri, Başlat'tan sonra kimlik bilgisi gerektirmeyen istekler gönderir. Kapanış yerel testleri durdurur; harici sekmeler tarayıcı tarafından yönetilir."
+  },
+  "ipReport": {
+    "message": "Düzenlenen raporu kopyala"
+  },
+  "ipReportCopied": {
+    "message": "Düzenlenen rapor kopyalandı; hayır IP veya profil adları dahil."
+  },
+  "popupSelected": {
+    "message": "Seçildi"
+  },
+  "popupFooter": {
+    "message": "v2rayN ve düğüm profilleri"
+  },
+  "subtitle": {
+    "message": "Bağımsız tarayıcı rotaları"
+  },
+  "profiles": {
+    "message": "Profiller"
+  },
+  "nodes": {
+    "message": "Düğüm Kitaplığı"
+  },
+  "settings": {
+    "message": "Ayarlar"
+  },
+  "connected": {
+    "message": "Etkin profil"
+  },
+  "noProfile": {
+    "message": "Sistem varsayılanı"
+  },
+  "newProfile": {
+    "message": "Yeni profil"
+  },
+  "searchProfiles": {
+    "message": "Profilleri ara"
+  },
+  "direct": {
+    "message": "Doğrudan ağ"
+  },
+  "system": {
+    "message": "Sistem proxy'si"
+  },
+  "follow": {
+    "message": "Takip et v2rayN"
+  },
+  "manual": {
+    "message": "Manuel proxy"
+  },
+  "auto": {
+    "message": "Otomatik geçiş"
+  },
+  "pac": {
+    "message": "PAC komut dosyası"
+  },
+  "virtual": {
+    "message": "Sanal profil"
+  },
+  "profileIntro": {
+    "message": "v2rayN'ün ana rotasını değiştirmeden bir tarayıcı rotası seçin."
+  },
+  "nodesIntro": {
+    "message": "Yerel v2rayN düğümlere ve içe aktarılan bağlantılarınıza göz atın."
+  },
+  "settingsIntro": {
+    "message": "Yerel bağlantı, dil ve görünüm."
+  },
+  "refresh": {
+    "message": "Yenile"
+  },
+  "create": {
+    "message": "Profil oluştur"
+  },
+  "name": {
+    "message": "Profil adı"
+  },
+  "type": {
+    "message": "Profil türü"
+  },
+  "save": {
+    "message": "Kaydet"
+  },
+  "saved": {
+    "message": "Kaydedildi"
+  },
+  "saving": {
+    "message": "Kaydediliyor…"
+  },
+  "cancel": {
+    "message": "İptal"
+  },
+  "close": {
+    "message": "Kapat"
+  },
+  "apply": {
+    "message": "Bu profili kullan"
+  },
+  "applied": {
+    "message": "Profil değiştirildi"
+  },
+  "active": {
+    "message": "Aktif"
+  },
+  "delete": {
+    "message": "Sil"
+  },
+  "remove": {
+    "message": "Kaldır"
+  },
+  "rename": {
+    "message": "Yeniden Adlandır"
+  },
+  "route": {
+    "message": "Proxy rotası"
+  },
+  "selectRoute": {
+    "message": "Bir rota seçin"
+  },
+  "routeMissing": {
+    "message": "Rota kullanılamıyor — başka bir rota seçin"
+  },
+  "chain": {
+    "message": "Bağlantı zinciri"
+  },
+  "connection": {
+    "message": "Yerel bağlantı"
+  },
+  "proxy": {
+    "message": "Proxy sunucusu"
+  },
+  "address": {
+    "message": "Adres"
+  },
+  "port": {
+    "message": "Bağlantı noktası"
+  },
+  "scheme": {
+    "message": "Protokol"
+  },
+  "proxyDns": {
+    "message": "SOCKS5 DNS proxy aracılığıyla çözümlenir."
+  },
+  "connectedIdle": {
+    "message": "Bağlı · Boşta"
+  },
+  "bypass": {
+    "message": "Baypas listesi"
+  },
+  "bypassHelp": {
+    "message": "Her satıra bir alan adı, joker alan adı, IP adresi veya IP:port girin."
+  },
+  "advanced": {
+    "message": "Gelişmiş seçenekler"
+  },
+  "searchRoutes": {
+    "message": "Grupları veya düğümleri arayın"
+  },
+  "selectGroup": {
+    "message": "Bir grup seçin"
+  },
+  "empty": {
+    "message": "Eşleşen öğe yok"
+  },
+  "unavailable": {
+    "message": "Kullanılamıyor"
+  },
+  "groupHint": {
+    "message": "Bir grubu 250 ms süreyle tutun, ardından sürükleyin. Alt + ↑ / ↓ ayrıca yeniden sıralar. Değişiklikler otomatik olarak kaydedilir."
+  },
+  "searchSort": {
+    "message": "Sıralamadan önce aramayı temizleyin."
+  },
+  "dragHint": {
+    "message": "Yukarı veya aşağı hareket ettirin, ardından kaydetmek için bırakın. Esc iptal edilir."
+  },
+  "orderSaved": {
+    "message": "Grup siparişi kaydedildi"
+  },
+  "orderCancelled": {
+    "message": "Yeniden sıralama iptal edildi"
+  },
+  "loading": {
+    "message": "Yükleniyor…"
+  },
+  "reading": {
+    "message": "Yerel düğümler okunuyor…"
+  },
+  "nativeMissing": {
+    "message": "Yerel bileşen bağlı değil"
+  },
+  "retry": {
+    "message": "Yeniden dene"
+  },
+  "nativeHelp": {
+    "message": "Düğüm yolları, Windows tamamlayıcısını gerektirir. Doğrudan, Sistem ve manuel proxy'ler artık mevcuttur."
+  },
+  "imported": {
+    "message": "İthal"
+  },
+  "v2rayn": {
+    "message": "v2rayN"
+  },
+  "allSources": {
+    "message": "Tüm kaynaklar"
+  },
+  "importNodes": {
+    "message": "Proxy'leri içe aktar"
+  },
+  "importTitle": {
+    "message": "Proxy'leri içe aktar"
+  },
+  "importHelp": {
+    "message": "Proxy bağlantılarını, giden JSON veya Base64 aboneliğini yapıştırın. SOCKS düz veya Base64 kimlik bilgilerini destekler. Şema içermeyen adresler HTTP kullanır."
+  },
+  "importPrivacy": {
+    "message": "Proxy ayrıntıları ve kimlik bilgileri, depolama ve seçtiğiniz proxy'ye bağlantı için yerel Proxy V2Route tamamlayıcıya iletilir. Geliştirici bu bilgiyi almaz."
+  },
+  "import": {
+    "message": "Profilleri içe aktar"
+  },
+  "nodeCount": {
+    "message": "düğümler"
+  },
+  "source": {
+    "message": "Kaynak"
+  },
+  "protocol": {
+    "message": "Protokol"
+  },
+  "useNode": {
+    "message": "Profil oluştur"
+  },
+  "removeNode": {
+    "message": "İçe aktarılan düğüm kaldırılsın mı?"
+  },
+  "removeNodeHelp": {
+    "message": "Bu düğümü kullanan profillerin, kaldırılmadan önce yeniden atanması gerekir."
+  },
+  "deleteProfile": {
+    "message": "Bu profil silinsin mi?"
+  },
+  "deleteProfileHelp": {
+    "message": "Bu işlem yalnızca bu tarayıcı profilini kaldırır. İçe aktarılan düğümler ve v2rayN yapılandırması korunur."
+  },
+  "language": {
+    "message": "Dil"
+  },
+  "automatic": {
+    "message": "Tarayıcı varsayılanı"
+  },
+  "theme": {
+    "message": "Görünüm"
+  },
+  "light": {
+    "message": "Işık"
+  },
+  "dark": {
+    "message": "Koyu"
+  },
+  "switchToEnglish": {
+    "message": "İngilizceye geç"
+  },
+  "switchToChinese": {
+    "message": "Basitleştirilmiş Çinceye Geçiş"
+  },
+  "switchToLight": {
+    "message": "Açık görünüme geç"
+  },
+  "switchToDark": {
+    "message": "Koyu görünüme geç"
+  },
+  "localComponent": {
+    "message": "Tamamlayıcı bileşen"
+  },
+  "ready": {
+    "message": "Bağlandı"
+  },
+  "stopped": {
+    "message": "Çalışmıyor"
+  },
+  "discovery": {
+    "message": "v2rayN algılama"
+  },
+  "rootPath": {
+    "message": "v2rayN klasörü"
+  },
+  "corePath": {
+    "message": "Proxy çekirdeği çalıştırılabilir"
+  },
+  "optionalPath": {
+    "message": "Otomatik algılama için boş bırakın"
+  },
+  "pathsHelp": {
+    "message": "v2rayN otomatik olarak algılanır; gerekirse klasörünü seçin. İçe aktarılan düğümler dahil edilen çekirdeği kullanır."
+  },
+  "savePaths": {
+    "message": "Bağlantı ayarlarını kaydet"
+  },
+  "privacy": {
+    "message": "Yerel olarak depolanan ayarlar"
+  },
+  "privacyText": {
+    "message": "Düğüm bağlantıları ve kimlik bilgileri yerel tamamlayıcıda kalır. Tarayıcı trafiği seçtiğiniz proxy üzerinden hedef web sitelerine gider; geliştirici bunu almaz."
+  },
+  "privacyDetails": {
+    "message": "Gizlilik ve veri akışı"
+  },
+  "export": {
+    "message": "Profilleri dışa aktar"
+  },
+  "about": {
+    "message": "Proxy V2Route hakkında"
+  },
+  "aboutText": {
+    "message": "v2rayN'in ana rotasını değiştirmeden bir tarayıcı rotası seçin. Düğüm rotaları, Windows tamamlayıcısını ve kendi düğümlerinizi kullanır."
+  },
+  "licenses": {
+    "message": "Açık kaynak bildirimleri"
+  },
+  "version": {
+    "message": "Sürüm"
+  },
+  "fieldRequired": {
+    "message": "Bir profil adı girin."
+  },
+  "profileExists": {
+    "message": "Bu ada sahip bir profil zaten mevcut."
+  },
+  "ruleHelp": {
+    "message": "Alan adlarını bir satırda virgülle ayırın. İlk eşleşen satır kazanır. Varsayılan rotayı kullanılabilir durumda tutun."
+  },
+  "rules": {
+    "message": "Yönlendirme kuralları"
+  },
+  "pattern": {
+    "message": "Ana makine modeli"
+  },
+  "target": {
+    "message": "Kural hedefi"
+  },
+  "addRule": {
+    "message": "Kural ekle"
+  },
+  "defaultRoute": {
+    "message": "Varsayılan profil"
+  },
+  "pacHelp": {
+    "message": "FindProxyForURL içeren güvenilir PAC kaynağını yapıştırın. Bu komut dosyası, web sitesi isteklerinin nasıl yönlendirileceğine karar verir."
+  },
+  "pacUrl": {
+    "message": "PAC URL"
+  },
+  "pacScript": {
+    "message": "PAC komut dosyası"
+  },
+  "noSelection": {
+    "message": "Bir profil seçin veya bir profil oluşturun."
+  },
+  "details": {
+    "message": "Ayrıntılar"
+  },
+  "noNodes": {
+    "message": "Henüz düğüm yok"
+  },
+  "noNodesHelp": {
+    "message": "Başlamak için v2rayN'i bağlayın veya proxy bağlantılarını, JSON'i veya bir aboneliği içe aktarın."
+  },
+  "openSettings": {
+    "message": "Ayarları aç"
+  },
+  "proxySettings": {
+    "message": "Proxy ayarları"
+  },
+  "switching": {
+    "message": "Değiştiriliyor…"
+  },
+  "updatedElsewhere": {
+    "message": "Bu profil başka bir pencerede değiştirildi. Kaydetmeden önce yeniden açın."
+  },
+  "choose": {
+    "message": "Seç"
+  },
+  "popupIntro": {
+    "message": "Bağlantı:"
+  },
+  "invalidPort": {
+    "message": "1'den 65535'e kadar bir bağlantı noktası girin."
+  },
+  "externalControl": {
+    "message": "Başka bir uzantı veya politika, tarayıcı proxy'sini kontrol ediyor."
+  },
+  "noNativeRoute": {
+    "message": "Düğüm profili oluşturmadan önce yerel bileşeni bağlayın."
+  },
+  "reload": {
+    "message": "Yeniden yükle"
+  },
+  "rulesError": {
+    "message": "Her kural için bir kalıp ve hedef gerekir."
+  },
+  "backupDone": {
+    "message": "Tarayıcı profilleri dışa aktarıldı"
+  },
+  "managed": {
+    "message": "Yönetilen düğüm"
+  },
+  "netRegion": {
+    "message": "Hedef alan"
+  },
+  "netNodeArea": {
+    "message": "Proxy düğümü"
+  },
+  "netChina": {
+    "message": "Çin Anakarası"
+  },
+  "netGlobal": {
+    "message": "Küresel"
+  },
+  "netAli": {
+    "message": "AliDNS"
+  },
+  "netTencent": {
+    "message": "DNSPod'u"
+  },
+  "netStartHelp": {
+    "message": "Bir hedef seçin ve ardından canlı bir test başlatın."
+  },
+  "netConsole": {
+    "message": "Canlı teşhis"
+  },
+  "netStop": {
+    "message": "Durdur"
+  },
+  "netRunning": {
+    "message": "Çalışıyor"
+  },
+  "netStopped": {
+    "message": "Durduruldu"
+  },
+  "netSent": {
+    "message": "Gönderildi"
+  },
+  "netLoss": {
+    "message": "Kayıp"
+  },
+  "netAverageShort": {
+    "message": "Ort."
+  },
+  "netLogClear": {
+    "message": "Temizle"
+  },
+  "netFinishing": {
+    "message": "Önceki araştırma bitiyor…"
+  },
+  "netRound": {
+    "message": "Yuvarlak"
+  },
+  "netDestination": {
+    "message": "Hedef"
+  },
+  "netHop": {
+    "message": "Atla"
+  },
+  "netAddress": {
+    "message": "IP adresi"
+  },
+  "netLast": {
+    "message": "Son"
+  },
+  "netConsoleHelp": {
+    "message": "Ping / TCPing / MTR proxy zincirini değil sistem ağını kullanır. Eksik ICMP yanıt, trafik kaybı anlamına gelmez. İndirme, tarayıcı yolunu ve seçilen boyut sınırını kullanır. Bu sayfadan ayrıldığınızda veya bu sayfayı gizlediğinizde testler durdurulur."
+  },
+  "netDirectShort": {
+    "message": "Sistem ağı"
+  },
+  "netIcmpShort": {
+    "message": "Hayır ICMP yanıt"
+  },
+  "netProbeError": {
+    "message": "Yerel prob hatası"
+  },
+  "netNoDestination": {
+    "message": "Hedefe ulaşılamadı"
+  },
+  "deleteActive": {
+    "message": "Sisteme geç ve sil"
+  },
+  "deleteActiveHelp": {
+    "message": "Bu profil aktif. Bunu silmek, tarayıcıyı sistem proxy'sine geçirir."
+  },
+  "netDownloadSize": {
+    "message": "İndirme boyutu"
+  },
+  "netReceived": {
+    "message": "Alındı"
+  },
+  "netBest": {
+    "message": "En İyi"
+  },
+  "netWorst": {
+    "message": "En kötü"
+  },
+  "netStdDev": {
+    "message": "Std geliştirme"
+  },
+  "netLocation": {
+    "message": "Konum"
+  },
+  "toolWall": {
+    "message": "Etki alanı engelleme kontrolü"
+  },
+  "toolSites": {
+    "message": "Popüler web siteleri"
+  },
+  "toolGlobal": {
+    "message": "Genel teşhis"
+  },
+  "toolFast": {
+    "message": "Netflix hızı"
+  },
+  "toolSpeed": {
+    "message": "Hız testi"
+  },
+  "toolStart": {
+    "message": "Başlat"
+  },
+  "toolReady": {
+    "message": "Hazır"
+  },
+  "toolResponded": {
+    "message": "Yanıtlandı"
+  },
+  "toolNoResponse": {
+    "message": "Onaylanmadı"
+  },
+  "toolCacheUnsupported": {
+    "message": "Bu tarayıcı önbelleği site bazında temizleyemez; sayfa yeniden yüklendi."
+  },
+  "toolCacheFailed": {
+    "message": "Önbellek temizleme işlemi tamamlanmadı. Kapatıp yeniden deneyin."
+  },
+  "toolClose": {
+    "message": "Kapat"
+  },
+  "toolReload": {
+    "message": "Yeniden yükle"
+  },
+  "toolLoading": {
+    "message": "Yükleniyor…"
+  },
+  "toolFrameError": {
+    "message": "Yüklenemedi. Yeniden Yüklemeyi deneyin."
+  },
+  "toolSiteHelp": {
+    "message": "Yalnızca tarayıcıyla erişilebilirlik. Bu, hesap veya bölgesel erişimi doğrulamaz."
+  },
+  "toolFallback": {
+    "message": "Yedekleme hızı testi"
+  },
+  "toolFullscreen": {
+    "message": "Tam Ekran"
+  },
+  "toolRestore": {
+    "message": "Tam ekrandan çık"
+  },
+  "ipReadFailed": {
+    "message": "Okuma başarısız oldu. 👉"
+  },
+  "ipViewSource": {
+    "message": "Kaynak siteyi görüntüle"
+  },
+  "toolDownloadError": {
+    "message": "İndirme sunucusuna ulaşılamadı. Tekrar deneyin."
+  },
+  "toolAccess": {
+    "message": "Site erişimini etkinleştir"
+  },
+  "toolPermission": {
+    "message": "Katıştırılmış oturum uyumluluğu için bu siteye erişime izin verin."
+  },
+  "toolAsia": {
+    "message": "Asya"
+  },
+  "toolEurope": {
+    "message": "Avrupa"
+  },
+  "toolAmerica": {
+    "message": "Kuzey Amerika"
+  },
+  "toolGlobalHelp": {
+    "message": "Tarayıcı çıkışını IP önceden doldurur. Yolları karşılaştırmak için Çin anakarasını veya başka bir bölgeyi seçin; Başlat, görüntülenen hedefi en fazla üç Globalping proba gönderir."
+  },
+  "toolServiceError": {
+    "message": "Test hizmeti kullanılamıyor. Tekrar deneyin."
+  },
+  "popupOrderHelp": {
+    "message": "Yeniden sıralamak için basılı tutun ve sürükleyin. Alt+ok tuşları da bu profili taşır."
+  },
+  "popupOrderSaved": {
+    "message": "Sipariş kaydedildi"
+  },
+  "toolGroupIP": {
+    "message": "IP testler"
+  },
+  "toolGroupWeb": {
+    "message": "Web sitesi testleri"
+  },
+  "toolGroupSpeed": {
+    "message": "Hız"
+  },
+  "toolCurrentIP": {
+    "message": "Akım çıkışı IP"
+  },
+  "toolCurrentIPLoading": {
+    "message": "Akım çıkışı yükleniyor IP…"
+  },
+  "toolCurrentIPFailed": {
+    "message": "Geçerli IP okunamadı. Bir hedef girin."
+  },
+  "speedMode": {
+    "message": "Test modu"
+  },
+  "speedBoth": {
+    "message": "İndir + yükle"
+  },
+  "speedDownload": {
+    "message": "İndir"
+  },
+  "speedUpload": {
+    "message": "Yükle"
+  },
+  "speedLatency": {
+    "message": "HTTP gecikme\nFaz başına"
+  },
+  "speedBudget": {
+    "message": "{n} MiB · Toplam {total} MiB artı küçük gecikme örnekleri."
+  },
+  "siteCategory": {
+    "message": "Web sitesi kategorisi"
+  },
+  "siteAll": {
+    "message": "Tüm web siteleri"
+  },
+  "siteAI": {
+    "message": "yapay zeka"
+  },
+  "siteDevelopment": {
+    "message": "Geliştirme"
+  },
+  "siteVideo": {
+    "message": "Video / müzik"
+  },
+  "siteSocial": {
+    "message": "Sosyal"
+  },
+  "siteDomestic": {
+    "message": "Anakara hizmetleri"
+  },
+  "siteServices": {
+    "message": "Ortak hizmetler"
+  },
+  "globalMethod": {
+    "message": "Ölçüm tipi"
+  },
+  "localPort": {
+    "message": "Yerel bağlantı noktası:"
+  },
+  "chainChooseNode": {
+    "message": "Bir proxy düğümü seçin"
+  },
+  "chainTitle": {
+    "message": "Proxy zinciri"
+  },
+  "chainSelectExit": {
+    "message": "Bu özel zinciri kaydetmek veya test etmek için aşağıdan belirli bir çıkış düğümü seçin. Takip et v2rayN, v2rayN tarafından yönetilir."
+  },
+  "chainSelectExitShort": {
+    "message": "Bir çıkış düğümü seçin"
+  },
+  "chainAdd": {
+    "message": "+ Proxy katmanı ekle"
+  },
+  "chainTest": {
+    "message": "Test zinciri"
+  },
+  "chainMode": {
+    "message": "Zincir modu"
+  },
+  "chainBase": {
+    "message": "Temel Proxy"
+  },
+  "chainExit": {
+    "message": "Proxy'den Çıkış"
+  },
+  "chainEgress": {
+    "message": "Zincir Çıkışı"
+  },
+  "chainExitBadge": {
+    "message": "Çıkış IP"
+  },
+  "chainEntry": {
+    "message": "Zincir Girişi"
+  },
+  "chainTransit": {
+    "message": "Köprü Düğümü"
+  },
+  "chainUntested": {
+    "message": "Test edilmedi"
+  },
+  "chainMissing": {
+    "message": "Kullanılamayan düğüm"
+  },
+  "chainUnresolved": {
+    "message": "Devralınan zincir çözümlenemiyor. Önceki ayarları onarın veya özel bir zincir seçin."
+  },
+  "chainUpgrade": {
+    "message": "Sıralı zincirleri etkinleştirmek için yerel tamamlayıcıyı güncelleyin."
+  },
+  "chainBusy": {
+    "message": "Başka bir zincir testi çalışıyor"
+  },
+  "chainOK": {
+    "message": "Ulaşılabilir"
+  },
+  "chainFailed": {
+    "message": "Bu testte atlama başarısız oldu"
+  },
+  "chainBlocked": {
+    "message": "Test edilmedi · önceki atlama başarısız oldu"
+  },
+  "chainFailureHelp": {
+    "message": "Bu atlama ya da ona giden yol geçmedi. Daha sonra şerbetçiotu test edilmedi."
+  },
+  "chainAllOK": {
+    "message": "Tüm kümülatif yollar yanıtlandı"
+  },
+  "chainStopping": {
+    "message": "Geçerli sınırlanan probdan sonra durduruluyor…"
+  },
+  "globalWorld": {
+    "message": "Dünya çapında"
+  },
+  "globalUnavailable": {
+    "message": "Hedef veya bölge kullanılamıyor. Hedefi kontrol edin veya başka bir bölge seçin."
+  },
+  "globalRateLimited": {
+    "message": "Hizmet hızı sınırına ulaşıldı. Daha sonra tekrar deneyin."
+  },
+  "globalNoResults": {
+    "message": "Hizmet hiçbir araştırma sonucu döndürmedi. Başka bir bölgeyi deneyin."
+  },
+  "globalProbeFailed": {
+    "message": "Prob başarısız oldu"
+  },
+  "globalProbeOffline": {
+    "message": "Prob çevrimdışı"
+  },
+  "globalIcmpCaution": {
+    "message": "Eksik ICMP yanıt tek başına engelleme anlamına gelmez. Anakara ve denizaşırı yolları ve diğer test türlerini karşılaştırın."
+  },
+  "speedRealtime": {
+    "message": "Canlı hız"
+  },
+  "speedAverage": {
+    "message": "Ortalama hız"
+  },
+  "ipToolsBrief": {
+    "message": "Üçüncü taraf sonuçları referans amaçlıdır."
+  },
+  "ipReportBrief": {
+    "message": "Sonuçlar çıkışa IP göre değişir ve referans amaçlıdır."
+  },
+  "toolPingPe": {
+    "message": "IP engelleme kontrolü"
+  },
+  "toolTargetIP": {
+    "message": "Hedef IP"
+  },
+  "toolOpenPingPe": {
+    "message": "Açık resmi test"
+  },
+  "toolInvalidIP": {
+    "message": "Geçerli bir IPv4 veya IPv6 adresi girin."
+  },
+  "toolInvalidPort": {
+    "message": "1'den 65535'e kadar bir TCP bağlantı noktası girin."
+  },
+  "toolExternalFailed": {
+    "message": "Web sitesi açılamadı. Tekrar deneyin."
+  },
+  "ipBrowserReading": {
+    "message": "Tarayıcı aracılığıyla Ping0 okunuyor…"
+  },
+  "ipVerifyBrowser": {
+    "message": "Doğrulama sayfasını aç"
+  },
+  "policyCenter": {
+    "message": "Gizlilik, beyan ve SSS"
+  },
+  "policyCenterIntro": {
+    "message": "Yerel veri işleme, test sınırları ve ortak yanıtlar."
+  },
+  "policyPrivacyTitle": {
+    "message": "Gizlilik politikası"
+  },
+  "policyPrivacySummary": {
+    "message": "Profiller ve kimlik bilgileri bu cihazda kalır. Açılan kontroller ve tanılamalar belirtilen sağlayıcılarla iletişime geçer. Reklam veya davranış analizi yok."
+  },
+  "policyDeclarationTitle": {
+    "message": "Kullanım ve ölçüm bildirimi"
+  },
+  "policyDeclarationSummary": {
+    "message": "Bu uzantı, bir proxy veya VPN sağlayıcısı değil, yerel bir rota yöneticisidir. Ölçümler ağ, proxy ve sağlayıcı koşullarından etkilenen referans örnekleridir."
+  },
+  "policyFaqTitle": {
+    "message": "SSS"
+  },
+  "policyFaqSummary": {
+    "message": "Yerel düğümler ve MTR için Windows tamamlayıcısı gereklidir. Gecikme süresi tarayıcı, sistem ve genel araştırmalara göre farklılık gösterebilir. Ayarlar'dan testi durdurun veya yerel verileri temizleyin."
+  },
+  "policyDetailsLink": {
+    "message": "Tüm ayrıntıları okuyun ↗"
+  },
+  "thirdPartyNotice": {
+    "message": "Açık kaynak bildirimleri ↗"
+  },
+  "columnResizeHelp": {
+    "message": "Yeniden boyutlandırmak için sürükleyin; sıfırlamak için çift tıklayın; ayarlamak için ok tuşlarını kullanın"
+  },
+  "columnResize": {
+    "message": "Sütunu yeniden boyutlandır"
+  },
+  "typeDescription_node": {
+    "message": "Proxy düğümü aracılığıyla bağlanın"
+  },
+  "typeDescription_manual": {
+    "message": "Proxy ayarlarını manuel olarak girin"
+  },
+  "typeDescription_auto": {
+    "message": "Kuralları kullanarak bir düğüm seçin"
+  },
+  "typeDescription_pac": {
+    "message": "Trafiği PAC kurallarını kullanarak yönlendir"
+  },
+  "appDescription": {
+    "message": "Tarayıcı proxy yolları, düğümleri ve etki alanı kuralları. Düğüm rotalarının Windows tamamlayıcısına ihtiyacı vardır."
+  },
+  "core_title": {
+    "message": "Proxy çekirdeği"
+  },
+  "core_checking": {
+    "message": "Yerel bileşen kontrol ediliyor…"
+  },
+  "core_ready": {
+    "message": "Xray hazır"
+  },
+  "core_missing": {
+    "message": "Proxy çekirdeği eksik"
+  },
+  "core_external": {
+    "message": "Özel çekirdek: doğrulanmadı"
+  },
+  "core_corrupt": {
+    "message": "Xray sağlama toplamı uyumsuzluğu — onarım gerekli"
+  },
+  "core_unreadable": {
+    "message": "Çekirdek dosya kontrol edilemedi"
+  },
+  "core_intro": {
+    "message": "Tam Windows paketi, Xray'yi içerir. v2rayN isteğe bağlıdır."
+  },
+  "core_verify": {
+    "message": "Tekrar kontrol edin"
+  },
+  "core_install": {
+    "message": "Çekirdek kurulumu / onarımı"
+  },
+  "core_installing": {
+    "message": "İndiriliyor ve doğrulanıyor…"
+  },
+  "core_done": {
+    "message": "Çekirdek doğrulandı ve hazır"
+  },
+  "core_help": {
+    "message": "Onarım, sabitlenmiş bir resmi Xray sürümünü kullanır ve sağlama toplamını doğrular. Mevcut bağlantılar çalışmaya devam eder."
+  },
+  "core_absent": {
+    "message": "Yerel bileşeni bir kez kurun, ardından çekirdeği kontrol etmek için buraya dönün."
+  },
+  "core_download": {
+    "message": "Kurulum kılavuzu"
+  },
+  "core_absentHelp": {
+    "message": "Eşleşen Windows paketini kullanın veya bu paketi kaynaktan oluşturmak için kılavuzu izleyin, ardından kurulumu çalıştırın."
+  },
+  "core_failed": {
+    "message": "Çekirdek işlemi başarısız oldu. Tekrar deneyin veya Windows paketinin tamamını kullanın."
+  },
+  "core_version": {
+    "message": "Sürüm"
+  },
+  "error_ACTIVE_PROFILE_DELETE": {
+    "message": "Silmeden önce başka bir profile geçin"
+  },
+  "error_BACKUP_BINDING_TYPE": {
+    "message": "Yalnızca proxy profillerinin rota bağları olabilir"
+  },
+  "error_BACKUP_FORMAT3_REQUIRED": {
+    "message": "Düğüm kuralları, biçim 3 taşınabilir yedek gerektirir"
+  },
+  "error_BACKUP_INDEPENDENT_PATH_REQUIRED": {
+    "message": "Yedek bağımsız bir düğüm yolu içermelidir"
+  },
+  "error_BACKUP_INTERNAL_BINDINGS": {
+    "message": "Yedek dahili bağlar içeriyor"
+  },
+  "error_BACKUP_MESSAGE_LIMIT": {
+    "message": "Düğüm yedeği yardımcı uygulamanın ileti boyutu sınırını aşıyor"
+  },
+  "error_BACKUP_NODES_INCOMPLETE": {
+    "message": "Eksik düğüm yedeği"
+  },
+  "error_BACKUP_NODE_MISSING": {
+    "message": "Yedekte gerekli bir düğüm eksik"
+  },
+  "error_BACKUP_NODE_PATHS_LIMIT": {
+    "message": "Yedek en fazla {limit} düğüm yolunu destekler"
+  },
+  "error_BACKUP_PATH_INCOMPLETE": {
+    "message": "Yedekte eksik düğüm yolu"
+  },
+  "error_BACKUP_PROFILES_LIMIT": {
+    "message": "Yedek en fazla {limit} profili destekler"
+  },
+  "error_BACKUP_PROXY_CONFLICT": {
+    "message": "Yedekte çakışan proxy ayarları var"
+  },
+  "error_BACKUP_SIZE_LIMIT": {
+    "message": "Yedek {limit} MB sınırını aşıyor"
+  },
+  "error_BACKUP_TRANSFER_UNAVAILABLE": {
+    "message": "Düğüm yedeklerini aktarmak için yardımcı uygulamayı güncelleyin veya onarın."
+  },
+  "error_BACKUP_UNUSED_NODES": {
+    "message": "Yedekte başvurulmayan düğümler var"
+  },
+  "error_BODY_TOO_LARGE": {
+    "message": "Abonelik yanıtı izin verilen boyutu aşıyor."
+  },
+  "error_BROWSER_API_FAILED": {
+    "message": "Tarayıcı işlemi başarısız oldu. Teknik ayrıntılara bakın."
+  },
+  "error_BROWSER_PROXY_RESTORE_FAILED": {
+    "message": "İşlem başarısız oldu ve tarayıcının önceki proxy ayarı geri yüklenemedi"
+  },
+  "error_BROWSER_SCHEDULING_UNAVAILABLE": {
+    "message": "Tarayıcı zamanlaması kullanılamıyor."
+  },
+  "error_BUSY": {
+    "message": "Başka bir işlem sürüyor. Kısa süre sonra yeniden deneyin."
+  },
+  "error_CHAIN_PROBE_FAILED": {
+    "message": "Zincir testi başarısız oldu"
+  },
+  "error_COMPANION_BULK_RELEASE_REQUIRED": {
+    "message": "Birden fazla düğüm kuralını güvenle yönetmek için yerel yardımcı uygulamayı yükseltin"
+  },
+  "error_COMPANION_CHAINS_REQUIRED": {
+    "message": "Sıralı zincirleri etkinleştirmek için yerel yardımcı uygulamayı yükseltin"
+  },
+  "error_COMPANION_MESSAGE_LIMIT": {
+    "message": "Ayarlar yardımcı uygulamanın ileti boyutu sınırını aşıyor"
+  },
+  "error_COMPANION_OPERATION_FAILED": {
+    "message": "Yerel yardımcı uygulama işlemi başarısız oldu. Teknik ayrıntılara bakın."
+  },
+  "error_COMPANION_UNAVAILABLE": {
+    "message": "V2Route Companion uygulamasını yükleyin veya onarın"
+  },
+  "error_CONNECTION_CLOSED": {
+    "message": "Test tamamlanmadan bağlantı kapandı."
+  },
+  "error_CORE_INSTALL_FAILED": {
+    "message": "Çekirdek kurulumu başarısız oldu. Teknik ayrıntılara bakın."
+  },
+  "error_CORE_OWNERSHIP_FAILED": {
+    "message": "Yalıtılmış test çekirdeği güvenle denetlenemedi. Test durduruldu."
+  },
+  "error_CORE_START_FAILED": {
+    "message": "Yalıtılmış test çekirdeği başlatılamadı. Yardımcı uygulama ve çekirdek kurulumunu denetleyin."
+  },
+  "error_CORE_START_TIMEOUT": {
+    "message": "Yalıtılmış test çekirdeği zamanında hazır olmadı."
+  },
+  "error_CORE_STATUS_UNAVAILABLE": {
+    "message": "Çekirdek durumu kullanılamıyor. Teknik ayrıntılara bakın."
+  },
+  "error_CORE_VALIDATION_FAILED": {
+    "message": "Xray içe aktarılan düğümleri doğrulayamadı. Ayarlarını denetleyip yeniden deneyin."
+  },
+  "error_DETACH_PORT_CONFLICT": {
+    "message": "Yönetilen bağlantı noktası serbest bırakılacak. Farklı bir elle yapılandırılan proxy girin"
+  },
+  "error_DETACH_PROXY_REQUIRED": {
+    "message": "Bağı kaldırmadan önce yerine kullanılacak elle yapılandırılan proxy'yi girin"
+  },
+  "error_DNS_BUSY": {
+    "message": "DNS sorgusu meşgul. Kısa süre sonra yeniden deneyin."
+  },
+  "error_DNS_FAILED": {
+    "message": "DNS sorgusu başarısız oldu. Adresi ve ağ bağlantısını denetleyin."
+  },
+  "error_ENCODING_UNSUPPORTED": {
+    "message": "Abonelik desteklenmeyen bir içerik kodlaması kullanıyor."
+  },
+  "error_FIREFOX_PRIVATE_ACCESS_REQUIRED": {
+    "message": "Proxy ayarlarını değiştirmeden önce uzantı ayrıntılarından V2Route için gizli pencerelerde çalışmaya izin verin"
+  },
+  "error_FOLDER_UNAVAILABLE": {
+    "message": "Klasör kullanılamıyor; yolu, erişimi ve yardımcı uygulama sürümünü denetleyin"
+  },
+  "error_GROUP_LIMIT": {
+    "message": "Grup sınırına ulaşıldı. Kullanılmayan bir grubu kaldırıp yeniden deneyin."
+  },
+  "error_GROUP_NOT_EDITABLE": {
+    "message": "Bu kaynak grubu burada düzenlenemez."
+  },
+  "error_GROUP_NOT_FOUND": {
+    "message": "Seçili grup artık yok. Başka bir grup seçin."
+  },
+  "error_HTTP_ENCODING": {
+    "message": "Test sunucusu desteklenmeyen bir kodlama döndürdü."
+  },
+  "error_HTTP_LENGTH": {
+    "message": "Test yanıtının boyutu istenen boyutla eşleşmedi."
+  },
+  "error_HTTP_RESPONSE_TOO_LARGE": {
+    "message": "Test yanıtı izin verilen boyutu aştı."
+  },
+  "error_HTTP_STATUS": {
+    "message": "Test sunucusu başarısız bir HTTP durumu döndürdü."
+  },
+  "error_IMPORTED_PROXY_MISSING": {
+    "message": "Yardımcı uygulama içe aktarılan proxy'yi döndürmedi"
+  },
+  "error_IMPORTED_RULE_PATH_CONFLICT": {
+    "message": "İçe aktarılan düğümler çakışan kural yollarına yol açıyor"
+  },
+  "error_IMPORT_CLEANUP_FAILED": {
+    "message": "İçe aktarma başarısız oldu; bazı geçici düğümler veya bağlantı noktaları serbest bırakılamadı. Mevcut profiller korundu"
+  },
+  "error_IMPORT_PROFILE_NAME_CONFLICT": {
+    "message": "Yinelenen veya geçersiz profil adı"
+  },
+  "error_INCOMPLETE_RESPONSE": {
+    "message": "Abonelik yanıtı eksikti. Yeniden deneyin."
+  },
+  "error_INVALID_BACKUP": {
+    "message": "Geçersiz V2Route yedeği"
+  },
+  "error_INVALID_BACKUP_NODE": {
+    "message": "Geçersiz veya yinelenen yedek düğümü"
+  },
+  "error_INVALID_BACKUP_NODES": {
+    "message": "Geçersiz yedek düğümleri"
+  },
+  "error_INVALID_BACKUP_PATH": {
+    "message": "Geçersiz yedek yolu"
+  },
+  "error_INVALID_BYPASS_ENTRY": {
+    "message": "Geçersiz atlama girdisi"
+  },
+  "error_INVALID_BYPASS_LIST": {
+    "message": "Geçersiz atlama listesi"
+  },
+  "error_INVALID_CHAIN": {
+    "message": "Geçersiz sıralı zincir"
+  },
+  "error_INVALID_CHAIN_PROBE": {
+    "message": "Geçersiz zincir testi"
+  },
+  "error_INVALID_COMPANION_RESPONSE": {
+    "message": "Yerel yardımcı uygulama geçersiz bir yanıt döndürdü. Uygulamayı güncelleyin veya onarın."
+  },
+  "error_INVALID_CONTENT": {
+    "message": "Abonelik yanıtı geçerli içerik içermiyor."
+  },
+  "error_INVALID_DOMAIN_PATTERNS": {
+    "message": "Virgülle ayrılmış alan adı kalıpları girin; her URL ayrı bir satırda olsun"
+  },
+  "error_INVALID_ENCODING": {
+    "message": "Abonelik yanıtı geçerli UTF-8 metni değil."
+  },
+  "error_INVALID_FOLDER_REQUEST": {
+    "message": "Geçersiz klasör isteği"
+  },
+  "error_INVALID_GROUP_ACTION": {
+    "message": "Bu grup işlemi desteklenmiyor."
+  },
+  "error_INVALID_HOP_INDEX": {
+    "message": "Geçersiz atlama dizini"
+  },
+  "error_INVALID_LEGACY_PREDECESSOR": {
+    "message": "Geçersiz eski öncül"
+  },
+  "error_INVALID_LIBRARY_COMMAND": {
+    "message": "Bu düğüm kitaplığı komutu desteklenmiyor."
+  },
+  "error_INVALID_LIBRARY_REQUEST": {
+    "message": "Geçersiz kitaplık isteği"
+  },
+  "error_INVALID_NAME": {
+    "message": "Denetim karakteri içermeyen, 1–128 görünür karakterden oluşan bir ad girin."
+  },
+  "error_INVALID_NETWORK_TEST": {
+    "message": "Geçersiz ağ testi"
+  },
+  "error_INVALID_NODE_IMPORT_RESPONSE": {
+    "message": "Geçersiz düğüm içe aktarma yanıtı"
+  },
+  "error_INVALID_PREDECESSOR": {
+    "message": "Bu rota için geçersiz öncül"
+  },
+  "error_INVALID_PROFILE_NAME": {
+    "message": "Geçersiz profil adı"
+  },
+  "error_INVALID_PROFILE_REFERENCE": {
+    "message": "Geçersiz profil başvurusu"
+  },
+  "error_INVALID_PROXY_AUTH": {
+    "message": "Geçersiz proxy kimlik doğrulaması"
+  },
+  "error_INVALID_PROXY_CREDENTIALS": {
+    "message": "Geçersiz proxy kimlik bilgileri"
+  },
+  "error_INVALID_PROXY_ENDPOINT": {
+    "message": "Geçerli bir proxy sunucu adı ve bağlantı noktası girin"
+  },
+  "error_INVALID_PROXY_HOST": {
+    "message": "Bağlantı noktası, URL, yol veya sorgu içermeyen bir DNS adı ya da IP adresi girin"
+  },
+  "error_INVALID_ROUTE": {
+    "message": "Geçersiz rota"
+  },
+  "error_INVALID_ROUTE_SETTINGS": {
+    "message": "Geçersiz rota ayarları"
+  },
+  "error_INVALID_RULES": {
+    "message": "Geçersiz kurallar"
+  },
+  "error_INVALID_RULE_TARGET": {
+    "message": "Her kural için geçerli bir düğüm veya profil seçin"
+  },
+  "error_INVALID_SUBSCRIPTION": {
+    "message": "Geçersiz abonelik"
+  },
+  "error_INVALID_SUBSCRIPTION_REQUEST": {
+    "message": "Geçersiz abonelik isteği"
+  },
+  "error_INVALID_SUBSCRIPTION_SETTINGS": {
+    "message": "Abonelik ayarları geçersiz. Güncelleme aralığını ve bağlantı ilkesini denetleyin."
+  },
+  "error_INVALID_SYSTEM_PROXY_RESPONSE": {
+    "message": "Geçersiz sistem proxy yanıtı; yardımcı uygulamayı güncelleyin veya onarın"
+  },
+  "error_INVALID_TRANSPORT": {
+    "message": "Abonelik bağlantı ayarları geçersiz."
+  },
+  "error_INVALID_URL": {
+    "message": "Kullanıcı adı veya parola içermeyen geçerli bir HTTP(S) abonelik URL'si girin."
+  },
+  "error_LIBRARY_CHANGED": {
+    "message": "Düğüm kitaplığı başka bir pencerede değişti. Yenileyip tekrar deneyin."
+  },
+  "error_MANUAL_CHAIN_UNSUPPORTED": {
+    "message": "Elle yapılandırılan proxy'ler düğüm zinciri kabul etmez"
+  },
+  "error_MANUAL_PROXY_CLEANUP_FAILED": {
+    "message": "Kaydetme başarısız oldu; geçici olarak içe aktarılan bir proxy düğüm kitaplığında kaldı"
+  },
+  "error_NATIVE_BINDING_ID": {
+    "message": "Geçersiz rota bağı tanımlayıcısı."
+  },
+  "error_NATIVE_BINDING_UNKNOWN": {
+    "message": "Rota bağı yok."
+  },
+  "error_NATIVE_BUTTON_NAME": {
+    "message": "Düğme adı 1–128 görünür karakter içermelidir."
+  },
+  "error_NATIVE_CATALOG_UNREADABLE": {
+    "message": "v2rayN yapılandırması okunamadı."
+  },
+  "error_NATIVE_CORE_MISSING": {
+    "message": "Xray kullanılamıyor. Yardımcı uygulama paketini yükleyin."
+  },
+  "error_NATIVE_GROUP_ID_COLLISION": {
+    "message": "Grup tanımlayıcıları çakışıyor."
+  },
+  "error_NATIVE_GROUP_ORDER": {
+    "message": "Geçersiz grup sırası."
+  },
+  "error_NATIVE_NODE_ID_COLLISION": {
+    "message": "Düğüm tanımlayıcıları çakışıyor."
+  },
+  "error_NATIVE_PREDECESSOR_AMBIGUOUS": {
+    "message": "Öncül adı eksik veya yineleniyor. Belirli bir öncül düğüm seçin."
+  },
+  "error_NATIVE_PREDECESSOR_CYCLE": {
+    "message": "Öncül zinciri döngü içeriyor veya altı düğümü aşıyor."
+  },
+  "error_NATIVE_PREDECESSOR_INVALID": {
+    "message": "Geçerli bir öncül proxy seçin."
+  },
+  "error_NATIVE_PREDECESSOR_MISSING": {
+    "message": "Seçili öncül artık yok. Başka bir düğüm seçin."
+  },
+  "error_NATIVE_PREDECESSOR_SETTINGS": {
+    "message": "Geçersiz öncül ayarları."
+  },
+  "error_NATIVE_ROUTE_INVALID": {
+    "message": "Geçerli bir rota seçin."
+  },
+  "error_NATIVE_ROUTE_MISSING": {
+    "message": "Bu rota artık yok. Başka bir rota seçin."
+  },
+  "error_NATIVE_ROUTE_PORTS": {
+    "message": "Geçersiz rota bağlantı noktası atamaları."
+  },
+  "error_NATIVE_ROUTE_UNAVAILABLE": {
+    "message": "Seçili rota kullanılamıyor. Teknik ayrıntılara bakın."
+  },
+  "error_NATIVE_SETTINGS_FORMAT": {
+    "message": "Geçersiz ayar biçimi."
+  },
+  "error_NATIVE_SETTINGS_REVISION": {
+    "message": "Geçersiz ayar revizyonu."
+  },
+  "error_NATIVE_SUCCESSOR_UNSUPPORTED": {
+    "message": "Bu grup desteklenmeyen bir ardıl proxy kullanıyor."
+  },
+  "error_NATIVE_UNSUPPORTED_CUSTOM": {
+    "message": "Bu sürüm özel giden bağlantı yapılandırmalarını desteklemiyor."
+  },
+  "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
+    "message": "Bu sürüm Hysteria2 protokolünü desteklemiyor."
+  },
+  "error_NATIVE_UNSUPPORTED_TUIC": {
+    "message": "Bu sürüm, TUIC için gereken sing-box çekirdeğini içermiyor."
+  },
+  "error_NATIVE_UNSUPPORTED_TYPE": {
+    "message": "Bu rota türü desteklenmiyor."
+  },
+  "error_NATIVE_V2RAYN_PORT": {
+    "message": "Yerel v2rayN bağlantı noktası geçersiz."
+  },
+  "error_NATIVE_V2RAYN_UNAVAILABLE": {
+    "message": "v2rayN kullanılamıyor. İçe aktarılmış bir düğüm seçin."
+  },
+  "error_NETWORK_FAILED": {
+    "message": "Ağ isteği başarısız oldu. Bağlantıyı denetleyip yeniden deneyin."
+  },
+  "error_NETWORK_TEST_FAILED": {
+    "message": "Ağ tanılaması başarısız oldu. Teknik ayrıntılara bakın."
+  },
+  "error_NODE_LIMIT": {
+    "message": "Bu işlem düğüm sınırını aşar. Kullanılmayan düğümleri kaldırıp yeniden deneyin."
+  },
+  "error_NODE_MAPPING_INCOMPLETE": {
+    "message": "Düğüm eşlemesi eksik"
+  },
+  "error_NODE_NOT_FOUND": {
+    "message": "Seçili düğüm artık yok. Başka bir düğüm seçin."
+  },
+  "error_NOT_DUE": {
+    "message": "Sonraki zamanlanmış güncellemenin zamanı henüz gelmedi."
+  },
+  "error_PAC_ENTRY_REQUIRED": {
+    "message": "FindProxyForURL içeren PAC kaynak kodunu girin"
+  },
+  "error_PAC_FUNCTION_REQUIRED": {
+    "message": "Üst düzeyde eşzamanlı bir FindProxyForURL işlevi, işlev değişkeni veya ataması tanımlayın"
+  },
+  "error_PAC_PARSER_UNAVAILABLE": {
+    "message": "Paketlenmiş PAC ayrıştırıcısı kullanılamıyor; uzantıyı yeniden yükleyin"
+  },
+  "error_PAC_RULE_TARGET_UNSUPPORTED": {
+    "message": "Otomatik kurallar gömülü PAC profilini hedefleyemez"
+  },
+  "error_PAC_SOURCE_LIMIT": {
+    "message": "En fazla {limit} karakterlik PAC kaynak kodu girin"
+  },
+  "error_PAC_SYNTAX_INVALID": {
+    "message": "Geçersiz PAC sözdizimi"
+  },
+  "error_PAC_SYNTAX_LOCATION": {
+    "message": "{line}. satır, {column}. sütunda geçersiz PAC sözdizimi"
+  },
+  "error_PARTIAL_TRANSFER": {
+    "message": "Tüm veriler alınmadan test aktarımı sona erdi."
+  },
+  "error_PRIVATE_DIRECTORY_FAILED": {
+    "message": "Özel test klasörü güvenli hale getirilemedi. Test durduruldu."
+  },
+  "error_PRIVATE_TARGET": {
+    "message": "Özel veya yerel adreslere abonelik isteği gönderilmesine izin verilmez."
+  },
+  "error_PROFILE_NOT_FOUND": {
+    "message": "Profil bulunamadı"
+  },
+  "error_PROFILE_REFERENCE_CYCLE": {
+    "message": "Döngüsel profil başvuruları"
+  },
+  "error_PROFILE_REFERENCE_DEPTH": {
+    "message": "Otomatik kurallar en fazla {limit} olan derinliği aşıyor"
+  },
+  "error_PROFILE_REFERENCE_MISSING": {
+    "message": "Başvurulan profil yok: {name}"
+  },
+  "error_PROFILE_SAVE_RESTORE_FAILED": {
+    "message": "Kaydetme başarısız oldu ve rota geri yüklemesi dikkat gerektiriyor"
+  },
+  "error_PROXY_AUTH_REQUIRED": {
+    "message": "Abonelik proxy'si, bu isteğin sağlayamayacağı bir kimlik doğrulaması gerektiriyor."
+  },
+  "error_PROXY_CONTROL_UNAVAILABLE": {
+    "message": "Proxy'yi başka bir uzantı veya ilke denetliyor"
+  },
+  "error_PROXY_DNS_REQUIRED": {
+    "message": "V2Route içinde SOCKS5 DNS çözümlemesi proxy üzerinden yapılır"
+  },
+  "error_PROXY_FAILED": {
+    "message": "Proxy bağlantısı başarısız oldu. Seçili rotayı denetleyin."
+  },
+  "error_PROXY_PROFILE_REQUIRED": {
+    "message": "Bir proxy profili seçin"
+  },
+  "error_PROXY_ROLLBACK_REFUSED": {
+    "message": "Tarayıcı proxy geri almasını reddetti"
+  },
+  "error_PROXY_SETTING_REFUSED": {
+    "message": "Tarayıcı proxy ayarını reddetti"
+  },
+  "error_PROXY_UNAVAILABLE": {
+    "message": "Seçili proxy kullanılamıyor. Geçerli rotayı denetleyin."
+  },
+  "error_PROXY_USERNAME_REQUIRED": {
+    "message": "Proxy kullanıcı adı girin"
+  },
+  "error_RECOVERY_BINDINGS_LIMIT": {
+    "message": "Kurtarma en fazla {limit} düğüm bağını geri yükleyebilir. Başvurulan profilleri ayrı ayrı açıp kaydedin."
+  },
+  "error_REDIRECT_LIMIT": {
+    "message": "Abonelik çok fazla yönlendirme yaptı. URL'sini denetleyin."
+  },
+  "error_REFERENCED_PROFILE_DELETE": {
+    "message": "Bir otomatik kural bu profile başvuruyor"
+  },
+  "error_REMOTE_PAC_UNSUPPORTED": {
+    "message": "Gömülü PAC kaynak kodu kullanın; uzak PAC desteklenmez"
+  },
+  "error_ROUTE_PORT_UNAVAILABLE": {
+    "message": "Bağlantı noktası ayrılmadı"
+  },
+  "error_ROUTE_RECOVERY_RESTORE_FAILED": {
+    "message": "Rota kurtarma başarısız oldu ve geri yükleme dikkat gerektiriyor"
+  },
+  "error_ROUTE_REVISION_CONFLICT": {
+    "message": "Rota başka bir pencerede değişti. Önce yenileyin"
+  },
+  "error_ROUTE_SAVE_ROLLBACK_FAILED": {
+    "message": "Rota kaydetme başarısız oldu ve geri alma dikkat gerektiriyor"
+  },
+  "error_ROUTE_UNAVAILABLE": {
+    "message": "Test rotası kullanılamıyor. Düğüm ve öncül ayarlarını denetleyin."
+  },
+  "error_RULE_BINDING_MISSING": {
+    "message": "Düğüm kuralının bağı eksik. Otomatik profili yeniden açıp kaydedin: {name}"
+  },
+  "error_RULE_NODES_LIMIT": {
+    "message": "Otomatik kurallar en fazla {limit} farklı düğümü destekler"
+  },
+  "error_RULE_NODE_CHANGED": {
+    "message": "Düğüm kuralı kullanılamıyor veya değişti. Düğümü geri yükleyin ya da başka bir düğüm seçip kaydedin: {name}"
+  },
+  "error_RULE_PATH_CONFLICT": {
+    "message": "Çakışan düğüm kuralı yolları"
+  },
+  "error_RULE_PATTERNS_LIMIT": {
+    "message": "Otomatik kurallar toplamda en fazla {limit} eşleşme kalıbını destekler"
+  },
+  "error_RULE_PORT_UNAVAILABLE": {
+    "message": "Düğüm kuralının bağlantı noktası kullanılamıyor"
+  },
+  "error_RULE_REVISION_CONFLICT": {
+    "message": "Düğüm kuralı başka bir pencerede değişti. Önce yenileyin"
+  },
+  "error_SELECTED_NODE_UNAVAILABLE": {
+    "message": "Seçili düğüm kullanılamıyor. Geri yükleyin veya başka bir düğüm seçin"
+  },
+  "error_SOCKS_FAILED": {
+    "message": "SOCKS bağlantısı kurulamadı."
+  },
+  "error_STARTUP_FALLBACK_REFUSED": {
+    "message": "Tarayıcı başlangıçtaki yedek proxy'yi reddetti."
+  },
+  "error_SUBSCRIPTION_CHANGED": {
+    "message": "Abonelik güncelleme sırasında değişti. Yenileyip tekrar deneyin."
+  },
+  "error_SUBSCRIPTION_HTTP_STATUS": {
+    "message": "Abonelik sunucusu HTTP {status} döndürdü."
+  },
+  "error_SUBSCRIPTION_LIMIT": {
+    "message": "Abonelik sınırına ulaşıldı. Kullanılmayan bir aboneliği kaldırıp yeniden deneyin."
+  },
+  "error_SUBSCRIPTION_NOT_FOUND": {
+    "message": "Seçili abonelik artık yok."
+  },
+  "error_SYSTEM_PROXY_SNAPSHOT_UNAVAILABLE": {
+    "message": "Uygulanan sistem proxy anlık görüntüsü kullanılamıyor."
+  },
+  "error_SYSTEM_PROXY_TIMEOUT": {
+    "message": "Sistem proxy'sini okuma zaman aşımına uğradı"
+  },
+  "error_SYSTEM_PROXY_UNAVAILABLE": {
+    "message": "Sistem proxy'si kullanılamıyor. Teknik ayrıntılara bakın."
+  },
+  "error_TIMEOUT": {
+    "message": "İstek zaman aşımına uğradı. Bağlantıyı denetleyip yeniden deneyin."
+  },
+  "error_TLS_DOWNGRADE": {
+    "message": "Abonelik HTTPS adresinden HTTP adresine yönlendirildi ve engellendi."
+  },
+  "error_TLS_FAILED": {
+    "message": "Güvenli bağlantı doğrulanamadı. Sunucuyu ve sertifikayı denetleyin."
+  },
+  "error_UNSAFE_TEMP_PATH": {
+    "message": "Geçici test klasörü güvenli değil. Test durduruldu."
+  },
+  "error_UNSUPPORTED_LIBRARY_REQUEST": {
+    "message": "Desteklenmeyen kitaplık isteği"
+  },
+  "error_UNSUPPORTED_PROFILE_TYPE": {
+    "message": "Desteklenmeyen profil türü"
+  },
+  "error_UNSUPPORTED_REQUEST": {
+    "message": "Desteklenmeyen istek"
+  },
+  "error_UNSUPPORTED_RULE_CONDITION": {
+    "message": "Yalnızca sunucu adı ve URL joker karakter kuralları desteklenir"
+  },
+  "error_UPDATE_FAILED": {
+    "message": "Abonelik güncellemesi başarısız oldu. Mevcut düğümler korundu."
+  },
+  "error_VALIDATION_FAILED": {
+    "message": "Abonelik içeriği doğrulanamadı. Mevcut düğümler korundu."
+  },
+  "nativeUnnamedNode": {
+    "message": "Adsız düğüm"
+  },
+  "nativeProtocolCustom": {
+    "message": "Özel"
+  },
+  "nativeProtocolOutbound": {
+    "message": "Özel giden bağlantı"
+  },
+  "nativeProtocolGroup": {
+    "message": "İlke grubu"
+  },
+  "nativeProtocolChain": {
+    "message": "Proxy zinciri"
+  },
+  "nativeProtocolUnknown": {
+    "message": "Desteklenmeyen tür"
+  },
+  "languageLoadFailed": {
+    "message": "Seçili dil yüklenemedi. Yeniden deneyin."
+  },
+  "invalidBackupJSON": {
+    "message": "Yedek geçerli JSON değil."
+  },
+  "noticeBodyLanguages": {
+    "message": "İlkenin tam metni İngilizce ve Basitleştirilmiş Çince olarak mevcuttur."
+  },
+  "policyRules": {
+    "message": "Proxy yönlendirme kuralları"
+  },
+  "policyPriority": {
+    "message": "Sıra: proxy dışı adresler → ilk eşleşen kural → varsayılan yol."
+  },
+  "policyDirectHelp": {
+    "message": "Eşleşmeyen adreslere doğrudan bağlanılır. Açılır penceredeki Doğrudan düğmesi de bu kuralları kullanır."
+  },
+  "policySystemHelp": {
+    "message": "Eşleşmeyen adresler sistem proxy’sini kullanır. Açılır penceredeki Sistem düğmesi de bu kuralları kullanır."
+  },
+  "policyEmpty": {
+    "message": "Henüz kural yok. Varsayılan yol kullanılır."
+  },
+  "policyAddressHelp": {
+    "message": "Alan adı, joker alan adı, IP veya IP:port. IP kuralları DNS sonuçlarını değil URL içindeki IP’yi eşleştirir."
+  },
+  "policyMoveUp": {
+    "message": "Kuralı yukarı taşı"
+  },
+  "policyMoveDown": {
+    "message": "Kuralı aşağı taşı"
+  }
+}

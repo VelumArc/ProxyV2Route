@@ -1,0 +1,28 @@
+/* Shared themed menus preserve each page's closed-control dimensions. */
+.themed-select{display:inline-flex;position:relative;min-width:0;width:100%;max-width:100%;vertical-align:middle}
+.themed-select[hidden],select.themed-select-native{display:none!important}
+.themed-select-trigger{display:flex;align-items:center;justify-content:space-between;gap:10px;box-sizing:border-box;width:100%;max-width:100%;min-width:0;margin:0;text-align:start;cursor:pointer;appearance:none}
+.themed-select-trigger:hover{border-color:var(--control-outline-hover,var(--accent))!important}
+.themed-select-trigger:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.nl-top-control .themed-select-trigger:focus-visible{outline:none}
+.nl-top-control:has(.themed-select-trigger:focus-visible){outline:2px solid var(--accent);outline-offset:2px}
+.themed-select-trigger:disabled{opacity:.55;cursor:default}
+.themed-select-value{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:650}
+.themed-select-arrow{width:7px;height:7px;flex:none;margin:-3px 2px 0 0;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:rotate(45deg);color:var(--accent)}
+.themed-select-trigger[aria-expanded=true] .themed-select-arrow{transform:rotate(225deg);margin-top:4px}
+.themed-select-menu{position:fixed;inset:auto;box-sizing:border-box;min-width:0;max-width:calc(100vw - 16px);margin:0;padding:6px;border:1px solid var(--control-outline,var(--border));border-radius:12px;background:var(--aurora-soft-glass),var(--surface);color:var(--text);box-shadow:0 12px 30px #17375b30,inset 0 1px 0 #ffffff38;backdrop-filter:blur(16px);overflow-x:hidden;overflow-y:auto;scrollbar-gutter:stable;overscroll-behavior:contain;font-family:inherit;font-size:14px;line-height:1.4;scrollbar-width:thin;scrollbar-color:var(--accent) transparent;white-space:normal}
+#header-preferences .themed-select-menu{background:linear-gradient(145deg,color-mix(in srgb,var(--surface-soft) 88%,var(--accent)),var(--accent-soft) 54%,color-mix(in srgb,var(--surface-soft) 86%,#8a74ee)),var(--surface-soft)}
+#header-preferences .themed-select-option:not([aria-disabled=true]):hover{background:linear-gradient(130deg,var(--surface),var(--surface-soft))}
+.themed-select-menu[hidden]{display:none}
+.themed-select-menu::backdrop{background:transparent;pointer-events:none}
+.themed-select-option{display:flex;align-items:center;justify-content:space-between;gap:6px;min-width:0;max-width:100%;min-height:38px;padding:8px;box-sizing:border-box;border:1px solid transparent;border-radius:8px;background:transparent;font-weight:550;cursor:pointer;user-select:none}
+.themed-select-option[hidden]{display:none}
+.themed-select-option-label{flex:1;min-width:0;overflow-wrap:anywhere;font-weight:650}
+.themed-select-option:not([aria-disabled=true]):hover{background:var(--accent-soft)}
+.themed-select-menu[data-input-mode=keyboard]:not(:has(.themed-select-option:hover)) .themed-select-option.is-active{border-color:var(--accent)}
+.themed-select-option[aria-disabled=true]{opacity:.45;cursor:default}
+.themed-select-check{flex:none;width:8px;height:6px;border-left:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(-45deg);visibility:hidden}
+.themed-select-option[aria-selected=true] .themed-select-check{visibility:visible}
+.themed-select-group{padding:8px 10px 4px;font-size:12px;font-weight:700;color:var(--support-ink,var(--muted))}
+[data-theme=dark] .themed-select-menu{box-shadow:0 12px 32px #0007,inset 0 1px 0 #ffffff12}
+@media(forced-colors:active){.themed-select-trigger,.themed-select-menu{background:Canvas!important;color:CanvasText!important;border-color:ButtonText!important}.themed-select-option{forced-color-adjust:none;background:transparent;color:CanvasText}.themed-select-option .themed-select-option-label{color:CanvasText!important}.themed-select-option:not([aria-disabled=true]):hover{background:Highlight!important;color:HighlightText}.themed-select-option:not([aria-disabled=true]):hover .themed-select-option-label{color:HighlightText!important}.themed-select-menu[data-input-mode=keyboard]:not(:has(.themed-select-option:hover)) .themed-select-option.is-active{border-color:Highlight;outline:1px solid Highlight;outline-offset:-2px}}

@@ -1,0 +1,2150 @@
+{
+  "ruleTargetUnavailable": {
+    "message": "יעד לא זמין"
+  },
+  "rulePatternPlaceholder": {
+    "message": "example.com, *.example.org, 192.0.2.1:8443"
+  },
+  "rulePatternHelp": {
+    "message": "יש להפריד כתובות בפסיקים. כל תבנית URL בשורה נפרדת. ייתכן ש־PAC לא יראה נתיבי HTTPS."
+  },
+  "defaultChoice_direct": {
+    "message": "התחבר ללא פרוקסי"
+  },
+  "defaultChoice_system": {
+    "message": "השתמש בהגדרות פרוקסי מערכת"
+  },
+  "defaultChoice_node": {
+    "message": "השתמש בצומת שנבחר של פרופיל זה"
+  },
+  "defaultChoice_manual": {
+    "message": "השתמש בהגדרות ה-proxy של פרופיל זה"
+  },
+  "defaultChoice_auto": {
+    "message": "החל את כללי הניתוב של פרופיל זה\nתגובה"
+  },
+  "nlHttpsLatency": {
+    "message": "HTTPS"
+  },
+  "nlLatencyMethod": {
+    "message": "Cloudflare · מינימום של שתי תגובות · שימוש חוזר בחיבור כאשר זמין"
+  },
+  "nlLatencyFast": {
+    "message": "מהיר"
+  },
+  "nlLatencyModerate": {
+    "message": "מתון"
+  },
+  "nlLatencySlow": {
+    "message": "איטי"
+  },
+  "nlSortName": {
+    "message": "שם"
+  },
+  "nlSortLatency": {
+    "message": "חביון: נמוך עד גבוה"
+  },
+  "nlSortDownload": {
+    "message": "הורדה: גבוה לנמוך"
+  },
+  "nlSortUpload": {
+    "message": "העלאה: גבוה לנמוך"
+  },
+  "nlSingle": {
+    "message": "צומת בודד"
+  },
+  "nlGroupBatch": {
+    "message": "קבוצה / אצווה"
+  },
+  "nlTestScope": {
+    "message": "היקף הבדיקה"
+  },
+  "nlCurrentNode": {
+    "message": "צומת נבחר"
+  },
+  "nlCurrentGroup": {
+    "message": "קבוצה נבחרת"
+  },
+  "nlChooseNode": {
+    "message": "בחר צומת ברשימה"
+  },
+  "nlStart": {
+    "message": "התחל בדיקה"
+  },
+  "nlService": {
+    "message": "שירות בדיקות"
+  },
+  "nlMeasured": {
+    "message": "נמדד"
+  },
+  "nlMeanLatency": {
+    "message": "זמן אחזור ממוצע"
+  },
+  "nlGroupBySource": {
+    "message": "לפי קבוצת מקור"
+  },
+  "nlPreviousPage": {
+    "message": "עמוד קודם"
+  },
+  "nlNextPage": {
+    "message": "העמוד הבא"
+  },
+  "nlName": {
+    "message": "שם"
+  },
+  "nlEdit": {
+    "message": "עריכה"
+  },
+  "nlStop": {
+    "message": "עצור"
+  },
+  "nlConfirm": {
+    "message": "אשר"
+  },
+  "nlAllNodes": {
+    "message": "כל הצמתים"
+  },
+  "nlNodeResults": {
+    "message": "תוצאות צומת"
+  },
+  "nlTestCenter": {
+    "message": "מרכז בדיקות"
+  },
+  "nlNewGroup": {
+    "message": "קבוצה חדשה"
+  },
+  "nlRenameGroup": {
+    "message": "שנה את שם הקבוצה"
+  },
+  "nlRemoveGroup": {
+    "message": "הסר קבוצה"
+  },
+  "nlRemoveGroupHelp": {
+    "message": "שמור כל צומת ומנוי, והעבר אותם לצמתים מיובאים."
+  },
+  "nlNode": {
+    "message": "צומת"
+  },
+  "nlStatus": {
+    "message": "סטטוס"
+  },
+  "nlActions": {
+    "message": "פעולות"
+  },
+  "nlSort": {
+    "message": "מיין טבלה זו בלבד"
+  },
+  "nlSelected": {
+    "message": "נבחר"
+  },
+  "nlTestNode": {
+    "message": "מבחן"
+  },
+  "nlProfileShort": {
+    "message": "פרופיל"
+  },
+  "nlQuick": {
+    "message": "חביון מהיר"
+  },
+  "nlFull": {
+    "message": "הורדה + העלאה"
+  },
+  "nlTraffic": {
+    "message": "גודל נתוני בדיקה"
+  },
+  "nlConcurrency": {
+    "message": "צמתים במקביל"
+  },
+  "nlTrafficFullOnly": {
+    "message": "משמש לבדיקות הורדה והעלאה"
+  },
+  "nlTestMode": {
+    "message": "מצב בדיקה"
+  },
+  "nlBudget": {
+    "message": "תעבורת מטען מקסימלית"
+  },
+  "nlViaGroup": {
+    "message": "דרך פרוקסי קבוצתי מראש"
+  },
+  "nlTestSelected": {
+    "message": "הבדיקה נבחרה"
+  },
+  "nlTestVisible": {
+    "message": "צמתים המוצגים בבדיקה"
+  },
+  "nlTestAll": {
+    "message": "בדוק את כל הצמתים"
+  },
+  "nlTestGroup": {
+    "message": "צמתים של קבוצת בדיקה"
+  },
+  "nlProgress": {
+    "message": "התקדמות המדידה"
+  },
+  "nlReady": {
+    "message": "בחר צמתים להתחיל. שום בדיקה לא רצה."
+  },
+  "nlStarting": {
+    "message": "מתחיל מדידה מבודדת..."
+  },
+  "nlQueued": {
+    "message": "בתור"
+  },
+  "nlRunning": {
+    "message": "בדיקה"
+  },
+  "nlStopping": {
+    "message": "עוצר..."
+  },
+  "nlComplete": {
+    "message": "הושלם"
+  },
+  "nlFailed": {
+    "message": "נכשל"
+  },
+  "nlStopped": {
+    "message": "נעצר"
+  },
+  "nlPartial": {
+    "message": "חלקי"
+  },
+  "nlUntested": {
+    "message": "לא נבדק"
+  },
+  "nlSucceeded": {
+    "message": "עבר"
+  },
+  "nlMeasureDisconnected": {
+    "message": "הסתיים חיבור המדידה. ערכים לא שלמים אינם תוצאות סופיות."
+  },
+  "nlUpgrade": {
+    "message": "עדכן את המלווה המקומי כדי לנהל קבוצות ומינויים. הצמתים הקיימים נשארים זמינים."
+  },
+  "nlOperationFailed": {
+    "message": "לא ניתן היה להשלים את הפעולה. נסה שוב."
+  },
+  "nlEditSubscription": {
+    "message": "ערוך מנוי"
+  },
+  "nlPasteContent": {
+    "message": "קישורי פרוקסי / תוכן"
+  },
+  "nlSubscriptionURL": {
+    "message": "מנוי URL"
+  },
+  "nlKeepURL": {
+    "message": "השאר ריק כדי לשמור את ה-URL"
+  },
+  "nlConnectionPolicy": {
+    "message": "עדכון חיבור"
+  },
+  "nlProxyFirst": {
+    "message": "פרוקסי תחילה, ואז ישיר על כישלון"
+  },
+  "nlProxyOnly": {
+    "message": "פרוקסי בלבד"
+  },
+  "nlDirectOnly": {
+    "message": "ישיר בלבד"
+  },
+  "nlProxyFirstHelp": {
+    "message": "פרוקסי עוצר לראשונה לאחר אחזור מוצלח. ישיר לנסות רק אם ניסיון ה-proxy נכשל."
+  },
+  "nlAutoUpdate": {
+    "message": "אפשר עדכונים אוטומטיים"
+  },
+  "nlInterval": {
+    "message": "מרווח עדכון (דקות)"
+  },
+  "nlDestinationGroup": {
+    "message": "קבוצת יעד"
+  },
+  "nlSubscriptionOwnGroup": {
+    "message": "קבוצה חדשה..."
+  },
+  "nlNameGroup": {
+    "message": "שם (קבוצה)"
+  },
+  "nlCustomGroup": {
+    "message": "קבוצה מותאמת אישית"
+  },
+  "nlNameRequired": {
+    "message": "הזן שם."
+  },
+  "nlContentRequired": {
+    "message": "הדבק קישורי פרוקסי או תוכן מנוי."
+  },
+  "nlGroupRequired": {
+    "message": "בחר קבוצת יעד."
+  },
+  "nlURLRequired": {
+    "message": "הזן מנוי HTTP(S) URL ללא שם משתמש או סיסמה."
+  },
+  "nlIntervalInvalid": {
+    "message": "הזן מספר שלם מ-5 עד 43200 דקות."
+  },
+  "folderTitle": {
+    "message": "בחר תיקייה v2rayN"
+  },
+  "folderHint": {
+    "message": "בחר תיקיה, ולאחר מכן החל אותה עם שמור הגדרות חיבור."
+  },
+  "folderPath": {
+    "message": "נתיב מלא של תיקייה מקומית"
+  },
+  "folderGo": {
+    "message": "פתוח"
+  },
+  "folderUp": {
+    "message": "למעלה"
+  },
+  "folderDrives": {
+    "message": "כוננים"
+  },
+  "folderCurrent": {
+    "message": "נתיב נוכחי"
+  },
+  "folderChoose": {
+    "message": "השתמש בתיקייה זו"
+  },
+  "folderList": {
+    "message": "תיקיות"
+  },
+  "folderTruncated": {
+    "message": "הרישום מוגבל. הזן את הנתיב המלא למעלה כדי לפתוח תיקיה שלא מוצגת."
+  },
+  "folderReady": {
+    "message": "נמצאו קבצים v2rayN. השתמש בתיקייה זו כדי לאמת את התצורה."
+  },
+  "folderInvalid": {
+    "message": "בחר את התיקיה המכילה guiConfigs, guiNConfig.json ו-guiNDB.db."
+  },
+  "folderSelectDrive": {
+    "message": "בחר כונן מקומי או הזן נתיב תיקייה מלא."
+  },
+  "folderEmpty": {
+    "message": "אין תיקיות משנה גלויות."
+  },
+  "folderUnavailable": {
+    "message": "לא ניתן לגלוש בתיקייה זו. בדוק את הנתיב והגישה שלו. אם ה-Comanion ישן יותר, עדכן אותו תחילה."
+  },
+  "folderValidating": {
+    "message": "מאמת תצורה v2rayN..."
+  },
+  "folderInvalidConfig": {
+    "message": "התצורה או מסד הנתונים v2rayN אינם שלמים או לא חוקיים. בחר תיקיה אחרת."
+  },
+  "copyPath": {
+    "message": "העתק נתיב"
+  },
+  "pathCopyHint": {
+    "message": "העתק את הנתיב שנמצא כרגע בשדה זה."
+  },
+  "preMode": {
+    "message": "מצב טרום פרוקסי"
+  },
+  "preNode": {
+    "message": "צומת טרום פרוקסי"
+  },
+  "preIntro": {
+    "message": "השתמש בשרשרת הקבוצה, דלג עליה או בחר פרוקסי מראש לפרופיל זה."
+  },
+  "healthLabel": {
+    "message": "מצב חיבור נוכחי"
+  },
+  "healthOk": {
+    "message": "רגיל"
+  },
+  "healthError": {
+    "message": "לא נורמלי"
+  },
+  "healthChecking": {
+    "message": "בדיקה"
+  },
+  "healthUnknown": {
+    "message": "לא אושר"
+  },
+  "autoSystemHelp": {
+    "message": "כללי מערכת דורשים את רכיב Windows ועותק של הגדרות שרת מתווך קבוע. יש להחיל שוב אחרי שינוי. PAC/WPAD אינם נתמכים; מערכת ללא כללים משתמשת בהגדרות הדפדפן המקוריות."
+  },
+  "backgroundUnavailable": {
+    "message": "רקע התוסף אינו זמין."
+  },
+  "backgroundNoResponse": {
+    "message": "הרקע לא הגיב."
+  },
+  "backupTooLarge": {
+    "message": "הגיבוי עולה על 5MB."
+  },
+  "proxyUsername": {
+    "message": "שם משתמש"
+  },
+  "proxyPassword": {
+    "message": "סיסמא"
+  },
+  "proxyAuthHelp": {
+    "message": "אופציונלי. פרוקסי מאומתים מתחברים דרך ה-Comanion. אישורים מאוחסנים בתצורת הדפדפן הזו וב-Companion, ונכללים בייצוא פרופילים."
+  },
+  "proxyAuthSocks4": {
+    "message": "SOCKS4 אינו תומך באימות שם משתמש/סיסמה זה; השתמש ב-HTTP(S) או SOCKS5."
+  },
+  "importExamples": {
+    "message": "דוגמאות פורמטים"
+  },
+  "ipCopying": {
+    "message": "מעתיק..."
+  },
+  "netDnsUnavailable": {
+    "message": "לא ניתן היה לפתור את כתובת השרת בזמן. בדוק את הכתובת המארח או IP ונסה שוב."
+  },
+  "netCurrentTarget": {
+    "message": "נקודת קצה פרוקסי נבחרה"
+  },
+  "netCustomTarget": {
+    "message": "שרת מותאם אישית"
+  },
+  "netHost": {
+    "message": "כתובת מארח או IP"
+  },
+  "netPort": {
+    "message": "יציאת TCP"
+  },
+  "netHostRequired": {
+    "message": "הזן מארח שרת או כתובת IP."
+  },
+  "netCurrentUnavailable": {
+    "message": "בחר צומת או פרופיל פרוקסי ידני, או הזן יעד מותאם אישית."
+  },
+  "netInvalidTarget": {
+    "message": "הזן מארח ויציאה חוקיים לאבחון."
+  },
+  "netIpv6PingUnavailable": {
+    "message": "IPv6 ICMP אינו זמין; השתמש ב-TCPing."
+  },
+  "preNeedsFix": {
+    "message": "בחר קדם-פרוקסי חוקי או ללא פרוקסי לפני השמירה."
+  },
+  "preConfigure": {
+    "message": "הגדר פרוקסי מראש"
+  },
+  "preFollowInvalid": {
+    "message": "Follow v2rayN אינו מקבל קדם-פרוקסי מותאם אישית."
+  },
+  "followChainHelp": {
+    "message": "Follow משתמש במסלול ובשרשרת ה-proxy שכבר פעילה ב-v2rayN."
+  },
+  "netTitle": {
+    "message": "בדיקות חיבור"
+  },
+  "ipTestDetails": {
+    "message": "פרטי הבדיקה"
+  },
+  "netTarget": {
+    "message": "יעד פינג / TCPing"
+  },
+  "netDownload": {
+    "message": "מבחן הורדה"
+  },
+  "netPartial": {
+    "message": "מדגם חלקי"
+  },
+  "netComplete": {
+    "message": "הדוגמה הושלמה"
+  },
+  "netDirect": {
+    "message": "רשת מערכת"
+  },
+  "netUnreachable": {
+    "message": "אין תשובה / נכשל"
+  },
+  "netAverage": {
+    "message": "ממוצע"
+  },
+  "predecessor": {
+    "message": "קדם-פרוקסי"
+  },
+  "preInherit": {
+    "message": "השתמש בשרשרת הקבוצה v2rayN"
+  },
+  "preNone": {
+    "message": "אין פרוקסי מראש"
+  },
+  "preSpecific": {
+    "message": "בחר צומת"
+  },
+  "preHelp": {
+    "message": "חל על פרופיל זה. השתמש בשרשרת הקבוצה v2rayN, ללא פרוקסי מראש או צומת ספציפי. Follow v2rayN משתמש בשרשרת הקיימת שלה."
+  },
+  "preSelectRequired": {
+    "message": "בחר צומת קדם-פרוקסי, או בחר ברירת מחדל קבוצתית / ללא."
+  },
+  "ipPing0Permission": {
+    "message": "אפשר גישה לאתר Ping0 כדי לטעון את הדוח הציבורי."
+  },
+  "ipPublicChallenge": {
+    "message": "האתר דורש אימות. פתח את הדף Ping0 כדי להשלים אותו ולצפות בתוצאה."
+  },
+  "ipPublicReport": {
+    "message": "Ping0 דו\"ח פומבי"
+  },
+  "ipPublicSource": {
+    "message": "מקור: Ping0 דף ציבורי\nדוח"
+  },
+  "ipPublicOriginal": {
+    "message": "Ping0"
+  },
+  "ipPublicPartial": {
+    "message": "רק שדות שסופקו בדף הציבורי מוצגים בשפת המקור שלהם. סיווגים ואומדני משתמשים משותפים הם מ-Ping0."
+  },
+  "setupTitle": {
+    "message": "התחבר Proxy V2Route"
+  },
+  "setupIntro": {
+    "message": "התקן את הנלווה Windows כדי להשתמש בנתיבים v2rayN או בצמתים מיובאים משלך."
+  },
+  "setupStepOne": {
+    "message": "חלץ את החבילה השלמה התואמת Windows לתיקיה קבועה."
+  },
+  "setupStepTwo": {
+    "message": "פתח את V2Route-Setup.exe ולחץ על התקן."
+  },
+  "setupStepThree": {
+    "message": "חזור לכאן ובדוק את החיבור. בחר בתיקייה v2rayN במידת הצורך."
+  },
+  "setupCheck": {
+    "message": "בדוק את החיבור"
+  },
+  "downloadCompanion": {
+    "message": "מדריך התקנה ↗"
+  },
+  "setupDownloadNote": {
+    "message": "השתמש בחבילה המקומית התואמת Windows, או עקוב אחר המדריך כדי לבנות אותה מהמקור הנוכחי."
+  },
+  "chooseFolder": {
+    "message": "בחר תיקייה v2rayN..."
+  },
+  "rescanDone": {
+    "message": "צמתים מקומיים נסרקו מחדש"
+  },
+  "grouping": {
+    "message": "צמתים קבוצתיים"
+  },
+  "groupByCountry": {
+    "message": "לפי מדינה"
+  },
+  "unknownCountry": {
+    "message": "אחר / לא ידוע"
+  },
+  "ungrouped": {
+    "message": "לא מקובצים"
+  },
+  "adjustNodeFilters": {
+    "message": "נסה קבוצה אחרת, מקור או חיפוש, או הצג צמתים מוסתרים."
+  },
+  "rescanLocal": {
+    "message": "סרוק מחדש v2rayN צמתים"
+  },
+  "showHidden": {
+    "message": "הצג צמתים מוסתרים"
+  },
+  "hideNode": {
+    "message": "הסתר"
+  },
+  "restoreNode": {
+    "message": "שחזור"
+  },
+  "hiddenNode": {
+    "message": "נסתר"
+  },
+  "hideNodeHelp": {
+    "message": "הסתר רק מספריית הצומת של הדפדפן הזה. v2rayN והפרופילים הקיימים ללא שינוי."
+  },
+  "ipContextTimeout": {
+    "message": "תם הזמן הקצוב לקריאת הפרופיל הנוכחי. נסה שוב."
+  },
+  "ipStaleResult": {
+    "message": "הפרופיל הנוכחי השתנה. תוצאה זו עשויה להיות מיושנת; לבדוק שוב."
+  },
+  "ip_tools": {
+    "message": "IP כלים"
+  },
+  "ipIntro": {
+    "message": "יציאה נוכחית IP ודוח פומבי."
+  },
+  "ipCurrentProfile": {
+    "message": "פרופיל הדפדפן הנוכחי"
+  },
+  "ipRouteCaution": {
+    "message": "כללים אוטומטיים ו-PAC עשויים להשתמש בנתיבים שונים עבור יעדים שונים. המחאה הזו מתארת ​​רק את הבקשה שלו."
+  },
+  "ipDisclosure": {
+    "message": "בדיקה אוטומטית יציאה IP · דיווח מאת Ping0"
+  },
+  "ipMethod": {
+    "message": "בדיקת כתובת"
+  },
+  "ipDual": {
+    "message": "IPv4 / IPv6"
+  },
+  "ipCheck": {
+    "message": "בדוק שוב"
+  },
+  "ipChecking": {
+    "message": "בודק..."
+  },
+  "ipDualHelp": {
+    "message": "IPv4 / IPv6 מחזיר את משפחת הכתובות המשמשת לבקשה זו, לא את שתי הכתובות."
+  },
+  "ipDurationHelp": {
+    "message": "זמן הבקשה שחלף HTTP כולל זמן תגובה של רשת ושירות. זה לא פינג ICMP או בדיקת רוחב פס."
+  },
+  "ipCopy": {
+    "message": "העתק IP"
+  },
+  "ipCopied": {
+    "message": "הועתק"
+  },
+  "ipCopyFailed": {
+    "message": "לא ניתן היה להעתיק. בחר את הכתובת והעתק אותה באופן ידני."
+  },
+  "ipNoResult": {
+    "message": "עדיין אין בדיקה"
+  },
+  "ipContextUnknown": {
+    "message": "הפרופיל אינו זמין"
+  },
+  "ipTimeout": {
+    "message": "תם הזמן הקצוב לבדיקה. נסה שוב או השתמש במסלול אחר."
+  },
+  "ipCancelled": {
+    "message": "המחאה בוטלה"
+  },
+  "ipNetwork": {
+    "message": "לא ניתן להגיע ל-ipify. בדוק את החיבור ונסה שוב."
+  },
+  "ipHttp": {
+    "message": "השירות IP לא קיבל את הבקשה. נסה שוב מאוחר יותר."
+  },
+  "ipInvalid": {
+    "message": "השירות IP החזיר תגובה לא חוקית."
+  },
+  "ipFailure": {
+    "message": "הבדיקה נכשלה. נסה שוב."
+  },
+  "ipStale": {
+    "message": "הגדרות ה-proxy שלך השתנו במהלך הבדיקה. התוצאה הישנה נמחקה; לבדוק שוב."
+  },
+  "ipQuality": {
+    "message": "כלים חיצוניים"
+  },
+  "ipQualityPrivacy": {
+    "message": "הכלים פועלים רק בלחיצה. ספקים מקבלים נתוני חיבור רגילים. בדיקות אתרים שולחות בקשות ללא אישורים לאחר התחל. סגירה מפסיקה בדיקות מקומיות; כרטיסיות חיצוניות מנוהלות על ידי הדפדפן."
+  },
+  "ipReport": {
+    "message": "העתק דו\"ח ערוך"
+  },
+  "ipReportCopied": {
+    "message": "דוח מתוקן הועתק; אין IP או שמות פרופילים כלולים."
+  },
+  "popupSelected": {
+    "message": "נבחר"
+  },
+  "popupFooter": {
+    "message": "v2rayN ופרופילי צמתים"
+  },
+  "subtitle": {
+    "message": "מסלולי דפדפן עצמאיים"
+  },
+  "profiles": {
+    "message": "פרופילים"
+  },
+  "nodes": {
+    "message": "ספריית צומת"
+  },
+  "settings": {
+    "message": "הגדרות"
+  },
+  "connected": {
+    "message": "פרופיל פעיל"
+  },
+  "noProfile": {
+    "message": "ברירת המחדל של המערכת"
+  },
+  "newProfile": {
+    "message": "פרופיל חדש"
+  },
+  "searchProfiles": {
+    "message": "חפש פרופילים"
+  },
+  "direct": {
+    "message": "רשת ישירה"
+  },
+  "system": {
+    "message": "פרוקסי מערכת"
+  },
+  "follow": {
+    "message": "עקוב אחר v2rayN"
+  },
+  "manual": {
+    "message": "פרוקסי ידני"
+  },
+  "auto": {
+    "message": "מתג אוטומטי"
+  },
+  "pac": {
+    "message": "PAC תסריט"
+  },
+  "virtual": {
+    "message": "פרופיל וירטואלי"
+  },
+  "profileIntro": {
+    "message": "בחר מסלול דפדפן מבלי להחליף את המסלול הראשי של v2rayN."
+  },
+  "nodesIntro": {
+    "message": "עיין בצמתים מקומיים v2rayN ובקישורים המיובאים שלך."
+  },
+  "settingsIntro": {
+    "message": "חיבור מקומי, שפה ומראה."
+  },
+  "refresh": {
+    "message": "רענון"
+  },
+  "create": {
+    "message": "צור פרופיל"
+  },
+  "name": {
+    "message": "שם פרופיל"
+  },
+  "type": {
+    "message": "סוג פרופיל"
+  },
+  "save": {
+    "message": "שמור"
+  },
+  "saved": {
+    "message": "נשמר"
+  },
+  "saving": {
+    "message": "שומר..."
+  },
+  "cancel": {
+    "message": "בטל"
+  },
+  "close": {
+    "message": "סגור"
+  },
+  "apply": {
+    "message": "השתמש בפרופיל זה"
+  },
+  "applied": {
+    "message": "הפרופיל הוחלף"
+  },
+  "active": {
+    "message": "פעיל"
+  },
+  "delete": {
+    "message": "מחק"
+  },
+  "remove": {
+    "message": "הסר"
+  },
+  "rename": {
+    "message": "שנה שם"
+  },
+  "route": {
+    "message": "נתיב פרוקסי"
+  },
+  "selectRoute": {
+    "message": "בחר מסלול"
+  },
+  "routeMissing": {
+    "message": "מסלול לא זמין - בחר אחר"
+  },
+  "chain": {
+    "message": "שרשרת חיבורים"
+  },
+  "connection": {
+    "message": "חיבור מקומי"
+  },
+  "proxy": {
+    "message": "שרת פרוקסי"
+  },
+  "address": {
+    "message": "כתובת"
+  },
+  "port": {
+    "message": "נמל"
+  },
+  "scheme": {
+    "message": "פרוטוקול"
+  },
+  "proxyDns": {
+    "message": "SOCKS5 DNS פותר דרך ה-proxy."
+  },
+  "connectedIdle": {
+    "message": "מחובר · סרק"
+  },
+  "bypass": {
+    "message": "רשימת עוקפים"
+  },
+  "bypassHelp": {
+    "message": "דומיין, דומיין עם תווים כלליים, כתובת IP או IP:יציאה אחד בכל שורה."
+  },
+  "advanced": {
+    "message": "אפשרויות מתקדמות"
+  },
+  "searchRoutes": {
+    "message": "חפש קבוצות או צמתים"
+  },
+  "selectGroup": {
+    "message": "בחר קבוצה"
+  },
+  "empty": {
+    "message": "אין פריטים תואמים"
+  },
+  "unavailable": {
+    "message": "לא זמין"
+  },
+  "groupHint": {
+    "message": "החזק קבוצה למשך 250 ms, ואז גרור. Alt + ↑ / ↓ גם מסדרים מחדש. השינויים נשמרים אוטומטית."
+  },
+  "searchSort": {
+    "message": "נקה את החיפוש לפני המיון."
+  },
+  "dragHint": {
+    "message": "זז למעלה או למטה, ואז שחרר כדי לשמור. Esc מבטל."
+  },
+  "orderSaved": {
+    "message": "ההזמנה הקבוצתית נשמרה"
+  },
+  "orderCancelled": {
+    "message": "ההזמנה מחדש בוטלה"
+  },
+  "loading": {
+    "message": "טוען..."
+  },
+  "reading": {
+    "message": "קורא צמתים מקומיים..."
+  },
+  "nativeMissing": {
+    "message": "הרכיב המקומי אינו מחובר"
+  },
+  "retry": {
+    "message": "נסה שוב"
+  },
+  "nativeHelp": {
+    "message": "נתיבי צומת דורשים את המלווה Windows. פרוקסי ישירים, מערכתיים וידניים זמינים כעת."
+  },
+  "imported": {
+    "message": "מיובא"
+  },
+  "v2rayn": {
+    "message": "v2rayN"
+  },
+  "allSources": {
+    "message": "כל המקורות"
+  },
+  "importNodes": {
+    "message": "פרוקסי ייבוא"
+  },
+  "importTitle": {
+    "message": "ייבוא פרוקסי"
+  },
+  "importHelp": {
+    "message": "הדבק קישורי פרוקסי, יוצא JSON או מנוי Base64. SOCKS תומך באישורים רגילים או Base64. כתובות ללא סכמה משתמשות ב-HTTP."
+  },
+  "importPrivacy": {
+    "message": "פרטי פרוקסי ואישורים מועברים למלווה המקומי Proxy V2Route לצורך אחסון וחיבור ל-proxy שתבחר. המפתח אינו מקבל מידע זה."
+  },
+  "import": {
+    "message": "ייבוא פרופילים"
+  },
+  "nodeCount": {
+    "message": "צמתים"
+  },
+  "source": {
+    "message": "מקור"
+  },
+  "protocol": {
+    "message": "פרוטוקול"
+  },
+  "useNode": {
+    "message": "צור פרופיל"
+  },
+  "removeNode": {
+    "message": "להסיר את הצומת המיובא?"
+  },
+  "removeNodeHelp": {
+    "message": "יש להקצות מחדש פרופילים המשתמשים בצומת זה לפני שניתן להסירו."
+  },
+  "deleteProfile": {
+    "message": "למחוק את הפרופיל הזה?"
+  },
+  "deleteProfileHelp": {
+    "message": "זה מסיר רק את פרופיל הדפדפן הזה. צמתים מיובאים ותצורת v2rayN נשמרים."
+  },
+  "language": {
+    "message": "שפה"
+  },
+  "automatic": {
+    "message": "ברירת המחדל של הדפדפן"
+  },
+  "theme": {
+    "message": "הופעה"
+  },
+  "light": {
+    "message": "אור"
+  },
+  "dark": {
+    "message": "כהה"
+  },
+  "switchToEnglish": {
+    "message": "עבור לאנגלית"
+  },
+  "switchToChinese": {
+    "message": "עבור לסינית פשוטה"
+  },
+  "switchToLight": {
+    "message": "עבור למראה קליל"
+  },
+  "switchToDark": {
+    "message": "עבור למראה כהה"
+  },
+  "localComponent": {
+    "message": "רכיב נלווה"
+  },
+  "ready": {
+    "message": "מחובר"
+  },
+  "stopped": {
+    "message": "לא פועל"
+  },
+  "discovery": {
+    "message": "v2rayN זיהוי"
+  },
+  "rootPath": {
+    "message": "v2rayN תיקייה"
+  },
+  "corePath": {
+    "message": "קובץ הפעלה של ליבת Proxy"
+  },
+  "optionalPath": {
+    "message": "השאר ריק לזיהוי אוטומטי"
+  },
+  "pathsHelp": {
+    "message": "v2rayN מזוהה אוטומטית; בחר את התיקיה שלו במידת הצורך. צמתים מיובאים משתמשים בליבה הכלולה."
+  },
+  "savePaths": {
+    "message": "שמור את הגדרות החיבור"
+  },
+  "privacy": {
+    "message": "הגדרות מאוחסנות באופן מקומי"
+  },
+  "privacyText": {
+    "message": "קישורי צומת ואישורים נשארים בשותף המקומי. תעבורת הדפדפן עוברת דרך ה-proxy שבחרת לאתרי יעד; המפתח לא מקבל את זה."
+  },
+  "privacyDetails": {
+    "message": "פרטיות וזרימת נתונים"
+  },
+  "export": {
+    "message": "ייצוא פרופילים"
+  },
+  "about": {
+    "message": "אודות Proxy V2Route"
+  },
+  "aboutText": {
+    "message": "בחר מסלול דפדפן מבלי להחליף את המסלול הראשי של v2rayN. נתיבי צמתים משתמשים בתוסף Windows ובצמתים משלך."
+  },
+  "licenses": {
+    "message": "הודעות קוד פתוח"
+  },
+  "version": {
+    "message": "גרסה"
+  },
+  "fieldRequired": {
+    "message": "הזן שם פרופיל."
+  },
+  "profileExists": {
+    "message": "פרופיל בשם זה כבר קיים."
+  },
+  "ruleHelp": {
+    "message": "הפרד דומיינים בשורה אחת עם פסיקים. השורה התואמת הראשונה מנצחת. שמור את מסלול ברירת המחדל זמין."
+  },
+  "rules": {
+    "message": "כללי ניתוב"
+  },
+  "pattern": {
+    "message": "דפוס מארח"
+  },
+  "target": {
+    "message": "יעד כלל"
+  },
+  "addRule": {
+    "message": "הוסף כלל"
+  },
+  "defaultRoute": {
+    "message": "פרופיל ברירת מחדל"
+  },
+  "pacHelp": {
+    "message": "הדבק מקור PAC מהימן המכיל FindProxyForURL. סקריפט זה מחליט כיצד מנותבות בקשות לאתר."
+  },
+  "pacUrl": {
+    "message": "PAC URL"
+  },
+  "pacScript": {
+    "message": "PAC תסריט"
+  },
+  "noSelection": {
+    "message": "בחר פרופיל או צור אחד."
+  },
+  "details": {
+    "message": "פרטים"
+  },
+  "noNodes": {
+    "message": "עדיין אין צמתים"
+  },
+  "noNodesHelp": {
+    "message": "חבר v2rayN או ייבא קישורי פרוקסי, JSON או מנוי כדי להתחיל."
+  },
+  "openSettings": {
+    "message": "פתח את ההגדרות"
+  },
+  "proxySettings": {
+    "message": "הגדרות פרוקסי"
+  },
+  "switching": {
+    "message": "מחליף..."
+  },
+  "updatedElsewhere": {
+    "message": "פרופיל זה השתנה בחלון אחר. פתח אותו מחדש לפני השמירה."
+  },
+  "choose": {
+    "message": "בחר"
+  },
+  "popupIntro": {
+    "message": "חיבור:"
+  },
+  "invalidPort": {
+    "message": "הזן יציאה מ-1 עד 65535."
+  },
+  "externalControl": {
+    "message": "הרחבה או מדיניות נוספת היא שליטה בפרוקסי הדפדפן."
+  },
+  "noNativeRoute": {
+    "message": "חבר את הרכיב המקומי לפני יצירת פרופיל צומת."
+  },
+  "reload": {
+    "message": "טען מחדש"
+  },
+  "rulesError": {
+    "message": "כל כלל דורש תבנית ויעד."
+  },
+  "backupDone": {
+    "message": "פרופילי דפדפן יוצאו"
+  },
+  "managed": {
+    "message": "צומת מנוהל"
+  },
+  "netRegion": {
+    "message": "אזור היעד"
+  },
+  "netNodeArea": {
+    "message": "צומת פרוקסי"
+  },
+  "netChina": {
+    "message": "סין היבשתית"
+  },
+  "netGlobal": {
+    "message": "גלובלי"
+  },
+  "netAli": {
+    "message": "AliDNS"
+  },
+  "netTencent": {
+    "message": "DNSPod"
+  },
+  "netStartHelp": {
+    "message": "בחר יעד ולאחר מכן התחל מבחן חי."
+  },
+  "netConsole": {
+    "message": "אבחון חי"
+  },
+  "netStop": {
+    "message": "עצור"
+  },
+  "netRunning": {
+    "message": "ריצה"
+  },
+  "netStopped": {
+    "message": "נעצר"
+  },
+  "netSent": {
+    "message": "נשלח"
+  },
+  "netLoss": {
+    "message": "הפסד"
+  },
+  "netAverageShort": {
+    "message": "ממוצע"
+  },
+  "netLogClear": {
+    "message": "ברור"
+  },
+  "netFinishing": {
+    "message": "בדיקה קודמת מסתיימת..."
+  },
+  "netRound": {
+    "message": "סיבוב"
+  },
+  "netDestination": {
+    "message": "יעד"
+  },
+  "netHop": {
+    "message": "הופ"
+  },
+  "netAddress": {
+    "message": "כתובת IP"
+  },
+  "netLast": {
+    "message": "אחרון"
+  },
+  "netConsoleHelp": {
+    "message": "Ping / TCPing / MTR השתמש ברשת המערכת, לא בשרשרת ה-proxy. Missing ICMP replies do not prove traffic loss. ההורדה משתמשת במסלול הדפדפן ובמגבלת הגודל שנבחרה. הבדיקות מפסיקות כאשר אתה עוזב או מסתיר את הדף הזה."
+  },
+  "netDirectShort": {
+    "message": "רשת מערכת"
+  },
+  "netIcmpShort": {
+    "message": "תשובה לא ICMP"
+  },
+  "netProbeError": {
+    "message": "שגיאת בדיקה מקומית"
+  },
+  "netNoDestination": {
+    "message": "היעד לא הגיע"
+  },
+  "deleteActive": {
+    "message": "עבור למערכת ומחק"
+  },
+  "deleteActiveHelp": {
+    "message": "פרופיל זה פעיל. מחיקתו מעבירה את הדפדפן ל-Proxy של המערכת."
+  },
+  "netDownloadSize": {
+    "message": "גודל הורדה"
+  },
+  "netReceived": {
+    "message": "התקבל"
+  },
+  "netBest": {
+    "message": "הכי טוב"
+  },
+  "netWorst": {
+    "message": "הכי גרוע"
+  },
+  "netStdDev": {
+    "message": "Std dev"
+  },
+  "netLocation": {
+    "message": "מיקום"
+  },
+  "toolWall": {
+    "message": "בדיקת חסימת דומיין"
+  },
+  "toolSites": {
+    "message": "אתרים פופולריים"
+  },
+  "toolGlobal": {
+    "message": "אבחון גלובלי"
+  },
+  "toolFast": {
+    "message": "מהירות Netflix"
+  },
+  "toolSpeed": {
+    "message": "בדיקת מהירות"
+  },
+  "toolStart": {
+    "message": "התחל"
+  },
+  "toolReady": {
+    "message": "מוכן"
+  },
+  "toolResponded": {
+    "message": "השיב"
+  },
+  "toolNoResponse": {
+    "message": "לא אושר"
+  },
+  "toolCacheUnsupported": {
+    "message": "This browser cannot clear cache by site; הדף נטען מחדש."
+  },
+  "toolCacheFailed": {
+    "message": "ניקוי המטמון לא הסתיים. סגור ונסה שוב."
+  },
+  "toolClose": {
+    "message": "סגור"
+  },
+  "toolReload": {
+    "message": "טען מחדש"
+  },
+  "toolLoading": {
+    "message": "טוען..."
+  },
+  "toolFrameError": {
+    "message": "לא ניתן לטעון. נסה לטעון מחדש."
+  },
+  "toolSiteHelp": {
+    "message": "גישה לדפדפן בלבד. זה לא מאמת חשבון או גישה אזורית."
+  },
+  "toolFallback": {
+    "message": "בדיקת מהירות גיבוי"
+  },
+  "toolFullscreen": {
+    "message": "מסך מלא"
+  },
+  "toolRestore": {
+    "message": "צא ממסך מלא"
+  },
+  "ipReadFailed": {
+    "message": "הקריאה נכשלה. 👉"
+  },
+  "ipViewSource": {
+    "message": "צפה באתר המקור"
+  },
+  "toolDownloadError": {
+    "message": "לא ניתן היה להגיע לשרת ההורדות. נסה שוב."
+  },
+  "toolAccess": {
+    "message": "אפשר גישה לאתר"
+  },
+  "toolPermission": {
+    "message": "אפשר גישה לאתר זה לצורך תאימות הפעלה משובצת."
+  },
+  "toolAsia": {
+    "message": "אסיה"
+  },
+  "toolEurope": {
+    "message": "אירופה"
+  },
+  "toolAmerica": {
+    "message": "צפון אמריקה"
+  },
+  "toolGlobalHelp": {
+    "message": "ממלא מראש את יציאת הדפדפן IP. בחר בסין היבשתית או באזור אחר כדי להשוות שבילים; Start שולח את היעד המוצג לעד שלושה Globalping בדיקות."
+  },
+  "toolServiceError": {
+    "message": "שירות הבדיקה אינו זמין. נסה שוב."
+  },
+  "popupOrderHelp": {
+    "message": "החזק וגרור כדי לסדר מחדש. מקשי Alt+חץ גם מזיזים את הפרופיל הזה."
+  },
+  "popupOrderSaved": {
+    "message": "ההזמנה נשמרה"
+  },
+  "toolGroupIP": {
+    "message": "IP בדיקות"
+  },
+  "toolGroupWeb": {
+    "message": "בדיקות אתר"
+  },
+  "toolGroupSpeed": {
+    "message": "מהירות"
+  },
+  "toolCurrentIP": {
+    "message": "יציאה נוכחית IP"
+  },
+  "toolCurrentIPLoading": {
+    "message": "טוען יציאה נוכחית IP..."
+  },
+  "toolCurrentIPFailed": {
+    "message": "לא ניתן היה לקרוא את IP הנוכחי. הזן יעד."
+  },
+  "speedMode": {
+    "message": "מצב בדיקה"
+  },
+  "speedBoth": {
+    "message": "הורדה + העלאה"
+  },
+  "speedDownload": {
+    "message": "הורד"
+  },
+  "speedUpload": {
+    "message": "העלה"
+  },
+  "speedLatency": {
+    "message": "HTTP חביון"
+  },
+  "speedBudget": {
+    "message": "{n} MiB לכל שלב · {total} MiB סך הכל, בתוספת דגימות חביון קטנות."
+  },
+  "siteCategory": {
+    "message": "קטגוריית אתרים"
+  },
+  "siteAll": {
+    "message": "כל אתרי האינטרנט"
+  },
+  "siteAI": {
+    "message": "AI"
+  },
+  "siteDevelopment": {
+    "message": "פיתוח"
+  },
+  "siteVideo": {
+    "message": "וידאו / מוזיקה"
+  },
+  "siteSocial": {
+    "message": "חברתי"
+  },
+  "siteDomestic": {
+    "message": "שירותי היבשת"
+  },
+  "siteServices": {
+    "message": "שירותים נפוצים"
+  },
+  "globalMethod": {
+    "message": "סוג מדידה"
+  },
+  "localPort": {
+    "message": "יציאה מקומית:"
+  },
+  "chainChooseNode": {
+    "message": "בחר צומת פרוקסי"
+  },
+  "chainTitle": {
+    "message": "שרשרת פרוקסי"
+  },
+  "chainSelectExit": {
+    "message": "בחר צומת יציאה ספציפי למטה כדי לשמור או לבדוק את השרשרת המותאמת אישית הזו. Follow v2rayN מנוהל על ידי v2rayN."
+  },
+  "chainSelectExitShort": {
+    "message": "בחר צומת יציאה"
+  },
+  "chainAdd": {
+    "message": "+ הוסף שכבת פרוקסי"
+  },
+  "chainTest": {
+    "message": "שרשרת בדיקה"
+  },
+  "chainMode": {
+    "message": "מצב שרשרת"
+  },
+  "chainBase": {
+    "message": "פרוקסי בסיס"
+  },
+  "chainExit": {
+    "message": "צא מפרוקסי"
+  },
+  "chainEgress": {
+    "message": "יציאת שרשרת"
+  },
+  "chainExitBadge": {
+    "message": "יציאה IP"
+  },
+  "chainEntry": {
+    "message": "כניסת שרשרת"
+  },
+  "chainTransit": {
+    "message": "צומת גשר"
+  },
+  "chainUntested": {
+    "message": "לא נבדק"
+  },
+  "chainMissing": {
+    "message": "צומת לא זמין"
+  },
+  "chainUnresolved": {
+    "message": "לא ניתן לפתור את השרשרת שעברה בירושה. תקן את ההגדרות הקודמות או בחר שרשרת מותאמת אישית."
+  },
+  "chainUpgrade": {
+    "message": "עדכן את המלווה המקומי כדי לאפשר רשתות שהוזמנו."
+  },
+  "chainBusy": {
+    "message": "בדיקת שרשרת נוספת פועלת"
+  },
+  "chainOK": {
+    "message": "ניתן להגיע"
+  },
+  "chainFailed": {
+    "message": "הופ כושל במבחן זה"
+  },
+  "chainBlocked": {
+    "message": "לא נבדק · הופעה קודמת נכשלה"
+  },
+  "chainFailureHelp": {
+    "message": "הקפיצה הזו או השביל אליה לא עברו. כשות מאוחרות יותר לא נבדקו."
+  },
+  "chainAllOK": {
+    "message": "כל הנתיבים המצטברים הגיבו"
+  },
+  "chainStopping": {
+    "message": "עצירה לאחר הגשושית התחום הנוכחית..."
+  },
+  "globalWorld": {
+    "message": "ברחבי העולם"
+  },
+  "globalUnavailable": {
+    "message": "היעד או האזור אינם זמינים. בדוק את היעד או בחר אזור אחר."
+  },
+  "globalRateLimited": {
+    "message": "הגעת למגבלת תעריף השירות. נסה שוב מאוחר יותר."
+  },
+  "globalNoResults": {
+    "message": "השירות לא החזיר תוצאות בדיקה. נסה אזור אחר."
+  },
+  "globalProbeFailed": {
+    "message": "בדיקה נכשלה"
+  },
+  "globalProbeOffline": {
+    "message": "בדיקה במצב לא מקוון"
+  },
+  "globalIcmpCaution": {
+    "message": "תשובות חסרות ICMP בלבד אינן מוכיחות חסימה. השווה בין שבילים יבשתיים ומעבר לים וסוגי בדיקות אחרים."
+  },
+  "speedRealtime": {
+    "message": "מהירות חיה"
+  },
+  "speedAverage": {
+    "message": "מהירות ממוצעת"
+  },
+  "ipToolsBrief": {
+    "message": "תוצאות צד שלישי הן לעיון."
+  },
+  "ipReportBrief": {
+    "message": "התוצאות משתנות בהתאם ליציאה IP והן להתייחסות."
+  },
+  "toolPingPe": {
+    "message": "IP בדיקת חסימה"
+  },
+  "toolTargetIP": {
+    "message": "יעד IP"
+  },
+  "toolOpenPingPe": {
+    "message": "מבחן רשמי פתוח"
+  },
+  "toolInvalidIP": {
+    "message": "הזן כתובת IPv4 או IPv6 חוקית."
+  },
+  "toolInvalidPort": {
+    "message": "הזן יציאה TCP מ-1 עד 65535."
+  },
+  "toolExternalFailed": {
+    "message": "לא ניתן היה לפתוח את האתר. נסה שוב."
+  },
+  "ipBrowserReading": {
+    "message": "קורא Ping0 דרך הדפדפן..."
+  },
+  "ipVerifyBrowser": {
+    "message": "פתח את דף האימות"
+  },
+  "policyCenter": {
+    "message": "פרטיות, הצהרה ושאלות נפוצות"
+  },
+  "policyCenterIntro": {
+    "message": "טיפול בנתונים מקומיים, מגבלות בדיקה ותשובות נפוצות."
+  },
+  "policyPrivacyTitle": {
+    "message": "מדיניות פרטיות"
+  },
+  "policyPrivacySummary": {
+    "message": "פרופילים ואישורים נשארים במכשיר הזה. בדיקות קופצות ואבחון פנו לספקים המוצהרים שלהם. ללא פרסום או ניתוח התנהגות."
+  },
+  "policyDeclarationTitle": {
+    "message": "הצהרת שימוש ומדידה"
+  },
+  "policyDeclarationSummary": {
+    "message": "הרחבה זו היא מנהל מסלול מקומי, לא פרוקסי או ספק VPN. מדידות הן דוגמאות ייחוס המושפעות מתנאי הרשת, ה-proxy והספק."
+  },
+  "policyFaqTitle": {
+    "message": "שאלות נפוצות"
+  },
+  "policyFaqSummary": {
+    "message": "המלווה Windows נדרש עבור צמתים מקומיים ו-MTR. השהיה עשויה להיות שונה בין דפדפן, מערכת ובדיקות ציבוריות. עצור בדיקה או נקה נתונים מקומיים מההגדרות."
+  },
+  "policyDetailsLink": {
+    "message": "קרא את הפרטים המלאים ↗"
+  },
+  "thirdPartyNotice": {
+    "message": "הודעות קוד פתוח ↗"
+  },
+  "columnResizeHelp": {
+    "message": "גרור כדי לשנות את הגודל; לחץ פעמיים כדי לאפס; השתמש במקשי החצים כדי להתאים"
+  },
+  "columnResize": {
+    "message": "שינוי גודל העמודה"
+  },
+  "typeDescription_node": {
+    "message": "התחבר דרך צומת פרוקסי"
+  },
+  "typeDescription_manual": {
+    "message": "הזן הגדרות פרוקסי באופן ידני"
+  },
+  "typeDescription_auto": {
+    "message": "בחר צומת באמצעות כללים"
+  },
+  "typeDescription_pac": {
+    "message": "נתיב תנועה באמצעות כללי PAC"
+  },
+  "appDescription": {
+    "message": "נהל מסלולי פרוקסי עצמאיים של דפדפן, צמתים, חוקי תחום ובדיקות חיבור. נתיבי צומת דורשים את המלווה Windows."
+  },
+  "core_title": {
+    "message": "ליבת פרוקסי"
+  },
+  "core_checking": {
+    "message": "בודק את הרכיב המקומי..."
+  },
+  "core_ready": {
+    "message": "Xray מוכן"
+  },
+  "core_missing": {
+    "message": "חסרה ליבת פרוקסי"
+  },
+  "core_external": {
+    "message": "ליבה מותאמת אישית: לא מאומת"
+  },
+  "core_corrupt": {
+    "message": "Xray חוסר התאמה של סכום בדיקה - נדרש תיקון"
+  },
+  "core_unreadable": {
+    "message": "לא ניתן היה לבדוק את קובץ הליבה"
+  },
+  "core_intro": {
+    "message": "החבילה השלמה Windows כוללת Xray. v2rayN הוא אופציונלי."
+  },
+  "core_verify": {
+    "message": "בדוק שוב"
+  },
+  "core_install": {
+    "message": "התקנה / תיקון ליבה"
+  },
+  "core_installing": {
+    "message": "מוריד ומאמת..."
+  },
+  "core_done": {
+    "message": "הליבה מאומתת ומוכנה"
+  },
+  "core_help": {
+    "message": "תיקון משתמש בגרסה רשמית מוצמדת Xray ומאמת את סכום הבדיקה שלו. החיבורים הקיימים נשארים פועלים."
+  },
+  "core_absent": {
+    "message": "התקן את הרכיב המקומי פעם אחת, ואז חזור לכאן כדי לבדוק את הליבה."
+  },
+  "core_download": {
+    "message": "מדריך התקנה"
+  },
+  "core_absentHelp": {
+    "message": "השתמש בחבילה התואמת Windows או עקוב אחר המדריך כדי לבנות אותה מהמקור, ואז הפעל את ההגדרה."
+  },
+  "core_failed": {
+    "message": "פעולת הליבה נכשלה. נסה שוב או השתמש בחבילה השלמה Windows."
+  },
+  "core_version": {
+    "message": "גרסה"
+  },
+  "error_ACTIVE_PROFILE_DELETE": {
+    "message": "יש לעבור לפרופיל אחר לפני המחיקה"
+  },
+  "error_BACKUP_BINDING_TYPE": {
+    "message": "רק לפרופילי פרוקסי אפשר לשייך נתיבים"
+  },
+  "error_BACKUP_FORMAT3_REQUIRED": {
+    "message": "כללי צמתים דורשים גיבוי נייד בפורמט 3"
+  },
+  "error_BACKUP_INDEPENDENT_PATH_REQUIRED": {
+    "message": "הגיבוי חייב לכלול נתיב צומת עצמאי"
+  },
+  "error_BACKUP_INTERNAL_BINDINGS": {
+    "message": "הגיבוי מכיל שיוכים פנימיים"
+  },
+  "error_BACKUP_MESSAGE_LIMIT": {
+    "message": "גיבוי הצמתים חורג ממגבלת ההודעות של הרכיב הנלווה"
+  },
+  "error_BACKUP_NODES_INCOMPLETE": {
+    "message": "גיבוי הצמתים אינו שלם"
+  },
+  "error_BACKUP_NODE_MISSING": {
+    "message": "צומת נדרש חסר בגיבוי"
+  },
+  "error_BACKUP_NODE_PATHS_LIMIT": {
+    "message": "הגיבוי תומך בעד {limit} נתיבי צמתים"
+  },
+  "error_BACKUP_PATH_INCOMPLETE": {
+    "message": "נתיב הצומת בגיבוי אינו שלם"
+  },
+  "error_BACKUP_PROFILES_LIMIT": {
+    "message": "הגיבוי תומך בעד {limit} פרופילים"
+  },
+  "error_BACKUP_PROXY_CONFLICT": {
+    "message": "הגיבוי מכיל הגדרות פרוקסי סותרות"
+  },
+  "error_BACKUP_SIZE_LIMIT": {
+    "message": "הגיבוי חורג מ־{limit} MB"
+  },
+  "error_BACKUP_TRANSFER_UNAVAILABLE": {
+    "message": "יש לעדכן או לתקן את הרכיב הנלווה כדי להעביר גיבויי צמתים."
+  },
+  "error_BACKUP_UNUSED_NODES": {
+    "message": "הגיבוי מכיל צמתים ללא הפניות אליהם"
+  },
+  "error_BODY_TOO_LARGE": {
+    "message": "תגובת המינוי חורגת מהגודל המותר."
+  },
+  "error_BROWSER_API_FAILED": {
+    "message": "פעולת הדפדפן נכשלה. ראו פרטים טכניים."
+  },
+  "error_BROWSER_PROXY_RESTORE_FAILED": {
+    "message": "הפעולה נכשלה ולא ניתן היה לשחזר את הפרוקסי הקודם של הדפדפן"
+  },
+  "error_BROWSER_SCHEDULING_UNAVAILABLE": {
+    "message": "התזמון בדפדפן אינו זמין."
+  },
+  "error_BUSY": {
+    "message": "פעולה אחרת מתבצעת. נסו שוב בעוד רגע."
+  },
+  "error_CHAIN_PROBE_FAILED": {
+    "message": "בדיקת השרשרת נכשלה"
+  },
+  "error_COMPANION_BULK_RELEASE_REQUIRED": {
+    "message": "יש לשדרג את הרכיב הנלווה המקומי כדי לנהל בבטחה כמה כללי צמתים"
+  },
+  "error_COMPANION_CHAINS_REQUIRED": {
+    "message": "יש לשדרג את הרכיב הנלווה המקומי כדי לאפשר שרשראות מסודרות"
+  },
+  "error_COMPANION_MESSAGE_LIMIT": {
+    "message": "ההגדרות חורגות ממגבלת ההודעות של הרכיב הנלווה"
+  },
+  "error_COMPANION_OPERATION_FAILED": {
+    "message": "פעולת הרכיב הנלווה המקומי נכשלה. ראו פרטים טכניים."
+  },
+  "error_COMPANION_UNAVAILABLE": {
+    "message": "יש להתקין או לתקן את הרכיב הנלווה של V2Route"
+  },
+  "error_CONNECTION_CLOSED": {
+    "message": "החיבור נסגר לפני שהבדיקה הסתיימה."
+  },
+  "error_CORE_INSTALL_FAILED": {
+    "message": "התקנת הליבה נכשלה. ראו פרטים טכניים."
+  },
+  "error_CORE_OWNERSHIP_FAILED": {
+    "message": "לא ניתן היה לשלוט בבטחה בליבת הבדיקה המבודדת. הבדיקה הופסקה."
+  },
+  "error_CORE_START_FAILED": {
+    "message": "ליבת הבדיקה המבודדת לא הופעלה. בדקו את התקנת הרכיב הנלווה והליבה."
+  },
+  "error_CORE_START_TIMEOUT": {
+    "message": "ליבת הבדיקה המבודדת לא הייתה מוכנה בזמן."
+  },
+  "error_CORE_STATUS_UNAVAILABLE": {
+    "message": "מצב הליבה אינו זמין. ראו פרטים טכניים."
+  },
+  "error_CORE_VALIDATION_FAILED": {
+    "message": "Xray לא הצליח לאמת את הצמתים שיובאו. בדקו את הגדרותיהם ונסו שוב."
+  },
+  "error_DETACH_PORT_CONFLICT": {
+    "message": "היציאה המנוהלת תשוחרר. הזינו פרוקסי ידני אחר"
+  },
+  "error_DETACH_PROXY_REQUIRED": {
+    "message": "יש להזין פרוקסי ידני חלופי לפני הניתוק"
+  },
+  "error_DNS_BUSY": {
+    "message": "חיפוש DNS עסוק. נסו שוב בעוד רגע."
+  },
+  "error_DNS_FAILED": {
+    "message": "חיפוש DNS נכשל. בדקו את הכתובת ואת החיבור לרשת."
+  },
+  "error_ENCODING_UNSUPPORTED": {
+    "message": "המינוי משתמש בקידוד תוכן שאינו נתמך."
+  },
+  "error_FIREFOX_PRIVATE_ACCESS_REQUIRED": {
+    "message": "לפני שינוי הגדרות הפרוקסי, יש לאפשר ל־V2Route לפעול בחלונות פרטיים דרך פרטי התוסף"
+  },
+  "error_FOLDER_UNAVAILABLE": {
+    "message": "התיקייה אינה זמינה; בדקו את הנתיב, ההרשאות וגרסת הרכיב הנלווה"
+  },
+  "error_GROUP_LIMIT": {
+    "message": "מספר הקבוצות הגיע למגבלה. הסירו קבוצה שאינה בשימוש ונסו שוב."
+  },
+  "error_GROUP_NOT_EDITABLE": {
+    "message": "לא ניתן לערוך כאן את קבוצת המקור הזו."
+  },
+  "error_GROUP_NOT_FOUND": {
+    "message": "הקבוצה שנבחרה אינה קיימת עוד. בחרו קבוצה אחרת."
+  },
+  "error_HTTP_ENCODING": {
+    "message": "שרת הבדיקה החזיר קידוד שאינו נתמך."
+  },
+  "error_HTTP_LENGTH": {
+    "message": "גודל תגובת הבדיקה לא תאם לגודל המבוקש."
+  },
+  "error_HTTP_RESPONSE_TOO_LARGE": {
+    "message": "תגובת הבדיקה חרגה מהגודל המותר."
+  },
+  "error_HTTP_STATUS": {
+    "message": "שרת הבדיקה החזיר קוד מצב HTTP שאינו מציין הצלחה."
+  },
+  "error_IMPORTED_PROXY_MISSING": {
+    "message": "הרכיב הנלווה לא החזיר את הפרוקסי שיובא"
+  },
+  "error_IMPORTED_RULE_PATH_CONFLICT": {
+    "message": "הצמתים שיובאו מובילים לנתיבי כללים סותרים"
+  },
+  "error_IMPORT_CLEANUP_FAILED": {
+    "message": "הייבוא נכשל; חלק מהצמתים או היציאות הזמניים לא שוחררו. הפרופילים הקיימים נשמרו"
+  },
+  "error_IMPORT_PROFILE_NAME_CONFLICT": {
+    "message": "שם הפרופיל כפול או לא תקין"
+  },
+  "error_INCOMPLETE_RESPONSE": {
+    "message": "תגובת המינוי לא הייתה שלמה. נסו שוב."
+  },
+  "error_INVALID_BACKUP": {
+    "message": "גיבוי V2Route אינו תקין"
+  },
+  "error_INVALID_BACKUP_NODE": {
+    "message": "צומת הגיבוי אינו תקין או מופיע יותר מפעם אחת"
+  },
+  "error_INVALID_BACKUP_NODES": {
+    "message": "צומתי הגיבוי אינם תקינים"
+  },
+  "error_INVALID_BACKUP_PATH": {
+    "message": "נתיב הגיבוי אינו תקין"
+  },
+  "error_INVALID_BYPASS_ENTRY": {
+    "message": "רשומת העקיפה אינה תקינה"
+  },
+  "error_INVALID_BYPASS_LIST": {
+    "message": "רשימת העקיפה אינה תקינה"
+  },
+  "error_INVALID_CHAIN": {
+    "message": "השרשרת המסודרת אינה תקינה"
+  },
+  "error_INVALID_CHAIN_PROBE": {
+    "message": "בדיקת השרשרת אינה תקינה"
+  },
+  "error_INVALID_COMPANION_RESPONSE": {
+    "message": "הרכיב הנלווה המקומי החזיר תגובה לא תקינה. יש לעדכן או לתקן אותו."
+  },
+  "error_INVALID_CONTENT": {
+    "message": "תגובת המינוי אינה מכילה תוכן תקין."
+  },
+  "error_INVALID_DOMAIN_PATTERNS": {
+    "message": "הזינו תבניות דומיין מופרדות בפסיקים; כל כתובת URL צריכה להיות בשורה נפרדת"
+  },
+  "error_INVALID_ENCODING": {
+    "message": "תגובת המינוי אינה טקסט UTF-8 תקין."
+  },
+  "error_INVALID_FOLDER_REQUEST": {
+    "message": "בקשת התיקייה אינה תקינה"
+  },
+  "error_INVALID_GROUP_ACTION": {
+    "message": "פעולת קבוצה זו אינה נתמכת."
+  },
+  "error_INVALID_HOP_INDEX": {
+    "message": "אינדקס הדילוג אינו תקין"
+  },
+  "error_INVALID_LEGACY_PREDECESSOR": {
+    "message": "הפרוקסי המקדים מהפורמט הישן אינו תקין"
+  },
+  "error_INVALID_LIBRARY_COMMAND": {
+    "message": "פקודה זו של ספריית הצמתים אינה נתמכת."
+  },
+  "error_INVALID_LIBRARY_REQUEST": {
+    "message": "בקשת הספרייה אינה תקינה"
+  },
+  "error_INVALID_NAME": {
+    "message": "הזינו שם הכולל 1–128 תווים גלויים, ללא תווי בקרה."
+  },
+  "error_INVALID_NETWORK_TEST": {
+    "message": "בדיקת הרשת אינה תקינה"
+  },
+  "error_INVALID_NODE_IMPORT_RESPONSE": {
+    "message": "תגובת ייבוא הצמתים אינה תקינה"
+  },
+  "error_INVALID_PREDECESSOR": {
+    "message": "הפרוקסי המקדים אינו תקין עבור נתיב זה"
+  },
+  "error_INVALID_PROFILE_NAME": {
+    "message": "שם הפרופיל אינו תקין"
+  },
+  "error_INVALID_PROFILE_REFERENCE": {
+    "message": "ההפניה לפרופיל אינה תקינה"
+  },
+  "error_INVALID_PROXY_AUTH": {
+    "message": "אימות הפרוקסי אינו תקין"
+  },
+  "error_INVALID_PROXY_CREDENTIALS": {
+    "message": "פרטי ההזדהות של הפרוקסי אינם תקינים"
+  },
+  "error_INVALID_PROXY_ENDPOINT": {
+    "message": "הזינו מארח ויציאה תקינים לפרוקסי"
+  },
+  "error_INVALID_PROXY_HOST": {
+    "message": "הזינו שם DNS או כתובת IP ללא יציאה, URL, נתיב או שאילתה"
+  },
+  "error_INVALID_ROUTE": {
+    "message": "הנתיב אינו תקין"
+  },
+  "error_INVALID_ROUTE_SETTINGS": {
+    "message": "הגדרות הנתיב אינן תקינות"
+  },
+  "error_INVALID_RULES": {
+    "message": "הכללים אינם תקינים"
+  },
+  "error_INVALID_RULE_TARGET": {
+    "message": "בחרו צומת תקין אחד או פרופיל תקין אחד לכל כלל"
+  },
+  "error_INVALID_SUBSCRIPTION": {
+    "message": "המינוי אינו תקין"
+  },
+  "error_INVALID_SUBSCRIPTION_REQUEST": {
+    "message": "בקשת המינוי אינה תקינה"
+  },
+  "error_INVALID_SUBSCRIPTION_SETTINGS": {
+    "message": "הגדרות המינוי אינן תקינות. בדקו את מרווח העדכון ואת מדיניות החיבור."
+  },
+  "error_INVALID_SYSTEM_PROXY_RESPONSE": {
+    "message": "תגובת פרוקסי המערכת אינה תקינה; יש לעדכן או לתקן את הרכיב הנלווה"
+  },
+  "error_INVALID_TRANSPORT": {
+    "message": "הגדרות החיבור של המינוי אינן תקינות."
+  },
+  "error_INVALID_URL": {
+    "message": "הזינו כתובת HTTP(S) תקינה למינוי, ללא שם משתמש או סיסמה."
+  },
+  "error_LIBRARY_CHANGED": {
+    "message": "ספריית הצמתים השתנתה בחלון אחר. רעננו ונסו שוב."
+  },
+  "error_MANUAL_CHAIN_UNSUPPORTED": {
+    "message": "פרוקסי ידני אינו מקבל שרשרת צמתים"
+  },
+  "error_MANUAL_PROXY_CLEANUP_FAILED": {
+    "message": "השמירה נכשלה; פרוקסי זמני שיובא נשאר בספריית הצמתים"
+  },
+  "error_NATIVE_BINDING_ID": {
+    "message": "מזהה שיוך הנתיב אינו תקין."
+  },
+  "error_NATIVE_BINDING_UNKNOWN": {
+    "message": "שיוך הנתיב אינו קיים."
+  },
+  "error_NATIVE_BUTTON_NAME": {
+    "message": "שם הכפתור חייב לכלול 1–128 תווים גלויים."
+  },
+  "error_NATIVE_CATALOG_UNREADABLE": {
+    "message": "לא ניתן היה לקרוא את תצורת v2rayN."
+  },
+  "error_NATIVE_CORE_MISSING": {
+    "message": "Xray אינו זמין. התקינו את חבילת הרכיב הנלווה."
+  },
+  "error_NATIVE_GROUP_ID_COLLISION": {
+    "message": "יש התנגשות בין מזהי קבוצות."
+  },
+  "error_NATIVE_GROUP_ORDER": {
+    "message": "סדר הקבוצות אינו תקין."
+  },
+  "error_NATIVE_NODE_ID_COLLISION": {
+    "message": "יש התנגשות בין מזהי צמתים."
+  },
+  "error_NATIVE_PREDECESSOR_AMBIGUOUS": {
+    "message": "שם הפרוקסי המקדים חסר או כפול. בחרו צומת מקדים מסוים."
+  },
+  "error_NATIVE_PREDECESSOR_CYCLE": {
+    "message": "השרשרת המקדימה מכילה לולאה או יותר משישה צמתים."
+  },
+  "error_NATIVE_PREDECESSOR_INVALID": {
+    "message": "בחרו פרוקסי מקדים תקין."
+  },
+  "error_NATIVE_PREDECESSOR_MISSING": {
+    "message": "הפרוקסי המקדים שנבחר אינו קיים עוד. בחרו צומת אחר."
+  },
+  "error_NATIVE_PREDECESSOR_SETTINGS": {
+    "message": "הגדרות הפרוקסי המקדים אינן תקינות."
+  },
+  "error_NATIVE_ROUTE_INVALID": {
+    "message": "בחרו נתיב תקין."
+  },
+  "error_NATIVE_ROUTE_MISSING": {
+    "message": "נתיב זה אינו קיים עוד. בחרו נתיב אחר."
+  },
+  "error_NATIVE_ROUTE_PORTS": {
+    "message": "הקצאות היציאות של הנתיבים אינן תקינות."
+  },
+  "error_NATIVE_ROUTE_UNAVAILABLE": {
+    "message": "הנתיב שנבחר אינו זמין. ראו פרטים טכניים."
+  },
+  "error_NATIVE_SETTINGS_FORMAT": {
+    "message": "פורמט ההגדרות אינו תקין."
+  },
+  "error_NATIVE_SETTINGS_REVISION": {
+    "message": "מספר מהדורת ההגדרות אינו תקין."
+  },
+  "error_NATIVE_SUCCESSOR_UNSUPPORTED": {
+    "message": "קבוצה זו משתמשת בפרוקסי עוקב שאינו נתמך."
+  },
+  "error_NATIVE_UNSUPPORTED_CUSTOM": {
+    "message": "גרסה זו אינה תומכת בתצורות יציאה מותאמות אישית."
+  },
+  "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
+    "message": "גרסה זו אינה תומכת ב־Hysteria2."
+  },
+  "error_NATIVE_UNSUPPORTED_TUIC": {
+    "message": "גרסה זו אינה משלבת את ליבת sing-box הנדרשת עבור TUIC."
+  },
+  "error_NATIVE_UNSUPPORTED_TYPE": {
+    "message": "סוג נתיב זה אינו נתמך."
+  },
+  "error_NATIVE_V2RAYN_PORT": {
+    "message": "היציאה המקומית של v2rayN אינה תקינה."
+  },
+  "error_NATIVE_V2RAYN_UNAVAILABLE": {
+    "message": "v2rayN אינו זמין. בחרו צומת שיובא."
+  },
+  "error_NETWORK_FAILED": {
+    "message": "בקשת הרשת נכשלה. בדקו את החיבור ונסו שוב."
+  },
+  "error_NETWORK_TEST_FAILED": {
+    "message": "אבחון הרשת נכשל. ראו פרטים טכניים."
+  },
+  "error_NODE_LIMIT": {
+    "message": "הפעולה תחרוג ממגבלת הצמתים. הסירו צמתים שאינם בשימוש ונסו שוב."
+  },
+  "error_NODE_MAPPING_INCOMPLETE": {
+    "message": "מיפוי הצמתים אינו שלם"
+  },
+  "error_NODE_NOT_FOUND": {
+    "message": "הצומת שנבחר אינו קיים עוד. בחרו צומת אחר."
+  },
+  "error_NOT_DUE": {
+    "message": "טרם הגיע מועד העדכון המתוזמן הבא."
+  },
+  "error_PAC_ENTRY_REQUIRED": {
+    "message": "הזינו קוד מקור של PAC הכולל FindProxyForURL"
+  },
+  "error_PAC_FUNCTION_REQUIRED": {
+    "message": "הגדירו FindProxyForURL סינכרונית ברמה העליונה באמצעות פונקציה, משתנה פונקציה או השמה"
+  },
+  "error_PAC_PARSER_UNAVAILABLE": {
+    "message": "מנתח ה־PAC שבחבילה אינו זמין; התקינו מחדש את התוסף"
+  },
+  "error_PAC_RULE_TARGET_UNSUPPORTED": {
+    "message": "כללים אוטומטיים אינם יכולים להפנות לפרופיל PAC מוטבע"
+  },
+  "error_PAC_SOURCE_LIMIT": {
+    "message": "הזינו קוד מקור של PAC באורך של עד {limit} תווים"
+  },
+  "error_PAC_SYNTAX_INVALID": {
+    "message": "תחביר PAC אינו תקין"
+  },
+  "error_PAC_SYNTAX_LOCATION": {
+    "message": "תחביר PAC אינו תקין בשורה {line}, בעמודה {column}"
+  },
+  "error_PARTIAL_TRANSFER": {
+    "message": "ההעברה בבדיקה הסתיימה לפני שכל הנתונים התקבלו."
+  },
+  "error_PRIVATE_DIRECTORY_FAILED": {
+    "message": "לא ניתן היה לאבטח את תיקיית הבדיקה הפרטית. הבדיקה הופסקה."
+  },
+  "error_PRIVATE_TARGET": {
+    "message": "בקשות מינוי לכתובות פרטיות או מקומיות אינן מותרות."
+  },
+  "error_PROFILE_NOT_FOUND": {
+    "message": "הפרופיל לא נמצא"
+  },
+  "error_PROFILE_REFERENCE_CYCLE": {
+    "message": "יש הפניות מעגליות בין פרופילים"
+  },
+  "error_PROFILE_REFERENCE_DEPTH": {
+    "message": "הכללים האוטומטיים חורגים מהעומק המרבי של {limit}"
+  },
+  "error_PROFILE_REFERENCE_MISSING": {
+    "message": "הפרופיל שאליו מפנים אינו קיים: {name}"
+  },
+  "error_PROFILE_SAVE_RESTORE_FAILED": {
+    "message": "השמירה נכשלה ושחזור הנתיב דורש טיפול"
+  },
+  "error_PROXY_AUTH_REQUIRED": {
+    "message": "פרוקסי המינוי דורש אימות שבקשה זו אינה יכולה לספק."
+  },
+  "error_PROXY_CONTROL_UNAVAILABLE": {
+    "message": "תוסף אחר או מדיניות שולטים בפרוקסי"
+  },
+  "error_PROXY_DNS_REQUIRED": {
+    "message": "ב־V2Route, פענוח DNS של SOCKS5 מתבצע דרך הפרוקסי"
+  },
+  "error_PROXY_FAILED": {
+    "message": "החיבור לפרוקסי נכשל. בדקו את הנתיב שנבחר."
+  },
+  "error_PROXY_PROFILE_REQUIRED": {
+    "message": "בחרו פרופיל פרוקסי"
+  },
+  "error_PROXY_ROLLBACK_REFUSED": {
+    "message": "הדפדפן סירב לבטל את שינוי הפרוקסי"
+  },
+  "error_PROXY_SETTING_REFUSED": {
+    "message": "הדפדפן סירב להגדרת הפרוקסי"
+  },
+  "error_PROXY_UNAVAILABLE": {
+    "message": "הפרוקסי שנבחר אינו זמין. בדקו את הנתיב הנוכחי."
+  },
+  "error_PROXY_USERNAME_REQUIRED": {
+    "message": "הזינו שם משתמש לפרוקסי"
+  },
+  "error_RECOVERY_BINDINGS_LIMIT": {
+    "message": "אפשר לשחזר עד {limit} שיוכי צמתים. פתחו ושמרו בנפרד את הפרופילים שאליהם מפנים."
+  },
+  "error_REDIRECT_LIMIT": {
+    "message": "המינוי ביצע יותר מדי הפניות מחדש. בדקו את כתובתו."
+  },
+  "error_REFERENCED_PROFILE_DELETE": {
+    "message": "כלל אוטומטי מפנה לפרופיל זה"
+  },
+  "error_REMOTE_PAC_UNSUPPORTED": {
+    "message": "השתמשו בקוד PAC מוטבע; PAC מרוחק אינו נתמך"
+  },
+  "error_ROUTE_PORT_UNAVAILABLE": {
+    "message": "לא הוקצתה יציאה"
+  },
+  "error_ROUTE_RECOVERY_RESTORE_FAILED": {
+    "message": "שחזור הנתיב נכשל ונדרש טיפול בהחזרתו"
+  },
+  "error_ROUTE_REVISION_CONFLICT": {
+    "message": "הנתיב השתנה בחלון אחר. יש לרענן תחילה"
+  },
+  "error_ROUTE_SAVE_ROLLBACK_FAILED": {
+    "message": "שמירת הנתיב נכשלה וביטול השינוי דורש טיפול"
+  },
+  "error_ROUTE_UNAVAILABLE": {
+    "message": "נתיב הבדיקה אינו זמין. בדקו את הגדרות הצומת והפרוקסי המקדים."
+  },
+  "error_RULE_BINDING_MISSING": {
+    "message": "שיוך כלל הצומת חסר. פתחו מחדש ושמרו את הפרופיל האוטומטי: {name}"
+  },
+  "error_RULE_NODES_LIMIT": {
+    "message": "כללים אוטומטיים תומכים בעד {limit} צמתים שונים"
+  },
+  "error_RULE_NODE_CHANGED": {
+    "message": "כלל הצומת אינו זמין או השתנה. שחזרו את הצומת או בחרו צומת אחר ושמרו: {name}"
+  },
+  "error_RULE_PATH_CONFLICT": {
+    "message": "יש סתירה בין נתיבי כללי הצמתים"
+  },
+  "error_RULE_PATTERNS_LIMIT": {
+    "message": "כללים אוטומטיים תומכים בעד {limit} תבניות התאמה בסך הכול"
+  },
+  "error_RULE_PORT_UNAVAILABLE": {
+    "message": "היציאה של כלל הצומת אינה זמינה"
+  },
+  "error_RULE_REVISION_CONFLICT": {
+    "message": "כלל הצומת השתנה בחלון אחר. יש לרענן תחילה"
+  },
+  "error_SELECTED_NODE_UNAVAILABLE": {
+    "message": "הצומת שנבחר אינו זמין. שחזרו אותו או בחרו צומת אחר"
+  },
+  "error_SOCKS_FAILED": {
+    "message": "לא ניתן היה ליצור חיבור SOCKS."
+  },
+  "error_STARTUP_FALLBACK_REFUSED": {
+    "message": "הדפדפן סירב לפרוקסי החלופי בעת ההפעלה."
+  },
+  "error_SUBSCRIPTION_CHANGED": {
+    "message": "המינוי השתנה במהלך העדכון. רעננו ונסו שוב."
+  },
+  "error_SUBSCRIPTION_HTTP_STATUS": {
+    "message": "שרת המינוי החזיר HTTP {status}."
+  },
+  "error_SUBSCRIPTION_LIMIT": {
+    "message": "מספר המינויים הגיע למגבלה. הסירו מינוי שאינו בשימוש ונסו שוב."
+  },
+  "error_SUBSCRIPTION_NOT_FOUND": {
+    "message": "המינוי שנבחר אינו קיים עוד."
+  },
+  "error_SYSTEM_PROXY_SNAPSHOT_UNAVAILABLE": {
+    "message": "עותק מצב פרוקסי המערכת שהוחל אינו זמין."
+  },
+  "error_SYSTEM_PROXY_TIMEOUT": {
+    "message": "תם הזמן המוקצב לקריאת פרוקסי המערכת"
+  },
+  "error_SYSTEM_PROXY_UNAVAILABLE": {
+    "message": "פרוקסי המערכת אינו זמין. ראו פרטים טכניים."
+  },
+  "error_TIMEOUT": {
+    "message": "תם הזמן המוקצב לבקשה. בדקו את החיבור ונסו שוב."
+  },
+  "error_TLS_DOWNGRADE": {
+    "message": "המינוי הפנה מ־HTTPS ל־HTTP ונחסם."
+  },
+  "error_TLS_FAILED": {
+    "message": "לא ניתן היה לאמת את החיבור המאובטח. בדקו את השרת והתעודה."
+  },
+  "error_UNSAFE_TEMP_PATH": {
+    "message": "תיקיית הבדיקה הזמנית אינה בטוחה. הבדיקה הופסקה."
+  },
+  "error_UNSUPPORTED_LIBRARY_REQUEST": {
+    "message": "בקשת הספרייה אינה נתמכת"
+  },
+  "error_UNSUPPORTED_PROFILE_TYPE": {
+    "message": "סוג הפרופיל אינו נתמך"
+  },
+  "error_UNSUPPORTED_REQUEST": {
+    "message": "הבקשה אינה נתמכת"
+  },
+  "error_UNSUPPORTED_RULE_CONDITION": {
+    "message": "רק כללי תווים כלליים למארחים ולכתובות URL נתמכים"
+  },
+  "error_UPDATE_FAILED": {
+    "message": "עדכון המינוי נכשל. הצמתים הקיימים נשמרו."
+  },
+  "error_VALIDATION_FAILED": {
+    "message": "לא ניתן היה לאמת את תוכן המינוי. הצמתים הקיימים נשמרו."
+  },
+  "nativeUnnamedNode": {
+    "message": "צומת ללא שם"
+  },
+  "nativeProtocolCustom": {
+    "message": "מותאם אישית"
+  },
+  "nativeProtocolOutbound": {
+    "message": "יציאה מותאמת אישית"
+  },
+  "nativeProtocolGroup": {
+    "message": "קבוצת מדיניות"
+  },
+  "nativeProtocolChain": {
+    "message": "שרשרת פרוקסי"
+  },
+  "nativeProtocolUnknown": {
+    "message": "סוג שאינו נתמך"
+  },
+  "languageLoadFailed": {
+    "message": "לא ניתן היה לטעון את השפה שנבחרה. נסו שוב."
+  },
+  "invalidBackupJSON": {
+    "message": "הגיבוי אינו JSON תקין."
+  },
+  "noticeBodyLanguages": {
+    "message": "טקסט המדיניות המלא זמין באנגלית ובסינית מפושטת."
+  },
+  "policyRules": {
+    "message": "כללי ניתוב שרת מתווך"
+  },
+  "policyPriority": {
+    "message": "סדר: כתובות מוחרגות → הכלל התואם הראשון → נתיב ברירת המחדל."
+  },
+  "policyDirectHelp": {
+    "message": "כתובות ללא התאמה מתחברות ישירות. גם לחצן החיבור הישיר בחלונית משתמש בכללים האלה."
+  },
+  "policySystemHelp": {
+    "message": "כתובות ללא התאמה משתמשות בשרת המתווך של המערכת. גם לחצן המערכת בחלונית משתמש בכללים האלה."
+  },
+  "policyEmpty": {
+    "message": "אין כללים עדיין. נעשה שימוש בנתיב ברירת המחדל."
+  },
+  "policyAddressHelp": {
+    "message": "דומיינים, דומיינים עם תווים כלליים, IP או IP:יציאה. כללי IP משווים את ה־IP שב־URL, לא תוצאות DNS."
+  },
+  "policyMoveUp": {
+    "message": "העברת הכלל למעלה"
+  },
+  "policyMoveDown": {
+    "message": "העברת הכלל למטה"
+  }
+}

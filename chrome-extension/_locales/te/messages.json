@@ -1,0 +1,2150 @@
+{
+  "ruleTargetUnavailable": {
+    "message": "అందుబాటులో లేని లక్ష్యం"
+  },
+  "rulePatternPlaceholder": {
+    "message": "example.com, *.example.org, 192.0.2.1:8443"
+  },
+  "rulePatternHelp": {
+    "message": "చిరునామాలను కామాలతో వేరు చేయండి. ప్రతి URL నమూనాను ప్రత్యేక పంక్తిలో ఉంచండి. PACకు HTTPS పాత్‌లు కనిపించకపోవచ్చు."
+  },
+  "defaultChoice_direct": {
+    "message": "ప్రాక్సీ లేకుండా కనెక్ట్ చేయండి"
+  },
+  "defaultChoice_system": {
+    "message": "సిస్టమ్ ప్రాక్సీ సెట్టింగ్‌లను ఉపయోగించండి"
+  },
+  "defaultChoice_node": {
+    "message": "ఈ ప్రొఫైల్ ఎంచుకున్న నోడ్‌ని ఉపయోగించండి"
+  },
+  "defaultChoice_manual": {
+    "message": "ఈ ప్రొఫైల్ ప్రాక్సీ సెట్టింగ్‌లను ఉపయోగించండి"
+  },
+  "defaultChoice_auto": {
+    "message": "ఈ ప్రొఫైల్ రూటింగ్ నియమాలను వర్తింపజేయండి"
+  },
+  "nlHttpsLatency": {
+    "message": "HTTPS ప్రతిస్పందన"
+  },
+  "nlLatencyMethod": {
+    "message": "Cloudflare · కనీసం రెండు ప్రతిస్పందనలు · అందుబాటులో ఉన్నప్పుడు కనెక్షన్ పునర్వినియోగం"
+  },
+  "nlLatencyFast": {
+    "message": "వేగంగా"
+  },
+  "nlLatencyModerate": {
+    "message": "మితమైన"
+  },
+  "nlLatencySlow": {
+    "message": "నెమ్మదిగా"
+  },
+  "nlSortName": {
+    "message": "పేరు"
+  },
+  "nlSortLatency": {
+    "message": "జాప్యం: తక్కువ నుండి ఎక్కువ"
+  },
+  "nlSortDownload": {
+    "message": "డౌన్‌లోడ్: ఎక్కువ నుండి తక్కువ"
+  },
+  "nlSortUpload": {
+    "message": "అప్‌లోడ్: ఎక్కువ నుండి తక్కువ"
+  },
+  "nlSingle": {
+    "message": "సింగిల్ నోడ్"
+  },
+  "nlGroupBatch": {
+    "message": "గ్రూప్ / బ్యాచ్"
+  },
+  "nlTestScope": {
+    "message": "పరీక్ష పరిధి"
+  },
+  "nlCurrentNode": {
+    "message": "ఎంచుకున్న నోడ్"
+  },
+  "nlCurrentGroup": {
+    "message": "ఎంచుకున్న సమూహం"
+  },
+  "nlChooseNode": {
+    "message": "జాబితాలో నోడ్‌ని ఎంచుకోండి"
+  },
+  "nlStart": {
+    "message": "పరీక్షను ప్రారంభించండి"
+  },
+  "nlService": {
+    "message": "టెస్ట్ సర్వీస్"
+  },
+  "nlMeasured": {
+    "message": "కొలుస్తారు"
+  },
+  "nlMeanLatency": {
+    "message": "సగటు జాప్యం"
+  },
+  "nlGroupBySource": {
+    "message": "మూల సమూహం ద్వారా"
+  },
+  "nlPreviousPage": {
+    "message": "మునుపటి పేజీ"
+  },
+  "nlNextPage": {
+    "message": "తదుపరి పేజీ"
+  },
+  "nlName": {
+    "message": "పేరు"
+  },
+  "nlEdit": {
+    "message": "సవరించు"
+  },
+  "nlStop": {
+    "message": "ఆపు"
+  },
+  "nlConfirm": {
+    "message": "నిర్ధారించండి"
+  },
+  "nlAllNodes": {
+    "message": "అన్ని నోడ్‌లు"
+  },
+  "nlNodeResults": {
+    "message": "నోడ్ ఫలితాలు"
+  },
+  "nlTestCenter": {
+    "message": "పరీక్ష కేంద్రం"
+  },
+  "nlNewGroup": {
+    "message": "కొత్త సమూహం"
+  },
+  "nlRenameGroup": {
+    "message": "సమూహం పేరు మార్చండి"
+  },
+  "nlRemoveGroup": {
+    "message": "సమూహాన్ని తీసివేయండి"
+  },
+  "nlRemoveGroupHelp": {
+    "message": "ప్రతి నోడ్ మరియు సబ్‌స్క్రిప్షన్‌ను ఉంచండి మరియు వాటిని దిగుమతి చేసుకున్న నోడ్‌లకు తరలించండి."
+  },
+  "nlNode": {
+    "message": "నోడ్"
+  },
+  "nlStatus": {
+    "message": "స్థితి"
+  },
+  "nlActions": {
+    "message": "చర్యలు"
+  },
+  "nlSort": {
+    "message": "ఈ పట్టికను మాత్రమే క్రమబద్ధీకరించండి"
+  },
+  "nlSelected": {
+    "message": "ఎంపిక చేయబడింది"
+  },
+  "nlTestNode": {
+    "message": "పరీక్ష"
+  },
+  "nlProfileShort": {
+    "message": "ప్రొఫైల్"
+  },
+  "nlQuick": {
+    "message": "త్వరిత జాప్యం"
+  },
+  "nlFull": {
+    "message": "డౌన్‌లోడ్ + అప్‌లోడ్"
+  },
+  "nlTraffic": {
+    "message": "డేటా పరిమాణాన్ని పరీక్షించండి"
+  },
+  "nlConcurrency": {
+    "message": "ఏకకాలిక నోడ్స్"
+  },
+  "nlTrafficFullOnly": {
+    "message": "డౌన్‌లోడ్ మరియు అప్‌లోడ్ పరీక్షల కోసం ఉపయోగించబడుతుంది"
+  },
+  "nlTestMode": {
+    "message": "టెస్ట్ మోడ్"
+  },
+  "nlBudget": {
+    "message": "గరిష్ట పేలోడ్ ట్రాఫిక్"
+  },
+  "nlViaGroup": {
+    "message": "గ్రూప్ ప్రీ-ప్రాక్సీ ద్వారా"
+  },
+  "nlTestSelected": {
+    "message": "పరీక్ష ఎంపిక చేయబడింది"
+  },
+  "nlTestVisible": {
+    "message": "పరీక్ష చూపిన నోడ్‌లు"
+  },
+  "nlTestAll": {
+    "message": "అన్ని నోడ్‌లను పరీక్షించండి"
+  },
+  "nlTestGroup": {
+    "message": "టెస్ట్ గ్రూప్ నోడ్‌లు"
+  },
+  "nlProgress": {
+    "message": "కొలత పురోగతి"
+  },
+  "nlReady": {
+    "message": "ప్రారంభించడానికి నోడ్‌లను ఎంచుకోండి. ఏ పరీక్ష అమలు కాలేదు."
+  },
+  "nlStarting": {
+    "message": "వివిక్త కొలత ప్రారంభిస్తోంది…"
+  },
+  "nlQueued": {
+    "message": "క్యూలో ఉంది"
+  },
+  "nlRunning": {
+    "message": "పరీక్ష"
+  },
+  "nlStopping": {
+    "message": "ఆపివేస్తోంది…"
+  },
+  "nlComplete": {
+    "message": "పూర్తయింది"
+  },
+  "nlFailed": {
+    "message": "విఫలమైంది"
+  },
+  "nlStopped": {
+    "message": "ఆగిపోయింది"
+  },
+  "nlPartial": {
+    "message": "పాక్షికం"
+  },
+  "nlUntested": {
+    "message": "పరీక్షించబడలేదు"
+  },
+  "nlSucceeded": {
+    "message": "ఉత్తీర్ణులయ్యారు"
+  },
+  "nlMeasureDisconnected": {
+    "message": "కొలత కనెక్షన్ ముగిసింది. అసంపూర్ణ విలువలు తుది ఫలితాలు కావు."
+  },
+  "nlUpgrade": {
+    "message": "సమూహాలు మరియు సభ్యత్వాలను నిర్వహించడానికి స్థానిక సహచరుడిని నవీకరించండి. ఇప్పటికే ఉన్న నోడ్‌లు అందుబాటులో ఉన్నాయి."
+  },
+  "nlOperationFailed": {
+    "message": "ఆపరేషన్ పూర్తి కాలేదు. మళ్లీ ప్రయత్నించండి."
+  },
+  "nlEditSubscription": {
+    "message": "చందాను సవరించండి"
+  },
+  "nlPasteContent": {
+    "message": "ప్రాక్సీ లింక్‌లు / కంటెంట్"
+  },
+  "nlSubscriptionURL": {
+    "message": "చందా URL"
+  },
+  "nlKeepURL": {
+    "message": "సేవ్ చేయబడిన వాటిని ఉంచడానికి ఖాళీగా ఉంచండి URL"
+  },
+  "nlConnectionPolicy": {
+    "message": "అప్‌డేట్ కనెక్షన్"
+  },
+  "nlProxyFirst": {
+    "message": "ముందుగా ప్రాక్సీ, తర్వాత వైఫల్యంపై నేరుగా"
+  },
+  "nlProxyOnly": {
+    "message": "ప్రాక్సీ మాత్రమే"
+  },
+  "nlDirectOnly": {
+    "message": "ప్రత్యక్షంగా మాత్రమే"
+  },
+  "nlProxyFirstHelp": {
+    "message": "విజయవంతంగా పొందిన తర్వాత ప్రాక్సీ మొదట ఆగిపోతుంది. ప్రాక్సీ ప్రయత్నం విఫలమైతే మాత్రమే డైరెక్ట్ ప్రయత్నించబడుతుంది."
+  },
+  "nlAutoUpdate": {
+    "message": "స్వయంచాలక నవీకరణలను ప్రారంభించండి"
+  },
+  "nlInterval": {
+    "message": "అప్‌డేట్ విరామం (నిమిషాలు)"
+  },
+  "nlDestinationGroup": {
+    "message": "డెస్టినేషన్ గ్రూప్"
+  },
+  "nlSubscriptionOwnGroup": {
+    "message": "కొత్త సమూహం…"
+  },
+  "nlNameGroup": {
+    "message": "పేరు (సమూహం)"
+  },
+  "nlCustomGroup": {
+    "message": "అనుకూల సమూహం"
+  },
+  "nlNameRequired": {
+    "message": "పేరును నమోదు చేయండి."
+  },
+  "nlContentRequired": {
+    "message": "ప్రాక్సీ లింక్‌లు లేదా సబ్‌స్క్రిప్షన్ కంటెంట్‌ను అతికించండి."
+  },
+  "nlGroupRequired": {
+    "message": "గమ్యస్థాన సమూహాన్ని ఎంచుకోండి."
+  },
+  "nlURLRequired": {
+    "message": "వినియోగదారు పేరు లేదా పాస్‌వర్డ్ లేకుండా HTTP(S) సబ్‌స్క్రిప్షన్ URLని నమోదు చేయండి."
+  },
+  "nlIntervalInvalid": {
+    "message": "5 నుండి 43200 నిమిషాల వరకు పూర్తి సంఖ్యను నమోదు చేయండి."
+  },
+  "folderTitle": {
+    "message": "v2rayN ఫోల్డర్‌ని ఎంచుకోండి"
+  },
+  "folderHint": {
+    "message": "ఫోల్డర్‌ను ఎంచుకుని, ఆపై దాన్ని సేవ్ కనెక్షన్ సెట్టింగ్‌లతో వర్తింపజేయండి."
+  },
+  "folderPath": {
+    "message": "పూర్తి స్థానిక ఫోల్డర్ మార్గం"
+  },
+  "folderGo": {
+    "message": "తెరవబడింది"
+  },
+  "folderUp": {
+    "message": "అప్"
+  },
+  "folderDrives": {
+    "message": "డ్రైవ్‌లు"
+  },
+  "folderCurrent": {
+    "message": "ప్రస్తుత మార్గం"
+  },
+  "folderChoose": {
+    "message": "ఈ ఫోల్డర్‌ని ఉపయోగించండి"
+  },
+  "folderList": {
+    "message": "ఫోల్డర్లు"
+  },
+  "folderTruncated": {
+    "message": "జాబితా పరిమితం చేయబడింది. చూపబడని ఫోల్డర్‌ను తెరవడానికి ఎగువన పూర్తి మార్గాన్ని నమోదు చేయండి."
+  },
+  "folderReady": {
+    "message": "v2rayN ఫైల్‌లు కనుగొనబడ్డాయి. కాన్ఫిగరేషన్‌ని ధృవీకరించడానికి ఈ ఫోల్డర్‌ని ఉపయోగించండి."
+  },
+  "folderInvalid": {
+    "message": "guiConfigs, guiNConfig.json మరియు guiNDB.db ఉన్న ఫోల్డర్‌ను ఎంచుకోండి."
+  },
+  "folderSelectDrive": {
+    "message": "లోకల్ డ్రైవ్‌ను ఎంచుకోండి లేదా పూర్తి ఫోల్డర్ పాత్‌ను నమోదు చేయండి."
+  },
+  "folderEmpty": {
+    "message": "కనిపించే సబ్‌ఫోల్డర్‌లు లేవు."
+  },
+  "folderUnavailable": {
+    "message": "ఈ ఫోల్డర్‌ని బ్రౌజ్ చేయడం సాధ్యపడదు. దాని మార్గం మరియు ప్రాప్యతను తనిఖీ చేయండి. సహచరుడు పెద్దవాడైతే, ముందుగా దాన్ని అప్‌డేట్ చేయండి."
+  },
+  "folderValidating": {
+    "message": "ధృవీకరణ v2rayN కాన్ఫిగరేషన్…"
+  },
+  "folderInvalidConfig": {
+    "message": "v2rayN కాన్ఫిగరేషన్ లేదా డేటాబేస్ అసంపూర్ణం లేదా చెల్లదు. మరొక ఫోల్డర్‌ని ఎంచుకోండి."
+  },
+  "copyPath": {
+    "message": "కాపీ మార్గం"
+  },
+  "pathCopyHint": {
+    "message": "ప్రస్తుతం ఈ ఫీల్డ్‌లో ఉన్న మార్గాన్ని కాపీ చేయండి."
+  },
+  "preMode": {
+    "message": "ప్రీ-ప్రాక్సీ మోడ్"
+  },
+  "preNode": {
+    "message": "ప్రీ-ప్రాక్సీ నోడ్"
+  },
+  "preIntro": {
+    "message": "సమూహ గొలుసును ఉపయోగించండి, దానిని దాటవేయండి లేదా ఈ ప్రొఫైల్ కోసం ప్రీ-ప్రాక్సీని ఎంచుకోండి."
+  },
+  "healthLabel": {
+    "message": "ప్రస్తుత కనెక్షన్ స్థితి"
+  },
+  "healthOk": {
+    "message": "సాధారణం"
+  },
+  "healthError": {
+    "message": "అసాధారణమైనది"
+  },
+  "healthChecking": {
+    "message": "తనిఖీ చేస్తోంది"
+  },
+  "healthUnknown": {
+    "message": "ధృవీకరించబడలేదు"
+  },
+  "autoSystemHelp": {
+    "message": "సిస్టమ్ నియమాలకు Windows భాగం మరియు స్థిర ప్రాక్సీ సెట్టింగ్‌ల కాపీ అవసరం. మార్పుల తర్వాత మళ్లీ వర్తింపజేయండి. PAC/WPADకు మద్దతు లేదు; నియమాలు లేని సిస్టమ్ బ్రౌజర్ అసలు సెట్టింగ్‌లను వాడుతుంది."
+  },
+  "backgroundUnavailable": {
+    "message": "పొడిగింపు నేపథ్యం అందుబాటులో లేదు."
+  },
+  "backgroundNoResponse": {
+    "message": "నేపథ్యం స్పందించలేదు."
+  },
+  "backupTooLarge": {
+    "message": "బ్యాకప్ 5 MB మించిపోయింది."
+  },
+  "proxyUsername": {
+    "message": "వినియోగదారు పేరు"
+  },
+  "proxyPassword": {
+    "message": "పాస్‌వర్డ్"
+  },
+  "proxyAuthHelp": {
+    "message": "ఐచ్ఛికం. ప్రామాణీకరించబడిన ప్రాక్సీలు కంపానియన్ ద్వారా కనెక్ట్ అవుతాయి. ఆధారాలు ఈ బ్రౌజర్ కాన్ఫిగరేషన్ మరియు కంపానియన్‌లో నిల్వ చేయబడతాయి మరియు ప్రొఫైల్ ఎగుమతులలో చేర్చబడ్డాయి."
+  },
+  "proxyAuthSocks4": {
+    "message": "SOCKS4 ఈ వినియోగదారు పేరు/పాస్‌వర్డ్ ప్రమాణీకరణకు మద్దతు ఇవ్వదు; HTTP(S) లేదా SOCKS5 ఉపయోగించండి."
+  },
+  "importExamples": {
+    "message": "ఫార్మాట్ ఉదాహరణలు"
+  },
+  "ipCopying": {
+    "message": "కాపీ చేస్తోంది…"
+  },
+  "netDnsUnavailable": {
+    "message": "సర్వర్ చిరునామా సకాలంలో పరిష్కరించబడలేదు. హోస్ట్ లేదా IP చిరునామాను తనిఖీ చేసి, మళ్లీ ప్రయత్నించండి."
+  },
+  "netCurrentTarget": {
+    "message": "ఎంచుకున్న ప్రాక్సీ ముగింపు స్థానం"
+  },
+  "netCustomTarget": {
+    "message": "అనుకూల సర్వర్"
+  },
+  "netHost": {
+    "message": "హోస్ట్ లేదా IP చిరునామా"
+  },
+  "netPort": {
+    "message": "TCP పోర్ట్"
+  },
+  "netHostRequired": {
+    "message": "సర్వర్ హోస్ట్ లేదా IP చిరునామాను నమోదు చేయండి."
+  },
+  "netCurrentUnavailable": {
+    "message": "నోడ్ లేదా మాన్యువల్ ప్రాక్సీ ప్రొఫైల్‌ను ఎంచుకోండి లేదా అనుకూల లక్ష్యాన్ని నమోదు చేయండి."
+  },
+  "netInvalidTarget": {
+    "message": "చెల్లుబాటు అయ్యే డయాగ్నస్టిక్ హోస్ట్ మరియు పోర్ట్‌ను నమోదు చేయండి."
+  },
+  "netIpv6PingUnavailable": {
+    "message": "IPv6 ICMP అందుబాటులో లేదు; ఉపయోగించండి TCPing."
+  },
+  "preNeedsFix": {
+    "message": "సేవ్ చేయడానికి ముందు చెల్లుబాటు అయ్యే ప్రీ-ప్రాక్సీని ఎంచుకోండి లేదా ప్రీ-ప్రాక్సీ లేదు."
+  },
+  "preConfigure": {
+    "message": "ప్రీ-ప్రాక్సీని కాన్ఫిగర్ చేయండి"
+  },
+  "preFollowInvalid": {
+    "message": "అనుసరించండి v2rayN అనుకూల ప్రీ-ప్రాక్సీని అంగీకరించదు."
+  },
+  "followChainHelp": {
+    "message": "v2rayNలో ఇప్పటికే క్రియాశీలంగా ఉన్న మార్గాన్ని మరియు ప్రాక్సీ గొలుసును అనుసరించండి."
+  },
+  "netTitle": {
+    "message": "కనెక్షన్ పరీక్షలు"
+  },
+  "ipTestDetails": {
+    "message": "పరీక్ష వివరాలు"
+  },
+  "netTarget": {
+    "message": "పింగ్ / TCPing లక్ష్యం"
+  },
+  "netDownload": {
+    "message": "డౌన్‌లోడ్ పరీక్ష"
+  },
+  "netPartial": {
+    "message": "పాక్షిక నమూనా"
+  },
+  "netComplete": {
+    "message": "నమూనా పూర్తయింది"
+  },
+  "netDirect": {
+    "message": "సిస్టమ్ నెట్‌వర్క్"
+  },
+  "netUnreachable": {
+    "message": "ప్రత్యుత్తరం లేదు / విఫలమైంది"
+  },
+  "netAverage": {
+    "message": "సగటు"
+  },
+  "predecessor": {
+    "message": "ప్రీ-ప్రాక్సీ"
+  },
+  "preInherit": {
+    "message": "v2rayN సమూహ గొలుసును ఉపయోగించండి"
+  },
+  "preNone": {
+    "message": "ప్రీ-ప్రాక్సీ లేదు"
+  },
+  "preSpecific": {
+    "message": "నోడ్‌ని ఎంచుకోండి"
+  },
+  "preHelp": {
+    "message": "ఈ ప్రొఫైల్‌కు వర్తిస్తుంది. v2rayN సమూహ గొలుసును ఉపయోగించండి, ప్రీ-ప్రాక్సీ లేదా నిర్దిష్ట నోడ్ లేదు. ఫాలో v2rayN దాని ప్రస్తుత గొలుసును ఉపయోగిస్తుంది."
+  },
+  "preSelectRequired": {
+    "message": "ప్రీ-ప్రాక్సీ నోడ్‌ని ఎంచుకోండి లేదా గ్రూప్ డిఫాల్ట్ / ఏదీ ఎంచుకోండి."
+  },
+  "ipPing0Permission": {
+    "message": "పబ్లిక్ రిపోర్ట్‌ను లోడ్ చేయడానికి Ping0 వెబ్‌సైట్ యాక్సెస్‌ను అనుమతించండి."
+  },
+  "ipPublicChallenge": {
+    "message": "వెబ్‌సైట్‌కి ధృవీకరణ అవసరం. దాన్ని పూర్తి చేయడానికి మరియు ఫలితాన్ని వీక్షించడానికి Ping0 పేజీని తెరవండి."
+  },
+  "ipPublicReport": {
+    "message": "Ping0 పబ్లిక్ రిపోర్ట్"
+  },
+  "ipPublicSource": {
+    "message": "మూలం: Ping0 పబ్లిక్ పేజీ"
+  },
+  "ipPublicOriginal": {
+    "message": "Ping0 నివేదిక"
+  },
+  "ipPublicPartial": {
+    "message": "పబ్లిక్ పేజీలో అందించబడిన ఫీల్డ్‌లు మాత్రమే వాటి అసలు భాషలో చూపబడతాయి. వర్గీకరణలు మరియు భాగస్వామ్య వినియోగదారు అంచనాలు Ping0 నుండి ఉన్నాయి."
+  },
+  "setupTitle": {
+    "message": "కనెక్ట్ చేయండి Proxy V2Route"
+  },
+  "setupIntro": {
+    "message": "v2rayN మార్గాలను లేదా మీ స్వంత దిగుమతి చేసుకున్న నోడ్‌లను ఉపయోగించడానికి Windows సహచరుడిని ఇన్‌స్టాల్ చేయండి."
+  },
+  "setupStepOne": {
+    "message": "సరిపోలే పూర్తి Windows ప్యాకేజీని శాశ్వత ఫోల్డర్‌కు సంగ్రహించండి."
+  },
+  "setupStepTwo": {
+    "message": "V2Route-Setup.exe తెరిచి, ఇన్‌స్టాల్ చేయి క్లిక్ చేయండి."
+  },
+  "setupStepThree": {
+    "message": "ఇక్కడికి తిరిగి వచ్చి కనెక్షన్‌ని తనిఖీ చేయండి. అవసరమైతే v2rayN ఫోల్డర్‌ని ఎంచుకోండి."
+  },
+  "setupCheck": {
+    "message": "కనెక్షన్‌ని తనిఖీ చేయండి"
+  },
+  "downloadCompanion": {
+    "message": "ఇన్‌స్టాలేషన్ గైడ్ ↗"
+  },
+  "setupDownloadNote": {
+    "message": "సరిపోలే స్థానిక Windows ప్యాకేజీని ఉపయోగించండి లేదా ప్రస్తుత మూలం నుండి నిర్మించడానికి గైడ్‌ని అనుసరించండి."
+  },
+  "chooseFolder": {
+    "message": "v2rayN ఫోల్డర్‌ని ఎంచుకోండి..."
+  },
+  "rescanDone": {
+    "message": "స్థానిక నోడ్‌లు మళ్లీ స్కాన్ చేయబడ్డాయి"
+  },
+  "grouping": {
+    "message": "గ్రూప్ నోడ్స్"
+  },
+  "groupByCountry": {
+    "message": "దేశం వారీగా"
+  },
+  "unknownCountry": {
+    "message": "ఇతర / తెలియని"
+  },
+  "ungrouped": {
+    "message": "సమూహం చేయబడలేదు"
+  },
+  "adjustNodeFilters": {
+    "message": "మరొక సమూహాన్ని ప్రయత్నించండి, మూలం లేదా శోధించండి లేదా దాచిన నోడ్‌లను చూపండి."
+  },
+  "rescanLocal": {
+    "message": "v2rayN నోడ్‌లను తిరిగి స్కాన్ చేయండి"
+  },
+  "showHidden": {
+    "message": "దాచిన నోడ్‌లను చూపు"
+  },
+  "hideNode": {
+    "message": "దాచు"
+  },
+  "restoreNode": {
+    "message": "పునరుద్ధరించు"
+  },
+  "hiddenNode": {
+    "message": "దాచబడింది"
+  },
+  "hideNodeHelp": {
+    "message": "ఈ బ్రౌజర్ నోడ్ లైబ్రరీ నుండి మాత్రమే దాచండి. v2rayN మరియు ఇప్పటికే ఉన్న ప్రొఫైల్‌లు మారవు."
+  },
+  "ipContextTimeout": {
+    "message": "ప్రస్తుత ప్రొఫైల్ చదవడం సమయం ముగిసింది. మళ్లీ ప్రయత్నించండి."
+  },
+  "ipStaleResult": {
+    "message": "ప్రస్తుత ప్రొఫైల్ మార్చబడింది. ఈ ఫలితం పాతది కావచ్చు; మళ్లీ తనిఖీ చేయండి."
+  },
+  "ip_tools": {
+    "message": "IP సాధనాలు"
+  },
+  "ipIntro": {
+    "message": "ప్రస్తుత నిష్క్రమణ IP మరియు పబ్లిక్ రిపోర్ట్."
+  },
+  "ipCurrentProfile": {
+    "message": "ప్రస్తుత బ్రౌజర్ ప్రొఫైల్"
+  },
+  "ipRouteCaution": {
+    "message": "ఆటోమేటిక్ నియమాలు మరియు PAC వేర్వేరు గమ్యస్థానాలకు వేర్వేరు మార్గాలను ఉపయోగించవచ్చు. ఈ చెక్ దాని స్వంత అభ్యర్థనను మాత్రమే వివరిస్తుంది."
+  },
+  "ipDisclosure": {
+    "message": "ఆటో-చెక్ నిష్క్రమణ IP · Ping0 ద్వారా నివేదించండి"
+  },
+  "ipMethod": {
+    "message": "చిరునామా తనిఖీ"
+  },
+  "ipDual": {
+    "message": "IPv4 / IPv6"
+  },
+  "ipCheck": {
+    "message": "మళ్లీ తనిఖీ చేయండి"
+  },
+  "ipChecking": {
+    "message": "తనిఖీ చేస్తోంది…"
+  },
+  "ipDualHelp": {
+    "message": "IPv4 / IPv6 ఈ అభ్యర్థన కోసం ఉపయోగించిన చిరునామా కుటుంబాన్ని అందిస్తుంది, రెండు చిరునామాలు కాదు."
+  },
+  "ipDurationHelp": {
+    "message": "గడిచిన HTTP అభ్యర్థన సమయం నెట్‌వర్క్ మరియు సేవా ప్రతిస్పందన సమయాన్ని కలిగి ఉంటుంది. ఇది ICMP పింగ్ లేదా బ్యాండ్‌విడ్త్ పరీక్ష కాదు."
+  },
+  "ipCopy": {
+    "message": "కాపీ IP"
+  },
+  "ipCopied": {
+    "message": "కాపీ చేయబడింది"
+  },
+  "ipCopyFailed": {
+    "message": "కాపీ చేయడం సాధ్యపడలేదు. చిరునామాను ఎంచుకోండి మరియు దానిని మాన్యువల్‌గా కాపీ చేయండి."
+  },
+  "ipNoResult": {
+    "message": "ఇంకా తనిఖీ లేదు"
+  },
+  "ipContextUnknown": {
+    "message": "ప్రొఫైల్ అందుబాటులో లేదు"
+  },
+  "ipTimeout": {
+    "message": "చెక్ సమయం ముగిసింది. మళ్లీ ప్రయత్నించండి లేదా మరొక మార్గాన్ని ఉపయోగించండి."
+  },
+  "ipCancelled": {
+    "message": "చెక్ రద్దు చేయబడింది"
+  },
+  "ipNetwork": {
+    "message": "ipify చేరుకోలేకపోయింది. కనెక్షన్‌ని తనిఖీ చేసి, మళ్లీ ప్రయత్నించండి."
+  },
+  "ipHttp": {
+    "message": "IP సేవ అభ్యర్థనను అంగీకరించలేదు. తర్వాత మళ్లీ ప్రయత్నించండి."
+  },
+  "ipInvalid": {
+    "message": "IP సేవ చెల్లని ప్రతిస్పందనను అందించింది."
+  },
+  "ipFailure": {
+    "message": "చెక్ విఫలమైంది. మళ్లీ ప్రయత్నించండి."
+  },
+  "ipStale": {
+    "message": "తనిఖీ సమయంలో మీ ప్రాక్సీ సెట్టింగ్‌లు మార్చబడ్డాయి. పాత ఫలితం విస్మరించబడింది; మళ్లీ తనిఖీ చేయండి."
+  },
+  "ipQuality": {
+    "message": "బాహ్య సాధనాలు"
+  },
+  "ipQualityPrivacy": {
+    "message": "సాధనాలు క్లిక్‌పై మాత్రమే నడుస్తాయి. ప్రొవైడర్లు సాధారణ కనెక్షన్ డేటాను స్వీకరిస్తారు. వెబ్‌సైట్ తనిఖీలు ప్రారంభమైన తర్వాత ఆధారాల రహిత అభ్యర్థనలను పంపుతాయి. మూసివేయడం స్థానిక పరీక్షలను నిలిపివేస్తుంది; బాహ్య ట్యాబ్‌లు బ్రౌజర్ ద్వారా నిర్వహించబడతాయి."
+  },
+  "ipReport": {
+    "message": "కాపీ సవరించిన నివేదిక"
+  },
+  "ipReportCopied": {
+    "message": "సవరించిన నివేదిక కాపీ చేయబడింది; లేదు IP లేదా ప్రొఫైల్ పేర్లు చేర్చబడ్డాయి."
+  },
+  "popupSelected": {
+    "message": "ఎంపిక చేయబడింది"
+  },
+  "popupFooter": {
+    "message": "v2rayN & నోడ్ ప్రొఫైల్‌లు"
+  },
+  "subtitle": {
+    "message": "స్వతంత్ర బ్రౌజర్ మార్గాలు"
+  },
+  "profiles": {
+    "message": "ప్రొఫైల్స్"
+  },
+  "nodes": {
+    "message": "నోడ్ లైబ్రరీ"
+  },
+  "settings": {
+    "message": "సెట్టింగ్‌లు"
+  },
+  "connected": {
+    "message": "సక్రియ ప్రొఫైల్"
+  },
+  "noProfile": {
+    "message": "సిస్టమ్ డిఫాల్ట్"
+  },
+  "newProfile": {
+    "message": "కొత్త ప్రొఫైల్"
+  },
+  "searchProfiles": {
+    "message": "ప్రొఫైల్‌లను శోధించండి"
+  },
+  "direct": {
+    "message": "డైరెక్ట్ నెట్‌వర్క్"
+  },
+  "system": {
+    "message": "సిస్టమ్ ప్రాక్సీ"
+  },
+  "follow": {
+    "message": "అనుసరించండి v2rayN"
+  },
+  "manual": {
+    "message": "మాన్యువల్ ప్రాక్సీ"
+  },
+  "auto": {
+    "message": "ఆటో స్విచ్"
+  },
+  "pac": {
+    "message": "PAC స్క్రిప్ట్"
+  },
+  "virtual": {
+    "message": "వర్చువల్ ప్రొఫైల్"
+  },
+  "profileIntro": {
+    "message": "v2rayN యొక్క ప్రధాన మార్గాన్ని మార్చకుండా బ్రౌజర్ మార్గాన్ని ఎంచుకోండి."
+  },
+  "nodesIntro": {
+    "message": "స్థానిక v2rayN నోడ్‌లు మరియు మీ దిగుమతి చేసుకున్న లింక్‌లను బ్రౌజ్ చేయండి."
+  },
+  "settingsIntro": {
+    "message": "స్థానిక కనెక్షన్, భాష మరియు ప్రదర్శన."
+  },
+  "refresh": {
+    "message": "రిఫ్రెష్ చేయండి"
+  },
+  "create": {
+    "message": "ప్రొఫైల్‌ని సృష్టించండి"
+  },
+  "name": {
+    "message": "ప్రొఫైల్ పేరు"
+  },
+  "type": {
+    "message": "ప్రొఫైల్ రకం"
+  },
+  "save": {
+    "message": "సేవ్ చేయండి"
+  },
+  "saved": {
+    "message": "సేవ్ చేయబడింది"
+  },
+  "saving": {
+    "message": "సేవ్ చేస్తోంది…"
+  },
+  "cancel": {
+    "message": "రద్దు చేయండి"
+  },
+  "close": {
+    "message": "మూసివేయండి"
+  },
+  "apply": {
+    "message": "ఈ ప్రొఫైల్‌ని ఉపయోగించండి"
+  },
+  "applied": {
+    "message": "ప్రొఫైల్ మార్చబడింది"
+  },
+  "active": {
+    "message": "యాక్టివ్"
+  },
+  "delete": {
+    "message": "తొలగించు"
+  },
+  "remove": {
+    "message": "తీసివేయండి"
+  },
+  "rename": {
+    "message": "పేరు మార్చండి"
+  },
+  "route": {
+    "message": "ప్రాక్సీ మార్గం"
+  },
+  "selectRoute": {
+    "message": "ఒక మార్గాన్ని ఎంచుకోండి"
+  },
+  "routeMissing": {
+    "message": "మార్గం అందుబాటులో లేదు — మరొకటి ఎంచుకోండి"
+  },
+  "chain": {
+    "message": "కనెక్షన్ చైన్"
+  },
+  "connection": {
+    "message": "స్థానిక కనెక్షన్"
+  },
+  "proxy": {
+    "message": "ప్రాక్సీ సర్వర్"
+  },
+  "address": {
+    "message": "చిరునామా"
+  },
+  "port": {
+    "message": "పోర్ట్"
+  },
+  "scheme": {
+    "message": "ప్రోటోకాల్"
+  },
+  "proxyDns": {
+    "message": "SOCKS5 DNS ప్రాక్సీ ద్వారా పరిష్కరిస్తుంది."
+  },
+  "connectedIdle": {
+    "message": "కనెక్ట్ చేయబడింది · నిష్క్రియంగా ఉంది"
+  },
+  "bypass": {
+    "message": "బైపాస్ జాబితా"
+  },
+  "bypassHelp": {
+    "message": "ప్రతి పంక్తిలో ఒక డొమైన్, వైల్డ్‌కార్డ్ డొమైన్, IP చిరునామా లేదా IP:పోర్ట్."
+  },
+  "advanced": {
+    "message": "అధునాతన ఎంపికలు"
+  },
+  "searchRoutes": {
+    "message": "సమూహాలు లేదా నోడ్‌లను శోధించండి"
+  },
+  "selectGroup": {
+    "message": "సమూహాన్ని ఎంచుకోండి"
+  },
+  "empty": {
+    "message": "సరిపోలే అంశాలు లేవు"
+  },
+  "unavailable": {
+    "message": "అందుబాటులో లేదు"
+  },
+  "groupHint": {
+    "message": "250 ms కోసం సమూహాన్ని పట్టుకుని, ఆపై లాగండి. Alt + ↑ / ↓ కూడా మళ్లీ ఆర్డర్ చేస్తుంది. మార్పులు స్వయంచాలకంగా సేవ్ చేయబడతాయి."
+  },
+  "searchSort": {
+    "message": "క్రమబద్ధీకరించే ముందు శోధనను క్లియర్ చేయండి."
+  },
+  "dragHint": {
+    "message": "పైకి లేదా క్రిందికి తరలించండి, ఆపై సేవ్ చేయడానికి విడుదల చేయండి. Esc రద్దు చేస్తుంది."
+  },
+  "orderSaved": {
+    "message": "గ్రూప్ ఆర్డర్ సేవ్ చేయబడింది"
+  },
+  "orderCancelled": {
+    "message": "రీఆర్డరింగ్ రద్దు చేయబడింది"
+  },
+  "loading": {
+    "message": "లోడ్ అవుతోంది…"
+  },
+  "reading": {
+    "message": "స్థానిక నోడ్‌లను చదవడం…"
+  },
+  "nativeMissing": {
+    "message": "స్థానిక భాగం కనెక్ట్ చేయబడలేదు"
+  },
+  "retry": {
+    "message": "మళ్లీ ప్రయత్నించండి"
+  },
+  "nativeHelp": {
+    "message": "నోడ్ మార్గాలకు Windows సహచరుడు అవసరం. డైరెక్ట్, సిస్టమ్ మరియు మాన్యువల్ ప్రాక్సీలు ఇప్పుడు అందుబాటులో ఉన్నాయి."
+  },
+  "imported": {
+    "message": "దిగుమతి చేయబడింది"
+  },
+  "v2rayn": {
+    "message": "v2rayN"
+  },
+  "allSources": {
+    "message": "అన్ని మూలాధారాలు"
+  },
+  "importNodes": {
+    "message": "ప్రాక్సీలను దిగుమతి చేయండి"
+  },
+  "importTitle": {
+    "message": "ప్రాక్సీలను దిగుమతి చేయండి"
+  },
+  "importHelp": {
+    "message": "ప్రాక్సీ లింక్‌లను అతికించండి, అవుట్‌బౌండ్ JSON లేదా Base64 సబ్‌స్క్రిప్షన్. SOCKS సాదా లేదా Base64 ఆధారాలకు మద్దతు ఇస్తుంది. స్కీమ్-రహిత చిరునామాలు HTTPని ఉపయోగిస్తాయి."
+  },
+  "importPrivacy": {
+    "message": "ప్రాక్సీ వివరాలు మరియు ఆధారాలు మీరు ఎంచుకున్న ప్రాక్సీకి నిల్వ మరియు కనెక్షన్ కోసం స్థానిక Proxy V2Route సహచరుడికి పంపబడతాయి. డెవలపర్ ఈ సమాచారాన్ని స్వీకరించలేదు."
+  },
+  "import": {
+    "message": "ప్రొఫైల్‌లను దిగుమతి చేయండి"
+  },
+  "nodeCount": {
+    "message": "నోడ్స్"
+  },
+  "source": {
+    "message": "మూలం"
+  },
+  "protocol": {
+    "message": "ప్రోటోకాల్"
+  },
+  "useNode": {
+    "message": "ప్రొఫైల్‌ని సృష్టించండి"
+  },
+  "removeNode": {
+    "message": "దిగుమతి చేసుకున్న నోడ్‌ని తీసివేయాలా?"
+  },
+  "removeNodeHelp": {
+    "message": "ఈ నోడ్‌ని ఉపయోగించే ప్రొఫైల్‌లను తీసివేయడానికి ముందు తప్పనిసరిగా తిరిగి కేటాయించబడాలి."
+  },
+  "deleteProfile": {
+    "message": "ఈ ప్రొఫైల్‌ని తొలగించాలా?"
+  },
+  "deleteProfileHelp": {
+    "message": "ఇది ఈ బ్రౌజర్ ప్రొఫైల్‌ను మాత్రమే తొలగిస్తుంది. దిగుమతి చేయబడిన నోడ్‌లు మరియు v2rayN కాన్ఫిగరేషన్ ఉంచబడ్డాయి."
+  },
+  "language": {
+    "message": "భాష"
+  },
+  "automatic": {
+    "message": "బ్రౌజర్ డిఫాల్ట్"
+  },
+  "theme": {
+    "message": "స్వరూపం"
+  },
+  "light": {
+    "message": "కాంతి"
+  },
+  "dark": {
+    "message": "చీకటి"
+  },
+  "switchToEnglish": {
+    "message": "ఆంగ్లానికి మారండి"
+  },
+  "switchToChinese": {
+    "message": "సరళీకృత చైనీస్‌కి మారండి"
+  },
+  "switchToLight": {
+    "message": "కాంతి రూపానికి మారండి"
+  },
+  "switchToDark": {
+    "message": "ముదురు రూపానికి మారండి"
+  },
+  "localComponent": {
+    "message": "సహచర భాగం"
+  },
+  "ready": {
+    "message": "కనెక్ట్ చేయబడింది"
+  },
+  "stopped": {
+    "message": "అమలు చేయడం లేదు"
+  },
+  "discovery": {
+    "message": "v2rayN గుర్తింపు"
+  },
+  "rootPath": {
+    "message": "v2rayN ఫోల్డర్"
+  },
+  "corePath": {
+    "message": "ప్రాక్సీ కోర్ ఎక్జిక్యూటబుల్"
+  },
+  "optionalPath": {
+    "message": "ఆటోమేటిక్ డిటెక్షన్ కోసం ఖాళీగా ఉంచండి"
+  },
+  "pathsHelp": {
+    "message": "v2rayN స్వయంచాలకంగా గుర్తించబడుతుంది; అవసరమైతే దాని ఫోల్డర్‌ని ఎంచుకోండి. దిగుమతి చేయబడిన నోడ్‌లు చేర్చబడిన కోర్‌ని ఉపయోగిస్తాయి."
+  },
+  "savePaths": {
+    "message": "కనెక్షన్ సెట్టింగ్‌లను సేవ్ చేయండి"
+  },
+  "privacy": {
+    "message": "సెట్టింగ్‌లు స్థానికంగా నిల్వ చేయబడ్డాయి"
+  },
+  "privacyText": {
+    "message": "నోడ్ లింక్‌లు మరియు ఆధారాలు లోకల్ కంపానియన్‌లో ఉంటాయి. బ్రౌజర్ ట్రాఫిక్ మీరు ఎంచుకున్న ప్రాక్సీ ద్వారా గమ్యస్థాన వెబ్‌సైట్‌లకు వెళుతుంది; డెవలపర్ దానిని స్వీకరించలేదు."
+  },
+  "privacyDetails": {
+    "message": "గోప్యత మరియు డేటా ప్రవాహం"
+  },
+  "export": {
+    "message": "ప్రొఫైల్‌లను ఎగుమతి చేయండి"
+  },
+  "about": {
+    "message": "సుమారు Proxy V2Route"
+  },
+  "aboutText": {
+    "message": "v2rayN యొక్క ప్రధాన మార్గాన్ని మార్చకుండా బ్రౌజర్ మార్గాన్ని ఎంచుకోండి. నోడ్ మార్గాలు Windows సహచరుడు మరియు మీ స్వంత నోడ్‌లను ఉపయోగిస్తాయి."
+  },
+  "licenses": {
+    "message": "ఓపెన్ సోర్స్ నోటీసులు"
+  },
+  "version": {
+    "message": "వెర్షన్"
+  },
+  "fieldRequired": {
+    "message": "ప్రొఫైల్ పేరును నమోదు చేయండి."
+  },
+  "profileExists": {
+    "message": "ఈ పేరుతో ప్రొఫైల్ ఇప్పటికే ఉంది."
+  },
+  "ruleHelp": {
+    "message": "కామాలతో ఒక వరుసలో ప్రత్యేక డొమైన్‌లు. మొదటి సరిపోలే వరుస గెలుస్తుంది. డిఫాల్ట్ మార్గాన్ని అందుబాటులో ఉంచండి."
+  },
+  "rules": {
+    "message": "రూటింగ్ నియమాలు"
+  },
+  "pattern": {
+    "message": "హోస్ట్ నమూనా"
+  },
+  "target": {
+    "message": "నియమం లక్ష్యం"
+  },
+  "addRule": {
+    "message": "నియమాన్ని జోడించండి"
+  },
+  "defaultRoute": {
+    "message": "డిఫాల్ట్ ప్రొఫైల్"
+  },
+  "pacHelp": {
+    "message": "FindProxyForURL కలిగిన విశ్వసనీయ PAC మూలాన్ని అతికించండి. వెబ్‌సైట్ అభ్యర్థనలు ఎలా మళ్లించబడతాయో ఈ స్క్రిప్ట్ నిర్ణయిస్తుంది."
+  },
+  "pacUrl": {
+    "message": "PAC URL"
+  },
+  "pacScript": {
+    "message": "PAC స్క్రిప్ట్"
+  },
+  "noSelection": {
+    "message": "ప్రొఫైల్‌ను ఎంచుకోండి లేదా ఒకదాన్ని సృష్టించండి."
+  },
+  "details": {
+    "message": "వివరాలు"
+  },
+  "noNodes": {
+    "message": "ఇంకా నోడ్‌లు లేవు"
+  },
+  "noNodesHelp": {
+    "message": "ప్రారంభించడానికి v2rayN కనెక్ట్ చేయండి లేదా ప్రాక్సీ లింక్‌లు, JSON లేదా సబ్‌స్క్రిప్షన్‌ను దిగుమతి చేయండి."
+  },
+  "openSettings": {
+    "message": "సెట్టింగ్‌లను తెరవండి"
+  },
+  "proxySettings": {
+    "message": "ప్రాక్సీ సెట్టింగ్‌లు"
+  },
+  "switching": {
+    "message": "మారుతోంది…"
+  },
+  "updatedElsewhere": {
+    "message": "ఈ ప్రొఫైల్ మరొక విండోలో మార్చబడింది. సేవ్ చేయడానికి ముందు దాన్ని మళ్లీ తెరవండి."
+  },
+  "choose": {
+    "message": "ఎంచుకోండి"
+  },
+  "popupIntro": {
+    "message": "కనెక్షన్:"
+  },
+  "invalidPort": {
+    "message": "1 నుండి 65535 వరకు పోర్ట్‌ను నమోదు చేయండి."
+  },
+  "externalControl": {
+    "message": "మరొక పొడిగింపు లేదా విధానం బ్రౌజర్ ప్రాక్సీని నియంత్రిస్తోంది."
+  },
+  "noNativeRoute": {
+    "message": "నోడ్ ప్రొఫైల్‌ను సృష్టించే ముందు స్థానిక భాగాన్ని కనెక్ట్ చేయండి."
+  },
+  "reload": {
+    "message": "మళ్లీ లోడ్ చేయండి"
+  },
+  "rulesError": {
+    "message": "ప్రతి నియమానికి నమూనా మరియు లక్ష్యం అవసరం."
+  },
+  "backupDone": {
+    "message": "బ్రౌజర్ ప్రొఫైల్‌లు ఎగుమతి చేయబడ్డాయి"
+  },
+  "managed": {
+    "message": "నిర్వహించబడే నోడ్"
+  },
+  "netRegion": {
+    "message": "లక్ష్య ప్రాంతం"
+  },
+  "netNodeArea": {
+    "message": "ప్రాక్సీ నోడ్"
+  },
+  "netChina": {
+    "message": "మెయిన్‌ల్యాండ్ చైనా"
+  },
+  "netGlobal": {
+    "message": "గ్లోబల్"
+  },
+  "netAli": {
+    "message": "AliDNS"
+  },
+  "netTencent": {
+    "message": "DNSPod"
+  },
+  "netStartHelp": {
+    "message": "లక్ష్యాన్ని ఎంచుకోండి, ఆపై ప్రత్యక్ష పరీక్షను ప్రారంభించండి."
+  },
+  "netConsole": {
+    "message": "లైవ్ డయాగ్నస్టిక్స్"
+  },
+  "netStop": {
+    "message": "ఆపు"
+  },
+  "netRunning": {
+    "message": "నడుస్తోంది"
+  },
+  "netStopped": {
+    "message": "ఆగిపోయింది"
+  },
+  "netSent": {
+    "message": "పంపబడింది"
+  },
+  "netLoss": {
+    "message": "నష్టం"
+  },
+  "netAverageShort": {
+    "message": "సగటు"
+  },
+  "netLogClear": {
+    "message": "క్లియర్"
+  },
+  "netFinishing": {
+    "message": "మునుపటి ప్రోబ్ పూర్తవుతోంది…"
+  },
+  "netRound": {
+    "message": "రౌండ్"
+  },
+  "netDestination": {
+    "message": "గమ్యం"
+  },
+  "netHop": {
+    "message": "హాప్"
+  },
+  "netAddress": {
+    "message": "IP చిరునామా"
+  },
+  "netLast": {
+    "message": "చివరిది"
+  },
+  "netConsoleHelp": {
+    "message": "పింగ్ / TCPing / MTR ప్రాక్సీ చైన్ కాకుండా సిస్టమ్ నెట్‌వర్క్‌ని ఉపయోగిస్తుంది. తప్పిపోయిన ICMP ప్రత్యుత్తరాలు ట్రాఫిక్ నష్టాన్ని రుజువు చేయవు. డౌన్‌లోడ్ బ్రౌజర్ మార్గం మరియు ఎంచుకున్న పరిమాణ పరిమితిని ఉపయోగిస్తుంది. మీరు ఈ పేజీని వదిలిపెట్టినప్పుడు లేదా దాచినప్పుడు పరీక్షలు ఆగిపోతాయి."
+  },
+  "netDirectShort": {
+    "message": "సిస్టమ్ నెట్‌వర్క్"
+  },
+  "netIcmpShort": {
+    "message": "లేదు ICMP ప్రత్యుత్తరం"
+  },
+  "netProbeError": {
+    "message": "స్థానిక ప్రోబ్ లోపం"
+  },
+  "netNoDestination": {
+    "message": "గమ్యం చేరుకోలేదు"
+  },
+  "deleteActive": {
+    "message": "సిస్టమ్‌కి మారండి మరియు తొలగించండి"
+  },
+  "deleteActiveHelp": {
+    "message": "ఈ ప్రొఫైల్ సక్రియంగా ఉంది. దీన్ని తొలగించడం వలన బ్రౌజర్ సిస్టమ్ ప్రాక్సీకి మారుతుంది."
+  },
+  "netDownloadSize": {
+    "message": "డౌన్‌లోడ్ పరిమాణం"
+  },
+  "netReceived": {
+    "message": "స్వీకరించబడింది"
+  },
+  "netBest": {
+    "message": "ఉత్తమమైనది"
+  },
+  "netWorst": {
+    "message": "చెత్త"
+  },
+  "netStdDev": {
+    "message": "Std దేవ్"
+  },
+  "netLocation": {
+    "message": "స్థానం"
+  },
+  "toolWall": {
+    "message": "డొమైన్ బ్లాకింగ్ చెక్"
+  },
+  "toolSites": {
+    "message": "ప్రసిద్ధ వెబ్‌సైట్‌లు"
+  },
+  "toolGlobal": {
+    "message": "గ్లోబల్ డయాగ్నోస్టిక్స్"
+  },
+  "toolFast": {
+    "message": "Netflix వేగం"
+  },
+  "toolSpeed": {
+    "message": "స్పీడ్ టెస్ట్"
+  },
+  "toolStart": {
+    "message": "ప్రారంభం"
+  },
+  "toolReady": {
+    "message": "సిద్ధంగా ఉంది"
+  },
+  "toolResponded": {
+    "message": "ప్రతిస్పందించారు"
+  },
+  "toolNoResponse": {
+    "message": "ధృవీకరించబడలేదు"
+  },
+  "toolCacheUnsupported": {
+    "message": "ఈ బ్రౌజర్ సైట్ ద్వారా కాష్‌ని క్లియర్ చేయదు; పేజీ మళ్లీ లోడ్ చేయబడింది."
+  },
+  "toolCacheFailed": {
+    "message": "కాష్ క్లీనప్ పూర్తి కాలేదు. మూసివేసి మళ్లీ ప్రయత్నించండి."
+  },
+  "toolClose": {
+    "message": "మూసివేయండి"
+  },
+  "toolReload": {
+    "message": "మళ్లీ లోడ్ చేయండి"
+  },
+  "toolLoading": {
+    "message": "లోడ్ అవుతోంది…"
+  },
+  "toolFrameError": {
+    "message": "లోడ్ చేయడం సాధ్యపడలేదు. రీలోడ్ ప్రయత్నించండి."
+  },
+  "toolSiteHelp": {
+    "message": "బ్రౌజర్ అందుబాటులోకి మాత్రమే. ఇది ఖాతా లేదా ప్రాంతీయ ప్రాప్యతను ధృవీకరించదు."
+  },
+  "toolFallback": {
+    "message": "బ్యాకప్ వేగ పరీక్ష"
+  },
+  "toolFullscreen": {
+    "message": "పూర్తి స్క్రీన్"
+  },
+  "toolRestore": {
+    "message": "పూర్తి స్క్రీన్ నుండి నిష్క్రమించండి"
+  },
+  "ipReadFailed": {
+    "message": "చదవడం విఫలమైంది. 👉"
+  },
+  "ipViewSource": {
+    "message": "సోర్స్ సైట్‌ని వీక్షించండి"
+  },
+  "toolDownloadError": {
+    "message": "డౌన్‌లోడ్ సర్వర్‌ని చేరుకోలేకపోయింది. మళ్లీ ప్రయత్నించండి."
+  },
+  "toolAccess": {
+    "message": "సైట్ యాక్సెస్‌ని ప్రారంభించండి"
+  },
+  "toolPermission": {
+    "message": "పొందుపరిచిన సెషన్ అనుకూలత కోసం ఈ సైట్‌కు ప్రాప్యతను అనుమతించండి."
+  },
+  "toolAsia": {
+    "message": "ఆసియా"
+  },
+  "toolEurope": {
+    "message": "యూరప్"
+  },
+  "toolAmerica": {
+    "message": "ఉత్తర అమెరికా"
+  },
+  "toolGlobalHelp": {
+    "message": "బ్రౌజర్ నిష్క్రమణ IPని ముందే నింపుతుంది. మార్గాలను పోల్చడానికి ప్రధాన భూభాగం చైనా లేదా మరొక ప్రాంతాన్ని ఎంచుకోండి; ప్రారంభం ప్రదర్శించబడిన లక్ష్యాన్ని మూడు Globalping ప్రోబ్‌ల వరకు పంపుతుంది."
+  },
+  "toolServiceError": {
+    "message": "పరీక్ష సేవ అందుబాటులో లేదు. మళ్లీ ప్రయత్నించండి."
+  },
+  "popupOrderHelp": {
+    "message": "మళ్లీ ఆర్డర్ చేయడానికి పట్టుకుని లాగండి. Alt+arrow కీలు కూడా ఈ ప్రొఫైల్‌ను తరలిస్తాయి."
+  },
+  "popupOrderSaved": {
+    "message": "ఆర్డర్ సేవ్ చేయబడింది"
+  },
+  "toolGroupIP": {
+    "message": "IP పరీక్షలు"
+  },
+  "toolGroupWeb": {
+    "message": "వెబ్‌సైట్ పరీక్షలు"
+  },
+  "toolGroupSpeed": {
+    "message": "వేగం"
+  },
+  "toolCurrentIP": {
+    "message": "ప్రస్తుత నిష్క్రమణ IP"
+  },
+  "toolCurrentIPLoading": {
+    "message": "ప్రస్తుత నిష్క్రమణ లోడ్ అవుతోంది IP..."
+  },
+  "toolCurrentIPFailed": {
+    "message": "ప్రస్తుత IPని చదవడం సాధ్యపడలేదు. లక్ష్యాన్ని నమోదు చేయండి."
+  },
+  "speedMode": {
+    "message": "టెస్ట్ మోడ్"
+  },
+  "speedBoth": {
+    "message": "డౌన్‌లోడ్ + అప్‌లోడ్"
+  },
+  "speedDownload": {
+    "message": "డౌన్‌లోడ్ చేయండి"
+  },
+  "speedUpload": {
+    "message": "అప్‌లోడ్ చేయండి"
+  },
+  "speedLatency": {
+    "message": "HTTP జాప్యం\nప్రతి దశకు"
+  },
+  "speedBudget": {
+    "message": "{n} MiB · {total} MiB మొత్తం, చిన్న జాప్యం నమూనాలు."
+  },
+  "siteCategory": {
+    "message": "వెబ్‌సైట్ వర్గం"
+  },
+  "siteAll": {
+    "message": "అన్ని వెబ్‌సైట్‌లు"
+  },
+  "siteAI": {
+    "message": "AI"
+  },
+  "siteDevelopment": {
+    "message": "అభివృద్ధి"
+  },
+  "siteVideo": {
+    "message": "వీడియో / సంగీతం"
+  },
+  "siteSocial": {
+    "message": "సామాజిక"
+  },
+  "siteDomestic": {
+    "message": "మెయిన్‌ల్యాండ్ సేవలు"
+  },
+  "siteServices": {
+    "message": "సాధారణ సేవలు"
+  },
+  "globalMethod": {
+    "message": "కొలత రకం"
+  },
+  "localPort": {
+    "message": "స్థానిక పోర్ట్:"
+  },
+  "chainChooseNode": {
+    "message": "ప్రాక్సీ నోడ్‌ని ఎంచుకోండి"
+  },
+  "chainTitle": {
+    "message": "ప్రాక్సీ చైన్"
+  },
+  "chainSelectExit": {
+    "message": "ఈ అనుకూల గొలుసును సేవ్ చేయడానికి లేదా పరీక్షించడానికి దిగువన నిర్దిష్ట నిష్క్రమణ నోడ్‌ను ఎంచుకోండి. అనుసరించండి v2rayN v2rayN ద్వారా నిర్వహించబడుతుంది."
+  },
+  "chainSelectExitShort": {
+    "message": "నిష్క్రమణ నోడ్‌ను ఎంచుకోండి"
+  },
+  "chainAdd": {
+    "message": "+ ప్రాక్సీ లేయర్‌ని జోడించండి"
+  },
+  "chainTest": {
+    "message": "టెస్ట్ చైన్"
+  },
+  "chainMode": {
+    "message": "చైన్ మోడ్"
+  },
+  "chainBase": {
+    "message": "బేస్ ప్రాక్సీ"
+  },
+  "chainExit": {
+    "message": "ప్రాక్సీ నుండి నిష్క్రమించండి"
+  },
+  "chainEgress": {
+    "message": "చైన్ ఎగ్రెస్"
+  },
+  "chainExitBadge": {
+    "message": "నిష్క్రమించు IP"
+  },
+  "chainEntry": {
+    "message": "చైన్ ఎంట్రీ"
+  },
+  "chainTransit": {
+    "message": "బ్రిడ్జ్ నోడ్"
+  },
+  "chainUntested": {
+    "message": "పరీక్షించబడలేదు"
+  },
+  "chainMissing": {
+    "message": "అందుబాటులో లేని నోడ్"
+  },
+  "chainUnresolved": {
+    "message": "వారసత్వంగా వచ్చిన గొలుసును పరిష్కరించలేరు. మునుపటి సెట్టింగ్‌లను రిపేర్ చేయండి లేదా అనుకూల గొలుసును ఎంచుకోండి."
+  },
+  "chainUpgrade": {
+    "message": "ఆర్డర్ చేసిన చైన్‌లను ప్రారంభించడానికి స్థానిక సహచరుడిని అప్‌డేట్ చేయండి."
+  },
+  "chainBusy": {
+    "message": "మరొక చైన్ టెస్ట్ నడుస్తోంది"
+  },
+  "chainOK": {
+    "message": "చేరుకోవచ్చు"
+  },
+  "chainFailed": {
+    "message": "ఈ పరీక్షలో హాప్‌లో విఫలమయ్యాడు"
+  },
+  "chainBlocked": {
+    "message": "పరీక్షించబడలేదు · మునుపటి హాప్ విఫలమైంది"
+  },
+  "chainFailureHelp": {
+    "message": "ఈ హాప్ లేదా దాని మార్గం పాస్ కాలేదు. తరువాత హాప్‌లు పరీక్షించబడలేదు."
+  },
+  "chainAllOK": {
+    "message": "అన్ని సంచిత మార్గాలు ప్రతిస్పందించాయి"
+  },
+  "chainStopping": {
+    "message": "ప్రస్తుత బౌండెడ్ ప్రోబ్ తర్వాత ఆపివేయడం…"
+  },
+  "globalWorld": {
+    "message": "ప్రపంచవ్యాప్తంగా"
+  },
+  "globalUnavailable": {
+    "message": "లక్ష్యం లేదా ప్రాంతం అందుబాటులో లేదు. లక్ష్యాన్ని తనిఖీ చేయండి లేదా మరొక ప్రాంతాన్ని ఎంచుకోండి."
+  },
+  "globalRateLimited": {
+    "message": "సేవా ధర పరిమితిని చేరుకున్నారు. తర్వాత మళ్లీ ప్రయత్నించండి."
+  },
+  "globalNoResults": {
+    "message": "సేవ ఎటువంటి ప్రోబ్ ఫలితాలను అందించలేదు. మరొక ప్రాంతాన్ని ప్రయత్నించండి."
+  },
+  "globalProbeFailed": {
+    "message": "ప్రోబ్ విఫలమైంది"
+  },
+  "globalProbeOffline": {
+    "message": "ఆఫ్‌లైన్‌లో పరిశీలించండి"
+  },
+  "globalIcmpCaution": {
+    "message": "మిస్ అయిన ICMP ప్రత్యుత్తరాలు మాత్రమే నిరోధించడాన్ని నిరూపించవు. ప్రధాన భూభాగం మరియు విదేశీ మార్గాలు మరియు ఇతర పరీక్ష రకాలను సరిపోల్చండి."
+  },
+  "speedRealtime": {
+    "message": "ప్రత్యక్ష వేగం"
+  },
+  "speedAverage": {
+    "message": "సగటు వేగం"
+  },
+  "ipToolsBrief": {
+    "message": "థర్డ్-పార్టీ ఫలితాలు సూచన కోసం."
+  },
+  "ipReportBrief": {
+    "message": "ఫలితాలు నిష్క్రమణ IP ద్వారా మారుతూ ఉంటాయి మరియు సూచన కోసం ఉంటాయి."
+  },
+  "toolPingPe": {
+    "message": "IP తనిఖీని నిరోధించడం"
+  },
+  "toolTargetIP": {
+    "message": "లక్ష్యం IP"
+  },
+  "toolOpenPingPe": {
+    "message": "ఓపెన్ అధికారిక పరీక్ష"
+  },
+  "toolInvalidIP": {
+    "message": "చెల్లుబాటు అయ్యే IPv4 లేదా IPv6 చిరునామాను నమోదు చేయండి."
+  },
+  "toolInvalidPort": {
+    "message": "1 నుండి 65535 వరకు TCP పోర్ట్‌ను నమోదు చేయండి."
+  },
+  "toolExternalFailed": {
+    "message": "వెబ్‌సైట్‌ను తెరవడం సాధ్యపడలేదు. మళ్లీ ప్రయత్నించండి."
+  },
+  "ipBrowserReading": {
+    "message": "బ్రౌజర్ ద్వారా Ping0 చదవడం…"
+  },
+  "ipVerifyBrowser": {
+    "message": "ధృవీకరణ పేజీని తెరవండి"
+  },
+  "policyCenter": {
+    "message": "గోప్యత, ప్రకటన & తరచుగా అడిగే ప్రశ్నలు"
+  },
+  "policyCenterIntro": {
+    "message": "స్థానిక డేటా నిర్వహణ, పరీక్ష పరిమితులు మరియు సాధారణ సమాధానాలు."
+  },
+  "policyPrivacyTitle": {
+    "message": "గోప్యతా విధానం"
+  },
+  "policyPrivacySummary": {
+    "message": "ప్రొఫైల్‌లు మరియు ఆధారాలు ఈ పరికరంలో ఉంటాయి. పాప్‌అప్ చెక్‌లు మరియు డయాగ్నస్టిక్‌లు వారి పేర్కొన్న ప్రొవైడర్‌లను సంప్రదించండి. ప్రకటనలు లేదా ప్రవర్తనా విశ్లేషణలు లేవు."
+  },
+  "policyDeclarationTitle": {
+    "message": "ఉపయోగం మరియు కొలత ప్రకటన"
+  },
+  "policyDeclarationSummary": {
+    "message": "ఈ పొడిగింపు స్థానిక రూట్ మేనేజర్, ప్రాక్సీ లేదా VPN ప్రొవైడర్ కాదు. కొలతలు అనేది నెట్‌వర్క్, ప్రాక్సీ మరియు ప్రొవైడర్ పరిస్థితుల ద్వారా ప్రభావితమైన సూచన నమూనాలు."
+  },
+  "policyFaqTitle": {
+    "message": "తరచుగా అడిగే ప్రశ్నలు"
+  },
+  "policyFaqSummary": {
+    "message": "స్థానిక నోడ్‌లు మరియు MTR కోసం Windows సహచరుడు అవసరం. బ్రౌజర్, సిస్టమ్ మరియు పబ్లిక్ ప్రోబ్‌ల మధ్య జాప్యం భిన్నంగా ఉండవచ్చు. పరీక్షను ఆపివేయండి లేదా సెట్టింగ్‌ల నుండి స్థానిక డేటాను క్లియర్ చేయండి."
+  },
+  "policyDetailsLink": {
+    "message": "పూర్తి వివరాలను చదవండి ↗"
+  },
+  "thirdPartyNotice": {
+    "message": "ఓపెన్ సోర్స్ నోటీసులు ↗"
+  },
+  "columnResizeHelp": {
+    "message": "పరిమాణం మార్చడానికి లాగండి; రీసెట్ చేయడానికి డబుల్ క్లిక్ చేయండి; సర్దుబాటు చేయడానికి బాణం కీలను ఉపయోగించండి"
+  },
+  "columnResize": {
+    "message": "నిలువు వరుస పరిమాణం మార్చండి"
+  },
+  "typeDescription_node": {
+    "message": "ప్రాక్సీ నోడ్ ద్వారా కనెక్ట్ చేయండి"
+  },
+  "typeDescription_manual": {
+    "message": "ప్రాక్సీ సెట్టింగ్‌లను మాన్యువల్‌గా నమోదు చేయండి"
+  },
+  "typeDescription_auto": {
+    "message": "నియమాలను ఉపయోగించి నోడ్‌ను ఎంచుకోండి"
+  },
+  "typeDescription_pac": {
+    "message": "PAC నియమాలను ఉపయోగించి రూట్ ట్రాఫిక్"
+  },
+  "appDescription": {
+    "message": "బ్రౌజర్ ప్రాక్సీ మార్గాలు, నోడ్‌లు మరియు డొమైన్ నియమాలు. నోడ్ మార్గాలకు Windows సహచరుడు అవసరం."
+  },
+  "core_title": {
+    "message": "ప్రాక్సీ కోర్"
+  },
+  "core_checking": {
+    "message": "స్థానిక భాగాన్ని తనిఖీ చేస్తోంది..."
+  },
+  "core_ready": {
+    "message": "Xray సిద్ధంగా ఉంది"
+  },
+  "core_missing": {
+    "message": "ప్రాక్సీ కోర్ లేదు"
+  },
+  "core_external": {
+    "message": "కస్టమ్ కోర్: ధృవీకరించబడలేదు"
+  },
+  "core_corrupt": {
+    "message": "Xray చెక్‌సమ్ సరిపోలలేదు - మరమ్మత్తు అవసరం"
+  },
+  "core_unreadable": {
+    "message": "కోర్ ఫైల్ తనిఖీ చేయబడలేదు"
+  },
+  "core_intro": {
+    "message": "పూర్తి Windows ప్యాకేజీలో Xray ఉంటుంది. v2rayN ఐచ్ఛికం."
+  },
+  "core_verify": {
+    "message": "మళ్లీ తనిఖీ చేయండి"
+  },
+  "core_install": {
+    "message": "కోర్ ఇన్‌స్టాల్ / రిపేర్ చేయండి"
+  },
+  "core_installing": {
+    "message": "డౌన్‌లోడ్ చేస్తోంది మరియు ధృవీకరిస్తోంది…"
+  },
+  "core_done": {
+    "message": "కోర్ ధృవీకరించబడింది మరియు సిద్ధంగా ఉంది"
+  },
+  "core_help": {
+    "message": "మరమ్మతు పిన్ చేయబడిన అధికారిక Xray విడుదలను ఉపయోగిస్తుంది మరియు దాని చెక్‌సమ్‌ను ధృవీకరిస్తుంది. ఇప్పటికే ఉన్న కనెక్షన్లు అమలులో ఉంటాయి."
+  },
+  "core_absent": {
+    "message": "లోకల్ కాంపోనెంట్‌ను ఒకసారి ఇన్‌స్టాల్ చేయండి, ఆపై కోర్ని తనిఖీ చేయడానికి ఇక్కడకు తిరిగి వెళ్లండి."
+  },
+  "core_download": {
+    "message": "ఇన్‌స్టాలేషన్ గైడ్"
+  },
+  "core_absentHelp": {
+    "message": "సరిపోలే Windows ప్యాకేజీని ఉపయోగించండి లేదా మూలం నుండి నిర్మించడానికి గైడ్‌ని అనుసరించండి, ఆపై సెటప్‌ని అమలు చేయండి."
+  },
+  "core_failed": {
+    "message": "కోర్ ఆపరేషన్ విఫలమైంది. మళ్లీ ప్రయత్నించండి లేదా పూర్తి Windows ప్యాకేజీని ఉపయోగించండి."
+  },
+  "core_version": {
+    "message": "వెర్షన్"
+  },
+  "error_ACTIVE_PROFILE_DELETE": {
+    "message": "తొలగించే ముందు మరో ప్రొఫైల్‌కు మారండి"
+  },
+  "error_BACKUP_BINDING_TYPE": {
+    "message": "ప్రాక్సీ ప్రొఫైల్‌లకు మాత్రమే మార్గాలను అనుసంధానించవచ్చు"
+  },
+  "error_BACKUP_FORMAT3_REQUIRED": {
+    "message": "నోడ్ నియమాలకు ఫార్మాట్ 3లో పోర్టబుల్ బ్యాకప్ అవసరం"
+  },
+  "error_BACKUP_INDEPENDENT_PATH_REQUIRED": {
+    "message": "బ్యాకప్‌లో స్వతంత్ర నోడ్ మార్గం ఉండాలి"
+  },
+  "error_BACKUP_INTERNAL_BINDINGS": {
+    "message": "బ్యాకప్‌లో అంతర్గత అనుసంధానాలు ఉన్నాయి"
+  },
+  "error_BACKUP_MESSAGE_LIMIT": {
+    "message": "నోడ్ బ్యాకప్ సహచర భాగం సందేశ పరిమితిని మించిపోయింది"
+  },
+  "error_BACKUP_NODES_INCOMPLETE": {
+    "message": "నోడ్ బ్యాకప్ అసంపూర్తిగా ఉంది"
+  },
+  "error_BACKUP_NODE_MISSING": {
+    "message": "బ్యాకప్‌లో అవసరమైన నోడ్ లేదు"
+  },
+  "error_BACKUP_NODE_PATHS_LIMIT": {
+    "message": "బ్యాకప్‌లో గరిష్ఠంగా {limit} నోడ్ మార్గాలు ఉండవచ్చు"
+  },
+  "error_BACKUP_PATH_INCOMPLETE": {
+    "message": "బ్యాకప్‌లో నోడ్ మార్గం అసంపూర్తిగా ఉంది"
+  },
+  "error_BACKUP_PROFILES_LIMIT": {
+    "message": "బ్యాకప్‌లో గరిష్ఠంగా {limit} ప్రొఫైల్‌లు ఉండవచ్చు"
+  },
+  "error_BACKUP_PROXY_CONFLICT": {
+    "message": "బ్యాకప్‌లో ప్రాక్సీ సెట్టింగ్‌లు పరస్పరం విరుద్ధంగా ఉన్నాయి"
+  },
+  "error_BACKUP_SIZE_LIMIT": {
+    "message": "బ్యాకప్ {limit} MB కంటే పెద్దది"
+  },
+  "error_BACKUP_TRANSFER_UNAVAILABLE": {
+    "message": "నోడ్ బ్యాకప్‌లను బదిలీ చేయడానికి సహచర భాగాన్ని నవీకరించండి లేదా మరమ్మతు చేయండి."
+  },
+  "error_BACKUP_UNUSED_NODES": {
+    "message": "బ్యాకప్‌లో సూచించబడని నోడ్‌లు ఉన్నాయి"
+  },
+  "error_BODY_TOO_LARGE": {
+    "message": "చందా ప్రతిస్పందన అనుమతించిన పరిమాణాన్ని మించిపోయింది."
+  },
+  "error_BROWSER_API_FAILED": {
+    "message": "బ్రౌజర్ చర్య విఫలమైంది. సాంకేతిక వివరాలు చూడండి."
+  },
+  "error_BROWSER_PROXY_RESTORE_FAILED": {
+    "message": "చర్య విఫలమైంది; బ్రౌజర్‌లో మునుపటి ప్రాక్సీని కూడా పునరుద్ధరించలేకపోయాము"
+  },
+  "error_BROWSER_SCHEDULING_UNAVAILABLE": {
+    "message": "బ్రౌజర్ షెడ్యూలింగ్ అందుబాటులో లేదు."
+  },
+  "error_BUSY": {
+    "message": "మరో చర్య జరుగుతోంది. కొద్దిసేపటి తర్వాత మళ్లీ ప్రయత్నించండి."
+  },
+  "error_CHAIN_PROBE_FAILED": {
+    "message": "గొలుసు పరీక్ష విఫలమైంది"
+  },
+  "error_COMPANION_BULK_RELEASE_REQUIRED": {
+    "message": "అనేక నోడ్ నియమాలను సురక్షితంగా నిర్వహించడానికి స్థానిక సహచర భాగాన్ని నవీకరించండి"
+  },
+  "error_COMPANION_CHAINS_REQUIRED": {
+    "message": "క్రమబద్ధమైన గొలుసులను ఉపయోగించడానికి స్థానిక సహచర భాగాన్ని నవీకరించండి"
+  },
+  "error_COMPANION_MESSAGE_LIMIT": {
+    "message": "సెట్టింగ్‌లు సహచర భాగం సందేశ పరిమితిని మించిపోయాయి"
+  },
+  "error_COMPANION_OPERATION_FAILED": {
+    "message": "స్థానిక సహచర భాగం చర్య విఫలమైంది. సాంకేతిక వివరాలు చూడండి."
+  },
+  "error_COMPANION_UNAVAILABLE": {
+    "message": "V2Route సహచర భాగాన్ని ఇన్‌స్టాల్ చేయండి లేదా మరమ్మతు చేయండి"
+  },
+  "error_CONNECTION_CLOSED": {
+    "message": "పరీక్ష పూర్తయ్యే ముందు కనెక్షన్ మూసివేయబడింది."
+  },
+  "error_CORE_INSTALL_FAILED": {
+    "message": "కోర్ ఇన్‌స్టాలేషన్ విఫలమైంది. సాంకేతిక వివరాలు చూడండి."
+  },
+  "error_CORE_OWNERSHIP_FAILED": {
+    "message": "వేరుగా ఉన్న పరీక్ష కోర్‌ను సురక్షితంగా నియంత్రించలేకపోయాము. పరీక్ష నిలిపివేయబడింది."
+  },
+  "error_CORE_START_FAILED": {
+    "message": "వేరుగా ఉన్న పరీక్ష కోర్ ప్రారంభం కాలేదు. సహచర భాగం మరియు కోర్ ఇన్‌స్టాలేషన్‌ను తనిఖీ చేయండి."
+  },
+  "error_CORE_START_TIMEOUT": {
+    "message": "వేరుగా ఉన్న పరీక్ష కోర్ సమయానికి సిద్ధం కాలేదు."
+  },
+  "error_CORE_STATUS_UNAVAILABLE": {
+    "message": "కోర్ స్థితి అందుబాటులో లేదు. సాంకేతిక వివరాలు చూడండి."
+  },
+  "error_CORE_VALIDATION_FAILED": {
+    "message": "దిగుమతి చేసిన నోడ్‌లను Xray ధృవీకరించలేకపోయింది. వాటి సెట్టింగ్‌లను తనిఖీ చేసి మళ్లీ ప్రయత్నించండి."
+  },
+  "error_DETACH_PORT_CONFLICT": {
+    "message": "నిర్వహించబడుతున్న పోర్ట్ విడుదల చేయబడుతుంది. మరో మాన్యువల్ ప్రాక్సీని నమోదు చేయండి"
+  },
+  "error_DETACH_PROXY_REQUIRED": {
+    "message": "అనుసంధానాన్ని తొలగించే ముందు ప్రత్యామ్నాయ మాన్యువల్ ప్రాక్సీని నమోదు చేయండి"
+  },
+  "error_DNS_BUSY": {
+    "message": "DNS శోధన బిజీగా ఉంది. కొద్దిసేపటి తర్వాత మళ్లీ ప్రయత్నించండి."
+  },
+  "error_DNS_FAILED": {
+    "message": "DNS శోధన విఫలమైంది. చిరునామా మరియు నెట్‌వర్క్ కనెక్షన్‌ను తనిఖీ చేయండి."
+  },
+  "error_ENCODING_UNSUPPORTED": {
+    "message": "చందా మద్దతు లేని కంటెంట్ ఎన్‌కోడింగ్‌ను ఉపయోగిస్తోంది."
+  },
+  "error_FIREFOX_PRIVATE_ACCESS_REQUIRED": {
+    "message": "ప్రాక్సీ సెట్టింగ్‌లను మార్చే ముందు పొడిగింపు వివరాల్లో ప్రైవేట్ విండోలలో V2Route అమలును అనుమతించండి"
+  },
+  "error_FOLDER_UNAVAILABLE": {
+    "message": "ఫోల్డర్ అందుబాటులో లేదు; మార్గం, ప్రవేశ అనుమతులు మరియు సహచర భాగం సంస్కరణను తనిఖీ చేయండి"
+  },
+  "error_GROUP_LIMIT": {
+    "message": "సమూహాల పరిమితి చేరుకుంది. ఉపయోగించని సమూహాన్ని తొలగించి మళ్లీ ప్రయత్నించండి."
+  },
+  "error_GROUP_NOT_EDITABLE": {
+    "message": "ఈ మూల సమూహాన్ని ఇక్కడ సవరించలేరు."
+  },
+  "error_GROUP_NOT_FOUND": {
+    "message": "ఎంచుకున్న సమూహం ఇక లేదు. మరో సమూహాన్ని ఎంచుకోండి."
+  },
+  "error_HTTP_ENCODING": {
+    "message": "పరీక్ష సర్వర్ మద్దతు లేని ఎన్‌కోడింగ్‌ను పంపింది."
+  },
+  "error_HTTP_LENGTH": {
+    "message": "పరీక్ష ప్రతిస్పందన పరిమాణం అభ్యర్థించిన పరిమాణంతో సరిపోలలేదు."
+  },
+  "error_HTTP_RESPONSE_TOO_LARGE": {
+    "message": "పరీక్ష ప్రతిస్పందన అనుమతించిన పరిమాణాన్ని మించిపోయింది."
+  },
+  "error_HTTP_STATUS": {
+    "message": "పరీక్ష సర్వర్ విఫలమైన HTTP స్థితిని పంపింది."
+  },
+  "error_IMPORTED_PROXY_MISSING": {
+    "message": "సహచర భాగం దిగుమతి చేసిన ప్రాక్సీని తిరిగి ఇవ్వలేదు"
+  },
+  "error_IMPORTED_RULE_PATH_CONFLICT": {
+    "message": "దిగుమతి చేసిన నోడ్‌ల నుంచి పరస్పరం విరుద్ధమైన నియమ మార్గాలు ఏర్పడ్డాయి"
+  },
+  "error_IMPORT_CLEANUP_FAILED": {
+    "message": "దిగుమతి విఫలమైంది; కొన్ని తాత్కాలిక నోడ్‌లు లేదా పోర్ట్‌లను విడుదల చేయలేకపోయాము. ఇప్పటికే ఉన్న ప్రొఫైల్‌లు అలాగే ఉంచబడ్డాయి"
+  },
+  "error_IMPORT_PROFILE_NAME_CONFLICT": {
+    "message": "ప్రొఫైల్ పేరు నకిలీ లేదా చెల్లనిది"
+  },
+  "error_INCOMPLETE_RESPONSE": {
+    "message": "చందా ప్రతిస్పందన అసంపూర్తిగా ఉంది. మళ్లీ ప్రయత్నించండి."
+  },
+  "error_INVALID_BACKUP": {
+    "message": "V2Route బ్యాకప్ చెల్లదు"
+  },
+  "error_INVALID_BACKUP_NODE": {
+    "message": "బ్యాకప్ నోడ్ చెల్లదు లేదా నకిలీగా ఉంది"
+  },
+  "error_INVALID_BACKUP_NODES": {
+    "message": "బ్యాకప్ నోడ్‌లు చెల్లవు"
+  },
+  "error_INVALID_BACKUP_PATH": {
+    "message": "బ్యాకప్ మార్గం చెల్లదు"
+  },
+  "error_INVALID_BYPASS_ENTRY": {
+    "message": "ప్రాక్సీ మినహాయింపు నమోదు చెల్లదు"
+  },
+  "error_INVALID_BYPASS_LIST": {
+    "message": "ప్రాక్సీ మినహాయింపు జాబితా చెల్లదు"
+  },
+  "error_INVALID_CHAIN": {
+    "message": "క్రమబద్ధమైన గొలుసు చెల్లదు"
+  },
+  "error_INVALID_CHAIN_PROBE": {
+    "message": "గొలుసు పరీక్ష చెల్లదు"
+  },
+  "error_INVALID_COMPANION_RESPONSE": {
+    "message": "స్థానిక సహచర భాగం చెల్లని ప్రతిస్పందనను పంపింది. దాన్ని నవీకరించండి లేదా మరమ్మతు చేయండి."
+  },
+  "error_INVALID_CONTENT": {
+    "message": "చందా ప్రతిస్పందనలో చెల్లుబాటు అయ్యే కంటెంట్ లేదు."
+  },
+  "error_INVALID_DOMAIN_PATTERNS": {
+    "message": "డొమైన్ నమూనాలను కామాలతో వేరు చేయండి; ప్రతి URLను ప్రత్యేక వరుసలో ఉంచండి"
+  },
+  "error_INVALID_ENCODING": {
+    "message": "చందా ప్రతిస్పందన చెల్లుబాటు అయ్యే UTF-8 వచనం కాదు."
+  },
+  "error_INVALID_FOLDER_REQUEST": {
+    "message": "ఫోల్డర్ అభ్యర్థన చెల్లదు"
+  },
+  "error_INVALID_GROUP_ACTION": {
+    "message": "ఈ సమూహ చర్యకు మద్దతు లేదు."
+  },
+  "error_INVALID_HOP_INDEX": {
+    "message": "హాప్ సూచిక చెల్లదు"
+  },
+  "error_INVALID_LEGACY_PREDECESSOR": {
+    "message": "పాత పద్ధతిలోని పూర్వ ప్రాక్సీ చెల్లదు"
+  },
+  "error_INVALID_LIBRARY_COMMAND": {
+    "message": "నోడ్ లైబ్రరీలో ఈ ఆదేశానికి మద్దతు లేదు."
+  },
+  "error_INVALID_LIBRARY_REQUEST": {
+    "message": "లైబ్రరీ అభ్యర్థన చెల్లదు"
+  },
+  "error_INVALID_NAME": {
+    "message": "నియంత్రణ అక్షరాలు లేకుండా 1–128 కనిపించే అక్షరాలతో పేరు నమోదు చేయండి."
+  },
+  "error_INVALID_NETWORK_TEST": {
+    "message": "నెట్‌వర్క్ పరీక్ష చెల్లదు"
+  },
+  "error_INVALID_NODE_IMPORT_RESPONSE": {
+    "message": "నోడ్ దిగుమతి ప్రతిస్పందన చెల్లదు"
+  },
+  "error_INVALID_PREDECESSOR": {
+    "message": "ఈ మార్గానికి పూర్వ ప్రాక్సీ చెల్లదు"
+  },
+  "error_INVALID_PROFILE_NAME": {
+    "message": "ప్రొఫైల్ పేరు చెల్లదు"
+  },
+  "error_INVALID_PROFILE_REFERENCE": {
+    "message": "ప్రొఫైల్ సూచన చెల్లదు"
+  },
+  "error_INVALID_PROXY_AUTH": {
+    "message": "ప్రాక్సీ ప్రమాణీకరణ చెల్లదు"
+  },
+  "error_INVALID_PROXY_CREDENTIALS": {
+    "message": "ప్రాక్సీ ఆధారాలు చెల్లవు"
+  },
+  "error_INVALID_PROXY_ENDPOINT": {
+    "message": "చెల్లుబాటు అయ్యే ప్రాక్సీ హోస్ట్ మరియు పోర్ట్‌ను నమోదు చేయండి"
+  },
+  "error_INVALID_PROXY_HOST": {
+    "message": "పోర్ట్, URL, మార్గం లేదా క్వెరీ లేకుండా DNS పేరు లేదా IP చిరునామాను నమోదు చేయండి"
+  },
+  "error_INVALID_ROUTE": {
+    "message": "మార్గం చెల్లదు"
+  },
+  "error_INVALID_ROUTE_SETTINGS": {
+    "message": "మార్గం సెట్టింగ్‌లు చెల్లవు"
+  },
+  "error_INVALID_RULES": {
+    "message": "నియమాలు చెల్లవు"
+  },
+  "error_INVALID_RULE_TARGET": {
+    "message": "ప్రతి నియమానికి ఒక చెల్లుబాటు అయ్యే నోడ్ లేదా ప్రొఫైల్‌ను ఎంచుకోండి"
+  },
+  "error_INVALID_SUBSCRIPTION": {
+    "message": "చందా చెల్లదు"
+  },
+  "error_INVALID_SUBSCRIPTION_REQUEST": {
+    "message": "చందా అభ్యర్థన చెల్లదు"
+  },
+  "error_INVALID_SUBSCRIPTION_SETTINGS": {
+    "message": "చందా సెట్టింగ్‌లు చెల్లవు. నవీకరణ విరామం మరియు కనెక్షన్ విధానాన్ని తనిఖీ చేయండి."
+  },
+  "error_INVALID_SYSTEM_PROXY_RESPONSE": {
+    "message": "సిస్టమ్ ప్రాక్సీ ప్రతిస్పందన చెల్లదు; సహచర భాగాన్ని నవీకరించండి లేదా మరమ్మతు చేయండి"
+  },
+  "error_INVALID_TRANSPORT": {
+    "message": "చందా కనెక్షన్ సెట్టింగ్‌లు చెల్లవు."
+  },
+  "error_INVALID_URL": {
+    "message": "వినియోగదారు పేరు లేదా పాస్‌వర్డ్ లేకుండా చెల్లుబాటు అయ్యే HTTP(S) చందా URLను నమోదు చేయండి."
+  },
+  "error_LIBRARY_CHANGED": {
+    "message": "నోడ్ లైబ్రరీ మరో విండోలో మారింది. దాన్ని రిఫ్రెష్ చేసి మళ్లీ ప్రయత్నించండి."
+  },
+  "error_MANUAL_CHAIN_UNSUPPORTED": {
+    "message": "మాన్యువల్ ప్రాక్సీలు నోడ్ గొలుసును అంగీకరించవు"
+  },
+  "error_MANUAL_PROXY_CLEANUP_FAILED": {
+    "message": "సేవ్ చేయడం విఫలమైంది; తాత్కాలికంగా దిగుమతి చేసిన ప్రాక్సీ నోడ్ లైబ్రరీలో మిగిలి ఉంది"
+  },
+  "error_NATIVE_BINDING_ID": {
+    "message": "మార్గ అనుసంధాన గుర్తింపు చెల్లదు."
+  },
+  "error_NATIVE_BINDING_UNKNOWN": {
+    "message": "మార్గ అనుసంధానం లేదు."
+  },
+  "error_NATIVE_BUTTON_NAME": {
+    "message": "బటన్ పేరులో 1–128 కనిపించే అక్షరాలు ఉండాలి."
+  },
+  "error_NATIVE_CATALOG_UNREADABLE": {
+    "message": "v2rayN కాన్ఫిగరేషన్‌ను చదవలేకపోయాము."
+  },
+  "error_NATIVE_CORE_MISSING": {
+    "message": "Xray అందుబాటులో లేదు. సహచర భాగం ప్యాకేజీని ఇన్‌స్టాల్ చేయండి."
+  },
+  "error_NATIVE_GROUP_ID_COLLISION": {
+    "message": "సమూహ గుర్తింపుల మధ్య వైరుధ్యం ఉంది."
+  },
+  "error_NATIVE_GROUP_ORDER": {
+    "message": "సమూహాల క్రమం చెల్లదు."
+  },
+  "error_NATIVE_NODE_ID_COLLISION": {
+    "message": "నోడ్ గుర్తింపుల మధ్య వైరుధ్యం ఉంది."
+  },
+  "error_NATIVE_PREDECESSOR_AMBIGUOUS": {
+    "message": "పూర్వ ప్రాక్సీ పేరు లేదు లేదా నకిలీగా ఉంది. నిర్దిష్ట పూర్వ నోడ్‌ను ఎంచుకోండి."
+  },
+  "error_NATIVE_PREDECESSOR_CYCLE": {
+    "message": "పూర్వ నోడ్‌ల గొలుసులో చక్రం ఉంది లేదా ఆరు కంటే ఎక్కువ నోడ్‌లు ఉన్నాయి."
+  },
+  "error_NATIVE_PREDECESSOR_INVALID": {
+    "message": "చెల్లుబాటు అయ్యే పూర్వ ప్రాక్సీని ఎంచుకోండి."
+  },
+  "error_NATIVE_PREDECESSOR_MISSING": {
+    "message": "ఎంచుకున్న పూర్వ ప్రాక్సీ ఇక లేదు. మరో నోడ్‌ను ఎంచుకోండి."
+  },
+  "error_NATIVE_PREDECESSOR_SETTINGS": {
+    "message": "పూర్వ ప్రాక్సీ సెట్టింగ్‌లు చెల్లవు."
+  },
+  "error_NATIVE_ROUTE_INVALID": {
+    "message": "చెల్లుబాటు అయ్యే మార్గాన్ని ఎంచుకోండి."
+  },
+  "error_NATIVE_ROUTE_MISSING": {
+    "message": "ఈ మార్గం ఇక లేదు. మరో మార్గాన్ని ఎంచుకోండి."
+  },
+  "error_NATIVE_ROUTE_PORTS": {
+    "message": "మార్గాల పోర్ట్ కేటాయింపులు చెల్లవు."
+  },
+  "error_NATIVE_ROUTE_UNAVAILABLE": {
+    "message": "ఎంచుకున్న మార్గం అందుబాటులో లేదు. సాంకేతిక వివరాలు చూడండి."
+  },
+  "error_NATIVE_SETTINGS_FORMAT": {
+    "message": "సెట్టింగ్‌ల ఫార్మాట్ చెల్లదు."
+  },
+  "error_NATIVE_SETTINGS_REVISION": {
+    "message": "సెట్టింగ్‌ల సవరణ సంస్కరణ చెల్లదు."
+  },
+  "error_NATIVE_SUCCESSOR_UNSUPPORTED": {
+    "message": "ఈ సమూహం మద్దతు లేని తర్వాతి ప్రాక్సీని ఉపయోగిస్తోంది."
+  },
+  "error_NATIVE_UNSUPPORTED_CUSTOM": {
+    "message": "ఈ సంస్కరణ అనుకూల అవుట్‌బౌండ్ కాన్ఫిగరేషన్‌లకు మద్దతు ఇవ్వదు."
+  },
+  "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
+    "message": "ఈ సంస్కరణ Hysteria2కు మద్దతు ఇవ్వదు."
+  },
+  "error_NATIVE_UNSUPPORTED_TUIC": {
+    "message": "ఈ సంస్కరణలో TUICకు అవసరమైన sing-box కోర్ అనుసంధానించబడలేదు."
+  },
+  "error_NATIVE_UNSUPPORTED_TYPE": {
+    "message": "ఈ మార్గం రకానికి మద్దతు లేదు."
+  },
+  "error_NATIVE_V2RAYN_PORT": {
+    "message": "స్థానిక v2rayN పోర్ట్ చెల్లదు."
+  },
+  "error_NATIVE_V2RAYN_UNAVAILABLE": {
+    "message": "v2rayN అందుబాటులో లేదు. దిగుమతి చేసిన నోడ్‌ను ఎంచుకోండి."
+  },
+  "error_NETWORK_FAILED": {
+    "message": "నెట్‌వర్క్ అభ్యర్థన విఫలమైంది. కనెక్షన్‌ను తనిఖీ చేసి మళ్లీ ప్రయత్నించండి."
+  },
+  "error_NETWORK_TEST_FAILED": {
+    "message": "నెట్‌వర్క్ నిర్ధారణ విఫలమైంది. సాంకేతిక వివరాలు చూడండి."
+  },
+  "error_NODE_LIMIT": {
+    "message": "ఈ చర్య నోడ్‌ల పరిమితిని మించుతుంది. ఉపయోగించని నోడ్‌లను తొలగించి మళ్లీ ప్రయత్నించండి."
+  },
+  "error_NODE_MAPPING_INCOMPLETE": {
+    "message": "నోడ్ మ్యాపింగ్ అసంపూర్తిగా ఉంది"
+  },
+  "error_NODE_NOT_FOUND": {
+    "message": "ఎంచుకున్న నోడ్ ఇక లేదు. మరో నోడ్‌ను ఎంచుకోండి."
+  },
+  "error_NOT_DUE": {
+    "message": "తదుపరి షెడ్యూల్ చేసిన నవీకరణ సమయం ఇంకా రాలేదు."
+  },
+  "error_PAC_ENTRY_REQUIRED": {
+    "message": "FindProxyForURL ఉన్న PAC మూలకోడ్‌ను నమోదు చేయండి"
+  },
+  "error_PAC_FUNCTION_REQUIRED": {
+    "message": "అత్యున్నత స్థాయిలో సమకాలిక FindProxyForURL ఫంక్షన్, ఫంక్షన్ వేరియబుల్ లేదా ఫంక్షన్ అసైన్‌మెంట్‌ను నిర్వచించండి"
+  },
+  "error_PAC_PARSER_UNAVAILABLE": {
+    "message": "ప్యాకేజీలోని PAC పార్సర్ అందుబాటులో లేదు; పొడిగింపును మళ్లీ ఇన్‌స్టాల్ చేయండి"
+  },
+  "error_PAC_RULE_TARGET_UNSUPPORTED": {
+    "message": "స్వయంచాలక నియమాలు ఇన్‌లైన్ PAC ప్రొఫైల్‌ను లక్ష్యంగా ఎంచుకోలేవు"
+  },
+  "error_PAC_SOURCE_LIMIT": {
+    "message": "గరిష్ఠంగా {limit} అక్షరాల PAC మూలకోడ్‌ను నమోదు చేయండి"
+  },
+  "error_PAC_SYNTAX_INVALID": {
+    "message": "PAC వాక్యనిర్మాణం చెల్లదు"
+  },
+  "error_PAC_SYNTAX_LOCATION": {
+    "message": "{line}వ పంక్తి, {column}వ నిలువు వరుసలో PAC వాక్యనిర్మాణం చెల్లదు"
+  },
+  "error_PARTIAL_TRANSFER": {
+    "message": "అన్ని డేటా అందకముందే పరీక్ష బదిలీ ముగిసింది."
+  },
+  "error_PRIVATE_DIRECTORY_FAILED": {
+    "message": "ప్రైవేట్ పరీక్ష ఫోల్డర్‌ను భద్రపరచలేకపోయాము. పరీక్ష నిలిపివేయబడింది."
+  },
+  "error_PRIVATE_TARGET": {
+    "message": "ప్రైవేట్ లేదా స్థానిక చిరునామాలకు చందా అభ్యర్థనలు అనుమతించబడవు."
+  },
+  "error_PROFILE_NOT_FOUND": {
+    "message": "ప్రొఫైల్ కనుగొనబడలేదు"
+  },
+  "error_PROFILE_REFERENCE_CYCLE": {
+    "message": "ప్రొఫైల్ సూచనల్లో చక్రం ఉంది"
+  },
+  "error_PROFILE_REFERENCE_DEPTH": {
+    "message": "స్వయంచాలక నియమాలు గరిష్ఠ లోతు {limit}ను మించాయి"
+  },
+  "error_PROFILE_REFERENCE_MISSING": {
+    "message": "సూచించిన ప్రొఫైల్ లేదు: {name}"
+  },
+  "error_PROFILE_SAVE_RESTORE_FAILED": {
+    "message": "సేవ్ చేయడం విఫలమైంది; మార్గ పునరుద్ధరణను తనిఖీ చేయాలి"
+  },
+  "error_PROXY_AUTH_REQUIRED": {
+    "message": "చందా ప్రాక్సీ కోరే ప్రమాణీకరణను ఈ అభ్యర్థన అందించలేదు."
+  },
+  "error_PROXY_CONTROL_UNAVAILABLE": {
+    "message": "మరో పొడిగింపు లేదా విధానం ప్రాక్సీని నియంత్రిస్తోంది"
+  },
+  "error_PROXY_DNS_REQUIRED": {
+    "message": "V2Routeలో SOCKS5 DNSను ప్రాక్సీ ద్వారా పరిష్కరిస్తారు"
+  },
+  "error_PROXY_FAILED": {
+    "message": "ప్రాక్సీ కనెక్షన్ విఫలమైంది. ఎంచుకున్న మార్గాన్ని తనిఖీ చేయండి."
+  },
+  "error_PROXY_PROFILE_REQUIRED": {
+    "message": "ప్రాక్సీ ప్రొఫైల్‌ను ఎంచుకోండి"
+  },
+  "error_PROXY_ROLLBACK_REFUSED": {
+    "message": "ప్రాక్సీని మునుపటి స్థితికి మార్చడాన్ని బ్రౌజర్ తిరస్కరించింది"
+  },
+  "error_PROXY_SETTING_REFUSED": {
+    "message": "బ్రౌజర్ ప్రాక్సీ సెట్టింగ్‌ను తిరస్కరించింది"
+  },
+  "error_PROXY_UNAVAILABLE": {
+    "message": "ఎంచుకున్న ప్రాక్సీ అందుబాటులో లేదు. ప్రస్తుత మార్గాన్ని తనిఖీ చేయండి."
+  },
+  "error_PROXY_USERNAME_REQUIRED": {
+    "message": "ప్రాక్సీ వినియోగదారు పేరును నమోదు చేయండి"
+  },
+  "error_RECOVERY_BINDINGS_LIMIT": {
+    "message": "ఒక పునరుద్ధరణలో గరిష్ఠంగా {limit} నోడ్ అనుసంధానాలను పునరుద్ధరించవచ్చు. సూచించిన ప్రొఫైల్‌లను విడిగా తెరిచి సేవ్ చేయండి."
+  },
+  "error_REDIRECT_LIMIT": {
+    "message": "చందాలో దారిమళ్లింపులు చాలా ఎక్కువయ్యాయి. దాని URLను తనిఖీ చేయండి."
+  },
+  "error_REFERENCED_PROFILE_DELETE": {
+    "message": "ఈ ప్రొఫైల్‌ను స్వయంచాలక నియమం సూచిస్తోంది"
+  },
+  "error_REMOTE_PAC_UNSUPPORTED": {
+    "message": "ఇన్‌లైన్ PAC మూలకోడ్‌ను ఉపయోగించండి; రిమోట్ PACకు మద్దతు లేదు"
+  },
+  "error_ROUTE_PORT_UNAVAILABLE": {
+    "message": "ఏ పోర్ట్ కేటాయించబడలేదు"
+  },
+  "error_ROUTE_RECOVERY_RESTORE_FAILED": {
+    "message": "మార్గ పునరుద్ధరణ విఫలమైంది; పునరుద్ధరణ స్థితిని తనిఖీ చేయాలి"
+  },
+  "error_ROUTE_REVISION_CONFLICT": {
+    "message": "మార్గం మరో విండోలో మారింది. ముందుగా రిఫ్రెష్ చేయండి"
+  },
+  "error_ROUTE_SAVE_ROLLBACK_FAILED": {
+    "message": "మార్గాన్ని సేవ్ చేయడం విఫలమైంది; మునుపటి స్థితికి మార్చే ప్రక్రియను తనిఖీ చేయాలి"
+  },
+  "error_ROUTE_UNAVAILABLE": {
+    "message": "పరీక్ష మార్గం అందుబాటులో లేదు. నోడ్ మరియు పూర్వ ప్రాక్సీ సెట్టింగ్‌లను తనిఖీ చేయండి."
+  },
+  "error_RULE_BINDING_MISSING": {
+    "message": "నోడ్ నియమ అనుసంధానం లేదు. స్వయంచాలక ప్రొఫైల్‌ను మళ్లీ తెరిచి సేవ్ చేయండి: {name}"
+  },
+  "error_RULE_NODES_LIMIT": {
+    "message": "స్వయంచాలక నియమాలు గరిష్ఠంగా {limit} వేర్వేరు నోడ్‌లకు మద్దతు ఇస్తాయి"
+  },
+  "error_RULE_NODE_CHANGED": {
+    "message": "నోడ్ నియమం అందుబాటులో లేదు లేదా మారింది. నోడ్‌ను పునరుద్ధరించండి లేదా మరొకటి ఎంచుకుని సేవ్ చేయండి: {name}"
+  },
+  "error_RULE_PATH_CONFLICT": {
+    "message": "నోడ్ నియమ మార్గాలు పరస్పరం విరుద్ధంగా ఉన్నాయి"
+  },
+  "error_RULE_PATTERNS_LIMIT": {
+    "message": "స్వయంచాలక నియమాల్లో మొత్తం గరిష్ఠంగా {limit} సరిపోలిక నమూనాలు ఉండవచ్చు"
+  },
+  "error_RULE_PORT_UNAVAILABLE": {
+    "message": "నోడ్ నియమ పోర్ట్ అందుబాటులో లేదు"
+  },
+  "error_RULE_REVISION_CONFLICT": {
+    "message": "నోడ్ నియమం మరో విండోలో మారింది. ముందుగా రిఫ్రెష్ చేయండి"
+  },
+  "error_SELECTED_NODE_UNAVAILABLE": {
+    "message": "ఎంచుకున్న నోడ్ అందుబాటులో లేదు. దాన్ని పునరుద్ధరించండి లేదా మరో నోడ్‌ను ఎంచుకోండి"
+  },
+  "error_SOCKS_FAILED": {
+    "message": "SOCKS కనెక్షన్‌ను ఏర్పాటు చేయలేకపోయాము."
+  },
+  "error_STARTUP_FALLBACK_REFUSED": {
+    "message": "ప్రారంభ సమయంలో ప్రత్యామ్నాయ ప్రాక్సీని బ్రౌజర్ తిరస్కరించింది."
+  },
+  "error_SUBSCRIPTION_CHANGED": {
+    "message": "నవీకరణ సమయంలో చందా మారింది. దాన్ని రిఫ్రెష్ చేసి మళ్లీ ప్రయత్నించండి."
+  },
+  "error_SUBSCRIPTION_HTTP_STATUS": {
+    "message": "చందా సర్వర్ HTTP {status}ను పంపింది."
+  },
+  "error_SUBSCRIPTION_LIMIT": {
+    "message": "చందాల పరిమితి చేరుకుంది. ఉపయోగించని చందాను తొలగించి మళ్లీ ప్రయత్నించండి."
+  },
+  "error_SUBSCRIPTION_NOT_FOUND": {
+    "message": "ఎంచుకున్న చందా ఇక లేదు."
+  },
+  "error_SYSTEM_PROXY_SNAPSHOT_UNAVAILABLE": {
+    "message": "అమలు చేసిన సిస్టమ్ ప్రాక్సీ స్నాప్‌షాట్ అందుబాటులో లేదు."
+  },
+  "error_SYSTEM_PROXY_TIMEOUT": {
+    "message": "సిస్టమ్ ప్రాక్సీని చదివే సమయం ముగిసింది"
+  },
+  "error_SYSTEM_PROXY_UNAVAILABLE": {
+    "message": "సిస్టమ్ ప్రాక్సీ అందుబాటులో లేదు. సాంకేతిక వివరాలు చూడండి."
+  },
+  "error_TIMEOUT": {
+    "message": "అభ్యర్థన సమయం ముగిసింది. కనెక్షన్‌ను తనిఖీ చేసి మళ్లీ ప్రయత్నించండి."
+  },
+  "error_TLS_DOWNGRADE": {
+    "message": "చందా HTTPS నుంచి HTTPకు మళ్లించబడినందున నిరోధించబడింది."
+  },
+  "error_TLS_FAILED": {
+    "message": "సురక్షిత కనెక్షన్‌ను ధృవీకరించలేకపోయాము. సర్వర్ మరియు సర్టిఫికెట్‌ను తనిఖీ చేయండి."
+  },
+  "error_UNSAFE_TEMP_PATH": {
+    "message": "తాత్కాలిక పరీక్ష ఫోల్డర్ సురక్షితం కాదు. పరీక్ష నిలిపివేయబడింది."
+  },
+  "error_UNSUPPORTED_LIBRARY_REQUEST": {
+    "message": "లైబ్రరీ అభ్యర్థనకు మద్దతు లేదు"
+  },
+  "error_UNSUPPORTED_PROFILE_TYPE": {
+    "message": "ప్రొఫైల్ రకానికి మద్దతు లేదు"
+  },
+  "error_UNSUPPORTED_REQUEST": {
+    "message": "అభ్యర్థనకు మద్దతు లేదు"
+  },
+  "error_UNSUPPORTED_RULE_CONDITION": {
+    "message": "హోస్ట్ మరియు URL వైల్డ్‌కార్డ్ నియమాలకు మాత్రమే మద్దతు ఉంది"
+  },
+  "error_UPDATE_FAILED": {
+    "message": "చందా నవీకరణ విఫలమైంది. ఇప్పటికే ఉన్న నోడ్‌లు అలాగే ఉంచబడ్డాయి."
+  },
+  "error_VALIDATION_FAILED": {
+    "message": "చందా కంటెంట్‌ను ధృవీకరించలేకపోయాము. ఇప్పటికే ఉన్న నోడ్‌లు అలాగే ఉంచబడ్డాయి."
+  },
+  "nativeUnnamedNode": {
+    "message": "పేరు లేని నోడ్"
+  },
+  "nativeProtocolCustom": {
+    "message": "అనుకూలం"
+  },
+  "nativeProtocolOutbound": {
+    "message": "అనుకూల అవుట్‌బౌండ్"
+  },
+  "nativeProtocolGroup": {
+    "message": "విధాన సమూహం"
+  },
+  "nativeProtocolChain": {
+    "message": "ప్రాక్సీ గొలుసు"
+  },
+  "nativeProtocolUnknown": {
+    "message": "మద్దతు లేని రకం"
+  },
+  "languageLoadFailed": {
+    "message": "ఎంచుకున్న భాషను లోడ్ చేయలేకపోయాము. మళ్లీ ప్రయత్నించండి."
+  },
+  "invalidBackupJSON": {
+    "message": "బ్యాకప్ చెల్లుబాటు అయ్యే JSON కాదు."
+  },
+  "noticeBodyLanguages": {
+    "message": "పూర్తి విధాన పాఠ్యం ఆంగ్లం మరియు సరళీకృత చైనీస్‌లో అందుబాటులో ఉంది."
+  },
+  "policyRules": {
+    "message": "ప్రాక్సీ రూటింగ్ నియమాలు"
+  },
+  "policyPriority": {
+    "message": "క్రమం: ప్రాక్సీని దాటవేసే చిరునామాలు → మొదట సరిపోలే నియమం → డిఫాల్ట్ మార్గం."
+  },
+  "policyDirectHelp": {
+    "message": "సరిపోలని చిరునామాలు నేరుగా కనెక్ట్ అవుతాయి. పాప్అప్‌లోని నేరుగా కనెక్ట్ బటన్ కూడా ఈ నియమాలను వాడుతుంది."
+  },
+  "policySystemHelp": {
+    "message": "సరిపోలని చిరునామాలు సిస్టమ్ ప్రాక్సీని వాడుతాయి. పాప్అప్‌లోని సిస్టమ్ బటన్ కూడా ఈ నియమాలను వాడుతుంది."
+  },
+  "policyEmpty": {
+    "message": "ఇంకా నియమాలు లేవు. డిఫాల్ట్ మార్గం వాడబడుతుంది."
+  },
+  "policyAddressHelp": {
+    "message": "డొమైన్, వైల్డ్‌కార్డ్ డొమైన్, IP లేదా IP:పోర్ట్. IP నియమాలు URLలోని IPతో సరిపోలుస్తాయి, DNS ఫలితాలతో కాదు."
+  },
+  "policyMoveUp": {
+    "message": "నియమాన్ని పైకి తరలించు"
+  },
+  "policyMoveDown": {
+    "message": "నియమాన్ని కిందికి తరలించు"
+  }
+}

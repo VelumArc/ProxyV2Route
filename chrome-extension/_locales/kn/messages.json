@@ -1,0 +1,2150 @@
+{
+  "ruleTargetUnavailable": {
+    "message": "ಲಭ್ಯವಿಲ್ಲದ ಗುರಿ"
+  },
+  "rulePatternPlaceholder": {
+    "message": "example.com, *.example.org, 192.0.2.1:8443"
+  },
+  "rulePatternHelp": {
+    "message": "ವಿಳಾಸಗಳನ್ನು ಅಲ್ಪವಿರಾಮದಿಂದ ಬೇರ್ಪಡಿಸಿ. ಪ್ರತಿ URL ಮಾದರಿಯನ್ನು ಪ್ರತ್ಯೇಕ ಸಾಲಿನಲ್ಲಿ ಇರಿಸಿ. PACಗೆ HTTPS ಪಥಗಳು ಕಾಣದಿರಬಹುದು."
+  },
+  "defaultChoice_direct": {
+    "message": "ಪ್ರಾಕ್ಸಿ ಇಲ್ಲದೆ ಸಂಪರ್ಕಿಸಿ"
+  },
+  "defaultChoice_system": {
+    "message": "ಸಿಸ್ಟಮ್ ಪ್ರಾಕ್ಸಿ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಬಳಸಿ"
+  },
+  "defaultChoice_node": {
+    "message": "ಈ ಪ್ರೊಫೈಲ್‌ನ ಆಯ್ದ ನೋಡ್ ಅನ್ನು ಬಳಸಿ"
+  },
+  "defaultChoice_manual": {
+    "message": "ಈ ಪ್ರೊಫೈಲ್‌ನ ಪ್ರಾಕ್ಸಿ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಬಳಸಿ"
+  },
+  "defaultChoice_auto": {
+    "message": "ಈ ಪ್ರೊಫೈಲ್‌ನ ರೂಟಿಂಗ್ ನಿಯಮಗಳನ್ನು ಅನ್ವಯಿಸಿ"
+  },
+  "nlHttpsLatency": {
+    "message": "HTTPS ಪ್ರತಿಕ್ರಿಯೆ"
+  },
+  "nlLatencyMethod": {
+    "message": "Cloudflare · ಕನಿಷ್ಠ ಎರಡು ಪ್ರತಿಕ್ರಿಯೆಗಳು · ಲಭ್ಯವಿದ್ದಾಗ ಸಂಪರ್ಕ ಮರುಬಳಕೆ"
+  },
+  "nlLatencyFast": {
+    "message": "ಫಾಸ್ಟ್"
+  },
+  "nlLatencyModerate": {
+    "message": "ಮಧ್ಯಮ"
+  },
+  "nlLatencySlow": {
+    "message": "ನಿಧಾನ"
+  },
+  "nlSortName": {
+    "message": "ಹೆಸರು"
+  },
+  "nlSortLatency": {
+    "message": "ಸುಪ್ತತೆ: ಕಡಿಮೆಯಿಂದ ಹೆಚ್ಚು"
+  },
+  "nlSortDownload": {
+    "message": "ಡೌನ್‌ಲೋಡ್: ಹೆಚ್ಚು ಕಡಿಮೆ"
+  },
+  "nlSortUpload": {
+    "message": "ಅಪ್‌ಲೋಡ್: ಹೆಚ್ಚು ಕಡಿಮೆ"
+  },
+  "nlSingle": {
+    "message": "ಏಕ ನೋಡ್"
+  },
+  "nlGroupBatch": {
+    "message": "ಗುಂಪು / ಬ್ಯಾಚ್"
+  },
+  "nlTestScope": {
+    "message": "ಪರೀಕ್ಷಾ ವ್ಯಾಪ್ತಿ"
+  },
+  "nlCurrentNode": {
+    "message": "ಆಯ್ದ ನೋಡ್"
+  },
+  "nlCurrentGroup": {
+    "message": "ಆಯ್ದ ಗುಂಪು"
+  },
+  "nlChooseNode": {
+    "message": "ಪಟ್ಟಿಯಲ್ಲಿ ನೋಡ್ ಅನ್ನು ಆಯ್ಕೆ ಮಾಡಿ"
+  },
+  "nlStart": {
+    "message": "ಪರೀಕ್ಷೆಯನ್ನು ಪ್ರಾರಂಭಿಸಿ"
+  },
+  "nlService": {
+    "message": "ಪರೀಕ್ಷಾ ಸೇವೆ"
+  },
+  "nlMeasured": {
+    "message": "ಅಳತೆ ಮಾಡಲಾಗಿದೆ"
+  },
+  "nlMeanLatency": {
+    "message": "ಸರಾಸರಿ ಸುಪ್ತತೆ"
+  },
+  "nlGroupBySource": {
+    "message": "ಮೂಲ ಗುಂಪಿನಿಂದ"
+  },
+  "nlPreviousPage": {
+    "message": "ಹಿಂದಿನ ಪುಟ"
+  },
+  "nlNextPage": {
+    "message": "ಮುಂದಿನ ಪುಟ"
+  },
+  "nlName": {
+    "message": "ಹೆಸರು"
+  },
+  "nlEdit": {
+    "message": "ಸಂಪಾದಿಸಿ"
+  },
+  "nlStop": {
+    "message": "ನಿಲ್ಲಿಸಿ"
+  },
+  "nlConfirm": {
+    "message": "ದೃಢೀಕರಿಸಿ"
+  },
+  "nlAllNodes": {
+    "message": "ಎಲ್ಲಾ ನೋಡ್‌ಗಳು"
+  },
+  "nlNodeResults": {
+    "message": "ನೋಡ್ ಫಲಿತಾಂಶಗಳು"
+  },
+  "nlTestCenter": {
+    "message": "ಪರೀಕ್ಷಾ ಕೇಂದ್ರ"
+  },
+  "nlNewGroup": {
+    "message": "ಹೊಸ ಗುಂಪು"
+  },
+  "nlRenameGroup": {
+    "message": "ಗುಂಪನ್ನು ಮರುಹೆಸರಿಸಿ"
+  },
+  "nlRemoveGroup": {
+    "message": "ಗುಂಪನ್ನು ತೆಗೆದುಹಾಕಿ"
+  },
+  "nlRemoveGroupHelp": {
+    "message": "ಪ್ರತಿ ನೋಡ್ ಮತ್ತು ಚಂದಾದಾರಿಕೆಯನ್ನು ಇರಿಸಿಕೊಳ್ಳಿ ಮತ್ತು ಅವುಗಳನ್ನು ಆಮದು ಮಾಡಲಾದ ನೋಡ್‌ಗಳಿಗೆ ಸರಿಸಿ."
+  },
+  "nlNode": {
+    "message": "ನೋಡ್"
+  },
+  "nlStatus": {
+    "message": "ಸ್ಥಿತಿ"
+  },
+  "nlActions": {
+    "message": "ಕ್ರಿಯೆಗಳು"
+  },
+  "nlSort": {
+    "message": "ಈ ಕೋಷ್ಟಕವನ್ನು ಮಾತ್ರ ವಿಂಗಡಿಸಿ"
+  },
+  "nlSelected": {
+    "message": "ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ"
+  },
+  "nlTestNode": {
+    "message": "ಪರೀಕ್ಷೆ"
+  },
+  "nlProfileShort": {
+    "message": "ಪ್ರೊಫೈಲ್"
+  },
+  "nlQuick": {
+    "message": "ತ್ವರಿತ ಸುಪ್ತತೆ"
+  },
+  "nlFull": {
+    "message": "ಡೌನ್‌ಲೋಡ್ + ಅಪ್‌ಲೋಡ್"
+  },
+  "nlTraffic": {
+    "message": "ಡೇಟಾ ಗಾತ್ರವನ್ನು ಪರೀಕ್ಷಿಸಿ"
+  },
+  "nlConcurrency": {
+    "message": "ಏಕಕಾಲೀನ ನೋಡ್‌ಗಳು"
+  },
+  "nlTrafficFullOnly": {
+    "message": "ಡೌನ್‌ಲೋಡ್ ಮತ್ತು ಅಪ್‌ಲೋಡ್ ಪರೀಕ್ಷೆಗಳಿಗೆ ಬಳಸಲಾಗಿದೆ"
+  },
+  "nlTestMode": {
+    "message": "ಪರೀಕ್ಷಾ ವಿಧಾನ"
+  },
+  "nlBudget": {
+    "message": "ಗರಿಷ್ಠ ಪೇಲೋಡ್ ಸಂಚಾರ"
+  },
+  "nlViaGroup": {
+    "message": "ಗುಂಪಿನ ಪೂರ್ವ ಪ್ರಾಕ್ಸಿ ಮೂಲಕ"
+  },
+  "nlTestSelected": {
+    "message": "ಪರೀಕ್ಷೆಯನ್ನು ಆಯ್ಕೆಮಾಡಲಾಗಿದೆ"
+  },
+  "nlTestVisible": {
+    "message": "ಪರೀಕ್ಷೆ ತೋರಿಸಿರುವ ನೋಡ್‌ಗಳು"
+  },
+  "nlTestAll": {
+    "message": "ಎಲ್ಲಾ ನೋಡ್‌ಗಳನ್ನು ಪರೀಕ್ಷಿಸಿ"
+  },
+  "nlTestGroup": {
+    "message": "ಟೆಸ್ಟ್ ಗುಂಪು ನೋಡ್‌ಗಳು"
+  },
+  "nlProgress": {
+    "message": "ಮಾಪನ ಪ್ರಗತಿ"
+  },
+  "nlReady": {
+    "message": "ಪ್ರಾರಂಭಿಸಲು ನೋಡ್‌ಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ. ಯಾವುದೇ ಪರೀಕ್ಷೆ ನಡೆಸಿಲ್ಲ."
+  },
+  "nlStarting": {
+    "message": "ಪ್ರತ್ಯೇಕ ಮಾಪನವನ್ನು ಪ್ರಾರಂಭಿಸಲಾಗುತ್ತಿದೆ..."
+  },
+  "nlQueued": {
+    "message": "ಸರದಿಯಲ್ಲಿದೆ"
+  },
+  "nlRunning": {
+    "message": "ಪರೀಕ್ಷೆ"
+  },
+  "nlStopping": {
+    "message": "ನಿಲ್ಲಿಸಲಾಗುತ್ತಿದೆ..."
+  },
+  "nlComplete": {
+    "message": "ಪೂರ್ಣಗೊಂಡಿದೆ"
+  },
+  "nlFailed": {
+    "message": "ವಿಫಲವಾಗಿದೆ"
+  },
+  "nlStopped": {
+    "message": "ನಿಲ್ಲಿಸಲಾಗಿದೆ"
+  },
+  "nlPartial": {
+    "message": "ಭಾಗಶಃ"
+  },
+  "nlUntested": {
+    "message": "ಪರೀಕ್ಷಿಸಲಾಗಿಲ್ಲ"
+  },
+  "nlSucceeded": {
+    "message": "ಪಾಸಾಗಿದೆ"
+  },
+  "nlMeasureDisconnected": {
+    "message": "ಮಾಪನ ಸಂಪರ್ಕ ಕೊನೆಗೊಂಡಿದೆ. ಅಪೂರ್ಣ ಮೌಲ್ಯಗಳು ಅಂತಿಮ ಫಲಿತಾಂಶಗಳಲ್ಲ."
+  },
+  "nlUpgrade": {
+    "message": "ಗುಂಪುಗಳು ಮತ್ತು ಚಂದಾದಾರಿಕೆಗಳನ್ನು ನಿರ್ವಹಿಸಲು ಸ್ಥಳೀಯ ಕಂಪ್ಯಾನಿಯನ್ ಅನ್ನು ನವೀಕರಿಸಿ. ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ನೋಡ್‌ಗಳು ಲಭ್ಯವಿವೆ."
+  },
+  "nlOperationFailed": {
+    "message": "ಕಾರ್ಯಾಚರಣೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಲಾಗಲಿಲ್ಲ. ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+  },
+  "nlEditSubscription": {
+    "message": "ಚಂದಾದಾರಿಕೆಯನ್ನು ಸಂಪಾದಿಸಿ"
+  },
+  "nlPasteContent": {
+    "message": "ಪ್ರಾಕ್ಸಿ ಲಿಂಕ್‌ಗಳು / ವಿಷಯ"
+  },
+  "nlSubscriptionURL": {
+    "message": "ಚಂದಾದಾರಿಕೆ URL"
+  },
+  "nlKeepURL": {
+    "message": "ಉಳಿಸಿದ URL ಇರಿಸಿಕೊಳ್ಳಲು ಖಾಲಿ ಬಿಡಿ"
+  },
+  "nlConnectionPolicy": {
+    "message": "ಸಂಪರ್ಕವನ್ನು ನವೀಕರಿಸಿ"
+  },
+  "nlProxyFirst": {
+    "message": "ಮೊದಲು ಪ್ರಾಕ್ಸಿ, ನಂತರ ವೈಫಲ್ಯದ ಮೇಲೆ ನಿರ್ದೇಶಿಸಿ"
+  },
+  "nlProxyOnly": {
+    "message": "ಪ್ರಾಕ್ಸಿ ಮಾತ್ರ"
+  },
+  "nlDirectOnly": {
+    "message": "ನೇರ ಮಾತ್ರ"
+  },
+  "nlProxyFirstHelp": {
+    "message": "ಯಶಸ್ವಿ ಪಡೆದ ನಂತರ ಪ್ರಾಕ್ಸಿ ಮೊದಲು ನಿಲ್ಲುತ್ತದೆ. ಪ್ರಾಕ್ಸಿ ಪ್ರಯತ್ನ ವಿಫಲವಾದಲ್ಲಿ ಮಾತ್ರ ಡೈರೆಕ್ಟ್ ಅನ್ನು ಪ್ರಯತ್ನಿಸಲಾಗುತ್ತದೆ."
+  },
+  "nlAutoUpdate": {
+    "message": "ಸ್ವಯಂಚಾಲಿತ ನವೀಕರಣಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ"
+  },
+  "nlInterval": {
+    "message": "ನವೀಕರಣ ಮಧ್ಯಂತರ (ನಿಮಿಷಗಳು)"
+  },
+  "nlDestinationGroup": {
+    "message": "ಗಮ್ಯಸ್ಥಾನ ಗುಂಪು"
+  },
+  "nlSubscriptionOwnGroup": {
+    "message": "ಹೊಸ ಗುಂಪು…"
+  },
+  "nlNameGroup": {
+    "message": "ಹೆಸರು (ಗುಂಪು)"
+  },
+  "nlCustomGroup": {
+    "message": "ಕಸ್ಟಮ್ ಗುಂಪು"
+  },
+  "nlNameRequired": {
+    "message": "ಹೆಸರನ್ನು ನಮೂದಿಸಿ."
+  },
+  "nlContentRequired": {
+    "message": "ಪ್ರಾಕ್ಸಿ ಲಿಂಕ್‌ಗಳು ಅಥವಾ ಚಂದಾದಾರಿಕೆ ವಿಷಯವನ್ನು ಅಂಟಿಸಿ."
+  },
+  "nlGroupRequired": {
+    "message": "ಗಮ್ಯಸ್ಥಾನ ಗುಂಪನ್ನು ಆಯ್ಕೆಮಾಡಿ."
+  },
+  "nlURLRequired": {
+    "message": "ಬಳಕೆದಾರಹೆಸರು ಅಥವಾ ಪಾಸ್‌ವರ್ಡ್ ಇಲ್ಲದೆಯೇ HTTP(S) ಚಂದಾದಾರಿಕೆ URL ಅನ್ನು ನಮೂದಿಸಿ."
+  },
+  "nlIntervalInvalid": {
+    "message": "5 ರಿಂದ 43200 ನಿಮಿಷಗಳವರೆಗೆ ಪೂರ್ಣ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ."
+  },
+  "folderTitle": {
+    "message": "v2rayN ಫೋಲ್ಡರ್ ಆಯ್ಕೆಮಾಡಿ"
+  },
+  "folderHint": {
+    "message": "ಫೋಲ್ಡರ್ ಅನ್ನು ಆರಿಸಿ, ನಂತರ ಅದನ್ನು ಉಳಿಸಿ ಸಂಪರ್ಕ ಸೆಟ್ಟಿಂಗ್‌ಗಳೊಂದಿಗೆ ಅನ್ವಯಿಸಿ."
+  },
+  "folderPath": {
+    "message": "ಪೂರ್ಣ ಸ್ಥಳೀಯ ಫೋಲ್ಡರ್ ಮಾರ್ಗ"
+  },
+  "folderGo": {
+    "message": "ತೆರೆಯಿರಿ"
+  },
+  "folderUp": {
+    "message": "ಅಪ್"
+  },
+  "folderDrives": {
+    "message": "ಡ್ರೈವ್‌ಗಳು"
+  },
+  "folderCurrent": {
+    "message": "ಪ್ರಸ್ತುತ ಮಾರ್ಗ"
+  },
+  "folderChoose": {
+    "message": "ಈ ಫೋಲ್ಡರ್ ಬಳಸಿ"
+  },
+  "folderList": {
+    "message": "ಫೋಲ್ಡರ್‌ಗಳು"
+  },
+  "folderTruncated": {
+    "message": "ಪಟ್ಟಿ ಸೀಮಿತವಾಗಿದೆ. ತೋರಿಸದ ಫೋಲ್ಡರ್ ಅನ್ನು ತೆರೆಯಲು ಮೇಲಿನ ಸಂಪೂರ್ಣ ಮಾರ್ಗವನ್ನು ನಮೂದಿಸಿ."
+  },
+  "folderReady": {
+    "message": "v2rayN ಫೈಲ್‌ಗಳು ಕಂಡುಬಂದಿವೆ. ಕಾನ್ಫಿಗರೇಶನ್ ಅನ್ನು ಮೌಲ್ಯೀಕರಿಸಲು ಈ ಫೋಲ್ಡರ್ ಅನ್ನು ಬಳಸಿ."
+  },
+  "folderInvalid": {
+    "message": "guiConfigs, guiNConfig.json ಮತ್ತು guiNDB.db ಹೊಂದಿರುವ ಫೋಲ್ಡರ್ ಅನ್ನು ಆರಿಸಿ."
+  },
+  "folderSelectDrive": {
+    "message": "ಸ್ಥಳೀಯ ಡ್ರೈವ್ ಆಯ್ಕೆಮಾಡಿ ಅಥವಾ ಪೂರ್ಣ ಫೋಲ್ಡರ್ ಮಾರ್ಗವನ್ನು ನಮೂದಿಸಿ."
+  },
+  "folderEmpty": {
+    "message": "ಯಾವುದೇ ಗೋಚರ ಉಪ ಫೋಲ್ಡರ್‌ಗಳಿಲ್ಲ."
+  },
+  "folderUnavailable": {
+    "message": "ಈ ಫೋಲ್ಡರ್ ಅನ್ನು ಬ್ರೌಸ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ. ಅದರ ಮಾರ್ಗ ಮತ್ತು ಪ್ರವೇಶವನ್ನು ಪರಿಶೀಲಿಸಿ. ಕಂಪ್ಯಾನಿಯನ್ ಹಳೆಯದಾಗಿದ್ದರೆ, ಅದನ್ನು ಮೊದಲು ನವೀಕರಿಸಿ."
+  },
+  "folderValidating": {
+    "message": "ಮೌಲ್ಯೀಕರಿಸಲಾಗುತ್ತಿದೆ v2rayN ಕಾನ್ಫಿಗರೇಶನ್…"
+  },
+  "folderInvalidConfig": {
+    "message": "v2rayN ಕಾನ್ಫಿಗರೇಶನ್ ಅಥವಾ ಡೇಟಾಬೇಸ್ ಅಪೂರ್ಣ ಅಥವಾ ಅಮಾನ್ಯವಾಗಿದೆ. ಇನ್ನೊಂದು ಫೋಲ್ಡರ್ ಆಯ್ಕೆಮಾಡಿ."
+  },
+  "copyPath": {
+    "message": "ನಕಲು ಮಾರ್ಗ"
+  },
+  "pathCopyHint": {
+    "message": "ಪ್ರಸ್ತುತ ಈ ಕ್ಷೇತ್ರದಲ್ಲಿರುವ ಮಾರ್ಗವನ್ನು ನಕಲಿಸಿ."
+  },
+  "preMode": {
+    "message": "ಪೂರ್ವ ಪ್ರಾಕ್ಸಿ ಮೋಡ್"
+  },
+  "preNode": {
+    "message": "ಪೂರ್ವ ಪ್ರಾಕ್ಸಿ ನೋಡ್"
+  },
+  "preIntro": {
+    "message": "ಗುಂಪು ಸರಪಳಿಯನ್ನು ಬಳಸಿ, ಅದನ್ನು ಬಿಟ್ಟುಬಿಡಿ ಅಥವಾ ಈ ಪ್ರೊಫೈಲ್‌ಗಾಗಿ ಪೂರ್ವ ಪ್ರಾಕ್ಸಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ."
+  },
+  "healthLabel": {
+    "message": "ಪ್ರಸ್ತುತ ಸಂಪರ್ಕ ಸ್ಥಿತಿ"
+  },
+  "healthOk": {
+    "message": "ಸಾಮಾನ್ಯ"
+  },
+  "healthError": {
+    "message": "ಅಸಹಜ"
+  },
+  "healthChecking": {
+    "message": "ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ"
+  },
+  "healthUnknown": {
+    "message": "ದೃಢೀಕರಿಸಲಾಗಿಲ್ಲ"
+  },
+  "autoSystemHelp": {
+    "message": "ಸಿಸ್ಟಂ ನಿಯಮಗಳಿಗೆ Windows ಘಟಕ ಮತ್ತು ಸ್ಥಿರ ಪ್ರಾಕ್ಸಿ ಸೆಟ್ಟಿಂಗ್‌ಗಳ ಸ್ನ್ಯಾಪ್‌ಶಾಟ್ ಅಗತ್ಯ. ಬದಲಾವಣೆಗಳ ನಂತರ ಮತ್ತೆ ಅನ್ವಯಿಸಿ. PAC/WPAD ಬೆಂಬಲಿತವಲ್ಲ; ನಿಯಮಗಳಿಲ್ಲದ ಸಿಸ್ಟಂ ಬ್ರೌಸರ್‌ನ ಮೂಲ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಬಳಸುತ್ತದೆ."
+  },
+  "backgroundUnavailable": {
+    "message": "ವಿಸ್ತರಣೆ ಹಿನ್ನೆಲೆ ಲಭ್ಯವಿಲ್ಲ."
+  },
+  "backgroundNoResponse": {
+    "message": "ಹಿನ್ನೆಲೆ ಪ್ರತಿಕ್ರಿಯಿಸಲಿಲ್ಲ."
+  },
+  "backupTooLarge": {
+    "message": "ಬ್ಯಾಕಪ್ 5 MB ಮೀರಿದೆ."
+  },
+  "proxyUsername": {
+    "message": "ಬಳಕೆದಾರ ಹೆಸರು"
+  },
+  "proxyPassword": {
+    "message": "ಪಾಸ್‌ವರ್ಡ್"
+  },
+  "proxyAuthHelp": {
+    "message": "ಐಚ್ಛಿಕ. ದೃಢೀಕೃತ ಪ್ರಾಕ್ಸಿಗಳು ಕಂಪ್ಯಾನಿಯನ್ ಮೂಲಕ ಸಂಪರ್ಕಗೊಳ್ಳುತ್ತವೆ. ರುಜುವಾತುಗಳನ್ನು ಈ ಬ್ರೌಸರ್ ಕಾನ್ಫಿಗರೇಶನ್ ಮತ್ತು ಕಂಪ್ಯಾನಿಯನ್‌ನಲ್ಲಿ ಸಂಗ್ರಹಿಸಲಾಗಿದೆ ಮತ್ತು ಪ್ರೊಫೈಲ್ ರಫ್ತುಗಳಲ್ಲಿ ಸೇರಿಸಲಾಗಿದೆ."
+  },
+  "proxyAuthSocks4": {
+    "message": "SOCKS4 ಈ ಬಳಕೆದಾರಹೆಸರು/ಪಾಸ್‌ವರ್ಡ್ ದೃಢೀಕರಣವನ್ನು ಬೆಂಬಲಿಸುವುದಿಲ್ಲ; ಬಳಸಿ HTTP(ಎಸ್) ಅಥವಾ SOCKS5."
+  },
+  "importExamples": {
+    "message": "ಫಾರ್ಮ್ಯಾಟ್ ಉದಾಹರಣೆಗಳು"
+  },
+  "ipCopying": {
+    "message": "ನಕಲು ಮಾಡಲಾಗುತ್ತಿದೆ..."
+  },
+  "netDnsUnavailable": {
+    "message": "ಸರ್ವರ್ ವಿಳಾಸವನ್ನು ಸಮಯಕ್ಕೆ ಪರಿಹರಿಸಲಾಗಲಿಲ್ಲ. ಹೋಸ್ಟ್ ಅಥವಾ IP ವಿಳಾಸವನ್ನು ಪರಿಶೀಲಿಸಿ ಮತ್ತು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+  },
+  "netCurrentTarget": {
+    "message": "ಆಯ್ದ ಪ್ರಾಕ್ಸಿ ಎಂಡ್ ಪಾಯಿಂಟ್"
+  },
+  "netCustomTarget": {
+    "message": "ಕಸ್ಟಮ್ ಸರ್ವರ್"
+  },
+  "netHost": {
+    "message": "ಹೋಸ್ಟ್ ಅಥವಾ IP ವಿಳಾಸ"
+  },
+  "netPort": {
+    "message": "TCP ಬಂದರು"
+  },
+  "netHostRequired": {
+    "message": "ಸರ್ವರ್ ಹೋಸ್ಟ್ ಅಥವಾ IP ವಿಳಾಸವನ್ನು ನಮೂದಿಸಿ."
+  },
+  "netCurrentUnavailable": {
+    "message": "ನೋಡ್ ಅಥವಾ ಹಸ್ತಚಾಲಿತ ಪ್ರಾಕ್ಸಿ ಪ್ರೊಫೈಲ್ ಆಯ್ಕೆಮಾಡಿ ಅಥವಾ ಕಸ್ಟಮ್ ಗುರಿಯನ್ನು ನಮೂದಿಸಿ."
+  },
+  "netInvalidTarget": {
+    "message": "ಮಾನ್ಯ ಡಯಾಗ್ನೋಸ್ಟಿಕ್ ಹೋಸ್ಟ್ ಮತ್ತು ಪೋರ್ಟ್ ಅನ್ನು ನಮೂದಿಸಿ."
+  },
+  "netIpv6PingUnavailable": {
+    "message": "IPv6 ICMP ಲಭ್ಯವಿಲ್ಲ; ಬಳಸಿ TCPing."
+  },
+  "preNeedsFix": {
+    "message": "ಉಳಿಸುವ ಮೊದಲು ಮಾನ್ಯವಾದ ಪೂರ್ವ ಪ್ರಾಕ್ಸಿ ಅಥವಾ ಯಾವುದೇ ಪೂರ್ವ ಪ್ರಾಕ್ಸಿಯನ್ನು ಆರಿಸಿಕೊಳ್ಳಿ."
+  },
+  "preConfigure": {
+    "message": "ಪೂರ್ವ ಪ್ರಾಕ್ಸಿಯನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಿ"
+  },
+  "preFollowInvalid": {
+    "message": "ಅನುಸರಿಸಿ v2rayN ಕಸ್ಟಮ್ ಪೂರ್ವ ಪ್ರಾಕ್ಸಿಯನ್ನು ಸ್ವೀಕರಿಸುವುದಿಲ್ಲ."
+  },
+  "followChainHelp": {
+    "message": "ಅನುಸರಿಸು ಮಾರ್ಗವನ್ನು ಬಳಸುತ್ತದೆ ಮತ್ತು ಪ್ರಾಕ್ಸಿ ಚೈನ್ ಈಗಾಗಲೇ v2rayN ನಲ್ಲಿ ಸಕ್ರಿಯವಾಗಿದೆ."
+  },
+  "netTitle": {
+    "message": "ಸಂಪರ್ಕ ಪರೀಕ್ಷೆಗಳು"
+  },
+  "ipTestDetails": {
+    "message": "ಪರೀಕ್ಷಾ ವಿವರಗಳು"
+  },
+  "netTarget": {
+    "message": "ಪಿಂಗ್ / TCPing ಗುರಿ"
+  },
+  "netDownload": {
+    "message": "ಪರೀಕ್ಷೆಯನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ"
+  },
+  "netPartial": {
+    "message": "ಭಾಗಶಃ ಮಾದರಿ"
+  },
+  "netComplete": {
+    "message": "ಮಾದರಿ ಪೂರ್ಣಗೊಂಡಿದೆ"
+  },
+  "netDirect": {
+    "message": "ಸಿಸ್ಟಮ್ ನೆಟ್ವರ್ಕ್"
+  },
+  "netUnreachable": {
+    "message": "ಯಾವುದೇ ಪ್ರತ್ಯುತ್ತರವಿಲ್ಲ / ವಿಫಲವಾಗಿದೆ"
+  },
+  "netAverage": {
+    "message": "ಸರಾಸರಿ"
+  },
+  "predecessor": {
+    "message": "ಪೂರ್ವ ಪ್ರಾಕ್ಸಿ"
+  },
+  "preInherit": {
+    "message": "v2rayN ಗುಂಪು ಸರಪಳಿಯನ್ನು ಬಳಸಿ"
+  },
+  "preNone": {
+    "message": "ಯಾವುದೇ ಪೂರ್ವ ಪ್ರಾಕ್ಸಿ ಇಲ್ಲ"
+  },
+  "preSpecific": {
+    "message": "ನೋಡ್ ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+  },
+  "preHelp": {
+    "message": "ಈ ಪ್ರೊಫೈಲ್‌ಗೆ ಅನ್ವಯಿಸುತ್ತದೆ. v2rayN ಗುಂಪು ಸರಪಳಿಯನ್ನು ಬಳಸಿ, ಯಾವುದೇ ಪೂರ್ವ ಪ್ರಾಕ್ಸಿ ಅಥವಾ ನಿರ್ದಿಷ್ಟ ನೋಡ್ ಇಲ್ಲ. ಅನುಸರಿಸಿ v2rayN ಅದರ ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಸರಪಳಿಯನ್ನು ಬಳಸುತ್ತದೆ."
+  },
+  "preSelectRequired": {
+    "message": "ಪ್ರಿ-ಪ್ರಾಕ್ಸಿ ನೋಡ್ ಅನ್ನು ಆಯ್ಕೆ ಮಾಡಿ, ಅಥವಾ ಗುಂಪು ಡೀಫಾಲ್ಟ್ / ಯಾವುದೂ ಇಲ್ಲ."
+  },
+  "ipPing0Permission": {
+    "message": "ಸಾರ್ವಜನಿಕ ವರದಿಯನ್ನು ಲೋಡ್ ಮಾಡಲು Ping0 ವೆಬ್‌ಸೈಟ್ ಪ್ರವೇಶವನ್ನು ಅನುಮತಿಸಿ."
+  },
+  "ipPublicChallenge": {
+    "message": "ವೆಬ್‌ಸೈಟ್‌ಗೆ ಪರಿಶೀಲನೆಯ ಅಗತ್ಯವಿದೆ. ಅದನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು ಮತ್ತು ಫಲಿತಾಂಶವನ್ನು ವೀಕ್ಷಿಸಲು Ping0 ಪುಟವನ್ನು ತೆರೆಯಿರಿ."
+  },
+  "ipPublicReport": {
+    "message": "Ping0 ಸಾರ್ವಜನಿಕ ವರದಿ"
+  },
+  "ipPublicSource": {
+    "message": "ಮೂಲ: Ping0 ಸಾರ್ವಜನಿಕ ಪುಟ"
+  },
+  "ipPublicOriginal": {
+    "message": "Ping0 ವರದಿ"
+  },
+  "ipPublicPartial": {
+    "message": "ಸಾರ್ವಜನಿಕ ಪುಟದಲ್ಲಿ ಒದಗಿಸಲಾದ ಕ್ಷೇತ್ರಗಳನ್ನು ಮಾತ್ರ ಅವುಗಳ ಮೂಲ ಭಾಷೆಯಲ್ಲಿ ತೋರಿಸಲಾಗುತ್ತದೆ. ವರ್ಗೀಕರಣಗಳು ಮತ್ತು ಹಂಚಿಕೆಯ ಬಳಕೆದಾರರ ಅಂದಾಜುಗಳು Ping0 ರಿಂದ."
+  },
+  "setupTitle": {
+    "message": "ಸಂಪರ್ಕಿಸಿ Proxy V2Route"
+  },
+  "setupIntro": {
+    "message": "v2rayN ಮಾರ್ಗಗಳನ್ನು ಅಥವಾ ನಿಮ್ಮ ಸ್ವಂತ ಆಮದು ಮಾಡಲಾದ ನೋಡ್‌ಗಳನ್ನು ಬಳಸಲು Windows ಕಂಪ್ಯಾನಿಯನ್ ಅನ್ನು ಸ್ಥಾಪಿಸಿ."
+  },
+  "setupStepOne": {
+    "message": "ಹೊಂದಾಣಿಕೆಯ ಸಂಪೂರ್ಣ Windows ಪ್ಯಾಕೇಜ್ ಅನ್ನು ಶಾಶ್ವತ ಫೋಲ್ಡರ್‌ಗೆ ಹೊರತೆಗೆಯಿರಿ."
+  },
+  "setupStepTwo": {
+    "message": "V2Route-Setup.exe ತೆರೆಯಿರಿ ಮತ್ತು ಸ್ಥಾಪಿಸು ಕ್ಲಿಕ್ ಮಾಡಿ."
+  },
+  "setupStepThree": {
+    "message": "ಇಲ್ಲಿಗೆ ಹಿಂತಿರುಗಿ ಮತ್ತು ಸಂಪರ್ಕವನ್ನು ಪರಿಶೀಲಿಸಿ. ಅಗತ್ಯವಿದ್ದರೆ v2rayN ಫೋಲ್ಡರ್ ಆಯ್ಕೆಮಾಡಿ."
+  },
+  "setupCheck": {
+    "message": "ಸಂಪರ್ಕವನ್ನು ಪರಿಶೀಲಿಸಿ"
+  },
+  "downloadCompanion": {
+    "message": "ಅನುಸ್ಥಾಪನ ಮಾರ್ಗದರ್ಶಿ ↗"
+  },
+  "setupDownloadNote": {
+    "message": "ಹೊಂದಾಣಿಕೆಯ ಸ್ಥಳೀಯ Windows ಪ್ಯಾಕೇಜ್ ಅನ್ನು ಬಳಸಿ, ಅಥವಾ ಪ್ರಸ್ತುತ ಮೂಲದಿಂದ ನಿರ್ಮಿಸಲು ಮಾರ್ಗದರ್ಶಿಯನ್ನು ಅನುಸರಿಸಿ."
+  },
+  "chooseFolder": {
+    "message": "v2rayN ಫೋಲ್ಡರ್ ಆಯ್ಕೆಮಾಡಿ..."
+  },
+  "rescanDone": {
+    "message": "ಸ್ಥಳೀಯ ನೋಡ್‌ಗಳನ್ನು ಮರು ಸ್ಕ್ಯಾನ್ ಮಾಡಲಾಗಿದೆ"
+  },
+  "grouping": {
+    "message": "ಗುಂಪು ನೋಡ್‌ಗಳು"
+  },
+  "groupByCountry": {
+    "message": "ದೇಶವಾರು"
+  },
+  "unknownCountry": {
+    "message": "ಇತರೆ / ಅಜ್ಞಾತ"
+  },
+  "ungrouped": {
+    "message": "ಗುಂಪು ಮಾಡಲಾಗಿಲ್ಲ"
+  },
+  "adjustNodeFilters": {
+    "message": "ಇನ್ನೊಂದು ಗುಂಪನ್ನು ಪ್ರಯತ್ನಿಸಿ, ಮೂಲ ಅಥವಾ ಹುಡುಕಾಟ, ಅಥವಾ ಗುಪ್ತ ನೋಡ್‌ಗಳನ್ನು ತೋರಿಸಿ."
+  },
+  "rescanLocal": {
+    "message": "ಮರು ಸ್ಕ್ಯಾನ್ v2rayN ನೋಡ್‌ಗಳು"
+  },
+  "showHidden": {
+    "message": "ಗುಪ್ತ ನೋಡ್‌ಗಳನ್ನು ತೋರಿಸಿ"
+  },
+  "hideNode": {
+    "message": "ಮರೆಮಾಡಿ"
+  },
+  "restoreNode": {
+    "message": "ಮರುಸ್ಥಾಪಿಸಿ"
+  },
+  "hiddenNode": {
+    "message": "ಮರೆಮಾಡಲಾಗಿದೆ"
+  },
+  "hideNodeHelp": {
+    "message": "ಈ ಬ್ರೌಸರ್‌ನ ನೋಡ್ ಲೈಬ್ರರಿಯಿಂದ ಮಾತ್ರ ಮರೆಮಾಡಿ. v2rayN ಮತ್ತು ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಪ್ರೊಫೈಲ್‌ಗಳು ಬದಲಾಗಿಲ್ಲ."
+  },
+  "ipContextTimeout": {
+    "message": "ಪ್ರಸ್ತುತ ಪ್ರೊಫೈಲ್ ಓದುವ ಸಮಯ ಮೀರಿದೆ. ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+  },
+  "ipStaleResult": {
+    "message": "ಪ್ರಸ್ತುತ ಪ್ರೊಫೈಲ್ ಬದಲಾಗಿದೆ. ಈ ಫಲಿತಾಂಶವು ಹಳೆಯದಾಗಿರಬಹುದು; ಮತ್ತೊಮ್ಮೆ ಪರಿಶೀಲಿಸಿ."
+  },
+  "ip_tools": {
+    "message": "IP ಪರಿಕರಗಳು"
+  },
+  "ipIntro": {
+    "message": "ಪ್ರಸ್ತುತ ನಿರ್ಗಮನ IP ಮತ್ತು ಸಾರ್ವಜನಿಕ ವರದಿ."
+  },
+  "ipCurrentProfile": {
+    "message": "ಪ್ರಸ್ತುತ ಬ್ರೌಸರ್ ಪ್ರೊಫೈಲ್"
+  },
+  "ipRouteCaution": {
+    "message": "ಸ್ವಯಂಚಾಲಿತ ನಿಯಮಗಳು ಮತ್ತು PAC ವಿವಿಧ ಸ್ಥಳಗಳಿಗೆ ವಿವಿಧ ಮಾರ್ಗಗಳನ್ನು ಬಳಸಬಹುದು. ಈ ಚೆಕ್ ತನ್ನದೇ ಆದ ವಿನಂತಿಯನ್ನು ಮಾತ್ರ ವಿವರಿಸುತ್ತದೆ."
+  },
+  "ipDisclosure": {
+    "message": "ಸ್ವಯಂ-ಪರಿಶೀಲನೆ ನಿರ್ಗಮನ IP · Ping0 ಮೂಲಕ ವರದಿ ಮಾಡಿ"
+  },
+  "ipMethod": {
+    "message": "ವಿಳಾಸ ಪರಿಶೀಲನೆ"
+  },
+  "ipDual": {
+    "message": "IPv4 / IPv6"
+  },
+  "ipCheck": {
+    "message": "ಮತ್ತೊಮ್ಮೆ ಪರಿಶೀಲಿಸಿ"
+  },
+  "ipChecking": {
+    "message": "ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ..."
+  },
+  "ipDualHelp": {
+    "message": "IPv4 / IPv6 ಈ ವಿನಂತಿಗಾಗಿ ಬಳಸಿದ ವಿಳಾಸ ಕುಟುಂಬವನ್ನು ಹಿಂದಿರುಗಿಸುತ್ತದೆ, ಎರಡೂ ವಿಳಾಸಗಳನ್ನು ಅಲ್ಲ."
+  },
+  "ipDurationHelp": {
+    "message": "ಕಳೆದಿರುವ HTTP ವಿನಂತಿಯ ಸಮಯವು ನೆಟ್‌ವರ್ಕ್ ಮತ್ತು ಸೇವಾ ಪ್ರತಿಕ್ರಿಯೆ ಸಮಯವನ್ನು ಒಳಗೊಂಡಿದೆ. ಇದು ICMP ಪಿಂಗ್ ಅಥವಾ ಬ್ಯಾಂಡ್‌ವಿಡ್ತ್ ಪರೀಕ್ಷೆಯಲ್ಲ."
+  },
+  "ipCopy": {
+    "message": "ನಕಲು IP"
+  },
+  "ipCopied": {
+    "message": "ನಕಲು ಮಾಡಲಾಗಿದೆ"
+  },
+  "ipCopyFailed": {
+    "message": "ನಕಲಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ವಿಳಾಸವನ್ನು ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು ಅದನ್ನು ಹಸ್ತಚಾಲಿತವಾಗಿ ನಕಲಿಸಿ."
+  },
+  "ipNoResult": {
+    "message": "ಇನ್ನೂ ಯಾವುದೇ ಪರಿಶೀಲನೆ ಇಲ್ಲ"
+  },
+  "ipContextUnknown": {
+    "message": "ಪ್ರೊಫೈಲ್ ಲಭ್ಯವಿಲ್ಲ"
+  },
+  "ipTimeout": {
+    "message": "ಚೆಕ್ ಸಮಯ ಮೀರಿದೆ. ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ ಅಥವಾ ಇನ್ನೊಂದು ಮಾರ್ಗವನ್ನು ಬಳಸಿ."
+  },
+  "ipCancelled": {
+    "message": "ಚೆಕ್ ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ"
+  },
+  "ipNetwork": {
+    "message": "ತಲುಪಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ ipify. ಸಂಪರ್ಕವನ್ನು ಪರಿಶೀಲಿಸಿ ಹಾಗೂ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+  },
+  "ipHttp": {
+    "message": "IP ಸೇವೆಯು ವಿನಂತಿಯನ್ನು ಸ್ವೀಕರಿಸಲಿಲ್ಲ. ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+  },
+  "ipInvalid": {
+    "message": "IP ಸೇವೆಯು ಅಮಾನ್ಯ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ನೀಡಿತು."
+  },
+  "ipFailure": {
+    "message": "ಚೆಕ್ ವಿಫಲವಾಗಿದೆ. ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+  },
+  "ipStale": {
+    "message": "ಪರಿಶೀಲನೆಯ ಸಮಯದಲ್ಲಿ ನಿಮ್ಮ ಪ್ರಾಕ್ಸಿ ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಬದಲಾಗಿವೆ. ಹಳೆಯ ಫಲಿತಾಂಶವನ್ನು ತಿರಸ್ಕರಿಸಲಾಗಿದೆ; ಮತ್ತೊಮ್ಮೆ ಪರಿಶೀಲಿಸಿ."
+  },
+  "ipQuality": {
+    "message": "ಬಾಹ್ಯ ಉಪಕರಣಗಳು"
+  },
+  "ipQualityPrivacy": {
+    "message": "ಪರಿಕರಗಳು ಕ್ಲಿಕ್‌ನಲ್ಲಿ ಮಾತ್ರ ರನ್ ಆಗುತ್ತವೆ. ಪೂರೈಕೆದಾರರು ಸಾಮಾನ್ಯ ಸಂಪರ್ಕ ಡೇಟಾವನ್ನು ಸ್ವೀಕರಿಸುತ್ತಾರೆ. ಪ್ರಾರಂಭದ ನಂತರ ವೆಬ್‌ಸೈಟ್ ಪರಿಶೀಲನೆಗಳು ರುಜುವಾತು-ಮುಕ್ತ ವಿನಂತಿಗಳನ್ನು ಕಳುಹಿಸುತ್ತವೆ. ಮುಚ್ಚುವಿಕೆಯು ಸ್ಥಳೀಯ ಪರೀಕ್ಷೆಗಳನ್ನು ನಿಲ್ಲಿಸುತ್ತದೆ; ಬಾಹ್ಯ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಬ್ರೌಸರ್‌ನಿಂದ ನಿರ್ವಹಿಸಲಾಗುತ್ತದೆ."
+  },
+  "ipReport": {
+    "message": "ನಕಲು ಮಾಡಲಾದ ವರದಿ"
+  },
+  "ipReportCopied": {
+    "message": "ಪರಿಷ್ಕರಿಸಿದ ವರದಿಯನ್ನು ನಕಲಿಸಲಾಗಿದೆ; ಯಾವುದೇ IP ಅಥವಾ ಪ್ರೊಫೈಲ್ ಹೆಸರುಗಳನ್ನು ಸೇರಿಸಲಾಗಿಲ್ಲ."
+  },
+  "popupSelected": {
+    "message": "ಆಯ್ಕೆಮಾಡಲಾಗಿದೆ"
+  },
+  "popupFooter": {
+    "message": "v2rayN & ನೋಡ್ ಪ್ರೊಫೈಲ್‌ಗಳು"
+  },
+  "subtitle": {
+    "message": "ಸ್ವತಂತ್ರ ಬ್ರೌಸರ್ ಮಾರ್ಗಗಳು"
+  },
+  "profiles": {
+    "message": "ಪ್ರೊಫೈಲ್‌ಗಳು"
+  },
+  "nodes": {
+    "message": "ನೋಡ್ ಲೈಬ್ರರಿ"
+  },
+  "settings": {
+    "message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳು"
+  },
+  "connected": {
+    "message": "ಸಕ್ರಿಯ ಪ್ರೊಫೈಲ್"
+  },
+  "noProfile": {
+    "message": "ಸಿಸ್ಟಮ್ ಡೀಫಾಲ್ಟ್"
+  },
+  "newProfile": {
+    "message": "ಹೊಸ ಪ್ರೊಫೈಲ್"
+  },
+  "searchProfiles": {
+    "message": "ಪ್ರೊಫೈಲ್‌ಗಳನ್ನು ಹುಡುಕಿ"
+  },
+  "direct": {
+    "message": "ನೇರ ಜಾಲ"
+  },
+  "system": {
+    "message": "ಸಿಸ್ಟಮ್ ಪ್ರಾಕ್ಸಿ"
+  },
+  "follow": {
+    "message": "ಅನುಸರಿಸಿ v2rayN"
+  },
+  "manual": {
+    "message": "ಹಸ್ತಚಾಲಿತ ಪ್ರಾಕ್ಸಿ"
+  },
+  "auto": {
+    "message": "ಸ್ವಯಂ ಸ್ವಿಚ್"
+  },
+  "pac": {
+    "message": "PAC ಸ್ಕ್ರಿಪ್ಟ್"
+  },
+  "virtual": {
+    "message": "ವರ್ಚುವಲ್ ಪ್ರೊಫೈಲ್"
+  },
+  "profileIntro": {
+    "message": "v2rayN ನ ಮುಖ್ಯ ಮಾರ್ಗವನ್ನು ಬದಲಾಯಿಸದೆ ಬ್ರೌಸರ್ ಮಾರ್ಗವನ್ನು ಆರಿಸಿ."
+  },
+  "nodesIntro": {
+    "message": "ಸ್ಥಳೀಯ v2rayN ನೋಡ್‌ಗಳು ಮತ್ತು ನಿಮ್ಮ ಆಮದು ಮಾಡಿಕೊಂಡ ಲಿಂಕ್‌ಗಳನ್ನು ಬ್ರೌಸ್ ಮಾಡಿ."
+  },
+  "settingsIntro": {
+    "message": "ಸ್ಥಳೀಯ ಸಂಪರ್ಕ, ಭಾಷೆ ಮತ್ತು ನೋಟ."
+  },
+  "refresh": {
+    "message": "ರಿಫ್ರೆಶ್ ಮಾಡಿ"
+  },
+  "create": {
+    "message": "ಪ್ರೊಫೈಲ್ ರಚಿಸಿ"
+  },
+  "name": {
+    "message": "ಪ್ರೊಫೈಲ್ ಹೆಸರು"
+  },
+  "type": {
+    "message": "ಪ್ರೊಫೈಲ್ ಪ್ರಕಾರ"
+  },
+  "save": {
+    "message": "ಉಳಿಸಿ"
+  },
+  "saved": {
+    "message": "ಉಳಿಸಲಾಗಿದೆ"
+  },
+  "saving": {
+    "message": "ಉಳಿಸಲಾಗುತ್ತಿದೆ..."
+  },
+  "cancel": {
+    "message": "ರದ್ದುಮಾಡಿ"
+  },
+  "close": {
+    "message": "ಮುಚ್ಚಿ"
+  },
+  "apply": {
+    "message": "ಈ ಪ್ರೊಫೈಲ್ ಬಳಸಿ"
+  },
+  "applied": {
+    "message": "ಪ್ರೊಫೈಲ್ ಬದಲಾಯಿಸಲಾಗಿದೆ"
+  },
+  "active": {
+    "message": "ಸಕ್ರಿಯ"
+  },
+  "delete": {
+    "message": "ಅಳಿಸಿ"
+  },
+  "remove": {
+    "message": "ತೆಗೆದುಹಾಕಿ"
+  },
+  "rename": {
+    "message": "ಮರುಹೆಸರಿಸು"
+  },
+  "route": {
+    "message": "ಪ್ರಾಕ್ಸಿ ಮಾರ್ಗ"
+  },
+  "selectRoute": {
+    "message": "ಮಾರ್ಗವನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+  },
+  "routeMissing": {
+    "message": "ಮಾರ್ಗ ಲಭ್ಯವಿಲ್ಲ - ಇನ್ನೊಂದನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+  },
+  "chain": {
+    "message": "ಸಂಪರ್ಕ ಸರಪಳಿ"
+  },
+  "connection": {
+    "message": "ಸ್ಥಳೀಯ ಸಂಪರ್ಕ"
+  },
+  "proxy": {
+    "message": "ಪ್ರಾಕ್ಸಿ ಸರ್ವರ್"
+  },
+  "address": {
+    "message": "ವಿಳಾಸ"
+  },
+  "port": {
+    "message": "ಬಂದರು"
+  },
+  "scheme": {
+    "message": "ಪ್ರೋಟೋಕಾಲ್"
+  },
+  "proxyDns": {
+    "message": "SOCKS5 DNS ಪ್ರಾಕ್ಸಿ ಮೂಲಕ ಪರಿಹರಿಸುತ್ತದೆ."
+  },
+  "connectedIdle": {
+    "message": "ಸಂಪರ್ಕಗೊಂಡಿದೆ · ಐಡಲ್"
+  },
+  "bypass": {
+    "message": "ಬೈಪಾಸ್ ಪಟ್ಟಿ"
+  },
+  "bypassHelp": {
+    "message": "ಪ್ರತಿ ಸಾಲಿನಲ್ಲಿ ಒಂದು ಡೊಮೇನ್, ವೈಲ್ಡ್‌ಕಾರ್ಡ್ ಡೊಮೇನ್, IP ವಿಳಾಸ ಅಥವಾ IP:ಪೋರ್ಟ್."
+  },
+  "advanced": {
+    "message": "ಸುಧಾರಿತ ಆಯ್ಕೆಗಳು"
+  },
+  "searchRoutes": {
+    "message": "ಹುಡುಕಾಟ ಗುಂಪುಗಳು ಅಥವಾ ನೋಡ್‌ಗಳು"
+  },
+  "selectGroup": {
+    "message": "ಗುಂಪನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+  },
+  "empty": {
+    "message": "ಯಾವುದೇ ಹೊಂದಾಣಿಕೆಯ ಐಟಂಗಳಿಲ್ಲ"
+  },
+  "unavailable": {
+    "message": "ಲಭ್ಯವಿಲ್ಲ"
+  },
+  "groupHint": {
+    "message": "250 ms ವರೆಗೆ ಗುಂಪನ್ನು ಹಿಡಿದುಕೊಳ್ಳಿ, ನಂತರ ಎಳೆಯಿರಿ. Alt + ↑ / ↓ ಸಹ ಮರುಕ್ರಮಗೊಳ್ಳುತ್ತದೆ. ಬದಲಾವಣೆಗಳು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಉಳಿಸುತ್ತವೆ."
+  },
+  "searchSort": {
+    "message": "ವಿಂಗಡಿಸುವ ಮೊದಲು ಹುಡುಕಾಟವನ್ನು ತೆರವುಗೊಳಿಸಿ."
+  },
+  "dragHint": {
+    "message": "ಮೇಲಕ್ಕೆ ಅಥವಾ ಕೆಳಕ್ಕೆ ಸರಿಸಿ, ನಂತರ ಉಳಿಸಲು ಬಿಡುಗಡೆ ಮಾಡಿ. Esc ರದ್ದುಗೊಳಿಸುತ್ತದೆ."
+  },
+  "orderSaved": {
+    "message": "ಗುಂಪಿನ ಆದೇಶವನ್ನು ಉಳಿಸಲಾಗಿದೆ"
+  },
+  "orderCancelled": {
+    "message": "ಮರುಕ್ರಮಗೊಳಿಸುವಿಕೆಯನ್ನು ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ"
+  },
+  "loading": {
+    "message": "ಲೋಡ್ ಆಗುತ್ತಿದೆ..."
+  },
+  "reading": {
+    "message": "ಸ್ಥಳೀಯ ನೋಡ್‌ಗಳನ್ನು ಓದಲಾಗುತ್ತಿದೆ..."
+  },
+  "nativeMissing": {
+    "message": "ಸ್ಥಳೀಯ ಘಟಕವನ್ನು ಸಂಪರ್ಕಿಸಲಾಗಿಲ್ಲ"
+  },
+  "retry": {
+    "message": "ಮರುಪ್ರಯತ್ನಿಸಿ"
+  },
+  "nativeHelp": {
+    "message": "ನೋಡ್ ಮಾರ್ಗಗಳಿಗೆ Windows ಕಂಪ್ಯಾನಿಯನ್ ಅಗತ್ಯವಿದೆ. ನೇರ, ಸಿಸ್ಟಮ್ ಮತ್ತು ಹಸ್ತಚಾಲಿತ ಪ್ರಾಕ್ಸಿಗಳು ಈಗ ಲಭ್ಯವಿದೆ."
+  },
+  "imported": {
+    "message": "ಆಮದು ಮಾಡಲಾಗಿದೆ"
+  },
+  "v2rayn": {
+    "message": "v2rayN"
+  },
+  "allSources": {
+    "message": "ಎಲ್ಲಾ ಮೂಲಗಳು"
+  },
+  "importNodes": {
+    "message": "ಪ್ರಾಕ್ಸಿಗಳನ್ನು ಆಮದು ಮಾಡಿ"
+  },
+  "importTitle": {
+    "message": "ಪ್ರಾಕ್ಸಿಗಳನ್ನು ಆಮದು ಮಾಡಿ"
+  },
+  "importHelp": {
+    "message": "ಪ್ರಾಕ್ಸಿ ಲಿಂಕ್‌ಗಳನ್ನು ಅಂಟಿಸಿ, ಹೊರಹೋಗುವ JSON ಅಥವಾ Base64 ಚಂದಾದಾರಿಕೆ. SOCKS ಸರಳ ಅಥವಾ Base64 ರುಜುವಾತುಗಳನ್ನು ಬೆಂಬಲಿಸುತ್ತದೆ. ಸ್ಕೀಮ್-ಮುಕ್ತ ವಿಳಾಸಗಳು HTTP ಅನ್ನು ಬಳಸುತ್ತವೆ."
+  },
+  "importPrivacy": {
+    "message": "ಪ್ರಾಕ್ಸಿ ವಿವರಗಳು ಮತ್ತು ರುಜುವಾತುಗಳನ್ನು ಸ್ಥಳೀಯ Proxy V2Route ಕಂಪ್ಯಾನಿಯನ್‌ಗೆ ಶೇಖರಣೆಗಾಗಿ ಮತ್ತು ನೀವು ಆಯ್ಕೆಮಾಡಿದ ಪ್ರಾಕ್ಸಿಗೆ ಸಂಪರ್ಕಕ್ಕಾಗಿ ರವಾನಿಸಲಾಗುತ್ತದೆ. ಡೆವಲಪರ್ ಈ ಮಾಹಿತಿಯನ್ನು ಸ್ವೀಕರಿಸುವುದಿಲ್ಲ."
+  },
+  "import": {
+    "message": "ಪ್ರೊಫೈಲ್‌ಗಳನ್ನು ಆಮದು ಮಾಡಿ"
+  },
+  "nodeCount": {
+    "message": "ನೋಡ್‌ಗಳು"
+  },
+  "source": {
+    "message": "ಮೂಲ"
+  },
+  "protocol": {
+    "message": "ಪ್ರೋಟೋಕಾಲ್"
+  },
+  "useNode": {
+    "message": "ಪ್ರೊಫೈಲ್ ರಚಿಸಿ"
+  },
+  "removeNode": {
+    "message": "ಆಮದು ಮಾಡಲಾದ ನೋಡ್ ಅನ್ನು ತೆಗೆದುಹಾಕುವುದೇ?"
+  },
+  "removeNodeHelp": {
+    "message": "ಈ ನೋಡ್ ಅನ್ನು ಬಳಸುವ ಪ್ರೊಫೈಲ್‌ಗಳನ್ನು ತೆಗೆದುಹಾಕುವ ಮೊದಲು ಅದನ್ನು ಮರುಹೊಂದಿಸಬೇಕು."
+  },
+  "deleteProfile": {
+    "message": "ಈ ಪ್ರೊಫೈಲ್ ಅಳಿಸುವುದೇ?"
+  },
+  "deleteProfileHelp": {
+    "message": "ಇದು ಈ ಬ್ರೌಸರ್ ಪ್ರೊಫೈಲ್ ಅನ್ನು ಮಾತ್ರ ತೆಗೆದುಹಾಕುತ್ತದೆ. ಆಮದು ಮಾಡಲಾದ ನೋಡ್‌ಗಳು ಮತ್ತು v2rayN ಸಂರಚನೆಯನ್ನು ಇರಿಸಲಾಗಿದೆ."
+  },
+  "language": {
+    "message": "ಭಾಷೆ"
+  },
+  "automatic": {
+    "message": "ಬ್ರೌಸರ್ ಡೀಫಾಲ್ಟ್"
+  },
+  "theme": {
+    "message": "ಗೋಚರತೆ"
+  },
+  "light": {
+    "message": "ಬೆಳಕು"
+  },
+  "dark": {
+    "message": "ಡಾರ್ಕ್"
+  },
+  "switchToEnglish": {
+    "message": "ಇಂಗ್ಲಿಷ್‌ಗೆ ಬದಲಿಸಿ"
+  },
+  "switchToChinese": {
+    "message": "ಸರಳೀಕೃತ ಚೈನೀಸ್‌ಗೆ ಬದಲಿಸಿ"
+  },
+  "switchToLight": {
+    "message": "ಬೆಳಕಿನ ನೋಟಕ್ಕೆ ಬದಲಿಸಿ"
+  },
+  "switchToDark": {
+    "message": "ಡಾರ್ಕ್ ನೋಟಕ್ಕೆ ಬದಲಿಸಿ"
+  },
+  "localComponent": {
+    "message": "ಕಂಪ್ಯಾನಿಯನ್ ಘಟಕ"
+  },
+  "ready": {
+    "message": "ಸಂಪರ್ಕಿಸಲಾಗಿದೆ"
+  },
+  "stopped": {
+    "message": "ಓಡುತ್ತಿಲ್ಲ"
+  },
+  "discovery": {
+    "message": "v2rayN ಪತ್ತೆ"
+  },
+  "rootPath": {
+    "message": "v2rayN ಫೋಲ್ಡರ್"
+  },
+  "corePath": {
+    "message": "ಪ್ರಾಕ್ಸಿ ಕೋರ್ ಕಾರ್ಯಗತಗೊಳಿಸಬಹುದಾಗಿದೆ"
+  },
+  "optionalPath": {
+    "message": "ಸ್ವಯಂಚಾಲಿತ ಪತ್ತೆಗಾಗಿ ಖಾಲಿ ಬಿಡಿ"
+  },
+  "pathsHelp": {
+    "message": "v2rayN ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಪತ್ತೆಯಾಗುತ್ತದೆ; ಅಗತ್ಯವಿದ್ದರೆ ಅದರ ಫೋಲ್ಡರ್ ಆಯ್ಕೆಮಾಡಿ. ಆಮದು ಮಾಡಲಾದ ನೋಡ್‌ಗಳು ಒಳಗೊಂಡಿರುವ ಕೋರ್ ಅನ್ನು ಬಳಸುತ್ತವೆ."
+  },
+  "savePaths": {
+    "message": "ಸಂಪರ್ಕ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಉಳಿಸಿ"
+  },
+  "privacy": {
+    "message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಸ್ಥಳೀಯವಾಗಿ ಸಂಗ್ರಹಿಸಲಾಗಿದೆ"
+  },
+  "privacyText": {
+    "message": "ನೋಡ್ ಲಿಂಕ್‌ಗಳು ಮತ್ತು ರುಜುವಾತುಗಳು ಸ್ಥಳೀಯ ಒಡನಾಡಿಯಲ್ಲಿ ಉಳಿಯುತ್ತವೆ. ಬ್ರೌಸರ್ ದಟ್ಟಣೆಯು ನಿಮ್ಮ ಆಯ್ಕೆಮಾಡಿದ ಪ್ರಾಕ್ಸಿ ಮೂಲಕ ಗಮ್ಯಸ್ಥಾನದ ವೆಬ್‌ಸೈಟ್‌ಗಳಿಗೆ ಹೋಗುತ್ತದೆ; ಡೆವಲಪರ್ ಅದನ್ನು ಸ್ವೀಕರಿಸುವುದಿಲ್ಲ."
+  },
+  "privacyDetails": {
+    "message": "ಗೌಪ್ಯತೆ ಮತ್ತು ಡೇಟಾ ಹರಿವು"
+  },
+  "export": {
+    "message": "ಪ್ರೊಫೈಲ್‌ಗಳನ್ನು ರಫ್ತು ಮಾಡಿ"
+  },
+  "about": {
+    "message": "ಸುಮಾರು Proxy V2Route"
+  },
+  "aboutText": {
+    "message": "v2rayN ನ ಮುಖ್ಯ ಮಾರ್ಗವನ್ನು ಬದಲಾಯಿಸದೆ ಬ್ರೌಸರ್ ಮಾರ್ಗವನ್ನು ಆರಿಸಿ. ನೋಡ್ ಮಾರ್ಗಗಳು Windows ಕಂಪ್ಯಾನಿಯನ್ ಮತ್ತು ನಿಮ್ಮ ಸ್ವಂತ ನೋಡ್‌ಗಳನ್ನು ಬಳಸುತ್ತವೆ."
+  },
+  "licenses": {
+    "message": "ಓಪನ್ ಸೋರ್ಸ್ ಸೂಚನೆಗಳು"
+  },
+  "version": {
+    "message": "ಆವೃತ್ತಿ"
+  },
+  "fieldRequired": {
+    "message": "ಪ್ರೊಫೈಲ್ ಹೆಸರನ್ನು ನಮೂದಿಸಿ."
+  },
+  "profileExists": {
+    "message": "ಈ ಹೆಸರಿನ ಪ್ರೊಫೈಲ್ ಈಗಾಗಲೇ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ."
+  },
+  "ruleHelp": {
+    "message": "ಅಲ್ಪವಿರಾಮಗಳೊಂದಿಗೆ ಒಂದು ಸಾಲಿನಲ್ಲಿ ಪ್ರತ್ಯೇಕ ಡೊಮೇನ್‌ಗಳು. ಮೊದಲ ಹೊಂದಾಣಿಕೆಯ ಸಾಲು ಗೆಲ್ಲುತ್ತದೆ. ಡೀಫಾಲ್ಟ್ ಮಾರ್ಗವನ್ನು ಲಭ್ಯವಿರಲಿ."
+  },
+  "rules": {
+    "message": "ರೂಟಿಂಗ್ ನಿಯಮಗಳು"
+  },
+  "pattern": {
+    "message": "ಹೋಸ್ಟ್ ಮಾದರಿ"
+  },
+  "target": {
+    "message": "ನಿಯಮ ಗುರಿ"
+  },
+  "addRule": {
+    "message": "ನಿಯಮವನ್ನು ಸೇರಿಸಿ"
+  },
+  "defaultRoute": {
+    "message": "ಡೀಫಾಲ್ಟ್ ಪ್ರೊಫೈಲ್"
+  },
+  "pacHelp": {
+    "message": "FindProxyForURL ಹೊಂದಿರುವ ವಿಶ್ವಾಸಾರ್ಹ PAC ಮೂಲವನ್ನು ಅಂಟಿಸಿ. ಈ ಸ್ಕ್ರಿಪ್ಟ್ ವೆಬ್‌ಸೈಟ್ ವಿನಂತಿಗಳನ್ನು ಹೇಗೆ ರವಾನಿಸಲಾಗುತ್ತದೆ ಎಂಬುದನ್ನು ನಿರ್ಧರಿಸುತ್ತದೆ."
+  },
+  "pacUrl": {
+    "message": "PAC URL"
+  },
+  "pacScript": {
+    "message": "PAC ಸ್ಕ್ರಿಪ್ಟ್"
+  },
+  "noSelection": {
+    "message": "ಪ್ರೊಫೈಲ್ ಆಯ್ಕೆಮಾಡಿ ಅಥವಾ ಒಂದನ್ನು ರಚಿಸಿ."
+  },
+  "details": {
+    "message": "ವಿವರಗಳು"
+  },
+  "noNodes": {
+    "message": "ಇನ್ನೂ ಯಾವುದೇ ನೋಡ್‌ಗಳಿಲ್ಲ"
+  },
+  "noNodesHelp": {
+    "message": "ಆರಂಭಿಸಲು v2rayN ಅಥವಾ ಪ್ರಾಕ್ಸಿ ಲಿಂಕ್‌ಗಳು, JSON ಅಥವಾ ಚಂದಾದಾರಿಕೆಯನ್ನು ಆಮದು ಮಾಡಿಕೊಳ್ಳಿ."
+  },
+  "openSettings": {
+    "message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ತೆರೆಯಿರಿ"
+  },
+  "proxySettings": {
+    "message": "ಪ್ರಾಕ್ಸಿ ಸೆಟ್ಟಿಂಗ್‌ಗಳು"
+  },
+  "switching": {
+    "message": "ಬದಲಾಯಿಸಲಾಗುತ್ತಿದೆ..."
+  },
+  "updatedElsewhere": {
+    "message": "ಈ ಪ್ರೊಫೈಲ್ ಮತ್ತೊಂದು ವಿಂಡೋದಲ್ಲಿ ಬದಲಾಗಿದೆ. ಉಳಿಸುವ ಮೊದಲು ಅದನ್ನು ಮತ್ತೆ ತೆರೆಯಿರಿ."
+  },
+  "choose": {
+    "message": "ಆಯ್ಕೆಮಾಡಿ"
+  },
+  "popupIntro": {
+    "message": "ಸಂಪರ್ಕ:"
+  },
+  "invalidPort": {
+    "message": "1 ರಿಂದ 65535 ರವರೆಗಿನ ಪೋರ್ಟ್ ಅನ್ನು ನಮೂದಿಸಿ."
+  },
+  "externalControl": {
+    "message": "ಇನ್ನೊಂದು ವಿಸ್ತರಣೆ ಅಥವಾ ನೀತಿಯು ಬ್ರೌಸರ್ ಪ್ರಾಕ್ಸಿಯನ್ನು ನಿಯಂತ್ರಿಸುತ್ತಿದೆ."
+  },
+  "noNativeRoute": {
+    "message": "ನೋಡ್ ಪ್ರೊಫೈಲ್ ರಚಿಸುವ ಮೊದಲು ಸ್ಥಳೀಯ ಘಟಕವನ್ನು ಸಂಪರ್ಕಿಸಿ."
+  },
+  "reload": {
+    "message": "ಮರುಲೋಡ್"
+  },
+  "rulesError": {
+    "message": "ಪ್ರತಿ ನಿಯಮಕ್ಕೆ ಮಾದರಿ ಮತ್ತು ಗುರಿ ಬೇಕು."
+  },
+  "backupDone": {
+    "message": "ಬ್ರೌಸರ್ ಪ್ರೊಫೈಲ್‌ಗಳನ್ನು ರಫ್ತು ಮಾಡಲಾಗಿದೆ"
+  },
+  "managed": {
+    "message": "ನಿರ್ವಹಿಸಿದ ನೋಡ್"
+  },
+  "netRegion": {
+    "message": "ಗುರಿ ಪ್ರದೇಶ"
+  },
+  "netNodeArea": {
+    "message": "ಪ್ರಾಕ್ಸಿ ನೋಡ್"
+  },
+  "netChina": {
+    "message": "ಚೀನಾದ ಮುಖ್ಯಭೂಮಿ"
+  },
+  "netGlobal": {
+    "message": "ಜಾಗತಿಕ"
+  },
+  "netAli": {
+    "message": "ಅಲಿಡಿಎನ್ಎಸ್"
+  },
+  "netTencent": {
+    "message": "DNSPod"
+  },
+  "netStartHelp": {
+    "message": "ಗುರಿಯನ್ನು ಆರಿಸಿ, ನಂತರ ನೇರ ಪರೀಕ್ಷೆಯನ್ನು ಪ್ರಾರಂಭಿಸಿ."
+  },
+  "netConsole": {
+    "message": "ಲೈವ್ ಡಯಾಗ್ನೋಸ್ಟಿಕ್ಸ್"
+  },
+  "netStop": {
+    "message": "ನಿಲ್ಲಿಸಿ"
+  },
+  "netRunning": {
+    "message": "ರನ್ನಿಂಗ್"
+  },
+  "netStopped": {
+    "message": "ನಿಲ್ಲಿಸಲಾಗಿದೆ"
+  },
+  "netSent": {
+    "message": "ಕಳುಹಿಸಲಾಗಿದೆ"
+  },
+  "netLoss": {
+    "message": "ನಷ್ಟ"
+  },
+  "netAverageShort": {
+    "message": "ಸರಾಸರಿ"
+  },
+  "netLogClear": {
+    "message": "ಸ್ಪಷ್ಟ"
+  },
+  "netFinishing": {
+    "message": "ಹಿಂದಿನ ತನಿಖೆ ಮುಕ್ತಾಯಗೊಳ್ಳುತ್ತಿದೆ..."
+  },
+  "netRound": {
+    "message": "ಸುತ್ತು"
+  },
+  "netDestination": {
+    "message": "ಗಮ್ಯಸ್ಥಾನ"
+  },
+  "netHop": {
+    "message": "ಹಾಪ್"
+  },
+  "netAddress": {
+    "message": "IP ವಿಳಾಸ"
+  },
+  "netLast": {
+    "message": "ಕೊನೆಯದು"
+  },
+  "netConsoleHelp": {
+    "message": "ಪಿಂಗ್ / TCPing / MTR ಸಿಸ್ಟಮ್ ನೆಟ್ವರ್ಕ್ ಅನ್ನು ಬಳಸುತ್ತದೆ, ಪ್ರಾಕ್ಸಿ ಚೈನ್ ಅಲ್ಲ. ಕಾಣೆಯಾದ ICMP ಉತ್ತರಗಳು ಟ್ರಾಫಿಕ್ ನಷ್ಟವನ್ನು ಸಾಬೀತುಪಡಿಸುವುದಿಲ್ಲ. ಡೌನ್‌ಲೋಡ್ ಬ್ರೌಸರ್ ಮಾರ್ಗ ಮತ್ತು ಆಯ್ಕೆಮಾಡಿದ ಗಾತ್ರದ ಮಿತಿಯನ್ನು ಬಳಸುತ್ತದೆ. ನೀವು ಈ ಪುಟವನ್ನು ತೊರೆದಾಗ ಅಥವಾ ಮರೆಮಾಡಿದಾಗ ಪರೀಕ್ಷೆಗಳು ನಿಲ್ಲುತ್ತವೆ."
+  },
+  "netDirectShort": {
+    "message": "ಸಿಸ್ಟಮ್ ನೆಟ್ವರ್ಕ್"
+  },
+  "netIcmpShort": {
+    "message": "ಇಲ್ಲ ICMP ಪ್ರತ್ಯುತ್ತರ"
+  },
+  "netProbeError": {
+    "message": "ಸ್ಥಳೀಯ ತನಿಖೆ ದೋಷ"
+  },
+  "netNoDestination": {
+    "message": "ಗಮ್ಯಸ್ಥಾನವನ್ನು ತಲುಪಿಲ್ಲ"
+  },
+  "deleteActive": {
+    "message": "ಸಿಸ್ಟಮ್‌ಗೆ ಬದಲಿಸಿ ಮತ್ತು ಅಳಿಸಿ"
+  },
+  "deleteActiveHelp": {
+    "message": "ಈ ಪ್ರೊಫೈಲ್ ಸಕ್ರಿಯವಾಗಿದೆ. ಅದನ್ನು ಅಳಿಸುವುದು ಬ್ರೌಸರ್ ಅನ್ನು ಸಿಸ್ಟಮ್ ಪ್ರಾಕ್ಸಿಗೆ ಬದಲಾಯಿಸುತ್ತದೆ."
+  },
+  "netDownloadSize": {
+    "message": "ಡೌನ್‌ಲೋಡ್ ಗಾತ್ರ"
+  },
+  "netReceived": {
+    "message": "ಸ್ವೀಕರಿಸಲಾಗಿದೆ"
+  },
+  "netBest": {
+    "message": "ಅತ್ಯುತ್ತಮ"
+  },
+  "netWorst": {
+    "message": "ಕೆಟ್ಟದು"
+  },
+  "netStdDev": {
+    "message": "Std dev"
+  },
+  "netLocation": {
+    "message": "ಸ್ಥಳ"
+  },
+  "toolWall": {
+    "message": "ಡೊಮೇನ್ ತಡೆಯುವ ಪರಿಶೀಲನೆ"
+  },
+  "toolSites": {
+    "message": "ಜನಪ್ರಿಯ ವೆಬ್‌ಸೈಟ್‌ಗಳು"
+  },
+  "toolGlobal": {
+    "message": "ಗ್ಲೋಬಲ್ ಡಯಾಗ್ನೋಸ್ಟಿಕ್ಸ್"
+  },
+  "toolFast": {
+    "message": "Netflix ವೇಗ"
+  },
+  "toolSpeed": {
+    "message": "ವೇಗ ಪರೀಕ್ಷೆ"
+  },
+  "toolStart": {
+    "message": "ಪ್ರಾರಂಭ"
+  },
+  "toolReady": {
+    "message": "ಸಿದ್ಧವಾಗಿದೆ"
+  },
+  "toolResponded": {
+    "message": "ಪ್ರತಿಕ್ರಿಯಿಸಿದ್ದಾರೆ"
+  },
+  "toolNoResponse": {
+    "message": "ದೃಢೀಕರಿಸಲಾಗಿಲ್ಲ"
+  },
+  "toolCacheUnsupported": {
+    "message": "ಈ ಬ್ರೌಸರ್ ಸೈಟ್ ಮೂಲಕ ಸಂಗ್ರಹವನ್ನು ತೆರವುಗೊಳಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ; ಪುಟವನ್ನು ಮರುಲೋಡ್ ಮಾಡಲಾಗಿದೆ."
+  },
+  "toolCacheFailed": {
+    "message": "ಸಂಗ್ರಹ ಶುದ್ಧೀಕರಣವು ಪೂರ್ಣಗೊಂಡಿಲ್ಲ. ಮುಚ್ಚಿ ಮತ್ತು ಮರುಪ್ರಯತ್ನಿಸಿ."
+  },
+  "toolClose": {
+    "message": "ಮುಚ್ಚಿ"
+  },
+  "toolReload": {
+    "message": "ಮರುಲೋಡ್ ಮಾಡಿ"
+  },
+  "toolLoading": {
+    "message": "ಲೋಡ್ ಆಗುತ್ತಿದೆ..."
+  },
+  "toolFrameError": {
+    "message": "ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ಮರುಲೋಡ್ ಮಾಡಲು ಪ್ರಯತ್ನಿಸಿ."
+  },
+  "toolSiteHelp": {
+    "message": "ಬ್ರೌಸರ್ ತಲುಪುವಿಕೆ ಮಾತ್ರ. ಇದು ಖಾತೆ ಅಥವಾ ಪ್ರಾದೇಶಿಕ ಪ್ರವೇಶವನ್ನು ಪರಿಶೀಲಿಸುವುದಿಲ್ಲ."
+  },
+  "toolFallback": {
+    "message": "ಬ್ಯಾಕಪ್ ವೇಗ ಪರೀಕ್ಷೆ"
+  },
+  "toolFullscreen": {
+    "message": "ಪೂರ್ಣಪರದೆ"
+  },
+  "toolRestore": {
+    "message": "ಪೂರ್ಣಪರದೆಯಿಂದ ನಿರ್ಗಮಿಸಿ"
+  },
+  "ipReadFailed": {
+    "message": "ಓದಲು ವಿಫಲವಾಗಿದೆ. 👉"
+  },
+  "ipViewSource": {
+    "message": "ಮೂಲ ಸೈಟ್ ಅನ್ನು ವೀಕ್ಷಿಸಿ"
+  },
+  "toolDownloadError": {
+    "message": "ಡೌನ್‌ಲೋಡ್ ಸರ್ವರ್ ಅನ್ನು ತಲುಪಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+  },
+  "toolAccess": {
+    "message": "ಸೈಟ್ ಪ್ರವೇಶವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ"
+  },
+  "toolPermission": {
+    "message": "ಎಂಬೆಡೆಡ್ ಸೆಷನ್ ಹೊಂದಾಣಿಕೆಗಾಗಿ ಈ ಸೈಟ್‌ಗೆ ಪ್ರವೇಶವನ್ನು ಅನುಮತಿಸಿ."
+  },
+  "toolAsia": {
+    "message": "ಏಷ್ಯಾ"
+  },
+  "toolEurope": {
+    "message": "ಯುರೋಪ್"
+  },
+  "toolAmerica": {
+    "message": "ಉತ್ತರ ಅಮೇರಿಕಾ"
+  },
+  "toolGlobalHelp": {
+    "message": "ಬ್ರೌಸರ್ ನಿರ್ಗಮನವನ್ನು ಮೊದಲೇ ತುಂಬುತ್ತದೆ IP. ಮಾರ್ಗಗಳನ್ನು ಹೋಲಿಸಲು ಮುಖ್ಯ ಭೂಭಾಗ ಚೀನಾ ಅಥವಾ ಇನ್ನೊಂದು ಪ್ರದೇಶವನ್ನು ಆಯ್ಕೆಮಾಡಿ; ಪ್ರಾರಂಭವು ಪ್ರದರ್ಶಿತ ಗುರಿಯನ್ನು ಮೂರು Globalping ಪ್ರೋಬ್‌ಗಳಿಗೆ ಕಳುಹಿಸುತ್ತದೆ."
+  },
+  "toolServiceError": {
+    "message": "ಪರೀಕ್ಷಾ ಸೇವೆಯು ಲಭ್ಯವಿಲ್ಲ. ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+  },
+  "popupOrderHelp": {
+    "message": "ಮರುಕ್ರಮಗೊಳಿಸಲು ಹಿಡಿದುಕೊಳ್ಳಿ ಮತ್ತು ಎಳೆಯಿರಿ. Alt+arrow ಕೀಗಳು ಸಹ ಈ ಪ್ರೊಫೈಲ್ ಅನ್ನು ಸರಿಸುತ್ತವೆ."
+  },
+  "popupOrderSaved": {
+    "message": "ಆರ್ಡರ್ ಉಳಿಸಲಾಗಿದೆ"
+  },
+  "toolGroupIP": {
+    "message": "IP ಪರೀಕ್ಷೆಗಳು"
+  },
+  "toolGroupWeb": {
+    "message": "ವೆಬ್‌ಸೈಟ್ ಪರೀಕ್ಷೆಗಳು"
+  },
+  "toolGroupSpeed": {
+    "message": "ವೇಗ"
+  },
+  "toolCurrentIP": {
+    "message": "ಪ್ರಸ್ತುತ ನಿರ್ಗಮನ IP"
+  },
+  "toolCurrentIPLoading": {
+    "message": "ಪ್ರಸ್ತುತ ನಿರ್ಗಮನವನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ IP..."
+  },
+  "toolCurrentIPFailed": {
+    "message": "ಪ್ರಸ್ತುತ IP ಅನ್ನು ಓದಲಾಗಲಿಲ್ಲ. ಗುರಿಯನ್ನು ನಮೂದಿಸಿ."
+  },
+  "speedMode": {
+    "message": "ಪರೀಕ್ಷಾ ವಿಧಾನ"
+  },
+  "speedBoth": {
+    "message": "ಡೌನ್‌ಲೋಡ್ + ಅಪ್‌ಲೋಡ್"
+  },
+  "speedDownload": {
+    "message": "ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ"
+  },
+  "speedUpload": {
+    "message": "ಅಪ್‌ಲೋಡ್ ಮಾಡಿ"
+  },
+  "speedLatency": {
+    "message": "HTTP ಸುಪ್ತತೆ"
+  },
+  "speedBudget": {
+    "message": "{n} MiB ಪ್ರತಿ ಹಂತಕ್ಕೆ · {total} MiB ಒಟ್ಟು, ಜೊತೆಗೆ ಸಣ್ಣ ಲೇಟೆನ್ಸಿ ಮಾದರಿಗಳು."
+  },
+  "siteCategory": {
+    "message": "ವೆಬ್‌ಸೈಟ್ ವರ್ಗ"
+  },
+  "siteAll": {
+    "message": "ಎಲ್ಲಾ ವೆಬ್‌ಸೈಟ್‌ಗಳು"
+  },
+  "siteAI": {
+    "message": "AI"
+  },
+  "siteDevelopment": {
+    "message": "ಅಭಿವೃದ್ಧಿ"
+  },
+  "siteVideo": {
+    "message": "ವಿಡಿಯೋ / ಸಂಗೀತ"
+  },
+  "siteSocial": {
+    "message": "ಸಾಮಾಜಿಕ"
+  },
+  "siteDomestic": {
+    "message": "ಮೇನ್‌ಲ್ಯಾಂಡ್ ಸೇವೆಗಳು"
+  },
+  "siteServices": {
+    "message": "ಸಾಮಾನ್ಯ ಸೇವೆಗಳು"
+  },
+  "globalMethod": {
+    "message": "ಅಳತೆಯ ಪ್ರಕಾರ"
+  },
+  "localPort": {
+    "message": "ಸ್ಥಳೀಯ ಬಂದರು:"
+  },
+  "chainChooseNode": {
+    "message": "ಪ್ರಾಕ್ಸಿ ನೋಡ್ ಆಯ್ಕೆಮಾಡಿ"
+  },
+  "chainTitle": {
+    "message": "ಪ್ರಾಕ್ಸಿ ಚೈನ್"
+  },
+  "chainSelectExit": {
+    "message": "ಈ ಕಸ್ಟಮ್ ಚೈನ್ ಅನ್ನು ಉಳಿಸಲು ಅಥವಾ ಪರೀಕ್ಷಿಸಲು ಕೆಳಗಿನ ನಿರ್ದಿಷ್ಟ ನಿರ್ಗಮನ ನೋಡ್ ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ. ಅನುಸರಿಸಿ v2rayN ಅನ್ನು v2rayN ನಿರ್ವಹಿಸುತ್ತದೆ."
+  },
+  "chainSelectExitShort": {
+    "message": "ನಿರ್ಗಮನ ನೋಡ್ ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+  },
+  "chainAdd": {
+    "message": "+ ಪ್ರಾಕ್ಸಿ ಲೇಯರ್ ಸೇರಿಸಿ"
+  },
+  "chainTest": {
+    "message": "ಟೆಸ್ಟ್ ಸರಣಿ"
+  },
+  "chainMode": {
+    "message": "ಚೈನ್ ಮೋಡ್"
+  },
+  "chainBase": {
+    "message": "ಬೇಸ್ ಪ್ರಾಕ್ಸಿ"
+  },
+  "chainExit": {
+    "message": "ಪ್ರಾಕ್ಸಿಯಿಂದ ನಿರ್ಗಮಿಸಿ"
+  },
+  "chainEgress": {
+    "message": "ಚೈನ್ ಎಗ್ರೆಸ್"
+  },
+  "chainExitBadge": {
+    "message": "ನಿರ್ಗಮಿಸಿ IP"
+  },
+  "chainEntry": {
+    "message": "ಚೈನ್ ಎಂಟ್ರಿ"
+  },
+  "chainTransit": {
+    "message": "ಸೇತುವೆ ನೋಡ್"
+  },
+  "chainUntested": {
+    "message": "ಪರೀಕ್ಷಿಸಲಾಗಿಲ್ಲ"
+  },
+  "chainMissing": {
+    "message": "ಲಭ್ಯವಿಲ್ಲದ ನೋಡ್"
+  },
+  "chainUnresolved": {
+    "message": "ಆನುವಂಶಿಕ ಸರಪಳಿಯನ್ನು ಪರಿಹರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ. ಪೂರ್ವವರ್ತಿ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಸರಿಪಡಿಸಿ ಅಥವಾ ಕಸ್ಟಮ್ ಸರಪಳಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ."
+  },
+  "chainUpgrade": {
+    "message": "ಆದೇಶ ಸರಪಳಿಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು ಸ್ಥಳೀಯ ಒಡನಾಡಿಯನ್ನು ನವೀಕರಿಸಿ."
+  },
+  "chainBusy": {
+    "message": "ಮತ್ತೊಂದು ಸರಣಿ ಪರೀಕ್ಷೆಯು ಚಾಲನೆಯಲ್ಲಿದೆ"
+  },
+  "chainOK": {
+    "message": "ತಲುಪಬಹುದು"
+  },
+  "chainFailed": {
+    "message": "ಈ ಪರೀಕ್ಷೆಯಲ್ಲಿ ಹಾಪ್ ವಿಫಲವಾಗಿದೆ"
+  },
+  "chainBlocked": {
+    "message": "ಪರೀಕ್ಷಿಸಲಾಗಿಲ್ಲ · ಹಿಂದಿನ ಹಾಪ್ ವಿಫಲವಾಗಿದೆ"
+  },
+  "chainFailureHelp": {
+    "message": "ಈ ಹಾಪ್ ಅಥವಾ ಅದರ ಮಾರ್ಗವು ಹಾದುಹೋಗಲಿಲ್ಲ. ನಂತರ ಹಾಪ್‌ಗಳನ್ನು ಪರೀಕ್ಷಿಸಲಾಗಿಲ್ಲ."
+  },
+  "chainAllOK": {
+    "message": "ಎಲ್ಲಾ ಸಂಚಿತ ಮಾರ್ಗಗಳು ಪ್ರತಿಕ್ರಿಯಿಸಿವೆ"
+  },
+  "chainStopping": {
+    "message": "ಪ್ರಸ್ತುತ ಬೌಂಡೆಡ್ ಪ್ರೋಬ್ ನಂತರ ನಿಲ್ಲಿಸಲಾಗುತ್ತಿದೆ..."
+  },
+  "globalWorld": {
+    "message": "ವಿಶ್ವಾದ್ಯಂತ"
+  },
+  "globalUnavailable": {
+    "message": "ಗುರಿ ಅಥವಾ ಪ್ರದೇಶವು ಲಭ್ಯವಿಲ್ಲ. ಗುರಿಯನ್ನು ಪರಿಶೀಲಿಸಿ ಅಥವಾ ಇನ್ನೊಂದು ಪ್ರದೇಶವನ್ನು ಆಯ್ಕೆಮಾಡಿ."
+  },
+  "globalRateLimited": {
+    "message": "ಸೇವಾ ದರದ ಮಿತಿಯನ್ನು ತಲುಪಿದೆ. ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+  },
+  "globalNoResults": {
+    "message": "ಸೇವೆಯು ಯಾವುದೇ ತನಿಖೆಯ ಫಲಿತಾಂಶಗಳನ್ನು ಹಿಂತಿರುಗಿಸಲಿಲ್ಲ. ಇನ್ನೊಂದು ಪ್ರದೇಶವನ್ನು ಪ್ರಯತ್ನಿಸಿ."
+  },
+  "globalProbeFailed": {
+    "message": "ತನಿಖೆ ವಿಫಲವಾಗಿದೆ"
+  },
+  "globalProbeOffline": {
+    "message": "ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿ ತನಿಖೆ ಮಾಡಿ"
+  },
+  "globalIcmpCaution": {
+    "message": "ಕಾಣೆಯಾಗಿದೆ ICMP ಪ್ರತ್ಯುತ್ತರಗಳು ಮಾತ್ರ ನಿರ್ಬಂಧಿಸುವಿಕೆಯನ್ನು ಸಾಬೀತುಪಡಿಸುವುದಿಲ್ಲ. ಮುಖ್ಯ ಭೂಭಾಗ ಮತ್ತು ಸಾಗರೋತ್ತರ ಮಾರ್ಗಗಳು ಮತ್ತು ಇತರ ಪರೀಕ್ಷಾ ಪ್ರಕಾರಗಳನ್ನು ಹೋಲಿಕೆ ಮಾಡಿ."
+  },
+  "speedRealtime": {
+    "message": "ಲೈವ್ ವೇಗ"
+  },
+  "speedAverage": {
+    "message": "ಸರಾಸರಿ ವೇಗ"
+  },
+  "ipToolsBrief": {
+    "message": "ಮೂರನೇ ವ್ಯಕ್ತಿಯ ಫಲಿತಾಂಶಗಳು ಉಲ್ಲೇಖಕ್ಕಾಗಿ."
+  },
+  "ipReportBrief": {
+    "message": "ಫಲಿತಾಂಶಗಳು ನಿರ್ಗಮನದ ಮೂಲಕ ಬದಲಾಗುತ್ತವೆ IP ಮತ್ತು ಉಲ್ಲೇಖಕ್ಕಾಗಿ."
+  },
+  "toolPingPe": {
+    "message": "IP ತಡೆಯುವ ಚೆಕ್"
+  },
+  "toolTargetIP": {
+    "message": "ಗುರಿ IP"
+  },
+  "toolOpenPingPe": {
+    "message": "ಓಪನ್ ಅಧಿಕೃತ ಪರೀಕ್ಷೆ"
+  },
+  "toolInvalidIP": {
+    "message": "ಮಾನ್ಯವಾದ IPv4 ಅಥವಾ IPv6 ವಿಳಾಸವನ್ನು ನಮೂದಿಸಿ."
+  },
+  "toolInvalidPort": {
+    "message": "1 ರಿಂದ 65535 ವರೆಗೆ TCP ಪೋರ್ಟ್ ಅನ್ನು ನಮೂದಿಸಿ."
+  },
+  "toolExternalFailed": {
+    "message": "ವೆಬ್‌ಸೈಟ್ ತೆರೆಯಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+  },
+  "ipBrowserReading": {
+    "message": "ಬ್ರೌಸರ್ ಮೂಲಕ Ping0 ಓದುವಿಕೆ..."
+  },
+  "ipVerifyBrowser": {
+    "message": "ಪರಿಶೀಲನಾ ಪುಟವನ್ನು ತೆರೆಯಿರಿ"
+  },
+  "policyCenter": {
+    "message": "ಗೌಪ್ಯತೆ, ಘೋಷಣೆ ಮತ್ತು FAQ"
+  },
+  "policyCenterIntro": {
+    "message": "ಸ್ಥಳೀಯ ಡೇಟಾ ನಿರ್ವಹಣೆ, ಪರೀಕ್ಷಾ ಮಿತಿಗಳು ಮತ್ತು ಸಾಮಾನ್ಯ ಉತ್ತರಗಳು."
+  },
+  "policyPrivacyTitle": {
+    "message": "ಗೌಪ್ಯತೆ ನೀತಿ"
+  },
+  "policyPrivacySummary": {
+    "message": "ಪ್ರೊಫೈಲ್‌ಗಳು ಮತ್ತು ರುಜುವಾತುಗಳು ಈ ಸಾಧನದಲ್ಲಿ ಉಳಿಯುತ್ತವೆ. ಪಾಪ್‌ಅಪ್ ಪರಿಶೀಲನೆಗಳು ಮತ್ತು ಡಯಾಗ್ನೋಸ್ಟಿಕ್‌ಗಳು ತಮ್ಮ ಹೇಳಿಕೆ ಒದಗಿಸುವವರನ್ನು ಸಂಪರ್ಕಿಸಿ. ಯಾವುದೇ ಜಾಹೀರಾತು ಅಥವಾ ವರ್ತನೆಯ ವಿಶ್ಲೇಷಣೆಗಳಿಲ್ಲ."
+  },
+  "policyDeclarationTitle": {
+    "message": "ಬಳಕೆ ಮತ್ತು ಮಾಪನ ಹೇಳಿಕೆ"
+  },
+  "policyDeclarationSummary": {
+    "message": "ಈ ವಿಸ್ತರಣೆಯು ಸ್ಥಳೀಯ ಮಾರ್ಗ ನಿರ್ವಾಹಕವಾಗಿದೆ, ಪ್ರಾಕ್ಸಿ ಅಥವಾ VPN ಪೂರೈಕೆದಾರರಲ್ಲ. ಮಾಪನಗಳು ನೆಟ್‌ವರ್ಕ್, ಪ್ರಾಕ್ಸಿ ಮತ್ತು ಪೂರೈಕೆದಾರರ ಪರಿಸ್ಥಿತಿಗಳಿಂದ ಪ್ರಭಾವಿತವಾಗಿರುವ ಉಲ್ಲೇಖ ಮಾದರಿಗಳಾಗಿವೆ."
+  },
+  "policyFaqTitle": {
+    "message": "FAQ"
+  },
+  "policyFaqSummary": {
+    "message": "ಸ್ಥಳೀಯ ನೋಡ್‌ಗಳು ಮತ್ತು MTR ಗಾಗಿ Windows ಕಂಪ್ಯಾನಿಯನ್ ಅಗತ್ಯವಿದೆ. ಬ್ರೌಸರ್, ಸಿಸ್ಟಮ್ ಮತ್ತು ಸಾರ್ವಜನಿಕ ಪ್ರೋಬ್‌ಗಳ ನಡುವೆ ಸುಪ್ತತೆ ಭಿನ್ನವಾಗಿರಬಹುದು. ಪರೀಕ್ಷೆಯನ್ನು ನಿಲ್ಲಿಸಿ ಅಥವಾ ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಂದ ಸ್ಥಳೀಯ ಡೇಟಾವನ್ನು ತೆರವುಗೊಳಿಸಿ."
+  },
+  "policyDetailsLink": {
+    "message": "ಪೂರ್ಣ ವಿವರಗಳನ್ನು ಓದಿ ↗"
+  },
+  "thirdPartyNotice": {
+    "message": "ಓಪನ್ ಸೋರ್ಸ್ ಸೂಚನೆಗಳು ↗"
+  },
+  "columnResizeHelp": {
+    "message": "ಮರುಗಾತ್ರಗೊಳಿಸಲು ಎಳೆಯಿರಿ; ಮರುಹೊಂದಿಸಲು ಡಬಲ್ ಕ್ಲಿಕ್ ಮಾಡಿ; ಹೊಂದಿಸಲು ಬಾಣದ ಕೀಲಿಗಳನ್ನು ಬಳಸಿ"
+  },
+  "columnResize": {
+    "message": "ಕಾಲಮ್ ಅನ್ನು ಮರುಗಾತ್ರಗೊಳಿಸಿ"
+  },
+  "typeDescription_node": {
+    "message": "ಪ್ರಾಕ್ಸಿ ನೋಡ್ ಮೂಲಕ ಸಂಪರ್ಕಿಸಿ"
+  },
+  "typeDescription_manual": {
+    "message": "ಪ್ರಾಕ್ಸಿ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಹಸ್ತಚಾಲಿತವಾಗಿ ನಮೂದಿಸಿ"
+  },
+  "typeDescription_auto": {
+    "message": "ನಿಯಮಗಳನ್ನು ಬಳಸಿಕೊಂಡು ನೋಡ್ ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+  },
+  "typeDescription_pac": {
+    "message": "PAC ನಿಯಮಗಳನ್ನು ಬಳಸಿಕೊಂಡು ಮಾರ್ಗ ಸಂಚಾರ"
+  },
+  "appDescription": {
+    "message": "ಬ್ರೌಸರ್ ಪ್ರಾಕ್ಸಿ ಮಾರ್ಗಗಳು, ನೋಡ್‌ಗಳು ಮತ್ತು ಡೊಮೇನ್ ನಿಯಮಗಳು. ನೋಡ್ ಮಾರ್ಗಗಳಿಗೆ Windows ಕಂಪ್ಯಾನಿಯನ್ ಅಗತ್ಯವಿದೆ."
+  },
+  "core_title": {
+    "message": "ಪ್ರಾಕ್ಸಿ ಕೋರ್"
+  },
+  "core_checking": {
+    "message": "ಸ್ಥಳೀಯ ಘಟಕವನ್ನು ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ..."
+  },
+  "core_ready": {
+    "message": "Xray ಸಿದ್ಧವಾಗಿದೆ"
+  },
+  "core_missing": {
+    "message": "ಪ್ರಾಕ್ಸಿ ಕೋರ್ ಕಾಣೆಯಾಗಿದೆ"
+  },
+  "core_external": {
+    "message": "ಕಸ್ಟಮ್ ಕೋರ್: ಪರಿಶೀಲಿಸಲಾಗಿಲ್ಲ"
+  },
+  "core_corrupt": {
+    "message": "Xray ಚೆಕ್ಸಮ್ ಹೊಂದಿಕೆಯಾಗುತ್ತಿಲ್ಲ - ದುರಸ್ತಿ ಅಗತ್ಯವಿದೆ"
+  },
+  "core_unreadable": {
+    "message": "ಕೋರ್ ಫೈಲ್ ಅನ್ನು ಪರಿಶೀಲಿಸಲಾಗಲಿಲ್ಲ"
+  },
+  "core_intro": {
+    "message": "ಸಂಪೂರ್ಣ Windows ಪ್ಯಾಕೇಜ್ Xray ಅನ್ನು ಒಳಗೊಂಡಿದೆ. v2rayN ಐಚ್ಛಿಕವಾಗಿದೆ."
+  },
+  "core_verify": {
+    "message": "ಮತ್ತೊಮ್ಮೆ ಪರಿಶೀಲಿಸಿ"
+  },
+  "core_install": {
+    "message": "ಕೋರ್ ಅನ್ನು ಸ್ಥಾಪಿಸಿ / ದುರಸ್ತಿ ಮಾಡಿ"
+  },
+  "core_installing": {
+    "message": "ಡೌನ್‌ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ ಮತ್ತು ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ..."
+  },
+  "core_done": {
+    "message": "ಕೋರ್ ಪರಿಶೀಲಿಸಲಾಗಿದೆ ಮತ್ತು ಸಿದ್ಧವಾಗಿದೆ"
+  },
+  "core_help": {
+    "message": "ದುರಸ್ತಿಯು ಪಿನ್ ಮಾಡಿದ ಅಧಿಕೃತ Xray ಬಿಡುಗಡೆಯನ್ನು ಬಳಸುತ್ತದೆ ಮತ್ತು ಅದರ ಚೆಕ್‌ಸಮ್ ಅನ್ನು ಪರಿಶೀಲಿಸುತ್ತದೆ. ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಸಂಪರ್ಕಗಳು ಚಾಲನೆಯಲ್ಲಿವೆ."
+  },
+  "core_absent": {
+    "message": "ಸ್ಥಳೀಯ ಘಟಕವನ್ನು ಒಮ್ಮೆ ಸ್ಥಾಪಿಸಿ, ನಂತರ ಕೋರ್ ಅನ್ನು ಪರಿಶೀಲಿಸಲು ಇಲ್ಲಿಗೆ ಹಿಂತಿರುಗಿ."
+  },
+  "core_download": {
+    "message": "ಅನುಸ್ಥಾಪನ ಮಾರ್ಗದರ್ಶಿ"
+  },
+  "core_absentHelp": {
+    "message": "ಹೊಂದಾಣಿಕೆಯ Windows ಪ್ಯಾಕೇಜ್ ಅನ್ನು ಬಳಸಿ ಅಥವಾ ಅದನ್ನು ಮೂಲದಿಂದ ನಿರ್ಮಿಸಲು ಮಾರ್ಗದರ್ಶಿಯನ್ನು ಅನುಸರಿಸಿ, ನಂತರ ಸೆಟಪ್ ಅನ್ನು ರನ್ ಮಾಡಿ."
+  },
+  "core_failed": {
+    "message": "ಕೋರ್ ಕಾರ್ಯಾಚರಣೆ ವಿಫಲವಾಗಿದೆ. ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ ಅಥವಾ ಸಂಪೂರ್ಣ Windows ಪ್ಯಾಕೇಜ್ ಬಳಸಿ."
+  },
+  "core_version": {
+    "message": "ಆವೃತ್ತಿ"
+  },
+  "error_ACTIVE_PROFILE_DELETE": {
+    "message": "ಅಳಿಸುವ ಮೊದಲು ಬೇರೆ ಪ್ರೊಫೈಲ್‌ಗೆ ಬದಲಿಸಿ"
+  },
+  "error_BACKUP_BINDING_TYPE": {
+    "message": "ಪ್ರಾಕ್ಸಿ ಪ್ರೊಫೈಲ್‌ಗಳು ಮಾತ್ರ ಮಾರ್ಗದ ಬಂಧಗಳನ್ನು ಹೊಂದಬಹುದು"
+  },
+  "error_BACKUP_FORMAT3_REQUIRED": {
+    "message": "ನೋಡ್ ನಿಯಮಗಳಿಗೆ ಸ್ವರೂಪ 3ರ ಪೋರ್ಟಬಲ್ ಬ್ಯಾಕಪ್ ಬೇಕು"
+  },
+  "error_BACKUP_INDEPENDENT_PATH_REQUIRED": {
+    "message": "ಬ್ಯಾಕಪ್‌ನಲ್ಲಿ ಸ್ವತಂತ್ರ ನೋಡ್ ಪಥ ಇರಬೇಕು"
+  },
+  "error_BACKUP_INTERNAL_BINDINGS": {
+    "message": "ಬ್ಯಾಕಪ್‌ನಲ್ಲಿ ಆಂತರಿಕ ಬಂಧಗಳಿವೆ"
+  },
+  "error_BACKUP_MESSAGE_LIMIT": {
+    "message": "ನೋಡ್ ಬ್ಯಾಕಪ್ ಸಹಾಯಕ ಘಟಕದ ಸಂದೇಶ ಮಿತಿಯನ್ನು ಮೀರಿದೆ"
+  },
+  "error_BACKUP_NODES_INCOMPLETE": {
+    "message": "ನೋಡ್ ಬ್ಯಾಕಪ್ ಅಪೂರ್ಣವಾಗಿದೆ"
+  },
+  "error_BACKUP_NODE_MISSING": {
+    "message": "ಬ್ಯಾಕಪ್‌ನಲ್ಲಿ ಅಗತ್ಯ ನೋಡ್ ಇಲ್ಲ"
+  },
+  "error_BACKUP_NODE_PATHS_LIMIT": {
+    "message": "ಬ್ಯಾಕಪ್ ಗರಿಷ್ಠ {limit} ನೋಡ್ ಪಥಗಳನ್ನು ಬೆಂಬಲಿಸುತ್ತದೆ"
+  },
+  "error_BACKUP_PATH_INCOMPLETE": {
+    "message": "ಬ್ಯಾಕಪ್‌ನ ನೋಡ್ ಪಥ ಅಪೂರ್ಣವಾಗಿದೆ"
+  },
+  "error_BACKUP_PROFILES_LIMIT": {
+    "message": "ಬ್ಯಾಕಪ್ ಗರಿಷ್ಠ {limit} ಪ್ರೊಫೈಲ್‌ಗಳನ್ನು ಬೆಂಬಲಿಸುತ್ತದೆ"
+  },
+  "error_BACKUP_PROXY_CONFLICT": {
+    "message": "ಬ್ಯಾಕಪ್‌ನಲ್ಲಿ ಪರಸ್ಪರ ವಿರೋಧಿ ಪ್ರಾಕ್ಸಿ ಸೆಟ್ಟಿಂಗ್‌ಗಳಿವೆ"
+  },
+  "error_BACKUP_SIZE_LIMIT": {
+    "message": "ಬ್ಯಾಕಪ್ {limit} MB ಮೀರಿದೆ"
+  },
+  "error_BACKUP_TRANSFER_UNAVAILABLE": {
+    "message": "ನೋಡ್ ಬ್ಯಾಕಪ್‌ಗಳನ್ನು ವರ್ಗಾಯಿಸಲು ಸಹಾಯಕ ಘಟಕವನ್ನು ನವೀಕರಿಸಿ ಅಥವಾ ದುರಸ್ತಿ ಮಾಡಿ."
+  },
+  "error_BACKUP_UNUSED_NODES": {
+    "message": "ಬ್ಯಾಕಪ್‌ನಲ್ಲಿ ಉಲ್ಲೇಖವಿಲ್ಲದ ನೋಡ್‌ಗಳಿವೆ"
+  },
+  "error_BODY_TOO_LARGE": {
+    "message": "ಚಂದಾದಾರಿಕೆಯ ಪ್ರತಿಕ್ರಿಯೆ ಅನುಮತಿಸಿದ ಗಾತ್ರವನ್ನು ಮೀರಿದೆ."
+  },
+  "error_BROWSER_API_FAILED": {
+    "message": "ಬ್ರೌಸರ್ ಕಾರ್ಯ ವಿಫಲವಾಗಿದೆ. ತಾಂತ್ರಿಕ ವಿವರಗಳನ್ನು ನೋಡಿ."
+  },
+  "error_BROWSER_PROXY_RESTORE_FAILED": {
+    "message": "ಕಾರ್ಯ ವಿಫಲವಾಗಿದೆ ಮತ್ತು ಬ್ರೌಸರ್‌ನ ಹಿಂದಿನ ಪ್ರಾಕ್ಸಿಯನ್ನು ಮರುಸ್ಥಾಪಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ"
+  },
+  "error_BROWSER_SCHEDULING_UNAVAILABLE": {
+    "message": "ಬ್ರೌಸರ್‌ನ ವೇಳಾಪಟ್ಟಿ ಸೌಲಭ್ಯ ಲಭ್ಯವಿಲ್ಲ."
+  },
+  "error_BUSY": {
+    "message": "ಬೇರೆ ಕಾರ್ಯ ನಡೆಯುತ್ತಿದೆ. ಸ್ವಲ್ಪ ಸಮಯದ ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+  },
+  "error_CHAIN_PROBE_FAILED": {
+    "message": "ಸರಪಳಿ ಪರೀಕ್ಷೆ ವಿಫಲವಾಗಿದೆ"
+  },
+  "error_COMPANION_BULK_RELEASE_REQUIRED": {
+    "message": "ಹಲವು ನೋಡ್ ನಿಯಮಗಳನ್ನು ಸುರಕ್ಷಿತವಾಗಿ ನಿರ್ವಹಿಸಲು ಸ್ಥಳೀಯ ಸಹಾಯಕ ಘಟಕವನ್ನು ಮೇಲ್ದರ್ಜೆಗೆ ಏರಿಸಿ"
+  },
+  "error_COMPANION_CHAINS_REQUIRED": {
+    "message": "ಕ್ರಮಬದ್ಧ ಸರಪಳಿಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು ಸ್ಥಳೀಯ ಸಹಾಯಕ ಘಟಕವನ್ನು ಮೇಲ್ದರ್ಜೆಗೆ ಏರಿಸಿ"
+  },
+  "error_COMPANION_MESSAGE_LIMIT": {
+    "message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಸಹಾಯಕ ಘಟಕದ ಸಂದೇಶ ಮಿತಿಯನ್ನು ಮೀರಿವೆ"
+  },
+  "error_COMPANION_OPERATION_FAILED": {
+    "message": "ಸ್ಥಳೀಯ ಸಹಾಯಕ ಘಟಕದ ಕಾರ್ಯ ವಿಫಲವಾಗಿದೆ. ತಾಂತ್ರಿಕ ವಿವರಗಳನ್ನು ನೋಡಿ."
+  },
+  "error_COMPANION_UNAVAILABLE": {
+    "message": "V2Route ಸಹಾಯಕ ಘಟಕವನ್ನು ಸ್ಥಾಪಿಸಿ ಅಥವಾ ದುರಸ್ತಿ ಮಾಡಿ"
+  },
+  "error_CONNECTION_CLOSED": {
+    "message": "ಪರೀಕ್ಷೆ ಮುಗಿಯುವ ಮೊದಲು ಸಂಪರ್ಕ ಮುಚ್ಚಿತು."
+  },
+  "error_CORE_INSTALL_FAILED": {
+    "message": "ಕೋರ್ ಸ್ಥಾಪನೆ ವಿಫಲವಾಗಿದೆ. ತಾಂತ್ರಿಕ ವಿವರಗಳನ್ನು ನೋಡಿ."
+  },
+  "error_CORE_OWNERSHIP_FAILED": {
+    "message": "ಪ್ರತ್ಯೇಕ ಪರೀಕ್ಷಾ ಕೋರ್ ಅನ್ನು ಸುರಕ್ಷಿತವಾಗಿ ನಿಯಂತ್ರಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ಪರೀಕ್ಷೆ ನಿಲ್ಲಿಸಲಾಗಿದೆ."
+  },
+  "error_CORE_START_FAILED": {
+    "message": "ಪ್ರತ್ಯೇಕ ಪರೀಕ್ಷಾ ಕೋರ್ ಪ್ರಾರಂಭವಾಗಲಿಲ್ಲ. ಸಹಾಯಕ ಘಟಕ ಮತ್ತು ಕೋರ್ ಸ್ಥಾಪನೆಯನ್ನು ಪರಿಶೀಲಿಸಿ."
+  },
+  "error_CORE_START_TIMEOUT": {
+    "message": "ಪ್ರತ್ಯೇಕ ಪರೀಕ್ಷಾ ಕೋರ್ ಸಮಯಕ್ಕೆ ಸಿದ್ಧವಾಗಲಿಲ್ಲ."
+  },
+  "error_CORE_STATUS_UNAVAILABLE": {
+    "message": "ಕೋರ್ ಸ್ಥಿತಿ ಲಭ್ಯವಿಲ್ಲ. ತಾಂತ್ರಿಕ ವಿವರಗಳನ್ನು ನೋಡಿ."
+  },
+  "error_CORE_VALIDATION_FAILED": {
+    "message": "ಆಮದು ಮಾಡಿದ ನೋಡ್‌ಗಳನ್ನು Xray ಮೌಲ್ಯೀಕರಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ಅವುಗಳ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸಿ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+  },
+  "error_DETACH_PORT_CONFLICT": {
+    "message": "ನಿರ್ವಹಿತ ಪೋರ್ಟ್ ಬಿಡುಗಡೆ ಆಗುತ್ತದೆ. ಬೇರೆ ಹಸ್ತಚಾಲಿತ ಪ್ರಾಕ್ಸಿಯನ್ನು ನಮೂದಿಸಿ"
+  },
+  "error_DETACH_PROXY_REQUIRED": {
+    "message": "ಬಂಧವನ್ನು ತೆಗೆದುಹಾಕುವ ಮೊದಲು ಬದಲಿ ಹಸ್ತಚಾಲಿತ ಪ್ರಾಕ್ಸಿಯನ್ನು ನಮೂದಿಸಿ"
+  },
+  "error_DNS_BUSY": {
+    "message": "DNS ಹುಡುಕಾಟ ಕಾರ್ಯನಿರತವಾಗಿದೆ. ಸ್ವಲ್ಪ ಸಮಯದ ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+  },
+  "error_DNS_FAILED": {
+    "message": "DNS ಹುಡುಕಾಟ ವಿಫಲವಾಗಿದೆ. ವಿಳಾಸ ಮತ್ತು ನೆಟ್‌ವರ್ಕ್ ಸಂಪರ್ಕವನ್ನು ಪರಿಶೀಲಿಸಿ."
+  },
+  "error_ENCODING_UNSUPPORTED": {
+    "message": "ಚಂದಾದಾರಿಕೆ ಬೆಂಬಲವಿಲ್ಲದ ವಿಷಯ ಎನ್‌ಕೋಡಿಂಗ್ ಬಳಸುತ್ತದೆ."
+  },
+  "error_FIREFOX_PRIVATE_ACCESS_REQUIRED": {
+    "message": "ಪ್ರಾಕ್ಸಿ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಬದಲಿಸುವ ಮೊದಲು ವಿಸ್ತರಣೆಯ ವಿವರಗಳಲ್ಲಿ ಖಾಸಗಿ ವಿಂಡೋಗಳಲ್ಲಿ V2Route ಬಳಸಲು ಅನುಮತಿಸಿ"
+  },
+  "error_FOLDER_UNAVAILABLE": {
+    "message": "ಫೋಲ್ಡರ್ ಲಭ್ಯವಿಲ್ಲ; ಪಥ, ಪ್ರವೇಶ ಮತ್ತು ಸಹಾಯಕ ಘಟಕದ ಆವೃತ್ತಿಯನ್ನು ಪರಿಶೀಲಿಸಿ"
+  },
+  "error_GROUP_LIMIT": {
+    "message": "ಗುಂಪುಗಳ ಮಿತಿ ತಲುಪಿದೆ. ಬಳಕೆಯಾಗದ ಗುಂಪನ್ನು ತೆಗೆದು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+  },
+  "error_GROUP_NOT_EDITABLE": {
+    "message": "ಈ ಮೂಲ ಗುಂಪನ್ನು ಇಲ್ಲಿ ಸಂಪಾದಿಸಲಾಗುವುದಿಲ್ಲ."
+  },
+  "error_GROUP_NOT_FOUND": {
+    "message": "ಆಯ್ದ ಗುಂಪು ಇನ್ನು ಇಲ್ಲ. ಬೇರೆ ಗುಂಪನ್ನು ಆಯ್ಕೆಮಾಡಿ."
+  },
+  "error_HTTP_ENCODING": {
+    "message": "ಪರೀಕ್ಷಾ ಸರ್ವರ್ ಬೆಂಬಲವಿಲ್ಲದ ಎನ್‌ಕೋಡಿಂಗ್ ನೀಡಿದೆ."
+  },
+  "error_HTTP_LENGTH": {
+    "message": "ಪರೀಕ್ಷಾ ಪ್ರತಿಕ್ರಿಯೆಯ ಗಾತ್ರ ಕೇಳಿದ ಗಾತ್ರಕ್ಕೆ ಹೊಂದಲಿಲ್ಲ."
+  },
+  "error_HTTP_RESPONSE_TOO_LARGE": {
+    "message": "ಪರೀಕ್ಷಾ ಪ್ರತಿಕ್ರಿಯೆ ಅನುಮತಿಸಿದ ಗಾತ್ರವನ್ನು ಮೀರಿತು."
+  },
+  "error_HTTP_STATUS": {
+    "message": "ಪರೀಕ್ಷಾ ಸರ್ವರ್ ಯಶಸ್ವಿಯಲ್ಲದ HTTP ಸ್ಥಿತಿಯನ್ನು ನೀಡಿದೆ."
+  },
+  "error_IMPORTED_PROXY_MISSING": {
+    "message": "ಸಹಾಯಕ ಘಟಕ ಆಮದು ಮಾಡಿದ ಪ್ರಾಕ್ಸಿಯನ್ನು ಹಿಂದಿರುಗಿಸಿಲ್ಲ"
+  },
+  "error_IMPORTED_RULE_PATH_CONFLICT": {
+    "message": "ಆಮದು ಮಾಡಿದ ನೋಡ್‌ಗಳು ವಿರೋಧಿ ನಿಯಮ ಪಥಗಳಿಗೆ ಕಾರಣವಾಗುತ್ತವೆ"
+  },
+  "error_IMPORT_CLEANUP_FAILED": {
+    "message": "ಆಮದು ವಿಫಲವಾಗಿದೆ; ಕೆಲವು ತಾತ್ಕಾಲಿಕ ನೋಡ್‌ಗಳು ಅಥವಾ ಪೋರ್ಟ್‌ಗಳನ್ನು ಬಿಡುಗಡೆ ಮಾಡಲು ಆಗಲಿಲ್ಲ. ಈಗಿರುವ ಪ್ರೊಫೈಲ್‌ಗಳನ್ನು ಉಳಿಸಲಾಗಿದೆ"
+  },
+  "error_IMPORT_PROFILE_NAME_CONFLICT": {
+    "message": "ಪ್ರೊಫೈಲ್ ಹೆಸರು ನಕಲು ಅಥವಾ ಅಮಾನ್ಯವಾಗಿದೆ"
+  },
+  "error_INCOMPLETE_RESPONSE": {
+    "message": "ಚಂದಾದಾರಿಕೆಯ ಪ್ರತಿಕ್ರಿಯೆ ಅಪೂರ್ಣವಾಗಿತ್ತು. ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+  },
+  "error_INVALID_BACKUP": {
+    "message": "ಅಮಾನ್ಯ V2Route ಬ್ಯಾಕಪ್"
+  },
+  "error_INVALID_BACKUP_NODE": {
+    "message": "ಬ್ಯಾಕಪ್ ನೋಡ್ ಅಮಾನ್ಯ ಅಥವಾ ನಕಲಾಗಿದೆ"
+  },
+  "error_INVALID_BACKUP_NODES": {
+    "message": "ಬ್ಯಾಕಪ್ ನೋಡ್‌ಗಳು ಅಮಾನ್ಯವಾಗಿವೆ"
+  },
+  "error_INVALID_BACKUP_PATH": {
+    "message": "ಬ್ಯಾಕಪ್ ಪಥ ಅಮಾನ್ಯವಾಗಿದೆ"
+  },
+  "error_INVALID_BYPASS_ENTRY": {
+    "message": "ಬೈಪಾಸ್ ನಮೂದು ಅಮಾನ್ಯವಾಗಿದೆ"
+  },
+  "error_INVALID_BYPASS_LIST": {
+    "message": "ಬೈಪಾಸ್ ಪಟ್ಟಿ ಅಮಾನ್ಯವಾಗಿದೆ"
+  },
+  "error_INVALID_CHAIN": {
+    "message": "ಕ್ರಮಬದ್ಧ ಸರಪಳಿ ಅಮಾನ್ಯವಾಗಿದೆ"
+  },
+  "error_INVALID_CHAIN_PROBE": {
+    "message": "ಸರಪಳಿ ಪರೀಕ್ಷೆ ಅಮಾನ್ಯವಾಗಿದೆ"
+  },
+  "error_INVALID_COMPANION_RESPONSE": {
+    "message": "ಸ್ಥಳೀಯ ಸಹಾಯಕ ಘಟಕ ಅಮಾನ್ಯ ಪ್ರತಿಕ್ರಿಯೆ ನೀಡಿದೆ. ಅದನ್ನು ನವೀಕರಿಸಿ ಅಥವಾ ದುರಸ್ತಿ ಮಾಡಿ."
+  },
+  "error_INVALID_CONTENT": {
+    "message": "ಚಂದಾದಾರಿಕೆಯ ಪ್ರತಿಕ್ರಿಯೆಯಲ್ಲಿ ಮಾನ್ಯ ವಿಷಯವಿಲ್ಲ."
+  },
+  "error_INVALID_DOMAIN_PATTERNS": {
+    "message": "ಡೊಮೇನ್ ಮಾದರಿಗಳನ್ನು ಅಲ್ಪವಿರಾಮದಿಂದ ಬೇರ್ಪಡಿಸಿ; ಪ್ರತಿ URL ಅನ್ನು ಪ್ರತ್ಯೇಕ ಸಾಲಿನಲ್ಲಿ ಹಾಕಿ"
+  },
+  "error_INVALID_ENCODING": {
+    "message": "ಚಂದಾದಾರಿಕೆಯ ಪ್ರತಿಕ್ರಿಯೆ ಮಾನ್ಯ UTF-8 ಪಠ್ಯವಲ್ಲ."
+  },
+  "error_INVALID_FOLDER_REQUEST": {
+    "message": "ಫೋಲ್ಡರ್ ವಿನಂತಿ ಅಮಾನ್ಯವಾಗಿದೆ"
+  },
+  "error_INVALID_GROUP_ACTION": {
+    "message": "ಈ ಗುಂಪಿನ ಕಾರ್ಯಕ್ಕೆ ಬೆಂಬಲವಿಲ್ಲ."
+  },
+  "error_INVALID_HOP_INDEX": {
+    "message": "ಹಾಪ್ ಸೂಚ್ಯಂಕ ಅಮಾನ್ಯವಾಗಿದೆ"
+  },
+  "error_INVALID_LEGACY_PREDECESSOR": {
+    "message": "ಹಳೆಯ ಪೂರ್ವವರ್ತಿ ಪ್ರಾಕ್ಸಿ ಅಮಾನ್ಯವಾಗಿದೆ"
+  },
+  "error_INVALID_LIBRARY_COMMAND": {
+    "message": "ಈ ನೋಡ್ ಲೈಬ್ರರಿ ಆದೇಶಕ್ಕೆ ಬೆಂಬಲವಿಲ್ಲ."
+  },
+  "error_INVALID_LIBRARY_REQUEST": {
+    "message": "ಲೈಬ್ರರಿ ವಿನಂತಿ ಅಮಾನ್ಯವಾಗಿದೆ"
+  },
+  "error_INVALID_NAME": {
+    "message": "ನಿಯಂತ್ರಣ ಅಕ್ಷರಗಳಿಲ್ಲದೆ 1–128 ಕಾಣುವ ಅಕ್ಷರಗಳ ಹೆಸರನ್ನು ನಮೂದಿಸಿ."
+  },
+  "error_INVALID_NETWORK_TEST": {
+    "message": "ನೆಟ್‌ವರ್ಕ್ ಪರೀಕ್ಷೆ ಅಮಾನ್ಯವಾಗಿದೆ"
+  },
+  "error_INVALID_NODE_IMPORT_RESPONSE": {
+    "message": "ನೋಡ್ ಆಮದು ಪ್ರತಿಕ್ರಿಯೆ ಅಮಾನ್ಯವಾಗಿದೆ"
+  },
+  "error_INVALID_PREDECESSOR": {
+    "message": "ಈ ಮಾರ್ಗದ ಪೂರ್ವವರ್ತಿ ಪ್ರಾಕ್ಸಿ ಅಮಾನ್ಯವಾಗಿದೆ"
+  },
+  "error_INVALID_PROFILE_NAME": {
+    "message": "ಪ್ರೊಫೈಲ್ ಹೆಸರು ಅಮಾನ್ಯವಾಗಿದೆ"
+  },
+  "error_INVALID_PROFILE_REFERENCE": {
+    "message": "ಪ್ರೊಫೈಲ್ ಉಲ್ಲೇಖ ಅಮಾನ್ಯವಾಗಿದೆ"
+  },
+  "error_INVALID_PROXY_AUTH": {
+    "message": "ಪ್ರಾಕ್ಸಿ ದೃಢೀಕರಣ ಅಮಾನ್ಯವಾಗಿದೆ"
+  },
+  "error_INVALID_PROXY_CREDENTIALS": {
+    "message": "ಪ್ರಾಕ್ಸಿ ಪ್ರವೇಶ ರುಜುವಾತುಗಳು ಅಮಾನ್ಯವಾಗಿವೆ"
+  },
+  "error_INVALID_PROXY_ENDPOINT": {
+    "message": "ಮಾನ್ಯ ಪ್ರಾಕ್ಸಿ ಹೋಸ್ಟ್ ಮತ್ತು ಪೋರ್ಟ್ ನಮೂದಿಸಿ"
+  },
+  "error_INVALID_PROXY_HOST": {
+    "message": "ಪೋರ್ಟ್, URL, ಪಥ ಅಥವಾ ಪ್ರಶ್ನೆಯಿಲ್ಲದ DNS ಹೆಸರು ಅಥವಾ IP ವಿಳಾಸ ನಮೂದಿಸಿ"
+  },
+  "error_INVALID_ROUTE": {
+    "message": "ಮಾರ್ಗ ಅಮಾನ್ಯವಾಗಿದೆ"
+  },
+  "error_INVALID_ROUTE_SETTINGS": {
+    "message": "ಮಾರ್ಗ ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಅಮಾನ್ಯವಾಗಿವೆ"
+  },
+  "error_INVALID_RULES": {
+    "message": "ನಿಯಮಗಳು ಅಮಾನ್ಯವಾಗಿವೆ"
+  },
+  "error_INVALID_RULE_TARGET": {
+    "message": "ಪ್ರತಿ ನಿಯಮಕ್ಕೆ ಒಂದು ಮಾನ್ಯ ನೋಡ್ ಅಥವಾ ಪ್ರೊಫೈಲ್ ಆಯ್ಕೆಮಾಡಿ"
+  },
+  "error_INVALID_SUBSCRIPTION": {
+    "message": "ಚಂದಾದಾರಿಕೆ ಅಮಾನ್ಯವಾಗಿದೆ"
+  },
+  "error_INVALID_SUBSCRIPTION_REQUEST": {
+    "message": "ಚಂದಾದಾರಿಕೆ ವಿನಂತಿ ಅಮಾನ್ಯವಾಗಿದೆ"
+  },
+  "error_INVALID_SUBSCRIPTION_SETTINGS": {
+    "message": "ಚಂದಾದಾರಿಕೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಅಮಾನ್ಯವಾಗಿವೆ. ನವೀಕರಣದ ಮಧ್ಯಂತರ ಮತ್ತು ಸಂಪರ್ಕ ನೀತಿಯನ್ನು ಪರಿಶೀಲಿಸಿ."
+  },
+  "error_INVALID_SYSTEM_PROXY_RESPONSE": {
+    "message": "ಸಿಸ್ಟಮ್ ಪ್ರಾಕ್ಸಿ ಪ್ರತಿಕ್ರಿಯೆ ಅಮಾನ್ಯವಾಗಿದೆ; ಸಹಾಯಕ ಘಟಕವನ್ನು ನವೀಕರಿಸಿ ಅಥವಾ ದುರಸ್ತಿ ಮಾಡಿ"
+  },
+  "error_INVALID_TRANSPORT": {
+    "message": "ಚಂದಾದಾರಿಕೆಯ ಸಂಪರ್ಕ ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಅಮಾನ್ಯವಾಗಿವೆ."
+  },
+  "error_INVALID_URL": {
+    "message": "ಬಳಕೆದಾರ ಹೆಸರು ಅಥವಾ ಪಾಸ್‌ವರ್ಡ್ ಇಲ್ಲದ ಮಾನ್ಯ HTTP(S) ಚಂದಾದಾರಿಕೆ URL ನಮೂದಿಸಿ."
+  },
+  "error_LIBRARY_CHANGED": {
+    "message": "ಬೇರೆ ವಿಂಡೋದಲ್ಲಿ ನೋಡ್ ಲೈಬ್ರರಿ ಬದಲಾಗಿದೆ. ರಿಫ್ರೆಶ್ ಮಾಡಿ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+  },
+  "error_MANUAL_CHAIN_UNSUPPORTED": {
+    "message": "ಹಸ್ತಚಾಲಿತ ಪ್ರಾಕ್ಸಿಗಳು ನೋಡ್ ಸರಪಳಿಯನ್ನು ಸ್ವೀಕರಿಸುವುದಿಲ್ಲ"
+  },
+  "error_MANUAL_PROXY_CLEANUP_FAILED": {
+    "message": "ಉಳಿಸುವಿಕೆ ವಿಫಲವಾಗಿದೆ; ತಾತ್ಕಾಲಿಕವಾಗಿ ಆಮದು ಮಾಡಿದ ಪ್ರಾಕ್ಸಿ ನೋಡ್ ಲೈಬ್ರರಿಯಲ್ಲಿ ಉಳಿದಿದೆ"
+  },
+  "error_NATIVE_BINDING_ID": {
+    "message": "ಮಾರ್ಗ ಬಂಧದ ಗುರುತು ಅಮಾನ್ಯವಾಗಿದೆ."
+  },
+  "error_NATIVE_BINDING_UNKNOWN": {
+    "message": "ಮಾರ್ಗ ಬಂಧ ಇಲ್ಲ."
+  },
+  "error_NATIVE_BUTTON_NAME": {
+    "message": "ಬಟನ್ ಹೆಸರಿನಲ್ಲಿ 1–128 ಕಾಣುವ ಅಕ್ಷರಗಳಿರಬೇಕು."
+  },
+  "error_NATIVE_CATALOG_UNREADABLE": {
+    "message": "v2rayN ಸಂರಚನೆಯನ್ನು ಓದಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ."
+  },
+  "error_NATIVE_CORE_MISSING": {
+    "message": "Xray ಲಭ್ಯವಿಲ್ಲ. ಸಹಾಯಕ ಘಟಕದ ಪ್ಯಾಕೇಜ್ ಸ್ಥಾಪಿಸಿ."
+  },
+  "error_NATIVE_GROUP_ID_COLLISION": {
+    "message": "ಗುಂಪಿನ ಗುರುತುಗಳಲ್ಲಿ ಸಂಘರ್ಷವಿದೆ."
+  },
+  "error_NATIVE_GROUP_ORDER": {
+    "message": "ಗುಂಪಿನ ಕ್ರಮ ಅಮಾನ್ಯವಾಗಿದೆ."
+  },
+  "error_NATIVE_NODE_ID_COLLISION": {
+    "message": "ನೋಡ್ ಗುರುತುಗಳಲ್ಲಿ ಸಂಘರ್ಷವಿದೆ."
+  },
+  "error_NATIVE_PREDECESSOR_AMBIGUOUS": {
+    "message": "ಪೂರ್ವವರ್ತಿ ಪ್ರಾಕ್ಸಿಯ ಹೆಸರು ಇಲ್ಲ ಅಥವಾ ನಕಲಾಗಿದೆ. ನಿರ್ದಿಷ್ಟ ಪೂರ್ವವರ್ತಿ ನೋಡ್ ಆಯ್ಕೆಮಾಡಿ."
+  },
+  "error_NATIVE_PREDECESSOR_CYCLE": {
+    "message": "ಪೂರ್ವವರ್ತಿ ಸರಪಳಿಯಲ್ಲಿ ಚಕ್ರವಿದೆ ಅಥವಾ ಆರು ನೋಡ್‌ಗಳಿಗಿಂತ ಹೆಚ್ಚು ಇದೆ."
+  },
+  "error_NATIVE_PREDECESSOR_INVALID": {
+    "message": "ಮಾನ್ಯ ಪೂರ್ವವರ್ತಿ ಪ್ರಾಕ್ಸಿ ಆಯ್ಕೆಮಾಡಿ."
+  },
+  "error_NATIVE_PREDECESSOR_MISSING": {
+    "message": "ಆಯ್ದ ಪೂರ್ವವರ್ತಿ ಪ್ರಾಕ್ಸಿ ಇನ್ನು ಇಲ್ಲ. ಬೇರೆ ನೋಡ್ ಆಯ್ಕೆಮಾಡಿ."
+  },
+  "error_NATIVE_PREDECESSOR_SETTINGS": {
+    "message": "ಪೂರ್ವವರ್ತಿ ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಅಮಾನ್ಯವಾಗಿವೆ."
+  },
+  "error_NATIVE_ROUTE_INVALID": {
+    "message": "ಮಾನ್ಯ ಮಾರ್ಗ ಆಯ್ಕೆಮಾಡಿ."
+  },
+  "error_NATIVE_ROUTE_MISSING": {
+    "message": "ಈ ಮಾರ್ಗ ಇನ್ನು ಇಲ್ಲ. ಬೇರೆ ಮಾರ್ಗ ಆಯ್ಕೆಮಾಡಿ."
+  },
+  "error_NATIVE_ROUTE_PORTS": {
+    "message": "ಮಾರ್ಗ ಪೋರ್ಟ್ ಹಂಚಿಕೆಗಳು ಅಮಾನ್ಯವಾಗಿವೆ."
+  },
+  "error_NATIVE_ROUTE_UNAVAILABLE": {
+    "message": "ಆಯ್ದ ಮಾರ್ಗ ಲಭ್ಯವಿಲ್ಲ. ತಾಂತ್ರಿಕ ವಿವರಗಳನ್ನು ನೋಡಿ."
+  },
+  "error_NATIVE_SETTINGS_FORMAT": {
+    "message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳ ಸ್ವರೂಪ ಅಮಾನ್ಯವಾಗಿದೆ."
+  },
+  "error_NATIVE_SETTINGS_REVISION": {
+    "message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳ ಪರಿಷ್ಕರಣೆ ಅಮಾನ್ಯವಾಗಿದೆ."
+  },
+  "error_NATIVE_SUCCESSOR_UNSUPPORTED": {
+    "message": "ಈ ಗುಂಪು ಬೆಂಬಲವಿಲ್ಲದ ಉತ್ತರವರ್ತಿ ಪ್ರಾಕ್ಸಿಯನ್ನು ಬಳಸುತ್ತದೆ."
+  },
+  "error_NATIVE_UNSUPPORTED_CUSTOM": {
+    "message": "ಈ ಆವೃತ್ತಿ ಕಸ್ಟಮ್ ಹೊರಹೋಗುವ ಸಂರಚನೆಗಳನ್ನು ಬೆಂಬಲಿಸುವುದಿಲ್ಲ."
+  },
+  "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
+    "message": "ಈ ಆವೃತ್ತಿ Hysteria2 ಅನ್ನು ಬೆಂಬಲಿಸುವುದಿಲ್ಲ."
+  },
+  "error_NATIVE_UNSUPPORTED_TUIC": {
+    "message": "TUICಗೆ ಬೇಕಾದ sing-box ಕೋರ್ ಈ ಆವೃತ್ತಿಯಲ್ಲಿ ಸೇರಿಲ್ಲ."
+  },
+  "error_NATIVE_UNSUPPORTED_TYPE": {
+    "message": "ಈ ಮಾರ್ಗದ ವಿಧಕ್ಕೆ ಬೆಂಬಲವಿಲ್ಲ."
+  },
+  "error_NATIVE_V2RAYN_PORT": {
+    "message": "v2rayN ಸ್ಥಳೀಯ ಪೋರ್ಟ್ ಅಮಾನ್ಯವಾಗಿದೆ."
+  },
+  "error_NATIVE_V2RAYN_UNAVAILABLE": {
+    "message": "v2rayN ಲಭ್ಯವಿಲ್ಲ. ಆಮದು ಮಾಡಿದ ನೋಡ್ ಆಯ್ಕೆಮಾಡಿ."
+  },
+  "error_NETWORK_FAILED": {
+    "message": "ನೆಟ್‌ವರ್ಕ್ ವಿನಂತಿ ವಿಫಲವಾಗಿದೆ. ಸಂಪರ್ಕವನ್ನು ಪರಿಶೀಲಿಸಿ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+  },
+  "error_NETWORK_TEST_FAILED": {
+    "message": "ನೆಟ್‌ವರ್ಕ್ ರೋಗನಿರ್ಣಯ ವಿಫಲವಾಗಿದೆ. ತಾಂತ್ರಿಕ ವಿವರಗಳನ್ನು ನೋಡಿ."
+  },
+  "error_NODE_LIMIT": {
+    "message": "ಈ ಕಾರ್ಯ ನೋಡ್ ಮಿತಿಯನ್ನು ಮೀರುತ್ತದೆ. ಬಳಕೆಯಾಗದ ನೋಡ್‌ಗಳನ್ನು ತೆಗೆದು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+  },
+  "error_NODE_MAPPING_INCOMPLETE": {
+    "message": "ನೋಡ್ ಮ್ಯಾಪಿಂಗ್ ಅಪೂರ್ಣವಾಗಿದೆ"
+  },
+  "error_NODE_NOT_FOUND": {
+    "message": "ಆಯ್ದ ನೋಡ್ ಇನ್ನು ಇಲ್ಲ. ಬೇರೆ ನೋಡ್ ಆಯ್ಕೆಮಾಡಿ."
+  },
+  "error_NOT_DUE": {
+    "message": "ಮುಂದಿನ ನಿಗದಿತ ನವೀಕರಣದ ಸಮಯ ಇನ್ನೂ ಬಂದಿಲ್ಲ."
+  },
+  "error_PAC_ENTRY_REQUIRED": {
+    "message": "FindProxyForURL ಹೊಂದಿರುವ PAC ಮೂಲವನ್ನು ನಮೂದಿಸಿ"
+  },
+  "error_PAC_FUNCTION_REQUIRED": {
+    "message": "ಮೇಲ್ಮಟ್ಟದಲ್ಲಿ ಸಿಂಕ್ರೊನಸ್ FindProxyForURL ಫಂಕ್ಷನ್, ಫಂಕ್ಷನ್ ಚರ ಅಥವಾ ಅಸೈನ್‌ಮೆಂಟ್ ವ್ಯಾಖ್ಯಾನಿಸಿ"
+  },
+  "error_PAC_PARSER_UNAVAILABLE": {
+    "message": "ಪ್ಯಾಕೇಜ್‌ನ PAC ಪಾರ್ಸರ್ ಲಭ್ಯವಿಲ್ಲ; ವಿಸ್ತರಣೆಯನ್ನು ಮರುಸ್ಥಾಪಿಸಿ"
+  },
+  "error_PAC_RULE_TARGET_UNSUPPORTED": {
+    "message": "ಸ್ವಯಂಚಾಲಿತ ನಿಯಮಗಳು ಇನ್‌ಲೈನ್ PAC ಪ್ರೊಫೈಲ್ ಅನ್ನು ಗುರಿಯಾಗಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ"
+  },
+  "error_PAC_SOURCE_LIMIT": {
+    "message": "ಗರಿಷ್ಠ {limit} ಅಕ್ಷರಗಳ PAC ಮೂಲವನ್ನು ನಮೂದಿಸಿ"
+  },
+  "error_PAC_SYNTAX_INVALID": {
+    "message": "PAC ಸಿಂಟ್ಯಾಕ್ಸ್ ಅಮಾನ್ಯವಾಗಿದೆ"
+  },
+  "error_PAC_SYNTAX_LOCATION": {
+    "message": "ಸಾಲು {line}, ಕಾಲಮ್ {column}ರಲ್ಲಿ PAC ಸಿಂಟ್ಯಾಕ್ಸ್ ಅಮಾನ್ಯವಾಗಿದೆ"
+  },
+  "error_PARTIAL_TRANSFER": {
+    "message": "ಎಲ್ಲ ಡೇಟಾ ಸ್ವೀಕರಿಸುವ ಮೊದಲು ಪರೀಕ್ಷಾ ವರ್ಗಾವಣೆ ಮುಗಿಯಿತು."
+  },
+  "error_PRIVATE_DIRECTORY_FAILED": {
+    "message": "ಖಾಸಗಿ ಪರೀಕ್ಷಾ ಫೋಲ್ಡರ್ ಅನ್ನು ಸುರಕ್ಷಿತಗೊಳಿಸಲಾಗಲಿಲ್ಲ. ಪರೀಕ್ಷೆ ನಿಲ್ಲಿಸಲಾಗಿದೆ."
+  },
+  "error_PRIVATE_TARGET": {
+    "message": "ಖಾಸಗಿ ಅಥವಾ ಸ್ಥಳೀಯ ವಿಳಾಸಗಳಿಗೆ ಚಂದಾದಾರಿಕೆ ವಿನಂತಿಗಳನ್ನು ಅನುಮತಿಸಲಾಗುವುದಿಲ್ಲ."
+  },
+  "error_PROFILE_NOT_FOUND": {
+    "message": "ಪ್ರೊಫೈಲ್ ಕಂಡುಬಂದಿಲ್ಲ"
+  },
+  "error_PROFILE_REFERENCE_CYCLE": {
+    "message": "ಪ್ರೊಫೈಲ್ ಉಲ್ಲೇಖಗಳಲ್ಲಿ ಚಕ್ರವಿದೆ"
+  },
+  "error_PROFILE_REFERENCE_DEPTH": {
+    "message": "ಸ್ವಯಂಚಾಲಿತ ನಿಯಮಗಳು ಗರಿಷ್ಠ ಆಳ {limit} ಅನ್ನು ಮೀರುತ್ತವೆ"
+  },
+  "error_PROFILE_REFERENCE_MISSING": {
+    "message": "ಉಲ್ಲೇಖಿಸಿದ ಪ್ರೊಫೈಲ್ ಇಲ್ಲ: {name}"
+  },
+  "error_PROFILE_SAVE_RESTORE_FAILED": {
+    "message": "ಉಳಿಸುವಿಕೆ ವಿಫಲವಾಗಿದೆ ಮತ್ತು ಮಾರ್ಗ ಮರುಸ್ಥಾಪನೆಗೆ ಗಮನ ಬೇಕು"
+  },
+  "error_PROXY_AUTH_REQUIRED": {
+    "message": "ಚಂದಾದಾರಿಕೆ ಪ್ರಾಕ್ಸಿಗೆ ಈ ವಿನಂತಿಯು ಒದಗಿಸಲಾಗದ ದೃಢೀಕರಣ ಬೇಕು."
+  },
+  "error_PROXY_CONTROL_UNAVAILABLE": {
+    "message": "ಬೇರೆ ವಿಸ್ತರಣೆ ಅಥವಾ ನೀತಿ ಪ್ರಾಕ್ಸಿಯನ್ನು ನಿಯಂತ್ರಿಸುತ್ತಿದೆ"
+  },
+  "error_PROXY_DNS_REQUIRED": {
+    "message": "V2Routeನಲ್ಲಿ SOCKS5 DNS ಅನ್ನು ಪ್ರಾಕ್ಸಿ ಮೂಲಕ ಪರಿಹರಿಸಲಾಗುತ್ತದೆ"
+  },
+  "error_PROXY_FAILED": {
+    "message": "ಪ್ರಾಕ್ಸಿ ಸಂಪರ್ಕ ವಿಫಲವಾಗಿದೆ. ಆಯ್ದ ಮಾರ್ಗವನ್ನು ಪರಿಶೀಲಿಸಿ."
+  },
+  "error_PROXY_PROFILE_REQUIRED": {
+    "message": "ಪ್ರಾಕ್ಸಿ ಪ್ರೊಫೈಲ್ ಆಯ್ಕೆಮಾಡಿ"
+  },
+  "error_PROXY_ROLLBACK_REFUSED": {
+    "message": "ಪ್ರಾಕ್ಸಿ ಬದಲಾವಣೆಯನ್ನು ಹಿಂತೆಗೆದುಕೊಳ್ಳಲು ಬ್ರೌಸರ್ ನಿರಾಕರಿಸಿತು"
+  },
+  "error_PROXY_SETTING_REFUSED": {
+    "message": "ಬ್ರೌಸರ್ ಪ್ರಾಕ್ಸಿ ಸೆಟ್ಟಿಂಗ್ ಅನ್ನು ನಿರಾಕರಿಸಿತು"
+  },
+  "error_PROXY_UNAVAILABLE": {
+    "message": "ಆಯ್ದ ಪ್ರಾಕ್ಸಿ ಲಭ್ಯವಿಲ್ಲ. ಪ್ರಸ್ತುತ ಮಾರ್ಗವನ್ನು ಪರಿಶೀಲಿಸಿ."
+  },
+  "error_PROXY_USERNAME_REQUIRED": {
+    "message": "ಪ್ರಾಕ್ಸಿ ಬಳಕೆದಾರ ಹೆಸರನ್ನು ನಮೂದಿಸಿ"
+  },
+  "error_RECOVERY_BINDINGS_LIMIT": {
+    "message": "ಗರಿಷ್ಠ {limit} ನೋಡ್ ಬಂಧಗಳನ್ನು ಮರುಸ್ಥಾಪಿಸಬಹುದು. ಉಲ್ಲೇಖಿಸಿದ ಪ್ರೊಫೈಲ್‌ಗಳನ್ನು ಪ್ರತ್ಯೇಕವಾಗಿ ತೆರೆದು ಉಳಿಸಿ."
+  },
+  "error_REDIRECT_LIMIT": {
+    "message": "ಚಂದಾದಾರಿಕೆ ಅತಿಯಾಗಿ ಮರುನಿರ್ದೇಶಿಸಿದೆ. ಅದರ URL ಪರಿಶೀಲಿಸಿ."
+  },
+  "error_REFERENCED_PROFILE_DELETE": {
+    "message": "ಈ ಪ್ರೊಫೈಲ್ ಅನ್ನು ಸ್ವಯಂಚಾಲಿತ ನಿಯಮ ಉಲ್ಲೇಖಿಸುತ್ತದೆ"
+  },
+  "error_REMOTE_PAC_UNSUPPORTED": {
+    "message": "ಇನ್‌ಲೈನ್ PAC ಮೂಲ ಬಳಸಿ; ದೂರಸ್ಥ PACಗೆ ಬೆಂಬಲವಿಲ್ಲ"
+  },
+  "error_ROUTE_PORT_UNAVAILABLE": {
+    "message": "ಯಾವ ಪೋರ್ಟ್ ಕೂಡ ಹಂಚಿಕೆಯಾಗಿಲ್ಲ"
+  },
+  "error_ROUTE_RECOVERY_RESTORE_FAILED": {
+    "message": "ಮಾರ್ಗ ಮರುಪಡೆಯುವಿಕೆ ವಿಫಲವಾಗಿದೆ ಮತ್ತು ಮರುಸ್ಥಾಪನೆಗೆ ಗಮನ ಬೇಕು"
+  },
+  "error_ROUTE_REVISION_CONFLICT": {
+    "message": "ಬೇರೆ ವಿಂಡೋದಲ್ಲಿ ಮಾರ್ಗ ಬದಲಾಗಿದೆ. ಮೊದಲು ರಿಫ್ರೆಶ್ ಮಾಡಿ"
+  },
+  "error_ROUTE_SAVE_ROLLBACK_FAILED": {
+    "message": "ಮಾರ್ಗ ಉಳಿಸುವಿಕೆ ವಿಫಲವಾಗಿದೆ ಮತ್ತು ಹಿಂತೆಗೆತಕ್ಕೆ ಗಮನ ಬೇಕು"
+  },
+  "error_ROUTE_UNAVAILABLE": {
+    "message": "ಪರೀಕ್ಷಾ ಮಾರ್ಗ ಲಭ್ಯವಿಲ್ಲ. ನೋಡ್ ಮತ್ತು ಪೂರ್ವವರ್ತಿ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸಿ."
+  },
+  "error_RULE_BINDING_MISSING": {
+    "message": "ನೋಡ್ ನಿಯಮದ ಬಂಧ ಇಲ್ಲ. ಸ್ವಯಂಚಾಲಿತ ಪ್ರೊಫೈಲ್ ಅನ್ನು ಮರುತೆರೆದು ಉಳಿಸಿ: {name}"
+  },
+  "error_RULE_NODES_LIMIT": {
+    "message": "ಸ್ವಯಂಚಾಲಿತ ನಿಯಮಗಳು ಗರಿಷ್ಠ {limit} ವಿಭಿನ್ನ ನೋಡ್‌ಗಳನ್ನು ಬೆಂಬಲಿಸುತ್ತವೆ"
+  },
+  "error_RULE_NODE_CHANGED": {
+    "message": "ನೋಡ್ ನಿಯಮ ಲಭ್ಯವಿಲ್ಲ ಅಥವಾ ಬದಲಾಗಿದೆ. ನೋಡ್ ಅನ್ನು ಮರುಸ್ಥಾಪಿಸಿ ಅಥವಾ ಬೇರೆ ನೋಡ್ ಆಯ್ದು ಉಳಿಸಿ: {name}"
+  },
+  "error_RULE_PATH_CONFLICT": {
+    "message": "ನೋಡ್ ನಿಯಮ ಪಥಗಳಲ್ಲಿ ಸಂಘರ್ಷವಿದೆ"
+  },
+  "error_RULE_PATTERNS_LIMIT": {
+    "message": "ಸ್ವಯಂಚಾಲಿತ ನಿಯಮಗಳು ಒಟ್ಟು ಗರಿಷ್ಠ {limit} ಹೊಂದಾಣಿಕೆ ಮಾದರಿಗಳನ್ನು ಬೆಂಬಲಿಸುತ್ತವೆ"
+  },
+  "error_RULE_PORT_UNAVAILABLE": {
+    "message": "ನೋಡ್ ನಿಯಮದ ಪೋರ್ಟ್ ಲಭ್ಯವಿಲ್ಲ"
+  },
+  "error_RULE_REVISION_CONFLICT": {
+    "message": "ಬೇರೆ ವಿಂಡೋದಲ್ಲಿ ನೋಡ್ ನಿಯಮ ಬದಲಾಗಿದೆ. ಮೊದಲು ರಿಫ್ರೆಶ್ ಮಾಡಿ"
+  },
+  "error_SELECTED_NODE_UNAVAILABLE": {
+    "message": "ಆಯ್ದ ನೋಡ್ ಲಭ್ಯವಿಲ್ಲ. ಅದನ್ನು ಮರುಸ್ಥಾಪಿಸಿ ಅಥವಾ ಬೇರೆ ನೋಡ್ ಆಯ್ಕೆಮಾಡಿ"
+  },
+  "error_SOCKS_FAILED": {
+    "message": "SOCKS ಸಂಪರ್ಕವನ್ನು ಸ್ಥಾಪಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ."
+  },
+  "error_STARTUP_FALLBACK_REFUSED": {
+    "message": "ಆರಂಭಿಕ ಪರ್ಯಾಯ ಪ್ರಾಕ್ಸಿಯನ್ನು ಬ್ರೌಸರ್ ನಿರಾಕರಿಸಿತು."
+  },
+  "error_SUBSCRIPTION_CHANGED": {
+    "message": "ನವೀಕರಣದ ವೇಳೆ ಚಂದಾದಾರಿಕೆ ಬದಲಾಗಿದೆ. ರಿಫ್ರೆಶ್ ಮಾಡಿ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+  },
+  "error_SUBSCRIPTION_HTTP_STATUS": {
+    "message": "ಚಂದಾದಾರಿಕೆಯ ಸರ್ವರ್ HTTP {status} ಅನ್ನು ನೀಡಿದೆ."
+  },
+  "error_SUBSCRIPTION_LIMIT": {
+    "message": "ಚಂದಾದಾರಿಕೆ ಮಿತಿ ತಲುಪಿದೆ. ಬಳಕೆಯಾಗದ ಚಂದಾದಾರಿಕೆ ತೆಗೆದು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+  },
+  "error_SUBSCRIPTION_NOT_FOUND": {
+    "message": "ಆಯ್ದ ಚಂದಾದಾರಿಕೆ ಇನ್ನು ಇಲ್ಲ."
+  },
+  "error_SYSTEM_PROXY_SNAPSHOT_UNAVAILABLE": {
+    "message": "ಅನ್ವಯಿಸಿದ ಸಿಸ್ಟಮ್ ಪ್ರಾಕ್ಸಿಯ ಸ್ನ್ಯಾಪ್‌ಶಾಟ್ ಲಭ್ಯವಿಲ್ಲ."
+  },
+  "error_SYSTEM_PROXY_TIMEOUT": {
+    "message": "ಸಿಸ್ಟಮ್ ಪ್ರಾಕ್ಸಿ ಓದುವ ಸಮಯ ಮುಗಿದಿದೆ"
+  },
+  "error_SYSTEM_PROXY_UNAVAILABLE": {
+    "message": "ಸಿಸ್ಟಮ್ ಪ್ರಾಕ್ಸಿ ಲಭ್ಯವಿಲ್ಲ. ತಾಂತ್ರಿಕ ವಿವರಗಳನ್ನು ನೋಡಿ."
+  },
+  "error_TIMEOUT": {
+    "message": "ವಿನಂತಿಯ ಸಮಯ ಮುಗಿದಿದೆ. ಸಂಪರ್ಕ ಪರಿಶೀಲಿಸಿ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+  },
+  "error_TLS_DOWNGRADE": {
+    "message": "ಚಂದಾದಾರಿಕೆ HTTPSನಿಂದ HTTPಗೆ ಮರುನಿರ್ದೇಶಿಸಿದ್ದರಿಂದ ತಡೆಯಲಾಗಿದೆ."
+  },
+  "error_TLS_FAILED": {
+    "message": "ಸುರಕ್ಷಿತ ಸಂಪರ್ಕವನ್ನು ದೃಢೀಕರಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ಸರ್ವರ್ ಮತ್ತು ಪ್ರಮಾಣಪತ್ರ ಪರಿಶೀಲಿಸಿ."
+  },
+  "error_UNSAFE_TEMP_PATH": {
+    "message": "ತಾತ್ಕಾಲಿಕ ಪರೀಕ್ಷಾ ಫೋಲ್ಡರ್ ಸುರಕ್ಷಿತವಲ್ಲ. ಪರೀಕ್ಷೆ ನಿಲ್ಲಿಸಲಾಗಿದೆ."
+  },
+  "error_UNSUPPORTED_LIBRARY_REQUEST": {
+    "message": "ಲೈಬ್ರರಿ ವಿನಂತಿಗೆ ಬೆಂಬಲವಿಲ್ಲ"
+  },
+  "error_UNSUPPORTED_PROFILE_TYPE": {
+    "message": "ಪ್ರೊಫೈಲ್ ವಿಧಕ್ಕೆ ಬೆಂಬಲವಿಲ್ಲ"
+  },
+  "error_UNSUPPORTED_REQUEST": {
+    "message": "ವಿನಂತಿಗೆ ಬೆಂಬಲವಿಲ್ಲ"
+  },
+  "error_UNSUPPORTED_RULE_CONDITION": {
+    "message": "ಹೋಸ್ಟ್ ಮತ್ತು URL ವೈಲ್ಡ್‌ಕಾರ್ಡ್ ನಿಯಮಗಳಿಗೆ ಮಾತ್ರ ಬೆಂಬಲವಿದೆ"
+  },
+  "error_UPDATE_FAILED": {
+    "message": "ಚಂದಾದಾರಿಕೆ ನವೀಕರಣ ವಿಫಲವಾಗಿದೆ. ಈಗಿರುವ ನೋಡ್‌ಗಳನ್ನು ಉಳಿಸಲಾಗಿದೆ."
+  },
+  "error_VALIDATION_FAILED": {
+    "message": "ಚಂದಾದಾರಿಕೆಯ ವಿಷಯವನ್ನು ಮೌಲ್ಯೀಕರಿಸಲಾಗಲಿಲ್ಲ. ಈಗಿರುವ ನೋಡ್‌ಗಳನ್ನು ಉಳಿಸಲಾಗಿದೆ."
+  },
+  "nativeUnnamedNode": {
+    "message": "ಹೆಸರಿಲ್ಲದ ನೋಡ್"
+  },
+  "nativeProtocolCustom": {
+    "message": "ಕಸ್ಟಮ್"
+  },
+  "nativeProtocolOutbound": {
+    "message": "ಕಸ್ಟಮ್ ಹೊರಹೋಗುವ ಸಂಪರ್ಕ"
+  },
+  "nativeProtocolGroup": {
+    "message": "ನೀತಿ ಗುಂಪು"
+  },
+  "nativeProtocolChain": {
+    "message": "ಪ್ರಾಕ್ಸಿ ಸರಪಳಿ"
+  },
+  "nativeProtocolUnknown": {
+    "message": "ಬೆಂಬಲವಿಲ್ಲದ ವಿಧ"
+  },
+  "languageLoadFailed": {
+    "message": "ಆಯ್ದ ಭಾಷೆಯನ್ನು ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+  },
+  "invalidBackupJSON": {
+    "message": "ಬ್ಯಾಕಪ್ ಮಾನ್ಯ JSON ಅಲ್ಲ."
+  },
+  "noticeBodyLanguages": {
+    "message": "ಸಂಪೂರ್ಣ ನೀತಿ ಪಠ್ಯ ಇಂಗ್ಲಿಷ್ ಮತ್ತು ಸರಳೀಕೃತ ಚೀನೀ ಭಾಷೆಯಲ್ಲಿ ಲಭ್ಯವಿದೆ."
+  },
+  "policyRules": {
+    "message": "ಪ್ರಾಕ್ಸಿ ಮಾರ್ಗನಿರ್ದೇಶನ ನಿಯಮಗಳು"
+  },
+  "policyPriority": {
+    "message": "ಕ್ರಮ: ಪ್ರಾಕ್ಸಿ ಬಿಟ್ಟುಹೋಗುವ ವಿಳಾಸಗಳು → ಮೊದಲ ಹೊಂದುವ ನಿಯಮ → ಪೂರ್ವನಿಯೋಜಿತ ಮಾರ್ಗ."
+  },
+  "policyDirectHelp": {
+    "message": "ಹೊಂದದ ವಿಳಾಸಗಳು ನೇರವಾಗಿ ಸಂಪರ್ಕಿಸುತ್ತವೆ. ಪಾಪ್‌ಅಪ್‌ನ ನೇರ ಸಂಪರ್ಕ ಬಟನ್ ಕೂಡ ಈ ನಿಯಮಗಳನ್ನು ಬಳಸುತ್ತದೆ."
+  },
+  "policySystemHelp": {
+    "message": "ಹೊಂದದ ವಿಳಾಸಗಳು ಸಿಸ್ಟಂ ಪ್ರಾಕ್ಸಿಯನ್ನು ಬಳಸುತ್ತವೆ. ಪಾಪ್‌ಅಪ್‌ನ ಸಿಸ್ಟಂ ಬಟನ್ ಕೂಡ ಈ ನಿಯಮಗಳನ್ನು ಬಳಸುತ್ತದೆ."
+  },
+  "policyEmpty": {
+    "message": "ಇನ್ನೂ ನಿಯಮಗಳಿಲ್ಲ. ಪೂರ್ವನಿಯೋಜಿತ ಮಾರ್ಗವನ್ನು ಬಳಸಲಾಗುತ್ತದೆ."
+  },
+  "policyAddressHelp": {
+    "message": "ಡೊಮೇನ್, ವೈಲ್ಡ್‌ಕಾರ್ಡ್ ಡೊಮೇನ್, IP ಅಥವಾ IP:ಪೋರ್ಟ್. IP ನಿಯಮಗಳು URLನಲ್ಲಿನ IPಗೆ ಹೊಂದುತ್ತವೆ, DNS ಫಲಿತಾಂಶಗಳಿಗೆ ಅಲ್ಲ."
+  },
+  "policyMoveUp": {
+    "message": "ನಿಯಮವನ್ನು ಮೇಲಕ್ಕೆ ಸರಿಸಿ"
+  },
+  "policyMoveDown": {
+    "message": "ನಿಯಮವನ್ನು ಕೆಳಕ್ಕೆ ಸರಿಸಿ"
+  }
+}

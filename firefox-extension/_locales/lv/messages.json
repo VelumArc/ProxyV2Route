@@ -1,0 +1,2150 @@
+{
+  "ruleTargetUnavailable": {
+    "message": "Nav pieejams mērķis"
+  },
+  "rulePatternPlaceholder": {
+    "message": "example.com, *.example.org, 192.0.2.1:8443"
+  },
+  "rulePatternHelp": {
+    "message": "Atdaliet adreses ar komatiem. Katrs URL raksts atsevišķā rindā. PAC var neredzēt HTTPS ceļus."
+  },
+  "defaultChoice_direct": {
+    "message": "Izveidojiet savienojumu bez starpniekservera"
+  },
+  "defaultChoice_system": {
+    "message": "Izmantojiet sistēmas starpniekservera iestatījumus"
+  },
+  "defaultChoice_node": {
+    "message": "Izmantojiet šī profila atlasīto mezglu"
+  },
+  "defaultChoice_manual": {
+    "message": "Izmantojiet šī profila starpniekservera iestatījumus"
+  },
+  "defaultChoice_auto": {
+    "message": "Lietojiet šī profila maršrutēšanas noteikumus"
+  },
+  "nlHttpsLatency": {
+    "message": "HTTPS atbilde"
+  },
+  "nlLatencyMethod": {
+    "message": "Cloudflare · Vismaz divas atbildes · Savienojuma atkārtota izmantošana, kad tas ir pieejams"
+  },
+  "nlLatencyFast": {
+    "message": "Ātri"
+  },
+  "nlLatencyModerate": {
+    "message": "Mērens"
+  },
+  "nlLatencySlow": {
+    "message": "Lēns"
+  },
+  "nlSortName": {
+    "message": "Nosaukums"
+  },
+  "nlSortLatency": {
+    "message": "Latentums: no zema līdz lielam"
+  },
+  "nlSortDownload": {
+    "message": "Lejupielādēt: no liela līdz zemam"
+  },
+  "nlSortUpload": {
+    "message": "Augšupielāde: no augsta līdz zemam"
+  },
+  "nlSingle": {
+    "message": "Viens mezgls"
+  },
+  "nlGroupBatch": {
+    "message": "Grupa / partija"
+  },
+  "nlTestScope": {
+    "message": "Testa apjoms"
+  },
+  "nlCurrentNode": {
+    "message": "Atlasītais mezgls"
+  },
+  "nlCurrentGroup": {
+    "message": "Atlasītā grupa"
+  },
+  "nlChooseNode": {
+    "message": "Izvēlieties mezglu sarakstā"
+  },
+  "nlStart": {
+    "message": "Sāciet testu"
+  },
+  "nlService": {
+    "message": "Pārbaudes pakalpojums"
+  },
+  "nlMeasured": {
+    "message": "izmērīts"
+  },
+  "nlMeanLatency": {
+    "message": "Vidējais latentums"
+  },
+  "nlGroupBySource": {
+    "message": "Pēc avotu grupas"
+  },
+  "nlPreviousPage": {
+    "message": "Iepriekšējā lapa"
+  },
+  "nlNextPage": {
+    "message": "Nākamā lapa"
+  },
+  "nlName": {
+    "message": "Nosaukums"
+  },
+  "nlEdit": {
+    "message": "Rediģēt"
+  },
+  "nlStop": {
+    "message": "Apstāties"
+  },
+  "nlConfirm": {
+    "message": "Apstipriniet"
+  },
+  "nlAllNodes": {
+    "message": "Visi mezgli"
+  },
+  "nlNodeResults": {
+    "message": "Mezglu rezultāti"
+  },
+  "nlTestCenter": {
+    "message": "Pārbaudes centrs"
+  },
+  "nlNewGroup": {
+    "message": "Jauna grupa"
+  },
+  "nlRenameGroup": {
+    "message": "Pārdēvēt grupu"
+  },
+  "nlRemoveGroup": {
+    "message": "Noņemt grupu"
+  },
+  "nlRemoveGroupHelp": {
+    "message": "Saglabājiet katru mezglu un abonementu un pārvietojiet tos uz Importētajiem mezgliem."
+  },
+  "nlNode": {
+    "message": "Mezgls"
+  },
+  "nlStatus": {
+    "message": "Statuss"
+  },
+  "nlActions": {
+    "message": "Darbības"
+  },
+  "nlSort": {
+    "message": "Kārtot tikai šo tabulu"
+  },
+  "nlSelected": {
+    "message": "atlasīts"
+  },
+  "nlTestNode": {
+    "message": "Pārbaude"
+  },
+  "nlProfileShort": {
+    "message": "Profils"
+  },
+  "nlQuick": {
+    "message": "Ātrs latentums"
+  },
+  "nlFull": {
+    "message": "Lejupielādēt + augšupielādēt"
+  },
+  "nlTraffic": {
+    "message": "Testa datu lielums"
+  },
+  "nlConcurrency": {
+    "message": "Vienlaicīgi mezgli"
+  },
+  "nlTrafficFullOnly": {
+    "message": "Izmanto lejupielādes un augšupielādes testiem"
+  },
+  "nlTestMode": {
+    "message": "Testa režīms"
+  },
+  "nlBudget": {
+    "message": "Maksimālā kravnesība"
+  },
+  "nlViaGroup": {
+    "message": "Izmantojot grupas iepriekšēju starpniekserveri"
+  },
+  "nlTestSelected": {
+    "message": "Atlasīts tests"
+  },
+  "nlTestVisible": {
+    "message": "Pārbaudiet parādītos mezglus"
+  },
+  "nlTestAll": {
+    "message": "Pārbaudiet visus mezglus"
+  },
+  "nlTestGroup": {
+    "message": "Testa grupas mezgli"
+  },
+  "nlProgress": {
+    "message": "Mērījumu norise"
+  },
+  "nlReady": {
+    "message": "Izvēlieties mezglus, lai sāktu. Neviens tests nav izpildīts."
+  },
+  "nlStarting": {
+    "message": "Notiek izolēta mērījuma sākšana…"
+  },
+  "nlQueued": {
+    "message": "Rindā"
+  },
+  "nlRunning": {
+    "message": "Testēšana"
+  },
+  "nlStopping": {
+    "message": "Apturēšana…"
+  },
+  "nlComplete": {
+    "message": "Pabeigts"
+  },
+  "nlFailed": {
+    "message": "Neizdevās"
+  },
+  "nlStopped": {
+    "message": "Apturēts"
+  },
+  "nlPartial": {
+    "message": "Daļēja"
+  },
+  "nlUntested": {
+    "message": "Nav pārbaudīts"
+  },
+  "nlSucceeded": {
+    "message": "izturēts"
+  },
+  "nlMeasureDisconnected": {
+    "message": "Mērījumu savienojums ir beidzies. Nepilnīgas vērtības nav galīgie rezultāti."
+  },
+  "nlUpgrade": {
+    "message": "Atjauniniet vietējo pavadoni, lai pārvaldītu grupas un abonementus. Esošie mezgli joprojām ir pieejami."
+  },
+  "nlOperationFailed": {
+    "message": "Darbību nevarēja pabeigt. Mēģiniet vēlreiz."
+  },
+  "nlEditSubscription": {
+    "message": "Rediģēt abonementu"
+  },
+  "nlPasteContent": {
+    "message": "Starpniekservera saites / saturs"
+  },
+  "nlSubscriptionURL": {
+    "message": "Abonements URL"
+  },
+  "nlKeepURL": {
+    "message": "Atstājiet tukšu, lai saglabātu saglabāto URL"
+  },
+  "nlConnectionPolicy": {
+    "message": "Atjauniniet savienojumu"
+  },
+  "nlProxyFirst": {
+    "message": "Vispirms starpniekserveris, pēc tam tiešais atteices gadījumā"
+  },
+  "nlProxyOnly": {
+    "message": "Tikai starpniekserveris"
+  },
+  "nlDirectOnly": {
+    "message": "Tikai tieši"
+  },
+  "nlProxyFirstHelp": {
+    "message": "Starpniekserveris vispirms apstājas pēc veiksmīgas ielādes. Direct tiek mēģināts tikai tad, ja starpniekservera mēģinājums neizdodas."
+  },
+  "nlAutoUpdate": {
+    "message": "Iespējot automātiskos atjauninājumus"
+  },
+  "nlInterval": {
+    "message": "Atjaunināšanas intervāls (minūtes)"
+  },
+  "nlDestinationGroup": {
+    "message": "Galamērķa grupa"
+  },
+  "nlSubscriptionOwnGroup": {
+    "message": "Jauna grupa…"
+  },
+  "nlNameGroup": {
+    "message": "Vārds (grupa)"
+  },
+  "nlCustomGroup": {
+    "message": "Pielāgota grupa"
+  },
+  "nlNameRequired": {
+    "message": "Ievadiet nosaukumu."
+  },
+  "nlContentRequired": {
+    "message": "Ielīmējiet starpniekservera saites vai abonementa saturu."
+  },
+  "nlGroupRequired": {
+    "message": "Izvēlieties mērķa grupu."
+  },
+  "nlURLRequired": {
+    "message": "Ievadiet HTTP(S) abonementu URL bez lietotājvārda vai paroles."
+  },
+  "nlIntervalInvalid": {
+    "message": "Ievadiet veselu skaitli no 5 līdz 43200 minūtēm."
+  },
+  "folderTitle": {
+    "message": "Izvēlieties mapi v2rayN"
+  },
+  "folderHint": {
+    "message": "Izvēlieties mapi un pēc tam lietojiet to ar Saglabāt savienojuma iestatījumus."
+  },
+  "folderPath": {
+    "message": "Pilns lokālās mapes ceļš"
+  },
+  "folderGo": {
+    "message": "Atvērts"
+  },
+  "folderUp": {
+    "message": "Uz augšu"
+  },
+  "folderDrives": {
+    "message": "Diski"
+  },
+  "folderCurrent": {
+    "message": "Pašreizējais ceļš"
+  },
+  "folderChoose": {
+    "message": "Izmantojiet šo mapi"
+  },
+  "folderList": {
+    "message": "Mapes"
+  },
+  "folderTruncated": {
+    "message": "Saraksts ir ierobežots. Ievadiet pilnu ceļu iepriekš, lai atvērtu mapi, kas nav parādīta."
+  },
+  "folderReady": {
+    "message": "v2rayN faili atrasti. Izmantojiet šo mapi, lai apstiprinātu konfigurāciju."
+  },
+  "folderInvalid": {
+    "message": "Izvēlieties mapi, kurā ir guiConfigs, guiNConfig.json un guiNDB.db."
+  },
+  "folderSelectDrive": {
+    "message": "Izvēlieties vietējo disku vai ievadiet pilnu mapes ceļu."
+  },
+  "folderEmpty": {
+    "message": "Nav redzamu apakšmapju."
+  },
+  "folderUnavailable": {
+    "message": "Nevar pārlūkot šo mapi. Pārbaudiet tā ceļu un piekļuvi. Ja pavadonis ir vecāks, vispirms atjauniniet to."
+  },
+  "folderValidating": {
+    "message": "Notiek v2rayN konfigurācijas apstiprināšana…"
+  },
+  "folderInvalidConfig": {
+    "message": "v2rayN konfigurācija vai datu bāze ir nepilnīga vai nederīga. Izvēlieties citu mapi."
+  },
+  "copyPath": {
+    "message": "Kopēt ceļš"
+  },
+  "pathCopyHint": {
+    "message": "Kopējiet ceļu, kas pašlaik atrodas šajā laukā."
+  },
+  "preMode": {
+    "message": "Pirmsstarpniekservera režīms"
+  },
+  "preNode": {
+    "message": "Pirmsstarpniekservera mezgls"
+  },
+  "preIntro": {
+    "message": "Izmantojiet grupas ķēdi, izlaidiet to vai izvēlieties šim profilam iepriekšēju starpniekserveri."
+  },
+  "healthLabel": {
+    "message": "Pašreizējais savienojuma statuss"
+  },
+  "healthOk": {
+    "message": "Normāls"
+  },
+  "healthError": {
+    "message": "Nenormāli"
+  },
+  "healthChecking": {
+    "message": "Pārbaude"
+  },
+  "healthUnknown": {
+    "message": "Neapstiprināts"
+  },
+  "autoSystemHelp": {
+    "message": "Sistēmas noteikumiem vajadzīgs Windows komponents un fiksētā starpniekservera iestatījumu kopija. Pēc izmaiņām lietojiet atkārtoti. PAC/WPAD netiek atbalstīti; sistēma bez noteikumiem izmanto pārlūka sākotnējos iestatījumus."
+  },
+  "backgroundUnavailable": {
+    "message": "Paplašinājuma fons nav pieejams."
+  },
+  "backgroundNoResponse": {
+    "message": "Fons nereaģēja."
+  },
+  "backupTooLarge": {
+    "message": "Dublējums pārsniedz 5 MB."
+  },
+  "proxyUsername": {
+    "message": "Lietotājvārds"
+  },
+  "proxyPassword": {
+    "message": "Parole"
+  },
+  "proxyAuthHelp": {
+    "message": "Pēc izvēles. Autentificēti starpniekserveri savienojas, izmantojot kompanjonu. Akreditācijas dati tiek glabāti šajā pārlūkprogrammas konfigurācijā un pavadošajā programmā un iekļauti profila eksportēšanā."
+  },
+  "proxyAuthSocks4": {
+    "message": "SOCKS4 neatbalsta šo lietotājvārda/paroles autentifikāciju; izmantojiet HTTP(S) vai SOCKS5."
+  },
+  "importExamples": {
+    "message": "Formātu piemēri"
+  },
+  "ipCopying": {
+    "message": "Notiek kopēšana…"
+  },
+  "netDnsUnavailable": {
+    "message": "Servera adresi nevarēja noteikt laikā. Pārbaudiet saimniekdatora vai IP adresi un mēģiniet vēlreiz."
+  },
+  "netCurrentTarget": {
+    "message": "Atlasītais starpniekservera galapunkts"
+  },
+  "netCustomTarget": {
+    "message": "Pielāgots serveris"
+  },
+  "netHost": {
+    "message": "Uzņēmēja vai IP adrese"
+  },
+  "netPort": {
+    "message": "TCP ports"
+  },
+  "netHostRequired": {
+    "message": "Ievadiet servera resursdatora vai IP adresi."
+  },
+  "netCurrentUnavailable": {
+    "message": "Atlasiet mezglu vai manuālu starpniekservera profilu vai ievadiet pielāgotu mērķi."
+  },
+  "netInvalidTarget": {
+    "message": "Ievadiet derīgu diagnostikas resursdatoru un portu."
+  },
+  "netIpv6PingUnavailable": {
+    "message": "IPv6 ICMP nav pieejams; izmantojiet TCPing."
+  },
+  "preNeedsFix": {
+    "message": "Pirms saglabāšanas izvēlieties derīgu priekšstarpniekserveri vai bez tā."
+  },
+  "preConfigure": {
+    "message": "Konfigurēt iepriekšēju starpniekserveri"
+  },
+  "preFollowInvalid": {
+    "message": "Sekot v2rayN nepieņem pielāgotu iepriekšēju starpniekserveri."
+  },
+  "followChainHelp": {
+    "message": "Follow izmanto maršrutu un starpniekservera ķēdi, kas jau ir aktīva v2rayN."
+  },
+  "netTitle": {
+    "message": "Savienojuma testi"
+  },
+  "ipTestDetails": {
+    "message": "Testa detaļas"
+  },
+  "netTarget": {
+    "message": "Ping / TCPing mērķis"
+  },
+  "netDownload": {
+    "message": "Lejupielādes tests"
+  },
+  "netPartial": {
+    "message": "Daļējs paraugs"
+  },
+  "netComplete": {
+    "message": "Paraugs ir pabeigts"
+  },
+  "netDirect": {
+    "message": "Sistēmas tīkls"
+  },
+  "netUnreachable": {
+    "message": "Nav atbildes / neizdevās"
+  },
+  "netAverage": {
+    "message": "Vidēji"
+  },
+  "predecessor": {
+    "message": "Iepriekšējais starpniekserveris"
+  },
+  "preInherit": {
+    "message": "Izmantojiet v2rayN grupas ķēdi"
+  },
+  "preNone": {
+    "message": "Nav iepriekšēja starpniekservera"
+  },
+  "preSpecific": {
+    "message": "Izvēlieties mezglu"
+  },
+  "preHelp": {
+    "message": "Attiecas uz šo profilu. Izmantojiet v2rayN grupas ķēdi, bez iepriekšēja starpniekservera vai konkrēta mezgla. Follow v2rayN izmanto savu esošo ķēdi."
+  },
+  "preSelectRequired": {
+    "message": "Izvēlieties iepriekšēju starpniekservera mezglu vai atlasiet Grupas noklusējums / Nav."
+  },
+  "ipPing0Permission": {
+    "message": "Atļaut Ping0 piekļuvi vietnei, lai ielādētu publisko ziņojumu."
+  },
+  "ipPublicChallenge": {
+    "message": "Vietnei nepieciešama pārbaude. Atveriet Ping0 lapu, lai to pabeigtu un skatītu rezultātu."
+  },
+  "ipPublicReport": {
+    "message": "Ping0 publiskais ziņojums"
+  },
+  "ipPublicSource": {
+    "message": "Avots: Ping0 publiskā lapa"
+  },
+  "ipPublicOriginal": {
+    "message": "Ping0 ziņojums"
+  },
+  "ipPublicPartial": {
+    "message": "Tiek rādīti tikai publiskajā lapā norādītie lauki to oriģinālvalodā. Klasifikācijas un koplietoto lietotāju aprēķini ir no Ping0."
+  },
+  "setupTitle": {
+    "message": "Savienot Proxy V2Route"
+  },
+  "setupIntro": {
+    "message": "Instalējiet Windows pavadoni, lai izmantotu v2rayN maršrutus vai savus importētos mezglus."
+  },
+  "setupStepOne": {
+    "message": "Izvelciet atbilstošo pilno Windows pakotni pastāvīgā mapē."
+  },
+  "setupStepTwo": {
+    "message": "Atveriet V2Route-Setup.exe un noklikšķiniet uz Instalēt."
+  },
+  "setupStepThree": {
+    "message": "Atgriezieties šeit un pārbaudiet savienojumu. Ja nepieciešams, izvēlieties mapi v2rayN."
+  },
+  "setupCheck": {
+    "message": "Pārbaudiet savienojumu"
+  },
+  "downloadCompanion": {
+    "message": "Uzstādīšanas rokasgrāmata ↗"
+  },
+  "setupDownloadNote": {
+    "message": "Izmantojiet atbilstošo vietējo Windows pakotni vai izpildiet norādījumus, lai izveidotu to no pašreizējā avota."
+  },
+  "chooseFolder": {
+    "message": "Izvēlieties v2rayN mapi…"
+  },
+  "rescanDone": {
+    "message": "Vietējie mezgli ir atkārtoti skenēti"
+  },
+  "grouping": {
+    "message": "Grupas mezgli"
+  },
+  "groupByCountry": {
+    "message": "Pēc valsts"
+  },
+  "unknownCountry": {
+    "message": "Cits / Nezināms"
+  },
+  "ungrouped": {
+    "message": "Negrupēts"
+  },
+  "adjustNodeFilters": {
+    "message": "Izmēģiniet citu grupu, avotu vai meklēšanu vai parādiet slēptos mezglus."
+  },
+  "rescanLocal": {
+    "message": "Atkārtoti skenēt v2rayN mezglus"
+  },
+  "showHidden": {
+    "message": "Rādīt slēptos mezglus"
+  },
+  "hideNode": {
+    "message": "Slēpt"
+  },
+  "restoreNode": {
+    "message": "Atjaunot"
+  },
+  "hiddenNode": {
+    "message": "Slēpts"
+  },
+  "hideNodeHelp": {
+    "message": "Slēpt tikai šīs pārlūkprogrammas mezglu bibliotēkā. v2rayN un esošie profili ir nemainīgi."
+  },
+  "ipContextTimeout": {
+    "message": "Pašreizējā profila lasīšanai iestājās taimauts. Mēģiniet vēlreiz."
+  },
+  "ipStaleResult": {
+    "message": "Pašreizējais profils ir mainīts. Šis rezultāts var būt novecojis; pārbaudi vēlreiz."
+  },
+  "ip_tools": {
+    "message": "IP Instrumenti"
+  },
+  "ipIntro": {
+    "message": "Pašreizējā izeja IP un publiskais ziņojums."
+  },
+  "ipCurrentProfile": {
+    "message": "Pašreizējais pārlūkprogrammas profils"
+  },
+  "ipRouteCaution": {
+    "message": "Automātiskie noteikumi un PAC var izmantot dažādus maršrutus dažādiem galamērķiem. Šī pārbaude apraksta tikai paša pieprasījumu."
+  },
+  "ipDisclosure": {
+    "message": "Automātiskās pārbaudes izeja IP · Ziņojums: Ping0"
+  },
+  "ipMethod": {
+    "message": "Adreses pārbaude"
+  },
+  "ipDual": {
+    "message": "IPv4/IPv6"
+  },
+  "ipCheck": {
+    "message": "Pārbaudiet vēlreiz"
+  },
+  "ipChecking": {
+    "message": "Notiek pārbaude…"
+  },
+  "ipDualHelp": {
+    "message": "IPv4/IPv6 atgriež šim pieprasījumam izmantoto adrešu saimi, nevis abas adreses."
+  },
+  "ipDurationHelp": {
+    "message": "Pagājušais HTTP pieprasījuma laiks ietver tīkla un pakalpojuma atbildes laiku. Tas nav ICMP ping vai joslas platuma pārbaude."
+  },
+  "ipCopy": {
+    "message": "Kopija IP"
+  },
+  "ipCopied": {
+    "message": "Kopēts"
+  },
+  "ipCopyFailed": {
+    "message": "Nevarēja kopēt. Izvēlieties adresi un kopējiet to manuāli."
+  },
+  "ipNoResult": {
+    "message": "Vēl nav čeka"
+  },
+  "ipContextUnknown": {
+    "message": "Profils nav pieejams"
+  },
+  "ipTimeout": {
+    "message": "Pārbaudei iestājās noildze. Mēģiniet vēlreiz vai izmantojiet citu maršrutu."
+  },
+  "ipCancelled": {
+    "message": "Čeks atcelts"
+  },
+  "ipNetwork": {
+    "message": "Nevarēja sasniegt ipify. Pārbaudiet savienojumu un mēģiniet vēlreiz."
+  },
+  "ipHttp": {
+    "message": "Pakalpojums IP nepieņēma pieprasījumu. Vēlāk mēģiniet vēlreiz."
+  },
+  "ipInvalid": {
+    "message": "Pakalpojums IP sniedza nederīgu atbildi."
+  },
+  "ipFailure": {
+    "message": "Pārbaude neizdevās. Mēģiniet vēlreiz."
+  },
+  "ipStale": {
+    "message": "Pārbaudes laikā tika mainīti starpniekservera iestatījumi. Vecais rezultāts tika izmests; pārbaudi vēlreiz."
+  },
+  "ipQuality": {
+    "message": "Ārējie instrumenti"
+  },
+  "ipQualityPrivacy": {
+    "message": "Rīki darbojas tikai noklikšķinot. Pakalpojumu sniedzēji saņem parastos savienojuma datus. Vietnes pārbaudes nosūta pieprasījumus bez akreditācijas datiem pēc sākuma. Aizvēršana aptur vietējos testus; ārējās cilnes pārvalda pārlūkprogramma."
+  },
+  "ipReport": {
+    "message": "Kopēt rediģētu ziņojumu"
+  },
+  "ipReportCopied": {
+    "message": "Rediģētais ziņojums nokopēts; nav iekļauti IP vai profilu nosaukumi."
+  },
+  "popupSelected": {
+    "message": "Atlasīts"
+  },
+  "popupFooter": {
+    "message": "v2rayN un mezglu profili"
+  },
+  "subtitle": {
+    "message": "Neatkarīgi pārlūkprogrammas maršruti"
+  },
+  "profiles": {
+    "message": "Profili"
+  },
+  "nodes": {
+    "message": "Mezglu bibliotēka"
+  },
+  "settings": {
+    "message": "Iestatījumi"
+  },
+  "connected": {
+    "message": "Aktīvs profils"
+  },
+  "noProfile": {
+    "message": "Sistēmas noklusējums"
+  },
+  "newProfile": {
+    "message": "Jauns profils"
+  },
+  "searchProfiles": {
+    "message": "Meklēt profilus"
+  },
+  "direct": {
+    "message": "Tiešais tīkls"
+  },
+  "system": {
+    "message": "Sistēmas starpniekserveris"
+  },
+  "follow": {
+    "message": "Sekojiet v2rayN"
+  },
+  "manual": {
+    "message": "Manuāls starpniekserveris"
+  },
+  "auto": {
+    "message": "Automātisks slēdzis"
+  },
+  "pac": {
+    "message": "PAC skripts"
+  },
+  "virtual": {
+    "message": "Virtuālais profils"
+  },
+  "profileIntro": {
+    "message": "Izvēlieties pārlūkprogrammas maršrutu, nepārslēdzot v2rayN galveno maršrutu."
+  },
+  "nodesIntro": {
+    "message": "Pārlūkojiet vietējos v2rayN mezglus un importētās saites."
+  },
+  "settingsIntro": {
+    "message": "Vietējais savienojums, valoda un izskats."
+  },
+  "refresh": {
+    "message": "Atsvaidzināt"
+  },
+  "create": {
+    "message": "Izveidot profilu"
+  },
+  "name": {
+    "message": "Profila nosaukums"
+  },
+  "type": {
+    "message": "Profila veids"
+  },
+  "save": {
+    "message": "Saglabāt"
+  },
+  "saved": {
+    "message": "Saglabāts"
+  },
+  "saving": {
+    "message": "Notiek saglabāšana…"
+  },
+  "cancel": {
+    "message": "Atcelt"
+  },
+  "close": {
+    "message": "Aizvērt"
+  },
+  "apply": {
+    "message": "Izmantojiet šo profilu"
+  },
+  "applied": {
+    "message": "Profils mainīts"
+  },
+  "active": {
+    "message": "Aktīvs"
+  },
+  "delete": {
+    "message": "Dzēst"
+  },
+  "remove": {
+    "message": "Noņemt"
+  },
+  "rename": {
+    "message": "Pārdēvēt"
+  },
+  "route": {
+    "message": "Starpniekservera maršruts"
+  },
+  "selectRoute": {
+    "message": "Izvēlieties maršrutu"
+  },
+  "routeMissing": {
+    "message": "Maršruts nav pieejams — izvēlieties citu"
+  },
+  "chain": {
+    "message": "Savienojuma ķēde"
+  },
+  "connection": {
+    "message": "Vietējais savienojums"
+  },
+  "proxy": {
+    "message": "Starpniekserveris"
+  },
+  "address": {
+    "message": "Adrese"
+  },
+  "port": {
+    "message": "Osta"
+  },
+  "scheme": {
+    "message": "Protokols"
+  },
+  "proxyDns": {
+    "message": "SOCKS5 DNS atrisina, izmantojot starpniekserveri."
+  },
+  "connectedIdle": {
+    "message": "Savienots · Dīkstāve"
+  },
+  "bypass": {
+    "message": "Apvedceļu saraksts"
+  },
+  "bypassHelp": {
+    "message": "Viens domēns, aizstājējzīmju raksts, IP adrese vai IP:ports katrā rindā."
+  },
+  "advanced": {
+    "message": "Papildu opcijas"
+  },
+  "searchRoutes": {
+    "message": "Meklējiet grupas vai mezglus"
+  },
+  "selectGroup": {
+    "message": "Izvēlieties grupu"
+  },
+  "empty": {
+    "message": "Nav atbilstošu vienumu"
+  },
+  "unavailable": {
+    "message": "Nav pieejams"
+  },
+  "groupHint": {
+    "message": "Turiet grupu par 250 ms, pēc tam velciet. Alt + ↑ / ↓ arī pārkārto. Izmaiņas tiek saglabātas automātiski."
+  },
+  "searchSort": {
+    "message": "Pirms kārtošanas notīriet meklēšanu."
+  },
+  "dragHint": {
+    "message": "Pārvietojieties uz augšu vai uz leju, pēc tam atlaidiet, lai saglabātu. Esc atceļ."
+  },
+  "orderSaved": {
+    "message": "Grupas pasūtījums saglabāts"
+  },
+  "orderCancelled": {
+    "message": "Pārkārtošana atcelta"
+  },
+  "loading": {
+    "message": "Notiek ielāde…"
+  },
+  "reading": {
+    "message": "Notiek vietējo mezglu lasīšana…"
+  },
+  "nativeMissing": {
+    "message": "Vietējais komponents nav pievienots"
+  },
+  "retry": {
+    "message": "Mēģiniet vēlreiz"
+  },
+  "nativeHelp": {
+    "message": "Mezglu maršrutiem ir nepieciešams Windows pavadonis. Tagad ir pieejami tiešie, sistēmas un manuālie starpniekserveri."
+  },
+  "imported": {
+    "message": "Importēts"
+  },
+  "v2rayn": {
+    "message": "v2rayN"
+  },
+  "allSources": {
+    "message": "Visi avoti"
+  },
+  "importNodes": {
+    "message": "Importēt starpniekserverus"
+  },
+  "importTitle": {
+    "message": "Importēt starpniekserverus"
+  },
+  "importHelp": {
+    "message": "Ielīmējiet starpniekservera saites, izejošo JSON vai Base64 abonementu. SOCKS atbalsta vienkāršus vai Base64 akreditācijas datus. Adreses bez shēmām izmanto HTTP."
+  },
+  "importPrivacy": {
+    "message": "Starpniekservera informācija un akreditācijas dati tiek nodoti vietējam Proxy V2Route pavadonim glabāšanai un savienojumam ar jūsu atlasīto starpniekserveri. Izstrādātājs nesaņem šo informāciju."
+  },
+  "import": {
+    "message": "Importēt profilus"
+  },
+  "nodeCount": {
+    "message": "mezgli"
+  },
+  "source": {
+    "message": "Avots"
+  },
+  "protocol": {
+    "message": "Protokols"
+  },
+  "useNode": {
+    "message": "Izveidot profilu"
+  },
+  "removeNode": {
+    "message": "Vai noņemt importēto mezglu?"
+  },
+  "removeNodeHelp": {
+    "message": "Profili, kas izmanto šo mezglu, ir jāpiešķir atkārtoti, lai to varētu noņemt."
+  },
+  "deleteProfile": {
+    "message": "Vai dzēst šo profilu?"
+  },
+  "deleteProfileHelp": {
+    "message": "Tas noņem tikai šo pārlūkprogrammas profilu. Importētie mezgli un v2rayN konfigurācija tiek saglabāti."
+  },
+  "language": {
+    "message": "Valoda"
+  },
+  "automatic": {
+    "message": "Pārlūkprogrammas noklusējums"
+  },
+  "theme": {
+    "message": "Izskats"
+  },
+  "light": {
+    "message": "Gaisma"
+  },
+  "dark": {
+    "message": "Tumšs"
+  },
+  "switchToEnglish": {
+    "message": "Pārslēgties uz angļu valodu"
+  },
+  "switchToChinese": {
+    "message": "Pārslēdzieties uz vienkāršoto ķīniešu valodu"
+  },
+  "switchToLight": {
+    "message": "Pārslēdzieties uz gaišu izskatu"
+  },
+  "switchToDark": {
+    "message": "Pārslēgties uz tumšu izskatu"
+  },
+  "localComponent": {
+    "message": "Pavadošais komponents"
+  },
+  "ready": {
+    "message": "Savienots"
+  },
+  "stopped": {
+    "message": "Nedarbojas"
+  },
+  "discovery": {
+    "message": "v2rayN noteikšana"
+  },
+  "rootPath": {
+    "message": "v2rayN mape"
+  },
+  "corePath": {
+    "message": "Starpniekservera kodola izpildāmā programma"
+  },
+  "optionalPath": {
+    "message": "Atstājiet tukšu automātiskai noteikšanai"
+  },
+  "pathsHelp": {
+    "message": "v2rayN tiek noteikts automātiski; ja nepieciešams, izvēlieties tās mapi. Importētie mezgli izmanto iekļauto kodolu."
+  },
+  "savePaths": {
+    "message": "Saglabājiet savienojuma iestatījumus"
+  },
+  "privacy": {
+    "message": "Iestatījumi saglabāti lokāli"
+  },
+  "privacyText": {
+    "message": "Mezglu saites un akreditācijas dati paliek vietējā pavadoņā. Pārlūka trafika caur jūsu atlasīto starpniekserveri tiek novirzīta uz galamērķa vietnēm; izstrādātājs to nesaņem."
+  },
+  "privacyDetails": {
+    "message": "Privātums un datu plūsma"
+  },
+  "export": {
+    "message": "Eksportēt profilus"
+  },
+  "about": {
+    "message": "Aptuveni Proxy V2Route"
+  },
+  "aboutText": {
+    "message": "Izvēlieties pārlūkprogrammas maršrutu, nepārslēdzot v2rayN galveno maršrutu. Mezglu maršrutos tiek izmantots Windows pavadonis un jūsu pašu mezgli."
+  },
+  "licenses": {
+    "message": "Atvērtā pirmkoda paziņojumi"
+  },
+  "version": {
+    "message": "Versija"
+  },
+  "fieldRequired": {
+    "message": "Ievadiet profila nosaukumu."
+  },
+  "profileExists": {
+    "message": "Profils ar šādu nosaukumu jau pastāv."
+  },
+  "ruleHelp": {
+    "message": "Atdaliet domēnus vienā rindā ar komatiem. Uzvar pirmā atbilstošā rinda. Saglabājiet pieejamu noklusējuma maršrutu."
+  },
+  "rules": {
+    "message": "Maršrutēšanas noteikumi"
+  },
+  "pattern": {
+    "message": "Uzņēmēja modelis"
+  },
+  "target": {
+    "message": "Noteikuma mērķis"
+  },
+  "addRule": {
+    "message": "Pievienot noteikumu"
+  },
+  "defaultRoute": {
+    "message": "Noklusējuma profils"
+  },
+  "pacHelp": {
+    "message": "Ielīmēt uzticamu PAC avotu, kas satur FindProxyForURL. Šis skripts izlemj, kā tiek maršrutēti vietņu pieprasījumi."
+  },
+  "pacUrl": {
+    "message": "PAC URL"
+  },
+  "pacScript": {
+    "message": "PAC skripts"
+  },
+  "noSelection": {
+    "message": "Izvēlieties profilu vai izveidojiet to."
+  },
+  "details": {
+    "message": "Sīkāka informācija"
+  },
+  "noNodes": {
+    "message": "Vēl nav mezglu"
+  },
+  "noNodesHelp": {
+    "message": "Lai sāktu, pievienojiet v2rayN vai importējiet starpniekservera saites, JSON vai abonementu."
+  },
+  "openSettings": {
+    "message": "Atveriet iestatījumus"
+  },
+  "proxySettings": {
+    "message": "Starpniekservera iestatījumi"
+  },
+  "switching": {
+    "message": "Notiek pārslēgšana…"
+  },
+  "updatedElsewhere": {
+    "message": "Šis profils ir mainīts citā logā. Atkārtoti atveriet to pirms saglabāšanas."
+  },
+  "choose": {
+    "message": "Izvēlieties"
+  },
+  "popupIntro": {
+    "message": "Savienojums:"
+  },
+  "invalidPort": {
+    "message": "Ievadiet portu no 1 līdz 65535."
+  },
+  "externalControl": {
+    "message": "Cits paplašinājums vai politika kontrolē pārlūkprogrammas starpniekserveri."
+  },
+  "noNativeRoute": {
+    "message": "Pirms mezgla profila izveides pievienojiet vietējo komponentu."
+  },
+  "reload": {
+    "message": "Pārlādēt"
+  },
+  "rulesError": {
+    "message": "Katrai kārtulai nepieciešams paraugs un mērķis."
+  },
+  "backupDone": {
+    "message": "Pārlūka profili eksportēti"
+  },
+  "managed": {
+    "message": "Pārvaldīts mezgls"
+  },
+  "netRegion": {
+    "message": "Mērķa apgabals"
+  },
+  "netNodeArea": {
+    "message": "Starpniekservera mezgls"
+  },
+  "netChina": {
+    "message": "Kontinentālā Ķīna"
+  },
+  "netGlobal": {
+    "message": "Globāls"
+  },
+  "netAli": {
+    "message": "AliDNS"
+  },
+  "netTencent": {
+    "message": "DNSPod"
+  },
+  "netStartHelp": {
+    "message": "Izvēlieties mērķi un pēc tam sāciet tiešraides pārbaudi."
+  },
+  "netConsole": {
+    "message": "Dzīvā diagnostika"
+  },
+  "netStop": {
+    "message": "Apstāties"
+  },
+  "netRunning": {
+    "message": "Skriešana"
+  },
+  "netStopped": {
+    "message": "Apstājās"
+  },
+  "netSent": {
+    "message": "Nosūtīts"
+  },
+  "netLoss": {
+    "message": "Zaudējums"
+  },
+  "netAverageShort": {
+    "message": "Vid"
+  },
+  "netLogClear": {
+    "message": "Skaidrs"
+  },
+  "netFinishing": {
+    "message": "Iepriekšējā zonde tiek pabeigta…"
+  },
+  "netRound": {
+    "message": "Kārta"
+  },
+  "netDestination": {
+    "message": "Galamērķis"
+  },
+  "netHop": {
+    "message": "Apinis"
+  },
+  "netAddress": {
+    "message": "IP adrese"
+  },
+  "netLast": {
+    "message": "Pēdējais"
+  },
+  "netConsoleHelp": {
+    "message": "Ping / TCPing / MTR izmanto sistēmas tīklu, nevis starpniekservera ķēdi. Trūkstošās ICMP atbildes nepierāda satiksmes zudumu. Lejupielādē tiek izmantots pārlūkprogrammas maršruts un atlasītais izmēra ierobežojums. Pārbaudes tiek pārtrauktas, kad pametat vai paslēpjat šo lapu."
+  },
+  "netDirectShort": {
+    "message": "Sistēmas tīkls"
+  },
+  "netIcmpShort": {
+    "message": "Nr ICMP atbilde"
+  },
+  "netProbeError": {
+    "message": "Vietējā zondes kļūda"
+  },
+  "netNoDestination": {
+    "message": "Galamērķis nav sasniegts"
+  },
+  "deleteActive": {
+    "message": "Pārslēdzieties uz sistēmu un dzēsiet"
+  },
+  "deleteActiveHelp": {
+    "message": "Šis profils ir aktīvs. Dzēšot to, pārlūkprogramma tiek pārslēgta uz sistēmas starpniekserveri."
+  },
+  "netDownloadSize": {
+    "message": "Lejupielādes lielums"
+  },
+  "netReceived": {
+    "message": "Saņemts"
+  },
+  "netBest": {
+    "message": "Labākais"
+  },
+  "netWorst": {
+    "message": "Sliktākais"
+  },
+  "netStdDev": {
+    "message": "Std dev"
+  },
+  "netLocation": {
+    "message": "Atrašanās vieta"
+  },
+  "toolWall": {
+    "message": "Domēna bloķēšanas pārbaude"
+  },
+  "toolSites": {
+    "message": "Populāras vietnes"
+  },
+  "toolGlobal": {
+    "message": "Globālā diagnostika"
+  },
+  "toolFast": {
+    "message": "Netflix ātrums"
+  },
+  "toolSpeed": {
+    "message": "Ātruma pārbaude"
+  },
+  "toolStart": {
+    "message": "Sākt"
+  },
+  "toolReady": {
+    "message": "Gatavs"
+  },
+  "toolResponded": {
+    "message": "Atbildēts"
+  },
+  "toolNoResponse": {
+    "message": "Neapstiprināts"
+  },
+  "toolCacheUnsupported": {
+    "message": "Šī pārlūkprogramma nevar notīrīt kešatmiņu pēc vietnes; lapa ir pārlādēta."
+  },
+  "toolCacheFailed": {
+    "message": "Kešatmiņas tīrīšana netika pabeigta. Aizveriet un mēģiniet vēlreiz."
+  },
+  "toolClose": {
+    "message": "Aizvērt"
+  },
+  "toolReload": {
+    "message": "Pārlādēt"
+  },
+  "toolLoading": {
+    "message": "Notiek ielāde…"
+  },
+  "toolFrameError": {
+    "message": "Nevarēja ielādēt. Mēģiniet atkārtoti ielādēt."
+  },
+  "toolSiteHelp": {
+    "message": "Tikai pārlūkprogrammas sasniedzamība. Tas neapstiprina konta vai reģionālo piekļuvi."
+  },
+  "toolFallback": {
+    "message": "Rezerves ātruma pārbaude"
+  },
+  "toolFullscreen": {
+    "message": "Pilnekrāna režīms"
+  },
+  "toolRestore": {
+    "message": "Iziet pilnekrāna režīmā"
+  },
+  "ipReadFailed": {
+    "message": "Lasīšana neizdevās. 👉"
+  },
+  "ipViewSource": {
+    "message": "Skatīt avota vietni"
+  },
+  "toolDownloadError": {
+    "message": "Nevarēja sasniegt lejupielādes serveri. Mēģiniet vēlreiz."
+  },
+  "toolAccess": {
+    "message": "Iespējot piekļuvi vietnei"
+  },
+  "toolPermission": {
+    "message": "Atļaujiet piekļuvi šai vietnei, lai nodrošinātu iegultās sesijas saderību."
+  },
+  "toolAsia": {
+    "message": "Āzija"
+  },
+  "toolEurope": {
+    "message": "Eiropa"
+  },
+  "toolAmerica": {
+    "message": "Ziemeļamerika"
+  },
+  "toolGlobalHelp": {
+    "message": "Iepriekš aizpilda pārlūkprogrammas izeju IP. Izvēlieties kontinentālo Ķīnu vai citu reģionu, lai salīdzinātu ceļus; Start nosūta parādīto mērķi līdz trim Globalping zondēm."
+  },
+  "toolServiceError": {
+    "message": "Testēšanas pakalpojums nav pieejams. Mēģiniet vēlreiz."
+  },
+  "popupOrderHelp": {
+    "message": "Turiet un velciet, lai pārkārtotu. Alt+bulttaustiņi arī pārvieto šo profilu."
+  },
+  "popupOrderSaved": {
+    "message": "Pasūtījums saglabāts"
+  },
+  "toolGroupIP": {
+    "message": "IP testi"
+  },
+  "toolGroupWeb": {
+    "message": "Vietņu testi"
+  },
+  "toolGroupSpeed": {
+    "message": "Ātrums"
+  },
+  "toolCurrentIP": {
+    "message": "Pašreizējā izeja IP"
+  },
+  "toolCurrentIPLoading": {
+    "message": "Notiek strāvas izejas ielāde IP…"
+  },
+  "toolCurrentIPFailed": {
+    "message": "Nevarēja nolasīt pašreizējo IP. Ievadiet mērķi."
+  },
+  "speedMode": {
+    "message": "Testa režīms"
+  },
+  "speedBoth": {
+    "message": "Lejupielādēt + augšupielādēt"
+  },
+  "speedDownload": {
+    "message": "Lejupielādēt"
+  },
+  "speedUpload": {
+    "message": "Augšupielādēt"
+  },
+  "speedLatency": {
+    "message": "HTTP latentums"
+  },
+  "speedBudget": {
+    "message": "{n} MiB katrā fāzē · {total} MiB kopā, plus nelieli latentuma paraugi."
+  },
+  "siteCategory": {
+    "message": "Vietnes kategorija"
+  },
+  "siteAll": {
+    "message": "Visas tīmekļa vietnes"
+  },
+  "siteAI": {
+    "message": "AI"
+  },
+  "siteDevelopment": {
+    "message": "Attīstība"
+  },
+  "siteVideo": {
+    "message": "Video/mūzika"
+  },
+  "siteSocial": {
+    "message": "Sociālie"
+  },
+  "siteDomestic": {
+    "message": "Kontinentālās daļas pakalpojumi"
+  },
+  "siteServices": {
+    "message": "Kopējie pakalpojumi"
+  },
+  "globalMethod": {
+    "message": "Mērījumu veids"
+  },
+  "localPort": {
+    "message": "Vietējā osta:"
+  },
+  "chainChooseNode": {
+    "message": "Izvēlieties starpniekservera mezglu"
+  },
+  "chainTitle": {
+    "message": "Starpniekservera ķēde"
+  },
+  "chainSelectExit": {
+    "message": "Tālāk izvēlieties konkrētu izejas mezglu, lai saglabātu vai pārbaudītu šo pielāgoto ķēdi. Sekošanu v2rayN pārvalda v2rayN."
+  },
+  "chainSelectExitShort": {
+    "message": "Atlasiet izejas mezglu"
+  },
+  "chainAdd": {
+    "message": "+ Pievienojiet starpniekservera slāni"
+  },
+  "chainTest": {
+    "message": "Pārbaudes ķēde"
+  },
+  "chainMode": {
+    "message": "Ķēdes režīms"
+  },
+  "chainBase": {
+    "message": "Bāzes starpniekserveris"
+  },
+  "chainExit": {
+    "message": "Iziet no starpniekservera"
+  },
+  "chainEgress": {
+    "message": "Ķēdes izeja"
+  },
+  "chainExitBadge": {
+    "message": "Izeja IP"
+  },
+  "chainEntry": {
+    "message": "Ķēdes ievade"
+  },
+  "chainTransit": {
+    "message": "Tilta mezgls"
+  },
+  "chainUntested": {
+    "message": "Nav pārbaudīts"
+  },
+  "chainMissing": {
+    "message": "Nav pieejams mezgls"
+  },
+  "chainUnresolved": {
+    "message": "Nevar atrisināt mantoto ķēdi. Labojiet iepriekšējos iestatījumus vai izvēlieties pielāgotu ķēdi."
+  },
+  "chainUpgrade": {
+    "message": "Atjauniniet vietējo pavadoni, lai iespējotu pasūtītās ķēdes."
+  },
+  "chainBusy": {
+    "message": "Notiek vēl viena ķēdes pārbaude"
+  },
+  "chainOK": {
+    "message": "Sasniedzams"
+  },
+  "chainFailed": {
+    "message": "Neizdevās lēciens šajā testā"
+  },
+  "chainBlocked": {
+    "message": "Nav pārbaudīts · Iepriekšējais lēciens neizdevās"
+  },
+  "chainFailureHelp": {
+    "message": "Šis lēciens vai ceļš uz to neizturēja. Vēlāk apiņi netika pārbaudīti."
+  },
+  "chainAllOK": {
+    "message": "Visi kumulatīvie ceļi atbildēja"
+  },
+  "chainStopping": {
+    "message": "Apstāšanās pēc pašreizējās ierobežotās zondes…"
+  },
+  "globalWorld": {
+    "message": "Visā pasaulē"
+  },
+  "globalUnavailable": {
+    "message": "Mērķis vai reģions nav pieejams. Pārbaudiet mērķi vai izvēlieties citu reģionu."
+  },
+  "globalRateLimited": {
+    "message": "Tika sasniegts pakalpojuma ātruma ierobežojums. Vēlāk mēģiniet vēlreiz."
+  },
+  "globalNoResults": {
+    "message": "Pakalpojums nesniedza pārbaudes rezultātus. Izmēģiniet citu reģionu."
+  },
+  "globalProbeFailed": {
+    "message": "Zonde neizdevās"
+  },
+  "globalProbeOffline": {
+    "message": "Izpēte bezsaistē"
+  },
+  "globalIcmpCaution": {
+    "message": "Trūkstošās ICMP atbildes vien nepierāda bloķēšanu. Salīdziniet kontinentālās un aizjūras ceļus un citus testa veidus."
+  },
+  "speedRealtime": {
+    "message": "Tiešais ātrums"
+  },
+  "speedAverage": {
+    "message": "Vidējais ātrums"
+  },
+  "ipToolsBrief": {
+    "message": "Trešo pušu rezultāti ir atsaucei."
+  },
+  "ipReportBrief": {
+    "message": "Rezultāti atšķiras atkarībā no izejas IP un ir paredzēti atsaucei."
+  },
+  "toolPingPe": {
+    "message": "IP bloķēšanas pārbaude"
+  },
+  "toolTargetIP": {
+    "message": "Mērķis IP"
+  },
+  "toolOpenPingPe": {
+    "message": "Atklāta oficiāla pārbaude"
+  },
+  "toolInvalidIP": {
+    "message": "Ievadiet derīgu IPv4 vai IPv6 adresi."
+  },
+  "toolInvalidPort": {
+    "message": "Ievadiet TCP portu no 1 līdz 65535."
+  },
+  "toolExternalFailed": {
+    "message": "Nevarēja atvērt vietni. Mēģiniet vēlreiz."
+  },
+  "ipBrowserReading": {
+    "message": "Lasot Ping0, izmantojot pārlūkprogrammu…"
+  },
+  "ipVerifyBrowser": {
+    "message": "Atveriet verifikācijas lapu"
+  },
+  "policyCenter": {
+    "message": "Privātums, deklarācija un FAQ"
+  },
+  "policyCenterIntro": {
+    "message": "Vietējā datu apstrāde, pārbaudes ierobežojumi un izplatītas atbildes."
+  },
+  "policyPrivacyTitle": {
+    "message": "Privātuma politika"
+  },
+  "policyPrivacySummary": {
+    "message": "Profili un akreditācijas dati paliek šajā ierīcē. Uznirstošo logu pārbaudes un diagnostika sazinieties ar norādītajiem pakalpojumu sniedzējiem. Nav reklāmas vai uzvedības analīzes."
+  },
+  "policyDeclarationTitle": {
+    "message": "Lietošanas un mērījumu paziņojums"
+  },
+  "policyDeclarationSummary": {
+    "message": "Šis paplašinājums ir vietējais maršruta pārvaldnieks, nevis starpniekserveris vai VPN nodrošinātājs. Mērījumi ir atsauces paraugi, kurus ietekmē tīkla, starpniekservera un pakalpojumu sniedzēja nosacījumi."
+  },
+  "policyFaqTitle": {
+    "message": "FAQ"
+  },
+  "policyFaqSummary": {
+    "message": "Vietējiem mezgliem un MTR ir nepieciešams pavadonis Windows. Latentums var atšķirties pārlūkprogrammā, sistēmā un publiskajā zondē. Apturiet pārbaudi vai notīriet vietējos datus sadaļā Iestatījumi."
+  },
+  "policyDetailsLink": {
+    "message": "Lasiet visu informāciju ↗"
+  },
+  "thirdPartyNotice": {
+    "message": "Atvērtā pirmkoda paziņojumi ↗"
+  },
+  "columnResizeHelp": {
+    "message": "Velciet, lai mainītu izmēru; veiciet dubultklikšķi, lai atiestatītu; izmantojiet bulttaustiņus, lai pielāgotu"
+  },
+  "columnResize": {
+    "message": "Mainīt kolonnas izmērus"
+  },
+  "typeDescription_node": {
+    "message": "Izveidojiet savienojumu, izmantojot starpniekservera mezglu"
+  },
+  "typeDescription_manual": {
+    "message": "Manuāli ievadiet starpniekservera iestatījumus"
+  },
+  "typeDescription_auto": {
+    "message": "Atlasiet mezglu, izmantojot noteikumus"
+  },
+  "typeDescription_pac": {
+    "message": "Maršruta satiksme, izmantojot PAC noteikumus"
+  },
+  "appDescription": {
+    "message": "Pārlūka starpniekservera maršruti, mezgli un domēna noteikumi. Mezglu maršrutiem ir nepieciešams Windows pavadonis."
+  },
+  "core_title": {
+    "message": "Starpniekservera kodols"
+  },
+  "core_checking": {
+    "message": "Notiek vietējā komponenta pārbaude…"
+  },
+  "core_ready": {
+    "message": "Xray ir gatavs"
+  },
+  "core_missing": {
+    "message": "Trūkst starpniekservera kodola"
+  },
+  "core_external": {
+    "message": "Pielāgots kodols: nav pārbaudīts"
+  },
+  "core_corrupt": {
+    "message": "Xray kontrolsummas neatbilstība — nepieciešams remonts"
+  },
+  "core_unreadable": {
+    "message": "Pamatfailu nevarēja pārbaudīt"
+  },
+  "core_intro": {
+    "message": "Pilnajā Windows komplektā ietilpst Xray. v2rayN nav obligāta."
+  },
+  "core_verify": {
+    "message": "Pārbaudiet vēlreiz"
+  },
+  "core_install": {
+    "message": "Instalējiet/remontējiet kodolu"
+  },
+  "core_installing": {
+    "message": "Notiek lejupielāde un pārbaude…"
+  },
+  "core_done": {
+    "message": "Kodols ir pārbaudīts un gatavs"
+  },
+  "core_help": {
+    "message": "Repair izmanto piespraustu oficiālo Xray laidienu un pārbauda tā kontrolsummu. Esošie savienojumi turpina darboties."
+  },
+  "core_absent": {
+    "message": "Vienreiz instalējiet vietējo komponentu, pēc tam atgriezieties šeit, lai pārbaudītu kodolu."
+  },
+  "core_download": {
+    "message": "Uzstādīšanas rokasgrāmata"
+  },
+  "core_absentHelp": {
+    "message": "Izmantojiet atbilstošo Windows pakotni vai izpildiet norādījumus, lai izveidotu to no avota, un pēc tam palaidiet iestatīšanu."
+  },
+  "core_failed": {
+    "message": "Pamatdarbība neizdevās. Mēģiniet vēlreiz vai izmantojiet visu Windows pakotni."
+  },
+  "core_version": {
+    "message": "Versija"
+  },
+  "error_ACTIVE_PROFILE_DELETE": {
+    "message": "Pirms dzēšanas pārslēdzieties uz citu profilu"
+  },
+  "error_BACKUP_BINDING_TYPE": {
+    "message": "Maršrutu piesaistes var būt tikai starpniekservera profiliem"
+  },
+  "error_BACKUP_FORMAT3_REQUIRED": {
+    "message": "Mezglu kārtulām vajadzīga pārnesama dublējumkopija formātā 3"
+  },
+  "error_BACKUP_INDEPENDENT_PATH_REQUIRED": {
+    "message": "Dublējumkopijai jāsatur neatkarīgs mezglu ceļš"
+  },
+  "error_BACKUP_INTERNAL_BINDINGS": {
+    "message": "Dublējumkopija satur iekšējas piesaistes"
+  },
+  "error_BACKUP_MESSAGE_LIMIT": {
+    "message": "Mezglu dublējumkopija pārsniedz pavadošās lietotnes ziņojuma lieluma ierobežojumu"
+  },
+  "error_BACKUP_NODES_INCOMPLETE": {
+    "message": "Nepilnīga mezglu dublējumkopija"
+  },
+  "error_BACKUP_NODE_MISSING": {
+    "message": "Dublējumkopijā trūkst nepieciešama mezgla"
+  },
+  "error_BACKUP_NODE_PATHS_LIMIT": {
+    "message": "Dublējumkopija atbalsta ne vairāk kā {limit} mezglu ceļus"
+  },
+  "error_BACKUP_PATH_INCOMPLETE": {
+    "message": "Nepilnīgs mezglu ceļš dublējumkopijā"
+  },
+  "error_BACKUP_PROFILES_LIMIT": {
+    "message": "Dublējumkopija atbalsta ne vairāk kā {limit} profilus"
+  },
+  "error_BACKUP_PROXY_CONFLICT": {
+    "message": "Dublējumkopijā ir konfliktējoši starpniekservera iestatījumi"
+  },
+  "error_BACKUP_SIZE_LIMIT": {
+    "message": "Dublējumkopija pārsniedz {limit} MB"
+  },
+  "error_BACKUP_TRANSFER_UNAVAILABLE": {
+    "message": "Lai pārsūtītu mezglu dublējumkopijas, atjauniniet vai salabojiet pavadošo lietotni."
+  },
+  "error_BACKUP_UNUSED_NODES": {
+    "message": "Dublējumkopijā ir mezgli bez atsaucēm"
+  },
+  "error_BODY_TOO_LARGE": {
+    "message": "Abonementa atbilde pārsniedz atļauto lielumu."
+  },
+  "error_BROWSER_API_FAILED": {
+    "message": "Pārlūka darbība neizdevās. Skatiet tehnisko informāciju."
+  },
+  "error_BROWSER_PROXY_RESTORE_FAILED": {
+    "message": "Darbība neizdevās, un pārlūka iepriekšējo starpniekserveri nevarēja atjaunot"
+  },
+  "error_BROWSER_SCHEDULING_UNAVAILABLE": {
+    "message": "Pārlūka plānošana nav pieejama."
+  },
+  "error_BUSY": {
+    "message": "Notiek cita darbība. Pēc brīža mēģiniet vēlreiz."
+  },
+  "error_CHAIN_PROBE_FAILED": {
+    "message": "Ķēdes pārbaude neizdevās"
+  },
+  "error_COMPANION_BULK_RELEASE_REQUIRED": {
+    "message": "Lai droši pārvaldītu vairākas mezglu kārtulas, jauniniet vietējo pavadošo lietotni"
+  },
+  "error_COMPANION_CHAINS_REQUIRED": {
+    "message": "Lai iespējotu sakārtotas ķēdes, jauniniet vietējo pavadošo lietotni"
+  },
+  "error_COMPANION_MESSAGE_LIMIT": {
+    "message": "Iestatījumi pārsniedz pavadošās lietotnes ziņojuma lieluma ierobežojumu"
+  },
+  "error_COMPANION_OPERATION_FAILED": {
+    "message": "Vietējās pavadošās lietotnes darbība neizdevās. Skatiet tehnisko informāciju."
+  },
+  "error_COMPANION_UNAVAILABLE": {
+    "message": "Instalējiet vai salabojiet V2Route Companion"
+  },
+  "error_CONNECTION_CLOSED": {
+    "message": "Savienojums tika aizvērts pirms pārbaudes beigām."
+  },
+  "error_CORE_INSTALL_FAILED": {
+    "message": "Kodola instalēšana neizdevās. Skatiet tehnisko informāciju."
+  },
+  "error_CORE_OWNERSHIP_FAILED": {
+    "message": "Izolēto pārbaudes kodolu nevarēja droši vadīt. Pārbaude tika apturēta."
+  },
+  "error_CORE_START_FAILED": {
+    "message": "Izolēto pārbaudes kodolu nevarēja palaist. Pārbaudiet pavadošās lietotnes un kodola instalāciju."
+  },
+  "error_CORE_START_TIMEOUT": {
+    "message": "Izolētais pārbaudes kodols nebija gatavs laikus."
+  },
+  "error_CORE_STATUS_UNAVAILABLE": {
+    "message": "Kodola statuss nav pieejams. Skatiet tehnisko informāciju."
+  },
+  "error_CORE_VALIDATION_FAILED": {
+    "message": "Xray nevarēja validēt importētos mezglus. Pārbaudiet to iestatījumus un mēģiniet vēlreiz."
+  },
+  "error_DETACH_PORT_CONFLICT": {
+    "message": "Pārvaldītais ports tiks atbrīvots. Ievadiet citu manuālo starpniekserveri"
+  },
+  "error_DETACH_PROXY_REQUIRED": {
+    "message": "Pirms atsaistīšanas ievadiet aizstājošo manuālo starpniekserveri"
+  },
+  "error_DNS_BUSY": {
+    "message": "DNS uzmeklēšana ir aizņemta. Pēc brīža mēģiniet vēlreiz."
+  },
+  "error_DNS_FAILED": {
+    "message": "DNS uzmeklēšana neizdevās. Pārbaudiet adresi un tīkla savienojumu."
+  },
+  "error_ENCODING_UNSUPPORTED": {
+    "message": "Abonements izmanto neatbalstītu satura kodējumu."
+  },
+  "error_FIREFOX_PRIVATE_ACCESS_REQUIRED": {
+    "message": "Pirms starpniekservera iestatījumu maiņas paplašinājuma informācijā atļaujiet V2Route privātajos logos"
+  },
+  "error_FOLDER_UNAVAILABLE": {
+    "message": "Mape nav pieejama; pārbaudiet ceļu, piekļuvi un pavadošās lietotnes versiju"
+  },
+  "error_GROUP_LIMIT": {
+    "message": "Sasniegts grupu skaita ierobežojums. Noņemiet neizmantotu grupu un mēģiniet vēlreiz."
+  },
+  "error_GROUP_NOT_EDITABLE": {
+    "message": "Šo avota grupu šeit nevar rediģēt."
+  },
+  "error_GROUP_NOT_FOUND": {
+    "message": "Atlasītā grupa vairs nepastāv. Atlasiet citu grupu."
+  },
+  "error_HTTP_ENCODING": {
+    "message": "Pārbaudes serveris atgrieza neatbalstītu kodējumu."
+  },
+  "error_HTTP_LENGTH": {
+    "message": "Pārbaudes atbildes lielums neatbilda pieprasītajam."
+  },
+  "error_HTTP_RESPONSE_TOO_LARGE": {
+    "message": "Pārbaudes atbilde pārsniedza atļauto lielumu."
+  },
+  "error_HTTP_STATUS": {
+    "message": "Pārbaudes serveris atgrieza neveiksmīgu HTTP statusu."
+  },
+  "error_IMPORTED_PROXY_MISSING": {
+    "message": "Pavadošā lietotne neatgrieza importēto starpniekserveri"
+  },
+  "error_IMPORTED_RULE_PATH_CONFLICT": {
+    "message": "Importētie mezgli noved pie konfliktējošiem kārtulu ceļiem"
+  },
+  "error_IMPORT_CLEANUP_FAILED": {
+    "message": "Importēšana neizdevās; dažus pagaidu mezglus vai portus nevarēja atbrīvot. Esošie profili tika saglabāti"
+  },
+  "error_IMPORT_PROFILE_NAME_CONFLICT": {
+    "message": "Dublēts vai nederīgs profila nosaukums"
+  },
+  "error_INCOMPLETE_RESPONSE": {
+    "message": "Abonementa atbilde bija nepilnīga. Mēģiniet vēlreiz."
+  },
+  "error_INVALID_BACKUP": {
+    "message": "Nederīga V2Route dublējumkopija"
+  },
+  "error_INVALID_BACKUP_NODE": {
+    "message": "Nederīgs vai dublēts dublējumkopijas mezgls"
+  },
+  "error_INVALID_BACKUP_NODES": {
+    "message": "Nederīgi dublējumkopijas mezgli"
+  },
+  "error_INVALID_BACKUP_PATH": {
+    "message": "Nederīgs dublējumkopijas ceļš"
+  },
+  "error_INVALID_BYPASS_ENTRY": {
+    "message": "Nederīgs apiešanas ieraksts"
+  },
+  "error_INVALID_BYPASS_LIST": {
+    "message": "Nederīgs apiešanas saraksts"
+  },
+  "error_INVALID_CHAIN": {
+    "message": "Nederīga sakārtota ķēde"
+  },
+  "error_INVALID_CHAIN_PROBE": {
+    "message": "Nederīga ķēdes pārbaude"
+  },
+  "error_INVALID_COMPANION_RESPONSE": {
+    "message": "Vietējā pavadošā lietotne atgrieza nederīgu atbildi. Atjauniniet vai salabojiet to."
+  },
+  "error_INVALID_CONTENT": {
+    "message": "Abonementa atbildē nav derīga satura."
+  },
+  "error_INVALID_DOMAIN_PATTERNS": {
+    "message": "Ievadiet ar komatiem atdalītus domēnu paraugus; katru URL ievietojiet atsevišķā rindā"
+  },
+  "error_INVALID_ENCODING": {
+    "message": "Abonementa atbilde nav derīgs UTF-8 teksts."
+  },
+  "error_INVALID_FOLDER_REQUEST": {
+    "message": "Nederīgs mapes pieprasījums"
+  },
+  "error_INVALID_GROUP_ACTION": {
+    "message": "Šī grupas darbība netiek atbalstīta."
+  },
+  "error_INVALID_HOP_INDEX": {
+    "message": "Nederīgs lēciena indekss"
+  },
+  "error_INVALID_LEGACY_PREDECESSOR": {
+    "message": "Nederīgs mantotais priekšgājējs"
+  },
+  "error_INVALID_LIBRARY_COMMAND": {
+    "message": "Šī mezglu bibliotēkas komanda netiek atbalstīta."
+  },
+  "error_INVALID_LIBRARY_REQUEST": {
+    "message": "Nederīgs bibliotēkas pieprasījums"
+  },
+  "error_INVALID_NAME": {
+    "message": "Ievadiet nosaukumu ar 1–128 redzamām rakstzīmēm bez vadības rakstzīmēm."
+  },
+  "error_INVALID_NETWORK_TEST": {
+    "message": "Nederīga tīkla pārbaude"
+  },
+  "error_INVALID_NODE_IMPORT_RESPONSE": {
+    "message": "Nederīga mezglu importēšanas atbilde"
+  },
+  "error_INVALID_PREDECESSOR": {
+    "message": "Šim maršrutam nederīgs priekšgājējs"
+  },
+  "error_INVALID_PROFILE_NAME": {
+    "message": "Nederīgs profila nosaukums"
+  },
+  "error_INVALID_PROFILE_REFERENCE": {
+    "message": "Nederīga profila atsauce"
+  },
+  "error_INVALID_PROXY_AUTH": {
+    "message": "Nederīga starpniekservera autentifikācija"
+  },
+  "error_INVALID_PROXY_CREDENTIALS": {
+    "message": "Nederīgi starpniekservera akreditācijas dati"
+  },
+  "error_INVALID_PROXY_ENDPOINT": {
+    "message": "Ievadiet derīgu starpniekservera resursdatoru un portu"
+  },
+  "error_INVALID_PROXY_HOST": {
+    "message": "Ievadiet DNS nosaukumu vai IP adresi bez porta, URL, ceļa vai vaicājuma"
+  },
+  "error_INVALID_ROUTE": {
+    "message": "Nederīgs maršruts"
+  },
+  "error_INVALID_ROUTE_SETTINGS": {
+    "message": "Nederīgi maršruta iestatījumi"
+  },
+  "error_INVALID_RULES": {
+    "message": "Nederīgas kārtulas"
+  },
+  "error_INVALID_RULE_TARGET": {
+    "message": "Katrai kārtulai izvēlieties vienu derīgu mezglu vai profilu"
+  },
+  "error_INVALID_SUBSCRIPTION": {
+    "message": "Nederīgs abonements"
+  },
+  "error_INVALID_SUBSCRIPTION_REQUEST": {
+    "message": "Nederīgs abonementa pieprasījums"
+  },
+  "error_INVALID_SUBSCRIPTION_SETTINGS": {
+    "message": "Abonementa iestatījumi nav derīgi. Pārbaudiet atjaunināšanas intervālu un savienojuma politiku."
+  },
+  "error_INVALID_SYSTEM_PROXY_RESPONSE": {
+    "message": "Nederīga sistēmas starpniekservera atbilde; atjauniniet vai salabojiet pavadošo lietotni"
+  },
+  "error_INVALID_TRANSPORT": {
+    "message": "Abonementa savienojuma iestatījumi nav derīgi."
+  },
+  "error_INVALID_URL": {
+    "message": "Ievadiet derīgu HTTP(S) abonementa URL bez lietotājvārda vai paroles."
+  },
+  "error_LIBRARY_CHANGED": {
+    "message": "Mezglu bibliotēka tika mainīta citā logā. Atsvaidziniet to un mēģiniet vēlreiz."
+  },
+  "error_MANUAL_CHAIN_UNSUPPORTED": {
+    "message": "Manuālie starpniekserveri nepieņem mezglu ķēdi"
+  },
+  "error_MANUAL_PROXY_CLEANUP_FAILED": {
+    "message": "Saglabāšana neizdevās; mezglu bibliotēkā palika pagaidu importēts starpniekserveris"
+  },
+  "error_NATIVE_BINDING_ID": {
+    "message": "Nederīgs maršruta piesaistes identifikators."
+  },
+  "error_NATIVE_BINDING_UNKNOWN": {
+    "message": "Maršruta piesaiste nepastāv."
+  },
+  "error_NATIVE_BUTTON_NAME": {
+    "message": "Pogas nosaukumā jābūt 1–128 redzamām rakstzīmēm."
+  },
+  "error_NATIVE_CATALOG_UNREADABLE": {
+    "message": "Nevarēja nolasīt v2rayN konfigurāciju."
+  },
+  "error_NATIVE_CORE_MISSING": {
+    "message": "Xray nav pieejams. Instalējiet pavadošās lietotnes pakotni."
+  },
+  "error_NATIVE_GROUP_ID_COLLISION": {
+    "message": "Grupu identifikatori konfliktē."
+  },
+  "error_NATIVE_GROUP_ORDER": {
+    "message": "Nederīga grupu secība."
+  },
+  "error_NATIVE_NODE_ID_COLLISION": {
+    "message": "Mezglu identifikatori konfliktē."
+  },
+  "error_NATIVE_PREDECESSOR_AMBIGUOUS": {
+    "message": "Priekšgājēja nosaukuma trūkst vai tas dublējas. Atlasiet konkrētu priekšgājēja mezglu."
+  },
+  "error_NATIVE_PREDECESSOR_CYCLE": {
+    "message": "Priekšgājēju ķēdē ir cikls vai vairāk nekā seši mezgli."
+  },
+  "error_NATIVE_PREDECESSOR_INVALID": {
+    "message": "Atlasiet derīgu priekšgājēja starpniekserveri."
+  },
+  "error_NATIVE_PREDECESSOR_MISSING": {
+    "message": "Atlasītais priekšgājējs vairs nepastāv. Atlasiet citu mezglu."
+  },
+  "error_NATIVE_PREDECESSOR_SETTINGS": {
+    "message": "Nederīgi priekšgājēja iestatījumi."
+  },
+  "error_NATIVE_ROUTE_INVALID": {
+    "message": "Atlasiet derīgu maršrutu."
+  },
+  "error_NATIVE_ROUTE_MISSING": {
+    "message": "Šis maršruts vairs nepastāv. Atlasiet citu maršrutu."
+  },
+  "error_NATIVE_ROUTE_PORTS": {
+    "message": "Nederīgi maršruta portu piešķīrumi."
+  },
+  "error_NATIVE_ROUTE_UNAVAILABLE": {
+    "message": "Atlasītais maršruts nav pieejams. Skatiet tehnisko informāciju."
+  },
+  "error_NATIVE_SETTINGS_FORMAT": {
+    "message": "Nederīgs iestatījumu formāts."
+  },
+  "error_NATIVE_SETTINGS_REVISION": {
+    "message": "Nederīga iestatījumu revīzija."
+  },
+  "error_NATIVE_SUCCESSOR_UNSUPPORTED": {
+    "message": "Šī grupa izmanto neatbalstītu pēcteča starpniekserveri."
+  },
+  "error_NATIVE_UNSUPPORTED_CUSTOM": {
+    "message": "Šī versija neatbalsta pielāgotas izejošā savienojuma konfigurācijas."
+  },
+  "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
+    "message": "Šī versija neatbalsta Hysteria2."
+  },
+  "error_NATIVE_UNSUPPORTED_TUIC": {
+    "message": "Šajā versijā nav integrēts TUIC nepieciešamais sing-box kodols."
+  },
+  "error_NATIVE_UNSUPPORTED_TYPE": {
+    "message": "Šis maršruta tips netiek atbalstīts."
+  },
+  "error_NATIVE_V2RAYN_PORT": {
+    "message": "Vietējais v2rayN ports nav derīgs."
+  },
+  "error_NATIVE_V2RAYN_UNAVAILABLE": {
+    "message": "v2rayN nav pieejams. Atlasiet importētu mezglu."
+  },
+  "error_NETWORK_FAILED": {
+    "message": "Tīkla pieprasījums neizdevās. Pārbaudiet savienojumu un mēģiniet vēlreiz."
+  },
+  "error_NETWORK_TEST_FAILED": {
+    "message": "Tīkla diagnostika neizdevās. Skatiet tehnisko informāciju."
+  },
+  "error_NODE_LIMIT": {
+    "message": "Darbība pārsniegtu mezglu skaita ierobežojumu. Noņemiet neizmantotos mezglus un mēģiniet vēlreiz."
+  },
+  "error_NODE_MAPPING_INCOMPLETE": {
+    "message": "Nepilnīga mezglu kartēšana"
+  },
+  "error_NODE_NOT_FOUND": {
+    "message": "Atlasītais mezgls vairs nepastāv. Atlasiet citu mezglu."
+  },
+  "error_NOT_DUE": {
+    "message": "Nākamā plānotā atjauninājuma laiks vēl nav pienācis."
+  },
+  "error_PAC_ENTRY_REQUIRED": {
+    "message": "Ievadiet PAC pirmkodu ar FindProxyForURL"
+  },
+  "error_PAC_FUNCTION_REQUIRED": {
+    "message": "Definējiet sinhronu augšējā līmeņa FindProxyForURL funkciju, funkcijas mainīgo vai piešķīrumu"
+  },
+  "error_PAC_PARSER_UNAVAILABLE": {
+    "message": "Pakotnē iekļautais PAC parsētājs nav pieejams; pārinstalējiet paplašinājumu"
+  },
+  "error_PAC_RULE_TARGET_UNSUPPORTED": {
+    "message": "Automātiskās kārtulas nevar norādīt uz iegulta PAC profilu"
+  },
+  "error_PAC_SOURCE_LIMIT": {
+    "message": "Ievadiet PAC pirmkodu, kas nepārsniedz {limit} rakstzīmes"
+  },
+  "error_PAC_SYNTAX_INVALID": {
+    "message": "Nederīga PAC sintakse"
+  },
+  "error_PAC_SYNTAX_LOCATION": {
+    "message": "Nederīga PAC sintakse rindā {line}, kolonnā {column}"
+  },
+  "error_PARTIAL_TRANSFER": {
+    "message": "Pārbaudes pārsūtīšana beidzās pirms visu datu saņemšanas."
+  },
+  "error_PRIVATE_DIRECTORY_FAILED": {
+    "message": "Privāto pārbaudes mapi nevarēja aizsargāt. Pārbaude tika apturēta."
+  },
+  "error_PRIVATE_TARGET": {
+    "message": "Abonementa pieprasījumi uz privātām vai vietējām adresēm nav atļauti."
+  },
+  "error_PROFILE_NOT_FOUND": {
+    "message": "Profils nav atrasts"
+  },
+  "error_PROFILE_REFERENCE_CYCLE": {
+    "message": "Cikliskas profilu atsauces"
+  },
+  "error_PROFILE_REFERENCE_DEPTH": {
+    "message": "Automātiskās kārtulas pārsniedz maksimālo dziļumu {limit}"
+  },
+  "error_PROFILE_REFERENCE_MISSING": {
+    "message": "Norādītais profils nepastāv: {name}"
+  },
+  "error_PROFILE_SAVE_RESTORE_FAILED": {
+    "message": "Saglabāšana neizdevās, un maršruta atjaunošanai jāpievērš uzmanība"
+  },
+  "error_PROXY_AUTH_REQUIRED": {
+    "message": "Abonementa starpniekserverim nepieciešama autentifikācija, ko šis pieprasījums nevar nodrošināt."
+  },
+  "error_PROXY_CONTROL_UNAVAILABLE": {
+    "message": "Starpniekserveri kontrolē cits paplašinājums vai politika"
+  },
+  "error_PROXY_DNS_REQUIRED": {
+    "message": "V2Route veic SOCKS5 DNS atrisināšanu caur starpniekserveri"
+  },
+  "error_PROXY_FAILED": {
+    "message": "Savienojums ar starpniekserveri neizdevās. Pārbaudiet atlasīto maršrutu."
+  },
+  "error_PROXY_PROFILE_REQUIRED": {
+    "message": "Izvēlieties starpniekservera profilu"
+  },
+  "error_PROXY_ROLLBACK_REFUSED": {
+    "message": "Pārlūks atteica starpniekservera atcelšanu uz iepriekšējo stāvokli"
+  },
+  "error_PROXY_SETTING_REFUSED": {
+    "message": "Pārlūks atteica starpniekservera iestatījumu"
+  },
+  "error_PROXY_UNAVAILABLE": {
+    "message": "Atlasītais starpniekserveris nav pieejams. Pārbaudiet pašreizējo maršrutu."
+  },
+  "error_PROXY_USERNAME_REQUIRED": {
+    "message": "Ievadiet starpniekservera lietotājvārdu"
+  },
+  "error_RECOVERY_BINDINGS_LIMIT": {
+    "message": "Atkopšana var atjaunot ne vairāk kā {limit} mezglu piesaistes. Atveriet un saglabājiet norādītos profilus atsevišķi."
+  },
+  "error_REDIRECT_LIMIT": {
+    "message": "Abonements novirzīja pārāk daudz reižu. Pārbaudiet tā URL."
+  },
+  "error_REFERENCED_PROFILE_DELETE": {
+    "message": "Uz šo profilu atsaucas automātiskā kārtula"
+  },
+  "error_REMOTE_PAC_UNSUPPORTED": {
+    "message": "Izmantojiet iegultu PAC pirmkodu; attāls PAC netiek atbalstīts"
+  },
+  "error_ROUTE_PORT_UNAVAILABLE": {
+    "message": "Ports netika piešķirts"
+  },
+  "error_ROUTE_RECOVERY_RESTORE_FAILED": {
+    "message": "Maršruta atkopšana neizdevās, un atjaunošanai jāpievērš uzmanība"
+  },
+  "error_ROUTE_REVISION_CONFLICT": {
+    "message": "Maršruts tika mainīts citā logā. Vispirms atsvaidziniet"
+  },
+  "error_ROUTE_SAVE_ROLLBACK_FAILED": {
+    "message": "Maršruta saglabāšana neizdevās, un atcelšanai jāpievērš uzmanība"
+  },
+  "error_ROUTE_UNAVAILABLE": {
+    "message": "Pārbaudes maršruts nav pieejams. Pārbaudiet mezgla un priekšgājēja iestatījumus."
+  },
+  "error_RULE_BINDING_MISSING": {
+    "message": "Trūkst mezgla kārtulas piesaistes. Atkārtoti atveriet un saglabājiet automātisko profilu: {name}"
+  },
+  "error_RULE_NODES_LIMIT": {
+    "message": "Automātiskās kārtulas atbalsta ne vairāk kā {limit} atšķirīgus mezglus"
+  },
+  "error_RULE_NODE_CHANGED": {
+    "message": "Mezgla kārtula nav pieejama vai ir mainīta. Atjaunojiet mezglu vai atlasiet citu un saglabājiet: {name}"
+  },
+  "error_RULE_PATH_CONFLICT": {
+    "message": "Konfliktējoši mezglu kārtulu ceļi"
+  },
+  "error_RULE_PATTERNS_LIMIT": {
+    "message": "Automātiskās kārtulas kopā atbalsta ne vairāk kā {limit} atbilstības paraugus"
+  },
+  "error_RULE_PORT_UNAVAILABLE": {
+    "message": "Mezgla kārtulas ports nav pieejams"
+  },
+  "error_RULE_REVISION_CONFLICT": {
+    "message": "Mezgla kārtula tika mainīta citā logā. Vispirms atsvaidziniet"
+  },
+  "error_SELECTED_NODE_UNAVAILABLE": {
+    "message": "Atlasītais mezgls nav pieejams. Atjaunojiet to vai izvēlieties citu mezglu"
+  },
+  "error_SOCKS_FAILED": {
+    "message": "SOCKS savienojumu nevarēja izveidot."
+  },
+  "error_STARTUP_FALLBACK_REFUSED": {
+    "message": "Pārlūks atteica startēšanas rezerves starpniekserveri."
+  },
+  "error_SUBSCRIPTION_CHANGED": {
+    "message": "Abonements tika mainīts atjaunināšanas laikā. Atsvaidziniet to un mēģiniet vēlreiz."
+  },
+  "error_SUBSCRIPTION_HTTP_STATUS": {
+    "message": "Abonementa serveris atgrieza HTTP {status}."
+  },
+  "error_SUBSCRIPTION_LIMIT": {
+    "message": "Sasniegts abonementu skaita ierobežojums. Noņemiet neizmantotu abonementu un mēģiniet vēlreiz."
+  },
+  "error_SUBSCRIPTION_NOT_FOUND": {
+    "message": "Atlasītais abonements vairs nepastāv."
+  },
+  "error_SYSTEM_PROXY_SNAPSHOT_UNAVAILABLE": {
+    "message": "Lietotais sistēmas starpniekservera momentuzņēmums nav pieejams."
+  },
+  "error_SYSTEM_PROXY_TIMEOUT": {
+    "message": "Sistēmas starpniekservera nolasīšanas noildze"
+  },
+  "error_SYSTEM_PROXY_UNAVAILABLE": {
+    "message": "Sistēmas starpniekserveris nav pieejams. Skatiet tehnisko informāciju."
+  },
+  "error_TIMEOUT": {
+    "message": "Pieprasījuma noildze. Pārbaudiet savienojumu un mēģiniet vēlreiz."
+  },
+  "error_TLS_DOWNGRADE": {
+    "message": "Abonements novirzīja no HTTPS uz HTTP un tika bloķēts."
+  },
+  "error_TLS_FAILED": {
+    "message": "Drošo savienojumu nevarēja verificēt. Pārbaudiet serveri un sertifikātu."
+  },
+  "error_UNSAFE_TEMP_PATH": {
+    "message": "Pagaidu pārbaudes mape nav droša. Pārbaude tika apturēta."
+  },
+  "error_UNSUPPORTED_LIBRARY_REQUEST": {
+    "message": "Neatbalstīts bibliotēkas pieprasījums"
+  },
+  "error_UNSUPPORTED_PROFILE_TYPE": {
+    "message": "Neatbalstīts profila tips"
+  },
+  "error_UNSUPPORTED_REQUEST": {
+    "message": "Neatbalstīts pieprasījums"
+  },
+  "error_UNSUPPORTED_RULE_CONDITION": {
+    "message": "Tiek atbalstītas tikai resursdatora un URL aizstājējzīmju kārtulas"
+  },
+  "error_UPDATE_FAILED": {
+    "message": "Abonementa atjaunināšana neizdevās. Esošie mezgli tika saglabāti."
+  },
+  "error_VALIDATION_FAILED": {
+    "message": "Abonementa saturu nevarēja validēt. Esošie mezgli tika saglabāti."
+  },
+  "nativeUnnamedNode": {
+    "message": "Nenosaukts mezgls"
+  },
+  "nativeProtocolCustom": {
+    "message": "Pielāgots"
+  },
+  "nativeProtocolOutbound": {
+    "message": "Pielāgots izejošais savienojums"
+  },
+  "nativeProtocolGroup": {
+    "message": "Politikas grupa"
+  },
+  "nativeProtocolChain": {
+    "message": "Starpniekserveru ķēde"
+  },
+  "nativeProtocolUnknown": {
+    "message": "Neatbalstīts tips"
+  },
+  "languageLoadFailed": {
+    "message": "Atlasīto valodu nevarēja ielādēt. Mēģiniet vēlreiz."
+  },
+  "invalidBackupJSON": {
+    "message": "Dublējumkopija nav derīgs JSON."
+  },
+  "noticeBodyLanguages": {
+    "message": "Pilns politikas teksts ir pieejams angļu un vienkāršotajā ķīniešu valodā."
+  },
+  "policyRules": {
+    "message": "Starpniekservera maršrutēšanas noteikumi"
+  },
+  "policyPriority": {
+    "message": "Secība: izņēmumu adreses → pirmais atbilstošais noteikums → noklusējuma maršruts."
+  },
+  "policyDirectHelp": {
+    "message": "Neatbilstošās adreses savienojas tieši. Tiešā savienojuma poga arī izmanto šos noteikumus."
+  },
+  "policySystemHelp": {
+    "message": "Neatbilstošās adreses izmanto sistēmas starpniekserveri. Sistēmas poga arī izmanto šos noteikumus."
+  },
+  "policyEmpty": {
+    "message": "Noteikumu nav. Tiek izmantots noklusējuma maršruts."
+  },
+  "policyAddressHelp": {
+    "message": "Domēni, aizstājējzīmes, IP vai IP:ports. IP noteikumi pārbauda IP adresi URL, nevis DNS rezultātus."
+  },
+  "policyMoveUp": {
+    "message": "Pārvietot noteikumu augšup"
+  },
+  "policyMoveDown": {
+    "message": "Pārvietot noteikumu lejup"
+  }
+}

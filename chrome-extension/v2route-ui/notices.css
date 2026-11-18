@@ -1,0 +1,8 @@
+.notice-language-controls{display:flex;flex-wrap:wrap;align-items:end;gap:1rem;margin:1.5rem 0}
+.notice-language-controls label{display:grid;gap:.4rem;max-width:100%;color:var(--action-ink,var(--accent));font-size:.875rem}
+.notice-language-controls select{max-width:100%;min-width:11rem}
+.notice-navigation{display:flex;flex-wrap:wrap;gap:.75rem 1.25rem;margin-bottom:1.5rem;font-size:.875rem}
+.notice-page [data-policy-lang][hidden]{display:none}
+.notice-page [data-policy-lang]{text-align:start}
+.notice-page [lang=en]{direction:ltr}
+.notice-page [lang=zh-CN]{direction:ltr}

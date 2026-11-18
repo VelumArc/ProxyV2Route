@@ -1,0 +1,2150 @@
+{
+  "ruleTargetUnavailable": {
+    "message": "เป้าหมายไม่พร้อมใช้งาน"
+  },
+  "rulePatternPlaceholder": {
+    "message": "example.com, *.example.org, 192.0.2.1:8443"
+  },
+  "rulePatternHelp": {
+    "message": "คั่นที่อยู่ด้วยจุลภาค แยกรูปแบบ URL ไว้บรรทัดละรายการ PAC อาจไม่เห็นพาธ HTTPS"
+  },
+  "defaultChoice_direct": {
+    "message": "เชื่อมต่อโดยไม่ต้องใช้พรอกซี"
+  },
+  "defaultChoice_system": {
+    "message": "ใช้การตั้งค่าพร็อกซีของระบบ"
+  },
+  "defaultChoice_node": {
+    "message": "ใช้โหนดที่เลือกของโปรไฟล์นี้"
+  },
+  "defaultChoice_manual": {
+    "message": "ใช้การตั้งค่าพร็อกซีของโปรไฟล์นี้"
+  },
+  "defaultChoice_auto": {
+    "message": "ใช้กฎการกำหนดเส้นทางของโปรไฟล์นี้"
+  },
+  "nlHttpsLatency": {
+    "message": "HTTPS การตอบสนอง"
+  },
+  "nlLatencyMethod": {
+    "message": "Cloudflare · ขั้นต่ำสองคำตอบ · ใช้การเชื่อมต่อซ้ำเมื่อมี"
+  },
+  "nlLatencyFast": {
+    "message": "รวดเร็ว"
+  },
+  "nlLatencyModerate": {
+    "message": "ปานกลาง"
+  },
+  "nlLatencySlow": {
+    "message": "ช้า"
+  },
+  "nlSortName": {
+    "message": "ชื่อ"
+  },
+  "nlSortLatency": {
+    "message": "เวลาแฝง: จากต่ำไปสูง"
+  },
+  "nlSortDownload": {
+    "message": "ดาวน์โหลด: สูงไปต่ำ"
+  },
+  "nlSortUpload": {
+    "message": "อัปโหลด: จากสูงไปต่ำ"
+  },
+  "nlSingle": {
+    "message": "โหนดเดียว"
+  },
+  "nlGroupBatch": {
+    "message": "กลุ่ม/ชุด"
+  },
+  "nlTestScope": {
+    "message": "ขอบเขตการทดสอบ"
+  },
+  "nlCurrentNode": {
+    "message": "โหนดที่เลือก"
+  },
+  "nlCurrentGroup": {
+    "message": "กลุ่มที่เลือก"
+  },
+  "nlChooseNode": {
+    "message": "เลือกโหนดในรายการ"
+  },
+  "nlStart": {
+    "message": "เริ่มการทดสอบ"
+  },
+  "nlService": {
+    "message": "ทดสอบบริการ"
+  },
+  "nlMeasured": {
+    "message": "วัดได้"
+  },
+  "nlMeanLatency": {
+    "message": "เวลาแฝงเฉลี่ย"
+  },
+  "nlGroupBySource": {
+    "message": "ตามกลุ่มต้นทาง"
+  },
+  "nlPreviousPage": {
+    "message": "หน้าก่อนหน้า"
+  },
+  "nlNextPage": {
+    "message": "หน้าถัดไป"
+  },
+  "nlName": {
+    "message": "ชื่อ"
+  },
+  "nlEdit": {
+    "message": "แก้ไข"
+  },
+  "nlStop": {
+    "message": "หยุด"
+  },
+  "nlConfirm": {
+    "message": "ยืนยัน"
+  },
+  "nlAllNodes": {
+    "message": "โหนดทั้งหมด"
+  },
+  "nlNodeResults": {
+    "message": "ผลลัพธ์ของโหนด"
+  },
+  "nlTestCenter": {
+    "message": "ศูนย์ทดสอบ"
+  },
+  "nlNewGroup": {
+    "message": "กลุ่มใหม่"
+  },
+  "nlRenameGroup": {
+    "message": "เปลี่ยนชื่อกลุ่ม"
+  },
+  "nlRemoveGroup": {
+    "message": "ลบกลุ่ม"
+  },
+  "nlRemoveGroupHelp": {
+    "message": "เก็บทุกโหนดและการสมัครสมาชิก และย้ายไปยังโหนดที่นำเข้า"
+  },
+  "nlNode": {
+    "message": "โหนด"
+  },
+  "nlStatus": {
+    "message": "สถานะ"
+  },
+  "nlActions": {
+    "message": "การกระทำ"
+  },
+  "nlSort": {
+    "message": "จัดเรียงตารางนี้เท่านั้น"
+  },
+  "nlSelected": {
+    "message": "เลือกแล้ว"
+  },
+  "nlTestNode": {
+    "message": "ทดสอบ"
+  },
+  "nlProfileShort": {
+    "message": "โปรไฟล์"
+  },
+  "nlQuick": {
+    "message": "เวลาแฝงที่รวดเร็ว"
+  },
+  "nlFull": {
+    "message": "ดาวน์โหลด + อัพโหลด"
+  },
+  "nlTraffic": {
+    "message": "ทดสอบขนาดข้อมูล"
+  },
+  "nlConcurrency": {
+    "message": "โหนดที่เกิดขึ้นพร้อมกัน"
+  },
+  "nlTrafficFullOnly": {
+    "message": "ใช้สำหรับการทดสอบการดาวน์โหลดและอัพโหลด"
+  },
+  "nlTestMode": {
+    "message": "โหมดทดสอบ"
+  },
+  "nlBudget": {
+    "message": "ปริมาณการรับส่งข้อมูลสูงสุด"
+  },
+  "nlViaGroup": {
+    "message": "ผ่านทางกลุ่มก่อนมอบฉันทะ"
+  },
+  "nlTestSelected": {
+    "message": "เลือกการทดสอบแล้ว"
+  },
+  "nlTestVisible": {
+    "message": "ทดสอบโหนดที่แสดง"
+  },
+  "nlTestAll": {
+    "message": "ทดสอบโหนดทั้งหมด"
+  },
+  "nlTestGroup": {
+    "message": "โหนดกลุ่มทดสอบ"
+  },
+  "nlProgress": {
+    "message": "ความคืบหน้าในการวัด"
+  },
+  "nlReady": {
+    "message": "เลือกโหนดที่จะเริ่มต้น ไม่มีการทดสอบใดเกิดขึ้น"
+  },
+  "nlStarting": {
+    "message": "เริ่มต้นการวัดแบบแยกส่วน..."
+  },
+  "nlQueued": {
+    "message": "เข้าคิวแล้ว"
+  },
+  "nlRunning": {
+    "message": "การทดสอบ"
+  },
+  "nlStopping": {
+    "message": "กำลังหยุด..."
+  },
+  "nlComplete": {
+    "message": "เสร็จสมบูรณ์"
+  },
+  "nlFailed": {
+    "message": "ล้มเหลว"
+  },
+  "nlStopped": {
+    "message": "หยุดแล้ว"
+  },
+  "nlPartial": {
+    "message": "บางส่วน"
+  },
+  "nlUntested": {
+    "message": "ไม่ได้ทดสอบ"
+  },
+  "nlSucceeded": {
+    "message": "ผ่านไป"
+  },
+  "nlMeasureDisconnected": {
+    "message": "การเชื่อมต่อการวัดสิ้นสุดลง ค่าที่ไม่สมบูรณ์ไม่ใช่ผลลัพธ์สุดท้าย"
+  },
+  "nlUpgrade": {
+    "message": "อัปเดต Companion ในเครื่องเพื่อจัดการกลุ่มและการสมัครสมาชิก โหนดที่มีอยู่ยังคงพร้อมใช้งาน"
+  },
+  "nlOperationFailed": {
+    "message": "ไม่สามารถดำเนินการให้เสร็จสิ้นได้ ลองอีกครั้ง"
+  },
+  "nlEditSubscription": {
+    "message": "แก้ไขการสมัครสมาชิก"
+  },
+  "nlPasteContent": {
+    "message": "พร็อกซีลิงก์ / เนื้อหา"
+  },
+  "nlSubscriptionURL": {
+    "message": "สมัครสมาชิก URL"
+  },
+  "nlKeepURL": {
+    "message": "เว้นว่างไว้เพื่อเก็บข้อมูลที่บันทึกไว้ URL"
+  },
+  "nlConnectionPolicy": {
+    "message": "อัปเดตการเชื่อมต่อ"
+  },
+  "nlProxyFirst": {
+    "message": "พร็อกซีก่อน จากนั้นจึงดำเนินการกับความล้มเหลว"
+  },
+  "nlProxyOnly": {
+    "message": "พร็อกซีเท่านั้น"
+  },
+  "nlDirectOnly": {
+    "message": "โดยตรงเท่านั้น"
+  },
+  "nlProxyFirstHelp": {
+    "message": "พร็อกซีหยุดก่อนหลังจากการดึงข้อมูลสำเร็จ จะพยายามโดยตรงเฉพาะในกรณีที่ความพยายามของพร็อกซีล้มเหลว"
+  },
+  "nlAutoUpdate": {
+    "message": "เปิดใช้งานการอัปเดตอัตโนมัติ"
+  },
+  "nlInterval": {
+    "message": "ช่วงเวลาการอัพเดต (นาที)"
+  },
+  "nlDestinationGroup": {
+    "message": "กลุ่มปลายทาง"
+  },
+  "nlSubscriptionOwnGroup": {
+    "message": "กลุ่มใหม่…"
+  },
+  "nlNameGroup": {
+    "message": "ชื่อ (กลุ่ม)"
+  },
+  "nlCustomGroup": {
+    "message": "กลุ่มแบบกำหนดเอง"
+  },
+  "nlNameRequired": {
+    "message": "ป้อนชื่อ"
+  },
+  "nlContentRequired": {
+    "message": "วางลิงก์พร็อกซีหรือเนื้อหาการสมัครรับข้อมูล"
+  },
+  "nlGroupRequired": {
+    "message": "เลือกกลุ่มปลายทาง"
+  },
+  "nlURLRequired": {
+    "message": "ป้อนการสมัครสมาชิก HTTP(S) URL โดยไม่ต้องใช้ชื่อผู้ใช้หรือรหัสผ่าน"
+  },
+  "nlIntervalInvalid": {
+    "message": "ป้อนจำนวนเต็มตั้งแต่ 5 ถึง 43200 นาที"
+  },
+  "folderTitle": {
+    "message": "เลือกโฟลเดอร์ v2rayN"
+  },
+  "folderHint": {
+    "message": "เลือกโฟลเดอร์ จากนั้นใช้กับบันทึกการตั้งค่าการเชื่อมต่อ"
+  },
+  "folderPath": {
+    "message": "เส้นทางโฟลเดอร์ในเครื่องแบบเต็ม"
+  },
+  "folderGo": {
+    "message": "เปิด"
+  },
+  "folderUp": {
+    "message": "ขึ้น"
+  },
+  "folderDrives": {
+    "message": "ไดรฟ์"
+  },
+  "folderCurrent": {
+    "message": "เส้นทางปัจจุบัน"
+  },
+  "folderChoose": {
+    "message": "ใช้โฟลเดอร์นี้"
+  },
+  "folderList": {
+    "message": "โฟลเดอร์"
+  },
+  "folderTruncated": {
+    "message": "รายการมีจำนวนจำกัด ป้อนเส้นทางแบบเต็มด้านบนเพื่อเปิดโฟลเดอร์ที่ไม่แสดง"
+  },
+  "folderReady": {
+    "message": "v2rayN พบไฟล์ ใช้โฟลเดอร์นี้เพื่อตรวจสอบการกำหนดค่า"
+  },
+  "folderInvalid": {
+    "message": "เลือกโฟลเดอร์ที่มี guiConfigs, guiNConfig.json และ guiNDB.db"
+  },
+  "folderSelectDrive": {
+    "message": "เลือกไดรฟ์ในเครื่องหรือป้อนเส้นทางโฟลเดอร์แบบเต็ม"
+  },
+  "folderEmpty": {
+    "message": "ไม่มีโฟลเดอร์ย่อยที่มองเห็นได้"
+  },
+  "folderUnavailable": {
+    "message": "ไม่สามารถเรียกดูโฟลเดอร์นี้ได้ ตรวจสอบเส้นทางและการเข้าถึง หาก Companion เก่ากว่า ให้อัปเดตก่อน"
+  },
+  "folderValidating": {
+    "message": "กำลังตรวจสอบการกำหนดค่า v2rayN..."
+  },
+  "folderInvalidConfig": {
+    "message": "การกำหนดค่าหรือฐานข้อมูล v2rayN ไม่สมบูรณ์หรือไม่ถูกต้อง เลือกโฟลเดอร์อื่น"
+  },
+  "copyPath": {
+    "message": "คัดลอกเส้นทาง"
+  },
+  "pathCopyHint": {
+    "message": "คัดลอกเส้นทางที่อยู่ในฟิลด์นี้"
+  },
+  "preMode": {
+    "message": "โหมดพรีพร็อกซี"
+  },
+  "preNode": {
+    "message": "โหนดพรีพร็อกซี"
+  },
+  "preIntro": {
+    "message": "ใช้กลุ่มเชน ข้ามไป หรือเลือกพร็อกซีล่วงหน้าสำหรับโปรไฟล์นี้"
+  },
+  "healthLabel": {
+    "message": "สถานะการเชื่อมต่อปัจจุบัน"
+  },
+  "healthOk": {
+    "message": "ปกติ"
+  },
+  "healthError": {
+    "message": "ผิดปกติ"
+  },
+  "healthChecking": {
+    "message": "กำลังตรวจสอบ"
+  },
+  "healthUnknown": {
+    "message": "ไม่ได้รับการยืนยัน"
+  },
+  "autoSystemHelp": {
+    "message": "กฎระบบต้องใช้ส่วนประกอบ Windows และสำเนาการตั้งค่าพร็อกซีแบบคงที่ ใช้อีกครั้งหลังเปลี่ยนการตั้งค่า ไม่รองรับ PAC/WPAD โหมดระบบที่ไม่มีกฎใช้การตั้งค่าดั้งเดิมของเบราว์เซอร์"
+  },
+  "backgroundUnavailable": {
+    "message": "พื้นหลังส่วนขยายไม่พร้อมใช้งาน"
+  },
+  "backgroundNoResponse": {
+    "message": "พื้นหลังไม่ตอบสนอง"
+  },
+  "backupTooLarge": {
+    "message": "สำรองข้อมูลเกิน 5 MB"
+  },
+  "proxyUsername": {
+    "message": "ชื่อผู้ใช้"
+  },
+  "proxyPassword": {
+    "message": "รหัสผ่าน"
+  },
+  "proxyAuthHelp": {
+    "message": "ไม่บังคับ พรอกซีที่ผ่านการรับรองความถูกต้องเชื่อมต่อผ่าน Companion ข้อมูลรับรองจะถูกจัดเก็บไว้ในการกำหนดค่าเบราว์เซอร์นี้และ Companion และรวมอยู่ในการส่งออกโปรไฟล์"
+  },
+  "proxyAuthSocks4": {
+    "message": "SOCKS4 ไม่รองรับการตรวจสอบสิทธิ์ชื่อผู้ใช้/รหัสผ่านนี้ ใช้ HTTP(S) หรือ SOCKS5"
+  },
+  "importExamples": {
+    "message": "ตัวอย่างรูปแบบ"
+  },
+  "ipCopying": {
+    "message": "กำลังคัดลอก..."
+  },
+  "netDnsUnavailable": {
+    "message": "ที่อยู่เซิร์ฟเวอร์ไม่สามารถแก้ไขได้ทันเวลา ตรวจสอบโฮสต์หรือที่อยู่ IP แล้วลองอีกครั้ง"
+  },
+  "netCurrentTarget": {
+    "message": "ปลายทางพร็อกซีที่เลือก"
+  },
+  "netCustomTarget": {
+    "message": "เซิร์ฟเวอร์แบบกำหนดเอง"
+  },
+  "netHost": {
+    "message": "โฮสต์หรือที่อยู่ IP"
+  },
+  "netPort": {
+    "message": "TCP พอร์ต"
+  },
+  "netHostRequired": {
+    "message": "ป้อนโฮสต์เซิร์ฟเวอร์หรือที่อยู่ IP"
+  },
+  "netCurrentUnavailable": {
+    "message": "เลือกโหนดหรือโปรไฟล์พร็อกซีแบบแมนนวล หรือป้อนเป้าหมายที่กำหนดเอง"
+  },
+  "netInvalidTarget": {
+    "message": "ป้อนโฮสต์และพอร์ตการวินิจฉัยที่ถูกต้อง"
+  },
+  "netIpv6PingUnavailable": {
+    "message": "IPv6 ICMP ไม่พร้อมใช้งาน ใช้ TCPing"
+  },
+  "preNeedsFix": {
+    "message": "เลือก pre-proxy ที่ถูกต้องหรือไม่มี pre-proxy ก่อนบันทึก"
+  },
+  "preConfigure": {
+    "message": "กำหนดค่าพรีพร็อกซี"
+  },
+  "preFollowInvalid": {
+    "message": "ปฏิบัติตาม v2rayN ไม่ยอมรับ pre-proxy ที่กำหนดเอง"
+  },
+  "followChainHelp": {
+    "message": "ติดตามใช้เส้นทางและพร็อกซีเชนที่ใช้งานอยู่แล้วใน v2rayN"
+  },
+  "netTitle": {
+    "message": "การทดสอบการเชื่อมต่อ"
+  },
+  "ipTestDetails": {
+    "message": "รายละเอียดการทดสอบ"
+  },
+  "netTarget": {
+    "message": "ปิง / TCPing เป้าหมาย"
+  },
+  "netDownload": {
+    "message": "ดาวน์โหลดการทดสอบ"
+  },
+  "netPartial": {
+    "message": "ตัวอย่างบางส่วน"
+  },
+  "netComplete": {
+    "message": "ตัวอย่างเสร็จสมบูรณ์"
+  },
+  "netDirect": {
+    "message": "เครือข่ายระบบ"
+  },
+  "netUnreachable": {
+    "message": "ไม่มีการตอบกลับ / ล้มเหลว"
+  },
+  "netAverage": {
+    "message": "เฉลี่ย"
+  },
+  "predecessor": {
+    "message": "ก่อนมอบฉันทะ"
+  },
+  "preInherit": {
+    "message": "ใช้กลุ่มเชน v2rayN"
+  },
+  "preNone": {
+    "message": "ไม่มีการมอบฉันทะล่วงหน้า"
+  },
+  "preSpecific": {
+    "message": "เลือกโหนด"
+  },
+  "preHelp": {
+    "message": "ใช้กับโปรไฟล์นี้ ใช้ห่วงโซ่กลุ่ม v2rayN ไม่มี pre-proxy หรือโหนดเฉพาะ ติดตาม v2rayN ใช้ห่วงโซ่ที่มีอยู่"
+  },
+  "preSelectRequired": {
+    "message": "เลือกโหนดล่วงหน้าหรือเลือกค่าเริ่มต้นของกลุ่ม / ไม่มี"
+  },
+  "ipPing0Permission": {
+    "message": "อนุญาตให้ Ping0 เข้าถึงเว็บไซต์เพื่อโหลดรายงานสาธารณะ"
+  },
+  "ipPublicChallenge": {
+    "message": "เว็บไซต์ต้องมีการตรวจสอบ เปิดหน้า Ping0 เพื่อดำเนินการให้เสร็จสิ้นและดูผลลัพธ์"
+  },
+  "ipPublicReport": {
+    "message": "Ping0 รายงานสาธารณะ"
+  },
+  "ipPublicSource": {
+    "message": "ที่มา: Ping0 หน้าสาธารณะ"
+  },
+  "ipPublicOriginal": {
+    "message": "Ping0 รายงาน"
+  },
+  "ipPublicPartial": {
+    "message": "เฉพาะช่องที่ให้ไว้ในหน้าสาธารณะเท่านั้นที่จะแสดงในภาษาต้นฉบับ การจำแนกประเภทและการประมาณค่าผู้ใช้ที่ใช้ร่วมกันมาจาก Ping0"
+  },
+  "setupTitle": {
+    "message": "เชื่อมต่อ Proxy V2Route"
+  },
+  "setupIntro": {
+    "message": "ติดตั้งสหาย Windows เพื่อใช้เส้นทาง v2rayN หรือโหนดที่นำเข้าของคุณเอง"
+  },
+  "setupStepOne": {
+    "message": "แยกแพ็กเกจ Windows ที่ตรงกันทั้งหมดไปยังโฟลเดอร์ถาวร"
+  },
+  "setupStepTwo": {
+    "message": "เปิด V2Route-Setup.exe แล้วคลิกติดตั้ง"
+  },
+  "setupStepThree": {
+    "message": "กลับมาที่นี่และตรวจสอบการเชื่อมต่อ เลือกโฟลเดอร์ v2rayN หากจำเป็น"
+  },
+  "setupCheck": {
+    "message": "ตรวจสอบการเชื่อมต่อ"
+  },
+  "downloadCompanion": {
+    "message": "คู่มือการติดตั้ง ↗"
+  },
+  "setupDownloadNote": {
+    "message": "ใช้แพ็คเกจท้องถิ่น Windows ที่ตรงกัน หรือทำตามคำแนะนำเพื่อสร้างจากแหล่งปัจจุบัน"
+  },
+  "chooseFolder": {
+    "message": "เลือก v2rayN โฟลเดอร์..."
+  },
+  "rescanDone": {
+    "message": "โหนดในเครื่องถูกสแกนอีกครั้ง"
+  },
+  "grouping": {
+    "message": "โหนดกลุ่ม"
+  },
+  "groupByCountry": {
+    "message": "ตามประเทศ"
+  },
+  "unknownCountry": {
+    "message": "อื่นๆ / ไม่ทราบ"
+  },
+  "ungrouped": {
+    "message": "ไม่ได้จัดกลุ่ม"
+  },
+  "adjustNodeFilters": {
+    "message": "ลองกลุ่มอื่น แหล่งที่มาหรือการค้นหา หรือแสดงโหนดที่ซ่อนอยู่"
+  },
+  "rescanLocal": {
+    "message": "สแกนโหนด v2rayN อีกครั้ง"
+  },
+  "showHidden": {
+    "message": "แสดงโหนดที่ซ่อนอยู่"
+  },
+  "hideNode": {
+    "message": "ซ่อน"
+  },
+  "restoreNode": {
+    "message": "คืนค่า"
+  },
+  "hiddenNode": {
+    "message": "ซ่อนเร้น"
+  },
+  "hideNodeHelp": {
+    "message": "ซ่อนจากไลบรารีโหนดของเบราว์เซอร์นี้เท่านั้น v2rayN และโปรไฟล์ที่มีอยู่ไม่เปลี่ยนแปลง"
+  },
+  "ipContextTimeout": {
+    "message": "การอ่านโปรไฟล์ปัจจุบันหมดเวลา ลองอีกครั้ง"
+  },
+  "ipStaleResult": {
+    "message": "โปรไฟล์ปัจจุบันเปลี่ยนไป ผลลัพธ์นี้อาจล้าสมัย ตรวจสอบอีกครั้ง"
+  },
+  "ip_tools": {
+    "message": "IP เครื่องมือ"
+  },
+  "ipIntro": {
+    "message": "ทางออกปัจจุบัน IP และรายงานสาธารณะ"
+  },
+  "ipCurrentProfile": {
+    "message": "โปรไฟล์เบราว์เซอร์ปัจจุบัน"
+  },
+  "ipRouteCaution": {
+    "message": "กฎอัตโนมัติและ PAC อาจใช้เส้นทางที่แตกต่างกันสำหรับจุดหมายปลายทางที่แตกต่างกัน การตรวจสอบนี้อธิบายเฉพาะคำขอของตัวเองเท่านั้น"
+  },
+  "ipDisclosure": {
+    "message": "ตรวจสอบทางออกอัตโนมัติ IP · รายงานโดย Ping0"
+  },
+  "ipMethod": {
+    "message": "ตรวจสอบที่อยู่"
+  },
+  "ipDual": {
+    "message": "IPv4 / IPv6"
+  },
+  "ipCheck": {
+    "message": "ตรวจสอบอีกครั้ง"
+  },
+  "ipChecking": {
+    "message": "กำลังตรวจสอบ..."
+  },
+  "ipDualHelp": {
+    "message": "IPv4 / IPv6 ส่งคืนกลุ่มที่อยู่ที่ใช้สำหรับคำขอนี้ ไม่ใช่ทั้งสองที่อยู่"
+  },
+  "ipDurationHelp": {
+    "message": "เวลาคำขอ HTTP ที่ผ่านไป รวมถึงเวลาตอบสนองของเครือข่ายและบริการด้วย ไม่ใช่ ICMP ping หรือการทดสอบแบนด์วิธ"
+  },
+  "ipCopy": {
+    "message": "คัดลอก IP"
+  },
+  "ipCopied": {
+    "message": "คัดลอกแล้ว"
+  },
+  "ipCopyFailed": {
+    "message": "ไม่สามารถคัดลอกได้ เลือกที่อยู่และคัดลอกด้วยตนเอง"
+  },
+  "ipNoResult": {
+    "message": "ยังไม่มีการตรวจสอบ"
+  },
+  "ipContextUnknown": {
+    "message": "โปรไฟล์ไม่พร้อมใช้งาน"
+  },
+  "ipTimeout": {
+    "message": "เช็คหมดเวลา ลองอีกครั้งหรือใช้เส้นทางอื่น"
+  },
+  "ipCancelled": {
+    "message": "เช็คถูกยกเลิก"
+  },
+  "ipNetwork": {
+    "message": "ไม่สามารถเข้าถึง ipify ตรวจสอบการเชื่อมต่อแล้วลองอีกครั้ง"
+  },
+  "ipHttp": {
+    "message": "บริการ IP ไม่ยอมรับคำขอ ลองอีกครั้งในภายหลัง"
+  },
+  "ipInvalid": {
+    "message": "บริการ IP ส่งคืนการตอบสนองที่ไม่ถูกต้อง"
+  },
+  "ipFailure": {
+    "message": "การตรวจสอบล้มเหลว ลองอีกครั้ง"
+  },
+  "ipStale": {
+    "message": "การตั้งค่าพร็อกซีของคุณเปลี่ยนไประหว่างการตรวจสอบ ผลลัพธ์เก่าถูกทิ้งไป ตรวจสอบอีกครั้ง"
+  },
+  "ipQuality": {
+    "message": "เครื่องมือภายนอก"
+  },
+  "ipQualityPrivacy": {
+    "message": "เครื่องมือทำงานเฉพาะเมื่อคลิกเท่านั้น ผู้ให้บริการได้รับข้อมูลการเชื่อมต่อตามปกติ การตรวจสอบเว็บไซต์จะส่งคำขอที่ไม่มีข้อมูลรับรองหลังจากเริ่ม การปิดหยุดการทดสอบในพื้นที่ แท็บภายนอกได้รับการจัดการโดยเบราว์เซอร์"
+  },
+  "ipReport": {
+    "message": "คัดลอกรายงานที่แก้ไขแล้ว"
+  },
+  "ipReportCopied": {
+    "message": "คัดลอกรายงานที่แก้ไขแล้ว ไม่มี IP หรือชื่อโปรไฟล์รวมอยู่ด้วย"
+  },
+  "popupSelected": {
+    "message": "เลือกแล้ว"
+  },
+  "popupFooter": {
+    "message": "v2rayN & โปรไฟล์โหนด"
+  },
+  "subtitle": {
+    "message": "เส้นทางเบราว์เซอร์อิสระ"
+  },
+  "profiles": {
+    "message": "โปรไฟล์"
+  },
+  "nodes": {
+    "message": "ไลบรารีโหนด"
+  },
+  "settings": {
+    "message": "การตั้งค่า"
+  },
+  "connected": {
+    "message": "โปรไฟล์ที่ใช้งานอยู่"
+  },
+  "noProfile": {
+    "message": "ค่าเริ่มต้นของระบบ"
+  },
+  "newProfile": {
+    "message": "โปรไฟล์ใหม่"
+  },
+  "searchProfiles": {
+    "message": "ค้นหาโปรไฟล์"
+  },
+  "direct": {
+    "message": "เครือข่ายโดยตรง"
+  },
+  "system": {
+    "message": "พร็อกซีของระบบ"
+  },
+  "follow": {
+    "message": "ติดตาม v2rayN"
+  },
+  "manual": {
+    "message": "พร็อกซีแบบแมนนวล"
+  },
+  "auto": {
+    "message": "สวิตช์อัตโนมัติ"
+  },
+  "pac": {
+    "message": "PAC สคริปต์"
+  },
+  "virtual": {
+    "message": "โปรไฟล์เสมือน"
+  },
+  "profileIntro": {
+    "message": "เลือกเส้นทางเบราว์เซอร์โดยไม่ต้องเปลี่ยนเส้นทางหลักของ v2rayN"
+  },
+  "nodesIntro": {
+    "message": "เรียกดูโหนดในเครื่อง v2rayN และลิงก์ที่นำเข้าของคุณ"
+  },
+  "settingsIntro": {
+    "message": "การเชื่อมต่อ ภาษา และรูปลักษณ์ในท้องถิ่น"
+  },
+  "refresh": {
+    "message": "รีเฟรช"
+  },
+  "create": {
+    "message": "สร้างโปรไฟล์"
+  },
+  "name": {
+    "message": "ชื่อโปรไฟล์"
+  },
+  "type": {
+    "message": "ประเภทโปรไฟล์"
+  },
+  "save": {
+    "message": "บันทึก"
+  },
+  "saved": {
+    "message": "บันทึกแล้ว"
+  },
+  "saving": {
+    "message": "กำลังบันทึก..."
+  },
+  "cancel": {
+    "message": "ยกเลิก"
+  },
+  "close": {
+    "message": "ปิด"
+  },
+  "apply": {
+    "message": "ใช้โปรไฟล์นี้"
+  },
+  "applied": {
+    "message": "เปลี่ยนโปรไฟล์แล้ว"
+  },
+  "active": {
+    "message": "ใช้งานอยู่"
+  },
+  "delete": {
+    "message": "ลบ"
+  },
+  "remove": {
+    "message": "ลบ"
+  },
+  "rename": {
+    "message": "เปลี่ยนชื่อ"
+  },
+  "route": {
+    "message": "เส้นทางพร็อกซี"
+  },
+  "selectRoute": {
+    "message": "เลือกเส้นทาง"
+  },
+  "routeMissing": {
+    "message": "เส้นทางไม่พร้อมใช้งาน — เลือกเส้นทางอื่น"
+  },
+  "chain": {
+    "message": "โซ่เชื่อมต่อ"
+  },
+  "connection": {
+    "message": "การเชื่อมต่อท้องถิ่น"
+  },
+  "proxy": {
+    "message": "พร็อกซีเซิร์ฟเวอร์"
+  },
+  "address": {
+    "message": "ที่อยู่"
+  },
+  "port": {
+    "message": "ท่าเรือ"
+  },
+  "scheme": {
+    "message": "โปรโตคอล"
+  },
+  "proxyDns": {
+    "message": "SOCKS5 DNS แก้ไขผ่านพร็อกซี"
+  },
+  "connectedIdle": {
+    "message": "เชื่อมต่อแล้ว · ไม่ได้ใช้งาน"
+  },
+  "bypass": {
+    "message": "รายการบายพาส"
+  },
+  "bypassHelp": {
+    "message": "โดเมน โดเมนไวลด์การ์ด ที่อยู่ IP หรือ IP:พอร์ต หนึ่งรายการต่อบรรทัด"
+  },
+  "advanced": {
+    "message": "ตัวเลือกขั้นสูง"
+  },
+  "searchRoutes": {
+    "message": "ค้นหากลุ่มหรือโหนด"
+  },
+  "selectGroup": {
+    "message": "เลือกกลุ่ม"
+  },
+  "empty": {
+    "message": "ไม่มีรายการที่ตรงกัน"
+  },
+  "unavailable": {
+    "message": "ไม่พร้อมใช้งาน"
+  },
+  "groupHint": {
+    "message": "จัดกลุ่มราคา 250 ms แล้วลาก Alt + ↑ / ↓ จะเรียงลำดับใหม่ด้วย การเปลี่ยนแปลงบันทึกโดยอัตโนมัติ"
+  },
+  "searchSort": {
+    "message": "ล้างการค้นหาก่อนที่จะเรียงลำดับ"
+  },
+  "dragHint": {
+    "message": "เลื่อนขึ้นหรือลง จากนั้นปล่อยเพื่อบันทึก Esc ยกเลิก"
+  },
+  "orderSaved": {
+    "message": "บันทึกคำสั่งซื้อแบบกลุ่มแล้ว"
+  },
+  "orderCancelled": {
+    "message": "ยกเลิกการเรียงลำดับใหม่แล้ว"
+  },
+  "loading": {
+    "message": "กำลังโหลด..."
+  },
+  "reading": {
+    "message": "กำลังอ่านโหนดในเครื่อง..."
+  },
+  "nativeMissing": {
+    "message": "ไม่ได้เชื่อมต่อส่วนประกอบภายในเครื่อง"
+  },
+  "retry": {
+    "message": "ลองอีกครั้ง"
+  },
+  "nativeHelp": {
+    "message": "เส้นทางของโหนดต้องมีสหาย Windows พร็อกซีโดยตรง ระบบ และแบบแมนนวลพร้อมใช้งานแล้วในขณะนี้"
+  },
+  "imported": {
+    "message": "นำเข้าแล้ว"
+  },
+  "v2rayn": {
+    "message": "v2rayN"
+  },
+  "allSources": {
+    "message": "แหล่งที่มาทั้งหมด"
+  },
+  "importNodes": {
+    "message": "นำเข้าพร็อกซี"
+  },
+  "importTitle": {
+    "message": "นำเข้าพร็อกซี"
+  },
+  "importHelp": {
+    "message": "วางลิงก์พร็อกซี ขาออก JSON หรือการสมัคร Base64 SOCKS รองรับข้อมูลรับรองธรรมดาหรือ Base64 ที่อยู่ที่ไม่มีโครงร่างใช้ HTTP"
+  },
+  "importPrivacy": {
+    "message": "รายละเอียดพร็อกซีและข้อมูลประจำตัวจะถูกส่งไปยังสหายท้องถิ่น Proxy V2Route เพื่อจัดเก็บและการเชื่อมต่อกับพร็อกซีที่คุณเลือก นักพัฒนาไม่ได้รับข้อมูลนี้"
+  },
+  "import": {
+    "message": "นำเข้าโปรไฟล์"
+  },
+  "nodeCount": {
+    "message": "โหนด"
+  },
+  "source": {
+    "message": "ที่มา"
+  },
+  "protocol": {
+    "message": "โปรโตคอล"
+  },
+  "useNode": {
+    "message": "สร้างโปรไฟล์"
+  },
+  "removeNode": {
+    "message": "ลบโหนดที่นำเข้าหรือไม่"
+  },
+  "removeNodeHelp": {
+    "message": "โปรไฟล์ที่ใช้โหนดนี้จะต้องถูกกำหนดใหม่ก่อนจึงจะสามารถลบออกได้"
+  },
+  "deleteProfile": {
+    "message": "ลบโปรไฟล์นี้?"
+  },
+  "deleteProfileHelp": {
+    "message": "การดำเนินการนี้จะลบเฉพาะโปรไฟล์เบราว์เซอร์นี้เท่านั้น โหนดที่นำเข้าและการกำหนดค่า v2rayN จะถูกเก็บไว้"
+  },
+  "language": {
+    "message": "ภาษา"
+  },
+  "automatic": {
+    "message": "ค่าเริ่มต้นของเบราว์เซอร์"
+  },
+  "theme": {
+    "message": "รูปร่างหน้าตา"
+  },
+  "light": {
+    "message": "เบา"
+  },
+  "dark": {
+    "message": "ความมืด"
+  },
+  "switchToEnglish": {
+    "message": "เปลี่ยนเป็นภาษาอังกฤษ"
+  },
+  "switchToChinese": {
+    "message": "สลับเป็นภาษาจีนตัวย่อ"
+  },
+  "switchToLight": {
+    "message": "เปลี่ยนเป็นลักษณะแสง"
+  },
+  "switchToDark": {
+    "message": "เปลี่ยนเป็นรูปลักษณ์ที่มืด"
+  },
+  "localComponent": {
+    "message": "ส่วนประกอบสหาย"
+  },
+  "ready": {
+    "message": "เชื่อมต่อแล้ว"
+  },
+  "stopped": {
+    "message": "ไม่ทำงาน"
+  },
+  "discovery": {
+    "message": "v2rayN การตรวจจับ"
+  },
+  "rootPath": {
+    "message": "v2rayN โฟลเดอร์"
+  },
+  "corePath": {
+    "message": "พร็อกซีคอร์ที่ปฏิบัติการได้"
+  },
+  "optionalPath": {
+    "message": "เว้นว่างไว้เพื่อการตรวจจับอัตโนมัติ"
+  },
+  "pathsHelp": {
+    "message": "v2rayN ตรวจพบโดยอัตโนมัติ เลือกโฟลเดอร์หากจำเป็น โหนดที่นำเข้าจะใช้แกนหลักที่รวมไว้"
+  },
+  "savePaths": {
+    "message": "บันทึกการตั้งค่าการเชื่อมต่อ"
+  },
+  "privacy": {
+    "message": "การตั้งค่าที่จัดเก็บไว้ในเครื่อง"
+  },
+  "privacyText": {
+    "message": "ลิงก์โหนดและข้อมูลประจำตัวจะยังคงอยู่ในสหายท้องถิ่น ปริมาณการใช้เบราว์เซอร์จะผ่านพร็อกซีที่คุณเลือกไปยังเว็บไซต์ปลายทาง นักพัฒนาไม่ได้รับมัน"
+  },
+  "privacyDetails": {
+    "message": "ความเป็นส่วนตัวและการไหลของข้อมูล"
+  },
+  "export": {
+    "message": "ส่งออกโปรไฟล์"
+  },
+  "about": {
+    "message": "เกี่ยวกับ Proxy V2Route"
+  },
+  "aboutText": {
+    "message": "เลือกเส้นทางเบราว์เซอร์โดยไม่ต้องเปลี่ยนเส้นทางหลักของ v2rayN เส้นทางโหนดใช้สหาย Windows และโหนดของคุณเอง"
+  },
+  "licenses": {
+    "message": "ประกาศโอเพ่นซอร์ส"
+  },
+  "version": {
+    "message": "เวอร์ชั่น"
+  },
+  "fieldRequired": {
+    "message": "ป้อนชื่อโปรไฟล์"
+  },
+  "profileExists": {
+    "message": "มีโปรไฟล์ชื่อนี้อยู่แล้ว"
+  },
+  "ruleHelp": {
+    "message": "แยกโดเมนในแถวเดียวด้วยเครื่องหมายจุลภาค แถวแรกที่ตรงกันจะชนะ คงเส้นทางเริ่มต้นไว้"
+  },
+  "rules": {
+    "message": "กฎการกำหนดเส้นทาง"
+  },
+  "pattern": {
+    "message": "รูปแบบโฮสต์"
+  },
+  "target": {
+    "message": "เป้าหมายกฎ"
+  },
+  "addRule": {
+    "message": "เพิ่มกฎ"
+  },
+  "defaultRoute": {
+    "message": "โปรไฟล์เริ่มต้น"
+  },
+  "pacHelp": {
+    "message": "วางแหล่งที่เชื่อถือได้ PAC ที่มี FindProxyForURL สคริปต์นี้จะกำหนดเส้นทางคำขอของเว็บไซต์"
+  },
+  "pacUrl": {
+    "message": "PAC URL"
+  },
+  "pacScript": {
+    "message": "PAC สคริปต์"
+  },
+  "noSelection": {
+    "message": "เลือกโปรไฟล์หรือสร้างโปรไฟล์"
+  },
+  "details": {
+    "message": "รายละเอียด"
+  },
+  "noNodes": {
+    "message": "ยังไม่มีโหนด"
+  },
+  "noNodesHelp": {
+    "message": "เชื่อมต่อ v2rayN หรือนำเข้าลิงก์พร็อกซี JSON หรือสมัครสมาชิกเพื่อเริ่มต้น"
+  },
+  "openSettings": {
+    "message": "เปิดการตั้งค่า"
+  },
+  "proxySettings": {
+    "message": "การตั้งค่าพร็อกซี"
+  },
+  "switching": {
+    "message": "กำลังเปลี่ยน..."
+  },
+  "updatedElsewhere": {
+    "message": "โปรไฟล์นี้เปลี่ยนไปในหน้าต่างอื่น เปิดใหม่ก่อนที่จะบันทึก"
+  },
+  "choose": {
+    "message": "เลือก"
+  },
+  "popupIntro": {
+    "message": "การเชื่อมต่อ:"
+  },
+  "invalidPort": {
+    "message": "ป้อนพอร์ตตั้งแต่ 1 ถึง 65535"
+  },
+  "externalControl": {
+    "message": "ส่วนขยายหรือนโยบายอื่นกำลังควบคุมพร็อกซีของเบราว์เซอร์"
+  },
+  "noNativeRoute": {
+    "message": "เชื่อมต่อส่วนประกอบภายในเครื่องก่อนที่จะสร้างโปรไฟล์โหนด"
+  },
+  "reload": {
+    "message": "โหลดซ้ำ"
+  },
+  "rulesError": {
+    "message": "แต่ละกฎต้องมีรูปแบบและเป้าหมาย"
+  },
+  "backupDone": {
+    "message": "ส่งออกโปรไฟล์เบราว์เซอร์แล้ว"
+  },
+  "managed": {
+    "message": "โหนดที่ได้รับการจัดการ"
+  },
+  "netRegion": {
+    "message": "พื้นที่เป้าหมาย"
+  },
+  "netNodeArea": {
+    "message": "โหนดพร็อกซี"
+  },
+  "netChina": {
+    "message": "จีนแผ่นดินใหญ่"
+  },
+  "netGlobal": {
+    "message": "ทั่วโลก"
+  },
+  "netAli": {
+    "message": "อาลี DNS"
+  },
+  "netTencent": {
+    "message": "DNSPod"
+  },
+  "netStartHelp": {
+    "message": "เลือกเป้าหมาย จากนั้นเริ่มการทดสอบจริง"
+  },
+  "netConsole": {
+    "message": "การวินิจฉัยแบบสด"
+  },
+  "netStop": {
+    "message": "หยุด"
+  },
+  "netRunning": {
+    "message": "กำลังวิ่ง"
+  },
+  "netStopped": {
+    "message": "หยุดแล้ว"
+  },
+  "netSent": {
+    "message": "ส่งแล้ว"
+  },
+  "netLoss": {
+    "message": "การสูญเสีย"
+  },
+  "netAverageShort": {
+    "message": "เฉลี่ย"
+  },
+  "netLogClear": {
+    "message": "ชัดเจน"
+  },
+  "netFinishing": {
+    "message": "โพรบก่อนหน้าเสร็จสิ้นแล้ว..."
+  },
+  "netRound": {
+    "message": "รอบ"
+  },
+  "netDestination": {
+    "message": "จุดหมายปลายทาง"
+  },
+  "netHop": {
+    "message": "ฮอบ"
+  },
+  "netAddress": {
+    "message": "IP ที่อยู่"
+  },
+  "netLast": {
+    "message": "สุดท้ายนี้"
+  },
+  "netConsoleHelp": {
+    "message": "Ping / TCPing / MTR ใช้เครือข่ายระบบ ไม่ใช่พร็อกซีเชน การตอบกลับ ICMP ที่หายไปไม่ได้พิสูจน์ว่าสูญเสียการรับส่งข้อมูล ดาวน์โหลดใช้เส้นทางเบราว์เซอร์และขีดจำกัดขนาดที่เลือก การทดสอบจะหยุดเมื่อคุณออกหรือซ่อนหน้านี้"
+  },
+  "netDirectShort": {
+    "message": "เครือข่ายระบบ"
+  },
+  "netIcmpShort": {
+    "message": "ไม่ ICMP ตอบกลับ"
+  },
+  "netProbeError": {
+    "message": "ข้อผิดพลาดของโพรบเฉพาะที่"
+  },
+  "netNoDestination": {
+    "message": "ไม่ถึงจุดหมาย"
+  },
+  "deleteActive": {
+    "message": "สลับไปที่ระบบและลบ"
+  },
+  "deleteActiveHelp": {
+    "message": "โปรไฟล์นี้เปิดใช้งานอยู่ การลบจะสลับเบราว์เซอร์เป็นพร็อกซีระบบ"
+  },
+  "netDownloadSize": {
+    "message": "ขนาดการดาวน์โหลด"
+  },
+  "netReceived": {
+    "message": "ได้รับแล้ว"
+  },
+  "netBest": {
+    "message": "ดีที่สุด"
+  },
+  "netWorst": {
+    "message": "แย่ที่สุด"
+  },
+  "netStdDev": {
+    "message": "ผู้พัฒนามาตรฐาน"
+  },
+  "netLocation": {
+    "message": "ที่ตั้ง"
+  },
+  "toolWall": {
+    "message": "การตรวจสอบการบล็อกโดเมน"
+  },
+  "toolSites": {
+    "message": "เว็บไซต์ยอดนิยม"
+  },
+  "toolGlobal": {
+    "message": "การวินิจฉัยทั่วโลก"
+  },
+  "toolFast": {
+    "message": "ความเร็วของ Netflix"
+  },
+  "toolSpeed": {
+    "message": "ทดสอบความเร็ว"
+  },
+  "toolStart": {
+    "message": "เริ่ม"
+  },
+  "toolReady": {
+    "message": "พร้อมแล้ว"
+  },
+  "toolResponded": {
+    "message": "ได้ตอบกลับ"
+  },
+  "toolNoResponse": {
+    "message": "ไม่ได้รับการยืนยัน"
+  },
+  "toolCacheUnsupported": {
+    "message": "เบราว์เซอร์นี้ไม่สามารถล้างแคชตามไซต์ได้ โหลดหน้านี้ซ้ำแล้ว"
+  },
+  "toolCacheFailed": {
+    "message": "การล้างแคชไม่เสร็จสิ้น ปิดแล้วลองอีกครั้ง"
+  },
+  "toolClose": {
+    "message": "ปิด"
+  },
+  "toolReload": {
+    "message": "โหลดซ้ำ"
+  },
+  "toolLoading": {
+    "message": "กำลังโหลด..."
+  },
+  "toolFrameError": {
+    "message": "ไม่สามารถโหลดได้ ลองโหลดใหม่"
+  },
+  "toolSiteHelp": {
+    "message": "การเข้าถึงเบราว์เซอร์เท่านั้น สิ่งนี้ไม่ได้ตรวจสอบบัญชีหรือการเข้าถึงระดับภูมิภาค"
+  },
+  "toolFallback": {
+    "message": "การทดสอบความเร็วการสำรองข้อมูล"
+  },
+  "toolFullscreen": {
+    "message": "เต็มจอ"
+  },
+  "toolRestore": {
+    "message": "ออกจากโหมดเต็มหน้าจอ"
+  },
+  "ipReadFailed": {
+    "message": "การอ่านล้มเหลว 👉"
+  },
+  "ipViewSource": {
+    "message": "ดูไซต์ต้นทาง"
+  },
+  "toolDownloadError": {
+    "message": "ไม่สามารถเข้าถึงเซิร์ฟเวอร์ดาวน์โหลดได้ ลองอีกครั้ง"
+  },
+  "toolAccess": {
+    "message": "เปิดใช้งานการเข้าถึงไซต์"
+  },
+  "toolPermission": {
+    "message": "อนุญาตให้เข้าถึงไซต์นี้เพื่อความเข้ากันได้ของเซสชันแบบฝัง"
+  },
+  "toolAsia": {
+    "message": "เอเชีย"
+  },
+  "toolEurope": {
+    "message": "ยุโรป"
+  },
+  "toolAmerica": {
+    "message": "อเมริกาเหนือ"
+  },
+  "toolGlobalHelp": {
+    "message": "กรอกทางออกเบราว์เซอร์ล่วงหน้า IP เลือกจีนแผ่นดินใหญ่หรือภูมิภาคอื่นเพื่อเปรียบเทียบเส้นทาง Start ส่งเป้าหมายที่แสดงไปยังโพรบ Globalping สูงสุดสามโพรบ"
+  },
+  "toolServiceError": {
+    "message": "บริการทดสอบไม่พร้อมใช้งาน ลองอีกครั้ง"
+  },
+  "popupOrderHelp": {
+    "message": "กดค้างไว้แล้วลากเพื่อเรียงลำดับใหม่ ปุ่ม Alt+ลูกศรจะย้ายโปรไฟล์นี้ด้วย"
+  },
+  "popupOrderSaved": {
+    "message": "บันทึกคำสั่งซื้อแล้ว"
+  },
+  "toolGroupIP": {
+    "message": "IP การทดสอบ"
+  },
+  "toolGroupWeb": {
+    "message": "การทดสอบเว็บไซต์"
+  },
+  "toolGroupSpeed": {
+    "message": "ความเร็ว"
+  },
+  "toolCurrentIP": {
+    "message": "ทางออกปัจจุบัน IP"
+  },
+  "toolCurrentIPLoading": {
+    "message": "กำลังโหลดทางออกปัจจุบัน IP..."
+  },
+  "toolCurrentIPFailed": {
+    "message": "ไม่สามารถอ่านปัจจุบัน IP ป้อนเป้าหมาย"
+  },
+  "speedMode": {
+    "message": "โหมดทดสอบ"
+  },
+  "speedBoth": {
+    "message": "ดาวน์โหลด + อัพโหลด"
+  },
+  "speedDownload": {
+    "message": "ดาวน์โหลด"
+  },
+  "speedUpload": {
+    "message": "อัปโหลด"
+  },
+  "speedLatency": {
+    "message": "HTTP เวลาแฝง"
+  },
+  "speedBudget": {
+    "message": "{n} MiB ต่อเฟส · {total} MiB ทั้งหมด พร้อมตัวอย่างเวลาแฝงเล็กน้อย"
+  },
+  "siteCategory": {
+    "message": "หมวดหมู่เว็บไซต์"
+  },
+  "siteAll": {
+    "message": "เว็บไซต์ทั้งหมด"
+  },
+  "siteAI": {
+    "message": "เอไอ"
+  },
+  "siteDevelopment": {
+    "message": "การพัฒนา"
+  },
+  "siteVideo": {
+    "message": "วีดีโอ / เพลง"
+  },
+  "siteSocial": {
+    "message": "สังคม"
+  },
+  "siteDomestic": {
+    "message": "บริการแผ่นดินใหญ่"
+  },
+  "siteServices": {
+    "message": "บริการทั่วไป"
+  },
+  "globalMethod": {
+    "message": "ประเภทการวัด"
+  },
+  "localPort": {
+    "message": "พอร์ตท้องถิ่น:"
+  },
+  "chainChooseNode": {
+    "message": "เลือกโหนดพร็อกซี"
+  },
+  "chainTitle": {
+    "message": "พร็อกซีเชน"
+  },
+  "chainSelectExit": {
+    "message": "เลือกโหนดทางออกเฉพาะด้านล่างเพื่อบันทึกหรือทดสอบเชนแบบกำหนดเองนี้ ติดตาม v2rayN ได้รับการจัดการโดย v2rayN"
+  },
+  "chainSelectExitShort": {
+    "message": "เลือกโหนดทางออก"
+  },
+  "chainAdd": {
+    "message": "+ เพิ่มเลเยอร์พร็อกซี"
+  },
+  "chainTest": {
+    "message": "โซ่ทดสอบ"
+  },
+  "chainMode": {
+    "message": "โหมดลูกโซ่"
+  },
+  "chainBase": {
+    "message": "พร็อกซีฐาน"
+  },
+  "chainExit": {
+    "message": "ออกจากพรอกซี"
+  },
+  "chainEgress": {
+    "message": "ทางออกของโซ่"
+  },
+  "chainExitBadge": {
+    "message": "ออก IP"
+  },
+  "chainEntry": {
+    "message": "รายการลูกโซ่"
+  },
+  "chainTransit": {
+    "message": "โหนดสะพาน"
+  },
+  "chainUntested": {
+    "message": "ไม่ได้ทดสอบ"
+  },
+  "chainMissing": {
+    "message": "โหนดไม่พร้อมใช้งาน"
+  },
+  "chainUnresolved": {
+    "message": "ไม่สามารถแก้ไขห่วงโซ่ที่สืบทอดมาได้ ซ่อมแซมการตั้งค่ารุ่นก่อนหรือเลือกเชนแบบกำหนดเอง"
+  },
+  "chainUpgrade": {
+    "message": "อัปเดตสหายท้องถิ่นเพื่อเปิดใช้งานเชนที่สั่ง"
+  },
+  "chainBusy": {
+    "message": "การทดสอบลูกโซ่อื่นกำลังทำงานอยู่"
+  },
+  "chainOK": {
+    "message": "เข้าถึงได้"
+  },
+  "chainFailed": {
+    "message": "การกระโดดล้มเหลวในการทดสอบนี้"
+  },
+  "chainBlocked": {
+    "message": "ไม่ได้ทดสอบ · การกระโดดครั้งก่อนล้มเหลว"
+  },
+  "chainFailureHelp": {
+    "message": "การกระโดดครั้งนี้หรือเส้นทางสู่มันไม่ผ่าน ไม่มีการทดสอบการกระโดดในภายหลัง"
+  },
+  "chainAllOK": {
+    "message": "เส้นทางสะสมทั้งหมดตอบสนอง"
+  },
+  "chainStopping": {
+    "message": "หยุดหลังจากการตรวจสอบขอบเขตปัจจุบัน..."
+  },
+  "globalWorld": {
+    "message": "ทั่วโลก"
+  },
+  "globalUnavailable": {
+    "message": "เป้าหมายหรือภูมิภาคไม่พร้อมใช้งาน ตรวจสอบเป้าหมายหรือเลือกภูมิภาคอื่น"
+  },
+  "globalRateLimited": {
+    "message": "ถึงขีดจำกัดอัตราบริการแล้ว ลองอีกครั้งในภายหลัง"
+  },
+  "globalNoResults": {
+    "message": "บริการส่งคืนผลลัพธ์การสอบสวนไม่ ลองภูมิภาคอื่น"
+  },
+  "globalProbeFailed": {
+    "message": "โพรบล้มเหลว"
+  },
+  "globalProbeOffline": {
+    "message": "โพรบออฟไลน์"
+  },
+  "globalIcmpCaution": {
+    "message": "การตอบกลับ ICMP ที่หายไปเพียงอย่างเดียวไม่ได้พิสูจน์ว่ามีการบล็อก เปรียบเทียบเส้นทางแผ่นดินใหญ่และต่างประเทศและประเภทการทดสอบอื่นๆ"
+  },
+  "speedRealtime": {
+    "message": "ความเร็วสด"
+  },
+  "speedAverage": {
+    "message": "ความเร็วเฉลี่ย"
+  },
+  "ipToolsBrief": {
+    "message": "ผลลัพธ์ของบุคคลที่สามมีไว้เพื่อการอ้างอิง"
+  },
+  "ipReportBrief": {
+    "message": "ผลลัพธ์แตกต่างกันไปตามทางออก IP และมีไว้สำหรับการอ้างอิง"
+  },
+  "toolPingPe": {
+    "message": "IP การตรวจสอบการปิดกั้น"
+  },
+  "toolTargetIP": {
+    "message": "เป้าหมาย IP"
+  },
+  "toolOpenPingPe": {
+    "message": "เปิดการทดสอบอย่างเป็นทางการ"
+  },
+  "toolInvalidIP": {
+    "message": "ป้อนที่อยู่ IPv4 หรือ IPv6 ที่ถูกต้อง"
+  },
+  "toolInvalidPort": {
+    "message": "ป้อนพอร์ต TCP ตั้งแต่ 1 ถึง 65535"
+  },
+  "toolExternalFailed": {
+    "message": "ไม่สามารถเปิดเว็บไซต์ได้ ลองอีกครั้ง"
+  },
+  "ipBrowserReading": {
+    "message": "กำลังอ่าน Ping0 ผ่านเบราว์เซอร์..."
+  },
+  "ipVerifyBrowser": {
+    "message": "เปิดหน้าการยืนยัน"
+  },
+  "policyCenter": {
+    "message": "ความเป็นส่วนตัว การประกาศ และคำถามที่พบบ่อย"
+  },
+  "policyCenterIntro": {
+    "message": "การจัดการข้อมูลในเครื่อง ขีดจำกัดการทดสอบ และคำตอบทั่วไป"
+  },
+  "policyPrivacyTitle": {
+    "message": "นโยบายความเป็นส่วนตัว"
+  },
+  "policyPrivacySummary": {
+    "message": "โปรไฟล์และข้อมูลรับรองจะยังคงอยู่ในอุปกรณ์นี้ การตรวจสอบป๊อปอัปและการวินิจฉัยจะติดต่อกับผู้ให้บริการที่ระบุไว้ ไม่มีการโฆษณาหรือการวิเคราะห์พฤติกรรม"
+  },
+  "policyDeclarationTitle": {
+    "message": "ข้อความการใช้และการวัด"
+  },
+  "policyDeclarationSummary": {
+    "message": "ส่วนขยายนี้เป็นตัวจัดการเส้นทางในเครื่อง ไม่ใช่ผู้ให้บริการพร็อกซีหรือ VPN การวัดคือตัวอย่างอ้างอิงที่ได้รับผลกระทบจากเงื่อนไขของเครือข่าย พร็อกซี และผู้ให้บริการ"
+  },
+  "policyFaqTitle": {
+    "message": "คำถามที่พบบ่อย"
+  },
+  "policyFaqSummary": {
+    "message": "จำเป็นต้องมีสหาย Windows สำหรับโหนดในเครื่องและ MTR เวลาแฝงอาจแตกต่างกันระหว่างเบราว์เซอร์ ระบบ และโพรบสาธารณะ หยุดการทดสอบหรือล้างข้อมูลในเครื่องจากการตั้งค่า"
+  },
+  "policyDetailsLink": {
+    "message": "อ่านรายละเอียดทั้งหมด ↗"
+  },
+  "thirdPartyNotice": {
+    "message": "ประกาศโอเพ่นซอร์ส ↗"
+  },
+  "columnResizeHelp": {
+    "message": "ลากเพื่อปรับขนาด ดับเบิลคลิกเพื่อรีเซ็ต ใช้ปุ่มลูกศรเพื่อปรับ"
+  },
+  "columnResize": {
+    "message": "ปรับขนาดคอลัมน์"
+  },
+  "typeDescription_node": {
+    "message": "เชื่อมต่อผ่านโหนดพร็อกซี"
+  },
+  "typeDescription_manual": {
+    "message": "ป้อนการตั้งค่าพร็อกซีด้วยตนเอง"
+  },
+  "typeDescription_auto": {
+    "message": "เลือกโหนดโดยใช้กฎ"
+  },
+  "typeDescription_pac": {
+    "message": "กำหนดเส้นทางการจราจรโดยใช้กฎ PAC"
+  },
+  "appDescription": {
+    "message": "จัดการเส้นทางพร็อกซีเบราว์เซอร์อิสระ โหนด กฎโดเมน และการตรวจสอบการเชื่อมต่อ เส้นทางของโหนดต้องมีสหาย Windows"
+  },
+  "core_title": {
+    "message": "พร็อกซีคอร์"
+  },
+  "core_checking": {
+    "message": "กำลังตรวจสอบส่วนประกอบในเครื่อง..."
+  },
+  "core_ready": {
+    "message": "Xray พร้อมแล้ว"
+  },
+  "core_missing": {
+    "message": "พร็อกซีคอร์หายไป"
+  },
+  "core_external": {
+    "message": "แกนที่กำหนดเอง: ไม่ได้รับการยืนยัน"
+  },
+  "core_corrupt": {
+    "message": "Xray เช็คซัมไม่ตรงกัน — จำเป็นต้องซ่อมแซม"
+  },
+  "core_unreadable": {
+    "message": "ไม่สามารถตรวจสอบไฟล์หลักได้"
+  },
+  "core_intro": {
+    "message": "แพ็คเกจ Windows ที่สมบูรณ์ประกอบด้วย Xray v2rayN เป็นทางเลือก"
+  },
+  "core_verify": {
+    "message": "ตรวจสอบอีกครั้ง"
+  },
+  "core_install": {
+    "message": "ติดตั้ง/ซ่อมแซมแกน"
+  },
+  "core_installing": {
+    "message": "กำลังดาวน์โหลดและยืนยัน..."
+  },
+  "core_done": {
+    "message": "ตรวจสอบแกนหลักแล้วและพร้อมใช้งาน"
+  },
+  "core_help": {
+    "message": "การซ่อมแซมใช้การเผยแพร่อย่างเป็นทางการ Xray ที่ปักหมุดไว้ และตรวจสอบความถูกต้องของผลรวม การเชื่อมต่อที่มีอยู่ยังคงทำงานอยู่"
+  },
+  "core_absent": {
+    "message": "ติดตั้งส่วนประกอบภายในเครื่องหนึ่งครั้ง จากนั้นกลับมาที่นี่เพื่อตรวจสอบแกนหลัก"
+  },
+  "core_download": {
+    "message": "คู่มือการติดตั้ง"
+  },
+  "core_absentHelp": {
+    "message": "ใช้แพ็คเกจ Windows ที่ตรงกันหรือทำตามคำแนะนำเพื่อสร้างจากแหล่งที่มา จากนั้นเรียกใช้การตั้งค่า"
+  },
+  "core_failed": {
+    "message": "การดำเนินการหลักล้มเหลว ลองอีกครั้งหรือใช้แพ็คเกจ Windows ที่สมบูรณ์"
+  },
+  "core_version": {
+    "message": "เวอร์ชั่น"
+  },
+  "error_ACTIVE_PROFILE_DELETE": {
+    "message": "เปลี่ยนไปใช้โปรไฟล์อื่นก่อนลบ"
+  },
+  "error_BACKUP_BINDING_TYPE": {
+    "message": "เฉพาะโปรไฟล์พร็อกซีเท่านั้นที่ผูกเส้นทางได้"
+  },
+  "error_BACKUP_FORMAT3_REQUIRED": {
+    "message": "กฎโหนดต้องใช้ข้อมูลสำรองแบบพกพารูปแบบ 3"
+  },
+  "error_BACKUP_INDEPENDENT_PATH_REQUIRED": {
+    "message": "ข้อมูลสำรองต้องมีเส้นทางโหนดที่เป็นอิสระ"
+  },
+  "error_BACKUP_INTERNAL_BINDINGS": {
+    "message": "ข้อมูลสำรองมีการผูกภายใน"
+  },
+  "error_BACKUP_MESSAGE_LIMIT": {
+    "message": "ข้อมูลสำรองโหนดเกินขีดจำกัดข้อความของแอปคู่หู"
+  },
+  "error_BACKUP_NODES_INCOMPLETE": {
+    "message": "ข้อมูลสำรองโหนดไม่ครบถ้วน"
+  },
+  "error_BACKUP_NODE_MISSING": {
+    "message": "ข้อมูลสำรองขาดโหนดที่จำเป็น"
+  },
+  "error_BACKUP_NODE_PATHS_LIMIT": {
+    "message": "ข้อมูลสำรองรองรับเส้นทางโหนดได้สูงสุด {limit} เส้นทาง"
+  },
+  "error_BACKUP_PATH_INCOMPLETE": {
+    "message": "เส้นทางโหนดในข้อมูลสำรองไม่ครบถ้วน"
+  },
+  "error_BACKUP_PROFILES_LIMIT": {
+    "message": "ข้อมูลสำรองรองรับโปรไฟล์ได้สูงสุด {limit} โปรไฟล์"
+  },
+  "error_BACKUP_PROXY_CONFLICT": {
+    "message": "การตั้งค่าพร็อกซีในข้อมูลสำรองขัดแย้งกัน"
+  },
+  "error_BACKUP_SIZE_LIMIT": {
+    "message": "ข้อมูลสำรองเกิน {limit} MB"
+  },
+  "error_BACKUP_TRANSFER_UNAVAILABLE": {
+    "message": "อัปเดตหรือซ่อมแซมแอปคู่หูเพื่อถ่ายโอนข้อมูลสำรองโหนด"
+  },
+  "error_BACKUP_UNUSED_NODES": {
+    "message": "ข้อมูลสำรองมีโหนดที่ไม่มีการอ้างอิง"
+  },
+  "error_BODY_TOO_LARGE": {
+    "message": "การตอบกลับของการสมัครรับข้อมูลเกินขนาดที่อนุญาต"
+  },
+  "error_BROWSER_API_FAILED": {
+    "message": "การดำเนินการของเบราว์เซอร์ล้มเหลว ดูรายละเอียดทางเทคนิค"
+  },
+  "error_BROWSER_PROXY_RESTORE_FAILED": {
+    "message": "การดำเนินการล้มเหลวและไม่สามารถคืนค่าพร็อกซีเดิมของเบราว์เซอร์ได้"
+  },
+  "error_BROWSER_SCHEDULING_UNAVAILABLE": {
+    "message": "ไม่สามารถใช้การจัดกำหนดการของเบราว์เซอร์ได้"
+  },
+  "error_BUSY": {
+    "message": "มีการดำเนินการอื่นอยู่ โปรดลองอีกครั้งในอีกสักครู่"
+  },
+  "error_CHAIN_PROBE_FAILED": {
+    "message": "การทดสอบสายโซ่ล้มเหลว"
+  },
+  "error_COMPANION_BULK_RELEASE_REQUIRED": {
+    "message": "อัปเกรดแอปคู่หูในเครื่องเพื่อจัดการกฎโหนดหลายกฎอย่างปลอดภัย"
+  },
+  "error_COMPANION_CHAINS_REQUIRED": {
+    "message": "อัปเกรดแอปคู่หูในเครื่องเพื่อเปิดใช้สายโซ่แบบเรียงลำดับ"
+  },
+  "error_COMPANION_MESSAGE_LIMIT": {
+    "message": "การตั้งค่าเกินขีดจำกัดข้อความของแอปคู่หู"
+  },
+  "error_COMPANION_OPERATION_FAILED": {
+    "message": "การดำเนินการของแอปคู่หูในเครื่องล้มเหลว ดูรายละเอียดทางเทคนิค"
+  },
+  "error_COMPANION_UNAVAILABLE": {
+    "message": "ติดตั้งหรือซ่อมแซม V2Route Companion"
+  },
+  "error_CONNECTION_CLOSED": {
+    "message": "การเชื่อมต่อถูกปิดก่อนการทดสอบเสร็จสิ้น"
+  },
+  "error_CORE_INSTALL_FAILED": {
+    "message": "การติดตั้งคอร์ล้มเหลว ดูรายละเอียดทางเทคนิค"
+  },
+  "error_CORE_OWNERSHIP_FAILED": {
+    "message": "ไม่สามารถควบคุมคอร์ทดสอบแบบแยกได้อย่างปลอดภัย จึงหยุดการทดสอบ"
+  },
+  "error_CORE_START_FAILED": {
+    "message": "ไม่สามารถเริ่มคอร์ทดสอบแบบแยกได้ ตรวจสอบการติดตั้งแอปคู่หูและคอร์"
+  },
+  "error_CORE_START_TIMEOUT": {
+    "message": "คอร์ทดสอบแบบแยกไม่พร้อมภายในเวลาที่กำหนด"
+  },
+  "error_CORE_STATUS_UNAVAILABLE": {
+    "message": "ไม่สามารถตรวจสอบสถานะคอร์ได้ ดูรายละเอียดทางเทคนิค"
+  },
+  "error_CORE_VALIDATION_FAILED": {
+    "message": "Xray ไม่สามารถตรวจสอบโหนดที่นำเข้าได้ ตรวจสอบการตั้งค่าแล้วลองอีกครั้ง"
+  },
+  "error_DETACH_PORT_CONFLICT": {
+    "message": "พอร์ตที่จัดการอยู่จะถูกปล่อย โปรดระบุพร็อกซีแบบกำหนดเองตัวอื่น"
+  },
+  "error_DETACH_PROXY_REQUIRED": {
+    "message": "ระบุพร็อกซีแบบกำหนดเองที่จะใช้แทนก่อนยกเลิกการผูก"
+  },
+  "error_DNS_BUSY": {
+    "message": "การค้นหา DNS ไม่ว่าง โปรดลองอีกครั้งในอีกสักครู่"
+  },
+  "error_DNS_FAILED": {
+    "message": "การค้นหา DNS ล้มเหลว ตรวจสอบที่อยู่และการเชื่อมต่อเครือข่าย"
+  },
+  "error_ENCODING_UNSUPPORTED": {
+    "message": "การสมัครรับข้อมูลใช้การเข้ารหัสเนื้อหาที่ไม่รองรับ"
+  },
+  "error_FIREFOX_PRIVATE_ACCESS_REQUIRED": {
+    "message": "อนุญาตให้ V2Route ทำงานในหน้าต่างส่วนตัวจากรายละเอียดส่วนขยายก่อนเปลี่ยนการตั้งค่าพร็อกซี"
+  },
+  "error_FOLDER_UNAVAILABLE": {
+    "message": "โฟลเดอร์ไม่พร้อมใช้งาน ตรวจสอบเส้นทาง สิทธิ์เข้าถึง และเวอร์ชันแอปคู่หู"
+  },
+  "error_GROUP_LIMIT": {
+    "message": "ถึงขีดจำกัดจำนวนกลุ่มแล้ว ลบกลุ่มที่ไม่ใช้แล้วลองอีกครั้ง"
+  },
+  "error_GROUP_NOT_EDITABLE": {
+    "message": "ไม่สามารถแก้ไขกลุ่มต้นทางนี้ได้ที่นี่"
+  },
+  "error_GROUP_NOT_FOUND": {
+    "message": "กลุ่มที่เลือกไม่มีอยู่แล้ว โปรดเลือกกลุ่มอื่น"
+  },
+  "error_HTTP_ENCODING": {
+    "message": "เซิร์ฟเวอร์ทดสอบส่งกลับการเข้ารหัสที่ไม่รองรับ"
+  },
+  "error_HTTP_LENGTH": {
+    "message": "ขนาดการตอบกลับของการทดสอบไม่ตรงกับขนาดที่ร้องขอ"
+  },
+  "error_HTTP_RESPONSE_TOO_LARGE": {
+    "message": "การตอบกลับของการทดสอบเกินขนาดที่อนุญาต"
+  },
+  "error_HTTP_STATUS": {
+    "message": "เซิร์ฟเวอร์ทดสอบส่งกลับสถานะ HTTP ที่ไม่สำเร็จ"
+  },
+  "error_IMPORTED_PROXY_MISSING": {
+    "message": "แอปคู่หูไม่ได้ส่งกลับพร็อกซีที่นำเข้า"
+  },
+  "error_IMPORTED_RULE_PATH_CONFLICT": {
+    "message": "โหนดที่นำเข้าส่งผลให้เส้นทางกฎขัดแย้งกัน"
+  },
+  "error_IMPORT_CLEANUP_FAILED": {
+    "message": "นำเข้าไม่สำเร็จ และไม่สามารถปล่อยโหนดหรือพอร์ตชั่วคราวบางรายการได้ โปรไฟล์เดิมยังคงอยู่"
+  },
+  "error_IMPORT_PROFILE_NAME_CONFLICT": {
+    "message": "ชื่อโปรไฟล์ซ้ำหรือไม่ถูกต้อง"
+  },
+  "error_INCOMPLETE_RESPONSE": {
+    "message": "การตอบกลับของการสมัครรับข้อมูลไม่ครบถ้วน โปรดลองอีกครั้ง"
+  },
+  "error_INVALID_BACKUP": {
+    "message": "ข้อมูลสำรอง V2Route ไม่ถูกต้อง"
+  },
+  "error_INVALID_BACKUP_NODE": {
+    "message": "โหนดในข้อมูลสำรองไม่ถูกต้องหรือซ้ำกัน"
+  },
+  "error_INVALID_BACKUP_NODES": {
+    "message": "โหนดในข้อมูลสำรองไม่ถูกต้อง"
+  },
+  "error_INVALID_BACKUP_PATH": {
+    "message": "เส้นทางในข้อมูลสำรองไม่ถูกต้อง"
+  },
+  "error_INVALID_BYPASS_ENTRY": {
+    "message": "รายการยกเว้นไม่ถูกต้อง"
+  },
+  "error_INVALID_BYPASS_LIST": {
+    "message": "รายการข้อยกเว้นไม่ถูกต้อง"
+  },
+  "error_INVALID_CHAIN": {
+    "message": "สายโซ่แบบเรียงลำดับไม่ถูกต้อง"
+  },
+  "error_INVALID_CHAIN_PROBE": {
+    "message": "คำขอทดสอบสายโซ่ไม่ถูกต้อง"
+  },
+  "error_INVALID_COMPANION_RESPONSE": {
+    "message": "แอปคู่หูในเครื่องส่งกลับข้อมูลไม่ถูกต้อง โปรดอัปเดตหรือซ่อมแซม"
+  },
+  "error_INVALID_CONTENT": {
+    "message": "การตอบกลับของการสมัครรับข้อมูลไม่มีเนื้อหาที่ถูกต้อง"
+  },
+  "error_INVALID_DOMAIN_PATTERNS": {
+    "message": "ระบุรูปแบบโดเมนโดยคั่นด้วยจุลภาค และวางแต่ละ URL ในแถวของตนเอง"
+  },
+  "error_INVALID_ENCODING": {
+    "message": "การตอบกลับของการสมัครรับข้อมูลไม่ใช่ข้อความ UTF-8 ที่ถูกต้อง"
+  },
+  "error_INVALID_FOLDER_REQUEST": {
+    "message": "คำขอโฟลเดอร์ไม่ถูกต้อง"
+  },
+  "error_INVALID_GROUP_ACTION": {
+    "message": "ไม่รองรับการดำเนินการกับกลุ่มนี้"
+  },
+  "error_INVALID_HOP_INDEX": {
+    "message": "ดัชนีฮอปไม่ถูกต้อง"
+  },
+  "error_INVALID_LEGACY_PREDECESSOR": {
+    "message": "โหนดก่อนหน้าแบบเดิมไม่ถูกต้อง"
+  },
+  "error_INVALID_LIBRARY_COMMAND": {
+    "message": "ไม่รองรับคำสั่งคลังโหนดนี้"
+  },
+  "error_INVALID_LIBRARY_REQUEST": {
+    "message": "คำขอคลังไม่ถูกต้อง"
+  },
+  "error_INVALID_NAME": {
+    "message": "ระบุชื่อที่มีอักขระมองเห็นได้ 1–128 ตัวและไม่มีอักขระควบคุม"
+  },
+  "error_INVALID_NETWORK_TEST": {
+    "message": "การทดสอบเครือข่ายไม่ถูกต้อง"
+  },
+  "error_INVALID_NODE_IMPORT_RESPONSE": {
+    "message": "การตอบกลับการนำเข้าโหนดไม่ถูกต้อง"
+  },
+  "error_INVALID_PREDECESSOR": {
+    "message": "โหนดก่อนหน้าของเส้นทางนี้ไม่ถูกต้อง"
+  },
+  "error_INVALID_PROFILE_NAME": {
+    "message": "ชื่อโปรไฟล์ไม่ถูกต้อง"
+  },
+  "error_INVALID_PROFILE_REFERENCE": {
+    "message": "การอ้างอิงโปรไฟล์ไม่ถูกต้อง"
+  },
+  "error_INVALID_PROXY_AUTH": {
+    "message": "การยืนยันตัวตนพร็อกซีไม่ถูกต้อง"
+  },
+  "error_INVALID_PROXY_CREDENTIALS": {
+    "message": "ข้อมูลรับรองพร็อกซีไม่ถูกต้อง"
+  },
+  "error_INVALID_PROXY_ENDPOINT": {
+    "message": "ระบุโฮสต์และพอร์ตพร็อกซีที่ถูกต้อง"
+  },
+  "error_INVALID_PROXY_HOST": {
+    "message": "ระบุชื่อ DNS หรือที่อยู่ IP โดยไม่มีพอร์ต URL เส้นทาง หรือคำค้น"
+  },
+  "error_INVALID_ROUTE": {
+    "message": "เส้นทางไม่ถูกต้อง"
+  },
+  "error_INVALID_ROUTE_SETTINGS": {
+    "message": "การตั้งค่าเส้นทางไม่ถูกต้อง"
+  },
+  "error_INVALID_RULES": {
+    "message": "กฎไม่ถูกต้อง"
+  },
+  "error_INVALID_RULE_TARGET": {
+    "message": "เลือกโหนดหรือโปรไฟล์ที่ถูกต้องหนึ่งรายการสำหรับแต่ละกฎ"
+  },
+  "error_INVALID_SUBSCRIPTION": {
+    "message": "การสมัครรับข้อมูลไม่ถูกต้อง"
+  },
+  "error_INVALID_SUBSCRIPTION_REQUEST": {
+    "message": "คำขอสมัครรับข้อมูลไม่ถูกต้อง"
+  },
+  "error_INVALID_SUBSCRIPTION_SETTINGS": {
+    "message": "การตั้งค่าการสมัครรับข้อมูลไม่ถูกต้อง ตรวจสอบช่วงเวลาอัปเดตและนโยบายการเชื่อมต่อ"
+  },
+  "error_INVALID_SYSTEM_PROXY_RESPONSE": {
+    "message": "การตอบกลับของพร็อกซีระบบไม่ถูกต้อง โปรดอัปเดตหรือซ่อมแซมแอปคู่หู"
+  },
+  "error_INVALID_TRANSPORT": {
+    "message": "การตั้งค่าการเชื่อมต่อของการสมัครรับข้อมูลไม่ถูกต้อง"
+  },
+  "error_INVALID_URL": {
+    "message": "ระบุ URL การสมัครรับข้อมูล HTTP(S) ที่ถูกต้องโดยไม่มีชื่อผู้ใช้หรือรหัสผ่าน"
+  },
+  "error_LIBRARY_CHANGED": {
+    "message": "คลังโหนดถูกเปลี่ยนในหน้าต่างอื่น รีเฟรชแล้วลองอีกครั้ง"
+  },
+  "error_MANUAL_CHAIN_UNSUPPORTED": {
+    "message": "พร็อกซีแบบกำหนดเองไม่รองรับสายโซ่โหนด"
+  },
+  "error_MANUAL_PROXY_CLEANUP_FAILED": {
+    "message": "บันทึกไม่สำเร็จ และพร็อกซีที่นำเข้าชั่วคราวยังคงอยู่ในคลังโหนด"
+  },
+  "error_NATIVE_BINDING_ID": {
+    "message": "ตัวระบุการผูกเส้นทางไม่ถูกต้อง"
+  },
+  "error_NATIVE_BINDING_UNKNOWN": {
+    "message": "ไม่มีการผูกเส้นทางนี้"
+  },
+  "error_NATIVE_BUTTON_NAME": {
+    "message": "ชื่อปุ่มต้องมีอักขระที่มองเห็นได้ 1–128 ตัว"
+  },
+  "error_NATIVE_CATALOG_UNREADABLE": {
+    "message": "ไม่สามารถอ่านการกำหนดค่า v2rayN ได้"
+  },
+  "error_NATIVE_CORE_MISSING": {
+    "message": "Xray ไม่พร้อมใช้งาน โปรดติดตั้งแพ็กเกจแอปคู่หู"
+  },
+  "error_NATIVE_GROUP_ID_COLLISION": {
+    "message": "ตัวระบุกลุ่มขัดแย้งกัน"
+  },
+  "error_NATIVE_GROUP_ORDER": {
+    "message": "ลำดับกลุ่มไม่ถูกต้อง"
+  },
+  "error_NATIVE_NODE_ID_COLLISION": {
+    "message": "ตัวระบุโหนดขัดแย้งกัน"
+  },
+  "error_NATIVE_PREDECESSOR_AMBIGUOUS": {
+    "message": "ชื่อโหนดก่อนหน้าหายไปหรือซ้ำกัน เลือกโหนดก่อนหน้าที่เฉพาะเจาะจง"
+  },
+  "error_NATIVE_PREDECESSOR_CYCLE": {
+    "message": "สายโซ่โหนดก่อนหน้ามีวงวนหรือมีมากกว่าหกโหนด"
+  },
+  "error_NATIVE_PREDECESSOR_INVALID": {
+    "message": "เลือกพร็อกซีก่อนหน้าที่ถูกต้อง"
+  },
+  "error_NATIVE_PREDECESSOR_MISSING": {
+    "message": "โหนดก่อนหน้าที่เลือกไม่มีอยู่แล้ว โปรดเลือกโหนดอื่น"
+  },
+  "error_NATIVE_PREDECESSOR_SETTINGS": {
+    "message": "การตั้งค่าโหนดก่อนหน้าไม่ถูกต้อง"
+  },
+  "error_NATIVE_ROUTE_INVALID": {
+    "message": "เลือกเส้นทางที่ถูกต้อง"
+  },
+  "error_NATIVE_ROUTE_MISSING": {
+    "message": "เส้นทางนี้ไม่มีอยู่แล้ว โปรดเลือกเส้นทางอื่น"
+  },
+  "error_NATIVE_ROUTE_PORTS": {
+    "message": "การกำหนดพอร์ตเส้นทางไม่ถูกต้อง"
+  },
+  "error_NATIVE_ROUTE_UNAVAILABLE": {
+    "message": "เส้นทางที่เลือกไม่พร้อมใช้งาน ดูรายละเอียดทางเทคนิค"
+  },
+  "error_NATIVE_SETTINGS_FORMAT": {
+    "message": "รูปแบบการตั้งค่าไม่ถูกต้อง"
+  },
+  "error_NATIVE_SETTINGS_REVISION": {
+    "message": "รุ่นแก้ไขการตั้งค่าไม่ถูกต้อง"
+  },
+  "error_NATIVE_SUCCESSOR_UNSUPPORTED": {
+    "message": "กลุ่มนี้ใช้พร็อกซีถัดไปที่ไม่รองรับ"
+  },
+  "error_NATIVE_UNSUPPORTED_CUSTOM": {
+    "message": "เวอร์ชันนี้ไม่รองรับการกำหนดค่าขาออกแบบกำหนดเอง"
+  },
+  "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
+    "message": "เวอร์ชันนี้ไม่รองรับ Hysteria2"
+  },
+  "error_NATIVE_UNSUPPORTED_TUIC": {
+    "message": "เวอร์ชันนี้ไม่ได้รวมคอร์ sing-box ที่ TUIC ต้องใช้"
+  },
+  "error_NATIVE_UNSUPPORTED_TYPE": {
+    "message": "ไม่รองรับเส้นทางประเภทนี้"
+  },
+  "error_NATIVE_V2RAYN_PORT": {
+    "message": "พอร์ต v2rayN ในเครื่องไม่ถูกต้อง"
+  },
+  "error_NATIVE_V2RAYN_UNAVAILABLE": {
+    "message": "v2rayN ไม่พร้อมใช้งาน โปรดเลือกโหนดที่นำเข้า"
+  },
+  "error_NETWORK_FAILED": {
+    "message": "คำขอเครือข่ายล้มเหลว ตรวจสอบการเชื่อมต่อแล้วลองอีกครั้ง"
+  },
+  "error_NETWORK_TEST_FAILED": {
+    "message": "การวินิจฉัยเครือข่ายล้มเหลว ดูรายละเอียดทางเทคนิค"
+  },
+  "error_NODE_LIMIT": {
+    "message": "การดำเนินการนี้จะเกินขีดจำกัดโหนด ลบโหนดที่ไม่ใช้แล้วลองอีกครั้ง"
+  },
+  "error_NODE_MAPPING_INCOMPLETE": {
+    "message": "การแมปโหนดไม่ครบถ้วน"
+  },
+  "error_NODE_NOT_FOUND": {
+    "message": "โหนดที่เลือกไม่มีอยู่แล้ว โปรดเลือกโหนดอื่น"
+  },
+  "error_NOT_DUE": {
+    "message": "ยังไม่ถึงเวลาอัปเดตตามกำหนดครั้งถัดไป"
+  },
+  "error_PAC_ENTRY_REQUIRED": {
+    "message": "ระบุซอร์ส PAC ที่มี FindProxyForURL"
+  },
+  "error_PAC_FUNCTION_REQUIRED": {
+    "message": "กำหนดฟังก์ชัน FindProxyForURL แบบซิงโครนัส ตัวแปรฟังก์ชัน หรือการกำหนดค่าไว้ที่ระดับบนสุด"
+  },
+  "error_PAC_PARSER_UNAVAILABLE": {
+    "message": "ตัวแยกวิเคราะห์ PAC ที่ให้มาไม่พร้อมใช้งาน โปรดติดตั้งส่วนขยายใหม่"
+  },
+  "error_PAC_RULE_TARGET_UNSUPPORTED": {
+    "message": "กฎอัตโนมัติไม่สามารถกำหนดเป้าหมายเป็นโปรไฟล์ PAC แบบอินไลน์ได้"
+  },
+  "error_PAC_SOURCE_LIMIT": {
+    "message": "ระบุซอร์ส PAC ไม่เกิน {limit} อักขระ"
+  },
+  "error_PAC_SYNTAX_INVALID": {
+    "message": "ไวยากรณ์ PAC ไม่ถูกต้อง"
+  },
+  "error_PAC_SYNTAX_LOCATION": {
+    "message": "ไวยากรณ์ PAC ไม่ถูกต้องที่บรรทัด {line} คอลัมน์ {column}"
+  },
+  "error_PARTIAL_TRANSFER": {
+    "message": "การถ่ายโอนทดสอบสิ้นสุดก่อนรับข้อมูลทั้งหมด"
+  },
+  "error_PRIVATE_DIRECTORY_FAILED": {
+    "message": "ไม่สามารถป้องกันโฟลเดอร์ทดสอบส่วนตัวได้ จึงหยุดการทดสอบ"
+  },
+  "error_PRIVATE_TARGET": {
+    "message": "ไม่อนุญาตคำขอสมัครรับข้อมูลไปยังที่อยู่ส่วนตัวหรือในเครื่อง"
+  },
+  "error_PROFILE_NOT_FOUND": {
+    "message": "ไม่พบโปรไฟล์"
+  },
+  "error_PROFILE_REFERENCE_CYCLE": {
+    "message": "การอ้างอิงโปรไฟล์วนเป็นวง"
+  },
+  "error_PROFILE_REFERENCE_DEPTH": {
+    "message": "กฎอัตโนมัติเกินความลึกสูงสุด {limit}"
+  },
+  "error_PROFILE_REFERENCE_MISSING": {
+    "message": "ไม่มีโปรไฟล์ที่อ้างอิง: {name}"
+  },
+  "error_PROFILE_SAVE_RESTORE_FAILED": {
+    "message": "บันทึกไม่สำเร็จและต้องตรวจสอบการคืนค่าเส้นทาง"
+  },
+  "error_PROXY_AUTH_REQUIRED": {
+    "message": "พร็อกซีของการสมัครรับข้อมูลต้องใช้การยืนยันตัวตนที่คำขอนี้ให้ไม่ได้"
+  },
+  "error_PROXY_CONTROL_UNAVAILABLE": {
+    "message": "ส่วนขยายหรือนโยบายอื่นควบคุมพร็อกซีอยู่"
+  },
+  "error_PROXY_DNS_REQUIRED": {
+    "message": "V2Route แก้ไขชื่อ SOCKS5 DNS ผ่านพร็อกซี"
+  },
+  "error_PROXY_FAILED": {
+    "message": "การเชื่อมต่อพร็อกซีล้มเหลว ตรวจสอบเส้นทางที่เลือก"
+  },
+  "error_PROXY_PROFILE_REQUIRED": {
+    "message": "เลือกโปรไฟล์พร็อกซี"
+  },
+  "error_PROXY_ROLLBACK_REFUSED": {
+    "message": "เบราว์เซอร์ปฏิเสธการย้อนคืนพร็อกซี"
+  },
+  "error_PROXY_SETTING_REFUSED": {
+    "message": "เบราว์เซอร์ปฏิเสธการตั้งค่าพร็อกซี"
+  },
+  "error_PROXY_UNAVAILABLE": {
+    "message": "พร็อกซีที่เลือกไม่พร้อมใช้งาน ตรวจสอบเส้นทางปัจจุบัน"
+  },
+  "error_PROXY_USERNAME_REQUIRED": {
+    "message": "ระบุชื่อผู้ใช้พร็อกซี"
+  },
+  "error_RECOVERY_BINDINGS_LIMIT": {
+    "message": "การกู้คืนรองรับการผูกโหนดสูงสุด {limit} รายการ โปรดเปิดและบันทึกโปรไฟล์ที่อ้างอิงแยกกัน"
+  },
+  "error_REDIRECT_LIMIT": {
+    "message": "การสมัครรับข้อมูลเปลี่ยนเส้นทางบ่อยเกินไป โปรดตรวจสอบ URL"
+  },
+  "error_REFERENCED_PROFILE_DELETE": {
+    "message": "โปรไฟล์นี้ถูกอ้างอิงโดยกฎอัตโนมัติ"
+  },
+  "error_REMOTE_PAC_UNSUPPORTED": {
+    "message": "ใช้ซอร์ส PAC แบบอินไลน์ ไม่รองรับ PAC ระยะไกล"
+  },
+  "error_ROUTE_PORT_UNAVAILABLE": {
+    "message": "ยังไม่มีการจัดสรรพอร์ต"
+  },
+  "error_ROUTE_RECOVERY_RESTORE_FAILED": {
+    "message": "การกู้คืนเส้นทางล้มเหลวและต้องตรวจสอบการคืนค่า"
+  },
+  "error_ROUTE_REVISION_CONFLICT": {
+    "message": "เส้นทางถูกเปลี่ยนในหน้าต่างอื่น โปรดรีเฟรชก่อน"
+  },
+  "error_ROUTE_SAVE_ROLLBACK_FAILED": {
+    "message": "บันทึกเส้นทางไม่สำเร็จและต้องตรวจสอบการย้อนคืน"
+  },
+  "error_ROUTE_UNAVAILABLE": {
+    "message": "เส้นทางทดสอบไม่พร้อมใช้งาน ตรวจสอบการตั้งค่าโหนดและโหนดก่อนหน้า"
+  },
+  "error_RULE_BINDING_MISSING": {
+    "message": "ไม่มีการผูกกฎโหนด เปิดและบันทึกโปรไฟล์อัตโนมัติอีกครั้ง: {name}"
+  },
+  "error_RULE_NODES_LIMIT": {
+    "message": "กฎอัตโนมัติรองรับโหนดที่แตกต่างกันสูงสุด {limit} โหนด"
+  },
+  "error_RULE_NODE_CHANGED": {
+    "message": "กฎโหนดไม่พร้อมใช้งานหรือถูกเปลี่ยน คืนค่าโหนดหรือเลือกโหนดอื่นแล้วบันทึก: {name}"
+  },
+  "error_RULE_PATH_CONFLICT": {
+    "message": "เส้นทางกฎโหนดขัดแย้งกัน"
+  },
+  "error_RULE_PATTERNS_LIMIT": {
+    "message": "กฎอัตโนมัติรองรับรูปแบบการจับคู่รวมสูงสุด {limit} รูปแบบ"
+  },
+  "error_RULE_PORT_UNAVAILABLE": {
+    "message": "พอร์ตของกฎโหนดไม่พร้อมใช้งาน"
+  },
+  "error_RULE_REVISION_CONFLICT": {
+    "message": "กฎโหนดถูกเปลี่ยนในหน้าต่างอื่น โปรดรีเฟรชก่อน"
+  },
+  "error_SELECTED_NODE_UNAVAILABLE": {
+    "message": "โหนดที่เลือกไม่พร้อมใช้งาน คืนค่าหรือเลือกโหนดอื่น"
+  },
+  "error_SOCKS_FAILED": {
+    "message": "ไม่สามารถสร้างการเชื่อมต่อ SOCKS ได้"
+  },
+  "error_STARTUP_FALLBACK_REFUSED": {
+    "message": "เบราว์เซอร์ปฏิเสธพร็อกซีสำรองเมื่อเริ่มต้น"
+  },
+  "error_SUBSCRIPTION_CHANGED": {
+    "message": "การสมัครรับข้อมูลถูกเปลี่ยนระหว่างอัปเดต รีเฟรชแล้วลองอีกครั้ง"
+  },
+  "error_SUBSCRIPTION_HTTP_STATUS": {
+    "message": "เซิร์ฟเวอร์สมัครรับข้อมูลส่งกลับ HTTP {status}"
+  },
+  "error_SUBSCRIPTION_LIMIT": {
+    "message": "ถึงขีดจำกัดการสมัครรับข้อมูลแล้ว ลบรายการที่ไม่ใช้แล้วลองอีกครั้ง"
+  },
+  "error_SUBSCRIPTION_NOT_FOUND": {
+    "message": "การสมัครรับข้อมูลที่เลือกไม่มีอยู่แล้ว"
+  },
+  "error_SYSTEM_PROXY_SNAPSHOT_UNAVAILABLE": {
+    "message": "สแนปช็อตพร็อกซีระบบที่ใช้อยู่ไม่พร้อมใช้งาน"
+  },
+  "error_SYSTEM_PROXY_TIMEOUT": {
+    "message": "หมดเวลาอ่านพร็อกซีระบบ"
+  },
+  "error_SYSTEM_PROXY_UNAVAILABLE": {
+    "message": "พร็อกซีระบบไม่พร้อมใช้งาน ดูรายละเอียดทางเทคนิค"
+  },
+  "error_TIMEOUT": {
+    "message": "คำขอหมดเวลา ตรวจสอบการเชื่อมต่อแล้วลองอีกครั้ง"
+  },
+  "error_TLS_DOWNGRADE": {
+    "message": "การสมัครรับข้อมูลเปลี่ยนเส้นทางจาก HTTPS เป็น HTTP จึงถูกบล็อก"
+  },
+  "error_TLS_FAILED": {
+    "message": "ไม่สามารถตรวจสอบการเชื่อมต่อที่ปลอดภัยได้ ตรวจสอบเซิร์ฟเวอร์และใบรับรอง"
+  },
+  "error_UNSAFE_TEMP_PATH": {
+    "message": "โฟลเดอร์ทดสอบชั่วคราวไม่ปลอดภัย จึงหยุดการทดสอบ"
+  },
+  "error_UNSUPPORTED_LIBRARY_REQUEST": {
+    "message": "คำขอคลังที่ไม่รองรับ"
+  },
+  "error_UNSUPPORTED_PROFILE_TYPE": {
+    "message": "ประเภทโปรไฟล์ที่ไม่รองรับ"
+  },
+  "error_UNSUPPORTED_REQUEST": {
+    "message": "คำขอที่ไม่รองรับ"
+  },
+  "error_UNSUPPORTED_RULE_CONDITION": {
+    "message": "รองรับเฉพาะกฎไวลด์การ์ดของโฮสต์และ URL"
+  },
+  "error_UPDATE_FAILED": {
+    "message": "อัปเดตการสมัครรับข้อมูลไม่สำเร็จ โหนดเดิมยังคงอยู่"
+  },
+  "error_VALIDATION_FAILED": {
+    "message": "ไม่สามารถตรวจสอบเนื้อหาการสมัครรับข้อมูลได้ โหนดเดิมยังคงอยู่"
+  },
+  "nativeUnnamedNode": {
+    "message": "โหนดไม่มีชื่อ"
+  },
+  "nativeProtocolCustom": {
+    "message": "กำหนดเอง"
+  },
+  "nativeProtocolOutbound": {
+    "message": "ขาออกแบบกำหนดเอง"
+  },
+  "nativeProtocolGroup": {
+    "message": "กลุ่มนโยบาย"
+  },
+  "nativeProtocolChain": {
+    "message": "สายโซ่พร็อกซี"
+  },
+  "nativeProtocolUnknown": {
+    "message": "ประเภทที่ไม่รองรับ"
+  },
+  "languageLoadFailed": {
+    "message": "ไม่สามารถโหลดภาษาที่เลือกได้ โปรดลองอีกครั้ง"
+  },
+  "invalidBackupJSON": {
+    "message": "ข้อมูลสำรองไม่ใช่ JSON ที่ถูกต้อง"
+  },
+  "noticeBodyLanguages": {
+    "message": "ข้อความนโยบายฉบับเต็มมีให้ในภาษาอังกฤษและภาษาจีนตัวย่อ"
+  },
+  "policyRules": {
+    "message": "กฎการกำหนดเส้นทางพร็อกซี"
+  },
+  "policyPriority": {
+    "message": "ลำดับ: ที่อยู่ที่ยกเว้นพร็อกซี → กฎแรกที่ตรงกัน → เส้นทางเริ่มต้น"
+  },
+  "policyDirectHelp": {
+    "message": "ที่อยู่ที่ไม่ตรงกับกฎจะเชื่อมต่อโดยตรง ปุ่มเชื่อมต่อโดยตรงในป๊อปอัปก็ใช้กฎเหล่านี้"
+  },
+  "policySystemHelp": {
+    "message": "ที่อยู่ที่ไม่ตรงกับกฎจะใช้พร็อกซีระบบ ปุ่มระบบในป๊อปอัปก็ใช้กฎเหล่านี้"
+  },
+  "policyEmpty": {
+    "message": "ยังไม่มีกฎ ใช้เส้นทางเริ่มต้น"
+  },
+  "policyAddressHelp": {
+    "message": "โดเมน โดเมนไวลด์การ์ด IP หรือ IP:พอร์ต กฎ IP จะเทียบกับ IP ใน URL ไม่ใช่ผล DNS"
+  },
+  "policyMoveUp": {
+    "message": "เลื่อนกฎขึ้น"
+  },
+  "policyMoveDown": {
+    "message": "เลื่อนกฎลง"
+  }
+}

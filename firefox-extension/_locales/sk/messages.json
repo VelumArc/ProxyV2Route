@@ -1,0 +1,2150 @@
+{
+  "ruleTargetUnavailable": {
+    "message": "Nedostupný cieľ"
+  },
+  "rulePatternPlaceholder": {
+    "message": "example.com, *.example.org, 192.0.2.1:8443"
+  },
+  "rulePatternHelp": {
+    "message": "Adresy oddeľte čiarkami. Každý vzor URL na samostatný riadok. PAC nemusí vidieť cesty HTTPS."
+  },
+  "defaultChoice_direct": {
+    "message": "Pripojte sa bez servera proxy"
+  },
+  "defaultChoice_system": {
+    "message": "Použiť systémové nastavenia proxy"
+  },
+  "defaultChoice_node": {
+    "message": "Použite vybratý uzol tohto profilu"
+  },
+  "defaultChoice_manual": {
+    "message": "Použite nastavenia proxy tohto profilu"
+  },
+  "defaultChoice_auto": {
+    "message": "Použite pravidlá smerovania tohto profilu"
+  },
+  "nlHttpsLatency": {
+    "message": "HTTPS odpoveď"
+  },
+  "nlLatencyMethod": {
+    "message": "Cloudflare · Minimálne dve odpovede · Opätovné použitie pripojenia, ak je k dispozícii"
+  },
+  "nlLatencyFast": {
+    "message": "Rýchlo"
+  },
+  "nlLatencyModerate": {
+    "message": "Mierne"
+  },
+  "nlLatencySlow": {
+    "message": "Pomaly"
+  },
+  "nlSortName": {
+    "message": "Názov"
+  },
+  "nlSortLatency": {
+    "message": "Latencia: nízka až vysoká"
+  },
+  "nlSortDownload": {
+    "message": "Sťahovanie: od vysokej po najnižšiu"
+  },
+  "nlSortUpload": {
+    "message": "Nahrávanie: od vysokej po najnižšiu"
+  },
+  "nlSingle": {
+    "message": "Jeden uzol"
+  },
+  "nlGroupBatch": {
+    "message": "Skupina / šarža"
+  },
+  "nlTestScope": {
+    "message": "Rozsah testu"
+  },
+  "nlCurrentNode": {
+    "message": "Vybraný uzol"
+  },
+  "nlCurrentGroup": {
+    "message": "Vybraná skupina"
+  },
+  "nlChooseNode": {
+    "message": "Vyberte uzol v zozname"
+  },
+  "nlStart": {
+    "message": "Spustiť test"
+  },
+  "nlService": {
+    "message": "Testovacia služba"
+  },
+  "nlMeasured": {
+    "message": "merané"
+  },
+  "nlMeanLatency": {
+    "message": "Priemerná latencia"
+  },
+  "nlGroupBySource": {
+    "message": "Podľa zdrojovej skupiny"
+  },
+  "nlPreviousPage": {
+    "message": "Predchádzajúca strana"
+  },
+  "nlNextPage": {
+    "message": "Ďalšia strana"
+  },
+  "nlName": {
+    "message": "Názov"
+  },
+  "nlEdit": {
+    "message": "Upraviť"
+  },
+  "nlStop": {
+    "message": "Stop"
+  },
+  "nlConfirm": {
+    "message": "Potvrďte"
+  },
+  "nlAllNodes": {
+    "message": "Všetky uzly"
+  },
+  "nlNodeResults": {
+    "message": "Výsledky uzlov"
+  },
+  "nlTestCenter": {
+    "message": "Testovacie centrum"
+  },
+  "nlNewGroup": {
+    "message": "Nová skupina"
+  },
+  "nlRenameGroup": {
+    "message": "Premenovať skupinu"
+  },
+  "nlRemoveGroup": {
+    "message": "Odstrániť skupinu"
+  },
+  "nlRemoveGroupHelp": {
+    "message": "Ponechajte každý uzol a predplatné a presuňte ich do importovaných uzlov."
+  },
+  "nlNode": {
+    "message": "Uzol"
+  },
+  "nlStatus": {
+    "message": "Stav"
+  },
+  "nlActions": {
+    "message": "Akcie"
+  },
+  "nlSort": {
+    "message": "Zoradiť iba túto tabuľku"
+  },
+  "nlSelected": {
+    "message": "vybrané"
+  },
+  "nlTestNode": {
+    "message": "Test"
+  },
+  "nlProfileShort": {
+    "message": "Profil"
+  },
+  "nlQuick": {
+    "message": "Rýchla latencia"
+  },
+  "nlFull": {
+    "message": "Stiahnuť + upload"
+  },
+  "nlTraffic": {
+    "message": "Veľkosť testovacích údajov"
+  },
+  "nlConcurrency": {
+    "message": "Súbežné uzly"
+  },
+  "nlTrafficFullOnly": {
+    "message": "Používa sa na testy sťahovania a nahrávania"
+  },
+  "nlTestMode": {
+    "message": "Testovací režim"
+  },
+  "nlBudget": {
+    "message": "Maximálne užitočné zaťaženie"
+  },
+  "nlViaGroup": {
+    "message": "Cez skupinu pre-proxy"
+  },
+  "nlTestSelected": {
+    "message": "Test vybraný"
+  },
+  "nlTestVisible": {
+    "message": "Otestujte zobrazené uzly"
+  },
+  "nlTestAll": {
+    "message": "Otestujte všetky uzly"
+  },
+  "nlTestGroup": {
+    "message": "Uzly testovacej skupiny"
+  },
+  "nlProgress": {
+    "message": "Priebeh merania"
+  },
+  "nlReady": {
+    "message": "Vyberte uzly na spustenie. Neprebehol žiadny test."
+  },
+  "nlStarting": {
+    "message": "Spúšťa sa izolované meranie…"
+  },
+  "nlQueued": {
+    "message": "V poradí"
+  },
+  "nlRunning": {
+    "message": "Testovanie"
+  },
+  "nlStopping": {
+    "message": "Zastavuje sa..."
+  },
+  "nlComplete": {
+    "message": "Hotovo"
+  },
+  "nlFailed": {
+    "message": "Zlyhalo"
+  },
+  "nlStopped": {
+    "message": "Zastavené"
+  },
+  "nlPartial": {
+    "message": "Čiastočná"
+  },
+  "nlUntested": {
+    "message": "Netestované"
+  },
+  "nlSucceeded": {
+    "message": "prešiel"
+  },
+  "nlMeasureDisconnected": {
+    "message": "Spojenie s meraním sa skončilo. Neúplné hodnoty nie sú konečnými výsledkami."
+  },
+  "nlUpgrade": {
+    "message": "Aktualizujte miestneho sprievodcu, aby ste mohli spravovať skupiny a odbery. Existujúce uzly zostávajú k dispozícii."
+  },
+  "nlOperationFailed": {
+    "message": "Operáciu nebolo možné dokončiť. Skúste to znova."
+  },
+  "nlEditSubscription": {
+    "message": "Upraviť odber"
+  },
+  "nlPasteContent": {
+    "message": "Proxy odkazy / obsah"
+  },
+  "nlSubscriptionURL": {
+    "message": "Predplatné URL"
+  },
+  "nlKeepURL": {
+    "message": "Nechajte prázdne, ak chcete zachovať uložené URL"
+  },
+  "nlConnectionPolicy": {
+    "message": "Aktualizácia pripojenia"
+  },
+  "nlProxyFirst": {
+    "message": "Najprv proxy, potom priamo pri zlyhaní"
+  },
+  "nlProxyOnly": {
+    "message": "Len proxy"
+  },
+  "nlDirectOnly": {
+    "message": "Len priamo"
+  },
+  "nlProxyFirstHelp": {
+    "message": "Proxy sa najprv zastaví po úspešnom načítaní. Priame sa skúša iba v prípade, že pokus o proxy zlyhá."
+  },
+  "nlAutoUpdate": {
+    "message": "Povoliť automatické aktualizácie"
+  },
+  "nlInterval": {
+    "message": "Interval aktualizácie (v minútach)"
+  },
+  "nlDestinationGroup": {
+    "message": "Cieľová skupina"
+  },
+  "nlSubscriptionOwnGroup": {
+    "message": "Nová skupina..."
+  },
+  "nlNameGroup": {
+    "message": "Názov (skupina)"
+  },
+  "nlCustomGroup": {
+    "message": "Vlastná skupina"
+  },
+  "nlNameRequired": {
+    "message": "Zadajte názov."
+  },
+  "nlContentRequired": {
+    "message": "Prilepte proxy odkazy alebo obsah odberu."
+  },
+  "nlGroupRequired": {
+    "message": "Vyberte cieľovú skupinu."
+  },
+  "nlURLRequired": {
+    "message": "Zadajte predplatné HTTP(S) URL bez používateľského mena alebo hesla."
+  },
+  "nlIntervalInvalid": {
+    "message": "Zadajte celé číslo od 5 do 43200 minút."
+  },
+  "folderTitle": {
+    "message": "Vyberte priečinok v2rayN"
+  },
+  "folderHint": {
+    "message": "Vyberte priečinok a potom ho použite pomocou možnosti Uložiť nastavenia pripojenia."
+  },
+  "folderPath": {
+    "message": "Úplná cesta k lokálnemu priečinku"
+  },
+  "folderGo": {
+    "message": "Otvorené"
+  },
+  "folderUp": {
+    "message": "Hore"
+  },
+  "folderDrives": {
+    "message": "Pohony"
+  },
+  "folderCurrent": {
+    "message": "Aktuálna cesta"
+  },
+  "folderChoose": {
+    "message": "Použite tento priečinok"
+  },
+  "folderList": {
+    "message": "Priečinky"
+  },
+  "folderTruncated": {
+    "message": "Zoznam je obmedzený. Ak chcete otvoriť priečinok, ktorý sa nezobrazuje, zadajte celú cestu vyššie."
+  },
+  "folderReady": {
+    "message": "v2rayN nájdených súborov. Tento priečinok použite na overenie konfigurácie."
+  },
+  "folderInvalid": {
+    "message": "Vyberte priečinok obsahujúci guiConfigs, guiNConfig.json a guiNDB.db."
+  },
+  "folderSelectDrive": {
+    "message": "Vyberte lokálny disk alebo zadajte úplnú cestu k priečinku."
+  },
+  "folderEmpty": {
+    "message": "Žiadne viditeľné podpriečinky."
+  },
+  "folderUnavailable": {
+    "message": "Tento priečinok sa nedá prehľadávať. Skontrolujte jeho cestu a prístup. Ak je Companion starší, najskôr ho aktualizujte."
+  },
+  "folderValidating": {
+    "message": "Overuje sa v2rayN konfigurácia…"
+  },
+  "folderInvalidConfig": {
+    "message": "Konfigurácia alebo databáza v2rayN je neúplná alebo neplatná. Vyberte iný priečinok."
+  },
+  "copyPath": {
+    "message": "Kopírovať cestu"
+  },
+  "pathCopyHint": {
+    "message": "Skopírujte cestu, ktorá sa momentálne nachádza v tomto poli."
+  },
+  "preMode": {
+    "message": "Pre-proxy režim"
+  },
+  "preNode": {
+    "message": "Pre-proxy uzol"
+  },
+  "preIntro": {
+    "message": "Použite reťazec skupiny, preskočte ho alebo vyberte pre tento profil predbežného proxy."
+  },
+  "healthLabel": {
+    "message": "Aktuálny stav pripojenia"
+  },
+  "healthOk": {
+    "message": "Normálne"
+  },
+  "healthError": {
+    "message": "Abnormálne"
+  },
+  "healthChecking": {
+    "message": "Kontrola"
+  },
+  "healthUnknown": {
+    "message": "Nepotvrdené"
+  },
+  "autoSystemHelp": {
+    "message": "Systémové pravidlá vyžadujú komponent Windows a snímku pevného nastavenia proxy. Po zmenách použite znovu. PAC/WPAD nie sú podporované; Systém bez pravidiel používa natívne nastavenia prehliadača."
+  },
+  "backgroundUnavailable": {
+    "message": "Pozadie rozšírenia nie je k dispozícii."
+  },
+  "backgroundNoResponse": {
+    "message": "Pozadie nereagovalo."
+  },
+  "backupTooLarge": {
+    "message": "Záloha presahuje 5 MB."
+  },
+  "proxyUsername": {
+    "message": "Používateľské meno"
+  },
+  "proxyPassword": {
+    "message": "Heslo"
+  },
+  "proxyAuthHelp": {
+    "message": "Voliteľné. Overené proxy sa pripájajú cez Companion. Prihlasovacie údaje sú uložené v tejto konfigurácii prehliadača a v sprievodcovi a sú zahrnuté v exportoch profilu."
+  },
+  "proxyAuthSocks4": {
+    "message": "SOCKS4 nepodporuje toto overenie používateľského mena/hesla; použite HTTP(S) alebo SOCKS5."
+  },
+  "importExamples": {
+    "message": "Príklady formátov"
+  },
+  "ipCopying": {
+    "message": "Kopíruje sa…"
+  },
+  "netDnsUnavailable": {
+    "message": "Adresu servera nebolo možné zistiť včas. Skontrolujte adresu hostiteľa alebo IP a skúste to znova."
+  },
+  "netCurrentTarget": {
+    "message": "Vybraný koncový bod proxy"
+  },
+  "netCustomTarget": {
+    "message": "Vlastný server"
+  },
+  "netHost": {
+    "message": "Hostiteľ alebo IP adresa"
+  },
+  "netPort": {
+    "message": "TCP port"
+  },
+  "netHostRequired": {
+    "message": "Zadajte hostiteľa servera alebo adresu IP."
+  },
+  "netCurrentUnavailable": {
+    "message": "Vyberte uzol alebo manuálny profil proxy alebo zadajte vlastný cieľ."
+  },
+  "netInvalidTarget": {
+    "message": "Zadajte platného diagnostického hostiteľa a portu."
+  },
+  "netIpv6PingUnavailable": {
+    "message": "IPv6 ICMP nie je k dispozícii; použiť TCPing."
+  },
+  "preNeedsFix": {
+    "message": "Pred uložením vyberte platný pre-proxy alebo žiadny pre-proxy."
+  },
+  "preConfigure": {
+    "message": "Konfigurácia pre-proxy"
+  },
+  "preFollowInvalid": {
+    "message": "Sledovať v2rayN neakceptuje vlastný pre-proxy."
+  },
+  "followChainHelp": {
+    "message": "Sledovať používa trasu a reťazec proxy, ktorý je už aktívny v v2rayN."
+  },
+  "netTitle": {
+    "message": "Testy spojenia"
+  },
+  "ipTestDetails": {
+    "message": "Podrobnosti testu"
+  },
+  "netTarget": {
+    "message": "Ping / TCPing cieľ"
+  },
+  "netDownload": {
+    "message": "Stiahnite si test"
+  },
+  "netPartial": {
+    "message": "Čiastočná vzorka"
+  },
+  "netComplete": {
+    "message": "Vzorka je hotová"
+  },
+  "netDirect": {
+    "message": "Systémová sieť"
+  },
+  "netUnreachable": {
+    "message": "Žiadna odpoveď / neúspešná"
+  },
+  "netAverage": {
+    "message": "Priemer"
+  },
+  "predecessor": {
+    "message": "Pre-proxy"
+  },
+  "preInherit": {
+    "message": "Použite reťazec skupiny v2rayN"
+  },
+  "preNone": {
+    "message": "Žiadny pre-proxy"
+  },
+  "preSpecific": {
+    "message": "Vyberte uzol"
+  },
+  "preHelp": {
+    "message": "Platí pre tento profil. Použite reťazec skupiny v2rayN, žiadny pre-proxy alebo špecifický uzol. Follow v2rayN využíva svoj existujúci reťazec."
+  },
+  "preSelectRequired": {
+    "message": "Vyberte pre-proxy uzol alebo vyberte možnosť Group default / None."
+  },
+  "ipPing0Permission": {
+    "message": "Povoliť prístup k webovej stránke Ping0 na načítanie verejnej správy."
+  },
+  "ipPublicChallenge": {
+    "message": "Web vyžaduje overenie. Otvorte stránku Ping0, dokončite to a pozrite si výsledok."
+  },
+  "ipPublicReport": {
+    "message": "Ping0 verejná správa"
+  },
+  "ipPublicSource": {
+    "message": "Zdroj: Ping0 verejná stránka"
+  },
+  "ipPublicOriginal": {
+    "message": "Ping0 správa"
+  },
+  "ipPublicPartial": {
+    "message": "Zobrazujú sa iba polia poskytnuté na verejnej stránke v ich pôvodnom jazyku. Klasifikácia a odhady zdieľaných používateľov sú z Ping0."
+  },
+  "setupTitle": {
+    "message": "Pripojiť Proxy V2Route"
+  },
+  "setupIntro": {
+    "message": "Nainštalujte si sprievodcu Windows, aby ste mohli používať v2rayN trasy alebo svoje vlastné importované uzly."
+  },
+  "setupStepOne": {
+    "message": "Extrahujte zodpovedajúci kompletný balík Windows do trvalého priečinka."
+  },
+  "setupStepTwo": {
+    "message": "Otvorte V2Route-Setup.exe a kliknite na Inštalovať."
+  },
+  "setupStepThree": {
+    "message": "Vráťte sa sem a skontrolujte pripojenie. V prípade potreby vyberte priečinok v2rayN."
+  },
+  "setupCheck": {
+    "message": "Skontrolujte pripojenie"
+  },
+  "downloadCompanion": {
+    "message": "Návod na inštaláciu ↗"
+  },
+  "setupDownloadNote": {
+    "message": "Použite zodpovedajúci lokálny balík Windows alebo ho zostavte z aktuálneho zdroja podľa návodu."
+  },
+  "chooseFolder": {
+    "message": "Vyberte priečinok v2rayN…"
+  },
+  "rescanDone": {
+    "message": "Lokálne uzly boli znova naskenované"
+  },
+  "grouping": {
+    "message": "Skupinové uzly"
+  },
+  "groupByCountry": {
+    "message": "Podľa krajiny"
+  },
+  "unknownCountry": {
+    "message": "Iné / Neznáme"
+  },
+  "ungrouped": {
+    "message": "Nezoskupené"
+  },
+  "adjustNodeFilters": {
+    "message": "Skúste inú skupinu, zdroj alebo vyhľadávanie, prípadne zobrazte skryté uzly."
+  },
+  "rescanLocal": {
+    "message": "Znovu naskenujte v2rayN uzlov"
+  },
+  "showHidden": {
+    "message": "Zobraziť skryté uzly"
+  },
+  "hideNode": {
+    "message": "Skryť"
+  },
+  "restoreNode": {
+    "message": "Obnoviť"
+  },
+  "hiddenNode": {
+    "message": "Skryté"
+  },
+  "hideNodeHelp": {
+    "message": "Skryť iba z knižnice uzlov tohto prehliadača. v2rayN a existujúce profily sú nezmenené."
+  },
+  "ipContextTimeout": {
+    "message": "Časový limit čítania aktuálneho profilu vypršal. Skúste to znova."
+  },
+  "ipStaleResult": {
+    "message": "Aktuálny profil sa zmenil. Tento výsledok môže byť zastaraný; znova skontrolujte."
+  },
+  "ip_tools": {
+    "message": "IP Nástroje"
+  },
+  "ipIntro": {
+    "message": "Aktuálny výstup IP a verejná správa."
+  },
+  "ipCurrentProfile": {
+    "message": "Aktuálny profil prehliadača"
+  },
+  "ipRouteCaution": {
+    "message": "Automatické pravidlá a PAC môžu používať rôzne trasy pre rôzne destinácie. Táto kontrola popisuje iba vlastnú požiadavku."
+  },
+  "ipDisclosure": {
+    "message": "Ukončenie automatickej kontroly IP · Správa od Ping0"
+  },
+  "ipMethod": {
+    "message": "Kontrola adresy"
+  },
+  "ipDual": {
+    "message": "IPv4 / IPv6"
+  },
+  "ipCheck": {
+    "message": "Skontrolujte to znova"
+  },
+  "ipChecking": {
+    "message": "Kontroluje sa…"
+  },
+  "ipDualHelp": {
+    "message": "IPv4 / IPv6 vráti skupinu adries použitú pre túto požiadavku, nie obe adresy."
+  },
+  "ipDurationHelp": {
+    "message": "Uplynutý čas požiadavky HTTP zahŕňa čas odozvy siete a služby. Nie je to ICMP ping ani test šírky pásma."
+  },
+  "ipCopy": {
+    "message": "Kopírovať IP"
+  },
+  "ipCopied": {
+    "message": "Skopírované"
+  },
+  "ipCopyFailed": {
+    "message": "Nie je možné kopírovať. Vyberte adresu a skopírujte ju ručne."
+  },
+  "ipNoResult": {
+    "message": "Zatiaľ bez kontroly"
+  },
+  "ipContextUnknown": {
+    "message": "Profil nie je k dispozícii"
+  },
+  "ipTimeout": {
+    "message": "Časový limit kontroly vypršal. Skúste to znova alebo použite inú trasu."
+  },
+  "ipCancelled": {
+    "message": "Kontrola zrušená"
+  },
+  "ipNetwork": {
+    "message": "Nepodarilo sa dosiahnuť ipify. Skontrolujte pripojenie a skúste to znova."
+  },
+  "ipHttp": {
+    "message": "Služba IP žiadosť neprijala. Skúste to znova neskôr."
+  },
+  "ipInvalid": {
+    "message": "Služba IP vrátila neplatnú odpoveď."
+  },
+  "ipFailure": {
+    "message": "Kontrola zlyhala. Skúste to znova."
+  },
+  "ipStale": {
+    "message": "Počas kontroly sa zmenili nastavenia servera proxy. Starý výsledok bol vyradený; znova skontrolujte."
+  },
+  "ipQuality": {
+    "message": "Externé nástroje"
+  },
+  "ipQualityPrivacy": {
+    "message": "Nástroje sa spúšťajú iba kliknutím. Poskytovatelia dostávajú normálne údaje o pripojení. Kontroly webových stránok odosielajú po spustení žiadosti bez poverení. Zatvorenie zastaví miestne testy; externé karty spravuje prehliadač."
+  },
+  "ipReport": {
+    "message": "Kopírovať zredigovanú správu"
+  },
+  "ipReportCopied": {
+    "message": "Redigovaná správa bola skopírovaná; žiadne IP alebo názvy profilov vrátane."
+  },
+  "popupSelected": {
+    "message": "Vybrané"
+  },
+  "popupFooter": {
+    "message": "v2rayN a profily uzlov"
+  },
+  "subtitle": {
+    "message": "Nezávislé trasy prehliadača"
+  },
+  "profiles": {
+    "message": "Profily"
+  },
+  "nodes": {
+    "message": "Knižnica uzlov"
+  },
+  "settings": {
+    "message": "Nastavenia"
+  },
+  "connected": {
+    "message": "Aktívny profil"
+  },
+  "noProfile": {
+    "message": "Predvolené nastavenie systému"
+  },
+  "newProfile": {
+    "message": "Nový profil"
+  },
+  "searchProfiles": {
+    "message": "Hľadať profily"
+  },
+  "direct": {
+    "message": "Priama sieť"
+  },
+  "system": {
+    "message": "Systémový proxy"
+  },
+  "follow": {
+    "message": "Sledovať v2rayN"
+  },
+  "manual": {
+    "message": "Manuálny proxy server"
+  },
+  "auto": {
+    "message": "Automatické prepínanie"
+  },
+  "pac": {
+    "message": "PAC skript"
+  },
+  "virtual": {
+    "message": "Virtuálny profil"
+  },
+  "profileIntro": {
+    "message": "Vyberte trasu prehliadača bez prepínania hlavnej trasy v2rayN."
+  },
+  "nodesIntro": {
+    "message": "Prehliadajte miestne v2rayN uzly a svoje importované odkazy."
+  },
+  "settingsIntro": {
+    "message": "Miestne spojenie, jazyk a vzhľad."
+  },
+  "refresh": {
+    "message": "Obnoviť"
+  },
+  "create": {
+    "message": "Vytvoriť profil"
+  },
+  "name": {
+    "message": "Názov profilu"
+  },
+  "type": {
+    "message": "Typ profilu"
+  },
+  "save": {
+    "message": "Uložiť"
+  },
+  "saved": {
+    "message": "Uložené"
+  },
+  "saving": {
+    "message": "Ukladá sa…"
+  },
+  "cancel": {
+    "message": "Zrušiť"
+  },
+  "close": {
+    "message": "Zavrieť"
+  },
+  "apply": {
+    "message": "Použiť tento profil"
+  },
+  "applied": {
+    "message": "Profil prepnutý"
+  },
+  "active": {
+    "message": "Aktívne"
+  },
+  "delete": {
+    "message": "Vymazať"
+  },
+  "remove": {
+    "message": "Odstrániť"
+  },
+  "rename": {
+    "message": "Premenovať"
+  },
+  "route": {
+    "message": "Proxy cesta"
+  },
+  "selectRoute": {
+    "message": "Vyberte trasu"
+  },
+  "routeMissing": {
+    "message": "Trasa je nedostupná – vyberte inú"
+  },
+  "chain": {
+    "message": "Spojovací reťazec"
+  },
+  "connection": {
+    "message": "Miestne pripojenie"
+  },
+  "proxy": {
+    "message": "Proxy server"
+  },
+  "address": {
+    "message": "Adresa"
+  },
+  "port": {
+    "message": "Prístav"
+  },
+  "scheme": {
+    "message": "Protokol"
+  },
+  "proxyDns": {
+    "message": "SOCKS5 DNS rieši cez proxy."
+  },
+  "connectedIdle": {
+    "message": "Pripojené · Nečinné"
+  },
+  "bypass": {
+    "message": "Zoznam obchvatov"
+  },
+  "bypassHelp": {
+    "message": "Jedna doména, zástupný vzor, IP adresa alebo IP:port na riadok."
+  },
+  "advanced": {
+    "message": "Rozšírené možnosti"
+  },
+  "searchRoutes": {
+    "message": "Vyhľadajte skupiny alebo uzly"
+  },
+  "selectGroup": {
+    "message": "Vyberte skupinu"
+  },
+  "empty": {
+    "message": "Žiadne zodpovedajúce položky"
+  },
+  "unavailable": {
+    "message": "Nedostupné"
+  },
+  "groupHint": {
+    "message": "Podržte skupinu za 250 ms, potom ťahajte. Alt + ↑ / ↓ tiež zmení poradie. Zmeny sa ukladajú automaticky."
+  },
+  "searchSort": {
+    "message": "Pred triedením vymažte vyhľadávanie."
+  },
+  "dragHint": {
+    "message": "Posuňte sa nahor alebo nadol a uložte ho uvoľnením. Esc zruší."
+  },
+  "orderSaved": {
+    "message": "Skupinová objednávka bola uložená"
+  },
+  "orderCancelled": {
+    "message": "Zmena poradia bola zrušená"
+  },
+  "loading": {
+    "message": "Načítava sa..."
+  },
+  "reading": {
+    "message": "Čítajú sa miestne uzly…"
+  },
+  "nativeMissing": {
+    "message": "Lokálny komponent nie je pripojený"
+  },
+  "retry": {
+    "message": "Skúste to znova"
+  },
+  "nativeHelp": {
+    "message": "Trasy uzlov vyžadujú sprievodcu Windows. Teraz sú k dispozícii priame, systémové a manuálne proxy."
+  },
+  "imported": {
+    "message": "Dovezené"
+  },
+  "v2rayn": {
+    "message": "v2rayN"
+  },
+  "allSources": {
+    "message": "Všetky zdroje"
+  },
+  "importNodes": {
+    "message": "Import proxy serverov"
+  },
+  "importTitle": {
+    "message": "Import proxy serverov"
+  },
+  "importHelp": {
+    "message": "Prilepte odkazy na proxy, odchádzajúce JSON alebo predplatné Base64. SOCKS podporuje obyčajné alebo Base64 poverenia. Adresy bez schém používajú HTTP."
+  },
+  "importPrivacy": {
+    "message": "Podrobnosti a poverenia proxy sa prenesú do lokálneho Proxy V2Route spoločníka na uloženie a pripojenie k vybranému proxy. Vývojár tieto informácie nedostáva."
+  },
+  "import": {
+    "message": "Importovať profily"
+  },
+  "nodeCount": {
+    "message": "uzlov"
+  },
+  "source": {
+    "message": "Zdroj"
+  },
+  "protocol": {
+    "message": "Protokol"
+  },
+  "useNode": {
+    "message": "Vytvoriť profil"
+  },
+  "removeNode": {
+    "message": "Chcete odstrániť importovaný uzol?"
+  },
+  "removeNodeHelp": {
+    "message": "Profily používajúce tento uzol musia byť pred odstránením znova priradené."
+  },
+  "deleteProfile": {
+    "message": "Odstrániť tento profil?"
+  },
+  "deleteProfileHelp": {
+    "message": "Týmto sa odstráni iba tento profil prehliadača. Importované uzly a konfigurácia v2rayN sa zachovajú."
+  },
+  "language": {
+    "message": "Jazyk"
+  },
+  "automatic": {
+    "message": "Predvolený prehliadač"
+  },
+  "theme": {
+    "message": "Vzhľad"
+  },
+  "light": {
+    "message": "Svetlo"
+  },
+  "dark": {
+    "message": "Tmavý"
+  },
+  "switchToEnglish": {
+    "message": "Prepnúť do angličtiny"
+  },
+  "switchToChinese": {
+    "message": "Prepnúť na zjednodušenú čínštinu"
+  },
+  "switchToLight": {
+    "message": "Prepnúť na svetlý vzhľad"
+  },
+  "switchToDark": {
+    "message": "Prepnúť na tmavý vzhľad"
+  },
+  "localComponent": {
+    "message": "Sprievodná zložka"
+  },
+  "ready": {
+    "message": "Pripojené"
+  },
+  "stopped": {
+    "message": "Nebeží"
+  },
+  "discovery": {
+    "message": "v2rayN detekcia"
+  },
+  "rootPath": {
+    "message": "v2rayN priečinok"
+  },
+  "corePath": {
+    "message": "Spustiteľný súbor proxy jadra"
+  },
+  "optionalPath": {
+    "message": "Nechajte prázdne pre automatickú detekciu"
+  },
+  "pathsHelp": {
+    "message": "v2rayN sa zistí automaticky; v prípade potreby vyberte jeho priečinok. Importované uzly používajú zahrnuté jadro."
+  },
+  "savePaths": {
+    "message": "Uložte nastavenia pripojenia"
+  },
+  "privacy": {
+    "message": "Nastavenia uložené lokálne"
+  },
+  "privacyText": {
+    "message": "Odkazy na uzly a poverenia zostanú v miestnom sprievodcovi. Návštevnosť prehliadača prechádza cez vami vybraný proxy na cieľové webové stránky; vývojár ju nedostane."
+  },
+  "privacyDetails": {
+    "message": "Súkromie a tok údajov"
+  },
+  "export": {
+    "message": "Exportovať profily"
+  },
+  "about": {
+    "message": "O Proxy V2Route"
+  },
+  "aboutText": {
+    "message": "Vyberte trasu prehliadača bez prepínania hlavnej trasy v2rayN. Trasy uzlov používajú sprievodcu Windows a vaše vlastné uzly."
+  },
+  "licenses": {
+    "message": "Oznámenia s otvoreným zdrojom"
+  },
+  "version": {
+    "message": "Verzia"
+  },
+  "fieldRequired": {
+    "message": "Zadajte názov profilu."
+  },
+  "profileExists": {
+    "message": "Profil s týmto názvom už existuje."
+  },
+  "ruleHelp": {
+    "message": "Domény oddeľte v jednom riadku čiarkami. Prvý zodpovedajúci riadok vyhráva. Ponechajte k dispozícii predvolenú trasu."
+  },
+  "rules": {
+    "message": "Pravidlá smerovania"
+  },
+  "pattern": {
+    "message": "Vzor hostiteľa"
+  },
+  "target": {
+    "message": "Cieľ pravidla"
+  },
+  "addRule": {
+    "message": "Pridať pravidlo"
+  },
+  "defaultRoute": {
+    "message": "Predvolený profil"
+  },
+  "pacHelp": {
+    "message": "Vložte dôveryhodný PAC zdroj obsahujúci FindProxyForURL. Tento skript rozhoduje o spôsobe smerovania požiadaviek webových stránok."
+  },
+  "pacUrl": {
+    "message": "PAC URL"
+  },
+  "pacScript": {
+    "message": "PAC skript"
+  },
+  "noSelection": {
+    "message": "Vyberte profil alebo si ho vytvorte."
+  },
+  "details": {
+    "message": "Podrobnosti"
+  },
+  "noNodes": {
+    "message": "Zatiaľ žiadne uzly"
+  },
+  "noNodesHelp": {
+    "message": "Ak chcete začať, pripojte sa v2rayN alebo importujte odkazy proxy, JSON alebo sa prihláste na odber."
+  },
+  "openSettings": {
+    "message": "Otvorte nastavenia"
+  },
+  "proxySettings": {
+    "message": "Nastavenia servera proxy"
+  },
+  "switching": {
+    "message": "Prepína sa..."
+  },
+  "updatedElsewhere": {
+    "message": "Tento profil sa zmenil v inom okne. Pred uložením ho znova otvorte."
+  },
+  "choose": {
+    "message": "Vyberte si"
+  },
+  "popupIntro": {
+    "message": "Pripojenie:"
+  },
+  "invalidPort": {
+    "message": "Zadajte port od 1 do 65535."
+  },
+  "externalControl": {
+    "message": "Ďalšie rozšírenie alebo zásada ovláda proxy prehliadača."
+  },
+  "noNativeRoute": {
+    "message": "Pred vytvorením profilu uzla pripojte lokálny komponent."
+  },
+  "reload": {
+    "message": "Znovu načítať"
+  },
+  "rulesError": {
+    "message": "Každé pravidlo potrebuje vzor a cieľ."
+  },
+  "backupDone": {
+    "message": "Profily prehliadača boli exportované"
+  },
+  "managed": {
+    "message": "Spravovaný uzol"
+  },
+  "netRegion": {
+    "message": "Cieľová oblasť"
+  },
+  "netNodeArea": {
+    "message": "Proxy uzol"
+  },
+  "netChina": {
+    "message": "Pevninská Čína"
+  },
+  "netGlobal": {
+    "message": "Globálne"
+  },
+  "netAli": {
+    "message": "AliDNS"
+  },
+  "netTencent": {
+    "message": "DNSPod"
+  },
+  "netStartHelp": {
+    "message": "Vyberte cieľ a potom spustite živý test."
+  },
+  "netConsole": {
+    "message": "Živá diagnostika"
+  },
+  "netStop": {
+    "message": "Stop"
+  },
+  "netRunning": {
+    "message": "Beh"
+  },
+  "netStopped": {
+    "message": "Zastavené"
+  },
+  "netSent": {
+    "message": "Odoslané"
+  },
+  "netLoss": {
+    "message": "Strata"
+  },
+  "netAverageShort": {
+    "message": "Priem"
+  },
+  "netLogClear": {
+    "message": "Jasné"
+  },
+  "netFinishing": {
+    "message": "Predchádzajúca sonda sa dokončuje..."
+  },
+  "netRound": {
+    "message": "Okrúhle"
+  },
+  "netDestination": {
+    "message": "Cieľ"
+  },
+  "netHop": {
+    "message": "Chmeľ"
+  },
+  "netAddress": {
+    "message": "IP adresa"
+  },
+  "netLast": {
+    "message": "Posledný"
+  },
+  "netConsoleHelp": {
+    "message": "Ping / TCPing / MTR používa systémovú sieť, nie reťazec proxy. Chýbajúce ICMP odpovede nedokazujú stratu návštevnosti. Sťahovanie používa trasu prehliadača a vybratý limit veľkosti. Testy sa zastavia, keď opustíte alebo skryjete túto stránku."
+  },
+  "netDirectShort": {
+    "message": "Systémová sieť"
+  },
+  "netIcmpShort": {
+    "message": "Žiadna ICMP odpoveď"
+  },
+  "netProbeError": {
+    "message": "Chyba lokálnej sondy"
+  },
+  "netNoDestination": {
+    "message": "Cieľ nebol dosiahnutý"
+  },
+  "deleteActive": {
+    "message": "Prepnite do systému a odstráňte"
+  },
+  "deleteActiveHelp": {
+    "message": "Tento profil je aktívny. Jeho odstránením sa prehliadač prepne na systémový proxy."
+  },
+  "netDownloadSize": {
+    "message": "Veľkosť na stiahnutie"
+  },
+  "netReceived": {
+    "message": "Prijaté"
+  },
+  "netBest": {
+    "message": "Najlepšie"
+  },
+  "netWorst": {
+    "message": "Najhoršie"
+  },
+  "netStdDev": {
+    "message": "Std dev"
+  },
+  "netLocation": {
+    "message": "Miesto"
+  },
+  "toolWall": {
+    "message": "Kontrola blokovania domény"
+  },
+  "toolSites": {
+    "message": "Populárne webové stránky"
+  },
+  "toolGlobal": {
+    "message": "Globálna diagnostika"
+  },
+  "toolFast": {
+    "message": "Netflix rýchlosť"
+  },
+  "toolSpeed": {
+    "message": "Test rýchlosti"
+  },
+  "toolStart": {
+    "message": "Štart"
+  },
+  "toolReady": {
+    "message": "Pripravený"
+  },
+  "toolResponded": {
+    "message": "Odpovedali"
+  },
+  "toolNoResponse": {
+    "message": "Nepotvrdené"
+  },
+  "toolCacheUnsupported": {
+    "message": "Tento prehliadač nemôže vymazať vyrovnávaciu pamäť podľa lokality; stránka bola znovu načítaná."
+  },
+  "toolCacheFailed": {
+    "message": "Čistenie vyrovnávacej pamäte sa nedokončilo. Zatvorte a skúste to znova."
+  },
+  "toolClose": {
+    "message": "Zavrieť"
+  },
+  "toolReload": {
+    "message": "Znovu načítať"
+  },
+  "toolLoading": {
+    "message": "Načítava sa..."
+  },
+  "toolFrameError": {
+    "message": "Nepodarilo sa načítať. Skúste znova načítať."
+  },
+  "toolSiteHelp": {
+    "message": "Iba dostupnosť prehliadača. Toto neoveruje účet alebo regionálny prístup."
+  },
+  "toolFallback": {
+    "message": "Test rýchlosti zálohovania"
+  },
+  "toolFullscreen": {
+    "message": "Celá obrazovka"
+  },
+  "toolRestore": {
+    "message": "Ukončiť celú obrazovku"
+  },
+  "ipReadFailed": {
+    "message": "Čítanie zlyhalo. 👉"
+  },
+  "ipViewSource": {
+    "message": "Zobraziť zdrojovú stránku"
+  },
+  "toolDownloadError": {
+    "message": "Nepodarilo sa dostať na server sťahovania. Skúste to znova."
+  },
+  "toolAccess": {
+    "message": "Povoliť prístup na stránku"
+  },
+  "toolPermission": {
+    "message": "Povoliť prístup na túto stránku pre kompatibilitu vložených relácií."
+  },
+  "toolAsia": {
+    "message": "Ázia"
+  },
+  "toolEurope": {
+    "message": "Európa"
+  },
+  "toolAmerica": {
+    "message": "Severná Amerika"
+  },
+  "toolGlobalHelp": {
+    "message": "Predvyplní ukončenie prehliadača IP. Vyberte si pevninskú Čínu alebo iný región na porovnanie ciest; Štart odošle zobrazený cieľ až trom Globalping sondám."
+  },
+  "toolServiceError": {
+    "message": "Testovacia služba je nedostupná. Skúste to znova."
+  },
+  "popupOrderHelp": {
+    "message": "Podržaním a potiahnutím zmeníte poradie. Alt+šípky tiež posúvajú tento profil."
+  },
+  "popupOrderSaved": {
+    "message": "Objednávka bola uložená"
+  },
+  "toolGroupIP": {
+    "message": "IP testov"
+  },
+  "toolGroupWeb": {
+    "message": "Testy webových stránok"
+  },
+  "toolGroupSpeed": {
+    "message": "Rýchlosť"
+  },
+  "toolCurrentIP": {
+    "message": "Aktuálny odchod IP"
+  },
+  "toolCurrentIPLoading": {
+    "message": "Výstup načítavacieho prúdu IP…"
+  },
+  "toolCurrentIPFailed": {
+    "message": "Nepodarilo sa prečítať aktuálne IP. Zadajte cieľ."
+  },
+  "speedMode": {
+    "message": "Testovací režim"
+  },
+  "speedBoth": {
+    "message": "Stiahnuť + upload"
+  },
+  "speedDownload": {
+    "message": "Stiahnite si"
+  },
+  "speedUpload": {
+    "message": "Nahrať"
+  },
+  "speedLatency": {
+    "message": "HTTP latencia"
+  },
+  "speedBudget": {
+    "message": "{n} MiB na fázu · {total} MiB celkom plus malé vzorky latencie."
+  },
+  "siteCategory": {
+    "message": "Kategória webových stránok"
+  },
+  "siteAll": {
+    "message": "Všetky webové stránky"
+  },
+  "siteAI": {
+    "message": "AI"
+  },
+  "siteDevelopment": {
+    "message": "rozvoj"
+  },
+  "siteVideo": {
+    "message": "Video / hudba"
+  },
+  "siteSocial": {
+    "message": "Sociálne"
+  },
+  "siteDomestic": {
+    "message": "Služby na pevnine"
+  },
+  "siteServices": {
+    "message": "Spoločné služby"
+  },
+  "globalMethod": {
+    "message": "Typ merania"
+  },
+  "localPort": {
+    "message": "Miestny port:"
+  },
+  "chainChooseNode": {
+    "message": "Vyberte uzol proxy"
+  },
+  "chainTitle": {
+    "message": "Proxy reťazec"
+  },
+  "chainSelectExit": {
+    "message": "Nižšie vyberte konkrétny výstupný uzol na uloženie alebo testovanie tohto vlastného reťazca. Sledovanie v2rayN spravuje v2rayN."
+  },
+  "chainSelectExitShort": {
+    "message": "Vyberte výstupný uzol"
+  },
+  "chainAdd": {
+    "message": "+ Pridať vrstvu proxy"
+  },
+  "chainTest": {
+    "message": "Testovací reťazec"
+  },
+  "chainMode": {
+    "message": "Reťazový režim"
+  },
+  "chainBase": {
+    "message": "Základný proxy"
+  },
+  "chainExit": {
+    "message": "Ukončite proxy"
+  },
+  "chainEgress": {
+    "message": "Reťazový výstup"
+  },
+  "chainExitBadge": {
+    "message": "Ukončiť IP"
+  },
+  "chainEntry": {
+    "message": "Reťazový vstup"
+  },
+  "chainTransit": {
+    "message": "Mostový uzol"
+  },
+  "chainUntested": {
+    "message": "Netestované"
+  },
+  "chainMissing": {
+    "message": "Nedostupný uzol"
+  },
+  "chainUnresolved": {
+    "message": "Nedá sa vyriešiť zdedený reťazec. Opravte nastavenia predchodcu alebo vyberte vlastnú reťaz."
+  },
+  "chainUpgrade": {
+    "message": "Aktualizujte miestneho sprievodcu, aby ste povolili usporiadané reťazce."
+  },
+  "chainBusy": {
+    "message": "Prebieha ďalší test reťazca"
+  },
+  "chainOK": {
+    "message": "Dosiahnuteľné"
+  },
+  "chainFailed": {
+    "message": "Neúspešný skok v tomto teste"
+  },
+  "chainBlocked": {
+    "message": "Netestované · predchádzajúci skok zlyhal"
+  },
+  "chainFailureHelp": {
+    "message": "Tento poskok ani cesta k nemu neprešla. Neskôr sa chmeľ netestoval."
+  },
+  "chainAllOK": {
+    "message": "Všetky kumulatívne cesty odpovedali"
+  },
+  "chainStopping": {
+    "message": "Zastavuje sa po aktuálnej ohraničenej sonde..."
+  },
+  "globalWorld": {
+    "message": "Celosvetovo"
+  },
+  "globalUnavailable": {
+    "message": "Cieľ alebo oblasť nie je k dispozícii. Skontrolujte cieľ alebo vyberte iný región."
+  },
+  "globalRateLimited": {
+    "message": "Bol dosiahnutý limit servisnej sadzby. Skúste to znova neskôr."
+  },
+  "globalNoResults": {
+    "message": "Služba nevrátila žiadne výsledky sondy. Skúste iný región."
+  },
+  "globalProbeFailed": {
+    "message": "Sonda zlyhala"
+  },
+  "globalProbeOffline": {
+    "message": "Sonda je offline"
+  },
+  "globalIcmpCaution": {
+    "message": "Chýbajúcich ICMP odpovedí samotných nie je dôkazom blokovania. Porovnajte pevninské a zámorské cesty a iné typy testov."
+  },
+  "speedRealtime": {
+    "message": "Rýchlosť v reálnom čase"
+  },
+  "speedAverage": {
+    "message": "Priemerná rýchlosť"
+  },
+  "ipToolsBrief": {
+    "message": "Výsledky tretích strán slúžia ako referencia."
+  },
+  "ipReportBrief": {
+    "message": "Výsledky sa líšia podľa ukončenia IP a slúžia ako referencia."
+  },
+  "toolPingPe": {
+    "message": "IP kontrola blokovania"
+  },
+  "toolTargetIP": {
+    "message": "Cieľ IP"
+  },
+  "toolOpenPingPe": {
+    "message": "Otvorený oficiálny test"
+  },
+  "toolInvalidIP": {
+    "message": "Zadajte platnú adresu IPv4 alebo IPv6."
+  },
+  "toolInvalidPort": {
+    "message": "Zadajte port TCP od 1 do 65535."
+  },
+  "toolExternalFailed": {
+    "message": "Nepodarilo sa otvoriť webovú stránku. Skúste to znova."
+  },
+  "ipBrowserReading": {
+    "message": "Čítam Ping0 cez prehliadač..."
+  },
+  "ipVerifyBrowser": {
+    "message": "Otvoriť overovaciu stránku"
+  },
+  "policyCenter": {
+    "message": "Ochrana osobných údajov, vyhlásenie a časté otázky"
+  },
+  "policyCenterIntro": {
+    "message": "Miestne spracovanie údajov, testovacie limity a bežné odpovede."
+  },
+  "policyPrivacyTitle": {
+    "message": "Zásady ochrany osobných údajov"
+  },
+  "policyPrivacySummary": {
+    "message": "Profily a poverenia zostanú v tomto zariadení. Vyskakovacie kontroly a diagnostika kontaktujte ich uvedených poskytovateľov. Žiadna reklama ani behaviorálna analýza."
+  },
+  "policyDeclarationTitle": {
+    "message": "Vyhlásenie o použití a ocenení"
+  },
+  "policyDeclarationSummary": {
+    "message": "Toto rozšírenie je lokálny správca trasy, nie proxy alebo poskytovateľ VPN. Merania sú referenčné vzorky ovplyvnené podmienkami siete, servera proxy a poskytovateľa."
+  },
+  "policyFaqTitle": {
+    "message": "Často kladené otázky"
+  },
+  "policyFaqSummary": {
+    "message": "Sprievodca Windows sa vyžaduje pre lokálne uzly a MTR. Latencia sa môže medzi prehliadačom, systémom a verejnými sondami líšiť. Zastavte test alebo vymažte miestne údaje z Nastavenia."
+  },
+  "policyDetailsLink": {
+    "message": "Prečítajte si všetky podrobnosti ↗"
+  },
+  "thirdPartyNotice": {
+    "message": "Oznámenia s otvoreným zdrojom ↗"
+  },
+  "columnResizeHelp": {
+    "message": "Potiahnutím zmeníte veľkosť; dvojitým kliknutím resetujete; na úpravu použite klávesy so šípkami"
+  },
+  "columnResize": {
+    "message": "Zmeniť veľkosť stĺpca"
+  },
+  "typeDescription_node": {
+    "message": "Pripojte sa cez proxy uzol"
+  },
+  "typeDescription_manual": {
+    "message": "Zadajte nastavenia proxy manuálne"
+  },
+  "typeDescription_auto": {
+    "message": "Vyberte uzol pomocou pravidiel"
+  },
+  "typeDescription_pac": {
+    "message": "Smerujte premávku pomocou PAC pravidiel"
+  },
+  "appDescription": {
+    "message": "Spravujte nezávislé proxy trasy prehliadača, uzly, pravidlá domény a kontroly pripojenia. Trasy uzlov vyžadujú sprievodcu Windows."
+  },
+  "core_title": {
+    "message": "Proxy jadro"
+  },
+  "core_checking": {
+    "message": "Kontroluje sa lokálny komponent..."
+  },
+  "core_ready": {
+    "message": "Xray je pripravený"
+  },
+  "core_missing": {
+    "message": "Proxy jadro chýba"
+  },
+  "core_external": {
+    "message": "Vlastné jadro: neoverené"
+  },
+  "core_corrupt": {
+    "message": "Xray nesúlad kontrolného súčtu – vyžaduje sa oprava"
+  },
+  "core_unreadable": {
+    "message": "Nepodarilo sa skontrolovať hlavný súbor"
+  },
+  "core_intro": {
+    "message": "Kompletné Windows balenie obsahuje Xray. v2rayN je voliteľné."
+  },
+  "core_verify": {
+    "message": "Skontrolujte znova"
+  },
+  "core_install": {
+    "message": "Inštalácia / oprava jadra"
+  },
+  "core_installing": {
+    "message": "Sťahuje sa a overuje sa…"
+  },
+  "core_done": {
+    "message": "Jadro overené a pripravené"
+  },
+  "core_help": {
+    "message": "Oprava používa pripnuté oficiálne vydanie Xray a overuje jeho kontrolný súčet. Existujúce pripojenia zostanú v prevádzke."
+  },
+  "core_absent": {
+    "message": "Raz nainštalujte lokálny komponent a potom sa sem vráťte a skontrolujte jadro."
+  },
+  "core_download": {
+    "message": "Návod na inštaláciu"
+  },
+  "core_absentHelp": {
+    "message": "Použite zodpovedajúci balík Windows alebo ho zostavte zo zdroja podľa návodu a potom spustite nastavenie."
+  },
+  "core_failed": {
+    "message": "Operácia jadra zlyhala. Skúste to znova alebo použite celý balík Windows."
+  },
+  "core_version": {
+    "message": "Verzia"
+  },
+  "error_ACTIVE_PROFILE_DELETE": {
+    "message": "Pred odstránením prepnite na iný profil"
+  },
+  "error_BACKUP_BINDING_TYPE": {
+    "message": "Väzby trás môžu mať iba profily proxy"
+  },
+  "error_BACKUP_FORMAT3_REQUIRED": {
+    "message": "Pravidlá uzlov vyžadujú prenosnú zálohu vo formáte 3"
+  },
+  "error_BACKUP_INDEPENDENT_PATH_REQUIRED": {
+    "message": "Záloha musí obsahovať nezávislú cestu uzlov"
+  },
+  "error_BACKUP_INTERNAL_BINDINGS": {
+    "message": "Záloha obsahuje interné väzby"
+  },
+  "error_BACKUP_MESSAGE_LIMIT": {
+    "message": "Záloha uzlov prekračuje limit správ miestneho komponentu"
+  },
+  "error_BACKUP_NODES_INCOMPLETE": {
+    "message": "Neúplná záloha uzlov"
+  },
+  "error_BACKUP_NODE_MISSING": {
+    "message": "V zálohe chýba požadovaný uzol"
+  },
+  "error_BACKUP_NODE_PATHS_LIMIT": {
+    "message": "Záloha podporuje najviac {limit} ciest uzlov"
+  },
+  "error_BACKUP_PATH_INCOMPLETE": {
+    "message": "Neúplná cesta uzlov v zálohe"
+  },
+  "error_BACKUP_PROFILES_LIMIT": {
+    "message": "Záloha podporuje najviac {limit} profilov"
+  },
+  "error_BACKUP_PROXY_CONFLICT": {
+    "message": "Záloha obsahuje konfliktné nastavenia proxy"
+  },
+  "error_BACKUP_SIZE_LIMIT": {
+    "message": "Záloha prekračuje {limit} MB"
+  },
+  "error_BACKUP_TRANSFER_UNAVAILABLE": {
+    "message": "Na prenos záloh uzlov aktualizujte alebo opravte miestny komponent."
+  },
+  "error_BACKUP_UNUSED_NODES": {
+    "message": "Záloha obsahuje uzly bez odkazov"
+  },
+  "error_BODY_TOO_LARGE": {
+    "message": "Odpoveď predplatného prekračuje povolenú veľkosť."
+  },
+  "error_BROWSER_API_FAILED": {
+    "message": "Operácia prehliadača zlyhala. Pozrite si technické podrobnosti."
+  },
+  "error_BROWSER_PROXY_RESTORE_FAILED": {
+    "message": "Operácia zlyhala a predchádzajúci proxy prehliadača sa nepodarilo obnoviť"
+  },
+  "error_BROWSER_SCHEDULING_UNAVAILABLE": {
+    "message": "Plánovanie prehliadača nie je dostupné."
+  },
+  "error_BUSY": {
+    "message": "Prebieha iná operácia. Skúste to o chvíľu znova."
+  },
+  "error_CHAIN_PROBE_FAILED": {
+    "message": "Test reťazca zlyhal"
+  },
+  "error_COMPANION_BULK_RELEASE_REQUIRED": {
+    "message": "Na bezpečnú správu viacerých pravidiel uzlov aktualizujte miestny komponent"
+  },
+  "error_COMPANION_CHAINS_REQUIRED": {
+    "message": "Na povolenie usporiadaných reťazcov aktualizujte miestny komponent"
+  },
+  "error_COMPANION_MESSAGE_LIMIT": {
+    "message": "Nastavenia prekračujú limit správ miestneho komponentu"
+  },
+  "error_COMPANION_OPERATION_FAILED": {
+    "message": "Operácia miestneho komponentu zlyhala. Pozrite si technické podrobnosti."
+  },
+  "error_COMPANION_UNAVAILABLE": {
+    "message": "Nainštalujte alebo opravte V2Route Companion"
+  },
+  "error_CONNECTION_CLOSED": {
+    "message": "Spojenie sa zatvorilo pred dokončením testu."
+  },
+  "error_CORE_INSTALL_FAILED": {
+    "message": "Inštalácia jadra zlyhala. Pozrite si technické podrobnosti."
+  },
+  "error_CORE_OWNERSHIP_FAILED": {
+    "message": "Izolované testovacie jadro sa nepodarilo bezpečne ovládať. Test bol zastavený."
+  },
+  "error_CORE_START_FAILED": {
+    "message": "Izolované testovacie jadro sa nespustilo. Skontrolujte inštaláciu komponentu a jadra."
+  },
+  "error_CORE_START_TIMEOUT": {
+    "message": "Izolované testovacie jadro nebolo včas pripravené."
+  },
+  "error_CORE_STATUS_UNAVAILABLE": {
+    "message": "Stav jadra nie je dostupný. Pozrite si technické podrobnosti."
+  },
+  "error_CORE_VALIDATION_FAILED": {
+    "message": "Xray nemohol overiť importované uzly. Skontrolujte ich nastavenia a skúste to znova."
+  },
+  "error_DETACH_PORT_CONFLICT": {
+    "message": "Spravovaný port sa uvoľní. Zadajte iný ručný proxy"
+  },
+  "error_DETACH_PROXY_REQUIRED": {
+    "message": "Pred odpojením väzby zadajte náhradný ručný proxy"
+  },
+  "error_DNS_BUSY": {
+    "message": "Vyhľadávanie DNS je zaneprázdnené. Skúste to o chvíľu znova."
+  },
+  "error_DNS_FAILED": {
+    "message": "Vyhľadávanie DNS zlyhalo. Skontrolujte adresu a sieťové pripojenie."
+  },
+  "error_ENCODING_UNSUPPORTED": {
+    "message": "Predplatné používa nepodporované kódovanie obsahu."
+  },
+  "error_FIREFOX_PRIVATE_ACCESS_REQUIRED": {
+    "message": "Pred zmenou nastavení proxy povoľte V2Route v súkromných oknách v podrobnostiach rozšírenia"
+  },
+  "error_FOLDER_UNAVAILABLE": {
+    "message": "Priečinok nie je dostupný; skontrolujte cestu, prístup a verziu miestneho komponentu"
+  },
+  "error_GROUP_LIMIT": {
+    "message": "Dosiahli ste limit skupín. Odstráňte nepoužívanú skupinu a skúste to znova."
+  },
+  "error_GROUP_NOT_EDITABLE": {
+    "message": "Túto zdrojovú skupinu tu nemožno upraviť."
+  },
+  "error_GROUP_NOT_FOUND": {
+    "message": "Vybraná skupina už neexistuje. Vyberte inú skupinu."
+  },
+  "error_HTTP_ENCODING": {
+    "message": "Testovací server vrátil nepodporované kódovanie."
+  },
+  "error_HTTP_LENGTH": {
+    "message": "Veľkosť testovacej odpovede nezodpovedala požadovanej veľkosti."
+  },
+  "error_HTTP_RESPONSE_TOO_LARGE": {
+    "message": "Testovacia odpoveď prekročila povolenú veľkosť."
+  },
+  "error_HTTP_STATUS": {
+    "message": "Testovací server vrátil neúspešný stav HTTP."
+  },
+  "error_IMPORTED_PROXY_MISSING": {
+    "message": "Miestny komponent nevrátil importovaný proxy"
+  },
+  "error_IMPORTED_RULE_PATH_CONFLICT": {
+    "message": "Importované uzly sa mapujú na konfliktné cesty pravidiel"
+  },
+  "error_IMPORT_CLEANUP_FAILED": {
+    "message": "Import zlyhal; niektoré dočasné uzly alebo porty sa nepodarilo uvoľniť. Existujúce profily sa zachovali"
+  },
+  "error_IMPORT_PROFILE_NAME_CONFLICT": {
+    "message": "Duplicitný alebo neplatný názov profilu"
+  },
+  "error_INCOMPLETE_RESPONSE": {
+    "message": "Odpoveď predplatného bola neúplná. Skúste to znova."
+  },
+  "error_INVALID_BACKUP": {
+    "message": "Neplatná záloha V2Route"
+  },
+  "error_INVALID_BACKUP_NODE": {
+    "message": "Neplatný alebo duplicitný uzol v zálohe"
+  },
+  "error_INVALID_BACKUP_NODES": {
+    "message": "Neplatné uzly v zálohe"
+  },
+  "error_INVALID_BACKUP_PATH": {
+    "message": "Neplatná cesta v zálohe"
+  },
+  "error_INVALID_BYPASS_ENTRY": {
+    "message": "Neplatná položka výnimky"
+  },
+  "error_INVALID_BYPASS_LIST": {
+    "message": "Neplatný zoznam výnimiek"
+  },
+  "error_INVALID_CHAIN": {
+    "message": "Neplatný usporiadaný reťazec"
+  },
+  "error_INVALID_CHAIN_PROBE": {
+    "message": "Neplatná požiadavka na test reťazca"
+  },
+  "error_INVALID_COMPANION_RESPONSE": {
+    "message": "Miestny komponent vrátil neplatnú odpoveď. Aktualizujte ho alebo opravte."
+  },
+  "error_INVALID_CONTENT": {
+    "message": "Odpoveď predplatného neobsahuje platný obsah."
+  },
+  "error_INVALID_DOMAIN_PATTERNS": {
+    "message": "Zadajte vzory domén oddelené čiarkami; každú URL uveďte na samostatnom riadku"
+  },
+  "error_INVALID_ENCODING": {
+    "message": "Odpoveď predplatného nie je platný text UTF-8."
+  },
+  "error_INVALID_FOLDER_REQUEST": {
+    "message": "Neplatná požiadavka na priečinok"
+  },
+  "error_INVALID_GROUP_ACTION": {
+    "message": "Táto akcia skupiny nie je podporovaná."
+  },
+  "error_INVALID_HOP_INDEX": {
+    "message": "Neplatný index skoku"
+  },
+  "error_INVALID_LEGACY_PREDECESSOR": {
+    "message": "Neplatný zdedený predradený proxy"
+  },
+  "error_INVALID_LIBRARY_COMMAND": {
+    "message": "Tento príkaz knižnice uzlov nie je podporovaný."
+  },
+  "error_INVALID_LIBRARY_REQUEST": {
+    "message": "Neplatná požiadavka na knižnicu"
+  },
+  "error_INVALID_NAME": {
+    "message": "Zadajte názov s 1–128 viditeľnými znakmi bez riadiacich znakov."
+  },
+  "error_INVALID_NETWORK_TEST": {
+    "message": "Neplatný sieťový test"
+  },
+  "error_INVALID_NODE_IMPORT_RESPONSE": {
+    "message": "Neplatná odpoveď importu uzlov"
+  },
+  "error_INVALID_PREDECESSOR": {
+    "message": "Neplatný predradený proxy pre túto trasu"
+  },
+  "error_INVALID_PROFILE_NAME": {
+    "message": "Neplatný názov profilu"
+  },
+  "error_INVALID_PROFILE_REFERENCE": {
+    "message": "Neplatný odkaz na profil"
+  },
+  "error_INVALID_PROXY_AUTH": {
+    "message": "Neplatné overovanie proxy"
+  },
+  "error_INVALID_PROXY_CREDENTIALS": {
+    "message": "Neplatné prihlasovacie údaje proxy"
+  },
+  "error_INVALID_PROXY_ENDPOINT": {
+    "message": "Zadajte platného hostiteľa a port proxy"
+  },
+  "error_INVALID_PROXY_HOST": {
+    "message": "Zadajte názov DNS alebo adresu IP bez portu, URL, cesty či dopytu"
+  },
+  "error_INVALID_ROUTE": {
+    "message": "Neplatná trasa"
+  },
+  "error_INVALID_ROUTE_SETTINGS": {
+    "message": "Neplatné nastavenia trasy"
+  },
+  "error_INVALID_RULES": {
+    "message": "Neplatné pravidlá"
+  },
+  "error_INVALID_RULE_TARGET": {
+    "message": "Pre každé pravidlo vyberte jeden platný uzol alebo profil"
+  },
+  "error_INVALID_SUBSCRIPTION": {
+    "message": "Neplatné predplatné"
+  },
+  "error_INVALID_SUBSCRIPTION_REQUEST": {
+    "message": "Neplatná požiadavka na predplatné"
+  },
+  "error_INVALID_SUBSCRIPTION_SETTINGS": {
+    "message": "Nastavenia predplatného sú neplatné. Skontrolujte interval aktualizácie a zásady pripojenia."
+  },
+  "error_INVALID_SYSTEM_PROXY_RESPONSE": {
+    "message": "Neplatná odpoveď systémového proxy; aktualizujte alebo opravte miestny komponent"
+  },
+  "error_INVALID_TRANSPORT": {
+    "message": "Nastavenia pripojenia predplatného sú neplatné."
+  },
+  "error_INVALID_URL": {
+    "message": "Zadajte platnú URL predplatného HTTP(S) bez používateľského mena a hesla."
+  },
+  "error_LIBRARY_CHANGED": {
+    "message": "Knižnica uzlov sa zmenila v inom okne. Obnovte ju a skúste to znova."
+  },
+  "error_MANUAL_CHAIN_UNSUPPORTED": {
+    "message": "Ručné proxy nepodporujú reťazec uzlov"
+  },
+  "error_MANUAL_PROXY_CLEANUP_FAILED": {
+    "message": "Uloženie zlyhalo; v knižnici uzlov zostal dočasne importovaný proxy"
+  },
+  "error_NATIVE_BINDING_ID": {
+    "message": "Neplatný identifikátor väzby trasy."
+  },
+  "error_NATIVE_BINDING_UNKNOWN": {
+    "message": "Väzba trasy neexistuje."
+  },
+  "error_NATIVE_BUTTON_NAME": {
+    "message": "Názov tlačidla musí obsahovať 1–128 viditeľných znakov."
+  },
+  "error_NATIVE_CATALOG_UNREADABLE": {
+    "message": "Konfiguráciu v2rayN sa nepodarilo prečítať."
+  },
+  "error_NATIVE_CORE_MISSING": {
+    "message": "Xray nie je dostupný. Nainštalujte balík miestneho komponentu."
+  },
+  "error_NATIVE_GROUP_ID_COLLISION": {
+    "message": "Identifikátory skupín sú v konflikte."
+  },
+  "error_NATIVE_GROUP_ORDER": {
+    "message": "Neplatné poradie skupín."
+  },
+  "error_NATIVE_NODE_ID_COLLISION": {
+    "message": "Identifikátory uzlov sú v konflikte."
+  },
+  "error_NATIVE_PREDECESSOR_AMBIGUOUS": {
+    "message": "Názov predradeného proxy chýba alebo je duplicitný. Vyberte konkrétny predradený uzol."
+  },
+  "error_NATIVE_PREDECESSOR_CYCLE": {
+    "message": "Predradený reťazec obsahuje cyklus alebo prekračuje šesť uzlov."
+  },
+  "error_NATIVE_PREDECESSOR_INVALID": {
+    "message": "Vyberte platný predradený proxy."
+  },
+  "error_NATIVE_PREDECESSOR_MISSING": {
+    "message": "Vybraný predradený proxy už neexistuje. Vyberte iný uzol."
+  },
+  "error_NATIVE_PREDECESSOR_SETTINGS": {
+    "message": "Neplatné nastavenia predradeného proxy."
+  },
+  "error_NATIVE_ROUTE_INVALID": {
+    "message": "Vyberte platnú trasu."
+  },
+  "error_NATIVE_ROUTE_MISSING": {
+    "message": "Táto trasa už neexistuje. Vyberte inú trasu."
+  },
+  "error_NATIVE_ROUTE_PORTS": {
+    "message": "Neplatné priradenia portov trasy."
+  },
+  "error_NATIVE_ROUTE_UNAVAILABLE": {
+    "message": "Vybraná trasa nie je dostupná. Pozrite si technické podrobnosti."
+  },
+  "error_NATIVE_SETTINGS_FORMAT": {
+    "message": "Neplatný formát nastavení."
+  },
+  "error_NATIVE_SETTINGS_REVISION": {
+    "message": "Neplatná revízia nastavení."
+  },
+  "error_NATIVE_SUCCESSOR_UNSUPPORTED": {
+    "message": "Táto skupina používa nepodporovaný následný proxy."
+  },
+  "error_NATIVE_UNSUPPORTED_CUSTOM": {
+    "message": "Táto verzia nepodporuje vlastné odchádzajúce konfigurácie."
+  },
+  "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
+    "message": "Táto verzia nepodporuje Hysteria2."
+  },
+  "error_NATIVE_UNSUPPORTED_TUIC": {
+    "message": "Táto verzia neobsahuje jadro sing-box potrebné pre TUIC."
+  },
+  "error_NATIVE_UNSUPPORTED_TYPE": {
+    "message": "Tento typ trasy nie je podporovaný."
+  },
+  "error_NATIVE_V2RAYN_PORT": {
+    "message": "Miestny port v2rayN je neplatný."
+  },
+  "error_NATIVE_V2RAYN_UNAVAILABLE": {
+    "message": "v2rayN nie je dostupný. Vyberte importovaný uzol."
+  },
+  "error_NETWORK_FAILED": {
+    "message": "Sieťová požiadavka zlyhala. Skontrolujte pripojenie a skúste to znova."
+  },
+  "error_NETWORK_TEST_FAILED": {
+    "message": "Sieťová diagnostika zlyhala. Pozrite si technické podrobnosti."
+  },
+  "error_NODE_LIMIT": {
+    "message": "Operácia by prekročila limit uzlov. Odstráňte nepoužívané uzly a skúste to znova."
+  },
+  "error_NODE_MAPPING_INCOMPLETE": {
+    "message": "Mapovanie uzlov je neúplné"
+  },
+  "error_NODE_NOT_FOUND": {
+    "message": "Vybraný uzol už neexistuje. Vyberte iný uzol."
+  },
+  "error_NOT_DUE": {
+    "message": "Čas ďalšej plánovanej aktualizácie ešte nenastal."
+  },
+  "error_PAC_ENTRY_REQUIRED": {
+    "message": "Zadajte zdrojový kód PAC s FindProxyForURL"
+  },
+  "error_PAC_FUNCTION_REQUIRED": {
+    "message": "Definujte synchrónnu funkciu FindProxyForURL, funkčnú premennú alebo priradenie na najvyššej úrovni"
+  },
+  "error_PAC_PARSER_UNAVAILABLE": {
+    "message": "Pribalený analyzátor PAC nie je dostupný; preinštalujte rozšírenie"
+  },
+  "error_PAC_RULE_TARGET_UNSUPPORTED": {
+    "message": "Automatické pravidlá nemôžu odkazovať na profil s vloženým PAC"
+  },
+  "error_PAC_SOURCE_LIMIT": {
+    "message": "Zadajte zdrojový kód PAC s najviac {limit} znakmi"
+  },
+  "error_PAC_SYNTAX_INVALID": {
+    "message": "Neplatná syntax PAC"
+  },
+  "error_PAC_SYNTAX_LOCATION": {
+    "message": "Neplatná syntax PAC na riadku {line}, v stĺpci {column}"
+  },
+  "error_PARTIAL_TRANSFER": {
+    "message": "Testovací prenos skončil pred prijatím všetkých údajov."
+  },
+  "error_PRIVATE_DIRECTORY_FAILED": {
+    "message": "Súkromný testovací priečinok sa nepodarilo zabezpečiť. Test bol zastavený."
+  },
+  "error_PRIVATE_TARGET": {
+    "message": "Požiadavky predplatného na súkromné alebo miestne adresy nie sú povolené."
+  },
+  "error_PROFILE_NOT_FOUND": {
+    "message": "Profil sa nenašiel"
+  },
+  "error_PROFILE_REFERENCE_CYCLE": {
+    "message": "Cyklické odkazy medzi profilmi"
+  },
+  "error_PROFILE_REFERENCE_DEPTH": {
+    "message": "Automatické pravidlá prekračujú maximálnu hĺbku {limit}"
+  },
+  "error_PROFILE_REFERENCE_MISSING": {
+    "message": "Odkazovaný profil neexistuje: {name}"
+  },
+  "error_PROFILE_SAVE_RESTORE_FAILED": {
+    "message": "Uloženie zlyhalo a obnovenie trasy vyžaduje pozornosť"
+  },
+  "error_PROXY_AUTH_REQUIRED": {
+    "message": "Proxy predplatného vyžaduje overenie, ktoré táto požiadavka nemôže poskytnúť."
+  },
+  "error_PROXY_CONTROL_UNAVAILABLE": {
+    "message": "Proxy ovláda iné rozšírenie alebo zásada"
+  },
+  "error_PROXY_DNS_REQUIRED": {
+    "message": "V2Route rieši DNS pre SOCKS5 cez proxy"
+  },
+  "error_PROXY_FAILED": {
+    "message": "Pripojenie k proxy zlyhalo. Skontrolujte vybranú trasu."
+  },
+  "error_PROXY_PROFILE_REQUIRED": {
+    "message": "Vyberte profil proxy"
+  },
+  "error_PROXY_ROLLBACK_REFUSED": {
+    "message": "Prehliadač odmietol obnovenie pôvodného proxy"
+  },
+  "error_PROXY_SETTING_REFUSED": {
+    "message": "Prehliadač odmietol nastavenie proxy"
+  },
+  "error_PROXY_UNAVAILABLE": {
+    "message": "Vybraný proxy nie je dostupný. Skontrolujte aktuálnu trasu."
+  },
+  "error_PROXY_USERNAME_REQUIRED": {
+    "message": "Zadajte používateľské meno proxy"
+  },
+  "error_RECOVERY_BINDINGS_LIMIT": {
+    "message": "Obnova môže obnoviť najviac {limit} väzieb uzlov. Otvorte a uložte odkazované profily jednotlivo."
+  },
+  "error_REDIRECT_LIMIT": {
+    "message": "Predplatné vykonalo príliš veľa presmerovaní. Skontrolujte jeho URL."
+  },
+  "error_REFERENCED_PROFILE_DELETE": {
+    "message": "Na tento profil odkazuje automatické pravidlo"
+  },
+  "error_REMOTE_PAC_UNSUPPORTED": {
+    "message": "Použite vložený zdrojový kód PAC; vzdialený PAC nie je podporovaný"
+  },
+  "error_ROUTE_PORT_UNAVAILABLE": {
+    "message": "Nebol pridelený žiadny port"
+  },
+  "error_ROUTE_RECOVERY_RESTORE_FAILED": {
+    "message": "Obnova trasy zlyhala a návrat do pôvodného stavu vyžaduje pozornosť"
+  },
+  "error_ROUTE_REVISION_CONFLICT": {
+    "message": "Trasa sa zmenila v inom okne. Najprv obnovte zobrazenie"
+  },
+  "error_ROUTE_SAVE_ROLLBACK_FAILED": {
+    "message": "Uloženie trasy zlyhalo a vrátenie zmien vyžaduje pozornosť"
+  },
+  "error_ROUTE_UNAVAILABLE": {
+    "message": "Testovacia trasa nie je dostupná. Skontrolujte nastavenia uzla a predradeného proxy."
+  },
+  "error_RULE_BINDING_MISSING": {
+    "message": "Chýba väzba pravidla uzla. Znova otvorte a uložte automatický profil: {name}"
+  },
+  "error_RULE_NODES_LIMIT": {
+    "message": "Automatické pravidlá podporujú najviac {limit} rôznych uzlov"
+  },
+  "error_RULE_NODE_CHANGED": {
+    "message": "Uzol pravidla nie je dostupný alebo sa zmenil. Obnovte ho alebo vyberte iný uzol a uložte: {name}"
+  },
+  "error_RULE_PATH_CONFLICT": {
+    "message": "Konfliktné cesty pravidiel uzlov"
+  },
+  "error_RULE_PATTERNS_LIMIT": {
+    "message": "Automatické pravidlá podporujú celkovo najviac {limit} vzorov zhody"
+  },
+  "error_RULE_PORT_UNAVAILABLE": {
+    "message": "Port pravidla uzla nie je dostupný"
+  },
+  "error_RULE_REVISION_CONFLICT": {
+    "message": "Pravidlo uzla sa zmenilo v inom okne. Najprv obnovte zobrazenie"
+  },
+  "error_SELECTED_NODE_UNAVAILABLE": {
+    "message": "Vybraný uzol nie je dostupný. Obnovte ho alebo vyberte iný uzol"
+  },
+  "error_SOCKS_FAILED": {
+    "message": "Pripojenie SOCKS sa nepodarilo nadviazať."
+  },
+  "error_STARTUP_FALLBACK_REFUSED": {
+    "message": "Prehliadač odmietol záložný proxy pri spustení."
+  },
+  "error_SUBSCRIPTION_CHANGED": {
+    "message": "Predplatné sa počas aktualizácie zmenilo. Obnovte ho a skúste to znova."
+  },
+  "error_SUBSCRIPTION_HTTP_STATUS": {
+    "message": "Server predplatného vrátil HTTP {status}."
+  },
+  "error_SUBSCRIPTION_LIMIT": {
+    "message": "Dosiahli ste limit predplatných. Odstráňte nepoužívané predplatné a skúste to znova."
+  },
+  "error_SUBSCRIPTION_NOT_FOUND": {
+    "message": "Vybrané predplatné už neexistuje."
+  },
+  "error_SYSTEM_PROXY_SNAPSHOT_UNAVAILABLE": {
+    "message": "Snímka použitého systémového proxy nie je dostupná."
+  },
+  "error_SYSTEM_PROXY_TIMEOUT": {
+    "message": "Vypršal časový limit čítania systémového proxy"
+  },
+  "error_SYSTEM_PROXY_UNAVAILABLE": {
+    "message": "Systémový proxy nie je dostupný. Pozrite si technické podrobnosti."
+  },
+  "error_TIMEOUT": {
+    "message": "Vypršal časový limit požiadavky. Skontrolujte pripojenie a skúste to znova."
+  },
+  "error_TLS_DOWNGRADE": {
+    "message": "Predplatné bolo presmerované z HTTPS na HTTP a zablokované."
+  },
+  "error_TLS_FAILED": {
+    "message": "Zabezpečené pripojenie sa nepodarilo overiť. Skontrolujte server a certifikát."
+  },
+  "error_UNSAFE_TEMP_PATH": {
+    "message": "Dočasný testovací priečinok nie je bezpečný. Test bol zastavený."
+  },
+  "error_UNSUPPORTED_LIBRARY_REQUEST": {
+    "message": "Nepodporovaná požiadavka na knižnicu"
+  },
+  "error_UNSUPPORTED_PROFILE_TYPE": {
+    "message": "Nepodporovaný typ profilu"
+  },
+  "error_UNSUPPORTED_REQUEST": {
+    "message": "Nepodporovaná požiadavka"
+  },
+  "error_UNSUPPORTED_RULE_CONDITION": {
+    "message": "Podporované sú iba pravidlá so zástupnými znakmi pre hostiteľa a URL"
+  },
+  "error_UPDATE_FAILED": {
+    "message": "Aktualizácia predplatného zlyhala. Existujúce uzly sa zachovali."
+  },
+  "error_VALIDATION_FAILED": {
+    "message": "Obsah predplatného sa nepodarilo overiť. Existujúce uzly sa zachovali."
+  },
+  "nativeUnnamedNode": {
+    "message": "Nepomenovaný uzol"
+  },
+  "nativeProtocolCustom": {
+    "message": "Vlastné"
+  },
+  "nativeProtocolOutbound": {
+    "message": "Vlastné odchádzajúce pripojenie"
+  },
+  "nativeProtocolGroup": {
+    "message": "Skupina zásad"
+  },
+  "nativeProtocolChain": {
+    "message": "Reťazec proxy"
+  },
+  "nativeProtocolUnknown": {
+    "message": "Nepodporovaný typ"
+  },
+  "languageLoadFailed": {
+    "message": "Vybraný jazyk sa nepodarilo načítať. Skúste to znova."
+  },
+  "invalidBackupJSON": {
+    "message": "Záloha nie je platný JSON."
+  },
+  "noticeBodyLanguages": {
+    "message": "Úplné znenie zásad je dostupné v angličtine a zjednodušenej čínštine."
+  },
+  "policyRules": {
+    "message": "Pravidlá smerovania proxy"
+  },
+  "policyPriority": {
+    "message": "Poradie: vynechané adresy → prvé zodpovedajúce pravidlo → predvolená trasa."
+  },
+  "policyDirectHelp": {
+    "message": "Adresy bez zhody sa pripoja priamo. Tlačidlo Priamo tiež používa tieto pravidlá."
+  },
+  "policySystemHelp": {
+    "message": "Adresy bez zhody používajú systémový proxy. Tlačidlo Systém tiež používa tieto pravidlá."
+  },
+  "policyEmpty": {
+    "message": "Zatiaľ žiadne pravidlá. Použije sa predvolená trasa."
+  },
+  "policyAddressHelp": {
+    "message": "Domény, zástupné domény, IP alebo IP:port. Pravidlá IP porovnávajú IP v URL, nie výsledky DNS."
+  },
+  "policyMoveUp": {
+    "message": "Posunúť pravidlo nahor"
+  },
+  "policyMoveDown": {
+    "message": "Posunúť pravidlo nadol"
+  }
+}

@@ -1,0 +1,2150 @@
+{
+  "ruleTargetUnavailable": {
+    "message": "Hindi available na target"
+  },
+  "rulePatternPlaceholder": {
+    "message": "example.com, *.example.org, 192.0.2.1:8443"
+  },
+  "rulePatternHelp": {
+    "message": "Paghiwalayin ang mga address gamit ang kuwit. Isang URL pattern bawat linya. Maaaring hindi makita ng PAC ang mga HTTPS path."
+  },
+  "defaultChoice_direct": {
+    "message": "Kumonekta nang walang proxy"
+  },
+  "defaultChoice_system": {
+    "message": "Gumamit ng mga setting ng proxy ng system"
+  },
+  "defaultChoice_node": {
+    "message": "Gamitin ang napiling node ng profile na ito"
+  },
+  "defaultChoice_manual": {
+    "message": "Gamitin ang mga setting ng proxy ng profile na ito"
+  },
+  "defaultChoice_auto": {
+    "message": "Ilapat ang mga panuntunan sa pagruruta ng profile na ito"
+  },
+  "nlHttpsLatency": {
+    "message": "HTTPS tugon"
+  },
+  "nlLatencyMethod": {
+    "message": "Cloudflare · Minimum ng dalawang tugon · Muling paggamit ng koneksyon kapag available"
+  },
+  "nlLatencyFast": {
+    "message": "Mabilis"
+  },
+  "nlLatencyModerate": {
+    "message": "Katamtaman"
+  },
+  "nlLatencySlow": {
+    "message": "Mabagal"
+  },
+  "nlSortName": {
+    "message": "Pangalan"
+  },
+  "nlSortLatency": {
+    "message": "Latency: mababa hanggang mataas"
+  },
+  "nlSortDownload": {
+    "message": "Download: mataas hanggang mababa"
+  },
+  "nlSortUpload": {
+    "message": "Upload: mataas hanggang mababa"
+  },
+  "nlSingle": {
+    "message": "Isang node"
+  },
+  "nlGroupBatch": {
+    "message": "Grupo / batch"
+  },
+  "nlTestScope": {
+    "message": "Saklaw ng pagsubok"
+  },
+  "nlCurrentNode": {
+    "message": "Napiling node"
+  },
+  "nlCurrentGroup": {
+    "message": "Napiling pangkat"
+  },
+  "nlChooseNode": {
+    "message": "Pumili ng node sa listahan"
+  },
+  "nlStart": {
+    "message": "Simulan ang pagsubok"
+  },
+  "nlService": {
+    "message": "Serbisyo ng pagsubok"
+  },
+  "nlMeasured": {
+    "message": "sinusukat"
+  },
+  "nlMeanLatency": {
+    "message": "Average na latency"
+  },
+  "nlGroupBySource": {
+    "message": "Ayon sa pinagmulang pangkat"
+  },
+  "nlPreviousPage": {
+    "message": "Nakaraang pahina"
+  },
+  "nlNextPage": {
+    "message": "Susunod na pahina"
+  },
+  "nlName": {
+    "message": "Pangalan"
+  },
+  "nlEdit": {
+    "message": "I-edit"
+  },
+  "nlStop": {
+    "message": "Tumigil ka"
+  },
+  "nlConfirm": {
+    "message": "Kumpirmahin"
+  },
+  "nlAllNodes": {
+    "message": "Lahat ng node"
+  },
+  "nlNodeResults": {
+    "message": "Mga resulta ng node"
+  },
+  "nlTestCenter": {
+    "message": "Test center"
+  },
+  "nlNewGroup": {
+    "message": "Bagong grupo"
+  },
+  "nlRenameGroup": {
+    "message": "Palitan ang pangalan ng pangkat"
+  },
+  "nlRemoveGroup": {
+    "message": "Alisin ang grupo"
+  },
+  "nlRemoveGroupHelp": {
+    "message": "Panatilihin ang bawat node at subscription, at ilipat ang mga ito sa Mga na-import na node."
+  },
+  "nlNode": {
+    "message": "Node"
+  },
+  "nlStatus": {
+    "message": "Katayuan"
+  },
+  "nlActions": {
+    "message": "Mga Aksyon"
+  },
+  "nlSort": {
+    "message": "Pagbukud-bukurin ang talahanayang ito lamang"
+  },
+  "nlSelected": {
+    "message": "napili"
+  },
+  "nlTestNode": {
+    "message": "Pagsubok"
+  },
+  "nlProfileShort": {
+    "message": "Profile"
+  },
+  "nlQuick": {
+    "message": "Mabilis na latency"
+  },
+  "nlFull": {
+    "message": "I-download + i-upload"
+  },
+  "nlTraffic": {
+    "message": "Laki ng data ng pagsubok"
+  },
+  "nlConcurrency": {
+    "message": "Kasabay na mga node"
+  },
+  "nlTrafficFullOnly": {
+    "message": "Ginagamit para sa pag-download at pag-upload ng mga pagsubok"
+  },
+  "nlTestMode": {
+    "message": "Test mode"
+  },
+  "nlBudget": {
+    "message": "Pinakamataas na trapiko ng payload"
+  },
+  "nlViaGroup": {
+    "message": "Sa pamamagitan ng group pre-proxy"
+  },
+  "nlTestSelected": {
+    "message": "Napili ang pagsubok"
+  },
+  "nlTestVisible": {
+    "message": "Pagsubok na ipinakita ang mga node"
+  },
+  "nlTestAll": {
+    "message": "Subukan ang lahat ng mga node"
+  },
+  "nlTestGroup": {
+    "message": "Mga node ng pangkat ng pagsubok"
+  },
+  "nlProgress": {
+    "message": "Pag-unlad ng pagsukat"
+  },
+  "nlReady": {
+    "message": "Pumili ng mga node upang magsimula. Walang pagsubok na tumakbo."
+  },
+  "nlStarting": {
+    "message": "Sinisimulan ang hiwalay na pagsukat..."
+  },
+  "nlQueued": {
+    "message": "Nakapila"
+  },
+  "nlRunning": {
+    "message": "Pagsubok"
+  },
+  "nlStopping": {
+    "message": "Huminto…"
+  },
+  "nlComplete": {
+    "message": "Kumpleto na"
+  },
+  "nlFailed": {
+    "message": "Nabigo"
+  },
+  "nlStopped": {
+    "message": "Huminto"
+  },
+  "nlPartial": {
+    "message": "Bahagyang"
+  },
+  "nlUntested": {
+    "message": "Hindi nasubok"
+  },
+  "nlSucceeded": {
+    "message": "pumasa"
+  },
+  "nlMeasureDisconnected": {
+    "message": "Natapos ang koneksyon sa pagsukat. Ang mga hindi kumpletong halaga ay hindi panghuling resulta."
+  },
+  "nlUpgrade": {
+    "message": "I-update ang lokal na Kasama upang pamahalaan ang mga grupo at subscription. Nananatiling available ang mga kasalukuyang node."
+  },
+  "nlOperationFailed": {
+    "message": "Hindi makumpleto ang operasyon. Subukan muli."
+  },
+  "nlEditSubscription": {
+    "message": "I-edit ang subscription"
+  },
+  "nlPasteContent": {
+    "message": "Mga proxy na link / nilalaman"
+  },
+  "nlSubscriptionURL": {
+    "message": "Subscription URL"
+  },
+  "nlKeepURL": {
+    "message": "Iwanang blangko upang mapanatili ang naka-save URL"
+  },
+  "nlConnectionPolicy": {
+    "message": "I-update ang koneksyon"
+  },
+  "nlProxyFirst": {
+    "message": "Proxy muna, pagkatapos ay idirekta sa pagkabigo"
+  },
+  "nlProxyOnly": {
+    "message": "Proxy lang"
+  },
+  "nlDirectOnly": {
+    "message": "Direkta lang"
+  },
+  "nlProxyFirstHelp": {
+    "message": "Huminto muna ang proxy pagkatapos ng matagumpay na pagkuha. Sinusubukan lamang ang direktang kung nabigo ang pagtatangka ng proxy."
+  },
+  "nlAutoUpdate": {
+    "message": "Paganahin ang mga awtomatikong pag-update"
+  },
+  "nlInterval": {
+    "message": "Update interval (minuto)"
+  },
+  "nlDestinationGroup": {
+    "message": "Papuntahang pangkat"
+  },
+  "nlSubscriptionOwnGroup": {
+    "message": "Bagong grupo..."
+  },
+  "nlNameGroup": {
+    "message": "Pangalan (grupo)"
+  },
+  "nlCustomGroup": {
+    "message": "Pasadyang pangkat"
+  },
+  "nlNameRequired": {
+    "message": "Maglagay ng pangalan."
+  },
+  "nlContentRequired": {
+    "message": "I-paste ang mga proxy link o content ng subscription."
+  },
+  "nlGroupRequired": {
+    "message": "Pumili ng pangkat na patutunguhan."
+  },
+  "nlURLRequired": {
+    "message": "Magpasok ng HTTP(S) na subscription URL nang walang username o password."
+  },
+  "nlIntervalInvalid": {
+    "message": "Maglagay ng buong numero mula 5 hanggang 43200 minuto."
+  },
+  "folderTitle": {
+    "message": "Piliin ang v2rayN folder"
+  },
+  "folderHint": {
+    "message": "Pumili ng folder, pagkatapos ay ilapat ito gamit ang mga setting ng I-save ang koneksyon."
+  },
+  "folderPath": {
+    "message": "Buong lokal na landas ng folder"
+  },
+  "folderGo": {
+    "message": "Buksan"
+  },
+  "folderUp": {
+    "message": "Taas"
+  },
+  "folderDrives": {
+    "message": "Mga Drive"
+  },
+  "folderCurrent": {
+    "message": "Kasalukuyang landas"
+  },
+  "folderChoose": {
+    "message": "Gamitin ang folder na ito"
+  },
+  "folderList": {
+    "message": "Mga folder"
+  },
+  "folderTruncated": {
+    "message": "Limitado ang listahan. Ilagay ang buong path sa itaas para magbukas ng folder na hindi ipinapakita.\nNahanap ang"
+  },
+  "folderReady": {
+    "message": "v2rayN na file. Gamitin ang folder na ito upang patunayan ang configuration."
+  },
+  "folderInvalid": {
+    "message": "Piliin ang folder na naglalaman ng guiConfigs, guiNConfig.json at guiNDB.db."
+  },
+  "folderSelectDrive": {
+    "message": "Pumili ng lokal na drive o magpasok ng buong path ng folder."
+  },
+  "folderEmpty": {
+    "message": "Walang nakikitang mga subfolder."
+  },
+  "folderUnavailable": {
+    "message": "Hindi ma-browse ang folder na ito. Suriin ang landas at pag-access nito. Kung mas matanda ang Kasama, i-update muna ito."
+  },
+  "folderValidating": {
+    "message": "Pinapatunayan ang v2rayN configuration..."
+  },
+  "folderInvalidConfig": {
+    "message": "Ang v2rayN configuration o database ay hindi kumpleto o hindi wasto. Pumili ng isa pang folder."
+  },
+  "copyPath": {
+    "message": "Kopyahin ang landas"
+  },
+  "pathCopyHint": {
+    "message": "Kopyahin ang path na kasalukuyang nasa field na ito."
+  },
+  "preMode": {
+    "message": "Pre-proxy mode"
+  },
+  "preNode": {
+    "message": "Pre-proxy node"
+  },
+  "preIntro": {
+    "message": "Gamitin ang chain ng grupo, laktawan ito, o pumili ng pre-proxy para sa profile na ito."
+  },
+  "healthLabel": {
+    "message": "Kasalukuyang katayuan ng koneksyon"
+  },
+  "healthOk": {
+    "message": "Normal"
+  },
+  "healthError": {
+    "message": "Abnormal"
+  },
+  "healthChecking": {
+    "message": "Sinusuri"
+  },
+  "healthUnknown": {
+    "message": "Hindi nakumpirma"
+  },
+  "autoSystemHelp": {
+    "message": "Kailangan ng mga system rule ang Windows companion at kopya ng nakapirming proxy settings. Ilapat muli kapag nagbago ang settings. Hindi suportado ang PAC/WPAD; ginagamit ng System na walang tuntunin ang katutubong settings ng browser."
+  },
+  "backgroundUnavailable": {
+    "message": "Hindi available ang background ng extension."
+  },
+  "backgroundNoResponse": {
+    "message": "Hindi tumugon ang background."
+  },
+  "backupTooLarge": {
+    "message": "Ang backup ay lumampas sa 5 MB."
+  },
+  "proxyUsername": {
+    "message": "Username"
+  },
+  "proxyPassword": {
+    "message": "Password"
+  },
+  "proxyAuthHelp": {
+    "message": "Opsyonal. Kumokonekta ang mga na-authenticate na proxy sa pamamagitan ng Companion. Ang mga kredensyal ay naka-imbak sa configuration ng browser na ito at sa Kasama, at kasama sa mga pag-export ng profile.\nHindi sinusuportahan ng"
+  },
+  "proxyAuthSocks4": {
+    "message": "SOCKS4 ang pagpapatunay ng username/password na ito; gamitin ang HTTP(S) o SOCKS5."
+  },
+  "importExamples": {
+    "message": "Mga halimbawa ng format"
+  },
+  "ipCopying": {
+    "message": "Kinokopya..."
+  },
+  "netDnsUnavailable": {
+    "message": "Ang address ng server ay hindi malutas sa oras. Tingnan ang host o IP address at subukang muli."
+  },
+  "netCurrentTarget": {
+    "message": "Napiling proxy endpoint"
+  },
+  "netCustomTarget": {
+    "message": "Custom na server"
+  },
+  "netHost": {
+    "message": "Host o IP address"
+  },
+  "netPort": {
+    "message": "TCP port"
+  },
+  "netHostRequired": {
+    "message": "Maglagay ng server host o IP address."
+  },
+  "netCurrentUnavailable": {
+    "message": "Pumili ng node o manu-manong proxy profile, o maglagay ng custom na target."
+  },
+  "netInvalidTarget": {
+    "message": "Maglagay ng wastong diagnostic host at port."
+  },
+  "netIpv6PingUnavailable": {
+    "message": "IPv6 ICMP ay hindi magagamit; gamitin ang TCPing."
+  },
+  "preNeedsFix": {
+    "message": "Pumili ng wastong pre-proxy o walang pre-proxy bago i-save."
+  },
+  "preConfigure": {
+    "message": "I-configure ang pre-proxy"
+  },
+  "preFollowInvalid": {
+    "message": "Ang Follow v2rayN ay hindi tumatanggap ng custom na pre-proxy."
+  },
+  "followChainHelp": {
+    "message": "Ginagamit ng Follow ang ruta at proxy chain na aktibo na sa v2rayN."
+  },
+  "netTitle": {
+    "message": "Mga pagsubok sa koneksyon"
+  },
+  "ipTestDetails": {
+    "message": "Mga detalye ng pagsubok"
+  },
+  "netTarget": {
+    "message": "Ping / TCPing target"
+  },
+  "netDownload": {
+    "message": "I-download ang pagsubok"
+  },
+  "netPartial": {
+    "message": "Bahagyang sample"
+  },
+  "netComplete": {
+    "message": "Kumpleto na ang sample"
+  },
+  "netDirect": {
+    "message": "System network"
+  },
+  "netUnreachable": {
+    "message": "Walang tugon / nabigo"
+  },
+  "netAverage": {
+    "message": "Karaniwan"
+  },
+  "predecessor": {
+    "message": "Pre-proxy"
+  },
+  "preInherit": {
+    "message": "Gamitin ang v2rayN group chain"
+  },
+  "preNone": {
+    "message": "Walang pre-proxy"
+  },
+  "preSpecific": {
+    "message": "Pumili ng node"
+  },
+  "preHelp": {
+    "message": "Nalalapat sa profile na ito. Gamitin ang v2rayN group chain, walang pre-proxy o isang partikular na node. Ginagamit ng Follow v2rayN ang kasalukuyang chain nito."
+  },
+  "preSelectRequired": {
+    "message": "Pumili ng pre-proxy node, o piliin ang Default ng grupo / Wala."
+  },
+  "ipPing0Permission": {
+    "message": "Payagan ang Ping0 access sa website na i-load ang pampublikong ulat."
+  },
+  "ipPublicChallenge": {
+    "message": "Ang website ay nangangailangan ng pag-verify. Buksan ang pahina ng Ping0 para kumpletuhin ito at tingnan ang resulta."
+  },
+  "ipPublicReport": {
+    "message": "Ping0 pampublikong ulat"
+  },
+  "ipPublicSource": {
+    "message": "Pinagmulan: Ping0 pampublikong pahina"
+  },
+  "ipPublicOriginal": {
+    "message": "Ping0 ulat"
+  },
+  "ipPublicPartial": {
+    "message": "Tanging ang mga field na ibinigay sa pampublikong pahina ang ipinapakita, sa kanilang orihinal na wika. Ang mga klasipikasyon at pagtatantya ng shared-user ay mula sa Ping0."
+  },
+  "setupTitle": {
+    "message": "Kumonekta Proxy V2Route"
+  },
+  "setupIntro": {
+    "message": "I-install ang Windows kasama upang magamit ang v2rayN mga ruta o ang iyong sariling mga na-import na node."
+  },
+  "setupStepOne": {
+    "message": "I-extract ang katugmang kumpletong Windows na pakete sa isang permanenteng folder."
+  },
+  "setupStepTwo": {
+    "message": "Buksan ang V2Route-Setup.exe at i-click ang I-install."
+  },
+  "setupStepThree": {
+    "message": "Bumalik dito at tingnan ang koneksyon. Piliin ang v2rayN folder kung kinakailangan."
+  },
+  "setupCheck": {
+    "message": "Suriin ang koneksyon"
+  },
+  "downloadCompanion": {
+    "message": "Gabay sa pag-install ↗"
+  },
+  "setupDownloadNote": {
+    "message": "Gamitin ang tumutugmang lokal na Windows na pakete, o sundin ang gabay upang buuin ito mula sa kasalukuyang pinagmulan."
+  },
+  "chooseFolder": {
+    "message": "Piliin ang v2rayN folder..."
+  },
+  "rescanDone": {
+    "message": "Muling na-scan ang mga lokal na node"
+  },
+  "grouping": {
+    "message": "Mga node ng pangkat"
+  },
+  "groupByCountry": {
+    "message": "Ayon sa bansa"
+  },
+  "unknownCountry": {
+    "message": "Iba / Hindi Alam"
+  },
+  "ungrouped": {
+    "message": "Hindi nakapangkat"
+  },
+  "adjustNodeFilters": {
+    "message": "Subukan ang ibang grupo, pinagmulan o paghahanap, o ipakita ang mga nakatagong node."
+  },
+  "rescanLocal": {
+    "message": "I-scan muli ang v2rayN mga node"
+  },
+  "showHidden": {
+    "message": "Ipakita ang mga nakatagong node"
+  },
+  "hideNode": {
+    "message": "Itago"
+  },
+  "restoreNode": {
+    "message": "Ibalik"
+  },
+  "hiddenNode": {
+    "message": "Nakatago"
+  },
+  "hideNodeHelp": {
+    "message": "Itago lang sa node library ng browser na ito. v2rayN at mga kasalukuyang profile ay hindi nagbabago."
+  },
+  "ipContextTimeout": {
+    "message": "Nag-time out ang pagbabasa sa kasalukuyang profile. Subukan muli."
+  },
+  "ipStaleResult": {
+    "message": "Nagbago ang kasalukuyang profile. Maaaring luma na ang resultang ito; suriin muli."
+  },
+  "ip_tools": {
+    "message": "IP Mga Tool"
+  },
+  "ipIntro": {
+    "message": "Kasalukuyang labasan IP at pampublikong ulat."
+  },
+  "ipCurrentProfile": {
+    "message": "Kasalukuyang profile ng browser"
+  },
+  "ipRouteCaution": {
+    "message": "Ang mga awtomatikong panuntunan at PAC ay maaaring gumamit ng iba't ibang ruta para sa iba't ibang destinasyon. Inilalarawan lamang ng tseke na ito ang sarili nitong kahilingan."
+  },
+  "ipDisclosure": {
+    "message": "Auto-check exit IP · Ulat ni Ping0"
+  },
+  "ipMethod": {
+    "message": "Pagsusuri ng address"
+  },
+  "ipDual": {
+    "message": "IPv4 / IPv6"
+  },
+  "ipCheck": {
+    "message": "Suriin muli"
+  },
+  "ipChecking": {
+    "message": "Sinusuri…"
+  },
+  "ipDualHelp": {
+    "message": "Ibinabalik ng IPv4 / IPv6 ang pamilya ng address na ginamit para sa kahilingang ito, hindi ang parehong mga address."
+  },
+  "ipDurationHelp": {
+    "message": "Ang lumipas na HTTP na oras ng kahilingan ay kinabibilangan ng oras ng pagtugon sa network at serbisyo. Hindi ito ICMP ping o bandwidth test."
+  },
+  "ipCopy": {
+    "message": "Kopyahin IP"
+  },
+  "ipCopied": {
+    "message": "Nakopya"
+  },
+  "ipCopyFailed": {
+    "message": "Hindi makopya. Piliin ang address at kopyahin ito nang manu-mano."
+  },
+  "ipNoResult": {
+    "message": "Wala pang check"
+  },
+  "ipContextUnknown": {
+    "message": "Hindi available ang profile"
+  },
+  "ipTimeout": {
+    "message": "Nag-time out ang check. Subukang muli o gumamit ng ibang ruta."
+  },
+  "ipCancelled": {
+    "message": "Kinansela ang tseke"
+  },
+  "ipNetwork": {
+    "message": "Hindi maabot ang ipify. Suriin ang koneksyon at subukang muli."
+  },
+  "ipHttp": {
+    "message": "Hindi tinanggap ng IP serbisyo ang kahilingan. Subukan ulit mamaya."
+  },
+  "ipInvalid": {
+    "message": "Ang IP serbisyo ay nagbalik ng di-wastong tugon."
+  },
+  "ipFailure": {
+    "message": "Nabigo ang tseke. Subukan muli."
+  },
+  "ipStale": {
+    "message": "Nagbago ang iyong mga setting ng proxy sa panahon ng pagsusuri. Ang lumang resulta ay itinapon; suriin muli."
+  },
+  "ipQuality": {
+    "message": "Panlabas na mga tool"
+  },
+  "ipQualityPrivacy": {
+    "message": "Ang mga tool ay tumatakbo lamang sa pag-click. Ang mga provider ay tumatanggap ng normal na data ng koneksyon. Ang mga pagsusuri sa website ay nagpapadala ng mga kahilingang walang kredensyal pagkatapos ng Start. Ang pagsasara ay huminto sa mga lokal na pagsubok; ang mga panlabas na tab ay pinamamahalaan ng browser."
+  },
+  "ipReport": {
+    "message": "Kopyahin ang na-redact na ulat"
+  },
+  "ipReportCopied": {
+    "message": "Nakopya ang na-redact na ulat; walang IP o mga pangalan ng profile na kasama."
+  },
+  "popupSelected": {
+    "message": "Napili"
+  },
+  "popupFooter": {
+    "message": "v2rayN at mga profile ng node"
+  },
+  "subtitle": {
+    "message": "Mga independiyenteng ruta ng browser"
+  },
+  "profiles": {
+    "message": "Mga Profile"
+  },
+  "nodes": {
+    "message": "Node Library"
+  },
+  "settings": {
+    "message": "Mga Setting"
+  },
+  "connected": {
+    "message": "Aktibong profile"
+  },
+  "noProfile": {
+    "message": "Default ng system"
+  },
+  "newProfile": {
+    "message": "Bagong profile"
+  },
+  "searchProfiles": {
+    "message": "Maghanap ng mga profile"
+  },
+  "direct": {
+    "message": "Direktang network"
+  },
+  "system": {
+    "message": "System proxy"
+  },
+  "follow": {
+    "message": "Sundan v2rayN"
+  },
+  "manual": {
+    "message": "Manu-manong proxy"
+  },
+  "auto": {
+    "message": "Auto switch"
+  },
+  "pac": {
+    "message": "PAC script"
+  },
+  "virtual": {
+    "message": "Virtual na profile"
+  },
+  "profileIntro": {
+    "message": "Pumili ng ruta ng browser nang hindi lumilipat sa pangunahing ruta ng v2rayN."
+  },
+  "nodesIntro": {
+    "message": "I-browse ang mga lokal na v2rayN node at ang iyong mga na-import na link."
+  },
+  "settingsIntro": {
+    "message": "Lokal na koneksyon, wika at hitsura."
+  },
+  "refresh": {
+    "message": "I-refresh"
+  },
+  "create": {
+    "message": "Lumikha ng profile"
+  },
+  "name": {
+    "message": "Pangalan ng profile"
+  },
+  "type": {
+    "message": "Uri ng profile"
+  },
+  "save": {
+    "message": "I-save"
+  },
+  "saved": {
+    "message": "Nai-save"
+  },
+  "saving": {
+    "message": "Sine-save…"
+  },
+  "cancel": {
+    "message": "Kanselahin"
+  },
+  "close": {
+    "message": "Isara"
+  },
+  "apply": {
+    "message": "Gamitin ang profile na ito"
+  },
+  "applied": {
+    "message": "Inilipat ang profile"
+  },
+  "active": {
+    "message": "Aktibo"
+  },
+  "delete": {
+    "message": "Tanggalin"
+  },
+  "remove": {
+    "message": "Alisin"
+  },
+  "rename": {
+    "message": "Palitan ang pangalan"
+  },
+  "route": {
+    "message": "Proxy na ruta"
+  },
+  "selectRoute": {
+    "message": "Pumili ng ruta"
+  },
+  "routeMissing": {
+    "message": "Hindi magagamit ang ruta — pumili ng isa pa"
+  },
+  "chain": {
+    "message": "Kadena ng koneksyon"
+  },
+  "connection": {
+    "message": "Lokal na koneksyon"
+  },
+  "proxy": {
+    "message": "Proxy server"
+  },
+  "address": {
+    "message": "Address"
+  },
+  "port": {
+    "message": "Port"
+  },
+  "scheme": {
+    "message": "Protocol\nAng"
+  },
+  "proxyDns": {
+    "message": "SOCKS5 DNS ay lumulutas sa pamamagitan ng proxy."
+  },
+  "connectedIdle": {
+    "message": "Nakakonekta · Idle"
+  },
+  "bypass": {
+    "message": "I-bypass ang listahan"
+  },
+  "bypassHelp": {
+    "message": "Isang domain, wildcard domain, IP address o IP:port bawat linya."
+  },
+  "advanced": {
+    "message": "Mga advanced na opsyon"
+  },
+  "searchRoutes": {
+    "message": "Maghanap ng mga grupo o node"
+  },
+  "selectGroup": {
+    "message": "Pumili ng grupo"
+  },
+  "empty": {
+    "message": "Walang katugmang mga item"
+  },
+  "unavailable": {
+    "message": "Hindi available"
+  },
+  "groupHint": {
+    "message": "Humawak ng grupo sa loob ng 250 ms, pagkatapos ay i-drag. Ang Alt + ↑ / ↓ ay muling nag-aayos. Awtomatikong nai-save ang mga pagbabago."
+  },
+  "searchSort": {
+    "message": "I-clear ang paghahanap bago pag-uri-uriin."
+  },
+  "dragHint": {
+    "message": "Ilipat pataas o pababa, pagkatapos ay bitawan para i-save. Kinansela ang Esc."
+  },
+  "orderSaved": {
+    "message": "Na-save ang order ng grupo"
+  },
+  "orderCancelled": {
+    "message": "Kinansela ang muling pag-aayos"
+  },
+  "loading": {
+    "message": "Naglo-load…"
+  },
+  "reading": {
+    "message": "Binabasa ang mga lokal na node..."
+  },
+  "nativeMissing": {
+    "message": "Ang lokal na bahagi ay hindi konektado"
+  },
+  "retry": {
+    "message": "Subukan muli"
+  },
+  "nativeHelp": {
+    "message": "Ang mga ruta ng node ay nangangailangan ng Windows kasama. Direkta, System at manu-manong proxy ay magagamit na ngayon."
+  },
+  "imported": {
+    "message": "Na-import"
+  },
+  "v2rayn": {
+    "message": "v2rayN"
+  },
+  "allSources": {
+    "message": "Lahat ng pinagmulan"
+  },
+  "importNodes": {
+    "message": "Mag-import ng mga proxy"
+  },
+  "importTitle": {
+    "message": "Mag-import ng mga proxy"
+  },
+  "importHelp": {
+    "message": "I-paste ang mga proxy link, papalabas JSON o isang Base64 na subscription. Sinusuportahan ng SOCKS ang plain o Base64 na mga kredensyal. Ang mga address na walang scheme ay gumagamit ng HTTP."
+  },
+  "importPrivacy": {
+    "message": "Ang mga detalye at kredensyal ng proxy ay ipinapasa sa lokal na Proxy V2Route na kasama para sa imbakan at koneksyon sa proxy na iyong pinili. Hindi natatanggap ng developer ang impormasyong ito."
+  },
+  "import": {
+    "message": "Mag-import ng mga profile"
+  },
+  "nodeCount": {
+    "message": "mga node"
+  },
+  "source": {
+    "message": "Pinagmulan"
+  },
+  "protocol": {
+    "message": "Protocol"
+  },
+  "useNode": {
+    "message": "Lumikha ng profile"
+  },
+  "removeNode": {
+    "message": "Alisin ang na-import na node?"
+  },
+  "removeNodeHelp": {
+    "message": "Ang mga profile na gumagamit ng node na ito ay dapat na muling italaga bago ito maalis."
+  },
+  "deleteProfile": {
+    "message": "Tanggalin ang profile na ito?"
+  },
+  "deleteProfileHelp": {
+    "message": "Inaalis nito ang profile ng browser na ito lamang. Pinapanatili ang mga na-import na node at v2rayN configuration."
+  },
+  "language": {
+    "message": "Wika"
+  },
+  "automatic": {
+    "message": "Default ng browser"
+  },
+  "theme": {
+    "message": "Hitsura"
+  },
+  "light": {
+    "message": "Liwanag"
+  },
+  "dark": {
+    "message": "Madilim"
+  },
+  "switchToEnglish": {
+    "message": "Lumipat sa English"
+  },
+  "switchToChinese": {
+    "message": "Lumipat sa Simplified Chinese"
+  },
+  "switchToLight": {
+    "message": "Lumipat sa magaan na hitsura"
+  },
+  "switchToDark": {
+    "message": "Lumipat sa madilim na anyo"
+  },
+  "localComponent": {
+    "message": "Kasamang bahagi"
+  },
+  "ready": {
+    "message": "Nakakonekta"
+  },
+  "stopped": {
+    "message": "Hindi tumatakbo"
+  },
+  "discovery": {
+    "message": "v2rayN detection"
+  },
+  "rootPath": {
+    "message": "v2rayN folder"
+  },
+  "corePath": {
+    "message": "Ang proxy core ay maipapatupad"
+  },
+  "optionalPath": {
+    "message": "Iwanang blangko para sa awtomatikong pag-detect"
+  },
+  "pathsHelp": {
+    "message": "v2rayN ay awtomatikong nakita; piliin ang folder nito kung kinakailangan. Ginagamit ng mga na-import na node ang kasamang core."
+  },
+  "savePaths": {
+    "message": "I-save ang mga setting ng koneksyon"
+  },
+  "privacy": {
+    "message": "Lokal na nakaimbak ang mga setting"
+  },
+  "privacyText": {
+    "message": "Ang mga link at kredensyal ng node ay nananatili sa lokal na kasama. Ang trapiko ng browser ay dumadaan sa iyong napiling proxy sa mga patutunguhang website; hindi ito natatanggap ng developer."
+  },
+  "privacyDetails": {
+    "message": "Pagkapribado at daloy ng data"
+  },
+  "export": {
+    "message": "I-export ang mga profile"
+  },
+  "about": {
+    "message": "Tungkol sa Proxy V2Route"
+  },
+  "aboutText": {
+    "message": "Pumili ng ruta ng browser nang hindi lumilipat sa pangunahing ruta ng v2rayN. Ginagamit ng mga ruta ng node ang Windows kasama at ang iyong sariling mga node."
+  },
+  "licenses": {
+    "message": "Mga abiso sa open-source"
+  },
+  "version": {
+    "message": "Bersyon"
+  },
+  "fieldRequired": {
+    "message": "Magpasok ng pangalan ng profile."
+  },
+  "profileExists": {
+    "message": "Mayroon nang profile na may ganitong pangalan."
+  },
+  "ruleHelp": {
+    "message": "Paghiwalayin ang mga domain sa isang row na may mga kuwit. Panalo ang unang magkatugmang hilera. Panatilihing available ang default na ruta."
+  },
+  "rules": {
+    "message": "Mga panuntunan sa pagruruta"
+  },
+  "pattern": {
+    "message": "Pattern ng host"
+  },
+  "target": {
+    "message": "Target ng panuntunan"
+  },
+  "addRule": {
+    "message": "Magdagdag ng panuntunan"
+  },
+  "defaultRoute": {
+    "message": "Default na profile"
+  },
+  "pacHelp": {
+    "message": "I-paste ang pinagkakatiwalaang PAC source na naglalaman ng FindProxyForURL. Ang script na ito ang nagpapasya kung paano niruruta ang mga kahilingan sa website."
+  },
+  "pacUrl": {
+    "message": "PAC URL"
+  },
+  "pacScript": {
+    "message": "PAC script"
+  },
+  "noSelection": {
+    "message": "Pumili ng profile o lumikha ng isa."
+  },
+  "details": {
+    "message": "Mga Detalye"
+  },
+  "noNodes": {
+    "message": "Wala pang node"
+  },
+  "noNodesHelp": {
+    "message": "Ikonekta ang v2rayN o mag-import ng mga proxy link, JSON o isang subscription upang makapagsimula."
+  },
+  "openSettings": {
+    "message": "Buksan ang mga setting"
+  },
+  "proxySettings": {
+    "message": "Mga setting ng proxy"
+  },
+  "switching": {
+    "message": "Lumipat…"
+  },
+  "updatedElsewhere": {
+    "message": "Nagbago ang profile na ito sa isa pang window. Muling buksan ito bago i-save."
+  },
+  "choose": {
+    "message": "Pumili"
+  },
+  "popupIntro": {
+    "message": "Koneksyon:"
+  },
+  "invalidPort": {
+    "message": "Maglagay ng port mula 1 hanggang 65535."
+  },
+  "externalControl": {
+    "message": "Ang isa pang extension o patakaran ay ang pagkontrol sa proxy ng browser."
+  },
+  "noNativeRoute": {
+    "message": "Ikonekta ang lokal na bahagi bago gumawa ng node profile."
+  },
+  "reload": {
+    "message": "I-reload"
+  },
+  "rulesError": {
+    "message": "Kailangan ng bawat tuntunin ng pattern at target."
+  },
+  "backupDone": {
+    "message": "Na-export ang mga profile ng browser"
+  },
+  "managed": {
+    "message": "Pinamamahalaang node"
+  },
+  "netRegion": {
+    "message": "Target na lugar"
+  },
+  "netNodeArea": {
+    "message": "Proxy node"
+  },
+  "netChina": {
+    "message": "Mainland China"
+  },
+  "netGlobal": {
+    "message": "Pandaigdigan"
+  },
+  "netAli": {
+    "message": "AliDNS"
+  },
+  "netTencent": {
+    "message": "DNSPod"
+  },
+  "netStartHelp": {
+    "message": "Pumili ng target, pagkatapos ay magsimula ng live na pagsubok."
+  },
+  "netConsole": {
+    "message": "Mga live na diagnostic"
+  },
+  "netStop": {
+    "message": "Tumigil ka"
+  },
+  "netRunning": {
+    "message": "Tumatakbo"
+  },
+  "netStopped": {
+    "message": "Huminto"
+  },
+  "netSent": {
+    "message": "Ipinadala"
+  },
+  "netLoss": {
+    "message": "Pagkatalo"
+  },
+  "netAverageShort": {
+    "message": "Avg"
+  },
+  "netLogClear": {
+    "message": "Maliwanag"
+  },
+  "netFinishing": {
+    "message": "Ang nakaraang pagsisiyasat ay nagtatapos..."
+  },
+  "netRound": {
+    "message": "Bilog"
+  },
+  "netDestination": {
+    "message": "Patutunguhan"
+  },
+  "netHop": {
+    "message": "Hop"
+  },
+  "netAddress": {
+    "message": "IP address"
+  },
+  "netLast": {
+    "message": "Huli"
+  },
+  "netConsoleHelp": {
+    "message": "Ping / TCPing / MTR gamitin ang network ng system, hindi ang proxy chain. Ang mga nawawalang ICMP na tugon ay hindi nagpapatunay ng pagkawala ng trapiko. Ang pag-download ay gumagamit ng ruta ng browser at napiling limitasyon sa laki. Humihinto ang mga pagsubok kapag umalis ka o itago ang pahinang ito."
+  },
+  "netDirectShort": {
+    "message": "System network"
+  },
+  "netIcmpShort": {
+    "message": "Walang ICMP tugon"
+  },
+  "netProbeError": {
+    "message": "Lokal na probe error"
+  },
+  "netNoDestination": {
+    "message": "Hindi naabot ang destinasyon"
+  },
+  "deleteActive": {
+    "message": "Lumipat sa system at tanggalin"
+  },
+  "deleteActiveHelp": {
+    "message": "Aktibo ang profile na ito. Ang pagtanggal nito ay maglilipat sa browser sa system proxy."
+  },
+  "netDownloadSize": {
+    "message": "Laki ng download"
+  },
+  "netReceived": {
+    "message": "Natanggap"
+  },
+  "netBest": {
+    "message": "Pinakamahusay"
+  },
+  "netWorst": {
+    "message": "Pinakamasama"
+  },
+  "netStdDev": {
+    "message": "Std dev"
+  },
+  "netLocation": {
+    "message": "Lokasyon"
+  },
+  "toolWall": {
+    "message": "Pagsusuri sa pagharang ng domain"
+  },
+  "toolSites": {
+    "message": "Mga sikat na website"
+  },
+  "toolGlobal": {
+    "message": "Mga pandaigdigang diagnostic"
+  },
+  "toolFast": {
+    "message": "Ang bilis ng Netflix"
+  },
+  "toolSpeed": {
+    "message": "Pagsubok sa bilis"
+  },
+  "toolStart": {
+    "message": "Magsimula"
+  },
+  "toolReady": {
+    "message": "Handa na"
+  },
+  "toolResponded": {
+    "message": "Tumugon"
+  },
+  "toolNoResponse": {
+    "message": "Hindi nakumpirma"
+  },
+  "toolCacheUnsupported": {
+    "message": "Hindi ma-clear ng browser na ito ang cache ayon sa site; ang pahina ay na-reload."
+  },
+  "toolCacheFailed": {
+    "message": "Hindi natapos ang paglilinis ng cache. Isara at subukang muli."
+  },
+  "toolClose": {
+    "message": "Isara"
+  },
+  "toolReload": {
+    "message": "I-reload"
+  },
+  "toolLoading": {
+    "message": "Naglo-load…"
+  },
+  "toolFrameError": {
+    "message": "Hindi ma-load. Subukan ang I-reload."
+  },
+  "toolSiteHelp": {
+    "message": "Naaabot lang ng browser. Hindi nito bini-verify ang account o regional access."
+  },
+  "toolFallback": {
+    "message": "Pagsubok sa bilis ng backup"
+  },
+  "toolFullscreen": {
+    "message": "Fullscreen"
+  },
+  "toolRestore": {
+    "message": "Lumabas sa fullscreen"
+  },
+  "ipReadFailed": {
+    "message": "Nabigo ang pagbabasa. 👉"
+  },
+  "ipViewSource": {
+    "message": "Tingnan ang pinagmulang site"
+  },
+  "toolDownloadError": {
+    "message": "Hindi maabot ang download server. Subukan muli."
+  },
+  "toolAccess": {
+    "message": "Paganahin ang pag-access sa site"
+  },
+  "toolPermission": {
+    "message": "Payagan ang access sa site na ito para sa embedded session compatibility."
+  },
+  "toolAsia": {
+    "message": "Asya"
+  },
+  "toolEurope": {
+    "message": "Europa"
+  },
+  "toolAmerica": {
+    "message": "Hilagang Amerika"
+  },
+  "toolGlobalHelp": {
+    "message": "Paunang punan ang browser exit IP. Pumili ng mainland China o ibang rehiyon upang ihambing ang mga landas; Ipinapadala ng Start ang ipinapakitang target sa hanggang tatlong Globalping probe."
+  },
+  "toolServiceError": {
+    "message": "Ang pagsubok na serbisyo ay hindi magagamit. Subukan muli."
+  },
+  "popupOrderHelp": {
+    "message": "I-hold at i-drag upang muling ayusin. Inilipat din ng mga Alt+arrow key ang profile na ito."
+  },
+  "popupOrderSaved": {
+    "message": "Nai-save ang order"
+  },
+  "toolGroupIP": {
+    "message": "IP mga pagsubok"
+  },
+  "toolGroupWeb": {
+    "message": "Mga pagsubok sa website"
+  },
+  "toolGroupSpeed": {
+    "message": "Bilis"
+  },
+  "toolCurrentIP": {
+    "message": "Kasalukuyang labasan IP"
+  },
+  "toolCurrentIPLoading": {
+    "message": "Nilo-load ang kasalukuyang exit IP..."
+  },
+  "toolCurrentIPFailed": {
+    "message": "Hindi mabasa ang kasalukuyang IP. Magpasok ng target."
+  },
+  "speedMode": {
+    "message": "Test mode"
+  },
+  "speedBoth": {
+    "message": "I-download + i-upload"
+  },
+  "speedDownload": {
+    "message": "I-download"
+  },
+  "speedUpload": {
+    "message": "Mag-upload"
+  },
+  "speedLatency": {
+    "message": "HTTP latency"
+  },
+  "speedBudget": {
+    "message": "{n} MiB bawat yugto · {total} MiB kabuuan, kasama ang maliliit na sample ng latency."
+  },
+  "siteCategory": {
+    "message": "Kategorya ng website"
+  },
+  "siteAll": {
+    "message": "Lahat ng website"
+  },
+  "siteAI": {
+    "message": "AI"
+  },
+  "siteDevelopment": {
+    "message": "Pag-unlad"
+  },
+  "siteVideo": {
+    "message": "Video / musika"
+  },
+  "siteSocial": {
+    "message": "Sosyal"
+  },
+  "siteDomestic": {
+    "message": "Mga serbisyo sa Mainland"
+  },
+  "siteServices": {
+    "message": "Mga karaniwang serbisyo"
+  },
+  "globalMethod": {
+    "message": "Uri ng pagsukat"
+  },
+  "localPort": {
+    "message": "Lokal na port:"
+  },
+  "chainChooseNode": {
+    "message": "Pumili ng proxy node"
+  },
+  "chainTitle": {
+    "message": "Proxy chain"
+  },
+  "chainSelectExit": {
+    "message": "Pumili ng partikular na exit node sa ibaba para i-save o subukan ang custom na chain na ito. Ang Follow v2rayN ay pinamamahalaan ng v2rayN."
+  },
+  "chainSelectExitShort": {
+    "message": "Pumili ng exit node"
+  },
+  "chainAdd": {
+    "message": "+ Magdagdag ng proxy layer"
+  },
+  "chainTest": {
+    "message": "Test chain"
+  },
+  "chainMode": {
+    "message": "Chain mode"
+  },
+  "chainBase": {
+    "message": "Base Proxy"
+  },
+  "chainExit": {
+    "message": "Lumabas sa Proxy"
+  },
+  "chainEgress": {
+    "message": "Chain Egress"
+  },
+  "chainExitBadge": {
+    "message": "Lumabas IP"
+  },
+  "chainEntry": {
+    "message": "Chain Entry"
+  },
+  "chainTransit": {
+    "message": "Bridge Node"
+  },
+  "chainUntested": {
+    "message": "Hindi nasubok"
+  },
+  "chainMissing": {
+    "message": "Hindi available na node"
+  },
+  "chainUnresolved": {
+    "message": "Hindi malutas ang minanang kadena. Ayusin ang mga setting ng hinalinhan o pumili ng custom na chain."
+  },
+  "chainUpgrade": {
+    "message": "I-update ang lokal na kasama para paganahin ang mga ordered chain."
+  },
+  "chainBusy": {
+    "message": "Isa pang chain test ang tumatakbo"
+  },
+  "chainOK": {
+    "message": "Maabot"
+  },
+  "chainFailed": {
+    "message": "Nabigong hop sa pagsubok na ito"
+  },
+  "chainBlocked": {
+    "message": "Hindi nasubok · nabigo ang nakaraang hop"
+  },
+  "chainFailureHelp": {
+    "message": "Ang hop na ito o ang landas patungo dito ay hindi dumaan. Hindi nasubukan ang mga hops sa ibang pagkakataon."
+  },
+  "chainAllOK": {
+    "message": "Tumugon ang lahat ng pinagsama-samang landas"
+  },
+  "chainStopping": {
+    "message": "Huminto pagkatapos ng kasalukuyang bounded probe..."
+  },
+  "globalWorld": {
+    "message": "Sa buong mundo"
+  },
+  "globalUnavailable": {
+    "message": "Hindi available ang target o rehiyon. Suriin ang target o pumili ng ibang rehiyon."
+  },
+  "globalRateLimited": {
+    "message": "Naabot na ang limitasyon sa rate ng serbisyo. Subukan ulit mamaya."
+  },
+  "globalNoResults": {
+    "message": "Walang ibinalik na resulta ng pagsisiyasat ang serbisyo. Subukan ang ibang rehiyon."
+  },
+  "globalProbeFailed": {
+    "message": "Nabigo ang pagsisiyasat"
+  },
+  "globalProbeOffline": {
+    "message": "Probe offline"
+  },
+  "globalIcmpCaution": {
+    "message": "Ang nawawalang ICMP na mga tugon lamang ay hindi nagpapatunay ng pagharang. Ihambing ang mga daanan sa mainland at sa ibang bansa at iba pang uri ng pagsubok."
+  },
+  "speedRealtime": {
+    "message": "Live na bilis"
+  },
+  "speedAverage": {
+    "message": "Average na bilis"
+  },
+  "ipToolsBrief": {
+    "message": "Ang mga resulta ng third-party ay para sa sanggunian."
+  },
+  "ipReportBrief": {
+    "message": "Nag-iiba ang mga resulta ayon sa exit IP at para sa sanggunian."
+  },
+  "toolPingPe": {
+    "message": "IP pag-block ng check"
+  },
+  "toolTargetIP": {
+    "message": "Target IP"
+  },
+  "toolOpenPingPe": {
+    "message": "Buksan ang opisyal na pagsubok"
+  },
+  "toolInvalidIP": {
+    "message": "Maglagay ng wastong IPv4 o IPv6 address."
+  },
+  "toolInvalidPort": {
+    "message": "Maglagay ng TCP port mula 1 hanggang 65535."
+  },
+  "toolExternalFailed": {
+    "message": "Hindi mabuksan ang website. Subukan muli."
+  },
+  "ipBrowserReading": {
+    "message": "Nagbabasa ng Ping0 sa pamamagitan ng browser..."
+  },
+  "ipVerifyBrowser": {
+    "message": "Buksan ang pahina ng pag-verify"
+  },
+  "policyCenter": {
+    "message": "Privacy, deklarasyon at FAQ"
+  },
+  "policyCenterIntro": {
+    "message": "Lokal na pangangasiwa ng data, mga limitasyon sa pagsubok at karaniwang mga sagot."
+  },
+  "policyPrivacyTitle": {
+    "message": "Patakaran sa privacy"
+  },
+  "policyPrivacySummary": {
+    "message": "Ang mga profile at kredensyal ay nananatili sa device na ito. Ang mga popup check at diagnostic ay nakikipag-ugnayan sa kanilang mga nakasaad na provider. Walang advertising o behavioral analytics."
+  },
+  "policyDeclarationTitle": {
+    "message": "Pahayag ng paggamit at pagsukat"
+  },
+  "policyDeclarationSummary": {
+    "message": "Ang extension na ito ay isang lokal na tagapamahala ng ruta, hindi isang proxy o VPN provider. Ang mga sukat ay mga reference na sample na apektado ng network, proxy at mga kondisyon ng provider."
+  },
+  "policyFaqTitle": {
+    "message": "FAQ"
+  },
+  "policyFaqSummary": {
+    "message": "Ang Windows kasama ay kinakailangan para sa mga lokal na node at MTR. Maaaring mag-iba ang latency sa pagitan ng browser, system at pampublikong probe. Ihinto ang isang pagsubok o i-clear ang lokal na data mula sa Mga Setting."
+  },
+  "policyDetailsLink": {
+    "message": "Basahin ang buong detalye ↗"
+  },
+  "thirdPartyNotice": {
+    "message": "Open-source notice ↗"
+  },
+  "columnResizeHelp": {
+    "message": "I-drag upang baguhin ang laki; i-double-click upang i-reset; gumamit ng mga arrow key para mag-adjust"
+  },
+  "columnResize": {
+    "message": "Baguhin ang laki ng column"
+  },
+  "typeDescription_node": {
+    "message": "Kumonekta sa pamamagitan ng proxy node"
+  },
+  "typeDescription_manual": {
+    "message": "Manu-manong ilagay ang mga setting ng proxy"
+  },
+  "typeDescription_auto": {
+    "message": "Pumili ng node gamit ang mga panuntunan"
+  },
+  "typeDescription_pac": {
+    "message": "Trapiko sa ruta gamit ang PAC na mga panuntunan"
+  },
+  "appDescription": {
+    "message": "Mga ruta ng proxy ng browser, mga node at mga panuntunan sa domain. Ang mga ruta ng node ay nangangailangan ng Windows kasama."
+  },
+  "core_title": {
+    "message": "Proxy core"
+  },
+  "core_checking": {
+    "message": "Sinusuri ang lokal na bahagi..."
+  },
+  "core_ready": {
+    "message": "Xray ay handa na"
+  },
+  "core_missing": {
+    "message": "Nawawala ang proxy core"
+  },
+  "core_external": {
+    "message": "Custom na core: hindi na-verify"
+  },
+  "core_corrupt": {
+    "message": "Xray checksum mismatch — kailangan ng pagkumpuni"
+  },
+  "core_unreadable": {
+    "message": "Hindi masuri ang core file"
+  },
+  "core_intro": {
+    "message": "Kasama sa kumpletong Windows package ang Xray. v2rayN ay opsyonal."
+  },
+  "core_verify": {
+    "message": "Suriin muli"
+  },
+  "core_install": {
+    "message": "I-install / ayusin ang core"
+  },
+  "core_installing": {
+    "message": "Dina-download at bini-verify…"
+  },
+  "core_done": {
+    "message": "Na-verify at handa na ang core"
+  },
+  "core_help": {
+    "message": "Gumagamit ang repair ng naka-pin na opisyal na Xray release at bini-verify ang checksum nito. Ang mga kasalukuyang koneksyon ay mananatiling tumatakbo."
+  },
+  "core_absent": {
+    "message": "I-install ang lokal na bahagi nang isang beses, pagkatapos ay bumalik dito upang suriin ang core."
+  },
+  "core_download": {
+    "message": "Gabay sa pag-install"
+  },
+  "core_absentHelp": {
+    "message": "Gamitin ang katugmang Windows na pakete o sundin ang gabay upang buuin ito mula sa pinagmulan, pagkatapos ay patakbuhin ang setup."
+  },
+  "core_failed": {
+    "message": "Nabigo ang pangunahing operasyon. Subukang muli o gamitin ang kumpletong Windows package."
+  },
+  "core_version": {
+    "message": "Bersyon"
+  },
+  "error_ACTIVE_PROFILE_DELETE": {
+    "message": "Lumipat muna sa ibang profile bago magtanggal"
+  },
+  "error_BACKUP_BINDING_TYPE": {
+    "message": "Mga proxy profile lang ang maaaring magkaroon ng mga binding ng ruta"
+  },
+  "error_BACKUP_FORMAT3_REQUIRED": {
+    "message": "Kailangan ng mga tuntunin ng node ang portable backup na format 3"
+  },
+  "error_BACKUP_INDEPENDENT_PATH_REQUIRED": {
+    "message": "Dapat may hiwalay na path ng node ang backup"
+  },
+  "error_BACKUP_INTERNAL_BINDINGS": {
+    "message": "May mga panloob na binding ang backup"
+  },
+  "error_BACKUP_MESSAGE_LIMIT": {
+    "message": "Lampas ang backup ng node sa limitasyon ng mensahe ng kasamang app"
+  },
+  "error_BACKUP_NODES_INCOMPLETE": {
+    "message": "Hindi kumpleto ang backup ng node"
+  },
+  "error_BACKUP_NODE_MISSING": {
+    "message": "May kinakailangang node na nawawala sa backup"
+  },
+  "error_BACKUP_NODE_PATHS_LIMIT": {
+    "message": "Hanggang {limit} path ng node ang sinusuportahan ng backup"
+  },
+  "error_BACKUP_PATH_INCOMPLETE": {
+    "message": "Hindi kumpleto ang path ng node sa backup"
+  },
+  "error_BACKUP_PROFILES_LIMIT": {
+    "message": "Hanggang {limit} profile ang sinusuportahan ng backup"
+  },
+  "error_BACKUP_PROXY_CONFLICT": {
+    "message": "Magkasalungat ang mga setting ng proxy sa backup"
+  },
+  "error_BACKUP_SIZE_LIMIT": {
+    "message": "Lampas sa {limit} MB ang backup"
+  },
+  "error_BACKUP_TRANSFER_UNAVAILABLE": {
+    "message": "I-update o ayusin ang kasamang app upang mailipat ang mga backup ng node."
+  },
+  "error_BACKUP_UNUSED_NODES": {
+    "message": "May mga node sa backup na walang tumutukoy sa mga ito"
+  },
+  "error_BODY_TOO_LARGE": {
+    "message": "Lampas sa pinapayagang laki ang tugon ng subscription."
+  },
+  "error_BROWSER_API_FAILED": {
+    "message": "Nabigo ang operasyon ng browser. Tingnan ang mga teknikal na detalye."
+  },
+  "error_BROWSER_PROXY_RESTORE_FAILED": {
+    "message": "Nabigo ang operasyon at hindi maibalik ang dating proxy ng browser"
+  },
+  "error_BROWSER_SCHEDULING_UNAVAILABLE": {
+    "message": "Hindi magagamit ang pag-iskedyul ng browser."
+  },
+  "error_BUSY": {
+    "message": "May ibang operasyong tumatakbo. Subukan muli maya-maya."
+  },
+  "error_CHAIN_PROBE_FAILED": {
+    "message": "Nabigo ang pagsubok ng chain"
+  },
+  "error_COMPANION_BULK_RELEASE_REQUIRED": {
+    "message": "I-upgrade ang lokal na kasamang app upang ligtas na mapamahalaan ang maraming tuntunin ng node"
+  },
+  "error_COMPANION_CHAINS_REQUIRED": {
+    "message": "I-upgrade ang lokal na kasamang app upang magamit ang mga chain na may itinakdang pagkakasunod"
+  },
+  "error_COMPANION_MESSAGE_LIMIT": {
+    "message": "Lampas ang mga setting sa limitasyon ng mensahe ng kasamang app"
+  },
+  "error_COMPANION_OPERATION_FAILED": {
+    "message": "Nabigo ang operasyon ng lokal na kasamang app. Tingnan ang mga teknikal na detalye."
+  },
+  "error_COMPANION_UNAVAILABLE": {
+    "message": "I-install o ayusin ang V2Route Companion"
+  },
+  "error_CONNECTION_CLOSED": {
+    "message": "Nagsara ang koneksyon bago matapos ang pagsubok."
+  },
+  "error_CORE_INSTALL_FAILED": {
+    "message": "Nabigo ang pag-install ng core. Tingnan ang mga teknikal na detalye."
+  },
+  "error_CORE_OWNERSHIP_FAILED": {
+    "message": "Hindi ligtas na makontrol ang nakahiwalay na test core. Itinigil ang pagsubok."
+  },
+  "error_CORE_START_FAILED": {
+    "message": "Hindi masimulan ang nakahiwalay na test core. Suriin ang pag-install ng kasamang app at core."
+  },
+  "error_CORE_START_TIMEOUT": {
+    "message": "Hindi naging handa sa oras ang nakahiwalay na test core."
+  },
+  "error_CORE_STATUS_UNAVAILABLE": {
+    "message": "Hindi magamit ang katayuan ng core. Tingnan ang mga teknikal na detalye."
+  },
+  "error_CORE_VALIDATION_FAILED": {
+    "message": "Hindi napatunayan ng Xray ang mga na-import na node. Suriin ang mga setting at subukan muli."
+  },
+  "error_DETACH_PORT_CONFLICT": {
+    "message": "Ilalabas ang pinamamahalaang port. Maglagay ng ibang manu-manong proxy"
+  },
+  "error_DETACH_PROXY_REQUIRED": {
+    "message": "Ilagay muna ang kapalit na manu-manong proxy bago alisin ang pagkakaugnay"
+  },
+  "error_DNS_BUSY": {
+    "message": "Abala ang DNS lookup. Subukan muli maya-maya."
+  },
+  "error_DNS_FAILED": {
+    "message": "Nabigo ang DNS lookup. Suriin ang address at koneksyon sa network."
+  },
+  "error_ENCODING_UNSUPPORTED": {
+    "message": "Hindi sinusuportahan ang content encoding ng subscription."
+  },
+  "error_FIREFOX_PRIVATE_ACCESS_REQUIRED": {
+    "message": "Payagan ang V2Route sa mga pribadong window sa detalye ng extension bago baguhin ang mga setting ng proxy"
+  },
+  "error_FOLDER_UNAVAILABLE": {
+    "message": "Hindi magamit ang folder; suriin ang path, pahintulot at bersyon ng kasamang app"
+  },
+  "error_GROUP_LIMIT": {
+    "message": "Naabot na ang limitasyon ng grupo. Magtanggal ng hindi ginagamit na grupo at subukan muli."
+  },
+  "error_GROUP_NOT_EDITABLE": {
+    "message": "Hindi mae-edit dito ang grupong ito mula sa source."
+  },
+  "error_GROUP_NOT_FOUND": {
+    "message": "Wala na ang napiling grupo. Pumili ng ibang grupo."
+  },
+  "error_HTTP_ENCODING": {
+    "message": "Nagbalik ang test server ng hindi sinusuportahang encoding."
+  },
+  "error_HTTP_LENGTH": {
+    "message": "Hindi tumugma ang laki ng tugon sa pagsubok sa hiniling na laki."
+  },
+  "error_HTTP_RESPONSE_TOO_LARGE": {
+    "message": "Lumampas sa pinapayagang laki ang tugon sa pagsubok."
+  },
+  "error_HTTP_STATUS": {
+    "message": "Nagbalik ang test server ng hindi matagumpay na HTTP status."
+  },
+  "error_IMPORTED_PROXY_MISSING": {
+    "message": "Hindi ibinalik ng kasamang app ang na-import na proxy"
+  },
+  "error_IMPORTED_RULE_PATH_CONFLICT": {
+    "message": "Magkasalungat ang mga path ng tuntunin ng mga na-import na node"
+  },
+  "error_IMPORT_CLEANUP_FAILED": {
+    "message": "Nabigo ang pag-import; may pansamantalang node o port na hindi nailabas. Pinanatili ang mga kasalukuyang profile"
+  },
+  "error_IMPORT_PROFILE_NAME_CONFLICT": {
+    "message": "Doble o hindi wastong pangalan ng profile"
+  },
+  "error_INCOMPLETE_RESPONSE": {
+    "message": "Hindi kumpleto ang tugon ng subscription. Subukan muli."
+  },
+  "error_INVALID_BACKUP": {
+    "message": "Hindi wastong V2Route backup"
+  },
+  "error_INVALID_BACKUP_NODE": {
+    "message": "Hindi wasto o dobleng node sa backup"
+  },
+  "error_INVALID_BACKUP_NODES": {
+    "message": "Hindi wastong mga node sa backup"
+  },
+  "error_INVALID_BACKUP_PATH": {
+    "message": "Hindi wastong path sa backup"
+  },
+  "error_INVALID_BYPASS_ENTRY": {
+    "message": "Hindi wastong bypass entry"
+  },
+  "error_INVALID_BYPASS_LIST": {
+    "message": "Hindi wastong listahan ng bypass"
+  },
+  "error_INVALID_CHAIN": {
+    "message": "Hindi wastong chain na may itinakdang pagkakasunod"
+  },
+  "error_INVALID_CHAIN_PROBE": {
+    "message": "Hindi wastong pagsubok ng chain"
+  },
+  "error_INVALID_COMPANION_RESPONSE": {
+    "message": "Nagbalik ng hindi wastong tugon ang lokal na kasamang app. I-update o ayusin ito."
+  },
+  "error_INVALID_CONTENT": {
+    "message": "Walang wastong nilalaman ang tugon ng subscription."
+  },
+  "error_INVALID_DOMAIN_PATTERNS": {
+    "message": "Ihiwalay sa kuwit ang mga pattern ng domain; ilagay ang bawat URL sa sarili nitong hanay"
+  },
+  "error_INVALID_ENCODING": {
+    "message": "Hindi wastong UTF-8 na teksto ang tugon ng subscription."
+  },
+  "error_INVALID_FOLDER_REQUEST": {
+    "message": "Hindi wastong kahilingan sa folder"
+  },
+  "error_INVALID_GROUP_ACTION": {
+    "message": "Hindi sinusuportahan ang operasyong ito sa grupo."
+  },
+  "error_INVALID_HOP_INDEX": {
+    "message": "Hindi wastong index ng hop"
+  },
+  "error_INVALID_LEGACY_PREDECESSOR": {
+    "message": "Hindi wastong lumang predecessor"
+  },
+  "error_INVALID_LIBRARY_COMMAND": {
+    "message": "Hindi sinusuportahan ang command na ito sa library ng node."
+  },
+  "error_INVALID_LIBRARY_REQUEST": {
+    "message": "Hindi wastong kahilingan sa library"
+  },
+  "error_INVALID_NAME": {
+    "message": "Maglagay ng pangalang may 1–128 nakikitang character at walang control character."
+  },
+  "error_INVALID_NETWORK_TEST": {
+    "message": "Hindi wastong pagsubok sa network"
+  },
+  "error_INVALID_NODE_IMPORT_RESPONSE": {
+    "message": "Hindi wastong tugon sa pag-import ng node"
+  },
+  "error_INVALID_PREDECESSOR": {
+    "message": "Hindi wastong predecessor para sa rutang ito"
+  },
+  "error_INVALID_PROFILE_NAME": {
+    "message": "Hindi wastong pangalan ng profile"
+  },
+  "error_INVALID_PROFILE_REFERENCE": {
+    "message": "Hindi wastong pagtukoy sa profile"
+  },
+  "error_INVALID_PROXY_AUTH": {
+    "message": "Hindi wastong pagpapatunay ng proxy"
+  },
+  "error_INVALID_PROXY_CREDENTIALS": {
+    "message": "Hindi wastong kredensyal ng proxy"
+  },
+  "error_INVALID_PROXY_ENDPOINT": {
+    "message": "Maglagay ng wastong host at port ng proxy"
+  },
+  "error_INVALID_PROXY_HOST": {
+    "message": "Maglagay ng DNS name o IP address na walang port, URL, path o query"
+  },
+  "error_INVALID_ROUTE": {
+    "message": "Hindi wastong ruta"
+  },
+  "error_INVALID_ROUTE_SETTINGS": {
+    "message": "Hindi wastong mga setting ng ruta"
+  },
+  "error_INVALID_RULES": {
+    "message": "Hindi wastong mga tuntunin"
+  },
+  "error_INVALID_RULE_TARGET": {
+    "message": "Pumili ng isang wastong node o profile para sa bawat tuntunin"
+  },
+  "error_INVALID_SUBSCRIPTION": {
+    "message": "Hindi wastong subscription"
+  },
+  "error_INVALID_SUBSCRIPTION_REQUEST": {
+    "message": "Hindi wastong kahilingan sa subscription"
+  },
+  "error_INVALID_SUBSCRIPTION_SETTINGS": {
+    "message": "Hindi wasto ang mga setting ng subscription. Suriin ang agwat ng pag-update at patakaran sa koneksyon."
+  },
+  "error_INVALID_SYSTEM_PROXY_RESPONSE": {
+    "message": "Hindi wastong tugon ng system proxy; i-update o ayusin ang kasamang app"
+  },
+  "error_INVALID_TRANSPORT": {
+    "message": "Hindi wasto ang mga setting ng koneksyon ng subscription."
+  },
+  "error_INVALID_URL": {
+    "message": "Maglagay ng wastong HTTP(S) URL ng subscription na walang username o password."
+  },
+  "error_LIBRARY_CHANGED": {
+    "message": "Nagbago ang library ng node sa ibang window. I-refresh ito at subukan muli."
+  },
+  "error_MANUAL_CHAIN_UNSUPPORTED": {
+    "message": "Hindi tumatanggap ng chain ng node ang mga manu-manong proxy"
+  },
+  "error_MANUAL_PROXY_CLEANUP_FAILED": {
+    "message": "Nabigo ang pag-save; may pansamantalang na-import na proxy na naiwan sa library ng node"
+  },
+  "error_NATIVE_BINDING_ID": {
+    "message": "Hindi wastong identifier ng binding ng ruta."
+  },
+  "error_NATIVE_BINDING_UNKNOWN": {
+    "message": "Wala ang binding ng ruta."
+  },
+  "error_NATIVE_BUTTON_NAME": {
+    "message": "Dapat may 1–128 nakikitang character ang pangalan ng button."
+  },
+  "error_NATIVE_CATALOG_UNREADABLE": {
+    "message": "Hindi mabasa ang configuration ng v2rayN."
+  },
+  "error_NATIVE_CORE_MISSING": {
+    "message": "Hindi magamit ang Xray. I-install ang pakete ng kasamang app."
+  },
+  "error_NATIVE_GROUP_ID_COLLISION": {
+    "message": "Magkasalungat ang mga identifier ng grupo."
+  },
+  "error_NATIVE_GROUP_ORDER": {
+    "message": "Hindi wastong pagkakasunod ng grupo."
+  },
+  "error_NATIVE_NODE_ID_COLLISION": {
+    "message": "Magkasalungat ang mga identifier ng node."
+  },
+  "error_NATIVE_PREDECESSOR_AMBIGUOUS": {
+    "message": "Nawawala o doble ang pangalan ng predecessor. Pumili ng partikular na predecessor node."
+  },
+  "error_NATIVE_PREDECESSOR_CYCLE": {
+    "message": "May loop o mahigit anim na node ang chain ng predecessor."
+  },
+  "error_NATIVE_PREDECESSOR_INVALID": {
+    "message": "Pumili ng wastong predecessor proxy."
+  },
+  "error_NATIVE_PREDECESSOR_MISSING": {
+    "message": "Wala na ang napiling predecessor. Pumili ng ibang node."
+  },
+  "error_NATIVE_PREDECESSOR_SETTINGS": {
+    "message": "Hindi wastong mga setting ng predecessor."
+  },
+  "error_NATIVE_ROUTE_INVALID": {
+    "message": "Pumili ng wastong ruta."
+  },
+  "error_NATIVE_ROUTE_MISSING": {
+    "message": "Wala na ang rutang ito. Pumili ng ibang ruta."
+  },
+  "error_NATIVE_ROUTE_PORTS": {
+    "message": "Hindi wasto ang mga nakatalagang port ng ruta."
+  },
+  "error_NATIVE_ROUTE_UNAVAILABLE": {
+    "message": "Hindi magamit ang napiling ruta. Tingnan ang mga teknikal na detalye."
+  },
+  "error_NATIVE_SETTINGS_FORMAT": {
+    "message": "Hindi wastong format ng mga setting."
+  },
+  "error_NATIVE_SETTINGS_REVISION": {
+    "message": "Hindi wastong rebisyon ng mga setting."
+  },
+  "error_NATIVE_SUCCESSOR_UNSUPPORTED": {
+    "message": "Gumagamit ang grupong ito ng successor proxy na hindi sinusuportahan."
+  },
+  "error_NATIVE_UNSUPPORTED_CUSTOM": {
+    "message": "Hindi sinusuportahan ng bersyong ito ang mga custom outbound configuration."
+  },
+  "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
+    "message": "Hindi sinusuportahan ng bersyong ito ang Hysteria2."
+  },
+  "error_NATIVE_UNSUPPORTED_TUIC": {
+    "message": "Hindi kasama sa bersyong ito ang sing-box core na kailangan ng TUIC."
+  },
+  "error_NATIVE_UNSUPPORTED_TYPE": {
+    "message": "Hindi sinusuportahan ang ganitong uri ng ruta."
+  },
+  "error_NATIVE_V2RAYN_PORT": {
+    "message": "Hindi wasto ang lokal na port ng v2rayN."
+  },
+  "error_NATIVE_V2RAYN_UNAVAILABLE": {
+    "message": "Hindi magamit ang v2rayN. Pumili ng na-import na node."
+  },
+  "error_NETWORK_FAILED": {
+    "message": "Nabigo ang kahilingan sa network. Suriin ang koneksyon at subukan muli."
+  },
+  "error_NETWORK_TEST_FAILED": {
+    "message": "Nabigo ang diagnostic ng network. Tingnan ang mga teknikal na detalye."
+  },
+  "error_NODE_LIMIT": {
+    "message": "Lalampas sa limitasyon ng node ang operasyon. Magtanggal ng hindi ginagamit na mga node at subukan muli."
+  },
+  "error_NODE_MAPPING_INCOMPLETE": {
+    "message": "Hindi kumpleto ang pagtutugma ng mga node"
+  },
+  "error_NODE_NOT_FOUND": {
+    "message": "Wala na ang napiling node. Pumili ng ibang node."
+  },
+  "error_NOT_DUE": {
+    "message": "Hindi pa oras ng susunod na naka-iskedyul na pag-update."
+  },
+  "error_PAC_ENTRY_REQUIRED": {
+    "message": "Maglagay ng PAC source na may FindProxyForURL"
+  },
+  "error_PAC_FUNCTION_REQUIRED": {
+    "message": "Magtakda ng synchronous na top-level FindProxyForURL function, function variable o assignment"
+  },
+  "error_PAC_PARSER_UNAVAILABLE": {
+    "message": "Hindi magamit ang kasamang PAC parser; i-install muli ang extension"
+  },
+  "error_PAC_RULE_TARGET_UNSUPPORTED": {
+    "message": "Hindi maaaring gawing target ng awtomatikong tuntunin ang profile na may inline PAC"
+  },
+  "error_PAC_SOURCE_LIMIT": {
+    "message": "Maglagay ng PAC source na hindi lalampas sa {limit} character"
+  },
+  "error_PAC_SYNTAX_INVALID": {
+    "message": "Hindi wastong PAC syntax"
+  },
+  "error_PAC_SYNTAX_LOCATION": {
+    "message": "Hindi wastong PAC syntax sa linya {line}, column {column}"
+  },
+  "error_PARTIAL_TRANSFER": {
+    "message": "Natapos ang test transfer bago matanggap ang lahat ng data."
+  },
+  "error_PRIVATE_DIRECTORY_FAILED": {
+    "message": "Hindi maseguro ang pribadong test folder. Itinigil ang pagsubok."
+  },
+  "error_PRIVATE_TARGET": {
+    "message": "Hindi pinapayagan ang kahilingan ng subscription sa pribado o lokal na address."
+  },
+  "error_PROFILE_NOT_FOUND": {
+    "message": "Hindi nakita ang profile"
+  },
+  "error_PROFILE_REFERENCE_CYCLE": {
+    "message": "Paikot na pagtukoy sa mga profile"
+  },
+  "error_PROFILE_REFERENCE_DEPTH": {
+    "message": "Lampas sa pinakamataas na lalim na {limit} ang mga awtomatikong tuntunin"
+  },
+  "error_PROFILE_REFERENCE_MISSING": {
+    "message": "Wala ang tinutukoy na profile: {name}"
+  },
+  "error_PROFILE_SAVE_RESTORE_FAILED": {
+    "message": "Nabigo ang pag-save at kailangang suriin ang pagpapanumbalik ng ruta"
+  },
+  "error_PROXY_AUTH_REQUIRED": {
+    "message": "Kailangan ng proxy ng subscription ang pagpapatunay na hindi maibibigay ng kahilingang ito."
+  },
+  "error_PROXY_CONTROL_UNAVAILABLE": {
+    "message": "Ibang extension o patakaran ang kumokontrol sa proxy"
+  },
+  "error_PROXY_DNS_REQUIRED": {
+    "message": "Sa V2Route, nireresolba ang SOCKS5 DNS sa pamamagitan ng proxy"
+  },
+  "error_PROXY_FAILED": {
+    "message": "Nabigo ang koneksyon sa proxy. Suriin ang napiling ruta."
+  },
+  "error_PROXY_PROFILE_REQUIRED": {
+    "message": "Pumili ng proxy profile"
+  },
+  "error_PROXY_ROLLBACK_REFUSED": {
+    "message": "Tinanggihan ng browser ang pagbabalik sa dating proxy"
+  },
+  "error_PROXY_SETTING_REFUSED": {
+    "message": "Tinanggihan ng browser ang setting ng proxy"
+  },
+  "error_PROXY_UNAVAILABLE": {
+    "message": "Hindi magamit ang napiling proxy. Suriin ang kasalukuyang ruta."
+  },
+  "error_PROXY_USERNAME_REQUIRED": {
+    "message": "Maglagay ng username ng proxy"
+  },
+  "error_RECOVERY_BINDINGS_LIMIT": {
+    "message": "Hanggang {limit} binding ng node ang maibabalik. Buksan at i-save nang magkahiwalay ang mga tinutukoy na profile."
+  },
+  "error_REDIRECT_LIMIT": {
+    "message": "Masyadong maraming redirect ang subscription. Suriin ang URL nito."
+  },
+  "error_REFERENCED_PROFILE_DELETE": {
+    "message": "Tinutukoy ang profile na ito ng awtomatikong tuntunin"
+  },
+  "error_REMOTE_PAC_UNSUPPORTED": {
+    "message": "Gumamit ng inline PAC source; hindi sinusuportahan ang remote PAC"
+  },
+  "error_ROUTE_PORT_UNAVAILABLE": {
+    "message": "Walang port na itinalaga"
+  },
+  "error_ROUTE_RECOVERY_RESTORE_FAILED": {
+    "message": "Nabigo ang pagbawi ng ruta at kailangang suriin ang pagpapanumbalik"
+  },
+  "error_ROUTE_REVISION_CONFLICT": {
+    "message": "Nagbago ang ruta sa ibang window. I-refresh muna"
+  },
+  "error_ROUTE_SAVE_ROLLBACK_FAILED": {
+    "message": "Nabigo ang pag-save ng ruta at kailangang suriin ang rollback"
+  },
+  "error_ROUTE_UNAVAILABLE": {
+    "message": "Hindi magamit ang rutang pansubok. Suriin ang mga setting ng node at predecessor."
+  },
+  "error_RULE_BINDING_MISSING": {
+    "message": "Nawawala ang binding ng tuntunin ng node. Muling buksan at i-save ang awtomatikong profile: {name}"
+  },
+  "error_RULE_NODES_LIMIT": {
+    "message": "Hanggang {limit} magkakaibang node ang sinusuportahan ng mga awtomatikong tuntunin"
+  },
+  "error_RULE_NODE_CHANGED": {
+    "message": "Hindi magamit o nagbago ang tuntunin ng node. Ibalik ang node o pumili ng iba at i-save: {name}"
+  },
+  "error_RULE_PATH_CONFLICT": {
+    "message": "Magkasalungat na path ng tuntunin ng node"
+  },
+  "error_RULE_PATTERNS_LIMIT": {
+    "message": "Hanggang {limit} kabuuang matching pattern ang sinusuportahan ng mga awtomatikong tuntunin"
+  },
+  "error_RULE_PORT_UNAVAILABLE": {
+    "message": "Hindi magamit ang port ng tuntunin ng node"
+  },
+  "error_RULE_REVISION_CONFLICT": {
+    "message": "Nagbago ang tuntunin ng node sa ibang window. I-refresh muna"
+  },
+  "error_SELECTED_NODE_UNAVAILABLE": {
+    "message": "Hindi magamit ang napiling node. Ibalik ito o pumili ng ibang node"
+  },
+  "error_SOCKS_FAILED": {
+    "message": "Hindi maitatag ang koneksyon sa SOCKS."
+  },
+  "error_STARTUP_FALLBACK_REFUSED": {
+    "message": "Tinanggihan ng browser ang fallback proxy sa pagsisimula."
+  },
+  "error_SUBSCRIPTION_CHANGED": {
+    "message": "Nagbago ang subscription habang ina-update. I-refresh ito at subukan muli."
+  },
+  "error_SUBSCRIPTION_HTTP_STATUS": {
+    "message": "Nagbalik ang server ng subscription ng HTTP {status}."
+  },
+  "error_SUBSCRIPTION_LIMIT": {
+    "message": "Naabot na ang limitasyon ng subscription. Magtanggal ng hindi ginagamit na subscription at subukan muli."
+  },
+  "error_SUBSCRIPTION_NOT_FOUND": {
+    "message": "Wala na ang napiling subscription."
+  },
+  "error_SYSTEM_PROXY_SNAPSHOT_UNAVAILABLE": {
+    "message": "Hindi magamit ang snapshot ng inilapat na system proxy."
+  },
+  "error_SYSTEM_PROXY_TIMEOUT": {
+    "message": "Naubos ang oras sa pagbasa ng system proxy"
+  },
+  "error_SYSTEM_PROXY_UNAVAILABLE": {
+    "message": "Hindi magamit ang system proxy. Tingnan ang mga teknikal na detalye."
+  },
+  "error_TIMEOUT": {
+    "message": "Naubos ang oras ng kahilingan. Suriin ang koneksyon at subukan muli."
+  },
+  "error_TLS_DOWNGRADE": {
+    "message": "Na-block ang subscription dahil nag-redirect ito mula HTTPS patungong HTTP."
+  },
+  "error_TLS_FAILED": {
+    "message": "Hindi mapatunayan ang ligtas na koneksyon. Suriin ang server at certificate."
+  },
+  "error_UNSAFE_TEMP_PATH": {
+    "message": "Hindi ligtas ang pansamantalang test folder. Itinigil ang pagsubok."
+  },
+  "error_UNSUPPORTED_LIBRARY_REQUEST": {
+    "message": "Hindi sinusuportahang kahilingan sa library"
+  },
+  "error_UNSUPPORTED_PROFILE_TYPE": {
+    "message": "Hindi sinusuportahang uri ng profile"
+  },
+  "error_UNSUPPORTED_REQUEST": {
+    "message": "Hindi sinusuportahang kahilingan"
+  },
+  "error_UNSUPPORTED_RULE_CONDITION": {
+    "message": "Mga wildcard na tuntunin ng host at URL lang ang sinusuportahan"
+  },
+  "error_UPDATE_FAILED": {
+    "message": "Nabigo ang pag-update ng subscription. Pinanatili ang mga kasalukuyang node."
+  },
+  "error_VALIDATION_FAILED": {
+    "message": "Hindi mapatunayan ang nilalaman ng subscription. Pinanatili ang mga kasalukuyang node."
+  },
+  "nativeUnnamedNode": {
+    "message": "Node na walang pangalan"
+  },
+  "nativeProtocolCustom": {
+    "message": "Custom"
+  },
+  "nativeProtocolOutbound": {
+    "message": "Custom outbound"
+  },
+  "nativeProtocolGroup": {
+    "message": "Grupo ng patakaran"
+  },
+  "nativeProtocolChain": {
+    "message": "Chain ng proxy"
+  },
+  "nativeProtocolUnknown": {
+    "message": "Hindi sinusuportahang uri"
+  },
+  "languageLoadFailed": {
+    "message": "Hindi ma-load ang napiling wika. Subukan muli."
+  },
+  "invalidBackupJSON": {
+    "message": "Hindi wastong JSON ang backup."
+  },
+  "noticeBodyLanguages": {
+    "message": "Available ang buong teksto ng patakaran sa English at Simplified Chinese."
+  },
+  "policyRules": {
+    "message": "Mga patakaran sa pagruta ng proxy"
+  },
+  "policyPriority": {
+    "message": "Ayos: mga address na nilalampasan → unang tumugmang patakaran → default na ruta."
+  },
+  "policyDirectHelp": {
+    "message": "Direktang kumokonekta ang mga hindi tumugmang address. Ginagamit din ito ng pindutang Direkta sa popup."
+  },
+  "policySystemHelp": {
+    "message": "System proxy ang gamit ng mga hindi tumugmang address. Ginagamit din ito ng pindutang System sa popup."
+  },
+  "policyEmpty": {
+    "message": "Wala pang patakaran. Gagamitin ang default na ruta."
+  },
+  "policyAddressHelp": {
+    "message": "Domain, wildcard domain, IP o IP:port. Itinutugma ng mga tuntuning IP ang IP sa URL, hindi ang resulta ng DNS."
+  },
+  "policyMoveUp": {
+    "message": "Iangat ang patakaran"
+  },
+  "policyMoveDown": {
+    "message": "Ibaba ang patakaran"
+  }
+}

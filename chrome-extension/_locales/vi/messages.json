@@ -1,0 +1,2150 @@
+{
+  "ruleTargetUnavailable": {
+    "message": "Mục tiêu không khả dụng"
+  },
+  "rulePatternPlaceholder": {
+    "message": "example.com, *.example.org, 192.0.2.1:8443"
+  },
+  "rulePatternHelp": {
+    "message": "Phân cách địa chỉ bằng dấu phẩy. Mỗi mẫu URL một dòng. PAC có thể không thấy đường dẫn HTTPS."
+  },
+  "defaultChoice_direct": {
+    "message": "Kết nối mà không cần proxy"
+  },
+  "defaultChoice_system": {
+    "message": "Sử dụng cài đặt proxy hệ thống"
+  },
+  "defaultChoice_node": {
+    "message": "Sử dụng nút đã chọn của cấu hình này"
+  },
+  "defaultChoice_manual": {
+    "message": "Sử dụng cài đặt proxy của hồ sơ này"
+  },
+  "defaultChoice_auto": {
+    "message": "Áp dụng quy tắc định tuyến của hồ sơ này"
+  },
+  "nlHttpsLatency": {
+    "message": "HTTPS phản hồi"
+  },
+  "nlLatencyMethod": {
+    "message": "Cloudflare · Tối thiểu hai phản hồi · Tái sử dụng kết nối khi khả dụng"
+  },
+  "nlLatencyFast": {
+    "message": "Nhanh"
+  },
+  "nlLatencyModerate": {
+    "message": "Vừa phải"
+  },
+  "nlLatencySlow": {
+    "message": "Chậm"
+  },
+  "nlSortName": {
+    "message": "Tên"
+  },
+  "nlSortLatency": {
+    "message": "Độ trễ: thấp đến cao"
+  },
+  "nlSortDownload": {
+    "message": "Tải xuống: cao xuống thấp"
+  },
+  "nlSortUpload": {
+    "message": "Tải lên: cao đến thấp"
+  },
+  "nlSingle": {
+    "message": "Nút đơn"
+  },
+  "nlGroupBatch": {
+    "message": "Nhóm/đợt"
+  },
+  "nlTestScope": {
+    "message": "Phạm vi thử nghiệm"
+  },
+  "nlCurrentNode": {
+    "message": "Nút đã chọn"
+  },
+  "nlCurrentGroup": {
+    "message": "Nhóm được chọn"
+  },
+  "nlChooseNode": {
+    "message": "Chọn một nút trong danh sách"
+  },
+  "nlStart": {
+    "message": "Bắt đầu kiểm tra"
+  },
+  "nlService": {
+    "message": "Dịch vụ kiểm tra"
+  },
+  "nlMeasured": {
+    "message": "đo được"
+  },
+  "nlMeanLatency": {
+    "message": "Độ trễ trung bình"
+  },
+  "nlGroupBySource": {
+    "message": "Theo nhóm nguồn"
+  },
+  "nlPreviousPage": {
+    "message": "Trang trước"
+  },
+  "nlNextPage": {
+    "message": "Trang tiếp theo"
+  },
+  "nlName": {
+    "message": "Tên"
+  },
+  "nlEdit": {
+    "message": "Chỉnh sửa"
+  },
+  "nlStop": {
+    "message": "Dừng lại"
+  },
+  "nlConfirm": {
+    "message": "Xác nhận"
+  },
+  "nlAllNodes": {
+    "message": "Tất cả các nút"
+  },
+  "nlNodeResults": {
+    "message": "Kết quả nút"
+  },
+  "nlTestCenter": {
+    "message": "Trung tâm khảo thí"
+  },
+  "nlNewGroup": {
+    "message": "Nhóm mới"
+  },
+  "nlRenameGroup": {
+    "message": "Đổi tên nhóm"
+  },
+  "nlRemoveGroup": {
+    "message": "Xóa nhóm"
+  },
+  "nlRemoveGroupHelp": {
+    "message": "Giữ mọi nút và đăng ký, đồng thời di chuyển chúng đến các nút đã nhập."
+  },
+  "nlNode": {
+    "message": "Nút"
+  },
+  "nlStatus": {
+    "message": "Trạng thái"
+  },
+  "nlActions": {
+    "message": "Hành động"
+  },
+  "nlSort": {
+    "message": "Chỉ sắp xếp bảng này"
+  },
+  "nlSelected": {
+    "message": "đã chọn"
+  },
+  "nlTestNode": {
+    "message": "Kiểm tra"
+  },
+  "nlProfileShort": {
+    "message": "Hồ sơ"
+  },
+  "nlQuick": {
+    "message": "Độ trễ nhanh"
+  },
+  "nlFull": {
+    "message": "Tải xuống + tải lên"
+  },
+  "nlTraffic": {
+    "message": "Kích thước dữ liệu thử nghiệm"
+  },
+  "nlConcurrency": {
+    "message": "Các nút đồng thời"
+  },
+  "nlTrafficFullOnly": {
+    "message": "Được sử dụng để kiểm tra tải xuống và tải lên"
+  },
+  "nlTestMode": {
+    "message": "Chế độ kiểm tra"
+  },
+  "nlBudget": {
+    "message": "Lưu lượng tải trọng tối đa"
+  },
+  "nlViaGroup": {
+    "message": "Thông qua proxy trước của nhóm"
+  },
+  "nlTestSelected": {
+    "message": "Đã chọn thử nghiệm"
+  },
+  "nlTestVisible": {
+    "message": "Kiểm tra các nút hiển thị"
+  },
+  "nlTestAll": {
+    "message": "Kiểm tra tất cả các nút"
+  },
+  "nlTestGroup": {
+    "message": "Nút nhóm thử nghiệm"
+  },
+  "nlProgress": {
+    "message": "Tiến độ đo"
+  },
+  "nlReady": {
+    "message": "Chọn các nút để bắt đầu. Không có thử nghiệm nào đã chạy."
+  },
+  "nlStarting": {
+    "message": "Đang bắt đầu đo lường riêng biệt…"
+  },
+  "nlQueued": {
+    "message": "Đã xếp hàng"
+  },
+  "nlRunning": {
+    "message": "Thử nghiệm"
+  },
+  "nlStopping": {
+    "message": "Đang dừng…"
+  },
+  "nlComplete": {
+    "message": "Hoàn thành"
+  },
+  "nlFailed": {
+    "message": "Không thành công"
+  },
+  "nlStopped": {
+    "message": "Đã dừng"
+  },
+  "nlPartial": {
+    "message": "Một phần"
+  },
+  "nlUntested": {
+    "message": "Chưa được kiểm tra"
+  },
+  "nlSucceeded": {
+    "message": "đã qua"
+  },
+  "nlMeasureDisconnected": {
+    "message": "Kết nối đo đã kết thúc. Giá trị không đầy đủ không phải là kết quả cuối cùng."
+  },
+  "nlUpgrade": {
+    "message": "Cập nhật Đồng hành cục bộ để quản lý nhóm và đăng ký. Các nút hiện tại vẫn có sẵn."
+  },
+  "nlOperationFailed": {
+    "message": "Thao tác không thể hoàn thành. Hãy thử lại."
+  },
+  "nlEditSubscription": {
+    "message": "Chỉnh sửa đăng ký"
+  },
+  "nlPasteContent": {
+    "message": "Liên kết / nội dung proxy"
+  },
+  "nlSubscriptionURL": {
+    "message": "Đăng ký URL"
+  },
+  "nlKeepURL": {
+    "message": "Để trống để giữ lại URL"
+  },
+  "nlConnectionPolicy": {
+    "message": "Cập nhật kết nối"
+  },
+  "nlProxyFirst": {
+    "message": "Proxy trước, sau đó trực tiếp khi bị lỗi"
+  },
+  "nlProxyOnly": {
+    "message": "Chỉ proxy"
+  },
+  "nlDirectOnly": {
+    "message": "Chỉ trực tiếp"
+  },
+  "nlProxyFirstHelp": {
+    "message": "Proxy đầu tiên dừng sau khi tìm nạp thành công. Trực tiếp chỉ được thử nếu nỗ lực proxy không thành công."
+  },
+  "nlAutoUpdate": {
+    "message": "Bật cập nhật tự động"
+  },
+  "nlInterval": {
+    "message": "Khoảng thời gian cập nhật (phút)"
+  },
+  "nlDestinationGroup": {
+    "message": "Nhóm đích"
+  },
+  "nlSubscriptionOwnGroup": {
+    "message": "Nhóm mới…"
+  },
+  "nlNameGroup": {
+    "message": "Tên (nhóm)"
+  },
+  "nlCustomGroup": {
+    "message": "Nhóm tùy chỉnh"
+  },
+  "nlNameRequired": {
+    "message": "Nhập tên."
+  },
+  "nlContentRequired": {
+    "message": "Dán liên kết proxy hoặc nội dung đăng ký."
+  },
+  "nlGroupRequired": {
+    "message": "Chọn nhóm đích."
+  },
+  "nlURLRequired": {
+    "message": "Nhập đăng ký HTTP(S) URL mà không cần tên người dùng hoặc mật khẩu."
+  },
+  "nlIntervalInvalid": {
+    "message": "Nhập số nguyên từ 5 đến 43200 phút."
+  },
+  "folderTitle": {
+    "message": "Chọn thư mục v2rayN"
+  },
+  "folderHint": {
+    "message": "Chọn một thư mục, sau đó áp dụng nó với cài đặt Lưu kết nối."
+  },
+  "folderPath": {
+    "message": "Đường dẫn thư mục cục bộ đầy đủ"
+  },
+  "folderGo": {
+    "message": "Mở"
+  },
+  "folderUp": {
+    "message": "Lên"
+  },
+  "folderDrives": {
+    "message": "Ổ đĩa"
+  },
+  "folderCurrent": {
+    "message": "Đường dẫn hiện tại"
+  },
+  "folderChoose": {
+    "message": "Sử dụng thư mục này"
+  },
+  "folderList": {
+    "message": "Thư mục"
+  },
+  "folderTruncated": {
+    "message": "Danh sách bị hạn chế. Nhập đường dẫn đầy đủ ở trên để mở thư mục không hiển thị.\nĐã tìm thấy tệp"
+  },
+  "folderReady": {
+    "message": "v2rayN. Sử dụng thư mục này để xác nhận cấu hình."
+  },
+  "folderInvalid": {
+    "message": "Chọn thư mục chứa guiConfigs, guiNConfig.json và guiNDB.db."
+  },
+  "folderSelectDrive": {
+    "message": "Chọn ổ đĩa cục bộ hoặc nhập đường dẫn thư mục đầy đủ."
+  },
+  "folderEmpty": {
+    "message": "Không có thư mục con hiển thị."
+  },
+  "folderUnavailable": {
+    "message": "Không thể duyệt thư mục này. Kiểm tra đường dẫn và quyền truy cập của nó. Nếu Companion cũ hơn, hãy cập nhật nó trước."
+  },
+  "folderValidating": {
+    "message": "Đang xác thực cấu hình v2rayN…"
+  },
+  "folderInvalidConfig": {
+    "message": "Cấu hình hoặc cơ sở dữ liệu v2rayN không đầy đủ hoặc không hợp lệ. Chọn một thư mục khác."
+  },
+  "copyPath": {
+    "message": "Sao chép đường dẫn"
+  },
+  "pathCopyHint": {
+    "message": "Sao chép đường dẫn hiện tại trong trường này."
+  },
+  "preMode": {
+    "message": "Chế độ tiền proxy"
+  },
+  "preNode": {
+    "message": "Nút tiền proxy"
+  },
+  "preIntro": {
+    "message": "Sử dụng chuỗi nhóm, bỏ qua hoặc chọn proxy trước cho hồ sơ này."
+  },
+  "healthLabel": {
+    "message": "Trạng thái kết nối hiện tại"
+  },
+  "healthOk": {
+    "message": "Bình thường"
+  },
+  "healthError": {
+    "message": "Bất thường"
+  },
+  "healthChecking": {
+    "message": "Đang kiểm tra"
+  },
+  "healthUnknown": {
+    "message": "Chưa được xác nhận"
+  },
+  "autoSystemHelp": {
+    "message": "Quy tắc hệ thống cần thành phần Windows và bản chụp cấu hình proxy cố định. Áp dụng lại sau khi đổi cấu hình. Không hỗ trợ PAC/WPAD; Hệ thống không có quy tắc dùng cấu hình gốc của trình duyệt."
+  },
+  "backgroundUnavailable": {
+    "message": "Nền tiện ích mở rộng không khả dụng."
+  },
+  "backgroundNoResponse": {
+    "message": "Nền không phản hồi."
+  },
+  "backupTooLarge": {
+    "message": "Bản sao lưu vượt quá 5 MB."
+  },
+  "proxyUsername": {
+    "message": "Tên người dùng"
+  },
+  "proxyPassword": {
+    "message": "Mật khẩu"
+  },
+  "proxyAuthHelp": {
+    "message": "Tùy chọn. Proxy được xác thực kết nối thông qua Companion. Thông tin xác thực được lưu trữ trong cấu hình trình duyệt này và Companion, đồng thời được bao gồm trong quá trình xuất hồ sơ."
+  },
+  "proxyAuthSocks4": {
+    "message": "SOCKS4 không hỗ trợ xác thực tên người dùng/mật khẩu này; sử dụng HTTP(S) hoặc SOCKS5."
+  },
+  "importExamples": {
+    "message": "Ví dụ về định dạng"
+  },
+  "ipCopying": {
+    "message": "Đang sao chép…"
+  },
+  "netDnsUnavailable": {
+    "message": "Địa chỉ máy chủ không thể được giải quyết kịp thời. Hãy kiểm tra máy chủ hoặc địa chỉ IP và thử lại."
+  },
+  "netCurrentTarget": {
+    "message": "Điểm cuối proxy đã chọn"
+  },
+  "netCustomTarget": {
+    "message": "Máy chủ tùy chỉnh"
+  },
+  "netHost": {
+    "message": "Máy chủ hoặc địa chỉ IP"
+  },
+  "netPort": {
+    "message": "TCP cổng"
+  },
+  "netHostRequired": {
+    "message": "Nhập máy chủ lưu trữ hoặc địa chỉ IP."
+  },
+  "netCurrentUnavailable": {
+    "message": "Chọn nút hoặc hồ sơ proxy thủ công hoặc nhập mục tiêu tùy chỉnh."
+  },
+  "netInvalidTarget": {
+    "message": "Nhập máy chủ và cổng chẩn đoán hợp lệ."
+  },
+  "netIpv6PingUnavailable": {
+    "message": "IPv6 ICMP không khả dụng; sử dụng TCPing."
+  },
+  "preNeedsFix": {
+    "message": "Chọn pre-proxy hợp lệ hoặc không có pre-proxy trước khi lưu."
+  },
+  "preConfigure": {
+    "message": "Định cấu hình proxy trước"
+  },
+  "preFollowInvalid": {
+    "message": "Theo dõi v2rayN không chấp nhận proxy trước tùy chỉnh."
+  },
+  "followChainHelp": {
+    "message": "Follow sử dụng tuyến đường và chuỗi proxy đã hoạt động trong v2rayN."
+  },
+  "netTitle": {
+    "message": "Kiểm tra kết nối"
+  },
+  "ipTestDetails": {
+    "message": "Chi tiết kiểm tra"
+  },
+  "netTarget": {
+    "message": "Ping / TCPing mục tiêu"
+  },
+  "netDownload": {
+    "message": "Tải xuống thử nghiệm"
+  },
+  "netPartial": {
+    "message": "Mẫu một phần"
+  },
+  "netComplete": {
+    "message": "Mẫu hoàn thành"
+  },
+  "netDirect": {
+    "message": "Mạng hệ thống"
+  },
+  "netUnreachable": {
+    "message": "Không trả lời / thất bại"
+  },
+  "netAverage": {
+    "message": "Trung bình"
+  },
+  "predecessor": {
+    "message": "Tiền proxy"
+  },
+  "preInherit": {
+    "message": "Sử dụng chuỗi nhóm v2rayN"
+  },
+  "preNone": {
+    "message": "Không có proxy trước"
+  },
+  "preSpecific": {
+    "message": "Chọn một nút"
+  },
+  "preHelp": {
+    "message": "Áp dụng cho hồ sơ này. Sử dụng chuỗi nhóm v2rayN, không có proxy trước hoặc nút cụ thể. Follow v2rayN sử dụng chuỗi hiện có của nó."
+  },
+  "preSelectRequired": {
+    "message": "Chọn nút tiền proxy hoặc chọn Mặc định nhóm / Không."
+  },
+  "ipPing0Permission": {
+    "message": "Cho phép truy cập trang web Ping0 để tải báo cáo công khai."
+  },
+  "ipPublicChallenge": {
+    "message": "Trang web yêu cầu xác minh. Mở trang Ping0 để hoàn thành và xem kết quả."
+  },
+  "ipPublicReport": {
+    "message": "Ping0 báo cáo công khai"
+  },
+  "ipPublicSource": {
+    "message": "Nguồn: Ping0 trang công khai"
+  },
+  "ipPublicOriginal": {
+    "message": "Ping0 báo cáo"
+  },
+  "ipPublicPartial": {
+    "message": "Chỉ các trường được cung cấp trên trang công khai mới được hiển thị bằng ngôn ngữ gốc của chúng. Phân loại và ước tính người dùng chia sẻ là từ Ping0."
+  },
+  "setupTitle": {
+    "message": "Kết nối Proxy V2Route"
+  },
+  "setupIntro": {
+    "message": "Cài đặt đồng hành Windows để sử dụng các tuyến v2rayN hoặc các nút đã nhập của riêng bạn."
+  },
+  "setupStepOne": {
+    "message": "Trích xuất gói Windows hoàn chỉnh phù hợp vào một thư mục cố định."
+  },
+  "setupStepTwo": {
+    "message": "Mở V2Route-Setup.exe và nhấp vào Cài đặt."
+  },
+  "setupStepThree": {
+    "message": "Quay lại đây và kiểm tra kết nối. Chọn thư mục v2rayN nếu cần."
+  },
+  "setupCheck": {
+    "message": "Kiểm tra kết nối"
+  },
+  "downloadCompanion": {
+    "message": "Hướng dẫn cài đặt ↗"
+  },
+  "setupDownloadNote": {
+    "message": "Sử dụng gói Windows cục bộ phù hợp hoặc làm theo hướng dẫn để xây dựng gói từ nguồn hiện tại."
+  },
+  "chooseFolder": {
+    "message": "Chọn thư mục v2rayN…"
+  },
+  "rescanDone": {
+    "message": "Đã quét lại các nút cục bộ"
+  },
+  "grouping": {
+    "message": "Nút nhóm"
+  },
+  "groupByCountry": {
+    "message": "Theo quốc gia"
+  },
+  "unknownCountry": {
+    "message": "Khác / Không xác định"
+  },
+  "ungrouped": {
+    "message": "Đã tách nhóm"
+  },
+  "adjustNodeFilters": {
+    "message": "Hãy thử nhóm, nguồn hoặc tìm kiếm khác hoặc hiển thị các nút ẩn."
+  },
+  "rescanLocal": {
+    "message": "Quét lại v2rayN nút"
+  },
+  "showHidden": {
+    "message": "Hiển thị các nút ẩn"
+  },
+  "hideNode": {
+    "message": "Ẩn"
+  },
+  "restoreNode": {
+    "message": "Khôi phục"
+  },
+  "hiddenNode": {
+    "message": "Ẩn"
+  },
+  "hideNodeHelp": {
+    "message": "Chỉ ẩn khỏi thư viện nút của trình duyệt này. v2rayN và các hồ sơ hiện tại không thay đổi."
+  },
+  "ipContextTimeout": {
+    "message": "Đã hết thời gian đọc hồ sơ hiện tại. Hãy thử lại."
+  },
+  "ipStaleResult": {
+    "message": "Cấu hình hiện tại đã thay đổi. Kết quả này có thể đã lỗi thời; kiểm tra lại."
+  },
+  "ip_tools": {
+    "message": "IP Công cụ"
+  },
+  "ipIntro": {
+    "message": "Lối ra hiện tại IP và báo cáo công khai."
+  },
+  "ipCurrentProfile": {
+    "message": "Hồ sơ trình duyệt hiện tại"
+  },
+  "ipRouteCaution": {
+    "message": "Quy tắc tự động và PAC có thể sử dụng các tuyến đường khác nhau cho các điểm đến khác nhau. Kiểm tra này chỉ mô tả yêu cầu của chính nó."
+  },
+  "ipDisclosure": {
+    "message": "Tự động kiểm tra thoát IP · Báo cáo bởi Ping0"
+  },
+  "ipMethod": {
+    "message": "Kiểm tra địa chỉ"
+  },
+  "ipDual": {
+    "message": "IPv4 / IPv6"
+  },
+  "ipCheck": {
+    "message": "Kiểm tra lại"
+  },
+  "ipChecking": {
+    "message": "Đang kiểm tra…"
+  },
+  "ipDualHelp": {
+    "message": "IPv4 / IPv6 trả về họ địa chỉ được sử dụng cho yêu cầu này chứ không phải cả hai địa chỉ."
+  },
+  "ipDurationHelp": {
+    "message": "Đã trôi qua HTTP thời gian yêu cầu bao gồm thời gian phản hồi của mạng và dịch vụ. Đây không phải là ping ICMP hay kiểm tra băng thông."
+  },
+  "ipCopy": {
+    "message": "Bản sao IP"
+  },
+  "ipCopied": {
+    "message": "Đã sao chép"
+  },
+  "ipCopyFailed": {
+    "message": "Không thể sao chép. Chọn địa chỉ và sao chép thủ công."
+  },
+  "ipNoResult": {
+    "message": "Chưa kiểm tra"
+  },
+  "ipContextUnknown": {
+    "message": "Hồ sơ không có sẵn"
+  },
+  "ipTimeout": {
+    "message": "Đã hết thời gian kiểm tra. Hãy thử lại hoặc sử dụng tuyến đường khác."
+  },
+  "ipCancelled": {
+    "message": "Séc bị hủy"
+  },
+  "ipNetwork": {
+    "message": "Không thể đạt được ipify. Hãy kiểm tra kết nối và thử lại."
+  },
+  "ipHttp": {
+    "message": "Dịch vụ IP không chấp nhận yêu cầu. Hãy thử lại sau."
+  },
+  "ipInvalid": {
+    "message": "Dịch vụ IP trả về phản hồi không hợp lệ."
+  },
+  "ipFailure": {
+    "message": "Kiểm tra không thành công. Hãy thử lại."
+  },
+  "ipStale": {
+    "message": "Cài đặt proxy của bạn đã thay đổi trong quá trình kiểm tra. Kết quả cũ bị loại bỏ; kiểm tra lại."
+  },
+  "ipQuality": {
+    "message": "Dụng cụ bên ngoài"
+  },
+  "ipQualityPrivacy": {
+    "message": "Công cụ chỉ chạy khi nhấp chuột. Nhà cung cấp nhận dữ liệu kết nối bình thường. Kiểm tra trang web sẽ gửi yêu cầu không cần thông tin xác thực sau khi Bắt đầu. Việc đóng cửa dừng các cuộc kiểm tra cục bộ; các tab bên ngoài được quản lý bởi trình duyệt."
+  },
+  "ipReport": {
+    "message": "Sao chép báo cáo đã được biên tập lại"
+  },
+  "ipReportCopied": {
+    "message": "Đã sao chép báo cáo đã được biên tập lại; không bao gồm IP hoặc tên hồ sơ."
+  },
+  "popupSelected": {
+    "message": "Đã chọn"
+  },
+  "popupFooter": {
+    "message": "v2rayN & cấu hình nút"
+  },
+  "subtitle": {
+    "message": "Các tuyến trình duyệt độc lập"
+  },
+  "profiles": {
+    "message": "Hồ sơ"
+  },
+  "nodes": {
+    "message": "Thư viện nút"
+  },
+  "settings": {
+    "message": "Cài đặt"
+  },
+  "connected": {
+    "message": "Hồ sơ hoạt động"
+  },
+  "noProfile": {
+    "message": "Mặc định hệ thống"
+  },
+  "newProfile": {
+    "message": "Hồ sơ mới"
+  },
+  "searchProfiles": {
+    "message": "Tìm kiếm hồ sơ"
+  },
+  "direct": {
+    "message": "Mạng trực tiếp"
+  },
+  "system": {
+    "message": "Proxy hệ thống"
+  },
+  "follow": {
+    "message": "Theo dõi v2rayN"
+  },
+  "manual": {
+    "message": "Proxy thủ công"
+  },
+  "auto": {
+    "message": "Tự động chuyển đổi"
+  },
+  "pac": {
+    "message": "PAC kịch bản"
+  },
+  "virtual": {
+    "message": "Hồ sơ ảo"
+  },
+  "profileIntro": {
+    "message": "Chọn tuyến trình duyệt mà không cần chuyển tuyến chính của v2rayN."
+  },
+  "nodesIntro": {
+    "message": "Duyệt qua các nút cục bộ v2rayN và các liên kết đã nhập của bạn."
+  },
+  "settingsIntro": {
+    "message": "Kết nối địa phương, ngôn ngữ và hình thức."
+  },
+  "refresh": {
+    "message": "Làm mới"
+  },
+  "create": {
+    "message": "Tạo hồ sơ"
+  },
+  "name": {
+    "message": "Tên hồ sơ"
+  },
+  "type": {
+    "message": "Loại hồ sơ"
+  },
+  "save": {
+    "message": "Lưu"
+  },
+  "saved": {
+    "message": "Đã lưu"
+  },
+  "saving": {
+    "message": "Đang lưu…"
+  },
+  "cancel": {
+    "message": "Hủy bỏ"
+  },
+  "close": {
+    "message": "Đóng"
+  },
+  "apply": {
+    "message": "Sử dụng hồ sơ này"
+  },
+  "applied": {
+    "message": "Đã chuyển hồ sơ"
+  },
+  "active": {
+    "message": "Đang hoạt động"
+  },
+  "delete": {
+    "message": "Xóa"
+  },
+  "remove": {
+    "message": "Xóa"
+  },
+  "rename": {
+    "message": "Đổi tên"
+  },
+  "route": {
+    "message": "Tuyến proxy"
+  },
+  "selectRoute": {
+    "message": "Chọn tuyến đường"
+  },
+  "routeMissing": {
+    "message": "Không có tuyến đường — hãy chọn tuyến đường khác"
+  },
+  "chain": {
+    "message": "Chuỗi kết nối"
+  },
+  "connection": {
+    "message": "Kết nối cục bộ"
+  },
+  "proxy": {
+    "message": "Máy chủ proxy"
+  },
+  "address": {
+    "message": "Địa chỉ"
+  },
+  "port": {
+    "message": "Cổng"
+  },
+  "scheme": {
+    "message": "Giao thức"
+  },
+  "proxyDns": {
+    "message": "SOCKS5 DNS giải quyết thông qua proxy."
+  },
+  "connectedIdle": {
+    "message": "Đã kết nối · Nhàn rỗi"
+  },
+  "bypass": {
+    "message": "Danh sách bỏ qua"
+  },
+  "bypassHelp": {
+    "message": "Mỗi dòng một tên miền, tên miền có ký tự đại diện, địa chỉ IP hoặc IP:cổng."
+  },
+  "advanced": {
+    "message": "Tùy chọn nâng cao"
+  },
+  "searchRoutes": {
+    "message": "Tìm kiếm nhóm hoặc nút"
+  },
+  "selectGroup": {
+    "message": "Chọn một nhóm"
+  },
+  "empty": {
+    "message": "Không có mục phù hợp"
+  },
+  "unavailable": {
+    "message": "Không có sẵn"
+  },
+  "groupHint": {
+    "message": "Giữ một nhóm trong 250 ms, sau đó kéo. Alt + ↑ / ↓ cũng sắp xếp lại. Các thay đổi được lưu tự động."
+  },
+  "searchSort": {
+    "message": "Xóa tìm kiếm trước khi sắp xếp."
+  },
+  "dragHint": {
+    "message": "Di chuyển lên hoặc xuống rồi thả ra để lưu. Esc hủy bỏ."
+  },
+  "orderSaved": {
+    "message": "Đã lưu đơn hàng nhóm"
+  },
+  "orderCancelled": {
+    "message": "Đã hủy đặt hàng lại"
+  },
+  "loading": {
+    "message": "Đang tải…"
+  },
+  "reading": {
+    "message": "Đọc các nút cục bộ…"
+  },
+  "nativeMissing": {
+    "message": "Thành phần cục bộ không được kết nối"
+  },
+  "retry": {
+    "message": "Thử lại"
+  },
+  "nativeHelp": {
+    "message": "Các tuyến nút yêu cầu người đồng hành Windows. Proxy trực tiếp, hệ thống và thủ công hiện có sẵn."
+  },
+  "imported": {
+    "message": "Đã nhập khẩu"
+  },
+  "v2rayn": {
+    "message": "v2rayN"
+  },
+  "allSources": {
+    "message": "Tất cả các nguồn"
+  },
+  "importNodes": {
+    "message": "Nhập proxy"
+  },
+  "importTitle": {
+    "message": "Nhập proxy"
+  },
+  "importHelp": {
+    "message": "Dán liên kết proxy, gửi đi JSON hoặc đăng ký Base64. SOCKS hỗ trợ thông tin xác thực đơn giản hoặc Base64. Sử dụng địa chỉ không có sơ đồ HTTP."
+  },
+  "importPrivacy": {
+    "message": "Chi tiết proxy và thông tin xác thực được chuyển đến đồng hành Proxy V2Route cục bộ để lưu trữ và kết nối với proxy bạn chọn. Nhà phát triển không nhận được thông tin này."
+  },
+  "import": {
+    "message": "Nhập hồ sơ"
+  },
+  "nodeCount": {
+    "message": "nút"
+  },
+  "source": {
+    "message": "Nguồn"
+  },
+  "protocol": {
+    "message": "Giao thức"
+  },
+  "useNode": {
+    "message": "Tạo hồ sơ"
+  },
+  "removeNode": {
+    "message": "Xóa nút đã nhập?"
+  },
+  "removeNodeHelp": {
+    "message": "Hồ sơ sử dụng nút này phải được chỉ định lại trước khi có thể xóa nó."
+  },
+  "deleteProfile": {
+    "message": "Xóa hồ sơ này?"
+  },
+  "deleteProfileHelp": {
+    "message": "Thao tác này chỉ xóa hồ sơ trình duyệt này. Các nút đã nhập và cấu hình v2rayN được giữ nguyên."
+  },
+  "language": {
+    "message": "Ngôn ngữ"
+  },
+  "automatic": {
+    "message": "Trình duyệt mặc định"
+  },
+  "theme": {
+    "message": "Ngoại hình"
+  },
+  "light": {
+    "message": "Ánh sáng"
+  },
+  "dark": {
+    "message": "Bóng tối"
+  },
+  "switchToEnglish": {
+    "message": "Chuyển sang tiếng Anh"
+  },
+  "switchToChinese": {
+    "message": "Chuyển sang tiếng Trung giản thể"
+  },
+  "switchToLight": {
+    "message": "Chuyển sang giao diện nhẹ"
+  },
+  "switchToDark": {
+    "message": "Chuyển sang giao diện tối"
+  },
+  "localComponent": {
+    "message": "Thành phần đồng hành"
+  },
+  "ready": {
+    "message": "Đã kết nối"
+  },
+  "stopped": {
+    "message": "Không chạy"
+  },
+  "discovery": {
+    "message": "v2rayN phát hiện"
+  },
+  "rootPath": {
+    "message": "v2rayN thư mục"
+  },
+  "corePath": {
+    "message": "Lõi proxy có thể thực thi được"
+  },
+  "optionalPath": {
+    "message": "Để trống để tự động phát hiện"
+  },
+  "pathsHelp": {
+    "message": "v2rayN được phát hiện tự động; chọn thư mục của nó nếu cần. Các nút được nhập sử dụng lõi đi kèm."
+  },
+  "savePaths": {
+    "message": "Lưu cài đặt kết nối"
+  },
+  "privacy": {
+    "message": "Cài đặt được lưu trữ cục bộ"
+  },
+  "privacyText": {
+    "message": "Các liên kết nút và thông tin xác thực vẫn nằm trong tệp đồng hành cục bộ. Lưu lượng truy cập trình duyệt đi qua proxy đã chọn của bạn đến các trang web đích; nhà phát triển không nhận được nó."
+  },
+  "privacyDetails": {
+    "message": "Quyền riêng tư và luồng dữ liệu"
+  },
+  "export": {
+    "message": "Xuất hồ sơ"
+  },
+  "about": {
+    "message": "Giới thiệu Proxy V2Route"
+  },
+  "aboutText": {
+    "message": "Chọn tuyến trình duyệt mà không cần chuyển tuyến chính của v2rayN. Các tuyến nút sử dụng đồng hành Windows và các nút của riêng bạn."
+  },
+  "licenses": {
+    "message": "Thông báo nguồn mở"
+  },
+  "version": {
+    "message": "Phiên bản"
+  },
+  "fieldRequired": {
+    "message": "Nhập tên hồ sơ."
+  },
+  "profileExists": {
+    "message": "Đã tồn tại hồ sơ có tên này."
+  },
+  "ruleHelp": {
+    "message": "Phân tách các tên miền trong một hàng bằng dấu phẩy. Hàng phù hợp đầu tiên sẽ thắng. Giữ tuyến đường mặc định có sẵn."
+  },
+  "rules": {
+    "message": "Quy tắc định tuyến"
+  },
+  "pattern": {
+    "message": "Mẫu máy chủ"
+  },
+  "target": {
+    "message": "Mục tiêu quy tắc"
+  },
+  "addRule": {
+    "message": "Thêm quy tắc"
+  },
+  "defaultRoute": {
+    "message": "Cấu hình mặc định"
+  },
+  "pacHelp": {
+    "message": "Dán nguồn PAC đáng tin cậy chứa FindProxyForURL. Tập lệnh này quyết định cách định tuyến các yêu cầu trang web."
+  },
+  "pacUrl": {
+    "message": "PAC URL"
+  },
+  "pacScript": {
+    "message": "PAC kịch bản"
+  },
+  "noSelection": {
+    "message": "Chọn một hồ sơ hoặc tạo một hồ sơ."
+  },
+  "details": {
+    "message": "Chi tiết"
+  },
+  "noNodes": {
+    "message": "Chưa có nút nào"
+  },
+  "noNodesHelp": {
+    "message": "Kết nối v2rayN hoặc nhập liên kết proxy, JSON hoặc đăng ký để bắt đầu."
+  },
+  "openSettings": {
+    "message": "Mở cài đặt"
+  },
+  "proxySettings": {
+    "message": "Cài đặt proxy"
+  },
+  "switching": {
+    "message": "Đang chuyển đổi…"
+  },
+  "updatedElsewhere": {
+    "message": "Cấu hình này đã thay đổi trong một cửa sổ khác. Mở lại nó trước khi lưu."
+  },
+  "choose": {
+    "message": "Chọn"
+  },
+  "popupIntro": {
+    "message": "Kết nối:"
+  },
+  "invalidPort": {
+    "message": "Nhập cổng từ 1 đến 65535."
+  },
+  "externalControl": {
+    "message": "Một tiện ích mở rộng hoặc chính sách khác đang kiểm soát proxy trình duyệt."
+  },
+  "noNativeRoute": {
+    "message": "Kết nối thành phần cục bộ trước khi tạo hồ sơ nút."
+  },
+  "reload": {
+    "message": "Tải lại"
+  },
+  "rulesError": {
+    "message": "Mỗi quy tắc cần một mẫu và một mục tiêu."
+  },
+  "backupDone": {
+    "message": "Đã xuất hồ sơ trình duyệt"
+  },
+  "managed": {
+    "message": "Nút được quản lý"
+  },
+  "netRegion": {
+    "message": "Khu vực mục tiêu"
+  },
+  "netNodeArea": {
+    "message": "Nút proxy"
+  },
+  "netChina": {
+    "message": "Trung Quốc đại lục"
+  },
+  "netGlobal": {
+    "message": "Toàn cầu"
+  },
+  "netAli": {
+    "message": "AliDNS"
+  },
+  "netTencent": {
+    "message": "DNSPod"
+  },
+  "netStartHelp": {
+    "message": "Chọn mục tiêu, sau đó bắt đầu thử nghiệm trực tiếp."
+  },
+  "netConsole": {
+    "message": "Chẩn đoán trực tiếp"
+  },
+  "netStop": {
+    "message": "Dừng lại"
+  },
+  "netRunning": {
+    "message": "Đang chạy"
+  },
+  "netStopped": {
+    "message": "Đã dừng"
+  },
+  "netSent": {
+    "message": "Đã gửi"
+  },
+  "netLoss": {
+    "message": "Mất mát"
+  },
+  "netAverageShort": {
+    "message": "Trung bình"
+  },
+  "netLogClear": {
+    "message": "Rõ ràng"
+  },
+  "netFinishing": {
+    "message": "Cuộc thăm dò trước đó đang hoàn tất…"
+  },
+  "netRound": {
+    "message": "Vòng"
+  },
+  "netDestination": {
+    "message": "Điểm đến"
+  },
+  "netHop": {
+    "message": "Hợp"
+  },
+  "netAddress": {
+    "message": "IP địa chỉ"
+  },
+  "netLast": {
+    "message": "Cuối cùng"
+  },
+  "netConsoleHelp": {
+    "message": "Ping / TCPing / MTR sử dụng mạng hệ thống, không phải chuỗi proxy. Thiếu ICMP câu trả lời không chứng tỏ được lưu lượng truy cập bị mất. Tải xuống sử dụng tuyến trình duyệt và giới hạn kích thước đã chọn. Quá trình kiểm tra sẽ dừng khi bạn rời khỏi hoặc ẩn trang này."
+  },
+  "netDirectShort": {
+    "message": "Mạng hệ thống"
+  },
+  "netIcmpShort": {
+    "message": "Không ICMP trả lời"
+  },
+  "netProbeError": {
+    "message": "Lỗi thăm dò cục bộ"
+  },
+  "netNoDestination": {
+    "message": "Chưa đến đích"
+  },
+  "deleteActive": {
+    "message": "Chuyển sang hệ thống và xóa"
+  },
+  "deleteActiveHelp": {
+    "message": "Hồ sơ này đang hoạt động. Xóa nó sẽ chuyển trình duyệt sang proxy hệ thống."
+  },
+  "netDownloadSize": {
+    "message": "Kích thước tải xuống"
+  },
+  "netReceived": {
+    "message": "Đã nhận được"
+  },
+  "netBest": {
+    "message": "Tốt nhất"
+  },
+  "netWorst": {
+    "message": "Tệ nhất"
+  },
+  "netStdDev": {
+    "message": "Nhà phát triển tiêu chuẩn"
+  },
+  "netLocation": {
+    "message": "Vị trí"
+  },
+  "toolWall": {
+    "message": "Kiểm tra chặn tên miền"
+  },
+  "toolSites": {
+    "message": "Các trang web phổ biến"
+  },
+  "toolGlobal": {
+    "message": "Chẩn đoán toàn cầu"
+  },
+  "toolFast": {
+    "message": "Tốc độ Netflix"
+  },
+  "toolSpeed": {
+    "message": "Kiểm tra tốc độ"
+  },
+  "toolStart": {
+    "message": "Bắt đầu"
+  },
+  "toolReady": {
+    "message": "Sẵn sàng"
+  },
+  "toolResponded": {
+    "message": "Đã phản hồi"
+  },
+  "toolNoResponse": {
+    "message": "Chưa được xác nhận"
+  },
+  "toolCacheUnsupported": {
+    "message": "Trình duyệt này không thể xóa bộ nhớ đệm theo trang web; trang đã được tải lại."
+  },
+  "toolCacheFailed": {
+    "message": "Quá trình dọn dẹp bộ đệm không hoàn tất. Đóng và thử lại."
+  },
+  "toolClose": {
+    "message": "Đóng"
+  },
+  "toolReload": {
+    "message": "Tải lại"
+  },
+  "toolLoading": {
+    "message": "Đang tải…"
+  },
+  "toolFrameError": {
+    "message": "Không thể tải. Hãy thử tải lại."
+  },
+  "toolSiteHelp": {
+    "message": "Chỉ khả năng truy cập của trình duyệt. Điều này không xác minh tài khoản hoặc quyền truy cập khu vực."
+  },
+  "toolFallback": {
+    "message": "Kiểm tra tốc độ sao lưu"
+  },
+  "toolFullscreen": {
+    "message": "Toàn màn hình"
+  },
+  "toolRestore": {
+    "message": "Thoát toàn màn hình"
+  },
+  "ipReadFailed": {
+    "message": "Đọc không thành công. 👉"
+  },
+  "ipViewSource": {
+    "message": "Xem trang nguồn"
+  },
+  "toolDownloadError": {
+    "message": "Không thể truy cập máy chủ tải xuống. Hãy thử lại."
+  },
+  "toolAccess": {
+    "message": "Cho phép truy cập trang web"
+  },
+  "toolPermission": {
+    "message": "Cho phép truy cập vào trang web này để tương thích với phiên được nhúng."
+  },
+  "toolAsia": {
+    "message": "Châu Á"
+  },
+  "toolEurope": {
+    "message": "Châu Âu"
+  },
+  "toolAmerica": {
+    "message": "Bắc Mỹ"
+  },
+  "toolGlobalHelp": {
+    "message": "Điền trước lối ra trình duyệt IP. Chọn Trung Quốc đại lục hoặc khu vực khác để so sánh đường đi; Bắt đầu gửi mục tiêu được hiển thị tới tối đa ba đầu dò Globalping."
+  },
+  "toolServiceError": {
+    "message": "Dịch vụ thử nghiệm không khả dụng. Hãy thử lại."
+  },
+  "popupOrderHelp": {
+    "message": "Giữ và kéo để sắp xếp lại. Phím Alt+mũi tên cũng di chuyển cấu hình này."
+  },
+  "popupOrderSaved": {
+    "message": "Đã lưu đơn hàng"
+  },
+  "toolGroupIP": {
+    "message": "IP bài kiểm tra"
+  },
+  "toolGroupWeb": {
+    "message": "Kiểm tra trang web"
+  },
+  "toolGroupSpeed": {
+    "message": "Tốc độ"
+  },
+  "toolCurrentIP": {
+    "message": "Lối ra hiện tại IP"
+  },
+  "toolCurrentIPLoading": {
+    "message": "Đang tải lối ra hiện tại IP…"
+  },
+  "toolCurrentIPFailed": {
+    "message": "Không thể đọc được IP hiện tại. Nhập mục tiêu."
+  },
+  "speedMode": {
+    "message": "Chế độ kiểm tra"
+  },
+  "speedBoth": {
+    "message": "Tải xuống + tải lên"
+  },
+  "speedDownload": {
+    "message": "Tải xuống"
+  },
+  "speedUpload": {
+    "message": "Tải lên"
+  },
+  "speedLatency": {
+    "message": "HTTP độ trễ"
+  },
+  "speedBudget": {
+    "message": "{n} MiB mỗi pha · Tổng cộng {total} MiB, cộng với các mẫu có độ trễ nhỏ."
+  },
+  "siteCategory": {
+    "message": "Danh mục trang web"
+  },
+  "siteAll": {
+    "message": "Tất cả các trang web"
+  },
+  "siteAI": {
+    "message": "AI"
+  },
+  "siteDevelopment": {
+    "message": "Phát triển"
+  },
+  "siteVideo": {
+    "message": "Video / âm nhạc"
+  },
+  "siteSocial": {
+    "message": "Xã hội"
+  },
+  "siteDomestic": {
+    "message": "Dịch vụ đại lục"
+  },
+  "siteServices": {
+    "message": "Dịch vụ chung"
+  },
+  "globalMethod": {
+    "message": "Loại đo"
+  },
+  "localPort": {
+    "message": "Cổng cục bộ:"
+  },
+  "chainChooseNode": {
+    "message": "Chọn nút proxy"
+  },
+  "chainTitle": {
+    "message": "Chuỗi proxy"
+  },
+  "chainSelectExit": {
+    "message": "Chọn một nút thoát cụ thể bên dưới để lưu hoặc kiểm tra chuỗi tùy chỉnh này. Theo dõi v2rayN được quản lý bởi v2rayN."
+  },
+  "chainSelectExitShort": {
+    "message": "Chọn nút thoát"
+  },
+  "chainAdd": {
+    "message": "+ Thêm lớp proxy"
+  },
+  "chainTest": {
+    "message": "Chuỗi thử nghiệm"
+  },
+  "chainMode": {
+    "message": "Chế độ chuỗi"
+  },
+  "chainBase": {
+    "message": "Proxy cơ sở"
+  },
+  "chainExit": {
+    "message": "Thoát proxy"
+  },
+  "chainEgress": {
+    "message": "Chuỗi đi ra"
+  },
+  "chainExitBadge": {
+    "message": "Thoát IP"
+  },
+  "chainEntry": {
+    "message": "Nhập chuỗi"
+  },
+  "chainTransit": {
+    "message": "Nút cầu"
+  },
+  "chainUntested": {
+    "message": "Chưa được kiểm tra"
+  },
+  "chainMissing": {
+    "message": "Nút không khả dụng"
+  },
+  "chainUnresolved": {
+    "message": "Không thể giải quyết chuỗi kế thừa. Sửa chữa cài đặt trước đó hoặc chọn chuỗi tùy chỉnh."
+  },
+  "chainUpgrade": {
+    "message": "Cập nhật đồng hành cục bộ để kích hoạt chuỗi được đặt hàng."
+  },
+  "chainBusy": {
+    "message": "Một thử nghiệm chuỗi khác đang chạy"
+  },
+  "chainOK": {
+    "message": "Có thể truy cập"
+  },
+  "chainFailed": {
+    "message": "Lỗi nhảy trong thử nghiệm này"
+  },
+  "chainBlocked": {
+    "message": "Chưa được kiểm tra · bước nhảy trước đó không thành công"
+  },
+  "chainFailureHelp": {
+    "message": "Bước nhảy này hoặc đường dẫn đến nó đã không vượt qua được. Các bước nhảy sau này chưa được thử nghiệm."
+  },
+  "chainAllOK": {
+    "message": "Tất cả các đường dẫn tích lũy đều được phản hồi"
+  },
+  "chainStopping": {
+    "message": "Dừng sau đầu dò giới hạn hiện tại…"
+  },
+  "globalWorld": {
+    "message": "Trên toàn thế giới"
+  },
+  "globalUnavailable": {
+    "message": "Mục tiêu hoặc khu vực không khả dụng. Kiểm tra mục tiêu hoặc chọn khu vực khác."
+  },
+  "globalRateLimited": {
+    "message": "Đã đạt đến giới hạn tốc độ dịch vụ. Hãy thử lại sau."
+  },
+  "globalNoResults": {
+    "message": "Dịch vụ không trả lại kết quả thăm dò. Hãy thử một khu vực khác."
+  },
+  "globalProbeFailed": {
+    "message": "Thăm dò không thành công"
+  },
+  "globalProbeOffline": {
+    "message": "Thăm dò nhé"
+  },
+  "globalIcmpCaution": {
+    "message": "Chỉ thiếu ICMP câu trả lời không chứng tỏ được việc chặn. So sánh đường đi trong đất liền và ở nước ngoài cũng như các loại bài kiểm tra khác."
+  },
+  "speedRealtime": {
+    "message": "Tốc độ trực tiếp"
+  },
+  "speedAverage": {
+    "message": "Tốc độ trung bình"
+  },
+  "ipToolsBrief": {
+    "message": "Kết quả của bên thứ ba chỉ mang tính chất tham khảo."
+  },
+  "ipReportBrief": {
+    "message": "Kết quả khác nhau tùy theo lối ra IP và chỉ mang tính chất tham khảo."
+  },
+  "toolPingPe": {
+    "message": "IP kiểm tra chặn"
+  },
+  "toolTargetIP": {
+    "message": "Mục tiêu IP"
+  },
+  "toolOpenPingPe": {
+    "message": "Mở thử nghiệm chính thức"
+  },
+  "toolInvalidIP": {
+    "message": "Nhập địa chỉ IPv4 hoặc IPv6 hợp lệ."
+  },
+  "toolInvalidPort": {
+    "message": "Nhập cổng TCP từ 1 đến 65535."
+  },
+  "toolExternalFailed": {
+    "message": "Không thể mở trang web. Hãy thử lại."
+  },
+  "ipBrowserReading": {
+    "message": "Đọc Ping0 qua trình duyệt…"
+  },
+  "ipVerifyBrowser": {
+    "message": "Mở trang xác minh"
+  },
+  "policyCenter": {
+    "message": "Quyền riêng tư, tuyên bố và câu hỏi thường gặp"
+  },
+  "policyCenterIntro": {
+    "message": "Xử lý dữ liệu cục bộ, giới hạn kiểm tra và câu trả lời chung."
+  },
+  "policyPrivacyTitle": {
+    "message": "Chính sách bảo mật"
+  },
+  "policyPrivacySummary": {
+    "message": "Hồ sơ và thông tin xác thực vẫn còn trên thiết bị này. Kiểm tra và chẩn đoán cửa sổ bật lên liên hệ với các nhà cung cấp đã nêu của họ. Không có quảng cáo hoặc phân tích hành vi."
+  },
+  "policyDeclarationTitle": {
+    "message": "Tuyên bố sử dụng và đo lường"
+  },
+  "policyDeclarationSummary": {
+    "message": "Tiện ích mở rộng này là trình quản lý tuyến cục bộ, không phải là nhà cung cấp proxy hoặc VPN. Các phép đo là các mẫu tham chiếu bị ảnh hưởng bởi các điều kiện của mạng, proxy và nhà cung cấp."
+  },
+  "policyFaqTitle": {
+    "message": "Câu hỏi thường gặp"
+  },
+  "policyFaqSummary": {
+    "message": "Cần có đồng hành Windows cho các nút cục bộ và MTR. Độ trễ có thể khác nhau giữa trình duyệt, hệ thống và các thăm dò công khai. Dừng kiểm tra hoặc xóa dữ liệu cục bộ khỏi Cài đặt."
+  },
+  "policyDetailsLink": {
+    "message": "Đọc chi tiết đầy đủ ↗"
+  },
+  "thirdPartyNotice": {
+    "message": "Thông báo nguồn mở ↗"
+  },
+  "columnResizeHelp": {
+    "message": "Kéo để thay đổi kích thước; nhấp đúp để đặt lại; sử dụng phím mũi tên để điều chỉnh"
+  },
+  "columnResize": {
+    "message": "Thay đổi kích thước cột"
+  },
+  "typeDescription_node": {
+    "message": "Kết nối thông qua nút proxy"
+  },
+  "typeDescription_manual": {
+    "message": "Nhập cài đặt proxy theo cách thủ công"
+  },
+  "typeDescription_auto": {
+    "message": "Chọn một nút bằng quy tắc"
+  },
+  "typeDescription_pac": {
+    "message": "Định tuyến lưu lượng sử dụng quy tắc PAC"
+  },
+  "appDescription": {
+    "message": "Các tuyến proxy, nút và quy tắc tên miền của trình duyệt. Các tuyến nút cần có người đồng hành Windows."
+  },
+  "core_title": {
+    "message": "Lõi proxy"
+  },
+  "core_checking": {
+    "message": "Đang kiểm tra thành phần cục bộ…"
+  },
+  "core_ready": {
+    "message": "Xray đã sẵn sàng"
+  },
+  "core_missing": {
+    "message": "Thiếu lõi proxy"
+  },
+  "core_external": {
+    "message": "Lõi tùy chỉnh: chưa được xác minh"
+  },
+  "core_corrupt": {
+    "message": "Xray tổng kiểm tra không khớp — cần sửa chữa"
+  },
+  "core_unreadable": {
+    "message": "Không thể kiểm tra tệp lõi"
+  },
+  "core_intro": {
+    "message": "Gói Windows hoàn chỉnh bao gồm Xray. v2rayN là tùy chọn."
+  },
+  "core_verify": {
+    "message": "Kiểm tra lại"
+  },
+  "core_install": {
+    "message": "Cài đặt/sửa chữa lõi"
+  },
+  "core_installing": {
+    "message": "Đang tải xuống và xác minh…"
+  },
+  "core_done": {
+    "message": "Cốt lõi đã được xác minh và sẵn sàng"
+  },
+  "core_help": {
+    "message": "Sửa chữa sử dụng bản phát hành chính thức Xray được ghim và xác minh tổng kiểm tra của nó. Các kết nối hiện tại vẫn chạy."
+  },
+  "core_absent": {
+    "message": "Cài đặt thành phần cục bộ một lần, sau đó quay lại đây để kiểm tra lõi."
+  },
+  "core_download": {
+    "message": "Hướng dẫn cài đặt"
+  },
+  "core_absentHelp": {
+    "message": "Sử dụng gói Windows phù hợp hoặc làm theo hướng dẫn để xây dựng gói từ nguồn, sau đó chạy thiết lập."
+  },
+  "core_failed": {
+    "message": "Hoạt động cốt lõi không thành công. Hãy thử lại hoặc sử dụng gói Windows hoàn chỉnh."
+  },
+  "core_version": {
+    "message": "Phiên bản"
+  },
+  "error_ACTIVE_PROFILE_DELETE": {
+    "message": "Chuyển sang cấu hình khác trước khi xóa"
+  },
+  "error_BACKUP_BINDING_TYPE": {
+    "message": "Chỉ cấu hình proxy mới có thể có liên kết tuyến"
+  },
+  "error_BACKUP_FORMAT3_REQUIRED": {
+    "message": "Quy tắc nút yêu cầu bản sao lưu di động định dạng 3"
+  },
+  "error_BACKUP_INDEPENDENT_PATH_REQUIRED": {
+    "message": "Bản sao lưu phải chứa đường dẫn nút độc lập"
+  },
+  "error_BACKUP_INTERNAL_BINDINGS": {
+    "message": "Bản sao lưu chứa liên kết nội bộ"
+  },
+  "error_BACKUP_MESSAGE_LIMIT": {
+    "message": "Bản sao lưu nút vượt giới hạn thông điệp của ứng dụng đồng hành"
+  },
+  "error_BACKUP_NODES_INCOMPLETE": {
+    "message": "Bản sao lưu nút chưa đầy đủ"
+  },
+  "error_BACKUP_NODE_MISSING": {
+    "message": "Bản sao lưu thiếu nút bắt buộc"
+  },
+  "error_BACKUP_NODE_PATHS_LIMIT": {
+    "message": "Bản sao lưu hỗ trợ tối đa {limit} đường dẫn nút"
+  },
+  "error_BACKUP_PATH_INCOMPLETE": {
+    "message": "Đường dẫn nút trong bản sao lưu chưa đầy đủ"
+  },
+  "error_BACKUP_PROFILES_LIMIT": {
+    "message": "Bản sao lưu hỗ trợ tối đa {limit} cấu hình"
+  },
+  "error_BACKUP_PROXY_CONFLICT": {
+    "message": "Bản sao lưu có các thiết lập proxy xung đột"
+  },
+  "error_BACKUP_SIZE_LIMIT": {
+    "message": "Bản sao lưu vượt quá {limit} MB"
+  },
+  "error_BACKUP_TRANSFER_UNAVAILABLE": {
+    "message": "Cập nhật hoặc sửa ứng dụng đồng hành để chuyển bản sao lưu nút."
+  },
+  "error_BACKUP_UNUSED_NODES": {
+    "message": "Bản sao lưu chứa các nút không được tham chiếu"
+  },
+  "error_BODY_TOO_LARGE": {
+    "message": "Phản hồi đăng ký vượt kích thước cho phép."
+  },
+  "error_BROWSER_API_FAILED": {
+    "message": "Thao tác trình duyệt thất bại. Xem chi tiết kỹ thuật."
+  },
+  "error_BROWSER_PROXY_RESTORE_FAILED": {
+    "message": "Thao tác thất bại và không thể khôi phục proxy trước đó của trình duyệt"
+  },
+  "error_BROWSER_SCHEDULING_UNAVAILABLE": {
+    "message": "Không thể sử dụng tính năng lập lịch của trình duyệt."
+  },
+  "error_BUSY": {
+    "message": "Một thao tác khác đang chạy. Hãy thử lại sau giây lát."
+  },
+  "error_CHAIN_PROBE_FAILED": {
+    "message": "Kiểm tra chuỗi thất bại"
+  },
+  "error_COMPANION_BULK_RELEASE_REQUIRED": {
+    "message": "Nâng cấp ứng dụng đồng hành cục bộ để quản lý an toàn nhiều quy tắc nút"
+  },
+  "error_COMPANION_CHAINS_REQUIRED": {
+    "message": "Nâng cấp ứng dụng đồng hành cục bộ để bật chuỗi có thứ tự"
+  },
+  "error_COMPANION_MESSAGE_LIMIT": {
+    "message": "Thiết lập vượt giới hạn thông điệp của ứng dụng đồng hành"
+  },
+  "error_COMPANION_OPERATION_FAILED": {
+    "message": "Thao tác của ứng dụng đồng hành cục bộ thất bại. Xem chi tiết kỹ thuật."
+  },
+  "error_COMPANION_UNAVAILABLE": {
+    "message": "Cài đặt hoặc sửa V2Route Companion"
+  },
+  "error_CONNECTION_CLOSED": {
+    "message": "Kết nối đóng trước khi kiểm tra hoàn tất."
+  },
+  "error_CORE_INSTALL_FAILED": {
+    "message": "Cài đặt lõi thất bại. Xem chi tiết kỹ thuật."
+  },
+  "error_CORE_OWNERSHIP_FAILED": {
+    "message": "Không thể điều khiển an toàn lõi kiểm tra cách ly. Đã dừng kiểm tra."
+  },
+  "error_CORE_START_FAILED": {
+    "message": "Không thể khởi động lõi kiểm tra cách ly. Kiểm tra việc cài đặt ứng dụng đồng hành và lõi."
+  },
+  "error_CORE_START_TIMEOUT": {
+    "message": "Lõi kiểm tra cách ly không sẵn sàng trong thời gian cho phép."
+  },
+  "error_CORE_STATUS_UNAVAILABLE": {
+    "message": "Không có trạng thái lõi. Xem chi tiết kỹ thuật."
+  },
+  "error_CORE_VALIDATION_FAILED": {
+    "message": "Xray không thể xác thực các nút đã nhập. Kiểm tra thiết lập và thử lại."
+  },
+  "error_DETACH_PORT_CONFLICT": {
+    "message": "Cổng được quản lý sẽ được giải phóng. Nhập proxy thủ công khác"
+  },
+  "error_DETACH_PROXY_REQUIRED": {
+    "message": "Nhập proxy thủ công thay thế trước khi hủy liên kết"
+  },
+  "error_DNS_BUSY": {
+    "message": "Tra cứu DNS đang bận. Hãy thử lại sau giây lát."
+  },
+  "error_DNS_FAILED": {
+    "message": "Tra cứu DNS thất bại. Kiểm tra địa chỉ và kết nối mạng."
+  },
+  "error_ENCODING_UNSUPPORTED": {
+    "message": "Đăng ký sử dụng mã hóa nội dung không được hỗ trợ."
+  },
+  "error_FIREFOX_PRIVATE_ACCESS_REQUIRED": {
+    "message": "Cho phép V2Route trong cửa sổ riêng tư ở phần chi tiết tiện ích trước khi đổi thiết lập proxy"
+  },
+  "error_FOLDER_UNAVAILABLE": {
+    "message": "Không thể truy cập thư mục; kiểm tra đường dẫn, quyền truy cập và phiên bản ứng dụng đồng hành"
+  },
+  "error_GROUP_LIMIT": {
+    "message": "Đã đạt giới hạn nhóm. Xóa nhóm không dùng và thử lại."
+  },
+  "error_GROUP_NOT_EDITABLE": {
+    "message": "Không thể chỉnh sửa nhóm nguồn này tại đây."
+  },
+  "error_GROUP_NOT_FOUND": {
+    "message": "Nhóm đã chọn không còn tồn tại. Hãy chọn nhóm khác."
+  },
+  "error_HTTP_ENCODING": {
+    "message": "Máy chủ kiểm tra trả về mã hóa không được hỗ trợ."
+  },
+  "error_HTTP_LENGTH": {
+    "message": "Kích thước phản hồi kiểm tra không khớp kích thước yêu cầu."
+  },
+  "error_HTTP_RESPONSE_TOO_LARGE": {
+    "message": "Phản hồi kiểm tra vượt kích thước cho phép."
+  },
+  "error_HTTP_STATUS": {
+    "message": "Máy chủ kiểm tra trả về trạng thái HTTP không thành công."
+  },
+  "error_IMPORTED_PROXY_MISSING": {
+    "message": "Ứng dụng đồng hành không trả về proxy đã nhập"
+  },
+  "error_IMPORTED_RULE_PATH_CONFLICT": {
+    "message": "Các nút đã nhập dẫn đến đường dẫn quy tắc xung đột"
+  },
+  "error_IMPORT_CLEANUP_FAILED": {
+    "message": "Nhập thất bại; không thể giải phóng một số nút hoặc cổng tạm thời. Các cấu hình hiện có được giữ lại"
+  },
+  "error_IMPORT_PROFILE_NAME_CONFLICT": {
+    "message": "Tên cấu hình trùng lặp hoặc không hợp lệ"
+  },
+  "error_INCOMPLETE_RESPONSE": {
+    "message": "Phản hồi đăng ký chưa đầy đủ. Hãy thử lại."
+  },
+  "error_INVALID_BACKUP": {
+    "message": "Bản sao lưu V2Route không hợp lệ"
+  },
+  "error_INVALID_BACKUP_NODE": {
+    "message": "Nút sao lưu không hợp lệ hoặc trùng lặp"
+  },
+  "error_INVALID_BACKUP_NODES": {
+    "message": "Các nút sao lưu không hợp lệ"
+  },
+  "error_INVALID_BACKUP_PATH": {
+    "message": "Đường dẫn sao lưu không hợp lệ"
+  },
+  "error_INVALID_BYPASS_ENTRY": {
+    "message": "Mục bỏ qua proxy không hợp lệ"
+  },
+  "error_INVALID_BYPASS_LIST": {
+    "message": "Danh sách bỏ qua proxy không hợp lệ"
+  },
+  "error_INVALID_CHAIN": {
+    "message": "Chuỗi có thứ tự không hợp lệ"
+  },
+  "error_INVALID_CHAIN_PROBE": {
+    "message": "Yêu cầu kiểm tra chuỗi không hợp lệ"
+  },
+  "error_INVALID_COMPANION_RESPONSE": {
+    "message": "Ứng dụng đồng hành cục bộ trả về phản hồi không hợp lệ. Hãy cập nhật hoặc sửa ứng dụng."
+  },
+  "error_INVALID_CONTENT": {
+    "message": "Phản hồi đăng ký không chứa nội dung hợp lệ."
+  },
+  "error_INVALID_DOMAIN_PATTERNS": {
+    "message": "Nhập các mẫu tên miền cách nhau bằng dấu phẩy; đặt mỗi URL trên một hàng riêng"
+  },
+  "error_INVALID_ENCODING": {
+    "message": "Phản hồi đăng ký không phải văn bản UTF-8 hợp lệ."
+  },
+  "error_INVALID_FOLDER_REQUEST": {
+    "message": "Yêu cầu thư mục không hợp lệ"
+  },
+  "error_INVALID_GROUP_ACTION": {
+    "message": "Thao tác nhóm này không được hỗ trợ."
+  },
+  "error_INVALID_HOP_INDEX": {
+    "message": "Chỉ mục chặng không hợp lệ"
+  },
+  "error_INVALID_LEGACY_PREDECESSOR": {
+    "message": "Nút trước kiểu cũ không hợp lệ"
+  },
+  "error_INVALID_LIBRARY_COMMAND": {
+    "message": "Lệnh thư viện nút này không được hỗ trợ."
+  },
+  "error_INVALID_LIBRARY_REQUEST": {
+    "message": "Yêu cầu thư viện không hợp lệ"
+  },
+  "error_INVALID_NAME": {
+    "message": "Nhập tên có 1–128 ký tự hiển thị và không có ký tự điều khiển."
+  },
+  "error_INVALID_NETWORK_TEST": {
+    "message": "Kiểm tra mạng không hợp lệ"
+  },
+  "error_INVALID_NODE_IMPORT_RESPONSE": {
+    "message": "Phản hồi nhập nút không hợp lệ"
+  },
+  "error_INVALID_PREDECESSOR": {
+    "message": "Nút trước của tuyến này không hợp lệ"
+  },
+  "error_INVALID_PROFILE_NAME": {
+    "message": "Tên cấu hình không hợp lệ"
+  },
+  "error_INVALID_PROFILE_REFERENCE": {
+    "message": "Tham chiếu cấu hình không hợp lệ"
+  },
+  "error_INVALID_PROXY_AUTH": {
+    "message": "Xác thực proxy không hợp lệ"
+  },
+  "error_INVALID_PROXY_CREDENTIALS": {
+    "message": "Thông tin đăng nhập proxy không hợp lệ"
+  },
+  "error_INVALID_PROXY_ENDPOINT": {
+    "message": "Nhập máy chủ và cổng proxy hợp lệ"
+  },
+  "error_INVALID_PROXY_HOST": {
+    "message": "Nhập tên DNS hoặc địa chỉ IP không kèm cổng, URL, đường dẫn hay truy vấn"
+  },
+  "error_INVALID_ROUTE": {
+    "message": "Tuyến không hợp lệ"
+  },
+  "error_INVALID_ROUTE_SETTINGS": {
+    "message": "Thiết lập tuyến không hợp lệ"
+  },
+  "error_INVALID_RULES": {
+    "message": "Quy tắc không hợp lệ"
+  },
+  "error_INVALID_RULE_TARGET": {
+    "message": "Chọn một nút hoặc cấu hình hợp lệ cho mỗi quy tắc"
+  },
+  "error_INVALID_SUBSCRIPTION": {
+    "message": "Đăng ký không hợp lệ"
+  },
+  "error_INVALID_SUBSCRIPTION_REQUEST": {
+    "message": "Yêu cầu đăng ký không hợp lệ"
+  },
+  "error_INVALID_SUBSCRIPTION_SETTINGS": {
+    "message": "Thiết lập đăng ký không hợp lệ. Kiểm tra khoảng thời gian cập nhật và chính sách kết nối."
+  },
+  "error_INVALID_SYSTEM_PROXY_RESPONSE": {
+    "message": "Phản hồi proxy hệ thống không hợp lệ; cập nhật hoặc sửa ứng dụng đồng hành"
+  },
+  "error_INVALID_TRANSPORT": {
+    "message": "Thiết lập kết nối của đăng ký không hợp lệ."
+  },
+  "error_INVALID_URL": {
+    "message": "Nhập URL đăng ký HTTP(S) hợp lệ không kèm tên người dùng hoặc mật khẩu."
+  },
+  "error_LIBRARY_CHANGED": {
+    "message": "Thư viện nút đã thay đổi ở cửa sổ khác. Làm mới và thử lại."
+  },
+  "error_MANUAL_CHAIN_UNSUPPORTED": {
+    "message": "Proxy thủ công không chấp nhận chuỗi nút"
+  },
+  "error_MANUAL_PROXY_CLEANUP_FAILED": {
+    "message": "Lưu thất bại; một proxy nhập tạm thời vẫn còn trong thư viện nút"
+  },
+  "error_NATIVE_BINDING_ID": {
+    "message": "Mã định danh liên kết tuyến không hợp lệ."
+  },
+  "error_NATIVE_BINDING_UNKNOWN": {
+    "message": "Liên kết tuyến không tồn tại."
+  },
+  "error_NATIVE_BUTTON_NAME": {
+    "message": "Tên nút bấm phải chứa 1–128 ký tự hiển thị."
+  },
+  "error_NATIVE_CATALOG_UNREADABLE": {
+    "message": "Không thể đọc cấu hình v2rayN."
+  },
+  "error_NATIVE_CORE_MISSING": {
+    "message": "Xray không khả dụng. Hãy cài gói ứng dụng đồng hành."
+  },
+  "error_NATIVE_GROUP_ID_COLLISION": {
+    "message": "Các mã định danh nhóm xung đột."
+  },
+  "error_NATIVE_GROUP_ORDER": {
+    "message": "Thứ tự nhóm không hợp lệ."
+  },
+  "error_NATIVE_NODE_ID_COLLISION": {
+    "message": "Các mã định danh nút xung đột."
+  },
+  "error_NATIVE_PREDECESSOR_AMBIGUOUS": {
+    "message": "Tên nút trước bị thiếu hoặc trùng lặp. Chọn một nút trước cụ thể."
+  },
+  "error_NATIVE_PREDECESSOR_CYCLE": {
+    "message": "Chuỗi nút trước có vòng lặp hoặc vượt quá sáu nút."
+  },
+  "error_NATIVE_PREDECESSOR_INVALID": {
+    "message": "Chọn proxy trước hợp lệ."
+  },
+  "error_NATIVE_PREDECESSOR_MISSING": {
+    "message": "Nút trước đã chọn không còn tồn tại. Chọn nút khác."
+  },
+  "error_NATIVE_PREDECESSOR_SETTINGS": {
+    "message": "Thiết lập nút trước không hợp lệ."
+  },
+  "error_NATIVE_ROUTE_INVALID": {
+    "message": "Chọn tuyến hợp lệ."
+  },
+  "error_NATIVE_ROUTE_MISSING": {
+    "message": "Tuyến này không còn tồn tại. Chọn tuyến khác."
+  },
+  "error_NATIVE_ROUTE_PORTS": {
+    "message": "Phân bổ cổng tuyến không hợp lệ."
+  },
+  "error_NATIVE_ROUTE_UNAVAILABLE": {
+    "message": "Tuyến đã chọn không khả dụng. Xem chi tiết kỹ thuật."
+  },
+  "error_NATIVE_SETTINGS_FORMAT": {
+    "message": "Định dạng thiết lập không hợp lệ."
+  },
+  "error_NATIVE_SETTINGS_REVISION": {
+    "message": "Bản sửa đổi thiết lập không hợp lệ."
+  },
+  "error_NATIVE_SUCCESSOR_UNSUPPORTED": {
+    "message": "Nhóm này sử dụng proxy sau không được hỗ trợ."
+  },
+  "error_NATIVE_UNSUPPORTED_CUSTOM": {
+    "message": "Phiên bản này không hỗ trợ cấu hình đầu ra tùy chỉnh."
+  },
+  "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
+    "message": "Phiên bản này không hỗ trợ Hysteria2."
+  },
+  "error_NATIVE_UNSUPPORTED_TUIC": {
+    "message": "Phiên bản này không tích hợp lõi sing-box mà TUIC yêu cầu."
+  },
+  "error_NATIVE_UNSUPPORTED_TYPE": {
+    "message": "Loại tuyến này không được hỗ trợ."
+  },
+  "error_NATIVE_V2RAYN_PORT": {
+    "message": "Cổng v2rayN cục bộ không hợp lệ."
+  },
+  "error_NATIVE_V2RAYN_UNAVAILABLE": {
+    "message": "v2rayN không khả dụng. Chọn một nút đã nhập."
+  },
+  "error_NETWORK_FAILED": {
+    "message": "Yêu cầu mạng thất bại. Kiểm tra kết nối và thử lại."
+  },
+  "error_NETWORK_TEST_FAILED": {
+    "message": "Chẩn đoán mạng thất bại. Xem chi tiết kỹ thuật."
+  },
+  "error_NODE_LIMIT": {
+    "message": "Thao tác này sẽ vượt giới hạn nút. Xóa các nút không dùng và thử lại."
+  },
+  "error_NODE_MAPPING_INCOMPLETE": {
+    "message": "Ánh xạ nút chưa đầy đủ"
+  },
+  "error_NODE_NOT_FOUND": {
+    "message": "Nút đã chọn không còn tồn tại. Chọn nút khác."
+  },
+  "error_NOT_DUE": {
+    "message": "Chưa đến thời điểm cập nhật theo lịch tiếp theo."
+  },
+  "error_PAC_ENTRY_REQUIRED": {
+    "message": "Nhập mã nguồn PAC có FindProxyForURL"
+  },
+  "error_PAC_FUNCTION_REQUIRED": {
+    "message": "Định nghĩa hàm FindProxyForURL đồng bộ, biến hàm hoặc phép gán ở cấp cao nhất"
+  },
+  "error_PAC_PARSER_UNAVAILABLE": {
+    "message": "Bộ phân tích PAC đi kèm không khả dụng; cài lại tiện ích"
+  },
+  "error_PAC_RULE_TARGET_UNSUPPORTED": {
+    "message": "Quy tắc tự động không thể nhắm tới cấu hình PAC nội tuyến"
+  },
+  "error_PAC_SOURCE_LIMIT": {
+    "message": "Nhập mã nguồn PAC tối đa {limit} ký tự"
+  },
+  "error_PAC_SYNTAX_INVALID": {
+    "message": "Cú pháp PAC không hợp lệ"
+  },
+  "error_PAC_SYNTAX_LOCATION": {
+    "message": "Cú pháp PAC không hợp lệ tại dòng {line}, cột {column}"
+  },
+  "error_PARTIAL_TRANSFER": {
+    "message": "Truyền dữ liệu kiểm tra kết thúc trước khi nhận đủ dữ liệu."
+  },
+  "error_PRIVATE_DIRECTORY_FAILED": {
+    "message": "Không thể bảo vệ thư mục kiểm tra riêng tư. Đã dừng kiểm tra."
+  },
+  "error_PRIVATE_TARGET": {
+    "message": "Không cho phép yêu cầu đăng ký tới địa chỉ riêng tư hoặc cục bộ."
+  },
+  "error_PROFILE_NOT_FOUND": {
+    "message": "Không tìm thấy cấu hình"
+  },
+  "error_PROFILE_REFERENCE_CYCLE": {
+    "message": "Tham chiếu cấu hình tạo vòng lặp"
+  },
+  "error_PROFILE_REFERENCE_DEPTH": {
+    "message": "Quy tắc tự động vượt độ sâu tối đa {limit}"
+  },
+  "error_PROFILE_REFERENCE_MISSING": {
+    "message": "Cấu hình được tham chiếu không tồn tại: {name}"
+  },
+  "error_PROFILE_SAVE_RESTORE_FAILED": {
+    "message": "Lưu thất bại và cần kiểm tra việc khôi phục tuyến"
+  },
+  "error_PROXY_AUTH_REQUIRED": {
+    "message": "Proxy đăng ký yêu cầu xác thực mà yêu cầu này không thể cung cấp."
+  },
+  "error_PROXY_CONTROL_UNAVAILABLE": {
+    "message": "Tiện ích hoặc chính sách khác đang điều khiển proxy"
+  },
+  "error_PROXY_DNS_REQUIRED": {
+    "message": "Trong V2Route, DNS SOCKS5 được phân giải qua proxy"
+  },
+  "error_PROXY_FAILED": {
+    "message": "Kết nối proxy thất bại. Kiểm tra tuyến đã chọn."
+  },
+  "error_PROXY_PROFILE_REQUIRED": {
+    "message": "Chọn cấu hình proxy"
+  },
+  "error_PROXY_ROLLBACK_REFUSED": {
+    "message": "Trình duyệt từ chối hoàn nguyên proxy"
+  },
+  "error_PROXY_SETTING_REFUSED": {
+    "message": "Trình duyệt từ chối thiết lập proxy"
+  },
+  "error_PROXY_UNAVAILABLE": {
+    "message": "Proxy đã chọn không khả dụng. Kiểm tra tuyến hiện tại."
+  },
+  "error_PROXY_USERNAME_REQUIRED": {
+    "message": "Nhập tên người dùng proxy"
+  },
+  "error_RECOVERY_BINDINGS_LIMIT": {
+    "message": "Khôi phục hỗ trợ tối đa {limit} liên kết nút. Mở và lưu riêng từng cấu hình được tham chiếu."
+  },
+  "error_REDIRECT_LIMIT": {
+    "message": "Đăng ký chuyển hướng quá nhiều lần. Kiểm tra URL."
+  },
+  "error_REFERENCED_PROFILE_DELETE": {
+    "message": "Cấu hình này được tham chiếu bởi một quy tắc tự động"
+  },
+  "error_REMOTE_PAC_UNSUPPORTED": {
+    "message": "Dùng mã nguồn PAC nội tuyến; PAC từ xa không được hỗ trợ"
+  },
+  "error_ROUTE_PORT_UNAVAILABLE": {
+    "message": "Chưa phân bổ cổng nào"
+  },
+  "error_ROUTE_RECOVERY_RESTORE_FAILED": {
+    "message": "Khôi phục tuyến thất bại và cần kiểm tra việc phục hồi"
+  },
+  "error_ROUTE_REVISION_CONFLICT": {
+    "message": "Tuyến đã thay đổi ở cửa sổ khác. Hãy làm mới trước"
+  },
+  "error_ROUTE_SAVE_ROLLBACK_FAILED": {
+    "message": "Lưu tuyến thất bại và cần kiểm tra việc hoàn nguyên"
+  },
+  "error_ROUTE_UNAVAILABLE": {
+    "message": "Tuyến kiểm tra không khả dụng. Kiểm tra thiết lập nút và nút trước."
+  },
+  "error_RULE_BINDING_MISSING": {
+    "message": "Thiếu liên kết quy tắc nút. Mở lại và lưu cấu hình tự động: {name}"
+  },
+  "error_RULE_NODES_LIMIT": {
+    "message": "Quy tắc tự động hỗ trợ tối đa {limit} nút khác nhau"
+  },
+  "error_RULE_NODE_CHANGED": {
+    "message": "Quy tắc nút không khả dụng hoặc đã thay đổi. Khôi phục nút hoặc chọn nút khác rồi lưu: {name}"
+  },
+  "error_RULE_PATH_CONFLICT": {
+    "message": "Các đường dẫn quy tắc nút xung đột"
+  },
+  "error_RULE_PATTERNS_LIMIT": {
+    "message": "Quy tắc tự động hỗ trợ tổng cộng tối đa {limit} mẫu khớp"
+  },
+  "error_RULE_PORT_UNAVAILABLE": {
+    "message": "Cổng quy tắc nút không khả dụng"
+  },
+  "error_RULE_REVISION_CONFLICT": {
+    "message": "Quy tắc nút đã thay đổi ở cửa sổ khác. Hãy làm mới trước"
+  },
+  "error_SELECTED_NODE_UNAVAILABLE": {
+    "message": "Nút đã chọn không khả dụng. Khôi phục hoặc chọn nút khác"
+  },
+  "error_SOCKS_FAILED": {
+    "message": "Không thể thiết lập kết nối SOCKS."
+  },
+  "error_STARTUP_FALLBACK_REFUSED": {
+    "message": "Trình duyệt từ chối proxy dự phòng khi khởi động."
+  },
+  "error_SUBSCRIPTION_CHANGED": {
+    "message": "Đăng ký đã thay đổi trong lúc cập nhật. Làm mới và thử lại."
+  },
+  "error_SUBSCRIPTION_HTTP_STATUS": {
+    "message": "Máy chủ đăng ký trả về HTTP {status}."
+  },
+  "error_SUBSCRIPTION_LIMIT": {
+    "message": "Đã đạt giới hạn đăng ký. Xóa đăng ký không dùng và thử lại."
+  },
+  "error_SUBSCRIPTION_NOT_FOUND": {
+    "message": "Đăng ký đã chọn không còn tồn tại."
+  },
+  "error_SYSTEM_PROXY_SNAPSHOT_UNAVAILABLE": {
+    "message": "Không có ảnh chụp trạng thái proxy hệ thống đã áp dụng."
+  },
+  "error_SYSTEM_PROXY_TIMEOUT": {
+    "message": "Hết thời gian đọc proxy hệ thống"
+  },
+  "error_SYSTEM_PROXY_UNAVAILABLE": {
+    "message": "Proxy hệ thống không khả dụng. Xem chi tiết kỹ thuật."
+  },
+  "error_TIMEOUT": {
+    "message": "Yêu cầu hết thời gian chờ. Kiểm tra kết nối và thử lại."
+  },
+  "error_TLS_DOWNGRADE": {
+    "message": "Đăng ký chuyển hướng từ HTTPS sang HTTP nên đã bị chặn."
+  },
+  "error_TLS_FAILED": {
+    "message": "Không thể xác minh kết nối an toàn. Kiểm tra máy chủ và chứng chỉ."
+  },
+  "error_UNSAFE_TEMP_PATH": {
+    "message": "Thư mục kiểm tra tạm thời không an toàn. Đã dừng kiểm tra."
+  },
+  "error_UNSUPPORTED_LIBRARY_REQUEST": {
+    "message": "Yêu cầu thư viện không được hỗ trợ"
+  },
+  "error_UNSUPPORTED_PROFILE_TYPE": {
+    "message": "Loại cấu hình không được hỗ trợ"
+  },
+  "error_UNSUPPORTED_REQUEST": {
+    "message": "Yêu cầu không được hỗ trợ"
+  },
+  "error_UNSUPPORTED_RULE_CONDITION": {
+    "message": "Chỉ hỗ trợ quy tắc ký tự đại diện cho máy chủ và URL"
+  },
+  "error_UPDATE_FAILED": {
+    "message": "Cập nhật đăng ký thất bại. Các nút hiện có được giữ lại."
+  },
+  "error_VALIDATION_FAILED": {
+    "message": "Không thể xác thực nội dung đăng ký. Các nút hiện có được giữ lại."
+  },
+  "nativeUnnamedNode": {
+    "message": "Nút chưa đặt tên"
+  },
+  "nativeProtocolCustom": {
+    "message": "Tùy chỉnh"
+  },
+  "nativeProtocolOutbound": {
+    "message": "Đầu ra tùy chỉnh"
+  },
+  "nativeProtocolGroup": {
+    "message": "Nhóm chính sách"
+  },
+  "nativeProtocolChain": {
+    "message": "Chuỗi proxy"
+  },
+  "nativeProtocolUnknown": {
+    "message": "Loại không được hỗ trợ"
+  },
+  "languageLoadFailed": {
+    "message": "Không thể tải ngôn ngữ đã chọn. Hãy thử lại."
+  },
+  "invalidBackupJSON": {
+    "message": "Bản sao lưu không phải JSON hợp lệ."
+  },
+  "noticeBodyLanguages": {
+    "message": "Toàn văn chính sách có bằng tiếng Anh và tiếng Trung giản thể."
+  },
+  "policyRules": {
+    "message": "Quy tắc định tuyến proxy"
+  },
+  "policyPriority": {
+    "message": "Thứ tự: địa chỉ bỏ qua proxy → quy tắc khớp đầu tiên → tuyến mặc định."
+  },
+  "policyDirectHelp": {
+    "message": "Địa chỉ không khớp sẽ kết nối trực tiếp. Nút Trực tiếp trong cửa sổ bật lên cũng dùng các quy tắc này."
+  },
+  "policySystemHelp": {
+    "message": "Địa chỉ không khớp dùng proxy hệ thống. Nút Hệ thống trong cửa sổ bật lên cũng dùng các quy tắc này."
+  },
+  "policyEmpty": {
+    "message": "Chưa có quy tắc. Dùng tuyến mặc định."
+  },
+  "policyAddressHelp": {
+    "message": "Tên miền, tên miền có ký tự đại diện, IP hoặc IP:cổng. Quy tắc IP khớp IP trong URL, không tra cứu DNS."
+  },
+  "policyMoveUp": {
+    "message": "Chuyển quy tắc lên"
+  },
+  "policyMoveDown": {
+    "message": "Chuyển quy tắc xuống"
+  }
+}

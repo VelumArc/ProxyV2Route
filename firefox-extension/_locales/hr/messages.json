@@ -1,0 +1,2150 @@
+{
+  "ruleTargetUnavailable": {
+    "message": "Nedostupan cilj"
+  },
+  "rulePatternPlaceholder": {
+    "message": "example.com, *.example.org, 192.0.2.1:8443"
+  },
+  "rulePatternHelp": {
+    "message": "Adrese odvojite zarezima. Svaki URL uzorak u zaseban redak. PAC možda ne vidi HTTPS putanje."
+  },
+  "defaultChoice_direct": {
+    "message": "Povežite se bez proxyja"
+  },
+  "defaultChoice_system": {
+    "message": "Koristi postavke proxyja sustava"
+  },
+  "defaultChoice_node": {
+    "message": "Koristi odabrani čvor ovog profila"
+  },
+  "defaultChoice_manual": {
+    "message": "Koristite proxy postavke ovog profila"
+  },
+  "defaultChoice_auto": {
+    "message": "Primijeni pravila usmjeravanja ovog profila"
+  },
+  "nlHttpsLatency": {
+    "message": "HTTPS odgovor"
+  },
+  "nlLatencyMethod": {
+    "message": "Cloudflare · Najmanje dva odgovora · Ponovna upotreba veze kada je dostupna"
+  },
+  "nlLatencyFast": {
+    "message": "Brzo"
+  },
+  "nlLatencyModerate": {
+    "message": "Umjereno"
+  },
+  "nlLatencySlow": {
+    "message": "Sporo"
+  },
+  "nlSortName": {
+    "message": "Ime"
+  },
+  "nlSortLatency": {
+    "message": "Latencija: od niske do visoke"
+  },
+  "nlSortDownload": {
+    "message": "Preuzimanje: visoko prema niže"
+  },
+  "nlSortUpload": {
+    "message": "Prijenos: visoko prema nisko"
+  },
+  "nlSingle": {
+    "message": "Jedan čvor"
+  },
+  "nlGroupBatch": {
+    "message": "Grupa / serija"
+  },
+  "nlTestScope": {
+    "message": "Opseg testa"
+  },
+  "nlCurrentNode": {
+    "message": "Odabrani čvor"
+  },
+  "nlCurrentGroup": {
+    "message": "Odabrana grupa"
+  },
+  "nlChooseNode": {
+    "message": "Odaberite čvor na popisu"
+  },
+  "nlStart": {
+    "message": "Pokreni test"
+  },
+  "nlService": {
+    "message": "Usluga testiranja"
+  },
+  "nlMeasured": {
+    "message": "izmjereno"
+  },
+  "nlMeanLatency": {
+    "message": "Prosječna latencija"
+  },
+  "nlGroupBySource": {
+    "message": "Prema izvornoj grupi"
+  },
+  "nlPreviousPage": {
+    "message": "Prethodna stranica"
+  },
+  "nlNextPage": {
+    "message": "Sljedeća stranica"
+  },
+  "nlName": {
+    "message": "Ime"
+  },
+  "nlEdit": {
+    "message": "Uredi"
+  },
+  "nlStop": {
+    "message": "Stani"
+  },
+  "nlConfirm": {
+    "message": "Potvrdi"
+  },
+  "nlAllNodes": {
+    "message": "Svi čvorovi"
+  },
+  "nlNodeResults": {
+    "message": "Rezultati čvora"
+  },
+  "nlTestCenter": {
+    "message": "Ispitni centar"
+  },
+  "nlNewGroup": {
+    "message": "Nova grupa"
+  },
+  "nlRenameGroup": {
+    "message": "Preimenuj grupu"
+  },
+  "nlRemoveGroup": {
+    "message": "Ukloni grupu"
+  },
+  "nlRemoveGroupHelp": {
+    "message": "Zadržite svaki čvor i pretplatu i premjestite ih u Uvezene čvorove."
+  },
+  "nlNode": {
+    "message": "Čvor"
+  },
+  "nlStatus": {
+    "message": "Status"
+  },
+  "nlActions": {
+    "message": "Radnje"
+  },
+  "nlSort": {
+    "message": "Poredaj samo ovu tablicu"
+  },
+  "nlSelected": {
+    "message": "odabrano"
+  },
+  "nlTestNode": {
+    "message": "Test"
+  },
+  "nlProfileShort": {
+    "message": "Profil"
+  },
+  "nlQuick": {
+    "message": "Brza latencija"
+  },
+  "nlFull": {
+    "message": "Preuzimanje + prijenos"
+  },
+  "nlTraffic": {
+    "message": "Veličina testnih podataka"
+  },
+  "nlConcurrency": {
+    "message": "Istovremeni čvorovi"
+  },
+  "nlTrafficFullOnly": {
+    "message": "Koristi se za testove preuzimanja i slanja"
+  },
+  "nlTestMode": {
+    "message": "Testni način"
+  },
+  "nlBudget": {
+    "message": "Maksimalni promet korisnog opterećenja"
+  },
+  "nlViaGroup": {
+    "message": "Putem grupnog pre-proxyja"
+  },
+  "nlTestSelected": {
+    "message": "Test odabran"
+  },
+  "nlTestVisible": {
+    "message": "Test prikazanih čvorova"
+  },
+  "nlTestAll": {
+    "message": "Testirajte sve čvorove"
+  },
+  "nlTestGroup": {
+    "message": "Čvorovi testne grupe"
+  },
+  "nlProgress": {
+    "message": "Napredak mjerenja"
+  },
+  "nlReady": {
+    "message": "Odaberite čvorove za početak. Nijedan test nije pokrenut."
+  },
+  "nlStarting": {
+    "message": "Pokretanje izoliranog mjerenja..."
+  },
+  "nlQueued": {
+    "message": "U redu"
+  },
+  "nlRunning": {
+    "message": "Testiranje"
+  },
+  "nlStopping": {
+    "message": "Zaustavljanje..."
+  },
+  "nlComplete": {
+    "message": "Dovršeno"
+  },
+  "nlFailed": {
+    "message": "Neuspješno"
+  },
+  "nlStopped": {
+    "message": "Zaustavljeno"
+  },
+  "nlPartial": {
+    "message": "Djelomično"
+  },
+  "nlUntested": {
+    "message": "Nije testirano"
+  },
+  "nlSucceeded": {
+    "message": "prošao"
+  },
+  "nlMeasureDisconnected": {
+    "message": "Mjerna veza prekinuta. Nepotpune vrijednosti nisu konačni rezultati."
+  },
+  "nlUpgrade": {
+    "message": "Ažurirajte lokalni Companion za upravljanje grupama i pretplatama. Postojeći čvorovi ostaju dostupni."
+  },
+  "nlOperationFailed": {
+    "message": "Operacija nije mogla biti dovršena. Pokušajte ponovno."
+  },
+  "nlEditSubscription": {
+    "message": "Uredi pretplatu"
+  },
+  "nlPasteContent": {
+    "message": "Proxy veze / sadržaj"
+  },
+  "nlSubscriptionURL": {
+    "message": "Pretplata URL"
+  },
+  "nlKeepURL": {
+    "message": "Ostavite prazno kako biste zadržali spremljeno URL"
+  },
+  "nlConnectionPolicy": {
+    "message": "Ažuriranje veze"
+  },
+  "nlProxyFirst": {
+    "message": "Prvo proxy, a zatim izravno na neuspjeh"
+  },
+  "nlProxyOnly": {
+    "message": "Samo proxy"
+  },
+  "nlDirectOnly": {
+    "message": "Samo izravno"
+  },
+  "nlProxyFirstHelp": {
+    "message": "Proxy se prvo zaustavlja nakon uspješnog dohvaćanja. Izravno se pokušava samo ako pokušaj proxyja ne uspije."
+  },
+  "nlAutoUpdate": {
+    "message": "Omogući automatska ažuriranja"
+  },
+  "nlInterval": {
+    "message": "Interval ažuriranja (minute)"
+  },
+  "nlDestinationGroup": {
+    "message": "Odredišna grupa"
+  },
+  "nlSubscriptionOwnGroup": {
+    "message": "Nova grupa…"
+  },
+  "nlNameGroup": {
+    "message": "Ime (grupa)"
+  },
+  "nlCustomGroup": {
+    "message": "Prilagođena grupa"
+  },
+  "nlNameRequired": {
+    "message": "Unesite ime."
+  },
+  "nlContentRequired": {
+    "message": "Zalijepite proxy veze ili sadržaj pretplate."
+  },
+  "nlGroupRequired": {
+    "message": "Odaberite odredišnu grupu."
+  },
+  "nlURLRequired": {
+    "message": "Unesite HTTP(S) pretplatu URL bez korisničkog imena ili lozinke."
+  },
+  "nlIntervalInvalid": {
+    "message": "Unesite cijeli broj od 5 do 43200 minuta."
+  },
+  "folderTitle": {
+    "message": "Odaberite mapu v2rayN."
+  },
+  "folderHint": {
+    "message": "Odaberite mapu, a zatim je primijenite pomoću Spremi postavke veze."
+  },
+  "folderPath": {
+    "message": "Puna staza lokalne mape"
+  },
+  "folderGo": {
+    "message": "Otvoreno"
+  },
+  "folderUp": {
+    "message": "Gore"
+  },
+  "folderDrives": {
+    "message": "Pogoni"
+  },
+  "folderCurrent": {
+    "message": "Trenutni put"
+  },
+  "folderChoose": {
+    "message": "Koristite ovu mapu"
+  },
+  "folderList": {
+    "message": "Mape"
+  },
+  "folderTruncated": {
+    "message": "Popis je ograničen. Unesite punu putanju iznad da biste otvorili mapu koja nije prikazana."
+  },
+  "folderReady": {
+    "message": "v2rayN pronađene datoteke. Koristite ovu mapu za potvrdu konfiguracije."
+  },
+  "folderInvalid": {
+    "message": "Odaberite mapu koja sadrži guiConfigs, guiNConfig.json i guiNDB.db."
+  },
+  "folderSelectDrive": {
+    "message": "Odaberite lokalni disk ili unesite punu putanju mape."
+  },
+  "folderEmpty": {
+    "message": "Nema vidljivih podmapa."
+  },
+  "folderUnavailable": {
+    "message": "Ne mogu pregledavati ovu mapu. Provjerite njegov put i pristup. Ako je Companion stariji, prvo ga ažurirajte."
+  },
+  "folderValidating": {
+    "message": "Provjera v2rayN konfiguracije…"
+  },
+  "folderInvalidConfig": {
+    "message": "v2rayN konfiguracija ili baza podataka je nepotpuna ili nevažeća. Odaberite drugu mapu."
+  },
+  "copyPath": {
+    "message": "Kopiraj put"
+  },
+  "pathCopyHint": {
+    "message": "Kopirajte stazu koja je trenutno u ovom polju."
+  },
+  "preMode": {
+    "message": "Pre-proxy način"
+  },
+  "preNode": {
+    "message": "Pre-proxy čvor"
+  },
+  "preIntro": {
+    "message": "Koristite lanac grupe, preskočite ga ili odaberite predproxy za ovaj profil."
+  },
+  "healthLabel": {
+    "message": "Trenutačni status veze"
+  },
+  "healthOk": {
+    "message": "Normalno"
+  },
+  "healthError": {
+    "message": "Abnormalno"
+  },
+  "healthChecking": {
+    "message": "Provjera"
+  },
+  "healthUnknown": {
+    "message": "Nepotvrđeno"
+  },
+  "autoSystemHelp": {
+    "message": "Sistemska pravila zahtijevaju Windows komponentu i snimku postavki fiksnog proxyja. Ponovno primijenite nakon promjena. PAC/WPAD nisu podržani; Sustav bez pravila koristi izvorne postavke preglednika."
+  },
+  "backgroundUnavailable": {
+    "message": "Pozadina proširenja nije dostupna."
+  },
+  "backgroundNoResponse": {
+    "message": "Pozadina nije odgovorila."
+  },
+  "backupTooLarge": {
+    "message": "Sigurnosna kopija premašuje 5 MB."
+  },
+  "proxyUsername": {
+    "message": "Korisničko ime"
+  },
+  "proxyPassword": {
+    "message": "Lozinka"
+  },
+  "proxyAuthHelp": {
+    "message": "Izborno. Autentificirani proxyji povezuju se putem Companion-a. Vjerodajnice su pohranjene u ovoj konfiguraciji preglednika i Companionu te su uključene u izvoze profila."
+  },
+  "proxyAuthSocks4": {
+    "message": "SOCKS4 ne podržava ovu provjeru autentičnosti korisničkog imena/lozinke; koristite HTTP(S) ili SOCKS5."
+  },
+  "importExamples": {
+    "message": "Primjeri formata"
+  },
+  "ipCopying": {
+    "message": "Kopiranje..."
+  },
+  "netDnsUnavailable": {
+    "message": "Adresa poslužitelja nije se mogla riješiti na vrijeme. Provjerite host ili IP adresu i pokušajte ponovno."
+  },
+  "netCurrentTarget": {
+    "message": "Odabrana proxy krajnja točka"
+  },
+  "netCustomTarget": {
+    "message": "Prilagođeni poslužitelj"
+  },
+  "netHost": {
+    "message": "Host ili IP adresa"
+  },
+  "netPort": {
+    "message": "TCP luka"
+  },
+  "netHostRequired": {
+    "message": "Unesite host poslužitelja ili IP adresu."
+  },
+  "netCurrentUnavailable": {
+    "message": "Odaberite čvor ili ručni proxy profil ili unesite prilagođeni cilj."
+  },
+  "netInvalidTarget": {
+    "message": "Unesite važeći dijagnostički host i port."
+  },
+  "netIpv6PingUnavailable": {
+    "message": "IPv6 ICMP nije dostupan; koristiti TCPing."
+  },
+  "preNeedsFix": {
+    "message": "Odaberite važeći pre-proxy ili ne pre-proxy prije spremanja."
+  },
+  "preConfigure": {
+    "message": "Konfigurirajte pre-proxy"
+  },
+  "preFollowInvalid": {
+    "message": "Follow v2rayN ne prihvaća prilagođeni pre-proxy."
+  },
+  "followChainHelp": {
+    "message": "Follow koristi rutu i proxy lanac koji je već aktivan u v2rayN."
+  },
+  "netTitle": {
+    "message": "Testovi povezivanja"
+  },
+  "ipTestDetails": {
+    "message": "Detalji testa"
+  },
+  "netTarget": {
+    "message": "Ping / TCPing cilj"
+  },
+  "netDownload": {
+    "message": "Preuzmite test"
+  },
+  "netPartial": {
+    "message": "Djelomični uzorak"
+  },
+  "netComplete": {
+    "message": "Uzorak dovršen"
+  },
+  "netDirect": {
+    "message": "Mreža sustava"
+  },
+  "netUnreachable": {
+    "message": "Nema odgovora / nije uspjelo"
+  },
+  "netAverage": {
+    "message": "Prosječno"
+  },
+  "predecessor": {
+    "message": "Pre-proxy"
+  },
+  "preInherit": {
+    "message": "Koristite lanac grupe v2rayN."
+  },
+  "preNone": {
+    "message": "Nema pre-proxyja"
+  },
+  "preSpecific": {
+    "message": "Odaberite čvor"
+  },
+  "preHelp": {
+    "message": "Odnosi se na ovaj profil. Koristite lanac grupe v2rayN, bez pre-proxyja ili određenog čvora. Follow v2rayN koristi svoj postojeći lanac."
+  },
+  "preSelectRequired": {
+    "message": "Odaberite pre-proxy čvor ili odaberite Grupno zadano / Ništa."
+  },
+  "ipPing0Permission": {
+    "message": "Dopusti Ping0 pristup web stranici za učitavanje javnog izvješća."
+  },
+  "ipPublicChallenge": {
+    "message": "Web stranica zahtijeva provjeru. Otvorite stranicu Ping0 da biste je dovršili i vidjeli rezultat."
+  },
+  "ipPublicReport": {
+    "message": "Ping0 javno izvješće"
+  },
+  "ipPublicSource": {
+    "message": "Izvor: Ping0 javna stranica"
+  },
+  "ipPublicOriginal": {
+    "message": "Ping0 izvješće"
+  },
+  "ipPublicPartial": {
+    "message": "Prikazana su samo polja navedena na javnoj stranici, na izvornom jeziku. Klasifikacije i procjene koje dijele korisnici su iz Ping0."
+  },
+  "setupTitle": {
+    "message": "Poveži Proxy V2Route"
+  },
+  "setupIntro": {
+    "message": "Instalirajte Windows pratitelja za korištenje v2rayN ruta ili vlastitih uvezenih čvorova."
+  },
+  "setupStepOne": {
+    "message": "Izdvojite odgovarajući potpuni paket Windows u trajnu mapu."
+  },
+  "setupStepTwo": {
+    "message": "Otvorite V2Route-Setup.exe i kliknite Instaliraj."
+  },
+  "setupStepThree": {
+    "message": "Vratite se ovdje i provjerite vezu. Ako je potrebno, odaberite mapu v2rayN."
+  },
+  "setupCheck": {
+    "message": "Provjerite vezu"
+  },
+  "downloadCompanion": {
+    "message": "Vodič za instalaciju ↗"
+  },
+  "setupDownloadNote": {
+    "message": "Upotrijebite odgovarajući lokalni paket Windows ili slijedite vodič za izgradnju iz trenutnog izvora."
+  },
+  "chooseFolder": {
+    "message": "Odaberite mapu v2rayN…"
+  },
+  "rescanDone": {
+    "message": "Lokalni čvorovi ponovno skenirani"
+  },
+  "grouping": {
+    "message": "Grupni čvorovi"
+  },
+  "groupByCountry": {
+    "message": "Po zemlji"
+  },
+  "unknownCountry": {
+    "message": "Ostalo / Nepoznato"
+  },
+  "ungrouped": {
+    "message": "Negrupirano"
+  },
+  "adjustNodeFilters": {
+    "message": "Pokušajte s drugom grupom, izvorom ili pretražite ili prikažite skrivene čvorove."
+  },
+  "rescanLocal": {
+    "message": "Ponovno skeniraj v2rayN čvorove"
+  },
+  "showHidden": {
+    "message": "Prikaži skrivene čvorove"
+  },
+  "hideNode": {
+    "message": "Sakrij"
+  },
+  "restoreNode": {
+    "message": "Vratiti"
+  },
+  "hiddenNode": {
+    "message": "Skriveno"
+  },
+  "hideNodeHelp": {
+    "message": "Sakrij samo iz biblioteke čvorova ovog preglednika. v2rayN i postojeći profili su nepromijenjeni."
+  },
+  "ipContextTimeout": {
+    "message": "Isteklo je vrijeme za čitanje trenutnog profila. Pokušajte ponovno."
+  },
+  "ipStaleResult": {
+    "message": "Trenutačni profil je promijenjen. Ovaj rezultat može biti zastario; provjeri ponovo."
+  },
+  "ip_tools": {
+    "message": "IP Alati"
+  },
+  "ipIntro": {
+    "message": "Trenutni izlaz IP i javno izvješće."
+  },
+  "ipCurrentProfile": {
+    "message": "Trenutačni profil preglednika"
+  },
+  "ipRouteCaution": {
+    "message": "Automatska pravila i PAC mogu koristiti različite rute za različita odredišta. Ova provjera opisuje samo vlastiti zahtjev."
+  },
+  "ipDisclosure": {
+    "message": "Izlaz iz automatske provjere IP · Izvješće Ping0"
+  },
+  "ipMethod": {
+    "message": "Provjera adrese"
+  },
+  "ipDual": {
+    "message": "IPv4 / IPv6"
+  },
+  "ipCheck": {
+    "message": "Provjerite ponovno"
+  },
+  "ipChecking": {
+    "message": "Provjera..."
+  },
+  "ipDualHelp": {
+    "message": "IPv4 / IPv6 vraća obitelj adresa korištenu za ovaj zahtjev, a ne obje adrese."
+  },
+  "ipDurationHelp": {
+    "message": "Proteklo HTTP vrijeme zahtjeva uključuje vrijeme odgovora mreže i usluge. To nije ICMP ping ili test propusnosti."
+  },
+  "ipCopy": {
+    "message": "Kopija IP"
+  },
+  "ipCopied": {
+    "message": "Kopirano"
+  },
+  "ipCopyFailed": {
+    "message": "Nije moguće kopirati. Odaberite adresu i kopirajte je ručno."
+  },
+  "ipNoResult": {
+    "message": "Još nema provjere"
+  },
+  "ipContextUnknown": {
+    "message": "Profil nedostupan"
+  },
+  "ipTimeout": {
+    "message": "Provjera je istekla. Pokušajte ponovno ili upotrijebite drugu rutu."
+  },
+  "ipCancelled": {
+    "message": "Ček poništen"
+  },
+  "ipNetwork": {
+    "message": "Nije moguće doći do ipify. Provjerite vezu i pokušajte ponovno."
+  },
+  "ipHttp": {
+    "message": "Usluga IP nije prihvatila zahtjev. Pokušajte ponovno kasnije."
+  },
+  "ipInvalid": {
+    "message": "Usluga IP vratila je nevažeći odgovor."
+  },
+  "ipFailure": {
+    "message": "Provjera nije uspjela. Pokušajte ponovno."
+  },
+  "ipStale": {
+    "message": "Vaše proxy postavke su se promijenile tijekom provjere. Stari rezultat je odbačen; provjeri ponovo."
+  },
+  "ipQuality": {
+    "message": "Vanjski alati"
+  },
+  "ipQualityPrivacy": {
+    "message": "Alati se pokreću samo na klik. Davatelji primaju normalne podatke o vezi. Provjere web stranica šalju zahtjeve bez vjerodajnica nakon pokretanja. Zatvaranje zaustavlja lokalne testove; vanjskim karticama upravlja preglednik."
+  },
+  "ipReport": {
+    "message": "Kopiraj redigirano izvješće"
+  },
+  "ipReportCopied": {
+    "message": "Redigirano izvješće kopirano; nema uključenih IP ili naziva profila."
+  },
+  "popupSelected": {
+    "message": "Odabrano"
+  },
+  "popupFooter": {
+    "message": "v2rayN & profili čvorova"
+  },
+  "subtitle": {
+    "message": "Nezavisne rute preglednika"
+  },
+  "profiles": {
+    "message": "Profili"
+  },
+  "nodes": {
+    "message": "Knjižnica čvorova"
+  },
+  "settings": {
+    "message": "Postavke"
+  },
+  "connected": {
+    "message": "Aktivan profil"
+  },
+  "noProfile": {
+    "message": "Zadane postavke sustava"
+  },
+  "newProfile": {
+    "message": "Novi profil"
+  },
+  "searchProfiles": {
+    "message": "Pretraživanje profila"
+  },
+  "direct": {
+    "message": "Izravna mreža"
+  },
+  "system": {
+    "message": "Proxy sustava"
+  },
+  "follow": {
+    "message": "Prati v2rayN"
+  },
+  "manual": {
+    "message": "Ručni proxy"
+  },
+  "auto": {
+    "message": "Automatski prekidač"
+  },
+  "pac": {
+    "message": "PAC skripta"
+  },
+  "virtual": {
+    "message": "Virtualni profil"
+  },
+  "profileIntro": {
+    "message": "Odaberite rutu preglednika bez promjene glavne rute v2rayN."
+  },
+  "nodesIntro": {
+    "message": "Pregledajte lokalne v2rayN čvorove i svoje uvezene veze."
+  },
+  "settingsIntro": {
+    "message": "Lokalna veza, jezik i izgled."
+  },
+  "refresh": {
+    "message": "Osvježi"
+  },
+  "create": {
+    "message": "Napravi profil"
+  },
+  "name": {
+    "message": "Ime profila"
+  },
+  "type": {
+    "message": "Vrsta profila"
+  },
+  "save": {
+    "message": "Spremi"
+  },
+  "saved": {
+    "message": "Spašeno"
+  },
+  "saving": {
+    "message": "Spremanje..."
+  },
+  "cancel": {
+    "message": "Odustani"
+  },
+  "close": {
+    "message": "Zatvori"
+  },
+  "apply": {
+    "message": "Koristi ovaj profil"
+  },
+  "applied": {
+    "message": "Profil promijenjen"
+  },
+  "active": {
+    "message": "Aktivan"
+  },
+  "delete": {
+    "message": "Obriši"
+  },
+  "remove": {
+    "message": "Ukloni"
+  },
+  "rename": {
+    "message": "Preimenuj"
+  },
+  "route": {
+    "message": "Proxy ruta"
+  },
+  "selectRoute": {
+    "message": "Odaberite rutu"
+  },
+  "routeMissing": {
+    "message": "Ruta nedostupna — odaberite drugu"
+  },
+  "chain": {
+    "message": "Vezni lanac"
+  },
+  "connection": {
+    "message": "Lokalni priključak"
+  },
+  "proxy": {
+    "message": "Proxy poslužitelj"
+  },
+  "address": {
+    "message": "Adresa"
+  },
+  "port": {
+    "message": "Luka"
+  },
+  "scheme": {
+    "message": "Protokol"
+  },
+  "proxyDns": {
+    "message": "SOCKS5 DNS rješava se putem proxyja."
+  },
+  "connectedIdle": {
+    "message": "Povezan · Neaktivan"
+  },
+  "bypass": {
+    "message": "Zaobilazna lista"
+  },
+  "bypassHelp": {
+    "message": "Jedna domena, zamjenski uzorak, IP adresa ili IP:priključak po retku."
+  },
+  "advanced": {
+    "message": "Napredne opcije"
+  },
+  "searchRoutes": {
+    "message": "Pretražite grupe ili čvorove"
+  },
+  "selectGroup": {
+    "message": "Odaberite grupu"
+  },
+  "empty": {
+    "message": "Nema odgovarajućih stavki"
+  },
+  "unavailable": {
+    "message": "Nedostupno"
+  },
+  "groupHint": {
+    "message": "Držite grupu 250 ms, a zatim povucite. Alt + ↑ / ↓ također mijenja redoslijed. Promjene se spremaju automatski."
+  },
+  "searchSort": {
+    "message": "Obrišite pretraživanje prije sortiranja."
+  },
+  "dragHint": {
+    "message": "Pomaknite se gore ili dolje, zatim otpustite za spremanje. Esc poništava."
+  },
+  "orderSaved": {
+    "message": "Grupni nalog spremljen"
+  },
+  "orderCancelled": {
+    "message": "Ponovno naručivanje otkazano"
+  },
+  "loading": {
+    "message": "Učitavanje..."
+  },
+  "reading": {
+    "message": "Čitanje lokalnih čvorova..."
+  },
+  "nativeMissing": {
+    "message": "Lokalna komponenta nije spojena"
+  },
+  "retry": {
+    "message": "Pokušaj ponovo"
+  },
+  "nativeHelp": {
+    "message": "Rute čvorova zahtijevaju Windows pratioca. Izravni, sustavni i ručni proxy sada su dostupni."
+  },
+  "imported": {
+    "message": "Uvezeno"
+  },
+  "v2rayn": {
+    "message": "v2rayN"
+  },
+  "allSources": {
+    "message": "Svi izvori"
+  },
+  "importNodes": {
+    "message": "Uvoz proxyja"
+  },
+  "importTitle": {
+    "message": "Uvoz proxyja"
+  },
+  "importHelp": {
+    "message": "Zalijepite proxy veze, izlazne JSON ili Base64 pretplate. SOCKS podržava obične ili Base64 vjerodajnice. Adrese bez sheme koriste HTTP."
+  },
+  "importPrivacy": {
+    "message": "Pojedinosti o proxyju i vjerodajnice prosljeđuju se lokalnom Proxy V2Route pratitelju za pohranu i povezivanje s proxyjem koji odaberete. Razvojni programer ne prima ove informacije."
+  },
+  "import": {
+    "message": "Uvoz profila"
+  },
+  "nodeCount": {
+    "message": "čvorovi"
+  },
+  "source": {
+    "message": "Izvor"
+  },
+  "protocol": {
+    "message": "Protokol"
+  },
+  "useNode": {
+    "message": "Napravi profil"
+  },
+  "removeNode": {
+    "message": "Ukloniti uvezeni čvor?"
+  },
+  "removeNodeHelp": {
+    "message": "Profili koji koriste ovaj čvor moraju se ponovno dodijeliti prije nego što se može ukloniti."
+  },
+  "deleteProfile": {
+    "message": "Izbrisati ovaj profil?"
+  },
+  "deleteProfileHelp": {
+    "message": "Ovo uklanja samo ovaj profil preglednika. Uvezeni čvorovi i v2rayN konfiguracija se čuvaju."
+  },
+  "language": {
+    "message": "Jezik"
+  },
+  "automatic": {
+    "message": "Zadani preglednik"
+  },
+  "theme": {
+    "message": "Izgled"
+  },
+  "light": {
+    "message": "Svjetlo"
+  },
+  "dark": {
+    "message": "Mrak"
+  },
+  "switchToEnglish": {
+    "message": "Prebaci na engleski"
+  },
+  "switchToChinese": {
+    "message": "Prijeđi na pojednostavljeni kineski"
+  },
+  "switchToLight": {
+    "message": "Prebacite se na svijetli izgled"
+  },
+  "switchToDark": {
+    "message": "Prebaci na tamni izgled"
+  },
+  "localComponent": {
+    "message": "Popratna komponenta"
+  },
+  "ready": {
+    "message": "Povezano"
+  },
+  "stopped": {
+    "message": "Ne radi"
+  },
+  "discovery": {
+    "message": "v2rayN otkrivanje"
+  },
+  "rootPath": {
+    "message": "v2rayN mapa"
+  },
+  "corePath": {
+    "message": "Izvršna jezgra proxyja"
+  },
+  "optionalPath": {
+    "message": "Ostavite prazno za automatsko otkrivanje"
+  },
+  "pathsHelp": {
+    "message": "v2rayN automatski se otkriva; odaberite njegovu mapu ako je potrebno. Uvezeni čvorovi koriste uključenu jezgru."
+  },
+  "savePaths": {
+    "message": "Spremi postavke veze"
+  },
+  "privacy": {
+    "message": "Postavke pohranjene lokalno"
+  },
+  "privacyText": {
+    "message": "Veze čvorova i vjerodajnice ostaju u lokalnom pratitelju. Promet preglednika ide kroz vaš odabrani proxy do odredišnih web stranica; programer ga ne prima."
+  },
+  "privacyDetails": {
+    "message": "Privatnost i protok podataka"
+  },
+  "export": {
+    "message": "Izvoz profila"
+  },
+  "about": {
+    "message": "O Proxy V2Route"
+  },
+  "aboutText": {
+    "message": "Odaberite rutu preglednika bez promjene glavne rute v2rayN. Rute čvorova koriste Windows pratitelja i vaše vlastite čvorove."
+  },
+  "licenses": {
+    "message": "Obavijesti otvorenog izvora"
+  },
+  "version": {
+    "message": "Verzija"
+  },
+  "fieldRequired": {
+    "message": "Unesite naziv profila."
+  },
+  "profileExists": {
+    "message": "Profil s ovim nazivom već postoji."
+  },
+  "ruleHelp": {
+    "message": "Domene u jednom retku odvojite zarezima. Prvi odgovarajući red pobjeđuje. Neka zadana ruta bude dostupna."
+  },
+  "rules": {
+    "message": "Pravila usmjeravanja"
+  },
+  "pattern": {
+    "message": "Uzorak domaćina"
+  },
+  "target": {
+    "message": "Cilj pravila"
+  },
+  "addRule": {
+    "message": "Dodaj pravilo"
+  },
+  "defaultRoute": {
+    "message": "Zadani profil"
+  },
+  "pacHelp": {
+    "message": "Zalijepite pouzdani PAC izvor koji sadrži FindProxyForURL. Ova skripta odlučuje kako se zahtjevi web stranice usmjeravaju."
+  },
+  "pacUrl": {
+    "message": "PAC URL"
+  },
+  "pacScript": {
+    "message": "PAC skripta"
+  },
+  "noSelection": {
+    "message": "Odaberite profil ili ga izradite."
+  },
+  "details": {
+    "message": "Detalji"
+  },
+  "noNodes": {
+    "message": "Još nema čvorova"
+  },
+  "noNodesHelp": {
+    "message": "Povežite v2rayN ili uvezite proxy veze, JSON ili pretplatu da biste započeli."
+  },
+  "openSettings": {
+    "message": "Otvorite postavke"
+  },
+  "proxySettings": {
+    "message": "Postavke proxyja"
+  },
+  "switching": {
+    "message": "Prebacivanje..."
+  },
+  "updatedElsewhere": {
+    "message": "Ovaj profil je promijenjen u drugom prozoru. Ponovno ga otvorite prije spremanja."
+  },
+  "choose": {
+    "message": "Biraj"
+  },
+  "popupIntro": {
+    "message": "Veza:"
+  },
+  "invalidPort": {
+    "message": "Unesite port od 1 do 65535."
+  },
+  "externalControl": {
+    "message": "Drugo proširenje ili pravilo kontrolira proxy preglednik."
+  },
+  "noNativeRoute": {
+    "message": "Povežite lokalnu komponentu prije stvaranja profila čvora."
+  },
+  "reload": {
+    "message": "Ponovno učitaj"
+  },
+  "rulesError": {
+    "message": "Svako pravilo treba uzorak i cilj."
+  },
+  "backupDone": {
+    "message": "Izvezeni profili preglednika"
+  },
+  "managed": {
+    "message": "Upravljani čvor"
+  },
+  "netRegion": {
+    "message": "Ciljano područje"
+  },
+  "netNodeArea": {
+    "message": "Proxy čvor"
+  },
+  "netChina": {
+    "message": "Kontinentalna Kina"
+  },
+  "netGlobal": {
+    "message": "Globalno"
+  },
+  "netAli": {
+    "message": "AliDNS"
+  },
+  "netTencent": {
+    "message": "DNSPod"
+  },
+  "netStartHelp": {
+    "message": "Odaberite metu, a zatim pokrenite test uživo."
+  },
+  "netConsole": {
+    "message": "Dijagnostika uživo"
+  },
+  "netStop": {
+    "message": "Stani"
+  },
+  "netRunning": {
+    "message": "Trčanje"
+  },
+  "netStopped": {
+    "message": "Zaustavljeno"
+  },
+  "netSent": {
+    "message": "Poslano"
+  },
+  "netLoss": {
+    "message": "Gubitak"
+  },
+  "netAverageShort": {
+    "message": "Prosj"
+  },
+  "netLogClear": {
+    "message": "Čisto"
+  },
+  "netFinishing": {
+    "message": "Prethodna sonda se završava..."
+  },
+  "netRound": {
+    "message": "Okruglo"
+  },
+  "netDestination": {
+    "message": "Odredište"
+  },
+  "netHop": {
+    "message": "Hop"
+  },
+  "netAddress": {
+    "message": "IP adresa"
+  },
+  "netLast": {
+    "message": "Posljednji"
+  },
+  "netConsoleHelp": {
+    "message": "Ping / TCPing / MTR koristi mrežu sustava, a ne proxy lanac. Odgovori koji nedostaju ICMP ne dokazuju gubitak prometa. Preuzimanje koristi rutu preglednika i odabrano ograničenje veličine. Testovi se zaustavljaju kada napustite ili sakrijete ovu stranicu."
+  },
+  "netDirectShort": {
+    "message": "Mreža sustava"
+  },
+  "netIcmpShort": {
+    "message": "Nema ICMP odgovora"
+  },
+  "netProbeError": {
+    "message": "Pogreška lokalne sonde"
+  },
+  "netNoDestination": {
+    "message": "Odredište nije dosegnuto"
+  },
+  "deleteActive": {
+    "message": "Prijeđi na sustav i izbriši"
+  },
+  "deleteActiveHelp": {
+    "message": "Ovaj profil je aktivan. Njegovim brisanjem preglednik se prebacuje na sistemski proxy."
+  },
+  "netDownloadSize": {
+    "message": "Veličina preuzimanja"
+  },
+  "netReceived": {
+    "message": "Primljeno"
+  },
+  "netBest": {
+    "message": "Najbolje"
+  },
+  "netWorst": {
+    "message": "Najgore"
+  },
+  "netStdDev": {
+    "message": "Std dev"
+  },
+  "netLocation": {
+    "message": "Lokacija"
+  },
+  "toolWall": {
+    "message": "Provjera blokiranja domene"
+  },
+  "toolSites": {
+    "message": "Popularne web stranice"
+  },
+  "toolGlobal": {
+    "message": "Globalna dijagnostika"
+  },
+  "toolFast": {
+    "message": "Netflix brzina"
+  },
+  "toolSpeed": {
+    "message": "Test brzine"
+  },
+  "toolStart": {
+    "message": "Početak"
+  },
+  "toolReady": {
+    "message": "Spremni"
+  },
+  "toolResponded": {
+    "message": "Odgovorio"
+  },
+  "toolNoResponse": {
+    "message": "Nepotvrđeno"
+  },
+  "toolCacheUnsupported": {
+    "message": "Ovaj preglednik ne može očistiti predmemoriju po web-mjestu; stranica je ponovno učitana."
+  },
+  "toolCacheFailed": {
+    "message": "Čišćenje predmemorije nije dovršeno. Zatvorite i pokušajte ponovno."
+  },
+  "toolClose": {
+    "message": "Zatvori"
+  },
+  "toolReload": {
+    "message": "Ponovno učitaj"
+  },
+  "toolLoading": {
+    "message": "Učitavanje..."
+  },
+  "toolFrameError": {
+    "message": "Nije moguće učitati. Pokušajte ponovno učitati."
+  },
+  "toolSiteHelp": {
+    "message": "Dostupnost samo preglednika. Ovo ne provjerava račun ili regionalni pristup."
+  },
+  "toolFallback": {
+    "message": "Test brzine sigurnosne kopije"
+  },
+  "toolFullscreen": {
+    "message": "Cijeli zaslon"
+  },
+  "toolRestore": {
+    "message": "Izađi iz cijelog zaslona"
+  },
+  "ipReadFailed": {
+    "message": "Čitanje nije uspjelo. 👉"
+  },
+  "ipViewSource": {
+    "message": "Pogledajte izvorno mjesto"
+  },
+  "toolDownloadError": {
+    "message": "Nije moguće pristupiti poslužitelju za preuzimanje. Pokušajte ponovno."
+  },
+  "toolAccess": {
+    "message": "Omogući pristup web mjestu"
+  },
+  "toolPermission": {
+    "message": "Dopustite pristup ovoj stranici radi kompatibilnosti ugrađene sesije."
+  },
+  "toolAsia": {
+    "message": "Azija"
+  },
+  "toolEurope": {
+    "message": "Europa"
+  },
+  "toolAmerica": {
+    "message": "Sjeverna Amerika"
+  },
+  "toolGlobalHelp": {
+    "message": "Unaprijed ispunjava izlaz preglednika IP. Odaberite kontinentalnu Kinu ili drugu regiju za usporedbu staza; Start šalje prikazani cilj do tri Globalping sonde."
+  },
+  "toolServiceError": {
+    "message": "Usluga testiranja nije dostupna. Pokušajte ponovno."
+  },
+  "popupOrderHelp": {
+    "message": "Držite i povucite za promjenu redoslijeda. Alt+tipke sa strelicama također pomiču ovaj profil."
+  },
+  "popupOrderSaved": {
+    "message": "Narudžba je spremljena"
+  },
+  "toolGroupIP": {
+    "message": "IP testovi"
+  },
+  "toolGroupWeb": {
+    "message": "Testovi web stranica"
+  },
+  "toolGroupSpeed": {
+    "message": "Brzina"
+  },
+  "toolCurrentIP": {
+    "message": "Trenutni izlaz IP"
+  },
+  "toolCurrentIPLoading": {
+    "message": "Učitavanje trenutnog izlaza IP…"
+  },
+  "toolCurrentIPFailed": {
+    "message": "Nije moguće očitati trenutni IP. Unesite cilj."
+  },
+  "speedMode": {
+    "message": "Testni način"
+  },
+  "speedBoth": {
+    "message": "Preuzimanje + prijenos"
+  },
+  "speedDownload": {
+    "message": "Preuzimanje"
+  },
+  "speedUpload": {
+    "message": "Prijenos"
+  },
+  "speedLatency": {
+    "message": "HTTP latencija"
+  },
+  "speedBudget": {
+    "message": "{n} MiB po fazi · {total} MiB ukupno, plus mali uzorci latencije."
+  },
+  "siteCategory": {
+    "message": "Kategorija web stranice"
+  },
+  "siteAll": {
+    "message": "Sve web stranice"
+  },
+  "siteAI": {
+    "message": "AI"
+  },
+  "siteDevelopment": {
+    "message": "Razvoj"
+  },
+  "siteVideo": {
+    "message": "Video / glazba"
+  },
+  "siteSocial": {
+    "message": "Društveni"
+  },
+  "siteDomestic": {
+    "message": "Kopnene usluge"
+  },
+  "siteServices": {
+    "message": "Zajedničke službe"
+  },
+  "globalMethod": {
+    "message": "Vrsta mjerenja"
+  },
+  "localPort": {
+    "message": "Lokalna luka:"
+  },
+  "chainChooseNode": {
+    "message": "Odaberite proxy čvor"
+  },
+  "chainTitle": {
+    "message": "Proxy lanac"
+  },
+  "chainSelectExit": {
+    "message": "Odaberite određeni izlazni čvor u nastavku da biste spremili ili testirali ovaj prilagođeni lanac. Follow v2rayN upravlja v2rayN."
+  },
+  "chainSelectExitShort": {
+    "message": "Odaberite izlazni čvor"
+  },
+  "chainAdd": {
+    "message": "+ Dodaj proxy sloj"
+  },
+  "chainTest": {
+    "message": "Testni lanac"
+  },
+  "chainMode": {
+    "message": "Lančani način rada"
+  },
+  "chainBase": {
+    "message": "Osnovni proxy"
+  },
+  "chainExit": {
+    "message": "Izlaz iz proxyja"
+  },
+  "chainEgress": {
+    "message": "Izlazak lanca"
+  },
+  "chainExitBadge": {
+    "message": "Izlaz IP"
+  },
+  "chainEntry": {
+    "message": "Ulaz u lanac"
+  },
+  "chainTransit": {
+    "message": "Čvor mosta"
+  },
+  "chainUntested": {
+    "message": "Nije testirano"
+  },
+  "chainMissing": {
+    "message": "Nedostupan čvor"
+  },
+  "chainUnresolved": {
+    "message": "Nije moguće riješiti naslijeđeni lanac. Popravite postavke prethodnika ili odaberite prilagođeni lanac."
+  },
+  "chainUpgrade": {
+    "message": "Ažurirajte lokalnog pratitelja kako biste omogućili naručene lance."
+  },
+  "chainBusy": {
+    "message": "U tijeku je još jedan lančani test"
+  },
+  "chainOK": {
+    "message": "Dostupno"
+  },
+  "chainFailed": {
+    "message": "Neuspješan skok u ovom testu"
+  },
+  "chainBlocked": {
+    "message": "Nije testirano · prethodni skok nije uspio"
+  },
+  "chainFailureHelp": {
+    "message": "Ovaj skok ili put do njega nije prošao. Kasnije hmelj nije ispitivan."
+  },
+  "chainAllOK": {
+    "message": "Sve su kumulativne staze odgovorile"
+  },
+  "chainStopping": {
+    "message": "Zaustavljanje nakon trenutno ograničene sonde..."
+  },
+  "globalWorld": {
+    "message": "Širom svijeta"
+  },
+  "globalUnavailable": {
+    "message": "Cilj ili regija nisu dostupni. Provjerite cilj ili odaberite drugu regiju."
+  },
+  "globalRateLimited": {
+    "message": "Dosegnuto je ograničenje stope usluge. Pokušajte ponovno kasnije."
+  },
+  "globalNoResults": {
+    "message": "Usluga nije vratila rezultate sonde. Pokušajte s drugom regijom."
+  },
+  "globalProbeFailed": {
+    "message": "Sonda nije uspjela"
+  },
+  "globalProbeOffline": {
+    "message": "Sonda izvan mreže"
+  },
+  "globalIcmpCaution": {
+    "message": "Odgovori koji nedostaju ICMP sami po sebi ne dokazuju blokiranje. Usporedite kopnene i prekomorske putove i druge vrste testova."
+  },
+  "speedRealtime": {
+    "message": "Brzina života"
+  },
+  "speedAverage": {
+    "message": "Prosječna brzina"
+  },
+  "ipToolsBrief": {
+    "message": "Rezultati trećih strana služe za referencu."
+  },
+  "ipReportBrief": {
+    "message": "Rezultati se razlikuju ovisno o izlazu IP i služe za referencu."
+  },
+  "toolPingPe": {
+    "message": "IP provjera blokiranja"
+  },
+  "toolTargetIP": {
+    "message": "Cilj IP"
+  },
+  "toolOpenPingPe": {
+    "message": "Otvoreni službeni test"
+  },
+  "toolInvalidIP": {
+    "message": "Unesite valjanu IPv4 ili IPv6 adresu."
+  },
+  "toolInvalidPort": {
+    "message": "Unesite TCP port od 1 do 65535."
+  },
+  "toolExternalFailed": {
+    "message": "Nije moguće otvoriti web mjesto. Pokušajte ponovno."
+  },
+  "ipBrowserReading": {
+    "message": "Čitanje Ping0 kroz preglednik…"
+  },
+  "ipVerifyBrowser": {
+    "message": "Otvaranje stranice za potvrdu"
+  },
+  "policyCenter": {
+    "message": "Privatnost, izjava i često postavljana pitanja"
+  },
+  "policyCenterIntro": {
+    "message": "Lokalno rukovanje podacima, ograničenja testa i uobičajeni odgovori."
+  },
+  "policyPrivacyTitle": {
+    "message": "Politika privatnosti"
+  },
+  "policyPrivacySummary": {
+    "message": "Profili i vjerodajnice ostaju na ovom uređaju. Provjere skočnih prozora i dijagnostika kontaktirajte njihove navedene pružatelje usluga. Bez oglašavanja ili analitike ponašanja."
+  },
+  "policyDeclarationTitle": {
+    "message": "Izjava o uporabi i mjerenju"
+  },
+  "policyDeclarationSummary": {
+    "message": "Ovo proširenje je lokalni upravitelj rute, a ne proxy ili VPN davatelj. Mjerenja su referentni uzorci na koje utječu uvjeti mreže, proxyja i pružatelja usluga."
+  },
+  "policyFaqTitle": {
+    "message": "Česta pitanja"
+  },
+  "policyFaqSummary": {
+    "message": "Windows pratilac je potreban za lokalne čvorove i MTR. Latencija se može razlikovati između preglednika, sustava i javnih sondi. Zaustavite test ili izbrišite lokalne podatke iz postavki."
+  },
+  "policyDetailsLink": {
+    "message": "Pročitajte sve detalje ↗"
+  },
+  "thirdPartyNotice": {
+    "message": "Obavijesti o otvorenom izvoru ↗"
+  },
+  "columnResizeHelp": {
+    "message": "Povucite za promjenu veličine; dvaput kliknite za resetiranje; koristite tipke sa strelicama za podešavanje"
+  },
+  "columnResize": {
+    "message": "Promjena veličine stupca"
+  },
+  "typeDescription_node": {
+    "message": "Povežite se putem proxy čvora"
+  },
+  "typeDescription_manual": {
+    "message": "Ručno unesite proxy postavke"
+  },
+  "typeDescription_auto": {
+    "message": "Odaberite čvor pomoću pravila"
+  },
+  "typeDescription_pac": {
+    "message": "Usmjerite promet pomoću PAC pravila"
+  },
+  "appDescription": {
+    "message": "Proxy rute preglednika, čvorovi i pravila domene. Rute čvorova trebaju Windows pratioca."
+  },
+  "core_title": {
+    "message": "Proxy jezgra"
+  },
+  "core_checking": {
+    "message": "Provjera lokalne komponente..."
+  },
+  "core_ready": {
+    "message": "Xray je spreman"
+  },
+  "core_missing": {
+    "message": "Nedostaje proxy jezgra"
+  },
+  "core_external": {
+    "message": "Prilagođena jezgra: nije potvrđeno"
+  },
+  "core_corrupt": {
+    "message": "Xray nepodudaranje kontrolnog zbroja — potreban popravak"
+  },
+  "core_unreadable": {
+    "message": "Datoteku jezgre nije moguće provjeriti"
+  },
+  "core_intro": {
+    "message": "Kompletan Windows paket uključuje Xray. v2rayN nije obavezan."
+  },
+  "core_verify": {
+    "message": "Provjerite ponovno"
+  },
+  "core_install": {
+    "message": "Instalirajte / popravite jezgru"
+  },
+  "core_installing": {
+    "message": "Preuzimanje i provjera..."
+  },
+  "core_done": {
+    "message": "Jezgra provjerena i spremna"
+  },
+  "core_help": {
+    "message": "Popravak koristi prikvačeno službeno Xray izdanje i provjerava njegov kontrolni zbroj. Postojeće veze ostaju aktivne."
+  },
+  "core_absent": {
+    "message": "Instalirajte lokalnu komponentu jednom, a zatim se vratite ovdje da provjerite jezgru."
+  },
+  "core_download": {
+    "message": "Vodič za instalaciju"
+  },
+  "core_absentHelp": {
+    "message": "Upotrijebite odgovarajući paket Windows ili slijedite vodič za izgradnju iz izvora, a zatim pokrenite postavljanje."
+  },
+  "core_failed": {
+    "message": "Operacija jezgre nije uspjela. Pokušajte ponovno ili upotrijebite cijeli paket Windows."
+  },
+  "core_version": {
+    "message": "Verzija"
+  },
+  "error_ACTIVE_PROFILE_DELETE": {
+    "message": "Prije brisanja prijeđite na drugi profil"
+  },
+  "error_BACKUP_BINDING_TYPE": {
+    "message": "Samo profili proxyja mogu imati vezane rute"
+  },
+  "error_BACKUP_FORMAT3_REQUIRED": {
+    "message": "Pravila čvorova zahtijevaju prijenosnu sigurnosnu kopiju u formatu 3"
+  },
+  "error_BACKUP_INDEPENDENT_PATH_REQUIRED": {
+    "message": "Sigurnosna kopija mora sadržavati neovisnu putanju čvorova"
+  },
+  "error_BACKUP_INTERNAL_BINDINGS": {
+    "message": "Sigurnosna kopija sadrži interne veze"
+  },
+  "error_BACKUP_MESSAGE_LIMIT": {
+    "message": "Sigurnosna kopija čvorova premašuje ograničenje veličine poruke prateće aplikacije"
+  },
+  "error_BACKUP_NODES_INCOMPLETE": {
+    "message": "Nepotpuna sigurnosna kopija čvorova"
+  },
+  "error_BACKUP_NODE_MISSING": {
+    "message": "U sigurnosnoj kopiji nedostaje potreban čvor"
+  },
+  "error_BACKUP_NODE_PATHS_LIMIT": {
+    "message": "Sigurnosna kopija podržava najviše {limit} putanja čvorova"
+  },
+  "error_BACKUP_PATH_INCOMPLETE": {
+    "message": "Nepotpuna putanja čvorova u sigurnosnoj kopiji"
+  },
+  "error_BACKUP_PROFILES_LIMIT": {
+    "message": "Sigurnosna kopija podržava najviše {limit} profila"
+  },
+  "error_BACKUP_PROXY_CONFLICT": {
+    "message": "Sigurnosna kopija sadrži proturječne postavke proxyja"
+  },
+  "error_BACKUP_SIZE_LIMIT": {
+    "message": "Sigurnosna kopija premašuje {limit} MB"
+  },
+  "error_BACKUP_TRANSFER_UNAVAILABLE": {
+    "message": "Za prijenos sigurnosnih kopija čvorova ažurirajte ili popravite prateću aplikaciju."
+  },
+  "error_BACKUP_UNUSED_NODES": {
+    "message": "Sigurnosna kopija sadrži čvorove bez referenci"
+  },
+  "error_BODY_TOO_LARGE": {
+    "message": "Odgovor pretplate premašuje dopuštenu veličinu."
+  },
+  "error_BROWSER_API_FAILED": {
+    "message": "Radnja preglednika nije uspjela. Pogledajte tehničke pojedinosti."
+  },
+  "error_BROWSER_PROXY_RESTORE_FAILED": {
+    "message": "Radnja nije uspjela i prethodni proxy preglednika nije moguće vratiti"
+  },
+  "error_BROWSER_SCHEDULING_UNAVAILABLE": {
+    "message": "Zakazivanje u pregledniku nije dostupno."
+  },
+  "error_BUSY": {
+    "message": "Druga je radnja u tijeku. Pokušajte ponovno uskoro."
+  },
+  "error_CHAIN_PROBE_FAILED": {
+    "message": "Provjera lanca nije uspjela"
+  },
+  "error_COMPANION_BULK_RELEASE_REQUIRED": {
+    "message": "Nadogradite lokalnu prateću aplikaciju za sigurno upravljanje višestrukim pravilima čvorova"
+  },
+  "error_COMPANION_CHAINS_REQUIRED": {
+    "message": "Nadogradite lokalnu prateću aplikaciju za omogućavanje uređenih lanaca"
+  },
+  "error_COMPANION_MESSAGE_LIMIT": {
+    "message": "Postavke premašuju ograničenje veličine poruke prateće aplikacije"
+  },
+  "error_COMPANION_OPERATION_FAILED": {
+    "message": "Radnja lokalne prateće aplikacije nije uspjela. Pogledajte tehničke pojedinosti."
+  },
+  "error_COMPANION_UNAVAILABLE": {
+    "message": "Instalirajte ili popravite V2Route Companion"
+  },
+  "error_CONNECTION_CLOSED": {
+    "message": "Veza je zatvorena prije završetka testa."
+  },
+  "error_CORE_INSTALL_FAILED": {
+    "message": "Instalacija jezgre nije uspjela. Pogledajte tehničke pojedinosti."
+  },
+  "error_CORE_OWNERSHIP_FAILED": {
+    "message": "Izoliranom testnom jezgrom nije moguće sigurno upravljati. Test je zaustavljen."
+  },
+  "error_CORE_START_FAILED": {
+    "message": "Izoliranu testnu jezgru nije moguće pokrenuti. Provjerite instalaciju prateće aplikacije i jezgre."
+  },
+  "error_CORE_START_TIMEOUT": {
+    "message": "Izolirana testna jezgra nije bila spremna na vrijeme."
+  },
+  "error_CORE_STATUS_UNAVAILABLE": {
+    "message": "Status jezgre nije dostupan. Pogledajte tehničke pojedinosti."
+  },
+  "error_CORE_VALIDATION_FAILED": {
+    "message": "Xray nije mogao provjeriti uvezene čvorove. Provjerite njihove postavke i pokušajte ponovno."
+  },
+  "error_DETACH_PORT_CONFLICT": {
+    "message": "Upravljani port bit će oslobođen. Unesite drugi ručni proxy"
+  },
+  "error_DETACH_PROXY_REQUIRED": {
+    "message": "Prije odvajanja unesite zamjenski ručni proxy"
+  },
+  "error_DNS_BUSY": {
+    "message": "DNS pretraživanje je zauzeto. Pokušajte ponovno uskoro."
+  },
+  "error_DNS_FAILED": {
+    "message": "DNS pretraživanje nije uspjelo. Provjerite adresu i mrežnu vezu."
+  },
+  "error_ENCODING_UNSUPPORTED": {
+    "message": "Pretplata koristi nepodržano kodiranje sadržaja."
+  },
+  "error_FIREFOX_PRIVATE_ACCESS_REQUIRED": {
+    "message": "Prije promjene postavki proxyja u pojedinostima proširenja dopustite V2Route u privatnim prozorima"
+  },
+  "error_FOLDER_UNAVAILABLE": {
+    "message": "Mapa nije dostupna; provjerite putanju, pristup i verziju prateće aplikacije"
+  },
+  "error_GROUP_LIMIT": {
+    "message": "Dosegnuto je ograničenje broja grupa. Uklonite nekorištenu grupu i pokušajte ponovno."
+  },
+  "error_GROUP_NOT_EDITABLE": {
+    "message": "Ovu izvornu grupu nije moguće uređivati ovdje."
+  },
+  "error_GROUP_NOT_FOUND": {
+    "message": "Odabrana grupa više ne postoji. Odaberite drugu grupu."
+  },
+  "error_HTTP_ENCODING": {
+    "message": "Testni poslužitelj vratio je nepodržano kodiranje."
+  },
+  "error_HTTP_LENGTH": {
+    "message": "Veličina testnog odgovora nije odgovarala zatraženoj veličini."
+  },
+  "error_HTTP_RESPONSE_TOO_LARGE": {
+    "message": "Testni odgovor premašio je dopuštenu veličinu."
+  },
+  "error_HTTP_STATUS": {
+    "message": "Testni poslužitelj vratio je neuspješan HTTP status."
+  },
+  "error_IMPORTED_PROXY_MISSING": {
+    "message": "Prateća aplikacija nije vratila uvezeni proxy"
+  },
+  "error_IMPORTED_RULE_PATH_CONFLICT": {
+    "message": "Uvezeni čvorovi vode do proturječnih putanja pravila"
+  },
+  "error_IMPORT_CLEANUP_FAILED": {
+    "message": "Uvoz nije uspio; neke privremene čvorove ili portove nije moguće osloboditi. Postojeći profili su zadržani"
+  },
+  "error_IMPORT_PROFILE_NAME_CONFLICT": {
+    "message": "Dupliciran ili nevaljan naziv profila"
+  },
+  "error_INCOMPLETE_RESPONSE": {
+    "message": "Odgovor pretplate bio je nepotpun. Pokušajte ponovno."
+  },
+  "error_INVALID_BACKUP": {
+    "message": "Nevaljana sigurnosna kopija V2Route"
+  },
+  "error_INVALID_BACKUP_NODE": {
+    "message": "Nevaljan ili dupliciran čvor sigurnosne kopije"
+  },
+  "error_INVALID_BACKUP_NODES": {
+    "message": "Nevaljani čvorovi sigurnosne kopije"
+  },
+  "error_INVALID_BACKUP_PATH": {
+    "message": "Nevaljana putanja sigurnosne kopije"
+  },
+  "error_INVALID_BYPASS_ENTRY": {
+    "message": "Nevaljan unos zaobilaženja"
+  },
+  "error_INVALID_BYPASS_LIST": {
+    "message": "Nevaljan popis zaobilaženja"
+  },
+  "error_INVALID_CHAIN": {
+    "message": "Nevaljan uređeni lanac"
+  },
+  "error_INVALID_CHAIN_PROBE": {
+    "message": "Nevaljana provjera lanca"
+  },
+  "error_INVALID_COMPANION_RESPONSE": {
+    "message": "Lokalna prateća aplikacija vratila je nevaljan odgovor. Ažurirajte je ili popravite."
+  },
+  "error_INVALID_CONTENT": {
+    "message": "Odgovor pretplate ne sadrži valjan sadržaj."
+  },
+  "error_INVALID_DOMAIN_PATTERNS": {
+    "message": "Unesite uzorke domena odvojene zarezima; svaki URL stavite u zaseban redak"
+  },
+  "error_INVALID_ENCODING": {
+    "message": "Odgovor pretplate nije valjan UTF-8 tekst."
+  },
+  "error_INVALID_FOLDER_REQUEST": {
+    "message": "Nevaljan zahtjev za mapu"
+  },
+  "error_INVALID_GROUP_ACTION": {
+    "message": "Ova radnja grupe nije podržana."
+  },
+  "error_INVALID_HOP_INDEX": {
+    "message": "Nevaljan indeks skoka"
+  },
+  "error_INVALID_LEGACY_PREDECESSOR": {
+    "message": "Nevaljan naslijeđeni prethodnik"
+  },
+  "error_INVALID_LIBRARY_COMMAND": {
+    "message": "Ova naredba biblioteke čvorova nije podržana."
+  },
+  "error_INVALID_LIBRARY_REQUEST": {
+    "message": "Nevaljan zahtjev biblioteke"
+  },
+  "error_INVALID_NAME": {
+    "message": "Unesite naziv s 1–128 vidljivih znakova, bez kontrolnih znakova."
+  },
+  "error_INVALID_NETWORK_TEST": {
+    "message": "Nevaljan mrežni test"
+  },
+  "error_INVALID_NODE_IMPORT_RESPONSE": {
+    "message": "Nevaljan odgovor uvoza čvorova"
+  },
+  "error_INVALID_PREDECESSOR": {
+    "message": "Nevaljan prethodnik za ovu rutu"
+  },
+  "error_INVALID_PROFILE_NAME": {
+    "message": "Nevaljan naziv profila"
+  },
+  "error_INVALID_PROFILE_REFERENCE": {
+    "message": "Nevaljana referenca na profil"
+  },
+  "error_INVALID_PROXY_AUTH": {
+    "message": "Nevaljana provjera autentičnosti proxyja"
+  },
+  "error_INVALID_PROXY_CREDENTIALS": {
+    "message": "Nevaljane vjerodajnice proxyja"
+  },
+  "error_INVALID_PROXY_ENDPOINT": {
+    "message": "Unesite valjan host i port proxyja"
+  },
+  "error_INVALID_PROXY_HOST": {
+    "message": "Unesite DNS naziv ili IP adresu bez porta, URL-a, putanje ili upita"
+  },
+  "error_INVALID_ROUTE": {
+    "message": "Nevaljana ruta"
+  },
+  "error_INVALID_ROUTE_SETTINGS": {
+    "message": "Nevaljane postavke rute"
+  },
+  "error_INVALID_RULES": {
+    "message": "Nevaljana pravila"
+  },
+  "error_INVALID_RULE_TARGET": {
+    "message": "Za svako pravilo odaberite jedan valjan čvor ili profil"
+  },
+  "error_INVALID_SUBSCRIPTION": {
+    "message": "Nevaljana pretplata"
+  },
+  "error_INVALID_SUBSCRIPTION_REQUEST": {
+    "message": "Nevaljan zahtjev pretplate"
+  },
+  "error_INVALID_SUBSCRIPTION_SETTINGS": {
+    "message": "Postavke pretplate nisu valjane. Provjerite interval ažuriranja i pravila povezivanja."
+  },
+  "error_INVALID_SYSTEM_PROXY_RESPONSE": {
+    "message": "Nevaljan odgovor sistemskog proxyja; ažurirajte ili popravite prateću aplikaciju"
+  },
+  "error_INVALID_TRANSPORT": {
+    "message": "Postavke povezivanja pretplate nisu valjane."
+  },
+  "error_INVALID_URL": {
+    "message": "Unesite valjan HTTP(S) URL pretplate bez korisničkog imena ili lozinke."
+  },
+  "error_LIBRARY_CHANGED": {
+    "message": "Biblioteka čvorova promijenjena je u drugom prozoru. Osvježite je i pokušajte ponovno."
+  },
+  "error_MANUAL_CHAIN_UNSUPPORTED": {
+    "message": "Ručni proxyji ne prihvaćaju lanac čvorova"
+  },
+  "error_MANUAL_PROXY_CLEANUP_FAILED": {
+    "message": "Spremanje nije uspjelo; privremeno uvezeni proxy ostaje u biblioteci čvorova"
+  },
+  "error_NATIVE_BINDING_ID": {
+    "message": "Nevaljan identifikator veze rute."
+  },
+  "error_NATIVE_BINDING_UNKNOWN": {
+    "message": "Veza rute ne postoji."
+  },
+  "error_NATIVE_BUTTON_NAME": {
+    "message": "Naziv gumba mora sadržavati 1–128 vidljivih znakova."
+  },
+  "error_NATIVE_CATALOG_UNREADABLE": {
+    "message": "Konfiguraciju v2rayN nije moguće pročitati."
+  },
+  "error_NATIVE_CORE_MISSING": {
+    "message": "Xray nije dostupan. Instalirajte paket prateće aplikacije."
+  },
+  "error_NATIVE_GROUP_ID_COLLISION": {
+    "message": "Identifikatori grupa su u sukobu."
+  },
+  "error_NATIVE_GROUP_ORDER": {
+    "message": "Nevaljan redoslijed grupa."
+  },
+  "error_NATIVE_NODE_ID_COLLISION": {
+    "message": "Identifikatori čvorova su u sukobu."
+  },
+  "error_NATIVE_PREDECESSOR_AMBIGUOUS": {
+    "message": "Naziv prethodnika nedostaje ili je dupliciran. Odaberite određeni prethodni čvor."
+  },
+  "error_NATIVE_PREDECESSOR_CYCLE": {
+    "message": "Lanac prethodnika sadrži ciklus ili premašuje šest čvorova."
+  },
+  "error_NATIVE_PREDECESSOR_INVALID": {
+    "message": "Odaberite valjan prethodni proxy."
+  },
+  "error_NATIVE_PREDECESSOR_MISSING": {
+    "message": "Odabrani prethodnik više ne postoji. Odaberite drugi čvor."
+  },
+  "error_NATIVE_PREDECESSOR_SETTINGS": {
+    "message": "Nevaljane postavke prethodnika."
+  },
+  "error_NATIVE_ROUTE_INVALID": {
+    "message": "Odaberite valjanu rutu."
+  },
+  "error_NATIVE_ROUTE_MISSING": {
+    "message": "Ova ruta više ne postoji. Odaberite drugu rutu."
+  },
+  "error_NATIVE_ROUTE_PORTS": {
+    "message": "Nevaljane dodjele portova rute."
+  },
+  "error_NATIVE_ROUTE_UNAVAILABLE": {
+    "message": "Odabrana ruta nije dostupna. Pogledajte tehničke pojedinosti."
+  },
+  "error_NATIVE_SETTINGS_FORMAT": {
+    "message": "Nevaljan format postavki."
+  },
+  "error_NATIVE_SETTINGS_REVISION": {
+    "message": "Nevaljana revizija postavki."
+  },
+  "error_NATIVE_SUCCESSOR_UNSUPPORTED": {
+    "message": "Ova grupa koristi naknadni proxy koji nije podržan."
+  },
+  "error_NATIVE_UNSUPPORTED_CUSTOM": {
+    "message": "Ova verzija ne podržava prilagođene izlazne konfiguracije."
+  },
+  "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
+    "message": "Ova verzija ne podržava Hysteria2."
+  },
+  "error_NATIVE_UNSUPPORTED_TUIC": {
+    "message": "Ova verzija ne integrira jezgru sing-box potrebnu za TUIC."
+  },
+  "error_NATIVE_UNSUPPORTED_TYPE": {
+    "message": "Ova vrsta rute nije podržana."
+  },
+  "error_NATIVE_V2RAYN_PORT": {
+    "message": "Lokalni port v2rayN nije valjan."
+  },
+  "error_NATIVE_V2RAYN_UNAVAILABLE": {
+    "message": "v2rayN nije dostupan. Odaberite uvezeni čvor."
+  },
+  "error_NETWORK_FAILED": {
+    "message": "Mrežni zahtjev nije uspio. Provjerite vezu i pokušajte ponovno."
+  },
+  "error_NETWORK_TEST_FAILED": {
+    "message": "Mrežna dijagnostika nije uspjela. Pogledajte tehničke pojedinosti."
+  },
+  "error_NODE_LIMIT": {
+    "message": "Radnja bi premašila ograničenje broja čvorova. Uklonite nekorištene čvorove i pokušajte ponovno."
+  },
+  "error_NODE_MAPPING_INCOMPLETE": {
+    "message": "Mapiranje čvorova je nepotpuno"
+  },
+  "error_NODE_NOT_FOUND": {
+    "message": "Odabrani čvor više ne postoji. Odaberite drugi čvor."
+  },
+  "error_NOT_DUE": {
+    "message": "Vrijeme sljedećeg zakazanog ažuriranja još nije stiglo."
+  },
+  "error_PAC_ENTRY_REQUIRED": {
+    "message": "Unesite PAC izvorni kod s FindProxyForURL"
+  },
+  "error_PAC_FUNCTION_REQUIRED": {
+    "message": "Definirajte sinkronu funkciju FindProxyForURL najviše razine, varijablu funkcije ili pridruživanje"
+  },
+  "error_PAC_PARSER_UNAVAILABLE": {
+    "message": "Priloženi PAC parser nije dostupan; ponovno instalirajte proširenje"
+  },
+  "error_PAC_RULE_TARGET_UNSUPPORTED": {
+    "message": "Automatska pravila ne mogu ciljati profil ugrađenog PAC koda"
+  },
+  "error_PAC_SOURCE_LIMIT": {
+    "message": "Unesite PAC izvorni kod s najviše {limit} znakova"
+  },
+  "error_PAC_SYNTAX_INVALID": {
+    "message": "Nevaljana PAC sintaksa"
+  },
+  "error_PAC_SYNTAX_LOCATION": {
+    "message": "Nevaljana PAC sintaksa u retku {line}, stupcu {column}"
+  },
+  "error_PARTIAL_TRANSFER": {
+    "message": "Testni prijenos završio je prije primanja svih podataka."
+  },
+  "error_PRIVATE_DIRECTORY_FAILED": {
+    "message": "Privatnu testnu mapu nije moguće zaštititi. Test je zaustavljen."
+  },
+  "error_PRIVATE_TARGET": {
+    "message": "Zahtjevi pretplate prema privatnim ili lokalnim adresama nisu dopušteni."
+  },
+  "error_PROFILE_NOT_FOUND": {
+    "message": "Profil nije pronađen"
+  },
+  "error_PROFILE_REFERENCE_CYCLE": {
+    "message": "Kružne reference profila"
+  },
+  "error_PROFILE_REFERENCE_DEPTH": {
+    "message": "Automatska pravila premašuju najveću dubinu {limit}"
+  },
+  "error_PROFILE_REFERENCE_MISSING": {
+    "message": "Referencirani profil ne postoji: {name}"
+  },
+  "error_PROFILE_SAVE_RESTORE_FAILED": {
+    "message": "Spremanje nije uspjelo i vraćanje rute zahtijeva pozornost"
+  },
+  "error_PROXY_AUTH_REQUIRED": {
+    "message": "Proxy pretplate zahtijeva provjeru autentičnosti koju ovaj zahtjev ne može pružiti."
+  },
+  "error_PROXY_CONTROL_UNAVAILABLE": {
+    "message": "Drugo proširenje ili pravilo upravlja proxyjem"
+  },
+  "error_PROXY_DNS_REQUIRED": {
+    "message": "V2Route razrješava SOCKS5 DNS putem proxyja"
+  },
+  "error_PROXY_FAILED": {
+    "message": "Povezivanje s proxyjem nije uspjelo. Provjerite odabranu rutu."
+  },
+  "error_PROXY_PROFILE_REQUIRED": {
+    "message": "Odaberite profil proxyja"
+  },
+  "error_PROXY_ROLLBACK_REFUSED": {
+    "message": "Preglednik je odbio vraćanje prethodnog proxyja"
+  },
+  "error_PROXY_SETTING_REFUSED": {
+    "message": "Preglednik je odbio postavku proxyja"
+  },
+  "error_PROXY_UNAVAILABLE": {
+    "message": "Odabrani proxy nije dostupan. Provjerite trenutačnu rutu."
+  },
+  "error_PROXY_USERNAME_REQUIRED": {
+    "message": "Unesite korisničko ime proxyja"
+  },
+  "error_RECOVERY_BINDINGS_LIMIT": {
+    "message": "Oporavak može vratiti najviše {limit} veza čvorova. Otvorite i spremite referencirane profile zasebno."
+  },
+  "error_REDIRECT_LIMIT": {
+    "message": "Pretplata je previše puta preusmjeravala. Provjerite njezin URL."
+  },
+  "error_REFERENCED_PROFILE_DELETE": {
+    "message": "Automatsko pravilo referencira ovaj profil"
+  },
+  "error_REMOTE_PAC_UNSUPPORTED": {
+    "message": "Koristite ugrađeni PAC izvorni kod; udaljeni PAC nije podržan"
+  },
+  "error_ROUTE_PORT_UNAVAILABLE": {
+    "message": "Nijedan port nije dodijeljen"
+  },
+  "error_ROUTE_RECOVERY_RESTORE_FAILED": {
+    "message": "Oporavak rute nije uspio i vraćanje zahtijeva pozornost"
+  },
+  "error_ROUTE_REVISION_CONFLICT": {
+    "message": "Ruta je promijenjena u drugom prozoru. Najprije osvježite"
+  },
+  "error_ROUTE_SAVE_ROLLBACK_FAILED": {
+    "message": "Spremanje rute nije uspjelo i povrat na prethodno stanje zahtijeva pozornost"
+  },
+  "error_ROUTE_UNAVAILABLE": {
+    "message": "Testna ruta nije dostupna. Provjerite postavke čvora i prethodnika."
+  },
+  "error_RULE_BINDING_MISSING": {
+    "message": "Nedostaje veza pravila čvora. Ponovno otvorite i spremite automatski profil: {name}"
+  },
+  "error_RULE_NODES_LIMIT": {
+    "message": "Automatska pravila podržavaju najviše {limit} različitih čvorova"
+  },
+  "error_RULE_NODE_CHANGED": {
+    "message": "Pravilo čvora nije dostupno ili je promijenjeno. Vratite čvor ili odaberite drugi i spremite: {name}"
+  },
+  "error_RULE_PATH_CONFLICT": {
+    "message": "Proturječne putanje pravila čvorova"
+  },
+  "error_RULE_PATTERNS_LIMIT": {
+    "message": "Automatska pravila podržavaju ukupno najviše {limit} uzoraka podudaranja"
+  },
+  "error_RULE_PORT_UNAVAILABLE": {
+    "message": "Port pravila čvora nije dostupan"
+  },
+  "error_RULE_REVISION_CONFLICT": {
+    "message": "Pravilo čvora promijenjeno je u drugom prozoru. Najprije osvježite"
+  },
+  "error_SELECTED_NODE_UNAVAILABLE": {
+    "message": "Odabrani čvor nije dostupan. Vratite ga ili odaberite drugi čvor"
+  },
+  "error_SOCKS_FAILED": {
+    "message": "SOCKS vezu nije moguće uspostaviti."
+  },
+  "error_STARTUP_FALLBACK_REFUSED": {
+    "message": "Preglednik je odbio rezervni proxy pri pokretanju."
+  },
+  "error_SUBSCRIPTION_CHANGED": {
+    "message": "Pretplata se promijenila tijekom ažuriranja. Osvježite je i pokušajte ponovno."
+  },
+  "error_SUBSCRIPTION_HTTP_STATUS": {
+    "message": "Poslužitelj pretplate vratio je HTTP {status}."
+  },
+  "error_SUBSCRIPTION_LIMIT": {
+    "message": "Dosegnuto je ograničenje broja pretplata. Uklonite nekorištenu pretplatu i pokušajte ponovno."
+  },
+  "error_SUBSCRIPTION_NOT_FOUND": {
+    "message": "Odabrana pretplata više ne postoji."
+  },
+  "error_SYSTEM_PROXY_SNAPSHOT_UNAVAILABLE": {
+    "message": "Primijenjena snimka sistemskog proxyja nije dostupna."
+  },
+  "error_SYSTEM_PROXY_TIMEOUT": {
+    "message": "Isteklo je vrijeme čitanja sistemskog proxyja"
+  },
+  "error_SYSTEM_PROXY_UNAVAILABLE": {
+    "message": "Sistemski proxy nije dostupan. Pogledajte tehničke pojedinosti."
+  },
+  "error_TIMEOUT": {
+    "message": "Zahtjev je istekao. Provjerite vezu i pokušajte ponovno."
+  },
+  "error_TLS_DOWNGRADE": {
+    "message": "Pretplata je preusmjerila s HTTPS na HTTP i blokirana je."
+  },
+  "error_TLS_FAILED": {
+    "message": "Sigurnu vezu nije moguće potvrditi. Provjerite poslužitelj i certifikat."
+  },
+  "error_UNSAFE_TEMP_PATH": {
+    "message": "Privremena testna mapa nije sigurna. Test je zaustavljen."
+  },
+  "error_UNSUPPORTED_LIBRARY_REQUEST": {
+    "message": "Nepodržan zahtjev biblioteke"
+  },
+  "error_UNSUPPORTED_PROFILE_TYPE": {
+    "message": "Nepodržana vrsta profila"
+  },
+  "error_UNSUPPORTED_REQUEST": {
+    "message": "Nepodržan zahtjev"
+  },
+  "error_UNSUPPORTED_RULE_CONDITION": {
+    "message": "Podržana su samo pravila sa zamjenskim znakovima za host i URL"
+  },
+  "error_UPDATE_FAILED": {
+    "message": "Ažuriranje pretplate nije uspjelo. Postojeći čvorovi su zadržani."
+  },
+  "error_VALIDATION_FAILED": {
+    "message": "Sadržaj pretplate nije moguće provjeriti. Postojeći čvorovi su zadržani."
+  },
+  "nativeUnnamedNode": {
+    "message": "Neimenovani čvor"
+  },
+  "nativeProtocolCustom": {
+    "message": "Prilagođeno"
+  },
+  "nativeProtocolOutbound": {
+    "message": "Prilagođeni izlaz"
+  },
+  "nativeProtocolGroup": {
+    "message": "Grupa pravila"
+  },
+  "nativeProtocolChain": {
+    "message": "Lanac proxyja"
+  },
+  "nativeProtocolUnknown": {
+    "message": "Nepodržana vrsta"
+  },
+  "languageLoadFailed": {
+    "message": "Odabrani jezik nije moguće učitati. Pokušajte ponovno."
+  },
+  "invalidBackupJSON": {
+    "message": "Sigurnosna kopija nije valjan JSON."
+  },
+  "noticeBodyLanguages": {
+    "message": "Cijeli tekst pravila dostupan je na engleskom i pojednostavljenom kineskom jeziku."
+  },
+  "policyRules": {
+    "message": "Pravila usmjeravanja proxyja"
+  },
+  "policyPriority": {
+    "message": "Redoslijed: izuzete adrese → prvo podudarno pravilo → zadana ruta."
+  },
+  "policyDirectHelp": {
+    "message": "Adrese bez podudaranja povezuju se izravno. Gumb Izravno također koristi ova pravila."
+  },
+  "policySystemHelp": {
+    "message": "Adrese bez podudaranja koriste sistemski proxy. Gumb Sustav također koristi ova pravila."
+  },
+  "policyEmpty": {
+    "message": "Još nema pravila. Koristi se zadana ruta."
+  },
+  "policyAddressHelp": {
+    "message": "Domene, zamjenski znakovi, IP ili IP:priključak. IP pravila uspoređuju IP u URL-u, a ne DNS rezultate."
+  },
+  "policyMoveUp": {
+    "message": "Pomakni pravilo gore"
+  },
+  "policyMoveDown": {
+    "message": "Pomakni pravilo dolje"
+  }
+}

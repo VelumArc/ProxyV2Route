@@ -1,0 +1,2150 @@
+{
+  "ruleTargetUnavailable": {
+    "message": "Nerazpoložljiv cilj"
+  },
+  "rulePatternPlaceholder": {
+    "message": "example.com, *.example.org, 192.0.2.1:8443"
+  },
+  "rulePatternHelp": {
+    "message": "Naslove ločite z vejicami. Vsak vzorec URL v svojo vrstico. PAC morda ne vidi poti HTTPS."
+  },
+  "defaultChoice_direct": {
+    "message": "Povežite se brez proxyja"
+  },
+  "defaultChoice_system": {
+    "message": "Uporabi sistemske nastavitve proxyja"
+  },
+  "defaultChoice_node": {
+    "message": "Uporabi izbrano vozlišče tega profila"
+  },
+  "defaultChoice_manual": {
+    "message": "Uporabi nastavitve posrednika tega profila"
+  },
+  "defaultChoice_auto": {
+    "message": "Uporabi pravila usmerjanja tega profila"
+  },
+  "nlHttpsLatency": {
+    "message": "HTTPS odgovor"
+  },
+  "nlLatencyMethod": {
+    "message": "Cloudflare · Najmanj dva odgovora · Ponovna uporaba povezave, ko je na voljo"
+  },
+  "nlLatencyFast": {
+    "message": "Hitro"
+  },
+  "nlLatencyModerate": {
+    "message": "Zmerno"
+  },
+  "nlLatencySlow": {
+    "message": "Počasi"
+  },
+  "nlSortName": {
+    "message": "Ime"
+  },
+  "nlSortLatency": {
+    "message": "Zakasnitev: nizka do visoka"
+  },
+  "nlSortDownload": {
+    "message": "Prenos: visoko na nizko"
+  },
+  "nlSortUpload": {
+    "message": "Nalaganje: visoko proti nizko"
+  },
+  "nlSingle": {
+    "message": "Eno vozlišče"
+  },
+  "nlGroupBatch": {
+    "message": "Skupina / paket"
+  },
+  "nlTestScope": {
+    "message": "Obseg testa"
+  },
+  "nlCurrentNode": {
+    "message": "Izbrano vozlišče"
+  },
+  "nlCurrentGroup": {
+    "message": "Izbrana skupina"
+  },
+  "nlChooseNode": {
+    "message": "Izberite vozlišče na seznamu"
+  },
+  "nlStart": {
+    "message": "Začni test"
+  },
+  "nlService": {
+    "message": "Testna storitev"
+  },
+  "nlMeasured": {
+    "message": "izmerjeno"
+  },
+  "nlMeanLatency": {
+    "message": "Povprečna zakasnitev"
+  },
+  "nlGroupBySource": {
+    "message": "Po izvorni skupini"
+  },
+  "nlPreviousPage": {
+    "message": "Prejšnja stran"
+  },
+  "nlNextPage": {
+    "message": "Naslednja stran"
+  },
+  "nlName": {
+    "message": "Ime"
+  },
+  "nlEdit": {
+    "message": "Uredi"
+  },
+  "nlStop": {
+    "message": "Nehaj"
+  },
+  "nlConfirm": {
+    "message": "Potrdi"
+  },
+  "nlAllNodes": {
+    "message": "Vsa vozlišča"
+  },
+  "nlNodeResults": {
+    "message": "Rezultati vozlišča"
+  },
+  "nlTestCenter": {
+    "message": "Testni center"
+  },
+  "nlNewGroup": {
+    "message": "Nova skupina"
+  },
+  "nlRenameGroup": {
+    "message": "Preimenuj skupino"
+  },
+  "nlRemoveGroup": {
+    "message": "Odstrani skupino"
+  },
+  "nlRemoveGroupHelp": {
+    "message": "Ohranite vsako vozlišče in naročnino ter jih premaknite v uvožena vozlišča."
+  },
+  "nlNode": {
+    "message": "Vozlišče"
+  },
+  "nlStatus": {
+    "message": "Stanje"
+  },
+  "nlActions": {
+    "message": "Dejanja"
+  },
+  "nlSort": {
+    "message": "Razvrsti samo to tabelo"
+  },
+  "nlSelected": {
+    "message": "izbrano"
+  },
+  "nlTestNode": {
+    "message": "Test"
+  },
+  "nlProfileShort": {
+    "message": "Profil"
+  },
+  "nlQuick": {
+    "message": "Hitra zakasnitev"
+  },
+  "nlFull": {
+    "message": "Prenos + nalaganje"
+  },
+  "nlTraffic": {
+    "message": "Velikost testnih podatkov"
+  },
+  "nlConcurrency": {
+    "message": "Sočasna vozlišča"
+  },
+  "nlTrafficFullOnly": {
+    "message": "Uporablja se za preizkuse prenosa in nalaganja"
+  },
+  "nlTestMode": {
+    "message": "Testni način"
+  },
+  "nlBudget": {
+    "message": "Največji promet koristne obremenitve"
+  },
+  "nlViaGroup": {
+    "message": "Prek skupinskega predposrednika"
+  },
+  "nlTestSelected": {
+    "message": "Test izbran"
+  },
+  "nlTestVisible": {
+    "message": "Testno prikazana vozlišča"
+  },
+  "nlTestAll": {
+    "message": "Preizkusite vsa vozlišča"
+  },
+  "nlTestGroup": {
+    "message": "Vozlišča testne skupine"
+  },
+  "nlProgress": {
+    "message": "Napredek meritve"
+  },
+  "nlReady": {
+    "message": "Izberite vozlišča za začetek. Noben test se ni izvedel."
+  },
+  "nlStarting": {
+    "message": "Začetek izoliranega merjenja ..."
+  },
+  "nlQueued": {
+    "message": "V čakalni vrsti"
+  },
+  "nlRunning": {
+    "message": "Testiranje"
+  },
+  "nlStopping": {
+    "message": "Ustavitev ..."
+  },
+  "nlComplete": {
+    "message": "Dokončano"
+  },
+  "nlFailed": {
+    "message": "Ni uspelo"
+  },
+  "nlStopped": {
+    "message": "Ustavljeno"
+  },
+  "nlPartial": {
+    "message": "Delno"
+  },
+  "nlUntested": {
+    "message": "Ni testirano"
+  },
+  "nlSucceeded": {
+    "message": "opravil"
+  },
+  "nlMeasureDisconnected": {
+    "message": "Merilna povezava je končana. Nepopolne vrednosti niso končni rezultati."
+  },
+  "nlUpgrade": {
+    "message": "Posodobite lokalni Companion za upravljanje skupin in naročnin. Obstoječa vozlišča ostanejo na voljo."
+  },
+  "nlOperationFailed": {
+    "message": "Operacije ni bilo mogoče dokončati. poskusi ponovno"
+  },
+  "nlEditSubscription": {
+    "message": "Uredi naročnino"
+  },
+  "nlPasteContent": {
+    "message": "Proxy povezave / vsebina"
+  },
+  "nlSubscriptionURL": {
+    "message": "Naročnina URL"
+  },
+  "nlKeepURL": {
+    "message": "Pustite prazno, če želite ohraniti shranjeno URL"
+  },
+  "nlConnectionPolicy": {
+    "message": "Posodobi povezavo"
+  },
+  "nlProxyFirst": {
+    "message": "Najprej posrednik, nato neposredno ob napaki"
+  },
+  "nlProxyOnly": {
+    "message": "Samo proxy"
+  },
+  "nlDirectOnly": {
+    "message": "Samo neposredno"
+  },
+  "nlProxyFirstHelp": {
+    "message": "Proxy se najprej ustavi po uspešnem pridobivanju. Neposredno se poskusi samo, če poskus proxyja ne uspe."
+  },
+  "nlAutoUpdate": {
+    "message": "Omogoči samodejne posodobitve"
+  },
+  "nlInterval": {
+    "message": "Interval posodabljanja (minute)"
+  },
+  "nlDestinationGroup": {
+    "message": "Ciljna skupina"
+  },
+  "nlSubscriptionOwnGroup": {
+    "message": "Nova skupina…"
+  },
+  "nlNameGroup": {
+    "message": "Ime (skupina)"
+  },
+  "nlCustomGroup": {
+    "message": "Skupina po meri"
+  },
+  "nlNameRequired": {
+    "message": "Vnesite ime."
+  },
+  "nlContentRequired": {
+    "message": "Prilepite proxy povezave ali naročniško vsebino."
+  },
+  "nlGroupRequired": {
+    "message": "Izberite ciljno skupino."
+  },
+  "nlURLRequired": {
+    "message": "Vnesite HTTP(S) naročnino URL brez uporabniškega imena ali gesla."
+  },
+  "nlIntervalInvalid": {
+    "message": "Vnesite celo število od 5 do 43200 minut."
+  },
+  "folderTitle": {
+    "message": "Izberite mapo v2rayN."
+  },
+  "folderHint": {
+    "message": "Izberite mapo in jo uporabite s Shrani nastavitve povezave."
+  },
+  "folderPath": {
+    "message": "Pot celotne lokalne mape"
+  },
+  "folderGo": {
+    "message": "Odprto"
+  },
+  "folderUp": {
+    "message": "Gor"
+  },
+  "folderDrives": {
+    "message": "Pogoni"
+  },
+  "folderCurrent": {
+    "message": "Trenutna pot"
+  },
+  "folderChoose": {
+    "message": "Uporabite to mapo"
+  },
+  "folderList": {
+    "message": "Mape"
+  },
+  "folderTruncated": {
+    "message": "Seznam je omejen. Vnesite celotno pot zgoraj, da odprete mapo, ki ni prikazana."
+  },
+  "folderReady": {
+    "message": "v2rayN najdenih datotek. Uporabite to mapo za potrditev konfiguracije."
+  },
+  "folderInvalid": {
+    "message": "Izberite mapo, ki vsebuje guiConfigs, guiNConfig.json in guiNDB.db."
+  },
+  "folderSelectDrive": {
+    "message": "Izberite lokalni pogon ali vnesite celotno pot do mape."
+  },
+  "folderEmpty": {
+    "message": "Ni vidnih podmap."
+  },
+  "folderUnavailable": {
+    "message": "Te mape ni mogoče brskati. Preverite njegovo pot in dostop. Če je Companion starejši, ga najprej posodobite."
+  },
+  "folderValidating": {
+    "message": "Preverjanje v2rayN konfiguracije ..."
+  },
+  "folderInvalidConfig": {
+    "message": "Konfiguracija ali zbirka podatkov v2rayN je nepopolna ali neveljavna. Izberite drugo mapo."
+  },
+  "copyPath": {
+    "message": "Kopiraj pot"
+  },
+  "pathCopyHint": {
+    "message": "Kopirajte trenutno pot v tem polju."
+  },
+  "preMode": {
+    "message": "Način pred posredništvom"
+  },
+  "preNode": {
+    "message": "Predproxy vozlišče"
+  },
+  "preIntro": {
+    "message": "Uporabite skupinsko verigo, jo preskočite ali izberite predproxy za ta profil."
+  },
+  "healthLabel": {
+    "message": "Trenutno stanje povezave"
+  },
+  "healthOk": {
+    "message": "Normalno"
+  },
+  "healthError": {
+    "message": "Nenormalno"
+  },
+  "healthChecking": {
+    "message": "Preverjanje"
+  },
+  "healthUnknown": {
+    "message": "Nepotrjeno"
+  },
+  "autoSystemHelp": {
+    "message": "Sistemska pravila zahtevajo komponento Windows in posnetek nastavitev fiksnega posredniškega strežnika. Po spremembah ponovno uveljavite. PAC/WPAD nista podprta; Sistem brez pravil uporablja izvorne nastavitve brskalnika."
+  },
+  "backgroundUnavailable": {
+    "message": "Ozadje razširitve ni na voljo."
+  },
+  "backgroundNoResponse": {
+    "message": "Ozadje se ni odzvalo."
+  },
+  "backupTooLarge": {
+    "message": "Varnostna kopija presega 5 MB."
+  },
+  "proxyUsername": {
+    "message": "Uporabniško ime"
+  },
+  "proxyPassword": {
+    "message": "Geslo"
+  },
+  "proxyAuthHelp": {
+    "message": "Neobvezno. Preverjeni posredniki se povežejo prek spremljevalca. Poverilnice so shranjene v tej konfiguraciji brskalnika in Companion ter vključene v izvoze profila."
+  },
+  "proxyAuthSocks4": {
+    "message": "SOCKS4 ne podpira tega preverjanja pristnosti z uporabniškim imenom/geslom; uporabite HTTP(S) ali SOCKS5."
+  },
+  "importExamples": {
+    "message": "Primeri oblik"
+  },
+  "ipCopying": {
+    "message": "Kopiranje ..."
+  },
+  "netDnsUnavailable": {
+    "message": "Naslova strežnika ni bilo mogoče pravočasno razrešiti. Preverite naslov gostitelja ali IP in poskusite znova."
+  },
+  "netCurrentTarget": {
+    "message": "Izbrana končna točka posrednika"
+  },
+  "netCustomTarget": {
+    "message": "Strežnik po meri"
+  },
+  "netHost": {
+    "message": "Naslov gostitelja ali IP."
+  },
+  "netPort": {
+    "message": "TCP vrata"
+  },
+  "netHostRequired": {
+    "message": "Vnesite gostitelja strežnika ali IP naslov."
+  },
+  "netCurrentUnavailable": {
+    "message": "Izberite vozlišče ali ročni profil posrednika ali vnesite cilj po meri."
+  },
+  "netInvalidTarget": {
+    "message": "Vnesite veljavnega diagnostičnega gostitelja in vrata."
+  },
+  "netIpv6PingUnavailable": {
+    "message": "IPv6 ICMP ni na voljo; uporabite TCPing."
+  },
+  "preNeedsFix": {
+    "message": "Pred shranjevanjem izberite veljaven predproxy ali brez predproxyja."
+  },
+  "preConfigure": {
+    "message": "Konfigurirajte predproxy"
+  },
+  "preFollowInvalid": {
+    "message": "Follow v2rayN ne sprejema prilagojenega vnaprejšnjega posrednika."
+  },
+  "followChainHelp": {
+    "message": "Follow uporablja pot in verigo posrednikov, ki sta že aktivni v v2rayN."
+  },
+  "netTitle": {
+    "message": "Preizkusi povezave"
+  },
+  "ipTestDetails": {
+    "message": "Podrobnosti testa"
+  },
+  "netTarget": {
+    "message": "Ping / TCPing cilj"
+  },
+  "netDownload": {
+    "message": "Prenesite test"
+  },
+  "netPartial": {
+    "message": "Delni vzorec"
+  },
+  "netComplete": {
+    "message": "Vzorec je končan"
+  },
+  "netDirect": {
+    "message": "Sistemsko omrežje"
+  },
+  "netUnreachable": {
+    "message": "Ni odgovora / ni uspelo"
+  },
+  "netAverage": {
+    "message": "Povprečje"
+  },
+  "predecessor": {
+    "message": "Predproxy"
+  },
+  "preInherit": {
+    "message": "Uporabite skupinsko verigo v2rayN."
+  },
+  "preNone": {
+    "message": "Brez vnaprejšnjega posrednika"
+  },
+  "preSpecific": {
+    "message": "Izberite vozlišče"
+  },
+  "preHelp": {
+    "message": "Velja za ta profil. Uporabite skupinsko verigo v2rayN, brez predproksija ali določenega vozlišča. Follow v2rayN uporablja svojo obstoječo verigo."
+  },
+  "preSelectRequired": {
+    "message": "Izberite predproxy vozlišče ali izberite Privzeto skupino / Brez."
+  },
+  "ipPing0Permission": {
+    "message": "Dovoli Ping0 dostop do spletnega mesta za nalaganje javnega poročila."
+  },
+  "ipPublicChallenge": {
+    "message": "Spletno mesto zahteva preverjanje. Odprite stran Ping0, da jo dokončate in si ogledate rezultat."
+  },
+  "ipPublicReport": {
+    "message": "Ping0 javno poročilo"
+  },
+  "ipPublicSource": {
+    "message": "Vir: Ping0 javna stran"
+  },
+  "ipPublicOriginal": {
+    "message": "Ping0 poročilo"
+  },
+  "ipPublicPartial": {
+    "message": "Prikazana so samo polja na javni strani v njihovem izvirnem jeziku. Klasifikacije in ocene uporabnikov v skupni rabi so od Ping0."
+  },
+  "setupTitle": {
+    "message": "Poveži Proxy V2Route"
+  },
+  "setupIntro": {
+    "message": "Namestite spremljevalca Windows za uporabo poti v2rayN ali lastnih uvoženih vozlišč."
+  },
+  "setupStepOne": {
+    "message": "Ekstrahirajte ujemajoči se celoten paket Windows v trajno mapo."
+  },
+  "setupStepTwo": {
+    "message": "Odprite V2Route-Setup.exe in kliknite Namesti."
+  },
+  "setupStepThree": {
+    "message": "Vrnite se sem in preverite povezavo. Po potrebi izberite mapo v2rayN."
+  },
+  "setupCheck": {
+    "message": "Preverite povezavo"
+  },
+  "downloadCompanion": {
+    "message": "Navodila za namestitev ↗"
+  },
+  "setupDownloadNote": {
+    "message": "Uporabite ujemajoči se lokalni paket Windows ali sledite vodniku, da ga zgradite iz trenutnega vira."
+  },
+  "chooseFolder": {
+    "message": "Izberite mapo v2rayN ..."
+  },
+  "rescanDone": {
+    "message": "Lokalna vozlišča so ponovno skenirana"
+  },
+  "grouping": {
+    "message": "Skupinska vozlišča"
+  },
+  "groupByCountry": {
+    "message": "Po državah"
+  },
+  "unknownCountry": {
+    "message": "Drugo / neznano"
+  },
+  "ungrouped": {
+    "message": "Nezdruženo"
+  },
+  "adjustNodeFilters": {
+    "message": "Poskusite z drugo skupino, virom ali iskanjem ali pokažite skrita vozlišča."
+  },
+  "rescanLocal": {
+    "message": "Ponovno skeniraj v2rayN vozlišča"
+  },
+  "showHidden": {
+    "message": "Pokaži skrita vozlišča"
+  },
+  "hideNode": {
+    "message": "Skrij"
+  },
+  "restoreNode": {
+    "message": "Obnovi"
+  },
+  "hiddenNode": {
+    "message": "Skrito"
+  },
+  "hideNodeHelp": {
+    "message": "Skrij samo iz knjižnice vozlišč tega brskalnika. v2rayN in obstoječi profili so nespremenjeni."
+  },
+  "ipContextTimeout": {
+    "message": "Časovna omejitev branja trenutnega profila je potekla. poskusi ponovno"
+  },
+  "ipStaleResult": {
+    "message": "Trenutni profil spremenjen. Ta rezultat je lahko zastarel; preveri še enkrat."
+  },
+  "ip_tools": {
+    "message": "IP Orodje"
+  },
+  "ipIntro": {
+    "message": "Trenutni izstop IP in javno poročilo."
+  },
+  "ipCurrentProfile": {
+    "message": "Trenutni profil brskalnika"
+  },
+  "ipRouteCaution": {
+    "message": "Samodejna pravila in PAC lahko uporabljajo različne poti za različne cilje. To preverjanje opisuje samo lastno zahtevo."
+  },
+  "ipDisclosure": {
+    "message": "Izhod samodejnega preverjanja IP · Poročilo Ping0"
+  },
+  "ipMethod": {
+    "message": "Preverjanje naslova"
+  },
+  "ipDual": {
+    "message": "IPv4 / IPv6"
+  },
+  "ipCheck": {
+    "message": "Preverite znova"
+  },
+  "ipChecking": {
+    "message": "Preverjanje ..."
+  },
+  "ipDualHelp": {
+    "message": "IPv4 / IPv6 vrne družino naslovov, uporabljeno za to zahtevo, ne obeh naslovov."
+  },
+  "ipDurationHelp": {
+    "message": "Pretečeni HTTP čas zahteve vključuje odzivni čas omrežja in storitve. To ni ICMP ping ali test pasovne širine."
+  },
+  "ipCopy": {
+    "message": "Kopija IP"
+  },
+  "ipCopied": {
+    "message": "Kopirano"
+  },
+  "ipCopyFailed": {
+    "message": "Ni bilo mogoče kopirati. Izberite naslov in ga ročno kopirajte."
+  },
+  "ipNoResult": {
+    "message": "Ni še preverjanja"
+  },
+  "ipContextUnknown": {
+    "message": "Profil ni na voljo"
+  },
+  "ipTimeout": {
+    "message": "Časovna omejitev preverjanja je potekla. Poskusite znova ali uporabite drugo pot."
+  },
+  "ipCancelled": {
+    "message": "Ček preklican"
+  },
+  "ipNetwork": {
+    "message": "Ni bilo mogoče doseči ipify. Preverite povezavo in poskusite znova."
+  },
+  "ipHttp": {
+    "message": "Storitev IP ni sprejela zahteve. Poskusite znova pozneje."
+  },
+  "ipInvalid": {
+    "message": "Storitev IP je vrnila neveljaven odgovor."
+  },
+  "ipFailure": {
+    "message": "Preverjanje ni uspelo. poskusi ponovno"
+  },
+  "ipStale": {
+    "message": "Vaše nastavitve proxyja so se spremenile med preverjanjem. Stari rezultat je bil zavržen; preveri še enkrat."
+  },
+  "ipQuality": {
+    "message": "Zunanja orodja"
+  },
+  "ipQualityPrivacy": {
+    "message": "Orodja delujejo samo na klik. Ponudniki prejemajo običajne podatke o povezavi. Preverjanje spletnih mest po zagonu pošilja zahteve brez poverilnic. Zapiranje ustavi lokalne teste; zunanje zavihke upravlja brskalnik."
+  },
+  "ipReport": {
+    "message": "Kopiraj redigirano poročilo"
+  },
+  "ipReportCopied": {
+    "message": "Redigirano poročilo kopirano; brez IP ali imen profilov."
+  },
+  "popupSelected": {
+    "message": "Izbrano"
+  },
+  "popupFooter": {
+    "message": "v2rayN & profili vozlišč"
+  },
+  "subtitle": {
+    "message": "Neodvisne poti brskalnika"
+  },
+  "profiles": {
+    "message": "Profili"
+  },
+  "nodes": {
+    "message": "Knjižnica vozlišč"
+  },
+  "settings": {
+    "message": "Nastavitve"
+  },
+  "connected": {
+    "message": "Aktiven profil"
+  },
+  "noProfile": {
+    "message": "Sistemsko privzeto"
+  },
+  "newProfile": {
+    "message": "Nov profil"
+  },
+  "searchProfiles": {
+    "message": "Iskanje profilov"
+  },
+  "direct": {
+    "message": "Direktno omrežje"
+  },
+  "system": {
+    "message": "Sistemski posrednik"
+  },
+  "follow": {
+    "message": "Sledi v2rayN"
+  },
+  "manual": {
+    "message": "Ročni proxy"
+  },
+  "auto": {
+    "message": "Samodejni preklop"
+  },
+  "pac": {
+    "message": "PAC skript"
+  },
+  "virtual": {
+    "message": "Virtualni profil"
+  },
+  "profileIntro": {
+    "message": "Izberite pot brskalnika, ne da bi zamenjali glavno pot v2rayN."
+  },
+  "nodesIntro": {
+    "message": "Prebrskajte po lokalnih v2rayN vozliščih in uvoženih povezavah."
+  },
+  "settingsIntro": {
+    "message": "Lokalna povezanost, jezik in videz."
+  },
+  "refresh": {
+    "message": "Osveži"
+  },
+  "create": {
+    "message": "Ustvari profil"
+  },
+  "name": {
+    "message": "Ime profila"
+  },
+  "type": {
+    "message": "Vrsta profila"
+  },
+  "save": {
+    "message": "Shrani"
+  },
+  "saved": {
+    "message": "Shranjeno"
+  },
+  "saving": {
+    "message": "Shranjevanje ..."
+  },
+  "cancel": {
+    "message": "Prekliči"
+  },
+  "close": {
+    "message": "Zapri"
+  },
+  "apply": {
+    "message": "Uporabi ta profil"
+  },
+  "applied": {
+    "message": "Profil zamenjan"
+  },
+  "active": {
+    "message": "Aktivno"
+  },
+  "delete": {
+    "message": "Izbriši"
+  },
+  "remove": {
+    "message": "Odstrani"
+  },
+  "rename": {
+    "message": "Preimenuj"
+  },
+  "route": {
+    "message": "Proxy pot"
+  },
+  "selectRoute": {
+    "message": "Izberite pot"
+  },
+  "routeMissing": {
+    "message": "Pot ni na voljo — izberite drugo"
+  },
+  "chain": {
+    "message": "Povezovalna veriga"
+  },
+  "connection": {
+    "message": "Lokalna povezava"
+  },
+  "proxy": {
+    "message": "Proxy strežnik"
+  },
+  "address": {
+    "message": "Naslov"
+  },
+  "port": {
+    "message": "Pristanišče"
+  },
+  "scheme": {
+    "message": "Protokol"
+  },
+  "proxyDns": {
+    "message": "SOCKS5 DNS razreši prek posrednika."
+  },
+  "connectedIdle": {
+    "message": "Povezan · Nedejaven"
+  },
+  "bypass": {
+    "message": "Obhodni seznam"
+  },
+  "bypassHelp": {
+    "message": "Ena domena, nadomestni vzorec, naslov IP ali IP:vrata na vrstico."
+  },
+  "advanced": {
+    "message": "Napredne možnosti"
+  },
+  "searchRoutes": {
+    "message": "Iskanje skupin ali vozlišč"
+  },
+  "selectGroup": {
+    "message": "Izberite skupino"
+  },
+  "empty": {
+    "message": "Ni ustreznih predmetov"
+  },
+  "unavailable": {
+    "message": "Ni na voljo"
+  },
+  "groupHint": {
+    "message": "Držite skupino za 250 ms, nato povlecite. Alt + ↑ / ↓ tudi preureja. Spremembe se samodejno shranijo."
+  },
+  "searchSort": {
+    "message": "Počisti iskanje pred razvrščanjem."
+  },
+  "dragHint": {
+    "message": "Pomaknite se gor ali dol, nato spustite, da shranite. Esc prekliče."
+  },
+  "orderSaved": {
+    "message": "Skupinsko naročilo je shranjeno"
+  },
+  "orderCancelled": {
+    "message": "Ponovno naročanje preklicano"
+  },
+  "loading": {
+    "message": "Nalaganje ..."
+  },
+  "reading": {
+    "message": "Branje lokalnih vozlišč ..."
+  },
+  "nativeMissing": {
+    "message": "Lokalna komponenta ni povezana"
+  },
+  "retry": {
+    "message": "Poskusi znova"
+  },
+  "nativeHelp": {
+    "message": "Poti vozlišč zahtevajo spremljevalca Windows. Neposredni, sistemski in ročni posredniki so zdaj na voljo."
+  },
+  "imported": {
+    "message": "Uvoženo"
+  },
+  "v2rayn": {
+    "message": "v2rayN"
+  },
+  "allSources": {
+    "message": "Vsi viri"
+  },
+  "importNodes": {
+    "message": "Uvoz proxyjev"
+  },
+  "importTitle": {
+    "message": "Uvoz proxyjev"
+  },
+  "importHelp": {
+    "message": "Prilepite proxy povezave, odhodno JSON ali Base64 naročnino. SOCKS podpira navadne ali Base64 poverilnice. Naslovi brez sheme uporabljajo HTTP."
+  },
+  "importPrivacy": {
+    "message": "Podrobnosti in poverilnice proxyja se posredujejo lokalnemu spremljevalcu Proxy V2Route za shranjevanje in povezavo s proxyjem, ki ga izberete. Razvijalec teh informacij ne prejme."
+  },
+  "import": {
+    "message": "Uvozite profile"
+  },
+  "nodeCount": {
+    "message": "vozlišča"
+  },
+  "source": {
+    "message": "Vir"
+  },
+  "protocol": {
+    "message": "Protokol"
+  },
+  "useNode": {
+    "message": "Ustvari profil"
+  },
+  "removeNode": {
+    "message": "Odstraniti uvoženo vozlišče?"
+  },
+  "removeNodeHelp": {
+    "message": "Profile, ki uporabljajo to vozlišče, je treba znova dodeliti, preden ga lahko odstranite."
+  },
+  "deleteProfile": {
+    "message": "Izbrisati ta profil?"
+  },
+  "deleteProfileHelp": {
+    "message": "S tem se odstrani samo ta profil brskalnika. Uvožena vozlišča in konfiguracija v2rayN se ohranijo."
+  },
+  "language": {
+    "message": "Jezik"
+  },
+  "automatic": {
+    "message": "Privzeti brskalnik"
+  },
+  "theme": {
+    "message": "Videz"
+  },
+  "light": {
+    "message": "Svetloba"
+  },
+  "dark": {
+    "message": "Temno"
+  },
+  "switchToEnglish": {
+    "message": "Preklopi na angleščino"
+  },
+  "switchToChinese": {
+    "message": "Preklopite na poenostavljeno kitajščino"
+  },
+  "switchToLight": {
+    "message": "Preklopite na svetel videz"
+  },
+  "switchToDark": {
+    "message": "Preklopi na temen videz"
+  },
+  "localComponent": {
+    "message": "Spremljevalna komponenta"
+  },
+  "ready": {
+    "message": "Povezan"
+  },
+  "stopped": {
+    "message": "Ne teče"
+  },
+  "discovery": {
+    "message": "v2rayN odkrivanje"
+  },
+  "rootPath": {
+    "message": "v2rayN mapa"
+  },
+  "corePath": {
+    "message": "Izvršljiva jedrna datoteka posrednika"
+  },
+  "optionalPath": {
+    "message": "Pustite prazno za samodejno zaznavanje"
+  },
+  "pathsHelp": {
+    "message": "v2rayN se zazna samodejno; po potrebi izberite njeno mapo. Uvožena vozlišča uporabljajo vključeno jedro."
+  },
+  "savePaths": {
+    "message": "Shrani nastavitve povezave"
+  },
+  "privacy": {
+    "message": "Nastavitve shranjene lokalno"
+  },
+  "privacyText": {
+    "message": "Povezave vozlišč in poverilnice ostanejo v lokalnem spremljevalcu. Promet brskalnika poteka prek vašega izbranega posrednika do ciljnih spletnih mest; razvijalec tega ne prejme."
+  },
+  "privacyDetails": {
+    "message": "Zasebnost in pretok podatkov"
+  },
+  "export": {
+    "message": "Izvozi profile"
+  },
+  "about": {
+    "message": "O Proxy V2Route"
+  },
+  "aboutText": {
+    "message": "Izberite pot brskalnika, ne da bi zamenjali glavno pot v2rayN. Poti vozlišč uporabljajo spremljevalca Windows in vaša lastna vozlišča."
+  },
+  "licenses": {
+    "message": "Odprtokodna obvestila"
+  },
+  "version": {
+    "message": "Različica"
+  },
+  "fieldRequired": {
+    "message": "Vnesite ime profila."
+  },
+  "profileExists": {
+    "message": "Profil s tem imenom že obstaja."
+  },
+  "ruleHelp": {
+    "message": "Domene v eni vrstici ločite z vejicami. Zmaga prva ujemajoča se vrstica. Naj bo na voljo privzeta pot."
+  },
+  "rules": {
+    "message": "Pravila usmerjanja"
+  },
+  "pattern": {
+    "message": "Vzorec gostitelja"
+  },
+  "target": {
+    "message": "Cilj pravila"
+  },
+  "addRule": {
+    "message": "Dodaj pravilo"
+  },
+  "defaultRoute": {
+    "message": "Privzeti profil"
+  },
+  "pacHelp": {
+    "message": "Prilepite zaupanja vreden vir PAC, ki vsebuje FindProxyForURL. Ta skript odloča o tem, kako se usmerjajo zahteve spletnega mesta."
+  },
+  "pacUrl": {
+    "message": "PAC URL"
+  },
+  "pacScript": {
+    "message": "PAC skripta"
+  },
+  "noSelection": {
+    "message": "Izberite profil ali ga ustvarite."
+  },
+  "details": {
+    "message": "Podrobnosti"
+  },
+  "noNodes": {
+    "message": "Ni še vozlišč"
+  },
+  "noNodesHelp": {
+    "message": "Za začetek povežite v2rayN ali uvozite povezave proxy, JSON ali naročnino."
+  },
+  "openSettings": {
+    "message": "Odpri nastavitve"
+  },
+  "proxySettings": {
+    "message": "Nastavitve proxyja"
+  },
+  "switching": {
+    "message": "Preklop …"
+  },
+  "updatedElsewhere": {
+    "message": "Ta profil se je spremenil v drugem oknu. Pred shranjevanjem ga znova odprite."
+  },
+  "choose": {
+    "message": "Izberi"
+  },
+  "popupIntro": {
+    "message": "Povezava:"
+  },
+  "invalidPort": {
+    "message": "Vnesite vrata od 1 do 65535."
+  },
+  "externalControl": {
+    "message": "Druga razširitev ali pravilnik nadzira proxy brskalnika."
+  },
+  "noNativeRoute": {
+    "message": "Povežite lokalno komponento, preden ustvarite profil vozlišča."
+  },
+  "reload": {
+    "message": "Ponovno naloži"
+  },
+  "rulesError": {
+    "message": "Vsako pravilo potrebuje vzorec in cilj."
+  },
+  "backupDone": {
+    "message": "Izvoženi profili brskalnika"
+  },
+  "managed": {
+    "message": "Upravljano vozlišče"
+  },
+  "netRegion": {
+    "message": "Ciljno območje"
+  },
+  "netNodeArea": {
+    "message": "Proxy vozlišče"
+  },
+  "netChina": {
+    "message": "Celinska Kitajska"
+  },
+  "netGlobal": {
+    "message": "Globalno"
+  },
+  "netAli": {
+    "message": "AliDNS"
+  },
+  "netTencent": {
+    "message": "DNSPod"
+  },
+  "netStartHelp": {
+    "message": "Izberite tarčo in začnite preizkus v živo."
+  },
+  "netConsole": {
+    "message": "Diagnostika v živo"
+  },
+  "netStop": {
+    "message": "Nehaj"
+  },
+  "netRunning": {
+    "message": "Teče"
+  },
+  "netStopped": {
+    "message": "Ustavljeno"
+  },
+  "netSent": {
+    "message": "Poslano"
+  },
+  "netLoss": {
+    "message": "Izguba"
+  },
+  "netAverageShort": {
+    "message": "Povp"
+  },
+  "netLogClear": {
+    "message": "Jasno"
+  },
+  "netFinishing": {
+    "message": "Prejšnja sonda se končuje ..."
+  },
+  "netRound": {
+    "message": "Okrogla"
+  },
+  "netDestination": {
+    "message": "Destinacija"
+  },
+  "netHop": {
+    "message": "Hop"
+  },
+  "netAddress": {
+    "message": "IP naslov"
+  },
+  "netLast": {
+    "message": "Zadnji"
+  },
+  "netConsoleHelp": {
+    "message": "Ping / TCPing / MTR uporablja sistemsko omrežje, ne proxy verige. Manjkajoči ICMP odgovori ne dokazujejo izgube prometa. Prenos uporablja pot brskalnika in izbrano omejitev velikosti. Preizkusi se ustavijo, ko zapustite ali skrijete to stran."
+  },
+  "netDirectShort": {
+    "message": "Sistemsko omrežje"
+  },
+  "netIcmpShort": {
+    "message": "Brez ICMP odgovora"
+  },
+  "netProbeError": {
+    "message": "Napaka lokalne sonde"
+  },
+  "netNoDestination": {
+    "message": "Cilj ni dosežen"
+  },
+  "deleteActive": {
+    "message": "Preklopi na sistem in izbriši"
+  },
+  "deleteActiveHelp": {
+    "message": "Ta profil je aktiven. Če ga izbrišete, brskalnik preklopi na sistemski proxy."
+  },
+  "netDownloadSize": {
+    "message": "Velikost prenosa"
+  },
+  "netReceived": {
+    "message": "Prejeto"
+  },
+  "netBest": {
+    "message": "Najboljše"
+  },
+  "netWorst": {
+    "message": "Najslabše"
+  },
+  "netStdDev": {
+    "message": "Std dev"
+  },
+  "netLocation": {
+    "message": "Lokacija"
+  },
+  "toolWall": {
+    "message": "Preverjanje blokiranja domene"
+  },
+  "toolSites": {
+    "message": "Priljubljena spletna mesta"
+  },
+  "toolGlobal": {
+    "message": "Globalna diagnostika"
+  },
+  "toolFast": {
+    "message": "Netflix hitrost"
+  },
+  "toolSpeed": {
+    "message": "Test hitrosti"
+  },
+  "toolStart": {
+    "message": "Začetek"
+  },
+  "toolReady": {
+    "message": "Pripravljen"
+  },
+  "toolResponded": {
+    "message": "Odgovoril"
+  },
+  "toolNoResponse": {
+    "message": "Nepotrjeno"
+  },
+  "toolCacheUnsupported": {
+    "message": "Ta brskalnik ne more počistiti predpomnilnika po straneh; stran je bila ponovno naložena."
+  },
+  "toolCacheFailed": {
+    "message": "Čiščenje predpomnilnika se ni končalo. Zaprite in poskusite znova."
+  },
+  "toolClose": {
+    "message": "Zapri"
+  },
+  "toolReload": {
+    "message": "Ponovno naloži"
+  },
+  "toolLoading": {
+    "message": "Nalaganje ..."
+  },
+  "toolFrameError": {
+    "message": "Ni bilo mogoče naložiti. Poskusite znova naložiti."
+  },
+  "toolSiteHelp": {
+    "message": "Samo dostopnost brskalnika. To ne preverja računa ali regionalnega dostopa."
+  },
+  "toolFallback": {
+    "message": "Preizkus hitrosti varnostnega kopiranja"
+  },
+  "toolFullscreen": {
+    "message": "Cel zaslon"
+  },
+  "toolRestore": {
+    "message": "Zapusti celozaslonski način"
+  },
+  "ipReadFailed": {
+    "message": "Branje ni uspelo. 👉"
+  },
+  "ipViewSource": {
+    "message": "Ogled izvornega mesta"
+  },
+  "toolDownloadError": {
+    "message": "Ni bilo mogoče doseči strežnika za prenos. poskusi ponovno"
+  },
+  "toolAccess": {
+    "message": "Omogoči dostop do spletnega mesta"
+  },
+  "toolPermission": {
+    "message": "Dovolite dostop do tega mesta za združljivost vdelane seje."
+  },
+  "toolAsia": {
+    "message": "Azija"
+  },
+  "toolEurope": {
+    "message": "Evropa"
+  },
+  "toolAmerica": {
+    "message": "Severna Amerika"
+  },
+  "toolGlobalHelp": {
+    "message": "Vnaprej izpolni izhod brskalnika IP. Za primerjavo poti izberite celinsko Kitajsko ali drugo regijo; Start pošlje prikazano tarčo največ trem Globalping sondam."
+  },
+  "toolServiceError": {
+    "message": "Testna storitev ni na voljo. poskusi ponovno"
+  },
+  "popupOrderHelp": {
+    "message": "Pridržite in povlecite za prerazporeditev. Alt+puščične tipke tudi premikajo ta profil."
+  },
+  "popupOrderSaved": {
+    "message": "Naročilo shranjeno"
+  },
+  "toolGroupIP": {
+    "message": "IP testi"
+  },
+  "toolGroupWeb": {
+    "message": "Testi spletnih strani"
+  },
+  "toolGroupSpeed": {
+    "message": "Hitrost"
+  },
+  "toolCurrentIP": {
+    "message": "Trenutni izhod IP"
+  },
+  "toolCurrentIPLoading": {
+    "message": "Nalaganje trenutnega izhoda IP…"
+  },
+  "toolCurrentIPFailed": {
+    "message": "Ni bilo mogoče prebrati trenutnega IP. Vnesite cilj."
+  },
+  "speedMode": {
+    "message": "Testni način"
+  },
+  "speedBoth": {
+    "message": "Prenos + nalaganje"
+  },
+  "speedDownload": {
+    "message": "Prenos"
+  },
+  "speedUpload": {
+    "message": "Naloži"
+  },
+  "speedLatency": {
+    "message": "HTTP zakasnitev"
+  },
+  "speedBudget": {
+    "message": "{n} MiB na fazo · {total} MiB skupaj, plus majhni vzorci zakasnitev."
+  },
+  "siteCategory": {
+    "message": "Kategorija spletne strani"
+  },
+  "siteAll": {
+    "message": "Vse spletne strani"
+  },
+  "siteAI": {
+    "message": "AI"
+  },
+  "siteDevelopment": {
+    "message": "Razvoj"
+  },
+  "siteVideo": {
+    "message": "Video / glasba"
+  },
+  "siteSocial": {
+    "message": "Družba"
+  },
+  "siteDomestic": {
+    "message": "Celinske storitve"
+  },
+  "siteServices": {
+    "message": "Skupne storitve"
+  },
+  "globalMethod": {
+    "message": "Vrsta meritve"
+  },
+  "localPort": {
+    "message": "Lokalna vrata:"
+  },
+  "chainChooseNode": {
+    "message": "Izberite proxy vozlišče"
+  },
+  "chainTitle": {
+    "message": "Proxy veriga"
+  },
+  "chainSelectExit": {
+    "message": "Spodaj izberite določeno izhodno vozlišče, da shranite ali preizkusite to verigo po meri. Follow v2rayN upravlja v2rayN."
+  },
+  "chainSelectExitShort": {
+    "message": "Izberite izhodno vozlišče"
+  },
+  "chainAdd": {
+    "message": "+ Dodaj posredniško plast"
+  },
+  "chainTest": {
+    "message": "Testna veriga"
+  },
+  "chainMode": {
+    "message": "Verižni način"
+  },
+  "chainBase": {
+    "message": "Osnovni posrednik"
+  },
+  "chainExit": {
+    "message": "Zapri proxy"
+  },
+  "chainEgress": {
+    "message": "Izhod verige"
+  },
+  "chainExitBadge": {
+    "message": "Izhod IP"
+  },
+  "chainEntry": {
+    "message": "Vstop v verigo"
+  },
+  "chainTransit": {
+    "message": "Vozlišče mostu"
+  },
+  "chainUntested": {
+    "message": "Ni testirano"
+  },
+  "chainMissing": {
+    "message": "Nerazpoložljivo vozlišče"
+  },
+  "chainUnresolved": {
+    "message": "Ni mogoče razrešiti podedovane verige. Popravite nastavitve predhodnika ali izberite verigo po meri."
+  },
+  "chainUpgrade": {
+    "message": "Posodobite lokalnega spremljevalca, da omogočite urejene verige."
+  },
+  "chainBusy": {
+    "message": "Poteka še en verižni test"
+  },
+  "chainOK": {
+    "message": "Dosegljivo"
+  },
+  "chainFailed": {
+    "message": "Neuspešen skok v tem testu"
+  },
+  "chainBlocked": {
+    "message": "Ni preizkušeno · prejšnji skok ni uspel"
+  },
+  "chainFailureHelp": {
+    "message": "Ta skok oziroma pot do njega ni minila. Kasnejši hmelj ni bil testiran."
+  },
+  "chainAllOK": {
+    "message": "Vse kumulativne poti so se odzvale"
+  },
+  "chainStopping": {
+    "message": "Ustavitev po trenutno omejeni sondi ..."
+  },
+  "globalWorld": {
+    "message": "Po vsem svetu"
+  },
+  "globalUnavailable": {
+    "message": "Cilj ali regija ni na voljo. Preverite cilj ali izberite drugo regijo."
+  },
+  "globalRateLimited": {
+    "message": "Omejitev stopnje storitve je bila dosežena. Poskusite znova pozneje."
+  },
+  "globalNoResults": {
+    "message": "Storitev ni vrnila rezultatov sonde. Poskusi z drugo regijo."
+  },
+  "globalProbeFailed": {
+    "message": "Sonda ni uspela"
+  },
+  "globalProbeOffline": {
+    "message": "Sonda brez povezave"
+  },
+  "globalIcmpCaution": {
+    "message": "Manjkajoči ICMP odgovori sami ne dokazujejo blokiranja. Primerjajte celinske in čezmorske poti ter druge vrste testov."
+  },
+  "speedRealtime": {
+    "message": "Hitrost v živo"
+  },
+  "speedAverage": {
+    "message": "Povprečna hitrost"
+  },
+  "ipToolsBrief": {
+    "message": "Rezultati tretjih oseb so za referenco."
+  },
+  "ipReportBrief": {
+    "message": "Rezultati se razlikujejo glede na izhod IP in so za referenco."
+  },
+  "toolPingPe": {
+    "message": "IP preverjanje blokiranja"
+  },
+  "toolTargetIP": {
+    "message": "Cilj IP"
+  },
+  "toolOpenPingPe": {
+    "message": "Odprti uradni test"
+  },
+  "toolInvalidIP": {
+    "message": "Vnesite veljaven naslov IPv4 ali IPv6."
+  },
+  "toolInvalidPort": {
+    "message": "Vnesite vrata TCP od 1 do 65535."
+  },
+  "toolExternalFailed": {
+    "message": "Spletnega mesta ni bilo mogoče odpreti. poskusi ponovno"
+  },
+  "ipBrowserReading": {
+    "message": "Branje Ping0 prek brskalnika ..."
+  },
+  "ipVerifyBrowser": {
+    "message": "Odpri stran za preverjanje"
+  },
+  "policyCenter": {
+    "message": "Zasebnost, izjava in pogosta vprašanja"
+  },
+  "policyCenterIntro": {
+    "message": "Lokalna obdelava podatkov, testne omejitve in pogosti odgovori."
+  },
+  "policyPrivacyTitle": {
+    "message": "Politika zasebnosti"
+  },
+  "policyPrivacySummary": {
+    "message": "Profili in poverilnice ostanejo v tej napravi. Preverjanje pojavnih oken in diagnostika se obrnite na njihove navedene ponudnike. Brez oglaševanja ali vedenjske analize."
+  },
+  "policyDeclarationTitle": {
+    "message": "Izjava o uporabi in meritvah"
+  },
+  "policyDeclarationSummary": {
+    "message": "Ta razširitev je lokalni upravitelj poti, ne proxy ali ponudnik VPN. Meritve so referenčni vzorci, na katere vplivajo pogoji omrežja, posrednika in ponudnika."
+  },
+  "policyFaqTitle": {
+    "message": "Pogosta vprašanja"
+  },
+  "policyFaqSummary": {
+    "message": "Spremljevalec Windows je potreben za lokalna vozlišča in MTR. Zakasnitev se lahko razlikuje med brskalniki, sistemi in javnimi sondami. Ustavite preizkus ali izbrišite lokalne podatke v nastavitvah."
+  },
+  "policyDetailsLink": {
+    "message": "Preberite vse podrobnosti ↗"
+  },
+  "thirdPartyNotice": {
+    "message": "Odprtokodna obvestila ↗"
+  },
+  "columnResizeHelp": {
+    "message": "Povlecite, da spremenite velikost; dvokliknite za ponastavitev; uporabite puščične tipke za prilagajanje"
+  },
+  "columnResize": {
+    "message": "Spremenite velikost stolpca"
+  },
+  "typeDescription_node": {
+    "message": "Povežite se prek proxy vozlišča"
+  },
+  "typeDescription_manual": {
+    "message": "Ročno vnesite nastavitve posrednika"
+  },
+  "typeDescription_auto": {
+    "message": "Izberite vozlišče s pravili"
+  },
+  "typeDescription_pac": {
+    "message": "Usmerjanje prometa z uporabo pravil PAC."
+  },
+  "appDescription": {
+    "message": "Proxy poti, vozlišča in pravila domene brskalnika. Poti vozlišč potrebujejo spremljevalca Windows."
+  },
+  "core_title": {
+    "message": "Proxy jedro"
+  },
+  "core_checking": {
+    "message": "Preverjanje lokalne komponente ..."
+  },
+  "core_ready": {
+    "message": "Xray je pripravljen"
+  },
+  "core_missing": {
+    "message": "Jedro strežnika proxy manjka"
+  },
+  "core_external": {
+    "message": "Jedro po meri: ni preverjeno"
+  },
+  "core_corrupt": {
+    "message": "Xray neujemanje kontrolne vsote — potrebno popravilo"
+  },
+  "core_unreadable": {
+    "message": "Jedrne datoteke ni bilo mogoče preveriti"
+  },
+  "core_intro": {
+    "message": "Celoten paket Windows vključuje Xray. v2rayN ni obvezen."
+  },
+  "core_verify": {
+    "message": "Preverite znova"
+  },
+  "core_install": {
+    "message": "Namestitev / popravilo jedra"
+  },
+  "core_installing": {
+    "message": "Prenos in preverjanje ..."
+  },
+  "core_done": {
+    "message": "Jedro preverjeno in pripravljeno"
+  },
+  "core_help": {
+    "message": "Popravilo uporablja pripeto uradno izdajo Xray in preveri njeno kontrolno vsoto. Obstoječe povezave ostanejo v teku."
+  },
+  "core_absent": {
+    "message": "Enkrat namestite lokalno komponento, nato se vrnite sem, da preverite jedro."
+  },
+  "core_download": {
+    "message": "Navodila za namestitev"
+  },
+  "core_absentHelp": {
+    "message": "Uporabite ujemajoči se paket Windows ali sledite vodniku, da ga zgradite iz izvorne kode, nato zaženite namestitev."
+  },
+  "core_failed": {
+    "message": "Operacija jedra ni uspela. Poskusite znova ali uporabite celoten paket Windows."
+  },
+  "core_version": {
+    "message": "Različica"
+  },
+  "error_ACTIVE_PROFILE_DELETE": {
+    "message": "Pred brisanjem preklopite na drug profil"
+  },
+  "error_BACKUP_BINDING_TYPE": {
+    "message": "Samo profili posredniškega strežnika imajo lahko vezave poti"
+  },
+  "error_BACKUP_FORMAT3_REQUIRED": {
+    "message": "Pravila vozlišč zahtevajo prenosno varnostno kopijo v obliki 3"
+  },
+  "error_BACKUP_INDEPENDENT_PATH_REQUIRED": {
+    "message": "Varnostna kopija mora vsebovati neodvisno pot vozlišč"
+  },
+  "error_BACKUP_INTERNAL_BINDINGS": {
+    "message": "Varnostna kopija vsebuje notranje vezave"
+  },
+  "error_BACKUP_MESSAGE_LIMIT": {
+    "message": "Varnostna kopija vozlišč presega omejitev velikosti sporočila spremljevalne aplikacije"
+  },
+  "error_BACKUP_NODES_INCOMPLETE": {
+    "message": "Nepopolna varnostna kopija vozlišč"
+  },
+  "error_BACKUP_NODE_MISSING": {
+    "message": "V varnostni kopiji manjka zahtevano vozlišče"
+  },
+  "error_BACKUP_NODE_PATHS_LIMIT": {
+    "message": "Varnostna kopija podpira največ {limit} poti vozlišč"
+  },
+  "error_BACKUP_PATH_INCOMPLETE": {
+    "message": "Nepopolna pot vozlišč v varnostni kopiji"
+  },
+  "error_BACKUP_PROFILES_LIMIT": {
+    "message": "Varnostna kopija podpira največ {limit} profilov"
+  },
+  "error_BACKUP_PROXY_CONFLICT": {
+    "message": "Varnostna kopija vsebuje nasprotujoče si nastavitve posredniškega strežnika"
+  },
+  "error_BACKUP_SIZE_LIMIT": {
+    "message": "Varnostna kopija presega {limit} MB"
+  },
+  "error_BACKUP_TRANSFER_UNAVAILABLE": {
+    "message": "Za prenos varnostnih kopij vozlišč posodobite ali popravite spremljevalno aplikacijo."
+  },
+  "error_BACKUP_UNUSED_NODES": {
+    "message": "Varnostna kopija vsebuje vozlišča brez sklicev"
+  },
+  "error_BODY_TOO_LARGE": {
+    "message": "Odgovor naročnine presega dovoljeno velikost."
+  },
+  "error_BROWSER_API_FAILED": {
+    "message": "Dejanje brskalnika ni uspelo. Glejte tehnične podrobnosti."
+  },
+  "error_BROWSER_PROXY_RESTORE_FAILED": {
+    "message": "Dejanje ni uspelo in prejšnjega posredniškega strežnika brskalnika ni bilo mogoče obnoviti"
+  },
+  "error_BROWSER_SCHEDULING_UNAVAILABLE": {
+    "message": "Razporejanje v brskalniku ni na voljo."
+  },
+  "error_BUSY": {
+    "message": "Izvaja se drugo dejanje. Kmalu poskusite znova."
+  },
+  "error_CHAIN_PROBE_FAILED": {
+    "message": "Preizkus verige ni uspel"
+  },
+  "error_COMPANION_BULK_RELEASE_REQUIRED": {
+    "message": "Za varno upravljanje več pravil vozlišč nadgradite lokalno spremljevalno aplikacijo"
+  },
+  "error_COMPANION_CHAINS_REQUIRED": {
+    "message": "Za omogočanje urejenih verig nadgradite lokalno spremljevalno aplikacijo"
+  },
+  "error_COMPANION_MESSAGE_LIMIT": {
+    "message": "Nastavitve presegajo omejitev velikosti sporočila spremljevalne aplikacije"
+  },
+  "error_COMPANION_OPERATION_FAILED": {
+    "message": "Dejanje lokalne spremljevalne aplikacije ni uspelo. Glejte tehnične podrobnosti."
+  },
+  "error_COMPANION_UNAVAILABLE": {
+    "message": "Namestite ali popravite V2Route Companion"
+  },
+  "error_CONNECTION_CLOSED": {
+    "message": "Povezava se je zaprla pred koncem preizkusa."
+  },
+  "error_CORE_INSTALL_FAILED": {
+    "message": "Namestitev jedra ni uspela. Glejte tehnične podrobnosti."
+  },
+  "error_CORE_OWNERSHIP_FAILED": {
+    "message": "Izoliranega preizkusnega jedra ni bilo mogoče varno upravljati. Preizkus je bil ustavljen."
+  },
+  "error_CORE_START_FAILED": {
+    "message": "Izoliranega preizkusnega jedra ni bilo mogoče zagnati. Preverite namestitev spremljevalne aplikacije in jedra."
+  },
+  "error_CORE_START_TIMEOUT": {
+    "message": "Izolirano preizkusno jedro ni bilo pripravljeno pravočasno."
+  },
+  "error_CORE_STATUS_UNAVAILABLE": {
+    "message": "Stanje jedra ni na voljo. Glejte tehnične podrobnosti."
+  },
+  "error_CORE_VALIDATION_FAILED": {
+    "message": "Xray ni mogel preveriti uvoženih vozlišč. Preverite njihove nastavitve in poskusite znova."
+  },
+  "error_DETACH_PORT_CONFLICT": {
+    "message": "Upravljana vrata bodo sproščena. Vnesite drug ročni posredniški strežnik"
+  },
+  "error_DETACH_PROXY_REQUIRED": {
+    "message": "Pred odklopom vnesite nadomestni ročni posredniški strežnik"
+  },
+  "error_DNS_BUSY": {
+    "message": "Poizvedba DNS je zasedena. Kmalu poskusite znova."
+  },
+  "error_DNS_FAILED": {
+    "message": "Poizvedba DNS ni uspela. Preverite naslov in omrežno povezavo."
+  },
+  "error_ENCODING_UNSUPPORTED": {
+    "message": "Naročnina uporablja nepodprto kodiranje vsebine."
+  },
+  "error_FIREFOX_PRIVATE_ACCESS_REQUIRED": {
+    "message": "Pred spreminjanjem nastavitev posredniškega strežnika v podrobnostih razširitve dovolite V2Route v zasebnih oknih"
+  },
+  "error_FOLDER_UNAVAILABLE": {
+    "message": "Mapa ni na voljo; preverite pot, dostop in različico spremljevalne aplikacije"
+  },
+  "error_GROUP_LIMIT": {
+    "message": "Dosežena je omejitev števila skupin. Odstranite neuporabljeno skupino in poskusite znova."
+  },
+  "error_GROUP_NOT_EDITABLE": {
+    "message": "Te izvorne skupine tukaj ni mogoče urejati."
+  },
+  "error_GROUP_NOT_FOUND": {
+    "message": "Izbrana skupina ne obstaja več. Izberite drugo skupino."
+  },
+  "error_HTTP_ENCODING": {
+    "message": "Preizkusni strežnik je vrnil nepodprto kodiranje."
+  },
+  "error_HTTP_LENGTH": {
+    "message": "Velikost preizkusnega odgovora se ni ujemala z zahtevano velikostjo."
+  },
+  "error_HTTP_RESPONSE_TOO_LARGE": {
+    "message": "Preizkusni odgovor je presegel dovoljeno velikost."
+  },
+  "error_HTTP_STATUS": {
+    "message": "Preizkusni strežnik je vrnil neuspešno stanje HTTP."
+  },
+  "error_IMPORTED_PROXY_MISSING": {
+    "message": "Spremljevalna aplikacija ni vrnila uvoženega posredniškega strežnika"
+  },
+  "error_IMPORTED_RULE_PATH_CONFLICT": {
+    "message": "Uvožena vozlišča vodijo do nasprotujočih si poti pravil"
+  },
+  "error_IMPORT_CLEANUP_FAILED": {
+    "message": "Uvoz ni uspel; nekaterih začasnih vozlišč ali vrat ni bilo mogoče sprostiti. Obstoječi profili so bili ohranjeni"
+  },
+  "error_IMPORT_PROFILE_NAME_CONFLICT": {
+    "message": "Podvojeno ali neveljavno ime profila"
+  },
+  "error_INCOMPLETE_RESPONSE": {
+    "message": "Odgovor naročnine je bil nepopoln. Poskusite znova."
+  },
+  "error_INVALID_BACKUP": {
+    "message": "Neveljavna varnostna kopija V2Route"
+  },
+  "error_INVALID_BACKUP_NODE": {
+    "message": "Neveljavno ali podvojeno vozlišče varnostne kopije"
+  },
+  "error_INVALID_BACKUP_NODES": {
+    "message": "Neveljavna vozlišča varnostne kopije"
+  },
+  "error_INVALID_BACKUP_PATH": {
+    "message": "Neveljavna pot varnostne kopije"
+  },
+  "error_INVALID_BYPASS_ENTRY": {
+    "message": "Neveljaven vnos za obhod"
+  },
+  "error_INVALID_BYPASS_LIST": {
+    "message": "Neveljaven seznam za obhod"
+  },
+  "error_INVALID_CHAIN": {
+    "message": "Neveljavna urejena veriga"
+  },
+  "error_INVALID_CHAIN_PROBE": {
+    "message": "Neveljaven preizkus verige"
+  },
+  "error_INVALID_COMPANION_RESPONSE": {
+    "message": "Lokalna spremljevalna aplikacija je vrnila neveljaven odgovor. Posodobite ali popravite jo."
+  },
+  "error_INVALID_CONTENT": {
+    "message": "Odgovor naročnine ne vsebuje veljavne vsebine."
+  },
+  "error_INVALID_DOMAIN_PATTERNS": {
+    "message": "Vnesite vzorce domen, ločene z vejicami; vsak URL postavite v svojo vrstico"
+  },
+  "error_INVALID_ENCODING": {
+    "message": "Odgovor naročnine ni veljavno besedilo UTF-8."
+  },
+  "error_INVALID_FOLDER_REQUEST": {
+    "message": "Neveljavna zahteva za mapo"
+  },
+  "error_INVALID_GROUP_ACTION": {
+    "message": "To dejanje skupine ni podprto."
+  },
+  "error_INVALID_HOP_INDEX": {
+    "message": "Neveljaven indeks skoka"
+  },
+  "error_INVALID_LEGACY_PREDECESSOR": {
+    "message": "Neveljaven podedovani predhodnik"
+  },
+  "error_INVALID_LIBRARY_COMMAND": {
+    "message": "Ta ukaz knjižnice vozlišč ni podprt."
+  },
+  "error_INVALID_LIBRARY_REQUEST": {
+    "message": "Neveljavna zahteva knjižnice"
+  },
+  "error_INVALID_NAME": {
+    "message": "Vnesite ime z 1–128 vidnimi znaki in brez krmilnih znakov."
+  },
+  "error_INVALID_NETWORK_TEST": {
+    "message": "Neveljaven omrežni preizkus"
+  },
+  "error_INVALID_NODE_IMPORT_RESPONSE": {
+    "message": "Neveljaven odgovor uvoza vozlišč"
+  },
+  "error_INVALID_PREDECESSOR": {
+    "message": "Neveljaven predhodnik za to pot"
+  },
+  "error_INVALID_PROFILE_NAME": {
+    "message": "Neveljavno ime profila"
+  },
+  "error_INVALID_PROFILE_REFERENCE": {
+    "message": "Neveljaven sklic na profil"
+  },
+  "error_INVALID_PROXY_AUTH": {
+    "message": "Neveljavno preverjanje pristnosti posredniškega strežnika"
+  },
+  "error_INVALID_PROXY_CREDENTIALS": {
+    "message": "Neveljavne poverilnice posredniškega strežnika"
+  },
+  "error_INVALID_PROXY_ENDPOINT": {
+    "message": "Vnesite veljavnega gostitelja in vrata posredniškega strežnika"
+  },
+  "error_INVALID_PROXY_HOST": {
+    "message": "Vnesite ime DNS ali naslov IP brez vrat, URL-ja, poti ali poizvedbe"
+  },
+  "error_INVALID_ROUTE": {
+    "message": "Neveljavna pot"
+  },
+  "error_INVALID_ROUTE_SETTINGS": {
+    "message": "Neveljavne nastavitve poti"
+  },
+  "error_INVALID_RULES": {
+    "message": "Neveljavna pravila"
+  },
+  "error_INVALID_RULE_TARGET": {
+    "message": "Za vsako pravilo izberite eno veljavno vozlišče ali profil"
+  },
+  "error_INVALID_SUBSCRIPTION": {
+    "message": "Neveljavna naročnina"
+  },
+  "error_INVALID_SUBSCRIPTION_REQUEST": {
+    "message": "Neveljavna zahteva naročnine"
+  },
+  "error_INVALID_SUBSCRIPTION_SETTINGS": {
+    "message": "Nastavitve naročnine niso veljavne. Preverite interval posodabljanja in pravilnik povezovanja."
+  },
+  "error_INVALID_SYSTEM_PROXY_RESPONSE": {
+    "message": "Neveljaven odgovor sistemskega posredniškega strežnika; posodobite ali popravite spremljevalno aplikacijo"
+  },
+  "error_INVALID_TRANSPORT": {
+    "message": "Nastavitve povezave naročnine niso veljavne."
+  },
+  "error_INVALID_URL": {
+    "message": "Vnesite veljaven URL naročnine HTTP(S) brez uporabniškega imena ali gesla."
+  },
+  "error_LIBRARY_CHANGED": {
+    "message": "Knjižnica vozlišč se je spremenila v drugem oknu. Osvežite jo in poskusite znova."
+  },
+  "error_MANUAL_CHAIN_UNSUPPORTED": {
+    "message": "Ročni posredniški strežniki ne sprejemajo verige vozlišč"
+  },
+  "error_MANUAL_PROXY_CLEANUP_FAILED": {
+    "message": "Shranjevanje ni uspelo; začasno uvožen posredniški strežnik ostaja v knjižnici vozlišč"
+  },
+  "error_NATIVE_BINDING_ID": {
+    "message": "Neveljaven identifikator vezave poti."
+  },
+  "error_NATIVE_BINDING_UNKNOWN": {
+    "message": "Vezava poti ne obstaja."
+  },
+  "error_NATIVE_BUTTON_NAME": {
+    "message": "Ime gumba mora vsebovati 1–128 vidnih znakov."
+  },
+  "error_NATIVE_CATALOG_UNREADABLE": {
+    "message": "Konfiguracije v2rayN ni bilo mogoče prebrati."
+  },
+  "error_NATIVE_CORE_MISSING": {
+    "message": "Xray ni na voljo. Namestite paket spremljevalne aplikacije."
+  },
+  "error_NATIVE_GROUP_ID_COLLISION": {
+    "message": "Identifikatorji skupin so v sporu."
+  },
+  "error_NATIVE_GROUP_ORDER": {
+    "message": "Neveljaven vrstni red skupin."
+  },
+  "error_NATIVE_NODE_ID_COLLISION": {
+    "message": "Identifikatorji vozlišč so v sporu."
+  },
+  "error_NATIVE_PREDECESSOR_AMBIGUOUS": {
+    "message": "Ime predhodnika manjka ali je podvojeno. Izberite določeno predhodno vozlišče."
+  },
+  "error_NATIVE_PREDECESSOR_CYCLE": {
+    "message": "Veriga predhodnikov vsebuje cikel ali presega šest vozlišč."
+  },
+  "error_NATIVE_PREDECESSOR_INVALID": {
+    "message": "Izberite veljaven predhodni posredniški strežnik."
+  },
+  "error_NATIVE_PREDECESSOR_MISSING": {
+    "message": "Izbrani predhodnik ne obstaja več. Izberite drugo vozlišče."
+  },
+  "error_NATIVE_PREDECESSOR_SETTINGS": {
+    "message": "Neveljavne nastavitve predhodnika."
+  },
+  "error_NATIVE_ROUTE_INVALID": {
+    "message": "Izberite veljavno pot."
+  },
+  "error_NATIVE_ROUTE_MISSING": {
+    "message": "Ta pot ne obstaja več. Izberite drugo pot."
+  },
+  "error_NATIVE_ROUTE_PORTS": {
+    "message": "Neveljavne dodelitve vrat poti."
+  },
+  "error_NATIVE_ROUTE_UNAVAILABLE": {
+    "message": "Izbrana pot ni na voljo. Glejte tehnične podrobnosti."
+  },
+  "error_NATIVE_SETTINGS_FORMAT": {
+    "message": "Neveljavna oblika nastavitev."
+  },
+  "error_NATIVE_SETTINGS_REVISION": {
+    "message": "Neveljavna revizija nastavitev."
+  },
+  "error_NATIVE_SUCCESSOR_UNSUPPORTED": {
+    "message": "Ta skupina uporablja nepodprt naslednji posredniški strežnik."
+  },
+  "error_NATIVE_UNSUPPORTED_CUSTOM": {
+    "message": "Ta različica ne podpira izhodnih konfiguracij po meri."
+  },
+  "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
+    "message": "Ta različica ne podpira Hysteria2."
+  },
+  "error_NATIVE_UNSUPPORTED_TUIC": {
+    "message": "Ta različica ne vključuje jedra sing-box, ki ga zahteva TUIC."
+  },
+  "error_NATIVE_UNSUPPORTED_TYPE": {
+    "message": "Ta vrsta poti ni podprta."
+  },
+  "error_NATIVE_V2RAYN_PORT": {
+    "message": "Lokalna vrata v2rayN niso veljavna."
+  },
+  "error_NATIVE_V2RAYN_UNAVAILABLE": {
+    "message": "v2rayN ni na voljo. Izberite uvoženo vozlišče."
+  },
+  "error_NETWORK_FAILED": {
+    "message": "Omrežna zahteva ni uspela. Preverite povezavo in poskusite znova."
+  },
+  "error_NETWORK_TEST_FAILED": {
+    "message": "Omrežna diagnostika ni uspela. Glejte tehnične podrobnosti."
+  },
+  "error_NODE_LIMIT": {
+    "message": "Dejanje bi preseglo omejitev števila vozlišč. Odstranite neuporabljena vozlišča in poskusite znova."
+  },
+  "error_NODE_MAPPING_INCOMPLETE": {
+    "message": "Preslikava vozlišč je nepopolna"
+  },
+  "error_NODE_NOT_FOUND": {
+    "message": "Izbrano vozlišče ne obstaja več. Izberite drugo vozlišče."
+  },
+  "error_NOT_DUE": {
+    "message": "Čas za naslednjo načrtovano posodobitev še ni napočil."
+  },
+  "error_PAC_ENTRY_REQUIRED": {
+    "message": "Vnesite izvorno kodo PAC s FindProxyForURL"
+  },
+  "error_PAC_FUNCTION_REQUIRED": {
+    "message": "Določite sinhrono funkcijo FindProxyForURL na najvišji ravni, funkcijsko spremenljivko ali prireditev"
+  },
+  "error_PAC_PARSER_UNAVAILABLE": {
+    "message": "Priloženi razčlenjevalnik PAC ni na voljo; znova namestite razširitev"
+  },
+  "error_PAC_RULE_TARGET_UNSUPPORTED": {
+    "message": "Samodejna pravila ne morejo ciljati profila z vdelano kodo PAC"
+  },
+  "error_PAC_SOURCE_LIMIT": {
+    "message": "Vnesite izvorno kodo PAC z največ {limit} znaki"
+  },
+  "error_PAC_SYNTAX_INVALID": {
+    "message": "Neveljavna skladnja PAC"
+  },
+  "error_PAC_SYNTAX_LOCATION": {
+    "message": "Neveljavna skladnja PAC v vrstici {line}, stolpcu {column}"
+  },
+  "error_PARTIAL_TRANSFER": {
+    "message": "Preizkusni prenos se je končal pred prejemom vseh podatkov."
+  },
+  "error_PRIVATE_DIRECTORY_FAILED": {
+    "message": "Zasebne preizkusne mape ni bilo mogoče zaščititi. Preizkus je bil ustavljen."
+  },
+  "error_PRIVATE_TARGET": {
+    "message": "Zahteve naročnine na zasebne ali lokalne naslove niso dovoljene."
+  },
+  "error_PROFILE_NOT_FOUND": {
+    "message": "Profila ni mogoče najti"
+  },
+  "error_PROFILE_REFERENCE_CYCLE": {
+    "message": "Krožni sklici profilov"
+  },
+  "error_PROFILE_REFERENCE_DEPTH": {
+    "message": "Samodejna pravila presegajo največjo globino {limit}"
+  },
+  "error_PROFILE_REFERENCE_MISSING": {
+    "message": "Referenčni profil ne obstaja: {name}"
+  },
+  "error_PROFILE_SAVE_RESTORE_FAILED": {
+    "message": "Shranjevanje ni uspelo in obnovitev poti zahteva pozornost"
+  },
+  "error_PROXY_AUTH_REQUIRED": {
+    "message": "Posredniški strežnik naročnine zahteva preverjanje pristnosti, ki ga ta zahteva ne more zagotoviti."
+  },
+  "error_PROXY_CONTROL_UNAVAILABLE": {
+    "message": "Posredniški strežnik upravlja druga razširitev ali pravilnik"
+  },
+  "error_PROXY_DNS_REQUIRED": {
+    "message": "V2Route razrešuje SOCKS5 DNS prek posredniškega strežnika"
+  },
+  "error_PROXY_FAILED": {
+    "message": "Povezava s posredniškim strežnikom ni uspela. Preverite izbrano pot."
+  },
+  "error_PROXY_PROFILE_REQUIRED": {
+    "message": "Izberite profil posredniškega strežnika"
+  },
+  "error_PROXY_ROLLBACK_REFUSED": {
+    "message": "Brskalnik je zavrnil povrnitev posredniškega strežnika"
+  },
+  "error_PROXY_SETTING_REFUSED": {
+    "message": "Brskalnik je zavrnil nastavitev posredniškega strežnika"
+  },
+  "error_PROXY_UNAVAILABLE": {
+    "message": "Izbrani posredniški strežnik ni na voljo. Preverite trenutno pot."
+  },
+  "error_PROXY_USERNAME_REQUIRED": {
+    "message": "Vnesite uporabniško ime posredniškega strežnika"
+  },
+  "error_RECOVERY_BINDINGS_LIMIT": {
+    "message": "Obnovitev lahko povrne največ {limit} vezav vozlišč. Navedene profile odprite in shranite ločeno."
+  },
+  "error_REDIRECT_LIMIT": {
+    "message": "Naročnina je prevečkrat preusmerila zahtevo. Preverite njen URL."
+  },
+  "error_REFERENCED_PROFILE_DELETE": {
+    "message": "Na ta profil se sklicuje samodejno pravilo"
+  },
+  "error_REMOTE_PAC_UNSUPPORTED": {
+    "message": "Uporabite vdelano izvorno kodo PAC; oddaljeni PAC ni podprt"
+  },
+  "error_ROUTE_PORT_UNAVAILABLE": {
+    "message": "Dodeljena niso bila nobena vrata"
+  },
+  "error_ROUTE_RECOVERY_RESTORE_FAILED": {
+    "message": "Obnovitev poti ni uspela in povrnitev zahteva pozornost"
+  },
+  "error_ROUTE_REVISION_CONFLICT": {
+    "message": "Pot se je spremenila v drugem oknu. Najprej osvežite"
+  },
+  "error_ROUTE_SAVE_ROLLBACK_FAILED": {
+    "message": "Shranjevanje poti ni uspelo in povrnitev zahteva pozornost"
+  },
+  "error_ROUTE_UNAVAILABLE": {
+    "message": "Preizkusna pot ni na voljo. Preverite nastavitve vozlišča in predhodnika."
+  },
+  "error_RULE_BINDING_MISSING": {
+    "message": "Manjka vezava pravila vozlišča. Znova odprite in shranite samodejni profil: {name}"
+  },
+  "error_RULE_NODES_LIMIT": {
+    "message": "Samodejna pravila podpirajo največ {limit} različnih vozlišč"
+  },
+  "error_RULE_NODE_CHANGED": {
+    "message": "Pravilo vozlišča ni na voljo ali je spremenjeno. Obnovite vozlišče ali izberite drugo in shranite: {name}"
+  },
+  "error_RULE_PATH_CONFLICT": {
+    "message": "Nasprotujoče si poti pravil vozlišč"
+  },
+  "error_RULE_PATTERNS_LIMIT": {
+    "message": "Samodejna pravila podpirajo skupaj največ {limit} vzorcev ujemanja"
+  },
+  "error_RULE_PORT_UNAVAILABLE": {
+    "message": "Vrata pravila vozlišča niso na voljo"
+  },
+  "error_RULE_REVISION_CONFLICT": {
+    "message": "Pravilo vozlišča se je spremenilo v drugem oknu. Najprej osvežite"
+  },
+  "error_SELECTED_NODE_UNAVAILABLE": {
+    "message": "Izbrano vozlišče ni na voljo. Obnovite ga ali izberite drugo vozlišče"
+  },
+  "error_SOCKS_FAILED": {
+    "message": "Povezave SOCKS ni bilo mogoče vzpostaviti."
+  },
+  "error_STARTUP_FALLBACK_REFUSED": {
+    "message": "Brskalnik je zavrnil rezervni posredniški strežnik ob zagonu."
+  },
+  "error_SUBSCRIPTION_CHANGED": {
+    "message": "Naročnina se je med posodobitvijo spremenila. Osvežite jo in poskusite znova."
+  },
+  "error_SUBSCRIPTION_HTTP_STATUS": {
+    "message": "Strežnik naročnine je vrnil HTTP {status}."
+  },
+  "error_SUBSCRIPTION_LIMIT": {
+    "message": "Dosežena je omejitev števila naročnin. Odstranite neuporabljeno naročnino in poskusite znova."
+  },
+  "error_SUBSCRIPTION_NOT_FOUND": {
+    "message": "Izbrana naročnina ne obstaja več."
+  },
+  "error_SYSTEM_PROXY_SNAPSHOT_UNAVAILABLE": {
+    "message": "Uveljavljeni posnetek sistemskega posredniškega strežnika ni na voljo."
+  },
+  "error_SYSTEM_PROXY_TIMEOUT": {
+    "message": "Čas za branje sistemskega posredniškega strežnika je potekel"
+  },
+  "error_SYSTEM_PROXY_UNAVAILABLE": {
+    "message": "Sistemski posredniški strežnik ni na voljo. Glejte tehnične podrobnosti."
+  },
+  "error_TIMEOUT": {
+    "message": "Čas zahteve je potekel. Preverite povezavo in poskusite znova."
+  },
+  "error_TLS_DOWNGRADE": {
+    "message": "Naročnina je preusmerila s HTTPS na HTTP in je bila blokirana."
+  },
+  "error_TLS_FAILED": {
+    "message": "Varne povezave ni bilo mogoče preveriti. Preverite strežnik in potrdilo."
+  },
+  "error_UNSAFE_TEMP_PATH": {
+    "message": "Začasna preizkusna mapa ni varna. Preizkus je bil ustavljen."
+  },
+  "error_UNSUPPORTED_LIBRARY_REQUEST": {
+    "message": "Nepodprta zahteva knjižnice"
+  },
+  "error_UNSUPPORTED_PROFILE_TYPE": {
+    "message": "Nepodprta vrsta profila"
+  },
+  "error_UNSUPPORTED_REQUEST": {
+    "message": "Nepodprta zahteva"
+  },
+  "error_UNSUPPORTED_RULE_CONDITION": {
+    "message": "Podprta so samo pravila z nadomestnimi znaki za gostitelja in URL"
+  },
+  "error_UPDATE_FAILED": {
+    "message": "Posodobitev naročnine ni uspela. Obstoječa vozlišča so bila ohranjena."
+  },
+  "error_VALIDATION_FAILED": {
+    "message": "Vsebine naročnine ni bilo mogoče preveriti. Obstoječa vozlišča so bila ohranjena."
+  },
+  "nativeUnnamedNode": {
+    "message": "Neimenovano vozlišče"
+  },
+  "nativeProtocolCustom": {
+    "message": "Po meri"
+  },
+  "nativeProtocolOutbound": {
+    "message": "Izhod po meri"
+  },
+  "nativeProtocolGroup": {
+    "message": "Skupina pravilnikov"
+  },
+  "nativeProtocolChain": {
+    "message": "Veriga posredniških strežnikov"
+  },
+  "nativeProtocolUnknown": {
+    "message": "Nepodprta vrsta"
+  },
+  "languageLoadFailed": {
+    "message": "Izbranega jezika ni bilo mogoče naložiti. Poskusite znova."
+  },
+  "invalidBackupJSON": {
+    "message": "Varnostna kopija ni veljaven JSON."
+  },
+  "noticeBodyLanguages": {
+    "message": "Celotno besedilo pravilnika je na voljo v angleščini in poenostavljeni kitajščini."
+  },
+  "policyRules": {
+    "message": "Pravila usmerjanja posredniškega strežnika"
+  },
+  "policyPriority": {
+    "message": "Vrstni red: izvzeti naslovi → prvo ujemajoče se pravilo → privzeta pot."
+  },
+  "policyDirectHelp": {
+    "message": "Naslovi brez ujemanja se povežejo neposredno. Gumb Neposredno uporablja tudi ta pravila."
+  },
+  "policySystemHelp": {
+    "message": "Naslovi brez ujemanja uporabljajo sistemski posredniški strežnik. Gumb Sistem uporablja tudi ta pravila."
+  },
+  "policyEmpty": {
+    "message": "Pravil še ni. Uporabljena je privzeta pot."
+  },
+  "policyAddressHelp": {
+    "message": "Domene, nadomestni znaki, IP ali IP:vrata. Pravila IP primerjajo IP v URL-ju, ne rezultatov DNS."
+  },
+  "policyMoveUp": {
+    "message": "Premakni pravilo gor"
+  },
+  "policyMoveDown": {
+    "message": "Premakni pravilo dol"
+  }
+}

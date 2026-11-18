@@ -1,0 +1,2150 @@
+{
+  "ruleTargetUnavailable": {
+    "message": "Недоступна мета"
+  },
+  "rulePatternPlaceholder": {
+    "message": "example.com, *.example.org, 192.0.2.1:8443"
+  },
+  "rulePatternHelp": {
+    "message": "Розділяйте адреси комами. Кожен шаблон URL — в окремому рядку. Шляхи HTTPS можуть бути недоступні PAC."
+  },
+  "defaultChoice_direct": {
+    "message": "Підключення без проксі"
+  },
+  "defaultChoice_system": {
+    "message": "Використовувати системні налаштування проксі"
+  },
+  "defaultChoice_node": {
+    "message": "Використовувати вибраний вузол цього профілю"
+  },
+  "defaultChoice_manual": {
+    "message": "Використовуйте налаштування проксі цього профілю"
+  },
+  "defaultChoice_auto": {
+    "message": "Застосувати правила маршрутизації цього профілю"
+  },
+  "nlHttpsLatency": {
+    "message": "HTTPS відповідь"
+  },
+  "nlLatencyMethod": {
+    "message": "Cloudflare · Мінімум дві відповіді · Повторне використання підключення, якщо доступне"
+  },
+  "nlLatencyFast": {
+    "message": "Швидко"
+  },
+  "nlLatencyModerate": {
+    "message": "Помірний"
+  },
+  "nlLatencySlow": {
+    "message": "Повільно"
+  },
+  "nlSortName": {
+    "message": "Ім'я"
+  },
+  "nlSortLatency": {
+    "message": "Затримка: від низького до високого"
+  },
+  "nlSortDownload": {
+    "message": "Завантажити: від високого до низького"
+  },
+  "nlSortUpload": {
+    "message": "Завантаження: від високого до низького"
+  },
+  "nlSingle": {
+    "message": "Один вузол"
+  },
+  "nlGroupBatch": {
+    "message": "Група / партія"
+  },
+  "nlTestScope": {
+    "message": "Обсяг тестування"
+  },
+  "nlCurrentNode": {
+    "message": "Вибраний вузол"
+  },
+  "nlCurrentGroup": {
+    "message": "Вибрана група"
+  },
+  "nlChooseNode": {
+    "message": "Виберіть вузол у списку"
+  },
+  "nlStart": {
+    "message": "Розпочати тест"
+  },
+  "nlService": {
+    "message": "Тестовий сервіс"
+  },
+  "nlMeasured": {
+    "message": "виміряно"
+  },
+  "nlMeanLatency": {
+    "message": "Середня затримка"
+  },
+  "nlGroupBySource": {
+    "message": "За вихідною групою"
+  },
+  "nlPreviousPage": {
+    "message": "Попередня сторінка"
+  },
+  "nlNextPage": {
+    "message": "Наступна сторінка"
+  },
+  "nlName": {
+    "message": "Ім'я"
+  },
+  "nlEdit": {
+    "message": "Редагувати"
+  },
+  "nlStop": {
+    "message": "Стоп"
+  },
+  "nlConfirm": {
+    "message": "Підтвердити"
+  },
+  "nlAllNodes": {
+    "message": "Усі вузли"
+  },
+  "nlNodeResults": {
+    "message": "Результати вузла"
+  },
+  "nlTestCenter": {
+    "message": "Випробувальний центр"
+  },
+  "nlNewGroup": {
+    "message": "Нова група"
+  },
+  "nlRenameGroup": {
+    "message": "Перейменувати групу"
+  },
+  "nlRemoveGroup": {
+    "message": "Видалити групу"
+  },
+  "nlRemoveGroupHelp": {
+    "message": "Зберігайте кожен вузол і підписку та перемістіть їх до Імпортованих вузлів."
+  },
+  "nlNode": {
+    "message": "Вузол"
+  },
+  "nlStatus": {
+    "message": "Статус"
+  },
+  "nlActions": {
+    "message": "Дії"
+  },
+  "nlSort": {
+    "message": "Сортувати лише цю таблицю"
+  },
+  "nlSelected": {
+    "message": "вибрано"
+  },
+  "nlTestNode": {
+    "message": "Тест"
+  },
+  "nlProfileShort": {
+    "message": "Профіль"
+  },
+  "nlQuick": {
+    "message": "Швидка затримка"
+  },
+  "nlFull": {
+    "message": "Завантажити + завантажити"
+  },
+  "nlTraffic": {
+    "message": "Розмір тестових даних"
+  },
+  "nlConcurrency": {
+    "message": "Одночасні вузли"
+  },
+  "nlTrafficFullOnly": {
+    "message": "Використовується для тестів завантаження та завантаження"
+  },
+  "nlTestMode": {
+    "message": "Тестовий режим"
+  },
+  "nlBudget": {
+    "message": "Максимальний корисний трафік"
+  },
+  "nlViaGroup": {
+    "message": "Через пре-проксі групи"
+  },
+  "nlTestSelected": {
+    "message": "Вибраний тест"
+  },
+  "nlTestVisible": {
+    "message": "Тест показаних вузлів"
+  },
+  "nlTestAll": {
+    "message": "Перевірити всі вузли"
+  },
+  "nlTestGroup": {
+    "message": "Вузли тестової групи"
+  },
+  "nlProgress": {
+    "message": "Хід вимірювання"
+  },
+  "nlReady": {
+    "message": "Виберіть вузли для запуску. Тест не виконано."
+  },
+  "nlStarting": {
+    "message": "Початок ізольованого вимірювання…"
+  },
+  "nlQueued": {
+    "message": "У черзі"
+  },
+  "nlRunning": {
+    "message": "Тестування"
+  },
+  "nlStopping": {
+    "message": "Зупинка…"
+  },
+  "nlComplete": {
+    "message": "Завершено"
+  },
+  "nlFailed": {
+    "message": "Помилка"
+  },
+  "nlStopped": {
+    "message": "Зупинено"
+  },
+  "nlPartial": {
+    "message": "Часткова"
+  },
+  "nlUntested": {
+    "message": "Не перевірено"
+  },
+  "nlSucceeded": {
+    "message": "пройдено"
+  },
+  "nlMeasureDisconnected": {
+    "message": "Підключення для вимірювання завершено. Неповні значення не є остаточними результатами."
+  },
+  "nlUpgrade": {
+    "message": "Оновіть локальний Companion для керування групами та підписками. Наявні вузли залишаються доступними."
+  },
+  "nlOperationFailed": {
+    "message": "Операцію не вдалося завершити. Спробуйте знову."
+  },
+  "nlEditSubscription": {
+    "message": "Редагувати підписку"
+  },
+  "nlPasteContent": {
+    "message": "Проксі-посилання / контент"
+  },
+  "nlSubscriptionURL": {
+    "message": "Підписка URL"
+  },
+  "nlKeepURL": {
+    "message": "Залиште поле порожнім, щоб зберегти збережений URL"
+  },
+  "nlConnectionPolicy": {
+    "message": "Оновити підключення"
+  },
+  "nlProxyFirst": {
+    "message": "Спочатку проксі, потім прямий у разі помилки"
+  },
+  "nlProxyOnly": {
+    "message": "Лише проксі"
+  },
+  "nlDirectOnly": {
+    "message": "Тільки прямий доступ"
+  },
+  "nlProxyFirstHelp": {
+    "message": "Проксі спочатку зупиняється після успішного отримання. Пряма пробна спроба, лише якщо спроба проксі не вдається."
+  },
+  "nlAutoUpdate": {
+    "message": "Увімкнути автоматичне оновлення"
+  },
+  "nlInterval": {
+    "message": "Інтервал оновлення (хвилини)"
+  },
+  "nlDestinationGroup": {
+    "message": "Група призначення"
+  },
+  "nlSubscriptionOwnGroup": {
+    "message": "Нова група…"
+  },
+  "nlNameGroup": {
+    "message": "Назва (група)"
+  },
+  "nlCustomGroup": {
+    "message": "Спеціальна група"
+  },
+  "nlNameRequired": {
+    "message": "Введіть назву."
+  },
+  "nlContentRequired": {
+    "message": "Вставте проксі-посилання або вміст підписки."
+  },
+  "nlGroupRequired": {
+    "message": "Виберіть групу призначення."
+  },
+  "nlURLRequired": {
+    "message": "Введіть HTTP(S) підписку URL без імені користувача чи пароля."
+  },
+  "nlIntervalInvalid": {
+    "message": "Введіть ціле число від 5 до 43200 хвилин."
+  },
+  "folderTitle": {
+    "message": "Виберіть папку v2rayN."
+  },
+  "folderHint": {
+    "message": "Виберіть папку та застосуйте її за допомогою Зберегти налаштування підключення."
+  },
+  "folderPath": {
+    "message": "Повний шлях до локальної папки"
+  },
+  "folderGo": {
+    "message": "Відкрито"
+  },
+  "folderUp": {
+    "message": "Вгору"
+  },
+  "folderDrives": {
+    "message": "Диски"
+  },
+  "folderCurrent": {
+    "message": "Поточний шлях"
+  },
+  "folderChoose": {
+    "message": "Використовуйте цю папку"
+  },
+  "folderList": {
+    "message": "Папки"
+  },
+  "folderTruncated": {
+    "message": "Список обмежений. Введіть повний шлях вище, щоб відкрити папку, яка не відображається."
+  },
+  "folderReady": {
+    "message": "v2rayN файлів знайдено. Використовуйте цю папку для перевірки конфігурації."
+  },
+  "folderInvalid": {
+    "message": "Виберіть папку, що містить guiConfigs, guiNConfig.json і guiNDB.db."
+  },
+  "folderSelectDrive": {
+    "message": "Виберіть локальний диск або введіть повний шлях до папки."
+  },
+  "folderEmpty": {
+    "message": "Немає видимих ​​вкладених папок."
+  },
+  "folderUnavailable": {
+    "message": "Не вдається переглянути цю папку. Перевірте його шлях і доступ. Якщо Companion старіший, спочатку оновіть його."
+  },
+  "folderValidating": {
+    "message": "Перевірка конфігурації v2rayN…"
+  },
+  "folderInvalidConfig": {
+    "message": "Конфігурація або база даних v2rayN неповна або недійсна. Виберіть іншу папку."
+  },
+  "copyPath": {
+    "message": "Копіювати шлях"
+  },
+  "pathCopyHint": {
+    "message": "Скопіюйте поточний шлях у цьому полі."
+  },
+  "preMode": {
+    "message": "Режим попереднього проксі"
+  },
+  "preNode": {
+    "message": "Попередній проксі-вузол"
+  },
+  "preIntro": {
+    "message": "Використовуйте ланцюжок груп, пропустіть його або виберіть попередній проксі для цього профілю."
+  },
+  "healthLabel": {
+    "message": "Поточний статус підключення"
+  },
+  "healthOk": {
+    "message": "Нормально"
+  },
+  "healthError": {
+    "message": "Ненормальний"
+  },
+  "healthChecking": {
+    "message": "Перевірка"
+  },
+  "healthUnknown": {
+    "message": "Непідтверджено"
+  },
+  "autoSystemHelp": {
+    "message": "Системні правила потребують компонента Windows і знімка налаштувань фіксованого проксі. Після змін застосуйте повторно. PAC/WPAD не підтримуються; системний режим без правил використовує штатні налаштування браузера."
+  },
+  "backgroundUnavailable": {
+    "message": "Фон розширення недоступний."
+  },
+  "backgroundNoResponse": {
+    "message": "Фон не відповідає."
+  },
+  "backupTooLarge": {
+    "message": "Розмір резервної копії перевищує 5 МБ."
+  },
+  "proxyUsername": {
+    "message": "Ім'я користувача"
+  },
+  "proxyPassword": {
+    "message": "Пароль"
+  },
+  "proxyAuthHelp": {
+    "message": "Необов'язково. Автентифіковані проксі підключаються через Companion. Облікові дані зберігаються в цій конфігурації веб-переглядача та Companion і включаються до експорту профілю."
+  },
+  "proxyAuthSocks4": {
+    "message": "SOCKS4 не підтримує автентифікацію цього імені користувача та пароля; використовуйте HTTP(S) або SOCKS5."
+  },
+  "importExamples": {
+    "message": "Приклади форматування"
+  },
+  "ipCopying": {
+    "message": "Копіювання…"
+  },
+  "netDnsUnavailable": {
+    "message": "Адресу сервера не вдалося розпізнати вчасно. Перевірте адресу хоста або IP і повторіть спробу."
+  },
+  "netCurrentTarget": {
+    "message": "Вибрана кінцева точка проксі"
+  },
+  "netCustomTarget": {
+    "message": "Спеціальний сервер"
+  },
+  "netHost": {
+    "message": "Хост або IP адреса"
+  },
+  "netPort": {
+    "message": "TCP порт"
+  },
+  "netHostRequired": {
+    "message": "Введіть хост сервера або адресу IP."
+  },
+  "netCurrentUnavailable": {
+    "message": "Виберіть вузол або профіль проксі-сервера вручну або введіть спеціальну ціль."
+  },
+  "netInvalidTarget": {
+    "message": "Введіть дійсний діагностичний хост і порт."
+  },
+  "netIpv6PingUnavailable": {
+    "message": "IPv6 ICMP недоступний; використовувати TCPing."
+  },
+  "preNeedsFix": {
+    "message": "Перед збереженням виберіть дійсний попередній проксі-сервер або його відсутність."
+  },
+  "preConfigure": {
+    "message": "Налаштувати пре-проксі"
+  },
+  "preFollowInvalid": {
+    "message": "Follow v2rayN не приймає користувацький пре-проксі."
+  },
+  "followChainHelp": {
+    "message": "Follow використовує маршрут і ланцюжок проксі, які вже активні в v2rayN."
+  },
+  "netTitle": {
+    "message": "Тести підключення"
+  },
+  "ipTestDetails": {
+    "message": "Деталі тесту"
+  },
+  "netTarget": {
+    "message": "Пінг / TCPing ціль"
+  },
+  "netDownload": {
+    "message": "Завантажити тест"
+  },
+  "netPartial": {
+    "message": "Частковий зразок"
+  },
+  "netComplete": {
+    "message": "Зразок завершено"
+  },
+  "netDirect": {
+    "message": "Системна мережа"
+  },
+  "netUnreachable": {
+    "message": "Немає відповіді / помилка"
+  },
+  "netAverage": {
+    "message": "Середній"
+  },
+  "predecessor": {
+    "message": "Пре-проксі"
+  },
+  "preInherit": {
+    "message": "Використовуйте груповий ланцюжок v2rayN."
+  },
+  "preNone": {
+    "message": "Без попереднього проксі"
+  },
+  "preSpecific": {
+    "message": "Виберіть вузол"
+  },
+  "preHelp": {
+    "message": "Стосується цього профілю. Використовуйте груповий ланцюжок v2rayN, без попереднього проксі або окремого вузла. Follow v2rayN використовує свій існуючий ланцюжок."
+  },
+  "preSelectRequired": {
+    "message": "Виберіть попередній проксі-вузол або виберіть «Група за умовчанням / Жодного»."
+  },
+  "ipPing0Permission": {
+    "message": "Дозволити Ping0 доступ до веб-сайту для завантаження публічного звіту."
+  },
+  "ipPublicChallenge": {
+    "message": "Веб-сайт вимагає перевірки. Відкрийте сторінку Ping0, щоб завершити його та переглянути результат."
+  },
+  "ipPublicReport": {
+    "message": "Ping0 публічний звіт"
+  },
+  "ipPublicSource": {
+    "message": "Джерело: Ping0 публічна сторінка"
+  },
+  "ipPublicOriginal": {
+    "message": "Ping0 звіт"
+  },
+  "ipPublicPartial": {
+    "message": "Відображаються лише поля, надані на загальнодоступній сторінці, мовою оригіналу. Класифікації та оцінки спільного користувача взято з Ping0."
+  },
+  "setupTitle": {
+    "message": "Підключити Proxy V2Route"
+  },
+  "setupIntro": {
+    "message": "Установіть компаньйон Windows, щоб використовувати маршрути v2rayN або власні імпортовані вузли."
+  },
+  "setupStepOne": {
+    "message": "Розпакуйте відповідний повний пакет Windows до постійної папки."
+  },
+  "setupStepTwo": {
+    "message": "Відкрийте V2Route-Setup.exe і натисніть «Встановити»."
+  },
+  "setupStepThree": {
+    "message": "Поверніться сюди та перевірте з’єднання. За потреби виберіть папку v2rayN."
+  },
+  "setupCheck": {
+    "message": "Перевірити підключення"
+  },
+  "downloadCompanion": {
+    "message": "Інструкція зі встановлення ↗"
+  },
+  "setupDownloadNote": {
+    "message": "Використовуйте відповідний локальний пакет Windows або дотримуйтеся посібника, щоб створити його з поточного джерела."
+  },
+  "chooseFolder": {
+    "message": "Виберіть папку v2rayN…"
+  },
+  "rescanDone": {
+    "message": "Повторне сканування локальних вузлів"
+  },
+  "grouping": {
+    "message": "Групові вузли"
+  },
+  "groupByCountry": {
+    "message": "За країною"
+  },
+  "unknownCountry": {
+    "message": "Інше / Невідомо"
+  },
+  "ungrouped": {
+    "message": "Розгрупований"
+  },
+  "adjustNodeFilters": {
+    "message": "Спробуйте іншу групу, джерело чи пошук, або покажіть приховані вузли."
+  },
+  "rescanLocal": {
+    "message": "Повторне сканування v2rayN вузлів"
+  },
+  "showHidden": {
+    "message": "Показати приховані вузли"
+  },
+  "hideNode": {
+    "message": "Приховати"
+  },
+  "restoreNode": {
+    "message": "Відновити"
+  },
+  "hiddenNode": {
+    "message": "Приховано"
+  },
+  "hideNodeHelp": {
+    "message": "Приховати лише від бібліотеки вузлів цього браузера. v2rayN і наявні профілі не змінені."
+  },
+  "ipContextTimeout": {
+    "message": "Минув час очікування читання поточного профілю. Спробуйте знову."
+  },
+  "ipStaleResult": {
+    "message": "Поточний профіль змінено. Цей результат може бути застарілим; check again."
+  },
+  "ip_tools": {
+    "message": "IP Інструменти"
+  },
+  "ipIntro": {
+    "message": "Поточний вихід IP і публічний звіт."
+  },
+  "ipCurrentProfile": {
+    "message": "Поточний профіль браузера"
+  },
+  "ipRouteCaution": {
+    "message": "Автоматичні правила та PAC можуть використовувати різні маршрути для різних пунктів призначення. Ця перевірка описує лише власний запит."
+  },
+  "ipDisclosure": {
+    "message": "Вихід із автоматичної перевірки IP · Звіт від Ping0"
+  },
+  "ipMethod": {
+    "message": "Перевірка адреси"
+  },
+  "ipDual": {
+    "message": "IPv4 / IPv6"
+  },
+  "ipCheck": {
+    "message": "Перевірте ще раз"
+  },
+  "ipChecking": {
+    "message": "Перевірка…"
+  },
+  "ipDualHelp": {
+    "message": "IPv4 / IPv6 повертає сімейство адрес, використане для цього запиту, а не обидві адреси."
+  },
+  "ipDurationHelp": {
+    "message": "Минув HTTP час запиту включає час відповіді мережі та служби. Це не ICMP ping або перевірка пропускної здатності."
+  },
+  "ipCopy": {
+    "message": "Копія IP"
+  },
+  "ipCopied": {
+    "message": "Скопійовано"
+  },
+  "ipCopyFailed": {
+    "message": "Не вдалося скопіювати. Виберіть адресу та скопіюйте її вручну."
+  },
+  "ipNoResult": {
+    "message": "No check yet"
+  },
+  "ipContextUnknown": {
+    "message": "Профіль недоступний"
+  },
+  "ipTimeout": {
+    "message": "Час очікування перевірки минув. Спробуйте ще раз або скористайтеся іншим маршрутом."
+  },
+  "ipCancelled": {
+    "message": "Чек скасовано"
+  },
+  "ipNetwork": {
+    "message": "Не вдалося зв’язатися з ipify. Перевірте підключення та повторіть спробу."
+  },
+  "ipHttp": {
+    "message": "Сервіс IP не прийняв запит. Повторіть спробу пізніше."
+  },
+  "ipInvalid": {
+    "message": "Служба IP повернула недійсну відповідь."
+  },
+  "ipFailure": {
+    "message": "Перевірка не виконана. Спробуйте знову."
+  },
+  "ipStale": {
+    "message": "Ваші налаштування проксі-сервера змінилися під час перевірки. Старий результат було відкинуто; check again."
+  },
+  "ipQuality": {
+    "message": "External tools"
+  },
+  "ipQualityPrivacy": {
+    "message": "Інструменти запускаються лише після натискання. Провайдери отримують звичайні дані підключення. Перевірки веб-сайтів надсилають запити без облікових даних після запуску. Закриття зупинок місцевих тестів; зовнішніми вкладками керує браузер."
+  },
+  "ipReport": {
+    "message": "Копія відредагованого звіту"
+  },
+  "ipReportCopied": {
+    "message": "Відредагований звіт скопійовано; не включено IP або імена профілів."
+  },
+  "popupSelected": {
+    "message": "Вибране"
+  },
+  "popupFooter": {
+    "message": "v2rayN & профілі вузлів"
+  },
+  "subtitle": {
+    "message": "Незалежні маршрути браузера"
+  },
+  "profiles": {
+    "message": "Профілі"
+  },
+  "nodes": {
+    "message": "Бібліотека вузлів"
+  },
+  "settings": {
+    "message": "Налаштування"
+  },
+  "connected": {
+    "message": "Активний профіль"
+  },
+  "noProfile": {
+    "message": "Системне значення за умовчанням"
+  },
+  "newProfile": {
+    "message": "Новий профіль"
+  },
+  "searchProfiles": {
+    "message": "Пошук профілів"
+  },
+  "direct": {
+    "message": "Пряма мережа"
+  },
+  "system": {
+    "message": "Системний проксі"
+  },
+  "follow": {
+    "message": "Підписатися на v2rayN"
+  },
+  "manual": {
+    "message": "Ручний проксі"
+  },
+  "auto": {
+    "message": "Автоперемикач"
+  },
+  "pac": {
+    "message": "PAC сценарій"
+  },
+  "virtual": {
+    "message": "Віртуальний профіль"
+  },
+  "profileIntro": {
+    "message": "Виберіть маршрут браузера, не перемикаючи основний маршрут v2rayN."
+  },
+  "nodesIntro": {
+    "message": "Перегляньте локальні v2rayN вузли та імпортовані посилання."
+  },
+  "settingsIntro": {
+    "message": "Локальне підключення, мова й оформлення."
+  },
+  "refresh": {
+    "message": "Оновити"
+  },
+  "create": {
+    "message": "Створити профіль"
+  },
+  "name": {
+    "message": "Назва профілю"
+  },
+  "type": {
+    "message": "Тип профілю"
+  },
+  "save": {
+    "message": "Зберегти"
+  },
+  "saved": {
+    "message": "Збережено"
+  },
+  "saving": {
+    "message": "Збереження…"
+  },
+  "cancel": {
+    "message": "Скасувати"
+  },
+  "close": {
+    "message": "Закрити"
+  },
+  "apply": {
+    "message": "Використовуйте цей профіль"
+  },
+  "applied": {
+    "message": "Профіль змінено"
+  },
+  "active": {
+    "message": "Активний"
+  },
+  "delete": {
+    "message": "Вилучити"
+  },
+  "remove": {
+    "message": "Видалити"
+  },
+  "rename": {
+    "message": "Перейменувати"
+  },
+  "route": {
+    "message": "Маршрут проксі"
+  },
+  "selectRoute": {
+    "message": "Виберіть маршрут"
+  },
+  "routeMissing": {
+    "message": "Маршрут недоступний — виберіть інший"
+  },
+  "chain": {
+    "message": "Ланцюг з'єднання"
+  },
+  "connection": {
+    "message": "Локальний зв'язок"
+  },
+  "proxy": {
+    "message": "Проксі-сервер"
+  },
+  "address": {
+    "message": "Адреса"
+  },
+  "port": {
+    "message": "Порт"
+  },
+  "scheme": {
+    "message": "Протокол"
+  },
+  "proxyDns": {
+    "message": "SOCKS5 DNS вирішується через проксі."
+  },
+  "connectedIdle": {
+    "message": "Підключено · Неактивний"
+  },
+  "bypass": {
+    "message": "Обхідний список"
+  },
+  "bypassHelp": {
+    "message": "Один домен, шаблон домену, IP-адреса або IP:порт на рядок."
+  },
+  "advanced": {
+    "message": "Розширені параметри"
+  },
+  "searchRoutes": {
+    "message": "Пошук груп або вузлів"
+  },
+  "selectGroup": {
+    "message": "Виберіть групу"
+  },
+  "empty": {
+    "message": "Немає відповідних елементів"
+  },
+  "unavailable": {
+    "message": "Недоступний"
+  },
+  "groupHint": {
+    "message": "Утримуйте групу протягом 250 ms, а потім перетягніть. Alt + ↑ / ↓ також змінює порядок. Зміни зберігаються автоматично."
+  },
+  "searchSort": {
+    "message": "Очистіть пошук перед сортуванням."
+  },
+  "dragHint": {
+    "message": "Перемістіть вгору або вниз, а потім відпустіть, щоб зберегти. Esc скасовує."
+  },
+  "orderSaved": {
+    "message": "Групове замовлення збережено"
+  },
+  "orderCancelled": {
+    "message": "Повторне замовлення скасовано"
+  },
+  "loading": {
+    "message": "Завантаження…"
+  },
+  "reading": {
+    "message": "Читання локальних вузлів…"
+  },
+  "nativeMissing": {
+    "message": "Локальний компонент не підключено"
+  },
+  "retry": {
+    "message": "Повторіть спробу"
+  },
+  "nativeHelp": {
+    "message": "Для маршрутів вузлів потрібен компаньйон Windows. Зараз доступні прямі, системні та ручні проксі."
+  },
+  "imported": {
+    "message": "Імпорт"
+  },
+  "v2rayn": {
+    "message": "v2rayN"
+  },
+  "allSources": {
+    "message": "Усі джерела"
+  },
+  "importNodes": {
+    "message": "Імпорт проксі"
+  },
+  "importTitle": {
+    "message": "Імпорт проксі"
+  },
+  "importHelp": {
+    "message": "Вставте проксі-посилання, вихідні JSON або Base64 підписку. SOCKS підтримує звичайні або Base64 облікові дані. Адреси без схем використовують HTTP."
+  },
+  "importPrivacy": {
+    "message": "Деталі та облікові дані проксі-сервера передаються локальному компаньйону Proxy V2Route для зберігання та підключення до вибраного вами проксі. Розробник не отримує цю інформацію."
+  },
+  "import": {
+    "message": "Імпорт профілів"
+  },
+  "nodeCount": {
+    "message": "вузлів"
+  },
+  "source": {
+    "message": "Джерело"
+  },
+  "protocol": {
+    "message": "Протокол"
+  },
+  "useNode": {
+    "message": "Створити профіль"
+  },
+  "removeNode": {
+    "message": "Видалити імпортований вузол?"
+  },
+  "removeNodeHelp": {
+    "message": "Профілі, які використовують цей вузол, потрібно перепризначити, перш ніж його можна буде видалити."
+  },
+  "deleteProfile": {
+    "message": "Видалити цей профіль?"
+  },
+  "deleteProfileHelp": {
+    "message": "Це видаляє лише цей профіль веб-переглядача. Імпортовані вузли та конфігурація v2rayN зберігаються."
+  },
+  "language": {
+    "message": "Мова"
+  },
+  "automatic": {
+    "message": "Браузер за умовчанням"
+  },
+  "theme": {
+    "message": "Зовнішній вигляд"
+  },
+  "light": {
+    "message": "Світло"
+  },
+  "dark": {
+    "message": "Темний"
+  },
+  "switchToEnglish": {
+    "message": "Перейти на англійську"
+  },
+  "switchToChinese": {
+    "message": "Перейти на спрощену китайську"
+  },
+  "switchToLight": {
+    "message": "Перейти до світлого вигляду"
+  },
+  "switchToDark": {
+    "message": "Перейти до темного вигляду"
+  },
+  "localComponent": {
+    "message": "Супутній компонент"
+  },
+  "ready": {
+    "message": "Підключено"
+  },
+  "stopped": {
+    "message": "Не працює"
+  },
+  "discovery": {
+    "message": "v2rayN виявлення"
+  },
+  "rootPath": {
+    "message": "v2rayN папка"
+  },
+  "corePath": {
+    "message": "Виконуваний файл ядра проксі"
+  },
+  "optionalPath": {
+    "message": "Залиште поле порожнім для автоматичного виявлення"
+  },
+  "pathsHelp": {
+    "message": "v2rayN визначається автоматично; виберіть його папку, якщо потрібно. Імпортовані вузли використовують включене ядро."
+  },
+  "savePaths": {
+    "message": "Зберегти налаштування підключення"
+  },
+  "privacy": {
+    "message": "Налаштування зберігаються локально"
+  },
+  "privacyText": {
+    "message": "Посилання на вузли та облікові дані залишаються в локальному компаньйоні. Трафік веб-переглядача проходить через вибраний проксі-сервер до цільових веб-сайтів; розробник не отримує."
+  },
+  "privacyDetails": {
+    "message": "Конфіденційність і потік даних"
+  },
+  "export": {
+    "message": "Експорт профілів"
+  },
+  "about": {
+    "message": "Про Proxy V2Route"
+  },
+  "aboutText": {
+    "message": "Виберіть маршрут браузера, не перемикаючи основний маршрут v2rayN. Маршрути вузлів використовують компаньйон Windows і ваші власні вузли."
+  },
+  "licenses": {
+    "message": "Повідомлення з відкритих джерел"
+  },
+  "version": {
+    "message": "Версія"
+  },
+  "fieldRequired": {
+    "message": "Введіть назву профілю."
+  },
+  "profileExists": {
+    "message": "Профіль із такою назвою вже існує."
+  },
+  "ruleHelp": {
+    "message": "Розділіть домени в одному рядку комами. Перемагає перший відповідний рядок. Залиште доступним маршрут за замовчуванням."
+  },
+  "rules": {
+    "message": "Правила маршрутизації"
+  },
+  "pattern": {
+    "message": "Шаблон хоста"
+  },
+  "target": {
+    "message": "Мета правила"
+  },
+  "addRule": {
+    "message": "Додати правило"
+  },
+  "defaultRoute": {
+    "message": "Профіль за замовчуванням"
+  },
+  "pacHelp": {
+    "message": "Вставте надійне джерело PAC, що містить FindProxyForURL. Цей сценарій вирішує, як маршрутизуються запити веб-сайту."
+  },
+  "pacUrl": {
+    "message": "PAC URL"
+  },
+  "pacScript": {
+    "message": "PAC сценарій"
+  },
+  "noSelection": {
+    "message": "Виберіть профіль або створіть його."
+  },
+  "details": {
+    "message": "Подробиці"
+  },
+  "noNodes": {
+    "message": "Вузлів ще немає"
+  },
+  "noNodesHelp": {
+    "message": "Підключіть v2rayN або імпортуйте проксі-посилання, JSON або підписку, щоб почати."
+  },
+  "openSettings": {
+    "message": "Відкрити налаштування"
+  },
+  "proxySettings": {
+    "message": "Налаштування проксі"
+  },
+  "switching": {
+    "message": "Перемикання…"
+  },
+  "updatedElsewhere": {
+    "message": "Цей профіль змінено в іншому вікні. Відкрийте його перед збереженням."
+  },
+  "choose": {
+    "message": "Вибирай"
+  },
+  "popupIntro": {
+    "message": "Підключення:"
+  },
+  "invalidPort": {
+    "message": "Введіть порт від 1 до 65535."
+  },
+  "externalControl": {
+    "message": "Інше розширення або політика контролює проксі браузера."
+  },
+  "noNativeRoute": {
+    "message": "Підключіть локальний компонент перед створенням профілю вузла."
+  },
+  "reload": {
+    "message": "Перезавантажити"
+  },
+  "rulesError": {
+    "message": "Кожне правило має містити шаблон і ціль."
+  },
+  "backupDone": {
+    "message": "Профілі веб-переглядача експортовано"
+  },
+  "managed": {
+    "message": "Керований вузол"
+  },
+  "netRegion": {
+    "message": "Цільова область"
+  },
+  "netNodeArea": {
+    "message": "Проксі-вузол"
+  },
+  "netChina": {
+    "message": "Материковий Китай"
+  },
+  "netGlobal": {
+    "message": "Глобальний"
+  },
+  "netAli": {
+    "message": "AliDNS"
+  },
+  "netTencent": {
+    "message": "DNSPod"
+  },
+  "netStartHelp": {
+    "message": "Виберіть ціль, а потім розпочніть тест у реальному часі."
+  },
+  "netConsole": {
+    "message": "Жива діагностика"
+  },
+  "netStop": {
+    "message": "Стоп"
+  },
+  "netRunning": {
+    "message": "Біг"
+  },
+  "netStopped": {
+    "message": "Зупинено"
+  },
+  "netSent": {
+    "message": "Надіслано"
+  },
+  "netLoss": {
+    "message": "Втрата"
+  },
+  "netAverageShort": {
+    "message": "Сер"
+  },
+  "netLogClear": {
+    "message": "Ясно"
+  },
+  "netFinishing": {
+    "message": "Попереднє дослідження закінчується…"
+  },
+  "netRound": {
+    "message": "Круглий"
+  },
+  "netDestination": {
+    "message": "Пункт призначення"
+  },
+  "netHop": {
+    "message": "Хміль"
+  },
+  "netAddress": {
+    "message": "IP адреса"
+  },
+  "netLast": {
+    "message": "Остання"
+  },
+  "netConsoleHelp": {
+    "message": "Ping / TCPing / MTR використовують мережу системи, а не ланцюг проксі. Відсутні ICMP відповіді не підтверджують втрату трафіку. Завантаження використовує маршрут браузера та вибране обмеження розміру. Тести припиняються, коли ви залишаєте або ховаєте цю сторінку."
+  },
+  "netDirectShort": {
+    "message": "Системна мережа"
+  },
+  "netIcmpShort": {
+    "message": "Ні ICMP відповіді"
+  },
+  "netProbeError": {
+    "message": "Помилка локального зонду"
+  },
+  "netNoDestination": {
+    "message": "Пункт призначення не досягнуто"
+  },
+  "deleteActive": {
+    "message": "Перейти до системи та видалити"
+  },
+  "deleteActiveHelp": {
+    "message": "Профіль активний. Його видалення перемикає браузер на системний проксі-сервер."
+  },
+  "netDownloadSize": {
+    "message": "Розмір завантаження"
+  },
+  "netReceived": {
+    "message": "Отримано"
+  },
+  "netBest": {
+    "message": "Найкраще"
+  },
+  "netWorst": {
+    "message": "Найгірше"
+  },
+  "netStdDev": {
+    "message": "Стандартна розробка"
+  },
+  "netLocation": {
+    "message": "Розташування"
+  },
+  "toolWall": {
+    "message": "Перевірка блокування домену"
+  },
+  "toolSites": {
+    "message": "Популярні сайти"
+  },
+  "toolGlobal": {
+    "message": "Глобальна діагностика"
+  },
+  "toolFast": {
+    "message": "Швидкість Netflix"
+  },
+  "toolSpeed": {
+    "message": "Тест швидкості"
+  },
+  "toolStart": {
+    "message": "Початок"
+  },
+  "toolReady": {
+    "message": "Готовий"
+  },
+  "toolResponded": {
+    "message": "Відповів"
+  },
+  "toolNoResponse": {
+    "message": "Непідтверджено"
+  },
+  "toolCacheUnsupported": {
+    "message": "Цей веб-переглядач не може очистити кеш за сайтом; сторінку було перезавантажено."
+  },
+  "toolCacheFailed": {
+    "message": "Очищення кешу не завершено. Закрийте та повторіть спробу."
+  },
+  "toolClose": {
+    "message": "Закрити"
+  },
+  "toolReload": {
+    "message": "Перезавантажити"
+  },
+  "toolLoading": {
+    "message": "Завантаження…"
+  },
+  "toolFrameError": {
+    "message": "Не вдалося завантажити. Спробуйте перезавантажити."
+  },
+  "toolSiteHelp": {
+    "message": "Лише доступність браузера. Це не підтверджує обліковий запис або регіональний доступ."
+  },
+  "toolFallback": {
+    "message": "Тест швидкості резервного копіювання"
+  },
+  "toolFullscreen": {
+    "message": "Повний екран"
+  },
+  "toolRestore": {
+    "message": "Вийти з повноекранного режиму"
+  },
+  "ipReadFailed": {
+    "message": "Помилка читання. 👉"
+  },
+  "ipViewSource": {
+    "message": "Переглянути вихідний сайт"
+  },
+  "toolDownloadError": {
+    "message": "Не вдалося підключитися до сервера завантаження. Спробуйте знову."
+  },
+  "toolAccess": {
+    "message": "Увімкнути доступ до сайту"
+  },
+  "toolPermission": {
+    "message": "Дозвольте доступ до цього сайту для сумісності вбудованого сеансу."
+  },
+  "toolAsia": {
+    "message": "Азія"
+  },
+  "toolEurope": {
+    "message": "Європа"
+  },
+  "toolAmerica": {
+    "message": "Північна Америка"
+  },
+  "toolGlobalHelp": {
+    "message": "Попередньо заповнює вікно виходу з браузера IP. Виберіть материковий Китай або інший регіон для порівняння шляхів; Start надсилає відображену ціль до трьох Globalping зондів."
+  },
+  "toolServiceError": {
+    "message": "Тестовий сервіс недоступний. Спробуйте знову."
+  },
+  "popupOrderHelp": {
+    "message": "Утримуйте та перетягуйте, щоб змінити порядок. Alt+клавіші зі стрілками також переміщують цей профіль."
+  },
+  "popupOrderSaved": {
+    "message": "Замовлення збережено"
+  },
+  "toolGroupIP": {
+    "message": "IP тести"
+  },
+  "toolGroupWeb": {
+    "message": "Тести сайту"
+  },
+  "toolGroupSpeed": {
+    "message": "Швидкість"
+  },
+  "toolCurrentIP": {
+    "message": "Поточний вихід IP"
+  },
+  "toolCurrentIPLoading": {
+    "message": "Завантаження поточного виходу IP…"
+  },
+  "toolCurrentIPFailed": {
+    "message": "Не вдалося прочитати поточний IP. Введіть ціль."
+  },
+  "speedMode": {
+    "message": "Тестовий режим"
+  },
+  "speedBoth": {
+    "message": "Завантажити + завантажити"
+  },
+  "speedDownload": {
+    "message": "Завантажити"
+  },
+  "speedUpload": {
+    "message": "Завантажити"
+  },
+  "speedLatency": {
+    "message": "HTTP затримка"
+  },
+  "speedBudget": {
+    "message": "{n} MiB на фазу · {total} MiB загалом, плюс невеликі зразки затримки."
+  },
+  "siteCategory": {
+    "message": "Категорія сайту"
+  },
+  "siteAll": {
+    "message": "Всі сайти"
+  },
+  "siteAI": {
+    "message": "AI"
+  },
+  "siteDevelopment": {
+    "message": "Розвиток"
+  },
+  "siteVideo": {
+    "message": "Відео / музика"
+  },
+  "siteSocial": {
+    "message": "Соц"
+  },
+  "siteDomestic": {
+    "message": "Материкові послуги"
+  },
+  "siteServices": {
+    "message": "Загальні служби"
+  },
+  "globalMethod": {
+    "message": "Тип вимірювання"
+  },
+  "localPort": {
+    "message": "Локальний порт:"
+  },
+  "chainChooseNode": {
+    "message": "Виберіть проксі-вузол"
+  },
+  "chainTitle": {
+    "message": "Ланцюжок проксі"
+  },
+  "chainSelectExit": {
+    "message": "Виберіть певний вузол виходу нижче, щоб зберегти або протестувати цей спеціальний ланцюжок. Підпискою v2rayN керує v2rayN."
+  },
+  "chainSelectExitShort": {
+    "message": "Виберіть вузол виходу"
+  },
+  "chainAdd": {
+    "message": "+ Додати рівень проксі"
+  },
+  "chainTest": {
+    "message": "Тестовий ланцюг"
+  },
+  "chainMode": {
+    "message": "Режим ланцюга"
+  },
+  "chainBase": {
+    "message": "Базовий проксі"
+  },
+  "chainExit": {
+    "message": "Вийти з проксі"
+  },
+  "chainEgress": {
+    "message": "Ланцюговий вихід"
+  },
+  "chainExitBadge": {
+    "message": "Вихід IP"
+  },
+  "chainEntry": {
+    "message": "Вхід в ланцюг"
+  },
+  "chainTransit": {
+    "message": "Bridge Node"
+  },
+  "chainUntested": {
+    "message": "Не перевірено"
+  },
+  "chainMissing": {
+    "message": "Недоступний вузол"
+  },
+  "chainUnresolved": {
+    "message": "Неможливо вирішити успадкований ланцюжок. Виправте налаштування попереднього або виберіть власний ланцюг."
+  },
+  "chainUpgrade": {
+    "message": "Оновіть локальний компаньйон, щоб увімкнути впорядковані ланцюжки."
+  },
+  "chainBusy": {
+    "message": "Виконується ще один ланцюговий тест"
+  },
+  "chainOK": {
+    "message": "Доступний"
+  },
+  "chainFailed": {
+    "message": "Невдалий стрибок у цьому тесті"
+  },
+  "chainBlocked": {
+    "message": "Не перевірено · попередній стрибок не вдався"
+  },
+  "chainFailureHelp": {
+    "message": "Цей стрибок або шлях до нього не проходив. Пізніший хміль не перевірявся."
+  },
+  "chainAllOK": {
+    "message": "Усі кумулятивні шляхи відповіли"
+  },
+  "chainStopping": {
+    "message": "Зупинка після поточного обмеженого зонду…"
+  },
+  "globalWorld": {
+    "message": "По всьому світу"
+  },
+  "globalUnavailable": {
+    "message": "Ціль або регіон недоступні. Перевірте ціль або виберіть інший регіон."
+  },
+  "globalRateLimited": {
+    "message": "Досягнуто обмеження швидкості обслуговування. Повторіть спробу пізніше."
+  },
+  "globalNoResults": {
+    "message": "Служба не повернула результатів перевірки. Спробуйте інший регіон."
+  },
+  "globalProbeFailed": {
+    "message": "Збій зонду"
+  },
+  "globalProbeOffline": {
+    "message": "Зонд офлайн"
+  },
+  "globalIcmpCaution": {
+    "message": "Відсутність ICMP відповідей сама по собі не є доказом блокування. Порівняйте материкові та закордонні шляхи та інші типи тестів."
+  },
+  "speedRealtime": {
+    "message": "Жива швидкість"
+  },
+  "speedAverage": {
+    "message": "Середня швидкість"
+  },
+  "ipToolsBrief": {
+    "message": "Результати сторонніх розробників наведені для довідки."
+  },
+  "ipReportBrief": {
+    "message": "Результати відрізняються залежно від виходу IP і є довідковими."
+  },
+  "toolPingPe": {
+    "message": "IP перевірка блокування"
+  },
+  "toolTargetIP": {
+    "message": "Ціль IP"
+  },
+  "toolOpenPingPe": {
+    "message": "Відкритий офіційний тест"
+  },
+  "toolInvalidIP": {
+    "message": "Введіть дійсну адресу IPv4 або IPv6."
+  },
+  "toolInvalidPort": {
+    "message": "Введіть TCP порт від 1 до 65535."
+  },
+  "toolExternalFailed": {
+    "message": "Не вдалося відкрити веб-сайт. Спробуйте знову."
+  },
+  "ipBrowserReading": {
+    "message": "Читання Ping0 через браузер…"
+  },
+  "ipVerifyBrowser": {
+    "message": "Відкрити сторінку підтвердження"
+  },
+  "policyCenter": {
+    "message": "Конфіденційність, декларація та поширені запитання"
+  },
+  "policyCenterIntro": {
+    "message": "Локальна обробка даних, тестові обмеження та загальні відповіді."
+  },
+  "policyPrivacyTitle": {
+    "message": "Політика конфіденційності"
+  },
+  "policyPrivacySummary": {
+    "message": "Профілі та облікові дані залишаються на цьому пристрої. Перевірки спливаючих вікон і діагностика зв’яжіться з їхніми заявленими постачальниками. Без реклами чи поведінкової аналітики."
+  },
+  "policyDeclarationTitle": {
+    "message": "Заява про використання та вимірювання"
+  },
+  "policyDeclarationSummary": {
+    "message": "Це розширення є локальним менеджером маршрутів, а не проксі-сервером або постачальником VPN. Вимірювання є еталонними зразками, на які впливають умови мережі, проксі та постачальника."
+  },
+  "policyFaqTitle": {
+    "message": "FAQ"
+  },
+  "policyFaqSummary": {
+    "message": "Супутник Windows потрібен для локальних вузлів і MTR. Затримка може відрізнятися між браузером, системою та загальнодоступними зондами. Зупиніть тест або очистіть локальні дані в налаштуваннях."
+  },
+  "policyDetailsLink": {
+    "message": "Читати повну інформацію ↗"
+  },
+  "thirdPartyNotice": {
+    "message": "Повідомлення з відкритим кодом ↗"
+  },
+  "columnResizeHelp": {
+    "message": "Перетягніть, щоб змінити розмір; двічі клацніть, щоб скинути; використовуйте клавіші зі стрілками для налаштування"
+  },
+  "columnResize": {
+    "message": "Змінити розмір стовпця"
+  },
+  "typeDescription_node": {
+    "message": "Підключіться через проксі-вузол"
+  },
+  "typeDescription_manual": {
+    "message": "Введіть налаштування проксі вручну"
+  },
+  "typeDescription_auto": {
+    "message": "Виберіть вузол за допомогою правил"
+  },
+  "typeDescription_pac": {
+    "message": "Маршрут трафіку за правилами PAC."
+  },
+  "appDescription": {
+    "message": "Маршрути проксі браузера, вузли та правила домену. Для маршрутів вузлів потрібен компаньйон Windows."
+  },
+  "core_title": {
+    "message": "Ядро проксі"
+  },
+  "core_checking": {
+    "message": "Перевірка локального компонента…"
+  },
+  "core_ready": {
+    "message": "Xray готовий"
+  },
+  "core_missing": {
+    "message": "Відсутнє ядро проксі"
+  },
+  "core_external": {
+    "message": "Спеціальне ядро: не перевірено"
+  },
+  "core_corrupt": {
+    "message": "Xray невідповідність контрольної суми — потрібен ремонт"
+  },
+  "core_unreadable": {
+    "message": "Не вдалося перевірити файл ядра"
+  },
+  "core_intro": {
+    "message": "Повний пакет Windows включає Xray. v2rayN необов’язковий."
+  },
+  "core_verify": {
+    "message": "Перевірте ще раз"
+  },
+  "core_install": {
+    "message": "Установка/відновлення ядра"
+  },
+  "core_installing": {
+    "message": "Завантаження та перевірка…"
+  },
+  "core_done": {
+    "message": "Ядро перевірено та готове"
+  },
+  "core_help": {
+    "message": "Ремонт використовує закріплений офіційний випуск Xray і перевіряє його контрольну суму. Існуючі підключення залишаються запущеними."
+  },
+  "core_absent": {
+    "message": "Встановіть локальний компонент один раз, а потім поверніться сюди, щоб перевірити ядро."
+  },
+  "core_download": {
+    "message": "Інструкція зі встановлення"
+  },
+  "core_absentHelp": {
+    "message": "Використовуйте відповідний пакет Windows або дотримуйтеся посібника, щоб зібрати його з джерела, а потім запустіть установку."
+  },
+  "core_failed": {
+    "message": "Помилка основної операції. Спробуйте ще раз або скористайтеся повним пакетом Windows."
+  },
+  "core_version": {
+    "message": "Версія"
+  },
+  "error_ACTIVE_PROFILE_DELETE": {
+    "message": "Перед видаленням перейдіть на інший профіль"
+  },
+  "error_BACKUP_BINDING_TYPE": {
+    "message": "Прив’язки маршрутів можуть мати лише проксі-профілі"
+  },
+  "error_BACKUP_FORMAT3_REQUIRED": {
+    "message": "Правила вузлів потребують переносної резервної копії у форматі 3"
+  },
+  "error_BACKUP_INDEPENDENT_PATH_REQUIRED": {
+    "message": "Резервна копія має містити незалежний шлях вузлів"
+  },
+  "error_BACKUP_INTERNAL_BINDINGS": {
+    "message": "Резервна копія містить внутрішні прив’язки"
+  },
+  "error_BACKUP_MESSAGE_LIMIT": {
+    "message": "Резервна копія вузлів перевищує обмеження розміру повідомлень супровідного компонента"
+  },
+  "error_BACKUP_NODES_INCOMPLETE": {
+    "message": "Неповна резервна копія вузлів"
+  },
+  "error_BACKUP_NODE_MISSING": {
+    "message": "У резервній копії бракує потрібного вузла"
+  },
+  "error_BACKUP_NODE_PATHS_LIMIT": {
+    "message": "Резервна копія підтримує щонайбільше {limit} шляхів вузлів"
+  },
+  "error_BACKUP_PATH_INCOMPLETE": {
+    "message": "Неповний шлях вузлів у резервній копії"
+  },
+  "error_BACKUP_PROFILES_LIMIT": {
+    "message": "Резервна копія підтримує щонайбільше {limit} профілів"
+  },
+  "error_BACKUP_PROXY_CONFLICT": {
+    "message": "Резервна копія містить суперечливі налаштування проксі"
+  },
+  "error_BACKUP_SIZE_LIMIT": {
+    "message": "Резервна копія перевищує {limit} MB"
+  },
+  "error_BACKUP_TRANSFER_UNAVAILABLE": {
+    "message": "Оновіть або відновіть супровідний компонент, щоб переносити резервні копії вузлів."
+  },
+  "error_BACKUP_UNUSED_NODES": {
+    "message": "Резервна копія містить вузли без посилань"
+  },
+  "error_BODY_TOO_LARGE": {
+    "message": "Відповідь підписки перевищує дозволений розмір."
+  },
+  "error_BROWSER_API_FAILED": {
+    "message": "Операція браузера завершилася помилкою. Дивіться технічні подробиці."
+  },
+  "error_BROWSER_PROXY_RESTORE_FAILED": {
+    "message": "Операція завершилася помилкою, а попередній проксі браузера не вдалося відновити"
+  },
+  "error_BROWSER_SCHEDULING_UNAVAILABLE": {
+    "message": "Планування завдань у браузері недоступне."
+  },
+  "error_BUSY": {
+    "message": "Виконується інша операція. Спробуйте знову трохи пізніше."
+  },
+  "error_CHAIN_PROBE_FAILED": {
+    "message": "Перевірка ланцюжка завершилася помилкою"
+  },
+  "error_COMPANION_BULK_RELEASE_REQUIRED": {
+    "message": "Оновіть локальний супровідний компонент, щоб безпечно керувати кількома правилами вузлів"
+  },
+  "error_COMPANION_CHAINS_REQUIRED": {
+    "message": "Оновіть локальний супровідний компонент, щоб використовувати впорядковані ланцюжки"
+  },
+  "error_COMPANION_MESSAGE_LIMIT": {
+    "message": "Налаштування перевищують обмеження розміру повідомлень супровідного компонента"
+  },
+  "error_COMPANION_OPERATION_FAILED": {
+    "message": "Операція локального супровідного компонента завершилася помилкою. Дивіться технічні подробиці."
+  },
+  "error_COMPANION_UNAVAILABLE": {
+    "message": "Установіть або відновіть супровідний компонент V2Route"
+  },
+  "error_CONNECTION_CLOSED": {
+    "message": "З’єднання закрилося до завершення тесту."
+  },
+  "error_CORE_INSTALL_FAILED": {
+    "message": "Не вдалося встановити ядро. Дивіться технічні подробиці."
+  },
+  "error_CORE_OWNERSHIP_FAILED": {
+    "message": "Не вдалося безпечно керувати ізольованим тестовим ядром. Тест зупинено."
+  },
+  "error_CORE_START_FAILED": {
+    "message": "Ізольоване тестове ядро не запустилося. Перевірте встановлення супровідного компонента та ядра."
+  },
+  "error_CORE_START_TIMEOUT": {
+    "message": "Ізольоване тестове ядро не стало готовим вчасно."
+  },
+  "error_CORE_STATUS_UNAVAILABLE": {
+    "message": "Стан ядра недоступний. Дивіться технічні подробиці."
+  },
+  "error_CORE_VALIDATION_FAILED": {
+    "message": "Xray не вдалося перевірити імпортовані вузли. Перевірте їхні налаштування та спробуйте знову."
+  },
+  "error_DETACH_PORT_CONFLICT": {
+    "message": "Керований порт буде звільнено. Укажіть інший ручний проксі"
+  },
+  "error_DETACH_PROXY_REQUIRED": {
+    "message": "Укажіть ручний проксі на заміну перед від’єднанням прив’язки"
+  },
+  "error_DNS_BUSY": {
+    "message": "Пошук DNS зайнятий. Спробуйте знову трохи пізніше."
+  },
+  "error_DNS_FAILED": {
+    "message": "Пошук DNS завершився помилкою. Перевірте адресу та мережеве з’єднання."
+  },
+  "error_ENCODING_UNSUPPORTED": {
+    "message": "Підписка використовує непідтримуване кодування вмісту."
+  },
+  "error_FIREFOX_PRIVATE_ACCESS_REQUIRED": {
+    "message": "Перш ніж змінювати налаштування проксі, дозвольте V2Route працювати в приватних вікнах у відомостях про розширення"
+  },
+  "error_FOLDER_UNAVAILABLE": {
+    "message": "Папка недоступна; перевірте шлях, права доступу та версію супровідного компонента"
+  },
+  "error_GROUP_LIMIT": {
+    "message": "Досягнуто ліміту груп. Видаліть невикористовувану групу та спробуйте знову."
+  },
+  "error_GROUP_NOT_EDITABLE": {
+    "message": "Цю групу джерела не можна редагувати тут."
+  },
+  "error_GROUP_NOT_FOUND": {
+    "message": "Вибраної групи більше немає. Виберіть іншу групу."
+  },
+  "error_HTTP_ENCODING": {
+    "message": "Тестовий сервер повернув непідтримуване кодування."
+  },
+  "error_HTTP_LENGTH": {
+    "message": "Розмір тестової відповіді не відповідає запитаному розміру."
+  },
+  "error_HTTP_RESPONSE_TOO_LARGE": {
+    "message": "Тестова відповідь перевищила дозволений розмір."
+  },
+  "error_HTTP_STATUS": {
+    "message": "Тестовий сервер повернув код HTTP із помилкою."
+  },
+  "error_IMPORTED_PROXY_MISSING": {
+    "message": "Супровідний компонент не повернув імпортований проксі"
+  },
+  "error_IMPORTED_RULE_PATH_CONFLICT": {
+    "message": "Імпортовані вузли утворюють суперечливі шляхи правил"
+  },
+  "error_IMPORT_CLEANUP_FAILED": {
+    "message": "Імпорт завершився помилкою; деякі тимчасові вузли або порти не вдалося звільнити. Наявні профілі збережено"
+  },
+  "error_IMPORT_PROFILE_NAME_CONFLICT": {
+    "message": "Дубльоване або некоректне ім’я профілю"
+  },
+  "error_INCOMPLETE_RESPONSE": {
+    "message": "Відповідь підписки неповна. Спробуйте знову."
+  },
+  "error_INVALID_BACKUP": {
+    "message": "Некоректна резервна копія V2Route"
+  },
+  "error_INVALID_BACKUP_NODE": {
+    "message": "Некоректний або дубльований вузол у резервній копії"
+  },
+  "error_INVALID_BACKUP_NODES": {
+    "message": "Некоректні вузли в резервній копії"
+  },
+  "error_INVALID_BACKUP_PATH": {
+    "message": "Некоректний шлях у резервній копії"
+  },
+  "error_INVALID_BYPASS_ENTRY": {
+    "message": "Некоректний запис обходу проксі"
+  },
+  "error_INVALID_BYPASS_LIST": {
+    "message": "Некоректний список обходу проксі"
+  },
+  "error_INVALID_CHAIN": {
+    "message": "Некоректний упорядкований ланцюжок"
+  },
+  "error_INVALID_CHAIN_PROBE": {
+    "message": "Некоректна перевірка ланцюжка"
+  },
+  "error_INVALID_COMPANION_RESPONSE": {
+    "message": "Локальний супровідний компонент повернув некоректну відповідь. Оновіть або відновіть його."
+  },
+  "error_INVALID_CONTENT": {
+    "message": "Відповідь підписки не містить коректного вмісту."
+  },
+  "error_INVALID_DOMAIN_PATTERNS": {
+    "message": "Розділяйте шаблони доменів комами; кожен URL розміщуйте в окремому рядку"
+  },
+  "error_INVALID_ENCODING": {
+    "message": "Відповідь підписки не є коректним текстом UTF-8."
+  },
+  "error_INVALID_FOLDER_REQUEST": {
+    "message": "Некоректний запит папки"
+  },
+  "error_INVALID_GROUP_ACTION": {
+    "message": "Ця дія з групою не підтримується."
+  },
+  "error_INVALID_HOP_INDEX": {
+    "message": "Некоректний індекс переходу"
+  },
+  "error_INVALID_LEGACY_PREDECESSOR": {
+    "message": "Некоректний попередній проксі старого формату"
+  },
+  "error_INVALID_LIBRARY_COMMAND": {
+    "message": "Ця команда бібліотеки вузлів не підтримується."
+  },
+  "error_INVALID_LIBRARY_REQUEST": {
+    "message": "Некоректний запит до бібліотеки"
+  },
+  "error_INVALID_NAME": {
+    "message": "Укажіть ім’я з 1–128 видимих символів без керувальних символів."
+  },
+  "error_INVALID_NETWORK_TEST": {
+    "message": "Некоректний мережевий тест"
+  },
+  "error_INVALID_NODE_IMPORT_RESPONSE": {
+    "message": "Некоректна відповідь на імпорт вузлів"
+  },
+  "error_INVALID_PREDECESSOR": {
+    "message": "Некоректний попередній проксі для цього маршруту"
+  },
+  "error_INVALID_PROFILE_NAME": {
+    "message": "Некоректне ім’я профілю"
+  },
+  "error_INVALID_PROFILE_REFERENCE": {
+    "message": "Некоректне посилання на профіль"
+  },
+  "error_INVALID_PROXY_AUTH": {
+    "message": "Некоректна автентифікація проксі"
+  },
+  "error_INVALID_PROXY_CREDENTIALS": {
+    "message": "Некоректні облікові дані проксі"
+  },
+  "error_INVALID_PROXY_ENDPOINT": {
+    "message": "Укажіть коректний хост і порт проксі"
+  },
+  "error_INVALID_PROXY_HOST": {
+    "message": "Укажіть DNS-ім’я або IP-адресу без порту, URL, шляху чи параметрів запиту"
+  },
+  "error_INVALID_ROUTE": {
+    "message": "Некоректний маршрут"
+  },
+  "error_INVALID_ROUTE_SETTINGS": {
+    "message": "Некоректні налаштування маршруту"
+  },
+  "error_INVALID_RULES": {
+    "message": "Некоректні правила"
+  },
+  "error_INVALID_RULE_TARGET": {
+    "message": "Виберіть один коректний вузол або профіль для кожного правила"
+  },
+  "error_INVALID_SUBSCRIPTION": {
+    "message": "Некоректна підписка"
+  },
+  "error_INVALID_SUBSCRIPTION_REQUEST": {
+    "message": "Некоректний запит підписки"
+  },
+  "error_INVALID_SUBSCRIPTION_SETTINGS": {
+    "message": "Налаштування підписки некоректні. Перевірте інтервал оновлення та політику з’єднання."
+  },
+  "error_INVALID_SYSTEM_PROXY_RESPONSE": {
+    "message": "Некоректна відповідь системного проксі; оновіть або відновіть супровідний компонент"
+  },
+  "error_INVALID_TRANSPORT": {
+    "message": "Налаштування з’єднання підписки некоректні."
+  },
+  "error_INVALID_URL": {
+    "message": "Укажіть коректний HTTP(S) URL підписки без імені користувача чи пароля."
+  },
+  "error_LIBRARY_CHANGED": {
+    "message": "Бібліотеку вузлів змінено в іншому вікні. Оновіть її та спробуйте знову."
+  },
+  "error_MANUAL_CHAIN_UNSUPPORTED": {
+    "message": "Ручні проксі не підтримують ланцюжок вузлів"
+  },
+  "error_MANUAL_PROXY_CLEANUP_FAILED": {
+    "message": "Збереження не вдалося; тимчасово імпортований проксі залишився в бібліотеці вузлів"
+  },
+  "error_NATIVE_BINDING_ID": {
+    "message": "Некоректний ідентифікатор прив’язки маршруту."
+  },
+  "error_NATIVE_BINDING_UNKNOWN": {
+    "message": "Прив’язки маршруту не існує."
+  },
+  "error_NATIVE_BUTTON_NAME": {
+    "message": "Назва кнопки має містити 1–128 видимих символів."
+  },
+  "error_NATIVE_CATALOG_UNREADABLE": {
+    "message": "Не вдалося прочитати конфігурацію v2rayN."
+  },
+  "error_NATIVE_CORE_MISSING": {
+    "message": "Xray недоступний. Установіть пакет супровідного компонента."
+  },
+  "error_NATIVE_GROUP_ID_COLLISION": {
+    "message": "Конфлікт ідентифікаторів груп."
+  },
+  "error_NATIVE_GROUP_ORDER": {
+    "message": "Некоректний порядок груп."
+  },
+  "error_NATIVE_NODE_ID_COLLISION": {
+    "message": "Конфлікт ідентифікаторів вузлів."
+  },
+  "error_NATIVE_PREDECESSOR_AMBIGUOUS": {
+    "message": "Ім’я попереднього проксі відсутнє або дублюється. Виберіть конкретний попередній вузол."
+  },
+  "error_NATIVE_PREDECESSOR_CYCLE": {
+    "message": "Ланцюжок попередніх вузлів містить цикл або перевищує шість вузлів."
+  },
+  "error_NATIVE_PREDECESSOR_INVALID": {
+    "message": "Виберіть коректний попередній проксі."
+  },
+  "error_NATIVE_PREDECESSOR_MISSING": {
+    "message": "Вибраного попереднього проксі більше немає. Виберіть інший вузол."
+  },
+  "error_NATIVE_PREDECESSOR_SETTINGS": {
+    "message": "Некоректні налаштування попереднього проксі."
+  },
+  "error_NATIVE_ROUTE_INVALID": {
+    "message": "Виберіть коректний маршрут."
+  },
+  "error_NATIVE_ROUTE_MISSING": {
+    "message": "Цього маршруту більше немає. Виберіть інший маршрут."
+  },
+  "error_NATIVE_ROUTE_PORTS": {
+    "message": "Некоректні призначення портів маршрутів."
+  },
+  "error_NATIVE_ROUTE_UNAVAILABLE": {
+    "message": "Вибраний маршрут недоступний. Дивіться технічні подробиці."
+  },
+  "error_NATIVE_SETTINGS_FORMAT": {
+    "message": "Некоректний формат налаштувань."
+  },
+  "error_NATIVE_SETTINGS_REVISION": {
+    "message": "Некоректна ревізія налаштувань."
+  },
+  "error_NATIVE_SUCCESSOR_UNSUPPORTED": {
+    "message": "Ця група використовує непідтримуваний наступний проксі."
+  },
+  "error_NATIVE_UNSUPPORTED_CUSTOM": {
+    "message": "Ця версія не підтримує власні конфігурації вихідних з’єднань."
+  },
+  "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
+    "message": "Ця версія не підтримує Hysteria2."
+  },
+  "error_NATIVE_UNSUPPORTED_TUIC": {
+    "message": "Ця версія не містить ядра sing-box, потрібного для TUIC."
+  },
+  "error_NATIVE_UNSUPPORTED_TYPE": {
+    "message": "Цей тип маршруту не підтримується."
+  },
+  "error_NATIVE_V2RAYN_PORT": {
+    "message": "Локальний порт v2rayN некоректний."
+  },
+  "error_NATIVE_V2RAYN_UNAVAILABLE": {
+    "message": "v2rayN недоступний. Виберіть імпортований вузол."
+  },
+  "error_NETWORK_FAILED": {
+    "message": "Мережевий запит завершився помилкою. Перевірте з’єднання та спробуйте знову."
+  },
+  "error_NETWORK_TEST_FAILED": {
+    "message": "Мережева діагностика завершилася помилкою. Дивіться технічні подробиці."
+  },
+  "error_NODE_LIMIT": {
+    "message": "Операція перевищила б ліміт вузлів. Видаліть невикористовувані вузли та спробуйте знову."
+  },
+  "error_NODE_MAPPING_INCOMPLETE": {
+    "message": "Зіставлення вузлів неповне"
+  },
+  "error_NODE_NOT_FOUND": {
+    "message": "Вибраного вузла більше немає. Виберіть інший вузол."
+  },
+  "error_NOT_DUE": {
+    "message": "Час наступного запланованого оновлення ще не настав."
+  },
+  "error_PAC_ENTRY_REQUIRED": {
+    "message": "Уведіть код PAC із FindProxyForURL"
+  },
+  "error_PAC_FUNCTION_REQUIRED": {
+    "message": "Визначте на верхньому рівні синхронну функцію FindProxyForURL, змінну з функцією або присвоєння функції"
+  },
+  "error_PAC_PARSER_UNAVAILABLE": {
+    "message": "Вбудований аналізатор PAC недоступний; перевстановіть розширення"
+  },
+  "error_PAC_RULE_TARGET_UNSUPPORTED": {
+    "message": "Автоматичні правила не можуть спрямовувати на профіль із вбудованим PAC"
+  },
+  "error_PAC_SOURCE_LIMIT": {
+    "message": "Уведіть код PAC довжиною щонайбільше {limit} символів"
+  },
+  "error_PAC_SYNTAX_INVALID": {
+    "message": "Некоректний синтаксис PAC"
+  },
+  "error_PAC_SYNTAX_LOCATION": {
+    "message": "Некоректний синтаксис PAC у рядку {line}, стовпці {column}"
+  },
+  "error_PARTIAL_TRANSFER": {
+    "message": "Тестове передавання завершилося до отримання всіх даних."
+  },
+  "error_PRIVATE_DIRECTORY_FAILED": {
+    "message": "Не вдалося захистити приватну тестову папку. Тест зупинено."
+  },
+  "error_PRIVATE_TARGET": {
+    "message": "Запити підписки до приватних або локальних адрес заборонено."
+  },
+  "error_PROFILE_NOT_FOUND": {
+    "message": "Профіль не знайдено"
+  },
+  "error_PROFILE_REFERENCE_CYCLE": {
+    "message": "Циклічні посилання між профілями"
+  },
+  "error_PROFILE_REFERENCE_DEPTH": {
+    "message": "Автоматичні правила перевищують максимальну глибину {limit}"
+  },
+  "error_PROFILE_REFERENCE_MISSING": {
+    "message": "Профіль, на який є посилання, не існує: {name}"
+  },
+  "error_PROFILE_SAVE_RESTORE_FAILED": {
+    "message": "Збереження не вдалося, а відновлення маршруту потребує перевірки"
+  },
+  "error_PROXY_AUTH_REQUIRED": {
+    "message": "Проксі підписки вимагає автентифікації, яку цей запит не може надати."
+  },
+  "error_PROXY_CONTROL_UNAVAILABLE": {
+    "message": "Інше розширення або політика керує проксі"
+  },
+  "error_PROXY_DNS_REQUIRED": {
+    "message": "У V2Route DNS для SOCKS5 визначається через проксі"
+  },
+  "error_PROXY_FAILED": {
+    "message": "З’єднання з проксі не вдалося. Перевірте вибраний маршрут."
+  },
+  "error_PROXY_PROFILE_REQUIRED": {
+    "message": "Виберіть проксі-профіль"
+  },
+  "error_PROXY_ROLLBACK_REFUSED": {
+    "message": "Браузер відхилив повернення проксі до попереднього стану"
+  },
+  "error_PROXY_SETTING_REFUSED": {
+    "message": "Браузер відхилив налаштування проксі"
+  },
+  "error_PROXY_UNAVAILABLE": {
+    "message": "Вибраний проксі недоступний. Перевірте поточний маршрут."
+  },
+  "error_PROXY_USERNAME_REQUIRED": {
+    "message": "Укажіть ім’я користувача проксі"
+  },
+  "error_RECOVERY_BINDINGS_LIMIT": {
+    "message": "За один раз можна відновити щонайбільше {limit} прив’язок вузлів. Відкрийте й збережіть профілі, на які є посилання, окремо."
+  },
+  "error_REDIRECT_LIMIT": {
+    "message": "Підписка виконала забагато переспрямувань. Перевірте її URL."
+  },
+  "error_REFERENCED_PROFILE_DELETE": {
+    "message": "На цей профіль посилається автоматичне правило"
+  },
+  "error_REMOTE_PAC_UNSUPPORTED": {
+    "message": "Використовуйте вбудований код PAC; віддалений PAC не підтримується"
+  },
+  "error_ROUTE_PORT_UNAVAILABLE": {
+    "message": "Порт не виділено"
+  },
+  "error_ROUTE_RECOVERY_RESTORE_FAILED": {
+    "message": "Відновлення маршруту не вдалося й потребує перевірки"
+  },
+  "error_ROUTE_REVISION_CONFLICT": {
+    "message": "Маршрут змінено в іншому вікні. Спершу оновіть"
+  },
+  "error_ROUTE_SAVE_ROLLBACK_FAILED": {
+    "message": "Збереження маршруту не вдалося, а повернення до попереднього стану потребує перевірки"
+  },
+  "error_ROUTE_UNAVAILABLE": {
+    "message": "Тестовий маршрут недоступний. Перевірте вузол і налаштування попереднього проксі."
+  },
+  "error_RULE_BINDING_MISSING": {
+    "message": "Бракує прив’язки правила вузла. Знову відкрийте й збережіть автоматичний профіль: {name}"
+  },
+  "error_RULE_NODES_LIMIT": {
+    "message": "Автоматичні правила підтримують щонайбільше {limit} різних вузлів"
+  },
+  "error_RULE_NODE_CHANGED": {
+    "message": "Правило вузла недоступне або змінене. Відновіть вузол або виберіть інший і збережіть: {name}"
+  },
+  "error_RULE_PATH_CONFLICT": {
+    "message": "Суперечливі шляхи правил вузлів"
+  },
+  "error_RULE_PATTERNS_LIMIT": {
+    "message": "Автоматичні правила підтримують загалом щонайбільше {limit} шаблонів зіставлення"
+  },
+  "error_RULE_PORT_UNAVAILABLE": {
+    "message": "Порт правила вузла недоступний"
+  },
+  "error_RULE_REVISION_CONFLICT": {
+    "message": "Правило вузла змінено в іншому вікні. Спершу оновіть"
+  },
+  "error_SELECTED_NODE_UNAVAILABLE": {
+    "message": "Вибраний вузол недоступний. Відновіть його або виберіть інший"
+  },
+  "error_SOCKS_FAILED": {
+    "message": "Не вдалося встановити SOCKS-з’єднання."
+  },
+  "error_STARTUP_FALLBACK_REFUSED": {
+    "message": "Браузер відхилив резервний проксі під час запуску."
+  },
+  "error_SUBSCRIPTION_CHANGED": {
+    "message": "Підписку змінено під час оновлення. Оновіть її та спробуйте знову."
+  },
+  "error_SUBSCRIPTION_HTTP_STATUS": {
+    "message": "Сервер підписки повернув HTTP {status}."
+  },
+  "error_SUBSCRIPTION_LIMIT": {
+    "message": "Досягнуто ліміту підписок. Видаліть невикористовувану підписку та спробуйте знову."
+  },
+  "error_SUBSCRIPTION_NOT_FOUND": {
+    "message": "Вибраної підписки більше немає."
+  },
+  "error_SYSTEM_PROXY_SNAPSHOT_UNAVAILABLE": {
+    "message": "Знімок застосованого системного проксі недоступний."
+  },
+  "error_SYSTEM_PROXY_TIMEOUT": {
+    "message": "Час читання системного проксі вичерпано"
+  },
+  "error_SYSTEM_PROXY_UNAVAILABLE": {
+    "message": "Системний проксі недоступний. Дивіться технічні подробиці."
+  },
+  "error_TIMEOUT": {
+    "message": "Час очікування запиту вичерпано. Перевірте з’єднання та спробуйте знову."
+  },
+  "error_TLS_DOWNGRADE": {
+    "message": "Підписку переспрямовано з HTTPS на HTTP і заблоковано."
+  },
+  "error_TLS_FAILED": {
+    "message": "Не вдалося перевірити захищене з’єднання. Перевірте сервер і сертифікат."
+  },
+  "error_UNSAFE_TEMP_PATH": {
+    "message": "Тимчасова тестова папка небезпечна. Тест зупинено."
+  },
+  "error_UNSUPPORTED_LIBRARY_REQUEST": {
+    "message": "Непідтримуваний запит до бібліотеки"
+  },
+  "error_UNSUPPORTED_PROFILE_TYPE": {
+    "message": "Непідтримуваний тип профілю"
+  },
+  "error_UNSUPPORTED_REQUEST": {
+    "message": "Непідтримуваний запит"
+  },
+  "error_UNSUPPORTED_RULE_CONDITION": {
+    "message": "Підтримуються лише правила із символами узагальнення для хостів і URL"
+  },
+  "error_UPDATE_FAILED": {
+    "message": "Оновлення підписки не вдалося. Наявні вузли збережено."
+  },
+  "error_VALIDATION_FAILED": {
+    "message": "Не вдалося перевірити вміст підписки. Наявні вузли збережено."
+  },
+  "nativeUnnamedNode": {
+    "message": "Вузол без назви"
+  },
+  "nativeProtocolCustom": {
+    "message": "Власний"
+  },
+  "nativeProtocolOutbound": {
+    "message": "Власне вихідне з’єднання"
+  },
+  "nativeProtocolGroup": {
+    "message": "Група політик"
+  },
+  "nativeProtocolChain": {
+    "message": "Ланцюжок проксі"
+  },
+  "nativeProtocolUnknown": {
+    "message": "Непідтримуваний тип"
+  },
+  "languageLoadFailed": {
+    "message": "Не вдалося завантажити вибрану мову. Спробуйте знову."
+  },
+  "invalidBackupJSON": {
+    "message": "Резервна копія не є коректним JSON."
+  },
+  "noticeBodyLanguages": {
+    "message": "Повний текст політики доступний англійською та спрощеною китайською."
+  },
+  "policyRules": {
+    "message": "Правила маршрутизації проксі"
+  },
+  "policyPriority": {
+    "message": "Порядок: винятки → перше відповідне правило → типовий маршрут."
+  },
+  "policyDirectHelp": {
+    "message": "Адреси без збігів підключаються напряму. Кнопка прямого підключення також використовує ці правила."
+  },
+  "policySystemHelp": {
+    "message": "Адреси без збігів використовують системний проксі. Кнопка системного проксі також використовує ці правила."
+  },
+  "policyEmpty": {
+    "message": "Правил ще немає. Використовується типовий маршрут."
+  },
+  "policyAddressHelp": {
+    "message": "Домени, шаблони доменів, IP або IP:порт. Правила IP перевіряють IP у URL, а не результати DNS."
+  },
+  "policyMoveUp": {
+    "message": "Перемістити правило вгору"
+  },
+  "policyMoveDown": {
+    "message": "Перемістити правило вниз"
+  }
+}

@@ -1,0 +1,2150 @@
+{
+  "ruleTargetUnavailable": {
+    "message": "Niedostępny cel"
+  },
+  "rulePatternPlaceholder": {
+    "message": "example.com, *.example.org, 192.0.2.1:8443"
+  },
+  "rulePatternHelp": {
+    "message": "Oddziel adresy przecinkami. Każdy wzorzec URL w osobnym wierszu. Ścieżki HTTPS mogą być niewidoczne dla PAC."
+  },
+  "defaultChoice_direct": {
+    "message": "Połącz bez proxy"
+  },
+  "defaultChoice_system": {
+    "message": "Użyj systemowych ustawień proxy"
+  },
+  "defaultChoice_node": {
+    "message": "Użyj wybranego węzła tego profilu"
+  },
+  "defaultChoice_manual": {
+    "message": "Użyj ustawień proxy tego profilu"
+  },
+  "defaultChoice_auto": {
+    "message": "Zastosuj reguły routingu tego profilu"
+  },
+  "nlHttpsLatency": {
+    "message": "HTTPS odpowiedź"
+  },
+  "nlLatencyMethod": {
+    "message": "Cloudflare · Minimum dwie odpowiedzi · Ponowne użycie połączenia, jeśli jest dostępne"
+  },
+  "nlLatencyFast": {
+    "message": "Szybko"
+  },
+  "nlLatencyModerate": {
+    "message": "Umiarkowane"
+  },
+  "nlLatencySlow": {
+    "message": "Powoli"
+  },
+  "nlSortName": {
+    "message": "Imię"
+  },
+  "nlSortLatency": {
+    "message": "Opóźnienie: niskie do wysokiego"
+  },
+  "nlSortDownload": {
+    "message": "Pobieranie: od wysokiego do niskiego"
+  },
+  "nlSortUpload": {
+    "message": "Przesyłanie: od wysokiego do niskiego"
+  },
+  "nlSingle": {
+    "message": "Pojedynczy węzeł"
+  },
+  "nlGroupBatch": {
+    "message": "Grupa/partia"
+  },
+  "nlTestScope": {
+    "message": "Zakres testowy"
+  },
+  "nlCurrentNode": {
+    "message": "Wybrany węzeł"
+  },
+  "nlCurrentGroup": {
+    "message": "Wybrana grupa"
+  },
+  "nlChooseNode": {
+    "message": "Wybierz węzeł z listy"
+  },
+  "nlStart": {
+    "message": "Rozpocznij test"
+  },
+  "nlService": {
+    "message": "Usługa testowa"
+  },
+  "nlMeasured": {
+    "message": "zmierzone"
+  },
+  "nlMeanLatency": {
+    "message": "Średnie opóźnienie"
+  },
+  "nlGroupBySource": {
+    "message": "Według grupy źródłowej"
+  },
+  "nlPreviousPage": {
+    "message": "Poprzednia strona"
+  },
+  "nlNextPage": {
+    "message": "Następna strona"
+  },
+  "nlName": {
+    "message": "Imię"
+  },
+  "nlEdit": {
+    "message": "Edytuj"
+  },
+  "nlStop": {
+    "message": "Zatrzymaj się"
+  },
+  "nlConfirm": {
+    "message": "Potwierdź"
+  },
+  "nlAllNodes": {
+    "message": "Wszystkie węzły"
+  },
+  "nlNodeResults": {
+    "message": "Wyniki węzłów"
+  },
+  "nlTestCenter": {
+    "message": "Centrum testowe"
+  },
+  "nlNewGroup": {
+    "message": "Nowa grupa"
+  },
+  "nlRenameGroup": {
+    "message": "Zmień nazwę grupy"
+  },
+  "nlRemoveGroup": {
+    "message": "Usuń grupę"
+  },
+  "nlRemoveGroupHelp": {
+    "message": "Zachowaj każdy węzeł i subskrypcję i przenieś je do węzłów importowanych."
+  },
+  "nlNode": {
+    "message": "Węzeł"
+  },
+  "nlStatus": {
+    "message": "Stan"
+  },
+  "nlActions": {
+    "message": "Akcje"
+  },
+  "nlSort": {
+    "message": "Sortuj tylko tę tabelę\nWybrano"
+  },
+  "nlSelected": {
+    "message": "."
+  },
+  "nlTestNode": {
+    "message": "Test"
+  },
+  "nlProfileShort": {
+    "message": "Profil"
+  },
+  "nlQuick": {
+    "message": "Szybkie opóźnienie"
+  },
+  "nlFull": {
+    "message": "Pobierz + prześlij"
+  },
+  "nlTraffic": {
+    "message": "Testuj rozmiar danych"
+  },
+  "nlConcurrency": {
+    "message": "Współbieżne węzły"
+  },
+  "nlTrafficFullOnly": {
+    "message": "Używany do testów pobierania i wysyłania"
+  },
+  "nlTestMode": {
+    "message": "Tryb testowy"
+  },
+  "nlBudget": {
+    "message": "Maksymalny ruch ładunku"
+  },
+  "nlViaGroup": {
+    "message": "Przez wstępne proxy grupy"
+  },
+  "nlTestSelected": {
+    "message": "Wybrano test"
+  },
+  "nlTestVisible": {
+    "message": "Testuj pokazane węzły"
+  },
+  "nlTestAll": {
+    "message": "Przetestuj wszystkie węzły"
+  },
+  "nlTestGroup": {
+    "message": "Węzły grupy testowej"
+  },
+  "nlProgress": {
+    "message": "Postęp pomiaru"
+  },
+  "nlReady": {
+    "message": "Wybierz węzły, aby rozpocząć. Żaden test nie został uruchomiony."
+  },
+  "nlStarting": {
+    "message": "Rozpoczęcie pomiaru izolowanego…"
+  },
+  "nlQueued": {
+    "message": "W kolejce"
+  },
+  "nlRunning": {
+    "message": "Testowanie"
+  },
+  "nlStopping": {
+    "message": "Zatrzymywanie…"
+  },
+  "nlComplete": {
+    "message": "Kompletne"
+  },
+  "nlFailed": {
+    "message": "Nie udało się"
+  },
+  "nlStopped": {
+    "message": "Zatrzymano"
+  },
+  "nlPartial": {
+    "message": "Częściowe"
+  },
+  "nlUntested": {
+    "message": "Nie testowano"
+  },
+  "nlSucceeded": {
+    "message": "minęło"
+  },
+  "nlMeasureDisconnected": {
+    "message": "Zakończono połączenie pomiarowe. Wartości niepełne nie są wynikami ostatecznymi."
+  },
+  "nlUpgrade": {
+    "message": "Zaktualizuj lokalnego Companatora, aby zarządzać grupami i subskrypcjami. Istniejące węzły pozostają dostępne."
+  },
+  "nlOperationFailed": {
+    "message": "Nie udało się zakończyć operacji. Spróbuj ponownie."
+  },
+  "nlEditSubscription": {
+    "message": "Edytuj subskrypcję"
+  },
+  "nlPasteContent": {
+    "message": "Linki/treść proxy"
+  },
+  "nlSubscriptionURL": {
+    "message": "Subskrypcja URL"
+  },
+  "nlKeepURL": {
+    "message": "Pozostaw puste, aby zachować zapisane URL"
+  },
+  "nlConnectionPolicy": {
+    "message": "Aktualizuj połączenie"
+  },
+  "nlProxyFirst": {
+    "message": "Najpierw proxy, potem bezpośrednio w przypadku awarii"
+  },
+  "nlProxyOnly": {
+    "message": "Tylko proxy"
+  },
+  "nlDirectOnly": {
+    "message": "Tylko bezpośrednie"
+  },
+  "nlProxyFirstHelp": {
+    "message": "Serwer proxy zatrzymuje się najpierw po pomyślnym pobraniu. Próba połączenia bezpośredniego jest podejmowana tylko w przypadku niepowodzenia próby połączenia proxy."
+  },
+  "nlAutoUpdate": {
+    "message": "Włącz automatyczne aktualizacje"
+  },
+  "nlInterval": {
+    "message": "Interwał aktualizacji (minuty)"
+  },
+  "nlDestinationGroup": {
+    "message": "Grupa docelowa"
+  },
+  "nlSubscriptionOwnGroup": {
+    "message": "Nowa grupa…"
+  },
+  "nlNameGroup": {
+    "message": "Nazwa (grupa)"
+  },
+  "nlCustomGroup": {
+    "message": "Grupa niestandardowa"
+  },
+  "nlNameRequired": {
+    "message": "Wprowadź nazwę."
+  },
+  "nlContentRequired": {
+    "message": "Wklej linki proxy lub treść subskrypcji."
+  },
+  "nlGroupRequired": {
+    "message": "Wybierz grupę docelową."
+  },
+  "nlURLRequired": {
+    "message": "Wprowadź subskrypcję HTTP(S) URL bez nazwy użytkownika i hasła."
+  },
+  "nlIntervalInvalid": {
+    "message": "Wprowadź liczbę całkowitą od 5 do 43200 minut."
+  },
+  "folderTitle": {
+    "message": "Wybierz folder v2rayN."
+  },
+  "folderHint": {
+    "message": "Wybierz folder, a następnie zastosuj go za pomocą opcji Zapisz ustawienia połączenia."
+  },
+  "folderPath": {
+    "message": "Pełna ścieżka do folderu lokalnego"
+  },
+  "folderGo": {
+    "message": "Otwarte"
+  },
+  "folderUp": {
+    "message": "W górę"
+  },
+  "folderDrives": {
+    "message": "Napędy"
+  },
+  "folderCurrent": {
+    "message": "Aktualna ścieżka"
+  },
+  "folderChoose": {
+    "message": "Użyj tego folderu"
+  },
+  "folderList": {
+    "message": "Foldery"
+  },
+  "folderTruncated": {
+    "message": "Lista jest ograniczona. Wprowadź pełną ścieżkę powyżej, aby otworzyć folder, który nie jest pokazany.\nZnaleziono pliki"
+  },
+  "folderReady": {
+    "message": "v2rayN. Użyj tego folderu, aby sprawdzić poprawność konfiguracji."
+  },
+  "folderInvalid": {
+    "message": "Wybierz folder zawierający guiConfigs, guiNConfig.json i guiNDB.db."
+  },
+  "folderSelectDrive": {
+    "message": "Wybierz dysk lokalny lub wprowadź pełną ścieżkę folderu."
+  },
+  "folderEmpty": {
+    "message": "Brak widocznych podfolderów."
+  },
+  "folderUnavailable": {
+    "message": "Nie można przeglądać tego folderu. Sprawdź jego ścieżkę i dostęp. Jeśli Companion jest starszy, zaktualizuj go najpierw."
+  },
+  "folderValidating": {
+    "message": "Sprawdzanie konfiguracji v2rayN…"
+  },
+  "folderInvalidConfig": {
+    "message": "Konfiguracja v2rayN lub baza danych jest niekompletna lub nieprawidłowa. Wybierz inny folder."
+  },
+  "copyPath": {
+    "message": "Skopiuj ścieżkę"
+  },
+  "pathCopyHint": {
+    "message": "Skopiuj ścieżkę znajdującą się aktualnie w tym polu."
+  },
+  "preMode": {
+    "message": "Tryb przed proxy"
+  },
+  "preNode": {
+    "message": "Węzeł przed proxy"
+  },
+  "preIntro": {
+    "message": "Użyj łańcucha grupowego, pomiń go lub wybierz wstępne proxy dla tego profilu."
+  },
+  "healthLabel": {
+    "message": "Aktualny stan połączenia"
+  },
+  "healthOk": {
+    "message": "Normalny"
+  },
+  "healthError": {
+    "message": "Nienormalne"
+  },
+  "healthChecking": {
+    "message": "Sprawdzam"
+  },
+  "healthUnknown": {
+    "message": "Niepotwierdzone"
+  },
+  "autoSystemHelp": {
+    "message": "Reguły systemowe wymagają komponentu Windows i kopii ustawień stałego proxy. Po zmianach zastosuj ponownie. PAC/WPAD nie są obsługiwane; System bez reguł używa natywnych ustawień przeglądarki."
+  },
+  "backgroundUnavailable": {
+    "message": "Tło rozszerzenia jest niedostępne."
+  },
+  "backgroundNoResponse": {
+    "message": "Tło nie odpowiedziało."
+  },
+  "backupTooLarge": {
+    "message": "Kopia zapasowa przekracza 5 MB."
+  },
+  "proxyUsername": {
+    "message": "Nazwa użytkownika"
+  },
+  "proxyPassword": {
+    "message": "Hasło"
+  },
+  "proxyAuthHelp": {
+    "message": "Opcjonalnie. Uwierzytelnione serwery proxy łączą się za pośrednictwem aplikacji towarzyszącej. Poświadczenia są przechowywane w tej konfiguracji przeglądarki i w programie towarzyszącym oraz uwzględniane w eksportach profili."
+  },
+  "proxyAuthSocks4": {
+    "message": "SOCKS4 nie obsługuje tego uwierzytelniania za pomocą nazwy użytkownika/hasła; użyj HTTP(S) lub SOCKS5."
+  },
+  "importExamples": {
+    "message": "Przykłady formatów"
+  },
+  "ipCopying": {
+    "message": "Kopiowanie…"
+  },
+  "netDnsUnavailable": {
+    "message": "Adres serwera nie mógł zostać rozpoznany na czas. Sprawdź adres hosta lub adres IP i spróbuj ponownie."
+  },
+  "netCurrentTarget": {
+    "message": "Wybrany punkt końcowy proxy"
+  },
+  "netCustomTarget": {
+    "message": "Serwer niestandardowy"
+  },
+  "netHost": {
+    "message": "Adres hosta lub IP."
+  },
+  "netPort": {
+    "message": "TCP portu"
+  },
+  "netHostRequired": {
+    "message": "Wprowadź host serwera lub adres IP."
+  },
+  "netCurrentUnavailable": {
+    "message": "Wybierz węzeł lub ręczny profil proxy albo wprowadź niestandardowy cel."
+  },
+  "netInvalidTarget": {
+    "message": "Wprowadź prawidłowy host diagnostyczny i port."
+  },
+  "netIpv6PingUnavailable": {
+    "message": "IPv6 ICMP jest niedostępny; użyj TCPing."
+  },
+  "preNeedsFix": {
+    "message": "Przed zapisaniem wybierz prawidłowe wstępne proxy lub nie wybierz żadnego wstępnego proxy."
+  },
+  "preConfigure": {
+    "message": "Skonfiguruj pre-proxy"
+  },
+  "preFollowInvalid": {
+    "message": "Follow v2rayN nie akceptuje niestandardowego wstępnego proxy."
+  },
+  "followChainHelp": {
+    "message": "Follow używa trasy i łańcucha proxy już aktywnego w v2rayN."
+  },
+  "netTitle": {
+    "message": "Testy połączenia"
+  },
+  "ipTestDetails": {
+    "message": "Szczegóły testu"
+  },
+  "netTarget": {
+    "message": "Ping / TCPing cel"
+  },
+  "netDownload": {
+    "message": "Pobierz test"
+  },
+  "netPartial": {
+    "message": "Próbka częściowa"
+  },
+  "netComplete": {
+    "message": "Próbka kompletna"
+  },
+  "netDirect": {
+    "message": "Sieć systemowa"
+  },
+  "netUnreachable": {
+    "message": "Brak odpowiedzi / błąd"
+  },
+  "netAverage": {
+    "message": "Średnia"
+  },
+  "predecessor": {
+    "message": "Wstępne proxy"
+  },
+  "preInherit": {
+    "message": "Użyj łańcucha grupowego v2rayN."
+  },
+  "preNone": {
+    "message": "Brak wstępnego proxy"
+  },
+  "preSpecific": {
+    "message": "Wybierz węzeł"
+  },
+  "preHelp": {
+    "message": "Dotyczy tego profilu. Użyj łańcucha grup v2rayN, bez wstępnego proxy lub określonego węzła. Follow v2rayN wykorzystuje swój istniejący łańcuch."
+  },
+  "preSelectRequired": {
+    "message": "Wybierz węzeł pre-proxy lub wybierz opcję Grupa domyślna/Brak."
+  },
+  "ipPing0Permission": {
+    "message": "Zezwól Ping0 na dostęp do witryny internetowej w celu załadowania raportu publicznego."
+  },
+  "ipPublicChallenge": {
+    "message": "Strona wymaga weryfikacji. Otwórz stronę Ping0, aby ją ukończyć i zobaczyć wynik."
+  },
+  "ipPublicReport": {
+    "message": "Ping0 raport publiczny"
+  },
+  "ipPublicSource": {
+    "message": "Źródło: Ping0 strona publiczna"
+  },
+  "ipPublicOriginal": {
+    "message": "Ping0 raport"
+  },
+  "ipPublicPartial": {
+    "message": "Pokazane są tylko pola znajdujące się na stronie publicznej, w ich oryginalnym języku. Klasyfikacje i szacunki wspólnych użytkowników pochodzą z Ping0."
+  },
+  "setupTitle": {
+    "message": "Połącz Proxy V2Route"
+  },
+  "setupIntro": {
+    "message": "Zainstaluj dodatek Windows, aby korzystać z tras v2rayN lub własnych zaimportowanych węzłów."
+  },
+  "setupStepOne": {
+    "message": "Wyodrębnij pasujący kompletny pakiet Windows do stałego folderu."
+  },
+  "setupStepTwo": {
+    "message": "Otwórz V2Route-Setup.exe i kliknij Zainstaluj."
+  },
+  "setupStepThree": {
+    "message": "Wróć tutaj i sprawdź połączenie. W razie potrzeby wybierz folder v2rayN."
+  },
+  "setupCheck": {
+    "message": "Sprawdź połączenie"
+  },
+  "downloadCompanion": {
+    "message": "Instrukcja instalacji ↗"
+  },
+  "setupDownloadNote": {
+    "message": "Użyj pasującego pakietu lokalnego Windows lub postępuj zgodnie z instrukcją, aby zbudować go z bieżącego źródła."
+  },
+  "chooseFolder": {
+    "message": "Wybierz folder v2rayN…"
+  },
+  "rescanDone": {
+    "message": "Węzły lokalne zostały ponownie przeskanowane"
+  },
+  "grouping": {
+    "message": "Grupuj węzły"
+  },
+  "groupByCountry": {
+    "message": "Według kraju"
+  },
+  "unknownCountry": {
+    "message": "Inne / Nieznane"
+  },
+  "ungrouped": {
+    "message": "Rozgrupowane"
+  },
+  "adjustNodeFilters": {
+    "message": "Wypróbuj inną grupę, źródło lub wyszukaj albo pokaż ukryte węzły."
+  },
+  "rescanLocal": {
+    "message": "Przeskanuj ponownie v2rayN węzłów"
+  },
+  "showHidden": {
+    "message": "Pokaż ukryte węzły"
+  },
+  "hideNode": {
+    "message": "Ukryj"
+  },
+  "restoreNode": {
+    "message": "Przywróć"
+  },
+  "hiddenNode": {
+    "message": "Ukryte"
+  },
+  "hideNodeHelp": {
+    "message": "Ukryj tylko przed biblioteką węzłów tej przeglądarki. v2rayN i istniejące profile pozostają niezmienione."
+  },
+  "ipContextTimeout": {
+    "message": "Upłynął limit czasu odczytu bieżącego profilu. Spróbuj ponownie."
+  },
+  "ipStaleResult": {
+    "message": "Aktualny profil uległ zmianie. Ten wynik może być nieaktualny; sprawdź ponownie."
+  },
+  "ip_tools": {
+    "message": "IP Narzędzia"
+  },
+  "ipIntro": {
+    "message": "Aktualne wyjście IP i raport publiczny."
+  },
+  "ipCurrentProfile": {
+    "message": "Aktualny profil przeglądarki"
+  },
+  "ipRouteCaution": {
+    "message": "Reguły automatyczne i PAC mogą używać różnych tras do różnych miejsc docelowych. Ta kontrola opisuje tylko własne żądanie."
+  },
+  "ipDisclosure": {
+    "message": "Automatyczne sprawdzanie wyjścia IP · Raport autorstwa Ping0"
+  },
+  "ipMethod": {
+    "message": "Sprawdzenie adresu"
+  },
+  "ipDual": {
+    "message": "IPv4/IPv6"
+  },
+  "ipCheck": {
+    "message": "Sprawdź ponownie"
+  },
+  "ipChecking": {
+    "message": "Sprawdzam…"
+  },
+  "ipDualHelp": {
+    "message": "IPv4 / IPv6 zwraca rodzinę adresów użytą dla tego żądania, a nie oba adresy."
+  },
+  "ipDurationHelp": {
+    "message": "Upływający HTTP czas żądania obejmuje czas odpowiedzi sieci i usługi. To nie jest ICMP ping ani test przepustowości."
+  },
+  "ipCopy": {
+    "message": "Kopiuj IP"
+  },
+  "ipCopied": {
+    "message": "Skopiowano"
+  },
+  "ipCopyFailed": {
+    "message": "Nie można skopiować. Wybierz adres i skopiuj go ręcznie."
+  },
+  "ipNoResult": {
+    "message": "Nie ma jeszcze czeku"
+  },
+  "ipContextUnknown": {
+    "message": "Profil niedostępny"
+  },
+  "ipTimeout": {
+    "message": "Upłynął limit czasu sprawdzania. Spróbuj ponownie lub użyj innej trasy."
+  },
+  "ipCancelled": {
+    "message": "Czek anulowany"
+  },
+  "ipNetwork": {
+    "message": "Nie udało się dodzwonić do ipify. Sprawdź połączenie i spróbuj ponownie."
+  },
+  "ipHttp": {
+    "message": "Usługa IP nie przyjęła żądania. Spróbuj ponownie później."
+  },
+  "ipInvalid": {
+    "message": "Usługa IP zwróciła nieprawidłową odpowiedź."
+  },
+  "ipFailure": {
+    "message": "Sprawdzenie nie powiodło się. Spróbuj ponownie."
+  },
+  "ipStale": {
+    "message": "Twoje ustawienia proxy zostały zmienione podczas sprawdzania. Stary wynik został odrzucony; sprawdź ponownie."
+  },
+  "ipQuality": {
+    "message": "Narzędzia zewnętrzne"
+  },
+  "ipQualityPrivacy": {
+    "message": "Narzędzia działają tylko po kliknięciu. Dostawcy otrzymują normalne dane połączenia. Kontrole witryn internetowych wysyłają żądania bez danych uwierzytelniających po uruchomieniu. Zamknięcie zatrzymuje testy lokalne; zewnętrznymi kartami zarządza przeglądarka."
+  },
+  "ipReport": {
+    "message": "Skopiuj zredagowany raport"
+  },
+  "ipReportCopied": {
+    "message": "Skopiowano zredagowany raport; nie IP lub uwzględniono nazwy profili."
+  },
+  "popupSelected": {
+    "message": "Wybrano"
+  },
+  "popupFooter": {
+    "message": "v2rayN i profile węzłów"
+  },
+  "subtitle": {
+    "message": "Niezależne trasy przeglądarki"
+  },
+  "profiles": {
+    "message": "Profile"
+  },
+  "nodes": {
+    "message": "Biblioteka węzłów"
+  },
+  "settings": {
+    "message": "Ustawienia"
+  },
+  "connected": {
+    "message": "Profil aktywny"
+  },
+  "noProfile": {
+    "message": "Wartość domyślna systemowa"
+  },
+  "newProfile": {
+    "message": "Nowy profil"
+  },
+  "searchProfiles": {
+    "message": "Przeszukaj profile"
+  },
+  "direct": {
+    "message": "Sieć bezpośrednia"
+  },
+  "system": {
+    "message": "Serwer proxy systemu"
+  },
+  "follow": {
+    "message": "Śledź v2rayN"
+  },
+  "manual": {
+    "message": "Ręczny serwer proxy"
+  },
+  "auto": {
+    "message": "Automatyczne przełączanie"
+  },
+  "pac": {
+    "message": "PAC skrypt"
+  },
+  "virtual": {
+    "message": "Profil wirtualny"
+  },
+  "profileIntro": {
+    "message": "Wybierz trasę przeglądarki bez przełączania głównej trasy v2rayN."
+  },
+  "nodesIntro": {
+    "message": "Przeglądaj lokalne v2rayN węzły i zaimportowane linki."
+  },
+  "settingsIntro": {
+    "message": "Połączenie lokalne, język i wygląd."
+  },
+  "refresh": {
+    "message": "Odśwież"
+  },
+  "create": {
+    "message": "Utwórz profil"
+  },
+  "name": {
+    "message": "Nazwa profilu"
+  },
+  "type": {
+    "message": "Typ profilu"
+  },
+  "save": {
+    "message": "Zapisz"
+  },
+  "saved": {
+    "message": "Zapisano"
+  },
+  "saving": {
+    "message": "Zapisywanie…"
+  },
+  "cancel": {
+    "message": "Anuluj"
+  },
+  "close": {
+    "message": "Zamknij"
+  },
+  "apply": {
+    "message": "Użyj tego profilu"
+  },
+  "applied": {
+    "message": "Profil zmieniony"
+  },
+  "active": {
+    "message": "Aktywne"
+  },
+  "delete": {
+    "message": "Usuń"
+  },
+  "remove": {
+    "message": "Usuń"
+  },
+  "rename": {
+    "message": "Zmień nazwę"
+  },
+  "route": {
+    "message": "Trasa proxy"
+  },
+  "selectRoute": {
+    "message": "Wybierz trasę"
+  },
+  "routeMissing": {
+    "message": "Trasa niedostępna — wybierz inną"
+  },
+  "chain": {
+    "message": "Łańcuch przyłączeniowy"
+  },
+  "connection": {
+    "message": "Połączenie lokalne"
+  },
+  "proxy": {
+    "message": "Serwer proxy"
+  },
+  "address": {
+    "message": "Adres"
+  },
+  "port": {
+    "message": "Port"
+  },
+  "scheme": {
+    "message": "Protokół"
+  },
+  "proxyDns": {
+    "message": "SOCKS5 DNS rozwiązuje za pośrednictwem proxy."
+  },
+  "connectedIdle": {
+    "message": "Połączono · Bezczynność"
+  },
+  "bypass": {
+    "message": "Lista obejść"
+  },
+  "bypassHelp": {
+    "message": "Jedna domena, wzorzec domeny, adres IP lub IP:port w wierszu."
+  },
+  "advanced": {
+    "message": "Opcje zaawansowane"
+  },
+  "searchRoutes": {
+    "message": "Przeszukaj grupy lub węzły"
+  },
+  "selectGroup": {
+    "message": "Wybierz grupę"
+  },
+  "empty": {
+    "message": "Brak pasujących elementów"
+  },
+  "unavailable": {
+    "message": "Niedostępne"
+  },
+  "groupHint": {
+    "message": "Przytrzymaj grupę przez 250 ms, a następnie przeciągnij. Alt + ↑ / ↓ również zmienia kolejność. Zmiany zapisują się automatycznie."
+  },
+  "searchSort": {
+    "message": "Wyczyść wyszukiwanie przed sortowaniem."
+  },
+  "dragHint": {
+    "message": "Przesuń w górę lub w dół, a następnie zwolnij, aby zapisać. Esc anuluje."
+  },
+  "orderSaved": {
+    "message": "Zamówienie grupowe zapisane"
+  },
+  "orderCancelled": {
+    "message": "Ponowne zamówienie anulowane"
+  },
+  "loading": {
+    "message": "Ładowanie…"
+  },
+  "reading": {
+    "message": "Odczytywanie lokalnych węzłów…"
+  },
+  "nativeMissing": {
+    "message": "Komponent lokalny nie jest podłączony"
+  },
+  "retry": {
+    "message": "Spróbuj ponownie"
+  },
+  "nativeHelp": {
+    "message": "Trasy węzłów wymagają towarzysza Windows. Dostępne są już bezpośrednie, systemowe i ręczne serwery proxy."
+  },
+  "imported": {
+    "message": "Zaimportowano"
+  },
+  "v2rayn": {
+    "message": "v2rayN"
+  },
+  "allSources": {
+    "message": "Wszystkie źródła"
+  },
+  "importNodes": {
+    "message": "Importuj proxy"
+  },
+  "importTitle": {
+    "message": "Importuj proxy"
+  },
+  "importHelp": {
+    "message": "Wklej linki proxy, wychodzące JSON lub subskrypcję Base64. SOCKS obsługuje zwykłe lub Base64 poświadczenia. Adresy wolne od schematów używają HTTP."
+  },
+  "importPrivacy": {
+    "message": "Dane serwera proxy i dane uwierzytelniające są przekazywane do lokalnego Proxy V2Route urządzenia towarzyszącego w celu przechowywania i połączenia z wybranym serwerem proxy. Deweloper nie otrzymuje tych informacji."
+  },
+  "import": {
+    "message": "Importuj profile"
+  },
+  "nodeCount": {
+    "message": "węzłów"
+  },
+  "source": {
+    "message": "Źródło"
+  },
+  "protocol": {
+    "message": "Protokół"
+  },
+  "useNode": {
+    "message": "Utwórz profil"
+  },
+  "removeNode": {
+    "message": "Usunąć zaimportowany węzeł?"
+  },
+  "removeNodeHelp": {
+    "message": "Profile korzystające z tego węzła muszą zostać ponownie przypisane, zanim będzie można je usunąć."
+  },
+  "deleteProfile": {
+    "message": "Usunąć ten profil?"
+  },
+  "deleteProfileHelp": {
+    "message": "Spowoduje to usunięcie tylko tego profilu przeglądarki. Zaimportowane węzły i konfiguracja v2rayN zostają zachowane."
+  },
+  "language": {
+    "message": "Język"
+  },
+  "automatic": {
+    "message": "Domyślna przeglądarka"
+  },
+  "theme": {
+    "message": "Wygląd"
+  },
+  "light": {
+    "message": "Światło"
+  },
+  "dark": {
+    "message": "Ciemno"
+  },
+  "switchToEnglish": {
+    "message": "Przełącz na język angielski"
+  },
+  "switchToChinese": {
+    "message": "Przełącz na chiński uproszczony"
+  },
+  "switchToLight": {
+    "message": "Przełącz na wygląd światła"
+  },
+  "switchToDark": {
+    "message": "Przełącz na ciemny wygląd"
+  },
+  "localComponent": {
+    "message": "Komponent towarzyszący"
+  },
+  "ready": {
+    "message": "Połączono"
+  },
+  "stopped": {
+    "message": "Nie działa"
+  },
+  "discovery": {
+    "message": "v2rayN wykrywanie\nFolder"
+  },
+  "rootPath": {
+    "message": "v2rayN."
+  },
+  "corePath": {
+    "message": "Plik wykonywalny proxy"
+  },
+  "optionalPath": {
+    "message": "Pozostaw puste dla automatycznego wykrywania"
+  },
+  "pathsHelp": {
+    "message": "v2rayN jest wykrywane automatycznie; w razie potrzeby wybierz jego folder. Zaimportowane węzły korzystają z dołączonego rdzenia."
+  },
+  "savePaths": {
+    "message": "Zapisz ustawienia połączenia"
+  },
+  "privacy": {
+    "message": "Ustawienia zapisane lokalnie"
+  },
+  "privacyText": {
+    "message": "Linki do węzłów i dane uwierzytelniające pozostają w lokalnym towarzyszu. Ruch przeglądarki przechodzi przez wybrany serwer proxy do docelowych witryn internetowych; deweloper go nie otrzymuje."
+  },
+  "privacyDetails": {
+    "message": "Prywatność i przepływ danych"
+  },
+  "export": {
+    "message": "Eksportuj profile"
+  },
+  "about": {
+    "message": "O Proxy V2Route"
+  },
+  "aboutText": {
+    "message": "Wybierz trasę przeglądarki bez przełączania głównej trasy v2rayN. Trasy węzłów wykorzystują narzędzie towarzyszące Windows i Twoje własne węzły."
+  },
+  "licenses": {
+    "message": "Powiadomienia o otwartym kodzie źródłowym"
+  },
+  "version": {
+    "message": "Wersja"
+  },
+  "fieldRequired": {
+    "message": "Wprowadź nazwę profilu."
+  },
+  "profileExists": {
+    "message": "Profil o tej nazwie już istnieje."
+  },
+  "ruleHelp": {
+    "message": "Domeny oddziel w jednym wierszu przecinkami. Pierwszy pasujący rząd wygrywa. Zachowaj dostępną trasę domyślną."
+  },
+  "rules": {
+    "message": "Reguły routingu"
+  },
+  "pattern": {
+    "message": "Wzorzec hosta"
+  },
+  "target": {
+    "message": "Cel reguły"
+  },
+  "addRule": {
+    "message": "Dodaj regułę"
+  },
+  "defaultRoute": {
+    "message": "Profil domyślny"
+  },
+  "pacHelp": {
+    "message": "Wklej zaufane PAC źródło zawierające FindProxyForURL. Skrypt ten decyduje o sposobie kierowania żądań witryny internetowej."
+  },
+  "pacUrl": {
+    "message": "PAC URL"
+  },
+  "pacScript": {
+    "message": "PAC skrypt"
+  },
+  "noSelection": {
+    "message": "Wybierz profil lub utwórz go."
+  },
+  "details": {
+    "message": "Szczegóły"
+  },
+  "noNodes": {
+    "message": "Brak jeszcze węzłów"
+  },
+  "noNodesHelp": {
+    "message": "Połącz v2rayN lub zaimportuj łącza proxy, JSON lub subskrypcję, aby rozpocząć."
+  },
+  "openSettings": {
+    "message": "Otwórz ustawienia"
+  },
+  "proxySettings": {
+    "message": "Ustawienia proxy"
+  },
+  "switching": {
+    "message": "Przełączanie…"
+  },
+  "updatedElsewhere": {
+    "message": "Ten profil został zmieniony w innym oknie. Otwórz go ponownie przed zapisaniem."
+  },
+  "choose": {
+    "message": "Wybierz"
+  },
+  "popupIntro": {
+    "message": "Połączenie:"
+  },
+  "invalidPort": {
+    "message": "Wprowadź port od 1 do 65535."
+  },
+  "externalControl": {
+    "message": "Inne rozszerzenie lub zasada kontroluje serwer proxy przeglądarki."
+  },
+  "noNativeRoute": {
+    "message": "Podłącz komponent lokalny przed utworzeniem profilu węzła."
+  },
+  "reload": {
+    "message": "Załaduj ponownie"
+  },
+  "rulesError": {
+    "message": "Każda reguła wymaga wzorca i celu."
+  },
+  "backupDone": {
+    "message": "Wyeksportowano profile przeglądarki"
+  },
+  "managed": {
+    "message": "Węzeł zarządzany"
+  },
+  "netRegion": {
+    "message": "Obszar docelowy"
+  },
+  "netNodeArea": {
+    "message": "Węzeł proxy"
+  },
+  "netChina": {
+    "message": "Chiny kontynentalne"
+  },
+  "netGlobal": {
+    "message": "Globalny"
+  },
+  "netAli": {
+    "message": "AliDNS"
+  },
+  "netTencent": {
+    "message": "DNSPod"
+  },
+  "netStartHelp": {
+    "message": "Wybierz cel, a następnie rozpocznij test na żywo."
+  },
+  "netConsole": {
+    "message": "Diagnostyka na żywo"
+  },
+  "netStop": {
+    "message": "Zatrzymaj się"
+  },
+  "netRunning": {
+    "message": "Bieganie"
+  },
+  "netStopped": {
+    "message": "Zatrzymano"
+  },
+  "netSent": {
+    "message": "Wysłano"
+  },
+  "netLoss": {
+    "message": "Strata"
+  },
+  "netAverageShort": {
+    "message": "Średnia"
+  },
+  "netLogClear": {
+    "message": "Jasne"
+  },
+  "netFinishing": {
+    "message": "Poprzednia sonda kończy…"
+  },
+  "netRound": {
+    "message": "Okrągłe"
+  },
+  "netDestination": {
+    "message": "Miejsce docelowe"
+  },
+  "netHop": {
+    "message": "Chmiel"
+  },
+  "netAddress": {
+    "message": "IP adres"
+  },
+  "netLast": {
+    "message": "Ostatni"
+  },
+  "netConsoleHelp": {
+    "message": "Ping / TCPing / MTR używa sieci systemowej, a nie łańcucha proxy. Brakujące odpowiedzi ICMP nie dowodzą utraty ruchu. Pobieranie wykorzystuje trasę przeglądarki i wybrany limit rozmiaru. Testy zatrzymują się, gdy opuścisz lub ukryjesz tę stronę."
+  },
+  "netDirectShort": {
+    "message": "Sieć systemowa"
+  },
+  "netIcmpShort": {
+    "message": "Brak ICMP odpowiedzi"
+  },
+  "netProbeError": {
+    "message": "Błąd sondy lokalnej"
+  },
+  "netNoDestination": {
+    "message": "Nie osiągnięto miejsca docelowego"
+  },
+  "deleteActive": {
+    "message": "Przejdź do systemu i usuń"
+  },
+  "deleteActiveHelp": {
+    "message": "Ten profil jest aktywny. Usunięcie go przełącza przeglądarkę na systemowe proxy."
+  },
+  "netDownloadSize": {
+    "message": "Rozmiar pobierania"
+  },
+  "netReceived": {
+    "message": "Otrzymano"
+  },
+  "netBest": {
+    "message": "Najlepiej"
+  },
+  "netWorst": {
+    "message": "Najgorsze"
+  },
+  "netStdDev": {
+    "message": "Odch. st"
+  },
+  "netLocation": {
+    "message": "Lokalizacja"
+  },
+  "toolWall": {
+    "message": "Sprawdzenie blokowania domeny"
+  },
+  "toolSites": {
+    "message": "Popularne strony internetowe"
+  },
+  "toolGlobal": {
+    "message": "Diagnostyka globalna"
+  },
+  "toolFast": {
+    "message": "Netflix prędkość"
+  },
+  "toolSpeed": {
+    "message": "Test prędkości"
+  },
+  "toolStart": {
+    "message": "Rozpocznij"
+  },
+  "toolReady": {
+    "message": "Gotowe"
+  },
+  "toolResponded": {
+    "message": "Odpowiedział"
+  },
+  "toolNoResponse": {
+    "message": "Niepotwierdzone"
+  },
+  "toolCacheUnsupported": {
+    "message": "Ta przeglądarka nie może wyczyścić pamięci podręcznej według witryn; strona została ponownie załadowana."
+  },
+  "toolCacheFailed": {
+    "message": "Czyszczenie pamięci podręcznej nie zostało zakończone. Zamknij i spróbuj ponownie."
+  },
+  "toolClose": {
+    "message": "Zamknij"
+  },
+  "toolReload": {
+    "message": "Załaduj ponownie"
+  },
+  "toolLoading": {
+    "message": "Ładowanie…"
+  },
+  "toolFrameError": {
+    "message": "Nie można załadować. Spróbuj załadować ponownie."
+  },
+  "toolSiteHelp": {
+    "message": "Dostępność tylko przeglądarki. Nie weryfikuje to konta ani dostępu regionalnego."
+  },
+  "toolFallback": {
+    "message": "Test prędkości rezerwowej"
+  },
+  "toolFullscreen": {
+    "message": "Pełny ekran"
+  },
+  "toolRestore": {
+    "message": "Wyjdź z pełnego ekranu"
+  },
+  "ipReadFailed": {
+    "message": "Odczyt nie powiódł się. 👉"
+  },
+  "ipViewSource": {
+    "message": "Zobacz stronę źródłową"
+  },
+  "toolDownloadError": {
+    "message": "Nie udało się połączyć z serwerem pobierania. Spróbuj ponownie."
+  },
+  "toolAccess": {
+    "message": "Włącz dostęp do witryny"
+  },
+  "toolPermission": {
+    "message": "Zezwól na dostęp do tej witryny w celu zapewnienia zgodności sesji osadzonych."
+  },
+  "toolAsia": {
+    "message": "Azja"
+  },
+  "toolEurope": {
+    "message": "Europa"
+  },
+  "toolAmerica": {
+    "message": "Ameryka Północna"
+  },
+  "toolGlobalHelp": {
+    "message": "Wstępnie wypełnia wyjście przeglądarki IP. Wybierz Chiny kontynentalne lub inny region, aby porównać ścieżki; Start wysyła wyświetlany cel do maksymalnie trzech Globalping sond."
+  },
+  "toolServiceError": {
+    "message": "Usługa testowa jest niedostępna. Spróbuj ponownie."
+  },
+  "popupOrderHelp": {
+    "message": "Przytrzymaj i przeciągnij, aby zmienić kolejność. Alt+klawisze strzałek również przesuwają ten profil."
+  },
+  "popupOrderSaved": {
+    "message": "Zamówienie zapisane"
+  },
+  "toolGroupIP": {
+    "message": "IP testy"
+  },
+  "toolGroupWeb": {
+    "message": "Testy serwisu"
+  },
+  "toolGroupSpeed": {
+    "message": "Szybkość"
+  },
+  "toolCurrentIP": {
+    "message": "Aktualne wyjście IP"
+  },
+  "toolCurrentIPLoading": {
+    "message": "Trwa ładowanie wyjścia IP…"
+  },
+  "toolCurrentIPFailed": {
+    "message": "Nie można odczytać bieżącego IP. Wprowadź cel."
+  },
+  "speedMode": {
+    "message": "Tryb testowy"
+  },
+  "speedBoth": {
+    "message": "Pobierz + prześlij"
+  },
+  "speedDownload": {
+    "message": "Pobierz"
+  },
+  "speedUpload": {
+    "message": "Prześlij"
+  },
+  "speedLatency": {
+    "message": "HTTP opóźnienie"
+  },
+  "speedBudget": {
+    "message": "{n} MiB na fazę · {total} MiB łącznie plus próbki o małym opóźnieniu."
+  },
+  "siteCategory": {
+    "message": "Kategoria strony internetowej"
+  },
+  "siteAll": {
+    "message": "Wszystkie strony internetowe"
+  },
+  "siteAI": {
+    "message": "AI"
+  },
+  "siteDevelopment": {
+    "message": "Rozwój"
+  },
+  "siteVideo": {
+    "message": "Wideo / muzyka"
+  },
+  "siteSocial": {
+    "message": "Społeczne"
+  },
+  "siteDomestic": {
+    "message": "Usługi kontynentalne"
+  },
+  "siteServices": {
+    "message": "Usługi wspólne"
+  },
+  "globalMethod": {
+    "message": "Typ pomiaru"
+  },
+  "localPort": {
+    "message": "Port lokalny:"
+  },
+  "chainChooseNode": {
+    "message": "Wybierz węzeł proxy"
+  },
+  "chainTitle": {
+    "message": "Łańcuch proxy"
+  },
+  "chainSelectExit": {
+    "message": "Wybierz poniżej konkretny węzeł wyjściowy, aby zapisać lub przetestować ten łańcuch niestandardowy. Follow v2rayN jest zarządzany przez v2rayN."
+  },
+  "chainSelectExitShort": {
+    "message": "Wybierz węzeł wyjściowy"
+  },
+  "chainAdd": {
+    "message": "+ Dodaj warstwę proxy"
+  },
+  "chainTest": {
+    "message": "Łańcuch testowy"
+  },
+  "chainMode": {
+    "message": "Tryb łańcuchowy"
+  },
+  "chainBase": {
+    "message": "Bazowy serwer proxy"
+  },
+  "chainExit": {
+    "message": "Wyjdź z proxy"
+  },
+  "chainEgress": {
+    "message": "Wyjście łańcucha"
+  },
+  "chainExitBadge": {
+    "message": "Wyjście IP"
+  },
+  "chainEntry": {
+    "message": "Wejście do łańcucha"
+  },
+  "chainTransit": {
+    "message": "Węzeł mostkowy"
+  },
+  "chainUntested": {
+    "message": "Nie testowano"
+  },
+  "chainMissing": {
+    "message": "Węzeł niedostępny"
+  },
+  "chainUnresolved": {
+    "message": "Nie można rozwiązać odziedziczonego łańcucha. Napraw ustawienia poprzednika lub wybierz łańcuch niestandardowy."
+  },
+  "chainUpgrade": {
+    "message": "Zaktualizuj lokalnego towarzysza, aby włączyć uporządkowane łańcuchy."
+  },
+  "chainBusy": {
+    "message": "Trwa kolejny test łańcucha"
+  },
+  "chainOK": {
+    "message": "Osiągalne"
+  },
+  "chainFailed": {
+    "message": "Nieudany przeskok w tym teście"
+  },
+  "chainBlocked": {
+    "message": "Nie testowano · poprzedni przeskok nie powiódł się"
+  },
+  "chainFailureHelp": {
+    "message": "Ten przeskok lub ścieżka do niego nie przeszła. Późniejsze chmielenia nie były testowane."
+  },
+  "chainAllOK": {
+    "message": "Odpowiedzi udzieliły wszystkie ścieżki zbiorcze"
+  },
+  "chainStopping": {
+    "message": "Zatrzymywanie po aktualnie ograniczonej sondzie…"
+  },
+  "globalWorld": {
+    "message": "Na całym świecie"
+  },
+  "globalUnavailable": {
+    "message": "Cel lub region jest niedostępny. Sprawdź cel lub wybierz inny region."
+  },
+  "globalRateLimited": {
+    "message": "Osiągnięto limit szybkości usługi. Spróbuj ponownie później."
+  },
+  "globalNoResults": {
+    "message": "Usługa nie zwróciła żadnych wyników sondy. Spróbuj innego regionu."
+  },
+  "globalProbeFailed": {
+    "message": "Błąd sondy"
+  },
+  "globalProbeOffline": {
+    "message": "Sonda offline"
+  },
+  "globalIcmpCaution": {
+    "message": "Same brakujące ICMP odpowiedzi nie świadczą o blokowaniu. Porównaj ścieżki kontynentalne i zagraniczne oraz inne typy testów."
+  },
+  "speedRealtime": {
+    "message": "Prędkość na żywo"
+  },
+  "speedAverage": {
+    "message": "Średnia prędkość"
+  },
+  "ipToolsBrief": {
+    "message": "Wyniki stron trzecich służą celom informacyjnym."
+  },
+  "ipReportBrief": {
+    "message": "Wyniki różnią się w zależności od wyjścia IP i służą celom informacyjnym."
+  },
+  "toolPingPe": {
+    "message": "IP kontrola blokowania"
+  },
+  "toolTargetIP": {
+    "message": "Cel IP"
+  },
+  "toolOpenPingPe": {
+    "message": "Otwarty oficjalny test"
+  },
+  "toolInvalidIP": {
+    "message": "Wprowadź prawidłowy adres IPv4 lub IPv6."
+  },
+  "toolInvalidPort": {
+    "message": "Wprowadź port TCP od 1 do 65535."
+  },
+  "toolExternalFailed": {
+    "message": "Nie można otworzyć strony internetowej. Spróbuj ponownie."
+  },
+  "ipBrowserReading": {
+    "message": "Czytanie Ping0 przez przeglądarkę…"
+  },
+  "ipVerifyBrowser": {
+    "message": "Otwórz stronę weryfikacji"
+  },
+  "policyCenter": {
+    "message": "Prywatność, deklaracja i często zadawane pytania"
+  },
+  "policyCenterIntro": {
+    "message": "Lokalna obsługa danych, limity testów i typowe odpowiedzi."
+  },
+  "policyPrivacyTitle": {
+    "message": "Polityka prywatności"
+  },
+  "policyPrivacySummary": {
+    "message": "Profile i dane uwierzytelniające pozostają na tym urządzeniu. Sprawdzanie wyskakujących okienek i diagnostyka kontaktują się z podanymi dostawcami. Żadnych reklam i analiz behawioralnych."
+  },
+  "policyDeclarationTitle": {
+    "message": "Oświadczenie o zastosowaniu i pomiarach"
+  },
+  "policyDeclarationSummary": {
+    "message": "To rozszerzenie jest lokalnym menedżerem tras, a nie serwerem proxy lub dostawcą VPN. Pomiary to próbki referencyjne, na które wpływają warunki sieci, serwera proxy i dostawcy."
+  },
+  "policyFaqTitle": {
+    "message": "Często zadawane pytania"
+  },
+  "policyFaqSummary": {
+    "message": "Towarzysz Windows jest wymagany dla węzłów lokalnych i MTR. Opóźnienie może się różnić w zależności od przeglądarki, systemu i sond publicznych. Zatrzymaj test lub wyczyść dane lokalne w Ustawieniach."
+  },
+  "policyDetailsLink": {
+    "message": "Przeczytaj wszystkie szczegóły ↗"
+  },
+  "thirdPartyNotice": {
+    "message": "Informacje o otwartym kodzie źródłowym ↗"
+  },
+  "columnResizeHelp": {
+    "message": "Przeciągnij, aby zmienić rozmiar; kliknij dwukrotnie, aby zresetować; użyj klawiszy strzałek, aby dostosować"
+  },
+  "columnResize": {
+    "message": "Zmień rozmiar kolumny"
+  },
+  "typeDescription_node": {
+    "message": "Połącz się poprzez węzeł proxy"
+  },
+  "typeDescription_manual": {
+    "message": "Wprowadź ręcznie ustawienia proxy"
+  },
+  "typeDescription_auto": {
+    "message": "Wybierz węzeł za pomocą reguł"
+  },
+  "typeDescription_pac": {
+    "message": "Kieruj ruch przy użyciu reguł PAC."
+  },
+  "appDescription": {
+    "message": "Trasy proxy przeglądarki, węzły i reguły domeny. Trasy węzłów wymagają towarzysza Windows."
+  },
+  "core_title": {
+    "message": "Rdzeń proxy"
+  },
+  "core_checking": {
+    "message": "Sprawdzam komponent lokalny…"
+  },
+  "core_ready": {
+    "message": "Xray gotowe"
+  },
+  "core_missing": {
+    "message": "Brak rdzenia proxy"
+  },
+  "core_external": {
+    "message": "Rdzeń niestandardowy: niezweryfikowany"
+  },
+  "core_corrupt": {
+    "message": "Xray Niezgodność sumy kontrolnej – wymagana naprawa"
+  },
+  "core_unreadable": {
+    "message": "Nie można sprawdzić pliku podstawowego"
+  },
+  "core_intro": {
+    "message": "Kompletny pakiet Windows zawiera Xray. v2rayN jest opcjonalne."
+  },
+  "core_verify": {
+    "message": "Sprawdź ponownie"
+  },
+  "core_install": {
+    "message": "Zainstaluj/napraw rdzeń"
+  },
+  "core_installing": {
+    "message": "Pobieranie i weryfikacja…"
+  },
+  "core_done": {
+    "message": "Rdzeń zweryfikowany i gotowy"
+  },
+  "core_help": {
+    "message": "Naprawa wykorzystuje przypiętą oficjalną wersję Xray i weryfikuje jej sumę kontrolną. Istniejące połączenia pozostają aktywne."
+  },
+  "core_absent": {
+    "message": "Zainstaluj raz komponent lokalny, a następnie wróć tutaj, aby sprawdzić rdzeń."
+  },
+  "core_download": {
+    "message": "Instrukcja instalacji"
+  },
+  "core_absentHelp": {
+    "message": "Użyj pasującego pakietu Windows lub postępuj zgodnie z instrukcją, aby zbudować go ze źródła, a następnie uruchom instalację."
+  },
+  "core_failed": {
+    "message": "Operacja podstawowa nie powiodła się. Spróbuj ponownie lub użyj pełnego pakietu Windows."
+  },
+  "core_version": {
+    "message": "Wersja"
+  },
+  "error_ACTIVE_PROFILE_DELETE": {
+    "message": "Przed usunięciem przełącz się na inny profil"
+  },
+  "error_BACKUP_BINDING_TYPE": {
+    "message": "Tylko profile proxy mogą mieć powiązania tras"
+  },
+  "error_BACKUP_FORMAT3_REQUIRED": {
+    "message": "Reguły węzłów wymagają przenośnej kopii w formacie 3"
+  },
+  "error_BACKUP_INDEPENDENT_PATH_REQUIRED": {
+    "message": "Kopia musi zawierać niezależną ścieżkę węzłów"
+  },
+  "error_BACKUP_INTERNAL_BINDINGS": {
+    "message": "Kopia zawiera wewnętrzne powiązania"
+  },
+  "error_BACKUP_MESSAGE_LIMIT": {
+    "message": "Kopia węzłów przekracza limit komunikatów komponentu lokalnego"
+  },
+  "error_BACKUP_NODES_INCOMPLETE": {
+    "message": "Niepełna kopia węzłów"
+  },
+  "error_BACKUP_NODE_MISSING": {
+    "message": "W kopii brakuje wymaganego węzła"
+  },
+  "error_BACKUP_NODE_PATHS_LIMIT": {
+    "message": "Kopia obsługuje najwyżej {limit} ścieżek węzłów"
+  },
+  "error_BACKUP_PATH_INCOMPLETE": {
+    "message": "Niepełna ścieżka węzłów w kopii"
+  },
+  "error_BACKUP_PROFILES_LIMIT": {
+    "message": "Kopia obsługuje najwyżej {limit} profili"
+  },
+  "error_BACKUP_PROXY_CONFLICT": {
+    "message": "Kopia zawiera sprzeczne ustawienia proxy"
+  },
+  "error_BACKUP_SIZE_LIMIT": {
+    "message": "Kopia przekracza {limit} MB"
+  },
+  "error_BACKUP_TRANSFER_UNAVAILABLE": {
+    "message": "Zaktualizuj lub napraw komponent lokalny, aby przenosić kopie węzłów."
+  },
+  "error_BACKUP_UNUSED_NODES": {
+    "message": "Kopia zawiera węzły bez odwołań"
+  },
+  "error_BODY_TOO_LARGE": {
+    "message": "Odpowiedź subskrypcji przekracza dopuszczalny rozmiar."
+  },
+  "error_BROWSER_API_FAILED": {
+    "message": "Operacja przeglądarki nie powiodła się. Zobacz szczegóły techniczne."
+  },
+  "error_BROWSER_PROXY_RESTORE_FAILED": {
+    "message": "Operacja nie powiodła się i nie udało się przywrócić poprzedniego proxy przeglądarki"
+  },
+  "error_BROWSER_SCHEDULING_UNAVAILABLE": {
+    "message": "Harmonogram przeglądarki jest niedostępny."
+  },
+  "error_BUSY": {
+    "message": "Trwa inna operacja. Spróbuj ponownie za chwilę."
+  },
+  "error_CHAIN_PROBE_FAILED": {
+    "message": "Test łańcucha nie powiódł się"
+  },
+  "error_COMPANION_BULK_RELEASE_REQUIRED": {
+    "message": "Zaktualizuj komponent lokalny, aby bezpiecznie zarządzać wieloma regułami węzłów"
+  },
+  "error_COMPANION_CHAINS_REQUIRED": {
+    "message": "Zaktualizuj komponent lokalny, aby włączyć uporządkowane łańcuchy"
+  },
+  "error_COMPANION_MESSAGE_LIMIT": {
+    "message": "Ustawienia przekraczają limit komunikatów komponentu lokalnego"
+  },
+  "error_COMPANION_OPERATION_FAILED": {
+    "message": "Operacja komponentu lokalnego nie powiodła się. Zobacz szczegóły techniczne."
+  },
+  "error_COMPANION_UNAVAILABLE": {
+    "message": "Zainstaluj lub napraw V2Route Companion"
+  },
+  "error_CONNECTION_CLOSED": {
+    "message": "Połączenie zamknięto przed ukończeniem testu."
+  },
+  "error_CORE_INSTALL_FAILED": {
+    "message": "Instalacja rdzenia nie powiodła się. Zobacz szczegóły techniczne."
+  },
+  "error_CORE_OWNERSHIP_FAILED": {
+    "message": "Nie udało się bezpiecznie sterować izolowanym rdzeniem testowym. Test zatrzymano."
+  },
+  "error_CORE_START_FAILED": {
+    "message": "Izolowany rdzeń testowy nie uruchomił się. Sprawdź instalację komponentu i rdzenia."
+  },
+  "error_CORE_START_TIMEOUT": {
+    "message": "Izolowany rdzeń testowy nie był gotowy na czas."
+  },
+  "error_CORE_STATUS_UNAVAILABLE": {
+    "message": "Stan rdzenia jest niedostępny. Zobacz szczegóły techniczne."
+  },
+  "error_CORE_VALIDATION_FAILED": {
+    "message": "Xray nie mógł zweryfikować zaimportowanych węzłów. Sprawdź ich ustawienia i spróbuj ponownie."
+  },
+  "error_DETACH_PORT_CONFLICT": {
+    "message": "Zarządzany port zostanie zwolniony. Podaj inne ręczne proxy"
+  },
+  "error_DETACH_PROXY_REQUIRED": {
+    "message": "Przed odłączeniem podaj zastępcze ręczne proxy"
+  },
+  "error_DNS_BUSY": {
+    "message": "Wyszukiwanie DNS jest zajęte. Spróbuj ponownie za chwilę."
+  },
+  "error_DNS_FAILED": {
+    "message": "Wyszukiwanie DNS nie powiodło się. Sprawdź adres i połączenie sieciowe."
+  },
+  "error_ENCODING_UNSUPPORTED": {
+    "message": "Subskrypcja używa nieobsługiwanego kodowania treści."
+  },
+  "error_FIREFOX_PRIVATE_ACCESS_REQUIRED": {
+    "message": "Przed zmianą ustawień proxy zezwól V2Route na działanie w oknach prywatnych w szczegółach rozszerzenia"
+  },
+  "error_FOLDER_UNAVAILABLE": {
+    "message": "Folder jest niedostępny; sprawdź ścieżkę, dostęp i wersję komponentu lokalnego"
+  },
+  "error_GROUP_LIMIT": {
+    "message": "Osiągnięto limit grup. Usuń nieużywaną grupę i spróbuj ponownie."
+  },
+  "error_GROUP_NOT_EDITABLE": {
+    "message": "Tej grupy źródłowej nie można tutaj edytować."
+  },
+  "error_GROUP_NOT_FOUND": {
+    "message": "Wybrana grupa już nie istnieje. Wybierz inną grupę."
+  },
+  "error_HTTP_ENCODING": {
+    "message": "Serwer testowy zwrócił nieobsługiwane kodowanie."
+  },
+  "error_HTTP_LENGTH": {
+    "message": "Rozmiar odpowiedzi testowej nie odpowiadał żądanemu rozmiarowi."
+  },
+  "error_HTTP_RESPONSE_TOO_LARGE": {
+    "message": "Odpowiedź testowa przekroczyła dopuszczalny rozmiar."
+  },
+  "error_HTTP_STATUS": {
+    "message": "Serwer testowy zwrócił kod błędu HTTP."
+  },
+  "error_IMPORTED_PROXY_MISSING": {
+    "message": "Komponent lokalny nie zwrócił zaimportowanego proxy"
+  },
+  "error_IMPORTED_RULE_PATH_CONFLICT": {
+    "message": "Zaimportowane węzły prowadzą do sprzecznych ścieżek reguł"
+  },
+  "error_IMPORT_CLEANUP_FAILED": {
+    "message": "Import nie powiódł się; nie udało się zwolnić części tymczasowych węzłów lub portów. Zachowano istniejące profile"
+  },
+  "error_IMPORT_PROFILE_NAME_CONFLICT": {
+    "message": "Powielona lub nieprawidłowa nazwa profilu"
+  },
+  "error_INCOMPLETE_RESPONSE": {
+    "message": "Odpowiedź subskrypcji była niepełna. Spróbuj ponownie."
+  },
+  "error_INVALID_BACKUP": {
+    "message": "Nieprawidłowa kopia V2Route"
+  },
+  "error_INVALID_BACKUP_NODE": {
+    "message": "Nieprawidłowy lub powielony węzeł w kopii"
+  },
+  "error_INVALID_BACKUP_NODES": {
+    "message": "Nieprawidłowe węzły w kopii"
+  },
+  "error_INVALID_BACKUP_PATH": {
+    "message": "Nieprawidłowa ścieżka w kopii"
+  },
+  "error_INVALID_BYPASS_ENTRY": {
+    "message": "Nieprawidłowy wpis wyjątku"
+  },
+  "error_INVALID_BYPASS_LIST": {
+    "message": "Nieprawidłowa lista wyjątków"
+  },
+  "error_INVALID_CHAIN": {
+    "message": "Nieprawidłowy uporządkowany łańcuch"
+  },
+  "error_INVALID_CHAIN_PROBE": {
+    "message": "Nieprawidłowe żądanie testu łańcucha"
+  },
+  "error_INVALID_COMPANION_RESPONSE": {
+    "message": "Komponent lokalny zwrócił nieprawidłową odpowiedź. Zaktualizuj go lub napraw."
+  },
+  "error_INVALID_CONTENT": {
+    "message": "Odpowiedź subskrypcji nie zawiera prawidłowej treści."
+  },
+  "error_INVALID_DOMAIN_PATTERNS": {
+    "message": "Podaj wzorce domen oddzielone przecinkami; każdy URL umieść w osobnym wierszu"
+  },
+  "error_INVALID_ENCODING": {
+    "message": "Odpowiedź subskrypcji nie jest prawidłowym tekstem UTF-8."
+  },
+  "error_INVALID_FOLDER_REQUEST": {
+    "message": "Nieprawidłowe żądanie folderu"
+  },
+  "error_INVALID_GROUP_ACTION": {
+    "message": "Ta operacja na grupie nie jest obsługiwana."
+  },
+  "error_INVALID_HOP_INDEX": {
+    "message": "Nieprawidłowy indeks skoku"
+  },
+  "error_INVALID_LEGACY_PREDECESSOR": {
+    "message": "Nieprawidłowe odziedziczone proxy poprzedzające"
+  },
+  "error_INVALID_LIBRARY_COMMAND": {
+    "message": "To polecenie biblioteki węzłów nie jest obsługiwane."
+  },
+  "error_INVALID_LIBRARY_REQUEST": {
+    "message": "Nieprawidłowe żądanie biblioteki"
+  },
+  "error_INVALID_NAME": {
+    "message": "Podaj nazwę zawierającą 1–128 widocznych znaków, bez znaków sterujących."
+  },
+  "error_INVALID_NETWORK_TEST": {
+    "message": "Nieprawidłowy test sieci"
+  },
+  "error_INVALID_NODE_IMPORT_RESPONSE": {
+    "message": "Nieprawidłowa odpowiedź importu węzłów"
+  },
+  "error_INVALID_PREDECESSOR": {
+    "message": "Nieprawidłowe proxy poprzedzające dla tej trasy"
+  },
+  "error_INVALID_PROFILE_NAME": {
+    "message": "Nieprawidłowa nazwa profilu"
+  },
+  "error_INVALID_PROFILE_REFERENCE": {
+    "message": "Nieprawidłowe odwołanie do profilu"
+  },
+  "error_INVALID_PROXY_AUTH": {
+    "message": "Nieprawidłowe uwierzytelnianie proxy"
+  },
+  "error_INVALID_PROXY_CREDENTIALS": {
+    "message": "Nieprawidłowe dane logowania proxy"
+  },
+  "error_INVALID_PROXY_ENDPOINT": {
+    "message": "Podaj prawidłowy host i port proxy"
+  },
+  "error_INVALID_PROXY_HOST": {
+    "message": "Podaj nazwę DNS lub adres IP bez portu, URL, ścieżki ani zapytania"
+  },
+  "error_INVALID_ROUTE": {
+    "message": "Nieprawidłowa trasa"
+  },
+  "error_INVALID_ROUTE_SETTINGS": {
+    "message": "Nieprawidłowe ustawienia trasy"
+  },
+  "error_INVALID_RULES": {
+    "message": "Nieprawidłowe reguły"
+  },
+  "error_INVALID_RULE_TARGET": {
+    "message": "Dla każdej reguły wybierz jeden prawidłowy węzeł lub profil"
+  },
+  "error_INVALID_SUBSCRIPTION": {
+    "message": "Nieprawidłowa subskrypcja"
+  },
+  "error_INVALID_SUBSCRIPTION_REQUEST": {
+    "message": "Nieprawidłowe żądanie subskrypcji"
+  },
+  "error_INVALID_SUBSCRIPTION_SETTINGS": {
+    "message": "Ustawienia subskrypcji są nieprawidłowe. Sprawdź odstęp aktualizacji i zasady połączenia."
+  },
+  "error_INVALID_SYSTEM_PROXY_RESPONSE": {
+    "message": "Nieprawidłowa odpowiedź proxy systemowego; zaktualizuj lub napraw komponent lokalny"
+  },
+  "error_INVALID_TRANSPORT": {
+    "message": "Ustawienia połączenia subskrypcji są nieprawidłowe."
+  },
+  "error_INVALID_URL": {
+    "message": "Podaj prawidłowy URL subskrypcji HTTP(S) bez nazwy użytkownika ani hasła."
+  },
+  "error_LIBRARY_CHANGED": {
+    "message": "Biblioteka węzłów zmieniła się w innym oknie. Odśwież ją i spróbuj ponownie."
+  },
+  "error_MANUAL_CHAIN_UNSUPPORTED": {
+    "message": "Ręczne proxy nie obsługują łańcucha węzłów"
+  },
+  "error_MANUAL_PROXY_CLEANUP_FAILED": {
+    "message": "Zapis nie powiódł się; tymczasowo zaimportowane proxy pozostało w bibliotece węzłów"
+  },
+  "error_NATIVE_BINDING_ID": {
+    "message": "Nieprawidłowy identyfikator powiązania trasy."
+  },
+  "error_NATIVE_BINDING_UNKNOWN": {
+    "message": "Powiązanie trasy nie istnieje."
+  },
+  "error_NATIVE_BUTTON_NAME": {
+    "message": "Nazwa przycisku musi zawierać 1–128 widocznych znaków."
+  },
+  "error_NATIVE_CATALOG_UNREADABLE": {
+    "message": "Nie udało się odczytać konfiguracji v2rayN."
+  },
+  "error_NATIVE_CORE_MISSING": {
+    "message": "Xray jest niedostępny. Zainstaluj pakiet komponentu lokalnego."
+  },
+  "error_NATIVE_GROUP_ID_COLLISION": {
+    "message": "Identyfikatory grup są w konflikcie."
+  },
+  "error_NATIVE_GROUP_ORDER": {
+    "message": "Nieprawidłowa kolejność grup."
+  },
+  "error_NATIVE_NODE_ID_COLLISION": {
+    "message": "Identyfikatory węzłów są w konflikcie."
+  },
+  "error_NATIVE_PREDECESSOR_AMBIGUOUS": {
+    "message": "Brakuje nazwy proxy poprzedzającego lub jest ona powielona. Wybierz konkretny węzeł poprzedzający."
+  },
+  "error_NATIVE_PREDECESSOR_CYCLE": {
+    "message": "Łańcuch poprzedzający zawiera cykl lub przekracza sześć węzłów."
+  },
+  "error_NATIVE_PREDECESSOR_INVALID": {
+    "message": "Wybierz prawidłowe proxy poprzedzające."
+  },
+  "error_NATIVE_PREDECESSOR_MISSING": {
+    "message": "Wybrane proxy poprzedzające już nie istnieje. Wybierz inny węzeł."
+  },
+  "error_NATIVE_PREDECESSOR_SETTINGS": {
+    "message": "Nieprawidłowe ustawienia proxy poprzedzającego."
+  },
+  "error_NATIVE_ROUTE_INVALID": {
+    "message": "Wybierz prawidłową trasę."
+  },
+  "error_NATIVE_ROUTE_MISSING": {
+    "message": "Ta trasa już nie istnieje. Wybierz inną trasę."
+  },
+  "error_NATIVE_ROUTE_PORTS": {
+    "message": "Nieprawidłowe przypisania portów trasy."
+  },
+  "error_NATIVE_ROUTE_UNAVAILABLE": {
+    "message": "Wybrana trasa jest niedostępna. Zobacz szczegóły techniczne."
+  },
+  "error_NATIVE_SETTINGS_FORMAT": {
+    "message": "Nieprawidłowy format ustawień."
+  },
+  "error_NATIVE_SETTINGS_REVISION": {
+    "message": "Nieprawidłowa rewizja ustawień."
+  },
+  "error_NATIVE_SUCCESSOR_UNSUPPORTED": {
+    "message": "Ta grupa używa nieobsługiwanego proxy następującego."
+  },
+  "error_NATIVE_UNSUPPORTED_CUSTOM": {
+    "message": "Ta wersja nie obsługuje niestandardowych konfiguracji wyjściowych."
+  },
+  "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
+    "message": "Ta wersja nie obsługuje Hysteria2."
+  },
+  "error_NATIVE_UNSUPPORTED_TUIC": {
+    "message": "Ta wersja nie zawiera rdzenia sing-box wymaganego przez TUIC."
+  },
+  "error_NATIVE_UNSUPPORTED_TYPE": {
+    "message": "Ten typ trasy nie jest obsługiwany."
+  },
+  "error_NATIVE_V2RAYN_PORT": {
+    "message": "Lokalny port v2rayN jest nieprawidłowy."
+  },
+  "error_NATIVE_V2RAYN_UNAVAILABLE": {
+    "message": "v2rayN jest niedostępny. Wybierz zaimportowany węzeł."
+  },
+  "error_NETWORK_FAILED": {
+    "message": "Żądanie sieciowe nie powiodło się. Sprawdź połączenie i spróbuj ponownie."
+  },
+  "error_NETWORK_TEST_FAILED": {
+    "message": "Diagnostyka sieci nie powiodła się. Zobacz szczegóły techniczne."
+  },
+  "error_NODE_LIMIT": {
+    "message": "Operacja przekroczyłaby limit węzłów. Usuń nieużywane węzły i spróbuj ponownie."
+  },
+  "error_NODE_MAPPING_INCOMPLETE": {
+    "message": "Mapowanie węzłów jest niepełne"
+  },
+  "error_NODE_NOT_FOUND": {
+    "message": "Wybrany węzeł już nie istnieje. Wybierz inny węzeł."
+  },
+  "error_NOT_DUE": {
+    "message": "Nie nadszedł jeszcze czas następnej zaplanowanej aktualizacji."
+  },
+  "error_PAC_ENTRY_REQUIRED": {
+    "message": "Podaj kod PAC z FindProxyForURL"
+  },
+  "error_PAC_FUNCTION_REQUIRED": {
+    "message": "Zdefiniuj synchroniczną funkcję FindProxyForURL, zmienną funkcyjną lub przypisanie na najwyższym poziomie"
+  },
+  "error_PAC_PARSER_UNAVAILABLE": {
+    "message": "Dołączony parser PAC jest niedostępny; zainstaluj rozszerzenie ponownie"
+  },
+  "error_PAC_RULE_TARGET_UNSUPPORTED": {
+    "message": "Reguły automatyczne nie mogą wskazywać profilu z osadzonym PAC"
+  },
+  "error_PAC_SOURCE_LIMIT": {
+    "message": "Podaj kod PAC o długości najwyżej {limit} znaków"
+  },
+  "error_PAC_SYNTAX_INVALID": {
+    "message": "Nieprawidłowa składnia PAC"
+  },
+  "error_PAC_SYNTAX_LOCATION": {
+    "message": "Nieprawidłowa składnia PAC w wierszu {line}, kolumnie {column}"
+  },
+  "error_PARTIAL_TRANSFER": {
+    "message": "Transfer testowy zakończył się przed odebraniem wszystkich danych."
+  },
+  "error_PRIVATE_DIRECTORY_FAILED": {
+    "message": "Nie udało się zabezpieczyć prywatnego folderu testowego. Test zatrzymano."
+  },
+  "error_PRIVATE_TARGET": {
+    "message": "Żądania subskrypcji do adresów prywatnych lub lokalnych są niedozwolone."
+  },
+  "error_PROFILE_NOT_FOUND": {
+    "message": "Nie znaleziono profilu"
+  },
+  "error_PROFILE_REFERENCE_CYCLE": {
+    "message": "Cykliczne odwołania między profilami"
+  },
+  "error_PROFILE_REFERENCE_DEPTH": {
+    "message": "Reguły automatyczne przekraczają maksymalną głębokość {limit}"
+  },
+  "error_PROFILE_REFERENCE_MISSING": {
+    "message": "Wskazany profil nie istnieje: {name}"
+  },
+  "error_PROFILE_SAVE_RESTORE_FAILED": {
+    "message": "Zapis nie powiódł się, a przywracanie trasy wymaga uwagi"
+  },
+  "error_PROXY_AUTH_REQUIRED": {
+    "message": "Proxy subskrypcji wymaga uwierzytelniania, którego to żądanie nie może zapewnić."
+  },
+  "error_PROXY_CONTROL_UNAVAILABLE": {
+    "message": "Inne rozszerzenie lub zasada steruje proxy"
+  },
+  "error_PROXY_DNS_REQUIRED": {
+    "message": "W V2Route rozwiązywanie DNS dla SOCKS5 odbywa się przez proxy"
+  },
+  "error_PROXY_FAILED": {
+    "message": "Połączenie z proxy nie powiodło się. Sprawdź wybraną trasę."
+  },
+  "error_PROXY_PROFILE_REQUIRED": {
+    "message": "Wybierz profil proxy"
+  },
+  "error_PROXY_ROLLBACK_REFUSED": {
+    "message": "Przeglądarka odmówiła przywrócenia poprzedniego proxy"
+  },
+  "error_PROXY_SETTING_REFUSED": {
+    "message": "Przeglądarka odrzuciła ustawienie proxy"
+  },
+  "error_PROXY_UNAVAILABLE": {
+    "message": "Wybrane proxy jest niedostępne. Sprawdź bieżącą trasę."
+  },
+  "error_PROXY_USERNAME_REQUIRED": {
+    "message": "Podaj nazwę użytkownika proxy"
+  },
+  "error_RECOVERY_BINDINGS_LIMIT": {
+    "message": "Odzyskiwanie może przywrócić najwyżej {limit} powiązań węzłów. Otwórz i zapisz wskazane profile oddzielnie."
+  },
+  "error_REDIRECT_LIMIT": {
+    "message": "Subskrypcja wykonała zbyt wiele przekierowań. Sprawdź jej URL."
+  },
+  "error_REFERENCED_PROFILE_DELETE": {
+    "message": "Reguła automatyczna odwołuje się do tego profilu"
+  },
+  "error_REMOTE_PAC_UNSUPPORTED": {
+    "message": "Użyj osadzonego kodu PAC; zdalny PAC nie jest obsługiwany"
+  },
+  "error_ROUTE_PORT_UNAVAILABLE": {
+    "message": "Nie przydzielono portu"
+  },
+  "error_ROUTE_RECOVERY_RESTORE_FAILED": {
+    "message": "Odzyskiwanie trasy nie powiodło się, a przywracanie wymaga uwagi"
+  },
+  "error_ROUTE_REVISION_CONFLICT": {
+    "message": "Trasa zmieniła się w innym oknie. Najpierw odśwież widok"
+  },
+  "error_ROUTE_SAVE_ROLLBACK_FAILED": {
+    "message": "Zapis trasy nie powiódł się, a wycofanie zmian wymaga uwagi"
+  },
+  "error_ROUTE_UNAVAILABLE": {
+    "message": "Trasa testowa jest niedostępna. Sprawdź ustawienia węzła i proxy poprzedzającego."
+  },
+  "error_RULE_BINDING_MISSING": {
+    "message": "Brakuje powiązania reguły węzła. Otwórz ponownie i zapisz profil automatyczny: {name}"
+  },
+  "error_RULE_NODES_LIMIT": {
+    "message": "Reguły automatyczne obsługują najwyżej {limit} różnych węzłów"
+  },
+  "error_RULE_NODE_CHANGED": {
+    "message": "Węzeł reguły jest niedostępny lub zmieniony. Przywróć go albo wybierz inny węzeł i zapisz: {name}"
+  },
+  "error_RULE_PATH_CONFLICT": {
+    "message": "Sprzeczne ścieżki reguł węzłów"
+  },
+  "error_RULE_PATTERNS_LIMIT": {
+    "message": "Reguły automatyczne obsługują łącznie najwyżej {limit} wzorców dopasowania"
+  },
+  "error_RULE_PORT_UNAVAILABLE": {
+    "message": "Port reguły węzła jest niedostępny"
+  },
+  "error_RULE_REVISION_CONFLICT": {
+    "message": "Reguła węzła zmieniła się w innym oknie. Najpierw odśwież widok"
+  },
+  "error_SELECTED_NODE_UNAVAILABLE": {
+    "message": "Wybrany węzeł jest niedostępny. Przywróć go lub wybierz inny"
+  },
+  "error_SOCKS_FAILED": {
+    "message": "Nie udało się nawiązać połączenia SOCKS."
+  },
+  "error_STARTUP_FALLBACK_REFUSED": {
+    "message": "Przeglądarka odrzuciła awaryjne proxy przy uruchamianiu."
+  },
+  "error_SUBSCRIPTION_CHANGED": {
+    "message": "Subskrypcja zmieniła się podczas aktualizacji. Odśwież ją i spróbuj ponownie."
+  },
+  "error_SUBSCRIPTION_HTTP_STATUS": {
+    "message": "Serwer subskrypcji zwrócił HTTP {status}."
+  },
+  "error_SUBSCRIPTION_LIMIT": {
+    "message": "Osiągnięto limit subskrypcji. Usuń nieużywaną subskrypcję i spróbuj ponownie."
+  },
+  "error_SUBSCRIPTION_NOT_FOUND": {
+    "message": "Wybrana subskrypcja już nie istnieje."
+  },
+  "error_SYSTEM_PROXY_SNAPSHOT_UNAVAILABLE": {
+    "message": "Migawka zastosowanego proxy systemowego jest niedostępna."
+  },
+  "error_SYSTEM_PROXY_TIMEOUT": {
+    "message": "Upłynął limit czasu odczytu proxy systemowego"
+  },
+  "error_SYSTEM_PROXY_UNAVAILABLE": {
+    "message": "Proxy systemowe jest niedostępne. Zobacz szczegóły techniczne."
+  },
+  "error_TIMEOUT": {
+    "message": "Upłynął limit czasu żądania. Sprawdź połączenie i spróbuj ponownie."
+  },
+  "error_TLS_DOWNGRADE": {
+    "message": "Subskrypcję przekierowano z HTTPS do HTTP i zablokowano."
+  },
+  "error_TLS_FAILED": {
+    "message": "Nie udało się zweryfikować bezpiecznego połączenia. Sprawdź serwer i certyfikat."
+  },
+  "error_UNSAFE_TEMP_PATH": {
+    "message": "Tymczasowy folder testowy jest niebezpieczny. Test zatrzymano."
+  },
+  "error_UNSUPPORTED_LIBRARY_REQUEST": {
+    "message": "Nieobsługiwane żądanie biblioteki"
+  },
+  "error_UNSUPPORTED_PROFILE_TYPE": {
+    "message": "Nieobsługiwany typ profilu"
+  },
+  "error_UNSUPPORTED_REQUEST": {
+    "message": "Nieobsługiwane żądanie"
+  },
+  "error_UNSUPPORTED_RULE_CONDITION": {
+    "message": "Obsługiwane są tylko reguły z symbolami wieloznacznymi hosta i URL"
+  },
+  "error_UPDATE_FAILED": {
+    "message": "Aktualizacja subskrypcji nie powiodła się. Zachowano istniejące węzły."
+  },
+  "error_VALIDATION_FAILED": {
+    "message": "Nie udało się zweryfikować treści subskrypcji. Zachowano istniejące węzły."
+  },
+  "nativeUnnamedNode": {
+    "message": "Węzeł bez nazwy"
+  },
+  "nativeProtocolCustom": {
+    "message": "Niestandardowe"
+  },
+  "nativeProtocolOutbound": {
+    "message": "Niestandardowe połączenie wyjściowe"
+  },
+  "nativeProtocolGroup": {
+    "message": "Grupa zasad"
+  },
+  "nativeProtocolChain": {
+    "message": "Łańcuch proxy"
+  },
+  "nativeProtocolUnknown": {
+    "message": "Nieobsługiwany typ"
+  },
+  "languageLoadFailed": {
+    "message": "Nie udało się wczytać wybranego języka. Spróbuj ponownie."
+  },
+  "invalidBackupJSON": {
+    "message": "Kopia nie jest prawidłowym JSON."
+  },
+  "noticeBodyLanguages": {
+    "message": "Pełny tekst zasad jest dostępny po angielsku i chińsku uproszczonym."
+  },
+  "policyRules": {
+    "message": "Reguły routingu proxy"
+  },
+  "policyPriority": {
+    "message": "Kolejność: adresy pomijane → pierwsza pasująca reguła → trasa domyślna."
+  },
+  "policyDirectHelp": {
+    "message": "Adresy bez dopasowania łączą się bezpośrednio. Przycisk połączenia bezpośredniego też używa tych reguł."
+  },
+  "policySystemHelp": {
+    "message": "Adresy bez dopasowania używają systemowego proxy. Przycisk System też używa tych reguł."
+  },
+  "policyEmpty": {
+    "message": "Brak reguł. Używana jest trasa domyślna."
+  },
+  "policyAddressHelp": {
+    "message": "Domeny, wzorce domen, IP lub IP:port. Reguły IP porównują IP w URL, a nie wyniki DNS."
+  },
+  "policyMoveUp": {
+    "message": "Przenieś regułę w górę"
+  },
+  "policyMoveDown": {
+    "message": "Przenieś regułę w dół"
+  }
+}

@@ -1,0 +1,2150 @@
+{
+  "ruleTargetUnavailable": {
+    "message": "Unavailable target"
+  },
+  "rulePatternPlaceholder": {
+    "message": "example.com, *.example.org, 192.0.2.1:8443"
+  },
+  "rulePatternHelp": {
+    "message": "Separate addresses with commas. Keep each URL pattern on its own row. PAC may not see HTTPS paths."
+  },
+  "defaultChoice_direct": {
+    "message": "Connect without a proxy"
+  },
+  "defaultChoice_system": {
+    "message": "Use system proxy settings"
+  },
+  "defaultChoice_node": {
+    "message": "Use this profile’s selected node"
+  },
+  "defaultChoice_manual": {
+    "message": "Use this profile’s proxy settings"
+  },
+  "defaultChoice_auto": {
+    "message": "Apply this profile’s routing rules"
+  },
+  "nlHttpsLatency": {
+    "message": "HTTPS response"
+  },
+  "nlLatencyMethod": {
+    "message": "Cloudflare · Minimum of two responses · Connection reuse when available"
+  },
+  "nlLatencyFast": {
+    "message": "Fast"
+  },
+  "nlLatencyModerate": {
+    "message": "Moderate"
+  },
+  "nlLatencySlow": {
+    "message": "Slow"
+  },
+  "nlSortName": {
+    "message": "Name"
+  },
+  "nlSortLatency": {
+    "message": "Latency: low to high"
+  },
+  "nlSortDownload": {
+    "message": "Download: high to low"
+  },
+  "nlSortUpload": {
+    "message": "Upload: high to low"
+  },
+  "nlSingle": {
+    "message": "Single node"
+  },
+  "nlGroupBatch": {
+    "message": "Group / batch"
+  },
+  "nlTestScope": {
+    "message": "Test scope"
+  },
+  "nlCurrentNode": {
+    "message": "Selected node"
+  },
+  "nlCurrentGroup": {
+    "message": "Selected group"
+  },
+  "nlChooseNode": {
+    "message": "Choose a node in the list"
+  },
+  "nlStart": {
+    "message": "Start test"
+  },
+  "nlService": {
+    "message": "Test service"
+  },
+  "nlMeasured": {
+    "message": "measured"
+  },
+  "nlMeanLatency": {
+    "message": "Average latency"
+  },
+  "nlGroupBySource": {
+    "message": "By source group"
+  },
+  "nlPreviousPage": {
+    "message": "Previous page"
+  },
+  "nlNextPage": {
+    "message": "Next page"
+  },
+  "nlName": {
+    "message": "Name"
+  },
+  "nlEdit": {
+    "message": "Edit"
+  },
+  "nlStop": {
+    "message": "Stop"
+  },
+  "nlConfirm": {
+    "message": "Confirm"
+  },
+  "nlAllNodes": {
+    "message": "All nodes"
+  },
+  "nlNodeResults": {
+    "message": "Node results"
+  },
+  "nlTestCenter": {
+    "message": "Test center"
+  },
+  "nlNewGroup": {
+    "message": "New group"
+  },
+  "nlRenameGroup": {
+    "message": "Rename group"
+  },
+  "nlRemoveGroup": {
+    "message": "Remove group"
+  },
+  "nlRemoveGroupHelp": {
+    "message": "Keep every node and subscription, and move them to Imported nodes."
+  },
+  "nlNode": {
+    "message": "Node"
+  },
+  "nlStatus": {
+    "message": "Status"
+  },
+  "nlActions": {
+    "message": "Actions"
+  },
+  "nlSort": {
+    "message": "Sort this table only"
+  },
+  "nlSelected": {
+    "message": "selected"
+  },
+  "nlTestNode": {
+    "message": "Test"
+  },
+  "nlProfileShort": {
+    "message": "Profile"
+  },
+  "nlQuick": {
+    "message": "Quick latency"
+  },
+  "nlFull": {
+    "message": "Download + upload"
+  },
+  "nlTraffic": {
+    "message": "Test data size"
+  },
+  "nlConcurrency": {
+    "message": "Concurrent nodes"
+  },
+  "nlTrafficFullOnly": {
+    "message": "Used for download and upload tests"
+  },
+  "nlTestMode": {
+    "message": "Test mode"
+  },
+  "nlBudget": {
+    "message": "Maximum payload traffic"
+  },
+  "nlViaGroup": {
+    "message": "Via group pre-proxy"
+  },
+  "nlTestSelected": {
+    "message": "Test selected"
+  },
+  "nlTestVisible": {
+    "message": "Test shown nodes"
+  },
+  "nlTestAll": {
+    "message": "Test all nodes"
+  },
+  "nlTestGroup": {
+    "message": "Test group nodes"
+  },
+  "nlProgress": {
+    "message": "Measurement progress"
+  },
+  "nlReady": {
+    "message": "Choose nodes to start. No test has run."
+  },
+  "nlStarting": {
+    "message": "Starting isolated measurement…"
+  },
+  "nlQueued": {
+    "message": "Queued"
+  },
+  "nlRunning": {
+    "message": "Testing"
+  },
+  "nlStopping": {
+    "message": "Stopping…"
+  },
+  "nlComplete": {
+    "message": "Complete"
+  },
+  "nlFailed": {
+    "message": "Failed"
+  },
+  "nlStopped": {
+    "message": "Stopped"
+  },
+  "nlPartial": {
+    "message": "Partial"
+  },
+  "nlUntested": {
+    "message": "Not tested"
+  },
+  "nlSucceeded": {
+    "message": "passed"
+  },
+  "nlMeasureDisconnected": {
+    "message": "Measurement connection ended. Incomplete values are not final results."
+  },
+  "nlUpgrade": {
+    "message": "Update the local Companion to manage groups and subscriptions. Existing nodes remain available."
+  },
+  "nlOperationFailed": {
+    "message": "The operation could not be completed. Try again."
+  },
+  "nlEditSubscription": {
+    "message": "Edit subscription"
+  },
+  "nlPasteContent": {
+    "message": "Proxy links / content"
+  },
+  "nlSubscriptionURL": {
+    "message": "Subscription URL"
+  },
+  "nlKeepURL": {
+    "message": "Leave blank to keep the saved URL"
+  },
+  "nlConnectionPolicy": {
+    "message": "Update connection"
+  },
+  "nlProxyFirst": {
+    "message": "Proxy first, then direct on failure"
+  },
+  "nlProxyOnly": {
+    "message": "Proxy only"
+  },
+  "nlDirectOnly": {
+    "message": "Direct only"
+  },
+  "nlProxyFirstHelp": {
+    "message": "Proxy first stops after a successful fetch. Direct is tried only if the proxy attempt fails."
+  },
+  "nlAutoUpdate": {
+    "message": "Enable automatic updates"
+  },
+  "nlInterval": {
+    "message": "Update interval (minutes)"
+  },
+  "nlDestinationGroup": {
+    "message": "Destination group"
+  },
+  "nlSubscriptionOwnGroup": {
+    "message": "New group…"
+  },
+  "nlNameGroup": {
+    "message": "Name (group)"
+  },
+  "nlCustomGroup": {
+    "message": "Custom group"
+  },
+  "nlNameRequired": {
+    "message": "Enter a name."
+  },
+  "nlContentRequired": {
+    "message": "Paste proxy links or subscription content."
+  },
+  "nlGroupRequired": {
+    "message": "Choose a destination group."
+  },
+  "nlURLRequired": {
+    "message": "Enter an HTTP(S) subscription URL without a username or password."
+  },
+  "nlIntervalInvalid": {
+    "message": "Enter a whole number from 5 to 43200 minutes."
+  },
+  "folderTitle": {
+    "message": "Choose v2rayN folder"
+  },
+  "folderHint": {
+    "message": "Choose a folder, then apply it with Save connection settings."
+  },
+  "folderPath": {
+    "message": "Full local folder path"
+  },
+  "folderGo": {
+    "message": "Open"
+  },
+  "folderUp": {
+    "message": "Up"
+  },
+  "folderDrives": {
+    "message": "Drives"
+  },
+  "folderCurrent": {
+    "message": "Current path"
+  },
+  "folderChoose": {
+    "message": "Use this folder"
+  },
+  "folderList": {
+    "message": "Folders"
+  },
+  "folderTruncated": {
+    "message": "Listing is limited. Enter the full path above to open a folder not shown."
+  },
+  "folderReady": {
+    "message": "v2rayN files found. Use this folder to validate the configuration."
+  },
+  "folderInvalid": {
+    "message": "Choose the folder containing guiConfigs, guiNConfig.json and guiNDB.db."
+  },
+  "folderSelectDrive": {
+    "message": "Choose a local drive or enter a full folder path."
+  },
+  "folderEmpty": {
+    "message": "No visible subfolders."
+  },
+  "folderUnavailable": {
+    "message": "Cannot browse this folder. Check its path and access. If the Companion is older, update it first."
+  },
+  "folderValidating": {
+    "message": "Validating v2rayN configuration…"
+  },
+  "folderInvalidConfig": {
+    "message": "The v2rayN configuration or database is incomplete or invalid. Choose another folder."
+  },
+  "copyPath": {
+    "message": "Copy path"
+  },
+  "pathCopyHint": {
+    "message": "Copy the path currently in this field."
+  },
+  "preMode": {
+    "message": "Pre-proxy mode"
+  },
+  "preNode": {
+    "message": "Pre-proxy node"
+  },
+  "preIntro": {
+    "message": "Use the group chain, skip it, or choose a pre-proxy for this profile."
+  },
+  "healthLabel": {
+    "message": "Current connection status"
+  },
+  "healthOk": {
+    "message": "Normal"
+  },
+  "healthError": {
+    "message": "Abnormal"
+  },
+  "healthChecking": {
+    "message": "Checking"
+  },
+  "healthUnknown": {
+    "message": "Unconfirmed"
+  },
+  "autoSystemHelp": {
+    "message": "System rules require the Windows companion and a fixed-proxy snapshot. Reapply after system changes. PAC/WPAD are unsupported; System without rules uses native browser settings."
+  },
+  "backgroundUnavailable": {
+    "message": "Extension background is unavailable."
+  },
+  "backgroundNoResponse": {
+    "message": "The background did not respond."
+  },
+  "backupTooLarge": {
+    "message": "Backup exceeds 5 MB."
+  },
+  "proxyUsername": {
+    "message": "Username"
+  },
+  "proxyPassword": {
+    "message": "Password"
+  },
+  "proxyAuthHelp": {
+    "message": "Optional. Authenticated proxies connect through the Companion. Credentials are stored in this browser configuration and the Companion, and included in profile exports."
+  },
+  "proxyAuthSocks4": {
+    "message": "SOCKS4 does not support this username/password authentication; use HTTP(S) or SOCKS5."
+  },
+  "importExamples": {
+    "message": "Format examples"
+  },
+  "ipCopying": {
+    "message": "Copying…"
+  },
+  "netDnsUnavailable": {
+    "message": "The server address could not be resolved in time. Check the host or IP address and try again."
+  },
+  "netCurrentTarget": {
+    "message": "Selected proxy endpoint"
+  },
+  "netCustomTarget": {
+    "message": "Custom server"
+  },
+  "netHost": {
+    "message": "Host or IP address"
+  },
+  "netPort": {
+    "message": "TCP port"
+  },
+  "netHostRequired": {
+    "message": "Enter a server host or IP address."
+  },
+  "netCurrentUnavailable": {
+    "message": "Select a node or manual proxy profile, or enter a custom target."
+  },
+  "netInvalidTarget": {
+    "message": "Enter a valid diagnostic host and port."
+  },
+  "netIpv6PingUnavailable": {
+    "message": "IPv6 ICMP is not available; use TCPing."
+  },
+  "preNeedsFix": {
+    "message": "Choose a valid pre-proxy or no pre-proxy before saving."
+  },
+  "preConfigure": {
+    "message": "Configure pre-proxy"
+  },
+  "preFollowInvalid": {
+    "message": "Follow v2rayN does not accept a custom pre-proxy."
+  },
+  "followChainHelp": {
+    "message": "Follow uses the route and proxy chain already active in v2rayN."
+  },
+  "netTitle": {
+    "message": "Connection tests"
+  },
+  "ipTestDetails": {
+    "message": "Test details"
+  },
+  "netTarget": {
+    "message": "Ping / TCPing target"
+  },
+  "netDownload": {
+    "message": "Download test"
+  },
+  "netPartial": {
+    "message": "Partial sample"
+  },
+  "netComplete": {
+    "message": "Sample complete"
+  },
+  "netDirect": {
+    "message": "System network"
+  },
+  "netUnreachable": {
+    "message": "No reply / failed"
+  },
+  "netAverage": {
+    "message": "Average"
+  },
+  "predecessor": {
+    "message": "Pre-proxy"
+  },
+  "preInherit": {
+    "message": "Use the v2rayN group chain"
+  },
+  "preNone": {
+    "message": "No pre-proxy"
+  },
+  "preSpecific": {
+    "message": "Choose a node"
+  },
+  "preHelp": {
+    "message": "Applies to this profile. Use the v2rayN group chain, no pre-proxy or a specific node. Follow v2rayN uses its existing chain."
+  },
+  "preSelectRequired": {
+    "message": "Choose a pre-proxy node, or select Group default / None."
+  },
+  "ipPing0Permission": {
+    "message": "Allow Ping0 website access to load the public report."
+  },
+  "ipPublicChallenge": {
+    "message": "The website requires verification. Open the Ping0 page to complete it and view the result."
+  },
+  "ipPublicReport": {
+    "message": "Ping0 public report"
+  },
+  "ipPublicSource": {
+    "message": "Source: Ping0 public page"
+  },
+  "ipPublicOriginal": {
+    "message": "Ping0 report"
+  },
+  "ipPublicPartial": {
+    "message": "Only fields provided on the public page are shown, in their original language. Classifications and shared-user estimates are from Ping0."
+  },
+  "setupTitle": {
+    "message": "Connect Proxy V2Route"
+  },
+  "setupIntro": {
+    "message": "Install the Windows companion to use v2rayN routes or your own imported nodes."
+  },
+  "setupStepOne": {
+    "message": "Extract the matching complete Windows package to a permanent folder."
+  },
+  "setupStepTwo": {
+    "message": "Open V2Route-Setup.exe and click Install."
+  },
+  "setupStepThree": {
+    "message": "Return here and check the connection. Choose the v2rayN folder if needed."
+  },
+  "setupCheck": {
+    "message": "Check connection"
+  },
+  "downloadCompanion": {
+    "message": "Installation guide ↗"
+  },
+  "setupDownloadNote": {
+    "message": "Use the matching local Windows package, or follow the guide to build it from current source."
+  },
+  "chooseFolder": {
+    "message": "Choose v2rayN folder…"
+  },
+  "rescanDone": {
+    "message": "Local nodes rescanned"
+  },
+  "grouping": {
+    "message": "Group nodes"
+  },
+  "groupByCountry": {
+    "message": "By country"
+  },
+  "unknownCountry": {
+    "message": "Other / Unknown"
+  },
+  "ungrouped": {
+    "message": "Ungrouped"
+  },
+  "adjustNodeFilters": {
+    "message": "Try another group, source or search, or show hidden nodes."
+  },
+  "rescanLocal": {
+    "message": "Rescan v2rayN nodes"
+  },
+  "showHidden": {
+    "message": "Show hidden nodes"
+  },
+  "hideNode": {
+    "message": "Hide"
+  },
+  "restoreNode": {
+    "message": "Restore"
+  },
+  "hiddenNode": {
+    "message": "Hidden"
+  },
+  "hideNodeHelp": {
+    "message": "Hide only from this browser’s node library. v2rayN and existing profiles are unchanged."
+  },
+  "ipContextTimeout": {
+    "message": "Reading the current profile timed out. Try again."
+  },
+  "ipStaleResult": {
+    "message": "The current profile changed. This result may be outdated; check again."
+  },
+  "ip_tools": {
+    "message": "IP Tools"
+  },
+  "ipIntro": {
+    "message": "Current exit IP and public report."
+  },
+  "ipCurrentProfile": {
+    "message": "Current browser profile"
+  },
+  "ipRouteCaution": {
+    "message": "Automatic rules and PAC may use different routes for different destinations. This check describes only its own request."
+  },
+  "ipDisclosure": {
+    "message": "Auto-check exit IP · Report by Ping0"
+  },
+  "ipMethod": {
+    "message": "Address check"
+  },
+  "ipDual": {
+    "message": "IPv4 / IPv6"
+  },
+  "ipCheck": {
+    "message": "Check again"
+  },
+  "ipChecking": {
+    "message": "Checking…"
+  },
+  "ipDualHelp": {
+    "message": "IPv4 / IPv6 returns the address family used for this request, not both addresses."
+  },
+  "ipDurationHelp": {
+    "message": "Elapsed HTTP request time includes network and service response time. It is not ICMP ping or a bandwidth test."
+  },
+  "ipCopy": {
+    "message": "Copy IP"
+  },
+  "ipCopied": {
+    "message": "Copied"
+  },
+  "ipCopyFailed": {
+    "message": "Could not copy. Select the address and copy it manually."
+  },
+  "ipNoResult": {
+    "message": "No check yet"
+  },
+  "ipContextUnknown": {
+    "message": "Profile unavailable"
+  },
+  "ipTimeout": {
+    "message": "The check timed out. Try again or use another route."
+  },
+  "ipCancelled": {
+    "message": "Check cancelled"
+  },
+  "ipNetwork": {
+    "message": "Could not reach ipify. Check the connection and try again."
+  },
+  "ipHttp": {
+    "message": "The IP service did not accept the request. Try again later."
+  },
+  "ipInvalid": {
+    "message": "The IP service returned an invalid response."
+  },
+  "ipFailure": {
+    "message": "The check failed. Try again."
+  },
+  "ipStale": {
+    "message": "Your proxy settings changed during the check. The old result was discarded; check again."
+  },
+  "ipQuality": {
+    "message": "External tools"
+  },
+  "ipQualityPrivacy": {
+    "message": "Tools run only on click. Providers receive normal connection data. Website checks send credential-free requests after Start. Closing stops local tests; external tabs are managed by the browser."
+  },
+  "ipReport": {
+    "message": "Copy redacted report"
+  },
+  "ipReportCopied": {
+    "message": "Redacted report copied; no IP or profile names included."
+  },
+  "popupSelected": {
+    "message": "Selected"
+  },
+  "popupFooter": {
+    "message": "v2rayN & node profiles"
+  },
+  "subtitle": {
+    "message": "Independent browser routes"
+  },
+  "profiles": {
+    "message": "Profiles"
+  },
+  "nodes": {
+    "message": "Node Library"
+  },
+  "settings": {
+    "message": "Settings"
+  },
+  "connected": {
+    "message": "Active profile"
+  },
+  "noProfile": {
+    "message": "System default"
+  },
+  "newProfile": {
+    "message": "New profile"
+  },
+  "searchProfiles": {
+    "message": "Search profiles"
+  },
+  "direct": {
+    "message": "Direct network"
+  },
+  "system": {
+    "message": "System proxy"
+  },
+  "follow": {
+    "message": "Follow v2rayN"
+  },
+  "manual": {
+    "message": "Manual proxy"
+  },
+  "auto": {
+    "message": "Auto switch"
+  },
+  "pac": {
+    "message": "PAC script"
+  },
+  "virtual": {
+    "message": "Virtual profile"
+  },
+  "profileIntro": {
+    "message": "Choose a browser route without switching v2rayN’s main route."
+  },
+  "nodesIntro": {
+    "message": "Browse local v2rayN nodes and your imported links."
+  },
+  "settingsIntro": {
+    "message": "Local connection, language and appearance."
+  },
+  "refresh": {
+    "message": "Refresh"
+  },
+  "create": {
+    "message": "Create profile"
+  },
+  "name": {
+    "message": "Profile name"
+  },
+  "type": {
+    "message": "Profile type"
+  },
+  "save": {
+    "message": "Save"
+  },
+  "saved": {
+    "message": "Saved"
+  },
+  "saving": {
+    "message": "Saving…"
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "close": {
+    "message": "Close"
+  },
+  "apply": {
+    "message": "Use this profile"
+  },
+  "applied": {
+    "message": "Profile switched"
+  },
+  "active": {
+    "message": "Active"
+  },
+  "delete": {
+    "message": "Delete"
+  },
+  "remove": {
+    "message": "Remove"
+  },
+  "rename": {
+    "message": "Rename"
+  },
+  "route": {
+    "message": "Proxy route"
+  },
+  "selectRoute": {
+    "message": "Select a route"
+  },
+  "routeMissing": {
+    "message": "Route unavailable — select another"
+  },
+  "chain": {
+    "message": "Connection chain"
+  },
+  "connection": {
+    "message": "Local connection"
+  },
+  "proxy": {
+    "message": "Proxy server"
+  },
+  "address": {
+    "message": "Address"
+  },
+  "port": {
+    "message": "Port"
+  },
+  "scheme": {
+    "message": "Protocol"
+  },
+  "proxyDns": {
+    "message": "SOCKS5 DNS resolves through the proxy."
+  },
+  "connectedIdle": {
+    "message": "Connected · Idle"
+  },
+  "bypass": {
+    "message": "Bypass list"
+  },
+  "bypassHelp": {
+    "message": "One domain, wildcard domain, IP address or IP:port per line."
+  },
+  "advanced": {
+    "message": "Advanced options"
+  },
+  "searchRoutes": {
+    "message": "Search groups or nodes"
+  },
+  "selectGroup": {
+    "message": "Select a group"
+  },
+  "empty": {
+    "message": "No matching items"
+  },
+  "unavailable": {
+    "message": "Unavailable"
+  },
+  "groupHint": {
+    "message": "Hold a group for 250 ms, then drag. Alt + ↑ / ↓ also reorders. Changes save automatically."
+  },
+  "searchSort": {
+    "message": "Clear the search before sorting."
+  },
+  "dragHint": {
+    "message": "Move up or down, then release to save. Esc cancels."
+  },
+  "orderSaved": {
+    "message": "Group order saved"
+  },
+  "orderCancelled": {
+    "message": "Reordering cancelled"
+  },
+  "loading": {
+    "message": "Loading…"
+  },
+  "reading": {
+    "message": "Reading local nodes…"
+  },
+  "nativeMissing": {
+    "message": "Local component is not connected"
+  },
+  "retry": {
+    "message": "Retry"
+  },
+  "nativeHelp": {
+    "message": "Node routes require the Windows companion. Direct, System and manual proxies are available now."
+  },
+  "imported": {
+    "message": "Imported"
+  },
+  "v2rayn": {
+    "message": "v2rayN"
+  },
+  "allSources": {
+    "message": "All sources"
+  },
+  "importNodes": {
+    "message": "Import proxies"
+  },
+  "importTitle": {
+    "message": "Import proxies"
+  },
+  "importHelp": {
+    "message": "Paste proxy links, outbound JSON or a Base64 subscription. SOCKS supports plain or Base64 credentials. Scheme-free addresses use HTTP."
+  },
+  "importPrivacy": {
+    "message": "Proxy details and credentials are passed to the local Proxy V2Route companion for storage and connection to the proxy you select. The developer does not receive this information."
+  },
+  "import": {
+    "message": "Import profiles"
+  },
+  "nodeCount": {
+    "message": "nodes"
+  },
+  "source": {
+    "message": "Source"
+  },
+  "protocol": {
+    "message": "Protocol"
+  },
+  "useNode": {
+    "message": "Create profile"
+  },
+  "removeNode": {
+    "message": "Remove imported node?"
+  },
+  "removeNodeHelp": {
+    "message": "Profiles using this node must be reassigned before it can be removed."
+  },
+  "deleteProfile": {
+    "message": "Delete this profile?"
+  },
+  "deleteProfileHelp": {
+    "message": "This removes only this browser profile. Imported nodes and v2rayN configuration are kept."
+  },
+  "language": {
+    "message": "Language"
+  },
+  "automatic": {
+    "message": "Browser default"
+  },
+  "theme": {
+    "message": "Appearance"
+  },
+  "light": {
+    "message": "Light"
+  },
+  "dark": {
+    "message": "Dark"
+  },
+  "switchToEnglish": {
+    "message": "Switch to English"
+  },
+  "switchToChinese": {
+    "message": "Switch to Simplified Chinese"
+  },
+  "switchToLight": {
+    "message": "Switch to light appearance"
+  },
+  "switchToDark": {
+    "message": "Switch to dark appearance"
+  },
+  "localComponent": {
+    "message": "Companion component"
+  },
+  "ready": {
+    "message": "Connected"
+  },
+  "stopped": {
+    "message": "Not running"
+  },
+  "discovery": {
+    "message": "v2rayN detection"
+  },
+  "rootPath": {
+    "message": "v2rayN folder"
+  },
+  "corePath": {
+    "message": "Proxy core executable"
+  },
+  "optionalPath": {
+    "message": "Leave blank for automatic detection"
+  },
+  "pathsHelp": {
+    "message": "v2rayN is detected automatically; choose its folder if needed. Imported nodes use the included core."
+  },
+  "savePaths": {
+    "message": "Save connection settings"
+  },
+  "privacy": {
+    "message": "Settings stored locally"
+  },
+  "privacyText": {
+    "message": "Node links and credentials stay in the local companion. Browser traffic goes through your selected proxy to destination websites; the developer does not receive it."
+  },
+  "privacyDetails": {
+    "message": "Privacy and data flow"
+  },
+  "export": {
+    "message": "Export profiles"
+  },
+  "about": {
+    "message": "About Proxy V2Route"
+  },
+  "aboutText": {
+    "message": "Choose a browser route without switching v2rayN’s main route. Node routes use the Windows companion and your own nodes."
+  },
+  "licenses": {
+    "message": "Open-source notices"
+  },
+  "version": {
+    "message": "Version"
+  },
+  "fieldRequired": {
+    "message": "Enter a profile name."
+  },
+  "profileExists": {
+    "message": "A profile with this name already exists."
+  },
+  "ruleHelp": {
+    "message": "Separate domains in one row with commas. The first matching row wins. Keep the default route available."
+  },
+  "rules": {
+    "message": "Routing rules"
+  },
+  "pattern": {
+    "message": "Host pattern"
+  },
+  "target": {
+    "message": "Rule target"
+  },
+  "addRule": {
+    "message": "Add rule"
+  },
+  "defaultRoute": {
+    "message": "Default profile"
+  },
+  "pacHelp": {
+    "message": "Paste trusted PAC source containing FindProxyForURL. This script decides how website requests are routed."
+  },
+  "pacUrl": {
+    "message": "PAC URL"
+  },
+  "pacScript": {
+    "message": "PAC script"
+  },
+  "noSelection": {
+    "message": "Select a profile or create one."
+  },
+  "details": {
+    "message": "Details"
+  },
+  "noNodes": {
+    "message": "No nodes yet"
+  },
+  "noNodesHelp": {
+    "message": "Connect v2rayN or import proxy links, JSON or a subscription to get started."
+  },
+  "openSettings": {
+    "message": "Open settings"
+  },
+  "proxySettings": {
+    "message": "Proxy settings"
+  },
+  "switching": {
+    "message": "Switching…"
+  },
+  "updatedElsewhere": {
+    "message": "This profile changed in another window. Reopen it before saving."
+  },
+  "choose": {
+    "message": "Choose"
+  },
+  "popupIntro": {
+    "message": "Connection:"
+  },
+  "invalidPort": {
+    "message": "Enter a port from 1 to 65535."
+  },
+  "externalControl": {
+    "message": "Another extension or policy is controlling the browser proxy."
+  },
+  "noNativeRoute": {
+    "message": "Connect the local component before creating a node profile."
+  },
+  "reload": {
+    "message": "Reload"
+  },
+  "rulesError": {
+    "message": "Each rule needs a pattern and a target."
+  },
+  "backupDone": {
+    "message": "Browser profiles exported"
+  },
+  "managed": {
+    "message": "Managed node"
+  },
+  "netRegion": {
+    "message": "Target area"
+  },
+  "netNodeArea": {
+    "message": "Proxy node"
+  },
+  "netChina": {
+    "message": "Mainland China"
+  },
+  "netGlobal": {
+    "message": "Global"
+  },
+  "netAli": {
+    "message": "AliDNS"
+  },
+  "netTencent": {
+    "message": "DNSPod"
+  },
+  "netStartHelp": {
+    "message": "Choose a target, then start a live test."
+  },
+  "netConsole": {
+    "message": "Live diagnostics"
+  },
+  "netStop": {
+    "message": "Stop"
+  },
+  "netRunning": {
+    "message": "Running"
+  },
+  "netStopped": {
+    "message": "Stopped"
+  },
+  "netSent": {
+    "message": "Sent"
+  },
+  "netLoss": {
+    "message": "Loss"
+  },
+  "netAverageShort": {
+    "message": "Avg"
+  },
+  "netLogClear": {
+    "message": "Clear"
+  },
+  "netFinishing": {
+    "message": "Previous probe is finishing…"
+  },
+  "netRound": {
+    "message": "Round"
+  },
+  "netDestination": {
+    "message": "Destination"
+  },
+  "netHop": {
+    "message": "Hop"
+  },
+  "netAddress": {
+    "message": "IP address"
+  },
+  "netLast": {
+    "message": "Last"
+  },
+  "netConsoleHelp": {
+    "message": "Ping / TCPing / MTR use the system network, not the proxy chain. Missing ICMP replies do not prove traffic loss. Download uses the browser route and selected size limit. Tests stop when you leave or hide this page."
+  },
+  "netDirectShort": {
+    "message": "System network"
+  },
+  "netIcmpShort": {
+    "message": "No ICMP reply"
+  },
+  "netProbeError": {
+    "message": "Local probe error"
+  },
+  "netNoDestination": {
+    "message": "Destination not reached"
+  },
+  "deleteActive": {
+    "message": "Switch to system and delete"
+  },
+  "deleteActiveHelp": {
+    "message": "This profile is active. Deleting it switches the browser to system proxy."
+  },
+  "netDownloadSize": {
+    "message": "Download size"
+  },
+  "netReceived": {
+    "message": "Received"
+  },
+  "netBest": {
+    "message": "Best"
+  },
+  "netWorst": {
+    "message": "Worst"
+  },
+  "netStdDev": {
+    "message": "Std dev"
+  },
+  "netLocation": {
+    "message": "Location"
+  },
+  "toolWall": {
+    "message": "Domain blocking check"
+  },
+  "toolSites": {
+    "message": "Popular websites"
+  },
+  "toolGlobal": {
+    "message": "Global diagnostics"
+  },
+  "toolFast": {
+    "message": "Netflix speed"
+  },
+  "toolSpeed": {
+    "message": "Speed test"
+  },
+  "toolStart": {
+    "message": "Start"
+  },
+  "toolReady": {
+    "message": "Ready"
+  },
+  "toolResponded": {
+    "message": "Responded"
+  },
+  "toolNoResponse": {
+    "message": "Unconfirmed"
+  },
+  "toolCacheUnsupported": {
+    "message": "This browser cannot clear cache by site; the page has been reloaded."
+  },
+  "toolCacheFailed": {
+    "message": "Cache cleanup did not finish. Close and retry."
+  },
+  "toolClose": {
+    "message": "Close"
+  },
+  "toolReload": {
+    "message": "Reload"
+  },
+  "toolLoading": {
+    "message": "Loading…"
+  },
+  "toolFrameError": {
+    "message": "Could not load. Try Reload."
+  },
+  "toolSiteHelp": {
+    "message": "Browser reachability only. This does not verify account or regional access."
+  },
+  "toolFallback": {
+    "message": "Backup speed test"
+  },
+  "toolFullscreen": {
+    "message": "Fullscreen"
+  },
+  "toolRestore": {
+    "message": "Exit fullscreen"
+  },
+  "ipReadFailed": {
+    "message": "Read failed. 👉"
+  },
+  "ipViewSource": {
+    "message": "View source site"
+  },
+  "toolDownloadError": {
+    "message": "Could not reach the download server. Try again."
+  },
+  "toolAccess": {
+    "message": "Enable site access"
+  },
+  "toolPermission": {
+    "message": "Allow access to this site for embedded session compatibility."
+  },
+  "toolAsia": {
+    "message": "Asia"
+  },
+  "toolEurope": {
+    "message": "Europe"
+  },
+  "toolAmerica": {
+    "message": "North America"
+  },
+  "toolGlobalHelp": {
+    "message": "Pre-fills the browser exit IP. Choose mainland China or another region to compare paths; Start sends the displayed target to up to three Globalping probes."
+  },
+  "toolServiceError": {
+    "message": "The test service is unavailable. Try again."
+  },
+  "popupOrderHelp": {
+    "message": "Hold and drag to reorder. Alt+arrow keys also move this profile."
+  },
+  "popupOrderSaved": {
+    "message": "Order saved"
+  },
+  "toolGroupIP": {
+    "message": "IP tests"
+  },
+  "toolGroupWeb": {
+    "message": "Website tests"
+  },
+  "toolGroupSpeed": {
+    "message": "Speed"
+  },
+  "toolCurrentIP": {
+    "message": "Current exit IP"
+  },
+  "toolCurrentIPLoading": {
+    "message": "Loading current exit IP…"
+  },
+  "toolCurrentIPFailed": {
+    "message": "Could not read the current IP. Enter a target."
+  },
+  "speedMode": {
+    "message": "Test mode"
+  },
+  "speedBoth": {
+    "message": "Download + upload"
+  },
+  "speedDownload": {
+    "message": "Download"
+  },
+  "speedUpload": {
+    "message": "Upload"
+  },
+  "speedLatency": {
+    "message": "HTTP latency"
+  },
+  "speedBudget": {
+    "message": "{n} MiB per phase · {total} MiB total, plus small latency samples."
+  },
+  "siteCategory": {
+    "message": "Website category"
+  },
+  "siteAll": {
+    "message": "All websites"
+  },
+  "siteAI": {
+    "message": "AI"
+  },
+  "siteDevelopment": {
+    "message": "Development"
+  },
+  "siteVideo": {
+    "message": "Video / music"
+  },
+  "siteSocial": {
+    "message": "Social"
+  },
+  "siteDomestic": {
+    "message": "Mainland services"
+  },
+  "siteServices": {
+    "message": "Common services"
+  },
+  "globalMethod": {
+    "message": "Measurement type"
+  },
+  "localPort": {
+    "message": "Local port:"
+  },
+  "chainChooseNode": {
+    "message": "Choose a proxy node"
+  },
+  "chainTitle": {
+    "message": "Proxy chain"
+  },
+  "chainSelectExit": {
+    "message": "Choose a specific exit node below to save or test this custom chain. Follow v2rayN is managed by v2rayN."
+  },
+  "chainSelectExitShort": {
+    "message": "Select an exit node"
+  },
+  "chainAdd": {
+    "message": "+ Add proxy layer"
+  },
+  "chainTest": {
+    "message": "Test chain"
+  },
+  "chainMode": {
+    "message": "Chain mode"
+  },
+  "chainBase": {
+    "message": "Base Proxy"
+  },
+  "chainExit": {
+    "message": "Exit Proxy"
+  },
+  "chainEgress": {
+    "message": "Chain Egress"
+  },
+  "chainExitBadge": {
+    "message": "Exit IP"
+  },
+  "chainEntry": {
+    "message": "Chain Entry"
+  },
+  "chainTransit": {
+    "message": "Bridge Node"
+  },
+  "chainUntested": {
+    "message": "Not tested"
+  },
+  "chainMissing": {
+    "message": "Unavailable node"
+  },
+  "chainUnresolved": {
+    "message": "Cannot resolve the inherited chain. Repair the predecessor settings or choose a custom chain."
+  },
+  "chainUpgrade": {
+    "message": "Update the local companion to enable ordered chains."
+  },
+  "chainBusy": {
+    "message": "Another chain test is running"
+  },
+  "chainOK": {
+    "message": "Reachable"
+  },
+  "chainFailed": {
+    "message": "Failed hop in this test"
+  },
+  "chainBlocked": {
+    "message": "Not tested · previous hop failed"
+  },
+  "chainFailureHelp": {
+    "message": "This hop or the path to it did not pass. Later hops were not tested."
+  },
+  "chainAllOK": {
+    "message": "All cumulative paths responded"
+  },
+  "chainStopping": {
+    "message": "Stopping after the current bounded probe…"
+  },
+  "globalWorld": {
+    "message": "Worldwide"
+  },
+  "globalUnavailable": {
+    "message": "The target or region is unavailable. Check the target or choose another region."
+  },
+  "globalRateLimited": {
+    "message": "The service rate limit was reached. Try again later."
+  },
+  "globalNoResults": {
+    "message": "The service returned no probe results. Try another region."
+  },
+  "globalProbeFailed": {
+    "message": "Probe failed"
+  },
+  "globalProbeOffline": {
+    "message": "Probe offline"
+  },
+  "globalIcmpCaution": {
+    "message": "Missing ICMP replies alone do not prove blocking. Compare mainland and overseas paths and other test types."
+  },
+  "speedRealtime": {
+    "message": "Live speed"
+  },
+  "speedAverage": {
+    "message": "Average speed"
+  },
+  "ipToolsBrief": {
+    "message": "Third-party results are for reference."
+  },
+  "ipReportBrief": {
+    "message": "Results vary by exit IP and are for reference."
+  },
+  "toolPingPe": {
+    "message": "IP blocking check"
+  },
+  "toolTargetIP": {
+    "message": "Target IP"
+  },
+  "toolOpenPingPe": {
+    "message": "Open official test"
+  },
+  "toolInvalidIP": {
+    "message": "Enter a valid IPv4 or IPv6 address."
+  },
+  "toolInvalidPort": {
+    "message": "Enter a TCP port from 1 to 65535."
+  },
+  "toolExternalFailed": {
+    "message": "Could not open the website. Try again."
+  },
+  "ipBrowserReading": {
+    "message": "Reading Ping0 through the browser…"
+  },
+  "ipVerifyBrowser": {
+    "message": "Open verification page"
+  },
+  "policyCenter": {
+    "message": "Privacy, declaration & FAQ"
+  },
+  "policyCenterIntro": {
+    "message": "Local data handling, test limits and common answers."
+  },
+  "policyPrivacyTitle": {
+    "message": "Privacy policy"
+  },
+  "policyPrivacySummary": {
+    "message": "Profiles and credentials stay on this device. Popup checks and diagnostics contact their stated providers. No advertising or behavioral analytics."
+  },
+  "policyDeclarationTitle": {
+    "message": "Use and measurement statement"
+  },
+  "policyDeclarationSummary": {
+    "message": "This extension is a local route manager, not a proxy or VPN provider. Measurements are reference samples affected by network, proxy and provider conditions."
+  },
+  "policyFaqTitle": {
+    "message": "FAQ"
+  },
+  "policyFaqSummary": {
+    "message": "The Windows companion is required for local nodes and MTR. Latency can differ between browser, system and public probes. Stop a test or clear local data from Settings."
+  },
+  "policyDetailsLink": {
+    "message": "Read full details ↗"
+  },
+  "thirdPartyNotice": {
+    "message": "Open-source notices ↗"
+  },
+  "columnResizeHelp": {
+    "message": "Drag to resize; double-click to reset; use arrow keys to adjust"
+  },
+  "columnResize": {
+    "message": "Resize column"
+  },
+  "typeDescription_node": {
+    "message": "Connect through a proxy node"
+  },
+  "typeDescription_manual": {
+    "message": "Enter proxy settings manually"
+  },
+  "typeDescription_auto": {
+    "message": "Select a node using rules"
+  },
+  "typeDescription_pac": {
+    "message": "Route traffic using PAC rules"
+  },
+  "appDescription": {
+    "message": "Manage independent browser proxy routes, nodes, domain rules and connection checks. Node routes require the Windows companion."
+  },
+  "core_title": {
+    "message": "Proxy core"
+  },
+  "core_checking": {
+    "message": "Checking the local component…"
+  },
+  "core_ready": {
+    "message": "Xray is ready"
+  },
+  "core_missing": {
+    "message": "Proxy core is missing"
+  },
+  "core_external": {
+    "message": "Custom core: not verified"
+  },
+  "core_corrupt": {
+    "message": "Xray checksum mismatch — repair required"
+  },
+  "core_unreadable": {
+    "message": "Core file could not be checked"
+  },
+  "core_intro": {
+    "message": "The complete Windows package includes Xray. v2rayN is optional."
+  },
+  "core_verify": {
+    "message": "Check again"
+  },
+  "core_install": {
+    "message": "Install / repair core"
+  },
+  "core_installing": {
+    "message": "Downloading and verifying…"
+  },
+  "core_done": {
+    "message": "Core verified and ready"
+  },
+  "core_help": {
+    "message": "Repair uses a pinned official Xray release and verifies its checksum. Existing connections stay running."
+  },
+  "core_absent": {
+    "message": "Install the local component once, then return here to check the core."
+  },
+  "core_download": {
+    "message": "Installation guide"
+  },
+  "core_absentHelp": {
+    "message": "Use the matching Windows package or follow the guide to build it from source, then run setup."
+  },
+  "core_failed": {
+    "message": "Core operation failed. Try again or use the complete Windows package."
+  },
+  "core_version": {
+    "message": "Version"
+  },
+  "error_ACTIVE_PROFILE_DELETE": {
+    "message": "Switch to another profile before deleting"
+  },
+  "error_BACKUP_BINDING_TYPE": {
+    "message": "Only proxy profiles can have route bindings"
+  },
+  "error_BACKUP_FORMAT3_REQUIRED": {
+    "message": "Node rules require a format 3 portable backup"
+  },
+  "error_BACKUP_INDEPENDENT_PATH_REQUIRED": {
+    "message": "Backup must contain an independent node path"
+  },
+  "error_BACKUP_INTERNAL_BINDINGS": {
+    "message": "Backup contains internal bindings"
+  },
+  "error_BACKUP_MESSAGE_LIMIT": {
+    "message": "Node backup exceeds the Companion message limit"
+  },
+  "error_BACKUP_NODES_INCOMPLETE": {
+    "message": "Incomplete node backup"
+  },
+  "error_BACKUP_NODE_MISSING": {
+    "message": "Backup is missing a required node"
+  },
+  "error_BACKUP_NODE_PATHS_LIMIT": {
+    "message": "Backup supports at most {limit} node paths"
+  },
+  "error_BACKUP_PATH_INCOMPLETE": {
+    "message": "Incomplete node backup path"
+  },
+  "error_BACKUP_PROFILES_LIMIT": {
+    "message": "Backup supports at most {limit} profiles"
+  },
+  "error_BACKUP_PROXY_CONFLICT": {
+    "message": "Backup has conflicting proxy settings"
+  },
+  "error_BACKUP_SIZE_LIMIT": {
+    "message": "Backup exceeds {limit} MB"
+  },
+  "error_BACKUP_TRANSFER_UNAVAILABLE": {
+    "message": "Update or repair the companion to transfer node backups."
+  },
+  "error_BACKUP_UNUSED_NODES": {
+    "message": "Backup contains unreferenced nodes"
+  },
+  "error_BODY_TOO_LARGE": {
+    "message": "The subscription response exceeds the allowed size."
+  },
+  "error_BROWSER_API_FAILED": {
+    "message": "The browser operation failed. See technical details."
+  },
+  "error_BROWSER_PROXY_RESTORE_FAILED": {
+    "message": "Operation failed and the previous browser proxy could not be restored"
+  },
+  "error_BROWSER_SCHEDULING_UNAVAILABLE": {
+    "message": "Browser scheduling is unavailable."
+  },
+  "error_BUSY": {
+    "message": "Another operation is running. Try again shortly."
+  },
+  "error_CHAIN_PROBE_FAILED": {
+    "message": "Chain probe failed"
+  },
+  "error_COMPANION_BULK_RELEASE_REQUIRED": {
+    "message": "Upgrade the local companion to manage multiple node rules safely"
+  },
+  "error_COMPANION_CHAINS_REQUIRED": {
+    "message": "Upgrade the local companion to enable ordered chains"
+  },
+  "error_COMPANION_MESSAGE_LIMIT": {
+    "message": "Settings exceed the Companion message limit"
+  },
+  "error_COMPANION_OPERATION_FAILED": {
+    "message": "The local companion operation failed. See technical details."
+  },
+  "error_COMPANION_UNAVAILABLE": {
+    "message": "Install or repair the V2Route Companion"
+  },
+  "error_CONNECTION_CLOSED": {
+    "message": "The connection closed before the test finished."
+  },
+  "error_CORE_INSTALL_FAILED": {
+    "message": "Core installation failed. See technical details."
+  },
+  "error_CORE_OWNERSHIP_FAILED": {
+    "message": "The isolated test core could not be safely controlled. The test was stopped."
+  },
+  "error_CORE_START_FAILED": {
+    "message": "The isolated test core could not start. Check the companion and core installation."
+  },
+  "error_CORE_START_TIMEOUT": {
+    "message": "The isolated test core did not become ready in time."
+  },
+  "error_CORE_STATUS_UNAVAILABLE": {
+    "message": "The core status is unavailable. See technical details."
+  },
+  "error_CORE_VALIDATION_FAILED": {
+    "message": "Xray could not validate the imported nodes. Check their settings and try again."
+  },
+  "error_DETACH_PORT_CONFLICT": {
+    "message": "The managed port will be released. Enter a different manual proxy"
+  },
+  "error_DETACH_PROXY_REQUIRED": {
+    "message": "Enter the replacement manual proxy before detaching"
+  },
+  "error_DNS_BUSY": {
+    "message": "DNS lookup is busy. Try again shortly."
+  },
+  "error_DNS_FAILED": {
+    "message": "DNS lookup failed. Check the address and network connection."
+  },
+  "error_ENCODING_UNSUPPORTED": {
+    "message": "The subscription uses an unsupported content encoding."
+  },
+  "error_FIREFOX_PRIVATE_ACCESS_REQUIRED": {
+    "message": "Allow V2Route in private windows in extension details before changing proxy settings"
+  },
+  "error_FOLDER_UNAVAILABLE": {
+    "message": "Folder unavailable; check path, access and Companion version"
+  },
+  "error_GROUP_LIMIT": {
+    "message": "The group limit has been reached. Remove an unused group and try again."
+  },
+  "error_GROUP_NOT_EDITABLE": {
+    "message": "This source group cannot be edited here."
+  },
+  "error_GROUP_NOT_FOUND": {
+    "message": "The selected group no longer exists. Select another group."
+  },
+  "error_HTTP_ENCODING": {
+    "message": "The test server returned an unsupported encoding."
+  },
+  "error_HTTP_LENGTH": {
+    "message": "The test response size did not match the requested size."
+  },
+  "error_HTTP_RESPONSE_TOO_LARGE": {
+    "message": "The test response exceeded the allowed size."
+  },
+  "error_HTTP_STATUS": {
+    "message": "The test server returned an unsuccessful HTTP status."
+  },
+  "error_IMPORTED_PROXY_MISSING": {
+    "message": "Companion did not return the imported proxy"
+  },
+  "error_IMPORTED_RULE_PATH_CONFLICT": {
+    "message": "Imported nodes resolve to conflicting rule paths"
+  },
+  "error_IMPORT_CLEANUP_FAILED": {
+    "message": "Import failed; some temporary nodes or ports could not be released. Existing profiles were retained"
+  },
+  "error_IMPORT_PROFILE_NAME_CONFLICT": {
+    "message": "Duplicate or invalid profile name"
+  },
+  "error_INCOMPLETE_RESPONSE": {
+    "message": "The subscription response was incomplete. Try again."
+  },
+  "error_INVALID_BACKUP": {
+    "message": "Invalid V2Route backup"
+  },
+  "error_INVALID_BACKUP_NODE": {
+    "message": "Invalid or duplicate backup node"
+  },
+  "error_INVALID_BACKUP_NODES": {
+    "message": "Invalid backup nodes"
+  },
+  "error_INVALID_BACKUP_PATH": {
+    "message": "Invalid backup path"
+  },
+  "error_INVALID_BYPASS_ENTRY": {
+    "message": "Invalid bypass entry"
+  },
+  "error_INVALID_BYPASS_LIST": {
+    "message": "Invalid bypass list"
+  },
+  "error_INVALID_CHAIN": {
+    "message": "Invalid ordered chain"
+  },
+  "error_INVALID_CHAIN_PROBE": {
+    "message": "Invalid chain probe"
+  },
+  "error_INVALID_COMPANION_RESPONSE": {
+    "message": "The local companion returned an invalid response. Update or repair it."
+  },
+  "error_INVALID_CONTENT": {
+    "message": "The subscription response does not contain valid content."
+  },
+  "error_INVALID_DOMAIN_PATTERNS": {
+    "message": "Enter comma-separated domain patterns; put each URL on its own row"
+  },
+  "error_INVALID_ENCODING": {
+    "message": "The subscription response is not valid UTF-8 text."
+  },
+  "error_INVALID_FOLDER_REQUEST": {
+    "message": "Invalid folder request"
+  },
+  "error_INVALID_GROUP_ACTION": {
+    "message": "This group action is not supported."
+  },
+  "error_INVALID_HOP_INDEX": {
+    "message": "Invalid hop index"
+  },
+  "error_INVALID_LEGACY_PREDECESSOR": {
+    "message": "Invalid legacy predecessor"
+  },
+  "error_INVALID_LIBRARY_COMMAND": {
+    "message": "This node-library command is not supported."
+  },
+  "error_INVALID_LIBRARY_REQUEST": {
+    "message": "Invalid library request"
+  },
+  "error_INVALID_NAME": {
+    "message": "Enter a name with 1–128 visible characters and no control characters."
+  },
+  "error_INVALID_NETWORK_TEST": {
+    "message": "Invalid network test"
+  },
+  "error_INVALID_NODE_IMPORT_RESPONSE": {
+    "message": "Invalid node import response"
+  },
+  "error_INVALID_PREDECESSOR": {
+    "message": "Invalid predecessor for this route"
+  },
+  "error_INVALID_PROFILE_NAME": {
+    "message": "Invalid profile name"
+  },
+  "error_INVALID_PROFILE_REFERENCE": {
+    "message": "Invalid profile reference"
+  },
+  "error_INVALID_PROXY_AUTH": {
+    "message": "Invalid proxy authentication"
+  },
+  "error_INVALID_PROXY_CREDENTIALS": {
+    "message": "Invalid proxy credentials"
+  },
+  "error_INVALID_PROXY_ENDPOINT": {
+    "message": "Enter a valid proxy host and port"
+  },
+  "error_INVALID_PROXY_HOST": {
+    "message": "Enter a DNS name or IP address without a port, URL, path or query"
+  },
+  "error_INVALID_ROUTE": {
+    "message": "Invalid route"
+  },
+  "error_INVALID_ROUTE_SETTINGS": {
+    "message": "Invalid route settings"
+  },
+  "error_INVALID_RULES": {
+    "message": "Invalid rules"
+  },
+  "error_INVALID_RULE_TARGET": {
+    "message": "Choose one valid node or profile for each rule"
+  },
+  "error_INVALID_SUBSCRIPTION": {
+    "message": "Invalid subscription"
+  },
+  "error_INVALID_SUBSCRIPTION_REQUEST": {
+    "message": "Invalid subscription request"
+  },
+  "error_INVALID_SUBSCRIPTION_SETTINGS": {
+    "message": "The subscription settings are invalid. Check the update interval and connection policy."
+  },
+  "error_INVALID_SYSTEM_PROXY_RESPONSE": {
+    "message": "Invalid system proxy response; update or repair the companion"
+  },
+  "error_INVALID_TRANSPORT": {
+    "message": "The subscription connection settings are invalid."
+  },
+  "error_INVALID_URL": {
+    "message": "Enter a valid HTTP(S) subscription URL without a username or password."
+  },
+  "error_LIBRARY_CHANGED": {
+    "message": "The node library changed in another window. Refresh it and try again."
+  },
+  "error_MANUAL_CHAIN_UNSUPPORTED": {
+    "message": "Manual proxies do not accept a node chain"
+  },
+  "error_MANUAL_PROXY_CLEANUP_FAILED": {
+    "message": "Save failed; a temporary imported proxy remains in the node library"
+  },
+  "error_NATIVE_BINDING_ID": {
+    "message": "Invalid route binding identifier."
+  },
+  "error_NATIVE_BINDING_UNKNOWN": {
+    "message": "The route binding does not exist."
+  },
+  "error_NATIVE_BUTTON_NAME": {
+    "message": "The button name must contain 1–128 visible characters."
+  },
+  "error_NATIVE_CATALOG_UNREADABLE": {
+    "message": "The v2rayN configuration could not be read."
+  },
+  "error_NATIVE_CORE_MISSING": {
+    "message": "Xray is unavailable. Install the companion package."
+  },
+  "error_NATIVE_GROUP_ID_COLLISION": {
+    "message": "Group identifiers conflict."
+  },
+  "error_NATIVE_GROUP_ORDER": {
+    "message": "Invalid group order."
+  },
+  "error_NATIVE_NODE_ID_COLLISION": {
+    "message": "Node identifiers conflict."
+  },
+  "error_NATIVE_PREDECESSOR_AMBIGUOUS": {
+    "message": "The predecessor name is missing or duplicated. Select a specific predecessor node."
+  },
+  "error_NATIVE_PREDECESSOR_CYCLE": {
+    "message": "The predecessor chain contains a cycle or exceeds six nodes."
+  },
+  "error_NATIVE_PREDECESSOR_INVALID": {
+    "message": "Select a valid predecessor proxy."
+  },
+  "error_NATIVE_PREDECESSOR_MISSING": {
+    "message": "The selected predecessor no longer exists. Select another node."
+  },
+  "error_NATIVE_PREDECESSOR_SETTINGS": {
+    "message": "Invalid predecessor settings."
+  },
+  "error_NATIVE_ROUTE_INVALID": {
+    "message": "Select a valid route."
+  },
+  "error_NATIVE_ROUTE_MISSING": {
+    "message": "This route no longer exists. Select another route."
+  },
+  "error_NATIVE_ROUTE_PORTS": {
+    "message": "Invalid route port assignments."
+  },
+  "error_NATIVE_ROUTE_UNAVAILABLE": {
+    "message": "The selected route is unavailable. See technical details."
+  },
+  "error_NATIVE_SETTINGS_FORMAT": {
+    "message": "Invalid settings format."
+  },
+  "error_NATIVE_SETTINGS_REVISION": {
+    "message": "Invalid settings revision."
+  },
+  "error_NATIVE_SUCCESSOR_UNSUPPORTED": {
+    "message": "This group uses a successor proxy that is not supported."
+  },
+  "error_NATIVE_UNSUPPORTED_CUSTOM": {
+    "message": "This version does not support custom outbound configurations."
+  },
+  "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
+    "message": "This version does not support Hysteria2."
+  },
+  "error_NATIVE_UNSUPPORTED_TUIC": {
+    "message": "This version does not integrate the sing-box core required for TUIC."
+  },
+  "error_NATIVE_UNSUPPORTED_TYPE": {
+    "message": "This route type is not supported."
+  },
+  "error_NATIVE_V2RAYN_PORT": {
+    "message": "The local v2rayN port is invalid."
+  },
+  "error_NATIVE_V2RAYN_UNAVAILABLE": {
+    "message": "v2rayN is unavailable. Select an imported node."
+  },
+  "error_NETWORK_FAILED": {
+    "message": "The network request failed. Check the connection and try again."
+  },
+  "error_NETWORK_TEST_FAILED": {
+    "message": "The network diagnostic failed. See technical details."
+  },
+  "error_NODE_LIMIT": {
+    "message": "The operation would exceed the node limit. Remove unused nodes and try again."
+  },
+  "error_NODE_MAPPING_INCOMPLETE": {
+    "message": "Node mapping is incomplete"
+  },
+  "error_NODE_NOT_FOUND": {
+    "message": "The selected node no longer exists. Select another node."
+  },
+  "error_NOT_DUE": {
+    "message": "The next scheduled update is not due yet."
+  },
+  "error_PAC_ENTRY_REQUIRED": {
+    "message": "Enter PAC source with FindProxyForURL"
+  },
+  "error_PAC_FUNCTION_REQUIRED": {
+    "message": "Define a synchronous top-level FindProxyForURL function, function variable or assignment"
+  },
+  "error_PAC_PARSER_UNAVAILABLE": {
+    "message": "The packaged PAC parser is unavailable; reinstall the extension"
+  },
+  "error_PAC_RULE_TARGET_UNSUPPORTED": {
+    "message": "Automatic rules cannot target an inline PAC profile"
+  },
+  "error_PAC_SOURCE_LIMIT": {
+    "message": "Enter PAC source of at most {limit} characters"
+  },
+  "error_PAC_SYNTAX_INVALID": {
+    "message": "Invalid PAC syntax"
+  },
+  "error_PAC_SYNTAX_LOCATION": {
+    "message": "Invalid PAC syntax at line {line}, column {column}"
+  },
+  "error_PARTIAL_TRANSFER": {
+    "message": "The test transfer ended before all data was received."
+  },
+  "error_PRIVATE_DIRECTORY_FAILED": {
+    "message": "The private test folder could not be secured. The test was stopped."
+  },
+  "error_PRIVATE_TARGET": {
+    "message": "Subscription requests to private or local addresses are not allowed."
+  },
+  "error_PROFILE_NOT_FOUND": {
+    "message": "Profile not found"
+  },
+  "error_PROFILE_REFERENCE_CYCLE": {
+    "message": "Circular profile references"
+  },
+  "error_PROFILE_REFERENCE_DEPTH": {
+    "message": "Automatic rules exceed the maximum depth of {limit}"
+  },
+  "error_PROFILE_REFERENCE_MISSING": {
+    "message": "Referenced profile does not exist: {name}"
+  },
+  "error_PROFILE_SAVE_RESTORE_FAILED": {
+    "message": "Save failed and route restoration needs attention"
+  },
+  "error_PROXY_AUTH_REQUIRED": {
+    "message": "The subscription proxy requires authentication that this request cannot provide."
+  },
+  "error_PROXY_CONTROL_UNAVAILABLE": {
+    "message": "Another extension or policy controls the proxy"
+  },
+  "error_PROXY_DNS_REQUIRED": {
+    "message": "SOCKS5 DNS is resolved through the proxy in V2Route"
+  },
+  "error_PROXY_FAILED": {
+    "message": "The proxy connection failed. Check the selected route."
+  },
+  "error_PROXY_PROFILE_REQUIRED": {
+    "message": "Choose a proxy profile"
+  },
+  "error_PROXY_ROLLBACK_REFUSED": {
+    "message": "Browser refused proxy rollback"
+  },
+  "error_PROXY_SETTING_REFUSED": {
+    "message": "Browser refused the proxy setting"
+  },
+  "error_PROXY_UNAVAILABLE": {
+    "message": "The selected proxy is unavailable. Check the current route."
+  },
+  "error_PROXY_USERNAME_REQUIRED": {
+    "message": "Enter a proxy username"
+  },
+  "error_RECOVERY_BINDINGS_LIMIT": {
+    "message": "Recovery can restore at most {limit} node bindings. Open and save the referenced profiles separately."
+  },
+  "error_REDIRECT_LIMIT": {
+    "message": "The subscription redirected too many times. Check its URL."
+  },
+  "error_REFERENCED_PROFILE_DELETE": {
+    "message": "This profile is referenced by an automatic rule"
+  },
+  "error_REMOTE_PAC_UNSUPPORTED": {
+    "message": "Use inline PAC source; remote PAC is not supported"
+  },
+  "error_ROUTE_PORT_UNAVAILABLE": {
+    "message": "No port was allocated"
+  },
+  "error_ROUTE_RECOVERY_RESTORE_FAILED": {
+    "message": "Route recovery failed and restoration needs attention"
+  },
+  "error_ROUTE_REVISION_CONFLICT": {
+    "message": "Route changed in another window. Refresh first"
+  },
+  "error_ROUTE_SAVE_ROLLBACK_FAILED": {
+    "message": "Route save failed and rollback needs attention"
+  },
+  "error_ROUTE_UNAVAILABLE": {
+    "message": "The test route is unavailable. Check the node and predecessor settings."
+  },
+  "error_RULE_BINDING_MISSING": {
+    "message": "Node rule binding is missing. Reopen and save the automatic profile: {name}"
+  },
+  "error_RULE_NODES_LIMIT": {
+    "message": "Automatic rules support at most {limit} distinct nodes"
+  },
+  "error_RULE_NODE_CHANGED": {
+    "message": "Node rule unavailable or changed. Restore the node or select another node and save: {name}"
+  },
+  "error_RULE_PATH_CONFLICT": {
+    "message": "Conflicting node rule paths"
+  },
+  "error_RULE_PATTERNS_LIMIT": {
+    "message": "Automatic rules support at most {limit} total matching patterns"
+  },
+  "error_RULE_PORT_UNAVAILABLE": {
+    "message": "Node rule port is unavailable"
+  },
+  "error_RULE_REVISION_CONFLICT": {
+    "message": "Node rule changed in another window. Refresh first"
+  },
+  "error_SELECTED_NODE_UNAVAILABLE": {
+    "message": "Selected node is unavailable. Restore it or choose another node"
+  },
+  "error_SOCKS_FAILED": {
+    "message": "The SOCKS connection could not be established."
+  },
+  "error_STARTUP_FALLBACK_REFUSED": {
+    "message": "The browser refused the startup fallback proxy."
+  },
+  "error_SUBSCRIPTION_CHANGED": {
+    "message": "The subscription changed during the update. Refresh it and try again."
+  },
+  "error_SUBSCRIPTION_HTTP_STATUS": {
+    "message": "The subscription server returned HTTP {status}."
+  },
+  "error_SUBSCRIPTION_LIMIT": {
+    "message": "The subscription limit has been reached. Remove an unused subscription and try again."
+  },
+  "error_SUBSCRIPTION_NOT_FOUND": {
+    "message": "The selected subscription no longer exists."
+  },
+  "error_SYSTEM_PROXY_SNAPSHOT_UNAVAILABLE": {
+    "message": "The applied system proxy snapshot is unavailable."
+  },
+  "error_SYSTEM_PROXY_TIMEOUT": {
+    "message": "Reading the system proxy timed out"
+  },
+  "error_SYSTEM_PROXY_UNAVAILABLE": {
+    "message": "The system proxy is unavailable. See technical details."
+  },
+  "error_TIMEOUT": {
+    "message": "The request timed out. Check the connection and try again."
+  },
+  "error_TLS_DOWNGRADE": {
+    "message": "The subscription redirected from HTTPS to HTTP and was blocked."
+  },
+  "error_TLS_FAILED": {
+    "message": "The secure connection could not be verified. Check the server and certificate."
+  },
+  "error_UNSAFE_TEMP_PATH": {
+    "message": "The temporary test folder is unsafe. The test was stopped."
+  },
+  "error_UNSUPPORTED_LIBRARY_REQUEST": {
+    "message": "Unsupported library request"
+  },
+  "error_UNSUPPORTED_PROFILE_TYPE": {
+    "message": "Unsupported profile type"
+  },
+  "error_UNSUPPORTED_REQUEST": {
+    "message": "Unsupported request"
+  },
+  "error_UNSUPPORTED_RULE_CONDITION": {
+    "message": "Only host and URL wildcard rules are supported"
+  },
+  "error_UPDATE_FAILED": {
+    "message": "The subscription update failed. Existing nodes were kept."
+  },
+  "error_VALIDATION_FAILED": {
+    "message": "The subscription content could not be validated. Existing nodes were kept."
+  },
+  "nativeUnnamedNode": {
+    "message": "Unnamed node"
+  },
+  "nativeProtocolCustom": {
+    "message": "Custom"
+  },
+  "nativeProtocolOutbound": {
+    "message": "Custom outbound"
+  },
+  "nativeProtocolGroup": {
+    "message": "Policy group"
+  },
+  "nativeProtocolChain": {
+    "message": "Proxy chain"
+  },
+  "nativeProtocolUnknown": {
+    "message": "Unsupported type"
+  },
+  "languageLoadFailed": {
+    "message": "Could not load the selected language. Try again."
+  },
+  "invalidBackupJSON": {
+    "message": "The backup is not valid JSON."
+  },
+  "noticeBodyLanguages": {
+    "message": "The full policy text is available in English and Simplified Chinese."
+  },
+  "policyRules": {
+    "message": "Proxy routing policies"
+  },
+  "policyPriority": {
+    "message": "Order: bypass addresses → first matching policy → default route."
+  },
+  "policyDirectHelp": {
+    "message": "Unmatched addresses connect directly. The popup Direct button uses these policies too."
+  },
+  "policySystemHelp": {
+    "message": "Unmatched addresses use the system proxy. The popup System button uses these rules too."
+  },
+  "policyEmpty": {
+    "message": "No policies yet. The default route is used."
+  },
+  "policyAddressHelp": {
+    "message": "Domains, wildcard domains, IP addresses or IP:port. IP rules match the IP in the URL, not DNS results."
+  },
+  "policyMoveUp": {
+    "message": "Move policy up"
+  },
+  "policyMoveDown": {
+    "message": "Move policy down"
+  }
+}

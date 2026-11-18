@@ -1,0 +1,2150 @@
+{
+  "ruleTargetUnavailable": {
+    "message": "Niet beschikbaar doel"
+  },
+  "rulePatternPlaceholder": {
+    "message": "example.com, *.example.org, 192.0.2.1:8443"
+  },
+  "rulePatternHelp": {
+    "message": "Scheid adressen met komma’s. Elk URL-patroon op een eigen regel. PAC kan HTTPS-paden mogelijk niet zien."
+  },
+  "defaultChoice_direct": {
+    "message": "Maak verbinding zonder proxy"
+  },
+  "defaultChoice_system": {
+    "message": "Gebruik systeemproxy-instellingen"
+  },
+  "defaultChoice_node": {
+    "message": "Gebruik het geselecteerde knooppunt van dit profiel"
+  },
+  "defaultChoice_manual": {
+    "message": "Gebruik de proxy-instellingen van dit profiel"
+  },
+  "defaultChoice_auto": {
+    "message": "Pas de routeringsregels van dit profiel toe"
+  },
+  "nlHttpsLatency": {
+    "message": "HTTPS antwoord"
+  },
+  "nlLatencyMethod": {
+    "message": "Cloudflare · Minimaal twee reacties · Hergebruik van verbinding indien beschikbaar"
+  },
+  "nlLatencyFast": {
+    "message": "Snel"
+  },
+  "nlLatencyModerate": {
+    "message": "Matig"
+  },
+  "nlLatencySlow": {
+    "message": "Langzaam"
+  },
+  "nlSortName": {
+    "message": "Naam"
+  },
+  "nlSortLatency": {
+    "message": "Latentie: laag naar hoog"
+  },
+  "nlSortDownload": {
+    "message": "Downloaden: van hoog naar laag"
+  },
+  "nlSortUpload": {
+    "message": "Uploaden: van hoog naar laag"
+  },
+  "nlSingle": {
+    "message": "Eén knooppunt"
+  },
+  "nlGroupBatch": {
+    "message": "Groep/batch"
+  },
+  "nlTestScope": {
+    "message": "Testbereik"
+  },
+  "nlCurrentNode": {
+    "message": "Geselecteerd knooppunt"
+  },
+  "nlCurrentGroup": {
+    "message": "Geselecteerde groep"
+  },
+  "nlChooseNode": {
+    "message": "Kies een knooppunt in de lijst"
+  },
+  "nlStart": {
+    "message": "Test starten"
+  },
+  "nlService": {
+    "message": "Testservice"
+  },
+  "nlMeasured": {
+    "message": "gemeten"
+  },
+  "nlMeanLatency": {
+    "message": "Gemiddelde latentie"
+  },
+  "nlGroupBySource": {
+    "message": "Per brongroep"
+  },
+  "nlPreviousPage": {
+    "message": "Vorige pagina"
+  },
+  "nlNextPage": {
+    "message": "Volgende pagina"
+  },
+  "nlName": {
+    "message": "Naam"
+  },
+  "nlEdit": {
+    "message": "Bewerken"
+  },
+  "nlStop": {
+    "message": "Stoppen"
+  },
+  "nlConfirm": {
+    "message": "Bevestig"
+  },
+  "nlAllNodes": {
+    "message": "Alle knooppunten"
+  },
+  "nlNodeResults": {
+    "message": "Knooppuntresultaten"
+  },
+  "nlTestCenter": {
+    "message": "Testcentrum"
+  },
+  "nlNewGroup": {
+    "message": "Nieuwe groep"
+  },
+  "nlRenameGroup": {
+    "message": "Naam van groep wijzigen"
+  },
+  "nlRemoveGroup": {
+    "message": "Groep verwijderen"
+  },
+  "nlRemoveGroupHelp": {
+    "message": "Bewaar elk knooppunt en abonnement en verplaats ze naar geïmporteerde knooppunten."
+  },
+  "nlNode": {
+    "message": "Knooppunt"
+  },
+  "nlStatus": {
+    "message": "Status"
+  },
+  "nlActions": {
+    "message": "Acties"
+  },
+  "nlSort": {
+    "message": "Sorteer alleen deze tabel"
+  },
+  "nlSelected": {
+    "message": "geselecteerd"
+  },
+  "nlTestNode": {
+    "message": "Testen"
+  },
+  "nlProfileShort": {
+    "message": "Profiel"
+  },
+  "nlQuick": {
+    "message": "Snelle latentie"
+  },
+  "nlFull": {
+    "message": "Downloaden + uploaden"
+  },
+  "nlTraffic": {
+    "message": "Grootte van testgegevens"
+  },
+  "nlConcurrency": {
+    "message": "Gelijktijdige knooppunten"
+  },
+  "nlTrafficFullOnly": {
+    "message": "Wordt gebruikt voor download- en uploadtests"
+  },
+  "nlTestMode": {
+    "message": "Testmodus"
+  },
+  "nlBudget": {
+    "message": "Maximaal payloadverkeer"
+  },
+  "nlViaGroup": {
+    "message": "Via groepspreproxy"
+  },
+  "nlTestSelected": {
+    "message": "Test geselecteerd"
+  },
+  "nlTestVisible": {
+    "message": "Test de getoonde knooppunten"
+  },
+  "nlTestAll": {
+    "message": "Test alle knooppunten"
+  },
+  "nlTestGroup": {
+    "message": "Groepsknooppunten testen"
+  },
+  "nlProgress": {
+    "message": "Voortgang van de meting"
+  },
+  "nlReady": {
+    "message": "Kies knooppunten om te starten. Er is geen test uitgevoerd."
+  },
+  "nlStarting": {
+    "message": "Geïsoleerde meting starten…"
+  },
+  "nlQueued": {
+    "message": "In wachtrij"
+  },
+  "nlRunning": {
+    "message": "Testen"
+  },
+  "nlStopping": {
+    "message": "Stoppen…"
+  },
+  "nlComplete": {
+    "message": "Compleet"
+  },
+  "nlFailed": {
+    "message": "Mislukt"
+  },
+  "nlStopped": {
+    "message": "Gestopt"
+  },
+  "nlPartial": {
+    "message": "Gedeeltelijk"
+  },
+  "nlUntested": {
+    "message": "Niet getest"
+  },
+  "nlSucceeded": {
+    "message": "geslaagd"
+  },
+  "nlMeasureDisconnected": {
+    "message": "Meetverbinding beëindigd. Onvolledige waarden zijn geen definitieve resultaten."
+  },
+  "nlUpgrade": {
+    "message": "Update de lokale Companion om groepen en abonnementen te beheren. Bestaande knooppunten blijven beschikbaar."
+  },
+  "nlOperationFailed": {
+    "message": "De bewerking kon niet worden voltooid. Probeer het opnieuw."
+  },
+  "nlEditSubscription": {
+    "message": "Abonnement bewerken"
+  },
+  "nlPasteContent": {
+    "message": "Proxylinks/inhoud"
+  },
+  "nlSubscriptionURL": {
+    "message": "Abonnement URL"
+  },
+  "nlKeepURL": {
+    "message": "Laat dit veld leeg om het opgeslagen te behouden URL"
+  },
+  "nlConnectionPolicy": {
+    "message": "Verbinding bijwerken"
+  },
+  "nlProxyFirst": {
+    "message": "Eerst proxy, daarna direct bij storing"
+  },
+  "nlProxyOnly": {
+    "message": "Alleen proxy"
+  },
+  "nlDirectOnly": {
+    "message": "Alleen rechtstreeks"
+  },
+  "nlProxyFirstHelp": {
+    "message": "Proxy stopt eerst na succesvol ophalen. Direct wordt alleen geprobeerd als de proxypoging mislukt."
+  },
+  "nlAutoUpdate": {
+    "message": "Automatische updates inschakelen"
+  },
+  "nlInterval": {
+    "message": "Update-interval (minuten)"
+  },
+  "nlDestinationGroup": {
+    "message": "Bestemmingsgroep"
+  },
+  "nlSubscriptionOwnGroup": {
+    "message": "Nieuwe groep…"
+  },
+  "nlNameGroup": {
+    "message": "Naam (groep)"
+  },
+  "nlCustomGroup": {
+    "message": "Aangepaste groep"
+  },
+  "nlNameRequired": {
+    "message": "Voer een naam in."
+  },
+  "nlContentRequired": {
+    "message": "Plak proxylinks of abonnementsinhoud."
+  },
+  "nlGroupRequired": {
+    "message": "Kies een bestemmingsgroep."
+  },
+  "nlURLRequired": {
+    "message": "Voer een HTTP(S)-abonnement URL in zonder gebruikersnaam of wachtwoord."
+  },
+  "nlIntervalInvalid": {
+    "message": "Voer een geheel getal in van 5 tot 43200 minuten."
+  },
+  "folderTitle": {
+    "message": "Kies de map v2rayN."
+  },
+  "folderHint": {
+    "message": "Kies een map en pas deze toe met Verbindingsinstellingen opslaan."
+  },
+  "folderPath": {
+    "message": "Volledig lokaal mappad"
+  },
+  "folderGo": {
+    "message": "Openen"
+  },
+  "folderUp": {
+    "message": "Omhoog"
+  },
+  "folderDrives": {
+    "message": "Schijven"
+  },
+  "folderCurrent": {
+    "message": "Huidig pad"
+  },
+  "folderChoose": {
+    "message": "Gebruik deze map"
+  },
+  "folderList": {
+    "message": "Mappen"
+  },
+  "folderTruncated": {
+    "message": "Het aanbod is beperkt. Voer het volledige pad hierboven in om een ​​map te openen die niet wordt weergegeven."
+  },
+  "folderReady": {
+    "message": "v2rayN bestanden gevonden. Gebruik deze map om de configuratie te valideren."
+  },
+  "folderInvalid": {
+    "message": "Kies de map met guiConfigs, guiNConfig.json en guiNDB.db."
+  },
+  "folderSelectDrive": {
+    "message": "Kies een lokaal station of voer een volledig mappad in."
+  },
+  "folderEmpty": {
+    "message": "Geen zichtbare submappen."
+  },
+  "folderUnavailable": {
+    "message": "Kan niet door deze map bladeren. Controleer het pad en de toegang. Als de Companion ouder is, update deze dan eerst."
+  },
+  "folderValidating": {
+    "message": "Configuratie v2rayN valideren…"
+  },
+  "folderInvalidConfig": {
+    "message": "De configuratie of database v2rayN is onvolledig of ongeldig. Kies een andere map."
+  },
+  "copyPath": {
+    "message": "Pad kopiëren"
+  },
+  "pathCopyHint": {
+    "message": "Kopieer het pad dat momenteel in dit veld staat."
+  },
+  "preMode": {
+    "message": "Pre-proxy-modus"
+  },
+  "preNode": {
+    "message": "Pre-proxyknooppunt"
+  },
+  "preIntro": {
+    "message": "Gebruik de groepsketen, sla deze over of kies een pre-proxy voor dit profiel."
+  },
+  "healthLabel": {
+    "message": "Huidige verbindingsstatus"
+  },
+  "healthOk": {
+    "message": "Normaal"
+  },
+  "healthError": {
+    "message": "Abnormaal"
+  },
+  "healthChecking": {
+    "message": "Controleren"
+  },
+  "healthUnknown": {
+    "message": "Niet bevestigd"
+  },
+  "autoSystemHelp": {
+    "message": "Systeemregels vereisen de Windows-component en een momentopname van de vaste proxy. Pas opnieuw toe na wijzigingen. PAC/WPAD worden niet ondersteund; Systeem zonder regels gebruikt de eigen browserinstellingen."
+  },
+  "backgroundUnavailable": {
+    "message": "Achtergrond van de extensie is niet beschikbaar."
+  },
+  "backgroundNoResponse": {
+    "message": "De achtergrond reageerde niet."
+  },
+  "backupTooLarge": {
+    "message": "Back-up groter dan 5 MB."
+  },
+  "proxyUsername": {
+    "message": "Gebruikersnaam"
+  },
+  "proxyPassword": {
+    "message": "Wachtwoord"
+  },
+  "proxyAuthHelp": {
+    "message": "Optioneel. Geauthenticeerde proxy's maken verbinding via de Companion. Inloggegevens worden opgeslagen in deze browserconfiguratie en de Companion, en opgenomen in profielexports."
+  },
+  "proxyAuthSocks4": {
+    "message": "SOCKS4 ondersteunt deze gebruikersnaam/wachtwoord-authenticatie niet; gebruik HTTP(S) of SOCKS5."
+  },
+  "importExamples": {
+    "message": "Formaatvoorbeelden"
+  },
+  "ipCopying": {
+    "message": "Kopiëren…"
+  },
+  "netDnsUnavailable": {
+    "message": "Het serveradres kon niet op tijd worden opgelost. Controleer het host- of IP-adres en probeer het opnieuw."
+  },
+  "netCurrentTarget": {
+    "message": "Geselecteerd proxy-eindpunt"
+  },
+  "netCustomTarget": {
+    "message": "Aangepaste server"
+  },
+  "netHost": {
+    "message": "Host- of IP-adres"
+  },
+  "netPort": {
+    "message": "TCP poort"
+  },
+  "netHostRequired": {
+    "message": "Voer een serverhost- of IP-adres in."
+  },
+  "netCurrentUnavailable": {
+    "message": "Selecteer een knooppunt of handmatig proxyprofiel, of voer een aangepast doel in."
+  },
+  "netInvalidTarget": {
+    "message": "Voer een geldige diagnostische host en poort in."
+  },
+  "netIpv6PingUnavailable": {
+    "message": "IPv6 ICMP is niet beschikbaar; gebruik TCPing."
+  },
+  "preNeedsFix": {
+    "message": "Kies een geldige pre-proxy of geen pre-proxy voordat u opslaat."
+  },
+  "preConfigure": {
+    "message": "Pre-proxy configureren"
+  },
+  "preFollowInvalid": {
+    "message": "Volgen v2rayN accepteert geen aangepaste pre-proxy."
+  },
+  "followChainHelp": {
+    "message": "Volgen gebruikt de route- en proxyketen die al actief is in v2rayN."
+  },
+  "netTitle": {
+    "message": "Verbindingstests"
+  },
+  "ipTestDetails": {
+    "message": "Testdetails"
+  },
+  "netTarget": {
+    "message": "Ping / TCPing doel"
+  },
+  "netDownload": {
+    "message": "Test downloaden"
+  },
+  "netPartial": {
+    "message": "Gedeeltelijke steekproef"
+  },
+  "netComplete": {
+    "message": "Voorbeeld voltooid"
+  },
+  "netDirect": {
+    "message": "Systeemnetwerk"
+  },
+  "netUnreachable": {
+    "message": "Geen antwoord / mislukt"
+  },
+  "netAverage": {
+    "message": "Gemiddeld"
+  },
+  "predecessor": {
+    "message": "Pre-proxy"
+  },
+  "preInherit": {
+    "message": "Gebruik de groepsketen v2rayN."
+  },
+  "preNone": {
+    "message": "Geen pre-proxy"
+  },
+  "preSpecific": {
+    "message": "Kies een knooppunt"
+  },
+  "preHelp": {
+    "message": "Geldt voor dit profiel. Gebruik de v2rayN groepsketen, geen pre-proxy of een specifiek knooppunt. Follow v2rayN gebruikt de bestaande keten."
+  },
+  "preSelectRequired": {
+    "message": "Kies een pre-proxyknooppunt of selecteer Groepsstandaard / Geen."
+  },
+  "ipPing0Permission": {
+    "message": "Sta Ping0 websitetoegang toe om het openbare rapport te laden."
+  },
+  "ipPublicChallenge": {
+    "message": "De website vereist verificatie. Open de pagina Ping0 om deze in te vullen en het resultaat te bekijken."
+  },
+  "ipPublicReport": {
+    "message": "Ping0 openbaar rapport"
+  },
+  "ipPublicSource": {
+    "message": "Bron: Ping0 openbare pagina"
+  },
+  "ipPublicOriginal": {
+    "message": "Ping0 rapport"
+  },
+  "ipPublicPartial": {
+    "message": "Alleen de velden op de openbare pagina worden in hun oorspronkelijke taal weergegeven. Classificaties en schattingen voor gedeelde gebruikers zijn afkomstig uit Ping0."
+  },
+  "setupTitle": {
+    "message": "Verbinden Proxy V2Route"
+  },
+  "setupIntro": {
+    "message": "Installeer de begeleidende Windows om v2rayN routes of uw eigen geïmporteerde knooppunten te gebruiken."
+  },
+  "setupStepOne": {
+    "message": "Pak het overeenkomende volledige pakket Windows uit naar een permanente map."
+  },
+  "setupStepTwo": {
+    "message": "Open V2Route-Setup.exe en klik op Installeren."
+  },
+  "setupStepThree": {
+    "message": "Keer hier terug en controleer de verbinding. Kies indien nodig de map v2rayN."
+  },
+  "setupCheck": {
+    "message": "Controleer de verbinding"
+  },
+  "downloadCompanion": {
+    "message": "Installatiehandleiding ↗"
+  },
+  "setupDownloadNote": {
+    "message": "Gebruik het overeenkomende lokale pakket Windows of volg de handleiding om het vanuit de huidige bron te bouwen."
+  },
+  "chooseFolder": {
+    "message": "Kies map v2rayN…"
+  },
+  "rescanDone": {
+    "message": "Lokale knooppunten opnieuw gescand"
+  },
+  "grouping": {
+    "message": "Groepsknooppunten"
+  },
+  "groupByCountry": {
+    "message": "Per land"
+  },
+  "unknownCountry": {
+    "message": "Anders / Onbekend"
+  },
+  "ungrouped": {
+    "message": "Niet gegroepeerd"
+  },
+  "adjustNodeFilters": {
+    "message": "Probeer een andere groep, bron of zoekfunctie, of toon verborgen knooppunten."
+  },
+  "rescanLocal": {
+    "message": "Scan v2rayN knooppunten opnieuw"
+  },
+  "showHidden": {
+    "message": "Toon verborgen knooppunten"
+  },
+  "hideNode": {
+    "message": "Verbergen"
+  },
+  "restoreNode": {
+    "message": "Herstellen"
+  },
+  "hiddenNode": {
+    "message": "Verborgen"
+  },
+  "hideNodeHelp": {
+    "message": "Alleen verbergen in de knooppuntbibliotheek van deze browser. v2rayN en bestaande profielen blijven ongewijzigd."
+  },
+  "ipContextTimeout": {
+    "message": "Er is een time-out opgetreden bij het lezen van het huidige profiel. Probeer het opnieuw."
+  },
+  "ipStaleResult": {
+    "message": "Het huidige profiel is gewijzigd. Dit resultaat is mogelijk verouderd; controleer opnieuw."
+  },
+  "ip_tools": {
+    "message": "IP Gereedschap"
+  },
+  "ipIntro": {
+    "message": "Huidige exit IP en openbaar rapport."
+  },
+  "ipCurrentProfile": {
+    "message": "Huidig browserprofiel"
+  },
+  "ipRouteCaution": {
+    "message": "Automatische regels en PAC kunnen verschillende routes gebruiken voor verschillende bestemmingen. Deze controle beschrijft alleen zijn eigen verzoek."
+  },
+  "ipDisclosure": {
+    "message": "Automatische controle afsluiten IP · Rapporteren door Ping0"
+  },
+  "ipMethod": {
+    "message": "Adrescontrole"
+  },
+  "ipDual": {
+    "message": "IPv4 / IPv6"
+  },
+  "ipCheck": {
+    "message": "Controleer opnieuw"
+  },
+  "ipChecking": {
+    "message": "Controleren..."
+  },
+  "ipDualHelp": {
+    "message": "IPv4/IPv6 retourneert de adresfamilie die voor dit verzoek wordt gebruikt, niet beide adressen."
+  },
+  "ipDurationHelp": {
+    "message": "De verstreken HTTP verzoektijd omvat de netwerk- en serviceresponstijd. Het is geen ICMP ping of een bandbreedtetest."
+  },
+  "ipCopy": {
+    "message": "Kopiëren IP"
+  },
+  "ipCopied": {
+    "message": "Gekopieerd"
+  },
+  "ipCopyFailed": {
+    "message": "Kan niet kopiëren. Selecteer het adres en kopieer het handmatig."
+  },
+  "ipNoResult": {
+    "message": "Nog geen cheque"
+  },
+  "ipContextUnknown": {
+    "message": "Profiel niet beschikbaar"
+  },
+  "ipTimeout": {
+    "message": "Er is een time-out opgetreden bij de controle. Probeer het opnieuw of gebruik een andere route."
+  },
+  "ipCancelled": {
+    "message": "Cheque geannuleerd"
+  },
+  "ipNetwork": {
+    "message": "Kan ipify niet bereiken. Controleer de verbinding en probeer het opnieuw."
+  },
+  "ipHttp": {
+    "message": "De service IP heeft het verzoek niet geaccepteerd. Probeer het later opnieuw."
+  },
+  "ipInvalid": {
+    "message": "De service IP heeft een ongeldig antwoord geretourneerd."
+  },
+  "ipFailure": {
+    "message": "De controle is mislukt. Probeer het opnieuw."
+  },
+  "ipStale": {
+    "message": "Uw proxy-instellingen zijn tijdens de controle gewijzigd. Het oude resultaat werd weggegooid; controleer opnieuw."
+  },
+  "ipQuality": {
+    "message": "Externe hulpmiddelen"
+  },
+  "ipQualityPrivacy": {
+    "message": "Tools worden alleen uitgevoerd als u klikt. Providers ontvangen normale verbindingsgegevens. Websitecontroles sturen na Start verzoeken zonder inloggegevens. Sluiting stopt lokale tests; externe tabbladen worden beheerd door de browser."
+  },
+  "ipReport": {
+    "message": "Kopieer het geredigeerde rapport"
+  },
+  "ipReportCopied": {
+    "message": "Geredigeerd rapport gekopieerd; geen IP of profielnamen inbegrepen."
+  },
+  "popupSelected": {
+    "message": "Geselecteerd"
+  },
+  "popupFooter": {
+    "message": "v2rayN & knooppuntprofielen"
+  },
+  "subtitle": {
+    "message": "Onafhankelijke browserroutes"
+  },
+  "profiles": {
+    "message": "Profielen"
+  },
+  "nodes": {
+    "message": "Knooppuntbibliotheek"
+  },
+  "settings": {
+    "message": "Instellingen"
+  },
+  "connected": {
+    "message": "Actief profiel"
+  },
+  "noProfile": {
+    "message": "Systeemstandaard"
+  },
+  "newProfile": {
+    "message": "Nieuw profiel"
+  },
+  "searchProfiles": {
+    "message": "Zoek naar profielen"
+  },
+  "direct": {
+    "message": "Direct netwerk"
+  },
+  "system": {
+    "message": "Systeemproxy"
+  },
+  "follow": {
+    "message": "Volg v2rayN"
+  },
+  "manual": {
+    "message": "Handmatige proxy"
+  },
+  "auto": {
+    "message": "Automatische schakelaar"
+  },
+  "pac": {
+    "message": "PAC-script"
+  },
+  "virtual": {
+    "message": "Virtueel profiel"
+  },
+  "profileIntro": {
+    "message": "Kies een browserroute zonder de hoofdroute van v2rayN te wijzigen."
+  },
+  "nodesIntro": {
+    "message": "Blader door lokale v2rayN knooppunten en uw geïmporteerde links."
+  },
+  "settingsIntro": {
+    "message": "Lokale verbinding, taal en uiterlijk."
+  },
+  "refresh": {
+    "message": "Vernieuwen"
+  },
+  "create": {
+    "message": "Profiel maken"
+  },
+  "name": {
+    "message": "Profielnaam"
+  },
+  "type": {
+    "message": "Profieltype"
+  },
+  "save": {
+    "message": "Opslaan"
+  },
+  "saved": {
+    "message": "Opgeslagen"
+  },
+  "saving": {
+    "message": "Opslaan..."
+  },
+  "cancel": {
+    "message": "Annuleren"
+  },
+  "close": {
+    "message": "Sluiten"
+  },
+  "apply": {
+    "message": "Gebruik dit profiel"
+  },
+  "applied": {
+    "message": "Profiel gewijzigd"
+  },
+  "active": {
+    "message": "Actief"
+  },
+  "delete": {
+    "message": "Verwijderen"
+  },
+  "remove": {
+    "message": "Verwijderen"
+  },
+  "rename": {
+    "message": "Hernoemen"
+  },
+  "route": {
+    "message": "Proxyroute"
+  },
+  "selectRoute": {
+    "message": "Selecteer een route"
+  },
+  "routeMissing": {
+    "message": "Route niet beschikbaar: selecteer een andere"
+  },
+  "chain": {
+    "message": "Verbindingsketen"
+  },
+  "connection": {
+    "message": "Lokale verbinding"
+  },
+  "proxy": {
+    "message": "Proxyserver"
+  },
+  "address": {
+    "message": "Adres"
+  },
+  "port": {
+    "message": "Poort"
+  },
+  "scheme": {
+    "message": "Protocol"
+  },
+  "proxyDns": {
+    "message": "SOCKS5 DNS wordt opgelost via de proxy."
+  },
+  "connectedIdle": {
+    "message": "Verbonden · Inactief"
+  },
+  "bypass": {
+    "message": "Lijst overslaan"
+  },
+  "bypassHelp": {
+    "message": "Eén domein, jokertekendomein, IP-adres of IP:poort per regel."
+  },
+  "advanced": {
+    "message": "Geavanceerde opties"
+  },
+  "searchRoutes": {
+    "message": "Zoek groepen of knooppunten"
+  },
+  "selectGroup": {
+    "message": "Selecteer een groep"
+  },
+  "empty": {
+    "message": "Geen overeenkomende items"
+  },
+  "unavailable": {
+    "message": "Niet beschikbaar"
+  },
+  "groupHint": {
+    "message": "Houd een groep 250 vast ms en sleep vervolgens. Alt + ↑ / ↓ herschikt ook. Wijzigingen worden automatisch opgeslagen."
+  },
+  "searchSort": {
+    "message": "Wis de zoekopdracht voordat u gaat sorteren."
+  },
+  "dragHint": {
+    "message": "Beweeg omhoog of omlaag en laat los om op te slaan. Esc wordt geannuleerd."
+  },
+  "orderSaved": {
+    "message": "Groepsopdracht opgeslagen"
+  },
+  "orderCancelled": {
+    "message": "Herbestelling geannuleerd"
+  },
+  "loading": {
+    "message": "Laden..."
+  },
+  "reading": {
+    "message": "Lokale knooppunten lezen…"
+  },
+  "nativeMissing": {
+    "message": "Lokale component is niet aangesloten"
+  },
+  "retry": {
+    "message": "Probeer het opnieuw"
+  },
+  "nativeHelp": {
+    "message": "Knooppuntroutes vereisen de begeleidende versie Windows. Directe, systeem- en handmatige proxy's zijn nu beschikbaar."
+  },
+  "imported": {
+    "message": "Geïmporteerd"
+  },
+  "v2rayn": {
+    "message": "v2rayN"
+  },
+  "allSources": {
+    "message": "Alle bronnen"
+  },
+  "importNodes": {
+    "message": "Proxy's importeren"
+  },
+  "importTitle": {
+    "message": "Proxy's importeren"
+  },
+  "importHelp": {
+    "message": "Plak proxylinks, uitgaand JSON of een Base64-abonnement. SOCKS ondersteunt gewone of Base64 inloggegevens. Schemavrije adressen gebruiken HTTP."
+  },
+  "importPrivacy": {
+    "message": "Proxygegevens en inloggegevens worden doorgegeven aan de lokale Proxy V2Route partner voor opslag en verbinding met de proxy die u selecteert. De ontwikkelaar ontvangt deze informatie niet."
+  },
+  "import": {
+    "message": "Profielen importeren"
+  },
+  "nodeCount": {
+    "message": "knooppunten"
+  },
+  "source": {
+    "message": "Bron"
+  },
+  "protocol": {
+    "message": "Protocol"
+  },
+  "useNode": {
+    "message": "Profiel maken"
+  },
+  "removeNode": {
+    "message": "Geïmporteerd knooppunt verwijderen?"
+  },
+  "removeNodeHelp": {
+    "message": "Profielen die dit knooppunt gebruiken, moeten opnieuw worden toegewezen voordat het kan worden verwijderd."
+  },
+  "deleteProfile": {
+    "message": "Dit profiel verwijderen?"
+  },
+  "deleteProfileHelp": {
+    "message": "Hiermee wordt alleen dit browserprofiel verwijderd. Geïmporteerde knooppunten en v2rayN-configuratie blijven behouden."
+  },
+  "language": {
+    "message": "Taal"
+  },
+  "automatic": {
+    "message": "Browserstandaard"
+  },
+  "theme": {
+    "message": "Uiterlijk"
+  },
+  "light": {
+    "message": "Licht"
+  },
+  "dark": {
+    "message": "Donker"
+  },
+  "switchToEnglish": {
+    "message": "Schakel over naar Engels"
+  },
+  "switchToChinese": {
+    "message": "Schakel over naar Vereenvoudigd Chinees"
+  },
+  "switchToLight": {
+    "message": "Schakel over naar een lichte weergave"
+  },
+  "switchToDark": {
+    "message": "Schakel over naar een donkere weergave"
+  },
+  "localComponent": {
+    "message": "Companion-component"
+  },
+  "ready": {
+    "message": "Verbonden"
+  },
+  "stopped": {
+    "message": "Niet actief"
+  },
+  "discovery": {
+    "message": "v2rayN detectie\nmap"
+  },
+  "rootPath": {
+    "message": "v2rayN."
+  },
+  "corePath": {
+    "message": "Uitvoerbaar proxykernbestand"
+  },
+  "optionalPath": {
+    "message": "Laat dit veld leeg voor automatische detectie"
+  },
+  "pathsHelp": {
+    "message": "v2rayN wordt automatisch gedetecteerd; kies indien nodig de map. Geïmporteerde knooppunten gebruiken de meegeleverde kern."
+  },
+  "savePaths": {
+    "message": "Verbindingsinstellingen opslaan"
+  },
+  "privacy": {
+    "message": "Instellingen lokaal opgeslagen"
+  },
+  "privacyText": {
+    "message": "Knooppuntkoppelingen en inloggegevens blijven in de lokale begeleidende versie. Browserverkeer gaat via de door u geselecteerde proxy naar bestemmingswebsites; de ontwikkelaar ontvangt het niet."
+  },
+  "privacyDetails": {
+    "message": "Privacy en gegevensstroom"
+  },
+  "export": {
+    "message": "Profielen exporteren"
+  },
+  "about": {
+    "message": "Over Proxy V2Route"
+  },
+  "aboutText": {
+    "message": "Kies een browserroute zonder de hoofdroute van v2rayN te wijzigen. Knooppuntroutes gebruiken de begeleidende Windows en uw eigen knooppunten."
+  },
+  "licenses": {
+    "message": "Open-sourcekennisgevingen"
+  },
+  "version": {
+    "message": "Versie"
+  },
+  "fieldRequired": {
+    "message": "Voer een profielnaam in."
+  },
+  "profileExists": {
+    "message": "Er bestaat al een profiel met deze naam."
+  },
+  "ruleHelp": {
+    "message": "Scheid domeinen in één rij met komma's. De eerste overeenkomende rij wint. Houd de standaardroute beschikbaar."
+  },
+  "rules": {
+    "message": "Routeringsregels"
+  },
+  "pattern": {
+    "message": "Hostpatroon"
+  },
+  "target": {
+    "message": "Regeldoel"
+  },
+  "addRule": {
+    "message": "Regel toevoegen"
+  },
+  "defaultRoute": {
+    "message": "Standaardprofiel"
+  },
+  "pacHelp": {
+    "message": "Plak de vertrouwde PAC bron met daarin FindProxyForURL. Dit script bepaalt hoe websiteverzoeken worden gerouteerd."
+  },
+  "pacUrl": {
+    "message": "PAC URL"
+  },
+  "pacScript": {
+    "message": "PAC-script"
+  },
+  "noSelection": {
+    "message": "Selecteer een profiel of maak er een."
+  },
+  "details": {
+    "message": "Details"
+  },
+  "noNodes": {
+    "message": "Nog geen knooppunten"
+  },
+  "noNodesHelp": {
+    "message": "Sluit v2rayN aan of importeer proxylinks, JSON of een abonnement om aan de slag te gaan."
+  },
+  "openSettings": {
+    "message": "Instellingen openen"
+  },
+  "proxySettings": {
+    "message": "Proxy-instellingen"
+  },
+  "switching": {
+    "message": "Schakelen…"
+  },
+  "updatedElsewhere": {
+    "message": "Dit profiel is in een ander venster gewijzigd. Open het opnieuw voordat u het opslaat."
+  },
+  "choose": {
+    "message": "Kies"
+  },
+  "popupIntro": {
+    "message": "Verbinding:"
+  },
+  "invalidPort": {
+    "message": "Voer een poort in van 1 tot 65535."
+  },
+  "externalControl": {
+    "message": "Een andere extensie of beleid beheert de browserproxy."
+  },
+  "noNativeRoute": {
+    "message": "Verbind de lokale component voordat u een knooppuntprofiel maakt."
+  },
+  "reload": {
+    "message": "Herladen"
+  },
+  "rulesError": {
+    "message": "Elke regel heeft een patroon en een doel nodig."
+  },
+  "backupDone": {
+    "message": "Browserprofielen geëxporteerd"
+  },
+  "managed": {
+    "message": "Beheerd knooppunt"
+  },
+  "netRegion": {
+    "message": "Doelgebied"
+  },
+  "netNodeArea": {
+    "message": "Proxyknooppunt"
+  },
+  "netChina": {
+    "message": "Vasteland van China"
+  },
+  "netGlobal": {
+    "message": "Globaal"
+  },
+  "netAli": {
+    "message": "AliDNS"
+  },
+  "netTencent": {
+    "message": "DNSPod"
+  },
+  "netStartHelp": {
+    "message": "Kies een doelwit en start vervolgens een live test."
+  },
+  "netConsole": {
+    "message": "Live diagnostiek"
+  },
+  "netStop": {
+    "message": "Stop"
+  },
+  "netRunning": {
+    "message": "Hardlopen"
+  },
+  "netStopped": {
+    "message": "Gestopt"
+  },
+  "netSent": {
+    "message": "Verzonden"
+  },
+  "netLoss": {
+    "message": "Verlies"
+  },
+  "netAverageShort": {
+    "message": "Gem"
+  },
+  "netLogClear": {
+    "message": "Duidelijk"
+  },
+  "netFinishing": {
+    "message": "Vorige sonde is voltooid..."
+  },
+  "netRound": {
+    "message": "Rond"
+  },
+  "netDestination": {
+    "message": "Bestemming"
+  },
+  "netHop": {
+    "message": "Hop"
+  },
+  "netAddress": {
+    "message": "IP adres"
+  },
+  "netLast": {
+    "message": "Laatste"
+  },
+  "netConsoleHelp": {
+    "message": "Ping / TCPing / MTR gebruiken het systeemnetwerk, niet de proxyketen. Ontbrekende ICMP antwoorden bewijzen geen verkeersverlies. Downloaden gebruikt de browserroute en de geselecteerde groottelimiet. Tests stoppen wanneer u deze pagina verlaat of verbergt."
+  },
+  "netDirectShort": {
+    "message": "Systeemnetwerk"
+  },
+  "netIcmpShort": {
+    "message": "Geen ICMP antwoord"
+  },
+  "netProbeError": {
+    "message": "Lokale sondefout"
+  },
+  "netNoDestination": {
+    "message": "Bestemming niet bereikt"
+  },
+  "deleteActive": {
+    "message": "Schakel over naar systeem en verwijder"
+  },
+  "deleteActiveHelp": {
+    "message": "Dit profiel is actief. Als u het verwijdert, schakelt de browser over naar de systeemproxy."
+  },
+  "netDownloadSize": {
+    "message": "Downloadgrootte"
+  },
+  "netReceived": {
+    "message": "Ontvangen"
+  },
+  "netBest": {
+    "message": "Beste"
+  },
+  "netWorst": {
+    "message": "Het ergste"
+  },
+  "netStdDev": {
+    "message": "Std dev"
+  },
+  "netLocation": {
+    "message": "Locatie"
+  },
+  "toolWall": {
+    "message": "Controle van domeinblokkering"
+  },
+  "toolSites": {
+    "message": "Populaire websites"
+  },
+  "toolGlobal": {
+    "message": "Globale diagnostiek"
+  },
+  "toolFast": {
+    "message": "Netflix-snelheid"
+  },
+  "toolSpeed": {
+    "message": "Snelheidstest"
+  },
+  "toolStart": {
+    "message": "Beginnen"
+  },
+  "toolReady": {
+    "message": "Klaar"
+  },
+  "toolResponded": {
+    "message": "Heeft gereageerd"
+  },
+  "toolNoResponse": {
+    "message": "Niet bevestigd"
+  },
+  "toolCacheUnsupported": {
+    "message": "Deze browser kan de cache niet per site wissen; de pagina is opnieuw geladen."
+  },
+  "toolCacheFailed": {
+    "message": "Het opschonen van de cache is niet voltooid. Sluit en probeer het opnieuw."
+  },
+  "toolClose": {
+    "message": "Sluiten"
+  },
+  "toolReload": {
+    "message": "Herladen"
+  },
+  "toolLoading": {
+    "message": "Laden…"
+  },
+  "toolFrameError": {
+    "message": "Kan niet laden. Probeer opnieuw te laden."
+  },
+  "toolSiteHelp": {
+    "message": "Alleen browserbereikbaarheid. Hiermee wordt de account- of regionale toegang niet geverifieerd."
+  },
+  "toolFallback": {
+    "message": "Back-upsnelheidstest"
+  },
+  "toolFullscreen": {
+    "message": "Volledig scherm"
+  },
+  "toolRestore": {
+    "message": "Sluit het volledige scherm af"
+  },
+  "ipReadFailed": {
+    "message": "Lezen mislukt. 👉"
+  },
+  "ipViewSource": {
+    "message": "Bronsite bekijken"
+  },
+  "toolDownloadError": {
+    "message": "Kan de downloadserver niet bereiken. Probeer het opnieuw."
+  },
+  "toolAccess": {
+    "message": "Sitetoegang inschakelen"
+  },
+  "toolPermission": {
+    "message": "Sta toegang tot deze site toe voor compatibiliteit met ingebedde sessies."
+  },
+  "toolAsia": {
+    "message": "Azië"
+  },
+  "toolEurope": {
+    "message": "Europa"
+  },
+  "toolAmerica": {
+    "message": "Noord-Amerika"
+  },
+  "toolGlobalHelp": {
+    "message": "Vult de browserafsluiting vooraf in IP. Kies het vasteland van China of een andere regio om paden te vergelijken; Start stuurt het weergegeven doel naar maximaal drie Globalping sondes."
+  },
+  "toolServiceError": {
+    "message": "De testservice is niet beschikbaar. Probeer het opnieuw."
+  },
+  "popupOrderHelp": {
+    "message": "Houd ingedrukt en sleep om de volgorde te wijzigen. Alt+pijltoetsen verplaatsen dit profiel ook."
+  },
+  "popupOrderSaved": {
+    "message": "Bestelling opgeslagen"
+  },
+  "toolGroupIP": {
+    "message": "IP testen"
+  },
+  "toolGroupWeb": {
+    "message": "Websitetests"
+  },
+  "toolGroupSpeed": {
+    "message": "Snelheid"
+  },
+  "toolCurrentIP": {
+    "message": "Huidige uitgang IP"
+  },
+  "toolCurrentIPLoading": {
+    "message": "Stroomuitgang laden IP…"
+  },
+  "toolCurrentIPFailed": {
+    "message": "Kan de huidige IP niet lezen. Voer een doel in."
+  },
+  "speedMode": {
+    "message": "Testmodus"
+  },
+  "speedBoth": {
+    "message": "Downloaden + uploaden"
+  },
+  "speedDownload": {
+    "message": "Downloaden"
+  },
+  "speedUpload": {
+    "message": "Uploaden"
+  },
+  "speedLatency": {
+    "message": "HTTP latentie"
+  },
+  "speedBudget": {
+    "message": "{n} MiB per fase · {total} MiB totaal, plus kleine latentiemonsters."
+  },
+  "siteCategory": {
+    "message": "Websitecategorie"
+  },
+  "siteAll": {
+    "message": "Alle websites"
+  },
+  "siteAI": {
+    "message": "AI"
+  },
+  "siteDevelopment": {
+    "message": "Ontwikkeling"
+  },
+  "siteVideo": {
+    "message": "Video/muziek"
+  },
+  "siteSocial": {
+    "message": "Sociaal"
+  },
+  "siteDomestic": {
+    "message": "Diensten op het vasteland"
+  },
+  "siteServices": {
+    "message": "Gemeenschappelijke diensten"
+  },
+  "globalMethod": {
+    "message": "Type meting"
+  },
+  "localPort": {
+    "message": "Lokale poort:"
+  },
+  "chainChooseNode": {
+    "message": "Kies een proxyknooppunt"
+  },
+  "chainTitle": {
+    "message": "Proxyketen"
+  },
+  "chainSelectExit": {
+    "message": "Kies hieronder een specifiek exit-knooppunt om deze aangepaste keten op te slaan of te testen. Volgen v2rayN wordt beheerd door v2rayN."
+  },
+  "chainSelectExitShort": {
+    "message": "Selecteer een uitgangsknooppunt"
+  },
+  "chainAdd": {
+    "message": "+ Proxylaag toevoegen"
+  },
+  "chainTest": {
+    "message": "Testketen"
+  },
+  "chainMode": {
+    "message": "Ketenmodus"
+  },
+  "chainBase": {
+    "message": "Basisproxy"
+  },
+  "chainExit": {
+    "message": "Proxy afsluiten"
+  },
+  "chainEgress": {
+    "message": "Kettinguitgang"
+  },
+  "chainExitBadge": {
+    "message": "Afsluiten IP"
+  },
+  "chainEntry": {
+    "message": "Kettingingang"
+  },
+  "chainTransit": {
+    "message": "Brugknooppunt"
+  },
+  "chainUntested": {
+    "message": "Niet getest"
+  },
+  "chainMissing": {
+    "message": "Niet beschikbaar knooppunt"
+  },
+  "chainUnresolved": {
+    "message": "Kan de overgenomen keten niet omzetten. Herstel de voorgaande instellingen of kies een aangepaste keten."
+  },
+  "chainUpgrade": {
+    "message": "Update de lokale partner om bestelde ketens in te schakelen."
+  },
+  "chainBusy": {
+    "message": "Er wordt nog een kettingtest uitgevoerd"
+  },
+  "chainOK": {
+    "message": "Bereikbaar"
+  },
+  "chainFailed": {
+    "message": "Mislukte hop in deze test"
+  },
+  "chainBlocked": {
+    "message": "Niet getest · vorige hop mislukt"
+  },
+  "chainFailureHelp": {
+    "message": "Deze sprong of het pad ernaartoe ging niet voorbij. Latere hop werd niet getest."
+  },
+  "chainAllOK": {
+    "message": "Alle cumulatieve paden hebben gereageerd"
+  },
+  "chainStopping": {
+    "message": "Stoppen na de huidige begrensde probe..."
+  },
+  "globalWorld": {
+    "message": "Wereldwijd"
+  },
+  "globalUnavailable": {
+    "message": "Het doel of de regio is niet beschikbaar. Controleer het doel of kies een andere regio."
+  },
+  "globalRateLimited": {
+    "message": "De limiet voor de servicesnelheid is bereikt. Probeer het later opnieuw."
+  },
+  "globalNoResults": {
+    "message": "De service heeft geen testresultaten geretourneerd. Probeer een andere regio."
+  },
+  "globalProbeFailed": {
+    "message": "Sonde mislukt"
+  },
+  "globalProbeOffline": {
+    "message": "Offline testen"
+  },
+  "globalIcmpCaution": {
+    "message": "Ontbrekende ICMP antwoorden alleen zijn geen bewijs van blokkering. Vergelijk paden op het vasteland en overzee en andere testtypen."
+  },
+  "speedRealtime": {
+    "message": "Live-snelheid"
+  },
+  "speedAverage": {
+    "message": "Gemiddelde snelheid"
+  },
+  "ipToolsBrief": {
+    "message": "Resultaten van derden zijn ter referentie."
+  },
+  "ipReportBrief": {
+    "message": "De resultaten variëren per uitgang IP en zijn ter referentie."
+  },
+  "toolPingPe": {
+    "message": "IP blokkeringscontrole"
+  },
+  "toolTargetIP": {
+    "message": "Doel IP"
+  },
+  "toolOpenPingPe": {
+    "message": "Officiële test openen"
+  },
+  "toolInvalidIP": {
+    "message": "Voer een geldig IPv4- of IPv6-adres in."
+  },
+  "toolInvalidPort": {
+    "message": "Voer een TCP-poort in, van 1 tot 65535."
+  },
+  "toolExternalFailed": {
+    "message": "Kan de website niet openen. Probeer het opnieuw."
+  },
+  "ipBrowserReading": {
+    "message": "Ping0 lezen via de browser…"
+  },
+  "ipVerifyBrowser": {
+    "message": "Open de verificatiepagina"
+  },
+  "policyCenter": {
+    "message": "Privacy, verklaring & FAQ"
+  },
+  "policyCenterIntro": {
+    "message": "Lokale gegevensverwerking, testlimieten en algemene antwoorden."
+  },
+  "policyPrivacyTitle": {
+    "message": "Privacybeleid"
+  },
+  "policyPrivacySummary": {
+    "message": "Profielen en inloggegevens blijven op dit apparaat staan. Pop-upcontroles en diagnostiek nemen contact op met de aangegeven providers. Geen reclame of gedragsanalyses."
+  },
+  "policyDeclarationTitle": {
+    "message": "Gebruiks- en meetverklaring"
+  },
+  "policyDeclarationSummary": {
+    "message": "Deze extensie is een lokale routebeheerder, geen proxy- of VPN-provider. Metingen zijn referentiemonsters die worden beïnvloed door netwerk-, proxy- en provideromstandigheden."
+  },
+  "policyFaqTitle": {
+    "message": "Veelgestelde vragen"
+  },
+  "policyFaqSummary": {
+    "message": "De begeleidende module Windows is vereist voor lokale knooppunten en MTR. De latentie kan verschillen tussen browser-, systeem- en openbare tests. Stop een test of wis lokale gegevens uit Instellingen."
+  },
+  "policyDetailsLink": {
+    "message": "Lees volledige details ↗"
+  },
+  "thirdPartyNotice": {
+    "message": "Open-sourcekennisgevingen ↗"
+  },
+  "columnResizeHelp": {
+    "message": "Sleep om het formaat te wijzigen; dubbelklik om te resetten; gebruik de pijltjestoetsen om aan te passen"
+  },
+  "columnResize": {
+    "message": "Formaat van kolom wijzigen"
+  },
+  "typeDescription_node": {
+    "message": "Maak verbinding via een proxyknooppunt"
+  },
+  "typeDescription_manual": {
+    "message": "Voer de proxy-instellingen handmatig in"
+  },
+  "typeDescription_auto": {
+    "message": "Selecteer een knooppunt met behulp van regels"
+  },
+  "typeDescription_pac": {
+    "message": "Routeer verkeer met behulp van PAC-regels"
+  },
+  "appDescription": {
+    "message": "Browserproxyroutes, knooppunten en domeinregels. Knooppuntroutes hebben de begeleidende Windows nodig."
+  },
+  "core_title": {
+    "message": "Proxykern"
+  },
+  "core_checking": {
+    "message": "De lokale component controleren…"
+  },
+  "core_ready": {
+    "message": "Xray is gereed"
+  },
+  "core_missing": {
+    "message": "Proxykern ontbreekt"
+  },
+  "core_external": {
+    "message": "Aangepaste kern: niet geverifieerd"
+  },
+  "core_corrupt": {
+    "message": "Xray controlesom komt niet overeen: reparatie vereist"
+  },
+  "core_unreadable": {
+    "message": "Kernbestand kan niet worden gecontroleerd"
+  },
+  "core_intro": {
+    "message": "Het volledige Windows-pakket bevat Xray. v2rayN is optioneel."
+  },
+  "core_verify": {
+    "message": "Controleer opnieuw"
+  },
+  "core_install": {
+    "message": "Kern installeren/repareren"
+  },
+  "core_installing": {
+    "message": "Downloaden en verifiëren…"
+  },
+  "core_done": {
+    "message": "Kern geverifieerd en klaar"
+  },
+  "core_help": {
+    "message": "Reparatie gebruikt een vastgezette officiële release Xray en verifieert de controlesom ervan. Bestaande verbindingen blijven actief."
+  },
+  "core_absent": {
+    "message": "Installeer de lokale component één keer en kom dan hier terug om de kern te controleren."
+  },
+  "core_download": {
+    "message": "Installatiehandleiding"
+  },
+  "core_absentHelp": {
+    "message": "Gebruik het overeenkomende pakket Windows of volg de handleiding om het vanaf de broncode te bouwen en voer vervolgens setup uit."
+  },
+  "core_failed": {
+    "message": "Kernbewerking mislukt. Probeer het opnieuw of gebruik het volledige Windows-pakket."
+  },
+  "core_version": {
+    "message": "Versie"
+  },
+  "error_ACTIVE_PROFILE_DELETE": {
+    "message": "Schakel naar een ander profiel voordat je dit verwijdert"
+  },
+  "error_BACKUP_BINDING_TYPE": {
+    "message": "Alleen proxyprofielen kunnen routekoppelingen hebben"
+  },
+  "error_BACKUP_FORMAT3_REQUIRED": {
+    "message": "Knooppuntregels vereisen een overdraagbare back-up in formaat 3"
+  },
+  "error_BACKUP_INDEPENDENT_PATH_REQUIRED": {
+    "message": "De back-up moet een onafhankelijk knooppuntpad bevatten"
+  },
+  "error_BACKUP_INTERNAL_BINDINGS": {
+    "message": "De back-up bevat interne koppelingen"
+  },
+  "error_BACKUP_MESSAGE_LIMIT": {
+    "message": "De knooppuntback-up overschrijdt de berichtlimiet van de lokale component"
+  },
+  "error_BACKUP_NODES_INCOMPLETE": {
+    "message": "Onvolledige knooppuntback-up"
+  },
+  "error_BACKUP_NODE_MISSING": {
+    "message": "Een vereist knooppunt ontbreekt in de back-up"
+  },
+  "error_BACKUP_NODE_PATHS_LIMIT": {
+    "message": "De back-up ondersteunt maximaal {limit} knooppuntpaden"
+  },
+  "error_BACKUP_PATH_INCOMPLETE": {
+    "message": "Onvolledig knooppuntpad in de back-up"
+  },
+  "error_BACKUP_PROFILES_LIMIT": {
+    "message": "De back-up ondersteunt maximaal {limit} profielen"
+  },
+  "error_BACKUP_PROXY_CONFLICT": {
+    "message": "De back-up bevat conflicterende proxyinstellingen"
+  },
+  "error_BACKUP_SIZE_LIMIT": {
+    "message": "De back-up is groter dan {limit} MB"
+  },
+  "error_BACKUP_TRANSFER_UNAVAILABLE": {
+    "message": "Werk de lokale component bij of herstel deze om knooppuntback-ups over te dragen."
+  },
+  "error_BACKUP_UNUSED_NODES": {
+    "message": "De back-up bevat knooppunten waarnaar niet wordt verwezen"
+  },
+  "error_BODY_TOO_LARGE": {
+    "message": "Het abonnementsantwoord overschrijdt de toegestane grootte."
+  },
+  "error_BROWSER_API_FAILED": {
+    "message": "De browserbewerking is mislukt. Bekijk de technische details."
+  },
+  "error_BROWSER_PROXY_RESTORE_FAILED": {
+    "message": "De bewerking is mislukt en de vorige browserproxy kon niet worden hersteld"
+  },
+  "error_BROWSER_SCHEDULING_UNAVAILABLE": {
+    "message": "Browserplanning is niet beschikbaar."
+  },
+  "error_BUSY": {
+    "message": "Er wordt al een andere bewerking uitgevoerd. Probeer het zo opnieuw."
+  },
+  "error_CHAIN_PROBE_FAILED": {
+    "message": "Ketentest mislukt"
+  },
+  "error_COMPANION_BULK_RELEASE_REQUIRED": {
+    "message": "Werk de lokale component bij om meerdere knooppuntregels veilig te beheren"
+  },
+  "error_COMPANION_CHAINS_REQUIRED": {
+    "message": "Werk de lokale component bij om geordende ketens in te schakelen"
+  },
+  "error_COMPANION_MESSAGE_LIMIT": {
+    "message": "De instellingen overschrijden de berichtlimiet van de lokale component"
+  },
+  "error_COMPANION_OPERATION_FAILED": {
+    "message": "De bewerking van de lokale component is mislukt. Bekijk de technische details."
+  },
+  "error_COMPANION_UNAVAILABLE": {
+    "message": "Installeer of herstel V2Route Companion"
+  },
+  "error_CONNECTION_CLOSED": {
+    "message": "De verbinding is gesloten voordat de test was voltooid."
+  },
+  "error_CORE_INSTALL_FAILED": {
+    "message": "Installatie van de kern mislukt. Bekijk de technische details."
+  },
+  "error_CORE_OWNERSHIP_FAILED": {
+    "message": "De geïsoleerde testkern kon niet veilig worden aangestuurd. De test is gestopt."
+  },
+  "error_CORE_START_FAILED": {
+    "message": "De geïsoleerde testkern kon niet starten. Controleer de installatie van de component en de kern."
+  },
+  "error_CORE_START_TIMEOUT": {
+    "message": "De geïsoleerde testkern was niet op tijd gereed."
+  },
+  "error_CORE_STATUS_UNAVAILABLE": {
+    "message": "De kernstatus is niet beschikbaar. Bekijk de technische details."
+  },
+  "error_CORE_VALIDATION_FAILED": {
+    "message": "Xray kon de geïmporteerde knooppunten niet valideren. Controleer de instellingen en probeer het opnieuw."
+  },
+  "error_DETACH_PORT_CONFLICT": {
+    "message": "De beheerde poort wordt vrijgegeven. Voer een andere handmatige proxy in"
+  },
+  "error_DETACH_PROXY_REQUIRED": {
+    "message": "Voer de vervangende handmatige proxy in voordat je de koppeling verbreekt"
+  },
+  "error_DNS_BUSY": {
+    "message": "De DNS-opzoekdienst is bezet. Probeer het zo opnieuw."
+  },
+  "error_DNS_FAILED": {
+    "message": "DNS-opzoeking mislukt. Controleer het adres en de netwerkverbinding."
+  },
+  "error_ENCODING_UNSUPPORTED": {
+    "message": "Het abonnement gebruikt een niet-ondersteunde inhoudscodering."
+  },
+  "error_FIREFOX_PRIVATE_ACCESS_REQUIRED": {
+    "message": "Sta V2Route toe in privévensters via de extensiedetails voordat je de proxyinstellingen wijzigt"
+  },
+  "error_FOLDER_UNAVAILABLE": {
+    "message": "Map niet beschikbaar; controleer het pad, de toegang en de versie van de lokale component"
+  },
+  "error_GROUP_LIMIT": {
+    "message": "Het groepsmaximum is bereikt. Verwijder een ongebruikte groep en probeer het opnieuw."
+  },
+  "error_GROUP_NOT_EDITABLE": {
+    "message": "Deze brongroep kan hier niet worden bewerkt."
+  },
+  "error_GROUP_NOT_FOUND": {
+    "message": "De geselecteerde groep bestaat niet meer. Selecteer een andere groep."
+  },
+  "error_HTTP_ENCODING": {
+    "message": "De testserver heeft een niet-ondersteunde codering teruggestuurd."
+  },
+  "error_HTTP_LENGTH": {
+    "message": "De grootte van het testantwoord kwam niet overeen met de gevraagde grootte."
+  },
+  "error_HTTP_RESPONSE_TOO_LARGE": {
+    "message": "Het testantwoord overschreed de toegestane grootte."
+  },
+  "error_HTTP_STATUS": {
+    "message": "De testserver heeft een HTTP-foutstatus teruggestuurd."
+  },
+  "error_IMPORTED_PROXY_MISSING": {
+    "message": "De lokale component heeft de geïmporteerde proxy niet teruggestuurd"
+  },
+  "error_IMPORTED_RULE_PATH_CONFLICT": {
+    "message": "Geïmporteerde knooppunten worden aan conflicterende regelpaden gekoppeld"
+  },
+  "error_IMPORT_CLEANUP_FAILED": {
+    "message": "Importeren mislukt; sommige tijdelijke knooppunten of poorten konden niet worden vrijgegeven. Bestaande profielen zijn behouden"
+  },
+  "error_IMPORT_PROFILE_NAME_CONFLICT": {
+    "message": "Dubbele of ongeldige profielnaam"
+  },
+  "error_INCOMPLETE_RESPONSE": {
+    "message": "Het abonnementsantwoord was onvolledig. Probeer het opnieuw."
+  },
+  "error_INVALID_BACKUP": {
+    "message": "Ongeldige V2Route-back-up"
+  },
+  "error_INVALID_BACKUP_NODE": {
+    "message": "Ongeldig of dubbel knooppunt in de back-up"
+  },
+  "error_INVALID_BACKUP_NODES": {
+    "message": "Ongeldige knooppunten in de back-up"
+  },
+  "error_INVALID_BACKUP_PATH": {
+    "message": "Ongeldig back-uppad"
+  },
+  "error_INVALID_BYPASS_ENTRY": {
+    "message": "Ongeldige uitzonderingsregel"
+  },
+  "error_INVALID_BYPASS_LIST": {
+    "message": "Ongeldige uitzonderingslijst"
+  },
+  "error_INVALID_CHAIN": {
+    "message": "Ongeldige geordende keten"
+  },
+  "error_INVALID_CHAIN_PROBE": {
+    "message": "Ongeldige ketentest"
+  },
+  "error_INVALID_COMPANION_RESPONSE": {
+    "message": "De lokale component heeft een ongeldig antwoord teruggestuurd. Werk deze bij of herstel deze."
+  },
+  "error_INVALID_CONTENT": {
+    "message": "Het abonnementsantwoord bevat geen geldige inhoud."
+  },
+  "error_INVALID_DOMAIN_PATTERNS": {
+    "message": "Voer domeinpatronen gescheiden door komma's in; plaats elke URL op een eigen regel"
+  },
+  "error_INVALID_ENCODING": {
+    "message": "Het abonnementsantwoord is geen geldige UTF-8-tekst."
+  },
+  "error_INVALID_FOLDER_REQUEST": {
+    "message": "Ongeldig mapverzoek"
+  },
+  "error_INVALID_GROUP_ACTION": {
+    "message": "Deze groepsactie wordt niet ondersteund."
+  },
+  "error_INVALID_HOP_INDEX": {
+    "message": "Ongeldige sprongindex"
+  },
+  "error_INVALID_LEGACY_PREDECESSOR": {
+    "message": "Ongeldige overgenomen voorafgaande proxy"
+  },
+  "error_INVALID_LIBRARY_COMMAND": {
+    "message": "Deze opdracht voor de knooppuntbibliotheek wordt niet ondersteund."
+  },
+  "error_INVALID_LIBRARY_REQUEST": {
+    "message": "Ongeldig bibliotheekverzoek"
+  },
+  "error_INVALID_NAME": {
+    "message": "Voer een naam met 1–128 zichtbare tekens in, zonder besturingstekens."
+  },
+  "error_INVALID_NETWORK_TEST": {
+    "message": "Ongeldige netwerktest"
+  },
+  "error_INVALID_NODE_IMPORT_RESPONSE": {
+    "message": "Ongeldig antwoord op de knooppuntimport"
+  },
+  "error_INVALID_PREDECESSOR": {
+    "message": "Ongeldige voorafgaande proxy voor deze route"
+  },
+  "error_INVALID_PROFILE_NAME": {
+    "message": "Ongeldige profielnaam"
+  },
+  "error_INVALID_PROFILE_REFERENCE": {
+    "message": "Ongeldige profielverwijzing"
+  },
+  "error_INVALID_PROXY_AUTH": {
+    "message": "Ongeldige proxyauthenticatie"
+  },
+  "error_INVALID_PROXY_CREDENTIALS": {
+    "message": "Ongeldige proxyreferenties"
+  },
+  "error_INVALID_PROXY_ENDPOINT": {
+    "message": "Voer een geldige proxyhost en poort in"
+  },
+  "error_INVALID_PROXY_HOST": {
+    "message": "Voer een DNS-naam of IP-adres in zonder poort, URL, pad of query"
+  },
+  "error_INVALID_ROUTE": {
+    "message": "Ongeldige route"
+  },
+  "error_INVALID_ROUTE_SETTINGS": {
+    "message": "Ongeldige route-instellingen"
+  },
+  "error_INVALID_RULES": {
+    "message": "Ongeldige regels"
+  },
+  "error_INVALID_RULE_TARGET": {
+    "message": "Kies voor elke regel één geldig knooppunt of profiel"
+  },
+  "error_INVALID_SUBSCRIPTION": {
+    "message": "Ongeldig abonnement"
+  },
+  "error_INVALID_SUBSCRIPTION_REQUEST": {
+    "message": "Ongeldig abonnementsverzoek"
+  },
+  "error_INVALID_SUBSCRIPTION_SETTINGS": {
+    "message": "De abonnementsinstellingen zijn ongeldig. Controleer het update-interval en het verbindingsbeleid."
+  },
+  "error_INVALID_SYSTEM_PROXY_RESPONSE": {
+    "message": "Ongeldig antwoord van de systeemproxy; werk de lokale component bij of herstel deze"
+  },
+  "error_INVALID_TRANSPORT": {
+    "message": "De verbindingsinstellingen van het abonnement zijn ongeldig."
+  },
+  "error_INVALID_URL": {
+    "message": "Voer een geldige HTTP(S)-abonnements-URL in zonder gebruikersnaam of wachtwoord."
+  },
+  "error_LIBRARY_CHANGED": {
+    "message": "De knooppuntbibliotheek is in een ander venster gewijzigd. Vernieuw deze en probeer het opnieuw."
+  },
+  "error_MANUAL_CHAIN_UNSUPPORTED": {
+    "message": "Handmatige proxy's ondersteunen geen knooppuntketen"
+  },
+  "error_MANUAL_PROXY_CLEANUP_FAILED": {
+    "message": "Opslaan mislukt; een tijdelijk geïmporteerde proxy staat nog in de knooppuntbibliotheek"
+  },
+  "error_NATIVE_BINDING_ID": {
+    "message": "Ongeldige identificatie van de routekoppeling."
+  },
+  "error_NATIVE_BINDING_UNKNOWN": {
+    "message": "De routekoppeling bestaat niet."
+  },
+  "error_NATIVE_BUTTON_NAME": {
+    "message": "De knopnaam moet 1–128 zichtbare tekens bevatten."
+  },
+  "error_NATIVE_CATALOG_UNREADABLE": {
+    "message": "De v2rayN-configuratie kon niet worden gelezen."
+  },
+  "error_NATIVE_CORE_MISSING": {
+    "message": "Xray is niet beschikbaar. Installeer het pakket met de lokale component."
+  },
+  "error_NATIVE_GROUP_ID_COLLISION": {
+    "message": "Groepsidentificaties conflicteren."
+  },
+  "error_NATIVE_GROUP_ORDER": {
+    "message": "Ongeldige groepsvolgorde."
+  },
+  "error_NATIVE_NODE_ID_COLLISION": {
+    "message": "Knooppuntidentificaties conflicteren."
+  },
+  "error_NATIVE_PREDECESSOR_AMBIGUOUS": {
+    "message": "De naam van de voorafgaande proxy ontbreekt of komt dubbel voor. Selecteer een specifiek voorafgaand knooppunt."
+  },
+  "error_NATIVE_PREDECESSOR_CYCLE": {
+    "message": "De voorafgaande keten bevat een lus of meer dan zes knooppunten."
+  },
+  "error_NATIVE_PREDECESSOR_INVALID": {
+    "message": "Selecteer een geldige voorafgaande proxy."
+  },
+  "error_NATIVE_PREDECESSOR_MISSING": {
+    "message": "De geselecteerde voorafgaande proxy bestaat niet meer. Selecteer een ander knooppunt."
+  },
+  "error_NATIVE_PREDECESSOR_SETTINGS": {
+    "message": "Ongeldige instellingen voor de voorafgaande proxy."
+  },
+  "error_NATIVE_ROUTE_INVALID": {
+    "message": "Selecteer een geldige route."
+  },
+  "error_NATIVE_ROUTE_MISSING": {
+    "message": "Deze route bestaat niet meer. Selecteer een andere route."
+  },
+  "error_NATIVE_ROUTE_PORTS": {
+    "message": "Ongeldige poorttoewijzingen voor de route."
+  },
+  "error_NATIVE_ROUTE_UNAVAILABLE": {
+    "message": "De geselecteerde route is niet beschikbaar. Bekijk de technische details."
+  },
+  "error_NATIVE_SETTINGS_FORMAT": {
+    "message": "Ongeldig instellingenformaat."
+  },
+  "error_NATIVE_SETTINGS_REVISION": {
+    "message": "Ongeldige revisie van de instellingen."
+  },
+  "error_NATIVE_SUCCESSOR_UNSUPPORTED": {
+    "message": "Deze groep gebruikt een opvolgende proxy die niet wordt ondersteund."
+  },
+  "error_NATIVE_UNSUPPORTED_CUSTOM": {
+    "message": "Deze versie ondersteunt geen aangepaste uitgaande configuraties."
+  },
+  "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
+    "message": "Deze versie ondersteunt Hysteria2 niet."
+  },
+  "error_NATIVE_UNSUPPORTED_TUIC": {
+    "message": "Deze versie bevat niet de sing-box-kern die voor TUIC nodig is."
+  },
+  "error_NATIVE_UNSUPPORTED_TYPE": {
+    "message": "Dit routetype wordt niet ondersteund."
+  },
+  "error_NATIVE_V2RAYN_PORT": {
+    "message": "De lokale v2rayN-poort is ongeldig."
+  },
+  "error_NATIVE_V2RAYN_UNAVAILABLE": {
+    "message": "v2rayN is niet beschikbaar. Selecteer een geïmporteerd knooppunt."
+  },
+  "error_NETWORK_FAILED": {
+    "message": "Het netwerkverzoek is mislukt. Controleer de verbinding en probeer het opnieuw."
+  },
+  "error_NETWORK_TEST_FAILED": {
+    "message": "De netwerkdiagnose is mislukt. Bekijk de technische details."
+  },
+  "error_NODE_LIMIT": {
+    "message": "De bewerking zou het knooppuntmaximum overschrijden. Verwijder ongebruikte knooppunten en probeer het opnieuw."
+  },
+  "error_NODE_MAPPING_INCOMPLETE": {
+    "message": "De knooppunttoewijzing is onvolledig"
+  },
+  "error_NODE_NOT_FOUND": {
+    "message": "Het geselecteerde knooppunt bestaat niet meer. Selecteer een ander knooppunt."
+  },
+  "error_NOT_DUE": {
+    "message": "Het is nog geen tijd voor de volgende geplande update."
+  },
+  "error_PAC_ENTRY_REQUIRED": {
+    "message": "Voer PAC-broncode met FindProxyForURL in"
+  },
+  "error_PAC_FUNCTION_REQUIRED": {
+    "message": "Definieer een synchrone FindProxyForURL-functie, functievariabele of toewijzing op het hoogste niveau"
+  },
+  "error_PAC_PARSER_UNAVAILABLE": {
+    "message": "De meegeleverde PAC-parser is niet beschikbaar; installeer de extensie opnieuw"
+  },
+  "error_PAC_RULE_TARGET_UNSUPPORTED": {
+    "message": "Automatische regels kunnen niet verwijzen naar een profiel met ingesloten PAC-code"
+  },
+  "error_PAC_SOURCE_LIMIT": {
+    "message": "Voer PAC-broncode van maximaal {limit} tekens in"
+  },
+  "error_PAC_SYNTAX_INVALID": {
+    "message": "Ongeldige PAC-syntaxis"
+  },
+  "error_PAC_SYNTAX_LOCATION": {
+    "message": "Ongeldige PAC-syntaxis op regel {line}, kolom {column}"
+  },
+  "error_PARTIAL_TRANSFER": {
+    "message": "De testoverdracht is beëindigd voordat alle gegevens waren ontvangen."
+  },
+  "error_PRIVATE_DIRECTORY_FAILED": {
+    "message": "De privémappenbeveiliging voor de test kon niet worden ingesteld. De test is gestopt."
+  },
+  "error_PRIVATE_TARGET": {
+    "message": "Abonnementsverzoeken naar privé- of lokale adressen zijn niet toegestaan."
+  },
+  "error_PROFILE_NOT_FOUND": {
+    "message": "Profiel niet gevonden"
+  },
+  "error_PROFILE_REFERENCE_CYCLE": {
+    "message": "Circulaire profielverwijzingen"
+  },
+  "error_PROFILE_REFERENCE_DEPTH": {
+    "message": "Automatische regels overschrijden de maximale diepte van {limit}"
+  },
+  "error_PROFILE_REFERENCE_MISSING": {
+    "message": "Het profiel waarnaar wordt verwezen bestaat niet: {name}"
+  },
+  "error_PROFILE_SAVE_RESTORE_FAILED": {
+    "message": "Opslaan mislukt; het herstellen van de route vereist aandacht"
+  },
+  "error_PROXY_AUTH_REQUIRED": {
+    "message": "De abonnementsproxy vereist authenticatie die dit verzoek niet kan bieden."
+  },
+  "error_PROXY_CONTROL_UNAVAILABLE": {
+    "message": "Een andere extensie of beleid beheert de proxy"
+  },
+  "error_PROXY_DNS_REQUIRED": {
+    "message": "V2Route laat SOCKS5-DNS via de proxy oplossen"
+  },
+  "error_PROXY_FAILED": {
+    "message": "De proxyverbinding is mislukt. Controleer de geselecteerde route."
+  },
+  "error_PROXY_PROFILE_REQUIRED": {
+    "message": "Kies een proxyprofiel"
+  },
+  "error_PROXY_ROLLBACK_REFUSED": {
+    "message": "De browser heeft het terugzetten van de proxy geweigerd"
+  },
+  "error_PROXY_SETTING_REFUSED": {
+    "message": "De browser heeft de proxyinstelling geweigerd"
+  },
+  "error_PROXY_UNAVAILABLE": {
+    "message": "De geselecteerde proxy is niet beschikbaar. Controleer de huidige route."
+  },
+  "error_PROXY_USERNAME_REQUIRED": {
+    "message": "Voer een proxygebruikersnaam in"
+  },
+  "error_RECOVERY_BINDINGS_LIMIT": {
+    "message": "Herstel kan maximaal {limit} knooppuntkoppelingen terugzetten. Open en bewaar de betreffende profielen afzonderlijk."
+  },
+  "error_REDIRECT_LIMIT": {
+    "message": "Het abonnement is te vaak doorgestuurd. Controleer de URL."
+  },
+  "error_REFERENCED_PROFILE_DELETE": {
+    "message": "Een automatische regel verwijst naar dit profiel"
+  },
+  "error_REMOTE_PAC_UNSUPPORTED": {
+    "message": "Gebruik ingesloten PAC-broncode; externe PAC wordt niet ondersteund"
+  },
+  "error_ROUTE_PORT_UNAVAILABLE": {
+    "message": "Er is geen poort toegewezen"
+  },
+  "error_ROUTE_RECOVERY_RESTORE_FAILED": {
+    "message": "Routeherstel mislukt; het terugzetten vereist aandacht"
+  },
+  "error_ROUTE_REVISION_CONFLICT": {
+    "message": "De route is in een ander venster gewijzigd. Vernieuw eerst"
+  },
+  "error_ROUTE_SAVE_ROLLBACK_FAILED": {
+    "message": "Opslaan van de route mislukt; het terugdraaien vereist aandacht"
+  },
+  "error_ROUTE_UNAVAILABLE": {
+    "message": "De testroute is niet beschikbaar. Controleer de instellingen van het knooppunt en de voorafgaande proxy."
+  },
+  "error_RULE_BINDING_MISSING": {
+    "message": "De knooppuntregelkoppeling ontbreekt. Open het automatische profiel opnieuw en sla het op: {name}"
+  },
+  "error_RULE_NODES_LIMIT": {
+    "message": "Automatische regels ondersteunen maximaal {limit} verschillende knooppunten"
+  },
+  "error_RULE_NODE_CHANGED": {
+    "message": "Het regelknooppunt is niet beschikbaar of is gewijzigd. Herstel het of kies een ander knooppunt en sla op: {name}"
+  },
+  "error_RULE_PATH_CONFLICT": {
+    "message": "Conflicterende paden van knooppuntregels"
+  },
+  "error_RULE_PATTERNS_LIMIT": {
+    "message": "Automatische regels ondersteunen in totaal maximaal {limit} overeenkomende patronen"
+  },
+  "error_RULE_PORT_UNAVAILABLE": {
+    "message": "De poort van de knooppuntregel is niet beschikbaar"
+  },
+  "error_RULE_REVISION_CONFLICT": {
+    "message": "De knooppuntregel is in een ander venster gewijzigd. Vernieuw eerst"
+  },
+  "error_SELECTED_NODE_UNAVAILABLE": {
+    "message": "Het geselecteerde knooppunt is niet beschikbaar. Herstel het of kies een ander knooppunt"
+  },
+  "error_SOCKS_FAILED": {
+    "message": "De SOCKS-verbinding kon niet worden gemaakt."
+  },
+  "error_STARTUP_FALLBACK_REFUSED": {
+    "message": "De browser heeft de terugvalproxy bij het opstarten geweigerd."
+  },
+  "error_SUBSCRIPTION_CHANGED": {
+    "message": "Het abonnement is tijdens de update gewijzigd. Vernieuw het en probeer het opnieuw."
+  },
+  "error_SUBSCRIPTION_HTTP_STATUS": {
+    "message": "De abonnementsserver heeft HTTP {status} teruggestuurd."
+  },
+  "error_SUBSCRIPTION_LIMIT": {
+    "message": "Het abonnementsmaximum is bereikt. Verwijder een ongebruikt abonnement en probeer het opnieuw."
+  },
+  "error_SUBSCRIPTION_NOT_FOUND": {
+    "message": "Het geselecteerde abonnement bestaat niet meer."
+  },
+  "error_SYSTEM_PROXY_SNAPSHOT_UNAVAILABLE": {
+    "message": "De toegepaste momentopname van de systeemproxy is niet beschikbaar."
+  },
+  "error_SYSTEM_PROXY_TIMEOUT": {
+    "message": "Time-out bij het lezen van de systeemproxy"
+  },
+  "error_SYSTEM_PROXY_UNAVAILABLE": {
+    "message": "De systeemproxy is niet beschikbaar. Bekijk de technische details."
+  },
+  "error_TIMEOUT": {
+    "message": "Het verzoek heeft een time-out bereikt. Controleer de verbinding en probeer het opnieuw."
+  },
+  "error_TLS_DOWNGRADE": {
+    "message": "Het abonnement is van HTTPS naar HTTP doorgestuurd en is geblokkeerd."
+  },
+  "error_TLS_FAILED": {
+    "message": "De beveiligde verbinding kon niet worden geverifieerd. Controleer de server en het certificaat."
+  },
+  "error_UNSAFE_TEMP_PATH": {
+    "message": "De tijdelijke testmap is onveilig. De test is gestopt."
+  },
+  "error_UNSUPPORTED_LIBRARY_REQUEST": {
+    "message": "Niet-ondersteund bibliotheekverzoek"
+  },
+  "error_UNSUPPORTED_PROFILE_TYPE": {
+    "message": "Niet-ondersteund profieltype"
+  },
+  "error_UNSUPPORTED_REQUEST": {
+    "message": "Niet-ondersteund verzoek"
+  },
+  "error_UNSUPPORTED_RULE_CONDITION": {
+    "message": "Alleen jokertekenregels voor hosts en URL worden ondersteund"
+  },
+  "error_UPDATE_FAILED": {
+    "message": "De abonnementsupdate is mislukt. Bestaande knooppunten zijn behouden."
+  },
+  "error_VALIDATION_FAILED": {
+    "message": "De abonnementsinhoud kon niet worden gevalideerd. Bestaande knooppunten zijn behouden."
+  },
+  "nativeUnnamedNode": {
+    "message": "Naamloos knooppunt"
+  },
+  "nativeProtocolCustom": {
+    "message": "Aangepast"
+  },
+  "nativeProtocolOutbound": {
+    "message": "Aangepaste uitgaande verbinding"
+  },
+  "nativeProtocolGroup": {
+    "message": "Beleidsgroep"
+  },
+  "nativeProtocolChain": {
+    "message": "Proxyketen"
+  },
+  "nativeProtocolUnknown": {
+    "message": "Niet-ondersteund type"
+  },
+  "languageLoadFailed": {
+    "message": "De geselecteerde taal kon niet worden geladen. Probeer het opnieuw."
+  },
+  "invalidBackupJSON": {
+    "message": "De back-up is geen geldige JSON."
+  },
+  "noticeBodyLanguages": {
+    "message": "De volledige beleidstekst is beschikbaar in het Engels en vereenvoudigd Chinees."
+  },
+  "policyRules": {
+    "message": "Proxyrouteringsregels"
+  },
+  "policyPriority": {
+    "message": "Volgorde: uitzonderingsadressen → eerste passende regel → standaardroute."
+  },
+  "policyDirectHelp": {
+    "message": "Adressen zonder overeenkomst verbinden rechtstreeks. De knop Direct gebruikt deze regels ook."
+  },
+  "policySystemHelp": {
+    "message": "Adressen zonder overeenkomst gebruiken de systeemproxy. De knop Systeem gebruikt deze regels ook."
+  },
+  "policyEmpty": {
+    "message": "Nog geen regels. De standaardroute wordt gebruikt."
+  },
+  "policyAddressHelp": {
+    "message": "Domeinen, jokertekendomeinen, IP of IP:poort. IP-regels vergelijken het IP in de URL, niet DNS-resultaten."
+  },
+  "policyMoveUp": {
+    "message": "Regel omhoog"
+  },
+  "policyMoveDown": {
+    "message": "Regel omlaag"
+  }
+}

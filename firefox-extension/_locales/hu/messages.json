@@ -1,0 +1,2150 @@
+{
+  "ruleTargetUnavailable": {
+    "message": "Nem elérhető cél"
+  },
+  "rulePatternPlaceholder": {
+    "message": "example.com, *.example.org, 192.0.2.1:8443"
+  },
+  "rulePatternHelp": {
+    "message": "A címeket vessző válassza el. Minden URL-minta külön sorba kerüljön. A PAC nem feltétlenül látja a HTTPS útvonalakat."
+  },
+  "defaultChoice_direct": {
+    "message": "Csatlakozás proxy nélkül"
+  },
+  "defaultChoice_system": {
+    "message": "Rendszerproxy beállítások használata"
+  },
+  "defaultChoice_node": {
+    "message": "A profil kiválasztott csomópontjának használata"
+  },
+  "defaultChoice_manual": {
+    "message": "Használja ennek a profilnak a proxy beállításait"
+  },
+  "defaultChoice_auto": {
+    "message": "Alkalmazza a profil útválasztási szabályait"
+  },
+  "nlHttpsLatency": {
+    "message": "HTTPS válasz"
+  },
+  "nlLatencyMethod": {
+    "message": "Cloudflare · Minimum két válasz · Csatlakozás újrafelhasználása, ha elérhető"
+  },
+  "nlLatencyFast": {
+    "message": "Gyors"
+  },
+  "nlLatencyModerate": {
+    "message": "Mérsékelt"
+  },
+  "nlLatencySlow": {
+    "message": "Lassú"
+  },
+  "nlSortName": {
+    "message": "Név"
+  },
+  "nlSortLatency": {
+    "message": "Késési idő: alacsonytól magasig"
+  },
+  "nlSortDownload": {
+    "message": "Letöltés: magasról alacsonyra"
+  },
+  "nlSortUpload": {
+    "message": "Feltöltés: magasról alacsonyra"
+  },
+  "nlSingle": {
+    "message": "Egyetlen csomópont"
+  },
+  "nlGroupBatch": {
+    "message": "Csoport / köteg"
+  },
+  "nlTestScope": {
+    "message": "Teszt hatóköre"
+  },
+  "nlCurrentNode": {
+    "message": "Kiválasztott csomópont"
+  },
+  "nlCurrentGroup": {
+    "message": "Kiválasztott csoport"
+  },
+  "nlChooseNode": {
+    "message": "Válasszon egy csomópontot a listából"
+  },
+  "nlStart": {
+    "message": "Indítsa el a tesztet"
+  },
+  "nlService": {
+    "message": "Tesztszolgáltatás"
+  },
+  "nlMeasured": {
+    "message": "mérve"
+  },
+  "nlMeanLatency": {
+    "message": "Átlagos késleltetés"
+  },
+  "nlGroupBySource": {
+    "message": "Forráscsoport szerint"
+  },
+  "nlPreviousPage": {
+    "message": "Előző oldal"
+  },
+  "nlNextPage": {
+    "message": "Következő oldal"
+  },
+  "nlName": {
+    "message": "Név"
+  },
+  "nlEdit": {
+    "message": "Szerk"
+  },
+  "nlStop": {
+    "message": "Állj"
+  },
+  "nlConfirm": {
+    "message": "Erősítse meg"
+  },
+  "nlAllNodes": {
+    "message": "Minden csomópont"
+  },
+  "nlNodeResults": {
+    "message": "Csomópont eredményei"
+  },
+  "nlTestCenter": {
+    "message": "Tesztközpont"
+  },
+  "nlNewGroup": {
+    "message": "Új csoport"
+  },
+  "nlRenameGroup": {
+    "message": "Csoport átnevezése"
+  },
+  "nlRemoveGroup": {
+    "message": "Csoport eltávolítása"
+  },
+  "nlRemoveGroupHelp": {
+    "message": "Tartson meg minden csomópontot és előfizetést, és helyezze át őket az Importált csomópontokba."
+  },
+  "nlNode": {
+    "message": "Csomópont"
+  },
+  "nlStatus": {
+    "message": "Állapot"
+  },
+  "nlActions": {
+    "message": "Műveletek"
+  },
+  "nlSort": {
+    "message": "Csak ezt a táblázatot rendezze"
+  },
+  "nlSelected": {
+    "message": "kiválasztva"
+  },
+  "nlTestNode": {
+    "message": "Teszt"
+  },
+  "nlProfileShort": {
+    "message": "Profil"
+  },
+  "nlQuick": {
+    "message": "Gyors késleltetés"
+  },
+  "nlFull": {
+    "message": "Letöltés + feltöltés"
+  },
+  "nlTraffic": {
+    "message": "Tesztadatok mérete"
+  },
+  "nlConcurrency": {
+    "message": "Egyidejű csomópontok"
+  },
+  "nlTrafficFullOnly": {
+    "message": "Letöltési és feltöltési tesztekhez használható"
+  },
+  "nlTestMode": {
+    "message": "Teszt mód"
+  },
+  "nlBudget": {
+    "message": "Maximális hasznos teherforgalom"
+  },
+  "nlViaGroup": {
+    "message": "Csoportos előproxy-n keresztül"
+  },
+  "nlTestSelected": {
+    "message": "Teszt kiválasztva"
+  },
+  "nlTestVisible": {
+    "message": "A megjelenített csomópontok tesztelése"
+  },
+  "nlTestAll": {
+    "message": "Tesztelje az összes csomópontot"
+  },
+  "nlTestGroup": {
+    "message": "Tesztcsoport csomópontjai"
+  },
+  "nlProgress": {
+    "message": "A mérés folyamata"
+  },
+  "nlReady": {
+    "message": "Válassza ki az indítandó csomópontokat. Egyetlen teszt sem futott le."
+  },
+  "nlStarting": {
+    "message": "Elszigetelt mérés indítása…"
+  },
+  "nlQueued": {
+    "message": "Sorban"
+  },
+  "nlRunning": {
+    "message": "Tesztelés"
+  },
+  "nlStopping": {
+    "message": "Leállítás…"
+  },
+  "nlComplete": {
+    "message": "Kész"
+  },
+  "nlFailed": {
+    "message": "Sikertelen"
+  },
+  "nlStopped": {
+    "message": "Leállt"
+  },
+  "nlPartial": {
+    "message": "Részleges"
+  },
+  "nlUntested": {
+    "message": "Nincs tesztelve"
+  },
+  "nlSucceeded": {
+    "message": "sikeres"
+  },
+  "nlMeasureDisconnected": {
+    "message": "A mérési kapcsolat megszakadt. A hiányos értékek nem végleges eredmények."
+  },
+  "nlUpgrade": {
+    "message": "Frissítse a helyi Companiont a csoportok és előfizetések kezeléséhez. A meglévő csomópontok elérhetők maradnak."
+  },
+  "nlOperationFailed": {
+    "message": "A műveletet nem lehetett befejezni. Próbáld újra."
+  },
+  "nlEditSubscription": {
+    "message": "Előfizetés szerkesztése"
+  },
+  "nlPasteContent": {
+    "message": "Proxy hivatkozások / tartalom"
+  },
+  "nlSubscriptionURL": {
+    "message": "Előfizetés URL"
+  },
+  "nlKeepURL": {
+    "message": "Hagyja üresen a mentett URL"
+  },
+  "nlConnectionPolicy": {
+    "message": "Frissítse a kapcsolatot"
+  },
+  "nlProxyFirst": {
+    "message": "Először proxy, majd közvetlenül hiba esetén"
+  },
+  "nlProxyOnly": {
+    "message": "Csak proxy"
+  },
+  "nlDirectOnly": {
+    "message": "Csak közvetlenül"
+  },
+  "nlProxyFirstHelp": {
+    "message": "A proxy először leáll a sikeres lekérés után. A Direct csak akkor próbálkozik, ha a proxy próbálkozása sikertelen."
+  },
+  "nlAutoUpdate": {
+    "message": "Automatikus frissítés engedélyezése"
+  },
+  "nlInterval": {
+    "message": "Frissítési időköz (perc)"
+  },
+  "nlDestinationGroup": {
+    "message": "Célcsoport"
+  },
+  "nlSubscriptionOwnGroup": {
+    "message": "Új csoport…"
+  },
+  "nlNameGroup": {
+    "message": "Név (csoport)"
+  },
+  "nlCustomGroup": {
+    "message": "Egyéni csoport"
+  },
+  "nlNameRequired": {
+    "message": "Adjon meg egy nevet."
+  },
+  "nlContentRequired": {
+    "message": "Illesszen be proxyhivatkozásokat vagy előfizetési tartalmat."
+  },
+  "nlGroupRequired": {
+    "message": "Válasszon célcsoportot."
+  },
+  "nlURLRequired": {
+    "message": "Adjon meg egy HTTP(S) előfizetést URL felhasználónév vagy jelszó nélkül."
+  },
+  "nlIntervalInvalid": {
+    "message": "Írjon be egy egész számot 5 és 43200 perc között."
+  },
+  "folderTitle": {
+    "message": "Válassza a v2rayN mappát"
+  },
+  "folderHint": {
+    "message": "Válasszon ki egy mappát, majd alkalmazza a Kapcsolatbeállítások mentése lehetőséggel."
+  },
+  "folderPath": {
+    "message": "A teljes helyi mappa elérési útja"
+  },
+  "folderGo": {
+    "message": "Nyitva"
+  },
+  "folderUp": {
+    "message": "Fel"
+  },
+  "folderDrives": {
+    "message": "Meghajtók"
+  },
+  "folderCurrent": {
+    "message": "Aktuális útvonal"
+  },
+  "folderChoose": {
+    "message": "Használja ezt a mappát"
+  },
+  "folderList": {
+    "message": "Mappák"
+  },
+  "folderTruncated": {
+    "message": "A lista korlátozott. Írja be a fenti teljes elérési utat egy nem látható mappa megnyitásához."
+  },
+  "folderReady": {
+    "message": "v2rayN fájl található. Használja ezt a mappát a konfiguráció érvényesítéséhez."
+  },
+  "folderInvalid": {
+    "message": "Válassza ki a guiConfigs, guiNConfig.json és guiNDB.db mappát."
+  },
+  "folderSelectDrive": {
+    "message": "Válasszon egy helyi meghajtót, vagy adjon meg egy teljes mappa elérési utat."
+  },
+  "folderEmpty": {
+    "message": "Nincsenek látható almappák."
+  },
+  "folderUnavailable": {
+    "message": "Nem lehet böngészni ebben a mappában. Ellenőrizze az útvonalat és a hozzáférést. Ha a Companion régebbi, először frissítse."
+  },
+  "folderValidating": {
+    "message": "A v2rayN konfiguráció ellenőrzése…"
+  },
+  "folderInvalidConfig": {
+    "message": "A v2rayN konfiguráció vagy adatbázis hiányos vagy érvénytelen. Válasszon másik mappát."
+  },
+  "copyPath": {
+    "message": "Útvonal másolása"
+  },
+  "pathCopyHint": {
+    "message": "Másolja a jelenleg ebben a mezőben lévő elérési utat."
+  },
+  "preMode": {
+    "message": "Proxy előtti mód"
+  },
+  "preNode": {
+    "message": "Proxy előtti csomópont"
+  },
+  "preIntro": {
+    "message": "Használja a csoportláncot, hagyja ki, vagy válasszon egy előproxyt ehhez a profilhoz."
+  },
+  "healthLabel": {
+    "message": "A kapcsolat jelenlegi állapota"
+  },
+  "healthOk": {
+    "message": "Normál"
+  },
+  "healthError": {
+    "message": "Rendellenes"
+  },
+  "healthChecking": {
+    "message": "Ellenőrzés"
+  },
+  "healthUnknown": {
+    "message": "Nincs megerősítve"
+  },
+  "autoSystemHelp": {
+    "message": "A rendszerszabályokhoz Windows-kísérőkomponens és a rögzített proxybeállítások pillanatképe szükséges. Módosítás után alkalmazza újra. A PAC/WPAD nem támogatott; a szabályok nélküli Rendszer a böngésző saját beállításait használja."
+  },
+  "backgroundUnavailable": {
+    "message": "A bővítmény háttér nem érhető el."
+  },
+  "backgroundNoResponse": {
+    "message": "A háttér nem válaszolt."
+  },
+  "backupTooLarge": {
+    "message": "A biztonsági másolat mérete meghaladja az 5 MB-ot."
+  },
+  "proxyUsername": {
+    "message": "Felhasználónév"
+  },
+  "proxyPassword": {
+    "message": "Jelszó"
+  },
+  "proxyAuthHelp": {
+    "message": "Nem kötelező. Hitelesített proxy-k csatlakoznak a Companion-en keresztül. A hitelesítési adatok ebben a böngészőkonfigurációban és a Companionben tárolódnak, és szerepelnek a profilexportálásokban."
+  },
+  "proxyAuthSocks4": {
+    "message": "SOCKS4 nem támogatja ezt a felhasználónév/jelszó hitelesítést; használja HTTP(S) vagy SOCKS5."
+  },
+  "importExamples": {
+    "message": "Formátumpéldák"
+  },
+  "ipCopying": {
+    "message": "Másolás…"
+  },
+  "netDnsUnavailable": {
+    "message": "A szerver címét nem sikerült időben feloldani. Ellenőrizze a gazdagép vagy IP címet, és próbálja újra."
+  },
+  "netCurrentTarget": {
+    "message": "Kiválasztott proxy-végpont"
+  },
+  "netCustomTarget": {
+    "message": "Egyéni szerver"
+  },
+  "netHost": {
+    "message": "Gazda vagy IP cím"
+  },
+  "netPort": {
+    "message": "TCP port"
+  },
+  "netHostRequired": {
+    "message": "Adja meg a szerver gazdagépét vagy IP címét."
+  },
+  "netCurrentUnavailable": {
+    "message": "Válasszon csomópontot vagy kézi proxyprofilt, vagy adjon meg egy egyéni célt."
+  },
+  "netInvalidTarget": {
+    "message": "Adjon meg egy érvényes diagnosztikai gazdagépet és portot."
+  },
+  "netIpv6PingUnavailable": {
+    "message": "Az IPv6 ICMP nem érhető el; használja TCPing."
+  },
+  "preNeedsFix": {
+    "message": "Mentés előtt válasszon érvényes előproxyt vagy ne legyen előproxy."
+  },
+  "preConfigure": {
+    "message": "Előproxy konfigurálása"
+  },
+  "preFollowInvalid": {
+    "message": "Follow v2rayN nem fogad el egyéni előproxyt."
+  },
+  "followChainHelp": {
+    "message": "A Follow a v2rayN-ben már aktív útvonalat és proxyláncot használja."
+  },
+  "netTitle": {
+    "message": "Csatlakozási tesztek"
+  },
+  "ipTestDetails": {
+    "message": "Teszt részletei"
+  },
+  "netTarget": {
+    "message": "Ping / TCPing cél"
+  },
+  "netDownload": {
+    "message": "Letöltési teszt"
+  },
+  "netPartial": {
+    "message": "Részleges minta"
+  },
+  "netComplete": {
+    "message": "A minta kész"
+  },
+  "netDirect": {
+    "message": "Rendszerhálózat"
+  },
+  "netUnreachable": {
+    "message": "Nincs válasz / sikertelen"
+  },
+  "netAverage": {
+    "message": "Átlagos"
+  },
+  "predecessor": {
+    "message": "Előmeghatalmazott"
+  },
+  "preInherit": {
+    "message": "Használja a v2rayN csoportláncot"
+  },
+  "preNone": {
+    "message": "Nincs előzetes meghatalmazott"
+  },
+  "preSpecific": {
+    "message": "Válasszon egy csomópontot"
+  },
+  "preHelp": {
+    "message": "Erre a profilra vonatkozik. Használja a v2rayN csoportláncot, nincs előproxy vagy egy adott csomópont. A Follow v2rayN a meglévő láncát használja."
+  },
+  "preSelectRequired": {
+    "message": "Válasszon egy pre-proxy csomópontot, vagy válassza a Csoport alapértelmezett / Nincs lehetőséget."
+  },
+  "ipPing0Permission": {
+    "message": "Engedélyezze a Ping0 webhelyhez való hozzáférést a nyilvános jelentés betöltéséhez."
+  },
+  "ipPublicChallenge": {
+    "message": "A webhely ellenőrzést igényel. Nyissa meg a Ping0 oldalt a befejezéshez és az eredmény megtekintéséhez."
+  },
+  "ipPublicReport": {
+    "message": "Ping0 nyilvános jelentés"
+  },
+  "ipPublicSource": {
+    "message": "Forrás: Ping0 nyilvános oldal"
+  },
+  "ipPublicOriginal": {
+    "message": "Ping0 jelentés"
+  },
+  "ipPublicPartial": {
+    "message": "Csak a nyilvános oldalon megadott mezők jelennek meg eredeti nyelvükön. Az osztályozások és a megosztott felhasználói becslések a Ping0-tól származnak."
+  },
+  "setupTitle": {
+    "message": "Csatlakozás Proxy V2Route"
+  },
+  "setupIntro": {
+    "message": "Telepítse a Windows kísérőt a v2rayN útvonalak vagy a saját importált csomópontok használatához."
+  },
+  "setupStepOne": {
+    "message": "Bontsa ki a megfelelő teljes Windows csomagot egy állandó mappába."
+  },
+  "setupStepTwo": {
+    "message": "Nyissa meg a V2Route-Setup.exe elemet, és kattintson a Telepítés gombra."
+  },
+  "setupStepThree": {
+    "message": "Térjen vissza ide, és ellenőrizze a kapcsolatot. Ha szükséges, válassza ki a v2rayN mappát."
+  },
+  "setupCheck": {
+    "message": "Ellenőrizze a csatlakozást"
+  },
+  "downloadCompanion": {
+    "message": "Telepítési útmutató ↗"
+  },
+  "setupDownloadNote": {
+    "message": "Használja a megfelelő helyi Windows csomagot, vagy kövesse az útmutatót az aktuális forrásból való összeállításához."
+  },
+  "chooseFolder": {
+    "message": "Válassza a v2rayN mappát…"
+  },
+  "rescanDone": {
+    "message": "A helyi csomópontok újra beolvasva"
+  },
+  "grouping": {
+    "message": "Csoport csomópontok"
+  },
+  "groupByCountry": {
+    "message": "Országonként"
+  },
+  "unknownCountry": {
+    "message": "Egyéb / Ismeretlen"
+  },
+  "ungrouped": {
+    "message": "Csoportosítás nélkül"
+  },
+  "adjustNodeFilters": {
+    "message": "Próbáljon másik csoportot, forrást vagy keresést, vagy mutasson rejtett csomópontokat."
+  },
+  "rescanLocal": {
+    "message": "A v2rayN csomópontok újraellenőrzése"
+  },
+  "showHidden": {
+    "message": "Rejtett csomópontok megjelenítése"
+  },
+  "hideNode": {
+    "message": "Elrejtés"
+  },
+  "restoreNode": {
+    "message": "Visszaállítás"
+  },
+  "hiddenNode": {
+    "message": "Rejtett"
+  },
+  "hideNodeHelp": {
+    "message": "Elrejtés csak a böngésző csomópontkönyvtárából. v2rayN és a meglévő profilok változatlanok."
+  },
+  "ipContextTimeout": {
+    "message": "Az aktuális profil olvasása időtúllépést szenvedett. Próbáld újra."
+  },
+  "ipStaleResult": {
+    "message": "Az aktuális profil megváltozott. Ez az eredmény elavult lehet; ellenőrizze újra."
+  },
+  "ip_tools": {
+    "message": "IP Szerszámok"
+  },
+  "ipIntro": {
+    "message": "Jelenlegi kilépés IP és nyilvános jelentés."
+  },
+  "ipCurrentProfile": {
+    "message": "Jelenlegi böngészőprofil"
+  },
+  "ipRouteCaution": {
+    "message": "Az automatikus szabályok és a PAC különböző útvonalakat használhatnak a különböző célállomásokhoz. Ez az ellenőrzés csak a saját kérését írja le."
+  },
+  "ipDisclosure": {
+    "message": "Automatikus ellenőrzés kilépés IP · Jelentés: Ping0"
+  },
+  "ipMethod": {
+    "message": "Címellenőrzés"
+  },
+  "ipDual": {
+    "message": "IPv4 / IPv6"
+  },
+  "ipCheck": {
+    "message": "Ellenőrizze újra"
+  },
+  "ipChecking": {
+    "message": "Ellenőrzés…"
+  },
+  "ipDualHelp": {
+    "message": "Az IPv4/IPv6 a kéréshez használt címcsaládot adja vissza, nem mindkét címet."
+  },
+  "ipDurationHelp": {
+    "message": "Az eltelt HTTP kérési idő magában foglalja a hálózat és a szolgáltatás válaszidejét. Ez nem ICMP ping vagy sávszélesség-teszt."
+  },
+  "ipCopy": {
+    "message": "Másolat IP"
+  },
+  "ipCopied": {
+    "message": "Másolva"
+  },
+  "ipCopyFailed": {
+    "message": "Nem sikerült másolni. Válassza ki a címet, és másolja ki manuálisan."
+  },
+  "ipNoResult": {
+    "message": "Még nincs csekk"
+  },
+  "ipContextUnknown": {
+    "message": "A profil nem érhető el"
+  },
+  "ipTimeout": {
+    "message": "A csekk lejárt. Próbálja újra, vagy használjon másik útvonalat."
+  },
+  "ipCancelled": {
+    "message": "Csekk törölve"
+  },
+  "ipNetwork": {
+    "message": "Nem sikerült elérni a ipify címet. Ellenőrizze a kapcsolatot, és próbálja újra."
+  },
+  "ipHttp": {
+    "message": "A IP szolgáltatás nem fogadta el a kérést. Próbálja újra később."
+  },
+  "ipInvalid": {
+    "message": "A IP szolgáltatás érvénytelen választ adott vissza."
+  },
+  "ipFailure": {
+    "message": "Az ellenőrzés sikertelen. Próbáld újra."
+  },
+  "ipStale": {
+    "message": "A proxy beállításai megváltoztak az ellenőrzés során. A régi eredményt elvetették; ellenőrizze újra."
+  },
+  "ipQuality": {
+    "message": "Külső szerszámok"
+  },
+  "ipQualityPrivacy": {
+    "message": "Az eszközök csak kattintásra futnak. A szolgáltatók normál kapcsolati adatokat kapnak. A webhely-ellenőrzések a Start után hitelesítő adatok nélküli kéréseket küldenek. A bezárás leállítja a helyi teszteket; a külső lapokat a böngésző kezeli."
+  },
+  "ipReport": {
+    "message": "A szerkesztett jelentés másolása"
+  },
+  "ipReportCopied": {
+    "message": "A szerkesztett jelentés másolva; nem tartalmaz IP vagy profilneveket."
+  },
+  "popupSelected": {
+    "message": "Kiválasztva"
+  },
+  "popupFooter": {
+    "message": "v2rayN és csomópontprofilok"
+  },
+  "subtitle": {
+    "message": "Független böngészőútvonalak"
+  },
+  "profiles": {
+    "message": "Profilok"
+  },
+  "nodes": {
+    "message": "Node Library"
+  },
+  "settings": {
+    "message": "Beállítások"
+  },
+  "connected": {
+    "message": "Aktív profil"
+  },
+  "noProfile": {
+    "message": "Rendszer alapértelmezett"
+  },
+  "newProfile": {
+    "message": "Új profil"
+  },
+  "searchProfiles": {
+    "message": "Profilok keresése"
+  },
+  "direct": {
+    "message": "Közvetlen hálózat"
+  },
+  "system": {
+    "message": "Rendszerproxy"
+  },
+  "follow": {
+    "message": "Kövesse v2rayN"
+  },
+  "manual": {
+    "message": "Kézi proxy"
+  },
+  "auto": {
+    "message": "Automatikus kapcsoló"
+  },
+  "pac": {
+    "message": "PAC forgatókönyv"
+  },
+  "virtual": {
+    "message": "Virtuális profil"
+  },
+  "profileIntro": {
+    "message": "Válasszon böngészőútvonalat a v2rayN fő útvonalának váltása nélkül."
+  },
+  "nodesIntro": {
+    "message": "Böngésszen a helyi v2rayN csomópontokon és az importált hivatkozásokon."
+  },
+  "settingsIntro": {
+    "message": "Helyi kapcsolat, nyelv és megjelenés."
+  },
+  "refresh": {
+    "message": "Frissítés"
+  },
+  "create": {
+    "message": "Profil létrehozása"
+  },
+  "name": {
+    "message": "Profil neve"
+  },
+  "type": {
+    "message": "Profil típusa"
+  },
+  "save": {
+    "message": "Mentés"
+  },
+  "saved": {
+    "message": "Mentve"
+  },
+  "saving": {
+    "message": "Mentés…"
+  },
+  "cancel": {
+    "message": "Mégse"
+  },
+  "close": {
+    "message": "Bezárás"
+  },
+  "apply": {
+    "message": "Használja ezt a profilt"
+  },
+  "applied": {
+    "message": "Profil váltva"
+  },
+  "active": {
+    "message": "Aktív"
+  },
+  "delete": {
+    "message": "Törlés"
+  },
+  "remove": {
+    "message": "Távolítsa el"
+  },
+  "rename": {
+    "message": "Átnevezés"
+  },
+  "route": {
+    "message": "Proxy útvonal"
+  },
+  "selectRoute": {
+    "message": "Válasszon egy útvonalat"
+  },
+  "routeMissing": {
+    "message": "Az útvonal nem elérhető — válasszon másikat"
+  },
+  "chain": {
+    "message": "Csatlakozólánc"
+  },
+  "connection": {
+    "message": "Helyi kapcsolat"
+  },
+  "proxy": {
+    "message": "Proxyszerver"
+  },
+  "address": {
+    "message": "Cím"
+  },
+  "port": {
+    "message": "Port"
+  },
+  "scheme": {
+    "message": "Jegyzőkönyv"
+  },
+  "proxyDns": {
+    "message": "SOCKS5 DNS a proxyn keresztül oldja meg."
+  },
+  "connectedIdle": {
+    "message": "Csatlakoztatva · Tétlen"
+  },
+  "bypass": {
+    "message": "Kikerülési lista"
+  },
+  "bypassHelp": {
+    "message": "Soronként egy tartomány, helyettesítő minta, IP-cím vagy IP:port."
+  },
+  "advanced": {
+    "message": "Speciális beállítások"
+  },
+  "searchRoutes": {
+    "message": "Csoportok vagy csomópontok keresése"
+  },
+  "selectGroup": {
+    "message": "Válasszon ki egy csoportot"
+  },
+  "empty": {
+    "message": "Nincsenek megfelelő elemek"
+  },
+  "unavailable": {
+    "message": "Nem érhető el"
+  },
+  "groupHint": {
+    "message": "Tartson egy csoportot 250-ig ms, majd húzza. Az Alt + ↑ / ↓ szintén átrendezi. A változtatások automatikusan mentésre kerülnek."
+  },
+  "searchSort": {
+    "message": "Rendezés előtt törölje a keresést."
+  },
+  "dragHint": {
+    "message": "Mozgassa felfelé vagy lefelé, majd engedje el a mentéshez. Az Esc megszakítja."
+  },
+  "orderSaved": {
+    "message": "Csoportos rendelés mentve"
+  },
+  "orderCancelled": {
+    "message": "Az újrarendelés törölve"
+  },
+  "loading": {
+    "message": "Betöltés…"
+  },
+  "reading": {
+    "message": "Helyi csomópontok olvasása…"
+  },
+  "nativeMissing": {
+    "message": "Helyi komponens nincs csatlakoztatva"
+  },
+  "retry": {
+    "message": "Próbálja újra"
+  },
+  "nativeHelp": {
+    "message": "A csomóponti útvonalakhoz a Windows társra van szükség. Közvetlen, rendszer és kézi proxy már elérhető."
+  },
+  "imported": {
+    "message": "Importált"
+  },
+  "v2rayn": {
+    "message": "v2rayN"
+  },
+  "allSources": {
+    "message": "Minden forrás"
+  },
+  "importNodes": {
+    "message": "Proxyk importálása"
+  },
+  "importTitle": {
+    "message": "Proxyk importálása"
+  },
+  "importHelp": {
+    "message": "Proxy hivatkozások beillesztése, kimenő JSON vagy Base64 előfizetés. A SOCKS támogatja az egyszerű vagy Base64 hitelesítő adatokat. A sémamentes címek a HTTP-et használják."
+  },
+  "importPrivacy": {
+    "message": "A proxy adatai és hitelesítő adatai átadásra kerülnek a helyi Proxy V2Route társnak, hogy tárolják és csatlakozzanak a kiválasztott proxyhoz. A fejlesztő nem kapja meg ezt az információt."
+  },
+  "import": {
+    "message": "Profilok importálása"
+  },
+  "nodeCount": {
+    "message": "csomópontok"
+  },
+  "source": {
+    "message": "Forrás"
+  },
+  "protocol": {
+    "message": "Jegyzőkönyv"
+  },
+  "useNode": {
+    "message": "Profil létrehozása"
+  },
+  "removeNode": {
+    "message": "Eltávolítja az importált csomópontot?"
+  },
+  "removeNodeHelp": {
+    "message": "Az ezt a csomópontot használó profilokat újra hozzá kell rendelni az eltávolítás előtt."
+  },
+  "deleteProfile": {
+    "message": "Törlöd ezt a profilt?"
+  },
+  "deleteProfileHelp": {
+    "message": "Ezzel csak ezt a böngészőprofilt távolítja el. Az importált csomópontok és a v2rayN konfiguráció megmarad."
+  },
+  "language": {
+    "message": "Nyelv"
+  },
+  "automatic": {
+    "message": "Alapértelmezett böngésző"
+  },
+  "theme": {
+    "message": "Megjelenés"
+  },
+  "light": {
+    "message": "Fény"
+  },
+  "dark": {
+    "message": "Sötét"
+  },
+  "switchToEnglish": {
+    "message": "Váltson angolra"
+  },
+  "switchToChinese": {
+    "message": "Váltás egyszerűsített kínai nyelvre"
+  },
+  "switchToLight": {
+    "message": "Váltás világos megjelenésre"
+  },
+  "switchToDark": {
+    "message": "Váltás sötét megjelenésre"
+  },
+  "localComponent": {
+    "message": "Társ komponens"
+  },
+  "ready": {
+    "message": "Csatlakoztatva"
+  },
+  "stopped": {
+    "message": "Nem fut"
+  },
+  "discovery": {
+    "message": "v2rayN észlelés"
+  },
+  "rootPath": {
+    "message": "v2rayN mappa"
+  },
+  "corePath": {
+    "message": "Proxymag végrehajtható fájl"
+  },
+  "optionalPath": {
+    "message": "Hagyja üresen az automatikus észleléshez"
+  },
+  "pathsHelp": {
+    "message": "v2rayN automatikusan észlelhető; válassza ki a mappát, ha szükséges. Az importált csomópontok a mellékelt magot használják."
+  },
+  "savePaths": {
+    "message": "Mentse a csatlakozási beállításokat"
+  },
+  "privacy": {
+    "message": "Helyileg tárolt beállítások"
+  },
+  "privacyText": {
+    "message": "A csomóponthivatkozások és a hitelesítő adatok a helyi kísérőben maradnak. A böngészőforgalom a kiválasztott proxyn keresztül jut el a cél webhelyekre; a fejlesztő nem kapja meg."
+  },
+  "privacyDetails": {
+    "message": "Adatvédelem és adatáramlás"
+  },
+  "export": {
+    "message": "Profilok exportálása"
+  },
+  "about": {
+    "message": "Körülbelül Proxy V2Route"
+  },
+  "aboutText": {
+    "message": "Válasszon böngészőútvonalat a v2rayN fő útvonalának váltása nélkül. A csomóponti útvonalak a Windows kísérőt és a saját csomópontjait használják."
+  },
+  "licenses": {
+    "message": "Nyílt forráskódú közlemények"
+  },
+  "version": {
+    "message": "Verzió"
+  },
+  "fieldRequired": {
+    "message": "Adjon meg egy profilnevet."
+  },
+  "profileExists": {
+    "message": "Már létezik ilyen nevű profil."
+  },
+  "ruleHelp": {
+    "message": "A tartományokat egy sorban vesszővel válassza el. Az első egyező sor nyer. Az alapértelmezett útvonal legyen elérhető."
+  },
+  "rules": {
+    "message": "Útválasztási szabályok"
+  },
+  "pattern": {
+    "message": "Gazdaminta"
+  },
+  "target": {
+    "message": "Szabálycél"
+  },
+  "addRule": {
+    "message": "Szabály hozzáadása"
+  },
+  "defaultRoute": {
+    "message": "Alapértelmezett profil"
+  },
+  "pacHelp": {
+    "message": "Illessze be a megbízható PAC forrást, amely FindProxyForURL-et tartalmaz. Ez a szkript dönti el, hogy a webhelykérések hogyan kerülnek továbbításra."
+  },
+  "pacUrl": {
+    "message": "PAC URL"
+  },
+  "pacScript": {
+    "message": "PAC forgatókönyv"
+  },
+  "noSelection": {
+    "message": "Válasszon ki egy profilt, vagy hozzon létre egyet."
+  },
+  "details": {
+    "message": "Részletek"
+  },
+  "noNodes": {
+    "message": "Még nincsenek csomópontok"
+  },
+  "noNodesHelp": {
+    "message": "Csatlakoztassa v2rayN vagy importáljon proxy hivatkozásokat, JSON vagy előfizetést a kezdéshez."
+  },
+  "openSettings": {
+    "message": "Nyissa meg a beállításokat"
+  },
+  "proxySettings": {
+    "message": "Proxy beállítások"
+  },
+  "switching": {
+    "message": "Váltás…"
+  },
+  "updatedElsewhere": {
+    "message": "Ez a profil egy másik ablakban módosult. Mentés előtt nyissa meg újra."
+  },
+  "choose": {
+    "message": "Válasszon"
+  },
+  "popupIntro": {
+    "message": "Csatlakozás:"
+  },
+  "invalidPort": {
+    "message": "Adjon meg egy portot 1 és 65535 között."
+  },
+  "externalControl": {
+    "message": "Egy másik bővítmény vagy házirend vezérli a böngészőproxyt."
+  },
+  "noNativeRoute": {
+    "message": "Csatlakoztassa a helyi összetevőt a csomópontprofil létrehozása előtt."
+  },
+  "reload": {
+    "message": "Újratöltés"
+  },
+  "rulesError": {
+    "message": "Minden szabályhoz minta és cél szükséges."
+  },
+  "backupDone": {
+    "message": "Böngészőprofilok exportálva"
+  },
+  "managed": {
+    "message": "Felügyelt csomópont"
+  },
+  "netRegion": {
+    "message": "Célterület"
+  },
+  "netNodeArea": {
+    "message": "Proxy csomópont"
+  },
+  "netChina": {
+    "message": "Kína szárazföldi része"
+  },
+  "netGlobal": {
+    "message": "Globális"
+  },
+  "netAli": {
+    "message": "AliDNS"
+  },
+  "netTencent": {
+    "message": "DNSPod"
+  },
+  "netStartHelp": {
+    "message": "Válasszon egy célpontot, majd indítsa el az élő tesztet."
+  },
+  "netConsole": {
+    "message": "Élő diagnosztika"
+  },
+  "netStop": {
+    "message": "Állj"
+  },
+  "netRunning": {
+    "message": "Futás"
+  },
+  "netStopped": {
+    "message": "Leállt"
+  },
+  "netSent": {
+    "message": "Elküldve"
+  },
+  "netLoss": {
+    "message": "Veszteség"
+  },
+  "netAverageShort": {
+    "message": "Átl"
+  },
+  "netLogClear": {
+    "message": "Tiszta"
+  },
+  "netFinishing": {
+    "message": "Az előző szonda befejeződik…"
+  },
+  "netRound": {
+    "message": "Kerek"
+  },
+  "netDestination": {
+    "message": "Cél"
+  },
+  "netHop": {
+    "message": "Komló"
+  },
+  "netAddress": {
+    "message": "IP cím"
+  },
+  "netLast": {
+    "message": "Utolsó"
+  },
+  "netConsoleHelp": {
+    "message": "Ping / TCPing / MTR a rendszerhálózatot használja, nem a proxyláncot. A hiányzó ICMP válasz nem bizonyítja a forgalom elvesztését. A letöltés a böngésző útvonalát és a kiválasztott méretkorlátot használja. A tesztek leállnak, amikor elhagyja vagy elrejti ezt az oldalt."
+  },
+  "netDirectShort": {
+    "message": "Rendszerhálózat"
+  },
+  "netIcmpShort": {
+    "message": "Nem ICMP válasz"
+  },
+  "netProbeError": {
+    "message": "Helyi szonda hiba"
+  },
+  "netNoDestination": {
+    "message": "Nem sikerült elérni a célt"
+  },
+  "deleteActive": {
+    "message": "Váltson rendszerre és törölje"
+  },
+  "deleteActiveHelp": {
+    "message": "Ez a profil aktív. Ennek törlésével a böngésző rendszerproxyra vált."
+  },
+  "netDownloadSize": {
+    "message": "Letöltési méret"
+  },
+  "netReceived": {
+    "message": "Megérkezett"
+  },
+  "netBest": {
+    "message": "Legjobb"
+  },
+  "netWorst": {
+    "message": "A legrosszabb"
+  },
+  "netStdDev": {
+    "message": "Std dev"
+  },
+  "netLocation": {
+    "message": "Helyszín"
+  },
+  "toolWall": {
+    "message": "Domain blokkolási ellenőrzés"
+  },
+  "toolSites": {
+    "message": "Népszerű webhelyek"
+  },
+  "toolGlobal": {
+    "message": "Globális diagnosztika"
+  },
+  "toolFast": {
+    "message": "Netflix sebesség"
+  },
+  "toolSpeed": {
+    "message": "Sebességteszt"
+  },
+  "toolStart": {
+    "message": "Indítás"
+  },
+  "toolReady": {
+    "message": "Kész"
+  },
+  "toolResponded": {
+    "message": "Válaszolt"
+  },
+  "toolNoResponse": {
+    "message": "Nincs megerősítve"
+  },
+  "toolCacheUnsupported": {
+    "message": "Ez a böngésző nem tudja webhelyenként törölni a gyorsítótárat; az oldal újratöltve."
+  },
+  "toolCacheFailed": {
+    "message": "A gyorsítótár tisztítása nem fejeződött be. Zárja be, és próbálja újra."
+  },
+  "toolClose": {
+    "message": "Bezár"
+  },
+  "toolReload": {
+    "message": "Újratöltés"
+  },
+  "toolLoading": {
+    "message": "Betöltés…"
+  },
+  "toolFrameError": {
+    "message": "Nem sikerült betölteni. Próbáld meg az újratöltést."
+  },
+  "toolSiteHelp": {
+    "message": "Csak a böngésző elérhetősége. Ez nem igazolja a fiókhoz vagy a regionális hozzáférést."
+  },
+  "toolFallback": {
+    "message": "Tartalék sebességteszt"
+  },
+  "toolFullscreen": {
+    "message": "Teljes képernyő"
+  },
+  "toolRestore": {
+    "message": "Lépjen ki a teljes képernyőről"
+  },
+  "ipReadFailed": {
+    "message": "Az olvasás sikertelen. 👉"
+  },
+  "ipViewSource": {
+    "message": "Forrásoldal megtekintése"
+  },
+  "toolDownloadError": {
+    "message": "Nem sikerült elérni a letöltési kiszolgálót. Próbáld újra."
+  },
+  "toolAccess": {
+    "message": "Webhely-hozzáférés engedélyezése"
+  },
+  "toolPermission": {
+    "message": "Engedélyezze a hozzáférést ehhez a webhelyhez a beágyazott munkamenet-kompatibilitás érdekében."
+  },
+  "toolAsia": {
+    "message": "Ázsia"
+  },
+  "toolEurope": {
+    "message": "Európa"
+  },
+  "toolAmerica": {
+    "message": "Észak-Amerika"
+  },
+  "toolGlobalHelp": {
+    "message": "Előre kitölti a böngésző kilépési pontot IP. Válasszon szárazföldi Kínát vagy más régiót az útvonalak összehasonlításához; A Start elküldi a megjelenített célt legfeljebb három Globalping szondának."
+  },
+  "toolServiceError": {
+    "message": "A tesztszolgáltatás nem érhető el. Próbáld újra."
+  },
+  "popupOrderHelp": {
+    "message": "Tartsa lenyomva, és húzza át az átrendezéshez. Az Alt+nyíl billentyűk szintén mozgatják ezt a profilt."
+  },
+  "popupOrderSaved": {
+    "message": "Megrendelés mentve"
+  },
+  "toolGroupIP": {
+    "message": "IP tesztek"
+  },
+  "toolGroupWeb": {
+    "message": "Weboldaltesztek"
+  },
+  "toolGroupSpeed": {
+    "message": "Sebesség"
+  },
+  "toolCurrentIP": {
+    "message": "Jelenlegi kilépés IP"
+  },
+  "toolCurrentIPLoading": {
+    "message": "Áramkimenet betöltése IP…"
+  },
+  "toolCurrentIPFailed": {
+    "message": "Nem sikerült beolvasni az aktuális IP fájlt. Adjon meg egy célt."
+  },
+  "speedMode": {
+    "message": "Teszt mód"
+  },
+  "speedBoth": {
+    "message": "Letöltés + feltöltés"
+  },
+  "speedDownload": {
+    "message": "Letöltés"
+  },
+  "speedUpload": {
+    "message": "Feltöltés"
+  },
+  "speedLatency": {
+    "message": "HTTP késleltetés"
+  },
+  "speedBudget": {
+    "message": "{n} MiB fázisonként · {total} MiB összesen, plusz kis késleltetési minták."
+  },
+  "siteCategory": {
+    "message": "Webhely kategória"
+  },
+  "siteAll": {
+    "message": "Minden webhely"
+  },
+  "siteAI": {
+    "message": "AI"
+  },
+  "siteDevelopment": {
+    "message": "Fejlesztés"
+  },
+  "siteVideo": {
+    "message": "Videó/zene"
+  },
+  "siteSocial": {
+    "message": "Társadalmi"
+  },
+  "siteDomestic": {
+    "message": "Szárazföldi szolgáltatások"
+  },
+  "siteServices": {
+    "message": "Közös szolgáltatások"
+  },
+  "globalMethod": {
+    "message": "Mérés típusa"
+  },
+  "localPort": {
+    "message": "Helyi port:"
+  },
+  "chainChooseNode": {
+    "message": "Válasszon egy proxy csomópontot"
+  },
+  "chainTitle": {
+    "message": "Proxy lánc"
+  },
+  "chainSelectExit": {
+    "message": "Az egyéni lánc mentéséhez vagy teszteléséhez válasszon lent egy adott kilépési csomópontot. A v2rayN követését a v2rayN kezeli."
+  },
+  "chainSelectExitShort": {
+    "message": "Válasszon kilépési csomópontot"
+  },
+  "chainAdd": {
+    "message": "+ Proxyréteg hozzáadása"
+  },
+  "chainTest": {
+    "message": "Tesztlánc"
+  },
+  "chainMode": {
+    "message": "Lánc mód"
+  },
+  "chainBase": {
+    "message": "Alapproxy"
+  },
+  "chainExit": {
+    "message": "Kilépés a proxyból"
+  },
+  "chainEgress": {
+    "message": "Lánckilépés"
+  },
+  "chainExitBadge": {
+    "message": "Kilépés IP"
+  },
+  "chainEntry": {
+    "message": "Láncbejegyzés"
+  },
+  "chainTransit": {
+    "message": "Bridge Node"
+  },
+  "chainUntested": {
+    "message": "Nincs tesztelve"
+  },
+  "chainMissing": {
+    "message": "Nem elérhető csomópont"
+  },
+  "chainUnresolved": {
+    "message": "Nem lehet feloldani az örökölt láncot. Javítsa meg az előd beállításait, vagy válasszon egyéni láncot."
+  },
+  "chainUpgrade": {
+    "message": "Frissítse a helyi kísérőt a rendezett láncok engedélyezéséhez."
+  },
+  "chainBusy": {
+    "message": "Egy másik láncteszt fut"
+  },
+  "chainOK": {
+    "message": "Elérhető"
+  },
+  "chainFailed": {
+    "message": "Sikertelen ugrás ebben a tesztben"
+  },
+  "chainBlocked": {
+    "message": "Nincs tesztelve · előző ugrás sikertelen"
+  },
+  "chainFailureHelp": {
+    "message": "Ez az ugrás vagy a hozzá vezető út nem ment át. Később a komlót nem vizsgálták."
+  },
+  "chainAllOK": {
+    "message": "Minden kumulatív útvonal válaszolt"
+  },
+  "chainStopping": {
+    "message": "Leállítás az aktuális korlátos szonda után…"
+  },
+  "globalWorld": {
+    "message": "Világszerte"
+  },
+  "globalUnavailable": {
+    "message": "A cél vagy régió nem érhető el. Ellenőrizze a célt, vagy válasszon másik régiót."
+  },
+  "globalRateLimited": {
+    "message": "Elérte a szolgáltatási díjkorlátot. Próbálja újra később."
+  },
+  "globalNoResults": {
+    "message": "A szolgáltatás nem adott vissza vizsgálati eredményeket. Próbáljon ki egy másik régiót."
+  },
+  "globalProbeFailed": {
+    "message": "A szonda nem sikerült"
+  },
+  "globalProbeOffline": {
+    "message": "Próba offline állapotban"
+  },
+  "globalIcmpCaution": {
+    "message": "A hiányzó ICMP válasz önmagában nem bizonyítja a blokkolást. Hasonlítsa össze a szárazföldi és a tengerentúli útvonalakat és más teszttípusokat."
+  },
+  "speedRealtime": {
+    "message": "Élő sebesség"
+  },
+  "speedAverage": {
+    "message": "Átlagsebesség"
+  },
+  "ipToolsBrief": {
+    "message": "A harmadik féltől származó eredmények referenciaként szolgálnak."
+  },
+  "ipReportBrief": {
+    "message": "Az eredmények IP kilépésenként változnak, és referenciaként szolgálnak."
+  },
+  "toolPingPe": {
+    "message": "IP blokkoló ellenőrzés"
+  },
+  "toolTargetIP": {
+    "message": "Cél IP"
+  },
+  "toolOpenPingPe": {
+    "message": "Nyílt hivatalos teszt"
+  },
+  "toolInvalidIP": {
+    "message": "Adjon meg egy érvényes IPv4- vagy IPv6-címet."
+  },
+  "toolInvalidPort": {
+    "message": "Adjon meg egy TCP portot 1 és 65535 között."
+  },
+  "toolExternalFailed": {
+    "message": "Nem sikerült megnyitni a webhelyet. Próbáld újra."
+  },
+  "ipBrowserReading": {
+    "message": "Ping0 olvasása a böngészőn keresztül…"
+  },
+  "ipVerifyBrowser": {
+    "message": "Nyissa meg az ellenőrző oldalt"
+  },
+  "policyCenter": {
+    "message": "Adatvédelem, nyilatkozat és GYIK"
+  },
+  "policyCenterIntro": {
+    "message": "Helyi adatkezelés, tesztkorlátok és általános válaszok."
+  },
+  "policyPrivacyTitle": {
+    "message": "Adatvédelmi szabályzat"
+  },
+  "policyPrivacySummary": {
+    "message": "A profilok és a hitelesítési adatok ezen az eszközön maradnak. A felugró ablakok ellenőrzése és diagnosztikája lépjen kapcsolatba a megadott szolgáltatókkal. Nincs reklám vagy viselkedéselemzés."
+  },
+  "policyDeclarationTitle": {
+    "message": "Használati és mérési nyilatkozat"
+  },
+  "policyDeclarationSummary": {
+    "message": "Ez a bővítmény helyi útvonalkezelő, nem proxy- vagy VPN-szolgáltató. A mérések referenciaminták, amelyeket a hálózat, a proxy és a szolgáltató feltételei befolyásolnak."
+  },
+  "policyFaqTitle": {
+    "message": "GYIK"
+  },
+  "policyFaqSummary": {
+    "message": "A Windows társ szükséges a helyi csomópontokhoz és az MTR-hez. A késleltetés eltérő lehet a böngésző, a rendszer és a nyilvános próbák között. Állítsa le a tesztet, vagy törölje a helyi adatokat a Beállításokból."
+  },
+  "policyDetailsLink": {
+    "message": "Olvassa el a részleteket ↗"
+  },
+  "thirdPartyNotice": {
+    "message": "Nyílt forráskódú megjegyzések ↗"
+  },
+  "columnResizeHelp": {
+    "message": "Húzza az átméretezéshez; kattintson duplán a visszaállításhoz; beállításához használja a nyílbillentyűket"
+  },
+  "columnResize": {
+    "message": "Oszlop átméretezése"
+  },
+  "typeDescription_node": {
+    "message": "Csatlakozás proxy csomóponton keresztül"
+  },
+  "typeDescription_manual": {
+    "message": "Adja meg manuálisan a proxybeállításokat"
+  },
+  "typeDescription_auto": {
+    "message": "Válasszon ki egy csomópontot szabályok segítségével"
+  },
+  "typeDescription_pac": {
+    "message": "Útvonal forgalom PAC szabályokkal"
+  },
+  "appDescription": {
+    "message": "Böngésző proxy útvonalai, csomópontok és tartományszabályok. A csomóponti útvonalakhoz a Windows társra van szükség."
+  },
+  "core_title": {
+    "message": "Proxy mag"
+  },
+  "core_checking": {
+    "message": "A helyi összetevő ellenőrzése…"
+  },
+  "core_ready": {
+    "message": "Xray készen áll"
+  },
+  "core_missing": {
+    "message": "A proxy mag hiányzik"
+  },
+  "core_external": {
+    "message": "Egyedi mag: nincs ellenőrizve"
+  },
+  "core_corrupt": {
+    "message": "Xray ellenőrzőösszeg eltérés – javítás szükséges"
+  },
+  "core_unreadable": {
+    "message": "Az alapfájlt nem lehetett ellenőrizni"
+  },
+  "core_intro": {
+    "message": "A teljes Windows csomag tartalmazza a Xray-t. v2rayN opcionális."
+  },
+  "core_verify": {
+    "message": "Ellenőrizze újra"
+  },
+  "core_install": {
+    "message": "A mag telepítése/javítása"
+  },
+  "core_installing": {
+    "message": "Letöltés és ellenőrzés…"
+  },
+  "core_done": {
+    "message": "A mag ellenőrizve és készen áll"
+  },
+  "core_help": {
+    "message": "A Repair egy rögzített hivatalos Xray kiadást használ, és ellenőrzi annak ellenőrző összegét. A meglévő kapcsolatok továbbra is működnek."
+  },
+  "core_absent": {
+    "message": "Telepítse egyszer a helyi összetevőt, majd térjen vissza ide a mag ellenőrzéséhez."
+  },
+  "core_download": {
+    "message": "Telepítési útmutató"
+  },
+  "core_absentHelp": {
+    "message": "Használja a megfelelő Windows csomagot, vagy kövesse az útmutatót a forrásból való összeállításhoz, majd futtassa a telepítést."
+  },
+  "core_failed": {
+    "message": "Az alapművelet meghiúsult. Próbálja újra, vagy használja a teljes Windows csomagot."
+  },
+  "core_version": {
+    "message": "Verzió"
+  },
+  "error_ACTIVE_PROFILE_DELETE": {
+    "message": "Törlés előtt váltson másik profilra"
+  },
+  "error_BACKUP_BINDING_TYPE": {
+    "message": "Csak proxyprofilokhoz tartozhatnak útvonal-hozzárendelések"
+  },
+  "error_BACKUP_FORMAT3_REQUIRED": {
+    "message": "A csomópontszabályokhoz 3-as formátumú hordozható biztonsági mentés szükséges"
+  },
+  "error_BACKUP_INDEPENDENT_PATH_REQUIRED": {
+    "message": "A biztonsági mentésnek önálló csomópontútvonalat kell tartalmaznia"
+  },
+  "error_BACKUP_INTERNAL_BINDINGS": {
+    "message": "A biztonsági mentés belső hozzárendeléseket tartalmaz"
+  },
+  "error_BACKUP_MESSAGE_LIMIT": {
+    "message": "A csomópontok biztonsági mentése meghaladja a kísérőalkalmazás üzenetméretkorlátját"
+  },
+  "error_BACKUP_NODES_INCOMPLETE": {
+    "message": "Hiányos csomópont-biztonságimentés"
+  },
+  "error_BACKUP_NODE_MISSING": {
+    "message": "A biztonsági mentésből hiányzik egy szükséges csomópont"
+  },
+  "error_BACKUP_NODE_PATHS_LIMIT": {
+    "message": "A biztonsági mentés legfeljebb {limit} csomópontútvonalat támogat"
+  },
+  "error_BACKUP_PATH_INCOMPLETE": {
+    "message": "Hiányos csomópontútvonal a biztonsági mentésben"
+  },
+  "error_BACKUP_PROFILES_LIMIT": {
+    "message": "A biztonsági mentés legfeljebb {limit} profilt támogat"
+  },
+  "error_BACKUP_PROXY_CONFLICT": {
+    "message": "A biztonsági mentés ütköző proxybeállításokat tartalmaz"
+  },
+  "error_BACKUP_SIZE_LIMIT": {
+    "message": "A biztonsági mentés meghaladja a(z) {limit} MB méretet"
+  },
+  "error_BACKUP_TRANSFER_UNAVAILABLE": {
+    "message": "A csomópontok biztonsági mentésének átviteléhez frissítse vagy javítsa a kísérőalkalmazást."
+  },
+  "error_BACKUP_UNUSED_NODES": {
+    "message": "A biztonsági mentés nem hivatkozott csomópontokat tartalmaz"
+  },
+  "error_BODY_TOO_LARGE": {
+    "message": "Az előfizetés válasza meghaladja a megengedett méretet."
+  },
+  "error_BROWSER_API_FAILED": {
+    "message": "A böngészőművelet sikertelen. Tekintse meg a műszaki részleteket."
+  },
+  "error_BROWSER_PROXY_RESTORE_FAILED": {
+    "message": "A művelet sikertelen, és a böngésző korábbi proxybeállítása nem állítható vissza"
+  },
+  "error_BROWSER_SCHEDULING_UNAVAILABLE": {
+    "message": "A böngésző ütemezése nem érhető el."
+  },
+  "error_BUSY": {
+    "message": "Másik művelet folyamatban van. Próbálja újra hamarosan."
+  },
+  "error_CHAIN_PROBE_FAILED": {
+    "message": "A lánc tesztelése sikertelen"
+  },
+  "error_COMPANION_BULK_RELEASE_REQUIRED": {
+    "message": "Több csomópontszabály biztonságos kezeléséhez frissítse a helyi kísérőalkalmazást"
+  },
+  "error_COMPANION_CHAINS_REQUIRED": {
+    "message": "A rendezett láncok engedélyezéséhez frissítse a helyi kísérőalkalmazást"
+  },
+  "error_COMPANION_MESSAGE_LIMIT": {
+    "message": "A beállítások meghaladják a kísérőalkalmazás üzenetméretkorlátját"
+  },
+  "error_COMPANION_OPERATION_FAILED": {
+    "message": "A helyi kísérőalkalmazás művelete sikertelen. Tekintse meg a műszaki részleteket."
+  },
+  "error_COMPANION_UNAVAILABLE": {
+    "message": "Telepítse vagy javítsa a V2Route Companion alkalmazást"
+  },
+  "error_CONNECTION_CLOSED": {
+    "message": "A kapcsolat a teszt befejezése előtt megszakadt."
+  },
+  "error_CORE_INSTALL_FAILED": {
+    "message": "A mag telepítése sikertelen. Tekintse meg a műszaki részleteket."
+  },
+  "error_CORE_OWNERSHIP_FAILED": {
+    "message": "Az elkülönített tesztmag nem vezérelhető biztonságosan. A teszt leállt."
+  },
+  "error_CORE_START_FAILED": {
+    "message": "Az elkülönített tesztmag nem indítható. Ellenőrizze a kísérőalkalmazás és a mag telepítését."
+  },
+  "error_CORE_START_TIMEOUT": {
+    "message": "Az elkülönített tesztmag nem állt készen időben."
+  },
+  "error_CORE_STATUS_UNAVAILABLE": {
+    "message": "A mag állapota nem érhető el. Tekintse meg a műszaki részleteket."
+  },
+  "error_CORE_VALIDATION_FAILED": {
+    "message": "Az Xray nem tudta ellenőrizni az importált csomópontokat. Ellenőrizze a beállításaikat, és próbálja újra."
+  },
+  "error_DETACH_PORT_CONFLICT": {
+    "message": "A kezelt port felszabadul. Adjon meg másik kézi proxyt"
+  },
+  "error_DETACH_PROXY_REQUIRED": {
+    "message": "Leválasztás előtt adja meg a helyettesítő kézi proxyt"
+  },
+  "error_DNS_BUSY": {
+    "message": "A DNS-keresés foglalt. Próbálja újra hamarosan."
+  },
+  "error_DNS_FAILED": {
+    "message": "A DNS-keresés sikertelen. Ellenőrizze a címet és a hálózati kapcsolatot."
+  },
+  "error_ENCODING_UNSUPPORTED": {
+    "message": "Az előfizetés nem támogatott tartalomkódolást használ."
+  },
+  "error_FIREFOX_PRIVATE_ACCESS_REQUIRED": {
+    "message": "A proxybeállítások módosítása előtt engedélyezze a V2Route használatát privát ablakokban a bővítmény részleteinél"
+  },
+  "error_FOLDER_UNAVAILABLE": {
+    "message": "A mappa nem érhető el; ellenőrizze az elérési utat, a hozzáférést és a kísérőalkalmazás verzióját"
+  },
+  "error_GROUP_LIMIT": {
+    "message": "Elérte a csoportok számának korlátját. Távolítson el egy nem használt csoportot, és próbálja újra."
+  },
+  "error_GROUP_NOT_EDITABLE": {
+    "message": "Ez a forráscsoport itt nem szerkeszthető."
+  },
+  "error_GROUP_NOT_FOUND": {
+    "message": "A kijelölt csoport már nem létezik. Válasszon másik csoportot."
+  },
+  "error_HTTP_ENCODING": {
+    "message": "A tesztszerver nem támogatott kódolást adott vissza."
+  },
+  "error_HTTP_LENGTH": {
+    "message": "A tesztválasz mérete nem egyezett a kért mérettel."
+  },
+  "error_HTTP_RESPONSE_TOO_LARGE": {
+    "message": "A tesztválasz meghaladta a megengedett méretet."
+  },
+  "error_HTTP_STATUS": {
+    "message": "A tesztszerver sikertelen HTTP-állapotot adott vissza."
+  },
+  "error_IMPORTED_PROXY_MISSING": {
+    "message": "A kísérőalkalmazás nem adta vissza az importált proxyt"
+  },
+  "error_IMPORTED_RULE_PATH_CONFLICT": {
+    "message": "Az importált csomópontok ütköző szabályútvonalakra vezetnek"
+  },
+  "error_IMPORT_CLEANUP_FAILED": {
+    "message": "Az importálás sikertelen; egyes ideiglenes csomópontok vagy portok nem szabadíthatók fel. A meglévő profilok megmaradtak"
+  },
+  "error_IMPORT_PROFILE_NAME_CONFLICT": {
+    "message": "Ismétlődő vagy érvénytelen profilnév"
+  },
+  "error_INCOMPLETE_RESPONSE": {
+    "message": "Az előfizetés válasza hiányos volt. Próbálja újra."
+  },
+  "error_INVALID_BACKUP": {
+    "message": "Érvénytelen V2Route biztonsági mentés"
+  },
+  "error_INVALID_BACKUP_NODE": {
+    "message": "Érvénytelen vagy ismétlődő csomópont a biztonsági mentésben"
+  },
+  "error_INVALID_BACKUP_NODES": {
+    "message": "Érvénytelen csomópontok a biztonsági mentésben"
+  },
+  "error_INVALID_BACKUP_PATH": {
+    "message": "Érvénytelen útvonal a biztonsági mentésben"
+  },
+  "error_INVALID_BYPASS_ENTRY": {
+    "message": "Érvénytelen megkerülési bejegyzés"
+  },
+  "error_INVALID_BYPASS_LIST": {
+    "message": "Érvénytelen megkerülési lista"
+  },
+  "error_INVALID_CHAIN": {
+    "message": "Érvénytelen rendezett lánc"
+  },
+  "error_INVALID_CHAIN_PROBE": {
+    "message": "Érvénytelen láncteszt"
+  },
+  "error_INVALID_COMPANION_RESPONSE": {
+    "message": "A helyi kísérőalkalmazás érvénytelen választ adott. Frissítse vagy javítsa."
+  },
+  "error_INVALID_CONTENT": {
+    "message": "Az előfizetés válasza nem tartalmaz érvényes tartalmat."
+  },
+  "error_INVALID_DOMAIN_PATTERNS": {
+    "message": "Adjon meg vesszővel elválasztott tartománymintákat; minden URL külön sorba kerüljön"
+  },
+  "error_INVALID_ENCODING": {
+    "message": "Az előfizetés válasza nem érvényes UTF-8 szöveg."
+  },
+  "error_INVALID_FOLDER_REQUEST": {
+    "message": "Érvénytelen mappakérés"
+  },
+  "error_INVALID_GROUP_ACTION": {
+    "message": "Ez a csoportművelet nem támogatott."
+  },
+  "error_INVALID_HOP_INDEX": {
+    "message": "Érvénytelen ugrásindex"
+  },
+  "error_INVALID_LEGACY_PREDECESSOR": {
+    "message": "Érvénytelen régi előd"
+  },
+  "error_INVALID_LIBRARY_COMMAND": {
+    "message": "Ez a csomópontkönyvtár-parancs nem támogatott."
+  },
+  "error_INVALID_LIBRARY_REQUEST": {
+    "message": "Érvénytelen könyvtárkérés"
+  },
+  "error_INVALID_NAME": {
+    "message": "Adjon meg 1–128 látható karakterből álló nevet vezérlőkarakterek nélkül."
+  },
+  "error_INVALID_NETWORK_TEST": {
+    "message": "Érvénytelen hálózati teszt"
+  },
+  "error_INVALID_NODE_IMPORT_RESPONSE": {
+    "message": "Érvénytelen csomópontimportálási válasz"
+  },
+  "error_INVALID_PREDECESSOR": {
+    "message": "Érvénytelen előd ehhez az útvonalhoz"
+  },
+  "error_INVALID_PROFILE_NAME": {
+    "message": "Érvénytelen profilnév"
+  },
+  "error_INVALID_PROFILE_REFERENCE": {
+    "message": "Érvénytelen profilhivatkozás"
+  },
+  "error_INVALID_PROXY_AUTH": {
+    "message": "Érvénytelen proxyhitelesítés"
+  },
+  "error_INVALID_PROXY_CREDENTIALS": {
+    "message": "Érvénytelen proxy-hitelesítő adatok"
+  },
+  "error_INVALID_PROXY_ENDPOINT": {
+    "message": "Adjon meg érvényes proxygazdát és portot"
+  },
+  "error_INVALID_PROXY_HOST": {
+    "message": "Adjon meg DNS-nevet vagy IP-címet port, URL, elérési út és lekérdezés nélkül"
+  },
+  "error_INVALID_ROUTE": {
+    "message": "Érvénytelen útvonal"
+  },
+  "error_INVALID_ROUTE_SETTINGS": {
+    "message": "Érvénytelen útvonalbeállítások"
+  },
+  "error_INVALID_RULES": {
+    "message": "Érvénytelen szabályok"
+  },
+  "error_INVALID_RULE_TARGET": {
+    "message": "Válasszon minden szabályhoz egy érvényes csomópontot vagy profilt"
+  },
+  "error_INVALID_SUBSCRIPTION": {
+    "message": "Érvénytelen előfizetés"
+  },
+  "error_INVALID_SUBSCRIPTION_REQUEST": {
+    "message": "Érvénytelen előfizetési kérés"
+  },
+  "error_INVALID_SUBSCRIPTION_SETTINGS": {
+    "message": "Az előfizetés beállításai érvénytelenek. Ellenőrizze a frissítési időközt és a kapcsolati házirendet."
+  },
+  "error_INVALID_SYSTEM_PROXY_RESPONSE": {
+    "message": "Érvénytelen rendszerproxy-válasz; frissítse vagy javítsa a kísérőalkalmazást"
+  },
+  "error_INVALID_TRANSPORT": {
+    "message": "Az előfizetés kapcsolati beállításai érvénytelenek."
+  },
+  "error_INVALID_URL": {
+    "message": "Adjon meg érvényes HTTP(S) előfizetési URL-t felhasználónév és jelszó nélkül."
+  },
+  "error_LIBRARY_CHANGED": {
+    "message": "A csomópontkönyvtár másik ablakban megváltozott. Frissítse a nézetet, és próbálja újra."
+  },
+  "error_MANUAL_CHAIN_UNSUPPORTED": {
+    "message": "A kézi proxyk nem fogadnak el csomópontláncot"
+  },
+  "error_MANUAL_PROXY_CLEANUP_FAILED": {
+    "message": "A mentés sikertelen; egy ideiglenesen importált proxy a csomópontkönyvtárban maradt"
+  },
+  "error_NATIVE_BINDING_ID": {
+    "message": "Érvénytelen útvonal-hozzárendelési azonosító."
+  },
+  "error_NATIVE_BINDING_UNKNOWN": {
+    "message": "Az útvonal-hozzárendelés nem létezik."
+  },
+  "error_NATIVE_BUTTON_NAME": {
+    "message": "A gomb nevének 1–128 látható karaktert kell tartalmaznia."
+  },
+  "error_NATIVE_CATALOG_UNREADABLE": {
+    "message": "A v2rayN konfigurációja nem olvasható."
+  },
+  "error_NATIVE_CORE_MISSING": {
+    "message": "Az Xray nem érhető el. Telepítse a kísérőalkalmazás csomagját."
+  },
+  "error_NATIVE_GROUP_ID_COLLISION": {
+    "message": "A csoportazonosítók ütköznek."
+  },
+  "error_NATIVE_GROUP_ORDER": {
+    "message": "Érvénytelen csoportsorrend."
+  },
+  "error_NATIVE_NODE_ID_COLLISION": {
+    "message": "A csomópontazonosítók ütköznek."
+  },
+  "error_NATIVE_PREDECESSOR_AMBIGUOUS": {
+    "message": "Az előd neve hiányzik vagy ismétlődik. Válasszon egy konkrét elődcsomópontot."
+  },
+  "error_NATIVE_PREDECESSOR_CYCLE": {
+    "message": "Az elődlánc ciklust tartalmaz, vagy hatnál több csomópontból áll."
+  },
+  "error_NATIVE_PREDECESSOR_INVALID": {
+    "message": "Válasszon érvényes elődproxyt."
+  },
+  "error_NATIVE_PREDECESSOR_MISSING": {
+    "message": "A kijelölt előd már nem létezik. Válasszon másik csomópontot."
+  },
+  "error_NATIVE_PREDECESSOR_SETTINGS": {
+    "message": "Érvénytelen elődbeállítások."
+  },
+  "error_NATIVE_ROUTE_INVALID": {
+    "message": "Válasszon érvényes útvonalat."
+  },
+  "error_NATIVE_ROUTE_MISSING": {
+    "message": "Ez az útvonal már nem létezik. Válasszon másikat."
+  },
+  "error_NATIVE_ROUTE_PORTS": {
+    "message": "Érvénytelen útvonal-portkiosztások."
+  },
+  "error_NATIVE_ROUTE_UNAVAILABLE": {
+    "message": "A kijelölt útvonal nem érhető el. Tekintse meg a műszaki részleteket."
+  },
+  "error_NATIVE_SETTINGS_FORMAT": {
+    "message": "Érvénytelen beállításformátum."
+  },
+  "error_NATIVE_SETTINGS_REVISION": {
+    "message": "Érvénytelen beállítás-revízió."
+  },
+  "error_NATIVE_SUCCESSOR_UNSUPPORTED": {
+    "message": "Ez a csoport nem támogatott utódproxyt használ."
+  },
+  "error_NATIVE_UNSUPPORTED_CUSTOM": {
+    "message": "Ez a verzió nem támogat egyéni kimeneti konfigurációkat."
+  },
+  "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
+    "message": "Ez a verzió nem támogatja a Hysteria2 protokollt."
+  },
+  "error_NATIVE_UNSUPPORTED_TUIC": {
+    "message": "Ez a verzió nem tartalmazza a TUIC protokollhoz szükséges sing-box magot."
+  },
+  "error_NATIVE_UNSUPPORTED_TYPE": {
+    "message": "Ez az útvonaltípus nem támogatott."
+  },
+  "error_NATIVE_V2RAYN_PORT": {
+    "message": "A helyi v2rayN-port érvénytelen."
+  },
+  "error_NATIVE_V2RAYN_UNAVAILABLE": {
+    "message": "A v2rayN nem érhető el. Válasszon importált csomópontot."
+  },
+  "error_NETWORK_FAILED": {
+    "message": "A hálózati kérés sikertelen. Ellenőrizze a kapcsolatot, és próbálja újra."
+  },
+  "error_NETWORK_TEST_FAILED": {
+    "message": "A hálózati diagnosztika sikertelen. Tekintse meg a műszaki részleteket."
+  },
+  "error_NODE_LIMIT": {
+    "message": "A művelet túllépné a csomópontkorlátot. Távolítsa el a nem használt csomópontokat, és próbálja újra."
+  },
+  "error_NODE_MAPPING_INCOMPLETE": {
+    "message": "Hiányos csomópont-megfeleltetés"
+  },
+  "error_NODE_NOT_FOUND": {
+    "message": "A kijelölt csomópont már nem létezik. Válasszon másikat."
+  },
+  "error_NOT_DUE": {
+    "message": "A következő ütemezett frissítés még nem esedékes."
+  },
+  "error_PAC_ENTRY_REQUIRED": {
+    "message": "Adjon meg FindProxyForURL függvényt tartalmazó PAC-forrást"
+  },
+  "error_PAC_FUNCTION_REQUIRED": {
+    "message": "Definiáljon szinkron, legfelső szintű FindProxyForURL függvényt, függvényváltozót vagy értékadást"
+  },
+  "error_PAC_PARSER_UNAVAILABLE": {
+    "message": "A csomagolt PAC-elemző nem érhető el; telepítse újra a bővítményt"
+  },
+  "error_PAC_RULE_TARGET_UNSUPPORTED": {
+    "message": "Automatikus szabályok nem célozhatnak beágyazott PAC-profilt"
+  },
+  "error_PAC_SOURCE_LIMIT": {
+    "message": "Legfeljebb {limit} karakteres PAC-forrást adjon meg"
+  },
+  "error_PAC_SYNTAX_INVALID": {
+    "message": "Érvénytelen PAC-szintaxis"
+  },
+  "error_PAC_SYNTAX_LOCATION": {
+    "message": "Érvénytelen PAC-szintaxis: {line}. sor, {column}. oszlop"
+  },
+  "error_PARTIAL_TRANSFER": {
+    "message": "A tesztátvitel az összes adat fogadása előtt véget ért."
+  },
+  "error_PRIVATE_DIRECTORY_FAILED": {
+    "message": "A privát tesztmappa védelme nem biztosítható. A teszt leállt."
+  },
+  "error_PRIVATE_TARGET": {
+    "message": "Privát vagy helyi címekre irányuló előfizetési kérések nem engedélyezettek."
+  },
+  "error_PROFILE_NOT_FOUND": {
+    "message": "A profil nem található"
+  },
+  "error_PROFILE_REFERENCE_CYCLE": {
+    "message": "Körkörös profilhivatkozások"
+  },
+  "error_PROFILE_REFERENCE_DEPTH": {
+    "message": "Az automatikus szabályok meghaladják a(z) {limit} maximális mélységet"
+  },
+  "error_PROFILE_REFERENCE_MISSING": {
+    "message": "A hivatkozott profil nem létezik: {name}"
+  },
+  "error_PROFILE_SAVE_RESTORE_FAILED": {
+    "message": "A mentés sikertelen, és az útvonal visszaállítása figyelmet igényel"
+  },
+  "error_PROXY_AUTH_REQUIRED": {
+    "message": "Az előfizetés proxyja olyan hitelesítést igényel, amelyet ez a kérés nem tud biztosítani."
+  },
+  "error_PROXY_CONTROL_UNAVAILABLE": {
+    "message": "Egy másik bővítmény vagy házirend vezérli a proxyt"
+  },
+  "error_PROXY_DNS_REQUIRED": {
+    "message": "A V2Route a SOCKS5 DNS-feloldását a proxyn keresztül végzi"
+  },
+  "error_PROXY_FAILED": {
+    "message": "A proxykapcsolat sikertelen. Ellenőrizze a kijelölt útvonalat."
+  },
+  "error_PROXY_PROFILE_REQUIRED": {
+    "message": "Válasszon proxyprofilt"
+  },
+  "error_PROXY_ROLLBACK_REFUSED": {
+    "message": "A böngésző elutasította a proxy visszaállítását"
+  },
+  "error_PROXY_SETTING_REFUSED": {
+    "message": "A böngésző elutasította a proxybeállítást"
+  },
+  "error_PROXY_UNAVAILABLE": {
+    "message": "A kijelölt proxy nem érhető el. Ellenőrizze az aktuális útvonalat."
+  },
+  "error_PROXY_USERNAME_REQUIRED": {
+    "message": "Adjon meg proxy-felhasználónevet"
+  },
+  "error_RECOVERY_BINDINGS_LIMIT": {
+    "message": "A helyreállítás legfeljebb {limit} csomópont-hozzárendelést állíthat vissza. Nyissa meg és mentse külön a hivatkozott profilokat."
+  },
+  "error_REDIRECT_LIMIT": {
+    "message": "Az előfizetés túl sokszor irányított át. Ellenőrizze az URL-jét."
+  },
+  "error_REFERENCED_PROFILE_DELETE": {
+    "message": "Erre a profilra egy automatikus szabály hivatkozik"
+  },
+  "error_REMOTE_PAC_UNSUPPORTED": {
+    "message": "Használjon beágyazott PAC-forrást; a távoli PAC nem támogatott"
+  },
+  "error_ROUTE_PORT_UNAVAILABLE": {
+    "message": "Nem történt portkiosztás"
+  },
+  "error_ROUTE_RECOVERY_RESTORE_FAILED": {
+    "message": "Az útvonal helyreállítása sikertelen, és a visszaállítás figyelmet igényel"
+  },
+  "error_ROUTE_REVISION_CONFLICT": {
+    "message": "Az útvonal másik ablakban megváltozott. Előbb frissítse a nézetet"
+  },
+  "error_ROUTE_SAVE_ROLLBACK_FAILED": {
+    "message": "Az útvonal mentése sikertelen, és a visszaállítás figyelmet igényel"
+  },
+  "error_ROUTE_UNAVAILABLE": {
+    "message": "A tesztútvonal nem érhető el. Ellenőrizze a csomópont és az előd beállításait."
+  },
+  "error_RULE_BINDING_MISSING": {
+    "message": "Hiányzik a csomópontszabály hozzárendelése. Nyissa meg újra és mentse az automatikus profilt: {name}"
+  },
+  "error_RULE_NODES_LIMIT": {
+    "message": "Az automatikus szabályok legfeljebb {limit} különböző csomópontot támogatnak"
+  },
+  "error_RULE_NODE_CHANGED": {
+    "message": "A csomópontszabály nem érhető el vagy megváltozott. Állítsa vissza a csomópontot, vagy válasszon másikat, és mentsen: {name}"
+  },
+  "error_RULE_PATH_CONFLICT": {
+    "message": "Ütköző csomópontszabály-útvonalak"
+  },
+  "error_RULE_PATTERNS_LIMIT": {
+    "message": "Az automatikus szabályok összesen legfeljebb {limit} illesztési mintát támogatnak"
+  },
+  "error_RULE_PORT_UNAVAILABLE": {
+    "message": "A csomópontszabály portja nem érhető el"
+  },
+  "error_RULE_REVISION_CONFLICT": {
+    "message": "A csomópontszabály másik ablakban megváltozott. Előbb frissítse a nézetet"
+  },
+  "error_SELECTED_NODE_UNAVAILABLE": {
+    "message": "A kijelölt csomópont nem érhető el. Állítsa vissza, vagy válasszon másikat"
+  },
+  "error_SOCKS_FAILED": {
+    "message": "A SOCKS-kapcsolat nem hozható létre."
+  },
+  "error_STARTUP_FALLBACK_REFUSED": {
+    "message": "A böngésző elutasította az indítási tartalék proxyt."
+  },
+  "error_SUBSCRIPTION_CHANGED": {
+    "message": "Az előfizetés frissítés közben megváltozott. Frissítse a nézetet, és próbálja újra."
+  },
+  "error_SUBSCRIPTION_HTTP_STATUS": {
+    "message": "Az előfizetés szervere HTTP {status} állapotot adott vissza."
+  },
+  "error_SUBSCRIPTION_LIMIT": {
+    "message": "Elérte az előfizetések számának korlátját. Távolítson el egy nem használt előfizetést, és próbálja újra."
+  },
+  "error_SUBSCRIPTION_NOT_FOUND": {
+    "message": "A kijelölt előfizetés már nem létezik."
+  },
+  "error_SYSTEM_PROXY_SNAPSHOT_UNAVAILABLE": {
+    "message": "Az alkalmazott rendszerproxy pillanatképe nem érhető el."
+  },
+  "error_SYSTEM_PROXY_TIMEOUT": {
+    "message": "A rendszerproxy beolvasása túllépte az időkorlátot"
+  },
+  "error_SYSTEM_PROXY_UNAVAILABLE": {
+    "message": "A rendszerproxy nem érhető el. Tekintse meg a műszaki részleteket."
+  },
+  "error_TIMEOUT": {
+    "message": "A kérés túllépte az időkorlátot. Ellenőrizze a kapcsolatot, és próbálja újra."
+  },
+  "error_TLS_DOWNGRADE": {
+    "message": "Az előfizetés HTTPS helyett HTTP címre irányított át, ezért blokkolva lett."
+  },
+  "error_TLS_FAILED": {
+    "message": "A biztonságos kapcsolat nem ellenőrizhető. Ellenőrizze a szervert és a tanúsítványt."
+  },
+  "error_UNSAFE_TEMP_PATH": {
+    "message": "Az ideiglenes tesztmappa nem biztonságos. A teszt leállt."
+  },
+  "error_UNSUPPORTED_LIBRARY_REQUEST": {
+    "message": "Nem támogatott könyvtárkérés"
+  },
+  "error_UNSUPPORTED_PROFILE_TYPE": {
+    "message": "Nem támogatott profiltípus"
+  },
+  "error_UNSUPPORTED_REQUEST": {
+    "message": "Nem támogatott kérés"
+  },
+  "error_UNSUPPORTED_RULE_CONDITION": {
+    "message": "Csak gazdanév- és URL-helyettesítő karakteres szabályok támogatottak"
+  },
+  "error_UPDATE_FAILED": {
+    "message": "Az előfizetés frissítése sikertelen. A meglévő csomópontok megmaradtak."
+  },
+  "error_VALIDATION_FAILED": {
+    "message": "Az előfizetés tartalma nem ellenőrizhető. A meglévő csomópontok megmaradtak."
+  },
+  "nativeUnnamedNode": {
+    "message": "Névtelen csomópont"
+  },
+  "nativeProtocolCustom": {
+    "message": "Egyéni"
+  },
+  "nativeProtocolOutbound": {
+    "message": "Egyéni kimenet"
+  },
+  "nativeProtocolGroup": {
+    "message": "Házirendcsoport"
+  },
+  "nativeProtocolChain": {
+    "message": "Proxylánc"
+  },
+  "nativeProtocolUnknown": {
+    "message": "Nem támogatott típus"
+  },
+  "languageLoadFailed": {
+    "message": "A kijelölt nyelv nem tölthető be. Próbálja újra."
+  },
+  "invalidBackupJSON": {
+    "message": "A biztonsági mentés nem érvényes JSON."
+  },
+  "noticeBodyLanguages": {
+    "message": "A szabályzat teljes szövege angolul és egyszerűsített kínaiul érhető el."
+  },
+  "policyRules": {
+    "message": "Proxyútválasztási szabályok"
+  },
+  "policyPriority": {
+    "message": "Sorrend: kivételezett címek → első illeszkedő szabály → alapértelmezett útvonal."
+  },
+  "policyDirectHelp": {
+    "message": "Az illeszkedés nélküli címek közvetlenül kapcsolódnak. A felugró ablak Közvetlen gombja is ezeket a szabályokat használja."
+  },
+  "policySystemHelp": {
+    "message": "Az illeszkedés nélküli címek a rendszerproxyhoz kapcsolódnak. A Rendszer gomb is ezeket a szabályokat használja."
+  },
+  "policyEmpty": {
+    "message": "Még nincsenek szabályok. Az alapértelmezett útvonal érvényes."
+  },
+  "policyAddressHelp": {
+    "message": "Tartományok, helyettesítő karakterek, IP vagy IP:port. Az IP-szabályok az URL IP-jét vizsgálják, nem a DNS eredményét."
+  },
+  "policyMoveUp": {
+    "message": "Szabály feljebb"
+  },
+  "policyMoveDown": {
+    "message": "Szabály lejjebb"
+  }
+}

@@ -1,0 +1,2150 @@
+{
+  "ruleTargetUnavailable": {
+    "message": "Destí no disponible"
+  },
+  "rulePatternPlaceholder": {
+    "message": "example.com, *.example.org, 192.0.2.1:8443"
+  },
+  "rulePatternHelp": {
+    "message": "Separeu les adreces amb comes. Un patró d’URL per fila. PAC pot no veure els camins HTTPS."
+  },
+  "defaultChoice_direct": {
+    "message": "Connecteu-vos sense un servidor intermediari"
+  },
+  "defaultChoice_system": {
+    "message": "Utilitzeu la configuració del servidor intermediari del sistema"
+  },
+  "defaultChoice_node": {
+    "message": "Utilitzeu el node seleccionat d'aquest perfil"
+  },
+  "defaultChoice_manual": {
+    "message": "Utilitzeu la configuració del servidor intermediari d'aquest perfil"
+  },
+  "defaultChoice_auto": {
+    "message": "Apliqueu les regles d'encaminament d'aquest perfil"
+  },
+  "nlHttpsLatency": {
+    "message": "HTTPS resposta"
+  },
+  "nlLatencyMethod": {
+    "message": "Cloudflare · Mínim de dues respostes · Reutilització de la connexió quan estigui disponible"
+  },
+  "nlLatencyFast": {
+    "message": "Ràpid"
+  },
+  "nlLatencyModerate": {
+    "message": "Moderat"
+  },
+  "nlLatencySlow": {
+    "message": "Lenta"
+  },
+  "nlSortName": {
+    "message": "Nom"
+  },
+  "nlSortLatency": {
+    "message": "Latència: de baixa a alta"
+  },
+  "nlSortDownload": {
+    "message": "Baixa: d'alt a baix"
+  },
+  "nlSortUpload": {
+    "message": "Càrrega: d'alt a baix"
+  },
+  "nlSingle": {
+    "message": "Node únic"
+  },
+  "nlGroupBatch": {
+    "message": "Grup / lot"
+  },
+  "nlTestScope": {
+    "message": "Àmbit de la prova"
+  },
+  "nlCurrentNode": {
+    "message": "Node seleccionat"
+  },
+  "nlCurrentGroup": {
+    "message": "Grup seleccionat"
+  },
+  "nlChooseNode": {
+    "message": "Trieu un node a la llista"
+  },
+  "nlStart": {
+    "message": "Inici de la prova"
+  },
+  "nlService": {
+    "message": "Servei de proves"
+  },
+  "nlMeasured": {
+    "message": "mesurat"
+  },
+  "nlMeanLatency": {
+    "message": "Latència mitjana"
+  },
+  "nlGroupBySource": {
+    "message": "Per grup d'origen"
+  },
+  "nlPreviousPage": {
+    "message": "Pàgina anterior"
+  },
+  "nlNextPage": {
+    "message": "Pàgina següent"
+  },
+  "nlName": {
+    "message": "Nom"
+  },
+  "nlEdit": {
+    "message": "Edita"
+  },
+  "nlStop": {
+    "message": "Atura"
+  },
+  "nlConfirm": {
+    "message": "Confirmar"
+  },
+  "nlAllNodes": {
+    "message": "Tots els nodes"
+  },
+  "nlNodeResults": {
+    "message": "Resultats del node"
+  },
+  "nlTestCenter": {
+    "message": "Centre de proves"
+  },
+  "nlNewGroup": {
+    "message": "Nou grup"
+  },
+  "nlRenameGroup": {
+    "message": "Canvia el nom del grup"
+  },
+  "nlRemoveGroup": {
+    "message": "Elimina el grup"
+  },
+  "nlRemoveGroupHelp": {
+    "message": "Conserveu tots els nodes i les subscripcions i moveu-los als nodes importats."
+  },
+  "nlNode": {
+    "message": "Node"
+  },
+  "nlStatus": {
+    "message": "Estat"
+  },
+  "nlActions": {
+    "message": "Accions"
+  },
+  "nlSort": {
+    "message": "Ordena només aquesta taula"
+  },
+  "nlSelected": {
+    "message": "seleccionat"
+  },
+  "nlTestNode": {
+    "message": "Prova"
+  },
+  "nlProfileShort": {
+    "message": "Perfil"
+  },
+  "nlQuick": {
+    "message": "Latència ràpida"
+  },
+  "nlFull": {
+    "message": "Descarrega + puja"
+  },
+  "nlTraffic": {
+    "message": "Mida de les dades de prova"
+  },
+  "nlConcurrency": {
+    "message": "Nodes concurrents"
+  },
+  "nlTrafficFullOnly": {
+    "message": "S'utilitza per a proves de baixada i càrrega"
+  },
+  "nlTestMode": {
+    "message": "Mode de prova"
+  },
+  "nlBudget": {
+    "message": "Trànsit de càrrega útil màxim"
+  },
+  "nlViaGroup": {
+    "message": "Mitjançant preproxy grupal"
+  },
+  "nlTestSelected": {
+    "message": "Prova seleccionada"
+  },
+  "nlTestVisible": {
+    "message": "Prova els nodes mostrats"
+  },
+  "nlTestAll": {
+    "message": "Proveu tots els nodes"
+  },
+  "nlTestGroup": {
+    "message": "Nodes del grup de prova"
+  },
+  "nlProgress": {
+    "message": "Progrés de la mesura"
+  },
+  "nlReady": {
+    "message": "Trieu els nodes per començar. No s'ha executat cap prova."
+  },
+  "nlStarting": {
+    "message": "S'està iniciant la mesura aïllada..."
+  },
+  "nlQueued": {
+    "message": "En cua"
+  },
+  "nlRunning": {
+    "message": "Prova"
+  },
+  "nlStopping": {
+    "message": "S'està aturant..."
+  },
+  "nlComplete": {
+    "message": "Completa"
+  },
+  "nlFailed": {
+    "message": "Ha fallat"
+  },
+  "nlStopped": {
+    "message": "Parat"
+  },
+  "nlPartial": {
+    "message": "Parcial"
+  },
+  "nlUntested": {
+    "message": "No provat"
+  },
+  "nlSucceeded": {
+    "message": "aprovat"
+  },
+  "nlMeasureDisconnected": {
+    "message": "S'ha finalitzat la connexió de mesura. Els valors incomplets no són resultats finals."
+  },
+  "nlUpgrade": {
+    "message": "Actualitzeu el Companion local per gestionar grups i subscripcions. Els nodes existents continuen disponibles."
+  },
+  "nlOperationFailed": {
+    "message": "L'operació no s'ha pogut completar. Torna-ho a provar."
+  },
+  "nlEditSubscription": {
+    "message": "Edita la subscripció"
+  },
+  "nlPasteContent": {
+    "message": "Enllaços de proxy/contingut"
+  },
+  "nlSubscriptionURL": {
+    "message": "Subscripció URL"
+  },
+  "nlKeepURL": {
+    "message": "Deixa en blanc per mantenir el desat URL"
+  },
+  "nlConnectionPolicy": {
+    "message": "Actualitza la connexió"
+  },
+  "nlProxyFirst": {
+    "message": "Primer proxy, després directe en cas de fallada"
+  },
+  "nlProxyOnly": {
+    "message": "Només proxy"
+  },
+  "nlDirectOnly": {
+    "message": "Només directe"
+  },
+  "nlProxyFirstHelp": {
+    "message": "El servidor intermediari s'atura primer després d'una recuperació correcta. Direct només es prova si l'intent del servidor intermediari falla."
+  },
+  "nlAutoUpdate": {
+    "message": "Activa les actualitzacions automàtiques"
+  },
+  "nlInterval": {
+    "message": "Interval d'actualització (minuts)"
+  },
+  "nlDestinationGroup": {
+    "message": "Grup de destinació"
+  },
+  "nlSubscriptionOwnGroup": {
+    "message": "Grup nou..."
+  },
+  "nlNameGroup": {
+    "message": "Nom (grup)"
+  },
+  "nlCustomGroup": {
+    "message": "Grup personalitzat"
+  },
+  "nlNameRequired": {
+    "message": "Introduïu un nom."
+  },
+  "nlContentRequired": {
+    "message": "Enganxeu enllaços de proxy o contingut de subscripció."
+  },
+  "nlGroupRequired": {
+    "message": "Trieu un grup de destinació."
+  },
+  "nlURLRequired": {
+    "message": "Introduïu una subscripció HTTP(S) URL sense nom d'usuari ni contrasenya."
+  },
+  "nlIntervalInvalid": {
+    "message": "Introduïu un nombre sencer de 5 a 43200 minuts."
+  },
+  "folderTitle": {
+    "message": "Trieu la carpeta v2rayN."
+  },
+  "folderHint": {
+    "message": "Trieu una carpeta i, a continuació, apliqueu-la amb Desa la configuració de connexió."
+  },
+  "folderPath": {
+    "message": "Camí complet de la carpeta local"
+  },
+  "folderGo": {
+    "message": "Obert"
+  },
+  "folderUp": {
+    "message": "Amunt"
+  },
+  "folderDrives": {
+    "message": "Unitats"
+  },
+  "folderCurrent": {
+    "message": "Camí actual"
+  },
+  "folderChoose": {
+    "message": "Utilitzeu aquesta carpeta"
+  },
+  "folderList": {
+    "message": "Carpetes"
+  },
+  "folderTruncated": {
+    "message": "La llista és limitada. Introduïu el camí complet a dalt per obrir una carpeta que no es mostra."
+  },
+  "folderReady": {
+    "message": "v2rayN fitxers trobats. Utilitzeu aquesta carpeta per validar la configuració."
+  },
+  "folderInvalid": {
+    "message": "Trieu la carpeta que conté guiConfigs, guiNConfig.json i guiNDB.db."
+  },
+  "folderSelectDrive": {
+    "message": "Trieu una unitat local o introduïu una ruta de carpeta completa."
+  },
+  "folderEmpty": {
+    "message": "No hi ha subcarpetes visibles."
+  },
+  "folderUnavailable": {
+    "message": "No es pot navegar per aquesta carpeta. Comproveu el seu camí i accés. Si el Companion és més antic, actualitzeu-lo primer."
+  },
+  "folderValidating": {
+    "message": "S'està validant la configuració v2rayN..."
+  },
+  "folderInvalidConfig": {
+    "message": "La configuració o la base de dades v2rayN és incompleta o no és vàlida. Trieu una altra carpeta."
+  },
+  "copyPath": {
+    "message": "Copia el camí"
+  },
+  "pathCopyHint": {
+    "message": "Copieu la ruta actualment en aquest camp."
+  },
+  "preMode": {
+    "message": "Mode pre-proxy"
+  },
+  "preNode": {
+    "message": "Node pre-proxy"
+  },
+  "preIntro": {
+    "message": "Utilitzeu la cadena de grups, ometeu-la o trieu un servidor intermediari previ per a aquest perfil."
+  },
+  "healthLabel": {
+    "message": "Estat actual de la connexió"
+  },
+  "healthOk": {
+    "message": "Normal"
+  },
+  "healthError": {
+    "message": "Anormal"
+  },
+  "healthChecking": {
+    "message": "Comprovació"
+  },
+  "healthUnknown": {
+    "message": "Sense confirmar"
+  },
+  "autoSystemHelp": {
+    "message": "Les regles de sistema requereixen el component Windows i una còpia dels paràmetres del servidor intermediari fix. Torneu a aplicar després dels canvis. PAC/WPAD no són compatibles; Sistema sense regles usa els paràmetres natius del navegador."
+  },
+  "backgroundUnavailable": {
+    "message": "El fons de l'extensió no està disponible."
+  },
+  "backgroundNoResponse": {
+    "message": "El fons no va respondre."
+  },
+  "backupTooLarge": {
+    "message": "La còpia de seguretat supera els 5 MB."
+  },
+  "proxyUsername": {
+    "message": "Nom d'usuari"
+  },
+  "proxyPassword": {
+    "message": "Contrasenya"
+  },
+  "proxyAuthHelp": {
+    "message": "Opcional. Els servidors intermediaris autenticats es connecten a través del Companion. Les credencials s'emmagatzemen en aquesta configuració del navegador i en el Companion, i s'inclouen a les exportacions de perfils."
+  },
+  "proxyAuthSocks4": {
+    "message": "SOCKS4 no admet aquesta autenticació de nom d'usuari/contrasenya; utilitzeu HTTP(S) o SOCKS5."
+  },
+  "importExamples": {
+    "message": "Exemples de format"
+  },
+  "ipCopying": {
+    "message": "S'està copiant..."
+  },
+  "netDnsUnavailable": {
+    "message": "L'adreça del servidor no s'ha pogut resoldre a temps. Comproveu l'amfitrió o l'adreça IP i torneu-ho a provar."
+  },
+  "netCurrentTarget": {
+    "message": "Punt final de proxy seleccionat"
+  },
+  "netCustomTarget": {
+    "message": "Servidor personalitzat"
+  },
+  "netHost": {
+    "message": "Amfitrió o adreça IP."
+  },
+  "netPort": {
+    "message": "TCP port"
+  },
+  "netHostRequired": {
+    "message": "Introduïu un amfitrió del servidor o una adreça IP."
+  },
+  "netCurrentUnavailable": {
+    "message": "Seleccioneu un node o un perfil de servidor intermediari manual o introduïu un objectiu personalitzat."
+  },
+  "netInvalidTarget": {
+    "message": "Introduïu un host i un port de diagnòstic vàlids."
+  },
+  "netIpv6PingUnavailable": {
+    "message": "IPv6 ICMP no està disponible; utilitzar TCPing."
+  },
+  "preNeedsFix": {
+    "message": "Trieu un preproxy vàlid o cap preproxy abans de desar."
+  },
+  "preConfigure": {
+    "message": "Configura el preproxy"
+  },
+  "preFollowInvalid": {
+    "message": "Segueix v2rayN no accepta un preproxy personalitzat."
+  },
+  "followChainHelp": {
+    "message": "Follow utilitza la ruta i la cadena de proxy ja actives a v2rayN."
+  },
+  "netTitle": {
+    "message": "Proves de connexió"
+  },
+  "ipTestDetails": {
+    "message": "Detalls de la prova"
+  },
+  "netTarget": {
+    "message": "Ping / TCPing objectiu"
+  },
+  "netDownload": {
+    "message": "Prova de descàrrega"
+  },
+  "netPartial": {
+    "message": "Mostra parcial"
+  },
+  "netComplete": {
+    "message": "Mostra completa"
+  },
+  "netDirect": {
+    "message": "Xarxa del sistema"
+  },
+  "netUnreachable": {
+    "message": "Cap resposta/fallida"
+  },
+  "netAverage": {
+    "message": "Mitjana"
+  },
+  "predecessor": {
+    "message": "Pre-proxy"
+  },
+  "preInherit": {
+    "message": "Utilitzeu la cadena de grups v2rayN."
+  },
+  "preNone": {
+    "message": "No hi ha cap proxy previ"
+  },
+  "preSpecific": {
+    "message": "Trieu un node"
+  },
+  "preHelp": {
+    "message": "S'aplica a aquest perfil. Utilitzeu la cadena de grups v2rayN, sense pre-proxy o un node específic. Follow v2rayN utilitza la seva cadena existent."
+  },
+  "preSelectRequired": {
+    "message": "Trieu un node pre-proxy o seleccioneu Grup predeterminat / Cap."
+  },
+  "ipPing0Permission": {
+    "message": "Permet l'accés al lloc web Ping0 per carregar l'informe públic."
+  },
+  "ipPublicChallenge": {
+    "message": "El lloc web requereix verificació. Obriu la pàgina Ping0 per completar-la i visualitzar el resultat."
+  },
+  "ipPublicReport": {
+    "message": "Ping0 informe públic"
+  },
+  "ipPublicSource": {
+    "message": "Font: Ping0 pàgina pública"
+  },
+  "ipPublicOriginal": {
+    "message": "Ping0 informe"
+  },
+  "ipPublicPartial": {
+    "message": "Només es mostren els camps proporcionats a la pàgina pública, en el seu idioma original. Les classificacions i les estimacions d'usuaris compartits són de Ping0."
+  },
+  "setupTitle": {
+    "message": "Connecta Proxy V2Route"
+  },
+  "setupIntro": {
+    "message": "Instal·leu el complement Windows per utilitzar les rutes v2rayN o els vostres propis nodes importats."
+  },
+  "setupStepOne": {
+    "message": "Extraieu el paquet Windows complet coincident a una carpeta permanent."
+  },
+  "setupStepTwo": {
+    "message": "Obriu V2Route-Setup.exe i feu clic a Instal·la."
+  },
+  "setupStepThree": {
+    "message": "Torneu aquí i comproveu la connexió. Trieu la carpeta v2rayN si cal."
+  },
+  "setupCheck": {
+    "message": "Comproveu la connexió"
+  },
+  "downloadCompanion": {
+    "message": "Guia d'instal·lació ↗"
+  },
+  "setupDownloadNote": {
+    "message": "Utilitzeu el paquet local Windows coincident o seguiu la guia per crear-lo des de la font actual."
+  },
+  "chooseFolder": {
+    "message": "Trieu la carpeta v2rayN..."
+  },
+  "rescanDone": {
+    "message": "S'han tornat a analitzar els nodes locals"
+  },
+  "grouping": {
+    "message": "Agrupa els nodes"
+  },
+  "groupByCountry": {
+    "message": "Per països"
+  },
+  "unknownCountry": {
+    "message": "Altres / Desconegut"
+  },
+  "ungrouped": {
+    "message": "Desagrupat"
+  },
+  "adjustNodeFilters": {
+    "message": "Prova un altre grup, font o cerca, o mostra els nodes ocults."
+  },
+  "rescanLocal": {
+    "message": "Torna a escanejar v2rayN nodes"
+  },
+  "showHidden": {
+    "message": "Mostra els nodes ocults"
+  },
+  "hideNode": {
+    "message": "Amaga"
+  },
+  "restoreNode": {
+    "message": "Restaurar"
+  },
+  "hiddenNode": {
+    "message": "Amagat"
+  },
+  "hideNodeHelp": {
+    "message": "Amaga només de la biblioteca de nodes d'aquest navegador. v2rayN i els perfils existents no es modifiquen."
+  },
+  "ipContextTimeout": {
+    "message": "S'ha esgotat el temps d'espera de la lectura del perfil actual. Torna-ho a provar."
+  },
+  "ipStaleResult": {
+    "message": "El perfil actual ha canviat. Aquest resultat pot estar obsolet; comprovar de nou."
+  },
+  "ip_tools": {
+    "message": "IP Eines"
+  },
+  "ipIntro": {
+    "message": "Sortida actual IP i informe públic."
+  },
+  "ipCurrentProfile": {
+    "message": "Perfil actual del navegador"
+  },
+  "ipRouteCaution": {
+    "message": "Les regles automàtiques i PAC poden utilitzar rutes diferents per a diferents destinacions. Aquesta comprovació només descriu la seva pròpia sol·licitud."
+  },
+  "ipDisclosure": {
+    "message": "Sortida de comprovació automàtica IP · Informe de Ping0"
+  },
+  "ipMethod": {
+    "message": "Comprovació d'adreces"
+  },
+  "ipDual": {
+    "message": "IPv4 / IPv6"
+  },
+  "ipCheck": {
+    "message": "Torna a comprovar"
+  },
+  "ipChecking": {
+    "message": "S'està comprovant..."
+  },
+  "ipDualHelp": {
+    "message": "IPv4/IPv6 retorna la família d'adreces utilitzada per a aquesta sol·licitud, no les dues adreces."
+  },
+  "ipDurationHelp": {
+    "message": "El temps de sol·licitud transcorregut HTTP inclou el temps de resposta de la xarxa i del servei. No és ICMP ping ni una prova d'ample de banda."
+  },
+  "ipCopy": {
+    "message": "Còpia IP"
+  },
+  "ipCopied": {
+    "message": "Copiat"
+  },
+  "ipCopyFailed": {
+    "message": "No s'ha pogut copiar. Seleccioneu l'adreça i copieu-la manualment."
+  },
+  "ipNoResult": {
+    "message": "Encara no hi ha cap comprovació"
+  },
+  "ipContextUnknown": {
+    "message": "Perfil no disponible"
+  },
+  "ipTimeout": {
+    "message": "S'ha esgotat el temps de comprovació. Torna-ho a provar o utilitza una altra ruta."
+  },
+  "ipCancelled": {
+    "message": "Comprovació cancel·lada"
+  },
+  "ipNetwork": {
+    "message": "No s'ha pogut arribar a ipify. Comprova la connexió i torna-ho a provar."
+  },
+  "ipHttp": {
+    "message": "El servei IP no va acceptar la sol·licitud. Torna-ho a provar més tard."
+  },
+  "ipInvalid": {
+    "message": "El servei IP ha retornat una resposta no vàlida."
+  },
+  "ipFailure": {
+    "message": "La comprovació ha fallat. Torna-ho a provar."
+  },
+  "ipStale": {
+    "message": "La configuració del servidor intermediari ha canviat durant la comprovació. L'antic resultat va ser descartat; comprovar de nou."
+  },
+  "ipQuality": {
+    "message": "Eines externes"
+  },
+  "ipQualityPrivacy": {
+    "message": "Les eines només s'executen fent clic. Els proveïdors reben dades de connexió normals. Les comprovacions del lloc web envien sol·licituds sense credencials després de l'inici. El tancament atura les proves locals; les pestanyes externes són gestionades pel navegador."
+  },
+  "ipReport": {
+    "message": "Còpia de l'informe redactat"
+  },
+  "ipReportCopied": {
+    "message": "S'ha copiat l'informe redactat; no IP o noms de perfil inclosos."
+  },
+  "popupSelected": {
+    "message": "Seleccionat"
+  },
+  "popupFooter": {
+    "message": "v2rayN i perfils de nodes"
+  },
+  "subtitle": {
+    "message": "Rutes de navegador independents"
+  },
+  "profiles": {
+    "message": "Perfils"
+  },
+  "nodes": {
+    "message": "Biblioteca de nodes"
+  },
+  "settings": {
+    "message": "Configuració"
+  },
+  "connected": {
+    "message": "Perfil actiu"
+  },
+  "noProfile": {
+    "message": "Sistema predeterminat"
+  },
+  "newProfile": {
+    "message": "Perfil nou"
+  },
+  "searchProfiles": {
+    "message": "Cerca perfils"
+  },
+  "direct": {
+    "message": "Xarxa directa"
+  },
+  "system": {
+    "message": "Proxy del sistema"
+  },
+  "follow": {
+    "message": "Segueix v2rayN"
+  },
+  "manual": {
+    "message": "Proxy manual"
+  },
+  "auto": {
+    "message": "Interruptor automàtic"
+  },
+  "pac": {
+    "message": "PAC guió"
+  },
+  "virtual": {
+    "message": "Perfil virtual"
+  },
+  "profileIntro": {
+    "message": "Trieu una ruta del navegador sense canviar la ruta principal de v2rayN."
+  },
+  "nodesIntro": {
+    "message": "Exploreu els nodes locals v2rayN i els vostres enllaços importats."
+  },
+  "settingsIntro": {
+    "message": "Connexió local, idioma i aspecte."
+  },
+  "refresh": {
+    "message": "Actualitzar"
+  },
+  "create": {
+    "message": "Crea un perfil"
+  },
+  "name": {
+    "message": "Nom del perfil"
+  },
+  "type": {
+    "message": "Tipus de perfil"
+  },
+  "save": {
+    "message": "Desa"
+  },
+  "saved": {
+    "message": "Desat"
+  },
+  "saving": {
+    "message": "S'està desant..."
+  },
+  "cancel": {
+    "message": "Cancel·la"
+  },
+  "close": {
+    "message": "Tancar"
+  },
+  "apply": {
+    "message": "Utilitza aquest perfil"
+  },
+  "applied": {
+    "message": "Perfil canviat"
+  },
+  "active": {
+    "message": "Actiu"
+  },
+  "delete": {
+    "message": "Suprimeix"
+  },
+  "remove": {
+    "message": "Eliminar"
+  },
+  "rename": {
+    "message": "Canvia el nom"
+  },
+  "route": {
+    "message": "Ruta proxy"
+  },
+  "selectRoute": {
+    "message": "Seleccioneu una ruta"
+  },
+  "routeMissing": {
+    "message": "Ruta no disponible: seleccioneu-ne una altra"
+  },
+  "chain": {
+    "message": "Cadena de connexió"
+  },
+  "connection": {
+    "message": "Connexió local"
+  },
+  "proxy": {
+    "message": "Servidor intermediari"
+  },
+  "address": {
+    "message": "Adreça"
+  },
+  "port": {
+    "message": "Port"
+  },
+  "scheme": {
+    "message": "Protocol"
+  },
+  "proxyDns": {
+    "message": "SOCKS5 DNS es resol mitjançant el proxy."
+  },
+  "connectedIdle": {
+    "message": "Connectat · Inactiu"
+  },
+  "bypass": {
+    "message": "Llista de derivacions"
+  },
+  "bypassHelp": {
+    "message": "Un domini, comodí, adreça IP o IP:port per línia."
+  },
+  "advanced": {
+    "message": "Opcions avançades"
+  },
+  "searchRoutes": {
+    "message": "Cerca grups o nodes"
+  },
+  "selectGroup": {
+    "message": "Seleccioneu un grup"
+  },
+  "empty": {
+    "message": "No hi ha elements coincidents"
+  },
+  "unavailable": {
+    "message": "No disponible"
+  },
+  "groupHint": {
+    "message": "Mantingueu premut un grup durant 250 ms i, a continuació, arrossegueu. Alt + ↑ / ↓ també reordena. Els canvis es guarden automàticament."
+  },
+  "searchSort": {
+    "message": "Esborreu la cerca abans d'ordenar."
+  },
+  "dragHint": {
+    "message": "Mou-te cap amunt o cap avall i després deixa anar per desar. Esc cancel·la."
+  },
+  "orderSaved": {
+    "message": "S'ha desat la comanda del grup"
+  },
+  "orderCancelled": {
+    "message": "S'ha cancel·lat la reordenació"
+  },
+  "loading": {
+    "message": "S'està carregant..."
+  },
+  "reading": {
+    "message": "Llegint nodes locals..."
+  },
+  "nativeMissing": {
+    "message": "El component local no està connectat"
+  },
+  "retry": {
+    "message": "Torna-ho a provar"
+  },
+  "nativeHelp": {
+    "message": "Les rutes de nodes requereixen el complement Windows. Els servidors intermediaris directes, del sistema i manuals estan disponibles ara."
+  },
+  "imported": {
+    "message": "Importat"
+  },
+  "v2rayn": {
+    "message": "v2rayN"
+  },
+  "allSources": {
+    "message": "Totes les fonts"
+  },
+  "importNodes": {
+    "message": "Importa proxies"
+  },
+  "importTitle": {
+    "message": "Importa proxies"
+  },
+  "importHelp": {
+    "message": "Enganxeu enllaços de proxy, de sortida JSON o una subscripció Base64. SOCKS admet credencials simples o Base64. Les adreces lliures d'esquemes utilitzen HTTP."
+  },
+  "importPrivacy": {
+    "message": "Els detalls i les credencials del servidor intermediari es passen a l'acompanyant local Proxy V2Route per a l'emmagatzematge i la connexió al servidor intermediari que seleccioneu. El desenvolupador no rep aquesta informació."
+  },
+  "import": {
+    "message": "Importa perfils"
+  },
+  "nodeCount": {
+    "message": "nodes"
+  },
+  "source": {
+    "message": "Font"
+  },
+  "protocol": {
+    "message": "Protocol"
+  },
+  "useNode": {
+    "message": "Crea un perfil"
+  },
+  "removeNode": {
+    "message": "Eliminar el node importat?"
+  },
+  "removeNodeHelp": {
+    "message": "Els perfils que utilitzen aquest node s'han de reassignar abans que es pugui eliminar."
+  },
+  "deleteProfile": {
+    "message": "Vols suprimir aquest perfil?"
+  },
+  "deleteProfileHelp": {
+    "message": "Això només elimina aquest perfil del navegador. Es conserven els nodes importats i la configuració v2rayN."
+  },
+  "language": {
+    "message": "Llengua"
+  },
+  "automatic": {
+    "message": "Navegador predeterminat"
+  },
+  "theme": {
+    "message": "Aspecte"
+  },
+  "light": {
+    "message": "Llum"
+  },
+  "dark": {
+    "message": "Fosc"
+  },
+  "switchToEnglish": {
+    "message": "Canvia a l'anglès"
+  },
+  "switchToChinese": {
+    "message": "Canvia al xinès simplificat"
+  },
+  "switchToLight": {
+    "message": "Canvia a l'aspecte clar"
+  },
+  "switchToDark": {
+    "message": "Canvia a l'aspecte fosc"
+  },
+  "localComponent": {
+    "message": "Component acompanyant"
+  },
+  "ready": {
+    "message": "Connectat"
+  },
+  "stopped": {
+    "message": "No funciona"
+  },
+  "discovery": {
+    "message": "v2rayN detecció"
+  },
+  "rootPath": {
+    "message": "v2rayN carpeta"
+  },
+  "corePath": {
+    "message": "Ejecutable principal del proxy"
+  },
+  "optionalPath": {
+    "message": "Deixa en blanc per a la detecció automàtica"
+  },
+  "pathsHelp": {
+    "message": "v2rayN es detecta automàticament; tria la seva carpeta si cal. Els nodes importats utilitzen el nucli inclòs."
+  },
+  "savePaths": {
+    "message": "Desa la configuració de connexió"
+  },
+  "privacy": {
+    "message": "Configuració emmagatzemada localment"
+  },
+  "privacyText": {
+    "message": "Els enllaços de nodes i les credencials es mantenen al complement local. El trànsit del navegador passa pel servidor intermediari seleccionat fins als llocs web de destinació; el desenvolupador no el rep."
+  },
+  "privacyDetails": {
+    "message": "Privadesa i flux de dades"
+  },
+  "export": {
+    "message": "Exporta perfils"
+  },
+  "about": {
+    "message": "Quant a Proxy V2Route"
+  },
+  "aboutText": {
+    "message": "Trieu una ruta del navegador sense canviar la ruta principal de v2rayN. Les rutes de nodes utilitzen el complement Windows i els vostres propis nodes."
+  },
+  "licenses": {
+    "message": "Avisos de codi obert"
+  },
+  "version": {
+    "message": "Versió"
+  },
+  "fieldRequired": {
+    "message": "Introduïu un nom de perfil."
+  },
+  "profileExists": {
+    "message": "Ja existeix un perfil amb aquest nom."
+  },
+  "ruleHelp": {
+    "message": "Separeu els dominis en una fila amb comes. Guanya la primera fila coincident. Mantingueu disponible la ruta predeterminada."
+  },
+  "rules": {
+    "message": "Regles d'encaminament"
+  },
+  "pattern": {
+    "message": "Patró d'amfitrió"
+  },
+  "target": {
+    "message": "Objectiu de la regla"
+  },
+  "addRule": {
+    "message": "Afegeix una regla"
+  },
+  "defaultRoute": {
+    "message": "Perfil per defecte"
+  },
+  "pacHelp": {
+    "message": "Enganxeu una font de confiança PAC que conté FindProxyForURL. Aquest script decideix com s'envien les sol·licituds del lloc web."
+  },
+  "pacUrl": {
+    "message": "PAC URL"
+  },
+  "pacScript": {
+    "message": "PAC guió"
+  },
+  "noSelection": {
+    "message": "Seleccioneu un perfil o creeu-ne un."
+  },
+  "details": {
+    "message": "Detalls"
+  },
+  "noNodes": {
+    "message": "Encara no hi ha cap node"
+  },
+  "noNodesHelp": {
+    "message": "Connecteu v2rayN o importeu enllaços intermediaris, JSON o una subscripció per començar."
+  },
+  "openSettings": {
+    "message": "Obre la configuració"
+  },
+  "proxySettings": {
+    "message": "Configuració del servidor intermediari"
+  },
+  "switching": {
+    "message": "S'està canviant..."
+  },
+  "updatedElsewhere": {
+    "message": "Aquest perfil ha canviat en una altra finestra. Torneu-lo a obrir abans de desar-lo."
+  },
+  "choose": {
+    "message": "Tria"
+  },
+  "popupIntro": {
+    "message": "Connexió:"
+  },
+  "invalidPort": {
+    "message": "Introduïu un port de l'1 al 65535."
+  },
+  "externalControl": {
+    "message": "Una altra extensió o política és controlar el servidor intermediari del navegador."
+  },
+  "noNativeRoute": {
+    "message": "Connecteu el component local abans de crear un perfil de node."
+  },
+  "reload": {
+    "message": "Torna a carregar"
+  },
+  "rulesError": {
+    "message": "Cada regla necessita un patró i un destí."
+  },
+  "backupDone": {
+    "message": "S'han exportat els perfils del navegador"
+  },
+  "managed": {
+    "message": "Node gestionat"
+  },
+  "netRegion": {
+    "message": "Àrea objectiu"
+  },
+  "netNodeArea": {
+    "message": "Node intermediari"
+  },
+  "netChina": {
+    "message": "Xina continental"
+  },
+  "netGlobal": {
+    "message": "Global"
+  },
+  "netAli": {
+    "message": "AliDNS"
+  },
+  "netTencent": {
+    "message": "DNSPod"
+  },
+  "netStartHelp": {
+    "message": "Trieu un objectiu i, a continuació, inicieu una prova en directe."
+  },
+  "netConsole": {
+    "message": "Diagnòstic en directe"
+  },
+  "netStop": {
+    "message": "Atura"
+  },
+  "netRunning": {
+    "message": "Córrer"
+  },
+  "netStopped": {
+    "message": "Parat"
+  },
+  "netSent": {
+    "message": "Enviat"
+  },
+  "netLoss": {
+    "message": "Pèrdua"
+  },
+  "netAverageShort": {
+    "message": "Mitjana"
+  },
+  "netLogClear": {
+    "message": "Clar"
+  },
+  "netFinishing": {
+    "message": "La sonda anterior s'està acabant..."
+  },
+  "netRound": {
+    "message": "Rodona"
+  },
+  "netDestination": {
+    "message": "Destinació"
+  },
+  "netHop": {
+    "message": "Hop"
+  },
+  "netAddress": {
+    "message": "IP adreça"
+  },
+  "netLast": {
+    "message": "Últim"
+  },
+  "netConsoleHelp": {
+    "message": "Ping / TCPing / MTR utilitzen la xarxa del sistema, no la cadena intermediari. Les respostes que falten ICMP no demostren la pèrdua de trànsit. La baixada utilitza la ruta del navegador i el límit de mida seleccionat. Les proves s'aturen quan abandones o amagues aquesta pàgina."
+  },
+  "netDirectShort": {
+    "message": "Xarxa del sistema"
+  },
+  "netIcmpShort": {
+    "message": "No ICMP resposta"
+  },
+  "netProbeError": {
+    "message": "Error de sonda local"
+  },
+  "netNoDestination": {
+    "message": "No s'ha arribat a la destinació"
+  },
+  "deleteActive": {
+    "message": "Canvia al sistema i suprimeix"
+  },
+  "deleteActiveHelp": {
+    "message": "Aquest perfil està actiu. En suprimir-lo, el navegador canvia al servidor intermediari del sistema."
+  },
+  "netDownloadSize": {
+    "message": "Mida de la baixada"
+  },
+  "netReceived": {
+    "message": "Rebut"
+  },
+  "netBest": {
+    "message": "Millor"
+  },
+  "netWorst": {
+    "message": "El pitjor"
+  },
+  "netStdDev": {
+    "message": "Dev"
+  },
+  "netLocation": {
+    "message": "Ubicació"
+  },
+  "toolWall": {
+    "message": "Comprovació de bloqueig de domini"
+  },
+  "toolSites": {
+    "message": "Llocs web populars"
+  },
+  "toolGlobal": {
+    "message": "Diagnòstic global"
+  },
+  "toolFast": {
+    "message": "Velocitat de Netflix"
+  },
+  "toolSpeed": {
+    "message": "Prova de velocitat"
+  },
+  "toolStart": {
+    "message": "Inici"
+  },
+  "toolReady": {
+    "message": "A punt"
+  },
+  "toolResponded": {
+    "message": "Va respondre"
+  },
+  "toolNoResponse": {
+    "message": "Sense confirmar"
+  },
+  "toolCacheUnsupported": {
+    "message": "Aquest navegador no pot esborrar la memòria cau per lloc; la pàgina s'ha tornat a carregar."
+  },
+  "toolCacheFailed": {
+    "message": "La neteja de la memòria cau no s'ha acabat. Tanca i torna-ho a provar."
+  },
+  "toolClose": {
+    "message": "Tancar"
+  },
+  "toolReload": {
+    "message": "Torna a carregar"
+  },
+  "toolLoading": {
+    "message": "S'està carregant..."
+  },
+  "toolFrameError": {
+    "message": "No s'ha pogut carregar. Prova de tornar a carregar."
+  },
+  "toolSiteHelp": {
+    "message": "Només accessible al navegador. Això no verifica l'accés al compte o regional."
+  },
+  "toolFallback": {
+    "message": "Prova de velocitat de còpia de seguretat"
+  },
+  "toolFullscreen": {
+    "message": "Pantalla completa"
+  },
+  "toolRestore": {
+    "message": "Surt de pantalla completa"
+  },
+  "ipReadFailed": {
+    "message": "Error de lectura. 👉"
+  },
+  "ipViewSource": {
+    "message": "Veure el lloc d'origen"
+  },
+  "toolDownloadError": {
+    "message": "No s'ha pogut arribar al servidor de descàrregues. Torna-ho a provar."
+  },
+  "toolAccess": {
+    "message": "Habilita l'accés al lloc"
+  },
+  "toolPermission": {
+    "message": "Permet l'accés a aquest lloc per a la compatibilitat de sessions incrustades."
+  },
+  "toolAsia": {
+    "message": "Àsia"
+  },
+  "toolEurope": {
+    "message": "Europa"
+  },
+  "toolAmerica": {
+    "message": "Amèrica del Nord"
+  },
+  "toolGlobalHelp": {
+    "message": "Omple prèviament la sortida del navegador IP. Trieu la Xina continental o una altra regió per comparar camins; L'inici envia l'objectiu mostrat fins a tres sondes Globalping."
+  },
+  "toolServiceError": {
+    "message": "El servei de prova no està disponible. Torna-ho a provar."
+  },
+  "popupOrderHelp": {
+    "message": "Mantingueu premut i arrossegueu per reordenar. Les tecles Alt+fletxa també mouen aquest perfil."
+  },
+  "popupOrderSaved": {
+    "message": "Comanda desada"
+  },
+  "toolGroupIP": {
+    "message": "IP proves"
+  },
+  "toolGroupWeb": {
+    "message": "Proves de llocs web"
+  },
+  "toolGroupSpeed": {
+    "message": "Velocitat"
+  },
+  "toolCurrentIP": {
+    "message": "Sortida actual IP"
+  },
+  "toolCurrentIPLoading": {
+    "message": "S'està carregant la sortida actual IP..."
+  },
+  "toolCurrentIPFailed": {
+    "message": "No s'ha pogut llegir el IP actual. Introduïu un objectiu."
+  },
+  "speedMode": {
+    "message": "Mode de prova"
+  },
+  "speedBoth": {
+    "message": "Descarrega + puja"
+  },
+  "speedDownload": {
+    "message": "Descarregar"
+  },
+  "speedUpload": {
+    "message": "Carrega"
+  },
+  "speedLatency": {
+    "message": "HTTP latència"
+  },
+  "speedBudget": {
+    "message": "{n} MiB per fase · {total} MiB total, més mostres de latència petites."
+  },
+  "siteCategory": {
+    "message": "Categoria del lloc web"
+  },
+  "siteAll": {
+    "message": "Tots els llocs web"
+  },
+  "siteAI": {
+    "message": "AI"
+  },
+  "siteDevelopment": {
+    "message": "Desenvolupament"
+  },
+  "siteVideo": {
+    "message": "Vídeo/música"
+  },
+  "siteSocial": {
+    "message": "Social"
+  },
+  "siteDomestic": {
+    "message": "Serveis continentals"
+  },
+  "siteServices": {
+    "message": "Serveis comuns"
+  },
+  "globalMethod": {
+    "message": "Tipus de mesura"
+  },
+  "localPort": {
+    "message": "Port local:"
+  },
+  "chainChooseNode": {
+    "message": "Trieu un node intermediari"
+  },
+  "chainTitle": {
+    "message": "Cadena de proxy"
+  },
+  "chainSelectExit": {
+    "message": "Trieu un node de sortida específic a continuació per desar o provar aquesta cadena personalitzada. Follow v2rayN està gestionat per v2rayN."
+  },
+  "chainSelectExitShort": {
+    "message": "Seleccioneu un node de sortida"
+  },
+  "chainAdd": {
+    "message": "+ Afegeix una capa de proxy"
+  },
+  "chainTest": {
+    "message": "Cadena de prova"
+  },
+  "chainMode": {
+    "message": "Mode de cadena"
+  },
+  "chainBase": {
+    "message": "Proxy base"
+  },
+  "chainExit": {
+    "message": "Sortir del servidor intermediari"
+  },
+  "chainEgress": {
+    "message": "Sortida en cadena"
+  },
+  "chainExitBadge": {
+    "message": "Sortida IP"
+  },
+  "chainEntry": {
+    "message": "Entrada en cadena"
+  },
+  "chainTransit": {
+    "message": "Node pont"
+  },
+  "chainUntested": {
+    "message": "No provat"
+  },
+  "chainMissing": {
+    "message": "Node no disponible"
+  },
+  "chainUnresolved": {
+    "message": "No es pot resoldre la cadena heretada. Repareu la configuració del predecessor o trieu una cadena personalitzada."
+  },
+  "chainUpgrade": {
+    "message": "Actualitzeu el complement local per habilitar les cadenes ordenades."
+  },
+  "chainBusy": {
+    "message": "S'està executant una altra prova de cadena"
+  },
+  "chainOK": {
+    "message": "Accessible"
+  },
+  "chainFailed": {
+    "message": "Ha fallat el salt en aquesta prova"
+  },
+  "chainBlocked": {
+    "message": "No s'ha provat · el salt anterior ha fallat"
+  },
+  "chainFailureHelp": {
+    "message": "Aquest salt o el camí cap a ell no va passar. Els llúpols posteriors no es van provar."
+  },
+  "chainAllOK": {
+    "message": "Tots els camins acumulats van respondre"
+  },
+  "chainStopping": {
+    "message": "S'atura després de la sonda limitada actual..."
+  },
+  "globalWorld": {
+    "message": "A tot el món"
+  },
+  "globalUnavailable": {
+    "message": "L'objectiu o la regió no estan disponibles. Comproveu l'objectiu o trieu una altra regió."
+  },
+  "globalRateLimited": {
+    "message": "S'ha assolit el límit de tarifa del servei. Torna-ho a provar més tard."
+  },
+  "globalNoResults": {
+    "message": "El servei no ha retornat cap resultat de la sonda. Prova una altra regió."
+  },
+  "globalProbeFailed": {
+    "message": "La sonda ha fallat"
+  },
+  "globalProbeOffline": {
+    "message": "Sonda fora de línia"
+  },
+  "globalIcmpCaution": {
+    "message": "Les respostes que falten ICMP soles no demostren el bloqueig. Compareu camins continentals i d'ultramar i altres tipus de proves."
+  },
+  "speedRealtime": {
+    "message": "Velocitat en directe"
+  },
+  "speedAverage": {
+    "message": "Velocitat mitjana"
+  },
+  "ipToolsBrief": {
+    "message": "Els resultats de tercers són com a referència."
+  },
+  "ipReportBrief": {
+    "message": "Els resultats varien segons la sortida IP i són de referència."
+  },
+  "toolPingPe": {
+    "message": "IP comprovació de bloqueig"
+  },
+  "toolTargetIP": {
+    "message": "Objectiu IP"
+  },
+  "toolOpenPingPe": {
+    "message": "Prova oficial oberta"
+  },
+  "toolInvalidIP": {
+    "message": "Introduïu una adreça IPv4 o IPv6 vàlida."
+  },
+  "toolInvalidPort": {
+    "message": "Introduïu un port TCP de l'1 al 65535."
+  },
+  "toolExternalFailed": {
+    "message": "No s'ha pogut obrir el lloc web. Torna-ho a provar."
+  },
+  "ipBrowserReading": {
+    "message": "Llegint Ping0 a través del navegador..."
+  },
+  "ipVerifyBrowser": {
+    "message": "Obre la pàgina de verificació"
+  },
+  "policyCenter": {
+    "message": "Privadesa, declaració i PMF"
+  },
+  "policyCenterIntro": {
+    "message": "Tractament de dades locals, límits de proves i respostes habituals."
+  },
+  "policyPrivacyTitle": {
+    "message": "Política de privadesa"
+  },
+  "policyPrivacySummary": {
+    "message": "Els perfils i les credencials es mantenen en aquest dispositiu. Les comprovacions i diagnòstics emergents contacten amb els seus proveïdors indicats. No hi ha publicitat ni anàlisi del comportament."
+  },
+  "policyDeclarationTitle": {
+    "message": "Declaració d'ús i mesura"
+  },
+  "policyDeclarationSummary": {
+    "message": "Aquesta extensió és un gestor de rutes local, no un servidor intermediari ni un proveïdor de VPN. Les mesures són mostres de referència afectades per les condicions de la xarxa, el servidor intermediari i el proveïdor."
+  },
+  "policyFaqTitle": {
+    "message": "PMF"
+  },
+  "policyFaqSummary": {
+    "message": "El complement Windows és necessari per als nodes locals i MTR. La latència pot diferir entre el navegador, el sistema i les sondes públiques. Atura una prova o esborra les dades locals de Configuració."
+  },
+  "policyDetailsLink": {
+    "message": "Llegeix tots els detalls ↗"
+  },
+  "thirdPartyNotice": {
+    "message": "Avisos de codi obert ↗"
+  },
+  "columnResizeHelp": {
+    "message": "Arrossegueu per canviar la mida; feu doble clic per restablir; utilitzeu les tecles de fletxa per ajustar"
+  },
+  "columnResize": {
+    "message": "Canvia la mida de la columna"
+  },
+  "typeDescription_node": {
+    "message": "Connecteu-vos mitjançant un node intermediari"
+  },
+  "typeDescription_manual": {
+    "message": "Introduïu manualment la configuració del servidor intermediari"
+  },
+  "typeDescription_auto": {
+    "message": "Seleccioneu un node mitjançant regles"
+  },
+  "typeDescription_pac": {
+    "message": "Encamineu el trànsit mitjançant regles PAC."
+  },
+  "appDescription": {
+    "message": "Rutes de proxy del navegador, nodes i regles de domini. Les rutes de nodes necessiten el complement Windows."
+  },
+  "core_title": {
+    "message": "Nucli del servidor intermediari"
+  },
+  "core_checking": {
+    "message": "S'està comprovant el component local..."
+  },
+  "core_ready": {
+    "message": "Xray està llest"
+  },
+  "core_missing": {
+    "message": "Falta el nucli del servidor intermediari"
+  },
+  "core_external": {
+    "message": "Nucli personalitzat: no verificat"
+  },
+  "core_corrupt": {
+    "message": "Xray desajust de la suma de comprovació: cal reparació"
+  },
+  "core_unreadable": {
+    "message": "No s'ha pogut comprovar el fitxer principal"
+  },
+  "core_intro": {
+    "message": "El paquet complet Windows inclou Xray. v2rayN és opcional."
+  },
+  "core_verify": {
+    "message": "Torna a comprovar"
+  },
+  "core_install": {
+    "message": "Instal·leu/repareu el nucli"
+  },
+  "core_installing": {
+    "message": "S'està baixant i verificant..."
+  },
+  "core_done": {
+    "message": "Nucli verificat i llest"
+  },
+  "core_help": {
+    "message": "Repair utilitza una versió oficial fixada Xray i verifica la seva suma de verificació. Les connexions existents continuen funcionant."
+  },
+  "core_absent": {
+    "message": "Instal·leu el component local una vegada i torneu aquí per comprovar el nucli."
+  },
+  "core_download": {
+    "message": "Guia d'instal·lació"
+  },
+  "core_absentHelp": {
+    "message": "Utilitzeu el paquet Windows coincident o seguiu la guia per crear-lo des de l'origen i, a continuació, executeu la configuració."
+  },
+  "core_failed": {
+    "message": "L'operació principal ha fallat. Torneu-ho a provar o utilitzeu el paquet complet Windows."
+  },
+  "core_version": {
+    "message": "Versió"
+  },
+  "error_ACTIVE_PROFILE_DELETE": {
+    "message": "Canvia a un altre perfil abans de suprimir-lo"
+  },
+  "error_BACKUP_BINDING_TYPE": {
+    "message": "Només els perfils de servidor intermediari poden tenir vinculacions de ruta"
+  },
+  "error_BACKUP_FORMAT3_REQUIRED": {
+    "message": "Les regles de nodes requereixen una còpia portable de format 3"
+  },
+  "error_BACKUP_INDEPENDENT_PATH_REQUIRED": {
+    "message": "La còpia ha de contenir una ruta de nodes independent"
+  },
+  "error_BACKUP_INTERNAL_BINDINGS": {
+    "message": "La còpia conté vinculacions internes"
+  },
+  "error_BACKUP_MESSAGE_LIMIT": {
+    "message": "La còpia dels nodes supera el límit dels missatges del component local"
+  },
+  "error_BACKUP_NODES_INCOMPLETE": {
+    "message": "Còpia dels nodes incompleta"
+  },
+  "error_BACKUP_NODE_MISSING": {
+    "message": "Falta un node necessari a la còpia"
+  },
+  "error_BACKUP_NODE_PATHS_LIMIT": {
+    "message": "La còpia admet com a màxim {limit} rutes de nodes"
+  },
+  "error_BACKUP_PATH_INCOMPLETE": {
+    "message": "Ruta de nodes incompleta a la còpia"
+  },
+  "error_BACKUP_PROFILES_LIMIT": {
+    "message": "La còpia admet com a màxim {limit} perfils"
+  },
+  "error_BACKUP_PROXY_CONFLICT": {
+    "message": "La còpia té configuracions de servidor intermediari en conflicte"
+  },
+  "error_BACKUP_SIZE_LIMIT": {
+    "message": "La còpia supera {limit} MB"
+  },
+  "error_BACKUP_TRANSFER_UNAVAILABLE": {
+    "message": "Actualitza o repara el component local per transferir les còpies dels nodes."
+  },
+  "error_BACKUP_UNUSED_NODES": {
+    "message": "La còpia conté nodes sense referències"
+  },
+  "error_BODY_TOO_LARGE": {
+    "message": "La resposta de la subscripció supera la mida permesa."
+  },
+  "error_BROWSER_API_FAILED": {
+    "message": "L'operació del navegador ha fallat. Consulta els detalls tècnics."
+  },
+  "error_BROWSER_PROXY_RESTORE_FAILED": {
+    "message": "L'operació ha fallat i no s'ha pogut restaurar el servidor intermediari anterior del navegador"
+  },
+  "error_BROWSER_SCHEDULING_UNAVAILABLE": {
+    "message": "La programació del navegador no està disponible."
+  },
+  "error_BUSY": {
+    "message": "Hi ha una altra operació en curs. Torna-ho a provar d'aquí a poc."
+  },
+  "error_CHAIN_PROBE_FAILED": {
+    "message": "La prova de la cadena ha fallat"
+  },
+  "error_COMPANION_BULK_RELEASE_REQUIRED": {
+    "message": "Actualitza el component local per gestionar amb seguretat diverses regles de nodes"
+  },
+  "error_COMPANION_CHAINS_REQUIRED": {
+    "message": "Actualitza el component local per habilitar cadenes ordenades"
+  },
+  "error_COMPANION_MESSAGE_LIMIT": {
+    "message": "La configuració supera el límit dels missatges del component local"
+  },
+  "error_COMPANION_OPERATION_FAILED": {
+    "message": "L'operació del component local ha fallat. Consulta els detalls tècnics."
+  },
+  "error_COMPANION_UNAVAILABLE": {
+    "message": "Instal·la o repara el component V2Route Companion"
+  },
+  "error_CONNECTION_CLOSED": {
+    "message": "La connexió s'ha tancat abans d'acabar la prova."
+  },
+  "error_CORE_INSTALL_FAILED": {
+    "message": "La instal·lació del nucli ha fallat. Consulta els detalls tècnics."
+  },
+  "error_CORE_OWNERSHIP_FAILED": {
+    "message": "No s'ha pogut controlar amb seguretat el nucli de prova aïllat. La prova s'ha aturat."
+  },
+  "error_CORE_START_FAILED": {
+    "message": "No s'ha pogut iniciar el nucli de prova aïllat. Comprova la instal·lació del component i del nucli."
+  },
+  "error_CORE_START_TIMEOUT": {
+    "message": "El nucli de prova aïllat no ha estat preparat a temps."
+  },
+  "error_CORE_STATUS_UNAVAILABLE": {
+    "message": "L'estat del nucli no està disponible. Consulta els detalls tècnics."
+  },
+  "error_CORE_VALIDATION_FAILED": {
+    "message": "Xray no ha pogut validar els nodes importats. Comprova'n la configuració i torna-ho a provar."
+  },
+  "error_DETACH_PORT_CONFLICT": {
+    "message": "S'alliberarà el port gestionat. Introdueix un altre servidor intermediari manual"
+  },
+  "error_DETACH_PROXY_REQUIRED": {
+    "message": "Introdueix el servidor intermediari manual de substitució abans de desvincular-lo"
+  },
+  "error_DNS_BUSY": {
+    "message": "La consulta DNS està ocupada. Torna-ho a provar d'aquí a poc."
+  },
+  "error_DNS_FAILED": {
+    "message": "La consulta DNS ha fallat. Comprova l'adreça i la connexió de xarxa."
+  },
+  "error_ENCODING_UNSUPPORTED": {
+    "message": "La subscripció utilitza una codificació de contingut no admesa."
+  },
+  "error_FIREFOX_PRIVATE_ACCESS_REQUIRED": {
+    "message": "Permet V2Route en finestres privades als detalls de l'extensió abans de canviar el servidor intermediari"
+  },
+  "error_FOLDER_UNAVAILABLE": {
+    "message": "Carpeta no disponible; comprova el camí, l'accés i la versió del component local"
+  },
+  "error_GROUP_LIMIT": {
+    "message": "S'ha arribat al límit de grups. Suprimeix un grup que no utilitzis i torna-ho a provar."
+  },
+  "error_GROUP_NOT_EDITABLE": {
+    "message": "Aquest grup d'origen no es pot editar aquí."
+  },
+  "error_GROUP_NOT_FOUND": {
+    "message": "El grup seleccionat ja no existeix. Selecciona'n un altre."
+  },
+  "error_HTTP_ENCODING": {
+    "message": "El servidor de prova ha retornat una codificació no admesa."
+  },
+  "error_HTTP_LENGTH": {
+    "message": "La mida de la resposta de prova no coincideix amb la sol·licitada."
+  },
+  "error_HTTP_RESPONSE_TOO_LARGE": {
+    "message": "La resposta de prova ha superat la mida permesa."
+  },
+  "error_HTTP_STATUS": {
+    "message": "El servidor de prova ha retornat un estat HTTP d'error."
+  },
+  "error_IMPORTED_PROXY_MISSING": {
+    "message": "El component local no ha retornat el servidor intermediari importat"
+  },
+  "error_IMPORTED_RULE_PATH_CONFLICT": {
+    "message": "Els nodes importats es resolen en rutes de regles en conflicte"
+  },
+  "error_IMPORT_CLEANUP_FAILED": {
+    "message": "La importació ha fallat; alguns nodes o ports temporals no s'han pogut alliberar. S'han conservat els perfils existents"
+  },
+  "error_IMPORT_PROFILE_NAME_CONFLICT": {
+    "message": "Nom de perfil duplicat o no vàlid"
+  },
+  "error_INCOMPLETE_RESPONSE": {
+    "message": "La resposta de la subscripció és incompleta. Torna-ho a provar."
+  },
+  "error_INVALID_BACKUP": {
+    "message": "Còpia de V2Route no vàlida"
+  },
+  "error_INVALID_BACKUP_NODE": {
+    "message": "Node de la còpia no vàlid o duplicat"
+  },
+  "error_INVALID_BACKUP_NODES": {
+    "message": "Nodes de la còpia no vàlids"
+  },
+  "error_INVALID_BACKUP_PATH": {
+    "message": "Ruta de la còpia no vàlida"
+  },
+  "error_INVALID_BYPASS_ENTRY": {
+    "message": "Entrada d'exclusió no vàlida"
+  },
+  "error_INVALID_BYPASS_LIST": {
+    "message": "Llista d'exclusions no vàlida"
+  },
+  "error_INVALID_CHAIN": {
+    "message": "Cadena ordenada no vàlida"
+  },
+  "error_INVALID_CHAIN_PROBE": {
+    "message": "Sol·licitud de prova de cadena no vàlida"
+  },
+  "error_INVALID_COMPANION_RESPONSE": {
+    "message": "El component local ha retornat una resposta no vàlida. Actualitza'l o repara'l."
+  },
+  "error_INVALID_CONTENT": {
+    "message": "La resposta de la subscripció no conté contingut vàlid."
+  },
+  "error_INVALID_DOMAIN_PATTERNS": {
+    "message": "Introdueix patrons de domini separats per comes; posa cada URL en una fila pròpia"
+  },
+  "error_INVALID_ENCODING": {
+    "message": "La resposta de la subscripció no és text UTF-8 vàlid."
+  },
+  "error_INVALID_FOLDER_REQUEST": {
+    "message": "Sol·licitud de carpeta no vàlida"
+  },
+  "error_INVALID_GROUP_ACTION": {
+    "message": "Aquesta acció de grup no és compatible."
+  },
+  "error_INVALID_HOP_INDEX": {
+    "message": "Índex de salt no vàlid"
+  },
+  "error_INVALID_LEGACY_PREDECESSOR": {
+    "message": "Servidor intermediari previ heretat no vàlid"
+  },
+  "error_INVALID_LIBRARY_COMMAND": {
+    "message": "Aquesta ordre de la biblioteca de nodes no és compatible."
+  },
+  "error_INVALID_LIBRARY_REQUEST": {
+    "message": "Sol·licitud de biblioteca no vàlida"
+  },
+  "error_INVALID_NAME": {
+    "message": "Introdueix un nom amb 1–128 caràcters visibles i sense caràcters de control."
+  },
+  "error_INVALID_NETWORK_TEST": {
+    "message": "Prova de xarxa no vàlida"
+  },
+  "error_INVALID_NODE_IMPORT_RESPONSE": {
+    "message": "Resposta d'importació de nodes no vàlida"
+  },
+  "error_INVALID_PREDECESSOR": {
+    "message": "Servidor intermediari previ no vàlid per a aquesta ruta"
+  },
+  "error_INVALID_PROFILE_NAME": {
+    "message": "Nom de perfil no vàlid"
+  },
+  "error_INVALID_PROFILE_REFERENCE": {
+    "message": "Referència de perfil no vàlida"
+  },
+  "error_INVALID_PROXY_AUTH": {
+    "message": "Autenticació de servidor intermediari no vàlida"
+  },
+  "error_INVALID_PROXY_CREDENTIALS": {
+    "message": "Credencials de servidor intermediari no vàlides"
+  },
+  "error_INVALID_PROXY_ENDPOINT": {
+    "message": "Introdueix un amfitrió i un port vàlids per al servidor intermediari"
+  },
+  "error_INVALID_PROXY_HOST": {
+    "message": "Introdueix un nom DNS o una adreça IP sense port, URL, camí ni consulta"
+  },
+  "error_INVALID_ROUTE": {
+    "message": "Ruta no vàlida"
+  },
+  "error_INVALID_ROUTE_SETTINGS": {
+    "message": "Configuració de ruta no vàlida"
+  },
+  "error_INVALID_RULES": {
+    "message": "Regles no vàlides"
+  },
+  "error_INVALID_RULE_TARGET": {
+    "message": "Tria un node o perfil vàlid per a cada regla"
+  },
+  "error_INVALID_SUBSCRIPTION": {
+    "message": "Subscripció no vàlida"
+  },
+  "error_INVALID_SUBSCRIPTION_REQUEST": {
+    "message": "Sol·licitud de subscripció no vàlida"
+  },
+  "error_INVALID_SUBSCRIPTION_SETTINGS": {
+    "message": "La configuració de la subscripció no és vàlida. Comprova l'interval d'actualització i la política de connexió."
+  },
+  "error_INVALID_SYSTEM_PROXY_RESPONSE": {
+    "message": "Resposta del servidor intermediari del sistema no vàlida; actualitza o repara el component local"
+  },
+  "error_INVALID_TRANSPORT": {
+    "message": "La configuració de connexió de la subscripció no és vàlida."
+  },
+  "error_INVALID_URL": {
+    "message": "Introdueix un URL de subscripció HTTP(S) vàlid sense nom d'usuari ni contrasenya."
+  },
+  "error_LIBRARY_CHANGED": {
+    "message": "La biblioteca de nodes ha canviat en una altra finestra. Actualitza-la i torna-ho a provar."
+  },
+  "error_MANUAL_CHAIN_UNSUPPORTED": {
+    "message": "Els servidors intermediaris manuals no admeten una cadena de nodes"
+  },
+  "error_MANUAL_PROXY_CLEANUP_FAILED": {
+    "message": "No s'ha pogut desar; queda un servidor intermediari importat temporal a la biblioteca de nodes"
+  },
+  "error_NATIVE_BINDING_ID": {
+    "message": "Identificador de vinculació de ruta no vàlid."
+  },
+  "error_NATIVE_BINDING_UNKNOWN": {
+    "message": "La vinculació de ruta no existeix."
+  },
+  "error_NATIVE_BUTTON_NAME": {
+    "message": "El nom del botó ha de contenir 1–128 caràcters visibles."
+  },
+  "error_NATIVE_CATALOG_UNREADABLE": {
+    "message": "No s'ha pogut llegir la configuració de v2rayN."
+  },
+  "error_NATIVE_CORE_MISSING": {
+    "message": "Xray no està disponible. Instal·la el paquet del component local."
+  },
+  "error_NATIVE_GROUP_ID_COLLISION": {
+    "message": "Els identificadors de grup entren en conflicte."
+  },
+  "error_NATIVE_GROUP_ORDER": {
+    "message": "Ordre de grups no vàlid."
+  },
+  "error_NATIVE_NODE_ID_COLLISION": {
+    "message": "Els identificadors de node entren en conflicte."
+  },
+  "error_NATIVE_PREDECESSOR_AMBIGUOUS": {
+    "message": "Falta el nom del servidor intermediari previ o està duplicat. Selecciona un node previ concret."
+  },
+  "error_NATIVE_PREDECESSOR_CYCLE": {
+    "message": "La cadena prèvia conté un cicle o supera sis nodes."
+  },
+  "error_NATIVE_PREDECESSOR_INVALID": {
+    "message": "Selecciona un servidor intermediari previ vàlid."
+  },
+  "error_NATIVE_PREDECESSOR_MISSING": {
+    "message": "El servidor intermediari previ seleccionat ja no existeix. Selecciona un altre node."
+  },
+  "error_NATIVE_PREDECESSOR_SETTINGS": {
+    "message": "Configuració del servidor intermediari previ no vàlida."
+  },
+  "error_NATIVE_ROUTE_INVALID": {
+    "message": "Selecciona una ruta vàlida."
+  },
+  "error_NATIVE_ROUTE_MISSING": {
+    "message": "Aquesta ruta ja no existeix. Selecciona'n una altra."
+  },
+  "error_NATIVE_ROUTE_PORTS": {
+    "message": "Assignacions de ports de ruta no vàlides."
+  },
+  "error_NATIVE_ROUTE_UNAVAILABLE": {
+    "message": "La ruta seleccionada no està disponible. Consulta els detalls tècnics."
+  },
+  "error_NATIVE_SETTINGS_FORMAT": {
+    "message": "Format de configuració no vàlid."
+  },
+  "error_NATIVE_SETTINGS_REVISION": {
+    "message": "Revisió de configuració no vàlida."
+  },
+  "error_NATIVE_SUCCESSOR_UNSUPPORTED": {
+    "message": "Aquest grup utilitza un servidor intermediari posterior no admès."
+  },
+  "error_NATIVE_UNSUPPORTED_CUSTOM": {
+    "message": "Aquesta versió no admet configuracions de sortida personalitzades."
+  },
+  "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
+    "message": "Aquesta versió no admet Hysteria2."
+  },
+  "error_NATIVE_UNSUPPORTED_TUIC": {
+    "message": "Aquesta versió no integra el nucli sing-box necessari per a TUIC."
+  },
+  "error_NATIVE_UNSUPPORTED_TYPE": {
+    "message": "Aquest tipus de ruta no és compatible."
+  },
+  "error_NATIVE_V2RAYN_PORT": {
+    "message": "El port local de v2rayN no és vàlid."
+  },
+  "error_NATIVE_V2RAYN_UNAVAILABLE": {
+    "message": "v2rayN no està disponible. Selecciona un node importat."
+  },
+  "error_NETWORK_FAILED": {
+    "message": "La sol·licitud de xarxa ha fallat. Comprova la connexió i torna-ho a provar."
+  },
+  "error_NETWORK_TEST_FAILED": {
+    "message": "El diagnòstic de xarxa ha fallat. Consulta els detalls tècnics."
+  },
+  "error_NODE_LIMIT": {
+    "message": "L'operació superaria el límit de nodes. Suprimeix nodes que no utilitzis i torna-ho a provar."
+  },
+  "error_NODE_MAPPING_INCOMPLETE": {
+    "message": "La correspondència de nodes és incompleta"
+  },
+  "error_NODE_NOT_FOUND": {
+    "message": "El node seleccionat ja no existeix. Selecciona'n un altre."
+  },
+  "error_NOT_DUE": {
+    "message": "Encara no és l'hora de la propera actualització programada."
+  },
+  "error_PAC_ENTRY_REQUIRED": {
+    "message": "Introdueix codi PAC amb FindProxyForURL"
+  },
+  "error_PAC_FUNCTION_REQUIRED": {
+    "message": "Defineix una funció, variable de funció o assignació FindProxyForURL síncrona al nivell superior"
+  },
+  "error_PAC_PARSER_UNAVAILABLE": {
+    "message": "L'analitzador PAC inclòs no està disponible; reinstal·la l'extensió"
+  },
+  "error_PAC_RULE_TARGET_UNSUPPORTED": {
+    "message": "Les regles automàtiques no poden apuntar a un perfil PAC incrustat"
+  },
+  "error_PAC_SOURCE_LIMIT": {
+    "message": "Introdueix codi PAC de com a màxim {limit} caràcters"
+  },
+  "error_PAC_SYNTAX_INVALID": {
+    "message": "Sintaxi PAC no vàlida"
+  },
+  "error_PAC_SYNTAX_LOCATION": {
+    "message": "Sintaxi PAC no vàlida a la línia {line}, columna {column}"
+  },
+  "error_PARTIAL_TRANSFER": {
+    "message": "La transferència de prova ha acabat abans de rebre totes les dades."
+  },
+  "error_PRIVATE_DIRECTORY_FAILED": {
+    "message": "No s'ha pogut protegir la carpeta privada de prova. La prova s'ha aturat."
+  },
+  "error_PRIVATE_TARGET": {
+    "message": "No es permeten sol·licituds de subscripció a adreces privades o locals."
+  },
+  "error_PROFILE_NOT_FOUND": {
+    "message": "No s'ha trobat el perfil"
+  },
+  "error_PROFILE_REFERENCE_CYCLE": {
+    "message": "Referències circulars entre perfils"
+  },
+  "error_PROFILE_REFERENCE_DEPTH": {
+    "message": "Les regles automàtiques superen la profunditat màxima de {limit}"
+  },
+  "error_PROFILE_REFERENCE_MISSING": {
+    "message": "El perfil referenciat no existeix: {name}"
+  },
+  "error_PROFILE_SAVE_RESTORE_FAILED": {
+    "message": "No s'ha pogut desar i cal revisar la restauració de la ruta"
+  },
+  "error_PROXY_AUTH_REQUIRED": {
+    "message": "El servidor intermediari de la subscripció requereix una autenticació que aquesta sol·licitud no pot proporcionar."
+  },
+  "error_PROXY_CONTROL_UNAVAILABLE": {
+    "message": "Una altra extensió o política controla el servidor intermediari"
+  },
+  "error_PROXY_DNS_REQUIRED": {
+    "message": "V2Route resol el DNS de SOCKS5 a través del servidor intermediari"
+  },
+  "error_PROXY_FAILED": {
+    "message": "La connexió amb el servidor intermediari ha fallat. Comprova la ruta seleccionada."
+  },
+  "error_PROXY_PROFILE_REQUIRED": {
+    "message": "Tria un perfil de servidor intermediari"
+  },
+  "error_PROXY_ROLLBACK_REFUSED": {
+    "message": "El navegador ha rebutjat restaurar el servidor intermediari"
+  },
+  "error_PROXY_SETTING_REFUSED": {
+    "message": "El navegador ha rebutjat la configuració del servidor intermediari"
+  },
+  "error_PROXY_UNAVAILABLE": {
+    "message": "El servidor intermediari seleccionat no està disponible. Comprova la ruta actual."
+  },
+  "error_PROXY_USERNAME_REQUIRED": {
+    "message": "Introdueix un nom d'usuari del servidor intermediari"
+  },
+  "error_RECOVERY_BINDINGS_LIMIT": {
+    "message": "La recuperació pot restaurar com a màxim {limit} vinculacions de nodes. Obre i desa els perfils referenciats per separat."
+  },
+  "error_REDIRECT_LIMIT": {
+    "message": "La subscripció ha fet massa redireccions. Comprova'n l'URL."
+  },
+  "error_REFERENCED_PROFILE_DELETE": {
+    "message": "Una regla automàtica fa referència a aquest perfil"
+  },
+  "error_REMOTE_PAC_UNSUPPORTED": {
+    "message": "Utilitza codi PAC incrustat; no s'admet PAC remot"
+  },
+  "error_ROUTE_PORT_UNAVAILABLE": {
+    "message": "No s'ha assignat cap port"
+  },
+  "error_ROUTE_RECOVERY_RESTORE_FAILED": {
+    "message": "La recuperació de la ruta ha fallat i cal revisar-ne la restauració"
+  },
+  "error_ROUTE_REVISION_CONFLICT": {
+    "message": "La ruta ha canviat en una altra finestra. Actualitza-la primer"
+  },
+  "error_ROUTE_SAVE_ROLLBACK_FAILED": {
+    "message": "No s'ha pogut desar la ruta i cal revisar la reversió"
+  },
+  "error_ROUTE_UNAVAILABLE": {
+    "message": "La ruta de prova no està disponible. Comprova la configuració del node i del servidor intermediari previ."
+  },
+  "error_RULE_BINDING_MISSING": {
+    "message": "Falta la vinculació de la regla de node. Torna a obrir i desar el perfil automàtic: {name}"
+  },
+  "error_RULE_NODES_LIMIT": {
+    "message": "Les regles automàtiques admeten com a màxim {limit} nodes diferents"
+  },
+  "error_RULE_NODE_CHANGED": {
+    "message": "El node de la regla no està disponible o ha canviat. Restaura'l o tria un altre node i desa: {name}"
+  },
+  "error_RULE_PATH_CONFLICT": {
+    "message": "Rutes de regles de nodes en conflicte"
+  },
+  "error_RULE_PATTERNS_LIMIT": {
+    "message": "Les regles automàtiques admeten com a màxim {limit} patrons de coincidència en total"
+  },
+  "error_RULE_PORT_UNAVAILABLE": {
+    "message": "El port de la regla de node no està disponible"
+  },
+  "error_RULE_REVISION_CONFLICT": {
+    "message": "La regla de node ha canviat en una altra finestra. Actualitza-la primer"
+  },
+  "error_SELECTED_NODE_UNAVAILABLE": {
+    "message": "El node seleccionat no està disponible. Restaura'l o tria'n un altre"
+  },
+  "error_SOCKS_FAILED": {
+    "message": "No s'ha pogut establir la connexió SOCKS."
+  },
+  "error_STARTUP_FALLBACK_REFUSED": {
+    "message": "El navegador ha rebutjat el servidor intermediari de reserva de l'inici."
+  },
+  "error_SUBSCRIPTION_CHANGED": {
+    "message": "La subscripció ha canviat durant l'actualització. Actualitza la vista i torna-ho a provar."
+  },
+  "error_SUBSCRIPTION_HTTP_STATUS": {
+    "message": "El servidor de subscripció ha retornat HTTP {status}."
+  },
+  "error_SUBSCRIPTION_LIMIT": {
+    "message": "S'ha arribat al límit de subscripcions. Suprimeix-ne una que no utilitzis i torna-ho a provar."
+  },
+  "error_SUBSCRIPTION_NOT_FOUND": {
+    "message": "La subscripció seleccionada ja no existeix."
+  },
+  "error_SYSTEM_PROXY_SNAPSHOT_UNAVAILABLE": {
+    "message": "La instantània del servidor intermediari del sistema aplicada no està disponible."
+  },
+  "error_SYSTEM_PROXY_TIMEOUT": {
+    "message": "S'ha esgotat el temps de lectura del servidor intermediari del sistema"
+  },
+  "error_SYSTEM_PROXY_UNAVAILABLE": {
+    "message": "El servidor intermediari del sistema no està disponible. Consulta els detalls tècnics."
+  },
+  "error_TIMEOUT": {
+    "message": "La sol·licitud ha esgotat el temps d'espera. Comprova la connexió i torna-ho a provar."
+  },
+  "error_TLS_DOWNGRADE": {
+    "message": "S'ha blocat la subscripció perquè ha redirigit d'HTTPS a HTTP."
+  },
+  "error_TLS_FAILED": {
+    "message": "No s'ha pogut verificar la connexió segura. Comprova el servidor i el certificat."
+  },
+  "error_UNSAFE_TEMP_PATH": {
+    "message": "La carpeta temporal de prova no és segura. La prova s'ha aturat."
+  },
+  "error_UNSUPPORTED_LIBRARY_REQUEST": {
+    "message": "Sol·licitud de biblioteca no admesa"
+  },
+  "error_UNSUPPORTED_PROFILE_TYPE": {
+    "message": "Tipus de perfil no admès"
+  },
+  "error_UNSUPPORTED_REQUEST": {
+    "message": "Sol·licitud no admesa"
+  },
+  "error_UNSUPPORTED_RULE_CONDITION": {
+    "message": "Només s'admeten regles de comodins d'amfitrió i URL"
+  },
+  "error_UPDATE_FAILED": {
+    "message": "L'actualització de la subscripció ha fallat. S'han conservat els nodes existents."
+  },
+  "error_VALIDATION_FAILED": {
+    "message": "No s'ha pogut validar el contingut de la subscripció. S'han conservat els nodes existents."
+  },
+  "nativeUnnamedNode": {
+    "message": "Node sense nom"
+  },
+  "nativeProtocolCustom": {
+    "message": "Personalitzat"
+  },
+  "nativeProtocolOutbound": {
+    "message": "Sortida personalitzada"
+  },
+  "nativeProtocolGroup": {
+    "message": "Grup de polítiques"
+  },
+  "nativeProtocolChain": {
+    "message": "Cadena de servidors intermediaris"
+  },
+  "nativeProtocolUnknown": {
+    "message": "Tipus no admès"
+  },
+  "languageLoadFailed": {
+    "message": "No s'ha pogut carregar l'idioma seleccionat. Torna-ho a provar."
+  },
+  "invalidBackupJSON": {
+    "message": "La còpia no és JSON vàlid."
+  },
+  "noticeBodyLanguages": {
+    "message": "El text complet de la política està disponible en anglès i xinès simplificat."
+  },
+  "policyRules": {
+    "message": "Regles d’encaminament del servidor intermediari"
+  },
+  "policyPriority": {
+    "message": "Ordre: adreces excloses → primera regla coincident → ruta predeterminada."
+  },
+  "policyDirectHelp": {
+    "message": "Les adreces sense coincidència es connecten directament. El botó Directe també usa aquestes regles."
+  },
+  "policySystemHelp": {
+    "message": "Les adreces sense coincidència usen el servidor intermediari del sistema. El botó Sistema també usa aquestes regles."
+  },
+  "policyEmpty": {
+    "message": "Sense regles. S’usa la ruta predeterminada."
+  },
+  "policyAddressHelp": {
+    "message": "Dominis, comodins, IP o IP:port. Les regles IP comparen la IP de l’URL, no els resultats DNS."
+  },
+  "policyMoveUp": {
+    "message": "Puja la regla"
+  },
+  "policyMoveDown": {
+    "message": "Baixa la regla"
+  }
+}

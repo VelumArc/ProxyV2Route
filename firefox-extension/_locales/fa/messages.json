@@ -1,0 +1,2150 @@
+{
+  "ruleTargetUnavailable": {
+    "message": "هدف در دسترس نیست"
+  },
+  "rulePatternPlaceholder": {
+    "message": "example.com, *.example.org, 192.0.2.1:8443"
+  },
+  "rulePatternHelp": {
+    "message": "نشانی‌ها را با ویرگول جدا کنید. هر الگوی URL در خطی جدا باشد. PAC ممکن است مسیرهای HTTPS را نبیند."
+  },
+  "defaultChoice_direct": {
+    "message": "بدون پراکسی متصل شوید"
+  },
+  "defaultChoice_system": {
+    "message": "از تنظیمات پراکسی سیستم استفاده کنید"
+  },
+  "defaultChoice_node": {
+    "message": "از گره انتخابی این نمایه استفاده کنید"
+  },
+  "defaultChoice_manual": {
+    "message": "از تنظیمات پراکسی این نمایه استفاده کنید"
+  },
+  "defaultChoice_auto": {
+    "message": "قوانین مسیریابی این نمایه را اعمال کنید"
+  },
+  "nlHttpsLatency": {
+    "message": "HTTPS پاسخ"
+  },
+  "nlLatencyMethod": {
+    "message": "Cloudflare · حداقل دو پاسخ · استفاده مجدد از اتصال در صورت وجود"
+  },
+  "nlLatencyFast": {
+    "message": "سریع"
+  },
+  "nlLatencyModerate": {
+    "message": "معتدل"
+  },
+  "nlLatencySlow": {
+    "message": "آهسته"
+  },
+  "nlSortName": {
+    "message": "نام"
+  },
+  "nlSortLatency": {
+    "message": "تأخیر: کم به زیاد"
+  },
+  "nlSortDownload": {
+    "message": "دانلود: زیاد به کم"
+  },
+  "nlSortUpload": {
+    "message": "بارگذاری: زیاد به کم"
+  },
+  "nlSingle": {
+    "message": "تک گره"
+  },
+  "nlGroupBatch": {
+    "message": "گروه / دسته"
+  },
+  "nlTestScope": {
+    "message": "محدوده آزمایش"
+  },
+  "nlCurrentNode": {
+    "message": "گره انتخاب شده"
+  },
+  "nlCurrentGroup": {
+    "message": "گروه منتخب"
+  },
+  "nlChooseNode": {
+    "message": "یک گره را در لیست انتخاب کنید"
+  },
+  "nlStart": {
+    "message": "شروع تست"
+  },
+  "nlService": {
+    "message": "سرویس تست"
+  },
+  "nlMeasured": {
+    "message": "اندازه گیری شد"
+  },
+  "nlMeanLatency": {
+    "message": "تأخیر متوسط"
+  },
+  "nlGroupBySource": {
+    "message": "بر اساس گروه منبع"
+  },
+  "nlPreviousPage": {
+    "message": "صفحه قبل"
+  },
+  "nlNextPage": {
+    "message": "صفحه بعد"
+  },
+  "nlName": {
+    "message": "نام"
+  },
+  "nlEdit": {
+    "message": "ویرایش"
+  },
+  "nlStop": {
+    "message": "ایست"
+  },
+  "nlConfirm": {
+    "message": "تایید کنید"
+  },
+  "nlAllNodes": {
+    "message": "همه گره ها"
+  },
+  "nlNodeResults": {
+    "message": "نتایج گره"
+  },
+  "nlTestCenter": {
+    "message": "مرکز آزمون"
+  },
+  "nlNewGroup": {
+    "message": "گروه جدید"
+  },
+  "nlRenameGroup": {
+    "message": "تغییر نام گروه"
+  },
+  "nlRemoveGroup": {
+    "message": "حذف گروه"
+  },
+  "nlRemoveGroupHelp": {
+    "message": "هر گره و اشتراک را نگه دارید و آنها را به گره های وارداتی منتقل کنید."
+  },
+  "nlNode": {
+    "message": "گره"
+  },
+  "nlStatus": {
+    "message": "وضعیت"
+  },
+  "nlActions": {
+    "message": "افعال"
+  },
+  "nlSort": {
+    "message": "فقط این جدول را مرتب کنید"
+  },
+  "nlSelected": {
+    "message": "انتخاب شد"
+  },
+  "nlTestNode": {
+    "message": "تست"
+  },
+  "nlProfileShort": {
+    "message": "مشخصات"
+  },
+  "nlQuick": {
+    "message": "تأخیر سریع"
+  },
+  "nlFull": {
+    "message": "دانلود + آپلود"
+  },
+  "nlTraffic": {
+    "message": "اندازه داده های آزمایشی"
+  },
+  "nlConcurrency": {
+    "message": "گره های همزمان"
+  },
+  "nlTrafficFullOnly": {
+    "message": "برای تست های دانلود و آپلود استفاده می شود"
+  },
+  "nlTestMode": {
+    "message": "حالت تست"
+  },
+  "nlBudget": {
+    "message": "حداکثر ترافیک محموله"
+  },
+  "nlViaGroup": {
+    "message": "از طریق پیش پراکسی گروه"
+  },
+  "nlTestSelected": {
+    "message": "تست انتخاب شد"
+  },
+  "nlTestVisible": {
+    "message": "گره های نشان داده شده را آزمایش کنید"
+  },
+  "nlTestAll": {
+    "message": "تست همه گره ها"
+  },
+  "nlTestGroup": {
+    "message": "گره های گروه آزمایش"
+  },
+  "nlProgress": {
+    "message": "پیشرفت اندازه گیری"
+  },
+  "nlReady": {
+    "message": "گره ها را برای شروع انتخاب کنید. هیچ آزمایشی اجرا نشده است."
+  },
+  "nlStarting": {
+    "message": "شروع اندازه گیری ایزوله…"
+  },
+  "nlQueued": {
+    "message": "در صف"
+  },
+  "nlRunning": {
+    "message": "آزمایش"
+  },
+  "nlStopping": {
+    "message": "توقف…"
+  },
+  "nlComplete": {
+    "message": "کامل"
+  },
+  "nlFailed": {
+    "message": "ناموفق"
+  },
+  "nlStopped": {
+    "message": "متوقف شد"
+  },
+  "nlPartial": {
+    "message": "جزئی"
+  },
+  "nlUntested": {
+    "message": "آزمایش نشده است"
+  },
+  "nlSucceeded": {
+    "message": "گذشت"
+  },
+  "nlMeasureDisconnected": {
+    "message": "اتصال اندازه گیری به پایان رسید. مقادیر ناقص نتایج نهایی نیستند."
+  },
+  "nlUpgrade": {
+    "message": "برای مدیریت گروه ها و اشتراک ها، Companion محلی را به روز کنید. گره های موجود همچنان در دسترس هستند."
+  },
+  "nlOperationFailed": {
+    "message": "عملیات تکمیل نشد. دوباره امتحان کنید."
+  },
+  "nlEditSubscription": {
+    "message": "ویرایش اشتراک"
+  },
+  "nlPasteContent": {
+    "message": "پیوندهای پروکسی / محتوا"
+  },
+  "nlSubscriptionURL": {
+    "message": "اشتراک URL"
+  },
+  "nlKeepURL": {
+    "message": "برای حفظ ذخیره شده، خالی بگذارید URL"
+  },
+  "nlConnectionPolicy": {
+    "message": "به روز رسانی اتصال"
+  },
+  "nlProxyFirst": {
+    "message": "ابتدا پروکسی، سپس مستقیم در مورد شکست"
+  },
+  "nlProxyOnly": {
+    "message": "فقط پروکسی"
+  },
+  "nlDirectOnly": {
+    "message": "فقط مستقیم"
+  },
+  "nlProxyFirstHelp": {
+    "message": "پروکسی ابتدا پس از واکشی موفق متوقف می شود. Direct فقط در صورتی امتحان می شود که تلاش پروکسی با شکست مواجه شود."
+  },
+  "nlAutoUpdate": {
+    "message": "به روز رسانی خودکار را فعال کنید"
+  },
+  "nlInterval": {
+    "message": "فاصله به‌روزرسانی (دقیقه)"
+  },
+  "nlDestinationGroup": {
+    "message": "گروه مقصد"
+  },
+  "nlSubscriptionOwnGroup": {
+    "message": "گروه جدید …"
+  },
+  "nlNameGroup": {
+    "message": "نام (گروه)"
+  },
+  "nlCustomGroup": {
+    "message": "گروه سفارشی"
+  },
+  "nlNameRequired": {
+    "message": "یک نام وارد کنید."
+  },
+  "nlContentRequired": {
+    "message": "پیوندهای پروکسی یا محتوای اشتراک را جایگذاری کنید."
+  },
+  "nlGroupRequired": {
+    "message": "یک گروه مقصد را انتخاب کنید."
+  },
+  "nlURLRequired": {
+    "message": "یک اشتراک HTTP(S) URL را بدون نام کاربری یا رمز عبور وارد کنید."
+  },
+  "nlIntervalInvalid": {
+    "message": "یک عدد کامل از 5 تا 43200 دقیقه وارد کنید."
+  },
+  "folderTitle": {
+    "message": "پوشه v2rayN را انتخاب کنید"
+  },
+  "folderHint": {
+    "message": "یک پوشه را انتخاب کنید، سپس آن را با تنظیمات اتصال ذخیره کنید."
+  },
+  "folderPath": {
+    "message": "مسیر کامل پوشه محلی"
+  },
+  "folderGo": {
+    "message": "باز"
+  },
+  "folderUp": {
+    "message": "بالا"
+  },
+  "folderDrives": {
+    "message": "درایوها"
+  },
+  "folderCurrent": {
+    "message": "مسیر فعلی"
+  },
+  "folderChoose": {
+    "message": "از این پوشه استفاده کنید"
+  },
+  "folderList": {
+    "message": "پوشه ها"
+  },
+  "folderTruncated": {
+    "message": "فهرست محدود است. مسیر کامل بالا را وارد کنید تا پوشه ای که نشان داده نشده باز شود."
+  },
+  "folderReady": {
+    "message": "v2rayN فایل پیدا شد. از این پوشه برای تایید تنظیمات استفاده کنید."
+  },
+  "folderInvalid": {
+    "message": "پوشه حاوی guiConfigs، guiNConfig.json و guiNDB.db را انتخاب کنید."
+  },
+  "folderSelectDrive": {
+    "message": "یک درایو محلی را انتخاب کنید یا یک مسیر پوشه کامل را وارد کنید."
+  },
+  "folderEmpty": {
+    "message": "هیچ زیرپوشه قابل مشاهده ای وجود ندارد."
+  },
+  "folderUnavailable": {
+    "message": "نمی توان این پوشه را مرور کرد. مسیر و دسترسی آن را بررسی کنید. اگر Companion قدیمی تر است، ابتدا آن را به روز کنید."
+  },
+  "folderValidating": {
+    "message": "در حال تأیید پیکربندی v2rayN…"
+  },
+  "folderInvalidConfig": {
+    "message": "پیکربندی یا پایگاه داده v2rayN ناقص یا نامعتبر است. پوشه دیگری را انتخاب کنید."
+  },
+  "copyPath": {
+    "message": "مسیر کپی"
+  },
+  "pathCopyHint": {
+    "message": "مسیر فعلی را در این قسمت کپی کنید."
+  },
+  "preMode": {
+    "message": "حالت پیش پراکسی"
+  },
+  "preNode": {
+    "message": "گره پیش پراکسی"
+  },
+  "preIntro": {
+    "message": "از زنجیره گروه استفاده کنید، از آن رد شوید یا یک پیش پراکسی برای این نمایه انتخاب کنید."
+  },
+  "healthLabel": {
+    "message": "وضعیت اتصال فعلی"
+  },
+  "healthOk": {
+    "message": "عادی"
+  },
+  "healthError": {
+    "message": "غیر طبیعی"
+  },
+  "healthChecking": {
+    "message": "بررسی"
+  },
+  "healthUnknown": {
+    "message": "تایید نشده"
+  },
+  "autoSystemHelp": {
+    "message": "قواعد سیستم به مؤلفهٔ Windows و تصویری از تنظیمات پراکسی ثابت نیاز دارند. پس از تغییر تنظیمات دوباره اعمال کنید. PAC/WPAD پشتیبانی نمی‌شوند؛ سیستم بدون قاعده از تنظیمات بومی مرورگر استفاده می‌کند."
+  },
+  "backgroundUnavailable": {
+    "message": "پس زمینه برنامه افزودنی در دسترس نیست."
+  },
+  "backgroundNoResponse": {
+    "message": "پس زمینه پاسخ نداد."
+  },
+  "backupTooLarge": {
+    "message": "پشتیبان‌گیری بیش از 5 مگابایت است."
+  },
+  "proxyUsername": {
+    "message": "نام کاربری"
+  },
+  "proxyPassword": {
+    "message": "رمز عبور"
+  },
+  "proxyAuthHelp": {
+    "message": "اختیاری. پروکسی های احراز هویت شده از طریق Companion متصل می شوند. اعتبارنامه ها در این پیکربندی مرورگر و Companion ذخیره می شوند و در صادرات نمایه گنجانده می شوند."
+  },
+  "proxyAuthSocks4": {
+    "message": "SOCKS4 این احراز هویت نام کاربری/رمز عبور را پشتیبانی نمی‌کند. از HTTP(S) یا SOCKS5 استفاده کنید."
+  },
+  "importExamples": {
+    "message": "نمونه فرمت"
+  },
+  "ipCopying": {
+    "message": "در حال کپی…"
+  },
+  "netDnsUnavailable": {
+    "message": "آدرس سرور به موقع حل نشد. آدرس میزبان یا IP را بررسی کنید و دوباره امتحان کنید."
+  },
+  "netCurrentTarget": {
+    "message": "نقطه پایانی پراکسی انتخاب شده"
+  },
+  "netCustomTarget": {
+    "message": "سرور سفارشی\nآدرس"
+  },
+  "netHost": {
+    "message": "میزبان یا IP"
+  },
+  "netPort": {
+    "message": "TCP پورت"
+  },
+  "netHostRequired": {
+    "message": "یک میزبان سرور یا آدرس IP را وارد کنید."
+  },
+  "netCurrentUnavailable": {
+    "message": "یک گره یا نمایه پروکسی دستی انتخاب کنید یا یک هدف سفارشی وارد کنید."
+  },
+  "netInvalidTarget": {
+    "message": "یک میزبان و پورت تشخیصی معتبر وارد کنید."
+  },
+  "netIpv6PingUnavailable": {
+    "message": "IPv6 ICMP در دسترس نیست. از TCPing استفاده کنید."
+  },
+  "preNeedsFix": {
+    "message": "قبل از ذخیره، یک پیش پراکسی معتبر یا بدون پیش پراکسی انتخاب کنید."
+  },
+  "preConfigure": {
+    "message": "پیش پراکسی را پیکربندی کنید"
+  },
+  "preFollowInvalid": {
+    "message": "Follow v2rayN یک پیش پراکسی سفارشی را نمی پذیرد."
+  },
+  "followChainHelp": {
+    "message": "Follow از مسیر و زنجیره پروکسی که قبلاً در v2rayN فعال بود استفاده می کند."
+  },
+  "netTitle": {
+    "message": "تست های اتصال"
+  },
+  "ipTestDetails": {
+    "message": "جزئیات تست"
+  },
+  "netTarget": {
+    "message": "پینگ / TCPing هدف"
+  },
+  "netDownload": {
+    "message": "دانلود تست"
+  },
+  "netPartial": {
+    "message": "نمونه جزئی"
+  },
+  "netComplete": {
+    "message": "نمونه کامل شد"
+  },
+  "netDirect": {
+    "message": "شبکه سیستم"
+  },
+  "netUnreachable": {
+    "message": "بدون پاسخ / ناموفق"
+  },
+  "netAverage": {
+    "message": "متوسط"
+  },
+  "predecessor": {
+    "message": "پیش پروکسی"
+  },
+  "preInherit": {
+    "message": "از زنجیره گروهی v2rayN استفاده کنید"
+  },
+  "preNone": {
+    "message": "بدون پیش پراکسی"
+  },
+  "preSpecific": {
+    "message": "یک گره را انتخاب کنید"
+  },
+  "preHelp": {
+    "message": "برای این نمایه اعمال می شود. از زنجیره گروهی v2rayN، بدون پیش پراکسی یا گره خاصی استفاده کنید. Follow v2rayN از زنجیره موجود خود استفاده می کند."
+  },
+  "preSelectRequired": {
+    "message": "یک گره پیش پراکسی انتخاب کنید، یا Group default / None را انتخاب کنید."
+  },
+  "ipPing0Permission": {
+    "message": "اجازه دسترسی به وب سایت Ping0 برای بارگیری گزارش عمومی را بدهید."
+  },
+  "ipPublicChallenge": {
+    "message": "وب سایت به تأیید نیاز دارد. صفحه Ping0 را برای تکمیل آن باز کنید و نتیجه را مشاهده کنید."
+  },
+  "ipPublicReport": {
+    "message": "Ping0 گزارش عمومی"
+  },
+  "ipPublicSource": {
+    "message": "منبع: Ping0 صفحه عمومی"
+  },
+  "ipPublicOriginal": {
+    "message": "Ping0 گزارش"
+  },
+  "ipPublicPartial": {
+    "message": "فقط فیلدهای ارائه شده در صفحه عمومی به زبان اصلی نشان داده می شوند. طبقه بندی ها و برآوردهای مشترک کاربران از Ping0 است."
+  },
+  "setupTitle": {
+    "message": "اتصال Proxy V2Route"
+  },
+  "setupIntro": {
+    "message": "همراه Windows را برای استفاده از مسیرهای v2rayN یا گره های وارد شده خود نصب کنید."
+  },
+  "setupStepOne": {
+    "message": "بسته کامل مطابق Windows را در یک پوشه دائمی استخراج کنید."
+  },
+  "setupStepTwo": {
+    "message": "V2Route-Setup.exe را باز کرده و روی Install کلیک کنید."
+  },
+  "setupStepThree": {
+    "message": "به اینجا برگردید و اتصال را بررسی کنید. در صورت نیاز پوشه v2rayN را انتخاب کنید."
+  },
+  "setupCheck": {
+    "message": "اتصال را بررسی کنید"
+  },
+  "downloadCompanion": {
+    "message": "راهنمای نصب ↗"
+  },
+  "setupDownloadNote": {
+    "message": "از بسته محلی منطبق Windows استفاده کنید، یا برای ساخت آن از منبع فعلی، راهنما را دنبال کنید."
+  },
+  "chooseFolder": {
+    "message": "پوشه v2rayN را انتخاب کنید…"
+  },
+  "rescanDone": {
+    "message": "گره های محلی دوباره اسکن شدند"
+  },
+  "grouping": {
+    "message": "گره های گروه"
+  },
+  "groupByCountry": {
+    "message": "بر اساس کشور"
+  },
+  "unknownCountry": {
+    "message": "دیگر / نامعلوم"
+  },
+  "ungrouped": {
+    "message": "گروه بندی نشده"
+  },
+  "adjustNodeFilters": {
+    "message": "گروه، منبع یا جستجوی دیگری را امتحان کنید یا گره های پنهان را نشان دهید."
+  },
+  "rescanLocal": {
+    "message": "گره v2rayN را دوباره اسکن کنید"
+  },
+  "showHidden": {
+    "message": "نمایش گره های پنهان"
+  },
+  "hideNode": {
+    "message": "پنهان کردن"
+  },
+  "restoreNode": {
+    "message": "بازیابی"
+  },
+  "hiddenNode": {
+    "message": "پنهان"
+  },
+  "hideNodeHelp": {
+    "message": "فقط از کتابخانه گره این مرورگر پنهان شود. v2rayN و پروفایل های موجود بدون تغییر هستند."
+  },
+  "ipContextTimeout": {
+    "message": "زمان خواندن نمایه فعلی تمام شد. دوباره امتحان کنید."
+  },
+  "ipStaleResult": {
+    "message": "نمایه فعلی تغییر کرد. این نتیجه ممکن است قدیمی باشد. دوباره چک کنید"
+  },
+  "ip_tools": {
+    "message": "IP ابزار"
+  },
+  "ipIntro": {
+    "message": "خروجی فعلی IP و گزارش عمومی."
+  },
+  "ipCurrentProfile": {
+    "message": "نمایه مرورگر فعلی"
+  },
+  "ipRouteCaution": {
+    "message": "قوانین خودکار و PAC ممکن است از مسیرهای مختلفی برای مقاصد مختلف استفاده کنند. این چک فقط درخواست خود را شرح می دهد."
+  },
+  "ipDisclosure": {
+    "message": "بررسی خودکار خروج IP · گزارش توسط Ping0"
+  },
+  "ipMethod": {
+    "message": "چک آدرس"
+  },
+  "ipDual": {
+    "message": "IPv4 / IPv6"
+  },
+  "ipCheck": {
+    "message": "دوباره بررسی کنید"
+  },
+  "ipChecking": {
+    "message": "در حال بررسی…"
+  },
+  "ipDualHelp": {
+    "message": "IPv4 / IPv6 خانواده آدرس های استفاده شده برای این درخواست را برمی گرداند، نه هر دو آدرس را."
+  },
+  "ipDurationHelp": {
+    "message": "زمان درخواست سپری شده HTTP شامل زمان پاسخگویی شبکه و سرویس است. این پینگ ICMP یا آزمایش پهنای باند نیست."
+  },
+  "ipCopy": {
+    "message": "کپی IP"
+  },
+  "ipCopied": {
+    "message": "کپی شده"
+  },
+  "ipCopyFailed": {
+    "message": "کپی نشد. آدرس را انتخاب کرده و به صورت دستی کپی کنید."
+  },
+  "ipNoResult": {
+    "message": "هنوز چک نشده است"
+  },
+  "ipContextUnknown": {
+    "message": "نمایه در دسترس نیست"
+  },
+  "ipTimeout": {
+    "message": "زمان چک تمام شد. دوباره امتحان کنید یا از مسیر دیگری استفاده کنید."
+  },
+  "ipCancelled": {
+    "message": "چک لغو شد"
+  },
+  "ipNetwork": {
+    "message": "نتوانست به ipify برسد. اتصال را بررسی کنید و دوباره امتحان کنید."
+  },
+  "ipHttp": {
+    "message": "سرویس IP درخواست را نپذیرفت. بعداً دوباره امتحان کنید."
+  },
+  "ipInvalid": {
+    "message": "سرویس IP یک پاسخ نامعتبر برگرداند."
+  },
+  "ipFailure": {
+    "message": "چک ناموفق بود. دوباره امتحان کنید."
+  },
+  "ipStale": {
+    "message": "تنظیمات پروکسی شما در حین بررسی تغییر کرد. نتیجه قدیمی کنار گذاشته شد. دوباره چک کنید"
+  },
+  "ipQuality": {
+    "message": "ابزارهای خارجی"
+  },
+  "ipQualityPrivacy": {
+    "message": "ابزارها فقط با کلیک اجرا می شوند. ارائه دهندگان داده های اتصال عادی را دریافت می کنند. چک‌های وب‌سایت پس از شروع، درخواست‌های بدون اعتبار را ارسال می‌کنند. بسته شدن تست های محلی را متوقف می کند. برگه های خارجی توسط مرورگر مدیریت می شوند."
+  },
+  "ipReport": {
+    "message": "گزارش ویرایش شده را کپی کنید"
+  },
+  "ipReportCopied": {
+    "message": "گزارش ویرایش شده کپی شد. بدون IP یا نام نمایه گنجانده شده است."
+  },
+  "popupSelected": {
+    "message": "برگزیده"
+  },
+  "popupFooter": {
+    "message": "v2rayN و پروفایل گره"
+  },
+  "subtitle": {
+    "message": "مسیرهای مرورگر مستقل"
+  },
+  "profiles": {
+    "message": "مشخصات"
+  },
+  "nodes": {
+    "message": "کتابخانه گره"
+  },
+  "settings": {
+    "message": "تنظیمات"
+  },
+  "connected": {
+    "message": "نمایه فعال"
+  },
+  "noProfile": {
+    "message": "پیش فرض سیستم"
+  },
+  "newProfile": {
+    "message": "پروفایل جدید"
+  },
+  "searchProfiles": {
+    "message": "نمایه ها را جستجو کنید"
+  },
+  "direct": {
+    "message": "شبکه مستقیم"
+  },
+  "system": {
+    "message": "پروکسی سیستم"
+  },
+  "follow": {
+    "message": "v2rayN را دنبال کنید"
+  },
+  "manual": {
+    "message": "پروکسی دستی"
+  },
+  "auto": {
+    "message": "سوئیچ خودکار"
+  },
+  "pac": {
+    "message": "PAC اسکریپت"
+  },
+  "virtual": {
+    "message": "پروفایل مجازی"
+  },
+  "profileIntro": {
+    "message": "مسیر مرورگر را بدون تغییر مسیر اصلی v2rayN انتخاب کنید."
+  },
+  "nodesIntro": {
+    "message": "گره های محلی v2rayN و پیوندهای وارد شده خود را مرور کنید."
+  },
+  "settingsIntro": {
+    "message": "ارتباط محلی، زبان و ظاهر."
+  },
+  "refresh": {
+    "message": "تازه کردن"
+  },
+  "create": {
+    "message": "نمایه ایجاد کنید"
+  },
+  "name": {
+    "message": "نام پروفایل"
+  },
+  "type": {
+    "message": "نوع پروفایل"
+  },
+  "save": {
+    "message": "ذخیره کنید"
+  },
+  "saved": {
+    "message": "ذخیره شد"
+  },
+  "saving": {
+    "message": "در حال ذخیره…"
+  },
+  "cancel": {
+    "message": "لغو"
+  },
+  "close": {
+    "message": "بستن"
+  },
+  "apply": {
+    "message": "از این نمایه استفاده کنید"
+  },
+  "applied": {
+    "message": "نمایه تغییر کرد"
+  },
+  "active": {
+    "message": "فعال"
+  },
+  "delete": {
+    "message": "حذف کنید"
+  },
+  "remove": {
+    "message": "حذف کنید"
+  },
+  "rename": {
+    "message": "تغییر نام"
+  },
+  "route": {
+    "message": "مسیر پراکسی"
+  },
+  "selectRoute": {
+    "message": "یک مسیر را انتخاب کنید"
+  },
+  "routeMissing": {
+    "message": "مسیر در دسترس نیست — دیگری را انتخاب کنید"
+  },
+  "chain": {
+    "message": "زنجیره اتصال"
+  },
+  "connection": {
+    "message": "اتصال محلی"
+  },
+  "proxy": {
+    "message": "سرور پروکسی"
+  },
+  "address": {
+    "message": "آدرس"
+  },
+  "port": {
+    "message": "بندر"
+  },
+  "scheme": {
+    "message": "پروتکل"
+  },
+  "proxyDns": {
+    "message": "SOCKS5 DNS از طریق پروکسی حل می شود."
+  },
+  "connectedIdle": {
+    "message": "متصل · بیکار"
+  },
+  "bypass": {
+    "message": "فهرست دور زدن"
+  },
+  "bypassHelp": {
+    "message": "در هر خط یک دامنه، الگوی دامنه، نشانی IP یا IP:درگاه وارد کنید."
+  },
+  "advanced": {
+    "message": "گزینه های پیشرفته"
+  },
+  "searchRoutes": {
+    "message": "گروه ها یا گره ها را جستجو کنید"
+  },
+  "selectGroup": {
+    "message": "یک گروه را انتخاب کنید"
+  },
+  "empty": {
+    "message": "هیچ مورد مطابقی وجود ندارد"
+  },
+  "unavailable": {
+    "message": "در دسترس نیست"
+  },
+  "groupHint": {
+    "message": "یک گروه را برای 250 ms نگه دارید، سپس بکشید. Alt + ↑ / ↓ نیز دوباره ترتیب می دهد. تغییرات به صورت خودکار ذخیره می شوند."
+  },
+  "searchSort": {
+    "message": "جستجو را قبل از مرتب‌سازی پاک کنید."
+  },
+  "dragHint": {
+    "message": "به بالا یا پایین حرکت کنید، سپس رها کنید تا ذخیره شود. Esc لغو می شود."
+  },
+  "orderSaved": {
+    "message": "سفارش گروهی ذخیره شد"
+  },
+  "orderCancelled": {
+    "message": "سفارش مجدد لغو شد"
+  },
+  "loading": {
+    "message": "در حال بارگیری…"
+  },
+  "reading": {
+    "message": "خواندن گره های محلی…"
+  },
+  "nativeMissing": {
+    "message": "مؤلفه محلی متصل نیست"
+  },
+  "retry": {
+    "message": "دوباره امتحان کنید"
+  },
+  "nativeHelp": {
+    "message": "مسیرهای گره به همراه Windows نیاز دارند. پروکسی های مستقیم، سیستمی و دستی هم اکنون در دسترس هستند."
+  },
+  "imported": {
+    "message": "وارداتی"
+  },
+  "v2rayn": {
+    "message": "v2rayN"
+  },
+  "allSources": {
+    "message": "همه منابع"
+  },
+  "importNodes": {
+    "message": "پراکسی‌های وارداتی"
+  },
+  "importTitle": {
+    "message": "پروکسی‌های وارداتی"
+  },
+  "importHelp": {
+    "message": "پیوندهای پروکسی، خروجی JSON یا اشتراک Base64 را جایگذاری کنید. SOCKS از اعتبارنامه های ساده یا Base64 پشتیبانی می کند. آدرس‌های بدون طرح از HTTP استفاده می‌کنند."
+  },
+  "importPrivacy": {
+    "message": "جزئیات و اعتبار پروکسی به همراه محلی Proxy V2Route برای ذخیره سازی و اتصال به پروکسی که انتخاب می کنید منتقل می شود. توسعه دهنده این اطلاعات را دریافت نمی کند."
+  },
+  "import": {
+    "message": "نمایه‌ها را وارد کنید"
+  },
+  "nodeCount": {
+    "message": "گره"
+  },
+  "source": {
+    "message": "منبع"
+  },
+  "protocol": {
+    "message": "پروتکل"
+  },
+  "useNode": {
+    "message": "نمایه ایجاد کنید"
+  },
+  "removeNode": {
+    "message": "گره وارد شده حذف شود؟"
+  },
+  "removeNodeHelp": {
+    "message": "نمایه‌هایی که از این گره استفاده می‌کنند باید قبل از حذف آن دوباره اختصاص داده شوند."
+  },
+  "deleteProfile": {
+    "message": "این نمایه حذف شود؟"
+  },
+  "deleteProfileHelp": {
+    "message": "این فقط این نمایه مرورگر را حذف می‌کند. گره های وارد شده و پیکربندی v2rayN حفظ می شوند."
+  },
+  "language": {
+    "message": "زبان"
+  },
+  "automatic": {
+    "message": "پیش فرض مرورگر"
+  },
+  "theme": {
+    "message": "ظاهر"
+  },
+  "light": {
+    "message": "نور"
+  },
+  "dark": {
+    "message": "تاریک"
+  },
+  "switchToEnglish": {
+    "message": "تغییر به انگلیسی"
+  },
+  "switchToChinese": {
+    "message": "تغییر به چینی ساده شده"
+  },
+  "switchToLight": {
+    "message": "تغییر به ظاهر روشن"
+  },
+  "switchToDark": {
+    "message": "به ظاهر تاریک بروید"
+  },
+  "localComponent": {
+    "message": "جزء همراه"
+  },
+  "ready": {
+    "message": "متصل"
+  },
+  "stopped": {
+    "message": "در حال اجرا نیست"
+  },
+  "discovery": {
+    "message": "v2rayN تشخیص"
+  },
+  "rootPath": {
+    "message": "v2rayN پوشه"
+  },
+  "corePath": {
+    "message": "هسته پروکسی قابل اجرا"
+  },
+  "optionalPath": {
+    "message": "برای تشخیص خودکار خالی بگذارید"
+  },
+  "pathsHelp": {
+    "message": "v2rayN به طور خودکار شناسایی می شود. در صورت نیاز پوشه آن را انتخاب کنید. گره های وارداتی از هسته گنجانده شده استفاده می کنند."
+  },
+  "savePaths": {
+    "message": "تنظیمات اتصال را ذخیره کنید"
+  },
+  "privacy": {
+    "message": "تنظیمات به صورت محلی ذخیره شده است"
+  },
+  "privacyText": {
+    "message": "پیوندهای گره و اعتبارنامه ها در همراه محلی باقی می مانند. ترافیک مرورگر از طریق پروکسی انتخابی شما به وب سایت های مقصد می رود. توسعه دهنده آن را دریافت نمی کند."
+  },
+  "privacyDetails": {
+    "message": "حریم خصوصی و جریان داده"
+  },
+  "export": {
+    "message": "نمایه ها را صادر کنید"
+  },
+  "about": {
+    "message": "درباره Proxy V2Route"
+  },
+  "aboutText": {
+    "message": "مسیر مرورگر را بدون تغییر مسیر اصلی v2rayN انتخاب کنید. مسیرهای گره از همراه Windows و گره های خود استفاده می کنند."
+  },
+  "licenses": {
+    "message": "اعلامیه های منبع باز"
+  },
+  "version": {
+    "message": "نسخه"
+  },
+  "fieldRequired": {
+    "message": "نام نمایه را وارد کنید."
+  },
+  "profileExists": {
+    "message": "نمایه ای با این نام از قبل وجود دارد."
+  },
+  "ruleHelp": {
+    "message": "دامنه ها را در یک ردیف با کاما جدا کنید. اولین ردیف منطبق برنده می شود. مسیر پیش فرض را در دسترس نگه دارید."
+  },
+  "rules": {
+    "message": "قوانین مسیریابی"
+  },
+  "pattern": {
+    "message": "الگوی میزبان"
+  },
+  "target": {
+    "message": "هدف قاعده"
+  },
+  "addRule": {
+    "message": "قانون اضافه کنید"
+  },
+  "defaultRoute": {
+    "message": "نمایه پیش فرض"
+  },
+  "pacHelp": {
+    "message": "منبع معتبر PAC حاوی FindProxyForURL را بچسبانید. این اسکریپت تصمیم می‌گیرد که درخواست‌های وب‌سایت چگونه مسیریابی شوند."
+  },
+  "pacUrl": {
+    "message": "PAC URL"
+  },
+  "pacScript": {
+    "message": "PAC اسکریپت"
+  },
+  "noSelection": {
+    "message": "نمایه ای انتخاب کنید یا ایجاد کنید."
+  },
+  "details": {
+    "message": "جزئیات"
+  },
+  "noNodes": {
+    "message": "هنوز گره ای وجود ندارد"
+  },
+  "noNodesHelp": {
+    "message": "v2rayN را وصل کنید یا پیوندهای پروکسی، JSON یا یک اشتراک را وارد کنید تا شروع کنید."
+  },
+  "openSettings": {
+    "message": "تنظیمات را باز کنید"
+  },
+  "proxySettings": {
+    "message": "تنظیمات پروکسی"
+  },
+  "switching": {
+    "message": "تعویض…"
+  },
+  "updatedElsewhere": {
+    "message": "این نمایه در پنجره دیگری تغییر کرد. قبل از ذخیره آن را دوباره باز کنید."
+  },
+  "choose": {
+    "message": "انتخاب کنید"
+  },
+  "popupIntro": {
+    "message": "اتصال:"
+  },
+  "invalidPort": {
+    "message": "یک پورت از 1 تا 65535 را وارد کنید."
+  },
+  "externalControl": {
+    "message": "برنامه افزودنی یا خط مشی دیگر، کنترل پروکسی مرورگر است."
+  },
+  "noNativeRoute": {
+    "message": "قبل از ایجاد نمایه گره، مؤلفه محلی را وصل کنید."
+  },
+  "reload": {
+    "message": "بارگذاری مجدد"
+  },
+  "rulesError": {
+    "message": "هر قاعده به الگو و هدف نیاز دارد."
+  },
+  "backupDone": {
+    "message": "نمایه های مرورگر صادر شد"
+  },
+  "managed": {
+    "message": "گره مدیریت شده"
+  },
+  "netRegion": {
+    "message": "منطقه هدف"
+  },
+  "netNodeArea": {
+    "message": "گره پروکسی"
+  },
+  "netChina": {
+    "message": "سرزمین اصلی چین"
+  },
+  "netGlobal": {
+    "message": "جهانی"
+  },
+  "netAli": {
+    "message": "AliDNS"
+  },
+  "netTencent": {
+    "message": "DNSPod"
+  },
+  "netStartHelp": {
+    "message": "یک هدف را انتخاب کنید، سپس یک آزمایش زنده را شروع کنید."
+  },
+  "netConsole": {
+    "message": "تشخیص زنده"
+  },
+  "netStop": {
+    "message": "ایست"
+  },
+  "netRunning": {
+    "message": "دویدن"
+  },
+  "netStopped": {
+    "message": "متوقف شد"
+  },
+  "netSent": {
+    "message": "ارسال شد"
+  },
+  "netLoss": {
+    "message": "ضرر"
+  },
+  "netAverageShort": {
+    "message": "میانگین"
+  },
+  "netLogClear": {
+    "message": "روشن"
+  },
+  "netFinishing": {
+    "message": "کاوشگر قبلی در حال تکمیل است…"
+  },
+  "netRound": {
+    "message": "گرد"
+  },
+  "netDestination": {
+    "message": "مقصد"
+  },
+  "netHop": {
+    "message": "هاپ"
+  },
+  "netAddress": {
+    "message": "IP آدرس"
+  },
+  "netLast": {
+    "message": "آخرین"
+  },
+  "netConsoleHelp": {
+    "message": "Ping / TCPing / MTR از شبکه سیستم استفاده می کند، نه از زنجیره پروکسی. پاسخ های از دست رفته ICMP تلفات ترافیک را ثابت نمی کند. دانلود از مسیر مرورگر و محدودیت اندازه انتخاب شده استفاده می کند. وقتی این صفحه را ترک می‌کنید یا پنهان می‌کنید، آزمایش‌ها متوقف می‌شوند."
+  },
+  "netDirectShort": {
+    "message": "شبکه سیستم"
+  },
+  "netIcmpShort": {
+    "message": "نه ICMP پاسخ"
+  },
+  "netProbeError": {
+    "message": "خطای پروب محلی"
+  },
+  "netNoDestination": {
+    "message": "به مقصد نرسید"
+  },
+  "deleteActive": {
+    "message": "به سیستم بروید و حذف کنید"
+  },
+  "deleteActiveHelp": {
+    "message": "این پروفایل فعال است. با حذف آن، مرورگر به پروکسی سیستم تغییر می کند."
+  },
+  "netDownloadSize": {
+    "message": "اندازه دانلود"
+  },
+  "netReceived": {
+    "message": "دریافت شد"
+  },
+  "netBest": {
+    "message": "بهترین"
+  },
+  "netWorst": {
+    "message": "بدترین"
+  },
+  "netStdDev": {
+    "message": "Std dev"
+  },
+  "netLocation": {
+    "message": "مکان"
+  },
+  "toolWall": {
+    "message": "بررسی مسدودسازی دامنه"
+  },
+  "toolSites": {
+    "message": "وب سایت های محبوب"
+  },
+  "toolGlobal": {
+    "message": "تشخیص جهانی"
+  },
+  "toolFast": {
+    "message": "Netflix سرعت"
+  },
+  "toolSpeed": {
+    "message": "تست سرعت"
+  },
+  "toolStart": {
+    "message": "شروع کنید"
+  },
+  "toolReady": {
+    "message": "آماده است"
+  },
+  "toolResponded": {
+    "message": "پاسخ داد"
+  },
+  "toolNoResponse": {
+    "message": "تایید نشده"
+  },
+  "toolCacheUnsupported": {
+    "message": "این مرورگر نمی تواند حافظه پنهان را توسط سایت پاک کند. صفحه دوباره بارگذاری شده است"
+  },
+  "toolCacheFailed": {
+    "message": "پاکسازی حافظه پنهان تمام نشد. ببندید و دوباره امتحان کنید."
+  },
+  "toolClose": {
+    "message": "بستن"
+  },
+  "toolReload": {
+    "message": "بارگذاری مجدد"
+  },
+  "toolLoading": {
+    "message": "در حال بارگیری…"
+  },
+  "toolFrameError": {
+    "message": "بارگیری نشد. Reload را امتحان کنید."
+  },
+  "toolSiteHelp": {
+    "message": "فقط دسترسی به مرورگر. این حساب یا دسترسی منطقه ای را تأیید نمی کند."
+  },
+  "toolFallback": {
+    "message": "تست سرعت پشتیبان گیری"
+  },
+  "toolFullscreen": {
+    "message": "تمام صفحه"
+  },
+  "toolRestore": {
+    "message": "از تمام صفحه خارج شوید"
+  },
+  "ipReadFailed": {
+    "message": "خواندن ناموفق بود. 👉"
+  },
+  "ipViewSource": {
+    "message": "مشاهده سایت منبع"
+  },
+  "toolDownloadError": {
+    "message": "به سرور دانلود دسترسی پیدا نکرد. دوباره امتحان کنید."
+  },
+  "toolAccess": {
+    "message": "دسترسی به سایت را فعال کنید"
+  },
+  "toolPermission": {
+    "message": "اجازه دسترسی به این سایت برای سازگاری جلسه تعبیه شده را بدهید."
+  },
+  "toolAsia": {
+    "message": "آسیا"
+  },
+  "toolEurope": {
+    "message": "اروپا"
+  },
+  "toolAmerica": {
+    "message": "آمریکای شمالی"
+  },
+  "toolGlobalHelp": {
+    "message": "خروجی مرورگر IP را از قبل پر می کند. سرزمین اصلی چین یا منطقه دیگری را برای مقایسه مسیرها انتخاب کنید. Start هدف نمایش داده شده را به حداکثر سه Globalping پروب می فرستد."
+  },
+  "toolServiceError": {
+    "message": "سرویس تست در دسترس نیست. دوباره امتحان کنید."
+  },
+  "popupOrderHelp": {
+    "message": "برای مرتب کردن مجدد، نگه دارید و بکشید. کلیدهای Alt+arrow نیز این نمایه را جابجا می کنند."
+  },
+  "popupOrderSaved": {
+    "message": "سفارش ذخیره شد"
+  },
+  "toolGroupIP": {
+    "message": "IP تست"
+  },
+  "toolGroupWeb": {
+    "message": "تست های وب سایت"
+  },
+  "toolGroupSpeed": {
+    "message": "سرعت"
+  },
+  "toolCurrentIP": {
+    "message": "خروجی فعلی IP"
+  },
+  "toolCurrentIPLoading": {
+    "message": "در حال بارگیری خروجی فعلی IP…"
+  },
+  "toolCurrentIPFailed": {
+    "message": "نمی توان IP فعلی را خواند. یک هدف را وارد کنید"
+  },
+  "speedMode": {
+    "message": "حالت تست"
+  },
+  "speedBoth": {
+    "message": "دانلود + آپلود"
+  },
+  "speedDownload": {
+    "message": "دانلود کنید"
+  },
+  "speedUpload": {
+    "message": "آپلود"
+  },
+  "speedLatency": {
+    "message": "HTTP تأخیر"
+  },
+  "speedBudget": {
+    "message": "{n} MiB در هر فاز · {total} MiB کل، به علاوه نمونه‌های تأخیر کوچک."
+  },
+  "siteCategory": {
+    "message": "دسته بندی وب سایت"
+  },
+  "siteAll": {
+    "message": "همه وب سایت ها"
+  },
+  "siteAI": {
+    "message": "هوش مصنوعی"
+  },
+  "siteDevelopment": {
+    "message": "توسعه"
+  },
+  "siteVideo": {
+    "message": "ویدیو / موسیقی"
+  },
+  "siteSocial": {
+    "message": "اجتماعی"
+  },
+  "siteDomestic": {
+    "message": "خدمات سرزمین اصلی"
+  },
+  "siteServices": {
+    "message": "خدمات مشترک"
+  },
+  "globalMethod": {
+    "message": "نوع اندازه گیری"
+  },
+  "localPort": {
+    "message": "بندر محلی:"
+  },
+  "chainChooseNode": {
+    "message": "یک گره پروکسی را انتخاب کنید"
+  },
+  "chainTitle": {
+    "message": "زنجیره پروکسی"
+  },
+  "chainSelectExit": {
+    "message": "یک گره خروجی خاص در زیر برای ذخیره یا آزمایش این زنجیره سفارشی انتخاب کنید. فالو v2rayN توسط v2rayN مدیریت می شود."
+  },
+  "chainSelectExitShort": {
+    "message": "یک گره خروجی را انتخاب کنید"
+  },
+  "chainAdd": {
+    "message": "+ افزودن لایه پروکسی"
+  },
+  "chainTest": {
+    "message": "زنجیره آزمایش"
+  },
+  "chainMode": {
+    "message": "حالت زنجیره ای"
+  },
+  "chainBase": {
+    "message": "پروکسی پایه"
+  },
+  "chainExit": {
+    "message": "خروج از پراکسی"
+  },
+  "chainEgress": {
+    "message": "خروج زنجیره ای"
+  },
+  "chainExitBadge": {
+    "message": "خروج IP"
+  },
+  "chainEntry": {
+    "message": "ورود زنجیره ای"
+  },
+  "chainTransit": {
+    "message": "گره پل"
+  },
+  "chainUntested": {
+    "message": "آزمایش نشده است"
+  },
+  "chainMissing": {
+    "message": "گره در دسترس نیست"
+  },
+  "chainUnresolved": {
+    "message": "نمی توان زنجیره ارثی را حل کرد. تنظیمات قبلی را تعمیر کنید یا یک زنجیره سفارشی انتخاب کنید."
+  },
+  "chainUpgrade": {
+    "message": "برای فعال کردن زنجیره های سفارش داده شده، همراه محلی را به روز کنید."
+  },
+  "chainBusy": {
+    "message": "آزمایش زنجیره ای دیگری در حال اجرا است"
+  },
+  "chainOK": {
+    "message": "قابل دسترسی"
+  },
+  "chainFailed": {
+    "message": "هاپ در این آزمون ناموفق بود"
+  },
+  "chainBlocked": {
+    "message": "تست نشد · پرش قبلی ناموفق بود"
+  },
+  "chainFailureHelp": {
+    "message": "این پرش یا راه به آن نگذشت. رازک های بعدی آزمایش نشد."
+  },
+  "chainAllOK": {
+    "message": "همه مسیرهای تجمعی پاسخ دادند"
+  },
+  "chainStopping": {
+    "message": "توقف پس از پروب محدود فعلی…"
+  },
+  "globalWorld": {
+    "message": "در سراسر جهان"
+  },
+  "globalUnavailable": {
+    "message": "هدف یا منطقه در دسترس نیست. هدف را بررسی کنید یا منطقه دیگری را انتخاب کنید."
+  },
+  "globalRateLimited": {
+    "message": "به حد مجاز نرخ خدمات رسیده است. بعداً دوباره امتحان کنید."
+  },
+  "globalNoResults": {
+    "message": "این سرویس هیچ نتیجه کاوشگری برنگشت. منطقه دیگری را امتحان کنید."
+  },
+  "globalProbeFailed": {
+    "message": "پروب شکست خورد"
+  },
+  "globalProbeOffline": {
+    "message": "پروب آفلاین"
+  },
+  "globalIcmpCaution": {
+    "message": "ICMP پاسخ به تنهایی مسدود شدن را ثابت نمی کند. مسیرهای اصلی و خارج از کشور و سایر انواع آزمایش را مقایسه کنید."
+  },
+  "speedRealtime": {
+    "message": "سرعت زنده"
+  },
+  "speedAverage": {
+    "message": "سرعت متوسط"
+  },
+  "ipToolsBrief": {
+    "message": "نتایج شخص ثالث برای مرجع هستند."
+  },
+  "ipReportBrief": {
+    "message": "نتایج با خروجی IP متفاوت است و برای مرجع هستند."
+  },
+  "toolPingPe": {
+    "message": "IP انسداد چک"
+  },
+  "toolTargetIP": {
+    "message": "هدف IP"
+  },
+  "toolOpenPingPe": {
+    "message": "تست رسمی را باز کنید"
+  },
+  "toolInvalidIP": {
+    "message": "یک آدرس IPv4 یا IPv6 معتبر وارد کنید."
+  },
+  "toolInvalidPort": {
+    "message": "یک پورت TCP از 1 تا 65535 را وارد کنید."
+  },
+  "toolExternalFailed": {
+    "message": "وب سایت باز نشد. دوباره امتحان کنید."
+  },
+  "ipBrowserReading": {
+    "message": "خواندن Ping0 از طریق مرورگر…"
+  },
+  "ipVerifyBrowser": {
+    "message": "صفحه تأیید را باز کنید"
+  },
+  "policyCenter": {
+    "message": "حریم خصوصی، اعلامیه و سؤالات متداول"
+  },
+  "policyCenterIntro": {
+    "message": "مدیریت داده های محلی، محدودیت های آزمون و پاسخ های رایج."
+  },
+  "policyPrivacyTitle": {
+    "message": "سیاست حفظ حریم خصوصی"
+  },
+  "policyPrivacySummary": {
+    "message": "نمایه ها و اعتبارنامه ها در این دستگاه باقی می مانند. بررسی های بازشو و تشخیص با ارائه دهندگان اعلام شده خود تماس بگیرید. بدون تبلیغات یا تجزیه و تحلیل رفتاری."
+  },
+  "policyDeclarationTitle": {
+    "message": "بیانیه استفاده و اندازه گیری"
+  },
+  "policyDeclarationSummary": {
+    "message": "این برنامه افزودنی یک مدیر مسیر محلی است، نه یک ارائه دهنده پروکسی یا VPN. اندازه گیری ها نمونه های مرجعی هستند که تحت تاثیر شرایط شبکه، پروکسی و ارائه دهنده قرار می گیرند."
+  },
+  "policyFaqTitle": {
+    "message": "سوالات متداول"
+  },
+  "policyFaqSummary": {
+    "message": "همراه Windows برای گره های محلی و MTR مورد نیاز است. تأخیر می تواند بین مرورگر، سیستم و پروب عمومی متفاوت باشد. آزمایش را متوقف کنید یا داده های محلی را از تنظیمات پاک کنید."
+  },
+  "policyDetailsLink": {
+    "message": "جزئیات کامل را بخوانید ↗"
+  },
+  "thirdPartyNotice": {
+    "message": "اعلامیه های منبع باز ↗"
+  },
+  "columnResizeHelp": {
+    "message": "برای تغییر اندازه بکشید. برای بازنشانی دوبار کلیک کنید؛ برای تنظیم از کلیدهای جهت دار استفاده کنید"
+  },
+  "columnResize": {
+    "message": "تغییر اندازه ستون"
+  },
+  "typeDescription_node": {
+    "message": "از طریق یک گره پروکسی متصل شوید"
+  },
+  "typeDescription_manual": {
+    "message": "تنظیمات پراکسی را به صورت دستی وارد کنید"
+  },
+  "typeDescription_auto": {
+    "message": "یک گره را با استفاده از قوانین انتخاب کنید"
+  },
+  "typeDescription_pac": {
+    "message": "ترافیک مسیر با استفاده از قوانین PAC"
+  },
+  "appDescription": {
+    "message": "مسیرهای پراکسی مرورگر مستقل، گره ها، قوانین دامنه و بررسی اتصال را مدیریت کنید. مسیرهای گره به همراه Windows نیاز دارند."
+  },
+  "core_title": {
+    "message": "هسته پروکسی"
+  },
+  "core_checking": {
+    "message": "بررسی مؤلفه محلی…"
+  },
+  "core_ready": {
+    "message": "Xray آماده است"
+  },
+  "core_missing": {
+    "message": "هسته پروکسی وجود ندارد"
+  },
+  "core_external": {
+    "message": "هسته سفارشی: تأیید نشده است"
+  },
+  "core_corrupt": {
+    "message": "Xray عدم تطابق جمع چک - تعمیر مورد نیاز است"
+  },
+  "core_unreadable": {
+    "message": "فایل اصلی بررسی نشد"
+  },
+  "core_intro": {
+    "message": "بسته کامل Windows شامل Xray است. v2rayN اختیاری است."
+  },
+  "core_verify": {
+    "message": "دوباره بررسی کنید"
+  },
+  "core_install": {
+    "message": "نصب / تعمیر هسته"
+  },
+  "core_installing": {
+    "message": "در حال بارگیری و تأیید…"
+  },
+  "core_done": {
+    "message": "هسته تأیید شده و آماده است"
+  },
+  "core_help": {
+    "message": "Repair از یک نسخه رسمی پین شده Xray استفاده می کند و چک جمع آن را تأیید می کند. اتصالات موجود همچنان در حال اجرا هستند."
+  },
+  "core_absent": {
+    "message": "یک بار مؤلفه محلی را نصب کنید، سپس برای بررسی هسته به اینجا برگردید."
+  },
+  "core_download": {
+    "message": "راهنمای نصب"
+  },
+  "core_absentHelp": {
+    "message": "از بسته تطبیق Windows استفاده کنید یا راهنمای ساخت آن را از منبع دنبال کنید، سپس راه اندازی را اجرا کنید."
+  },
+  "core_failed": {
+    "message": "عملیات هسته شکست خورد. دوباره امتحان کنید یا از بسته کامل Windows استفاده کنید."
+  },
+  "core_version": {
+    "message": "نسخه"
+  },
+  "error_ACTIVE_PROFILE_DELETE": {
+    "message": "پیش از حذف، به نمایه دیگری بروید"
+  },
+  "error_BACKUP_BINDING_TYPE": {
+    "message": "فقط نمایه‌های پراکسی می‌توانند اتصال مسیر داشته باشند"
+  },
+  "error_BACKUP_FORMAT3_REQUIRED": {
+    "message": "قواعد گره به پشتیبان قابل‌انتقال با قالب 3 نیاز دارند"
+  },
+  "error_BACKUP_INDEPENDENT_PATH_REQUIRED": {
+    "message": "پشتیبان باید شامل مسیر مستقل گره باشد"
+  },
+  "error_BACKUP_INTERNAL_BINDINGS": {
+    "message": "پشتیبان شامل اتصال‌های داخلی است"
+  },
+  "error_BACKUP_MESSAGE_LIMIT": {
+    "message": "پشتیبان گره از محدودیت پیام مؤلفه همراه بیشتر است"
+  },
+  "error_BACKUP_NODES_INCOMPLETE": {
+    "message": "پشتیبان گره ناقص است"
+  },
+  "error_BACKUP_NODE_MISSING": {
+    "message": "یک گره ضروری در پشتیبان وجود ندارد"
+  },
+  "error_BACKUP_NODE_PATHS_LIMIT": {
+    "message": "پشتیبان حداکثر از {limit} مسیر گره پشتیبانی می‌کند"
+  },
+  "error_BACKUP_PATH_INCOMPLETE": {
+    "message": "مسیر گره در پشتیبان ناقص است"
+  },
+  "error_BACKUP_PROFILES_LIMIT": {
+    "message": "پشتیبان حداکثر از {limit} نمایه پشتیبانی می‌کند"
+  },
+  "error_BACKUP_PROXY_CONFLICT": {
+    "message": "تنظیمات پراکسی در پشتیبان با هم تداخل دارند"
+  },
+  "error_BACKUP_SIZE_LIMIT": {
+    "message": "حجم پشتیبان از {limit} مگابایت بیشتر است"
+  },
+  "error_BACKUP_TRANSFER_UNAVAILABLE": {
+    "message": "برای انتقال پشتیبان گره‌ها، مؤلفه همراه را به‌روز یا تعمیر کنید."
+  },
+  "error_BACKUP_UNUSED_NODES": {
+    "message": "پشتیبان شامل گره‌هایی بدون ارجاع است"
+  },
+  "error_BODY_TOO_LARGE": {
+    "message": "پاسخ اشتراک از حجم مجاز بیشتر است."
+  },
+  "error_BROWSER_API_FAILED": {
+    "message": "عملیات مرورگر ناموفق بود. جزئیات فنی را ببینید."
+  },
+  "error_BROWSER_PROXY_RESTORE_FAILED": {
+    "message": "عملیات ناموفق بود و پراکسی قبلی مرورگر بازیابی نشد"
+  },
+  "error_BROWSER_SCHEDULING_UNAVAILABLE": {
+    "message": "زمان‌بندی مرورگر در دسترس نیست."
+  },
+  "error_BUSY": {
+    "message": "عملیات دیگری در حال اجراست. کمی بعد دوباره تلاش کنید."
+  },
+  "error_CHAIN_PROBE_FAILED": {
+    "message": "آزمایش زنجیره ناموفق بود"
+  },
+  "error_COMPANION_BULK_RELEASE_REQUIRED": {
+    "message": "برای مدیریت امن چند قاعده گره، مؤلفه همراه محلی را ارتقا دهید"
+  },
+  "error_COMPANION_CHAINS_REQUIRED": {
+    "message": "برای فعال‌سازی زنجیره‌های مرتب، مؤلفه همراه محلی را ارتقا دهید"
+  },
+  "error_COMPANION_MESSAGE_LIMIT": {
+    "message": "تنظیمات از محدودیت پیام مؤلفه همراه بیشتر است"
+  },
+  "error_COMPANION_OPERATION_FAILED": {
+    "message": "عملیات مؤلفه همراه محلی ناموفق بود. جزئیات فنی را ببینید."
+  },
+  "error_COMPANION_UNAVAILABLE": {
+    "message": "مؤلفه همراه V2Route را نصب یا تعمیر کنید"
+  },
+  "error_CONNECTION_CLOSED": {
+    "message": "اتصال پیش از پایان آزمایش بسته شد."
+  },
+  "error_CORE_INSTALL_FAILED": {
+    "message": "نصب هسته ناموفق بود. جزئیات فنی را ببینید."
+  },
+  "error_CORE_OWNERSHIP_FAILED": {
+    "message": "کنترل امن هسته آزمایش جداشده ممکن نبود. آزمایش متوقف شد."
+  },
+  "error_CORE_START_FAILED": {
+    "message": "هسته آزمایش جداشده اجرا نشد. نصب مؤلفه همراه و هسته را بررسی کنید."
+  },
+  "error_CORE_START_TIMEOUT": {
+    "message": "هسته آزمایش جداشده در زمان مقرر آماده نشد."
+  },
+  "error_CORE_STATUS_UNAVAILABLE": {
+    "message": "وضعیت هسته در دسترس نیست. جزئیات فنی را ببینید."
+  },
+  "error_CORE_VALIDATION_FAILED": {
+    "message": "Xray نتوانست گره‌های واردشده را اعتبارسنجی کند. تنظیماتشان را بررسی و دوباره تلاش کنید."
+  },
+  "error_DETACH_PORT_CONFLICT": {
+    "message": "درگاه مدیریت‌شده آزاد خواهد شد. یک پراکسی دستی دیگر وارد کنید"
+  },
+  "error_DETACH_PROXY_REQUIRED": {
+    "message": "پیش از قطع ارتباط، پراکسی دستی جایگزین را وارد کنید"
+  },
+  "error_DNS_BUSY": {
+    "message": "جست‌وجوی DNS مشغول است. کمی بعد دوباره تلاش کنید."
+  },
+  "error_DNS_FAILED": {
+    "message": "جست‌وجوی DNS ناموفق بود. نشانی و اتصال شبکه را بررسی کنید."
+  },
+  "error_ENCODING_UNSUPPORTED": {
+    "message": "اشتراک از کدگذاری محتوای پشتیبانی‌نشده استفاده می‌کند."
+  },
+  "error_FIREFOX_PRIVATE_ACCESS_REQUIRED": {
+    "message": "پیش از تغییر تنظیمات پراکسی، در جزئیات افزونه به V2Route اجازه اجرا در پنجره‌های خصوصی بدهید"
+  },
+  "error_FOLDER_UNAVAILABLE": {
+    "message": "پوشه در دسترس نیست؛ مسیر، مجوز دسترسی و نسخه مؤلفه همراه را بررسی کنید"
+  },
+  "error_GROUP_LIMIT": {
+    "message": "تعداد گروه‌ها به حد مجاز رسیده است. یک گروه بدون استفاده را حذف و دوباره تلاش کنید."
+  },
+  "error_GROUP_NOT_EDITABLE": {
+    "message": "این گروه منبع در اینجا قابل ویرایش نیست."
+  },
+  "error_GROUP_NOT_FOUND": {
+    "message": "گروه انتخاب‌شده دیگر وجود ندارد. گروه دیگری انتخاب کنید."
+  },
+  "error_HTTP_ENCODING": {
+    "message": "سرور آزمایش کدگذاری پشتیبانی‌نشده برگرداند."
+  },
+  "error_HTTP_LENGTH": {
+    "message": "حجم پاسخ آزمایش با حجم درخواستی مطابقت نداشت."
+  },
+  "error_HTTP_RESPONSE_TOO_LARGE": {
+    "message": "پاسخ آزمایش از حجم مجاز بیشتر بود."
+  },
+  "error_HTTP_STATUS": {
+    "message": "سرور آزمایش وضعیت ناموفق HTTP برگرداند."
+  },
+  "error_IMPORTED_PROXY_MISSING": {
+    "message": "مؤلفه همراه، پراکسی واردشده را برنگرداند"
+  },
+  "error_IMPORTED_RULE_PATH_CONFLICT": {
+    "message": "گره‌های واردشده به مسیرهای قواعد متعارض منجر می‌شوند"
+  },
+  "error_IMPORT_CLEANUP_FAILED": {
+    "message": "ورود ناموفق بود؛ برخی گره‌ها یا درگاه‌های موقت آزاد نشدند. نمایه‌های موجود حفظ شدند"
+  },
+  "error_IMPORT_PROFILE_NAME_CONFLICT": {
+    "message": "نام نمایه تکراری یا نامعتبر است"
+  },
+  "error_INCOMPLETE_RESPONSE": {
+    "message": "پاسخ اشتراک ناقص بود. دوباره تلاش کنید."
+  },
+  "error_INVALID_BACKUP": {
+    "message": "پشتیبان V2Route نامعتبر است"
+  },
+  "error_INVALID_BACKUP_NODE": {
+    "message": "گره پشتیبان نامعتبر یا تکراری است"
+  },
+  "error_INVALID_BACKUP_NODES": {
+    "message": "گره‌های پشتیبان نامعتبرند"
+  },
+  "error_INVALID_BACKUP_PATH": {
+    "message": "مسیر پشتیبان نامعتبر است"
+  },
+  "error_INVALID_BYPASS_ENTRY": {
+    "message": "ورودی استثنای پراکسی نامعتبر است"
+  },
+  "error_INVALID_BYPASS_LIST": {
+    "message": "فهرست استثناهای پراکسی نامعتبر است"
+  },
+  "error_INVALID_CHAIN": {
+    "message": "زنجیره مرتب نامعتبر است"
+  },
+  "error_INVALID_CHAIN_PROBE": {
+    "message": "آزمایش زنجیره نامعتبر است"
+  },
+  "error_INVALID_COMPANION_RESPONSE": {
+    "message": "مؤلفه همراه محلی پاسخ نامعتبر برگرداند. آن را به‌روز یا تعمیر کنید."
+  },
+  "error_INVALID_CONTENT": {
+    "message": "پاسخ اشتراک محتوای معتبر ندارد."
+  },
+  "error_INVALID_DOMAIN_PATTERNS": {
+    "message": "الگوهای دامنه را با ویرگول جدا کنید؛ هر URL را در سطر جداگانه بنویسید"
+  },
+  "error_INVALID_ENCODING": {
+    "message": "پاسخ اشتراک متن معتبر UTF-8 نیست."
+  },
+  "error_INVALID_FOLDER_REQUEST": {
+    "message": "درخواست پوشه نامعتبر است"
+  },
+  "error_INVALID_GROUP_ACTION": {
+    "message": "این عملیات گروه پشتیبانی نمی‌شود."
+  },
+  "error_INVALID_HOP_INDEX": {
+    "message": "شاخص گام نامعتبر است"
+  },
+  "error_INVALID_LEGACY_PREDECESSOR": {
+    "message": "پراکسی پیشین قدیمی نامعتبر است"
+  },
+  "error_INVALID_LIBRARY_COMMAND": {
+    "message": "این فرمان کتابخانه گره پشتیبانی نمی‌شود."
+  },
+  "error_INVALID_LIBRARY_REQUEST": {
+    "message": "درخواست کتابخانه نامعتبر است"
+  },
+  "error_INVALID_NAME": {
+    "message": "نامی با 1–128 نویسه قابل‌نمایش و بدون نویسه کنترلی وارد کنید."
+  },
+  "error_INVALID_NETWORK_TEST": {
+    "message": "آزمایش شبکه نامعتبر است"
+  },
+  "error_INVALID_NODE_IMPORT_RESPONSE": {
+    "message": "پاسخ ورود گره نامعتبر است"
+  },
+  "error_INVALID_PREDECESSOR": {
+    "message": "پراکسی پیشین برای این مسیر نامعتبر است"
+  },
+  "error_INVALID_PROFILE_NAME": {
+    "message": "نام نمایه نامعتبر است"
+  },
+  "error_INVALID_PROFILE_REFERENCE": {
+    "message": "ارجاع نمایه نامعتبر است"
+  },
+  "error_INVALID_PROXY_AUTH": {
+    "message": "احراز هویت پراکسی نامعتبر است"
+  },
+  "error_INVALID_PROXY_CREDENTIALS": {
+    "message": "اطلاعات ورود پراکسی نامعتبر است"
+  },
+  "error_INVALID_PROXY_ENDPOINT": {
+    "message": "میزبان و درگاه معتبر پراکسی را وارد کنید"
+  },
+  "error_INVALID_PROXY_HOST": {
+    "message": "نام DNS یا نشانی IP را بدون درگاه، URL، مسیر یا عبارت پرس‌وجو وارد کنید"
+  },
+  "error_INVALID_ROUTE": {
+    "message": "مسیر نامعتبر است"
+  },
+  "error_INVALID_ROUTE_SETTINGS": {
+    "message": "تنظیمات مسیر نامعتبر است"
+  },
+  "error_INVALID_RULES": {
+    "message": "قواعد نامعتبرند"
+  },
+  "error_INVALID_RULE_TARGET": {
+    "message": "برای هر قاعده یک گره یا نمایه معتبر انتخاب کنید"
+  },
+  "error_INVALID_SUBSCRIPTION": {
+    "message": "اشتراک نامعتبر است"
+  },
+  "error_INVALID_SUBSCRIPTION_REQUEST": {
+    "message": "درخواست اشتراک نامعتبر است"
+  },
+  "error_INVALID_SUBSCRIPTION_SETTINGS": {
+    "message": "تنظیمات اشتراک نامعتبر است. فاصله به‌روزرسانی و سیاست اتصال را بررسی کنید."
+  },
+  "error_INVALID_SYSTEM_PROXY_RESPONSE": {
+    "message": "پاسخ پراکسی سیستم نامعتبر است؛ مؤلفه همراه را به‌روز یا تعمیر کنید"
+  },
+  "error_INVALID_TRANSPORT": {
+    "message": "تنظیمات اتصال اشتراک نامعتبر است."
+  },
+  "error_INVALID_URL": {
+    "message": "یک URL معتبر اشتراک HTTP(S) بدون نام کاربری یا گذرواژه وارد کنید."
+  },
+  "error_LIBRARY_CHANGED": {
+    "message": "کتابخانه گره در پنجره دیگری تغییر کرده است. تازه‌سازی و دوباره تلاش کنید."
+  },
+  "error_MANUAL_CHAIN_UNSUPPORTED": {
+    "message": "پراکسی‌های دستی زنجیره گره نمی‌پذیرند"
+  },
+  "error_MANUAL_PROXY_CLEANUP_FAILED": {
+    "message": "ذخیره ناموفق بود؛ یک پراکسی موقت واردشده در کتابخانه گره باقی مانده است"
+  },
+  "error_NATIVE_BINDING_ID": {
+    "message": "شناسه اتصال مسیر نامعتبر است."
+  },
+  "error_NATIVE_BINDING_UNKNOWN": {
+    "message": "اتصال مسیر وجود ندارد."
+  },
+  "error_NATIVE_BUTTON_NAME": {
+    "message": "نام دکمه باید شامل 1–128 نویسه قابل‌نمایش باشد."
+  },
+  "error_NATIVE_CATALOG_UNREADABLE": {
+    "message": "خواندن پیکربندی v2rayN ممکن نبود."
+  },
+  "error_NATIVE_CORE_MISSING": {
+    "message": "Xray در دسترس نیست. بسته مؤلفه همراه را نصب کنید."
+  },
+  "error_NATIVE_GROUP_ID_COLLISION": {
+    "message": "شناسه‌های گروه با هم تداخل دارند."
+  },
+  "error_NATIVE_GROUP_ORDER": {
+    "message": "ترتیب گروه‌ها نامعتبر است."
+  },
+  "error_NATIVE_NODE_ID_COLLISION": {
+    "message": "شناسه‌های گره با هم تداخل دارند."
+  },
+  "error_NATIVE_PREDECESSOR_AMBIGUOUS": {
+    "message": "نام پراکسی پیشین وجود ندارد یا تکراری است. یک گره پیشین مشخص انتخاب کنید."
+  },
+  "error_NATIVE_PREDECESSOR_CYCLE": {
+    "message": "زنجیره پیشین حلقه دارد یا بیش از شش گره است."
+  },
+  "error_NATIVE_PREDECESSOR_INVALID": {
+    "message": "یک پراکسی پیشین معتبر انتخاب کنید."
+  },
+  "error_NATIVE_PREDECESSOR_MISSING": {
+    "message": "پراکسی پیشین انتخاب‌شده دیگر وجود ندارد. گره دیگری انتخاب کنید."
+  },
+  "error_NATIVE_PREDECESSOR_SETTINGS": {
+    "message": "تنظیمات پراکسی پیشین نامعتبر است."
+  },
+  "error_NATIVE_ROUTE_INVALID": {
+    "message": "یک مسیر معتبر انتخاب کنید."
+  },
+  "error_NATIVE_ROUTE_MISSING": {
+    "message": "این مسیر دیگر وجود ندارد. مسیر دیگری انتخاب کنید."
+  },
+  "error_NATIVE_ROUTE_PORTS": {
+    "message": "تخصیص درگاه‌های مسیر نامعتبر است."
+  },
+  "error_NATIVE_ROUTE_UNAVAILABLE": {
+    "message": "مسیر انتخاب‌شده در دسترس نیست. جزئیات فنی را ببینید."
+  },
+  "error_NATIVE_SETTINGS_FORMAT": {
+    "message": "قالب تنظیمات نامعتبر است."
+  },
+  "error_NATIVE_SETTINGS_REVISION": {
+    "message": "بازبینی تنظیمات نامعتبر است."
+  },
+  "error_NATIVE_SUCCESSOR_UNSUPPORTED": {
+    "message": "این گروه از پراکسی پسین پشتیبانی‌نشده استفاده می‌کند."
+  },
+  "error_NATIVE_UNSUPPORTED_CUSTOM": {
+    "message": "این نسخه از پیکربندی‌های خروجی سفارشی پشتیبانی نمی‌کند."
+  },
+  "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
+    "message": "این نسخه از Hysteria2 پشتیبانی نمی‌کند."
+  },
+  "error_NATIVE_UNSUPPORTED_TUIC": {
+    "message": "این نسخه هسته sing-box موردنیاز TUIC را یکپارچه نکرده است."
+  },
+  "error_NATIVE_UNSUPPORTED_TYPE": {
+    "message": "این نوع مسیر پشتیبانی نمی‌شود."
+  },
+  "error_NATIVE_V2RAYN_PORT": {
+    "message": "درگاه محلی v2rayN نامعتبر است."
+  },
+  "error_NATIVE_V2RAYN_UNAVAILABLE": {
+    "message": "v2rayN در دسترس نیست. یک گره واردشده انتخاب کنید."
+  },
+  "error_NETWORK_FAILED": {
+    "message": "درخواست شبکه ناموفق بود. اتصال را بررسی و دوباره تلاش کنید."
+  },
+  "error_NETWORK_TEST_FAILED": {
+    "message": "عیب‌یابی شبکه ناموفق بود. جزئیات فنی را ببینید."
+  },
+  "error_NODE_LIMIT": {
+    "message": "این عملیات از حد مجاز گره‌ها عبور می‌کند. گره‌های بدون استفاده را حذف و دوباره تلاش کنید."
+  },
+  "error_NODE_MAPPING_INCOMPLETE": {
+    "message": "نگاشت گره‌ها ناقص است"
+  },
+  "error_NODE_NOT_FOUND": {
+    "message": "گره انتخاب‌شده دیگر وجود ندارد. گره دیگری انتخاب کنید."
+  },
+  "error_NOT_DUE": {
+    "message": "هنوز زمان به‌روزرسانی برنامه‌ریزی‌شده بعدی نرسیده است."
+  },
+  "error_PAC_ENTRY_REQUIRED": {
+    "message": "کد PAC دارای FindProxyForURL را وارد کنید"
+  },
+  "error_PAC_FUNCTION_REQUIRED": {
+    "message": "FindProxyForURL را به‌صورت تابع همگام سطح بالا، متغیر تابع یا انتساب تعریف کنید"
+  },
+  "error_PAC_PARSER_UNAVAILABLE": {
+    "message": "تجزیه‌گر PAC همراه بسته در دسترس نیست؛ افزونه را دوباره نصب کنید"
+  },
+  "error_PAC_RULE_TARGET_UNSUPPORTED": {
+    "message": "قواعد خودکار نمی‌توانند نمایه PAC درون‌خطی را هدف قرار دهند"
+  },
+  "error_PAC_SOURCE_LIMIT": {
+    "message": "کد PAC با حداکثر {limit} نویسه وارد کنید"
+  },
+  "error_PAC_SYNTAX_INVALID": {
+    "message": "نحو PAC نامعتبر است"
+  },
+  "error_PAC_SYNTAX_LOCATION": {
+    "message": "نحو PAC در سطر {line}، ستون {column} نامعتبر است"
+  },
+  "error_PARTIAL_TRANSFER": {
+    "message": "انتقال آزمایشی پیش از دریافت همه داده‌ها پایان یافت."
+  },
+  "error_PRIVATE_DIRECTORY_FAILED": {
+    "message": "ایمن‌سازی پوشه خصوصی آزمایش ممکن نبود. آزمایش متوقف شد."
+  },
+  "error_PRIVATE_TARGET": {
+    "message": "درخواست اشتراک به نشانی‌های خصوصی یا محلی مجاز نیست."
+  },
+  "error_PROFILE_NOT_FOUND": {
+    "message": "نمایه پیدا نشد"
+  },
+  "error_PROFILE_REFERENCE_CYCLE": {
+    "message": "ارجاع‌های نمایه حلقوی هستند"
+  },
+  "error_PROFILE_REFERENCE_DEPTH": {
+    "message": "عمق قواعد خودکار از حداکثر {limit} بیشتر است"
+  },
+  "error_PROFILE_REFERENCE_MISSING": {
+    "message": "نمایه ارجاع‌شده وجود ندارد: {name}"
+  },
+  "error_PROFILE_SAVE_RESTORE_FAILED": {
+    "message": "ذخیره ناموفق بود و بازیابی مسیر نیاز به رسیدگی دارد"
+  },
+  "error_PROXY_AUTH_REQUIRED": {
+    "message": "پراکسی اشتراک به احراز هویتی نیاز دارد که این درخواست نمی‌تواند فراهم کند."
+  },
+  "error_PROXY_CONTROL_UNAVAILABLE": {
+    "message": "افزونه یا سیاست دیگری پراکسی را کنترل می‌کند"
+  },
+  "error_PROXY_DNS_REQUIRED": {
+    "message": "در V2Route، درخواست DNS برای SOCKS5 از طریق پراکسی حل می‌شود"
+  },
+  "error_PROXY_FAILED": {
+    "message": "اتصال پراکسی ناموفق بود. مسیر انتخاب‌شده را بررسی کنید."
+  },
+  "error_PROXY_PROFILE_REQUIRED": {
+    "message": "یک نمایه پراکسی انتخاب کنید"
+  },
+  "error_PROXY_ROLLBACK_REFUSED": {
+    "message": "مرورگر بازگرداندن پراکسی را نپذیرفت"
+  },
+  "error_PROXY_SETTING_REFUSED": {
+    "message": "مرورگر تنظیم پراکسی را نپذیرفت"
+  },
+  "error_PROXY_UNAVAILABLE": {
+    "message": "پراکسی انتخاب‌شده در دسترس نیست. مسیر فعلی را بررسی کنید."
+  },
+  "error_PROXY_USERNAME_REQUIRED": {
+    "message": "نام کاربری پراکسی را وارد کنید"
+  },
+  "error_RECOVERY_BINDINGS_LIMIT": {
+    "message": "حداکثر {limit} اتصال گره قابل بازیابی است. نمایه‌های ارجاع‌شده را جداگانه باز و ذخیره کنید."
+  },
+  "error_REDIRECT_LIMIT": {
+    "message": "تعداد تغییرمسیرهای اشتراک بیش از حد است. URL آن را بررسی کنید."
+  },
+  "error_REFERENCED_PROFILE_DELETE": {
+    "message": "یک قاعده خودکار به این نمایه ارجاع می‌دهد"
+  },
+  "error_REMOTE_PAC_UNSUPPORTED": {
+    "message": "از کد PAC درون‌خطی استفاده کنید؛ PAC راه‌دور پشتیبانی نمی‌شود"
+  },
+  "error_ROUTE_PORT_UNAVAILABLE": {
+    "message": "هیچ درگاهی تخصیص نیافته است"
+  },
+  "error_ROUTE_RECOVERY_RESTORE_FAILED": {
+    "message": "بازیابی مسیر ناموفق بود و بازگردانی نیاز به رسیدگی دارد"
+  },
+  "error_ROUTE_REVISION_CONFLICT": {
+    "message": "مسیر در پنجره دیگری تغییر کرده است. ابتدا تازه‌سازی کنید"
+  },
+  "error_ROUTE_SAVE_ROLLBACK_FAILED": {
+    "message": "ذخیره مسیر ناموفق بود و بازگردانی نیاز به رسیدگی دارد"
+  },
+  "error_ROUTE_UNAVAILABLE": {
+    "message": "مسیر آزمایش در دسترس نیست. تنظیمات گره و پراکسی پیشین را بررسی کنید."
+  },
+  "error_RULE_BINDING_MISSING": {
+    "message": "اتصال قاعده گره وجود ندارد. نمایه خودکار را دوباره باز و ذخیره کنید: {name}"
+  },
+  "error_RULE_NODES_LIMIT": {
+    "message": "قواعد خودکار حداکثر از {limit} گره مجزا پشتیبانی می‌کنند"
+  },
+  "error_RULE_NODE_CHANGED": {
+    "message": "قاعده گره در دسترس نیست یا تغییر کرده است. گره را بازیابی کنید یا گره دیگری انتخاب و ذخیره کنید: {name}"
+  },
+  "error_RULE_PATH_CONFLICT": {
+    "message": "مسیرهای قواعد گره با هم تداخل دارند"
+  },
+  "error_RULE_PATTERNS_LIMIT": {
+    "message": "قواعد خودکار در مجموع حداکثر از {limit} الگوی تطبیق پشتیبانی می‌کنند"
+  },
+  "error_RULE_PORT_UNAVAILABLE": {
+    "message": "درگاه قاعده گره در دسترس نیست"
+  },
+  "error_RULE_REVISION_CONFLICT": {
+    "message": "قاعده گره در پنجره دیگری تغییر کرده است. ابتدا تازه‌سازی کنید"
+  },
+  "error_SELECTED_NODE_UNAVAILABLE": {
+    "message": "گره انتخاب‌شده در دسترس نیست. آن را بازیابی یا گره دیگری انتخاب کنید"
+  },
+  "error_SOCKS_FAILED": {
+    "message": "برقراری اتصال SOCKS ممکن نبود."
+  },
+  "error_STARTUP_FALLBACK_REFUSED": {
+    "message": "مرورگر پراکسی جایگزین هنگام راه‌اندازی را نپذیرفت."
+  },
+  "error_SUBSCRIPTION_CHANGED": {
+    "message": "اشتراک حین به‌روزرسانی تغییر کرده است. تازه‌سازی و دوباره تلاش کنید."
+  },
+  "error_SUBSCRIPTION_HTTP_STATUS": {
+    "message": "سرور اشتراک HTTP {status} برگرداند."
+  },
+  "error_SUBSCRIPTION_LIMIT": {
+    "message": "تعداد اشتراک‌ها به حد مجاز رسیده است. یک اشتراک بدون استفاده را حذف و دوباره تلاش کنید."
+  },
+  "error_SUBSCRIPTION_NOT_FOUND": {
+    "message": "اشتراک انتخاب‌شده دیگر وجود ندارد."
+  },
+  "error_SYSTEM_PROXY_SNAPSHOT_UNAVAILABLE": {
+    "message": "تصویر ذخیره‌شده پراکسی سیستم که اعمال شده بود در دسترس نیست."
+  },
+  "error_SYSTEM_PROXY_TIMEOUT": {
+    "message": "مهلت خواندن پراکسی سیستم تمام شد"
+  },
+  "error_SYSTEM_PROXY_UNAVAILABLE": {
+    "message": "پراکسی سیستم در دسترس نیست. جزئیات فنی را ببینید."
+  },
+  "error_TIMEOUT": {
+    "message": "مهلت درخواست تمام شد. اتصال را بررسی و دوباره تلاش کنید."
+  },
+  "error_TLS_DOWNGRADE": {
+    "message": "اشتراک از HTTPS به HTTP تغییرمسیر داد و مسدود شد."
+  },
+  "error_TLS_FAILED": {
+    "message": "تأیید اتصال امن ممکن نبود. سرور و گواهی را بررسی کنید."
+  },
+  "error_UNSAFE_TEMP_PATH": {
+    "message": "پوشه موقت آزمایش ناامن است. آزمایش متوقف شد."
+  },
+  "error_UNSUPPORTED_LIBRARY_REQUEST": {
+    "message": "درخواست کتابخانه پشتیبانی نمی‌شود"
+  },
+  "error_UNSUPPORTED_PROFILE_TYPE": {
+    "message": "نوع نمایه پشتیبانی نمی‌شود"
+  },
+  "error_UNSUPPORTED_REQUEST": {
+    "message": "درخواست پشتیبانی نمی‌شود"
+  },
+  "error_UNSUPPORTED_RULE_CONDITION": {
+    "message": "فقط قواعد نویسه جانشین میزبان و URL پشتیبانی می‌شوند"
+  },
+  "error_UPDATE_FAILED": {
+    "message": "به‌روزرسانی اشتراک ناموفق بود. گره‌های موجود حفظ شدند."
+  },
+  "error_VALIDATION_FAILED": {
+    "message": "اعتبارسنجی محتوای اشتراک ممکن نبود. گره‌های موجود حفظ شدند."
+  },
+  "nativeUnnamedNode": {
+    "message": "گره بدون نام"
+  },
+  "nativeProtocolCustom": {
+    "message": "سفارشی"
+  },
+  "nativeProtocolOutbound": {
+    "message": "خروجی سفارشی"
+  },
+  "nativeProtocolGroup": {
+    "message": "گروه سیاست"
+  },
+  "nativeProtocolChain": {
+    "message": "زنجیره پراکسی"
+  },
+  "nativeProtocolUnknown": {
+    "message": "نوع پشتیبانی‌نشده"
+  },
+  "languageLoadFailed": {
+    "message": "بارگیری زبان انتخاب‌شده ممکن نبود. دوباره تلاش کنید."
+  },
+  "invalidBackupJSON": {
+    "message": "پشتیبان، JSON معتبر نیست."
+  },
+  "noticeBodyLanguages": {
+    "message": "متن کامل سیاست به انگلیسی و چینی ساده‌شده در دسترس است."
+  },
+  "policyRules": {
+    "message": "قواعد مسیریابی پراکسی"
+  },
+  "policyPriority": {
+    "message": "ترتیب: نشانی‌های مستثنا → نخستین قاعدهٔ منطبق → مسیر پیش‌فرض."
+  },
+  "policyDirectHelp": {
+    "message": "نشانی‌های نامنطبق مستقیم متصل می‌شوند. دکمهٔ اتصال مستقیم در پنجرهٔ بازشو نیز این قواعد را به کار می‌برد."
+  },
+  "policySystemHelp": {
+    "message": "نشانی‌های نامنطبق از پراکسی سیستم استفاده می‌کنند. دکمهٔ سیستم در پنجرهٔ بازشو نیز این قواعد را به کار می‌برد."
+  },
+  "policyEmpty": {
+    "message": "هنوز قاعده‌ای نیست. مسیر پیش‌فرض استفاده می‌شود."
+  },
+  "policyAddressHelp": {
+    "message": "دامنه، دامنه با نویسهٔ عام، IP یا IP:درگاه. قواعد IP با IP در URL تطبیق می‌یابند، نه نتایج DNS."
+  },
+  "policyMoveUp": {
+    "message": "انتقال قاعده به بالا"
+  },
+  "policyMoveDown": {
+    "message": "انتقال قاعده به پایین"
+  }
+}

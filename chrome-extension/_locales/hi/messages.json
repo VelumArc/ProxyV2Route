@@ -1,0 +1,2150 @@
+{
+  "ruleTargetUnavailable": {
+    "message": "अनुपलब्ध लक्ष्य"
+  },
+  "rulePatternPlaceholder": {
+    "message": "example.com, *.example.org, 192.0.2.1:8443"
+  },
+  "rulePatternHelp": {
+    "message": "पते कॉमा से अलग करें। हर URL पैटर्न अलग पंक्ति में रखें। PAC को HTTPS पथ शायद न दिखें।"
+  },
+  "defaultChoice_direct": {
+    "message": "प्रॉक्सी के बिना कनेक्ट करें"
+  },
+  "defaultChoice_system": {
+    "message": "सिस्टम प्रॉक्सी सेटिंग्स का उपयोग करें"
+  },
+  "defaultChoice_node": {
+    "message": "इस प्रोफ़ाइल के चयनित नोड का उपयोग करें"
+  },
+  "defaultChoice_manual": {
+    "message": "इस प्रोफ़ाइल की प्रॉक्सी सेटिंग्स का उपयोग करें"
+  },
+  "defaultChoice_auto": {
+    "message": "इस प्रोफ़ाइल के रूटिंग नियम लागू करें"
+  },
+  "nlHttpsLatency": {
+    "message": "HTTPS प्रतिक्रिया"
+  },
+  "nlLatencyMethod": {
+    "message": "Cloudflare · न्यूनतम दो प्रतिक्रियाएं · उपलब्ध होने पर कनेक्शन का पुन: उपयोग करें"
+  },
+  "nlLatencyFast": {
+    "message": "तेज़"
+  },
+  "nlLatencyModerate": {
+    "message": "मध्यम"
+  },
+  "nlLatencySlow": {
+    "message": "धीमा"
+  },
+  "nlSortName": {
+    "message": "नाम"
+  },
+  "nlSortLatency": {
+    "message": "विलंबता: निम्न से उच्च"
+  },
+  "nlSortDownload": {
+    "message": "डाउनलोड: उच्च से निम्न"
+  },
+  "nlSortUpload": {
+    "message": "अपलोड: उच्च से निम्न"
+  },
+  "nlSingle": {
+    "message": "एकल नोड"
+  },
+  "nlGroupBatch": {
+    "message": "समूह/बैच"
+  },
+  "nlTestScope": {
+    "message": "परीक्षण का दायरा"
+  },
+  "nlCurrentNode": {
+    "message": "चयनित नोड"
+  },
+  "nlCurrentGroup": {
+    "message": "चयनित समूह"
+  },
+  "nlChooseNode": {
+    "message": "सूची में एक नोड चुनें"
+  },
+  "nlStart": {
+    "message": "परीक्षण प्रारंभ करें"
+  },
+  "nlService": {
+    "message": "परीक्षण सेवा"
+  },
+  "nlMeasured": {
+    "message": "मापा गया"
+  },
+  "nlMeanLatency": {
+    "message": "औसत विलंबता"
+  },
+  "nlGroupBySource": {
+    "message": "स्रोत समूह द्वारा"
+  },
+  "nlPreviousPage": {
+    "message": "पिछला पृष्ठ"
+  },
+  "nlNextPage": {
+    "message": "अगला पृष्ठ"
+  },
+  "nlName": {
+    "message": "नाम"
+  },
+  "nlEdit": {
+    "message": "संपादित करें"
+  },
+  "nlStop": {
+    "message": "रुकें"
+  },
+  "nlConfirm": {
+    "message": "पुष्टि करें"
+  },
+  "nlAllNodes": {
+    "message": "सभी नोड्स"
+  },
+  "nlNodeResults": {
+    "message": "नोड परिणाम"
+  },
+  "nlTestCenter": {
+    "message": "परीक्षण केंद्र"
+  },
+  "nlNewGroup": {
+    "message": "नया समूह"
+  },
+  "nlRenameGroup": {
+    "message": "समूह का नाम बदलें"
+  },
+  "nlRemoveGroup": {
+    "message": "समूह हटाएँ"
+  },
+  "nlRemoveGroupHelp": {
+    "message": "प्रत्येक नोड और सदस्यता को रखें, और उन्हें आयातित नोड्स पर ले जाएं।"
+  },
+  "nlNode": {
+    "message": "नोड"
+  },
+  "nlStatus": {
+    "message": "स्थिति"
+  },
+  "nlActions": {
+    "message": "क्रियाएँ"
+  },
+  "nlSort": {
+    "message": "केवल इस तालिका को क्रमबद्ध करें"
+  },
+  "nlSelected": {
+    "message": "चयनित"
+  },
+  "nlTestNode": {
+    "message": "परीक्षण"
+  },
+  "nlProfileShort": {
+    "message": "प्रोफ़ाइल"
+  },
+  "nlQuick": {
+    "message": "त्वरित विलंबता"
+  },
+  "nlFull": {
+    "message": "डाउनलोड + अपलोड करें"
+  },
+  "nlTraffic": {
+    "message": "डेटा आकार का परीक्षण करें"
+  },
+  "nlConcurrency": {
+    "message": "समवर्ती नोड्स"
+  },
+  "nlTrafficFullOnly": {
+    "message": "डाउनलोड और अपलोड परीक्षणों के लिए उपयोग किया जाता है"
+  },
+  "nlTestMode": {
+    "message": "टेस्ट मोड"
+  },
+  "nlBudget": {
+    "message": "अधिकतम पेलोड ट्रैफ़िक"
+  },
+  "nlViaGroup": {
+    "message": "ग्रुप प्री-प्रॉक्सी के माध्यम से"
+  },
+  "nlTestSelected": {
+    "message": "परीक्षण चयनित"
+  },
+  "nlTestVisible": {
+    "message": "परीक्षण में नोड्स दिखाए गए"
+  },
+  "nlTestAll": {
+    "message": "सभी नोड्स का परीक्षण करें"
+  },
+  "nlTestGroup": {
+    "message": "समूह नोड्स का परीक्षण करें"
+  },
+  "nlProgress": {
+    "message": "मापन प्रगति"
+  },
+  "nlReady": {
+    "message": "शुरू करने के लिए नोड्स चुनें। कोई परीक्षण नहीं चला."
+  },
+  "nlStarting": {
+    "message": "पृथक माप प्रारंभ करना..."
+  },
+  "nlQueued": {
+    "message": "कतारबद्ध"
+  },
+  "nlRunning": {
+    "message": "परीक्षण"
+  },
+  "nlStopping": {
+    "message": "रुकना..."
+  },
+  "nlComplete": {
+    "message": "पूर्ण"
+  },
+  "nlFailed": {
+    "message": "विफल"
+  },
+  "nlStopped": {
+    "message": "रुक गया"
+  },
+  "nlPartial": {
+    "message": "आंशिक"
+  },
+  "nlUntested": {
+    "message": "परीक्षण नहीं किया गया"
+  },
+  "nlSucceeded": {
+    "message": "उत्तीर्ण"
+  },
+  "nlMeasureDisconnected": {
+    "message": "माप कनेक्शन समाप्त हो गया। अपूर्ण मान अंतिम परिणाम नहीं हैं."
+  },
+  "nlUpgrade": {
+    "message": "समूहों और सदस्यताओं को प्रबंधित करने के लिए स्थानीय सहयोगी को अपडेट करें। मौजूदा नोड उपलब्ध रहते हैं."
+  },
+  "nlOperationFailed": {
+    "message": "ऑपरेशन पूरा नहीं हो सका। पुनः प्रयास करें।"
+  },
+  "nlEditSubscription": {
+    "message": "सदस्यता संपादित करें"
+  },
+  "nlPasteContent": {
+    "message": "प्रॉक्सी लिंक/सामग्री"
+  },
+  "nlSubscriptionURL": {
+    "message": "सदस्यता URL"
+  },
+  "nlKeepURL": {
+    "message": "सहेजे जाने के लिए खाली छोड़ें URL"
+  },
+  "nlConnectionPolicy": {
+    "message": "कनेक्शन अद्यतन करें"
+  },
+  "nlProxyFirst": {
+    "message": "पहले प्रॉक्सी, फिर विफलता पर प्रत्यक्ष"
+  },
+  "nlProxyOnly": {
+    "message": "केवल प्रॉक्सी"
+  },
+  "nlDirectOnly": {
+    "message": "केवल प्रत्यक्ष"
+  },
+  "nlProxyFirstHelp": {
+    "message": "सफल फ़ेच के बाद प्रॉक्सी सबसे पहले रुकती है। डायरेक्ट का प्रयास केवल तभी किया जाता है जब प्रॉक्सी प्रयास विफल हो जाता है।"
+  },
+  "nlAutoUpdate": {
+    "message": "स्वचालित अपडेट सक्षम करें"
+  },
+  "nlInterval": {
+    "message": "अद्यतन अंतराल (मिनट)"
+  },
+  "nlDestinationGroup": {
+    "message": "गंतव्य समूह"
+  },
+  "nlSubscriptionOwnGroup": {
+    "message": "नया समूह..."
+  },
+  "nlNameGroup": {
+    "message": "नाम (समूह)"
+  },
+  "nlCustomGroup": {
+    "message": "कस्टम समूह"
+  },
+  "nlNameRequired": {
+    "message": "एक नाम दर्ज करें।"
+  },
+  "nlContentRequired": {
+    "message": "प्रॉक्सी लिंक या सदस्यता सामग्री चिपकाएँ।"
+  },
+  "nlGroupRequired": {
+    "message": "एक गंतव्य समूह चुनें।"
+  },
+  "nlURLRequired": {
+    "message": "उपयोगकर्ता नाम या पासवर्ड के बिना एक HTTP(एस) सदस्यता URL दर्ज करें।"
+  },
+  "nlIntervalInvalid": {
+    "message": "5 से 43200 मिनट तक एक पूर्ण संख्या दर्ज करें।"
+  },
+  "folderTitle": {
+    "message": "v2rayN फ़ोल्डर चुनें"
+  },
+  "folderHint": {
+    "message": "एक फ़ोल्डर चुनें, फिर इसे सेव कनेक्शन सेटिंग्स के साथ लागू करें।"
+  },
+  "folderPath": {
+    "message": "पूर्ण स्थानीय फ़ोल्डर पथ"
+  },
+  "folderGo": {
+    "message": "खुला"
+  },
+  "folderUp": {
+    "message": "ऊपर"
+  },
+  "folderDrives": {
+    "message": "ड्राइव"
+  },
+  "folderCurrent": {
+    "message": "वर्तमान पथ"
+  },
+  "folderChoose": {
+    "message": "इस फ़ोल्डर का उपयोग करें"
+  },
+  "folderList": {
+    "message": "फ़ोल्डर्स"
+  },
+  "folderTruncated": {
+    "message": "लिस्टिंग सीमित है। जो फ़ोल्डर नहीं दिखाया गया है उसे खोलने के लिए ऊपर पूरा पथ दर्ज करें।"
+  },
+  "folderReady": {
+    "message": "v2rayN फ़ाइलें मिलीं। कॉन्फ़िगरेशन को सत्यापित करने के लिए इस फ़ोल्डर का उपयोग करें।"
+  },
+  "folderInvalid": {
+    "message": "guiConfigs, guiNConfig.json और guiNDB.db वाला फ़ोल्डर चुनें।"
+  },
+  "folderSelectDrive": {
+    "message": "एक स्थानीय ड्राइव चुनें या एक पूर्ण फ़ोल्डर पथ दर्ज करें।"
+  },
+  "folderEmpty": {
+    "message": "कोई दृश्यमान सबफ़ोल्डर नहीं।"
+  },
+  "folderUnavailable": {
+    "message": "इस फ़ोल्डर को ब्राउज़ नहीं किया जा सकता। इसका पथ और पहुंच जांचें. यदि साथी पुराना है, तो पहले उसे अपडेट करें।"
+  },
+  "folderValidating": {
+    "message": "v2rayN कॉन्फ़िगरेशन को मान्य किया जा रहा है…"
+  },
+  "folderInvalidConfig": {
+    "message": "v2rayN कॉन्फ़िगरेशन या डेटाबेस अधूरा या अमान्य है। कोई अन्य फ़ोल्डर चुनें."
+  },
+  "copyPath": {
+    "message": "प्रतिलिपि पथ"
+  },
+  "pathCopyHint": {
+    "message": "इस क्षेत्र में वर्तमान में पथ की प्रतिलिपि बनाएँ।"
+  },
+  "preMode": {
+    "message": "प्री-प्रॉक्सी मोड"
+  },
+  "preNode": {
+    "message": "प्री-प्रॉक्सी नोड"
+  },
+  "preIntro": {
+    "message": "समूह श्रृंखला का उपयोग करें, इसे छोड़ें, या इस प्रोफ़ाइल के लिए प्री-प्रॉक्सी चुनें।"
+  },
+  "healthLabel": {
+    "message": "वर्तमान कनेक्शन स्थिति"
+  },
+  "healthOk": {
+    "message": "सामान्य"
+  },
+  "healthError": {
+    "message": "असामान्य"
+  },
+  "healthChecking": {
+    "message": "जाँच हो रही है"
+  },
+  "healthUnknown": {
+    "message": "अपुष्ट"
+  },
+  "autoSystemHelp": {
+    "message": "सिस्टम नियमों के लिए Windows घटक और स्थिर प्रॉक्सी सेटिंग का स्नैपशॉट चाहिए। बदलाव के बाद फिर लागू करें। PAC/WPAD समर्थित नहीं हैं; बिना नियम वाला सिस्टम ब्राउज़र की मूल सेटिंग उपयोग करता है।"
+  },
+  "backgroundUnavailable": {
+    "message": "एक्सटेंशन पृष्ठभूमि अनुपलब्ध है।"
+  },
+  "backgroundNoResponse": {
+    "message": "पृष्ठभूमि ने कोई प्रतिक्रिया नहीं दी।"
+  },
+  "backupTooLarge": {
+    "message": "बैकअप 5 एमबी से अधिक है।"
+  },
+  "proxyUsername": {
+    "message": "उपयोगकर्ता नाम"
+  },
+  "proxyPassword": {
+    "message": "पासवर्ड"
+  },
+  "proxyAuthHelp": {
+    "message": "वैकल्पिक। प्रमाणित प्रॉक्सी कंपेनियन के माध्यम से जुड़ते हैं। क्रेडेंशियल इस ब्राउज़र कॉन्फ़िगरेशन और कंपेनियन में संग्रहीत हैं, और प्रोफ़ाइल निर्यात में शामिल हैं।"
+  },
+  "proxyAuthSocks4": {
+    "message": "SOCKS4 इस उपयोगकर्ता नाम/पासवर्ड प्रमाणीकरण का समर्थन नहीं करता है; HTTP(एस) या SOCKS5 का उपयोग करें।"
+  },
+  "importExamples": {
+    "message": "प्रारूप उदाहरण"
+  },
+  "ipCopying": {
+    "message": "कॉपी किया जा रहा है..."
+  },
+  "netDnsUnavailable": {
+    "message": "सर्वर पते का समय पर समाधान नहीं किया जा सका। होस्ट या IP पता जांचें और पुनः प्रयास करें।"
+  },
+  "netCurrentTarget": {
+    "message": "चयनित प्रॉक्सी समापन बिंदु"
+  },
+  "netCustomTarget": {
+    "message": "कस्टम सर्वर"
+  },
+  "netHost": {
+    "message": "होस्ट या IP पता"
+  },
+  "netPort": {
+    "message": "TCP बंदरगाह"
+  },
+  "netHostRequired": {
+    "message": "एक सर्वर होस्ट या IP पता दर्ज करें।"
+  },
+  "netCurrentUnavailable": {
+    "message": "एक नोड या मैन्युअल प्रॉक्सी प्रोफ़ाइल चुनें, या एक कस्टम लक्ष्य दर्ज करें।"
+  },
+  "netInvalidTarget": {
+    "message": "एक वैध डायग्नोस्टिक होस्ट और पोर्ट दर्ज करें।"
+  },
+  "netIpv6PingUnavailable": {
+    "message": "IPv6 ICMP उपलब्ध नहीं है; TCPing का उपयोग करें।"
+  },
+  "preNeedsFix": {
+    "message": "सहेजने से पहले एक वैध प्री-प्रॉक्सी या नो प्री-प्रॉक्सी चुनें।"
+  },
+  "preConfigure": {
+    "message": "प्री-प्रॉक्सी कॉन्फ़िगर करें"
+  },
+  "preFollowInvalid": {
+    "message": "फॉलो करें v2rayN कस्टम प्री-प्रॉक्सी स्वीकार नहीं करता है।"
+  },
+  "followChainHelp": {
+    "message": "फॉलो रूट और प्रॉक्सी श्रृंखला का उपयोग करता है जो v2rayN में पहले से ही सक्रिय है।"
+  },
+  "netTitle": {
+    "message": "कनेक्शन परीक्षण"
+  },
+  "ipTestDetails": {
+    "message": "परीक्षण विवरण"
+  },
+  "netTarget": {
+    "message": "पिंग / TCPing लक्ष्य"
+  },
+  "netDownload": {
+    "message": "परीक्षण डाउनलोड करें"
+  },
+  "netPartial": {
+    "message": "आंशिक नमूना"
+  },
+  "netComplete": {
+    "message": "नमूना पूरा"
+  },
+  "netDirect": {
+    "message": "सिस्टम नेटवर्क"
+  },
+  "netUnreachable": {
+    "message": "कोई उत्तर नहीं/असफल"
+  },
+  "netAverage": {
+    "message": "औसत"
+  },
+  "predecessor": {
+    "message": "प्री-प्रॉक्सी"
+  },
+  "preInherit": {
+    "message": "v2rayN समूह श्रृंखला का उपयोग करें"
+  },
+  "preNone": {
+    "message": "कोई प्री-प्रॉक्सी नहीं"
+  },
+  "preSpecific": {
+    "message": "एक नोड चुनें"
+  },
+  "preHelp": {
+    "message": "इस प्रोफ़ाइल पर लागू होता है। v2rayN समूह श्रृंखला का उपयोग करें, कोई पूर्व-प्रॉक्सी या विशिष्ट नोड नहीं। फ़ॉलो करें v2rayN अपनी मौजूदा श्रृंखला का उपयोग करता है।"
+  },
+  "preSelectRequired": {
+    "message": "एक प्री-प्रॉक्सी नोड चुनें, या समूह डिफ़ॉल्ट / कोई नहीं चुनें।"
+  },
+  "ipPing0Permission": {
+    "message": "सार्वजनिक रिपोर्ट लोड करने के लिए Ping0 वेबसाइट एक्सेस की अनुमति दें।"
+  },
+  "ipPublicChallenge": {
+    "message": "वेबसाइट को सत्यापन की आवश्यकता है। इसे पूरा करने और परिणाम देखने के लिए Ping0 पृष्ठ खोलें।"
+  },
+  "ipPublicReport": {
+    "message": "Ping0 सार्वजनिक रिपोर्ट"
+  },
+  "ipPublicSource": {
+    "message": "स्रोत: Ping0 सार्वजनिक पृष्ठ"
+  },
+  "ipPublicOriginal": {
+    "message": "Ping0 रिपोर्ट"
+  },
+  "ipPublicPartial": {
+    "message": "केवल सार्वजनिक पृष्ठ पर प्रदान किए गए फ़ील्ड, उनकी मूल भाषा में दिखाए जाते हैं। वर्गीकरण और साझा-उपयोगकर्ता अनुमान Ping0 से हैं।"
+  },
+  "setupTitle": {
+    "message": "कनेक्ट करें Proxy V2Route"
+  },
+  "setupIntro": {
+    "message": "v2rayN मार्गों या अपने स्वयं के आयातित नोड्स का उपयोग करने के लिए Windows साथी स्थापित करें।"
+  },
+  "setupStepOne": {
+    "message": "मिलान पूर्ण Windows पैकेज को एक स्थायी फ़ोल्डर में निकालें।"
+  },
+  "setupStepTwo": {
+    "message": "V2Route-Setup.exe खोलें और इंस्टॉल पर क्लिक करें।"
+  },
+  "setupStepThree": {
+    "message": "यहां लौटें और कनेक्शन की जांच करें। यदि आवश्यक हो तो v2rayN फ़ोल्डर चुनें।"
+  },
+  "setupCheck": {
+    "message": "कनेक्शन जांचें"
+  },
+  "downloadCompanion": {
+    "message": "इंस्टालेशन गाइड ↗"
+  },
+  "setupDownloadNote": {
+    "message": "मिलान वाले स्थानीय Windows पैकेज का उपयोग करें, या वर्तमान स्रोत से इसे बनाने के लिए गाइड का पालन करें।"
+  },
+  "chooseFolder": {
+    "message": "v2rayN फ़ोल्डर चुनें..."
+  },
+  "rescanDone": {
+    "message": "स्थानीय नोड्स को दोबारा स्कैन किया गया"
+  },
+  "grouping": {
+    "message": "समूह नोड्स"
+  },
+  "groupByCountry": {
+    "message": "देश के अनुसार"
+  },
+  "unknownCountry": {
+    "message": "अन्य/अज्ञात"
+  },
+  "ungrouped": {
+    "message": "असमूहीकृत"
+  },
+  "adjustNodeFilters": {
+    "message": "किसी अन्य समूह, स्रोत या खोज का प्रयास करें, या छिपे हुए नोड्स दिखाएं।"
+  },
+  "rescanLocal": {
+    "message": "पुनः स्कैन करें v2rayN नोड्स"
+  },
+  "showHidden": {
+    "message": "छिपे हुए नोड्स दिखाएं"
+  },
+  "hideNode": {
+    "message": "छिपाएँ"
+  },
+  "restoreNode": {
+    "message": "पुनर्स्थापित करें"
+  },
+  "hiddenNode": {
+    "message": "छिपा हुआ"
+  },
+  "hideNodeHelp": {
+    "message": "केवल इस ब्राउज़र की नोड लाइब्रेरी से छिपाएँ। v2rayN और मौजूदा प्रोफाइल अपरिवर्तित हैं।"
+  },
+  "ipContextTimeout": {
+    "message": "वर्तमान प्रोफ़ाइल पढ़ने का समय समाप्त हो गया। पुनः प्रयास करें।"
+  },
+  "ipStaleResult": {
+    "message": "वर्तमान प्रोफ़ाइल बदल गई। यह परिणाम पुराना हो सकता है; फिर से जाँचो।"
+  },
+  "ip_tools": {
+    "message": "IP उपकरण"
+  },
+  "ipIntro": {
+    "message": "वर्तमान निकास IP और सार्वजनिक रिपोर्ट।"
+  },
+  "ipCurrentProfile": {
+    "message": "वर्तमान ब्राउज़र प्रोफ़ाइल"
+  },
+  "ipRouteCaution": {
+    "message": "स्वचालित नियम और PAC विभिन्न गंतव्यों के लिए विभिन्न मार्गों का उपयोग कर सकते हैं। यह चेक केवल अपने स्वयं के अनुरोध का वर्णन करता है।"
+  },
+  "ipDisclosure": {
+    "message": "ऑटो-चेक निकास IP · Ping0 द्वारा रिपोर्ट"
+  },
+  "ipMethod": {
+    "message": "पता जांच"
+  },
+  "ipDual": {
+    "message": "IPv4 / IPv6"
+  },
+  "ipCheck": {
+    "message": "दोबारा जांचें"
+  },
+  "ipChecking": {
+    "message": "जाँच हो रही है..."
+  },
+  "ipDualHelp": {
+    "message": "IPv4 / IPv6 इस अनुरोध के लिए प्रयुक्त पता परिवार लौटाता है, दोनों पते नहीं।"
+  },
+  "ipDurationHelp": {
+    "message": "बीता हुआ HTTP अनुरोध समय में नेटवर्क और सेवा प्रतिक्रिया समय शामिल है। यह ICMP पिंग या बैंडविड्थ परीक्षण नहीं है।"
+  },
+  "ipCopy": {
+    "message": "कॉपी IP"
+  },
+  "ipCopied": {
+    "message": "कॉपी किया गया"
+  },
+  "ipCopyFailed": {
+    "message": "कॉपी नहीं किया जा सका। पता चुनें और इसे मैन्युअल रूप से कॉपी करें।"
+  },
+  "ipNoResult": {
+    "message": "अभी तक कोई जाँच नहीं"
+  },
+  "ipContextUnknown": {
+    "message": "प्रोफ़ाइल अनुपलब्ध है"
+  },
+  "ipTimeout": {
+    "message": "चेक का समय समाप्त हो गया। पुनः प्रयास करें या किसी अन्य मार्ग का उपयोग करें।"
+  },
+  "ipCancelled": {
+    "message": "चेक रद्द कर दिया गया"
+  },
+  "ipNetwork": {
+    "message": "ipify तक नहीं पहुंच सका। कनेक्शन की जाँच करें और पुनः प्रयास करें।"
+  },
+  "ipHttp": {
+    "message": "IP सेवा ने अनुरोध स्वीकार नहीं किया। बाद में पुन: प्रयास।"
+  },
+  "ipInvalid": {
+    "message": "IP सेवा ने एक अमान्य प्रतिक्रिया दी।"
+  },
+  "ipFailure": {
+    "message": "चेक विफल हो गया। पुनः प्रयास करें।"
+  },
+  "ipStale": {
+    "message": "जांच के दौरान आपकी प्रॉक्सी सेटिंग्स बदल गईं। पुराना परिणाम खारिज कर दिया गया; फिर से जाँचो।"
+  },
+  "ipQuality": {
+    "message": "बाहरी उपकरण"
+  },
+  "ipQualityPrivacy": {
+    "message": "टूल केवल क्लिक पर चलते हैं। प्रदाताओं को सामान्य कनेक्शन डेटा प्राप्त होता है। वेबसाइट जांच प्रारंभ के बाद क्रेडेंशियल-मुक्त अनुरोध भेजती है। समापन से स्थानीय परीक्षण रुक जाते हैं; बाहरी टैब ब्राउज़र द्वारा प्रबंधित किये जाते हैं."
+  },
+  "ipReport": {
+    "message": "प्रतिलिपि संशोधित रिपोर्ट"
+  },
+  "ipReportCopied": {
+    "message": "संपादित रिपोर्ट की प्रतिलिपि बनाई गई; कोई IP या प्रोफ़ाइल नाम शामिल नहीं हैं।"
+  },
+  "popupSelected": {
+    "message": "चयनित"
+  },
+  "popupFooter": {
+    "message": "v2rayN और नोड प्रोफाइल"
+  },
+  "subtitle": {
+    "message": "स्वतंत्र ब्राउज़र मार्ग"
+  },
+  "profiles": {
+    "message": "प्रोफाइल"
+  },
+  "nodes": {
+    "message": "नोड लाइब्रेरी"
+  },
+  "settings": {
+    "message": "सेटिंग्स"
+  },
+  "connected": {
+    "message": "सक्रिय प्रोफ़ाइल"
+  },
+  "noProfile": {
+    "message": "सिस्टम डिफ़ॉल्ट"
+  },
+  "newProfile": {
+    "message": "नई प्रोफ़ाइल"
+  },
+  "searchProfiles": {
+    "message": "प्रोफ़ाइल खोजें"
+  },
+  "direct": {
+    "message": "सीधा नेटवर्क"
+  },
+  "system": {
+    "message": "सिस्टम प्रॉक्सी"
+  },
+  "follow": {
+    "message": "फ़ॉलो करें v2rayN"
+  },
+  "manual": {
+    "message": "मैनुअल प्रॉक्सी"
+  },
+  "auto": {
+    "message": "ऑटो स्विच"
+  },
+  "pac": {
+    "message": "PAC स्क्रिप्ट"
+  },
+  "virtual": {
+    "message": "आभासी प्रोफ़ाइल"
+  },
+  "profileIntro": {
+    "message": "v2rayN के मुख्य रूट को बदले बिना ब्राउज़र रूट चुनें।"
+  },
+  "nodesIntro": {
+    "message": "स्थानीय v2rayN नोड्स और अपने आयातित लिंक ब्राउज़ करें।"
+  },
+  "settingsIntro": {
+    "message": "स्थानीय संबंध, भाषा और स्वरूप।"
+  },
+  "refresh": {
+    "message": "ताज़ा करें"
+  },
+  "create": {
+    "message": "प्रोफ़ाइल बनाएं"
+  },
+  "name": {
+    "message": "प्रोफ़ाइल नाम"
+  },
+  "type": {
+    "message": "प्रोफ़ाइल प्रकार"
+  },
+  "save": {
+    "message": "सहेजें"
+  },
+  "saved": {
+    "message": "सहेजा गया"
+  },
+  "saving": {
+    "message": "सहेजा जा रहा है..."
+  },
+  "cancel": {
+    "message": "रद्द करें"
+  },
+  "close": {
+    "message": "बंद करें"
+  },
+  "apply": {
+    "message": "इस प्रोफ़ाइल का उपयोग करें"
+  },
+  "applied": {
+    "message": "प्रोफ़ाइल स्विच की गई"
+  },
+  "active": {
+    "message": "सक्रिय"
+  },
+  "delete": {
+    "message": "हटाएं"
+  },
+  "remove": {
+    "message": "हटाएँ"
+  },
+  "rename": {
+    "message": "नाम बदलें"
+  },
+  "route": {
+    "message": "प्रॉक्सी मार्ग"
+  },
+  "selectRoute": {
+    "message": "एक मार्ग चुनें"
+  },
+  "routeMissing": {
+    "message": "मार्ग अनुपलब्ध - दूसरा चुनें"
+  },
+  "chain": {
+    "message": "कनेक्शन श्रृंखला"
+  },
+  "connection": {
+    "message": "स्थानीय कनेक्शन"
+  },
+  "proxy": {
+    "message": "प्रॉक्सी सर्वर"
+  },
+  "address": {
+    "message": "पता"
+  },
+  "port": {
+    "message": "बंदरगाह"
+  },
+  "scheme": {
+    "message": "प्रोटोकॉल"
+  },
+  "proxyDns": {
+    "message": "SOCKS5 DNS प्रॉक्सी के माध्यम से हल होता है।"
+  },
+  "connectedIdle": {
+    "message": "कनेक्टेड · निष्क्रिय"
+  },
+  "bypass": {
+    "message": "बाईपास सूची"
+  },
+  "bypassHelp": {
+    "message": "हर पंक्ति में एक डोमेन, वाइल्डकार्ड डोमेन, IP पता या IP:पोर्ट।"
+  },
+  "advanced": {
+    "message": "उन्नत विकल्प"
+  },
+  "searchRoutes": {
+    "message": "समूह या नोड खोजें"
+  },
+  "selectGroup": {
+    "message": "एक समूह चुनें"
+  },
+  "empty": {
+    "message": "कोई मेल खाने वाला आइटम नहीं"
+  },
+  "unavailable": {
+    "message": "अनुपलब्ध"
+  },
+  "groupHint": {
+    "message": "250 ms के लिए एक समूह को पकड़ें, फिर खींचें। Alt + ↑ / ↓ भी पुन: व्यवस्थित करता है। परिवर्तन स्वचालित रूप से सहेजे जाते हैं."
+  },
+  "searchSort": {
+    "message": "सॉर्ट करने से पहले खोज साफ़ करें।"
+  },
+  "dragHint": {
+    "message": "ऊपर या नीचे ले जाएँ, फिर बचाने के लिए छोड़ें। Esc रद्द करता है."
+  },
+  "orderSaved": {
+    "message": "समूह आदेश सहेजा गया"
+  },
+  "orderCancelled": {
+    "message": "पुनः ऑर्डर करना रद्द कर दिया गया"
+  },
+  "loading": {
+    "message": "लोड हो रहा है..."
+  },
+  "reading": {
+    "message": "स्थानीय नोड्स पढ़ रहा है..."
+  },
+  "nativeMissing": {
+    "message": "स्थानीय घटक कनेक्ट नहीं है"
+  },
+  "retry": {
+    "message": "पुनः प्रयास करें"
+  },
+  "nativeHelp": {
+    "message": "नोड मार्गों के लिए Windows साथी की आवश्यकता होती है। डायरेक्ट, सिस्टम और मैन्युअल प्रॉक्सी अब उपलब्ध हैं।"
+  },
+  "imported": {
+    "message": "आयातित"
+  },
+  "v2rayn": {
+    "message": "v2rayN"
+  },
+  "allSources": {
+    "message": "सभी स्रोत"
+  },
+  "importNodes": {
+    "message": "प्रॉक्सी आयात करें"
+  },
+  "importTitle": {
+    "message": "प्रॉक्सी आयात करें"
+  },
+  "importHelp": {
+    "message": "प्रॉक्सी लिंक, आउटबाउंड JSON या Base64 सदस्यता चिपकाएँ। SOCKS सादे या Base64 क्रेडेंशियल्स का समर्थन करता है। योजना-मुक्त पते का उपयोग करें HTTP।"
+  },
+  "importPrivacy": {
+    "message": "प्रॉक्सी विवरण और क्रेडेंशियल आपके द्वारा चयनित प्रॉक्सी के भंडारण और कनेक्शन के लिए स्थानीय Proxy V2Route साथी को भेज दिए जाते हैं। डेवलपर को यह जानकारी प्राप्त नहीं होती है."
+  },
+  "import": {
+    "message": "प्रोफ़ाइल आयात करें"
+  },
+  "nodeCount": {
+    "message": "नोड्स"
+  },
+  "source": {
+    "message": "स्रोत"
+  },
+  "protocol": {
+    "message": "प्रोटोकॉल"
+  },
+  "useNode": {
+    "message": "प्रोफ़ाइल बनाएं"
+  },
+  "removeNode": {
+    "message": "आयातित नोड हटाएं?"
+  },
+  "removeNodeHelp": {
+    "message": "इस नोड का उपयोग करने वाली प्रोफ़ाइल को हटाए जाने से पहले पुन: असाइन किया जाना चाहिए।"
+  },
+  "deleteProfile": {
+    "message": "इस प्रोफ़ाइल को हटाएं?"
+  },
+  "deleteProfileHelp": {
+    "message": "यह केवल इस ब्राउज़र प्रोफ़ाइल को हटाता है। आयातित नोड्स और v2rayN कॉन्फ़िगरेशन रखे गए हैं।"
+  },
+  "language": {
+    "message": "भाषा"
+  },
+  "automatic": {
+    "message": "ब्राउज़र डिफ़ॉल्ट"
+  },
+  "theme": {
+    "message": "उपस्थिति"
+  },
+  "light": {
+    "message": "प्रकाश"
+  },
+  "dark": {
+    "message": "अंधेरा"
+  },
+  "switchToEnglish": {
+    "message": "अंग्रेजी पर स्विच करें"
+  },
+  "switchToChinese": {
+    "message": "सरलीकृत चीनी पर स्विच करें"
+  },
+  "switchToLight": {
+    "message": "प्रकाश स्वरूप पर स्विच करें"
+  },
+  "switchToDark": {
+    "message": "गहरे रंग की उपस्थिति पर स्विच करें"
+  },
+  "localComponent": {
+    "message": "सहयोगी घटक"
+  },
+  "ready": {
+    "message": "कनेक्टेड"
+  },
+  "stopped": {
+    "message": "नहीं चल रहा है"
+  },
+  "discovery": {
+    "message": "v2rayN पता लगाना"
+  },
+  "rootPath": {
+    "message": "v2rayN फ़ोल्डर"
+  },
+  "corePath": {
+    "message": "प्रॉक्सी कोर निष्पादन योग्य"
+  },
+  "optionalPath": {
+    "message": "स्वचालित पहचान के लिए खाली छोड़ दें"
+  },
+  "pathsHelp": {
+    "message": "v2rayN स्वचालित रूप से पता लगाया जाता है; यदि आवश्यक हो तो इसका फ़ोल्डर चुनें। आयातित नोड्स सम्मिलित कोर का उपयोग करते हैं।"
+  },
+  "savePaths": {
+    "message": "कनेक्शन सेटिंग्स सहेजें"
+  },
+  "privacy": {
+    "message": "सेटिंग्स स्थानीय रूप से संग्रहीत"
+  },
+  "privacyText": {
+    "message": "नोड लिंक और क्रेडेंशियल स्थानीय साथी में रहते हैं। ब्राउज़र ट्रैफ़िक आपके चयनित प्रॉक्सी से गंतव्य वेबसाइटों तक जाता है; डेवलपर को यह प्राप्त नहीं होता है."
+  },
+  "privacyDetails": {
+    "message": "गोपनीयता और डेटा प्रवाह"
+  },
+  "export": {
+    "message": "प्रोफ़ाइल निर्यात करें"
+  },
+  "about": {
+    "message": "लगभग Proxy V2Route"
+  },
+  "aboutText": {
+    "message": "v2rayN के मुख्य रूट को बदले बिना ब्राउज़र रूट चुनें। नोड मार्ग Windows साथी और आपके स्वयं के नोड्स का उपयोग करते हैं।"
+  },
+  "licenses": {
+    "message": "ओपन-सोर्स नोटिस"
+  },
+  "version": {
+    "message": "संस्करण"
+  },
+  "fieldRequired": {
+    "message": "एक प्रोफ़ाइल नाम दर्ज करें।"
+  },
+  "profileExists": {
+    "message": "इस नाम की एक प्रोफ़ाइल पहले से मौजूद है।"
+  },
+  "ruleHelp": {
+    "message": "डोमेन को अल्पविराम से एक पंक्ति में अलग करें। पहली मिलान पंक्ति जीतती है। डिफ़ॉल्ट मार्ग उपलब्ध रखें."
+  },
+  "rules": {
+    "message": "रूटिंग नियम"
+  },
+  "pattern": {
+    "message": "होस्ट पैटर्न"
+  },
+  "target": {
+    "message": "नियम लक्ष्य"
+  },
+  "addRule": {
+    "message": "नियम जोड़ें"
+  },
+  "defaultRoute": {
+    "message": "डिफ़ॉल्ट प्रोफ़ाइल"
+  },
+  "pacHelp": {
+    "message": "FindProxyForURL युक्त विश्वसनीय PAC स्रोत चिपकाएँ। यह स्क्रिप्ट तय करती है कि वेबसाइट अनुरोधों को कैसे रूट किया जाए।"
+  },
+  "pacUrl": {
+    "message": "PAC URL"
+  },
+  "pacScript": {
+    "message": "PAC स्क्रिप्ट"
+  },
+  "noSelection": {
+    "message": "एक प्रोफ़ाइल चुनें या एक प्रोफ़ाइल बनाएं।"
+  },
+  "details": {
+    "message": "विवरण"
+  },
+  "noNodes": {
+    "message": "अभी तक कोई नोड नहीं"
+  },
+  "noNodesHelp": {
+    "message": "आरंभ करने के लिए v2rayN कनेक्ट करें या प्रॉक्सी लिंक आयात करें, JSON या एक सदस्यता।"
+  },
+  "openSettings": {
+    "message": "सेटिंग्स खोलें"
+  },
+  "proxySettings": {
+    "message": "प्रॉक्सी सेटिंग्स"
+  },
+  "switching": {
+    "message": "स्विचिंग…"
+  },
+  "updatedElsewhere": {
+    "message": "यह प्रोफ़ाइल दूसरी विंडो में बदल गई। सहेजने से पहले इसे दोबारा खोलें."
+  },
+  "choose": {
+    "message": "चुनें"
+  },
+  "popupIntro": {
+    "message": "कनेक्शन:"
+  },
+  "invalidPort": {
+    "message": "1 से 65535 तक एक पोर्ट दर्ज करें।"
+  },
+  "externalControl": {
+    "message": "एक अन्य एक्सटेंशन या नीति ब्राउज़र प्रॉक्सी को नियंत्रित कर रही है।"
+  },
+  "noNativeRoute": {
+    "message": "नोड प्रोफ़ाइल बनाने से पहले स्थानीय घटक को कनेक्ट करें।"
+  },
+  "reload": {
+    "message": "पुनः लोड करें"
+  },
+  "rulesError": {
+    "message": "हर नियम में एक पैटर्न और एक लक्ष्य होना चाहिए।"
+  },
+  "backupDone": {
+    "message": "ब्राउज़र प्रोफ़ाइल निर्यात की गईं"
+  },
+  "managed": {
+    "message": "प्रबंधित नोड"
+  },
+  "netRegion": {
+    "message": "लक्ष्य क्षेत्र"
+  },
+  "netNodeArea": {
+    "message": "प्रॉक्सी नोड"
+  },
+  "netChina": {
+    "message": "मुख्यभूमि चीन"
+  },
+  "netGlobal": {
+    "message": "वैश्विक"
+  },
+  "netAli": {
+    "message": "अलीडीएनएस"
+  },
+  "netTencent": {
+    "message": "डीएनएसपॉड"
+  },
+  "netStartHelp": {
+    "message": "एक लक्ष्य चुनें, फिर लाइव परीक्षण शुरू करें।"
+  },
+  "netConsole": {
+    "message": "लाइव डायग्नोस्टिक्स"
+  },
+  "netStop": {
+    "message": "रुकें"
+  },
+  "netRunning": {
+    "message": "चल रहा है"
+  },
+  "netStopped": {
+    "message": "रुक गया"
+  },
+  "netSent": {
+    "message": "भेजा गया"
+  },
+  "netLoss": {
+    "message": "हानि"
+  },
+  "netAverageShort": {
+    "message": "औसत"
+  },
+  "netLogClear": {
+    "message": "साफ़"
+  },
+  "netFinishing": {
+    "message": "पिछली जांच ख़त्म हो रही है..."
+  },
+  "netRound": {
+    "message": "गोल"
+  },
+  "netDestination": {
+    "message": "गंतव्य"
+  },
+  "netHop": {
+    "message": "हॉप"
+  },
+  "netAddress": {
+    "message": "IP पता"
+  },
+  "netLast": {
+    "message": "अंतिम"
+  },
+  "netConsoleHelp": {
+    "message": "पिंग / TCPing / MTR सिस्टम नेटवर्क का उपयोग करें, प्रॉक्सी श्रृंखला का नहीं। गुम ICMP उत्तर यातायात हानि को साबित नहीं करते हैं। डाउनलोड ब्राउज़र रूट और चयनित आकार सीमा का उपयोग करता है। जब आप यह पृष्ठ छोड़ते हैं या छिपाते हैं तो परीक्षण रुक जाते हैं।"
+  },
+  "netDirectShort": {
+    "message": "सिस्टम नेटवर्क"
+  },
+  "netIcmpShort": {
+    "message": "नहीं ICMP उत्तर"
+  },
+  "netProbeError": {
+    "message": "स्थानीय जांच त्रुटि"
+  },
+  "netNoDestination": {
+    "message": "गंतव्य तक नहीं पहुंचे"
+  },
+  "deleteActive": {
+    "message": "सिस्टम पर स्विच करें और हटाएं"
+  },
+  "deleteActiveHelp": {
+    "message": "यह प्रोफ़ाइल सक्रिय है। इसे हटाने से ब्राउज़र सिस्टम प्रॉक्सी पर स्विच हो जाता है।"
+  },
+  "netDownloadSize": {
+    "message": "डाउनलोड आकार"
+  },
+  "netReceived": {
+    "message": "प्राप्त हुआ"
+  },
+  "netBest": {
+    "message": "सर्वोत्तम"
+  },
+  "netWorst": {
+    "message": "सबसे खराब"
+  },
+  "netStdDev": {
+    "message": "एसटीडी डेव"
+  },
+  "netLocation": {
+    "message": "स्थान"
+  },
+  "toolWall": {
+    "message": "डोमेन अवरोधन जांच"
+  },
+  "toolSites": {
+    "message": "लोकप्रिय वेबसाइटें"
+  },
+  "toolGlobal": {
+    "message": "वैश्विक निदान"
+  },
+  "toolFast": {
+    "message": "Netflix गति"
+  },
+  "toolSpeed": {
+    "message": "गति परीक्षण"
+  },
+  "toolStart": {
+    "message": "प्रारंभ करें"
+  },
+  "toolReady": {
+    "message": "तैयार"
+  },
+  "toolResponded": {
+    "message": "उत्तर दिया गया"
+  },
+  "toolNoResponse": {
+    "message": "अपुष्ट"
+  },
+  "toolCacheUnsupported": {
+    "message": "यह ब्राउज़र साइट द्वारा कैश साफ़ नहीं कर सकता; पृष्ठ पुनः लोड कर दिया गया है."
+  },
+  "toolCacheFailed": {
+    "message": "कैश सफ़ाई समाप्त नहीं हुई। बंद करें और पुनः प्रयास करें."
+  },
+  "toolClose": {
+    "message": "बंद करें"
+  },
+  "toolReload": {
+    "message": "पुनः लोड करें"
+  },
+  "toolLoading": {
+    "message": "लोड हो रहा है..."
+  },
+  "toolFrameError": {
+    "message": "लोड नहीं हो सका। पुनः लोड करने का प्रयास करें."
+  },
+  "toolSiteHelp": {
+    "message": "केवल ब्राउज़र रीचैबिलिटी। यह खाते या क्षेत्रीय पहुंच को सत्यापित नहीं करता है."
+  },
+  "toolFallback": {
+    "message": "बैकअप गति परीक्षण"
+  },
+  "toolFullscreen": {
+    "message": "फुलस्क्रीन"
+  },
+  "toolRestore": {
+    "message": "फ़ुलस्क्रीन से बाहर निकलें"
+  },
+  "ipReadFailed": {
+    "message": "पढ़ना विफल रहा। 👉"
+  },
+  "ipViewSource": {
+    "message": "स्रोत साइट देखें"
+  },
+  "toolDownloadError": {
+    "message": "डाउनलोड सर्वर तक नहीं पहुंच सका। पुनः प्रयास करें।"
+  },
+  "toolAccess": {
+    "message": "साइट एक्सेस सक्षम करें"
+  },
+  "toolPermission": {
+    "message": "एम्बेडेड सत्र अनुकूलता के लिए इस साइट तक पहुंच की अनुमति दें।"
+  },
+  "toolAsia": {
+    "message": "एशिया"
+  },
+  "toolEurope": {
+    "message": "यूरोप"
+  },
+  "toolAmerica": {
+    "message": "उत्तरी अमेरिका"
+  },
+  "toolGlobalHelp": {
+    "message": "ब्राउज़र निकास को पूर्व-भरता है IP। पथों की तुलना करने के लिए मुख्य भूमि चीन या कोई अन्य क्षेत्र चुनें; प्रारंभ प्रदर्शित लक्ष्य को तीन Globalping जांच तक भेजता है।"
+  },
+  "toolServiceError": {
+    "message": "परीक्षण सेवा उपलब्ध नहीं है। पुनः प्रयास करें।"
+  },
+  "popupOrderHelp": {
+    "message": "पुन: व्यवस्थित करने के लिए पकड़ें और खींचें। Alt+एरो कुंजियाँ भी इस प्रोफ़ाइल को स्थानांतरित करती हैं।"
+  },
+  "popupOrderSaved": {
+    "message": "ऑर्डर सहेजा गया"
+  },
+  "toolGroupIP": {
+    "message": "IP परीक्षण"
+  },
+  "toolGroupWeb": {
+    "message": "वेबसाइट परीक्षण"
+  },
+  "toolGroupSpeed": {
+    "message": "गति"
+  },
+  "toolCurrentIP": {
+    "message": "वर्तमान निकास IP"
+  },
+  "toolCurrentIPLoading": {
+    "message": "वर्तमान निकास लोड हो रहा है IP…"
+  },
+  "toolCurrentIPFailed": {
+    "message": "करंट नहीं पढ़ सका IP। एक लक्ष्य दर्ज करें."
+  },
+  "speedMode": {
+    "message": "टेस्ट मोड"
+  },
+  "speedBoth": {
+    "message": "डाउनलोड + अपलोड करें"
+  },
+  "speedDownload": {
+    "message": "डाउनलोड करें"
+  },
+  "speedUpload": {
+    "message": "अपलोड करें"
+  },
+  "speedLatency": {
+    "message": "HTTP विलंबता"
+  },
+  "speedBudget": {
+    "message": "{n} MiB प्रति चरण · {total} MiB कुल, प्लस छोटे विलंबता नमूने।"
+  },
+  "siteCategory": {
+    "message": "वेबसाइट श्रेणी"
+  },
+  "siteAll": {
+    "message": "सभी वेबसाइटें"
+  },
+  "siteAI": {
+    "message": "एआई"
+  },
+  "siteDevelopment": {
+    "message": "विकास"
+  },
+  "siteVideo": {
+    "message": "वीडियो/संगीत"
+  },
+  "siteSocial": {
+    "message": "सामाजिक"
+  },
+  "siteDomestic": {
+    "message": "मुख्यभूमि सेवाएँ"
+  },
+  "siteServices": {
+    "message": "सामान्य सेवाएँ"
+  },
+  "globalMethod": {
+    "message": "माप प्रकार"
+  },
+  "localPort": {
+    "message": "स्थानीय बंदरगाह:"
+  },
+  "chainChooseNode": {
+    "message": "एक प्रॉक्सी नोड चुनें"
+  },
+  "chainTitle": {
+    "message": "प्रॉक्सी श्रृंखला"
+  },
+  "chainSelectExit": {
+    "message": "इस कस्टम श्रृंखला को सहेजने या परीक्षण करने के लिए नीचे एक विशिष्ट निकास नोड चुनें। फ़ॉलो करें v2rayN का प्रबंधन v2rayN द्वारा किया जाता है।"
+  },
+  "chainSelectExitShort": {
+    "message": "एक निकास नोड चुनें"
+  },
+  "chainAdd": {
+    "message": "+ प्रॉक्सी परत जोड़ें"
+  },
+  "chainTest": {
+    "message": "परीक्षण श्रृंखला"
+  },
+  "chainMode": {
+    "message": "चेन मोड"
+  },
+  "chainBase": {
+    "message": "बेस प्रॉक्सी"
+  },
+  "chainExit": {
+    "message": "प्रॉक्सी से बाहर निकलें"
+  },
+  "chainEgress": {
+    "message": "चेन इग्रेशन"
+  },
+  "chainExitBadge": {
+    "message": "बाहर निकलें IP"
+  },
+  "chainEntry": {
+    "message": "चेन एंट्री"
+  },
+  "chainTransit": {
+    "message": "ब्रिज नोड"
+  },
+  "chainUntested": {
+    "message": "परीक्षण नहीं किया गया"
+  },
+  "chainMissing": {
+    "message": "अनुपलब्ध नोड"
+  },
+  "chainUnresolved": {
+    "message": "विरासत में मिली श्रृंखला को हल नहीं किया जा सकता। पूर्ववर्ती सेटिंग्स को सुधारें या एक कस्टम श्रृंखला चुनें।"
+  },
+  "chainUpgrade": {
+    "message": "ऑर्डर की गई श्रृंखलाओं को सक्षम करने के लिए स्थानीय साथी को अपडेट करें।"
+  },
+  "chainBusy": {
+    "message": "एक और श्रृंखला परीक्षण चल रहा है"
+  },
+  "chainOK": {
+    "message": "पहुंच योग्य"
+  },
+  "chainFailed": {
+    "message": "इस परीक्षण में असफल हॉप"
+  },
+  "chainBlocked": {
+    "message": "परीक्षण नहीं किया गया · पिछला हॉप विफल रहा"
+  },
+  "chainFailureHelp": {
+    "message": "यह छलांग या इसका रास्ता नहीं गुजरा। बाद में हॉप्स का परीक्षण नहीं किया गया।"
+  },
+  "chainAllOK": {
+    "message": "सभी संचयी पथों ने प्रतिक्रिया दी"
+  },
+  "chainStopping": {
+    "message": "वर्तमान सीमाबद्ध जांच के बाद रुकना..."
+  },
+  "globalWorld": {
+    "message": "दुनिया भर में"
+  },
+  "globalUnavailable": {
+    "message": "लक्ष्य या क्षेत्र अनुपलब्ध है। लक्ष्य जांचें या कोई अन्य क्षेत्र चुनें."
+  },
+  "globalRateLimited": {
+    "message": "सेवा दर की सीमा पूरी हो गई थी। बाद में पुन: प्रयास।"
+  },
+  "globalNoResults": {
+    "message": "सेवा ने कोई जांच परिणाम नहीं लौटाया। किसी अन्य क्षेत्र का प्रयास करें."
+  },
+  "globalProbeFailed": {
+    "message": "जांच विफल रही"
+  },
+  "globalProbeOffline": {
+    "message": "जांच ऑफ़लाइन"
+  },
+  "globalIcmpCaution": {
+    "message": "केवल गुम ICMP उत्तरों से अवरोधन सिद्ध नहीं होता। मुख्य भूमि और विदेशी पथों और अन्य परीक्षण प्रकारों की तुलना करें।"
+  },
+  "speedRealtime": {
+    "message": "लाइव स्पीड"
+  },
+  "speedAverage": {
+    "message": "औसत गति"
+  },
+  "ipToolsBrief": {
+    "message": "तृतीय-पक्ष परिणाम संदर्भ के लिए हैं।"
+  },
+  "ipReportBrief": {
+    "message": "परिणाम निकास IP के अनुसार भिन्न होते हैं और संदर्भ के लिए हैं।"
+  },
+  "toolPingPe": {
+    "message": "IP ब्लॉकिंग चेक"
+  },
+  "toolTargetIP": {
+    "message": "लक्ष्य IP"
+  },
+  "toolOpenPingPe": {
+    "message": "खुला आधिकारिक परीक्षण"
+  },
+  "toolInvalidIP": {
+    "message": "एक वैध IPv4 या IPv6 पता दर्ज करें।"
+  },
+  "toolInvalidPort": {
+    "message": "1 से 65535 तक एक TCP पोर्ट दर्ज करें।"
+  },
+  "toolExternalFailed": {
+    "message": "वेबसाइट नहीं खुल सकी। पुनः प्रयास करें।"
+  },
+  "ipBrowserReading": {
+    "message": "ब्राउज़र के माध्यम से Ping0 पढ़ रहा हूं..."
+  },
+  "ipVerifyBrowser": {
+    "message": "सत्यापन पृष्ठ खोलें"
+  },
+  "policyCenter": {
+    "message": "गोपनीयता, घोषणा और अक्सर पूछे जाने वाले प्रश्न"
+  },
+  "policyCenterIntro": {
+    "message": "स्थानीय डेटा प्रबंधन, परीक्षण सीमाएँ और सामान्य उत्तर।"
+  },
+  "policyPrivacyTitle": {
+    "message": "गोपनीयता नीति"
+  },
+  "policyPrivacySummary": {
+    "message": "प्रोफ़ाइल और क्रेडेंशियल इस डिवाइस पर रहते हैं. पॉपअप जांच और डायग्नोस्टिक्स उनके बताए गए प्रदाताओं से संपर्क करते हैं। कोई विज्ञापन या व्यवहार विश्लेषण नहीं।"
+  },
+  "policyDeclarationTitle": {
+    "message": "उपयोग और माप विवरण"
+  },
+  "policyDeclarationSummary": {
+    "message": "यह एक्सटेंशन एक स्थानीय रूट मैनेजर है, प्रॉक्सी या VPN प्रदाता नहीं। माप नेटवर्क, प्रॉक्सी और प्रदाता स्थितियों से प्रभावित संदर्भ नमूने हैं।"
+  },
+  "policyFaqTitle": {
+    "message": "अक्सर पूछे जाने वाले प्रश्न"
+  },
+  "policyFaqSummary": {
+    "message": "स्थानीय नोड्स और MTR के लिए Windows साथी की आवश्यकता है। विलंबता ब्राउज़र, सिस्टम और सार्वजनिक जांच के बीच भिन्न हो सकती है। परीक्षण रोकें या सेटिंग्स से स्थानीय डेटा साफ़ करें।"
+  },
+  "policyDetailsLink": {
+    "message": "पूरा विवरण पढ़ें ↗"
+  },
+  "thirdPartyNotice": {
+    "message": "ओपन-सोर्स नोटिस ↗"
+  },
+  "columnResizeHelp": {
+    "message": "आकार बदलने के लिए खींचें; रीसेट करने के लिए डबल-क्लिक करें; समायोजित करने के लिए तीर कुंजियों का उपयोग करें"
+  },
+  "columnResize": {
+    "message": "कॉलम का आकार बदलें"
+  },
+  "typeDescription_node": {
+    "message": "प्रॉक्सी नोड के माध्यम से कनेक्ट करें"
+  },
+  "typeDescription_manual": {
+    "message": "प्रॉक्सी सेटिंग्स मैन्युअल रूप से दर्ज करें"
+  },
+  "typeDescription_auto": {
+    "message": "नियमों का उपयोग करके एक नोड का चयन करें"
+  },
+  "typeDescription_pac": {
+    "message": "PAC नियमों का उपयोग करके यातायात को रूट करें"
+  },
+  "appDescription": {
+    "message": "ब्राउज़र प्रॉक्सी मार्ग, नोड्स और डोमेन नियम। नोड मार्गों को Windows साथी की आवश्यकता है।"
+  },
+  "core_title": {
+    "message": "प्रॉक्सी कोर"
+  },
+  "core_checking": {
+    "message": "स्थानीय घटक की जाँच हो रही है..."
+  },
+  "core_ready": {
+    "message": "Xray तैयार है"
+  },
+  "core_missing": {
+    "message": "प्रॉक्सी कोर गायब है"
+  },
+  "core_external": {
+    "message": "कस्टम कोर: सत्यापित नहीं"
+  },
+  "core_corrupt": {
+    "message": "Xray चेकसम बेमेल - मरम्मत की आवश्यकता है"
+  },
+  "core_unreadable": {
+    "message": "कोर फ़ाइल की जाँच नहीं की जा सकी"
+  },
+  "core_intro": {
+    "message": "संपूर्ण Windows पैकेज में Xray शामिल है। v2rayN वैकल्पिक है।"
+  },
+  "core_verify": {
+    "message": "दोबारा जांचें"
+  },
+  "core_install": {
+    "message": "कोर स्थापित/मरम्मत करें"
+  },
+  "core_installing": {
+    "message": "डाउनलोड और सत्यापन किया जा रहा है..."
+  },
+  "core_done": {
+    "message": "कोर सत्यापित और तैयार"
+  },
+  "core_help": {
+    "message": "रिपेयर एक पिन किए गए आधिकारिक Xray रिलीज़ का उपयोग करता है और इसके चेकसम को सत्यापित करता है। मौजूदा कनेक्शन चालू रहते हैं."
+  },
+  "core_absent": {
+    "message": "एक बार स्थानीय घटक स्थापित करें, फिर कोर की जांच करने के लिए यहां वापस आएं।"
+  },
+  "core_download": {
+    "message": "इंस्टालेशन गाइड"
+  },
+  "core_absentHelp": {
+    "message": "मिलान करने वाले Windows पैकेज का उपयोग करें या इसे स्रोत से बनाने के लिए गाइड का पालन करें, फिर सेटअप चलाएं।"
+  },
+  "core_failed": {
+    "message": "कोर ऑपरेशन विफल रहा। पुनः प्रयास करें या संपूर्ण Windows पैकेज का उपयोग करें।"
+  },
+  "core_version": {
+    "message": "संस्करण"
+  },
+  "error_ACTIVE_PROFILE_DELETE": {
+    "message": "हटाने से पहले किसी अन्य प्रोफ़ाइल पर जाएँ"
+  },
+  "error_BACKUP_BINDING_TYPE": {
+    "message": "केवल प्रॉक्सी प्रोफ़ाइल में रूट बाइंडिंग हो सकती हैं"
+  },
+  "error_BACKUP_FORMAT3_REQUIRED": {
+    "message": "नोड नियमों के लिए फ़ॉर्मैट 3 का पोर्टेबल बैकअप चाहिए"
+  },
+  "error_BACKUP_INDEPENDENT_PATH_REQUIRED": {
+    "message": "बैकअप में एक स्वतंत्र नोड पथ होना चाहिए"
+  },
+  "error_BACKUP_INTERNAL_BINDINGS": {
+    "message": "बैकअप में आंतरिक बाइंडिंग हैं"
+  },
+  "error_BACKUP_MESSAGE_LIMIT": {
+    "message": "नोड बैकअप सहयोगी घटक की संदेश सीमा से बड़ा है"
+  },
+  "error_BACKUP_NODES_INCOMPLETE": {
+    "message": "नोड बैकअप अधूरा है"
+  },
+  "error_BACKUP_NODE_MISSING": {
+    "message": "बैकअप में एक आवश्यक नोड नहीं है"
+  },
+  "error_BACKUP_NODE_PATHS_LIMIT": {
+    "message": "बैकअप में अधिकतम {limit} नोड पथ हो सकते हैं"
+  },
+  "error_BACKUP_PATH_INCOMPLETE": {
+    "message": "बैकअप का नोड पथ अधूरा है"
+  },
+  "error_BACKUP_PROFILES_LIMIT": {
+    "message": "बैकअप में अधिकतम {limit} प्रोफ़ाइल हो सकती हैं"
+  },
+  "error_BACKUP_PROXY_CONFLICT": {
+    "message": "बैकअप की प्रॉक्सी सेटिंग में टकराव है"
+  },
+  "error_BACKUP_SIZE_LIMIT": {
+    "message": "बैकअप {limit} MB से बड़ा है"
+  },
+  "error_BACKUP_TRANSFER_UNAVAILABLE": {
+    "message": "नोड बैकअप स्थानांतरित करने के लिए सहयोगी घटक अपडेट करें या उसकी मरम्मत करें।"
+  },
+  "error_BACKUP_UNUSED_NODES": {
+    "message": "बैकअप में ऐसे नोड हैं जिनका कोई संदर्भ नहीं है"
+  },
+  "error_BODY_TOO_LARGE": {
+    "message": "सदस्यता की प्रतिक्रिया अनुमत आकार से बड़ी है।"
+  },
+  "error_BROWSER_API_FAILED": {
+    "message": "ब्राउज़र की कार्रवाई विफल रही। तकनीकी विवरण देखें।"
+  },
+  "error_BROWSER_PROXY_RESTORE_FAILED": {
+    "message": "कार्रवाई विफल रही और ब्राउज़र की पिछली प्रॉक्सी बहाल नहीं हो सकी"
+  },
+  "error_BROWSER_SCHEDULING_UNAVAILABLE": {
+    "message": "ब्राउज़र की शेड्यूल सुविधा उपलब्ध नहीं है।"
+  },
+  "error_BUSY": {
+    "message": "दूसरी कार्रवाई चल रही है। थोड़ी देर बाद फिर कोशिश करें।"
+  },
+  "error_CHAIN_PROBE_FAILED": {
+    "message": "चेन जाँच विफल रही"
+  },
+  "error_COMPANION_BULK_RELEASE_REQUIRED": {
+    "message": "कई नोड नियम सुरक्षित रूप से सँभालने के लिए स्थानीय सहयोगी घटक अपग्रेड करें"
+  },
+  "error_COMPANION_CHAINS_REQUIRED": {
+    "message": "क्रमबद्ध चेन सक्षम करने के लिए स्थानीय सहयोगी घटक अपग्रेड करें"
+  },
+  "error_COMPANION_MESSAGE_LIMIT": {
+    "message": "सेटिंग सहयोगी घटक की संदेश सीमा से बड़ी हैं"
+  },
+  "error_COMPANION_OPERATION_FAILED": {
+    "message": "स्थानीय सहयोगी घटक की कार्रवाई विफल रही। तकनीकी विवरण देखें।"
+  },
+  "error_COMPANION_UNAVAILABLE": {
+    "message": "V2Route का सहयोगी घटक इंस्टॉल करें या उसकी मरम्मत करें"
+  },
+  "error_CONNECTION_CLOSED": {
+    "message": "परीक्षण पूरा होने से पहले कनेक्शन बंद हो गया।"
+  },
+  "error_CORE_INSTALL_FAILED": {
+    "message": "कोर इंस्टॉल नहीं हो सका। तकनीकी विवरण देखें।"
+  },
+  "error_CORE_OWNERSHIP_FAILED": {
+    "message": "अलग परीक्षण कोर को सुरक्षित रूप से नियंत्रित नहीं किया जा सका। परीक्षण रोक दिया गया।"
+  },
+  "error_CORE_START_FAILED": {
+    "message": "अलग परीक्षण कोर शुरू नहीं हो सका। सहयोगी घटक और कोर की स्थापना जाँचें।"
+  },
+  "error_CORE_START_TIMEOUT": {
+    "message": "अलग परीक्षण कोर समय पर तैयार नहीं हुआ।"
+  },
+  "error_CORE_STATUS_UNAVAILABLE": {
+    "message": "कोर की स्थिति उपलब्ध नहीं है। तकनीकी विवरण देखें।"
+  },
+  "error_CORE_VALIDATION_FAILED": {
+    "message": "Xray आयातित नोडों को मान्य नहीं कर सका। उनकी सेटिंग जाँचें और फिर कोशिश करें।"
+  },
+  "error_DETACH_PORT_CONFLICT": {
+    "message": "प्रबंधित पोर्ट छोड़ दिया जाएगा। कोई अन्य मैन्युअल प्रॉक्सी दर्ज करें"
+  },
+  "error_DETACH_PROXY_REQUIRED": {
+    "message": "अलग करने से पहले प्रतिस्थापन मैन्युअल प्रॉक्सी दर्ज करें"
+  },
+  "error_DNS_BUSY": {
+    "message": "DNS खोज व्यस्त है। थोड़ी देर बाद फिर कोशिश करें।"
+  },
+  "error_DNS_FAILED": {
+    "message": "DNS खोज विफल रही। पता और नेटवर्क कनेक्शन जाँचें।"
+  },
+  "error_ENCODING_UNSUPPORTED": {
+    "message": "सदस्यता में असमर्थित सामग्री एन्कोडिंग है।"
+  },
+  "error_FIREFOX_PRIVATE_ACCESS_REQUIRED": {
+    "message": "प्रॉक्सी सेटिंग बदलने से पहले एक्सटेंशन विवरण में V2Route को निजी विंडो में चलने दें"
+  },
+  "error_FOLDER_UNAVAILABLE": {
+    "message": "फ़ोल्डर उपलब्ध नहीं है; पथ, पहुँच अनुमति और सहयोगी घटक का संस्करण जाँचें"
+  },
+  "error_GROUP_LIMIT": {
+    "message": "समूहों की सीमा पूरी हो गई है। अनुपयोगी समूह हटाएँ और फिर कोशिश करें।"
+  },
+  "error_GROUP_NOT_EDITABLE": {
+    "message": "यह स्रोत समूह यहाँ संपादित नहीं किया जा सकता।"
+  },
+  "error_GROUP_NOT_FOUND": {
+    "message": "चुना गया समूह अब मौजूद नहीं है। दूसरा समूह चुनें।"
+  },
+  "error_HTTP_ENCODING": {
+    "message": "परीक्षण सर्वर ने असमर्थित एन्कोडिंग लौटाई।"
+  },
+  "error_HTTP_LENGTH": {
+    "message": "परीक्षण की प्रतिक्रिया का आकार माँगे गए आकार से मेल नहीं खाता।"
+  },
+  "error_HTTP_RESPONSE_TOO_LARGE": {
+    "message": "परीक्षण की प्रतिक्रिया अनुमत आकार से बड़ी थी।"
+  },
+  "error_HTTP_STATUS": {
+    "message": "परीक्षण सर्वर ने असफल HTTP स्थिति लौटाई।"
+  },
+  "error_IMPORTED_PROXY_MISSING": {
+    "message": "सहयोगी घटक ने आयातित प्रॉक्सी नहीं लौटाई"
+  },
+  "error_IMPORTED_RULE_PATH_CONFLICT": {
+    "message": "आयातित नोडों से बनने वाले नियम पथों में टकराव है"
+  },
+  "error_IMPORT_CLEANUP_FAILED": {
+    "message": "आयात विफल रहा; कुछ अस्थायी नोड या पोर्ट मुक्त नहीं हो सके। मौजूदा प्रोफ़ाइल सुरक्षित रखी गईं"
+  },
+  "error_IMPORT_PROFILE_NAME_CONFLICT": {
+    "message": "प्रोफ़ाइल का नाम दोहराया गया है या अमान्य है"
+  },
+  "error_INCOMPLETE_RESPONSE": {
+    "message": "सदस्यता की प्रतिक्रिया अधूरी थी। फिर कोशिश करें।"
+  },
+  "error_INVALID_BACKUP": {
+    "message": "V2Route बैकअप अमान्य है"
+  },
+  "error_INVALID_BACKUP_NODE": {
+    "message": "बैकअप नोड अमान्य या दोहराया गया है"
+  },
+  "error_INVALID_BACKUP_NODES": {
+    "message": "बैकअप के नोड अमान्य हैं"
+  },
+  "error_INVALID_BACKUP_PATH": {
+    "message": "बैकअप पथ अमान्य है"
+  },
+  "error_INVALID_BYPASS_ENTRY": {
+    "message": "बाइपास प्रविष्टि अमान्य है"
+  },
+  "error_INVALID_BYPASS_LIST": {
+    "message": "बाइपास सूची अमान्य है"
+  },
+  "error_INVALID_CHAIN": {
+    "message": "क्रमबद्ध चेन अमान्य है"
+  },
+  "error_INVALID_CHAIN_PROBE": {
+    "message": "चेन जाँच अमान्य है"
+  },
+  "error_INVALID_COMPANION_RESPONSE": {
+    "message": "स्थानीय सहयोगी घटक ने अमान्य प्रतिक्रिया दी। उसे अपडेट करें या उसकी मरम्मत करें।"
+  },
+  "error_INVALID_CONTENT": {
+    "message": "सदस्यता की प्रतिक्रिया में मान्य सामग्री नहीं है।"
+  },
+  "error_INVALID_DOMAIN_PATTERNS": {
+    "message": "डोमेन पैटर्न अल्पविराम से अलग करें; प्रत्येक URL अलग पंक्ति में रखें"
+  },
+  "error_INVALID_ENCODING": {
+    "message": "सदस्यता की प्रतिक्रिया मान्य UTF-8 पाठ नहीं है।"
+  },
+  "error_INVALID_FOLDER_REQUEST": {
+    "message": "फ़ोल्डर अनुरोध अमान्य है"
+  },
+  "error_INVALID_GROUP_ACTION": {
+    "message": "समूह की यह कार्रवाई समर्थित नहीं है।"
+  },
+  "error_INVALID_HOP_INDEX": {
+    "message": "हॉप इंडेक्स अमान्य है"
+  },
+  "error_INVALID_LEGACY_PREDECESSOR": {
+    "message": "पुराना पूर्ववर्ती प्रॉक्सी अमान्य है"
+  },
+  "error_INVALID_LIBRARY_COMMAND": {
+    "message": "नोड लाइब्रेरी का यह आदेश समर्थित नहीं है।"
+  },
+  "error_INVALID_LIBRARY_REQUEST": {
+    "message": "लाइब्रेरी अनुरोध अमान्य है"
+  },
+  "error_INVALID_NAME": {
+    "message": "1–128 दृश्यमान वर्णों वाला नाम दर्ज करें, जिसमें नियंत्रण वर्ण न हों।"
+  },
+  "error_INVALID_NETWORK_TEST": {
+    "message": "नेटवर्क परीक्षण अमान्य है"
+  },
+  "error_INVALID_NODE_IMPORT_RESPONSE": {
+    "message": "नोड आयात की प्रतिक्रिया अमान्य है"
+  },
+  "error_INVALID_PREDECESSOR": {
+    "message": "इस रूट का पूर्ववर्ती प्रॉक्सी अमान्य है"
+  },
+  "error_INVALID_PROFILE_NAME": {
+    "message": "प्रोफ़ाइल नाम अमान्य है"
+  },
+  "error_INVALID_PROFILE_REFERENCE": {
+    "message": "प्रोफ़ाइल संदर्भ अमान्य है"
+  },
+  "error_INVALID_PROXY_AUTH": {
+    "message": "प्रॉक्सी प्रमाणीकरण अमान्य है"
+  },
+  "error_INVALID_PROXY_CREDENTIALS": {
+    "message": "प्रॉक्सी के क्रेडेंशियल अमान्य हैं"
+  },
+  "error_INVALID_PROXY_ENDPOINT": {
+    "message": "प्रॉक्सी का मान्य होस्ट और पोर्ट दर्ज करें"
+  },
+  "error_INVALID_PROXY_HOST": {
+    "message": "पोर्ट, URL, पथ या क्वेरी के बिना DNS नाम या IP पता दर्ज करें"
+  },
+  "error_INVALID_ROUTE": {
+    "message": "रूट अमान्य है"
+  },
+  "error_INVALID_ROUTE_SETTINGS": {
+    "message": "रूट सेटिंग अमान्य हैं"
+  },
+  "error_INVALID_RULES": {
+    "message": "नियम अमान्य हैं"
+  },
+  "error_INVALID_RULE_TARGET": {
+    "message": "प्रत्येक नियम के लिए एक मान्य नोड या प्रोफ़ाइल चुनें"
+  },
+  "error_INVALID_SUBSCRIPTION": {
+    "message": "सदस्यता अमान्य है"
+  },
+  "error_INVALID_SUBSCRIPTION_REQUEST": {
+    "message": "सदस्यता अनुरोध अमान्य है"
+  },
+  "error_INVALID_SUBSCRIPTION_SETTINGS": {
+    "message": "सदस्यता सेटिंग अमान्य हैं। अपडेट अंतराल और कनेक्शन नीति जाँचें।"
+  },
+  "error_INVALID_SYSTEM_PROXY_RESPONSE": {
+    "message": "सिस्टम प्रॉक्सी की प्रतिक्रिया अमान्य है; सहयोगी घटक अपडेट करें या उसकी मरम्मत करें"
+  },
+  "error_INVALID_TRANSPORT": {
+    "message": "सदस्यता की कनेक्शन सेटिंग अमान्य हैं।"
+  },
+  "error_INVALID_URL": {
+    "message": "उपयोगकर्ता नाम या पासवर्ड के बिना मान्य HTTP(S) सदस्यता URL दर्ज करें।"
+  },
+  "error_LIBRARY_CHANGED": {
+    "message": "दूसरी विंडो में नोड लाइब्रेरी बदल गई है। रीफ़्रेश करें और फिर कोशिश करें।"
+  },
+  "error_MANUAL_CHAIN_UNSUPPORTED": {
+    "message": "मैन्युअल प्रॉक्सी नोड चेन स्वीकार नहीं करती"
+  },
+  "error_MANUAL_PROXY_CLEANUP_FAILED": {
+    "message": "सहेजना विफल रहा; एक अस्थायी आयातित प्रॉक्सी नोड लाइब्रेरी में बची हुई है"
+  },
+  "error_NATIVE_BINDING_ID": {
+    "message": "रूट बाइंडिंग पहचानकर्ता अमान्य है।"
+  },
+  "error_NATIVE_BINDING_UNKNOWN": {
+    "message": "रूट बाइंडिंग मौजूद नहीं है।"
+  },
+  "error_NATIVE_BUTTON_NAME": {
+    "message": "बटन के नाम में 1–128 दृश्यमान वर्ण होने चाहिए।"
+  },
+  "error_NATIVE_CATALOG_UNREADABLE": {
+    "message": "v2rayN कॉन्फ़िगरेशन पढ़ा नहीं जा सका।"
+  },
+  "error_NATIVE_CORE_MISSING": {
+    "message": "Xray उपलब्ध नहीं है। सहयोगी घटक का पैकेज इंस्टॉल करें।"
+  },
+  "error_NATIVE_GROUP_ID_COLLISION": {
+    "message": "समूह पहचानकर्ताओं में टकराव है।"
+  },
+  "error_NATIVE_GROUP_ORDER": {
+    "message": "समूह क्रम अमान्य है।"
+  },
+  "error_NATIVE_NODE_ID_COLLISION": {
+    "message": "नोड पहचानकर्ताओं में टकराव है।"
+  },
+  "error_NATIVE_PREDECESSOR_AMBIGUOUS": {
+    "message": "पूर्ववर्ती प्रॉक्सी का नाम गायब या दोहराया गया है। कोई विशिष्ट पूर्ववर्ती नोड चुनें।"
+  },
+  "error_NATIVE_PREDECESSOR_CYCLE": {
+    "message": "पूर्ववर्ती चेन में चक्र है या उसमें छह से अधिक नोड हैं।"
+  },
+  "error_NATIVE_PREDECESSOR_INVALID": {
+    "message": "मान्य पूर्ववर्ती प्रॉक्सी चुनें।"
+  },
+  "error_NATIVE_PREDECESSOR_MISSING": {
+    "message": "चुना गया पूर्ववर्ती प्रॉक्सी अब मौजूद नहीं है। दूसरा नोड चुनें।"
+  },
+  "error_NATIVE_PREDECESSOR_SETTINGS": {
+    "message": "पूर्ववर्ती प्रॉक्सी की सेटिंग अमान्य हैं।"
+  },
+  "error_NATIVE_ROUTE_INVALID": {
+    "message": "मान्य रूट चुनें।"
+  },
+  "error_NATIVE_ROUTE_MISSING": {
+    "message": "यह रूट अब मौजूद नहीं है। दूसरा रूट चुनें।"
+  },
+  "error_NATIVE_ROUTE_PORTS": {
+    "message": "रूट पोर्ट आवंटन अमान्य हैं।"
+  },
+  "error_NATIVE_ROUTE_UNAVAILABLE": {
+    "message": "चुना गया रूट उपलब्ध नहीं है। तकनीकी विवरण देखें।"
+  },
+  "error_NATIVE_SETTINGS_FORMAT": {
+    "message": "सेटिंग का फ़ॉर्मैट अमान्य है।"
+  },
+  "error_NATIVE_SETTINGS_REVISION": {
+    "message": "सेटिंग का संशोधन अमान्य है।"
+  },
+  "error_NATIVE_SUCCESSOR_UNSUPPORTED": {
+    "message": "यह समूह असमर्थित अनुवर्ती प्रॉक्सी इस्तेमाल करता है।"
+  },
+  "error_NATIVE_UNSUPPORTED_CUSTOM": {
+    "message": "यह संस्करण कस्टम आउटबाउंड कॉन्फ़िगरेशन का समर्थन नहीं करता।"
+  },
+  "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
+    "message": "यह संस्करण Hysteria2 का समर्थन नहीं करता।"
+  },
+  "error_NATIVE_UNSUPPORTED_TUIC": {
+    "message": "इस संस्करण में TUIC के लिए आवश्यक sing-box कोर शामिल नहीं है।"
+  },
+  "error_NATIVE_UNSUPPORTED_TYPE": {
+    "message": "यह रूट प्रकार समर्थित नहीं है।"
+  },
+  "error_NATIVE_V2RAYN_PORT": {
+    "message": "v2rayN का स्थानीय पोर्ट अमान्य है।"
+  },
+  "error_NATIVE_V2RAYN_UNAVAILABLE": {
+    "message": "v2rayN उपलब्ध नहीं है। कोई आयातित नोड चुनें।"
+  },
+  "error_NETWORK_FAILED": {
+    "message": "नेटवर्क अनुरोध विफल रहा। कनेक्शन जाँचें और फिर कोशिश करें।"
+  },
+  "error_NETWORK_TEST_FAILED": {
+    "message": "नेटवर्क निदान विफल रहा। तकनीकी विवरण देखें।"
+  },
+  "error_NODE_LIMIT": {
+    "message": "इस कार्रवाई से नोड सीमा पार हो जाएगी। अनुपयोगी नोड हटाएँ और फिर कोशिश करें।"
+  },
+  "error_NODE_MAPPING_INCOMPLETE": {
+    "message": "नोड मैपिंग अधूरी है"
+  },
+  "error_NODE_NOT_FOUND": {
+    "message": "चुना गया नोड अब मौजूद नहीं है। दूसरा नोड चुनें।"
+  },
+  "error_NOT_DUE": {
+    "message": "अगले निर्धारित अपडेट का समय अभी नहीं आया है।"
+  },
+  "error_PAC_ENTRY_REQUIRED": {
+    "message": "FindProxyForURL वाला PAC स्रोत दर्ज करें"
+  },
+  "error_PAC_FUNCTION_REQUIRED": {
+    "message": "शीर्ष स्तर पर सिंक्रोनस FindProxyForURL फ़ंक्शन, फ़ंक्शन चर या असाइनमेंट परिभाषित करें"
+  },
+  "error_PAC_PARSER_UNAVAILABLE": {
+    "message": "पैकेज में दिया गया PAC पार्सर उपलब्ध नहीं है; एक्सटेंशन फिर इंस्टॉल करें"
+  },
+  "error_PAC_RULE_TARGET_UNSUPPORTED": {
+    "message": "स्वचालित नियम इनलाइन PAC प्रोफ़ाइल को लक्ष्य नहीं बना सकते"
+  },
+  "error_PAC_SOURCE_LIMIT": {
+    "message": "अधिकतम {limit} वर्णों का PAC स्रोत दर्ज करें"
+  },
+  "error_PAC_SYNTAX_INVALID": {
+    "message": "PAC सिंटैक्स अमान्य है"
+  },
+  "error_PAC_SYNTAX_LOCATION": {
+    "message": "पंक्ति {line}, स्तंभ {column} पर PAC सिंटैक्स अमान्य है"
+  },
+  "error_PARTIAL_TRANSFER": {
+    "message": "सभी डेटा मिलने से पहले परीक्षण का स्थानांतरण समाप्त हो गया।"
+  },
+  "error_PRIVATE_DIRECTORY_FAILED": {
+    "message": "निजी परीक्षण फ़ोल्डर सुरक्षित नहीं किया जा सका। परीक्षण रोक दिया गया।"
+  },
+  "error_PRIVATE_TARGET": {
+    "message": "निजी या स्थानीय पतों पर सदस्यता अनुरोध की अनुमति नहीं है।"
+  },
+  "error_PROFILE_NOT_FOUND": {
+    "message": "प्रोफ़ाइल नहीं मिली"
+  },
+  "error_PROFILE_REFERENCE_CYCLE": {
+    "message": "प्रोफ़ाइल संदर्भों में चक्र है"
+  },
+  "error_PROFILE_REFERENCE_DEPTH": {
+    "message": "स्वचालित नियम अधिकतम गहराई {limit} से आगे जाते हैं"
+  },
+  "error_PROFILE_REFERENCE_MISSING": {
+    "message": "संदर्भित प्रोफ़ाइल मौजूद नहीं है: {name}"
+  },
+  "error_PROFILE_SAVE_RESTORE_FAILED": {
+    "message": "सहेजना विफल रहा और रूट बहाल करने के लिए ध्यान देना आवश्यक है"
+  },
+  "error_PROXY_AUTH_REQUIRED": {
+    "message": "सदस्यता प्रॉक्सी को ऐसा प्रमाणीकरण चाहिए जो यह अनुरोध नहीं दे सकता।"
+  },
+  "error_PROXY_CONTROL_UNAVAILABLE": {
+    "message": "दूसरा एक्सटेंशन या नीति प्रॉक्सी नियंत्रित कर रही है"
+  },
+  "error_PROXY_DNS_REQUIRED": {
+    "message": "V2Route में SOCKS5 DNS का समाधान प्रॉक्सी से होता है"
+  },
+  "error_PROXY_FAILED": {
+    "message": "प्रॉक्सी कनेक्शन विफल रहा। चुना गया रूट जाँचें।"
+  },
+  "error_PROXY_PROFILE_REQUIRED": {
+    "message": "प्रॉक्सी प्रोफ़ाइल चुनें"
+  },
+  "error_PROXY_ROLLBACK_REFUSED": {
+    "message": "ब्राउज़र ने प्रॉक्सी बदलाव वापस लेने से मना किया"
+  },
+  "error_PROXY_SETTING_REFUSED": {
+    "message": "ब्राउज़र ने प्रॉक्सी सेटिंग अस्वीकार की"
+  },
+  "error_PROXY_UNAVAILABLE": {
+    "message": "चुनी गई प्रॉक्सी उपलब्ध नहीं है। वर्तमान रूट जाँचें।"
+  },
+  "error_PROXY_USERNAME_REQUIRED": {
+    "message": "प्रॉक्सी उपयोगकर्ता नाम दर्ज करें"
+  },
+  "error_RECOVERY_BINDINGS_LIMIT": {
+    "message": "अधिकतम {limit} नोड बाइंडिंग बहाल की जा सकती हैं। संदर्भित प्रोफ़ाइल अलग-अलग खोलकर सहेजें।"
+  },
+  "error_REDIRECT_LIMIT": {
+    "message": "सदस्यता ने बहुत अधिक बार रीडायरेक्ट किया। उसका URL जाँचें।"
+  },
+  "error_REFERENCED_PROFILE_DELETE": {
+    "message": "इस प्रोफ़ाइल का संदर्भ एक स्वचालित नियम में है"
+  },
+  "error_REMOTE_PAC_UNSUPPORTED": {
+    "message": "इनलाइन PAC स्रोत इस्तेमाल करें; दूरस्थ PAC समर्थित नहीं है"
+  },
+  "error_ROUTE_PORT_UNAVAILABLE": {
+    "message": "कोई पोर्ट आवंटित नहीं हुआ"
+  },
+  "error_ROUTE_RECOVERY_RESTORE_FAILED": {
+    "message": "रूट पुनर्प्राप्ति विफल रही और बहाली के लिए ध्यान देना आवश्यक है"
+  },
+  "error_ROUTE_REVISION_CONFLICT": {
+    "message": "दूसरी विंडो में रूट बदल गया है। पहले रीफ़्रेश करें"
+  },
+  "error_ROUTE_SAVE_ROLLBACK_FAILED": {
+    "message": "रूट सहेजना विफल रहा और बदलाव वापस लेने के लिए ध्यान देना आवश्यक है"
+  },
+  "error_ROUTE_UNAVAILABLE": {
+    "message": "परीक्षण रूट उपलब्ध नहीं है। नोड और पूर्ववर्ती प्रॉक्सी की सेटिंग जाँचें।"
+  },
+  "error_RULE_BINDING_MISSING": {
+    "message": "नोड नियम बाइंडिंग गायब है। स्वचालित प्रोफ़ाइल फिर खोलकर सहेजें: {name}"
+  },
+  "error_RULE_NODES_LIMIT": {
+    "message": "स्वचालित नियम अधिकतम {limit} अलग-अलग नोडों का समर्थन करते हैं"
+  },
+  "error_RULE_NODE_CHANGED": {
+    "message": "नोड नियम उपलब्ध नहीं है या बदल गया है। नोड बहाल करें या दूसरा चुनकर सहेजें: {name}"
+  },
+  "error_RULE_PATH_CONFLICT": {
+    "message": "नोड नियम पथों में टकराव है"
+  },
+  "error_RULE_PATTERNS_LIMIT": {
+    "message": "स्वचालित नियम कुल अधिकतम {limit} मिलान पैटर्न का समर्थन करते हैं"
+  },
+  "error_RULE_PORT_UNAVAILABLE": {
+    "message": "नोड नियम का पोर्ट उपलब्ध नहीं है"
+  },
+  "error_RULE_REVISION_CONFLICT": {
+    "message": "दूसरी विंडो में नोड नियम बदल गया है। पहले रीफ़्रेश करें"
+  },
+  "error_SELECTED_NODE_UNAVAILABLE": {
+    "message": "चुना गया नोड उपलब्ध नहीं है। उसे बहाल करें या दूसरा चुनें"
+  },
+  "error_SOCKS_FAILED": {
+    "message": "SOCKS कनेक्शन स्थापित नहीं किया जा सका।"
+  },
+  "error_STARTUP_FALLBACK_REFUSED": {
+    "message": "ब्राउज़र ने स्टार्टअप फ़ॉलबैक प्रॉक्सी अस्वीकार की।"
+  },
+  "error_SUBSCRIPTION_CHANGED": {
+    "message": "अपडेट के दौरान सदस्यता बदल गई। रीफ़्रेश करें और फिर कोशिश करें।"
+  },
+  "error_SUBSCRIPTION_HTTP_STATUS": {
+    "message": "सदस्यता सर्वर ने HTTP {status} लौटाया।"
+  },
+  "error_SUBSCRIPTION_LIMIT": {
+    "message": "सदस्यताओं की सीमा पूरी हो गई है। अनुपयोगी सदस्यता हटाएँ और फिर कोशिश करें।"
+  },
+  "error_SUBSCRIPTION_NOT_FOUND": {
+    "message": "चुनी गई सदस्यता अब मौजूद नहीं है।"
+  },
+  "error_SYSTEM_PROXY_SNAPSHOT_UNAVAILABLE": {
+    "message": "लागू सिस्टम प्रॉक्सी स्नैपशॉट उपलब्ध नहीं है।"
+  },
+  "error_SYSTEM_PROXY_TIMEOUT": {
+    "message": "सिस्टम प्रॉक्सी पढ़ने का समय समाप्त हो गया"
+  },
+  "error_SYSTEM_PROXY_UNAVAILABLE": {
+    "message": "सिस्टम प्रॉक्सी उपलब्ध नहीं है। तकनीकी विवरण देखें।"
+  },
+  "error_TIMEOUT": {
+    "message": "अनुरोध का समय समाप्त हो गया। कनेक्शन जाँचें और फिर कोशिश करें।"
+  },
+  "error_TLS_DOWNGRADE": {
+    "message": "सदस्यता HTTPS से HTTP पर रीडायरेक्ट हुई और रोक दी गई।"
+  },
+  "error_TLS_FAILED": {
+    "message": "सुरक्षित कनेक्शन सत्यापित नहीं किया जा सका। सर्वर और प्रमाणपत्र जाँचें।"
+  },
+  "error_UNSAFE_TEMP_PATH": {
+    "message": "अस्थायी परीक्षण फ़ोल्डर असुरक्षित है। परीक्षण रोक दिया गया।"
+  },
+  "error_UNSUPPORTED_LIBRARY_REQUEST": {
+    "message": "लाइब्रेरी अनुरोध समर्थित नहीं है"
+  },
+  "error_UNSUPPORTED_PROFILE_TYPE": {
+    "message": "प्रोफ़ाइल प्रकार समर्थित नहीं है"
+  },
+  "error_UNSUPPORTED_REQUEST": {
+    "message": "अनुरोध समर्थित नहीं है"
+  },
+  "error_UNSUPPORTED_RULE_CONDITION": {
+    "message": "केवल होस्ट और URL वाइल्डकार्ड नियम समर्थित हैं"
+  },
+  "error_UPDATE_FAILED": {
+    "message": "सदस्यता अपडेट विफल रहा। मौजूदा नोड सुरक्षित रखे गए।"
+  },
+  "error_VALIDATION_FAILED": {
+    "message": "सदस्यता की सामग्री मान्य नहीं की जा सकी। मौजूदा नोड सुरक्षित रखे गए।"
+  },
+  "nativeUnnamedNode": {
+    "message": "बिना नाम का नोड"
+  },
+  "nativeProtocolCustom": {
+    "message": "कस्टम"
+  },
+  "nativeProtocolOutbound": {
+    "message": "कस्टम आउटबाउंड"
+  },
+  "nativeProtocolGroup": {
+    "message": "नीति समूह"
+  },
+  "nativeProtocolChain": {
+    "message": "प्रॉक्सी चेन"
+  },
+  "nativeProtocolUnknown": {
+    "message": "असमर्थित प्रकार"
+  },
+  "languageLoadFailed": {
+    "message": "चुनी गई भाषा लोड नहीं हो सकी। फिर कोशिश करें।"
+  },
+  "invalidBackupJSON": {
+    "message": "बैकअप मान्य JSON नहीं है।"
+  },
+  "noticeBodyLanguages": {
+    "message": "पूरी नीति का पाठ अंग्रेज़ी और सरलीकृत चीनी में उपलब्ध है।"
+  },
+  "policyRules": {
+    "message": "प्रॉक्सी रूटिंग नियम"
+  },
+  "policyPriority": {
+    "message": "क्रम: प्रॉक्सी से बाहर पते → पहला मेल खाने वाला नियम → डिफ़ॉल्ट रूट।"
+  },
+  "policyDirectHelp": {
+    "message": "मेल न खाने वाले पते सीधे जुड़ते हैं। पॉपअप का सीधा कनेक्शन बटन भी ये नियम उपयोग करता है।"
+  },
+  "policySystemHelp": {
+    "message": "मेल न खाने वाले पते सिस्टम प्रॉक्सी उपयोग करते हैं। पॉपअप का सिस्टम बटन भी ये नियम उपयोग करता है।"
+  },
+  "policyEmpty": {
+    "message": "अभी कोई नियम नहीं है। डिफ़ॉल्ट रूट उपयोग होता है।"
+  },
+  "policyAddressHelp": {
+    "message": "डोमेन, वाइल्डकार्ड डोमेन, IP या IP:पोर्ट। IP नियम URL में दिए IP से मेल करते हैं, DNS नतीजों से नहीं।"
+  },
+  "policyMoveUp": {
+    "message": "नियम ऊपर करें"
+  },
+  "policyMoveDown": {
+    "message": "नियम नीचे करें"
+  }
+}

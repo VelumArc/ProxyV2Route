@@ -1,0 +1,2150 @@
+{
+  "ruleTargetUnavailable": {
+    "message": "Sihtmärk pole saadaval"
+  },
+  "rulePatternPlaceholder": {
+    "message": "example.com, *.example.org, 192.0.2.1:8443"
+  },
+  "rulePatternHelp": {
+    "message": "Eralda aadressid komadega. Iga URL-i muster eraldi reale. PAC ei pruugi HTTPS-teid näha."
+  },
+  "defaultChoice_direct": {
+    "message": "Ühendage ilma puhverserverita"
+  },
+  "defaultChoice_system": {
+    "message": "Kasutage süsteemi puhverserveri sätteid"
+  },
+  "defaultChoice_node": {
+    "message": "Kasutage selle profiili valitud sõlme"
+  },
+  "defaultChoice_manual": {
+    "message": "Kasutage selle profiili puhverserveri seadeid"
+  },
+  "defaultChoice_auto": {
+    "message": "Rakendage selle profiili marsruutimisreegleid"
+  },
+  "nlHttpsLatency": {
+    "message": "HTTPS vastus"
+  },
+  "nlLatencyMethod": {
+    "message": "Cloudflare · Vähemalt kaks vastust · Ühenduse taaskasutamine, kui see on saadaval"
+  },
+  "nlLatencyFast": {
+    "message": "Kiire"
+  },
+  "nlLatencyModerate": {
+    "message": "Mõõdukas"
+  },
+  "nlLatencySlow": {
+    "message": "Aeglane"
+  },
+  "nlSortName": {
+    "message": "Nimi"
+  },
+  "nlSortLatency": {
+    "message": "Latentsus: madal kuni kõrge"
+  },
+  "nlSortDownload": {
+    "message": "Allalaadimine: kõrgest madalani"
+  },
+  "nlSortUpload": {
+    "message": "Üleslaadimine: kõrgest madalani"
+  },
+  "nlSingle": {
+    "message": "Üks sõlm"
+  },
+  "nlGroupBatch": {
+    "message": "Rühm / partii"
+  },
+  "nlTestScope": {
+    "message": "Testi ulatus"
+  },
+  "nlCurrentNode": {
+    "message": "Valitud sõlm"
+  },
+  "nlCurrentGroup": {
+    "message": "Valitud rühm"
+  },
+  "nlChooseNode": {
+    "message": "Valige loendist sõlm"
+  },
+  "nlStart": {
+    "message": "Alusta katset"
+  },
+  "nlService": {
+    "message": "Testiteenus"
+  },
+  "nlMeasured": {
+    "message": "mõõdetud"
+  },
+  "nlMeanLatency": {
+    "message": "Keskmine latentsusaeg"
+  },
+  "nlGroupBySource": {
+    "message": "Allikarühma järgi"
+  },
+  "nlPreviousPage": {
+    "message": "Eelmine leht"
+  },
+  "nlNextPage": {
+    "message": "Järgmine leht"
+  },
+  "nlName": {
+    "message": "Nimi"
+  },
+  "nlEdit": {
+    "message": "Redigeeri"
+  },
+  "nlStop": {
+    "message": "Peatus"
+  },
+  "nlConfirm": {
+    "message": "Kinnitage"
+  },
+  "nlAllNodes": {
+    "message": "Kõik sõlmed"
+  },
+  "nlNodeResults": {
+    "message": "Sõlme tulemused"
+  },
+  "nlTestCenter": {
+    "message": "Testimiskeskus"
+  },
+  "nlNewGroup": {
+    "message": "Uus rühm"
+  },
+  "nlRenameGroup": {
+    "message": "Nimeta rühm ümber"
+  },
+  "nlRemoveGroup": {
+    "message": "Eemalda rühm"
+  },
+  "nlRemoveGroupHelp": {
+    "message": "Hoidke kõik sõlmed ja tellimused alles ning teisaldage need imporditud sõlmedesse."
+  },
+  "nlNode": {
+    "message": "Sõlm"
+  },
+  "nlStatus": {
+    "message": "Olek"
+  },
+  "nlActions": {
+    "message": "Tegevused"
+  },
+  "nlSort": {
+    "message": "Sordi ainult seda tabelit"
+  },
+  "nlSelected": {
+    "message": "valitud"
+  },
+  "nlTestNode": {
+    "message": "Test"
+  },
+  "nlProfileShort": {
+    "message": "Profiil"
+  },
+  "nlQuick": {
+    "message": "Kiire latentsusaeg"
+  },
+  "nlFull": {
+    "message": "Allalaadimine + üleslaadimine"
+  },
+  "nlTraffic": {
+    "message": "Testiandmete suurus"
+  },
+  "nlConcurrency": {
+    "message": "Samaaegsed sõlmed"
+  },
+  "nlTrafficFullOnly": {
+    "message": "Kasutatakse alla- ja üleslaadimistestide jaoks"
+  },
+  "nlTestMode": {
+    "message": "Testrežiim"
+  },
+  "nlBudget": {
+    "message": "Maksimaalne kasulik koormus"
+  },
+  "nlViaGroup": {
+    "message": "Grupieelse puhverserveri kaudu"
+  },
+  "nlTestSelected": {
+    "message": "Test on valitud"
+  },
+  "nlTestVisible": {
+    "message": "Näidatud sõlmede testimine"
+  },
+  "nlTestAll": {
+    "message": "Testige kõiki sõlme"
+  },
+  "nlTestGroup": {
+    "message": "Testrühma sõlmed"
+  },
+  "nlProgress": {
+    "message": "Mõõtmise edenemine"
+  },
+  "nlReady": {
+    "message": "Valige alustamiseks sõlmed. Ühtegi testi pole tehtud."
+  },
+  "nlStarting": {
+    "message": "Isoleeritud mõõtmise alustamine…"
+  },
+  "nlQueued": {
+    "message": "Järjekorras"
+  },
+  "nlRunning": {
+    "message": "Testimine"
+  },
+  "nlStopping": {
+    "message": "Peatatakse…"
+  },
+  "nlComplete": {
+    "message": "Täielik"
+  },
+  "nlFailed": {
+    "message": "Ebaõnnestunud"
+  },
+  "nlStopped": {
+    "message": "Peatatud"
+  },
+  "nlPartial": {
+    "message": "Osaline"
+  },
+  "nlUntested": {
+    "message": "Pole testitud"
+  },
+  "nlSucceeded": {
+    "message": "läbis"
+  },
+  "nlMeasureDisconnected": {
+    "message": "Mõõtmisühendus on lõppenud. Mittetäielikud väärtused ei ole lõplikud tulemused."
+  },
+  "nlUpgrade": {
+    "message": "Värskendage kohalikku kaaslast, et hallata gruppe ja tellimusi. Olemasolevad sõlmed jäävad kättesaadavaks."
+  },
+  "nlOperationFailed": {
+    "message": "Toimingut ei saanud lõpule viia. Proovi uuesti."
+  },
+  "nlEditSubscription": {
+    "message": "Muuda tellimust"
+  },
+  "nlPasteContent": {
+    "message": "Puhverserveri lingid / sisu"
+  },
+  "nlSubscriptionURL": {
+    "message": "Tellimus URL"
+  },
+  "nlKeepURL": {
+    "message": "Salvestatud URL säilitamiseks jätke tühjaks"
+  },
+  "nlConnectionPolicy": {
+    "message": "Uuenda ühendust"
+  },
+  "nlProxyFirst": {
+    "message": "Esmalt puhverserver, seejärel otse rikke korral"
+  },
+  "nlProxyOnly": {
+    "message": "Ainult puhverserver"
+  },
+  "nlDirectOnly": {
+    "message": "Ainult otse"
+  },
+  "nlProxyFirstHelp": {
+    "message": "Puhverserver peatub pärast edukat toomist esimest korda. Otsest proovitakse ainult siis, kui puhverserveri katse ebaõnnestub."
+  },
+  "nlAutoUpdate": {
+    "message": "Luba automaatsed värskendused"
+  },
+  "nlInterval": {
+    "message": "Värskenduste intervall (minutid)"
+  },
+  "nlDestinationGroup": {
+    "message": "Sihtkoha rühm"
+  },
+  "nlSubscriptionOwnGroup": {
+    "message": "Uus grupp…"
+  },
+  "nlNameGroup": {
+    "message": "Nimi (rühm)"
+  },
+  "nlCustomGroup": {
+    "message": "Kohandatud rühm"
+  },
+  "nlNameRequired": {
+    "message": "Sisestage nimi."
+  },
+  "nlContentRequired": {
+    "message": "Kleepige puhverserveri lingid või tellimuse sisu."
+  },
+  "nlGroupRequired": {
+    "message": "Valige sihtrühm."
+  },
+  "nlURLRequired": {
+    "message": "Sisestage HTTP(S) tellimus URL ilma kasutajanime või paroolita."
+  },
+  "nlIntervalInvalid": {
+    "message": "Sisestage täisarv vahemikus 5 kuni 43200 minutit."
+  },
+  "folderTitle": {
+    "message": "Valige kaust v2rayN"
+  },
+  "folderHint": {
+    "message": "Valige kaust, seejärel rakendage see valikuga Salvesta ühenduse sätted."
+  },
+  "folderPath": {
+    "message": "Kohaliku kausta täielik tee"
+  },
+  "folderGo": {
+    "message": "Avatud"
+  },
+  "folderUp": {
+    "message": "Üles"
+  },
+  "folderDrives": {
+    "message": "Ajamid"
+  },
+  "folderCurrent": {
+    "message": "Praegune tee"
+  },
+  "folderChoose": {
+    "message": "Kasutage seda kausta"
+  },
+  "folderList": {
+    "message": "Kaustad"
+  },
+  "folderTruncated": {
+    "message": "Nimekiri on piiratud. Kuvamata kausta avamiseks sisestage ülaltoodud täielik tee.\nLeiti"
+  },
+  "folderReady": {
+    "message": "v2rayN faili. Kasutage seda kausta konfiguratsiooni kinnitamiseks."
+  },
+  "folderInvalid": {
+    "message": "Valige kaust, mis sisaldab guiConfigs, guiNConfig.json ja guiNDB.db."
+  },
+  "folderSelectDrive": {
+    "message": "Valige kohalik draiv või sisestage kausta täielik tee."
+  },
+  "folderEmpty": {
+    "message": "Nähtavaid alamkaustu pole."
+  },
+  "folderUnavailable": {
+    "message": "Seda kausta ei saa sirvida. Kontrollige selle teed ja juurdepääsu. Kui Companion on vanem, värskendage seda esmalt."
+  },
+  "folderValidating": {
+    "message": "Konfiguratsiooni v2rayN valideerimine…"
+  },
+  "folderInvalidConfig": {
+    "message": "v2rayN konfiguratsioon või andmebaas on mittetäielik või kehtetu. Valige teine ​​kaust."
+  },
+  "copyPath": {
+    "message": "Kopeeri tee"
+  },
+  "pathCopyHint": {
+    "message": "Kopeerige sellel väljal praegu olev tee."
+  },
+  "preMode": {
+    "message": "Puhverserveri eelrežiim"
+  },
+  "preNode": {
+    "message": "Puhverserveri eelsõlm"
+  },
+  "preIntro": {
+    "message": "Kasutage rühmaahelat, jätke see vahele või valige selle profiili jaoks eelpuhverserver."
+  },
+  "healthLabel": {
+    "message": "Ühenduse praegune olek"
+  },
+  "healthOk": {
+    "message": "Tavaline"
+  },
+  "healthError": {
+    "message": "Ebanormaalne"
+  },
+  "healthChecking": {
+    "message": "Kontrollimine"
+  },
+  "healthUnknown": {
+    "message": "Kinnitamata"
+  },
+  "autoSystemHelp": {
+    "message": "Süsteemireeglid vajavad Windowsi komponenti ja fikseeritud puhverserveri sätete hetkekoopiat. Pärast muudatusi rakenda uuesti. PAC/WPAD pole toetatud; reegliteta süsteemirežiim kasutab brauseri algseid sätteid."
+  },
+  "backgroundUnavailable": {
+    "message": "Laienduse taust pole saadaval."
+  },
+  "backgroundNoResponse": {
+    "message": "Taust ei reageerinud."
+  },
+  "backupTooLarge": {
+    "message": "Varundamine ületab 5 MB."
+  },
+  "proxyUsername": {
+    "message": "Kasutajanimi"
+  },
+  "proxyPassword": {
+    "message": "Parool"
+  },
+  "proxyAuthHelp": {
+    "message": "Valikuline. Autentitud puhverserverid ühendavad kaaslase kaudu. Mandaadid salvestatakse sellesse brauseri konfiguratsiooni ja kaaslasesse ning kaasatakse profiilide eksportimisse."
+  },
+  "proxyAuthSocks4": {
+    "message": "SOCKS4 ei toeta seda kasutajanime/parooli autentimist; kasutage HTTP(S) või SOCKS5."
+  },
+  "importExamples": {
+    "message": "Vormingu näited"
+  },
+  "ipCopying": {
+    "message": "Kopeerimine…"
+  },
+  "netDnsUnavailable": {
+    "message": "Serveri aadressi ei õnnestunud õigeaegselt lahendada. Kontrollige hosti või IP aadressi ja proovige uuesti."
+  },
+  "netCurrentTarget": {
+    "message": "Valitud puhverserveri lõpp-punkt"
+  },
+  "netCustomTarget": {
+    "message": "Kohandatud server"
+  },
+  "netHost": {
+    "message": "Hosti või IP aadress"
+  },
+  "netPort": {
+    "message": "TCP port"
+  },
+  "netHostRequired": {
+    "message": "Sisestage serveri hosti või IP aadress."
+  },
+  "netCurrentUnavailable": {
+    "message": "Valige sõlm või käsitsi puhverserveri profiil või sisestage kohandatud sihtmärk."
+  },
+  "netInvalidTarget": {
+    "message": "Sisestage kehtiv diagnostikahost ja port."
+  },
+  "netIpv6PingUnavailable": {
+    "message": "IPv6 ICMP pole saadaval; kasutage TCPing."
+  },
+  "preNeedsFix": {
+    "message": "Valige enne salvestamist kehtiv eelpuhverserver või ilma eelpuhverserverita."
+  },
+  "preConfigure": {
+    "message": "Konfigureerige eelpuhverserver"
+  },
+  "preFollowInvalid": {
+    "message": "Follow v2rayN ei aktsepteeri kohandatud eelpuhverserverit."
+  },
+  "followChainHelp": {
+    "message": "Follow kasutab marsruuti ja puhverserveri ahelat, mis on juba aktiivne v2rayN."
+  },
+  "netTitle": {
+    "message": "Ühendustestid"
+  },
+  "ipTestDetails": {
+    "message": "Testi üksikasjad"
+  },
+  "netTarget": {
+    "message": "Ping / TCPing sihtmärk"
+  },
+  "netDownload": {
+    "message": "Allalaadimise test"
+  },
+  "netPartial": {
+    "message": "Osaline proov"
+  },
+  "netComplete": {
+    "message": "Näidis on valmis"
+  },
+  "netDirect": {
+    "message": "Süsteemivõrk"
+  },
+  "netUnreachable": {
+    "message": "Vastust ei ole / ebaõnnestus"
+  },
+  "netAverage": {
+    "message": "Keskmine"
+  },
+  "predecessor": {
+    "message": "Pre-puhverserver"
+  },
+  "preInherit": {
+    "message": "Kasutage rühmaahelat v2rayN"
+  },
+  "preNone": {
+    "message": "Eelpuhverserver puudub"
+  },
+  "preSpecific": {
+    "message": "Valige sõlm"
+  },
+  "preHelp": {
+    "message": "Kehtib selle profiili kohta. Kasutage rühmaahelat v2rayN, ilma eelpuhverserverita või konkreetse sõlmeta. Follow v2rayN kasutab oma olemasolevat ahelat."
+  },
+  "preSelectRequired": {
+    "message": "Valige puhverserveri eelsõlm või valige Grupi vaikeseade / Puudub."
+  },
+  "ipPing0Permission": {
+    "message": "Lubage juurdepääs veebisaidile Ping0 avaliku aruande laadimiseks."
+  },
+  "ipPublicChallenge": {
+    "message": "Veebisait vajab kinnitamist. Selle lõpetamiseks ja tulemuste vaatamiseks avage leht Ping0."
+  },
+  "ipPublicReport": {
+    "message": "Ping0 avalik aruanne"
+  },
+  "ipPublicSource": {
+    "message": "Allikas: Ping0 avalik leht"
+  },
+  "ipPublicOriginal": {
+    "message": "Ping0 aruanne"
+  },
+  "ipPublicPartial": {
+    "message": "Kuvatakse ainult avalikul lehel esitatud väljad nende algkeeles. Klassifikatsioonid ja jagatud kasutajate hinnangud pärinevad Ping0-st."
+  },
+  "setupTitle": {
+    "message": "Ühendage Proxy V2Route"
+  },
+  "setupIntro": {
+    "message": "Installige kaaslane Windows, et kasutada v2rayN marsruute või enda imporditud sõlme."
+  },
+  "setupStepOne": {
+    "message": "Ekstraheerige sobiv täielik Windows pakett püsivasse kausta."
+  },
+  "setupStepTwo": {
+    "message": "Avage V2Route-Setup.exe ja klõpsake nuppu Installi."
+  },
+  "setupStepThree": {
+    "message": "Naaske siia ja kontrollige ühendust. Vajadusel valige kaust v2rayN."
+  },
+  "setupCheck": {
+    "message": "Kontrollige ühendust"
+  },
+  "downloadCompanion": {
+    "message": "Paigaldusjuhend ↗"
+  },
+  "setupDownloadNote": {
+    "message": "Kasutage sobivat kohalikku Windows paketti või järgige juhendit selle loomiseks praegusest allikast."
+  },
+  "chooseFolder": {
+    "message": "Valige kaust v2rayN…"
+  },
+  "rescanDone": {
+    "message": "Kohalikud sõlmed skanniti uuesti"
+  },
+  "grouping": {
+    "message": "Rühma sõlmed"
+  },
+  "groupByCountry": {
+    "message": "Riigi järgi"
+  },
+  "unknownCountry": {
+    "message": "Muu / teadmata"
+  },
+  "ungrouped": {
+    "message": "Grupeerimata"
+  },
+  "adjustNodeFilters": {
+    "message": "Proovige mõnda muud rühma, allikat või otsingut või kuvage peidetud sõlmed."
+  },
+  "rescanLocal": {
+    "message": "Kontrolli v2rayN sõlmed uuesti"
+  },
+  "showHidden": {
+    "message": "Kuva peidetud sõlmed"
+  },
+  "hideNode": {
+    "message": "Peida"
+  },
+  "restoreNode": {
+    "message": "Taasta"
+  },
+  "hiddenNode": {
+    "message": "Peidetud"
+  },
+  "hideNodeHelp": {
+    "message": "Peida ainult selle brauseri sõlmeteegist. v2rayN ja olemasolevaid profiile ei muudeta."
+  },
+  "ipContextTimeout": {
+    "message": "Praeguse profiili lugemine aegus. Proovi uuesti."
+  },
+  "ipStaleResult": {
+    "message": "Praegust profiili muudeti. See tulemus võib olla aegunud; kontrolli uuesti."
+  },
+  "ip_tools": {
+    "message": "IP Tööriistad"
+  },
+  "ipIntro": {
+    "message": "Praegune väljumine IP ja avalik aruanne."
+  },
+  "ipCurrentProfile": {
+    "message": "Praegune brauseri profiil"
+  },
+  "ipRouteCaution": {
+    "message": "Automaatreeglid ja PAC võivad erinevate sihtkohtade jaoks kasutada erinevaid marsruute. See kontroll kirjeldab ainult tema enda taotlust."
+  },
+  "ipDisclosure": {
+    "message": "Automaatkontrolli väljumine IP · Raportis Ping0"
+  },
+  "ipMethod": {
+    "message": "Aadressi kontroll"
+  },
+  "ipDual": {
+    "message": "IPv4 / IPv6"
+  },
+  "ipCheck": {
+    "message": "Kontrollige uuesti"
+  },
+  "ipChecking": {
+    "message": "Kontrollimine…"
+  },
+  "ipDualHelp": {
+    "message": "IPv4 / IPv6 tagastab selle päringu jaoks kasutatud aadresside perekonna, mitte mõlema aadressi."
+  },
+  "ipDurationHelp": {
+    "message": "Kulunud HTTP päringuaeg sisaldab võrgu ja teenuse reageerimisaega. See ei ole ICMP ping ega ribalaiuse test."
+  },
+  "ipCopy": {
+    "message": "Koopia IP"
+  },
+  "ipCopied": {
+    "message": "Kopeeritud"
+  },
+  "ipCopyFailed": {
+    "message": "Ei saanud kopeerida. Valige aadress ja kopeerige see käsitsi."
+  },
+  "ipNoResult": {
+    "message": "Tšekki veel pole"
+  },
+  "ipContextUnknown": {
+    "message": "Profiil pole saadaval"
+  },
+  "ipTimeout": {
+    "message": "Tšekk aegus. Proovige uuesti või kasutage teist marsruuti."
+  },
+  "ipCancelled": {
+    "message": "Tšekk tühistati"
+  },
+  "ipNetwork": {
+    "message": "Ei õnnestunud jõuda ipify. Kontrollige ühendust ja proovige uuesti."
+  },
+  "ipHttp": {
+    "message": "Teenus IP ei võtnud taotlust vastu. Proovige hiljem uuesti."
+  },
+  "ipInvalid": {
+    "message": "Teenus IP tagastas kehtetu vastuse."
+  },
+  "ipFailure": {
+    "message": "Kontroll ebaõnnestus. Proovi uuesti."
+  },
+  "ipStale": {
+    "message": "Teie puhverserveri sätteid muudeti kontrollimise ajal. Vana tulemus jäeti kõrvale; kontrolli uuesti."
+  },
+  "ipQuality": {
+    "message": "Välised tööriistad"
+  },
+  "ipQualityPrivacy": {
+    "message": "Tööriistad töötavad ainult klõpsamisel. Pakkujad saavad tavalisi ühenduseandmeid. Veebisaidi kontrollid saadavad pärast käivitamist mandaadivabad päringud. Sulgemine peatab kohalikud testid; väliseid vahekaarte haldab brauser."
+  },
+  "ipReport": {
+    "message": "Kopeeri redigeeritud aruanne"
+  },
+  "ipReportCopied": {
+    "message": "Redigeeritud aruanne kopeeritud; ei sisalda IP ega profiilinimesid."
+  },
+  "popupSelected": {
+    "message": "Valitud"
+  },
+  "popupFooter": {
+    "message": "v2rayN ja sõlmede profiilid"
+  },
+  "subtitle": {
+    "message": "Sõltumatud brauseri marsruudid"
+  },
+  "profiles": {
+    "message": "Profiilid"
+  },
+  "nodes": {
+    "message": "Sõlmeteek"
+  },
+  "settings": {
+    "message": "Seaded"
+  },
+  "connected": {
+    "message": "Aktiivne profiil"
+  },
+  "noProfile": {
+    "message": "Süsteemi vaikeseade"
+  },
+  "newProfile": {
+    "message": "Uus profiil"
+  },
+  "searchProfiles": {
+    "message": "Otsi profiile"
+  },
+  "direct": {
+    "message": "Otsevõrk"
+  },
+  "system": {
+    "message": "Süsteemi puhverserver"
+  },
+  "follow": {
+    "message": "Jälgi v2rayN"
+  },
+  "manual": {
+    "message": "Käsitsi puhverserver"
+  },
+  "auto": {
+    "message": "Automaatne lüliti"
+  },
+  "pac": {
+    "message": "PAC skript"
+  },
+  "virtual": {
+    "message": "Virtuaalne profiil"
+  },
+  "profileIntro": {
+    "message": "Valige brauseri marsruut ilma v2rayN põhimarsruuti vahetamata."
+  },
+  "nodesIntro": {
+    "message": "Sirvige kohalikke v2rayN sõlmi ja imporditud linke."
+  },
+  "settingsIntro": {
+    "message": "Kohalik seos, keel ja välimus."
+  },
+  "refresh": {
+    "message": "Värskenda"
+  },
+  "create": {
+    "message": "Loo profiil"
+  },
+  "name": {
+    "message": "Profiili nimi"
+  },
+  "type": {
+    "message": "Profiili tüüp"
+  },
+  "save": {
+    "message": "Salvesta"
+  },
+  "saved": {
+    "message": "Salvestatud"
+  },
+  "saving": {
+    "message": "Salvestamine…"
+  },
+  "cancel": {
+    "message": "Tühista"
+  },
+  "close": {
+    "message": "Sule"
+  },
+  "apply": {
+    "message": "Kasutage seda profiili"
+  },
+  "applied": {
+    "message": "Profiil vahetatud"
+  },
+  "active": {
+    "message": "Aktiivne"
+  },
+  "delete": {
+    "message": "Kustuta"
+  },
+  "remove": {
+    "message": "Eemalda"
+  },
+  "rename": {
+    "message": "Nimeta ümber"
+  },
+  "route": {
+    "message": "Puhverserver"
+  },
+  "selectRoute": {
+    "message": "Valige marsruut"
+  },
+  "routeMissing": {
+    "message": "Marsruut pole saadaval – valige mõni muu"
+  },
+  "chain": {
+    "message": "Ühenduskett"
+  },
+  "connection": {
+    "message": "Kohalik ühendus"
+  },
+  "proxy": {
+    "message": "Puhverserver"
+  },
+  "address": {
+    "message": "Aadress"
+  },
+  "port": {
+    "message": "Port"
+  },
+  "scheme": {
+    "message": "Protokoll"
+  },
+  "proxyDns": {
+    "message": "SOCKS5 DNS lahendab puhverserveri kaudu."
+  },
+  "connectedIdle": {
+    "message": "Ühendatud · Tühikäik"
+  },
+  "bypass": {
+    "message": "Möödasõiduloend"
+  },
+  "bypassHelp": {
+    "message": "Üks domeen, metamärkidega domeen, IP-aadress või IP:port rea kohta."
+  },
+  "advanced": {
+    "message": "Täpsemad valikud"
+  },
+  "searchRoutes": {
+    "message": "Otsige gruppe või sõlme"
+  },
+  "selectGroup": {
+    "message": "Valige rühm"
+  },
+  "empty": {
+    "message": "Sobivaid üksusi pole"
+  },
+  "unavailable": {
+    "message": "Pole saadaval"
+  },
+  "groupHint": {
+    "message": "Hoidke rühma 250 ms, seejärel lohistage. Alt + ↑ / ↓ muudab ka järjestust. Muudatused salvestatakse automaatselt."
+  },
+  "searchSort": {
+    "message": "Enne sortimist tühjendage otsing."
+  },
+  "dragHint": {
+    "message": "Liigutage üles või alla, seejärel vabastage salvestamiseks. Esc tühistab."
+  },
+  "orderSaved": {
+    "message": "Grupitellimus salvestatud"
+  },
+  "orderCancelled": {
+    "message": "Ümbertellimine tühistatud"
+  },
+  "loading": {
+    "message": "Laadimine…"
+  },
+  "reading": {
+    "message": "Kohalike sõlmede lugemine…"
+  },
+  "nativeMissing": {
+    "message": "Kohalik komponent pole ühendatud"
+  },
+  "retry": {
+    "message": "Proovi uuesti"
+  },
+  "nativeHelp": {
+    "message": "Sõlme marsruudid nõuavad Windows kaaslast. Otsesed, süsteemsed ja käsitsi puhverserverid on nüüd saadaval."
+  },
+  "imported": {
+    "message": "Imporditud"
+  },
+  "v2rayn": {
+    "message": "v2rayN"
+  },
+  "allSources": {
+    "message": "Kõik allikad"
+  },
+  "importNodes": {
+    "message": "Impordi puhverserverid"
+  },
+  "importTitle": {
+    "message": "Impordi puhverserverid"
+  },
+  "importHelp": {
+    "message": "Kleebi puhverserveri lingid, väljuv JSON või Base64 tellimus. SOCKS toetab tavalisi või Base64 mandaate. Skeemivabad aadressid kasutavad HTTP."
+  },
+  "importPrivacy": {
+    "message": "Puhverserveri üksikasjad ja mandaadid edastatakse kohalikule Proxy V2Route kaaslasele salvestamiseks ja teie valitud puhverserveriga ühendamiseks. Arendaja seda teavet ei saa."
+  },
+  "import": {
+    "message": "Profiilide importimine"
+  },
+  "nodeCount": {
+    "message": "sõlmed"
+  },
+  "source": {
+    "message": "Allikas"
+  },
+  "protocol": {
+    "message": "Protokoll"
+  },
+  "useNode": {
+    "message": "Loo profiil"
+  },
+  "removeNode": {
+    "message": "Kas eemaldada imporditud sõlm?"
+  },
+  "removeNodeHelp": {
+    "message": "Seda sõlme kasutavad profiilid tuleb enne selle eemaldamist uuesti määrata."
+  },
+  "deleteProfile": {
+    "message": "Kas kustutada see profiil?"
+  },
+  "deleteProfileHelp": {
+    "message": "See eemaldab ainult selle brauseri profiili. Imporditud sõlmed ja v2rayN konfiguratsioon jäetakse alles."
+  },
+  "language": {
+    "message": "Keel"
+  },
+  "automatic": {
+    "message": "Brauseri vaikeseade"
+  },
+  "theme": {
+    "message": "Välimus"
+  },
+  "light": {
+    "message": "Valgus"
+  },
+  "dark": {
+    "message": "Tume"
+  },
+  "switchToEnglish": {
+    "message": "Lülituge inglise keelele"
+  },
+  "switchToChinese": {
+    "message": "Lülituge lihtsustatud hiina keelele"
+  },
+  "switchToLight": {
+    "message": "Lülitage heledale välimusele"
+  },
+  "switchToDark": {
+    "message": "Lülitage tumedale välimusele"
+  },
+  "localComponent": {
+    "message": "Kaaskomponent"
+  },
+  "ready": {
+    "message": "Ühendatud"
+  },
+  "stopped": {
+    "message": "Ei tööta"
+  },
+  "discovery": {
+    "message": "v2rayN tuvastamine"
+  },
+  "rootPath": {
+    "message": "v2rayN kaust"
+  },
+  "corePath": {
+    "message": "Puhverserveri tuuma käivitatav fail"
+  },
+  "optionalPath": {
+    "message": "Automaatse tuvastamise jaoks jätke tühjaks"
+  },
+  "pathsHelp": {
+    "message": "v2rayN tuvastatakse automaatselt; valige vajadusel selle kaust. Imporditud sõlmed kasutavad kaasasolevat südamikku."
+  },
+  "savePaths": {
+    "message": "Salvestage ühenduse sätted"
+  },
+  "privacy": {
+    "message": "Seaded salvestatakse kohapeal"
+  },
+  "privacyText": {
+    "message": "Sõlme lingid ja mandaadid jäävad kohalikku kaaslast. Brauseri liiklus liigub teie valitud puhverserveri kaudu sihtkoha veebisaitidele; arendaja seda ei saa."
+  },
+  "privacyDetails": {
+    "message": "Privaatsus ja andmevoog"
+  },
+  "export": {
+    "message": "Ekspordi profiilid"
+  },
+  "about": {
+    "message": "Umbes Proxy V2Route"
+  },
+  "aboutText": {
+    "message": "Valige brauseri marsruut ilma v2rayN põhimarsruuti vahetamata. Sõlmemarsruudid kasutavad kaaslast Windows ja teie enda sõlmi."
+  },
+  "licenses": {
+    "message": "Avatud lähtekoodiga teatised"
+  },
+  "version": {
+    "message": "Versioon"
+  },
+  "fieldRequired": {
+    "message": "Sisestage profiili nimi."
+  },
+  "profileExists": {
+    "message": "Selle nimega profiil on juba olemas."
+  },
+  "ruleHelp": {
+    "message": "Eraldage domeenid ühes reas komadega. Esimene sobiv rida võidab. Hoidke vaikemarsruut saadaval."
+  },
+  "rules": {
+    "message": "Marsruutimise reeglid"
+  },
+  "pattern": {
+    "message": "Host muster"
+  },
+  "target": {
+    "message": "Reegli sihtmärk"
+  },
+  "addRule": {
+    "message": "Lisa reegel"
+  },
+  "defaultRoute": {
+    "message": "Vaikeprofiil"
+  },
+  "pacHelp": {
+    "message": "Kleebi usaldusväärne PAC allikas, mis sisaldab FindProxyForURL. See skript otsustab, kuidas veebisaidi päringuid suunatakse."
+  },
+  "pacUrl": {
+    "message": "PAC URL"
+  },
+  "pacScript": {
+    "message": "PAC skript"
+  },
+  "noSelection": {
+    "message": "Valige profiil või looge see."
+  },
+  "details": {
+    "message": "Üksikasjad"
+  },
+  "noNodes": {
+    "message": "Sõlme pole veel"
+  },
+  "noNodesHelp": {
+    "message": "Alustamiseks ühendage v2rayN või importige puhverserveri lingid, JSON või tellimus."
+  },
+  "openSettings": {
+    "message": "Ava seaded"
+  },
+  "proxySettings": {
+    "message": "Puhverserveri seaded"
+  },
+  "switching": {
+    "message": "Vahetamine…"
+  },
+  "updatedElsewhere": {
+    "message": "Seda profiili muudeti teises aknas. Enne salvestamist avage see uuesti."
+  },
+  "choose": {
+    "message": "Valige"
+  },
+  "popupIntro": {
+    "message": "Ühendus:"
+  },
+  "invalidPort": {
+    "message": "Sisestage port vahemikus 1 kuni 65535."
+  },
+  "externalControl": {
+    "message": "Teine laiendus või reegel juhib brauseri puhverserverit."
+  },
+  "noNativeRoute": {
+    "message": "Ühendage kohalik komponent enne sõlmeprofiili loomist."
+  },
+  "reload": {
+    "message": "Laadi uuesti"
+  },
+  "rulesError": {
+    "message": "Iga reegel vajab mustrit ja sihtmärki."
+  },
+  "backupDone": {
+    "message": "Brauseri profiilid eksporditud"
+  },
+  "managed": {
+    "message": "Hallatud sõlm"
+  },
+  "netRegion": {
+    "message": "Sihtpiirkond"
+  },
+  "netNodeArea": {
+    "message": "Puhverserveri sõlm"
+  },
+  "netChina": {
+    "message": "Mandri-Hiina"
+  },
+  "netGlobal": {
+    "message": "Ülemaailmne"
+  },
+  "netAli": {
+    "message": "AliDNS"
+  },
+  "netTencent": {
+    "message": "DNSPod"
+  },
+  "netStartHelp": {
+    "message": "Valige sihtmärk ja alustage reaalajas testi."
+  },
+  "netConsole": {
+    "message": "Reaalajas diagnostika"
+  },
+  "netStop": {
+    "message": "Peatus"
+  },
+  "netRunning": {
+    "message": "Jooksmine"
+  },
+  "netStopped": {
+    "message": "Peatatud"
+  },
+  "netSent": {
+    "message": "Saadetud"
+  },
+  "netLoss": {
+    "message": "Kaotus"
+  },
+  "netAverageShort": {
+    "message": "Keskm"
+  },
+  "netLogClear": {
+    "message": "Selge"
+  },
+  "netFinishing": {
+    "message": "Eelmine sond on lõppemas…"
+  },
+  "netRound": {
+    "message": "Ümar"
+  },
+  "netDestination": {
+    "message": "Sihtkoht"
+  },
+  "netHop": {
+    "message": "Humal"
+  },
+  "netAddress": {
+    "message": "IP aadress"
+  },
+  "netLast": {
+    "message": "Viimane"
+  },
+  "netConsoleHelp": {
+    "message": "Ping / TCPing / MTR kasutavad süsteemivõrku, mitte puhverserveri ahelat. Puuduvad ICMP vastused ei tõenda liikluse katkemist. Allalaadimine kasutab brauseri marsruuti ja valitud suurusepiirangut. Testid peatuvad, kui lahkute sellelt lehelt või peidate selle."
+  },
+  "netDirectShort": {
+    "message": "Süsteemivõrk"
+  },
+  "netIcmpShort": {
+    "message": "Ei ICMP vastus"
+  },
+  "netProbeError": {
+    "message": "Kohaliku sondi viga"
+  },
+  "netNoDestination": {
+    "message": "Sihtkohta ei jõutud"
+  },
+  "deleteActive": {
+    "message": "Lülituge süsteemile ja kustutage"
+  },
+  "deleteActiveHelp": {
+    "message": "See profiil on aktiivne. Selle kustutamisel lülitatakse brauser süsteemipuhverserverile."
+  },
+  "netDownloadSize": {
+    "message": "Allalaadimise suurus"
+  },
+  "netReceived": {
+    "message": "Saadud"
+  },
+  "netBest": {
+    "message": "Parim"
+  },
+  "netWorst": {
+    "message": "Halvim"
+  },
+  "netStdDev": {
+    "message": "Std dev"
+  },
+  "netLocation": {
+    "message": "Asukoht"
+  },
+  "toolWall": {
+    "message": "Domeeni blokeerimise kontroll"
+  },
+  "toolSites": {
+    "message": "Populaarsed veebisaidid"
+  },
+  "toolGlobal": {
+    "message": "Globaalne diagnostika"
+  },
+  "toolFast": {
+    "message": "Netflix kiirust"
+  },
+  "toolSpeed": {
+    "message": "Kiiruskatse"
+  },
+  "toolStart": {
+    "message": "Algus"
+  },
+  "toolReady": {
+    "message": "Valmis"
+  },
+  "toolResponded": {
+    "message": "Vastatud"
+  },
+  "toolNoResponse": {
+    "message": "Kinnitamata"
+  },
+  "toolCacheUnsupported": {
+    "message": "See brauser ei saa vahemälu saidi kaupa tühjendada; leht on uuesti laaditud."
+  },
+  "toolCacheFailed": {
+    "message": "Vahemälu puhastamine ei lõppenud. Sulgege ja proovige uuesti."
+  },
+  "toolClose": {
+    "message": "Sule"
+  },
+  "toolReload": {
+    "message": "Laadi uuesti"
+  },
+  "toolLoading": {
+    "message": "Laadimine…"
+  },
+  "toolFrameError": {
+    "message": "Ei saanud laadida. Proovige uuesti laadida."
+  },
+  "toolSiteHelp": {
+    "message": "Ainult brauseri juurdepääsetavus. See ei kinnita kontole ega piirkondlikku juurdepääsu."
+  },
+  "toolFallback": {
+    "message": "Varunduskiiruse test"
+  },
+  "toolFullscreen": {
+    "message": "Täisekraan"
+  },
+  "toolRestore": {
+    "message": "Välju täisekraanilt"
+  },
+  "ipReadFailed": {
+    "message": "Lugemine ebaõnnestus. 👉"
+  },
+  "ipViewSource": {
+    "message": "Kuva lähtesait"
+  },
+  "toolDownloadError": {
+    "message": "Allalaadimisserveriga ei õnnestunud ühendust saada. Proovi uuesti."
+  },
+  "toolAccess": {
+    "message": "Luba juurdepääs saidile"
+  },
+  "toolPermission": {
+    "message": "Lubage juurdepääs sellele saidile manustatud seansi ühilduvuse tagamiseks."
+  },
+  "toolAsia": {
+    "message": "Aasia"
+  },
+  "toolEurope": {
+    "message": "Euroopa"
+  },
+  "toolAmerica": {
+    "message": "Põhja-Ameerika"
+  },
+  "toolGlobalHelp": {
+    "message": "Eeltäidab brauseri väljumise IP. Valige teede võrdlemiseks Mandri-Hiina või mõni muu piirkond; Start saadab kuvatava sihtmärgi kuni kolmele Globalping sondile."
+  },
+  "toolServiceError": {
+    "message": "Testteenus pole saadaval. Proovi uuesti."
+  },
+  "popupOrderHelp": {
+    "message": "Järjestuse muutmiseks hoidke all ja lohistage. Alt+nooleklahvid liigutavad ka seda profiili."
+  },
+  "popupOrderSaved": {
+    "message": "Tellimus salvestatud"
+  },
+  "toolGroupIP": {
+    "message": "IP testid"
+  },
+  "toolGroupWeb": {
+    "message": "Veebisaidi testid"
+  },
+  "toolGroupSpeed": {
+    "message": "Kiirus"
+  },
+  "toolCurrentIP": {
+    "message": "Praegune väljumine IP"
+  },
+  "toolCurrentIPLoading": {
+    "message": "Voolu väljapääsu laadimine IP…"
+  },
+  "toolCurrentIPFailed": {
+    "message": "Praegust IP ei õnnestunud lugeda. Sisestage sihtmärk."
+  },
+  "speedMode": {
+    "message": "Testrežiim"
+  },
+  "speedBoth": {
+    "message": "Allalaadimine + üleslaadimine"
+  },
+  "speedDownload": {
+    "message": "Laadi alla"
+  },
+  "speedUpload": {
+    "message": "Laadi üles"
+  },
+  "speedLatency": {
+    "message": "HTTP latentsusaeg"
+  },
+  "speedBudget": {
+    "message": "{n} MiB faasi kohta · {total} MiB kokku, pluss väikesed latentsusnäidised."
+  },
+  "siteCategory": {
+    "message": "Veebisaidi kategooria"
+  },
+  "siteAll": {
+    "message": "Kõik veebisaidid"
+  },
+  "siteAI": {
+    "message": "AI"
+  },
+  "siteDevelopment": {
+    "message": "Arendus"
+  },
+  "siteVideo": {
+    "message": "Video/muusika"
+  },
+  "siteSocial": {
+    "message": "Sotsiaalne"
+  },
+  "siteDomestic": {
+    "message": "Mandri teenused"
+  },
+  "siteServices": {
+    "message": "Ühised teenused"
+  },
+  "globalMethod": {
+    "message": "Mõõtmise tüüp"
+  },
+  "localPort": {
+    "message": "Kohalik port:"
+  },
+  "chainChooseNode": {
+    "message": "Valige puhverserver"
+  },
+  "chainTitle": {
+    "message": "Puhverahel"
+  },
+  "chainSelectExit": {
+    "message": "Selle kohandatud ahela salvestamiseks või testimiseks valige allpool konkreetne väljumissõlm. Järgimist v2rayN haldab v2rayN."
+  },
+  "chainSelectExitShort": {
+    "message": "Valige väljumissõlm"
+  },
+  "chainAdd": {
+    "message": "+ Lisa puhverserveri kiht"
+  },
+  "chainTest": {
+    "message": "Katsekett"
+  },
+  "chainMode": {
+    "message": "Ahelrežiim"
+  },
+  "chainBase": {
+    "message": "Põhipuhverserver"
+  },
+  "chainExit": {
+    "message": "Välju puhverserverist"
+  },
+  "chainEgress": {
+    "message": "Keti väljumine"
+  },
+  "chainExitBadge": {
+    "message": "Väljumine IP"
+  },
+  "chainEntry": {
+    "message": "Ahelsisenemine"
+  },
+  "chainTransit": {
+    "message": "Sillasõlm"
+  },
+  "chainUntested": {
+    "message": "Pole testitud"
+  },
+  "chainMissing": {
+    "message": "Sõlm pole saadaval"
+  },
+  "chainUnresolved": {
+    "message": "Päritud ahelat ei saa lahendada. Parandage eelkäija sätted või valige kohandatud kett."
+  },
+  "chainUpgrade": {
+    "message": "Tellitud kettide lubamiseks värskendage kohalikku kaaslast."
+  },
+  "chainBusy": {
+    "message": "Käimas on veel üks ahela test"
+  },
+  "chainOK": {
+    "message": "Kättesaadav"
+  },
+  "chainFailed": {
+    "message": "Selle testi hüpe ebaõnnestus"
+  },
+  "chainBlocked": {
+    "message": "Pole testitud · eelmine hüpe ebaõnnestus"
+  },
+  "chainFailureHelp": {
+    "message": "See hüpe või tee selleni ei läinud läbi. Hiljem humalat ei testitud."
+  },
+  "chainAllOK": {
+    "message": "Kõik kumulatiivsed teed vastasid"
+  },
+  "chainStopping": {
+    "message": "Peatatakse pärast praegust piiratud sondi…"
+  },
+  "globalWorld": {
+    "message": "Kogu maailmas"
+  },
+  "globalUnavailable": {
+    "message": "Sihtmärk või piirkond pole saadaval. Kontrollige sihtmärki või valige mõni muu piirkond."
+  },
+  "globalRateLimited": {
+    "message": "Teenuse kiiruse limiit on täis. Proovige hiljem uuesti."
+  },
+  "globalNoResults": {
+    "message": "Teenus ei andnud uurimistulemusi. Proovige mõnda muud piirkonda."
+  },
+  "globalProbeFailed": {
+    "message": "Sond ebaõnnestus"
+  },
+  "globalProbeOffline": {
+    "message": "Proovige võrguühenduseta"
+  },
+  "globalIcmpCaution": {
+    "message": "Puuduvad ICMP vastused üksi ei tõenda blokeerimist. Võrrelge mandri- ja ülemereradu ning muid katsetüüpe."
+  },
+  "speedRealtime": {
+    "message": "Reaalajas kiirus"
+  },
+  "speedAverage": {
+    "message": "Keskmine kiirus"
+  },
+  "ipToolsBrief": {
+    "message": "Kolmandate osapoolte tulemused on viitamiseks."
+  },
+  "ipReportBrief": {
+    "message": "Tulemused erinevad sõltuvalt väljumisest IP ja on viitamiseks."
+  },
+  "toolPingPe": {
+    "message": "IP blokeerimise kontroll"
+  },
+  "toolTargetIP": {
+    "message": "Sihtmärk IP"
+  },
+  "toolOpenPingPe": {
+    "message": "Avatud ametlik test"
+  },
+  "toolInvalidIP": {
+    "message": "Sisestage kehtiv IPv4 või IPv6 aadress."
+  },
+  "toolInvalidPort": {
+    "message": "Sisestage TCP port vahemikus 1 kuni 65535."
+  },
+  "toolExternalFailed": {
+    "message": "Veebisaiti ei saanud avada. Proovi uuesti."
+  },
+  "ipBrowserReading": {
+    "message": "Ping0 lugemine brauseri kaudu…"
+  },
+  "ipVerifyBrowser": {
+    "message": "Ava kinnitusleht"
+  },
+  "policyCenter": {
+    "message": "Privaatsus, deklaratsioon ja KKK"
+  },
+  "policyCenterIntro": {
+    "message": "Kohalik andmetöötlus, testimispiirangud ja levinud vastused."
+  },
+  "policyPrivacyTitle": {
+    "message": "Privaatsuspoliitika"
+  },
+  "policyPrivacySummary": {
+    "message": "Profiilid ja mandaadid jäävad sellesse seadmesse. Hüpikakna kontrollid ja diagnostika võtavad ühendust nende teenusepakkujatega. Ei mingit reklaami ega käitumisanalüüsi."
+  },
+  "policyDeclarationTitle": {
+    "message": "Kasutus- ja mõõtmisavaldus"
+  },
+  "policyDeclarationSummary": {
+    "message": "See laiendus on kohalik marsruudihaldur, mitte puhverserver ega VPN-i pakkuja. Mõõtmised on võrdlusnäidised, mida mõjutavad võrgu, puhverserveri ja teenusepakkuja tingimused."
+  },
+  "policyFaqTitle": {
+    "message": "KKK"
+  },
+  "policyFaqSummary": {
+    "message": "Kohalike sõlmede ja MTR-i jaoks on vajalik kaaslane Windows. Latentsusaeg võib brauseri, süsteemi ja avalike proovide puhul erineda. Peatage test või kustutage seadetest kohalikud andmed."
+  },
+  "policyDetailsLink": {
+    "message": "Lugege kõiki üksikasju ↗"
+  },
+  "thirdPartyNotice": {
+    "message": "Avatud lähtekoodiga teated ↗"
+  },
+  "columnResizeHelp": {
+    "message": "Suuruse muutmiseks lohistage; lähtestamiseks topeltklõpsake; reguleerimiseks kasutage nooleklahve"
+  },
+  "columnResize": {
+    "message": "Muuda veeru suurust"
+  },
+  "typeDescription_node": {
+    "message": "Ühendage puhverserveri sõlme kaudu"
+  },
+  "typeDescription_manual": {
+    "message": "Sisestage puhverserveri sätted käsitsi"
+  },
+  "typeDescription_auto": {
+    "message": "Valige sõlm reeglite abil"
+  },
+  "typeDescription_pac": {
+    "message": "Suunake liiklus PAC reeglite järgi"
+  },
+  "appDescription": {
+    "message": "Brauseri puhverserveri marsruudid, sõlmed ja domeenireeglid. Sõlmemarsruudid vajavad Windows kaaslast."
+  },
+  "core_title": {
+    "message": "Puhverserveri tuum"
+  },
+  "core_checking": {
+    "message": "Kohaliku komponendi kontrollimine…"
+  },
+  "core_ready": {
+    "message": "Xray on valmis"
+  },
+  "core_missing": {
+    "message": "Puhverserveri tuum puudub"
+  },
+  "core_external": {
+    "message": "Kohandatud tuum: pole kinnitatud"
+  },
+  "core_corrupt": {
+    "message": "Xray kontrollsumma mittevastavus — vaja on remonti"
+  },
+  "core_unreadable": {
+    "message": "Põhifaili ei saanud kontrollida"
+  },
+  "core_intro": {
+    "message": "Täielik Windows pakett sisaldab Xray. v2rayN on valikuline."
+  },
+  "core_verify": {
+    "message": "Kontrollige uuesti"
+  },
+  "core_install": {
+    "message": "Paigaldage / parandage südamik"
+  },
+  "core_installing": {
+    "message": "Allalaadimine ja kinnitamine…"
+  },
+  "core_done": {
+    "message": "Tuum on kontrollitud ja valmis"
+  },
+  "core_help": {
+    "message": "Repair kasutab kinnitatud ametlikku Xray väljaannet ja kontrollib selle kontrollsummat. Olemasolevad ühendused jäävad tööle."
+  },
+  "core_absent": {
+    "message": "Installige üks kord kohalik komponent, seejärel naaske siia, et tuuma kontrollida."
+  },
+  "core_download": {
+    "message": "Paigaldusjuhend"
+  },
+  "core_absentHelp": {
+    "message": "Kasutage sobivat paketti Windows või järgige selle allikast koostamiseks juhendit, seejärel käivitage häälestus."
+  },
+  "core_failed": {
+    "message": "Põhitoiming ebaõnnestus. Proovige uuesti või kasutage täielikku Windows paketti."
+  },
+  "core_version": {
+    "message": "Versioon"
+  },
+  "error_ACTIVE_PROFILE_DELETE": {
+    "message": "Enne kustutamist lülitu teisele profiilile"
+  },
+  "error_BACKUP_BINDING_TYPE": {
+    "message": "Marsruudiseosed saavad olla ainult puhverserveriprofiilidel"
+  },
+  "error_BACKUP_FORMAT3_REQUIRED": {
+    "message": "Sõlmereeglid vajavad vormingu 3 teisaldatavat varukoopiat"
+  },
+  "error_BACKUP_INDEPENDENT_PATH_REQUIRED": {
+    "message": "Varukoopia peab sisaldama sõltumatut sõlmeteed"
+  },
+  "error_BACKUP_INTERNAL_BINDINGS": {
+    "message": "Varukoopia sisaldab sisemisi seoseid"
+  },
+  "error_BACKUP_MESSAGE_LIMIT": {
+    "message": "Sõlmede varukoopia ületab kaasrakenduse sõnumimahu piirangu"
+  },
+  "error_BACKUP_NODES_INCOMPLETE": {
+    "message": "Sõlmede varukoopia on puudulik"
+  },
+  "error_BACKUP_NODE_MISSING": {
+    "message": "Varukoopiast puudub vajalik sõlm"
+  },
+  "error_BACKUP_NODE_PATHS_LIMIT": {
+    "message": "Varukoopia toetab kuni {limit} sõlmeteed"
+  },
+  "error_BACKUP_PATH_INCOMPLETE": {
+    "message": "Varukoopia sõlmetee on puudulik"
+  },
+  "error_BACKUP_PROFILES_LIMIT": {
+    "message": "Varukoopia toetab kuni {limit} profiili"
+  },
+  "error_BACKUP_PROXY_CONFLICT": {
+    "message": "Varukoopia sisaldab vastuolulisi puhverserveri seadeid"
+  },
+  "error_BACKUP_SIZE_LIMIT": {
+    "message": "Varukoopia ületab mahu {limit} MB"
+  },
+  "error_BACKUP_TRANSFER_UNAVAILABLE": {
+    "message": "Sõlmede varukoopiate edastamiseks uuenda või paranda kaasrakendust."
+  },
+  "error_BACKUP_UNUSED_NODES": {
+    "message": "Varukoopia sisaldab viitamata sõlmi"
+  },
+  "error_BODY_TOO_LARGE": {
+    "message": "Tellimuse vastus ületab lubatud mahu."
+  },
+  "error_BROWSER_API_FAILED": {
+    "message": "Brauseri toiming ebaõnnestus. Vaata tehnilisi üksikasju."
+  },
+  "error_BROWSER_PROXY_RESTORE_FAILED": {
+    "message": "Toiming ebaõnnestus ja brauseri eelmist puhverserverit ei saanud taastada"
+  },
+  "error_BROWSER_SCHEDULING_UNAVAILABLE": {
+    "message": "Brauseri ajastus pole saadaval."
+  },
+  "error_BUSY": {
+    "message": "Teine toiming on pooleli. Proovi peagi uuesti."
+  },
+  "error_CHAIN_PROBE_FAILED": {
+    "message": "Ahela test ebaõnnestus"
+  },
+  "error_COMPANION_BULK_RELEASE_REQUIRED": {
+    "message": "Mitme sõlmereegli turvaliseks haldamiseks uuenda kohalikku kaasrakendust"
+  },
+  "error_COMPANION_CHAINS_REQUIRED": {
+    "message": "Järjestatud ahelate lubamiseks uuenda kohalikku kaasrakendust"
+  },
+  "error_COMPANION_MESSAGE_LIMIT": {
+    "message": "Seaded ületavad kaasrakenduse sõnumimahu piirangu"
+  },
+  "error_COMPANION_OPERATION_FAILED": {
+    "message": "Kohaliku kaasrakenduse toiming ebaõnnestus. Vaata tehnilisi üksikasju."
+  },
+  "error_COMPANION_UNAVAILABLE": {
+    "message": "Paigalda või paranda V2Route Companion"
+  },
+  "error_CONNECTION_CLOSED": {
+    "message": "Ühendus suleti enne testi lõppu."
+  },
+  "error_CORE_INSTALL_FAILED": {
+    "message": "Tuuma paigaldamine ebaõnnestus. Vaata tehnilisi üksikasju."
+  },
+  "error_CORE_OWNERSHIP_FAILED": {
+    "message": "Eraldatud testtuuma ei saanud turvaliselt juhtida. Test peatati."
+  },
+  "error_CORE_START_FAILED": {
+    "message": "Eraldatud testtuuma ei saanud käivitada. Kontrolli kaasrakenduse ja tuuma paigaldust."
+  },
+  "error_CORE_START_TIMEOUT": {
+    "message": "Eraldatud testtuum ei saanud õigeks ajaks valmis."
+  },
+  "error_CORE_STATUS_UNAVAILABLE": {
+    "message": "Tuuma olek pole saadaval. Vaata tehnilisi üksikasju."
+  },
+  "error_CORE_VALIDATION_FAILED": {
+    "message": "Xray ei saanud imporditud sõlmi kontrollida. Kontrolli nende seadeid ja proovi uuesti."
+  },
+  "error_DETACH_PORT_CONFLICT": {
+    "message": "Hallatav port vabastatakse. Sisesta teine käsitsi määratud puhverserver"
+  },
+  "error_DETACH_PROXY_REQUIRED": {
+    "message": "Enne lahtisidumist sisesta asendav käsitsi määratud puhverserver"
+  },
+  "error_DNS_BUSY": {
+    "message": "DNS-päring on hõivatud. Proovi peagi uuesti."
+  },
+  "error_DNS_FAILED": {
+    "message": "DNS-päring ebaõnnestus. Kontrolli aadressi ja võrguühendust."
+  },
+  "error_ENCODING_UNSUPPORTED": {
+    "message": "Tellimus kasutab toetamata sisukodeeringut."
+  },
+  "error_FIREFOX_PRIVATE_ACCESS_REQUIRED": {
+    "message": "Enne puhverserveri seadete muutmist luba V2Route laienduse üksikasjades privaatsetes akendes"
+  },
+  "error_FOLDER_UNAVAILABLE": {
+    "message": "Kaust pole saadaval; kontrolli teed, ligipääsu ja kaasrakenduse versiooni"
+  },
+  "error_GROUP_LIMIT": {
+    "message": "Rühmade arvu piirang on täis. Eemalda kasutamata rühm ja proovi uuesti."
+  },
+  "error_GROUP_NOT_EDITABLE": {
+    "message": "Seda lähterühma ei saa siin muuta."
+  },
+  "error_GROUP_NOT_FOUND": {
+    "message": "Valitud rühma pole enam olemas. Vali teine rühm."
+  },
+  "error_HTTP_ENCODING": {
+    "message": "Testserver tagastas toetamata kodeeringu."
+  },
+  "error_HTTP_LENGTH": {
+    "message": "Testvastuse maht ei vastanud küsitud mahule."
+  },
+  "error_HTTP_RESPONSE_TOO_LARGE": {
+    "message": "Testvastus ületas lubatud mahu."
+  },
+  "error_HTTP_STATUS": {
+    "message": "Testserver tagastas ebaõnnestumist näitava HTTP-oleku."
+  },
+  "error_IMPORTED_PROXY_MISSING": {
+    "message": "Kaasrakendus ei tagastanud imporditud puhverserverit"
+  },
+  "error_IMPORTED_RULE_PATH_CONFLICT": {
+    "message": "Imporditud sõlmed viivad vastuoluliste reegliteedeni"
+  },
+  "error_IMPORT_CLEANUP_FAILED": {
+    "message": "Import ebaõnnestus; mõnda ajutist sõlme või porti ei saanud vabastada. Olemasolevad profiilid säilitati"
+  },
+  "error_IMPORT_PROFILE_NAME_CONFLICT": {
+    "message": "Korduv või vigane profiilinimi"
+  },
+  "error_INCOMPLETE_RESPONSE": {
+    "message": "Tellimuse vastus oli puudulik. Proovi uuesti."
+  },
+  "error_INVALID_BACKUP": {
+    "message": "Vigane V2Route varukoopia"
+  },
+  "error_INVALID_BACKUP_NODE": {
+    "message": "Vigane või korduv varukoopia sõlm"
+  },
+  "error_INVALID_BACKUP_NODES": {
+    "message": "Vigased varukoopia sõlmed"
+  },
+  "error_INVALID_BACKUP_PATH": {
+    "message": "Vigane varukoopia tee"
+  },
+  "error_INVALID_BYPASS_ENTRY": {
+    "message": "Vigane möödapääsukirje"
+  },
+  "error_INVALID_BYPASS_LIST": {
+    "message": "Vigane möödapääsuloend"
+  },
+  "error_INVALID_CHAIN": {
+    "message": "Vigane järjestatud ahel"
+  },
+  "error_INVALID_CHAIN_PROBE": {
+    "message": "Vigane ahelatest"
+  },
+  "error_INVALID_COMPANION_RESPONSE": {
+    "message": "Kohalik kaasrakendus tagastas vigase vastuse. Uuenda või paranda seda."
+  },
+  "error_INVALID_CONTENT": {
+    "message": "Tellimuse vastus ei sisalda kehtivat sisu."
+  },
+  "error_INVALID_DOMAIN_PATTERNS": {
+    "message": "Sisesta komadega eraldatud domeenimustrid; pane iga URL eraldi reale"
+  },
+  "error_INVALID_ENCODING": {
+    "message": "Tellimuse vastus pole kehtiv UTF-8 tekst."
+  },
+  "error_INVALID_FOLDER_REQUEST": {
+    "message": "Vigane kaustapäring"
+  },
+  "error_INVALID_GROUP_ACTION": {
+    "message": "Seda rühmatoimingut ei toetata."
+  },
+  "error_INVALID_HOP_INDEX": {
+    "message": "Vigane hüppeindeks"
+  },
+  "error_INVALID_LEGACY_PREDECESSOR": {
+    "message": "Vigane pärand-eelkäija"
+  },
+  "error_INVALID_LIBRARY_COMMAND": {
+    "message": "Seda sõlmekogu käsku ei toetata."
+  },
+  "error_INVALID_LIBRARY_REQUEST": {
+    "message": "Vigane kogupäring"
+  },
+  "error_INVALID_NAME": {
+    "message": "Sisesta nimi, milles on 1–128 nähtavat märki ja pole juhtmärke."
+  },
+  "error_INVALID_NETWORK_TEST": {
+    "message": "Vigane võrgutest"
+  },
+  "error_INVALID_NODE_IMPORT_RESPONSE": {
+    "message": "Vigane sõlmede impordi vastus"
+  },
+  "error_INVALID_PREDECESSOR": {
+    "message": "Selle marsruudi eelkäija on vigane"
+  },
+  "error_INVALID_PROFILE_NAME": {
+    "message": "Vigane profiilinimi"
+  },
+  "error_INVALID_PROFILE_REFERENCE": {
+    "message": "Vigane profiiliviide"
+  },
+  "error_INVALID_PROXY_AUTH": {
+    "message": "Vigane puhverserveri autentimine"
+  },
+  "error_INVALID_PROXY_CREDENTIALS": {
+    "message": "Vigased puhverserveri sisselogimisandmed"
+  },
+  "error_INVALID_PROXY_ENDPOINT": {
+    "message": "Sisesta kehtiv puhverserveri host ja port"
+  },
+  "error_INVALID_PROXY_HOST": {
+    "message": "Sisesta DNS-nimi või IP-aadress ilma pordi, URL-i, tee või päringuta"
+  },
+  "error_INVALID_ROUTE": {
+    "message": "Vigane marsruut"
+  },
+  "error_INVALID_ROUTE_SETTINGS": {
+    "message": "Vigased marsruudiseaded"
+  },
+  "error_INVALID_RULES": {
+    "message": "Vigased reeglid"
+  },
+  "error_INVALID_RULE_TARGET": {
+    "message": "Vali igale reeglile üks kehtiv sõlm või profiil"
+  },
+  "error_INVALID_SUBSCRIPTION": {
+    "message": "Vigane tellimus"
+  },
+  "error_INVALID_SUBSCRIPTION_REQUEST": {
+    "message": "Vigane tellimuspäring"
+  },
+  "error_INVALID_SUBSCRIPTION_SETTINGS": {
+    "message": "Tellimuse seaded on vigased. Kontrolli uuendusintervalli ja ühendusreegleid."
+  },
+  "error_INVALID_SYSTEM_PROXY_RESPONSE": {
+    "message": "Vigane süsteemi puhverserveri vastus; uuenda või paranda kaasrakendust"
+  },
+  "error_INVALID_TRANSPORT": {
+    "message": "Tellimuse ühendusseaded on vigased."
+  },
+  "error_INVALID_URL": {
+    "message": "Sisesta kehtiv HTTP(S) tellimuse URL ilma kasutajanime ja paroolita."
+  },
+  "error_LIBRARY_CHANGED": {
+    "message": "Sõlmekogu muutus teises aknas. Värskenda seda ja proovi uuesti."
+  },
+  "error_MANUAL_CHAIN_UNSUPPORTED": {
+    "message": "Käsitsi määratud puhverserverid ei toeta sõlmeahelat"
+  },
+  "error_MANUAL_PROXY_CLEANUP_FAILED": {
+    "message": "Salvestamine ebaõnnestus; ajutiselt imporditud puhverserver jäi sõlmekogusse"
+  },
+  "error_NATIVE_BINDING_ID": {
+    "message": "Vigane marsruudiseose identifikaator."
+  },
+  "error_NATIVE_BINDING_UNKNOWN": {
+    "message": "Marsruudiseost pole olemas."
+  },
+  "error_NATIVE_BUTTON_NAME": {
+    "message": "Nupu nimi peab sisaldama 1–128 nähtavat märki."
+  },
+  "error_NATIVE_CATALOG_UNREADABLE": {
+    "message": "v2rayN seadistust ei saanud lugeda."
+  },
+  "error_NATIVE_CORE_MISSING": {
+    "message": "Xray pole saadaval. Paigalda kaasrakenduse pakett."
+  },
+  "error_NATIVE_GROUP_ID_COLLISION": {
+    "message": "Rühmaidentifikaatorid on vastuolus."
+  },
+  "error_NATIVE_GROUP_ORDER": {
+    "message": "Vigane rühmade järjestus."
+  },
+  "error_NATIVE_NODE_ID_COLLISION": {
+    "message": "Sõlmeidentifikaatorid on vastuolus."
+  },
+  "error_NATIVE_PREDECESSOR_AMBIGUOUS": {
+    "message": "Eelkäija nimi puudub või kordub. Vali kindel eelkäijasõlm."
+  },
+  "error_NATIVE_PREDECESSOR_CYCLE": {
+    "message": "Eelkäijate ahel sisaldab tsüklit või ületab kuut sõlme."
+  },
+  "error_NATIVE_PREDECESSOR_INVALID": {
+    "message": "Vali kehtiv eelnev puhverserver."
+  },
+  "error_NATIVE_PREDECESSOR_MISSING": {
+    "message": "Valitud eelkäijat pole enam olemas. Vali teine sõlm."
+  },
+  "error_NATIVE_PREDECESSOR_SETTINGS": {
+    "message": "Vigased eelkäija seaded."
+  },
+  "error_NATIVE_ROUTE_INVALID": {
+    "message": "Vali kehtiv marsruut."
+  },
+  "error_NATIVE_ROUTE_MISSING": {
+    "message": "Seda marsruuti pole enam olemas. Vali teine marsruut."
+  },
+  "error_NATIVE_ROUTE_PORTS": {
+    "message": "Vigased marsruudi pordimäärangud."
+  },
+  "error_NATIVE_ROUTE_UNAVAILABLE": {
+    "message": "Valitud marsruut pole saadaval. Vaata tehnilisi üksikasju."
+  },
+  "error_NATIVE_SETTINGS_FORMAT": {
+    "message": "Vigane seadete vorming."
+  },
+  "error_NATIVE_SETTINGS_REVISION": {
+    "message": "Vigane seadete redaktsioon."
+  },
+  "error_NATIVE_SUCCESSOR_UNSUPPORTED": {
+    "message": "See rühm kasutab järgnevat puhverserverit, mida ei toetata."
+  },
+  "error_NATIVE_UNSUPPORTED_CUSTOM": {
+    "message": "See versioon ei toeta kohandatud väljuva ühenduse seadistusi."
+  },
+  "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
+    "message": "See versioon ei toeta Hysteria2 protokolli."
+  },
+  "error_NATIVE_UNSUPPORTED_TUIC": {
+    "message": "See versioon ei sisalda TUIC jaoks vajalikku sing-box tuuma."
+  },
+  "error_NATIVE_UNSUPPORTED_TYPE": {
+    "message": "Seda marsruuditüüpi ei toetata."
+  },
+  "error_NATIVE_V2RAYN_PORT": {
+    "message": "Kohalik v2rayN port on vigane."
+  },
+  "error_NATIVE_V2RAYN_UNAVAILABLE": {
+    "message": "v2rayN pole saadaval. Vali imporditud sõlm."
+  },
+  "error_NETWORK_FAILED": {
+    "message": "Võrgupäring ebaõnnestus. Kontrolli ühendust ja proovi uuesti."
+  },
+  "error_NETWORK_TEST_FAILED": {
+    "message": "Võrgudiagnostika ebaõnnestus. Vaata tehnilisi üksikasju."
+  },
+  "error_NODE_LIMIT": {
+    "message": "Toiming ületaks sõlmede arvu piirangu. Eemalda kasutamata sõlmed ja proovi uuesti."
+  },
+  "error_NODE_MAPPING_INCOMPLETE": {
+    "message": "Sõlmede vastendus on puudulik"
+  },
+  "error_NODE_NOT_FOUND": {
+    "message": "Valitud sõlme pole enam olemas. Vali teine sõlm."
+  },
+  "error_NOT_DUE": {
+    "message": "Järgmise ajastatud uuenduse aeg pole veel käes."
+  },
+  "error_PAC_ENTRY_REQUIRED": {
+    "message": "Sisesta PAC-lähtekood koos FindProxyForURL funktsiooniga"
+  },
+  "error_PAC_FUNCTION_REQUIRED": {
+    "message": "Määra sünkroonne ülataseme FindProxyForURL funktsioon, funktsioonimuutuja või omistus"
+  },
+  "error_PAC_PARSER_UNAVAILABLE": {
+    "message": "Kaasapandud PAC-parser pole saadaval; paigalda laiendus uuesti"
+  },
+  "error_PAC_RULE_TARGET_UNSUPPORTED": {
+    "message": "Automaatreeglid ei saa sihtida sisseehitatud PAC-profiili"
+  },
+  "error_PAC_SOURCE_LIMIT": {
+    "message": "Sisesta kuni {limit} märgi pikkune PAC-lähtekood"
+  },
+  "error_PAC_SYNTAX_INVALID": {
+    "message": "Vigane PAC-süntaks"
+  },
+  "error_PAC_SYNTAX_LOCATION": {
+    "message": "Vigane PAC-süntaks real {line}, veerus {column}"
+  },
+  "error_PARTIAL_TRANSFER": {
+    "message": "Testedastus lõppes enne kõigi andmete vastuvõtmist."
+  },
+  "error_PRIVATE_DIRECTORY_FAILED": {
+    "message": "Privaatset testkausta ei saanud turvata. Test peatati."
+  },
+  "error_PRIVATE_TARGET": {
+    "message": "Tellimuspäringud privaatsetele või kohalikele aadressidele pole lubatud."
+  },
+  "error_PROFILE_NOT_FOUND": {
+    "message": "Profiili ei leitud"
+  },
+  "error_PROFILE_REFERENCE_CYCLE": {
+    "message": "Ringviited profiilide vahel"
+  },
+  "error_PROFILE_REFERENCE_DEPTH": {
+    "message": "Automaatreeglid ületavad suurima sügavuse {limit}"
+  },
+  "error_PROFILE_REFERENCE_MISSING": {
+    "message": "Viidatud profiili pole olemas: {name}"
+  },
+  "error_PROFILE_SAVE_RESTORE_FAILED": {
+    "message": "Salvestamine ebaõnnestus ja marsruudi taastamine vajab tähelepanu"
+  },
+  "error_PROXY_AUTH_REQUIRED": {
+    "message": "Tellimuse puhverserver nõuab autentimist, mida see päring ei saa pakkuda."
+  },
+  "error_PROXY_CONTROL_UNAVAILABLE": {
+    "message": "Puhverserverit juhib teine laiendus või poliitika"
+  },
+  "error_PROXY_DNS_REQUIRED": {
+    "message": "V2Route lahendab SOCKS5 DNS-i puhverserveri kaudu"
+  },
+  "error_PROXY_FAILED": {
+    "message": "Puhverserveri ühendus ebaõnnestus. Kontrolli valitud marsruuti."
+  },
+  "error_PROXY_PROFILE_REQUIRED": {
+    "message": "Vali puhverserveriprofiil"
+  },
+  "error_PROXY_ROLLBACK_REFUSED": {
+    "message": "Brauser keeldus puhverserveri tagasipööramisest"
+  },
+  "error_PROXY_SETTING_REFUSED": {
+    "message": "Brauser keeldus puhverserveri seadistusest"
+  },
+  "error_PROXY_UNAVAILABLE": {
+    "message": "Valitud puhverserver pole saadaval. Kontrolli praegust marsruuti."
+  },
+  "error_PROXY_USERNAME_REQUIRED": {
+    "message": "Sisesta puhverserveri kasutajanimi"
+  },
+  "error_RECOVERY_BINDINGS_LIMIT": {
+    "message": "Taastada saab kuni {limit} sõlmeseost. Ava ja salvesta viidatud profiilid eraldi."
+  },
+  "error_REDIRECT_LIMIT": {
+    "message": "Tellimus suunas liiga palju kordi ümber. Kontrolli selle URL-i."
+  },
+  "error_REFERENCED_PROFILE_DELETE": {
+    "message": "Sellele profiilile viitab automaatreegel"
+  },
+  "error_REMOTE_PAC_UNSUPPORTED": {
+    "message": "Kasuta sisseehitatud PAC-lähtekoodi; kaug-PAC pole toetatud"
+  },
+  "error_ROUTE_PORT_UNAVAILABLE": {
+    "message": "Porti ei eraldatud"
+  },
+  "error_ROUTE_RECOVERY_RESTORE_FAILED": {
+    "message": "Marsruudi taastamine ebaõnnestus ja ennistamine vajab tähelepanu"
+  },
+  "error_ROUTE_REVISION_CONFLICT": {
+    "message": "Marsruut muutus teises aknas. Värskenda esmalt"
+  },
+  "error_ROUTE_SAVE_ROLLBACK_FAILED": {
+    "message": "Marsruudi salvestamine ebaõnnestus ja tagasipööramine vajab tähelepanu"
+  },
+  "error_ROUTE_UNAVAILABLE": {
+    "message": "Testmarsruut pole saadaval. Kontrolli sõlme ja eelkäija seadeid."
+  },
+  "error_RULE_BINDING_MISSING": {
+    "message": "Sõlmereegli seos puudub. Ava automaatprofiil uuesti ja salvesta see: {name}"
+  },
+  "error_RULE_NODES_LIMIT": {
+    "message": "Automaatreeglid toetavad kuni {limit} erinevat sõlme"
+  },
+  "error_RULE_NODE_CHANGED": {
+    "message": "Sõlmereegel pole saadaval või on muutunud. Taasta sõlm või vali teine sõlm ja salvesta: {name}"
+  },
+  "error_RULE_PATH_CONFLICT": {
+    "message": "Vastuolulised sõlmereeglite teed"
+  },
+  "error_RULE_PATTERNS_LIMIT": {
+    "message": "Automaatreeglid toetavad kokku kuni {limit} vastendusmustrit"
+  },
+  "error_RULE_PORT_UNAVAILABLE": {
+    "message": "Sõlmereegli port pole saadaval"
+  },
+  "error_RULE_REVISION_CONFLICT": {
+    "message": "Sõlmereegel muutus teises aknas. Värskenda esmalt"
+  },
+  "error_SELECTED_NODE_UNAVAILABLE": {
+    "message": "Valitud sõlm pole saadaval. Taasta see või vali teine sõlm"
+  },
+  "error_SOCKS_FAILED": {
+    "message": "SOCKS-ühendust ei saanud luua."
+  },
+  "error_STARTUP_FALLBACK_REFUSED": {
+    "message": "Brauser keeldus käivituse varupuhverserverist."
+  },
+  "error_SUBSCRIPTION_CHANGED": {
+    "message": "Tellimus muutus uuendamise ajal. Värskenda seda ja proovi uuesti."
+  },
+  "error_SUBSCRIPTION_HTTP_STATUS": {
+    "message": "Tellimuse server tagastas HTTP {status}."
+  },
+  "error_SUBSCRIPTION_LIMIT": {
+    "message": "Tellimuste arvu piirang on täis. Eemalda kasutamata tellimus ja proovi uuesti."
+  },
+  "error_SUBSCRIPTION_NOT_FOUND": {
+    "message": "Valitud tellimust pole enam olemas."
+  },
+  "error_SYSTEM_PROXY_SNAPSHOT_UNAVAILABLE": {
+    "message": "Rakendatud süsteemi puhverserveri hetktõmmis pole saadaval."
+  },
+  "error_SYSTEM_PROXY_TIMEOUT": {
+    "message": "Süsteemi puhverserveri lugemine aegus"
+  },
+  "error_SYSTEM_PROXY_UNAVAILABLE": {
+    "message": "Süsteemi puhverserver pole saadaval. Vaata tehnilisi üksikasju."
+  },
+  "error_TIMEOUT": {
+    "message": "Päring aegus. Kontrolli ühendust ja proovi uuesti."
+  },
+  "error_TLS_DOWNGRADE": {
+    "message": "Tellimus suunas HTTPS-ilt HTTP-le ümber ja blokeeriti."
+  },
+  "error_TLS_FAILED": {
+    "message": "Turvalist ühendust ei saanud kinnitada. Kontrolli serverit ja sertifikaati."
+  },
+  "error_UNSAFE_TEMP_PATH": {
+    "message": "Ajutine testkaust on ebaturvaline. Test peatati."
+  },
+  "error_UNSUPPORTED_LIBRARY_REQUEST": {
+    "message": "Toetamata kogupäring"
+  },
+  "error_UNSUPPORTED_PROFILE_TYPE": {
+    "message": "Toetamata profiilitüüp"
+  },
+  "error_UNSUPPORTED_REQUEST": {
+    "message": "Toetamata päring"
+  },
+  "error_UNSUPPORTED_RULE_CONDITION": {
+    "message": "Toetatud on ainult hosti ja URL-i metamärkidega reeglid"
+  },
+  "error_UPDATE_FAILED": {
+    "message": "Tellimuse uuendamine ebaõnnestus. Olemasolevad sõlmed säilitati."
+  },
+  "error_VALIDATION_FAILED": {
+    "message": "Tellimuse sisu ei saanud kontrollida. Olemasolevad sõlmed säilitati."
+  },
+  "nativeUnnamedNode": {
+    "message": "Nimetu sõlm"
+  },
+  "nativeProtocolCustom": {
+    "message": "Kohandatud"
+  },
+  "nativeProtocolOutbound": {
+    "message": "Kohandatud väljuv ühendus"
+  },
+  "nativeProtocolGroup": {
+    "message": "Poliitikarühm"
+  },
+  "nativeProtocolChain": {
+    "message": "Puhverserveriahel"
+  },
+  "nativeProtocolUnknown": {
+    "message": "Toetamata tüüp"
+  },
+  "languageLoadFailed": {
+    "message": "Valitud keelt ei saanud laadida. Proovi uuesti."
+  },
+  "invalidBackupJSON": {
+    "message": "Varukoopia pole kehtiv JSON."
+  },
+  "noticeBodyLanguages": {
+    "message": "Poliitika täistekst on saadaval inglise ja lihtsustatud hiina keeles."
+  },
+  "policyRules": {
+    "message": "Puhverserveri marsruutimisreeglid"
+  },
+  "policyPriority": {
+    "message": "Järjekord: erandaadressid → esimene sobiv reegel → vaikemarsruut."
+  },
+  "policyDirectHelp": {
+    "message": "Vasteta aadressid ühendatakse otse. Hüpikakna otsenupu puhul kehtivad samad reeglid."
+  },
+  "policySystemHelp": {
+    "message": "Vasteta aadressid kasutavad süsteemi puhverserverit. Hüpikakna süsteeminupu puhul kehtivad samad reeglid."
+  },
+  "policyEmpty": {
+    "message": "Reegleid pole. Kasutatakse vaikemarsruuti."
+  },
+  "policyAddressHelp": {
+    "message": "Domeenid, metamärkidega domeenid, IP või IP:port. IP-reeglid võrdlevad URL-i IP-d, mitte DNS-i tulemusi."
+  },
+  "policyMoveUp": {
+    "message": "Liiguta reegel üles"
+  },
+  "policyMoveDown": {
+    "message": "Liiguta reegel alla"
+  }
+}

@@ -1,0 +1,2150 @@
+{
+  "ruleTargetUnavailable": {
+    "message": "Utilgjengelig mål"
+  },
+  "rulePatternPlaceholder": {
+    "message": "example.com, *.example.org, 192.0.2.1:8443"
+  },
+  "rulePatternHelp": {
+    "message": "Skill adresser med komma. Hvert URL-mønster på egen linje. PAC ser kanskje ikke HTTPS-stier."
+  },
+  "defaultChoice_direct": {
+    "message": "Koble til uten proxy"
+  },
+  "defaultChoice_system": {
+    "message": "Bruk systemproxy-innstillinger"
+  },
+  "defaultChoice_node": {
+    "message": "Bruk denne profilens valgte node"
+  },
+  "defaultChoice_manual": {
+    "message": "Bruk denne profilens proxy-innstillinger"
+  },
+  "defaultChoice_auto": {
+    "message": "Bruk denne profilens rutingsregler"
+  },
+  "nlHttpsLatency": {
+    "message": "HTTPS svar"
+  },
+  "nlLatencyMethod": {
+    "message": "Cloudflare · Minimum to svar · Gjenbruk av tilkobling når tilgjengelig"
+  },
+  "nlLatencyFast": {
+    "message": "Rask"
+  },
+  "nlLatencyModerate": {
+    "message": "Moderat"
+  },
+  "nlLatencySlow": {
+    "message": "Sakte"
+  },
+  "nlSortName": {
+    "message": "Navn"
+  },
+  "nlSortLatency": {
+    "message": "Latens: lav til høy"
+  },
+  "nlSortDownload": {
+    "message": "Last ned: høy til lav"
+  },
+  "nlSortUpload": {
+    "message": "Last opp: høy til lav"
+  },
+  "nlSingle": {
+    "message": "Enkel node"
+  },
+  "nlGroupBatch": {
+    "message": "Gruppe / batch"
+  },
+  "nlTestScope": {
+    "message": "Testomfang"
+  },
+  "nlCurrentNode": {
+    "message": "Valgt node"
+  },
+  "nlCurrentGroup": {
+    "message": "Valgt gruppe"
+  },
+  "nlChooseNode": {
+    "message": "Velg en node i listen"
+  },
+  "nlStart": {
+    "message": "Start test"
+  },
+  "nlService": {
+    "message": "Testtjeneste"
+  },
+  "nlMeasured": {
+    "message": "målt"
+  },
+  "nlMeanLatency": {
+    "message": "Gjennomsnittlig ventetid"
+  },
+  "nlGroupBySource": {
+    "message": "Etter kildegruppe"
+  },
+  "nlPreviousPage": {
+    "message": "Forrige side"
+  },
+  "nlNextPage": {
+    "message": "Neste side"
+  },
+  "nlName": {
+    "message": "Navn"
+  },
+  "nlEdit": {
+    "message": "Rediger"
+  },
+  "nlStop": {
+    "message": "Stopp"
+  },
+  "nlConfirm": {
+    "message": "Bekreft"
+  },
+  "nlAllNodes": {
+    "message": "Alle noder"
+  },
+  "nlNodeResults": {
+    "message": "Noderesultater"
+  },
+  "nlTestCenter": {
+    "message": "Testsenter"
+  },
+  "nlNewGroup": {
+    "message": "Ny gruppe"
+  },
+  "nlRenameGroup": {
+    "message": "Gi nytt navn til gruppe"
+  },
+  "nlRemoveGroup": {
+    "message": "Fjern gruppe"
+  },
+  "nlRemoveGroupHelp": {
+    "message": "Behold hver node og abonnement, og flytt dem til importerte noder."
+  },
+  "nlNode": {
+    "message": "Node"
+  },
+  "nlStatus": {
+    "message": "Status"
+  },
+  "nlActions": {
+    "message": "Handlinger"
+  },
+  "nlSort": {
+    "message": "Sorter kun denne tabellen"
+  },
+  "nlSelected": {
+    "message": "valgt"
+  },
+  "nlTestNode": {
+    "message": "Test"
+  },
+  "nlProfileShort": {
+    "message": "Profil"
+  },
+  "nlQuick": {
+    "message": "Rask ventetid"
+  },
+  "nlFull": {
+    "message": "Last ned + last opp"
+  },
+  "nlTraffic": {
+    "message": "Testdatastørrelse"
+  },
+  "nlConcurrency": {
+    "message": "Samtidige noder"
+  },
+  "nlTrafficFullOnly": {
+    "message": "Brukes for nedlasting og opplasting av tester"
+  },
+  "nlTestMode": {
+    "message": "Testmodus"
+  },
+  "nlBudget": {
+    "message": "Maksimal nyttelasttrafikk"
+  },
+  "nlViaGroup": {
+    "message": "Via gruppeforhåndsfullmakt"
+  },
+  "nlTestSelected": {
+    "message": "Test valgt"
+  },
+  "nlTestVisible": {
+    "message": "Test viste noder"
+  },
+  "nlTestAll": {
+    "message": "Test alle noder"
+  },
+  "nlTestGroup": {
+    "message": "Testgruppenoder"
+  },
+  "nlProgress": {
+    "message": "Målefremgang"
+  },
+  "nlReady": {
+    "message": "Velg noder for å starte. Ingen test har kjørt."
+  },
+  "nlStarting": {
+    "message": "Starter isolert måling..."
+  },
+  "nlQueued": {
+    "message": "I kø"
+  },
+  "nlRunning": {
+    "message": "Testing"
+  },
+  "nlStopping": {
+    "message": "Stopper..."
+  },
+  "nlComplete": {
+    "message": "Komplett"
+  },
+  "nlFailed": {
+    "message": "Mislyktes"
+  },
+  "nlStopped": {
+    "message": "Stoppet"
+  },
+  "nlPartial": {
+    "message": "Delvis"
+  },
+  "nlUntested": {
+    "message": "Ikke testet"
+  },
+  "nlSucceeded": {
+    "message": "bestått"
+  },
+  "nlMeasureDisconnected": {
+    "message": "Måleforbindelse avsluttet. Ufullstendige verdier er ikke endelige resultater."
+  },
+  "nlUpgrade": {
+    "message": "Oppdater den lokale følgesvennen for å administrere grupper og abonnementer. Eksisterende noder forblir tilgjengelige."
+  },
+  "nlOperationFailed": {
+    "message": "Operasjonen kunne ikke fullføres. Prøv igjen."
+  },
+  "nlEditSubscription": {
+    "message": "Rediger abonnement"
+  },
+  "nlPasteContent": {
+    "message": "Proxy-lenker / innhold"
+  },
+  "nlSubscriptionURL": {
+    "message": "Abonnement URL"
+  },
+  "nlKeepURL": {
+    "message": "La stå tomt for å beholde den lagrede URL"
+  },
+  "nlConnectionPolicy": {
+    "message": "Oppdater tilkobling"
+  },
+  "nlProxyFirst": {
+    "message": "Proxy først, deretter direkte ved feil"
+  },
+  "nlProxyOnly": {
+    "message": "Kun proxy"
+  },
+  "nlDirectOnly": {
+    "message": "Kun direkte"
+  },
+  "nlProxyFirstHelp": {
+    "message": "Proxy stopper først etter en vellykket henting. Direct prøves bare hvis proxy-forsøket mislykkes."
+  },
+  "nlAutoUpdate": {
+    "message": "Aktiver automatiske oppdateringer"
+  },
+  "nlInterval": {
+    "message": "Oppdateringsintervall (minutter)"
+  },
+  "nlDestinationGroup": {
+    "message": "Destinasjonsgruppe"
+  },
+  "nlSubscriptionOwnGroup": {
+    "message": "Ny gruppe..."
+  },
+  "nlNameGroup": {
+    "message": "Navn (gruppe)"
+  },
+  "nlCustomGroup": {
+    "message": "Egendefinert gruppe"
+  },
+  "nlNameRequired": {
+    "message": "Skriv inn et navn."
+  },
+  "nlContentRequired": {
+    "message": "Lim inn proxy-lenker eller abonnementsinnhold."
+  },
+  "nlGroupRequired": {
+    "message": "Velg en destinasjonsgruppe."
+  },
+  "nlURLRequired": {
+    "message": "Skriv inn et HTTP(S) abonnement URL uten brukernavn eller passord."
+  },
+  "nlIntervalInvalid": {
+    "message": "Skriv inn et helt tall fra 5 til 43200 minutter."
+  },
+  "folderTitle": {
+    "message": "Velg mappen v2rayN"
+  },
+  "folderHint": {
+    "message": "Velg en mappe, og bruk den deretter med Lagre tilkoblingsinnstillinger."
+  },
+  "folderPath": {
+    "message": "Full lokal mappebane"
+  },
+  "folderGo": {
+    "message": "Åpen"
+  },
+  "folderUp": {
+    "message": "Opp"
+  },
+  "folderDrives": {
+    "message": "Drives"
+  },
+  "folderCurrent": {
+    "message": "Gjeldende bane"
+  },
+  "folderChoose": {
+    "message": "Bruk denne mappen"
+  },
+  "folderList": {
+    "message": "Mapper"
+  },
+  "folderTruncated": {
+    "message": "Oppføringen er begrenset. Skriv inn hele banen ovenfor for å åpne en mappe som ikke vises."
+  },
+  "folderReady": {
+    "message": "v2rayN filer funnet. Bruk denne mappen til å validere konfigurasjonen."
+  },
+  "folderInvalid": {
+    "message": "Velg mappen som inneholder guiConfigs, guiNConfig.json og guiNDB.db."
+  },
+  "folderSelectDrive": {
+    "message": "Velg en lokal stasjon eller skriv inn en fullstendig mappebane."
+  },
+  "folderEmpty": {
+    "message": "Ingen synlige undermapper."
+  },
+  "folderUnavailable": {
+    "message": "Kan ikke bla gjennom denne mappen. Sjekk banen og tilgangen. Hvis følgesvennen er eldre, oppdater den først."
+  },
+  "folderValidating": {
+    "message": "Validerer v2rayN konfigurasjon …"
+  },
+  "folderInvalidConfig": {
+    "message": "v2rayN-konfigurasjonen eller databasen er ufullstendig eller ugyldig. Velg en annen mappe."
+  },
+  "copyPath": {
+    "message": "Kopier bane"
+  },
+  "pathCopyHint": {
+    "message": "Kopier banen i dette feltet."
+  },
+  "preMode": {
+    "message": "Pre-proxy-modus"
+  },
+  "preNode": {
+    "message": "Pre-proxy node"
+  },
+  "preIntro": {
+    "message": "Bruk gruppekjeden, hopp over den eller velg en forhåndsfullmakt for denne profilen."
+  },
+  "healthLabel": {
+    "message": "Gjeldende tilkoblingsstatus"
+  },
+  "healthOk": {
+    "message": "Normal"
+  },
+  "healthError": {
+    "message": "Unormalt"
+  },
+  "healthChecking": {
+    "message": "Sjekker"
+  },
+  "healthUnknown": {
+    "message": "Ubekreftet"
+  },
+  "autoSystemHelp": {
+    "message": "Systemregler krever Windows-komponenten og et øyeblikksbilde av faste proxyinnstillinger. Bruk på nytt etter endringer. PAC/WPAD støttes ikke; System uten regler bruker nettleserens egne innstillinger."
+  },
+  "backgroundUnavailable": {
+    "message": "Utvidelsens bakgrunn er utilgjengelig."
+  },
+  "backgroundNoResponse": {
+    "message": "Bakgrunnen reagerte ikke."
+  },
+  "backupTooLarge": {
+    "message": "Sikkerhetskopiering overstiger 5 MB."
+  },
+  "proxyUsername": {
+    "message": "Brukernavn"
+  },
+  "proxyPassword": {
+    "message": "Passord"
+  },
+  "proxyAuthHelp": {
+    "message": "Valgfritt. Autentiserte proxyer kobles til via Companion. Legitimasjonen lagres i denne nettleserkonfigurasjonen og følgesvennen, og er inkludert i profileksporter."
+  },
+  "proxyAuthSocks4": {
+    "message": "SOCKS4 støtter ikke denne brukernavn-/passordautentiseringen; bruk HTTP(S) eller SOCKS5."
+  },
+  "importExamples": {
+    "message": "Formateksempler"
+  },
+  "ipCopying": {
+    "message": "Kopierer …"
+  },
+  "netDnsUnavailable": {
+    "message": "Serveradressen kunne ikke løses i tide. Sjekk verten eller IP-adressen og prøv igjen."
+  },
+  "netCurrentTarget": {
+    "message": "Valgt proxy-endepunkt"
+  },
+  "netCustomTarget": {
+    "message": "Egendefinert server"
+  },
+  "netHost": {
+    "message": "Verts- eller IP-adresse"
+  },
+  "netPort": {
+    "message": "TCP port"
+  },
+  "netHostRequired": {
+    "message": "Skriv inn en serververt eller IP-adresse."
+  },
+  "netCurrentUnavailable": {
+    "message": "Velg en node eller manuell proxy-profil, eller skriv inn et tilpasset mål."
+  },
+  "netInvalidTarget": {
+    "message": "Angi en gyldig diagnosevert og port."
+  },
+  "netIpv6PingUnavailable": {
+    "message": "IPv6 ICMP er ikke tilgjengelig; bruk TCPing."
+  },
+  "preNeedsFix": {
+    "message": "Velg en gyldig forhåndsproxy eller ingen pre-proxy før du lagrer."
+  },
+  "preConfigure": {
+    "message": "Konfigurer pre-proxy"
+  },
+  "preFollowInvalid": {
+    "message": "Følg v2rayN godtar ikke en tilpasset forhåndsproxy."
+  },
+  "followChainHelp": {
+    "message": "Follow bruker ruten og proxy-kjeden som allerede er aktiv i v2rayN."
+  },
+  "netTitle": {
+    "message": "Tilkoblingstester"
+  },
+  "ipTestDetails": {
+    "message": "Testdetaljer"
+  },
+  "netTarget": {
+    "message": "Ping / TCPing mål"
+  },
+  "netDownload": {
+    "message": "Last ned test"
+  },
+  "netPartial": {
+    "message": "Delprøve"
+  },
+  "netComplete": {
+    "message": "Prøve fullført"
+  },
+  "netDirect": {
+    "message": "Systemnettverk"
+  },
+  "netUnreachable": {
+    "message": "Ingen svar / mislyktes"
+  },
+  "netAverage": {
+    "message": "Gjennomsnitt"
+  },
+  "predecessor": {
+    "message": "Forhåndsfullmakter"
+  },
+  "preInherit": {
+    "message": "Bruk v2rayN gruppekjeden"
+  },
+  "preNone": {
+    "message": "Ingen forhåndsfullmakt"
+  },
+  "preSpecific": {
+    "message": "Velg en node"
+  },
+  "preHelp": {
+    "message": "Gjelder denne profilen. Bruk v2rayN gruppekjeden, ingen pre-proxy eller en spesifikk node. Follow v2rayN bruker sin eksisterende kjede."
+  },
+  "preSelectRequired": {
+    "message": "Velg en pre-proxy node, eller velg Group default / None."
+  },
+  "ipPing0Permission": {
+    "message": "Tillat Ping0 nettstedtilgang for å laste den offentlige rapporten."
+  },
+  "ipPublicChallenge": {
+    "message": "Nettstedet krever verifisering. Åpne Ping0-siden for å fullføre den og se resultatet."
+  },
+  "ipPublicReport": {
+    "message": "Ping0 offentlig rapport"
+  },
+  "ipPublicSource": {
+    "message": "Kilde: Ping0 offentlig side"
+  },
+  "ipPublicOriginal": {
+    "message": "Ping0 rapport"
+  },
+  "ipPublicPartial": {
+    "message": "Bare felt som er oppgitt på den offentlige siden vises på originalspråket. Klassifikasjoner og estimater for delte brukere er fra Ping0."
+  },
+  "setupTitle": {
+    "message": "Koble til Proxy V2Route"
+  },
+  "setupIntro": {
+    "message": "Installer Windows følgesvenn for å bruke v2rayN ruter eller dine egne importerte noder."
+  },
+  "setupStepOne": {
+    "message": "Pakk ut den samsvarende komplette Windows-pakken til en permanent mappe."
+  },
+  "setupStepTwo": {
+    "message": "Åpne V2Route-Setup.exe og klikk på Installer."
+  },
+  "setupStepThree": {
+    "message": "Gå tilbake hit og sjekk tilkoblingen. Velg mappen v2rayN om nødvendig."
+  },
+  "setupCheck": {
+    "message": "Sjekk tilkoblingen"
+  },
+  "downloadCompanion": {
+    "message": "Installasjonsveiledning ↗"
+  },
+  "setupDownloadNote": {
+    "message": "Bruk den matchende lokale Windows-pakken, eller følg veiledningen for å bygge den fra gjeldende kilde."
+  },
+  "chooseFolder": {
+    "message": "Velg mappen v2rayN..."
+  },
+  "rescanDone": {
+    "message": "Lokale noder skannet på nytt"
+  },
+  "grouping": {
+    "message": "Gruppenoder"
+  },
+  "groupByCountry": {
+    "message": "Etter land"
+  },
+  "unknownCountry": {
+    "message": "Annet / Ukjent"
+  },
+  "ungrouped": {
+    "message": "Ugruppert"
+  },
+  "adjustNodeFilters": {
+    "message": "Prøv en annen gruppe, kilde eller søk, eller vis skjulte noder."
+  },
+  "rescanLocal": {
+    "message": "Skann v2rayN noder på nytt"
+  },
+  "showHidden": {
+    "message": "Vis skjulte noder"
+  },
+  "hideNode": {
+    "message": "Skjul"
+  },
+  "restoreNode": {
+    "message": "Gjenopprett"
+  },
+  "hiddenNode": {
+    "message": "Skjult"
+  },
+  "hideNodeHelp": {
+    "message": "Skjul bare fra denne nettleserens nodebibliotek. v2rayN og eksisterende profiler er uendret."
+  },
+  "ipContextTimeout": {
+    "message": "Lesing av gjeldende profil ble tidsavbrutt. Prøv igjen."
+  },
+  "ipStaleResult": {
+    "message": "Gjeldende profil endret. Dette resultatet kan være utdatert; sjekk igjen."
+  },
+  "ip_tools": {
+    "message": "IP Verktøy"
+  },
+  "ipIntro": {
+    "message": "Nåværende utgang IP og offentlig rapport."
+  },
+  "ipCurrentProfile": {
+    "message": "Gjeldende nettleserprofil"
+  },
+  "ipRouteCaution": {
+    "message": "Automatiske regler og PAC kan bruke forskjellige ruter for forskjellige destinasjoner. Denne sjekken beskriver kun sin egen forespørsel."
+  },
+  "ipDisclosure": {
+    "message": "Autosjekk utgang IP · Rapport fra Ping0"
+  },
+  "ipMethod": {
+    "message": "Adressesjekk"
+  },
+  "ipDual": {
+    "message": "IPv4 / IPv6"
+  },
+  "ipCheck": {
+    "message": "Sjekk igjen"
+  },
+  "ipChecking": {
+    "message": "Sjekker …"
+  },
+  "ipDualHelp": {
+    "message": "IPv4 / IPv6 returnerer adressefamilien som ble brukt for denne forespørselen, ikke begge adressene."
+  },
+  "ipDurationHelp": {
+    "message": "Forløpt HTTP forespørselstid inkluderer nettverks- og tjenesteresponstid. Det er ikke ICMP ping eller en båndbreddetest."
+  },
+  "ipCopy": {
+    "message": "Kopi IP"
+  },
+  "ipCopied": {
+    "message": "Kopiert"
+  },
+  "ipCopyFailed": {
+    "message": "Kunne ikke kopiere. Velg adressen og kopier den manuelt."
+  },
+  "ipNoResult": {
+    "message": "Ingen sjekk ennå"
+  },
+  "ipContextUnknown": {
+    "message": "Profilen er utilgjengelig"
+  },
+  "ipTimeout": {
+    "message": "Sjekken ble tidsavbrutt. Prøv på nytt eller bruk en annen rute."
+  },
+  "ipCancelled": {
+    "message": "Sjekk kansellert"
+  },
+  "ipNetwork": {
+    "message": "Kunne ikke nå ipify. Sjekk tilkoblingen og prøv igjen."
+  },
+  "ipHttp": {
+    "message": "Tjenesten IP godtok ikke forespørselen. Prøv igjen senere."
+  },
+  "ipInvalid": {
+    "message": "IP-tjenesten returnerte et ugyldig svar."
+  },
+  "ipFailure": {
+    "message": "Kontrollen mislyktes. Prøv igjen."
+  },
+  "ipStale": {
+    "message": "Proxyinnstillingene dine ble endret under kontrollen. Det gamle resultatet ble forkastet; sjekk igjen."
+  },
+  "ipQuality": {
+    "message": "Eksterne verktøy"
+  },
+  "ipQualityPrivacy": {
+    "message": "Verktøy kjører kun ved klikk. Leverandører mottar vanlige tilkoblingsdata. Nettstedsjekker sender påloggingsfrie forespørsler etter Start. Lukking stopper lokale tester; eksterne faner administreres av nettleseren."
+  },
+  "ipReport": {
+    "message": "Kopier redigert rapport"
+  },
+  "ipReportCopied": {
+    "message": "Redigert rapport kopiert; ingen IP eller profilnavn inkludert."
+  },
+  "popupSelected": {
+    "message": "Valgt"
+  },
+  "popupFooter": {
+    "message": "v2rayN og nodeprofiler"
+  },
+  "subtitle": {
+    "message": "Uavhengige nettleseruter"
+  },
+  "profiles": {
+    "message": "Profiler"
+  },
+  "nodes": {
+    "message": "Nodebibliotek"
+  },
+  "settings": {
+    "message": "Innstillinger"
+  },
+  "connected": {
+    "message": "Aktiv profil"
+  },
+  "noProfile": {
+    "message": "Systemstandard"
+  },
+  "newProfile": {
+    "message": "Ny profil"
+  },
+  "searchProfiles": {
+    "message": "Søk profiler"
+  },
+  "direct": {
+    "message": "Direkte nettverk"
+  },
+  "system": {
+    "message": "Systemproxy"
+  },
+  "follow": {
+    "message": "Følg v2rayN"
+  },
+  "manual": {
+    "message": "Manuell proxy"
+  },
+  "auto": {
+    "message": "Automatisk bytte"
+  },
+  "pac": {
+    "message": "PAC skript"
+  },
+  "virtual": {
+    "message": "Virtuell profil"
+  },
+  "profileIntro": {
+    "message": "Velg en nettleserrute uten å bytte v2rayN sin hovedrute."
+  },
+  "nodesIntro": {
+    "message": "Bla gjennom lokale v2rayN noder og de importerte koblingene dine."
+  },
+  "settingsIntro": {
+    "message": "Lokal tilknytning, språk og utseende."
+  },
+  "refresh": {
+    "message": "Oppdater"
+  },
+  "create": {
+    "message": "Opprett profil"
+  },
+  "name": {
+    "message": "Profilnavn"
+  },
+  "type": {
+    "message": "Profiltype"
+  },
+  "save": {
+    "message": "Lagre"
+  },
+  "saved": {
+    "message": "Lagret"
+  },
+  "saving": {
+    "message": "Lagrer …"
+  },
+  "cancel": {
+    "message": "Avbryt"
+  },
+  "close": {
+    "message": "Lukk"
+  },
+  "apply": {
+    "message": "Bruk denne profilen"
+  },
+  "applied": {
+    "message": "Profil byttet"
+  },
+  "active": {
+    "message": "Aktiv"
+  },
+  "delete": {
+    "message": "Slett"
+  },
+  "remove": {
+    "message": "Fjern"
+  },
+  "rename": {
+    "message": "Gi nytt navn"
+  },
+  "route": {
+    "message": "Proxy-rute"
+  },
+  "selectRoute": {
+    "message": "Velg en rute"
+  },
+  "routeMissing": {
+    "message": "Rute utilgjengelig — velg en annen"
+  },
+  "chain": {
+    "message": "Koblingskjede"
+  },
+  "connection": {
+    "message": "Lokal tilkobling"
+  },
+  "proxy": {
+    "message": "Proxy-server"
+  },
+  "address": {
+    "message": "Adresse"
+  },
+  "port": {
+    "message": "Havn"
+  },
+  "scheme": {
+    "message": "Protokoll"
+  },
+  "proxyDns": {
+    "message": "SOCKS5 DNS løser gjennom proxyen."
+  },
+  "connectedIdle": {
+    "message": "Tilkoblet · Inaktiv"
+  },
+  "bypass": {
+    "message": "Omkjøringsliste"
+  },
+  "bypassHelp": {
+    "message": "Ett domene, jokertegndomene, IP-adresse eller IP:port per linje."
+  },
+  "advanced": {
+    "message": "Avanserte alternativer"
+  },
+  "searchRoutes": {
+    "message": "Søk i grupper eller noder"
+  },
+  "selectGroup": {
+    "message": "Velg en gruppe"
+  },
+  "empty": {
+    "message": "Ingen samsvarende elementer"
+  },
+  "unavailable": {
+    "message": "Utilgjengelig"
+  },
+  "groupHint": {
+    "message": "Hold en gruppe for 250 ms, og dra. Alt + ↑ / ↓ omorganiserer også. Endringer lagres automatisk."
+  },
+  "searchSort": {
+    "message": "Tøm søket før sortering."
+  },
+  "dragHint": {
+    "message": "Flytt opp eller ned, og slipp deretter for å lagre. Esc avbryter."
+  },
+  "orderSaved": {
+    "message": "Gruppebestilling lagret"
+  },
+  "orderCancelled": {
+    "message": "Ombestilling avbrutt"
+  },
+  "loading": {
+    "message": "Laster inn …"
+  },
+  "reading": {
+    "message": "Leser lokale noder …"
+  },
+  "nativeMissing": {
+    "message": "Lokal komponent er ikke tilkoblet"
+  },
+  "retry": {
+    "message": "Prøv på nytt"
+  },
+  "nativeHelp": {
+    "message": "Noderuter krever Windows følgesvenn. Direkte, system og manuelle proxyer er tilgjengelige nå."
+  },
+  "imported": {
+    "message": "Importert"
+  },
+  "v2rayn": {
+    "message": "v2rayN"
+  },
+  "allSources": {
+    "message": "Alle kilder"
+  },
+  "importNodes": {
+    "message": "Importfullmakter"
+  },
+  "importTitle": {
+    "message": "Importfullmakter"
+  },
+  "importHelp": {
+    "message": "Lim inn proxy-lenker, utgående JSON eller et Base64 abonnement. SOCKS støtter vanlig eller Base64 legitimasjon. Ordningsfrie adresser bruker HTTP."
+  },
+  "importPrivacy": {
+    "message": "Proxydetaljer og legitimasjon sendes til den lokale Proxy V2Route følgesvennen for lagring og tilkobling til proxyen du velger. Utbygger mottar ikke denne informasjonen."
+  },
+  "import": {
+    "message": "Importer profiler"
+  },
+  "nodeCount": {
+    "message": "noder"
+  },
+  "source": {
+    "message": "Kilde"
+  },
+  "protocol": {
+    "message": "Protokoll"
+  },
+  "useNode": {
+    "message": "Opprett profil"
+  },
+  "removeNode": {
+    "message": "Vil du fjerne importert node?"
+  },
+  "removeNodeHelp": {
+    "message": "Profiler som bruker denne noden må tilordnes på nytt før den kan fjernes."
+  },
+  "deleteProfile": {
+    "message": "Vil du slette denne profilen?"
+  },
+  "deleteProfileHelp": {
+    "message": "Dette fjerner kun denne nettleserprofilen. Importerte noder og v2rayN konfigurasjon beholdes."
+  },
+  "language": {
+    "message": "Språk"
+  },
+  "automatic": {
+    "message": "Nettleserstandard"
+  },
+  "theme": {
+    "message": "Utseende"
+  },
+  "light": {
+    "message": "Lys"
+  },
+  "dark": {
+    "message": "Mørk"
+  },
+  "switchToEnglish": {
+    "message": "Bytt til engelsk"
+  },
+  "switchToChinese": {
+    "message": "Bytt til forenklet kinesisk"
+  },
+  "switchToLight": {
+    "message": "Bytt til lys utseende"
+  },
+  "switchToDark": {
+    "message": "Bytt til mørkt utseende"
+  },
+  "localComponent": {
+    "message": "Følgekomponent"
+  },
+  "ready": {
+    "message": "Tilkoblet"
+  },
+  "stopped": {
+    "message": "Kjører ikke"
+  },
+  "discovery": {
+    "message": "v2rayN deteksjon"
+  },
+  "rootPath": {
+    "message": "v2rayN mappe"
+  },
+  "corePath": {
+    "message": "Proxy-kjerne kjørbar"
+  },
+  "optionalPath": {
+    "message": "La stå tomt for automatisk deteksjon"
+  },
+  "pathsHelp": {
+    "message": "v2rayN oppdages automatisk; velg mappen om nødvendig. Importerte noder bruker den medfølgende kjernen."
+  },
+  "savePaths": {
+    "message": "Lagre tilkoblingsinnstillinger"
+  },
+  "privacy": {
+    "message": "Innstillinger lagret lokalt"
+  },
+  "privacyText": {
+    "message": "Nodekoblinger og legitimasjon forblir i den lokale følgesvennen. Nettlesertrafikk går gjennom din valgte proxy til destinasjonsnettsteder; utvikleren mottar den ikke."
+  },
+  "privacyDetails": {
+    "message": "Personvern og dataflyt"
+  },
+  "export": {
+    "message": "Eksporter profiler"
+  },
+  "about": {
+    "message": "Omtrent Proxy V2Route"
+  },
+  "aboutText": {
+    "message": "Velg en nettleserrute uten å bytte hovedruten til v2rayN. Noderuter bruker Windows følgesvenn og dine egne noder."
+  },
+  "licenses": {
+    "message": "Opplysninger om åpen kildekode"
+  },
+  "version": {
+    "message": "Versjon"
+  },
+  "fieldRequired": {
+    "message": "Skriv inn et profilnavn."
+  },
+  "profileExists": {
+    "message": "En profil med dette navnet eksisterer allerede."
+  },
+  "ruleHelp": {
+    "message": "Separate domener på én rad med komma. Den første matchende raden vinner. Hold standardruten tilgjengelig."
+  },
+  "rules": {
+    "message": "Ruteregler"
+  },
+  "pattern": {
+    "message": "Vertsmønster"
+  },
+  "target": {
+    "message": "Regelmål"
+  },
+  "addRule": {
+    "message": "Legg til regel"
+  },
+  "defaultRoute": {
+    "message": "Standardprofil"
+  },
+  "pacHelp": {
+    "message": "Lim inn pålitelig PAC kilde som inneholder FindProxyForURL. Dette skriptet bestemmer hvordan nettstedsforespørsler rutes."
+  },
+  "pacUrl": {
+    "message": "PAC URL"
+  },
+  "pacScript": {
+    "message": "PAC manus"
+  },
+  "noSelection": {
+    "message": "Velg en profil eller opprett en."
+  },
+  "details": {
+    "message": "Detaljer"
+  },
+  "noNodes": {
+    "message": "Ingen noder ennå"
+  },
+  "noNodesHelp": {
+    "message": "Koble til v2rayN eller importer proxy-lenker, JSON eller et abonnement for å komme i gang."
+  },
+  "openSettings": {
+    "message": "Åpne innstillinger"
+  },
+  "proxySettings": {
+    "message": "Proxy-innstillinger"
+  },
+  "switching": {
+    "message": "Bytter..."
+  },
+  "updatedElsewhere": {
+    "message": "Denne profilen ble endret i et annet vindu. Åpne den på nytt før du lagrer."
+  },
+  "choose": {
+    "message": "Velg"
+  },
+  "popupIntro": {
+    "message": "Tilkobling:"
+  },
+  "invalidPort": {
+    "message": "Angi en port fra 1 til 65535."
+  },
+  "externalControl": {
+    "message": "En annen utvidelse eller policy kontrollerer nettleserproxyen."
+  },
+  "noNativeRoute": {
+    "message": "Koble til den lokale komponenten før du oppretter en nodeprofil."
+  },
+  "reload": {
+    "message": "Last inn på nytt"
+  },
+  "rulesError": {
+    "message": "Hver regel trenger et mønster og et mål."
+  },
+  "backupDone": {
+    "message": "Nettleserprofiler eksportert"
+  },
+  "managed": {
+    "message": "Administrert node"
+  },
+  "netRegion": {
+    "message": "Målområde"
+  },
+  "netNodeArea": {
+    "message": "Proxy node"
+  },
+  "netChina": {
+    "message": "Fastlands-Kina"
+  },
+  "netGlobal": {
+    "message": "Global"
+  },
+  "netAli": {
+    "message": "AliDNS"
+  },
+  "netTencent": {
+    "message": "DNPod"
+  },
+  "netStartHelp": {
+    "message": "Velg et mål, og start deretter en live-test."
+  },
+  "netConsole": {
+    "message": "Live diagnostikk"
+  },
+  "netStop": {
+    "message": "Stopp"
+  },
+  "netRunning": {
+    "message": "Kjører"
+  },
+  "netStopped": {
+    "message": "Stoppet"
+  },
+  "netSent": {
+    "message": "Sendt"
+  },
+  "netLoss": {
+    "message": "Tap"
+  },
+  "netAverageShort": {
+    "message": "Gj.sn"
+  },
+  "netLogClear": {
+    "message": "Klart"
+  },
+  "netFinishing": {
+    "message": "Forrige sonde er ferdig ..."
+  },
+  "netRound": {
+    "message": "Rund"
+  },
+  "netDestination": {
+    "message": "Destinasjon"
+  },
+  "netHop": {
+    "message": "Hopp"
+  },
+  "netAddress": {
+    "message": "IP adresse"
+  },
+  "netLast": {
+    "message": "Sist"
+  },
+  "netConsoleHelp": {
+    "message": "Ping / TCPing / MTR bruker systemnettverket, ikke proxy-kjeden. Manglende ICMP svar beviser ikke trafikktap. Nedlastingen bruker nettleserruten og valgt størrelsesgrense. Tester stopper når du forlater eller skjuler denne siden."
+  },
+  "netDirectShort": {
+    "message": "Systemnettverk"
+  },
+  "netIcmpShort": {
+    "message": "Nei ICMP svar"
+  },
+  "netProbeError": {
+    "message": "Lokal sondefeil"
+  },
+  "netNoDestination": {
+    "message": "Destinasjon ikke nådd"
+  },
+  "deleteActive": {
+    "message": "Bytt til system og slett"
+  },
+  "deleteActiveHelp": {
+    "message": "Denne profilen er aktiv. Sletting bytter nettleseren til systemproxy."
+  },
+  "netDownloadSize": {
+    "message": "Nedlastingsstørrelse"
+  },
+  "netReceived": {
+    "message": "Mottatt"
+  },
+  "netBest": {
+    "message": "Best"
+  },
+  "netWorst": {
+    "message": "Verst"
+  },
+  "netStdDev": {
+    "message": "Std dev"
+  },
+  "netLocation": {
+    "message": "Plassering"
+  },
+  "toolWall": {
+    "message": "Kontroll av domeneblokkering"
+  },
+  "toolSites": {
+    "message": "Populære nettsteder"
+  },
+  "toolGlobal": {
+    "message": "Global diagnostikk"
+  },
+  "toolFast": {
+    "message": "Netflix-hastighet"
+  },
+  "toolSpeed": {
+    "message": "Hastighetstest"
+  },
+  "toolStart": {
+    "message": "Start"
+  },
+  "toolReady": {
+    "message": "Klar"
+  },
+  "toolResponded": {
+    "message": "Reagerte"
+  },
+  "toolNoResponse": {
+    "message": "Ubekreftet"
+  },
+  "toolCacheUnsupported": {
+    "message": "Denne nettleseren kan ikke tømme cache etter nettsted; siden har blitt lastet inn på nytt."
+  },
+  "toolCacheFailed": {
+    "message": "Bufferopprydding ble ikke fullført. Lukk og prøv på nytt."
+  },
+  "toolClose": {
+    "message": "Lukk"
+  },
+  "toolReload": {
+    "message": "Last inn på nytt"
+  },
+  "toolLoading": {
+    "message": "Laster inn …"
+  },
+  "toolFrameError": {
+    "message": "Kunne ikke laste. Prøv Last inn på nytt."
+  },
+  "toolSiteHelp": {
+    "message": "Bare tilgjengelighet for nettlesere. Dette bekrefter ikke konto eller regional tilgang."
+  },
+  "toolFallback": {
+    "message": "Test av sikkerhetskopieringshastighet"
+  },
+  "toolFullscreen": {
+    "message": "Fullskjerm"
+  },
+  "toolRestore": {
+    "message": "Avslutt fullskjerm"
+  },
+  "ipReadFailed": {
+    "message": "Lesing mislyktes. 👉"
+  },
+  "ipViewSource": {
+    "message": "Se kildeside"
+  },
+  "toolDownloadError": {
+    "message": "Kunne ikke nå nedlastingsserveren. Prøv igjen."
+  },
+  "toolAccess": {
+    "message": "Aktiver nettstedtilgang"
+  },
+  "toolPermission": {
+    "message": "Tillat tilgang til dette nettstedet for innebygd øktkompatibilitet."
+  },
+  "toolAsia": {
+    "message": "Asia"
+  },
+  "toolEurope": {
+    "message": "Europa"
+  },
+  "toolAmerica": {
+    "message": "Nord-Amerika"
+  },
+  "toolGlobalHelp": {
+    "message": "Forhåndsutfyller nettleseravslutningen IP. Velg fastlands-Kina eller en annen region for å sammenligne stier; Start sender det viste målet til opptil tre Globalping prober."
+  },
+  "toolServiceError": {
+    "message": "Testtjenesten er utilgjengelig. Prøv igjen."
+  },
+  "popupOrderHelp": {
+    "message": "Hold og dra for å omorganisere. Alt+piltastene flytter også denne profilen."
+  },
+  "popupOrderSaved": {
+    "message": "Bestilling lagret"
+  },
+  "toolGroupIP": {
+    "message": "IP tester"
+  },
+  "toolGroupWeb": {
+    "message": "Nettstedtester"
+  },
+  "toolGroupSpeed": {
+    "message": "Hastighet"
+  },
+  "toolCurrentIP": {
+    "message": "Nåværende utgang IP"
+  },
+  "toolCurrentIPLoading": {
+    "message": "Laster gjeldende utgang IP..."
+  },
+  "toolCurrentIPFailed": {
+    "message": "Kunne ikke lese gjeldende IP. Skriv inn et mål."
+  },
+  "speedMode": {
+    "message": "Testmodus"
+  },
+  "speedBoth": {
+    "message": "Last ned + last opp"
+  },
+  "speedDownload": {
+    "message": "Last ned"
+  },
+  "speedUpload": {
+    "message": "Last opp"
+  },
+  "speedLatency": {
+    "message": "HTTP ventetid"
+  },
+  "speedBudget": {
+    "message": "{n} MiB per fase · {total} MiB totalt, pluss små latensprøver."
+  },
+  "siteCategory": {
+    "message": "Nettstedkategori"
+  },
+  "siteAll": {
+    "message": "Alle nettsteder"
+  },
+  "siteAI": {
+    "message": "AI"
+  },
+  "siteDevelopment": {
+    "message": "Utvikling"
+  },
+  "siteVideo": {
+    "message": "Video / musikk"
+  },
+  "siteSocial": {
+    "message": "Sosial"
+  },
+  "siteDomestic": {
+    "message": "Fastlandstjenester"
+  },
+  "siteServices": {
+    "message": "Fellestjenester"
+  },
+  "globalMethod": {
+    "message": "Måletype"
+  },
+  "localPort": {
+    "message": "Lokal port:"
+  },
+  "chainChooseNode": {
+    "message": "Velg en proxy-node"
+  },
+  "chainTitle": {
+    "message": "Fullmaktskjede"
+  },
+  "chainSelectExit": {
+    "message": "Velg en spesifikk utgangsnode nedenfor for å lagre eller teste denne tilpassede kjeden. Følg v2rayN administreres av v2rayN."
+  },
+  "chainSelectExitShort": {
+    "message": "Velg en utgangsnode"
+  },
+  "chainAdd": {
+    "message": "+ Legg til proxy-lag"
+  },
+  "chainTest": {
+    "message": "Testkjede"
+  },
+  "chainMode": {
+    "message": "Kjedemodus"
+  },
+  "chainBase": {
+    "message": "Base proxy"
+  },
+  "chainExit": {
+    "message": "Avslutt proxy"
+  },
+  "chainEgress": {
+    "message": "Kjedeutgang"
+  },
+  "chainExitBadge": {
+    "message": "Avslutt IP"
+  },
+  "chainEntry": {
+    "message": "Kjedeinnføring"
+  },
+  "chainTransit": {
+    "message": "Bronode"
+  },
+  "chainUntested": {
+    "message": "Ikke testet"
+  },
+  "chainMissing": {
+    "message": "Utilgjengelig node"
+  },
+  "chainUnresolved": {
+    "message": "Kan ikke løse den arvede kjeden. Reparer forgjengerens innstillinger eller velg en tilpasset kjede."
+  },
+  "chainUpgrade": {
+    "message": "Oppdater den lokale følgesvennen for å aktivere bestilte kjeder."
+  },
+  "chainBusy": {
+    "message": "En annen kjedetest kjører"
+  },
+  "chainOK": {
+    "message": "Kan nås"
+  },
+  "chainFailed": {
+    "message": "Mislykket hopp i denne testen"
+  },
+  "chainBlocked": {
+    "message": "Ikke testet · forrige hopp mislyktes"
+  },
+  "chainFailureHelp": {
+    "message": "Dette hoppet eller stien til det gikk ikke forbi. Senere humle ble ikke testet."
+  },
+  "chainAllOK": {
+    "message": "Alle kumulative baner svarte"
+  },
+  "chainStopping": {
+    "message": "Stopper etter den gjeldende avgrensede sonden..."
+  },
+  "globalWorld": {
+    "message": "Over hele verden"
+  },
+  "globalUnavailable": {
+    "message": "Målet eller regionen er utilgjengelig. Sjekk målet eller velg en annen region."
+  },
+  "globalRateLimited": {
+    "message": "Tjenestegrensen ble nådd. Prøv igjen senere."
+  },
+  "globalNoResults": {
+    "message": "Tjenesten returnerte ingen sonderesultater. Prøv en annen region."
+  },
+  "globalProbeFailed": {
+    "message": "Sonde mislyktes"
+  },
+  "globalProbeOffline": {
+    "message": "Sonde offline"
+  },
+  "globalIcmpCaution": {
+    "message": "Manglende ICMP svar alene beviser ikke blokkering. Sammenlign fastlands- og utenlandsstier og andre testtyper."
+  },
+  "speedRealtime": {
+    "message": "Direkte hastighet"
+  },
+  "speedAverage": {
+    "message": "Gjennomsnittlig hastighet"
+  },
+  "ipToolsBrief": {
+    "message": "Tredjepartsresultater er til referanse."
+  },
+  "ipReportBrief": {
+    "message": "Resultatene varierer etter utgang IP og er til referanse."
+  },
+  "toolPingPe": {
+    "message": "IP blokkeringssjekk"
+  },
+  "toolTargetIP": {
+    "message": "Mål IP"
+  },
+  "toolOpenPingPe": {
+    "message": "Åpen offisiell prøve"
+  },
+  "toolInvalidIP": {
+    "message": "Angi en gyldig IPv4- eller IPv6-adresse."
+  },
+  "toolInvalidPort": {
+    "message": "Angi en TCP port fra 1 til 65535."
+  },
+  "toolExternalFailed": {
+    "message": "Kunne ikke åpne nettstedet. Prøv igjen."
+  },
+  "ipBrowserReading": {
+    "message": "Leser Ping0 gjennom nettleseren..."
+  },
+  "ipVerifyBrowser": {
+    "message": "Åpne bekreftelsessiden"
+  },
+  "policyCenter": {
+    "message": "Personvern, erklæring og vanlige spørsmål"
+  },
+  "policyCenterIntro": {
+    "message": "Lokal datahåndtering, testgrenser og vanlige svar."
+  },
+  "policyPrivacyTitle": {
+    "message": "Personvernerklæring"
+  },
+  "policyPrivacySummary": {
+    "message": "Profiler og legitimasjon forblir på denne enheten. Popup-kontroller og diagnostikk kontakte deres oppgitte leverandører. Ingen reklame eller atferdsanalyse."
+  },
+  "policyDeclarationTitle": {
+    "message": "Bruks- og måleangivelse"
+  },
+  "policyDeclarationSummary": {
+    "message": "Denne utvidelsen er en lokal ruteadministrator, ikke en proxy- eller VPN-leverandør. Målinger er referanseprøver påvirket av nettverks-, proxy- og leverandørforhold."
+  },
+  "policyFaqTitle": {
+    "message": "Vanlige spørsmål"
+  },
+  "policyFaqSummary": {
+    "message": "Windows følgesvenn er nødvendig for lokale noder og MTR. Latency kan variere mellom nettleser, system og offentlige sonder. Stopp en test eller fjern lokale data fra Innstillinger."
+  },
+  "policyDetailsLink": {
+    "message": "Les alle detaljer ↗"
+  },
+  "thirdPartyNotice": {
+    "message": "Åpen kildekode-merknader ↗"
+  },
+  "columnResizeHelp": {
+    "message": "Dra for å endre størrelse; dobbeltklikk for å tilbakestille; bruk piltastene for å justere"
+  },
+  "columnResize": {
+    "message": "Endre størrelse på kolonne"
+  },
+  "typeDescription_node": {
+    "message": "Koble til via en proxy-node"
+  },
+  "typeDescription_manual": {
+    "message": "Angi proxy-innstillinger manuelt"
+  },
+  "typeDescription_auto": {
+    "message": "Velg en node ved hjelp av regler"
+  },
+  "typeDescription_pac": {
+    "message": "Rute trafikk ved å bruke PAC regler"
+  },
+  "appDescription": {
+    "message": "Administrer uavhengige proxy-ruter, noder, domeneregler og tilkoblingskontroller. Noderuter krever Windows følgesvenn."
+  },
+  "core_title": {
+    "message": "Proxy-kjerne"
+  },
+  "core_checking": {
+    "message": "Sjekker den lokale komponenten …"
+  },
+  "core_ready": {
+    "message": "Xray er klar"
+  },
+  "core_missing": {
+    "message": "Proxy-kjerne mangler"
+  },
+  "core_external": {
+    "message": "Egendefinert kjerne: ikke bekreftet"
+  },
+  "core_corrupt": {
+    "message": "Xray sjekksummismatch — reparasjon kreves"
+  },
+  "core_unreadable": {
+    "message": "Kjernefil kunne ikke sjekkes"
+  },
+  "core_intro": {
+    "message": "Den komplette Windows-pakken inkluderer Xray. v2rayN er valgfritt."
+  },
+  "core_verify": {
+    "message": "Sjekk igjen"
+  },
+  "core_install": {
+    "message": "Installer / reparer kjerne"
+  },
+  "core_installing": {
+    "message": "Laster ned og bekrefter..."
+  },
+  "core_done": {
+    "message": "Kjerne verifisert og klar"
+  },
+  "core_help": {
+    "message": "Reparasjon bruker en festet offisiell Xray utgivelse og verifiserer kontrollsummen. Eksisterende tilkoblinger fortsetter å kjøre."
+  },
+  "core_absent": {
+    "message": "Installer den lokale komponenten én gang, og gå tilbake hit for å sjekke kjernen."
+  },
+  "core_download": {
+    "message": "Installasjonsveiledning"
+  },
+  "core_absentHelp": {
+    "message": "Bruk den matchende Windows-pakken eller følg veiledningen for å bygge den fra kilden, og kjør deretter oppsettet."
+  },
+  "core_failed": {
+    "message": "Kjerneoperasjon mislyktes. Prøv igjen eller bruk den komplette Windows-pakken."
+  },
+  "core_version": {
+    "message": "Versjon"
+  },
+  "error_ACTIVE_PROFILE_DELETE": {
+    "message": "Bytt til en annen profil før sletting"
+  },
+  "error_BACKUP_BINDING_TYPE": {
+    "message": "Bare proxyprofiler kan ha rutebindinger"
+  },
+  "error_BACKUP_FORMAT3_REQUIRED": {
+    "message": "Noderegler krever en flyttbar sikkerhetskopi i format 3"
+  },
+  "error_BACKUP_INDEPENDENT_PATH_REQUIRED": {
+    "message": "Sikkerhetskopien må inneholde en uavhengig nodebane"
+  },
+  "error_BACKUP_INTERNAL_BINDINGS": {
+    "message": "Sikkerhetskopien inneholder interne bindinger"
+  },
+  "error_BACKUP_MESSAGE_LIMIT": {
+    "message": "Nodesikkerhetskopien overskrider meldingsgrensen til følgeprogrammet"
+  },
+  "error_BACKUP_NODES_INCOMPLETE": {
+    "message": "Ufullstendig nodesikkerhetskopi"
+  },
+  "error_BACKUP_NODE_MISSING": {
+    "message": "Sikkerhetskopien mangler en nødvendig node"
+  },
+  "error_BACKUP_NODE_PATHS_LIMIT": {
+    "message": "Sikkerhetskopien støtter høyst {limit} nodebaner"
+  },
+  "error_BACKUP_PATH_INCOMPLETE": {
+    "message": "Ufullstendig nodebane i sikkerhetskopien"
+  },
+  "error_BACKUP_PROFILES_LIMIT": {
+    "message": "Sikkerhetskopien støtter høyst {limit} profiler"
+  },
+  "error_BACKUP_PROXY_CONFLICT": {
+    "message": "Sikkerhetskopien har motstridende proxyinnstillinger"
+  },
+  "error_BACKUP_SIZE_LIMIT": {
+    "message": "Sikkerhetskopien overskrider {limit} MB"
+  },
+  "error_BACKUP_TRANSFER_UNAVAILABLE": {
+    "message": "Oppdater eller reparer følgeprogrammet for å overføre nodesikkerhetskopier."
+  },
+  "error_BACKUP_UNUSED_NODES": {
+    "message": "Sikkerhetskopien inneholder noder uten referanser"
+  },
+  "error_BODY_TOO_LARGE": {
+    "message": "Abonnementssvaret overskrider tillatt størrelse."
+  },
+  "error_BROWSER_API_FAILED": {
+    "message": "Nettleseroperasjonen mislyktes. Se tekniske detaljer."
+  },
+  "error_BROWSER_PROXY_RESTORE_FAILED": {
+    "message": "Operasjonen mislyktes, og nettleserens forrige proxy kunne ikke gjenopprettes"
+  },
+  "error_BROWSER_SCHEDULING_UNAVAILABLE": {
+    "message": "Nettleserens planlegging er utilgjengelig."
+  },
+  "error_BUSY": {
+    "message": "En annen operasjon kjører. Prøv igjen om litt."
+  },
+  "error_CHAIN_PROBE_FAILED": {
+    "message": "Kjedetesten mislyktes"
+  },
+  "error_COMPANION_BULK_RELEASE_REQUIRED": {
+    "message": "Oppgrader det lokale følgeprogrammet for å håndtere flere noderegler trygt"
+  },
+  "error_COMPANION_CHAINS_REQUIRED": {
+    "message": "Oppgrader det lokale følgeprogrammet for å aktivere ordnede kjeder"
+  },
+  "error_COMPANION_MESSAGE_LIMIT": {
+    "message": "Innstillingene overskrider meldingsgrensen til følgeprogrammet"
+  },
+  "error_COMPANION_OPERATION_FAILED": {
+    "message": "Operasjonen i det lokale følgeprogrammet mislyktes. Se tekniske detaljer."
+  },
+  "error_COMPANION_UNAVAILABLE": {
+    "message": "Installer eller reparer V2Route Companion"
+  },
+  "error_CONNECTION_CLOSED": {
+    "message": "Tilkoblingen ble lukket før testen var ferdig."
+  },
+  "error_CORE_INSTALL_FAILED": {
+    "message": "Installasjon av kjernen mislyktes. Se tekniske detaljer."
+  },
+  "error_CORE_OWNERSHIP_FAILED": {
+    "message": "Den isolerte testkjernen kunne ikke styres trygt. Testen ble stoppet."
+  },
+  "error_CORE_START_FAILED": {
+    "message": "Den isolerte testkjernen kunne ikke starte. Kontroller installasjonen av følgeprogrammet og kjernen."
+  },
+  "error_CORE_START_TIMEOUT": {
+    "message": "Den isolerte testkjernen ble ikke klar i tide."
+  },
+  "error_CORE_STATUS_UNAVAILABLE": {
+    "message": "Kjernestatus er utilgjengelig. Se tekniske detaljer."
+  },
+  "error_CORE_VALIDATION_FAILED": {
+    "message": "Xray kunne ikke validere de importerte nodene. Kontroller innstillingene og prøv igjen."
+  },
+  "error_DETACH_PORT_CONFLICT": {
+    "message": "Den administrerte porten frigjøres. Angi en annen manuell proxy"
+  },
+  "error_DETACH_PROXY_REQUIRED": {
+    "message": "Angi den manuelle erstatningsproxyen før frakobling"
+  },
+  "error_DNS_BUSY": {
+    "message": "DNS-oppslag er opptatt. Prøv igjen om litt."
+  },
+  "error_DNS_FAILED": {
+    "message": "DNS-oppslaget mislyktes. Kontroller adressen og nettverkstilkoblingen."
+  },
+  "error_ENCODING_UNSUPPORTED": {
+    "message": "Abonnementet bruker en innholdskoding som ikke støttes."
+  },
+  "error_FIREFOX_PRIVATE_ACCESS_REQUIRED": {
+    "message": "Tillat V2Route i private vinduer i utvidelsesdetaljene før du endrer proxyinnstillinger"
+  },
+  "error_FOLDER_UNAVAILABLE": {
+    "message": "Mappen er utilgjengelig; kontroller bane, tilgang og versjonen av følgeprogrammet"
+  },
+  "error_GROUP_LIMIT": {
+    "message": "Gruppegrensen er nådd. Fjern en ubrukt gruppe og prøv igjen."
+  },
+  "error_GROUP_NOT_EDITABLE": {
+    "message": "Denne kildegruppen kan ikke redigeres her."
+  },
+  "error_GROUP_NOT_FOUND": {
+    "message": "Den valgte gruppen finnes ikke lenger. Velg en annen gruppe."
+  },
+  "error_HTTP_ENCODING": {
+    "message": "Testserveren returnerte en koding som ikke støttes."
+  },
+  "error_HTTP_LENGTH": {
+    "message": "Størrelsen på testsvaret samsvarte ikke med forespurt størrelse."
+  },
+  "error_HTTP_RESPONSE_TOO_LARGE": {
+    "message": "Testsvaret overskred tillatt størrelse."
+  },
+  "error_HTTP_STATUS": {
+    "message": "Testserveren returnerte en mislykket HTTP-status."
+  },
+  "error_IMPORTED_PROXY_MISSING": {
+    "message": "Følgeprogrammet returnerte ikke den importerte proxyen"
+  },
+  "error_IMPORTED_RULE_PATH_CONFLICT": {
+    "message": "Importerte noder gir motstridende regelbaner"
+  },
+  "error_IMPORT_CLEANUP_FAILED": {
+    "message": "Importen mislyktes; noen midlertidige noder eller porter kunne ikke frigjøres. Eksisterende profiler ble beholdt"
+  },
+  "error_IMPORT_PROFILE_NAME_CONFLICT": {
+    "message": "Duplisert eller ugyldig profilnavn"
+  },
+  "error_INCOMPLETE_RESPONSE": {
+    "message": "Abonnementssvaret var ufullstendig. Prøv igjen."
+  },
+  "error_INVALID_BACKUP": {
+    "message": "Ugyldig V2Route-sikkerhetskopi"
+  },
+  "error_INVALID_BACKUP_NODE": {
+    "message": "Ugyldig eller duplisert node i sikkerhetskopien"
+  },
+  "error_INVALID_BACKUP_NODES": {
+    "message": "Ugyldige noder i sikkerhetskopien"
+  },
+  "error_INVALID_BACKUP_PATH": {
+    "message": "Ugyldig bane i sikkerhetskopien"
+  },
+  "error_INVALID_BYPASS_ENTRY": {
+    "message": "Ugyldig unntaksoppføring"
+  },
+  "error_INVALID_BYPASS_LIST": {
+    "message": "Ugyldig unntaksliste"
+  },
+  "error_INVALID_CHAIN": {
+    "message": "Ugyldig ordnet kjede"
+  },
+  "error_INVALID_CHAIN_PROBE": {
+    "message": "Ugyldig kjedetest"
+  },
+  "error_INVALID_COMPANION_RESPONSE": {
+    "message": "Det lokale følgeprogrammet returnerte et ugyldig svar. Oppdater eller reparer det."
+  },
+  "error_INVALID_CONTENT": {
+    "message": "Abonnementssvaret inneholder ikke gyldig innhold."
+  },
+  "error_INVALID_DOMAIN_PATTERNS": {
+    "message": "Angi kommaseparerte domenemønstre; plasser hver URL på en egen rad"
+  },
+  "error_INVALID_ENCODING": {
+    "message": "Abonnementssvaret er ikke gyldig UTF-8-tekst."
+  },
+  "error_INVALID_FOLDER_REQUEST": {
+    "message": "Ugyldig mappeforespørsel"
+  },
+  "error_INVALID_GROUP_ACTION": {
+    "message": "Denne gruppehandlingen støttes ikke."
+  },
+  "error_INVALID_HOP_INDEX": {
+    "message": "Ugyldig hoppindeks"
+  },
+  "error_INVALID_LEGACY_PREDECESSOR": {
+    "message": "Ugyldig eldre forgjenger"
+  },
+  "error_INVALID_LIBRARY_COMMAND": {
+    "message": "Denne kommandoen for nodebiblioteket støttes ikke."
+  },
+  "error_INVALID_LIBRARY_REQUEST": {
+    "message": "Ugyldig bibliotekforespørsel"
+  },
+  "error_INVALID_NAME": {
+    "message": "Angi et navn med 1–128 synlige tegn og uten kontrolltegn."
+  },
+  "error_INVALID_NETWORK_TEST": {
+    "message": "Ugyldig nettverkstest"
+  },
+  "error_INVALID_NODE_IMPORT_RESPONSE": {
+    "message": "Ugyldig svar på nodeimport"
+  },
+  "error_INVALID_PREDECESSOR": {
+    "message": "Ugyldig forgjenger for denne ruten"
+  },
+  "error_INVALID_PROFILE_NAME": {
+    "message": "Ugyldig profilnavn"
+  },
+  "error_INVALID_PROFILE_REFERENCE": {
+    "message": "Ugyldig profilreferanse"
+  },
+  "error_INVALID_PROXY_AUTH": {
+    "message": "Ugyldig proxyautentisering"
+  },
+  "error_INVALID_PROXY_CREDENTIALS": {
+    "message": "Ugyldig proxylegitimasjon"
+  },
+  "error_INVALID_PROXY_ENDPOINT": {
+    "message": "Angi en gyldig proxyvert og port"
+  },
+  "error_INVALID_PROXY_HOST": {
+    "message": "Angi et DNS-navn eller en IP-adresse uten port, URL, bane eller spørring"
+  },
+  "error_INVALID_ROUTE": {
+    "message": "Ugyldig rute"
+  },
+  "error_INVALID_ROUTE_SETTINGS": {
+    "message": "Ugyldige ruteinnstillinger"
+  },
+  "error_INVALID_RULES": {
+    "message": "Ugyldige regler"
+  },
+  "error_INVALID_RULE_TARGET": {
+    "message": "Velg én gyldig node eller profil for hver regel"
+  },
+  "error_INVALID_SUBSCRIPTION": {
+    "message": "Ugyldig abonnement"
+  },
+  "error_INVALID_SUBSCRIPTION_REQUEST": {
+    "message": "Ugyldig abonnementsforespørsel"
+  },
+  "error_INVALID_SUBSCRIPTION_SETTINGS": {
+    "message": "Abonnementsinnstillingene er ugyldige. Kontroller oppdateringsintervallet og tilkoblingspolicyen."
+  },
+  "error_INVALID_SYSTEM_PROXY_RESPONSE": {
+    "message": "Ugyldig svar fra systemproxyen; oppdater eller reparer følgeprogrammet"
+  },
+  "error_INVALID_TRANSPORT": {
+    "message": "Abonnementets tilkoblingsinnstillinger er ugyldige."
+  },
+  "error_INVALID_URL": {
+    "message": "Angi en gyldig HTTP(S)-abonnements-URL uten brukernavn eller passord."
+  },
+  "error_LIBRARY_CHANGED": {
+    "message": "Nodebiblioteket ble endret i et annet vindu. Oppdater visningen og prøv igjen."
+  },
+  "error_MANUAL_CHAIN_UNSUPPORTED": {
+    "message": "Manuelle proxyer godtar ikke en nodekjede"
+  },
+  "error_MANUAL_PROXY_CLEANUP_FAILED": {
+    "message": "Lagring mislyktes; en midlertidig importert proxy er fortsatt i nodebiblioteket"
+  },
+  "error_NATIVE_BINDING_ID": {
+    "message": "Ugyldig identifikator for rutebinding."
+  },
+  "error_NATIVE_BINDING_UNKNOWN": {
+    "message": "Rutebindingen finnes ikke."
+  },
+  "error_NATIVE_BUTTON_NAME": {
+    "message": "Knappenavnet må inneholde 1–128 synlige tegn."
+  },
+  "error_NATIVE_CATALOG_UNREADABLE": {
+    "message": "v2rayN-konfigurasjonen kunne ikke leses."
+  },
+  "error_NATIVE_CORE_MISSING": {
+    "message": "Xray er utilgjengelig. Installer følgepakken."
+  },
+  "error_NATIVE_GROUP_ID_COLLISION": {
+    "message": "Gruppeidentifikatorene er i konflikt."
+  },
+  "error_NATIVE_GROUP_ORDER": {
+    "message": "Ugyldig grupperekkefølge."
+  },
+  "error_NATIVE_NODE_ID_COLLISION": {
+    "message": "Nodeidentifikatorene er i konflikt."
+  },
+  "error_NATIVE_PREDECESSOR_AMBIGUOUS": {
+    "message": "Forgjengernavnet mangler eller er duplisert. Velg en bestemt forgjengernode."
+  },
+  "error_NATIVE_PREDECESSOR_CYCLE": {
+    "message": "Forgjengerkjeden inneholder en syklus eller mer enn seks noder."
+  },
+  "error_NATIVE_PREDECESSOR_INVALID": {
+    "message": "Velg en gyldig forgjengerproxy."
+  },
+  "error_NATIVE_PREDECESSOR_MISSING": {
+    "message": "Den valgte forgjengeren finnes ikke lenger. Velg en annen node."
+  },
+  "error_NATIVE_PREDECESSOR_SETTINGS": {
+    "message": "Ugyldige forgjengerinnstillinger."
+  },
+  "error_NATIVE_ROUTE_INVALID": {
+    "message": "Velg en gyldig rute."
+  },
+  "error_NATIVE_ROUTE_MISSING": {
+    "message": "Denne ruten finnes ikke lenger. Velg en annen rute."
+  },
+  "error_NATIVE_ROUTE_PORTS": {
+    "message": "Ugyldige porttilordninger for ruten."
+  },
+  "error_NATIVE_ROUTE_UNAVAILABLE": {
+    "message": "Den valgte ruten er utilgjengelig. Se tekniske detaljer."
+  },
+  "error_NATIVE_SETTINGS_FORMAT": {
+    "message": "Ugyldig innstillingsformat."
+  },
+  "error_NATIVE_SETTINGS_REVISION": {
+    "message": "Ugyldig innstillingsrevisjon."
+  },
+  "error_NATIVE_SUCCESSOR_UNSUPPORTED": {
+    "message": "Denne gruppen bruker en etterfølgerproxy som ikke støttes."
+  },
+  "error_NATIVE_UNSUPPORTED_CUSTOM": {
+    "message": "Denne versjonen støtter ikke egendefinerte utgående konfigurasjoner."
+  },
+  "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
+    "message": "Denne versjonen støtter ikke Hysteria2."
+  },
+  "error_NATIVE_UNSUPPORTED_TUIC": {
+    "message": "Denne versjonen integrerer ikke sing-box-kjernen som TUIC krever."
+  },
+  "error_NATIVE_UNSUPPORTED_TYPE": {
+    "message": "Denne rutetypen støttes ikke."
+  },
+  "error_NATIVE_V2RAYN_PORT": {
+    "message": "Den lokale v2rayN-porten er ugyldig."
+  },
+  "error_NATIVE_V2RAYN_UNAVAILABLE": {
+    "message": "v2rayN er utilgjengelig. Velg en importert node."
+  },
+  "error_NETWORK_FAILED": {
+    "message": "Nettverksforespørselen mislyktes. Kontroller tilkoblingen og prøv igjen."
+  },
+  "error_NETWORK_TEST_FAILED": {
+    "message": "Nettverksdiagnosen mislyktes. Se tekniske detaljer."
+  },
+  "error_NODE_LIMIT": {
+    "message": "Operasjonen ville overskride nodegrensen. Fjern ubrukte noder og prøv igjen."
+  },
+  "error_NODE_MAPPING_INCOMPLETE": {
+    "message": "Nodetilordningen er ufullstendig"
+  },
+  "error_NODE_NOT_FOUND": {
+    "message": "Den valgte noden finnes ikke lenger. Velg en annen node."
+  },
+  "error_NOT_DUE": {
+    "message": "Det er ikke tid for neste planlagte oppdatering ennå."
+  },
+  "error_PAC_ENTRY_REQUIRED": {
+    "message": "Angi PAC-kildekode med FindProxyForURL"
+  },
+  "error_PAC_FUNCTION_REQUIRED": {
+    "message": "Definer en synkron FindProxyForURL-funksjon, funksjonsvariabel eller tilordning på toppnivå"
+  },
+  "error_PAC_PARSER_UNAVAILABLE": {
+    "message": "Den medfølgende PAC-parseren er utilgjengelig; installer utvidelsen på nytt"
+  },
+  "error_PAC_RULE_TARGET_UNSUPPORTED": {
+    "message": "Automatiske regler kan ikke rette seg mot en profil med innebygd PAC"
+  },
+  "error_PAC_SOURCE_LIMIT": {
+    "message": "Angi PAC-kildekode på høyst {limit} tegn"
+  },
+  "error_PAC_SYNTAX_INVALID": {
+    "message": "Ugyldig PAC-syntaks"
+  },
+  "error_PAC_SYNTAX_LOCATION": {
+    "message": "Ugyldig PAC-syntaks på linje {line}, kolonne {column}"
+  },
+  "error_PARTIAL_TRANSFER": {
+    "message": "Testoverføringen ble avsluttet før alle data var mottatt."
+  },
+  "error_PRIVATE_DIRECTORY_FAILED": {
+    "message": "Den private testmappen kunne ikke sikres. Testen ble stoppet."
+  },
+  "error_PRIVATE_TARGET": {
+    "message": "Abonnementsforespørsler til private eller lokale adresser er ikke tillatt."
+  },
+  "error_PROFILE_NOT_FOUND": {
+    "message": "Profilen ble ikke funnet"
+  },
+  "error_PROFILE_REFERENCE_CYCLE": {
+    "message": "Sirkulære profilreferanser"
+  },
+  "error_PROFILE_REFERENCE_DEPTH": {
+    "message": "Automatiske regler overskrider maksimal dybde på {limit}"
+  },
+  "error_PROFILE_REFERENCE_MISSING": {
+    "message": "Den refererte profilen finnes ikke: {name}"
+  },
+  "error_PROFILE_SAVE_RESTORE_FAILED": {
+    "message": "Lagring mislyktes, og rutegjenoppretting krever oppfølging"
+  },
+  "error_PROXY_AUTH_REQUIRED": {
+    "message": "Abonnementsproxyen krever autentisering som denne forespørselen ikke kan gi."
+  },
+  "error_PROXY_CONTROL_UNAVAILABLE": {
+    "message": "En annen utvidelse eller policy styrer proxyen"
+  },
+  "error_PROXY_DNS_REQUIRED": {
+    "message": "SOCKS5 DNS slås opp gjennom proxyen i V2Route"
+  },
+  "error_PROXY_FAILED": {
+    "message": "Proxytilkoblingen mislyktes. Kontroller den valgte ruten."
+  },
+  "error_PROXY_PROFILE_REQUIRED": {
+    "message": "Velg en proxyprofil"
+  },
+  "error_PROXY_ROLLBACK_REFUSED": {
+    "message": "Nettleseren avviste tilbakeføring av proxyen"
+  },
+  "error_PROXY_SETTING_REFUSED": {
+    "message": "Nettleseren avviste proxyinnstillingen"
+  },
+  "error_PROXY_UNAVAILABLE": {
+    "message": "Den valgte proxyen er utilgjengelig. Kontroller gjeldende rute."
+  },
+  "error_PROXY_USERNAME_REQUIRED": {
+    "message": "Angi et proxybrukernavn"
+  },
+  "error_RECOVERY_BINDINGS_LIMIT": {
+    "message": "Gjenoppretting kan gjenopprette høyst {limit} nodebindinger. Åpne og lagre de refererte profilene hver for seg."
+  },
+  "error_REDIRECT_LIMIT": {
+    "message": "Abonnementet omdirigerte for mange ganger. Kontroller URL-en."
+  },
+  "error_REFERENCED_PROFILE_DELETE": {
+    "message": "Denne profilen refereres av en automatisk regel"
+  },
+  "error_REMOTE_PAC_UNSUPPORTED": {
+    "message": "Bruk innebygd PAC-kildekode; ekstern PAC støttes ikke"
+  },
+  "error_ROUTE_PORT_UNAVAILABLE": {
+    "message": "Ingen port ble tildelt"
+  },
+  "error_ROUTE_RECOVERY_RESTORE_FAILED": {
+    "message": "Rutegjenoppretting mislyktes, og tilbakeføring krever oppfølging"
+  },
+  "error_ROUTE_REVISION_CONFLICT": {
+    "message": "Ruten ble endret i et annet vindu. Oppdater først"
+  },
+  "error_ROUTE_SAVE_ROLLBACK_FAILED": {
+    "message": "Lagring av ruten mislyktes, og tilbakeføring krever oppfølging"
+  },
+  "error_ROUTE_UNAVAILABLE": {
+    "message": "Testruten er utilgjengelig. Kontroller node- og forgjengerinnstillingene."
+  },
+  "error_RULE_BINDING_MISSING": {
+    "message": "Noderegelbinding mangler. Åpne og lagre den automatiske profilen på nytt: {name}"
+  },
+  "error_RULE_NODES_LIMIT": {
+    "message": "Automatiske regler støtter høyst {limit} forskjellige noder"
+  },
+  "error_RULE_NODE_CHANGED": {
+    "message": "Noderegelen er utilgjengelig eller endret. Gjenopprett noden, eller velg en annen og lagre: {name}"
+  },
+  "error_RULE_PATH_CONFLICT": {
+    "message": "Motstridende noderegelbaner"
+  },
+  "error_RULE_PATTERNS_LIMIT": {
+    "message": "Automatiske regler støtter totalt høyst {limit} treffmønstre"
+  },
+  "error_RULE_PORT_UNAVAILABLE": {
+    "message": "Noderegelens port er utilgjengelig"
+  },
+  "error_RULE_REVISION_CONFLICT": {
+    "message": "Noderegelen ble endret i et annet vindu. Oppdater først"
+  },
+  "error_SELECTED_NODE_UNAVAILABLE": {
+    "message": "Den valgte noden er utilgjengelig. Gjenopprett den eller velg en annen node"
+  },
+  "error_SOCKS_FAILED": {
+    "message": "SOCKS-tilkoblingen kunne ikke opprettes."
+  },
+  "error_STARTUP_FALLBACK_REFUSED": {
+    "message": "Nettleseren avviste reserveproxyen ved oppstart."
+  },
+  "error_SUBSCRIPTION_CHANGED": {
+    "message": "Abonnementet ble endret under oppdateringen. Oppdater visningen og prøv igjen."
+  },
+  "error_SUBSCRIPTION_HTTP_STATUS": {
+    "message": "Abonnementsserveren returnerte HTTP {status}."
+  },
+  "error_SUBSCRIPTION_LIMIT": {
+    "message": "Abonnementsgrensen er nådd. Fjern et ubrukt abonnement og prøv igjen."
+  },
+  "error_SUBSCRIPTION_NOT_FOUND": {
+    "message": "Det valgte abonnementet finnes ikke lenger."
+  },
+  "error_SYSTEM_PROXY_SNAPSHOT_UNAVAILABLE": {
+    "message": "Øyeblikksbildet av den anvendte systemproxyen er utilgjengelig."
+  },
+  "error_SYSTEM_PROXY_TIMEOUT": {
+    "message": "Tidsavbrudd ved lesing av systemproxyen"
+  },
+  "error_SYSTEM_PROXY_UNAVAILABLE": {
+    "message": "Systemproxyen er utilgjengelig. Se tekniske detaljer."
+  },
+  "error_TIMEOUT": {
+    "message": "Forespørselen fikk tidsavbrudd. Kontroller tilkoblingen og prøv igjen."
+  },
+  "error_TLS_DOWNGRADE": {
+    "message": "Abonnementet ble omdirigert fra HTTPS til HTTP og ble blokkert."
+  },
+  "error_TLS_FAILED": {
+    "message": "Den sikre tilkoblingen kunne ikke verifiseres. Kontroller serveren og sertifikatet."
+  },
+  "error_UNSAFE_TEMP_PATH": {
+    "message": "Den midlertidige testmappen er utrygg. Testen ble stoppet."
+  },
+  "error_UNSUPPORTED_LIBRARY_REQUEST": {
+    "message": "Bibliotekforespørselen støttes ikke"
+  },
+  "error_UNSUPPORTED_PROFILE_TYPE": {
+    "message": "Profiltypen støttes ikke"
+  },
+  "error_UNSUPPORTED_REQUEST": {
+    "message": "Forespørselen støttes ikke"
+  },
+  "error_UNSUPPORTED_RULE_CONDITION": {
+    "message": "Bare jokertegnregler for verter og URL-er støttes"
+  },
+  "error_UPDATE_FAILED": {
+    "message": "Abonnementsoppdateringen mislyktes. Eksisterende noder ble beholdt."
+  },
+  "error_VALIDATION_FAILED": {
+    "message": "Abonnementsinnholdet kunne ikke valideres. Eksisterende noder ble beholdt."
+  },
+  "nativeUnnamedNode": {
+    "message": "Node uten navn"
+  },
+  "nativeProtocolCustom": {
+    "message": "Egendefinert"
+  },
+  "nativeProtocolOutbound": {
+    "message": "Egendefinert utgående forbindelse"
+  },
+  "nativeProtocolGroup": {
+    "message": "Policygruppe"
+  },
+  "nativeProtocolChain": {
+    "message": "Proxykjede"
+  },
+  "nativeProtocolUnknown": {
+    "message": "Typen støttes ikke"
+  },
+  "languageLoadFailed": {
+    "message": "Det valgte språket kunne ikke lastes. Prøv igjen."
+  },
+  "invalidBackupJSON": {
+    "message": "Sikkerhetskopien er ikke gyldig JSON."
+  },
+  "noticeBodyLanguages": {
+    "message": "Hele policyteksten er tilgjengelig på engelsk og forenklet kinesisk."
+  },
+  "policyRules": {
+    "message": "Regler for proxyruting"
+  },
+  "policyPriority": {
+    "message": "Rekkefølge: unntatte adresser → første samsvarende regel → standardrute."
+  },
+  "policyDirectHelp": {
+    "message": "Adresser uten samsvar kobles direkte. Direkte-knappen bruker også disse reglene."
+  },
+  "policySystemHelp": {
+    "message": "Adresser uten samsvar bruker systemproxyen. System-knappen bruker også disse reglene."
+  },
+  "policyEmpty": {
+    "message": "Ingen regler ennå. Standardruten brukes."
+  },
+  "policyAddressHelp": {
+    "message": "Domener, jokertegndomener, IP eller IP:port. IP-regler sammenligner IP i URL-en, ikke DNS-resultater."
+  },
+  "policyMoveUp": {
+    "message": "Flytt regel opp"
+  },
+  "policyMoveDown": {
+    "message": "Flytt regel ned"
+  }
+}

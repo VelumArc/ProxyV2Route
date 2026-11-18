@@ -1,0 +1,2150 @@
+{
+  "ruleTargetUnavailable": {
+    "message": "অনুপলব্ধ লক্ষ্য"
+  },
+  "rulePatternPlaceholder": {
+    "message": "example.com, *.example.org, 192.0.2.1:8443"
+  },
+  "rulePatternHelp": {
+    "message": "কমা দিয়ে ঠিকানা আলাদা করুন। প্রতিটি URL প্যাটার্ন আলাদা লাইনে রাখুন। PAC হয়তো HTTPS পাথ দেখতে পায় না।"
+  },
+  "defaultChoice_direct": {
+    "message": "একটি প্রক্সি ছাড়া সংযোগ"
+  },
+  "defaultChoice_system": {
+    "message": "সিস্টেম প্রক্সি সেটিংস ব্যবহার করুন"
+  },
+  "defaultChoice_node": {
+    "message": "এই প্রোফাইলের নির্বাচিত নোড ব্যবহার করুন"
+  },
+  "defaultChoice_manual": {
+    "message": "এই প্রোফাইলের প্রক্সি সেটিংস ব্যবহার করুন"
+  },
+  "defaultChoice_auto": {
+    "message": "এই প্রোফাইলের রাউটিং নিয়ম প্রয়োগ করুন"
+  },
+  "nlHttpsLatency": {
+    "message": "HTTPS প্রতিক্রিয়া"
+  },
+  "nlLatencyMethod": {
+    "message": "Cloudflare · ন্যূনতম দুটি প্রতিক্রিয়া · উপলব্ধ হলে সংযোগ পুনরায় ব্যবহার"
+  },
+  "nlLatencyFast": {
+    "message": "দ্রুত"
+  },
+  "nlLatencyModerate": {
+    "message": "পরিমিত"
+  },
+  "nlLatencySlow": {
+    "message": "ধীর"
+  },
+  "nlSortName": {
+    "message": "নাম"
+  },
+  "nlSortLatency": {
+    "message": "লেটেন্সি: কম থেকে বেশি"
+  },
+  "nlSortDownload": {
+    "message": "ডাউনলোড করুন: উচ্চ থেকে নিম্ন"
+  },
+  "nlSortUpload": {
+    "message": "আপলোড: উচ্চ থেকে নিম্ন"
+  },
+  "nlSingle": {
+    "message": "একক নোড"
+  },
+  "nlGroupBatch": {
+    "message": "গ্রুপ/ব্যাচ"
+  },
+  "nlTestScope": {
+    "message": "পরীক্ষার সুযোগ"
+  },
+  "nlCurrentNode": {
+    "message": "নির্বাচিত নোড"
+  },
+  "nlCurrentGroup": {
+    "message": "নির্বাচিত গ্রুপ"
+  },
+  "nlChooseNode": {
+    "message": "তালিকায় একটি নোড বেছে নিন"
+  },
+  "nlStart": {
+    "message": "পরীক্ষা শুরু করুন"
+  },
+  "nlService": {
+    "message": "টেস্ট সার্ভিস"
+  },
+  "nlMeasured": {
+    "message": "পরিমাপ করা হয়েছে"
+  },
+  "nlMeanLatency": {
+    "message": "গড় বিলম্ব"
+  },
+  "nlGroupBySource": {
+    "message": "উত্স গ্রুপ দ্বারা"
+  },
+  "nlPreviousPage": {
+    "message": "আগের পৃষ্ঠা"
+  },
+  "nlNextPage": {
+    "message": "পরবর্তী পৃষ্ঠা"
+  },
+  "nlName": {
+    "message": "নাম"
+  },
+  "nlEdit": {
+    "message": "সম্পাদনা করুন"
+  },
+  "nlStop": {
+    "message": "থামুন"
+  },
+  "nlConfirm": {
+    "message": "নিশ্চিত করুন"
+  },
+  "nlAllNodes": {
+    "message": "সমস্ত নোড"
+  },
+  "nlNodeResults": {
+    "message": "নোড ফলাফল"
+  },
+  "nlTestCenter": {
+    "message": "পরীক্ষা কেন্দ্র"
+  },
+  "nlNewGroup": {
+    "message": "নতুন গ্রুপ"
+  },
+  "nlRenameGroup": {
+    "message": "গ্রুপের নাম পরিবর্তন করুন"
+  },
+  "nlRemoveGroup": {
+    "message": "গ্রুপ সরান"
+  },
+  "nlRemoveGroupHelp": {
+    "message": "প্রতিটি নোড এবং সাবস্ক্রিপশন রাখুন, এবং তাদের আমদানি করা নোডে নিয়ে যান।"
+  },
+  "nlNode": {
+    "message": "নোড"
+  },
+  "nlStatus": {
+    "message": "স্ট্যাটাস"
+  },
+  "nlActions": {
+    "message": "কর্ম"
+  },
+  "nlSort": {
+    "message": "শুধুমাত্র এই টেবিল সাজান"
+  },
+  "nlSelected": {
+    "message": "নির্বাচিত"
+  },
+  "nlTestNode": {
+    "message": "পরীক্ষা"
+  },
+  "nlProfileShort": {
+    "message": "প্রোফাইল"
+  },
+  "nlQuick": {
+    "message": "দ্রুত বিলম্ব"
+  },
+  "nlFull": {
+    "message": "ডাউনলোড + আপলোড করুন"
+  },
+  "nlTraffic": {
+    "message": "টেস্ট ডেটা সাইজ"
+  },
+  "nlConcurrency": {
+    "message": "সমবর্তী নোড"
+  },
+  "nlTrafficFullOnly": {
+    "message": "ডাউনলোড এবং আপলোড পরীক্ষার জন্য ব্যবহৃত হয়"
+  },
+  "nlTestMode": {
+    "message": "টেস্ট মোড"
+  },
+  "nlBudget": {
+    "message": "সর্বোচ্চ পেলোড ট্রাফিক"
+  },
+  "nlViaGroup": {
+    "message": "গ্রুপ প্রি-প্রক্সির মাধ্যমে"
+  },
+  "nlTestSelected": {
+    "message": "টেস্ট নির্বাচিত"
+  },
+  "nlTestVisible": {
+    "message": "পরীক্ষা দেখানো নোড"
+  },
+  "nlTestAll": {
+    "message": "সমস্ত নোড পরীক্ষা করুন"
+  },
+  "nlTestGroup": {
+    "message": "টেস্ট গ্রুপ নোড"
+  },
+  "nlProgress": {
+    "message": "পরিমাপের অগ্রগতি"
+  },
+  "nlReady": {
+    "message": "শুরু করতে নোড নির্বাচন করুন. কোনো পরীক্ষা চলেনি।"
+  },
+  "nlStarting": {
+    "message": "বিচ্ছিন্ন পরিমাপ শুরু হচ্ছে..."
+  },
+  "nlQueued": {
+    "message": "সারিবদ্ধ"
+  },
+  "nlRunning": {
+    "message": "টেস্টিং"
+  },
+  "nlStopping": {
+    "message": "থামছে..."
+  },
+  "nlComplete": {
+    "message": "সম্পূর্ণ"
+  },
+  "nlFailed": {
+    "message": "ব্যর্থ"
+  },
+  "nlStopped": {
+    "message": "থেমে গেছে"
+  },
+  "nlPartial": {
+    "message": "আংশিক"
+  },
+  "nlUntested": {
+    "message": "পরীক্ষা করা হয়নি"
+  },
+  "nlSucceeded": {
+    "message": "উত্তীর্ণ"
+  },
+  "nlMeasureDisconnected": {
+    "message": "পরিমাপ সংযোগ শেষ. অসম্পূর্ণ মান চূড়ান্ত ফলাফল নয়."
+  },
+  "nlUpgrade": {
+    "message": "গ্রুপ এবং সদস্যতা পরিচালনা করতে স্থানীয় সঙ্গী আপডেট করুন। বিদ্যমান নোড উপলব্ধ থাকে।"
+  },
+  "nlOperationFailed": {
+    "message": "অপারেশন সম্পন্ন করা যায়নি. আবার চেষ্টা করুন"
+  },
+  "nlEditSubscription": {
+    "message": "সদস্যতা সম্পাদনা করুন"
+  },
+  "nlPasteContent": {
+    "message": "প্রক্সি লিঙ্ক / বিষয়বস্তু"
+  },
+  "nlSubscriptionURL": {
+    "message": "সাবস্ক্রিপশন URL"
+  },
+  "nlKeepURL": {
+    "message": "সংরক্ষিত URL রাখতে ফাঁকা রাখুন"
+  },
+  "nlConnectionPolicy": {
+    "message": "সংযোগ আপডেট করুন"
+  },
+  "nlProxyFirst": {
+    "message": "প্রথমে প্রক্সি, তারপর ব্যর্থতার উপর সরাসরি"
+  },
+  "nlProxyOnly": {
+    "message": "শুধুমাত্র প্রক্সি"
+  },
+  "nlDirectOnly": {
+    "message": "শুধুমাত্র সরাসরি"
+  },
+  "nlProxyFirstHelp": {
+    "message": "সফলভাবে আনার পর প্রক্সি প্রথমে থামে। প্রক্সি প্রচেষ্টা ব্যর্থ হলেই সরাসরি চেষ্টা করা হয়।"
+  },
+  "nlAutoUpdate": {
+    "message": "স্বয়ংক্রিয় আপডেট সক্রিয় করুন"
+  },
+  "nlInterval": {
+    "message": "আপডেটের ব্যবধান (মিনিট)"
+  },
+  "nlDestinationGroup": {
+    "message": "গন্তব্য গ্রুপ"
+  },
+  "nlSubscriptionOwnGroup": {
+    "message": "নতুন গ্রুপ…"
+  },
+  "nlNameGroup": {
+    "message": "নাম (গ্রুপ)"
+  },
+  "nlCustomGroup": {
+    "message": "কাস্টম গ্রুপ"
+  },
+  "nlNameRequired": {
+    "message": "একটি নাম লিখুন।"
+  },
+  "nlContentRequired": {
+    "message": "প্রক্সি লিঙ্ক বা সদস্যতা বিষয়বস্তু আটকান."
+  },
+  "nlGroupRequired": {
+    "message": "একটি গন্তব্য গ্রুপ চয়ন করুন."
+  },
+  "nlURLRequired": {
+    "message": "ব্যবহারকারীর নাম বা পাসওয়ার্ড ছাড়া একটি HTTP(এস) সাবস্ক্রিপশন URL লিখুন।"
+  },
+  "nlIntervalInvalid": {
+    "message": "5 থেকে 43200 মিনিটের মধ্যে একটি পূর্ণ সংখ্যা লিখুন।"
+  },
+  "folderTitle": {
+    "message": "v2rayN ফোল্ডার নির্বাচন করুন"
+  },
+  "folderHint": {
+    "message": "একটি ফোল্ডার চয়ন করুন, তারপর সংযোগ সেটিংস সংরক্ষণ করুন এর সাথে এটি প্রয়োগ করুন।"
+  },
+  "folderPath": {
+    "message": "সম্পূর্ণ স্থানীয় ফোল্ডার পাথ"
+  },
+  "folderGo": {
+    "message": "খুলুন"
+  },
+  "folderUp": {
+    "message": "আপ"
+  },
+  "folderDrives": {
+    "message": "ড্রাইভ"
+  },
+  "folderCurrent": {
+    "message": "বর্তমান পথ"
+  },
+  "folderChoose": {
+    "message": "এই ফোল্ডারটি ব্যবহার করুন"
+  },
+  "folderList": {
+    "message": "ফোল্ডার"
+  },
+  "folderTruncated": {
+    "message": "তালিকা সীমিত. দেখানো হয়নি এমন ফোল্ডার খুলতে উপরের পুরো পথটি প্রবেশ করান।"
+  },
+  "folderReady": {
+    "message": "v2rayN ফাইল পাওয়া গেছে। কনফিগারেশন যাচাই করতে এই ফোল্ডারটি ব্যবহার করুন।"
+  },
+  "folderInvalid": {
+    "message": "guiConfigs, guiNConfig.json এবং guiNDB.db ধারণকারী ফোল্ডার নির্বাচন করুন।"
+  },
+  "folderSelectDrive": {
+    "message": "একটি স্থানীয় ড্রাইভ চয়ন করুন বা একটি সম্পূর্ণ ফোল্ডার পাথ লিখুন৷"
+  },
+  "folderEmpty": {
+    "message": "কোনো দৃশ্যমান সাবফোল্ডার নেই।"
+  },
+  "folderUnavailable": {
+    "message": "এই ফোল্ডার ব্রাউজ করা যাবে না. এর পথ এবং অ্যাক্সেস পরীক্ষা করুন। সঙ্গী বড় হলে প্রথমে আপডেট করুন।"
+  },
+  "folderValidating": {
+    "message": "v2rayN কনফিগারেশন যাচাই করা হচ্ছে..."
+  },
+  "folderInvalidConfig": {
+    "message": "v2rayN কনফিগারেশন বা ডাটাবেস অসম্পূর্ণ বা অবৈধ। অন্য ফোল্ডার নির্বাচন করুন."
+  },
+  "copyPath": {
+    "message": "পাথ কপি করুন"
+  },
+  "pathCopyHint": {
+    "message": "বর্তমানে এই ক্ষেত্রের পথটি অনুলিপি করুন।"
+  },
+  "preMode": {
+    "message": "প্রি-প্রক্সি মোড"
+  },
+  "preNode": {
+    "message": "প্রাক-প্রক্সি নোড"
+  },
+  "preIntro": {
+    "message": "গ্রুপ চেইন ব্যবহার করুন, এটি এড়িয়ে যান বা এই প্রোফাইলের জন্য একটি প্রাক-প্রক্সি বেছে নিন।"
+  },
+  "healthLabel": {
+    "message": "বর্তমান সংযোগ অবস্থা"
+  },
+  "healthOk": {
+    "message": "স্বাভাবিক"
+  },
+  "healthError": {
+    "message": "অস্বাভাবিক"
+  },
+  "healthChecking": {
+    "message": "পরীক্ষা করা হচ্ছে"
+  },
+  "healthUnknown": {
+    "message": "অনিশ্চিত"
+  },
+  "autoSystemHelp": {
+    "message": "সিস্টেম নিয়মের জন্য Windows উপাদান ও স্থির প্রক্সি সেটিংসের স্ন্যাপশট দরকার। পরিবর্তনের পরে আবার প্রয়োগ করুন। PAC/WPAD সমর্থিত নয়; নিয়ম ছাড়া সিস্টেম ব্রাউজারের নিজস্ব সেটিংস ব্যবহার করে।"
+  },
+  "backgroundUnavailable": {
+    "message": "এক্সটেনশন ব্যাকগ্রাউন্ড অনুপলব্ধ."
+  },
+  "backgroundNoResponse": {
+    "message": "পটভূমি সাড়া না."
+  },
+  "backupTooLarge": {
+    "message": "ব্যাকআপ 5 MB ছাড়িয়ে গেছে।"
+  },
+  "proxyUsername": {
+    "message": "ব্যবহারকারীর নাম"
+  },
+  "proxyPassword": {
+    "message": "পাসওয়ার্ড"
+  },
+  "proxyAuthHelp": {
+    "message": "ঐচ্ছিক. প্রমাণীকৃত প্রক্সিগুলি সঙ্গীর মাধ্যমে সংযোগ করে৷ শংসাপত্রগুলি এই ব্রাউজার কনফিগারেশন এবং কম্প্যানিয়নে সংরক্ষণ করা হয় এবং প্রোফাইল রপ্তানিতে অন্তর্ভুক্ত করা হয়।"
+  },
+  "proxyAuthSocks4": {
+    "message": "SOCKS4 এই ব্যবহারকারীর নাম/পাসওয়ার্ড প্রমাণীকরণ সমর্থন করে না; HTTP(S) বা SOCKS5 ব্যবহার করুন।"
+  },
+  "importExamples": {
+    "message": "বিন্যাসের উদাহরণ"
+  },
+  "ipCopying": {
+    "message": "অনুলিপি করা হচ্ছে..."
+  },
+  "netDnsUnavailable": {
+    "message": "সার্ভার ঠিকানা সময় সমাধান করা যায়নি. হোস্ট বা IP ঠিকানা চেক করুন এবং আবার চেষ্টা করুন।"
+  },
+  "netCurrentTarget": {
+    "message": "নির্বাচিত প্রক্সি এন্ডপয়েন্ট"
+  },
+  "netCustomTarget": {
+    "message": "কাস্টম সার্ভার"
+  },
+  "netHost": {
+    "message": "হোস্ট বা IP ঠিকানা"
+  },
+  "netPort": {
+    "message": "TCP পোর্ট"
+  },
+  "netHostRequired": {
+    "message": "একটি সার্ভার হোস্ট বা IP ঠিকানা লিখুন।"
+  },
+  "netCurrentUnavailable": {
+    "message": "একটি নোড বা ম্যানুয়াল প্রক্সি প্রোফাইল নির্বাচন করুন, অথবা একটি কাস্টম লক্ষ্য লিখুন।"
+  },
+  "netInvalidTarget": {
+    "message": "একটি বৈধ ডায়াগনস্টিক হোস্ট এবং পোর্ট লিখুন।"
+  },
+  "netIpv6PingUnavailable": {
+    "message": "IPv6 ICMP পাওয়া যায় না; ব্যবহার করুন TCPing।"
+  },
+  "preNeedsFix": {
+    "message": "সংরক্ষণ করার আগে একটি বৈধ প্রাক-প্রক্সি বা কোনো প্রাক-প্রক্সি বেছে নিন"
+  },
+  "preConfigure": {
+    "message": "প্রি-প্রক্সি কনফিগার করুন"
+  },
+  "preFollowInvalid": {
+    "message": "অনুসরণ করুন v2rayN একটি কাস্টম প্রাক-প্রক্সি গ্রহণ করে না।"
+  },
+  "followChainHelp": {
+    "message": "অনুসরণ রুট ব্যবহার করে এবং প্রক্সি চেইন ইতিমধ্যেই v2rayN এ সক্রিয়।"
+  },
+  "netTitle": {
+    "message": "সংযোগ পরীক্ষা"
+  },
+  "ipTestDetails": {
+    "message": "পরীক্ষার বিবরণ"
+  },
+  "netTarget": {
+    "message": "পিং / TCPing লক্ষ্য"
+  },
+  "netDownload": {
+    "message": "পরীক্ষা ডাউনলোড করুন"
+  },
+  "netPartial": {
+    "message": "আংশিক নমুনা"
+  },
+  "netComplete": {
+    "message": "নমুনা সম্পূর্ণ"
+  },
+  "netDirect": {
+    "message": "সিস্টেম নেটওয়ার্ক"
+  },
+  "netUnreachable": {
+    "message": "কোন উত্তর / ব্যর্থ"
+  },
+  "netAverage": {
+    "message": "গড়"
+  },
+  "predecessor": {
+    "message": "প্রি-প্রক্সি"
+  },
+  "preInherit": {
+    "message": "v2rayN গ্রুপ চেইন ব্যবহার করুন"
+  },
+  "preNone": {
+    "message": "কোনো প্রাক-প্রক্সি নেই"
+  },
+  "preSpecific": {
+    "message": "একটি নোড চয়ন করুন"
+  },
+  "preHelp": {
+    "message": "এই প্রোফাইলে প্রযোজ্য। v2rayN গ্রুপ চেইন ব্যবহার করুন, কোনো প্রাক-প্রক্সি বা একটি নির্দিষ্ট নোড নেই। অনুসরণ করুন v2rayN এর বিদ্যমান চেইন ব্যবহার করে।"
+  },
+  "preSelectRequired": {
+    "message": "একটি প্রাক-প্রক্সি নোড নির্বাচন করুন, অথবা গ্রুপ ডিফল্ট / কোনোটিই নয় নির্বাচন করুন।"
+  },
+  "ipPing0Permission": {
+    "message": "পাবলিক রিপোর্ট লোড করার জন্য Ping0 ওয়েবসাইট অ্যাক্সেসের অনুমতি দিন।"
+  },
+  "ipPublicChallenge": {
+    "message": "ওয়েবসাইট যাচাইকরণ প্রয়োজন. এটি সম্পূর্ণ করতে Ping0 পৃষ্ঠা খুলুন এবং ফলাফল দেখুন।"
+  },
+  "ipPublicReport": {
+    "message": "Ping0 পাবলিক রিপোর্ট"
+  },
+  "ipPublicSource": {
+    "message": "উত্স: Ping0 সর্বজনীন পৃষ্ঠা"
+  },
+  "ipPublicOriginal": {
+    "message": "Ping0 রিপোর্ট"
+  },
+  "ipPublicPartial": {
+    "message": "শুধুমাত্র সর্বজনীন পৃষ্ঠায় দেওয়া ক্ষেত্রগুলি তাদের আসল ভাষায় দেখানো হয়। শ্রেণীবিভাগ এবং ভাগ করা ব্যবহারকারীর অনুমান Ping0 থেকে।"
+  },
+  "setupTitle": {
+    "message": "সংযোগ করুন Proxy V2Route"
+  },
+  "setupIntro": {
+    "message": "v2rayN রুট বা আপনার নিজস্ব আমদানি করা নোড ব্যবহার করতে Windows সহচর ইনস্টল করুন।"
+  },
+  "setupStepOne": {
+    "message": "একটি স্থায়ী ফোল্ডারে ম্যাচিং সম্পূর্ণ Windows প্যাকেজটি বের করুন।"
+  },
+  "setupStepTwo": {
+    "message": "খুলুন V2Route-Setup.exe এবং ইনস্টল ক্লিক করুন।"
+  },
+  "setupStepThree": {
+    "message": "এখানে ফিরে যান এবং সংযোগ পরীক্ষা করুন. প্রয়োজনে v2rayN ফোল্ডারটি বেছে নিন।"
+  },
+  "setupCheck": {
+    "message": "সংযোগ পরীক্ষা করুন"
+  },
+  "downloadCompanion": {
+    "message": "ইনস্টলেশন গাইড ↗"
+  },
+  "setupDownloadNote": {
+    "message": "ম্যাচিং স্থানীয় Windows প্যাকেজ ব্যবহার করুন, অথবা বর্তমান উৎস থেকে এটি তৈরি করতে গাইড অনুসরণ করুন।"
+  },
+  "chooseFolder": {
+    "message": "v2rayN ফোল্ডার চয়ন করুন..."
+  },
+  "rescanDone": {
+    "message": "স্থানীয় নোডগুলি পুনরায় স্ক্যান করা হয়েছে৷"
+  },
+  "grouping": {
+    "message": "গ্রুপ নোড"
+  },
+  "groupByCountry": {
+    "message": "দেশ অনুসারে"
+  },
+  "unknownCountry": {
+    "message": "অন্যান্য/অজানা"
+  },
+  "ungrouped": {
+    "message": "গ্রুপবিহীন"
+  },
+  "adjustNodeFilters": {
+    "message": "অন্য গ্রুপ চেষ্টা করুন, উৎস বা অনুসন্ধান, অথবা লুকানো নোড দেখান."
+  },
+  "rescanLocal": {
+    "message": "পুনরায় স্ক্যান v2rayN নোড"
+  },
+  "showHidden": {
+    "message": "লুকানো নোড দেখান"
+  },
+  "hideNode": {
+    "message": "লুকান"
+  },
+  "restoreNode": {
+    "message": "পুনরুদ্ধার করুন"
+  },
+  "hiddenNode": {
+    "message": "লুকানো"
+  },
+  "hideNodeHelp": {
+    "message": "শুধুমাত্র এই ব্রাউজারের নোড লাইব্রেরি থেকে লুকান। v2rayN এবং বিদ্যমান প্রোফাইলগুলি অপরিবর্তিত।"
+  },
+  "ipContextTimeout": {
+    "message": "বর্তমান প্রোফাইল পড়ার সময় শেষ। আবার চেষ্টা করুন"
+  },
+  "ipStaleResult": {
+    "message": "বর্তমান প্রোফাইল পরিবর্তিত হয়েছে. এই ফলাফল পুরানো হতে পারে; আবার চেক করুন"
+  },
+  "ip_tools": {
+    "message": "IP টুলস"
+  },
+  "ipIntro": {
+    "message": "বর্তমান প্রস্থান IP এবং পাবলিক রিপোর্ট।"
+  },
+  "ipCurrentProfile": {
+    "message": "বর্তমান ব্রাউজার প্রোফাইল"
+  },
+  "ipRouteCaution": {
+    "message": "স্বয়ংক্রিয় নিয়ম এবং PAC বিভিন্ন গন্তব্যের জন্য বিভিন্ন রুট ব্যবহার করতে পারে। এই চেক শুধুমাত্র তার নিজস্ব অনুরোধ বর্ণনা."
+  },
+  "ipDisclosure": {
+    "message": "অটো-চেক প্রস্থান IP · দ্বারা রিপোর্ট Ping0"
+  },
+  "ipMethod": {
+    "message": "ঠিকানা চেক"
+  },
+  "ipDual": {
+    "message": "IPv4 / IPv6"
+  },
+  "ipCheck": {
+    "message": "আবার চেক করুন"
+  },
+  "ipChecking": {
+    "message": "পরীক্ষা করা হচ্ছে..."
+  },
+  "ipDualHelp": {
+    "message": "IPv4 / IPv6 এই অনুরোধের জন্য ব্যবহৃত ঠিকানা পরিবার ফেরত দেয়, উভয় ঠিকানা নয়।"
+  },
+  "ipDurationHelp": {
+    "message": "অতিবাহিত HTTP অনুরোধের সময় নেটওয়ার্ক এবং পরিষেবা প্রতিক্রিয়া সময় অন্তর্ভুক্ত। এটি ICMP পিং বা ব্যান্ডউইথ পরীক্ষা নয়।"
+  },
+  "ipCopy": {
+    "message": "কপি IP"
+  },
+  "ipCopied": {
+    "message": "কপি করা হয়েছে"
+  },
+  "ipCopyFailed": {
+    "message": "কপি করা যায়নি. ঠিকানা নির্বাচন করুন এবং ম্যানুয়ালি কপি করুন।"
+  },
+  "ipNoResult": {
+    "message": "এখনও কোন চেক"
+  },
+  "ipContextUnknown": {
+    "message": "প্রোফাইল অনুপলব্ধ"
+  },
+  "ipTimeout": {
+    "message": "চেক টাইম আউট. আবার চেষ্টা করুন বা অন্য রুট ব্যবহার করুন।"
+  },
+  "ipCancelled": {
+    "message": "চেক বাতিল"
+  },
+  "ipNetwork": {
+    "message": "ipify পৌঁছানো যায়নি। সংযোগ পরীক্ষা করুন এবং আবার চেষ্টা করুন."
+  },
+  "ipHttp": {
+    "message": "IP পরিষেবা অনুরোধটি গ্রহণ করেনি। পরে আবার চেষ্টা করুন."
+  },
+  "ipInvalid": {
+    "message": "IP পরিষেবাটি একটি অবৈধ প্রতিক্রিয়া ফিরিয়ে দিয়েছে।"
+  },
+  "ipFailure": {
+    "message": "চেক ব্যর্থ হয়েছে. আবার চেষ্টা করুন"
+  },
+  "ipStale": {
+    "message": "চেকের সময় আপনার প্রক্সি সেটিংস পরিবর্তিত হয়েছে৷ পুরানো ফলাফল বাতিল করা হয়েছিল; আবার চেক করুন"
+  },
+  "ipQuality": {
+    "message": "বাহ্যিক সরঞ্জাম"
+  },
+  "ipQualityPrivacy": {
+    "message": "টুল শুধুমাত্র ক্লিকে চলে। প্রদানকারীরা স্বাভাবিক সংযোগ ডেটা পায়। ওয়েবসাইট চেক শুরু করার পরে শংসাপত্র-মুক্ত অনুরোধ পাঠায়। বন্ধ স্থানীয় পরীক্ষা বন্ধ করে; বহিরাগত ট্যাব ব্রাউজার দ্বারা পরিচালিত হয়."
+  },
+  "ipReport": {
+    "message": "সংশোধিত প্রতিবেদন কপি করুন"
+  },
+  "ipReportCopied": {
+    "message": "সংশোধিত প্রতিবেদন অনুলিপি করা হয়েছে; কোন IP বা প্রোফাইল নাম অন্তর্ভুক্ত."
+  },
+  "popupSelected": {
+    "message": "নির্বাচিত"
+  },
+  "popupFooter": {
+    "message": "v2rayN এবং নোড প্রোফাইল"
+  },
+  "subtitle": {
+    "message": "স্বাধীন ব্রাউজার রুট"
+  },
+  "profiles": {
+    "message": "প্রোফাইল"
+  },
+  "nodes": {
+    "message": "নোড লাইব্রেরি"
+  },
+  "settings": {
+    "message": "সেটিংস"
+  },
+  "connected": {
+    "message": "সক্রিয় প্রোফাইল"
+  },
+  "noProfile": {
+    "message": "সিস্টেম ডিফল্ট"
+  },
+  "newProfile": {
+    "message": "নতুন প্রোফাইল"
+  },
+  "searchProfiles": {
+    "message": "প্রোফাইল অনুসন্ধান করুন"
+  },
+  "direct": {
+    "message": "সরাসরি নেটওয়ার্ক"
+  },
+  "system": {
+    "message": "সিস্টেম প্রক্সি"
+  },
+  "follow": {
+    "message": "অনুসরণ করুন v2rayN"
+  },
+  "manual": {
+    "message": "ম্যানুয়াল প্রক্সি"
+  },
+  "auto": {
+    "message": "স্বয়ংক্রিয় সুইচ"
+  },
+  "pac": {
+    "message": "PAC স্ক্রিপ্ট"
+  },
+  "virtual": {
+    "message": "ভার্চুয়াল প্রোফাইল"
+  },
+  "profileIntro": {
+    "message": "v2rayN এর প্রধান রুট পরিবর্তন না করে একটি ব্রাউজার রুট বেছে নিন।"
+  },
+  "nodesIntro": {
+    "message": "স্থানীয় v2rayN নোড এবং আপনার আমদানি করা লিঙ্কগুলি ব্রাউজ করুন।"
+  },
+  "settingsIntro": {
+    "message": "স্থানীয় সংযোগ, ভাষা এবং চেহারা।"
+  },
+  "refresh": {
+    "message": "রিফ্রেশ"
+  },
+  "create": {
+    "message": "প্রোফাইল তৈরি করুন"
+  },
+  "name": {
+    "message": "প্রোফাইল নাম"
+  },
+  "type": {
+    "message": "প্রোফাইলের ধরন"
+  },
+  "save": {
+    "message": "সংরক্ষণ করুন"
+  },
+  "saved": {
+    "message": "সংরক্ষিত"
+  },
+  "saving": {
+    "message": "সংরক্ষণ করা হচ্ছে..."
+  },
+  "cancel": {
+    "message": "বাতিল"
+  },
+  "close": {
+    "message": "বন্ধ"
+  },
+  "apply": {
+    "message": "এই প্রোফাইল ব্যবহার করুন"
+  },
+  "applied": {
+    "message": "প্রোফাইল সুইচ করা হয়েছে"
+  },
+  "active": {
+    "message": "সক্রিয়"
+  },
+  "delete": {
+    "message": "মুছুন"
+  },
+  "remove": {
+    "message": "সরান"
+  },
+  "rename": {
+    "message": "নাম পরিবর্তন করুন"
+  },
+  "route": {
+    "message": "প্রক্সি রুট"
+  },
+  "selectRoute": {
+    "message": "একটি রুট নির্বাচন করুন"
+  },
+  "routeMissing": {
+    "message": "রুট অনুপলব্ধ — অন্য নির্বাচন করুন"
+  },
+  "chain": {
+    "message": "সংযোগ চেইন"
+  },
+  "connection": {
+    "message": "স্থানীয় সংযোগ"
+  },
+  "proxy": {
+    "message": "প্রক্সি সার্ভার"
+  },
+  "address": {
+    "message": "ঠিকানা"
+  },
+  "port": {
+    "message": "বন্দর"
+  },
+  "scheme": {
+    "message": "প্রোটোকল"
+  },
+  "proxyDns": {
+    "message": "SOCKS5 DNS প্রক্সির মাধ্যমে সমাধান করে।"
+  },
+  "connectedIdle": {
+    "message": "সংযুক্ত · নিষ্ক্রিয়"
+  },
+  "bypass": {
+    "message": "বাইপাস তালিকা"
+  },
+  "bypassHelp": {
+    "message": "প্রতি লাইনে একটি ডোমেন, ওয়াইল্ডকার্ড ডোমেন, IP ঠিকানা বা IP:পোর্ট।"
+  },
+  "advanced": {
+    "message": "উন্নত বিকল্প"
+  },
+  "searchRoutes": {
+    "message": "অনুসন্ধান গোষ্ঠী বা নোড"
+  },
+  "selectGroup": {
+    "message": "একটি গ্রুপ নির্বাচন করুন"
+  },
+  "empty": {
+    "message": "কোন মিল আইটেম"
+  },
+  "unavailable": {
+    "message": "অনুপলব্ধ"
+  },
+  "groupHint": {
+    "message": "250 ms এর জন্য একটি গ্রুপ ধরে রাখুন, তারপর টেনে আনুন। Alt + ↑ / ↓ এছাড়াও পুনরায় অর্ডার করে। পরিবর্তন স্বয়ংক্রিয়ভাবে সংরক্ষণ করা হয়."
+  },
+  "searchSort": {
+    "message": "সাজানোর আগে অনুসন্ধানটি সাফ করুন।"
+  },
+  "dragHint": {
+    "message": "উপরে বা নীচে সরান, তারপর সংরক্ষণ করতে ছেড়ে দিন। Esc বাতিল করে।"
+  },
+  "orderSaved": {
+    "message": "গ্রুপ অর্ডার সংরক্ষিত"
+  },
+  "orderCancelled": {
+    "message": "পুনর্বিন্যাস বাতিল করা হয়েছে"
+  },
+  "loading": {
+    "message": "লোড হচ্ছে..."
+  },
+  "reading": {
+    "message": "স্থানীয় নোড পড়া হচ্ছে..."
+  },
+  "nativeMissing": {
+    "message": "স্থানীয় উপাদান সংযুক্ত করা হয় না"
+  },
+  "retry": {
+    "message": "পুনরায় চেষ্টা করুন"
+  },
+  "nativeHelp": {
+    "message": "নোড রুটের জন্য Windows সহচর প্রয়োজন। সরাসরি, সিস্টেম এবং ম্যানুয়াল প্রক্সি এখন উপলব্ধ।"
+  },
+  "imported": {
+    "message": "আমদানি করা"
+  },
+  "v2rayn": {
+    "message": "v2rayN"
+  },
+  "allSources": {
+    "message": "সমস্ত সূত্র"
+  },
+  "importNodes": {
+    "message": "প্রক্সি আমদানি করুন"
+  },
+  "importTitle": {
+    "message": "প্রক্সি আমদানি করুন"
+  },
+  "importHelp": {
+    "message": "প্রক্সি লিঙ্ক, আউটবাউন্ড JSON বা একটি Base64 সাবস্ক্রিপশন পেস্ট করুন। SOCKS প্লেইন বা Base64 শংসাপত্র সমর্থন করে। স্কিম-মুক্ত ঠিকানা ব্যবহার করে HTTP।"
+  },
+  "importPrivacy": {
+    "message": "প্রক্সি বিবরণ এবং শংসাপত্র স্থানীয় Proxy V2Route সহচরের কাছে প্রেরণ করা হয় এবং আপনার নির্বাচিত প্রক্সিতে সংযোগের জন্য। বিকাশকারী এই তথ্য পাবেন না."
+  },
+  "import": {
+    "message": "প্রোফাইল আমদানি করুন"
+  },
+  "nodeCount": {
+    "message": "নোড"
+  },
+  "source": {
+    "message": "উৎস"
+  },
+  "protocol": {
+    "message": "প্রোটোকল"
+  },
+  "useNode": {
+    "message": "প্রোফাইল তৈরি করুন"
+  },
+  "removeNode": {
+    "message": "আমদানি করা নোড সরান?"
+  },
+  "removeNodeHelp": {
+    "message": "এই নোডটি ব্যবহার করে প্রোফাইলগুলিকে অপসারণ করার আগে অবশ্যই পুনরায় বরাদ্দ করতে হবে।"
+  },
+  "deleteProfile": {
+    "message": "এই প্রোফাইল মুছবেন?"
+  },
+  "deleteProfileHelp": {
+    "message": "এটি শুধুমাত্র এই ব্রাউজার প্রোফাইলকে সরিয়ে দেয়। আমদানি করা নোড এবং v2rayN কনফিগারেশন রাখা হয়।"
+  },
+  "language": {
+    "message": "ভাষা"
+  },
+  "automatic": {
+    "message": "ব্রাউজার ডিফল্ট"
+  },
+  "theme": {
+    "message": "চেহারা"
+  },
+  "light": {
+    "message": "আলো"
+  },
+  "dark": {
+    "message": "অন্ধকার"
+  },
+  "switchToEnglish": {
+    "message": "ইংরেজিতে স্যুইচ করুন"
+  },
+  "switchToChinese": {
+    "message": "সরলীকৃত চীনা এ স্যুইচ করুন"
+  },
+  "switchToLight": {
+    "message": "হালকা চেহারা স্যুইচ"
+  },
+  "switchToDark": {
+    "message": "অন্ধকার চেহারা স্যুইচ"
+  },
+  "localComponent": {
+    "message": "সহচর উপাদান"
+  },
+  "ready": {
+    "message": "সংযুক্ত"
+  },
+  "stopped": {
+    "message": "চলছে না"
+  },
+  "discovery": {
+    "message": "v2rayN সনাক্তকরণ"
+  },
+  "rootPath": {
+    "message": "v2rayN ফোল্ডার"
+  },
+  "corePath": {
+    "message": "প্রক্সি কোর এক্সিকিউটেবল"
+  },
+  "optionalPath": {
+    "message": "স্বয়ংক্রিয় সনাক্তকরণের জন্য ফাঁকা ছেড়ে দিন"
+  },
+  "pathsHelp": {
+    "message": "v2rayN স্বয়ংক্রিয়ভাবে সনাক্ত করা হয়; প্রয়োজন হলে তার ফোল্ডার নির্বাচন করুন। আমদানি করা নোডগুলি অন্তর্ভুক্ত কোর ব্যবহার করে।"
+  },
+  "savePaths": {
+    "message": "সংযোগ সেটিংস সংরক্ষণ করুন"
+  },
+  "privacy": {
+    "message": "সেটিংস স্থানীয়ভাবে সংরক্ষিত"
+  },
+  "privacyText": {
+    "message": "নোড লিঙ্ক এবং শংসাপত্র স্থানীয় সহচরে থাকে। ব্রাউজার ট্র্যাফিক আপনার নির্বাচিত প্রক্সির মাধ্যমে গন্তব্য ওয়েবসাইটগুলিতে যায়; বিকাশকারী এটি গ্রহণ করে না।"
+  },
+  "privacyDetails": {
+    "message": "গোপনীয়তা এবং তথ্য প্রবাহ"
+  },
+  "export": {
+    "message": "প্রোফাইল রপ্তানি করুন"
+  },
+  "about": {
+    "message": "সম্পর্কে Proxy V2Route"
+  },
+  "aboutText": {
+    "message": "v2rayN এর প্রধান রুট পরিবর্তন না করে একটি ব্রাউজার রুট বেছে নিন। নোড রুট Windows সহচর এবং আপনার নিজস্ব নোড ব্যবহার করে।"
+  },
+  "licenses": {
+    "message": "ওপেন সোর্স বিজ্ঞপ্তি"
+  },
+  "version": {
+    "message": "সংস্করণ"
+  },
+  "fieldRequired": {
+    "message": "একটি প্রোফাইল নাম লিখুন।"
+  },
+  "profileExists": {
+    "message": "এই নামের একটি প্রোফাইল ইতিমধ্যেই বিদ্যমান।"
+  },
+  "ruleHelp": {
+    "message": "কমা দিয়ে এক সারিতে আলাদা ডোমেইন। প্রথম ম্যাচিং সারি জিতেছে। ডিফল্ট রুট উপলব্ধ রাখুন."
+  },
+  "rules": {
+    "message": "রাউটিং নিয়ম"
+  },
+  "pattern": {
+    "message": "হোস্ট প্যাটার্ন"
+  },
+  "target": {
+    "message": "নিয়ম লক্ষ্য"
+  },
+  "addRule": {
+    "message": "নিয়ম যোগ করুন"
+  },
+  "defaultRoute": {
+    "message": "ডিফল্ট প্রোফাইল"
+  },
+  "pacHelp": {
+    "message": "বিশ্বস্ত PAC উৎস FindProxyForURL ধারণকারী পেস্ট করুন। এই স্ক্রিপ্ট সিদ্ধান্ত নেয় কিভাবে ওয়েবসাইট অনুরোধ রুট করা হয়।"
+  },
+  "pacUrl": {
+    "message": "PAC URL"
+  },
+  "pacScript": {
+    "message": "PAC স্ক্রিপ্ট"
+  },
+  "noSelection": {
+    "message": "একটি প্রোফাইল নির্বাচন করুন বা একটি তৈরি করুন।"
+  },
+  "details": {
+    "message": "বিস্তারিত"
+  },
+  "noNodes": {
+    "message": "এখনও কোন নোড"
+  },
+  "noNodesHelp": {
+    "message": "সংযোগ করুন v2rayN অথবা প্রক্সি লিঙ্ক আমদানি করুন, JSON বা একটি সাবস্ক্রিপশন শুরু করতে।"
+  },
+  "openSettings": {
+    "message": "সেটিংস খুলুন"
+  },
+  "proxySettings": {
+    "message": "প্রক্সি সেটিংস"
+  },
+  "switching": {
+    "message": "স্যুইচ করা হচ্ছে..."
+  },
+  "updatedElsewhere": {
+    "message": "এই প্রোফাইলটি অন্য উইন্ডোতে পরিবর্তিত হয়েছে। সংরক্ষণ করার আগে এটি পুনরায় খুলুন।"
+  },
+  "choose": {
+    "message": "চয়ন করুন"
+  },
+  "popupIntro": {
+    "message": "সংযোগ:"
+  },
+  "invalidPort": {
+    "message": "1 থেকে 65535 পর্যন্ত একটি পোর্ট লিখুন।"
+  },
+  "externalControl": {
+    "message": "আরেকটি এক্সটেনশন বা নীতি ব্রাউজার প্রক্সি নিয়ন্ত্রণ করছে।"
+  },
+  "noNativeRoute": {
+    "message": "একটি নোড প্রোফাইল তৈরি করার আগে স্থানীয় উপাদান সংযুক্ত করুন।"
+  },
+  "reload": {
+    "message": "পুনরায় লোড করুন"
+  },
+  "rulesError": {
+    "message": "প্রতিটি নিয়মে একটি প্যাটার্ন ও একটি লক্ষ্য প্রয়োজন।"
+  },
+  "backupDone": {
+    "message": "ব্রাউজার প্রোফাইল রপ্তানি করা হয়েছে"
+  },
+  "managed": {
+    "message": "পরিচালিত নোড"
+  },
+  "netRegion": {
+    "message": "লক্ষ্য এলাকা"
+  },
+  "netNodeArea": {
+    "message": "প্রক্সি নোড"
+  },
+  "netChina": {
+    "message": "মূল ভূখণ্ড চীন"
+  },
+  "netGlobal": {
+    "message": "বিশ্বব্যাপী"
+  },
+  "netAli": {
+    "message": "AliDNS"
+  },
+  "netTencent": {
+    "message": "DNSPod"
+  },
+  "netStartHelp": {
+    "message": "একটি লক্ষ্য চয়ন করুন, তারপর একটি লাইভ পরীক্ষা শুরু করুন।"
+  },
+  "netConsole": {
+    "message": "লাইভ ডায়াগনস্টিকস"
+  },
+  "netStop": {
+    "message": "থামুন"
+  },
+  "netRunning": {
+    "message": "চলমান"
+  },
+  "netStopped": {
+    "message": "থেমে গেছে"
+  },
+  "netSent": {
+    "message": "পাঠানো হয়েছে"
+  },
+  "netLoss": {
+    "message": "ক্ষতি"
+  },
+  "netAverageShort": {
+    "message": "গড়"
+  },
+  "netLogClear": {
+    "message": "পরিষ্কার"
+  },
+  "netFinishing": {
+    "message": "পূর্ববর্তী তদন্ত শেষ হচ্ছে..."
+  },
+  "netRound": {
+    "message": "গোলাকার"
+  },
+  "netDestination": {
+    "message": "গন্তব্য"
+  },
+  "netHop": {
+    "message": "হপ"
+  },
+  "netAddress": {
+    "message": "IP ঠিকানা"
+  },
+  "netLast": {
+    "message": "শেষ"
+  },
+  "netConsoleHelp": {
+    "message": "পিং / TCPing / MTR সিস্টেম নেটওয়ার্ক ব্যবহার করুন, প্রক্সি চেইন নয়। অনুপস্থিত ICMP উত্তর ট্রাফিক ক্ষতি প্রমাণ করে না। ডাউনলোড ব্রাউজার রুট এবং নির্বাচিত আকার সীমা ব্যবহার করে। আপনি যখন এই পৃষ্ঠাটি ছেড়ে যান বা লুকান তখন পরীক্ষা বন্ধ হয়ে যায়।"
+  },
+  "netDirectShort": {
+    "message": "সিস্টেম নেটওয়ার্ক"
+  },
+  "netIcmpShort": {
+    "message": "না ICMP উত্তর"
+  },
+  "netProbeError": {
+    "message": "স্থানীয় অনুসন্ধান ত্রুটি"
+  },
+  "netNoDestination": {
+    "message": "গন্তব্যে পৌঁছেনি"
+  },
+  "deleteActive": {
+    "message": "সিস্টেমে স্যুইচ করুন এবং মুছুন"
+  },
+  "deleteActiveHelp": {
+    "message": "এই প্রোফাইল সক্রিয়. এটি মুছে ফেলা ব্রাউজারটিকে সিস্টেম প্রক্সিতে স্যুইচ করে।"
+  },
+  "netDownloadSize": {
+    "message": "ডাউনলোড আকার"
+  },
+  "netReceived": {
+    "message": "প্রাপ্ত"
+  },
+  "netBest": {
+    "message": "সেরা"
+  },
+  "netWorst": {
+    "message": "সবচেয়ে খারাপ"
+  },
+  "netStdDev": {
+    "message": "Std dev"
+  },
+  "netLocation": {
+    "message": "অবস্থান"
+  },
+  "toolWall": {
+    "message": "ডোমেন ব্লকিং চেক"
+  },
+  "toolSites": {
+    "message": "জনপ্রিয় ওয়েবসাইট"
+  },
+  "toolGlobal": {
+    "message": "গ্লোবাল ডায়াগনস্টিকস"
+  },
+  "toolFast": {
+    "message": "Netflix গতি"
+  },
+  "toolSpeed": {
+    "message": "গতি পরীক্ষা"
+  },
+  "toolStart": {
+    "message": "শুরু করুন"
+  },
+  "toolReady": {
+    "message": "প্রস্তুত"
+  },
+  "toolResponded": {
+    "message": "সাড়া"
+  },
+  "toolNoResponse": {
+    "message": "অনিশ্চিত"
+  },
+  "toolCacheUnsupported": {
+    "message": "এই ব্রাউজারটি সাইট দ্বারা ক্যাশে সাফ করতে পারে না; পৃষ্ঠাটি পুনরায় লোড করা হয়েছে।"
+  },
+  "toolCacheFailed": {
+    "message": "ক্যাশে পরিষ্কার করা শেষ হয়নি। বন্ধ করে আবার চেষ্টা করুন।"
+  },
+  "toolClose": {
+    "message": "বন্ধ"
+  },
+  "toolReload": {
+    "message": "পুনরায় লোড করুন"
+  },
+  "toolLoading": {
+    "message": "লোড হচ্ছে..."
+  },
+  "toolFrameError": {
+    "message": "লোড করা যায়নি. পুনরায় লোড করার চেষ্টা করুন।"
+  },
+  "toolSiteHelp": {
+    "message": "শুধুমাত্র ব্রাউজারে পৌঁছানো যায়। এটি অ্যাকাউন্ট বা আঞ্চলিক অ্যাক্সেস যাচাই করে না।"
+  },
+  "toolFallback": {
+    "message": "ব্যাকআপ গতি পরীক্ষা"
+  },
+  "toolFullscreen": {
+    "message": "ফুলস্ক্রিন"
+  },
+  "toolRestore": {
+    "message": "ফুলস্ক্রিন থেকে প্রস্থান করুন"
+  },
+  "ipReadFailed": {
+    "message": "পঠিত ব্যর্থ হয়েছে. 👉"
+  },
+  "ipViewSource": {
+    "message": "উৎস সাইট দেখুন"
+  },
+  "toolDownloadError": {
+    "message": "ডাউনলোড সার্ভারে পৌঁছানো যায়নি। আবার চেষ্টা করুন"
+  },
+  "toolAccess": {
+    "message": "সাইট অ্যাক্সেস সক্ষম করুন"
+  },
+  "toolPermission": {
+    "message": "এমবেডেড সেশন সামঞ্জস্যের জন্য এই সাইটে অ্যাক্সেসের অনুমতি দিন।"
+  },
+  "toolAsia": {
+    "message": "এশিয়া"
+  },
+  "toolEurope": {
+    "message": "ইউরোপ"
+  },
+  "toolAmerica": {
+    "message": "উত্তর আমেরিকা"
+  },
+  "toolGlobalHelp": {
+    "message": "ব্রাউজার প্রস্থান প্রি-ফিল করে IP। পাথ তুলনা করতে মূল ভূখণ্ড চীন বা অন্য অঞ্চল চয়ন করুন; Start প্রদর্শিত টার্গেটকে তিনটি পর্যন্ত Globalping প্রোবে পাঠায়।"
+  },
+  "toolServiceError": {
+    "message": "পরীক্ষা পরিষেবা অনুপলব্ধ. আবার চেষ্টা করুন"
+  },
+  "popupOrderHelp": {
+    "message": "পুনরায় সাজাতে ধরে রাখুন এবং টেনে আনুন। Alt+তীর কীগুলিও এই প্রোফাইলটি সরান৷"
+  },
+  "popupOrderSaved": {
+    "message": "অর্ডার সংরক্ষিত"
+  },
+  "toolGroupIP": {
+    "message": "IP পরীক্ষা"
+  },
+  "toolGroupWeb": {
+    "message": "ওয়েবসাইট পরীক্ষা"
+  },
+  "toolGroupSpeed": {
+    "message": "গতি"
+  },
+  "toolCurrentIP": {
+    "message": "বর্তমান প্রস্থান IP"
+  },
+  "toolCurrentIPLoading": {
+    "message": "বর্তমান প্রস্থান লোড হচ্ছে IP..."
+  },
+  "toolCurrentIPFailed": {
+    "message": "বর্তমান IP পড়া যায়নি. একটি লক্ষ্য লিখুন."
+  },
+  "speedMode": {
+    "message": "টেস্ট মোড"
+  },
+  "speedBoth": {
+    "message": "ডাউনলোড + আপলোড করুন"
+  },
+  "speedDownload": {
+    "message": "ডাউনলোড করুন"
+  },
+  "speedUpload": {
+    "message": "আপলোড করুন"
+  },
+  "speedLatency": {
+    "message": "HTTP লেটেন্সি"
+  },
+  "speedBudget": {
+    "message": "{n} MiB প্রতি ফেজ · {total} MiB মোট, প্লাস ছোট লেটেন্সি নমুনা।"
+  },
+  "siteCategory": {
+    "message": "ওয়েবসাইট বিভাগ"
+  },
+  "siteAll": {
+    "message": "সমস্ত ওয়েবসাইট"
+  },
+  "siteAI": {
+    "message": "এআই"
+  },
+  "siteDevelopment": {
+    "message": "উন্নয়ন"
+  },
+  "siteVideo": {
+    "message": "ভিডিও / সঙ্গীত"
+  },
+  "siteSocial": {
+    "message": "সামাজিক"
+  },
+  "siteDomestic": {
+    "message": "মূল ভূখণ্ড পরিষেবা"
+  },
+  "siteServices": {
+    "message": "সাধারণ পরিষেবা"
+  },
+  "globalMethod": {
+    "message": "পরিমাপের ধরন"
+  },
+  "localPort": {
+    "message": "স্থানীয় বন্দর:"
+  },
+  "chainChooseNode": {
+    "message": "একটি প্রক্সি নোড চয়ন করুন"
+  },
+  "chainTitle": {
+    "message": "প্রক্সি চেইন"
+  },
+  "chainSelectExit": {
+    "message": "এই কাস্টম চেইনটি সংরক্ষণ বা পরীক্ষা করতে নীচের একটি নির্দিষ্ট প্রস্থান নোড চয়ন করুন অনুসরণ করুন v2rayN v2rayN দ্বারা পরিচালিত হয়।"
+  },
+  "chainSelectExitShort": {
+    "message": "একটি প্রস্থান নোড নির্বাচন করুন"
+  },
+  "chainAdd": {
+    "message": "+ প্রক্সি লেয়ার যোগ করুন"
+  },
+  "chainTest": {
+    "message": "টেস্ট চেইন"
+  },
+  "chainMode": {
+    "message": "চেইন মোড"
+  },
+  "chainBase": {
+    "message": "বেস প্রক্সি"
+  },
+  "chainExit": {
+    "message": "প্রক্সি থেকে প্রস্থান করুন"
+  },
+  "chainEgress": {
+    "message": "চেইন প্রস্থান"
+  },
+  "chainExitBadge": {
+    "message": "প্রস্থান IP"
+  },
+  "chainEntry": {
+    "message": "চেইন এন্ট্রি"
+  },
+  "chainTransit": {
+    "message": "ব্রিজ নোড"
+  },
+  "chainUntested": {
+    "message": "পরীক্ষিত নয়"
+  },
+  "chainMissing": {
+    "message": "অনুপলব্ধ নোড"
+  },
+  "chainUnresolved": {
+    "message": "উত্তরাধিকারসূত্রে প্রাপ্ত শৃঙ্খল সমাধান করতে পারে না। পূর্বসূরি সেটিংস মেরামত করুন বা একটি কাস্টম চেইন চয়ন করুন৷"
+  },
+  "chainUpgrade": {
+    "message": "অর্ডার করা চেইন সক্ষম করতে স্থানীয় সহচর আপডেট করুন।"
+  },
+  "chainBusy": {
+    "message": "আরেকটি চেইন পরীক্ষা চলছে"
+  },
+  "chainOK": {
+    "message": "নাগালযোগ্য"
+  },
+  "chainFailed": {
+    "message": "এই পরীক্ষায় ব্যর্থ হপ"
+  },
+  "chainBlocked": {
+    "message": "পরীক্ষা করা হয়নি · পূর্ববর্তী হপ ব্যর্থ হয়েছে"
+  },
+  "chainFailureHelp": {
+    "message": "এই হাপ বা এটির পথ অতিক্রম করেনি। পরে হপস পরীক্ষা করা হয়নি।"
+  },
+  "chainAllOK": {
+    "message": "সমস্ত ক্রমবর্ধমান পথ সাড়া দিয়েছে"
+  },
+  "chainStopping": {
+    "message": "বর্তমান বাউন্ডেড প্রোবের পরে থামছে..."
+  },
+  "globalWorld": {
+    "message": "বিশ্বব্যাপী"
+  },
+  "globalUnavailable": {
+    "message": "লক্ষ্য বা অঞ্চল অনুপলব্ধ. লক্ষ্য পরীক্ষা করুন বা অন্য অঞ্চল চয়ন করুন।"
+  },
+  "globalRateLimited": {
+    "message": "পরিষেবা হার সীমা পৌঁছেছে. পরে আবার চেষ্টা করুন."
+  },
+  "globalNoResults": {
+    "message": "পরিষেবাটি কোনও অনুসন্ধানের ফলাফল দেয়নি। অন্য অঞ্চল চেষ্টা করুন."
+  },
+  "globalProbeFailed": {
+    "message": "প্রোব ব্যর্থ হয়েছে"
+  },
+  "globalProbeOffline": {
+    "message": "প্রোব অফলাইন"
+  },
+  "globalIcmpCaution": {
+    "message": "অনুপস্থিত ICMP উত্তর একা ব্লক করা প্রমাণ করে না। মূল ভূখণ্ড এবং বিদেশী পথ এবং অন্যান্য পরীক্ষার ধরন তুলনা করুন।"
+  },
+  "speedRealtime": {
+    "message": "লাইভ গতি"
+  },
+  "speedAverage": {
+    "message": "গড় গতি"
+  },
+  "ipToolsBrief": {
+    "message": "তৃতীয় পক্ষের ফলাফল রেফারেন্সের জন্য।"
+  },
+  "ipReportBrief": {
+    "message": "ফলাফল প্রস্থান দ্বারা পরিবর্তিত হয় IP এবং রেফারেন্সের জন্য।"
+  },
+  "toolPingPe": {
+    "message": "IP ব্লকিং চেক"
+  },
+  "toolTargetIP": {
+    "message": "লক্ষ্য IP"
+  },
+  "toolOpenPingPe": {
+    "message": "ওপেন অফিসিয়াল পরীক্ষা"
+  },
+  "toolInvalidIP": {
+    "message": "একটি বৈধ IPv4 বা IPv6 ঠিকানা লিখুন।"
+  },
+  "toolInvalidPort": {
+    "message": "1 থেকে 65535 পর্যন্ত একটি TCP পোর্ট লিখুন।"
+  },
+  "toolExternalFailed": {
+    "message": "ওয়েবসাইট খুলতে পারিনি। আবার চেষ্টা করুন"
+  },
+  "ipBrowserReading": {
+    "message": "ব্রাউজারের মাধ্যমে Ping0 পড়া হচ্ছে..."
+  },
+  "ipVerifyBrowser": {
+    "message": "যাচাইকরণ পৃষ্ঠা খুলুন"
+  },
+  "policyCenter": {
+    "message": "গোপনীয়তা, ঘোষণা এবং FAQ"
+  },
+  "policyCenterIntro": {
+    "message": "স্থানীয় ডেটা পরিচালনা, পরীক্ষার সীমা এবং সাধারণ উত্তর।"
+  },
+  "policyPrivacyTitle": {
+    "message": "গোপনীয়তা নীতি"
+  },
+  "policyPrivacySummary": {
+    "message": "প্রোফাইল এবং শংসাপত্রগুলি এই ডিভাইসে থাকে৷ পপআপ চেক এবং ডায়াগনস্টিক তাদের বিবৃত প্রদানকারীদের সাথে যোগাযোগ করুন। কোন বিজ্ঞাপন বা আচরণগত বিশ্লেষণ নেই."
+  },
+  "policyDeclarationTitle": {
+    "message": "ব্যবহার এবং পরিমাপ বিবৃতি"
+  },
+  "policyDeclarationSummary": {
+    "message": "এই এক্সটেনশনটি একটি স্থানীয় রুট ম্যানেজার, একটি প্রক্সি বা VPN প্রদানকারী নয়। পরিমাপ হল নেটওয়ার্ক, প্রক্সি এবং প্রদানকারীর শর্ত দ্বারা প্রভাবিত রেফারেন্স নমুনা।"
+  },
+  "policyFaqTitle": {
+    "message": "প্রায়শই জিজ্ঞাসিত প্রশ্নাবলী"
+  },
+  "policyFaqSummary": {
+    "message": "স্থানীয় নোড এবং MTR এর জন্য Windows সহচর প্রয়োজন। ব্রাউজার, সিস্টেম এবং পাবলিক প্রোবের মধ্যে লেটেন্সি আলাদা হতে পারে। একটি পরীক্ষা বন্ধ করুন বা সেটিংস থেকে স্থানীয় ডেটা সাফ করুন।"
+  },
+  "policyDetailsLink": {
+    "message": "বিস্তারিত পড়ুন ↗"
+  },
+  "thirdPartyNotice": {
+    "message": "ওপেন সোর্স বিজ্ঞপ্তি ↗"
+  },
+  "columnResizeHelp": {
+    "message": "আকার পরিবর্তন করতে টেনে আনুন; রিসেট করতে ডাবল ক্লিক করুন; সামঞ্জস্য করতে তীর কী ব্যবহার করুন"
+  },
+  "columnResize": {
+    "message": "কলামের আকার পরিবর্তন করুন"
+  },
+  "typeDescription_node": {
+    "message": "একটি প্রক্সি নোডের মাধ্যমে সংযোগ করুন"
+  },
+  "typeDescription_manual": {
+    "message": "ম্যানুয়ালি প্রক্সি সেটিংস লিখুন"
+  },
+  "typeDescription_auto": {
+    "message": "নিয়ম ব্যবহার করে একটি নোড নির্বাচন করুন"
+  },
+  "typeDescription_pac": {
+    "message": "রুট ট্রাফিক PAC নিয়ম ব্যবহার করে"
+  },
+  "appDescription": {
+    "message": "স্বাধীন ব্রাউজার প্রক্সি রুট, নোড, ডোমেন নিয়ম এবং সংযোগ পরীক্ষা পরিচালনা করুন। নোড রুটের জন্য Windows সহচর প্রয়োজন।"
+  },
+  "core_title": {
+    "message": "প্রক্সি কোর"
+  },
+  "core_checking": {
+    "message": "স্থানীয় উপাদান পরীক্ষা করা হচ্ছে..."
+  },
+  "core_ready": {
+    "message": "Xray প্রস্তুত"
+  },
+  "core_missing": {
+    "message": "প্রক্সি কোর অনুপস্থিত"
+  },
+  "core_external": {
+    "message": "কাস্টম কোর: যাচাই করা হয়নি"
+  },
+  "core_corrupt": {
+    "message": "Xray চেকসাম অমিল — মেরামত প্রয়োজন"
+  },
+  "core_unreadable": {
+    "message": "কোর ফাইল চেক করা যায়নি"
+  },
+  "core_intro": {
+    "message": "সম্পূর্ণ Windows প্যাকেজ অন্তর্ভুক্ত Xray. v2rayN ঐচ্ছিক।"
+  },
+  "core_verify": {
+    "message": "আবার চেক করুন"
+  },
+  "core_install": {
+    "message": "ইনস্টল / মেরামত কোর"
+  },
+  "core_installing": {
+    "message": "ডাউনলোড এবং যাচাই করা হচ্ছে..."
+  },
+  "core_done": {
+    "message": "কোর যাচাই এবং প্রস্তুত"
+  },
+  "core_help": {
+    "message": "মেরামত একটি পিন করা কর্মকর্তা Xray রিলিজ ব্যবহার করে এবং তার চেকসাম যাচাই করে। বিদ্যমান সংযোগগুলি চলমান থাকে।"
+  },
+  "core_absent": {
+    "message": "স্থানীয় উপাদানটি একবার ইনস্টল করুন, তারপরে মূল চেক করতে এখানে ফিরে আসুন।"
+  },
+  "core_download": {
+    "message": "ইনস্টলেশন গাইড"
+  },
+  "core_absentHelp": {
+    "message": "ম্যাচিং Windows প্যাকেজটি ব্যবহার করুন বা উত্স থেকে এটি তৈরি করতে গাইড অনুসরণ করুন, তারপর সেটআপ চালান।"
+  },
+  "core_failed": {
+    "message": "কোর অপারেশন ব্যর্থ হয়েছে. আবার চেষ্টা করুন বা সম্পূর্ণ Windows প্যাকেজটি ব্যবহার করুন।"
+  },
+  "core_version": {
+    "message": "সংস্করণ"
+  },
+  "error_ACTIVE_PROFILE_DELETE": {
+    "message": "মুছে ফেলার আগে অন্য প্রোফাইলে যান"
+  },
+  "error_BACKUP_BINDING_TYPE": {
+    "message": "শুধু প্রক্সি প্রোফাইলে রুট বাঁধন থাকতে পারে"
+  },
+  "error_BACKUP_FORMAT3_REQUIRED": {
+    "message": "নোড নিয়মের জন্য ফরম্যাট 3-এর বহনযোগ্য ব্যাকআপ প্রয়োজন"
+  },
+  "error_BACKUP_INDEPENDENT_PATH_REQUIRED": {
+    "message": "ব্যাকআপে একটি স্বতন্ত্র নোড পথ থাকতে হবে"
+  },
+  "error_BACKUP_INTERNAL_BINDINGS": {
+    "message": "ব্যাকআপে অভ্যন্তরীণ বাঁধন রয়েছে"
+  },
+  "error_BACKUP_MESSAGE_LIMIT": {
+    "message": "নোড ব্যাকআপ সহায়ক উপাদানের বার্তার সীমা ছাড়িয়েছে"
+  },
+  "error_BACKUP_NODES_INCOMPLETE": {
+    "message": "নোড ব্যাকআপ অসম্পূর্ণ"
+  },
+  "error_BACKUP_NODE_MISSING": {
+    "message": "ব্যাকআপে একটি প্রয়োজনীয় নোড নেই"
+  },
+  "error_BACKUP_NODE_PATHS_LIMIT": {
+    "message": "ব্যাকআপে সর্বাধিক {limit}টি নোড পথ থাকতে পারে"
+  },
+  "error_BACKUP_PATH_INCOMPLETE": {
+    "message": "ব্যাকআপের নোড পথ অসম্পূর্ণ"
+  },
+  "error_BACKUP_PROFILES_LIMIT": {
+    "message": "ব্যাকআপে সর্বাধিক {limit}টি প্রোফাইল থাকতে পারে"
+  },
+  "error_BACKUP_PROXY_CONFLICT": {
+    "message": "ব্যাকআপের প্রক্সি সেটিংসে সংঘাত রয়েছে"
+  },
+  "error_BACKUP_SIZE_LIMIT": {
+    "message": "ব্যাকআপ {limit} MB-এর চেয়ে বড়"
+  },
+  "error_BACKUP_TRANSFER_UNAVAILABLE": {
+    "message": "নোড ব্যাকআপ স্থানান্তর করতে সহায়ক উপাদান আপডেট বা মেরামত করুন।"
+  },
+  "error_BACKUP_UNUSED_NODES": {
+    "message": "ব্যাকআপে উল্লেখবিহীন নোড রয়েছে"
+  },
+  "error_BODY_TOO_LARGE": {
+    "message": "সাবস্ক্রিপশনের প্রতিক্রিয়া অনুমোদিত আকার ছাড়িয়েছে।"
+  },
+  "error_BROWSER_API_FAILED": {
+    "message": "ব্রাউজারের কাজটি ব্যর্থ হয়েছে। প্রযুক্তিগত বিবরণ দেখুন।"
+  },
+  "error_BROWSER_PROXY_RESTORE_FAILED": {
+    "message": "কাজটি ব্যর্থ হয়েছে এবং ব্রাউজারের আগের প্রক্সি পুনরুদ্ধার করা যায়নি"
+  },
+  "error_BROWSER_SCHEDULING_UNAVAILABLE": {
+    "message": "ব্রাউজারের সময়সূচি সুবিধা উপলব্ধ নয়।"
+  },
+  "error_BUSY": {
+    "message": "অন্য একটি কাজ চলছে। কিছুক্ষণ পরে আবার চেষ্টা করুন।"
+  },
+  "error_CHAIN_PROBE_FAILED": {
+    "message": "চেইন পরীক্ষা ব্যর্থ হয়েছে"
+  },
+  "error_COMPANION_BULK_RELEASE_REQUIRED": {
+    "message": "একাধিক নোড নিয়ম নিরাপদে পরিচালনা করতে স্থানীয় সহায়ক উপাদান আপগ্রেড করুন"
+  },
+  "error_COMPANION_CHAINS_REQUIRED": {
+    "message": "ক্রমবদ্ধ চেইন চালু করতে স্থানীয় সহায়ক উপাদান আপগ্রেড করুন"
+  },
+  "error_COMPANION_MESSAGE_LIMIT": {
+    "message": "সেটিংস সহায়ক উপাদানের বার্তার সীমা ছাড়িয়েছে"
+  },
+  "error_COMPANION_OPERATION_FAILED": {
+    "message": "স্থানীয় সহায়ক উপাদানের কাজটি ব্যর্থ হয়েছে। প্রযুক্তিগত বিবরণ দেখুন।"
+  },
+  "error_COMPANION_UNAVAILABLE": {
+    "message": "V2Route সহায়ক উপাদান ইনস্টল বা মেরামত করুন"
+  },
+  "error_CONNECTION_CLOSED": {
+    "message": "পরীক্ষা শেষ হওয়ার আগে সংযোগ বন্ধ হয়ে গেছে।"
+  },
+  "error_CORE_INSTALL_FAILED": {
+    "message": "কোর ইনস্টল করা যায়নি। প্রযুক্তিগত বিবরণ দেখুন।"
+  },
+  "error_CORE_OWNERSHIP_FAILED": {
+    "message": "আলাদা পরীক্ষার কোর নিরাপদে নিয়ন্ত্রণ করা যায়নি। পরীক্ষা বন্ধ করা হয়েছে।"
+  },
+  "error_CORE_START_FAILED": {
+    "message": "আলাদা পরীক্ষার কোর চালু করা যায়নি। সহায়ক উপাদান ও কোরের ইনস্টলেশন যাচাই করুন।"
+  },
+  "error_CORE_START_TIMEOUT": {
+    "message": "আলাদা পরীক্ষার কোর সময়মতো প্রস্তুত হয়নি।"
+  },
+  "error_CORE_STATUS_UNAVAILABLE": {
+    "message": "কোরের অবস্থা উপলব্ধ নয়। প্রযুক্তিগত বিবরণ দেখুন।"
+  },
+  "error_CORE_VALIDATION_FAILED": {
+    "message": "Xray আমদানি করা নোড যাচাই করতে পারেনি। সেগুলোর সেটিংস দেখে আবার চেষ্টা করুন।"
+  },
+  "error_DETACH_PORT_CONFLICT": {
+    "message": "পরিচালিত পোর্ট ছেড়ে দেওয়া হবে। অন্য একটি ম্যানুয়াল প্রক্সি লিখুন"
+  },
+  "error_DETACH_PROXY_REQUIRED": {
+    "message": "বিচ্ছিন্ন করার আগে বিকল্প ম্যানুয়াল প্রক্সি লিখুন"
+  },
+  "error_DNS_BUSY": {
+    "message": "DNS অনুসন্ধান ব্যস্ত রয়েছে। কিছুক্ষণ পরে আবার চেষ্টা করুন।"
+  },
+  "error_DNS_FAILED": {
+    "message": "DNS অনুসন্ধান ব্যর্থ হয়েছে। ঠিকানা ও নেটওয়ার্ক সংযোগ যাচাই করুন।"
+  },
+  "error_ENCODING_UNSUPPORTED": {
+    "message": "সাবস্ক্রিপশন অসমর্থিত বিষয়বস্তু এনকোডিং ব্যবহার করে।"
+  },
+  "error_FIREFOX_PRIVATE_ACCESS_REQUIRED": {
+    "message": "প্রক্সি সেটিংস বদলানোর আগে এক্সটেনশনের বিবরণে ব্যক্তিগত উইন্ডোতে V2Route চালানোর অনুমতি দিন"
+  },
+  "error_FOLDER_UNAVAILABLE": {
+    "message": "ফোল্ডার উপলব্ধ নয়; পথ, প্রবেশাধিকার ও সহায়ক উপাদানের সংস্করণ যাচাই করুন"
+  },
+  "error_GROUP_LIMIT": {
+    "message": "গ্রুপের সীমা পূর্ণ হয়েছে। অব্যবহৃত গ্রুপ সরিয়ে আবার চেষ্টা করুন।"
+  },
+  "error_GROUP_NOT_EDITABLE": {
+    "message": "এই উৎস গ্রুপ এখানে সম্পাদনা করা যাবে না।"
+  },
+  "error_GROUP_NOT_FOUND": {
+    "message": "নির্বাচিত গ্রুপ আর নেই। অন্য গ্রুপ বেছে নিন।"
+  },
+  "error_HTTP_ENCODING": {
+    "message": "পরীক্ষার সার্ভার অসমর্থিত এনকোডিং ফেরত দিয়েছে।"
+  },
+  "error_HTTP_LENGTH": {
+    "message": "পরীক্ষার প্রতিক্রিয়ার আকার অনুরোধ করা আকারের সঙ্গে মেলেনি।"
+  },
+  "error_HTTP_RESPONSE_TOO_LARGE": {
+    "message": "পরীক্ষার প্রতিক্রিয়া অনুমোদিত আকার ছাড়িয়েছে।"
+  },
+  "error_HTTP_STATUS": {
+    "message": "পরীক্ষার সার্ভার অসফল HTTP অবস্থা ফেরত দিয়েছে।"
+  },
+  "error_IMPORTED_PROXY_MISSING": {
+    "message": "সহায়ক উপাদান আমদানি করা প্রক্সি ফেরত দেয়নি"
+  },
+  "error_IMPORTED_RULE_PATH_CONFLICT": {
+    "message": "আমদানি করা নোড থেকে পরস্পরবিরোধী নিয়ম পথ তৈরি হয়"
+  },
+  "error_IMPORT_CLEANUP_FAILED": {
+    "message": "আমদানি ব্যর্থ হয়েছে; কিছু অস্থায়ী নোড বা পোর্ট মুক্ত করা যায়নি। বিদ্যমান প্রোফাইল রাখা হয়েছে"
+  },
+  "error_IMPORT_PROFILE_NAME_CONFLICT": {
+    "message": "প্রোফাইলের নাম পুনরাবৃত্ত বা অবৈধ"
+  },
+  "error_INCOMPLETE_RESPONSE": {
+    "message": "সাবস্ক্রিপশনের প্রতিক্রিয়া অসম্পূর্ণ ছিল। আবার চেষ্টা করুন।"
+  },
+  "error_INVALID_BACKUP": {
+    "message": "অবৈধ V2Route ব্যাকআপ"
+  },
+  "error_INVALID_BACKUP_NODE": {
+    "message": "ব্যাকআপ নোড অবৈধ বা পুনরাবৃত্ত"
+  },
+  "error_INVALID_BACKUP_NODES": {
+    "message": "ব্যাকআপের নোডগুলো অবৈধ"
+  },
+  "error_INVALID_BACKUP_PATH": {
+    "message": "ব্যাকআপ পথ অবৈধ"
+  },
+  "error_INVALID_BYPASS_ENTRY": {
+    "message": "বাইপাস এন্ট্রি অবৈধ"
+  },
+  "error_INVALID_BYPASS_LIST": {
+    "message": "বাইপাস তালিকা অবৈধ"
+  },
+  "error_INVALID_CHAIN": {
+    "message": "ক্রমবদ্ধ চেইন অবৈধ"
+  },
+  "error_INVALID_CHAIN_PROBE": {
+    "message": "চেইন পরীক্ষা অবৈধ"
+  },
+  "error_INVALID_COMPANION_RESPONSE": {
+    "message": "স্থানীয় সহায়ক উপাদান অবৈধ প্রতিক্রিয়া দিয়েছে। সেটি আপডেট বা মেরামত করুন।"
+  },
+  "error_INVALID_CONTENT": {
+    "message": "সাবস্ক্রিপশনের প্রতিক্রিয়ায় বৈধ বিষয়বস্তু নেই।"
+  },
+  "error_INVALID_DOMAIN_PATTERNS": {
+    "message": "কমা দিয়ে ডোমেইন প্যাটার্ন আলাদা করুন; প্রতিটি URL আলাদা সারিতে লিখুন"
+  },
+  "error_INVALID_ENCODING": {
+    "message": "সাবস্ক্রিপশনের প্রতিক্রিয়া বৈধ UTF-8 পাঠ নয়।"
+  },
+  "error_INVALID_FOLDER_REQUEST": {
+    "message": "ফোল্ডার অনুরোধ অবৈধ"
+  },
+  "error_INVALID_GROUP_ACTION": {
+    "message": "এই গ্রুপ কাজটি সমর্থিত নয়।"
+  },
+  "error_INVALID_HOP_INDEX": {
+    "message": "হপ সূচক অবৈধ"
+  },
+  "error_INVALID_LEGACY_PREDECESSOR": {
+    "message": "পুরোনো পূর্ববর্তী প্রক্সি অবৈধ"
+  },
+  "error_INVALID_LIBRARY_COMMAND": {
+    "message": "নোড লাইব্রেরির এই নির্দেশ সমর্থিত নয়।"
+  },
+  "error_INVALID_LIBRARY_REQUEST": {
+    "message": "লাইব্রেরি অনুরোধ অবৈধ"
+  },
+  "error_INVALID_NAME": {
+    "message": "নিয়ন্ত্রণ অক্ষর ছাড়া 1–128টি দৃশ্যমান অক্ষরের নাম লিখুন।"
+  },
+  "error_INVALID_NETWORK_TEST": {
+    "message": "নেটওয়ার্ক পরীক্ষা অবৈধ"
+  },
+  "error_INVALID_NODE_IMPORT_RESPONSE": {
+    "message": "নোড আমদানির প্রতিক্রিয়া অবৈধ"
+  },
+  "error_INVALID_PREDECESSOR": {
+    "message": "এই রুটের পূর্ববর্তী প্রক্সি অবৈধ"
+  },
+  "error_INVALID_PROFILE_NAME": {
+    "message": "প্রোফাইলের নাম অবৈধ"
+  },
+  "error_INVALID_PROFILE_REFERENCE": {
+    "message": "প্রোফাইলের উল্লেখ অবৈধ"
+  },
+  "error_INVALID_PROXY_AUTH": {
+    "message": "প্রক্সি প্রমাণীকরণ অবৈধ"
+  },
+  "error_INVALID_PROXY_CREDENTIALS": {
+    "message": "প্রক্সির পরিচয়পত্র অবৈধ"
+  },
+  "error_INVALID_PROXY_ENDPOINT": {
+    "message": "বৈধ প্রক্সি হোস্ট ও পোর্ট লিখুন"
+  },
+  "error_INVALID_PROXY_HOST": {
+    "message": "পোর্ট, URL, পথ বা কুয়েরি ছাড়া DNS নাম বা IP ঠিকানা লিখুন"
+  },
+  "error_INVALID_ROUTE": {
+    "message": "রুট অবৈধ"
+  },
+  "error_INVALID_ROUTE_SETTINGS": {
+    "message": "রুট সেটিংস অবৈধ"
+  },
+  "error_INVALID_RULES": {
+    "message": "নিয়মগুলো অবৈধ"
+  },
+  "error_INVALID_RULE_TARGET": {
+    "message": "প্রতিটি নিয়মের জন্য একটি বৈধ নোড বা প্রোফাইল বেছে নিন"
+  },
+  "error_INVALID_SUBSCRIPTION": {
+    "message": "সাবস্ক্রিপশন অবৈধ"
+  },
+  "error_INVALID_SUBSCRIPTION_REQUEST": {
+    "message": "সাবস্ক্রিপশন অনুরোধ অবৈধ"
+  },
+  "error_INVALID_SUBSCRIPTION_SETTINGS": {
+    "message": "সাবস্ক্রিপশন সেটিংস অবৈধ। আপডেটের ব্যবধান ও সংযোগ নীতি যাচাই করুন।"
+  },
+  "error_INVALID_SYSTEM_PROXY_RESPONSE": {
+    "message": "সিস্টেম প্রক্সির প্রতিক্রিয়া অবৈধ; সহায়ক উপাদান আপডেট বা মেরামত করুন"
+  },
+  "error_INVALID_TRANSPORT": {
+    "message": "সাবস্ক্রিপশনের সংযোগ সেটিংস অবৈধ।"
+  },
+  "error_INVALID_URL": {
+    "message": "ব্যবহারকারীর নাম বা পাসওয়ার্ড ছাড়া বৈধ HTTP(S) সাবস্ক্রিপশন URL লিখুন।"
+  },
+  "error_LIBRARY_CHANGED": {
+    "message": "অন্য উইন্ডোতে নোড লাইব্রেরি বদলে গেছে। রিফ্রেশ করে আবার চেষ্টা করুন।"
+  },
+  "error_MANUAL_CHAIN_UNSUPPORTED": {
+    "message": "ম্যানুয়াল প্রক্সি নোড চেইন গ্রহণ করে না"
+  },
+  "error_MANUAL_PROXY_CLEANUP_FAILED": {
+    "message": "সংরক্ষণ ব্যর্থ হয়েছে; একটি অস্থায়ী আমদানি করা প্রক্সি নোড লাইব্রেরিতে রয়ে গেছে"
+  },
+  "error_NATIVE_BINDING_ID": {
+    "message": "রুট বাঁধনের শনাক্তকারী অবৈধ।"
+  },
+  "error_NATIVE_BINDING_UNKNOWN": {
+    "message": "রুট বাঁধন নেই।"
+  },
+  "error_NATIVE_BUTTON_NAME": {
+    "message": "বোতামের নামে 1–128টি দৃশ্যমান অক্ষর থাকতে হবে।"
+  },
+  "error_NATIVE_CATALOG_UNREADABLE": {
+    "message": "v2rayN কনফিগারেশন পড়া যায়নি।"
+  },
+  "error_NATIVE_CORE_MISSING": {
+    "message": "Xray উপলব্ধ নয়। সহায়ক উপাদানের প্যাকেজ ইনস্টল করুন।"
+  },
+  "error_NATIVE_GROUP_ID_COLLISION": {
+    "message": "গ্রুপ শনাক্তকারীতে সংঘাত রয়েছে।"
+  },
+  "error_NATIVE_GROUP_ORDER": {
+    "message": "গ্রুপের ক্রম অবৈধ।"
+  },
+  "error_NATIVE_NODE_ID_COLLISION": {
+    "message": "নোড শনাক্তকারীতে সংঘাত রয়েছে।"
+  },
+  "error_NATIVE_PREDECESSOR_AMBIGUOUS": {
+    "message": "পূর্ববর্তী প্রক্সির নাম নেই বা পুনরাবৃত্ত হয়েছে। নির্দিষ্ট পূর্ববর্তী নোড বেছে নিন।"
+  },
+  "error_NATIVE_PREDECESSOR_CYCLE": {
+    "message": "পূর্ববর্তী চেইনে চক্র রয়েছে অথবা ছয়টির বেশি নোড রয়েছে।"
+  },
+  "error_NATIVE_PREDECESSOR_INVALID": {
+    "message": "বৈধ পূর্ববর্তী প্রক্সি বেছে নিন।"
+  },
+  "error_NATIVE_PREDECESSOR_MISSING": {
+    "message": "নির্বাচিত পূর্ববর্তী প্রক্সি আর নেই। অন্য নোড বেছে নিন।"
+  },
+  "error_NATIVE_PREDECESSOR_SETTINGS": {
+    "message": "পূর্ববর্তী প্রক্সির সেটিংস অবৈধ।"
+  },
+  "error_NATIVE_ROUTE_INVALID": {
+    "message": "বৈধ রুট বেছে নিন।"
+  },
+  "error_NATIVE_ROUTE_MISSING": {
+    "message": "এই রুট আর নেই। অন্য রুট বেছে নিন।"
+  },
+  "error_NATIVE_ROUTE_PORTS": {
+    "message": "রুট পোর্টের বরাদ্দ অবৈধ।"
+  },
+  "error_NATIVE_ROUTE_UNAVAILABLE": {
+    "message": "নির্বাচিত রুট উপলব্ধ নয়। প্রযুক্তিগত বিবরণ দেখুন।"
+  },
+  "error_NATIVE_SETTINGS_FORMAT": {
+    "message": "সেটিংসের ফরম্যাট অবৈধ।"
+  },
+  "error_NATIVE_SETTINGS_REVISION": {
+    "message": "সেটিংসের সংশোধন নম্বর অবৈধ।"
+  },
+  "error_NATIVE_SUCCESSOR_UNSUPPORTED": {
+    "message": "এই গ্রুপ একটি অসমর্থিত পরবর্তী প্রক্সি ব্যবহার করে।"
+  },
+  "error_NATIVE_UNSUPPORTED_CUSTOM": {
+    "message": "এই সংস্করণ কাস্টম আউটবাউন্ড কনফিগারেশন সমর্থন করে না।"
+  },
+  "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
+    "message": "এই সংস্করণ Hysteria2 সমর্থন করে না।"
+  },
+  "error_NATIVE_UNSUPPORTED_TUIC": {
+    "message": "এই সংস্করণে TUIC-এর জন্য প্রয়োজনীয় sing-box কোর সংযুক্ত নেই।"
+  },
+  "error_NATIVE_UNSUPPORTED_TYPE": {
+    "message": "এই রুটের ধরন সমর্থিত নয়।"
+  },
+  "error_NATIVE_V2RAYN_PORT": {
+    "message": "v2rayN-এর স্থানীয় পোর্ট অবৈধ।"
+  },
+  "error_NATIVE_V2RAYN_UNAVAILABLE": {
+    "message": "v2rayN উপলব্ধ নয়। আমদানি করা নোড বেছে নিন।"
+  },
+  "error_NETWORK_FAILED": {
+    "message": "নেটওয়ার্ক অনুরোধ ব্যর্থ হয়েছে। সংযোগ যাচাই করে আবার চেষ্টা করুন।"
+  },
+  "error_NETWORK_TEST_FAILED": {
+    "message": "নেটওয়ার্ক নির্ণয় ব্যর্থ হয়েছে। প্রযুক্তিগত বিবরণ দেখুন।"
+  },
+  "error_NODE_LIMIT": {
+    "message": "এই কাজ নোডের সীমা ছাড়িয়ে যাবে। অব্যবহৃত নোড সরিয়ে আবার চেষ্টা করুন।"
+  },
+  "error_NODE_MAPPING_INCOMPLETE": {
+    "message": "নোড ম্যাপিং অসম্পূর্ণ"
+  },
+  "error_NODE_NOT_FOUND": {
+    "message": "নির্বাচিত নোড আর নেই। অন্য নোড বেছে নিন।"
+  },
+  "error_NOT_DUE": {
+    "message": "পরবর্তী নির্ধারিত আপডেটের সময় এখনো হয়নি।"
+  },
+  "error_PAC_ENTRY_REQUIRED": {
+    "message": "FindProxyForURL-সহ PAC উৎস লিখুন"
+  },
+  "error_PAC_FUNCTION_REQUIRED": {
+    "message": "শীর্ষ স্তরে সিঙ্ক্রোনাস FindProxyForURL ফাংশন, ফাংশন চলক বা অ্যাসাইনমেন্ট সংজ্ঞায়িত করুন"
+  },
+  "error_PAC_PARSER_UNAVAILABLE": {
+    "message": "প্যাকেজের PAC পার্সার উপলব্ধ নয়; এক্সটেনশন আবার ইনস্টল করুন"
+  },
+  "error_PAC_RULE_TARGET_UNSUPPORTED": {
+    "message": "স্বয়ংক্রিয় নিয়ম ইনলাইন PAC প্রোফাইলকে লক্ষ্য করতে পারে না"
+  },
+  "error_PAC_SOURCE_LIMIT": {
+    "message": "সর্বাধিক {limit} অক্ষরের PAC উৎস লিখুন"
+  },
+  "error_PAC_SYNTAX_INVALID": {
+    "message": "PAC সিনট্যাক্স অবৈধ"
+  },
+  "error_PAC_SYNTAX_LOCATION": {
+    "message": "সারি {line}, কলাম {column}-এ PAC সিনট্যাক্স অবৈধ"
+  },
+  "error_PARTIAL_TRANSFER": {
+    "message": "সব ডেটা পাওয়ার আগে পরীক্ষার স্থানান্তর শেষ হয়েছে।"
+  },
+  "error_PRIVATE_DIRECTORY_FAILED": {
+    "message": "ব্যক্তিগত পরীক্ষার ফোল্ডার সুরক্ষিত করা যায়নি। পরীক্ষা বন্ধ করা হয়েছে।"
+  },
+  "error_PRIVATE_TARGET": {
+    "message": "ব্যক্তিগত বা স্থানীয় ঠিকানায় সাবস্ক্রিপশন অনুরোধের অনুমতি নেই।"
+  },
+  "error_PROFILE_NOT_FOUND": {
+    "message": "প্রোফাইল পাওয়া যায়নি"
+  },
+  "error_PROFILE_REFERENCE_CYCLE": {
+    "message": "প্রোফাইলের উল্লেখে চক্র রয়েছে"
+  },
+  "error_PROFILE_REFERENCE_DEPTH": {
+    "message": "স্বয়ংক্রিয় নিয়ম সর্বাধিক গভীরতা {limit} ছাড়িয়েছে"
+  },
+  "error_PROFILE_REFERENCE_MISSING": {
+    "message": "উল্লেখিত প্রোফাইল নেই: {name}"
+  },
+  "error_PROFILE_SAVE_RESTORE_FAILED": {
+    "message": "সংরক্ষণ ব্যর্থ হয়েছে এবং রুট পুনরুদ্ধারে ব্যবস্থা নেওয়া প্রয়োজন"
+  },
+  "error_PROXY_AUTH_REQUIRED": {
+    "message": "সাবস্ক্রিপশন প্রক্সির এমন প্রমাণীকরণ প্রয়োজন যা এই অনুরোধ দিতে পারে না।"
+  },
+  "error_PROXY_CONTROL_UNAVAILABLE": {
+    "message": "অন্য এক্সটেনশন বা নীতি প্রক্সি নিয়ন্ত্রণ করছে"
+  },
+  "error_PROXY_DNS_REQUIRED": {
+    "message": "V2Route-এ SOCKS5 DNS প্রক্সির মাধ্যমে সমাধান করা হয়"
+  },
+  "error_PROXY_FAILED": {
+    "message": "প্রক্সি সংযোগ ব্যর্থ হয়েছে। নির্বাচিত রুট যাচাই করুন।"
+  },
+  "error_PROXY_PROFILE_REQUIRED": {
+    "message": "একটি প্রক্সি প্রোফাইল বেছে নিন"
+  },
+  "error_PROXY_ROLLBACK_REFUSED": {
+    "message": "ব্রাউজার প্রক্সির পরিবর্তন ফেরত নিতে অস্বীকার করেছে"
+  },
+  "error_PROXY_SETTING_REFUSED": {
+    "message": "ব্রাউজার প্রক্সি সেটিং গ্রহণ করেনি"
+  },
+  "error_PROXY_UNAVAILABLE": {
+    "message": "নির্বাচিত প্রক্সি উপলব্ধ নয়। বর্তমান রুট যাচাই করুন।"
+  },
+  "error_PROXY_USERNAME_REQUIRED": {
+    "message": "প্রক্সি ব্যবহারকারীর নাম লিখুন"
+  },
+  "error_RECOVERY_BINDINGS_LIMIT": {
+    "message": "সর্বাধিক {limit}টি নোড বাঁধন পুনরুদ্ধার করা যাবে। উল্লেখিত প্রোফাইলগুলো আলাদাভাবে খুলে সংরক্ষণ করুন।"
+  },
+  "error_REDIRECT_LIMIT": {
+    "message": "সাবস্ক্রিপশন অনেকবার পুনর্নির্দেশ করেছে। এর URL যাচাই করুন।"
+  },
+  "error_REFERENCED_PROFILE_DELETE": {
+    "message": "একটি স্বয়ংক্রিয় নিয়ম এই প্রোফাইল উল্লেখ করে"
+  },
+  "error_REMOTE_PAC_UNSUPPORTED": {
+    "message": "ইনলাইন PAC উৎস ব্যবহার করুন; দূরবর্তী PAC সমর্থিত নয়"
+  },
+  "error_ROUTE_PORT_UNAVAILABLE": {
+    "message": "কোনো পোর্ট বরাদ্দ হয়নি"
+  },
+  "error_ROUTE_RECOVERY_RESTORE_FAILED": {
+    "message": "রুট পুনরুদ্ধার ব্যর্থ হয়েছে এবং ফিরিয়ে আনতে ব্যবস্থা নেওয়া প্রয়োজন"
+  },
+  "error_ROUTE_REVISION_CONFLICT": {
+    "message": "অন্য উইন্ডোতে রুট বদলে গেছে। আগে রিফ্রেশ করুন"
+  },
+  "error_ROUTE_SAVE_ROLLBACK_FAILED": {
+    "message": "রুট সংরক্ষণ ব্যর্থ হয়েছে এবং পরিবর্তন ফেরাতে ব্যবস্থা নেওয়া প্রয়োজন"
+  },
+  "error_ROUTE_UNAVAILABLE": {
+    "message": "পরীক্ষার রুট উপলব্ধ নয়। নোড ও পূর্ববর্তী প্রক্সির সেটিংস যাচাই করুন।"
+  },
+  "error_RULE_BINDING_MISSING": {
+    "message": "নোড নিয়মের বাঁধন নেই। স্বয়ংক্রিয় প্রোফাইল আবার খুলে সংরক্ষণ করুন: {name}"
+  },
+  "error_RULE_NODES_LIMIT": {
+    "message": "স্বয়ংক্রিয় নিয়ম সর্বাধিক {limit}টি স্বতন্ত্র নোড সমর্থন করে"
+  },
+  "error_RULE_NODE_CHANGED": {
+    "message": "নোড নিয়ম উপলব্ধ নয় বা বদলে গেছে। নোড পুনরুদ্ধার করুন অথবা অন্য নোড বেছে সংরক্ষণ করুন: {name}"
+  },
+  "error_RULE_PATH_CONFLICT": {
+    "message": "নোড নিয়মের পথে সংঘাত রয়েছে"
+  },
+  "error_RULE_PATTERNS_LIMIT": {
+    "message": "স্বয়ংক্রিয় নিয়ম মোট সর্বাধিক {limit}টি মিল প্যাটার্ন সমর্থন করে"
+  },
+  "error_RULE_PORT_UNAVAILABLE": {
+    "message": "নোড নিয়মের পোর্ট উপলব্ধ নয়"
+  },
+  "error_RULE_REVISION_CONFLICT": {
+    "message": "অন্য উইন্ডোতে নোড নিয়ম বদলে গেছে। আগে রিফ্রেশ করুন"
+  },
+  "error_SELECTED_NODE_UNAVAILABLE": {
+    "message": "নির্বাচিত নোড উপলব্ধ নয়। এটি পুনরুদ্ধার করুন বা অন্য নোড বেছে নিন"
+  },
+  "error_SOCKS_FAILED": {
+    "message": "SOCKS সংযোগ স্থাপন করা যায়নি।"
+  },
+  "error_STARTUP_FALLBACK_REFUSED": {
+    "message": "ব্রাউজার স্টার্টআপের বিকল্প প্রক্সি গ্রহণ করেনি।"
+  },
+  "error_SUBSCRIPTION_CHANGED": {
+    "message": "আপডেটের সময় সাবস্ক্রিপশন বদলে গেছে। রিফ্রেশ করে আবার চেষ্টা করুন।"
+  },
+  "error_SUBSCRIPTION_HTTP_STATUS": {
+    "message": "সাবস্ক্রিপশন সার্ভার HTTP {status} ফেরত দিয়েছে।"
+  },
+  "error_SUBSCRIPTION_LIMIT": {
+    "message": "সাবস্ক্রিপশনের সীমা পূর্ণ হয়েছে। অব্যবহৃত সাবস্ক্রিপশন সরিয়ে আবার চেষ্টা করুন।"
+  },
+  "error_SUBSCRIPTION_NOT_FOUND": {
+    "message": "নির্বাচিত সাবস্ক্রিপশন আর নেই।"
+  },
+  "error_SYSTEM_PROXY_SNAPSHOT_UNAVAILABLE": {
+    "message": "প্রয়োগ করা সিস্টেম প্রক্সির স্ন্যাপশট উপলব্ধ নয়।"
+  },
+  "error_SYSTEM_PROXY_TIMEOUT": {
+    "message": "সিস্টেম প্রক্সি পড়ার সময়সীমা শেষ হয়েছে"
+  },
+  "error_SYSTEM_PROXY_UNAVAILABLE": {
+    "message": "সিস্টেম প্রক্সি উপলব্ধ নয়। প্রযুক্তিগত বিবরণ দেখুন।"
+  },
+  "error_TIMEOUT": {
+    "message": "অনুরোধের সময়সীমা শেষ হয়েছে। সংযোগ যাচাই করে আবার চেষ্টা করুন।"
+  },
+  "error_TLS_DOWNGRADE": {
+    "message": "সাবস্ক্রিপশন HTTPS থেকে HTTP-তে পুনর্নির্দেশ করায় অবরুদ্ধ হয়েছে।"
+  },
+  "error_TLS_FAILED": {
+    "message": "নিরাপদ সংযোগ যাচাই করা যায়নি। সার্ভার ও সনদ যাচাই করুন।"
+  },
+  "error_UNSAFE_TEMP_PATH": {
+    "message": "অস্থায়ী পরীক্ষার ফোল্ডার নিরাপদ নয়। পরীক্ষা বন্ধ করা হয়েছে।"
+  },
+  "error_UNSUPPORTED_LIBRARY_REQUEST": {
+    "message": "লাইব্রেরি অনুরোধ সমর্থিত নয়"
+  },
+  "error_UNSUPPORTED_PROFILE_TYPE": {
+    "message": "প্রোফাইলের ধরন সমর্থিত নয়"
+  },
+  "error_UNSUPPORTED_REQUEST": {
+    "message": "অনুরোধ সমর্থিত নয়"
+  },
+  "error_UNSUPPORTED_RULE_CONDITION": {
+    "message": "শুধু হোস্ট ও URL ওয়াইল্ডকার্ড নিয়ম সমর্থিত"
+  },
+  "error_UPDATE_FAILED": {
+    "message": "সাবস্ক্রিপশন আপডেট ব্যর্থ হয়েছে। বিদ্যমান নোড রাখা হয়েছে।"
+  },
+  "error_VALIDATION_FAILED": {
+    "message": "সাবস্ক্রিপশনের বিষয়বস্তু যাচাই করা যায়নি। বিদ্যমান নোড রাখা হয়েছে।"
+  },
+  "nativeUnnamedNode": {
+    "message": "নামহীন নোড"
+  },
+  "nativeProtocolCustom": {
+    "message": "কাস্টম"
+  },
+  "nativeProtocolOutbound": {
+    "message": "কাস্টম আউটবাউন্ড"
+  },
+  "nativeProtocolGroup": {
+    "message": "নীতি গ্রুপ"
+  },
+  "nativeProtocolChain": {
+    "message": "প্রক্সি চেইন"
+  },
+  "nativeProtocolUnknown": {
+    "message": "অসমর্থিত ধরন"
+  },
+  "languageLoadFailed": {
+    "message": "নির্বাচিত ভাষা লোড করা যায়নি। আবার চেষ্টা করুন।"
+  },
+  "invalidBackupJSON": {
+    "message": "ব্যাকআপ বৈধ JSON নয়।"
+  },
+  "noticeBodyLanguages": {
+    "message": "সম্পূর্ণ নীতির পাঠ ইংরেজি ও সরলীকৃত চীনা ভাষায় উপলব্ধ।"
+  },
+  "policyRules": {
+    "message": "প্রক্সি রাউটিং নিয়ম"
+  },
+  "policyPriority": {
+    "message": "ক্রম: প্রক্সি এড়ানোর ঠিকানা → প্রথম মিলে যাওয়া নিয়ম → ডিফল্ট রুট।"
+  },
+  "policyDirectHelp": {
+    "message": "না মেলা ঠিকানা সরাসরি সংযুক্ত হয়। পপআপের সরাসরি সংযোগ বোতামও এই নিয়ম ব্যবহার করে।"
+  },
+  "policySystemHelp": {
+    "message": "না মেলা ঠিকানা সিস্টেম প্রক্সি ব্যবহার করে। পপআপের সিস্টেম বোতামও এই নিয়ম ব্যবহার করে।"
+  },
+  "policyEmpty": {
+    "message": "এখনও কোনো নিয়ম নেই। ডিফল্ট রুট ব্যবহার করা হয়।"
+  },
+  "policyAddressHelp": {
+    "message": "ডোমেন, ওয়াইল্ডকার্ড ডোমেন, IP বা IP:পোর্ট। IP নিয়ম URL-এর IP মেলায়, DNS ফলাফল নয়।"
+  },
+  "policyMoveUp": {
+    "message": "নিয়ম উপরে নিন"
+  },
+  "policyMoveDown": {
+    "message": "নিয়ম নিচে নিন"
+  }
+}

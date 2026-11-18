@@ -1,0 +1,2150 @@
+{
+  "ruleTargetUnavailable": {
+    "message": "የማይገኝ ኢላማ"
+  },
+  "rulePatternPlaceholder": {
+    "message": "example.com, *.example.org, 192.0.2.1:8443"
+  },
+  "rulePatternHelp": {
+    "message": "አድራሻዎችን በኮማ ለይ። እያንዳንዱን የURL ቅጥ በተለየ መስመር አስገባ። PAC የHTTPS መንገዶችን ላያይ ይችላል።"
+  },
+  "defaultChoice_direct": {
+    "message": "ያለ ፕሮክሲ ይገናኙ"
+  },
+  "defaultChoice_system": {
+    "message": "የስርዓት ተኪ ቅንብሮችን ይጠቀሙ"
+  },
+  "defaultChoice_node": {
+    "message": "የዚህን መገለጫ የተመረጠ መስቀለኛ መንገድ ይጠቀሙ"
+  },
+  "defaultChoice_manual": {
+    "message": "የዚህን መገለጫ ተኪ ቅንብሮች ይጠቀሙ"
+  },
+  "defaultChoice_auto": {
+    "message": "የዚህን መገለጫ ማዘዋወር ደንቦች ተግብር"
+  },
+  "nlHttpsLatency": {
+    "message": "HTTPS ምላሽ"
+  },
+  "nlLatencyMethod": {
+    "message": "Cloudflare · ቢያንስ ሁለት ምላሾች · ሲገኝ ግንኙነትን እንደገና መጠቀም"
+  },
+  "nlLatencyFast": {
+    "message": "ፈጣን"
+  },
+  "nlLatencyModerate": {
+    "message": "መጠነኛ"
+  },
+  "nlLatencySlow": {
+    "message": "ዘገምተኛ"
+  },
+  "nlSortName": {
+    "message": "ስም"
+  },
+  "nlSortLatency": {
+    "message": "መዘግየት፡ ከዝቅተኛ ወደ ከፍተኛ"
+  },
+  "nlSortDownload": {
+    "message": "አውርድ፡ ከከፍተኛ ወደ ዝቅተኛ"
+  },
+  "nlSortUpload": {
+    "message": "ሰቀላ፡ ከከፍተኛ ወደ ዝቅተኛ"
+  },
+  "nlSingle": {
+    "message": "ነጠላ መስቀለኛ መንገድ"
+  },
+  "nlGroupBatch": {
+    "message": "ቡድን / ባች"
+  },
+  "nlTestScope": {
+    "message": "የሙከራ ወሰን"
+  },
+  "nlCurrentNode": {
+    "message": "የተመረጠ መስቀለኛ መንገድ"
+  },
+  "nlCurrentGroup": {
+    "message": "የተመረጠ ቡድን"
+  },
+  "nlChooseNode": {
+    "message": "በዝርዝሩ ውስጥ መስቀለኛ መንገድ ይምረጡ"
+  },
+  "nlStart": {
+    "message": "ፈተናን ጀምር"
+  },
+  "nlService": {
+    "message": "የሙከራ አገልግሎት"
+  },
+  "nlMeasured": {
+    "message": "ተለካ"
+  },
+  "nlMeanLatency": {
+    "message": "አማካይ መዘግየት"
+  },
+  "nlGroupBySource": {
+    "message": "በምንጭ ቡድን"
+  },
+  "nlPreviousPage": {
+    "message": "ያለፈው ገጽ"
+  },
+  "nlNextPage": {
+    "message": "ቀጣይ ገጽ"
+  },
+  "nlName": {
+    "message": "ስም"
+  },
+  "nlEdit": {
+    "message": "አርትዕ"
+  },
+  "nlStop": {
+    "message": "አቁም"
+  },
+  "nlConfirm": {
+    "message": "አረጋግጥ"
+  },
+  "nlAllNodes": {
+    "message": "ሁሉም አንጓዎች"
+  },
+  "nlNodeResults": {
+    "message": "የመስቀለኛ መንገድ ውጤቶች"
+  },
+  "nlTestCenter": {
+    "message": "የሙከራ ማዕከል"
+  },
+  "nlNewGroup": {
+    "message": "አዲስ ቡድን"
+  },
+  "nlRenameGroup": {
+    "message": "ቡድን እንደገና ይሰይሙ"
+  },
+  "nlRemoveGroup": {
+    "message": "ቡድን አስወግድ"
+  },
+  "nlRemoveGroupHelp": {
+    "message": "እያንዳንዱን መስቀለኛ መንገድ እና የደንበኝነት ምዝገባን ያስቀምጡ እና ወደ አስመጪ ኖዶች ያንቀሳቅሷቸው።"
+  },
+  "nlNode": {
+    "message": "መስቀለኛ መንገድ"
+  },
+  "nlStatus": {
+    "message": "ሁኔታ"
+  },
+  "nlActions": {
+    "message": "ድርጊቶች"
+  },
+  "nlSort": {
+    "message": "ይህን ሰንጠረዥ ብቻ ደርድር"
+  },
+  "nlSelected": {
+    "message": "ተመርጧል"
+  },
+  "nlTestNode": {
+    "message": "ሙከራ"
+  },
+  "nlProfileShort": {
+    "message": "መገለጫ"
+  },
+  "nlQuick": {
+    "message": "ፈጣን መዘግየት"
+  },
+  "nlFull": {
+    "message": "አውርድ + ሰቀላ"
+  },
+  "nlTraffic": {
+    "message": "የሙከራ ውሂብ መጠን"
+  },
+  "nlConcurrency": {
+    "message": "ተመሳሳይ አንጓዎች"
+  },
+  "nlTrafficFullOnly": {
+    "message": "ለማውረድ እና ለመስቀል ሙከራዎች ያገለግላል"
+  },
+  "nlTestMode": {
+    "message": "የሙከራ ሁነታ"
+  },
+  "nlBudget": {
+    "message": "ከፍተኛው የመጫኛ ትራፊክ"
+  },
+  "nlViaGroup": {
+    "message": "በቡድን ቅድመ-ተኪ"
+  },
+  "nlTestSelected": {
+    "message": "ፈተና ተመርጧል"
+  },
+  "nlTestVisible": {
+    "message": "የታዩት አንጓዎች ሙከራ"
+  },
+  "nlTestAll": {
+    "message": "ሁሉንም አንጓዎች ይሞክሩ"
+  },
+  "nlTestGroup": {
+    "message": "የቡድን አንጓዎችን ሞክር"
+  },
+  "nlProgress": {
+    "message": "የመለኪያ ሂደት"
+  },
+  "nlReady": {
+    "message": "ለመጀመር አንጓዎችን ይምረጡ። ምንም ፈተና አልሄደም።"
+  },
+  "nlStarting": {
+    "message": "ገለልተኛ ልኬትን በመጀመር ላይ…"
+  },
+  "nlQueued": {
+    "message": "ተሰልፏል"
+  },
+  "nlRunning": {
+    "message": "በመሞከር ላይ"
+  },
+  "nlStopping": {
+    "message": "በማቆም ላይ…"
+  },
+  "nlComplete": {
+    "message": "ሙሉ"
+  },
+  "nlFailed": {
+    "message": "አልተሳካም።"
+  },
+  "nlStopped": {
+    "message": "ቆሟል"
+  },
+  "nlPartial": {
+    "message": "ከፊል"
+  },
+  "nlUntested": {
+    "message": "አልተፈተነም።"
+  },
+  "nlSucceeded": {
+    "message": "አለፈ"
+  },
+  "nlMeasureDisconnected": {
+    "message": "የመለኪያ ግንኙነት አልቋል። ያልተሟሉ እሴቶች የመጨረሻ ውጤቶች አይደሉም።"
+  },
+  "nlUpgrade": {
+    "message": "ቡድኖችን እና ምዝገባዎችን ለማስተዳደር የአካባቢውን ኮምፓን ያዘምኑ። ነባር አንጓዎች ይገኛሉ።"
+  },
+  "nlOperationFailed": {
+    "message": "ክዋኔው ሊጠናቀቅ አልቻለም። እንደገና ይሞክሩ።"
+  },
+  "nlEditSubscription": {
+    "message": "የደንበኝነት ምዝገባን ያርትዑ"
+  },
+  "nlPasteContent": {
+    "message": "የተኪ ማገናኛዎች/ይዘት።"
+  },
+  "nlSubscriptionURL": {
+    "message": "የደንበኝነት ምዝገባ URL"
+  },
+  "nlKeepURL": {
+    "message": "የዳኑትን ለማስቀመጥ ባዶ ይተው URL"
+  },
+  "nlConnectionPolicy": {
+    "message": "ግንኙነትን ያዘምኑ"
+  },
+  "nlProxyFirst": {
+    "message": "በመጀመሪያ ፕሮክሲ፣ በመቀጠል ውድቀት ላይ በቀጥታ"
+  },
+  "nlProxyOnly": {
+    "message": "ተኪ ብቻ"
+  },
+  "nlDirectOnly": {
+    "message": "በቀጥታ ብቻ"
+  },
+  "nlProxyFirstHelp": {
+    "message": "ፕሮክሲ ከተሳካ ማምጣት በኋላ መጀመሪያ ይቆማል። ቀጥታ የሚሞከረው የተኪ ሙከራው ካልተሳካ ብቻ ነው።"
+  },
+  "nlAutoUpdate": {
+    "message": "አውቶማቲክ ማሻሻያዎችን አንቃ"
+  },
+  "nlInterval": {
+    "message": "የዝማኔ ክፍተት (ደቂቃዎች)"
+  },
+  "nlDestinationGroup": {
+    "message": "መድረሻ ቡድን"
+  },
+  "nlSubscriptionOwnGroup": {
+    "message": "አዲስ ቡድን…"
+  },
+  "nlNameGroup": {
+    "message": "ስም (ቡድን)"
+  },
+  "nlCustomGroup": {
+    "message": "ብጁ ቡድን"
+  },
+  "nlNameRequired": {
+    "message": "ስም አስገባ።"
+  },
+  "nlContentRequired": {
+    "message": "የተኪ አገናኞችን ወይም የደንበኝነት ምዝገባ ይዘትን ለጥፍ።"
+  },
+  "nlGroupRequired": {
+    "message": "የመድረሻ ቡድን ይምረጡ።"
+  },
+  "nlURLRequired": {
+    "message": "ያለ የተጠቃሚ ስም እና የይለፍ ቃል የ HTTP(S) ምዝገባን URL ያስገቡ።"
+  },
+  "nlIntervalInvalid": {
+    "message": "ሙሉ ቁጥር ከ5 እስከ 43200 ደቂቃዎች ያስገቡ።"
+  },
+  "folderTitle": {
+    "message": "v2rayN አቃፊን ይምረጡ"
+  },
+  "folderHint": {
+    "message": "ማህደር ምረጥ እና ከዚያ በሴቭ የግንኙነት መቼቶች ተግብር።"
+  },
+  "folderPath": {
+    "message": "ሙሉ የአካባቢ አቃፊ ዱካ"
+  },
+  "folderGo": {
+    "message": "ክፍት ነው።"
+  },
+  "folderUp": {
+    "message": "ወደላይ"
+  },
+  "folderDrives": {
+    "message": "ድራይቮች"
+  },
+  "folderCurrent": {
+    "message": "የአሁኑ መንገድ"
+  },
+  "folderChoose": {
+    "message": "ይህን አቃፊ ተጠቀም"
+  },
+  "folderList": {
+    "message": "አቃፊዎች"
+  },
+  "folderTruncated": {
+    "message": "ዝርዝር ውስን ነው። ያልታየ አቃፊ ለመክፈት ከላይ ያለውን ሙሉ መንገድ አስገባ።"
+  },
+  "folderReady": {
+    "message": "v2rayN ፋይሎች ተገኝተዋል። አወቃቀሩን ለማረጋገጥ ይህን አቃፊ ይጠቀሙ።"
+  },
+  "folderInvalid": {
+    "message": "guiConfigs፣ guiNConfig.json እና guiNDB.db የያዘውን አቃፊ ይምረጡ።"
+  },
+  "folderSelectDrive": {
+    "message": "የአካባቢ ድራይቭ ይምረጡ ወይም ሙሉ የአቃፊ መንገድ ያስገቡ።"
+  },
+  "folderEmpty": {
+    "message": "ምንም የሚታዩ ንዑስ አቃፊዎች የሉም።"
+  },
+  "folderUnavailable": {
+    "message": "ይህን አቃፊ ማሰስ አይቻልም። መንገዱን እና መድረሻውን ያረጋግጡ። ኮምፓኒው ትልቅ ከሆነ መጀመሪያ ያዘምኑት።"
+  },
+  "folderValidating": {
+    "message": "v2rayN ውቅረትን በማረጋገጥ ላይ…"
+  },
+  "folderInvalidConfig": {
+    "message": "v2rayN ውቅር ወይም ዳታቤዝ ያልተሟላ ወይም ልክ ያልሆነ ነው። ሌላ አቃፊ ይምረጡ።"
+  },
+  "copyPath": {
+    "message": "ቅዳ መንገድ"
+  },
+  "pathCopyHint": {
+    "message": "በዚህ መስክ ውስጥ ያለውን መንገድ ይቅዱ።"
+  },
+  "preMode": {
+    "message": "ቅድመ-ተኪ ሁነታ"
+  },
+  "preNode": {
+    "message": "ቅድመ ተኪ ኖድ"
+  },
+  "preIntro": {
+    "message": "የቡድን ሰንሰለቱን ይጠቀሙ፣ ይዝለሉት ወይም ለዚህ መገለጫ ቅድመ ተኪ ይምረጡ።"
+  },
+  "healthLabel": {
+    "message": "አሁን ያለው የግንኙነት ሁኔታ"
+  },
+  "healthOk": {
+    "message": "መደበኛ"
+  },
+  "healthError": {
+    "message": "ያልተለመደ"
+  },
+  "healthChecking": {
+    "message": "በመፈተሽ ላይ"
+  },
+  "healthUnknown": {
+    "message": "አልተረጋገጠም።"
+  },
+  "autoSystemHelp": {
+    "message": "የስርዓት ደንቦች የWindows ክፍል እና የቋሚ ፕሮክሲ ቅንብሮች ቅጂ ይፈልጋሉ። ከለውጥ በኋላ እንደገና ተግብር። PAC/WPAD አይደገፉም፤ ደንብ የሌለው ስርዓት የአሳሹን መደበኛ ቅንብሮች ይጠቀማል።"
+  },
+  "backgroundUnavailable": {
+    "message": "የኤክስቴንሽን ዳራ የለም።"
+  },
+  "backgroundNoResponse": {
+    "message": "ጀርባው ምንም ምላሽ አልሰጠም።"
+  },
+  "backupTooLarge": {
+    "message": "ምትኬ ከ5 ሜባ ይበልጣል።"
+  },
+  "proxyUsername": {
+    "message": "የተጠቃሚ ስም"
+  },
+  "proxyPassword": {
+    "message": "የይለፍ ቃል"
+  },
+  "proxyAuthHelp": {
+    "message": "አማራጭ ነው። የተረጋገጡ ፕሮክሲዎች በጓደኛ በኩል ይገናኛሉ። ምስክርነቶች በዚህ አሳሽ ውቅር እና ኮምፓኒው ውስጥ ተከማችተዋል፣ እና በመገለጫ ወደ ውጭ መላክ ውስጥ ተካትተዋል።"
+  },
+  "proxyAuthSocks4": {
+    "message": "SOCKS4 ይህን የተጠቃሚ ስም/የይለፍ ቃል ማረጋገጥን አይደግፍም። HTTP(S) ወይም SOCKS5 ይጠቀሙ።"
+  },
+  "importExamples": {
+    "message": "ምሳሌዎችን ይቅረጹ"
+  },
+  "ipCopying": {
+    "message": "በመቅዳት ላይ…"
+  },
+  "netDnsUnavailable": {
+    "message": "የአገልጋዩ አድራሻ በጊዜ ሊፈታ አልቻለም። አስተናጋጁን ወይም IP አድራሻን ይፈትሹ እና እንደገና ይሞክሩ።"
+  },
+  "netCurrentTarget": {
+    "message": "የተመረጠ የተኪ የመጨረሻ ነጥብ"
+  },
+  "netCustomTarget": {
+    "message": "ብጁ አገልጋይ"
+  },
+  "netHost": {
+    "message": "አስተናጋጅ ወይም IP አድራሻ"
+  },
+  "netPort": {
+    "message": "TCP ወደብ"
+  },
+  "netHostRequired": {
+    "message": "የአገልጋይ አስተናጋጅ ወይም IP አድራሻ ያስገቡ።"
+  },
+  "netCurrentUnavailable": {
+    "message": "መስቀለኛ መንገድ ወይም በእጅ የተኪ መገለጫ ይምረጡ፣ ወይም ብጁ ኢላማ ያስገቡ።"
+  },
+  "netInvalidTarget": {
+    "message": "ትክክለኛ የምርመራ አስተናጋጅ እና ወደብ ያስገቡ።"
+  },
+  "netIpv6PingUnavailable": {
+    "message": "IPv6 ICMP አይገኝም; TCPing ይጠቀሙ።"
+  },
+  "preNeedsFix": {
+    "message": "ከማስቀመጥዎ በፊት የሚሰራ ቅድመ ተኪ ወይም ምንም ቅድመ ተኪ ይምረጡ።"
+  },
+  "preConfigure": {
+    "message": "ቅድመ ፕሮክሲን ያዋቅሩ"
+  },
+  "preFollowInvalid": {
+    "message": "ተከተል v2rayN ብጁ ቅድመ ተኪ አይቀበልም።"
+  },
+  "followChainHelp": {
+    "message": "ተከታይ መንገድን ይጠቀማል እና የተኪ ሰንሰለት አስቀድሞ በv2rayN ንቁ ነው።"
+  },
+  "netTitle": {
+    "message": "የግንኙነት ሙከራዎች"
+  },
+  "ipTestDetails": {
+    "message": "የሙከራ ዝርዝሮች"
+  },
+  "netTarget": {
+    "message": "ፒንግ / TCPing ዒላማ"
+  },
+  "netDownload": {
+    "message": "የማውረድ ሙከራ"
+  },
+  "netPartial": {
+    "message": "ከፊል ናሙና"
+  },
+  "netComplete": {
+    "message": "ናሙና ተጠናቅቋል"
+  },
+  "netDirect": {
+    "message": "የስርዓት አውታረ መረብ"
+  },
+  "netUnreachable": {
+    "message": "ምንም ምላሽ የለም/ አልተሳካም።"
+  },
+  "netAverage": {
+    "message": "አማካኝ"
+  },
+  "predecessor": {
+    "message": "ቅድመ ተኪ"
+  },
+  "preInherit": {
+    "message": "v2rayN የቡድን ሰንሰለት ተጠቀም"
+  },
+  "preNone": {
+    "message": "ምንም ቅድመ ተኪ የለም።"
+  },
+  "preSpecific": {
+    "message": "መስቀለኛ መንገድ ይምረጡ"
+  },
+  "preHelp": {
+    "message": "ለዚህ መገለጫ ተፈጻሚ ይሆናል። የ v2rayN የቡድን ሰንሰለት ይጠቀሙ፣ ምንም ቅድመ ተኪ ወይም የተለየ መስቀለኛ መንገድ የለም። ተከተል v2rayN ያለውን ሰንሰለት ይጠቀማል።"
+  },
+  "preSelectRequired": {
+    "message": "የቅድመ-ፕሮክሲ ኖድ ይምረጡ፣ ወይም የቡድን ነባሪ ይምረጡ / የለም።"
+  },
+  "ipPing0Permission": {
+    "message": "Ping0 ድህረ ገጽ የህዝብ ዘገባን እንዲጭን ፍቀድ።"
+  },
+  "ipPublicChallenge": {
+    "message": "ድህረ ገጹ ማረጋገጫ ይፈልጋል። ለማጠናቀቅ Ping0 ገጹን ይክፈቱ እና ውጤቱን ይመልከቱ።"
+  },
+  "ipPublicReport": {
+    "message": "Ping0 የህዝብ ሪፖርት"
+  },
+  "ipPublicSource": {
+    "message": "ምንጭ፡ Ping0 የህዝብ ገጽ"
+  },
+  "ipPublicOriginal": {
+    "message": "Ping0 ዘገባ"
+  },
+  "ipPublicPartial": {
+    "message": "በሕዝብ ገጽ ላይ የቀረቡት መስኮች ብቻ በዋናው ቋንቋ ይታያሉ። ምደባዎች እና የተጋራ ተጠቃሚ ግምቶች ከ Ping0 ናቸው።"
+  },
+  "setupTitle": {
+    "message": "አገናኝ Proxy V2Route"
+  },
+  "setupIntro": {
+    "message": "Windows አጃቢውን v2rayN መንገዶችን ወይም የራስዎን ከውጪ የሚመጡ ኖዶችን ይጠቀሙ።"
+  },
+  "setupStepOne": {
+    "message": "የተሟላውን Windows ጥቅል ወደ ቋሚ ማህደር ያውጡ።"
+  },
+  "setupStepTwo": {
+    "message": "V2Route-Setup.exe ይክፈቱ እና ጫን የሚለውን ይጫኑ።"
+  },
+  "setupStepThree": {
+    "message": "ወደዚህ ይመለሱ እና ግንኙነቱን ያረጋግጡ። አስፈላጊ ከሆነ v2rayN አቃፊን ይምረጡ።"
+  },
+  "setupCheck": {
+    "message": "ግንኙነትን ያረጋግጡ"
+  },
+  "downloadCompanion": {
+    "message": "የመጫኛ መመሪያ ↗"
+  },
+  "setupDownloadNote": {
+    "message": "ተዛማጅ የሆነውን የአካባቢ Windows ጥቅል ይጠቀሙ ወይም ከአሁኑ ምንጭ ለመገንባት መመሪያውን ይከተሉ።"
+  },
+  "chooseFolder": {
+    "message": "v2rayN አቃፊን ይምረጡ…"
+  },
+  "rescanDone": {
+    "message": "የአካባቢ አንጓዎች እንደገና ተቃኝተዋል።"
+  },
+  "grouping": {
+    "message": "የቡድን አንጓዎች"
+  },
+  "groupByCountry": {
+    "message": "በአገር"
+  },
+  "unknownCountry": {
+    "message": "ሌላ / ያልታወቀ"
+  },
+  "ungrouped": {
+    "message": "ያልተሰበሰበ"
+  },
+  "adjustNodeFilters": {
+    "message": "ሌላ ቡድን፣ ምንጭ ወይም ፍለጋ ይሞክሩ ወይም የተደበቁ አንጓዎችን ያሳዩ።"
+  },
+  "rescanLocal": {
+    "message": "እንደገና ቃኝ v2rayN አንጓዎች"
+  },
+  "showHidden": {
+    "message": "የተደበቁ አንጓዎችን አሳይ"
+  },
+  "hideNode": {
+    "message": "ደብቅ"
+  },
+  "restoreNode": {
+    "message": "እነበረበት መልስ"
+  },
+  "hiddenNode": {
+    "message": "ተደብቋል"
+  },
+  "hideNodeHelp": {
+    "message": "ከዚህ አሳሽ መስቀለኛ መንገድ ቤተ-መጽሐፍት ብቻ ደብቅ። v2rayN እና ነባር መገለጫዎች አልተለወጡም።"
+  },
+  "ipContextTimeout": {
+    "message": "የአሁኑን ፕሮፋይል ማንበብ ጊዜው አልፎበታል። እንደገና ይሞክሩ።"
+  },
+  "ipStaleResult": {
+    "message": "የአሁኑ መገለጫ ተለውጧል። ይህ ውጤት ጊዜ ያለፈበት ሊሆን ይችላል; እንደገና ያረጋግጡ."
+  },
+  "ip_tools": {
+    "message": "IP መሳሪያዎች"
+  },
+  "ipIntro": {
+    "message": "የአሁኑ መውጫ IP እና የህዝብ ሪፖርት።"
+  },
+  "ipCurrentProfile": {
+    "message": "የአሁኑ የአሳሽ መገለጫ"
+  },
+  "ipRouteCaution": {
+    "message": "አውቶማቲክ ህጎች እና PAC ለተለያዩ መዳረሻዎች የተለያዩ መንገዶችን ሊጠቀሙ ይችላሉ። ይህ ቼክ የሚገልጸው የራሱን ጥያቄ ብቻ ነው።"
+  },
+  "ipDisclosure": {
+    "message": "ራስ-አረጋግጥ መውጫ IP · ሪፖርት በ Ping0"
+  },
+  "ipMethod": {
+    "message": "የአድራሻ ማረጋገጫ"
+  },
+  "ipDual": {
+    "message": "IPv4 / IPv6"
+  },
+  "ipCheck": {
+    "message": "እንደገና ያረጋግጡ"
+  },
+  "ipChecking": {
+    "message": "በመፈተሽ ላይ…"
+  },
+  "ipDualHelp": {
+    "message": "IPv4 / IPv6 ለዚህ ጥያቄ የተጠቀሙበትን አድራሻ ቤተሰብ ይመልሳል እንጂ ሁለቱንም አድራሻዎች አይመልስም።"
+  },
+  "ipDurationHelp": {
+    "message": "ያለፈው HTTP የጥያቄ ጊዜ የኔትወርክ እና የአገልግሎት ምላሽ ጊዜን ያካትታል። እሱ ICMP ፒንግ ወይም የመተላለፊያ ይዘት ሙከራ አይደለም።"
+  },
+  "ipCopy": {
+    "message": "ቅጂ IP"
+  },
+  "ipCopied": {
+    "message": "ተቀድቷል።"
+  },
+  "ipCopyFailed": {
+    "message": "መቅዳት አልተቻለም። አድራሻውን ይምረጡ እና በእጅ ይቅዱት."
+  },
+  "ipNoResult": {
+    "message": "እስካሁን ምንም ማረጋገጫ የለም።"
+  },
+  "ipContextUnknown": {
+    "message": "መገለጫ የለም።"
+  },
+  "ipTimeout": {
+    "message": "ቼኩ ጊዜው አልፎበታል። እንደገና ይሞክሩ ወይም ሌላ መንገድ ይጠቀሙ።"
+  },
+  "ipCancelled": {
+    "message": "ቼክ ተሰርዟል።"
+  },
+  "ipNetwork": {
+    "message": "ipify መድረስ አልተቻለም። ግንኙነቱን ያረጋግጡ እና እንደገና ይሞክሩ።"
+  },
+  "ipHttp": {
+    "message": "የ IP አገልግሎት ጥያቄውን አልተቀበለም። ቆይተው እንደገና ይሞክሩ።"
+  },
+  "ipInvalid": {
+    "message": "IP አገልግሎት ልክ ያልሆነ ምላሽ መለሰ።"
+  },
+  "ipFailure": {
+    "message": "ቼኩ አልተሳካም። እንደገና ይሞክሩ።"
+  },
+  "ipStale": {
+    "message": "በቼክ ጊዜ የተኪ ቅንጅቶችዎ ተለውጠዋል። የድሮው ውጤት ተጥሏል; እንደገና ያረጋግጡ."
+  },
+  "ipQuality": {
+    "message": "ውጫዊ መሳሪያዎች"
+  },
+  "ipQualityPrivacy": {
+    "message": "መሳሪያዎች በጠቅታ ብቻ ይሰራሉ። አቅራቢዎች መደበኛ የግንኙነት ውሂብ ይቀበላሉ። የድረ-ገጽ ፍተሻዎች ከጅምር በኋላ ከመረጃ ነጻ የሆኑ ጥያቄዎችን ይልካሉ። የአካባቢያዊ ሙከራዎችን መዝጋት ያቆማል; ውጫዊ ትሮች የሚተዳደሩት በአሳሹ ነው።"
+  },
+  "ipReport": {
+    "message": "የተሻሻለ ሪፖርት ቅዳ"
+  },
+  "ipReportCopied": {
+    "message": "የተሻሻለ ሪፖርት ተቀድቷል; የለም IP ወይም የመገለጫ ስሞች ተካትተዋል።"
+  },
+  "popupSelected": {
+    "message": "ተመርጧል"
+  },
+  "popupFooter": {
+    "message": "v2rayN እና የአንጓ መገለጫዎች"
+  },
+  "subtitle": {
+    "message": "ገለልተኛ የአሳሽ መንገዶች"
+  },
+  "profiles": {
+    "message": "መገለጫዎች"
+  },
+  "nodes": {
+    "message": "መስቀለኛ መንገድ ላይብረሪ"
+  },
+  "settings": {
+    "message": "ቅንብሮች"
+  },
+  "connected": {
+    "message": "ንቁ መገለጫ"
+  },
+  "noProfile": {
+    "message": "የስርዓት ነባሪ"
+  },
+  "newProfile": {
+    "message": "አዲስ መገለጫ"
+  },
+  "searchProfiles": {
+    "message": "መገለጫዎችን ፈልግ"
+  },
+  "direct": {
+    "message": "ቀጥተኛ አውታረ መረብ"
+  },
+  "system": {
+    "message": "የስርዓት ተኪ"
+  },
+  "follow": {
+    "message": "ተከተል v2rayN"
+  },
+  "manual": {
+    "message": "በእጅ ፕሮክሲ"
+  },
+  "auto": {
+    "message": "ራስ-ሰር መቀየሪያ"
+  },
+  "pac": {
+    "message": "PAC ስክሪፕት።"
+  },
+  "virtual": {
+    "message": "ምናባዊ መገለጫ"
+  },
+  "profileIntro": {
+    "message": "የ v2rayN ዋና መንገድ ሳይቀይሩ የአሳሽ መስመር ይምረጡ።"
+  },
+  "nodesIntro": {
+    "message": "የሀገር ውስጥ v2rayN ኖዶችን እና ከውጪ የገቡትን ማገናኛዎች ያስሱ።"
+  },
+  "settingsIntro": {
+    "message": "የአካባቢ ግንኙነት፣ ቋንቋ እና መልክ።"
+  },
+  "refresh": {
+    "message": "አድስ"
+  },
+  "create": {
+    "message": "መገለጫ ይፍጠሩ"
+  },
+  "name": {
+    "message": "የመገለጫ ስም"
+  },
+  "type": {
+    "message": "የመገለጫ አይነት"
+  },
+  "save": {
+    "message": "አስቀምጥ"
+  },
+  "saved": {
+    "message": "ተቀምጧል"
+  },
+  "saving": {
+    "message": "በማስቀመጥ ላይ…"
+  },
+  "cancel": {
+    "message": "ሰርዝ"
+  },
+  "close": {
+    "message": "ዝጋ"
+  },
+  "apply": {
+    "message": "ይህን መገለጫ ይጠቀሙ"
+  },
+  "applied": {
+    "message": "መገለጫ ተቀይሯል።"
+  },
+  "active": {
+    "message": "ንቁ"
+  },
+  "delete": {
+    "message": "ሰርዝ"
+  },
+  "remove": {
+    "message": "አስወግድ"
+  },
+  "rename": {
+    "message": "እንደገና ይሰይሙ"
+  },
+  "route": {
+    "message": "የተኪ መንገድ"
+  },
+  "selectRoute": {
+    "message": "መንገድ ይምረጡ"
+  },
+  "routeMissing": {
+    "message": "መንገድ የለም - ሌላ ይምረጡ"
+  },
+  "chain": {
+    "message": "የግንኙነት ሰንሰለት"
+  },
+  "connection": {
+    "message": "የአካባቢ ግንኙነት"
+  },
+  "proxy": {
+    "message": "ተኪ አገልጋይ"
+  },
+  "address": {
+    "message": "አድራሻ"
+  },
+  "port": {
+    "message": "ወደብ"
+  },
+  "scheme": {
+    "message": "ፕሮቶኮል"
+  },
+  "proxyDns": {
+    "message": "SOCKS5 DNS የሚፈታው በፕሮክሲ ነው።"
+  },
+  "connectedIdle": {
+    "message": "ተገናኝቷል · ስራ ፈት"
+  },
+  "bypass": {
+    "message": "ማለፊያ ዝርዝር"
+  },
+  "bypassHelp": {
+    "message": "በእያንዳንዱ መስመር አንድ ዶሜን፣ የዱር ምልክት ዶሜን፣ IP አድራሻ ወይም IP:ወደብ።"
+  },
+  "advanced": {
+    "message": "የላቁ አማራጮች"
+  },
+  "searchRoutes": {
+    "message": "ቡድኖችን ወይም አንጓዎችን ይፈልጉ"
+  },
+  "selectGroup": {
+    "message": "ቡድን ይምረጡ"
+  },
+  "empty": {
+    "message": "ምንም ተዛማጅ እቃዎች የሉም"
+  },
+  "unavailable": {
+    "message": "የለም።"
+  },
+  "groupHint": {
+    "message": "ለ 250 ms ቡድን ይያዙ እና ከዚያ ይጎትቱ። Alt + ↑ / ↓ እንዲሁም እንደገና ያዛል። ለውጦች በራስ-ሰር ይቀመጣሉ።"
+  },
+  "searchSort": {
+    "message": "ከመደርደርዎ በፊት ፍለጋውን ያጽዱ።"
+  },
+  "dragHint": {
+    "message": "ወደ ላይ ወይም ወደ ታች ይውሰዱ፣ ከዚያ ለማስቀመጥ ይልቀቁ። Esc ይሰርዛል።"
+  },
+  "orderSaved": {
+    "message": "የቡድን ትዕዛዝ ተቀምጧል"
+  },
+  "orderCancelled": {
+    "message": "እንደገና ማዘዝ ተሰርዟል።"
+  },
+  "loading": {
+    "message": "በመጫን ላይ…"
+  },
+  "reading": {
+    "message": "የአካባቢ አንጓዎችን በማንበብ…"
+  },
+  "nativeMissing": {
+    "message": "የአካባቢ አካል አልተገናኘም።"
+  },
+  "retry": {
+    "message": "እንደገና ይሞክሩ"
+  },
+  "nativeHelp": {
+    "message": "የመስቀለኛ መንገድ መስመሮች Windows ጓደኛን ይፈልጋሉ። ቀጥታ፣ ሲስተም እና በእጅ ፕሮክሲዎች አሁን ይገኛሉ።"
+  },
+  "imported": {
+    "message": "መጥቷል።"
+  },
+  "v2rayn": {
+    "message": "v2rayN"
+  },
+  "allSources": {
+    "message": "ሁሉም ምንጮች"
+  },
+  "importNodes": {
+    "message": "ፕሮክሲዎችን አስመጣ"
+  },
+  "importTitle": {
+    "message": "ፕሮክሲዎችን አስመጣ"
+  },
+  "importHelp": {
+    "message": "የተኪ ማገናኛዎችን ለጥፍ፣ ወደ ውጪ JSON ወይም Base64 ምዝገባ። SOCKS ግልጽ ወይም Base64 ምስክርነቶችን ይደግፋል። ከዕቅድ-ነጻ አድራሻዎች HTTP ይጠቀማሉ።"
+  },
+  "importPrivacy": {
+    "message": "የተኪ ዝርዝሮች እና ምስክርነቶች ለአካባቢው Proxy V2Route ጓደኛ ማከማቻ እና ከመረጡት ተኪ ጋር ግንኙነት ተላልፈዋል። ገንቢው ይህን መረጃ አይቀበለውም።"
+  },
+  "import": {
+    "message": "መገለጫዎችን አስመጣ"
+  },
+  "nodeCount": {
+    "message": "አንጓዎች"
+  },
+  "source": {
+    "message": "ምንጭ"
+  },
+  "protocol": {
+    "message": "ፕሮቶኮል"
+  },
+  "useNode": {
+    "message": "መገለጫ ይፍጠሩ"
+  },
+  "removeNode": {
+    "message": "ከውጪ የመጣ መስቀለኛ መንገድ ይወገድ?"
+  },
+  "removeNodeHelp": {
+    "message": "ይህን መስቀለኛ መንገድ የሚጠቀሙ መገለጫዎች ከመጥፋታቸው በፊት እንደገና መመደብ አለባቸው።"
+  },
+  "deleteProfile": {
+    "message": "ይህ መገለጫ ይሰረዝ?"
+  },
+  "deleteProfileHelp": {
+    "message": "ይህ ይህን የአሳሽ መገለጫ ብቻ ያስወግዳል። ከውጭ የመጡ አንጓዎች እና v2rayN ውቅር ይቀመጣሉ።"
+  },
+  "language": {
+    "message": "ቋንቋ"
+  },
+  "automatic": {
+    "message": "የአሳሽ ነባሪ"
+  },
+  "theme": {
+    "message": "መልክ"
+  },
+  "light": {
+    "message": "ብርሃን"
+  },
+  "dark": {
+    "message": "ጨለማ"
+  },
+  "switchToEnglish": {
+    "message": "ወደ እንግሊዝኛ ቀይር"
+  },
+  "switchToChinese": {
+    "message": "ወደ ቀለል ቻይንኛ ቀይር"
+  },
+  "switchToLight": {
+    "message": "ወደ ብርሃን መልክ ቀይር"
+  },
+  "switchToDark": {
+    "message": "ወደ ጥቁር መልክ ቀይር"
+  },
+  "localComponent": {
+    "message": "ተጓዳኝ አካል"
+  },
+  "ready": {
+    "message": "ተገናኝቷል።"
+  },
+  "stopped": {
+    "message": "እየሮጠ አይደለም።"
+  },
+  "discovery": {
+    "message": "v2rayN ማግኘት"
+  },
+  "rootPath": {
+    "message": "v2rayN አቃፊ"
+  },
+  "corePath": {
+    "message": "ተኪ ኮር ሊተገበር የሚችል"
+  },
+  "optionalPath": {
+    "message": "ለራስ-ሰር ለማወቅ ባዶውን ይተው"
+  },
+  "pathsHelp": {
+    "message": "v2rayN በራስ-ሰር ተገኝቷል; አስፈላጊ ከሆነ አቃፊውን ይምረጡ። ከውጭ የሚመጡ አንጓዎች የተካተተውን ኮር ይጠቀማሉ።"
+  },
+  "savePaths": {
+    "message": "የግንኙነት ቅንብሮችን ያስቀምጡ"
+  },
+  "privacy": {
+    "message": "ቅንጅቶች በአገር ውስጥ ተከማችተዋል።"
+  },
+  "privacyText": {
+    "message": "የመስቀለኛ መንገድ አገናኞች እና ምስክርነቶች በአካባቢው ጓደኛ ውስጥ ይቆያሉ። የአሳሽ ትራፊክ ወደ መድረሻ ድር ጣቢያዎች በመረጡት ተኪ በኩል ያልፋል; ገንቢው አይቀበለውም."
+  },
+  "privacyDetails": {
+    "message": "ግላዊነት እና የውሂብ ፍሰት"
+  },
+  "export": {
+    "message": "መገለጫዎችን ወደ ውጪ ላክ"
+  },
+  "about": {
+    "message": "ስለ Proxy V2Route"
+  },
+  "aboutText": {
+    "message": "የ v2rayN ዋና መንገድ ሳይቀይሩ የአሳሽ መስመር ይምረጡ። የመስቀለኛ መንገድ መስመሮች Windows አጃቢውን እና የራስዎን ኖዶች ይጠቀማሉ።"
+  },
+  "licenses": {
+    "message": "የክፍት ምንጭ ማስታወቂያዎች"
+  },
+  "version": {
+    "message": "ስሪት"
+  },
+  "fieldRequired": {
+    "message": "የመገለጫ ስም አስገባ።"
+  },
+  "profileExists": {
+    "message": "ይህ ስም ያለው መገለጫ አስቀድሞ አለ።"
+  },
+  "ruleHelp": {
+    "message": "ጎራዎችን በአንድ ረድፍ በነጠላ ሰረዞች ይለያሉ። የመጀመሪያው ተዛማጅ ረድፍ ያሸንፋል። ነባሪውን መንገድ እንዳለ ያቆዩት።"
+  },
+  "rules": {
+    "message": "የመተላለፊያ ደንቦች"
+  },
+  "pattern": {
+    "message": "የአስተናጋጅ ንድፍ"
+  },
+  "target": {
+    "message": "ደንብ ኢላማ"
+  },
+  "addRule": {
+    "message": "ደንብ ጨምር"
+  },
+  "defaultRoute": {
+    "message": "ነባሪ መገለጫ"
+  },
+  "pacHelp": {
+    "message": "የታመነ PAC FindProxyForURL የያዘ ምንጭ ለጥፍ። ይህ ስክሪፕት የድር ጣቢያ ጥያቄዎች እንዴት እንደሚተላለፉ ይወስናል።"
+  },
+  "pacUrl": {
+    "message": "PAC URL"
+  },
+  "pacScript": {
+    "message": "PAC ስክሪፕት።"
+  },
+  "noSelection": {
+    "message": "መገለጫ ይምረጡ ወይም ይፍጠሩ።"
+  },
+  "details": {
+    "message": "ዝርዝሮች"
+  },
+  "noNodes": {
+    "message": "እስካሁን ምንም አንጓዎች የሉም"
+  },
+  "noNodesHelp": {
+    "message": "v2rayNን ያገናኙ ወይም ፕሮክሲ ሊንኮችን አስመጣ፣ JSON ወይም ለመጀመር ምዝገባ።"
+  },
+  "openSettings": {
+    "message": "መቼቶችን ክፈት"
+  },
+  "proxySettings": {
+    "message": "የተኪ ቅንብሮች"
+  },
+  "switching": {
+    "message": "በመቀየር ላይ…"
+  },
+  "updatedElsewhere": {
+    "message": "ይህ መገለጫ በሌላ መስኮት ተቀይሯል። ከማስቀመጥዎ በፊት እንደገና ይክፈቱት።"
+  },
+  "choose": {
+    "message": "ይምረጡ"
+  },
+  "popupIntro": {
+    "message": "ግንኙነት፡-"
+  },
+  "invalidPort": {
+    "message": "ከ1 እስከ 65535 ወደብ አስገባ።"
+  },
+  "externalControl": {
+    "message": "ሌላ ቅጥያ ወይም ፖሊሲ የአሳሹን ፕሮክሲ በመቆጣጠር ላይ ነው።"
+  },
+  "noNativeRoute": {
+    "message": "የመስቀለኛ መንገድ መገለጫ ከመፍጠርዎ በፊት የአካባቢውን አካል ያገናኙ።"
+  },
+  "reload": {
+    "message": "እንደገና ጫን"
+  },
+  "rulesError": {
+    "message": "እያንዳንዱ ደንብ ንድፍ እና ዒላማ ያስፈልገዋል።"
+  },
+  "backupDone": {
+    "message": "የአሳሽ መገለጫዎች ወደ ውጭ ተልከዋል።"
+  },
+  "managed": {
+    "message": "የሚተዳደር መስቀለኛ መንገድ"
+  },
+  "netRegion": {
+    "message": "የዒላማ አካባቢ"
+  },
+  "netNodeArea": {
+    "message": "የተኪ ኖድ"
+  },
+  "netChina": {
+    "message": "ዋናው ቻይና"
+  },
+  "netGlobal": {
+    "message": "ዓለም አቀፍ"
+  },
+  "netAli": {
+    "message": "AliDNS"
+  },
+  "netTencent": {
+    "message": "DNSPod"
+  },
+  "netStartHelp": {
+    "message": "ኢላማን ይምረጡ እና ቀጥታ ሙከራ ይጀምሩ።"
+  },
+  "netConsole": {
+    "message": "የቀጥታ ምርመራዎች"
+  },
+  "netStop": {
+    "message": "አቁም"
+  },
+  "netRunning": {
+    "message": "መሮጥ"
+  },
+  "netStopped": {
+    "message": "ቆሟል"
+  },
+  "netSent": {
+    "message": "ተልኳል።"
+  },
+  "netLoss": {
+    "message": "ኪሳራ"
+  },
+  "netAverageShort": {
+    "message": "አማካኝ"
+  },
+  "netLogClear": {
+    "message": "ግልጽ"
+  },
+  "netFinishing": {
+    "message": "ያለፈው ምርመራ በማጠናቀቅ ላይ ነው…"
+  },
+  "netRound": {
+    "message": "ዙር"
+  },
+  "netDestination": {
+    "message": "መድረሻ"
+  },
+  "netHop": {
+    "message": "ሆፕ"
+  },
+  "netAddress": {
+    "message": "IP አድራሻ"
+  },
+  "netLast": {
+    "message": "የመጨረሻው"
+  },
+  "netConsoleHelp": {
+    "message": "ፒንግ / TCPing / MTR የስርዓት ኔትወርክን እንጂ የፕሮክሲ ሰንሰለቱን አይጠቀሙም። የጠፉ ICMP ምላሾች የትራፊክ ኪሳራን አያረጋግጡም። አውርድ የአሳሹን መንገድ እና የተመረጠውን የመጠን ገደብ ይጠቀማል። ይህን ገጽ ሲለቁ ወይም ሲደብቁ ሙከራዎች ይቆማሉ።"
+  },
+  "netDirectShort": {
+    "message": "የስርዓት አውታረ መረብ"
+  },
+  "netIcmpShort": {
+    "message": "የለም ICMP መልስ"
+  },
+  "netProbeError": {
+    "message": "የአካባቢ ምርመራ ስህተት"
+  },
+  "netNoDestination": {
+    "message": "መድረሻው አልደረሰም።"
+  },
+  "deleteActive": {
+    "message": "ወደ ሲስተም ይቀይሩ እና ይሰርዙ"
+  },
+  "deleteActiveHelp": {
+    "message": "ይህ መገለጫ ንቁ ነው። እሱን መሰረዝ አሳሹን ወደ የስርዓት ተኪ ይቀይረዋል።"
+  },
+  "netDownloadSize": {
+    "message": "የማውረድ መጠን"
+  },
+  "netReceived": {
+    "message": "ተቀበሉ"
+  },
+  "netBest": {
+    "message": "ምርጥ"
+  },
+  "netWorst": {
+    "message": "በጣም የከፋው"
+  },
+  "netStdDev": {
+    "message": "Std dev"
+  },
+  "netLocation": {
+    "message": "ቦታ"
+  },
+  "toolWall": {
+    "message": "የጎራ እገዳ ቼክ"
+  },
+  "toolSites": {
+    "message": "ታዋቂ ድር ጣቢያዎች"
+  },
+  "toolGlobal": {
+    "message": "ዓለም አቀፍ ምርመራዎች"
+  },
+  "toolFast": {
+    "message": "Netflix ፍጥነት"
+  },
+  "toolSpeed": {
+    "message": "የፍጥነት ሙከራ"
+  },
+  "toolStart": {
+    "message": "ጀምር"
+  },
+  "toolReady": {
+    "message": "ዝግጁ"
+  },
+  "toolResponded": {
+    "message": "ምላሽ ሰጥተዋል"
+  },
+  "toolNoResponse": {
+    "message": "አልተረጋገጠም።"
+  },
+  "toolCacheUnsupported": {
+    "message": "ይህ አሳሽ መሸጎጫውን በጣቢያ ማጽዳት አይችልም፤ ገጹ እንደገና ተጭኗል።"
+  },
+  "toolCacheFailed": {
+    "message": "መሸጎጫ ማጽዳት አላለቀም። ዝጋ እና እንደገና ሞክር።"
+  },
+  "toolClose": {
+    "message": "ዝጋ"
+  },
+  "toolReload": {
+    "message": "እንደገና ጫን"
+  },
+  "toolLoading": {
+    "message": "በመጫን ላይ…"
+  },
+  "toolFrameError": {
+    "message": "መጫን አልተቻለም። እንደገና ለመጫን ይሞክሩ።"
+  },
+  "toolSiteHelp": {
+    "message": "የአሳሽ ተደራሽነት ብቻ። ይህ መለያን ወይም የክልል መዳረሻን አያረጋግጥም።"
+  },
+  "toolFallback": {
+    "message": "የመጠባበቂያ ፍጥነት ሙከራ"
+  },
+  "toolFullscreen": {
+    "message": "ሙሉ ማያ"
+  },
+  "toolRestore": {
+    "message": "ከሙሉ ማያ ገጽ ውጣ"
+  },
+  "ipReadFailed": {
+    "message": "ማንበብ አልተሳካም። 👉"
+  },
+  "ipViewSource": {
+    "message": "ምንጭ ጣቢያ ይመልከቱ"
+  },
+  "toolDownloadError": {
+    "message": "የማውረጃውን አገልጋይ ማግኘት አልተቻለም። እንደገና ይሞክሩ።"
+  },
+  "toolAccess": {
+    "message": "የጣቢያ መዳረሻን አንቃ"
+  },
+  "toolPermission": {
+    "message": "ለተከተተ ክፍለ ጊዜ ተኳሃኝነት የዚህ ጣቢያ መዳረሻ ፍቀድ።"
+  },
+  "toolAsia": {
+    "message": "እስያ"
+  },
+  "toolEurope": {
+    "message": "አውሮፓ"
+  },
+  "toolAmerica": {
+    "message": "ሰሜን አሜሪካ"
+  },
+  "toolGlobalHelp": {
+    "message": "የአሳሹን መውጫ ቀድሞ ይሞላል IP። መንገዶችን ለማነፃፀር ዋናውን ቻይናን ወይም ሌላ ክልልን ይምረጡ; ጀምር የሚታየውን ኢላማ እስከ ሶስት Globalping መመርመሪያዎችን ይልካል።"
+  },
+  "toolServiceError": {
+    "message": "የሙከራ አገልግሎቱ አይገኝም። እንደገና ይሞክሩ።"
+  },
+  "popupOrderHelp": {
+    "message": "እንደገና ለመደርደር ይያዙ እና ይጎትቱ። Alt+ የቀስት ቁልፎች ይህን መገለጫ ያንቀሳቅሳሉ።"
+  },
+  "popupOrderSaved": {
+    "message": "ትዕዛዙ ተቀምጧል"
+  },
+  "toolGroupIP": {
+    "message": "IP ሙከራዎች"
+  },
+  "toolGroupWeb": {
+    "message": "የድር ጣቢያ ሙከራዎች"
+  },
+  "toolGroupSpeed": {
+    "message": "ፍጥነት"
+  },
+  "toolCurrentIP": {
+    "message": "የአሁኑ መውጫ IP"
+  },
+  "toolCurrentIPLoading": {
+    "message": "የአሁኑን መውጫ በመጫን ላይ IP…"
+  },
+  "toolCurrentIPFailed": {
+    "message": "የአሁኑን IP ማንበብ አልተቻለም። ዒላማ ያስገቡ።"
+  },
+  "speedMode": {
+    "message": "የሙከራ ሁነታ"
+  },
+  "speedBoth": {
+    "message": "አውርድ + ሰቀላ"
+  },
+  "speedDownload": {
+    "message": "አውርድ"
+  },
+  "speedUpload": {
+    "message": "ስቀል"
+  },
+  "speedLatency": {
+    "message": "HTTP መዘግየት"
+  },
+  "speedBudget": {
+    "message": "{n} MiB በየደረጃው · {total} MiB ድምር፣ እንዲሁም አነስተኛ መዘግየት ናሙናዎች።"
+  },
+  "siteCategory": {
+    "message": "የድር ጣቢያ ምድብ"
+  },
+  "siteAll": {
+    "message": "ሁሉም ድር ጣቢያዎች"
+  },
+  "siteAI": {
+    "message": "AI"
+  },
+  "siteDevelopment": {
+    "message": "ልማት"
+  },
+  "siteVideo": {
+    "message": "ቪዲዮ / ሙዚቃ"
+  },
+  "siteSocial": {
+    "message": "ማህበራዊ"
+  },
+  "siteDomestic": {
+    "message": "ዋና መሬት አገልግሎቶች"
+  },
+  "siteServices": {
+    "message": "የተለመዱ አገልግሎቶች"
+  },
+  "globalMethod": {
+    "message": "የመለኪያ አይነት"
+  },
+  "localPort": {
+    "message": "የአካባቢ ወደብ፡"
+  },
+  "chainChooseNode": {
+    "message": "የተኪ ኖድ ይምረጡ"
+  },
+  "chainTitle": {
+    "message": "የተኪ ሰንሰለት"
+  },
+  "chainSelectExit": {
+    "message": "ይህንን ብጁ ሰንሰለት ለማስቀመጥ ወይም ለመሞከር ከዚህ በታች የተወሰነ መውጫ ኖድ ይምረጡ። ተከተል v2rayN የሚተዳደረው በ v2rayN ነው።"
+  },
+  "chainSelectExitShort": {
+    "message": "መውጫ መስቀለኛ መንገድ ይምረጡ"
+  },
+  "chainAdd": {
+    "message": "+ የተኪ ንብርብር ያክሉ"
+  },
+  "chainTest": {
+    "message": "የሙከራ ሰንሰለት"
+  },
+  "chainMode": {
+    "message": "ሰንሰለት ሁነታ"
+  },
+  "chainBase": {
+    "message": "ቤዝ ፕሮክሲ"
+  },
+  "chainExit": {
+    "message": "ከፕሮክሲ ውጣ"
+  },
+  "chainEgress": {
+    "message": "ሰንሰለት Egress"
+  },
+  "chainExitBadge": {
+    "message": "ውጣ IP"
+  },
+  "chainEntry": {
+    "message": "ሰንሰለት ማስገቢያ"
+  },
+  "chainTransit": {
+    "message": "ድልድይ መስቀለኛ መንገድ"
+  },
+  "chainUntested": {
+    "message": "አልተፈተነም።"
+  },
+  "chainMissing": {
+    "message": "የማይገኝ መስቀለኛ መንገድ"
+  },
+  "chainUnresolved": {
+    "message": "የተወረሰውን ሰንሰለት መፍታት አልተቻለም። የቀደመውን ቅንብሮች ይጠግኑ ወይም ብጁ ሰንሰለት ይምረጡ።"
+  },
+  "chainUpgrade": {
+    "message": "የታዘዙ ሰንሰለቶችን ለማንቃት የአካባቢውን ጓደኛ ያዘምኑ።"
+  },
+  "chainBusy": {
+    "message": "ሌላ የሰንሰለት ሙከራ እየሄደ ነው።"
+  },
+  "chainOK": {
+    "message": "ሊደረስበት የሚችል"
+  },
+  "chainFailed": {
+    "message": "በዚህ ፈተና ውስጥ መዝለል አልተሳካም።"
+  },
+  "chainBlocked": {
+    "message": "አልተፈተነም · ያለፈው ሆፕ አልተሳካም።"
+  },
+  "chainFailureHelp": {
+    "message": "ይህ ሆፕ ወይም ወደ እሱ የሚወስደው መንገድ አላለፈም። በኋላ ሆፕስ አልተፈተነም።"
+  },
+  "chainAllOK": {
+    "message": "ሁሉም ድምር መንገዶች ምላሽ ሰጥተዋል"
+  },
+  "chainStopping": {
+    "message": "አሁን ካለው የታሰረ ፍተሻ በኋላ በመቆም ላይ…"
+  },
+  "globalWorld": {
+    "message": "በዓለም ዙሪያ"
+  },
+  "globalUnavailable": {
+    "message": "ዒላማው ወይም ክልል አይገኝም። ዒላማውን ያረጋግጡ ወይም ሌላ ክልል ይምረጡ።"
+  },
+  "globalRateLimited": {
+    "message": "የአገልግሎት ዋጋ ገደብ ላይ ደርሷል። ቆይተው እንደገና ይሞክሩ።"
+  },
+  "globalNoResults": {
+    "message": "አገልግሎቱ ምንም የምርመራ ውጤት አልመለሰም። ሌላ ክልል ይሞክሩ።"
+  },
+  "globalProbeFailed": {
+    "message": "ምርመራ አልተሳካም።"
+  },
+  "globalProbeOffline": {
+    "message": "ከመስመር ውጭ መርምር"
+  },
+  "globalIcmpCaution": {
+    "message": "የጠፉ ICMP ምላሾች ብቻ መታገዱን አያረጋግጡም። ዋናውን እና የባህር ማዶ መንገዶችን እና ሌሎች የሙከራ ዓይነቶችን ያወዳድሩ።"
+  },
+  "speedRealtime": {
+    "message": "የቀጥታ ፍጥነት"
+  },
+  "speedAverage": {
+    "message": "አማካይ ፍጥነት"
+  },
+  "ipToolsBrief": {
+    "message": "የሶስተኛ ወገን ውጤቶች ለማጣቀሻ ናቸው።"
+  },
+  "ipReportBrief": {
+    "message": "ውጤቶቹ እንደ መውጫው ይለያያሉ IP እና ለማጣቀሻ ናቸው።"
+  },
+  "toolPingPe": {
+    "message": "IP ማገድ ቼክ"
+  },
+  "toolTargetIP": {
+    "message": "ዒላማ IP"
+  },
+  "toolOpenPingPe": {
+    "message": "ይፋዊ ፈተናን ይክፈቱ"
+  },
+  "toolInvalidIP": {
+    "message": "ትክክለኛ IPv4 ወይም IPv6 አድራሻ ያስገቡ።"
+  },
+  "toolInvalidPort": {
+    "message": "ከ1 እስከ 65535 ወደ TCP አስገባ።"
+  },
+  "toolExternalFailed": {
+    "message": "ድህረ ገጹን መክፈት አልተቻለም። እንደገና ይሞክሩ።"
+  },
+  "ipBrowserReading": {
+    "message": "Ping0 በአሳሹ በኩል በማንበብ…"
+  },
+  "ipVerifyBrowser": {
+    "message": "የማረጋገጫ ገጽ ክፈት"
+  },
+  "policyCenter": {
+    "message": "ግላዊነት፣ መግለጫ እና የሚጠየቁ ጥያቄዎች"
+  },
+  "policyCenterIntro": {
+    "message": "የአካባቢ ውሂብ አያያዝ፣ የፈተና ገደቦች እና የተለመዱ መልሶች"
+  },
+  "policyPrivacyTitle": {
+    "message": "የግላዊነት ፖሊሲ"
+  },
+  "policyPrivacySummary": {
+    "message": "መገለጫዎች እና ምስክርነቶች በዚህ መሣሪያ ላይ ይቆያሉ። የብቅ-ባይ ፍተሻዎች እና ምርመራዎች የተገለጹትን አቅራቢዎቻቸውን ያነጋግሩ። ምንም ማስታወቂያ ወይም የባህሪ ትንታኔ የለም።"
+  },
+  "policyDeclarationTitle": {
+    "message": "የአጠቃቀም እና የመለኪያ መግለጫ"
+  },
+  "policyDeclarationSummary": {
+    "message": "ይህ ቅጥያ የአገር ውስጥ የመንገድ አስተዳዳሪ ነው እንጂ ተኪ ወይም VPN አቅራቢ አይደለም። መለኪያዎች በኔትወርክ፣ በፕሮክሲ እና በአቅራቢ ሁኔታዎች የተጎዱ የማጣቀሻ ናሙናዎች ናቸው።"
+  },
+  "policyFaqTitle": {
+    "message": "የሚጠየቁ ጥያቄዎች"
+  },
+  "policyFaqSummary": {
+    "message": "Windows ተጓዳኝ ለአካባቢያዊ አንጓዎች እና MTR ያስፈልጋል። የቆይታ ጊዜ በአሳሽ፣ በስርዓት እና በአደባባይ መመርመሪያዎች መካከል ሊለያይ ይችላል። ሙከራ ያቁሙ ወይም የአካባቢ ውሂብን ከቅንብሮች ያጽዱ።"
+  },
+  "policyDetailsLink": {
+    "message": "ሙሉ ዝርዝሮችን ያንብቡ ↗"
+  },
+  "thirdPartyNotice": {
+    "message": "ክፍት ምንጭ ማስታወቂያዎች ↗"
+  },
+  "columnResizeHelp": {
+    "message": "መጠን ለመቀየር ይጎትቱ; ዳግም ለማስጀመር ሁለቴ ጠቅ ያድርጉ; ለማስተካከል የቀስት ቁልፎችን ይጠቀሙ"
+  },
+  "columnResize": {
+    "message": "የአምድ መጠን ቀይር"
+  },
+  "typeDescription_node": {
+    "message": "በፕሮክሲ ኖድ በኩል ይገናኙ"
+  },
+  "typeDescription_manual": {
+    "message": "የተኪ ቅንብሮችን በእጅ ያስገቡ"
+  },
+  "typeDescription_auto": {
+    "message": "ደንቦችን በመጠቀም መስቀለኛ መንገድ ይምረጡ"
+  },
+  "typeDescription_pac": {
+    "message": "የ PAC ደንቦችን በመጠቀም የመንገድ ትራፊክ"
+  },
+  "appDescription": {
+    "message": "ገለልተኛ የአሳሽ ፕሮክሲ መንገዶችን፣ ኖዶችን፣ የጎራ ደንቦችን እና የግንኙነት ፍተሻዎችን ያቀናብሩ። የመስቀለኛ መንገድ መስመሮች Windows አጃቢ ያስፈልጋቸዋል።"
+  },
+  "core_title": {
+    "message": "ተኪ ኮር"
+  },
+  "core_checking": {
+    "message": "የአካባቢውን አካል በመፈተሽ ላይ…"
+  },
+  "core_ready": {
+    "message": "Xray ዝግጁ ነው።"
+  },
+  "core_missing": {
+    "message": "ፕሮክሲ ኮር ጠፍቷል"
+  },
+  "core_external": {
+    "message": "ብጁ ኮር፡ አልተረጋገጠም።"
+  },
+  "core_corrupt": {
+    "message": "Xray የቼክሰም አለመዛመድ - መጠገን ያስፈልጋል"
+  },
+  "core_unreadable": {
+    "message": "የኮር ፋይል መፈተሽ አልተቻለም"
+  },
+  "core_intro": {
+    "message": "የተሟላው Windows ጥቅል Xray ያካትታል። v2rayN አማራጭ ነው።"
+  },
+  "core_verify": {
+    "message": "እንደገና ያረጋግጡ"
+  },
+  "core_install": {
+    "message": "ጫን / መጠገን ኮር"
+  },
+  "core_installing": {
+    "message": "በማውረድ እና በማረጋገጥ ላይ…"
+  },
+  "core_done": {
+    "message": "ኮር የተረጋገጠ እና ዝግጁ ነው።"
+  },
+  "core_help": {
+    "message": "ጥገና የተሰካ ባለስልጣን Xray መለቀቅን ይጠቀማል እና ቼኩን ያረጋግጣል። ነባር ግንኙነቶች እየሰሩ ይቆያሉ።"
+  },
+  "core_absent": {
+    "message": "የአከባቢውን አካል አንዴ ይጫኑ እና ዋናውን ለመፈተሽ ወደዚህ ይመለሱ።"
+  },
+  "core_download": {
+    "message": "የመጫኛ መመሪያ"
+  },
+  "core_absentHelp": {
+    "message": "ተዛማጅ Windows ጥቅልን ይጠቀሙ ወይም መመሪያውን ከምንጩ ለመገንባት እና ከዚያ ማዋቀርን ያሂዱ።"
+  },
+  "core_failed": {
+    "message": "የኮር ኦፕሬሽን አልተሳካም። እንደገና ይሞክሩ ወይም ሙሉውን Windows ጥቅል ይጠቀሙ።"
+  },
+  "core_version": {
+    "message": "ስሪት"
+  },
+  "error_ACTIVE_PROFILE_DELETE": {
+    "message": "ከመሰረዝዎ በፊት ወደ ሌላ መገለጫ ይቀይሩ"
+  },
+  "error_BACKUP_BINDING_TYPE": {
+    "message": "የተኪ መገለጫዎች ብቻ ከመስመሮች ጋር ሊያያዙ ይችላሉ"
+  },
+  "error_BACKUP_FORMAT3_REQUIRED": {
+    "message": "የኖድ ደንቦች በቅርጸት 3 የተዘጋጀ ተንቀሳቃሽ መጠባበቂያ ቅጂ ይፈልጋሉ"
+  },
+  "error_BACKUP_INDEPENDENT_PATH_REQUIRED": {
+    "message": "መጠባበቂያው ራሱን የቻለ የኖድ መንገድ ሊይዝ ይገባል"
+  },
+  "error_BACKUP_INTERNAL_BINDINGS": {
+    "message": "መጠባበቂያው ውስጣዊ ማያያዣዎችን ይዟል"
+  },
+  "error_BACKUP_MESSAGE_LIMIT": {
+    "message": "የኖድ መጠባበቂያው የተጓዳኙን አካል የመልዕክት ገደብ አልፏል"
+  },
+  "error_BACKUP_NODES_INCOMPLETE": {
+    "message": "የኖድ መጠባበቂያው ያልተሟላ ነው"
+  },
+  "error_BACKUP_NODE_MISSING": {
+    "message": "በመጠባበቂያው ውስጥ አስፈላጊ ኖድ ይጎድላል"
+  },
+  "error_BACKUP_NODE_PATHS_LIMIT": {
+    "message": "መጠባበቂያው እስከ {limit} የኖድ መንገዶችን መያዝ ይችላል"
+  },
+  "error_BACKUP_PATH_INCOMPLETE": {
+    "message": "በመጠባበቂያው ያለው የኖድ መንገድ ያልተሟላ ነው"
+  },
+  "error_BACKUP_PROFILES_LIMIT": {
+    "message": "መጠባበቂያው እስከ {limit} መገለጫዎችን መያዝ ይችላል"
+  },
+  "error_BACKUP_PROXY_CONFLICT": {
+    "message": "መጠባበቂያው የሚጋጩ የተኪ ቅንብሮችን ይዟል"
+  },
+  "error_BACKUP_SIZE_LIMIT": {
+    "message": "መጠባበቂያው ከ{limit} MB በላይ ነው"
+  },
+  "error_BACKUP_TRANSFER_UNAVAILABLE": {
+    "message": "የኖድ መጠባበቂያዎችን ለማስተላለፍ ተጓዳኙን አካል ያዘምኑ ወይም ይጠግኑ።"
+  },
+  "error_BACKUP_UNUSED_NODES": {
+    "message": "መጠባበቂያው ማጣቀሻ የሌላቸውን ኖዶች ይዟል"
+  },
+  "error_BODY_TOO_LARGE": {
+    "message": "የደንበኝነት ምዝገባው ምላሽ ከተፈቀደው መጠን በላይ ነው።"
+  },
+  "error_BROWSER_API_FAILED": {
+    "message": "የአሳሹ ክወና አልተሳካም። ቴክኒካዊ ዝርዝሮችን ይመልከቱ።"
+  },
+  "error_BROWSER_PROXY_RESTORE_FAILED": {
+    "message": "ክወናው አልተሳካም፣ እና የቀድሞውን የአሳሽ ተኪ መመለስ አልተቻለም"
+  },
+  "error_BROWSER_SCHEDULING_UNAVAILABLE": {
+    "message": "የአሳሹ የጊዜ ሰሌዳ ተግባር አይገኝም።"
+  },
+  "error_BUSY": {
+    "message": "ሌላ ክወና በመካሄድ ላይ ነው። ትንሽ ቆይተው እንደገና ይሞክሩ።"
+  },
+  "error_CHAIN_PROBE_FAILED": {
+    "message": "የሰንሰለቱ ሙከራ አልተሳካም"
+  },
+  "error_COMPANION_BULK_RELEASE_REQUIRED": {
+    "message": "ብዙ የኖድ ደንቦችን በደህና ለማስተዳደር የአካባቢውን ተጓዳኝ አካል ያዘምኑ"
+  },
+  "error_COMPANION_CHAINS_REQUIRED": {
+    "message": "በቅደም ተከተል የተዘጋጁ ሰንሰለቶችን ለመጠቀም የአካባቢውን ተጓዳኝ አካል ያዘምኑ"
+  },
+  "error_COMPANION_MESSAGE_LIMIT": {
+    "message": "ቅንብሮቹ የተጓዳኙን አካል የመልዕክት ገደብ አልፈዋል"
+  },
+  "error_COMPANION_OPERATION_FAILED": {
+    "message": "የአካባቢው ተጓዳኝ አካል ክወና አልተሳካም። ቴክኒካዊ ዝርዝሮችን ይመልከቱ።"
+  },
+  "error_COMPANION_UNAVAILABLE": {
+    "message": "የV2Route ተጓዳኝ አካልን ይጫኑ ወይም ይጠግኑ"
+  },
+  "error_CONNECTION_CLOSED": {
+    "message": "ሙከራው ከመጠናቀቁ በፊት ግንኙነቱ ተዘግቷል።"
+  },
+  "error_CORE_INSTALL_FAILED": {
+    "message": "የኮሩ ጭነት አልተሳካም። ቴክኒካዊ ዝርዝሮችን ይመልከቱ።"
+  },
+  "error_CORE_OWNERSHIP_FAILED": {
+    "message": "የተለየውን የሙከራ ኮር በደህና መቆጣጠር አልተቻለም። ሙከራው ቆሟል።"
+  },
+  "error_CORE_START_FAILED": {
+    "message": "የተለየው የሙከራ ኮር መጀመር አልቻለም። የተጓዳኙን አካል እና የኮሩን ጭነት ያረጋግጡ።"
+  },
+  "error_CORE_START_TIMEOUT": {
+    "message": "የተለየው የሙከራ ኮር በጊዜው ዝግጁ አልሆነም።"
+  },
+  "error_CORE_STATUS_UNAVAILABLE": {
+    "message": "የኮሩ ሁኔታ አይገኝም። ቴክኒካዊ ዝርዝሮችን ይመልከቱ።"
+  },
+  "error_CORE_VALIDATION_FAILED": {
+    "message": "Xray የመጡትን ኖዶች ማረጋገጥ አልቻለም። ቅንብሮቻቸውን አረጋግጠው እንደገና ይሞክሩ።"
+  },
+  "error_DETACH_PORT_CONFLICT": {
+    "message": "የሚተዳደረው ወደብ ይለቀቃል። ሌላ በእጅ የሚዋቀር ተኪ ያስገቡ"
+  },
+  "error_DETACH_PROXY_REQUIRED": {
+    "message": "ግንኙነቱን ከማላቀቅዎ በፊት የሚተካውን በእጅ የሚዋቀር ተኪ ያስገቡ"
+  },
+  "error_DNS_BUSY": {
+    "message": "የDNS ፍለጋ ተይዟል። ትንሽ ቆይተው እንደገና ይሞክሩ።"
+  },
+  "error_DNS_FAILED": {
+    "message": "የDNS ፍለጋ አልተሳካም። አድራሻውን እና የአውታረ መረብ ግንኙነቱን ያረጋግጡ።"
+  },
+  "error_ENCODING_UNSUPPORTED": {
+    "message": "የደንበኝነት ምዝገባው የማይደገፍ የይዘት ኢንኮዲንግ ይጠቀማል።"
+  },
+  "error_FIREFOX_PRIVATE_ACCESS_REQUIRED": {
+    "message": "የተኪ ቅንብሮችን ከመቀየርዎ በፊት በቅጥያው ዝርዝር ውስጥ V2Route በግል መስኮቶች እንዲሰራ ይፍቀዱ"
+  },
+  "error_FOLDER_UNAVAILABLE": {
+    "message": "አቃፊው አይገኝም፤ መንገዱን፣ የመድረሻ ፈቃዶችን እና የተጓዳኙን አካል ስሪት ያረጋግጡ"
+  },
+  "error_GROUP_LIMIT": {
+    "message": "የቡድኖች ገደብ ተደርሷል። የማይጠቀሙበትን ቡድን አስወግደው እንደገና ይሞክሩ።"
+  },
+  "error_GROUP_NOT_EDITABLE": {
+    "message": "ይህን የምንጭ ቡድን እዚህ ማርትዕ አይቻልም።"
+  },
+  "error_GROUP_NOT_FOUND": {
+    "message": "የተመረጠው ቡድን ከእንግዲህ የለም። ሌላ ቡድን ይምረጡ።"
+  },
+  "error_HTTP_ENCODING": {
+    "message": "የሙከራ አገልጋዩ የማይደገፍ ኢንኮዲንግ መልሷል።"
+  },
+  "error_HTTP_LENGTH": {
+    "message": "የሙከራ ምላሹ መጠን ከተጠየቀው መጠን ጋር አልተዛመደም።"
+  },
+  "error_HTTP_RESPONSE_TOO_LARGE": {
+    "message": "የሙከራ ምላሹ ከተፈቀደው መጠን በላይ ነበር።"
+  },
+  "error_HTTP_STATUS": {
+    "message": "የሙከራ አገልጋዩ ያልተሳካ የHTTP ሁኔታ መልሷል።"
+  },
+  "error_IMPORTED_PROXY_MISSING": {
+    "message": "ተጓዳኙ አካል የመጣውን ተኪ አልመለሰም"
+  },
+  "error_IMPORTED_RULE_PATH_CONFLICT": {
+    "message": "የመጡት ኖዶች የሚጋጩ የደንብ መንገዶችን ያመነጫሉ"
+  },
+  "error_IMPORT_CLEANUP_FAILED": {
+    "message": "ማስመጣቱ አልተሳካም፤ አንዳንድ ጊዜያዊ ኖዶች ወይም ወደቦች መለቀቅ አልቻሉም። ያሉት መገለጫዎች ተጠብቀዋል"
+  },
+  "error_IMPORT_PROFILE_NAME_CONFLICT": {
+    "message": "የመገለጫው ስም ተደግሟል ወይም ልክ አይደለም"
+  },
+  "error_INCOMPLETE_RESPONSE": {
+    "message": "የደንበኝነት ምዝገባው ምላሽ ያልተሟላ ነበር። እንደገና ይሞክሩ።"
+  },
+  "error_INVALID_BACKUP": {
+    "message": "ልክ ያልሆነ የV2Route መጠባበቂያ"
+  },
+  "error_INVALID_BACKUP_NODE": {
+    "message": "ልክ ያልሆነ ወይም የተደገመ የመጠባበቂያ ኖድ"
+  },
+  "error_INVALID_BACKUP_NODES": {
+    "message": "ልክ ያልሆኑ የመጠባበቂያ ኖዶች"
+  },
+  "error_INVALID_BACKUP_PATH": {
+    "message": "ልክ ያልሆነ የመጠባበቂያ መንገድ"
+  },
+  "error_INVALID_BYPASS_ENTRY": {
+    "message": "ልክ ያልሆነ የተኪ ማለፊያ ግቤት"
+  },
+  "error_INVALID_BYPASS_LIST": {
+    "message": "ልክ ያልሆነ የተኪ ማለፊያ ዝርዝር"
+  },
+  "error_INVALID_CHAIN": {
+    "message": "ልክ ያልሆነ በቅደም ተከተል የተዘጋጀ ሰንሰለት"
+  },
+  "error_INVALID_CHAIN_PROBE": {
+    "message": "ልክ ያልሆነ የሰንሰለት ሙከራ"
+  },
+  "error_INVALID_COMPANION_RESPONSE": {
+    "message": "የአካባቢው ተጓዳኝ አካል ልክ ያልሆነ ምላሽ ሰጥቷል። ያዘምኑት ወይም ይጠግኑት።"
+  },
+  "error_INVALID_CONTENT": {
+    "message": "የደንበኝነት ምዝገባው ምላሽ ትክክለኛ ይዘት አልያዘም።"
+  },
+  "error_INVALID_DOMAIN_PATTERNS": {
+    "message": "የዶሜይን ንድፎችን በነጠላ ሰረዝ ይለዩ፤ እያንዳንዱን URL በተለየ ረድፍ ያስቀምጡ"
+  },
+  "error_INVALID_ENCODING": {
+    "message": "የደንበኝነት ምዝገባው ምላሽ ልክ ያለው UTF-8 ጽሑፍ አይደለም።"
+  },
+  "error_INVALID_FOLDER_REQUEST": {
+    "message": "ልክ ያልሆነ የአቃፊ ጥያቄ"
+  },
+  "error_INVALID_GROUP_ACTION": {
+    "message": "ይህ የቡድን ተግባር አይደገፍም።"
+  },
+  "error_INVALID_HOP_INDEX": {
+    "message": "ልክ ያልሆነ የሆፕ መለያ ቁጥር"
+  },
+  "error_INVALID_LEGACY_PREDECESSOR": {
+    "message": "ልክ ያልሆነ የድሮ ቅድመ ተኪ"
+  },
+  "error_INVALID_LIBRARY_COMMAND": {
+    "message": "ይህ የኖድ ላይብረሪ ትዕዛዝ አይደገፍም።"
+  },
+  "error_INVALID_LIBRARY_REQUEST": {
+    "message": "ልክ ያልሆነ የላይብረሪ ጥያቄ"
+  },
+  "error_INVALID_NAME": {
+    "message": "የመቆጣጠሪያ ቁምፊዎች የሌሉበት ከ1–128 የሚታዩ ቁምፊዎች ያሉት ስም ያስገቡ።"
+  },
+  "error_INVALID_NETWORK_TEST": {
+    "message": "ልክ ያልሆነ የአውታረ መረብ ሙከራ"
+  },
+  "error_INVALID_NODE_IMPORT_RESPONSE": {
+    "message": "ልክ ያልሆነ የኖድ ማስመጣት ምላሽ"
+  },
+  "error_INVALID_PREDECESSOR": {
+    "message": "ለዚህ መስመር ልክ ያልሆነ ቅድመ ተኪ"
+  },
+  "error_INVALID_PROFILE_NAME": {
+    "message": "ልክ ያልሆነ የመገለጫ ስም"
+  },
+  "error_INVALID_PROFILE_REFERENCE": {
+    "message": "ልክ ያልሆነ የመገለጫ ማጣቀሻ"
+  },
+  "error_INVALID_PROXY_AUTH": {
+    "message": "ልክ ያልሆነ የተኪ ማረጋገጫ"
+  },
+  "error_INVALID_PROXY_CREDENTIALS": {
+    "message": "ልክ ያልሆኑ የተኪ መግቢያ መረጃዎች"
+  },
+  "error_INVALID_PROXY_ENDPOINT": {
+    "message": "ትክክለኛ የተኪ አስተናጋጅ እና ወደብ ያስገቡ"
+  },
+  "error_INVALID_PROXY_HOST": {
+    "message": "ወደብ፣ URL፣ መንገድ ወይም መጠይቅ የሌለበት DNS ስም ወይም IP አድራሻ ያስገቡ"
+  },
+  "error_INVALID_ROUTE": {
+    "message": "ልክ ያልሆነ መስመር"
+  },
+  "error_INVALID_ROUTE_SETTINGS": {
+    "message": "ልክ ያልሆኑ የመስመር ቅንብሮች"
+  },
+  "error_INVALID_RULES": {
+    "message": "ልክ ያልሆኑ ደንቦች"
+  },
+  "error_INVALID_RULE_TARGET": {
+    "message": "ለእያንዳንዱ ደንብ አንድ ትክክለኛ ኖድ ወይም መገለጫ ይምረጡ"
+  },
+  "error_INVALID_SUBSCRIPTION": {
+    "message": "ልክ ያልሆነ የደንበኝነት ምዝገባ"
+  },
+  "error_INVALID_SUBSCRIPTION_REQUEST": {
+    "message": "ልክ ያልሆነ የደንበኝነት ምዝገባ ጥያቄ"
+  },
+  "error_INVALID_SUBSCRIPTION_SETTINGS": {
+    "message": "የደንበኝነት ምዝገባው ቅንብሮች ልክ አይደሉም። የማዘመኛውን ክፍተት እና የግንኙነት ፖሊሲ ያረጋግጡ።"
+  },
+  "error_INVALID_SYSTEM_PROXY_RESPONSE": {
+    "message": "ልክ ያልሆነ የስርዓት ተኪ ምላሽ፤ ተጓዳኙን አካል ያዘምኑ ወይም ይጠግኑ"
+  },
+  "error_INVALID_TRANSPORT": {
+    "message": "የደንበኝነት ምዝገባው የግንኙነት ቅንብሮች ልክ አይደሉም።"
+  },
+  "error_INVALID_URL": {
+    "message": "የተጠቃሚ ስም ወይም የይለፍ ቃል የሌለበት ትክክለኛ HTTP(S) የደንበኝነት ምዝገባ URL ያስገቡ።"
+  },
+  "error_LIBRARY_CHANGED": {
+    "message": "የኖድ ላይብረሪው በሌላ መስኮት ተቀይሯል። አድሰውት እንደገና ይሞክሩ።"
+  },
+  "error_MANUAL_CHAIN_UNSUPPORTED": {
+    "message": "በእጅ የሚዋቀሩ ተኪዎች የኖድ ሰንሰለት አይቀበሉም"
+  },
+  "error_MANUAL_PROXY_CLEANUP_FAILED": {
+    "message": "ማስቀመጥ አልተሳካም፤ በጊዜያዊነት የመጣ ተኪ በኖድ ላይብረሪው ውስጥ ቀርቷል"
+  },
+  "error_NATIVE_BINDING_ID": {
+    "message": "የመስመር ማያያዣው መለያ ልክ አይደለም።"
+  },
+  "error_NATIVE_BINDING_UNKNOWN": {
+    "message": "የመስመሩ ማያያዣ የለም።"
+  },
+  "error_NATIVE_BUTTON_NAME": {
+    "message": "የአዝራሩ ስም ከ1–128 የሚታዩ ቁምፊዎችን ሊይዝ ይገባል።"
+  },
+  "error_NATIVE_CATALOG_UNREADABLE": {
+    "message": "የv2rayN ውቅርን ማንበብ አልተቻለም።"
+  },
+  "error_NATIVE_CORE_MISSING": {
+    "message": "Xray አይገኝም። የተጓዳኙን አካል ጥቅል ይጫኑ።"
+  },
+  "error_NATIVE_GROUP_ID_COLLISION": {
+    "message": "የቡድን መለያዎች ይጋጫሉ።"
+  },
+  "error_NATIVE_GROUP_ORDER": {
+    "message": "የቡድኖች ቅደም ተከተል ልክ አይደለም።"
+  },
+  "error_NATIVE_NODE_ID_COLLISION": {
+    "message": "የኖድ መለያዎች ይጋጫሉ።"
+  },
+  "error_NATIVE_PREDECESSOR_AMBIGUOUS": {
+    "message": "የቅድመ ተኪው ስም የለም ወይም ተደግሟል። የተወሰነ ቅድመ ኖድ ይምረጡ።"
+  },
+  "error_NATIVE_PREDECESSOR_CYCLE": {
+    "message": "የቅድመ ተኪ ሰንሰለቱ ዑደት አለው ወይም ከስድስት ኖዶች በላይ ነው።"
+  },
+  "error_NATIVE_PREDECESSOR_INVALID": {
+    "message": "ትክክለኛ ቅድመ ተኪ ይምረጡ።"
+  },
+  "error_NATIVE_PREDECESSOR_MISSING": {
+    "message": "የተመረጠው ቅድመ ተኪ ከእንግዲህ የለም። ሌላ ኖድ ይምረጡ።"
+  },
+  "error_NATIVE_PREDECESSOR_SETTINGS": {
+    "message": "የቅድመ ተኪው ቅንብሮች ልክ አይደሉም።"
+  },
+  "error_NATIVE_ROUTE_INVALID": {
+    "message": "ትክክለኛ መስመር ይምረጡ።"
+  },
+  "error_NATIVE_ROUTE_MISSING": {
+    "message": "ይህ መስመር ከእንግዲህ የለም። ሌላ መስመር ይምረጡ።"
+  },
+  "error_NATIVE_ROUTE_PORTS": {
+    "message": "የመስመር ወደብ ምደባዎች ልክ አይደሉም።"
+  },
+  "error_NATIVE_ROUTE_UNAVAILABLE": {
+    "message": "የተመረጠው መስመር አይገኝም። ቴክኒካዊ ዝርዝሮችን ይመልከቱ።"
+  },
+  "error_NATIVE_SETTINGS_FORMAT": {
+    "message": "የቅንብሮቹ ቅርጸት ልክ አይደለም።"
+  },
+  "error_NATIVE_SETTINGS_REVISION": {
+    "message": "የቅንብሮቹ ማሻሻያ ስሪት ልክ አይደለም።"
+  },
+  "error_NATIVE_SUCCESSOR_UNSUPPORTED": {
+    "message": "ይህ ቡድን የማይደገፍ ተከታይ ተኪ ይጠቀማል።"
+  },
+  "error_NATIVE_UNSUPPORTED_CUSTOM": {
+    "message": "ይህ ስሪት ብጁ የወጪ ግንኙነት ውቅሮችን አይደግፍም።"
+  },
+  "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
+    "message": "ይህ ስሪት Hysteria2ን አይደግፍም።"
+  },
+  "error_NATIVE_UNSUPPORTED_TUIC": {
+    "message": "ይህ ስሪት ለTUIC የሚያስፈልገውን sing-box ኮር አያካትትም።"
+  },
+  "error_NATIVE_UNSUPPORTED_TYPE": {
+    "message": "ይህ የመስመር ዓይነት አይደገፍም።"
+  },
+  "error_NATIVE_V2RAYN_PORT": {
+    "message": "የአካባቢው v2rayN ወደብ ልክ አይደለም።"
+  },
+  "error_NATIVE_V2RAYN_UNAVAILABLE": {
+    "message": "v2rayN አይገኝም። የመጣ ኖድ ይምረጡ።"
+  },
+  "error_NETWORK_FAILED": {
+    "message": "የአውታረ መረብ ጥያቄው አልተሳካም። ግንኙነቱን አረጋግጠው እንደገና ይሞክሩ።"
+  },
+  "error_NETWORK_TEST_FAILED": {
+    "message": "የአውታረ መረብ ምርመራው አልተሳካም። ቴክኒካዊ ዝርዝሮችን ይመልከቱ።"
+  },
+  "error_NODE_LIMIT": {
+    "message": "ክወናው የኖድ ገደብን ያልፋል። የማይጠቀሙባቸውን ኖዶች አስወግደው እንደገና ይሞክሩ።"
+  },
+  "error_NODE_MAPPING_INCOMPLETE": {
+    "message": "የኖድ ማዛመዱ ያልተሟላ ነው"
+  },
+  "error_NODE_NOT_FOUND": {
+    "message": "የተመረጠው ኖድ ከእንግዲህ የለም። ሌላ ኖድ ይምረጡ።"
+  },
+  "error_NOT_DUE": {
+    "message": "የሚቀጥለው የታቀደ ማዘመኛ ጊዜ ገና አልደረሰም።"
+  },
+  "error_PAC_ENTRY_REQUIRED": {
+    "message": "FindProxyForURL ያለው PAC ምንጭ ኮድ ያስገቡ"
+  },
+  "error_PAC_FUNCTION_REQUIRED": {
+    "message": "በከፍተኛው ደረጃ የተመሳሰለ FindProxyForURL ፋንክሽን፣ የፋንክሽን ተለዋዋጭ ወይም የፋንክሽን ምደባ ይግለጹ"
+  },
+  "error_PAC_PARSER_UNAVAILABLE": {
+    "message": "በጥቅሉ ያለው PAC ተንታኝ አይገኝም፤ ቅጥያውን እንደገና ይጫኑ"
+  },
+  "error_PAC_RULE_TARGET_UNSUPPORTED": {
+    "message": "ራስ-ሰር ደንቦች ውስጥ የተካተተ PAC መገለጫን ዒላማ ማድረግ አይችሉም"
+  },
+  "error_PAC_SOURCE_LIMIT": {
+    "message": "እስከ {limit} ቁምፊዎች ያለው PAC ምንጭ ኮድ ያስገቡ"
+  },
+  "error_PAC_SYNTAX_INVALID": {
+    "message": "የPAC አገባብ ልክ አይደለም"
+  },
+  "error_PAC_SYNTAX_LOCATION": {
+    "message": "በመስመር {line}፣ ዓምድ {column} ያለው የPAC አገባብ ልክ አይደለም"
+  },
+  "error_PARTIAL_TRANSFER": {
+    "message": "ሁሉም ውሂብ ከመድረሱ በፊት የሙከራ ማስተላለፉ አብቅቷል።"
+  },
+  "error_PRIVATE_DIRECTORY_FAILED": {
+    "message": "የግል ሙከራ አቃፊውን ደህንነት መጠበቅ አልተቻለም። ሙከራው ቆሟል።"
+  },
+  "error_PRIVATE_TARGET": {
+    "message": "ወደ ግል ወይም አካባቢያዊ አድራሻዎች የደንበኝነት ምዝገባ ጥያቄዎች አይፈቀዱም።"
+  },
+  "error_PROFILE_NOT_FOUND": {
+    "message": "መገለጫው አልተገኘም"
+  },
+  "error_PROFILE_REFERENCE_CYCLE": {
+    "message": "በመገለጫ ማጣቀሻዎች ውስጥ ዑደት አለ"
+  },
+  "error_PROFILE_REFERENCE_DEPTH": {
+    "message": "ራስ-ሰር ደንቦች ከ{limit} ከፍተኛ ጥልቀት በላይ ናቸው"
+  },
+  "error_PROFILE_REFERENCE_MISSING": {
+    "message": "የተጠቀሰው መገለጫ የለም፦ {name}"
+  },
+  "error_PROFILE_SAVE_RESTORE_FAILED": {
+    "message": "ማስቀመጥ አልተሳካም፤ የመስመሩ መመለስ መረጋገጥ አለበት"
+  },
+  "error_PROXY_AUTH_REQUIRED": {
+    "message": "የደንበኝነት ምዝገባ ተኪው ይህ ጥያቄ ሊያቀርበው የማይችል ማረጋገጫ ይፈልጋል።"
+  },
+  "error_PROXY_CONTROL_UNAVAILABLE": {
+    "message": "ሌላ ቅጥያ ወይም ፖሊሲ ተኪውን ይቆጣጠራል"
+  },
+  "error_PROXY_DNS_REQUIRED": {
+    "message": "በV2Route ውስጥ የSOCKS5 DNS ፍቺ በተኪው በኩል ይካሄዳል"
+  },
+  "error_PROXY_FAILED": {
+    "message": "የተኪ ግንኙነቱ አልተሳካም። የተመረጠውን መስመር ያረጋግጡ።"
+  },
+  "error_PROXY_PROFILE_REQUIRED": {
+    "message": "የተኪ መገለጫ ይምረጡ"
+  },
+  "error_PROXY_ROLLBACK_REFUSED": {
+    "message": "አሳሹ ተኪውን ወደ ቀድሞው ሁኔታ መመለስ አልተቀበለም"
+  },
+  "error_PROXY_SETTING_REFUSED": {
+    "message": "አሳሹ የተኪ ቅንብሩን አልተቀበለም"
+  },
+  "error_PROXY_UNAVAILABLE": {
+    "message": "የተመረጠው ተኪ አይገኝም። አሁን ያለውን መስመር ያረጋግጡ።"
+  },
+  "error_PROXY_USERNAME_REQUIRED": {
+    "message": "የተኪ ተጠቃሚ ስም ያስገቡ"
+  },
+  "error_RECOVERY_BINDINGS_LIMIT": {
+    "message": "በአንድ መልሶ ማግኛ እስከ {limit} የኖድ ማያያዣዎችን መመለስ ይቻላል። የተጠቀሱትን መገለጫዎች በተናጠል ከፍተው ያስቀምጡ።"
+  },
+  "error_REDIRECT_LIMIT": {
+    "message": "የደንበኝነት ምዝገባው ብዙ ጊዜ ተመርቷል። URLውን ያረጋግጡ።"
+  },
+  "error_REFERENCED_PROFILE_DELETE": {
+    "message": "ይህ መገለጫ በራስ-ሰር ደንብ ተጠቅሷል"
+  },
+  "error_REMOTE_PAC_UNSUPPORTED": {
+    "message": "ውስጥ የተካተተ PAC ምንጭ ኮድ ይጠቀሙ፤ የርቀት PAC አይደገፍም"
+  },
+  "error_ROUTE_PORT_UNAVAILABLE": {
+    "message": "ምንም ወደብ አልተመደበም"
+  },
+  "error_ROUTE_RECOVERY_RESTORE_FAILED": {
+    "message": "የመስመሩ መልሶ ማግኛ አልተሳካም፤ መመለሱ መረጋገጥ አለበት"
+  },
+  "error_ROUTE_REVISION_CONFLICT": {
+    "message": "መስመሩ በሌላ መስኮት ተቀይሯል። መጀመሪያ ያድሱ"
+  },
+  "error_ROUTE_SAVE_ROLLBACK_FAILED": {
+    "message": "መስመሩን ማስቀመጥ አልተሳካም፤ ወደ ቀድሞው ሁኔታ መመለሱ መረጋገጥ አለበት"
+  },
+  "error_ROUTE_UNAVAILABLE": {
+    "message": "የሙከራው መስመር አይገኝም። የኖዱን እና የቅድመ ተኪውን ቅንብሮች ያረጋግጡ።"
+  },
+  "error_RULE_BINDING_MISSING": {
+    "message": "የኖድ ደንብ ማያያዣ ይጎድላል። ራስ-ሰር መገለጫውን እንደገና ከፍተው ያስቀምጡ፦ {name}"
+  },
+  "error_RULE_NODES_LIMIT": {
+    "message": "ራስ-ሰር ደንቦች እስከ {limit} የተለያዩ ኖዶችን ይደግፋሉ"
+  },
+  "error_RULE_NODE_CHANGED": {
+    "message": "የኖድ ደንቡ አይገኝም ወይም ተቀይሯል። ኖዱን ይመልሱ ወይም ሌላ ኖድ መርጠው ያስቀምጡ፦ {name}"
+  },
+  "error_RULE_PATH_CONFLICT": {
+    "message": "የኖድ ደንብ መንገዶች ይጋጫሉ"
+  },
+  "error_RULE_PATTERNS_LIMIT": {
+    "message": "ራስ-ሰር ደንቦች በድምሩ እስከ {limit} የማዛመጃ ንድፎችን ይደግፋሉ"
+  },
+  "error_RULE_PORT_UNAVAILABLE": {
+    "message": "የኖድ ደንቡ ወደብ አይገኝም"
+  },
+  "error_RULE_REVISION_CONFLICT": {
+    "message": "የኖድ ደንቡ በሌላ መስኮት ተቀይሯል። መጀመሪያ ያድሱ"
+  },
+  "error_SELECTED_NODE_UNAVAILABLE": {
+    "message": "የተመረጠው ኖድ አይገኝም። ይመልሱት ወይም ሌላ ኖድ ይምረጡ"
+  },
+  "error_SOCKS_FAILED": {
+    "message": "የSOCKS ግንኙነት መፍጠር አልተቻለም።"
+  },
+  "error_STARTUP_FALLBACK_REFUSED": {
+    "message": "አሳሹ በመጀመሪያ ጊዜ የሚጠቀመውን አማራጭ ተኪ አልተቀበለም።"
+  },
+  "error_SUBSCRIPTION_CHANGED": {
+    "message": "በማዘመን ሂደቱ የደንበኝነት ምዝገባው ተቀይሯል። አድሰውት እንደገና ይሞክሩ።"
+  },
+  "error_SUBSCRIPTION_HTTP_STATUS": {
+    "message": "የደንበኝነት ምዝገባው አገልጋይ HTTP {status} መልሷል።"
+  },
+  "error_SUBSCRIPTION_LIMIT": {
+    "message": "የደንበኝነት ምዝገባዎች ገደብ ተደርሷል። የማይጠቀሙበትን ምዝገባ አስወግደው እንደገና ይሞክሩ።"
+  },
+  "error_SUBSCRIPTION_NOT_FOUND": {
+    "message": "የተመረጠው የደንበኝነት ምዝገባ ከእንግዲህ የለም።"
+  },
+  "error_SYSTEM_PROXY_SNAPSHOT_UNAVAILABLE": {
+    "message": "የተተገበረው የስርዓት ተኪ ቅጽበታዊ ቅጂ አይገኝም።"
+  },
+  "error_SYSTEM_PROXY_TIMEOUT": {
+    "message": "የስርዓት ተኪውን ለማንበብ የተሰጠው ጊዜ አልቋል"
+  },
+  "error_SYSTEM_PROXY_UNAVAILABLE": {
+    "message": "የስርዓት ተኪው አይገኝም። ቴክኒካዊ ዝርዝሮችን ይመልከቱ።"
+  },
+  "error_TIMEOUT": {
+    "message": "የጥያቄው ጊዜ አልቋል። ግንኙነቱን አረጋግጠው እንደገና ይሞክሩ።"
+  },
+  "error_TLS_DOWNGRADE": {
+    "message": "የደንበኝነት ምዝገባው ከHTTPS ወደ HTTP ስለተመራ ታግዷል።"
+  },
+  "error_TLS_FAILED": {
+    "message": "ደህንነቱ የተጠበቀውን ግንኙነት ማረጋገጥ አልተቻለም። አገልጋዩን እና የምስክር ወረቀቱን ያረጋግጡ።"
+  },
+  "error_UNSAFE_TEMP_PATH": {
+    "message": "ጊዜያዊ የሙከራ አቃፊው ደህንነቱ ያልተጠበቀ ነው። ሙከራው ቆሟል።"
+  },
+  "error_UNSUPPORTED_LIBRARY_REQUEST": {
+    "message": "ያልተደገፈ የላይብረሪ ጥያቄ"
+  },
+  "error_UNSUPPORTED_PROFILE_TYPE": {
+    "message": "ያልተደገፈ የመገለጫ ዓይነት"
+  },
+  "error_UNSUPPORTED_REQUEST": {
+    "message": "ያልተደገፈ ጥያቄ"
+  },
+  "error_UNSUPPORTED_RULE_CONDITION": {
+    "message": "የአስተናጋጅ እና URL ዋይልድካርድ ደንቦች ብቻ ይደገፋሉ"
+  },
+  "error_UPDATE_FAILED": {
+    "message": "የደንበኝነት ምዝገባውን ማዘመን አልተሳካም። ያሉት ኖዶች ተጠብቀዋል።"
+  },
+  "error_VALIDATION_FAILED": {
+    "message": "የደንበኝነት ምዝገባውን ይዘት ማረጋገጥ አልተቻለም። ያሉት ኖዶች ተጠብቀዋል።"
+  },
+  "nativeUnnamedNode": {
+    "message": "ስም የሌለው ኖድ"
+  },
+  "nativeProtocolCustom": {
+    "message": "ብጁ"
+  },
+  "nativeProtocolOutbound": {
+    "message": "ብጁ የወጪ ግንኙነት"
+  },
+  "nativeProtocolGroup": {
+    "message": "የፖሊሲ ቡድን"
+  },
+  "nativeProtocolChain": {
+    "message": "የተኪ ሰንሰለት"
+  },
+  "nativeProtocolUnknown": {
+    "message": "ያልተደገፈ ዓይነት"
+  },
+  "languageLoadFailed": {
+    "message": "የተመረጠውን ቋንቋ መጫን አልተቻለም። እንደገና ይሞክሩ።"
+  },
+  "invalidBackupJSON": {
+    "message": "መጠባበቂያው ልክ ያለው JSON አይደለም።"
+  },
+  "noticeBodyLanguages": {
+    "message": "ሙሉ የፖሊሲ ጽሑፉ በእንግሊዝኛ እና በቀላል ቻይንኛ ይገኛል።"
+  },
+  "policyRules": {
+    "message": "የፕሮክሲ መንገድ ደንቦች"
+  },
+  "policyPriority": {
+    "message": "ቅደም ተከተል፦ ፕሮክሲን የሚያልፉ አድራሻዎች → የመጀመሪያው ተዛማጅ ደንብ → ነባሪ መንገድ።"
+  },
+  "policyDirectHelp": {
+    "message": "የማይዛመዱ አድራሻዎች በቀጥታ ይገናኛሉ። በብቅ ባይ መስኮት ያለው የቀጥታ አዝራርም እነዚህን ደንቦች ይጠቀማል።"
+  },
+  "policySystemHelp": {
+    "message": "የማይዛመዱ አድራሻዎች የስርዓት ፕሮክሲን ይጠቀማሉ። በብቅ ባይ መስኮት ያለው የስርዓት አዝራርም እነዚህን ደንቦች ይጠቀማል።"
+  },
+  "policyEmpty": {
+    "message": "ገና ደንብ የለም። ነባሪው መንገድ ይጠቀማል።"
+  },
+  "policyAddressHelp": {
+    "message": "ዶሜን፣ የዱር ምልክት ዶሜን፣ IP ወይም IP:ወደብ። የIP ደንቦች በURL ውስጥ ያለውን IP ያዛምዳሉ፤ የDNS ውጤትን አይደለም።"
+  },
+  "policyMoveUp": {
+    "message": "ደንቡን ወደ ላይ አንቀሳቅስ"
+  },
+  "policyMoveDown": {
+    "message": "ደንቡን ወደ ታች አንቀሳቅስ"
+  }
+}

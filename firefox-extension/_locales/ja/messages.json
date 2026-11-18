@@ -1,0 +1,2150 @@
+{
+  "ruleTargetUnavailable": {
+    "message": "ターゲットが使用できません"
+  },
+  "rulePatternPlaceholder": {
+    "message": "example.com, *.example.org, 192.0.2.1:8443"
+  },
+  "rulePatternHelp": {
+    "message": "アドレスはカンマ区切り。URL パターンは1行に1件。PAC では HTTPS のパスが見えない場合があります。"
+  },
+  "defaultChoice_direct": {
+    "message": "プロキシなしで接続する"
+  },
+  "defaultChoice_system": {
+    "message": "システムプロキシ設定を使用する"
+  },
+  "defaultChoice_node": {
+    "message": "このプロファイルの選択されたノードを使用します"
+  },
+  "defaultChoice_manual": {
+    "message": "このプロファイルのプロキシ設定を使用します"
+  },
+  "defaultChoice_auto": {
+    "message": "このプロファイルのルーティング ルールを適用します"
+  },
+  "nlHttpsLatency": {
+    "message": "HTTPS 応答"
+  },
+  "nlLatencyMethod": {
+    "message": "Cloudflare · 少なくとも 2 つの応答 · 利用可能な場合は接続を再利用"
+  },
+  "nlLatencyFast": {
+    "message": "速い"
+  },
+  "nlLatencyModerate": {
+    "message": "中程度"
+  },
+  "nlLatencySlow": {
+    "message": "遅い"
+  },
+  "nlSortName": {
+    "message": "名前"
+  },
+  "nlSortLatency": {
+    "message": "レイテンシー: 低から高まで"
+  },
+  "nlSortDownload": {
+    "message": "ダウンロード: 高から低"
+  },
+  "nlSortUpload": {
+    "message": "アップロード: 高から低"
+  },
+  "nlSingle": {
+    "message": "単一ノード"
+  },
+  "nlGroupBatch": {
+    "message": "グループ/バッチ"
+  },
+  "nlTestScope": {
+    "message": "テスト範囲"
+  },
+  "nlCurrentNode": {
+    "message": "選択されたノード"
+  },
+  "nlCurrentGroup": {
+    "message": "選択されたグループ"
+  },
+  "nlChooseNode": {
+    "message": "リスト内のノードを選択してください"
+  },
+  "nlStart": {
+    "message": "テスト開始"
+  },
+  "nlService": {
+    "message": "テストサービス"
+  },
+  "nlMeasured": {
+    "message": "測定"
+  },
+  "nlMeanLatency": {
+    "message": "平均レイテンシー"
+  },
+  "nlGroupBySource": {
+    "message": "ソースグループ別"
+  },
+  "nlPreviousPage": {
+    "message": "前のページへ"
+  },
+  "nlNextPage": {
+    "message": "次のページ"
+  },
+  "nlName": {
+    "message": "名前"
+  },
+  "nlEdit": {
+    "message": "編集"
+  },
+  "nlStop": {
+    "message": "停止"
+  },
+  "nlConfirm": {
+    "message": "確認"
+  },
+  "nlAllNodes": {
+    "message": "すべてのノード"
+  },
+  "nlNodeResults": {
+    "message": "ノードの結果"
+  },
+  "nlTestCenter": {
+    "message": "テストセンター"
+  },
+  "nlNewGroup": {
+    "message": "新しいグループ"
+  },
+  "nlRenameGroup": {
+    "message": "グループ名の変更"
+  },
+  "nlRemoveGroup": {
+    "message": "グループの削除"
+  },
+  "nlRemoveGroupHelp": {
+    "message": "すべてのノードとサブスクリプションを保持し、インポートされたノードに移動します。"
+  },
+  "nlNode": {
+    "message": "ノード"
+  },
+  "nlStatus": {
+    "message": "ステータス"
+  },
+  "nlActions": {
+    "message": "アクション"
+  },
+  "nlSort": {
+    "message": "このテーブルのみを並べ替えます"
+  },
+  "nlSelected": {
+    "message": "が選択されました"
+  },
+  "nlTestNode": {
+    "message": "テスト"
+  },
+  "nlProfileShort": {
+    "message": "プロフィール"
+  },
+  "nlQuick": {
+    "message": "遅延が早い"
+  },
+  "nlFull": {
+    "message": "ダウンロード + アップロード"
+  },
+  "nlTraffic": {
+    "message": "テストデータサイズ"
+  },
+  "nlConcurrency": {
+    "message": "同時ノード数"
+  },
+  "nlTrafficFullOnly": {
+    "message": "ダウンロードおよびアップロードのテストに使用されます"
+  },
+  "nlTestMode": {
+    "message": "テストモード"
+  },
+  "nlBudget": {
+    "message": "最大ペイロードトラフィック"
+  },
+  "nlViaGroup": {
+    "message": "グループ事前プロキシ経由"
+  },
+  "nlTestSelected": {
+    "message": "テストが選択されました"
+  },
+  "nlTestVisible": {
+    "message": "テスト表示ノード"
+  },
+  "nlTestAll": {
+    "message": "すべてのノードをテストする"
+  },
+  "nlTestGroup": {
+    "message": "テストグループノード"
+  },
+  "nlProgress": {
+    "message": "測定の進行状況"
+  },
+  "nlReady": {
+    "message": "開始するノードを選択してください。テストは実行されていません。"
+  },
+  "nlStarting": {
+    "message": "単独測定を開始しています…"
+  },
+  "nlQueued": {
+    "message": "キューに登録されました"
+  },
+  "nlRunning": {
+    "message": "テスト"
+  },
+  "nlStopping": {
+    "message": "停止中…"
+  },
+  "nlComplete": {
+    "message": "完了"
+  },
+  "nlFailed": {
+    "message": "失敗しました"
+  },
+  "nlStopped": {
+    "message": "停止しました"
+  },
+  "nlPartial": {
+    "message": "部分的"
+  },
+  "nlUntested": {
+    "message": "テストされていません"
+  },
+  "nlSucceeded": {
+    "message": "合格しました"
+  },
+  "nlMeasureDisconnected": {
+    "message": "測定接続が終了しました。不完全な値は最終結果ではありません。"
+  },
+  "nlUpgrade": {
+    "message": "グループとサブスクリプションを管理するためにローカル コンパニオンを更新します。既存のノードは引き続き利用可能です。"
+  },
+  "nlOperationFailed": {
+    "message": "操作を完了できませんでした。もう一度やり直してください。"
+  },
+  "nlEditSubscription": {
+    "message": "サブスクリプションの編集"
+  },
+  "nlPasteContent": {
+    "message": "プロキシ リンク/コンテンツ"
+  },
+  "nlSubscriptionURL": {
+    "message": "定期購入 URL"
+  },
+  "nlKeepURL": {
+    "message": "保存したままにする場合は空白のままにしてください URL"
+  },
+  "nlConnectionPolicy": {
+    "message": "接続の更新"
+  },
+  "nlProxyFirst": {
+    "message": "最初にプロキシ、次に失敗時にダイレクト"
+  },
+  "nlProxyOnly": {
+    "message": "プロキシのみ"
+  },
+  "nlDirectOnly": {
+    "message": "直接のみ"
+  },
+  "nlProxyFirstHelp": {
+    "message": "プロキシは、フェッチが成功した後に初めて停止します。ダイレクトは、プロキシの試行が失敗した場合にのみ試行されます。"
+  },
+  "nlAutoUpdate": {
+    "message": "自動アップデートを有効にする"
+  },
+  "nlInterval": {
+    "message": "更新間隔(分)"
+  },
+  "nlDestinationGroup": {
+    "message": "宛先グループ"
+  },
+  "nlSubscriptionOwnGroup": {
+    "message": "新しいグループ…"
+  },
+  "nlNameGroup": {
+    "message": "名前(グループ)"
+  },
+  "nlCustomGroup": {
+    "message": "カスタムグループ"
+  },
+  "nlNameRequired": {
+    "message": "名前を入力します。"
+  },
+  "nlContentRequired": {
+    "message": "プロキシ リンクまたはサブスクリプション コンテンツを貼り付けます。"
+  },
+  "nlGroupRequired": {
+    "message": "宛先グループを選択してください。"
+  },
+  "nlURLRequired": {
+    "message": "ユーザー名またはパスワードを指定せずに、HTTP(S) サブスクリプション URL を入力します。"
+  },
+  "nlIntervalInvalid": {
+    "message": "5～43200分の整数を入力してください。"
+  },
+  "folderTitle": {
+    "message": "v2rayNフォルダを選択してください"
+  },
+  "folderHint": {
+    "message": "フォルダーを選択し、接続設定を保存して適用します。"
+  },
+  "folderPath": {
+    "message": "ローカルフォルダーのフルパス"
+  },
+  "folderGo": {
+    "message": "オープン"
+  },
+  "folderUp": {
+    "message": "アップ"
+  },
+  "folderDrives": {
+    "message": "ドライブ"
+  },
+  "folderCurrent": {
+    "message": "現在のパス"
+  },
+  "folderChoose": {
+    "message": "このフォルダーを使用します"
+  },
+  "folderList": {
+    "message": "フォルダー"
+  },
+  "folderTruncated": {
+    "message": "出品数に限りがございます。表示されていないフォルダーを開くには、上記のフルパスを入力します。"
+  },
+  "folderReady": {
+    "message": "v2rayN ファイルが見つかりました。このフォルダーを使用して構成を検証します。"
+  },
+  "folderInvalid": {
+    "message": "guiConfigs、guiNConfig.json、および guiNDB.db が含まれるフォルダーを選択します。"
+  },
+  "folderSelectDrive": {
+    "message": "ローカル ドライブを選択するか、フォルダーの完全なパスを入力します。"
+  },
+  "folderEmpty": {
+    "message": "表示されるサブフォルダーがありません。"
+  },
+  "folderUnavailable": {
+    "message": "このフォルダーを参照できません。パスとアクセスを確認してください。 Companion が古い場合は、まず更新してください。"
+  },
+  "folderValidating": {
+    "message": "v2rayN 構成を検証中…"
+  },
+  "folderInvalidConfig": {
+    "message": "v2rayN 構成またはデータベースが不完全か無効です。別のフォルダーを選択してください。"
+  },
+  "copyPath": {
+    "message": "パスのコピー"
+  },
+  "pathCopyHint": {
+    "message": "現在このフィールドにあるパスをコピーします。"
+  },
+  "preMode": {
+    "message": "プレプロキシモード"
+  },
+  "preNode": {
+    "message": "プロキシ前ノード"
+  },
+  "preIntro": {
+    "message": "グループ チェーンを使用するか、スキップするか、このプロファイルのプレプロキシを選択します。"
+  },
+  "healthLabel": {
+    "message": "現在の接続ステータス"
+  },
+  "healthOk": {
+    "message": "通常"
+  },
+  "healthError": {
+    "message": "異常"
+  },
+  "healthChecking": {
+    "message": "チェック中"
+  },
+  "healthUnknown": {
+    "message": "未確認"
+  },
+  "autoSystemHelp": {
+    "message": "システムルールには Windows コンパニオンと固定プロキシ設定のスナップショットが必要です。設定変更後は再適用してください。PAC/WPAD は非対応です。ルールなしのシステム接続はブラウザーの標準設定を使います。"
+  },
+  "backgroundUnavailable": {
+    "message": "拡張機能の背景が利用できません。"
+  },
+  "backgroundNoResponse": {
+    "message": "背景が応答しませんでした。"
+  },
+  "backupTooLarge": {
+    "message": "バックアップが 5 MB を超えています。"
+  },
+  "proxyUsername": {
+    "message": "ユーザー名"
+  },
+  "proxyPassword": {
+    "message": "パスワード"
+  },
+  "proxyAuthHelp": {
+    "message": "オプション。認証されたプロキシは、コンパニオンを通じて接続します。認証情報はこのブラウザ設定とコンパニオンに保存され、プロファイルのエクスポートに含まれます。"
+  },
+  "proxyAuthSocks4": {
+    "message": "SOCKS4 は、このユーザー名/パスワード認証をサポートしていません。 HTTP(S) または SOCKS5 を使用してください。"
+  },
+  "importExamples": {
+    "message": "フォーマット例"
+  },
+  "ipCopying": {
+    "message": "コピー中…"
+  },
+  "netDnsUnavailable": {
+    "message": "サーバーアドレスを時間内に解決できませんでした。ホストまたはIPアドレスを確認して、再試行してください。"
+  },
+  "netCurrentTarget": {
+    "message": "選択されたプロキシ エンドポイント"
+  },
+  "netCustomTarget": {
+    "message": "カスタムサーバー"
+  },
+  "netHost": {
+    "message": "ホストまたは IP アドレス"
+  },
+  "netPort": {
+    "message": "TCP ポート"
+  },
+  "netHostRequired": {
+    "message": "サーバーホストまたは IP アドレスを入力してください。"
+  },
+  "netCurrentUnavailable": {
+    "message": "ノードまたは手動プロキシ プロファイルを選択するか、カスタム ターゲットを入力します。"
+  },
+  "netInvalidTarget": {
+    "message": "有効な診断ホストとポートを入力してください。"
+  },
+  "netIpv6PingUnavailable": {
+    "message": "IPv6 ICMP は使用できません。 TCPingを使用してください。"
+  },
+  "preNeedsFix": {
+    "message": "保存する前に、有効なプレプロキシを選択するか、プレプロキシを選択しません。"
+  },
+  "preConfigure": {
+    "message": "プレプロキシを設定する"
+  },
+  "preFollowInvalid": {
+    "message": "フォロー v2rayN はカスタム プレプロキシを受け入れません。"
+  },
+  "followChainHelp": {
+    "message": "フォローは、v2rayN ですでにアクティブなルートとプロキシ チェーンを使用します。"
+  },
+  "netTitle": {
+    "message": "接続テスト"
+  },
+  "ipTestDetails": {
+    "message": "テストの詳細"
+  },
+  "netTarget": {
+    "message": "Ping / TCPing ターゲット"
+  },
+  "netDownload": {
+    "message": "ダウンロードテスト"
+  },
+  "netPartial": {
+    "message": "部分サンプル"
+  },
+  "netComplete": {
+    "message": "サンプルが完成しました"
+  },
+  "netDirect": {
+    "message": "システムネットワーク"
+  },
+  "netUnreachable": {
+    "message": "応答なし / 失敗しました"
+  },
+  "netAverage": {
+    "message": "平均的"
+  },
+  "predecessor": {
+    "message": "プレプロキシ"
+  },
+  "preInherit": {
+    "message": "v2rayN グループ チェーンを使用します"
+  },
+  "preNone": {
+    "message": "プレプロキシがありません"
+  },
+  "preSpecific": {
+    "message": "ノードを選択してください"
+  },
+  "preHelp": {
+    "message": "このプロファイルに適用されます。 v2rayN グループ チェーンを使用し、プレプロキシや特定のノードは使用しません。フォロー v2rayN は既存のチェーンを使用します。"
+  },
+  "preSelectRequired": {
+    "message": "プレプロキシ ノードを選択するか、グループのデフォルト / なしを選択します。"
+  },
+  "ipPing0Permission": {
+    "message": "Ping0 の Web サイトへのアクセスを許可して、公開レポートをロードします。"
+  },
+  "ipPublicChallenge": {
+    "message": "ウェブサイトには認証が必要です。 Ping0 ページを開いて完了し、結果を確認します。"
+  },
+  "ipPublicReport": {
+    "message": "Ping0 公開レポート"
+  },
+  "ipPublicSource": {
+    "message": "出典: Ping0 公開ページ"
+  },
+  "ipPublicOriginal": {
+    "message": "Ping0 レポート"
+  },
+  "ipPublicPartial": {
+    "message": "公開ページに提供されているフィールドのみが元の言語で表示されます。分類と共有ユーザーの推定値は Ping0 からのものです。"
+  },
+  "setupTitle": {
+    "message": "接続 Proxy V2Route"
+  },
+  "setupIntro": {
+    "message": "v2rayN ルートまたは独自のインポートされたノードを使用するには、Windows コンパニオンをインストールします。"
+  },
+  "setupStepOne": {
+    "message": "一致する完全な Windows パッケージを永続フォルダーに抽出します。"
+  },
+  "setupStepTwo": {
+    "message": "V2Route-Setup.exe を開き、[インストール] をクリックします。"
+  },
+  "setupStepThree": {
+    "message": "ここに戻って接続を確認してください。必要に応じて、v2rayN フォルダーを選択します。"
+  },
+  "setupCheck": {
+    "message": "接続を確認してください"
+  },
+  "downloadCompanion": {
+    "message": "インストールガイド ↗"
+  },
+  "setupDownloadNote": {
+    "message": "一致するローカル Windows パッケージを使用するか、ガイドに従って現在のソースからビルドします。"
+  },
+  "chooseFolder": {
+    "message": "v2rayN フォルダーを選択してください…"
+  },
+  "rescanDone": {
+    "message": "ローカルノードが再スキャンされました"
+  },
+  "grouping": {
+    "message": "グループノード"
+  },
+  "groupByCountry": {
+    "message": "国別"
+  },
+  "unknownCountry": {
+    "message": "その他 / 不明"
+  },
+  "ungrouped": {
+    "message": "グループ化されていない"
+  },
+  "adjustNodeFilters": {
+    "message": "別のグループ、ソースまたは検索を試すか、非表示のノードを表示してください。"
+  },
+  "rescanLocal": {
+    "message": "v2rayN ノードを再スキャンします"
+  },
+  "showHidden": {
+    "message": "非表示のノードを表示する"
+  },
+  "hideNode": {
+    "message": "隠す"
+  },
+  "restoreNode": {
+    "message": "復元"
+  },
+  "hiddenNode": {
+    "message": "非表示"
+  },
+  "hideNodeHelp": {
+    "message": "このブラウザのノード ライブラリからのみ非表示にします。 v2rayN および既存のプロファイルは変更されません。"
+  },
+  "ipContextTimeout": {
+    "message": "現在のプロファイルの読み取りがタイムアウトしました。もう一度やり直してください。"
+  },
+  "ipStaleResult": {
+    "message": "現在のプロファイルが変更されました。この結果は古い可能性があります。もう一度確認してください。"
+  },
+  "ip_tools": {
+    "message": "IP ツール"
+  },
+  "ipIntro": {
+    "message": "現在の出口 IP と公開レポート。"
+  },
+  "ipCurrentProfile": {
+    "message": "現在のブラウザプロファイル"
+  },
+  "ipRouteCaution": {
+    "message": "自動ルールと PAC は、異なる宛先に異なるルートを使用する場合があります。このチェックでは、それ自体のリクエストのみが記述されます。"
+  },
+  "ipDisclosure": {
+    "message": "自動チェック終了 IP · Ping0 によるレポート"
+  },
+  "ipMethod": {
+    "message": "住所チェック"
+  },
+  "ipDual": {
+    "message": "IPv4 / IPv6"
+  },
+  "ipCheck": {
+    "message": "もう一度確認してください"
+  },
+  "ipChecking": {
+    "message": "確認中…"
+  },
+  "ipDualHelp": {
+    "message": "IPv4 / IPv6 は、両方のアドレスではなく、このリクエストに使用されたアドレス ファミリを返します。"
+  },
+  "ipDurationHelp": {
+    "message": "経過 HTTP 要求時間には、ネットワークとサービスの応答時間が含まれます。 ICMP ping や帯域幅テストではありません。"
+  },
+  "ipCopy": {
+    "message": "コピー IP"
+  },
+  "ipCopied": {
+    "message": "コピーしました"
+  },
+  "ipCopyFailed": {
+    "message": "コピーできませんでした。アドレスを選択し、手動でコピーします。"
+  },
+  "ipNoResult": {
+    "message": "まだチェックがありません"
+  },
+  "ipContextUnknown": {
+    "message": "プロファイルが利用できません"
+  },
+  "ipTimeout": {
+    "message": "チェックがタイムアウトしました。もう一度試すか、別のルートを使用してください。"
+  },
+  "ipCancelled": {
+    "message": "小切手がキャンセルされました"
+  },
+  "ipNetwork": {
+    "message": "ipify に到達できませんでした。接続を確認して再試行してください。"
+  },
+  "ipHttp": {
+    "message": "IP サービスはリクエストを受け入れませんでした。後でもう一度試してください。"
+  },
+  "ipInvalid": {
+    "message": "IP サービスは無効な応答を返しました。"
+  },
+  "ipFailure": {
+    "message": "チェックに失敗しました。もう一度やり直してください。"
+  },
+  "ipStale": {
+    "message": "チェック中にプロキシ設定が変更されました。古い結果は破棄されました。もう一度確認してください。"
+  },
+  "ipQuality": {
+    "message": "外部ツール"
+  },
+  "ipQualityPrivacy": {
+    "message": "ツールはクリック時にのみ実行されます。プロバイダーは通常の接続データを受信します。 Web サイト チェックは、開始後に認証情報を必要としないリクエストを送信します。閉じるとローカル テストが停止します。外部タブはブラウザによって管理されます。"
+  },
+  "ipReport": {
+    "message": "編集されたレポートのコピー"
+  },
+  "ipReportCopied": {
+    "message": "編集されたレポートがコピーされました。 IP またはプロファイル名は含まれません。"
+  },
+  "popupSelected": {
+    "message": "選択済み"
+  },
+  "popupFooter": {
+    "message": "v2rayN & ノードプロファイル"
+  },
+  "subtitle": {
+    "message": "独立したブラウザルート"
+  },
+  "profiles": {
+    "message": "プロファイル"
+  },
+  "nodes": {
+    "message": "ノードライブラリ"
+  },
+  "settings": {
+    "message": "設定"
+  },
+  "connected": {
+    "message": "アクティブなプロファイル"
+  },
+  "noProfile": {
+    "message": "システムのデフォルト"
+  },
+  "newProfile": {
+    "message": "新しいプロフィール"
+  },
+  "searchProfiles": {
+    "message": "プロフィールを検索"
+  },
+  "direct": {
+    "message": "直接接続"
+  },
+  "system": {
+    "message": "システムプロキシ"
+  },
+  "follow": {
+    "message": "フォロー v2rayN"
+  },
+  "manual": {
+    "message": "手動プロキシ"
+  },
+  "auto": {
+    "message": "オートスイッチ"
+  },
+  "pac": {
+    "message": "PAC スクリプト"
+  },
+  "virtual": {
+    "message": "仮想プロファイル"
+  },
+  "profileIntro": {
+    "message": "v2rayN のメインルートを切り替えずにブラウザルートを選択します。"
+  },
+  "nodesIntro": {
+    "message": "ローカル v2rayN ノードとインポートされたリンクを参照します。"
+  },
+  "settingsIntro": {
+    "message": "ローカル接続、言語、外観。"
+  },
+  "refresh": {
+    "message": "リフレッシュ"
+  },
+  "create": {
+    "message": "プロファイルの作成"
+  },
+  "name": {
+    "message": "プロファイル名"
+  },
+  "type": {
+    "message": "プロファイルタイプ"
+  },
+  "save": {
+    "message": "保存"
+  },
+  "saved": {
+    "message": "保存しました"
+  },
+  "saving": {
+    "message": "保存中…"
+  },
+  "cancel": {
+    "message": "キャンセル"
+  },
+  "close": {
+    "message": "閉じる"
+  },
+  "apply": {
+    "message": "このプロファイルを使用します"
+  },
+  "applied": {
+    "message": "プロファイルが切り替わりました"
+  },
+  "active": {
+    "message": "アクティブ"
+  },
+  "delete": {
+    "message": "削除"
+  },
+  "remove": {
+    "message": "削除"
+  },
+  "rename": {
+    "message": "名前を変更"
+  },
+  "route": {
+    "message": "プロキシルート"
+  },
+  "selectRoute": {
+    "message": "ルートを選択してください"
+  },
+  "routeMissing": {
+    "message": "ルートが利用できません — 別のルートを選択してください"
+  },
+  "chain": {
+    "message": "接続チェーン"
+  },
+  "connection": {
+    "message": "ローカル接続"
+  },
+  "proxy": {
+    "message": "プロキシサーバー"
+  },
+  "address": {
+    "message": "住所"
+  },
+  "port": {
+    "message": "ポート"
+  },
+  "scheme": {
+    "message": "プロトコル"
+  },
+  "proxyDns": {
+    "message": "SOCKS5 DNS はプロキシを通じて解決されます。"
+  },
+  "connectedIdle": {
+    "message": "接続済み · アイドル状態"
+  },
+  "bypass": {
+    "message": "バイパスリスト"
+  },
+  "bypassHelp": {
+    "message": "ドメイン、ワイルドカードドメイン、IP、IP:ポートを1行に1件入力。"
+  },
+  "advanced": {
+    "message": "詳細オプション"
+  },
+  "searchRoutes": {
+    "message": "グループまたはノードの検索"
+  },
+  "selectGroup": {
+    "message": "グループを選択してください"
+  },
+  "empty": {
+    "message": "一致するアイテムはありません"
+  },
+  "unavailable": {
+    "message": "利用不可"
+  },
+  "groupHint": {
+    "message": "250 ms のグループを押したままドラッグします。 Alt + ↑ / ↓でも並べ替えられます。変更は自動的に保存されます。"
+  },
+  "searchSort": {
+    "message": "並べ替える前に検索をクリアしてください。"
+  },
+  "dragHint": {
+    "message": "上または下に移動し、放して保存します。 Esc でキャンセルします。"
+  },
+  "orderSaved": {
+    "message": "グループ注文が保存されました"
+  },
+  "orderCancelled": {
+    "message": "再注文がキャンセルされました"
+  },
+  "loading": {
+    "message": "読み込み中…"
+  },
+  "reading": {
+    "message": "ローカルノードを読み取り中…"
+  },
+  "nativeMissing": {
+    "message": "ローカルコンポーネントが接続されていません"
+  },
+  "retry": {
+    "message": "再試行"
+  },
+  "nativeHelp": {
+    "message": "ノード ルートには Windows コンパニオンが必要です。直接、システム、および手動プロキシが現在利用可能です。"
+  },
+  "imported": {
+    "message": "輸入品"
+  },
+  "v2rayn": {
+    "message": "v2rayN"
+  },
+  "allSources": {
+    "message": "すべてのソース"
+  },
+  "importNodes": {
+    "message": "プロキシのインポート"
+  },
+  "importTitle": {
+    "message": "プロキシのインポート"
+  },
+  "importHelp": {
+    "message": "プロキシ リンク、送信 JSON または Base64 サブスクリプションを貼り付けます。 SOCKS はプレーンまたは Base64 資格情報をサポートします。スキームフリーアドレスはHTTPを使用します。"
+  },
+  "importPrivacy": {
+    "message": "プロキシの詳細と資格情報は、保存および選択したプロキシへの接続のためにローカル Proxy V2Route コンパニオンに渡されます。開発者はこの情報を受け取りません。"
+  },
+  "import": {
+    "message": "プロファイルのインポート"
+  },
+  "nodeCount": {
+    "message": "ノード"
+  },
+  "source": {
+    "message": "ソース"
+  },
+  "protocol": {
+    "message": "プロトコル"
+  },
+  "useNode": {
+    "message": "プロファイルの作成"
+  },
+  "removeNode": {
+    "message": "インポートされたノードを削除しますか?"
+  },
+  "removeNodeHelp": {
+    "message": "このノードを使用しているプロファイルは、削除する前に再割り当てする必要があります。"
+  },
+  "deleteProfile": {
+    "message": "このプロファイルを削除しますか?"
+  },
+  "deleteProfileHelp": {
+    "message": "これにより、このブラウザ プロファイルのみが削除されます。インポートされたノードと v2rayN 構成は保持されます。"
+  },
+  "language": {
+    "message": "言語"
+  },
+  "automatic": {
+    "message": "ブラウザのデフォルト"
+  },
+  "theme": {
+    "message": "外観"
+  },
+  "light": {
+    "message": "ライト"
+  },
+  "dark": {
+    "message": "ダーク"
+  },
+  "switchToEnglish": {
+    "message": "英語に切り替える"
+  },
+  "switchToChinese": {
+    "message": "簡体字中国語に切り替える"
+  },
+  "switchToLight": {
+    "message": "ライトの外観に切り替える"
+  },
+  "switchToDark": {
+    "message": "ダークな外観に切り替えます"
+  },
+  "localComponent": {
+    "message": "コンパニオンコンポーネント"
+  },
+  "ready": {
+    "message": "接続されました"
+  },
+  "stopped": {
+    "message": "実行されていません"
+  },
+  "discovery": {
+    "message": "v2rayN 検出"
+  },
+  "rootPath": {
+    "message": "v2rayNフォルダ"
+  },
+  "corePath": {
+    "message": "プロキシコア実行可能ファイル"
+  },
+  "optionalPath": {
+    "message": "自動検出するには空白のままにしてください"
+  },
+  "pathsHelp": {
+    "message": "v2rayN は自動的に検出されます。必要に応じて、そのフォルダーを選択します。インポートされたノードは、付属のコアを使用します。"
+  },
+  "savePaths": {
+    "message": "接続設定の保存"
+  },
+  "privacy": {
+    "message": "設定がローカルに保存される"
+  },
+  "privacyText": {
+    "message": "ノードのリンクと認証情報がローカル コンパニオンに残る。ブラウザのトラフィックは、選択したプロキシを経由して宛先 Web サイトに送信されます。開発者はそれを受け取りません。"
+  },
+  "privacyDetails": {
+    "message": "プライバシーとデータ フロー"
+  },
+  "export": {
+    "message": "プロファイルのエクスポート"
+  },
+  "about": {
+    "message": "Proxy V2Route について"
+  },
+  "aboutText": {
+    "message": "v2rayN のメインルートを切り替えずにブラウザルートを選択します。ノード ルートは、Windows コンパニオンと独自のノードを使用します。"
+  },
+  "licenses": {
+    "message": "オープンソースの通知"
+  },
+  "version": {
+    "message": "バージョン"
+  },
+  "fieldRequired": {
+    "message": "プロファイル名を入力します。"
+  },
+  "profileExists": {
+    "message": "この名前のプロファイルはすでに存在します。"
+  },
+  "ruleHelp": {
+    "message": "ドメインは 1 行でカンマで区切ります。最初に一致した行が優先されます。デフォルトのルートを利用可能なままにしておきます。"
+  },
+  "rules": {
+    "message": "ルーティング ルール"
+  },
+  "pattern": {
+    "message": "ホストパターン"
+  },
+  "target": {
+    "message": "ルールのターゲット"
+  },
+  "addRule": {
+    "message": "ルールの追加"
+  },
+  "defaultRoute": {
+    "message": "デフォルトのプロファイル"
+  },
+  "pacHelp": {
+    "message": "FindProxyForURL を含む信頼できる PAC ソースを貼り付けます。このスクリプトは、Web サイトのリクエストがどのようにルーティングされるかを決定します。"
+  },
+  "pacUrl": {
+    "message": "PAC URL"
+  },
+  "pacScript": {
+    "message": "PAC スクリプト"
+  },
+  "noSelection": {
+    "message": "プロファイルを選択するか、プロファイルを作成します。"
+  },
+  "details": {
+    "message": "詳細"
+  },
+  "noNodes": {
+    "message": "まだノードがありません"
+  },
+  "noNodesHelp": {
+    "message": "v2rayN に接続するか、プロキシ リンク、JSON またはサブスクリプションをインポートして開始してください。"
+  },
+  "openSettings": {
+    "message": "設定を開く"
+  },
+  "proxySettings": {
+    "message": "プロキシ設定"
+  },
+  "switching": {
+    "message": "切り替え中…"
+  },
+  "updatedElsewhere": {
+    "message": "このプロファイルは別のウィンドウで変更されました。保存する前に再度開きます。"
+  },
+  "choose": {
+    "message": "選択してください"
+  },
+  "popupIntro": {
+    "message": "接続:"
+  },
+  "invalidPort": {
+    "message": "1 ～ 65535 のポートを入力します。"
+  },
+  "externalControl": {
+    "message": "別の拡張機能またはポリシーがブラウザ プロキシを制御しています。"
+  },
+  "noNativeRoute": {
+    "message": "ノード プロファイルを作成する前にローカル コンポーネントを接続します。"
+  },
+  "reload": {
+    "message": "リロード"
+  },
+  "rulesError": {
+    "message": "各ルールにはパターンと宛先が必要です。"
+  },
+  "backupDone": {
+    "message": "ブラウザプロファイルがエクスポートされました"
+  },
+  "managed": {
+    "message": "管理対象ノード"
+  },
+  "netRegion": {
+    "message": "対象エリア"
+  },
+  "netNodeArea": {
+    "message": "プロキシノード"
+  },
+  "netChina": {
+    "message": "中国本土"
+  },
+  "netGlobal": {
+    "message": "グローバル"
+  },
+  "netAli": {
+    "message": "AliDNS"
+  },
+  "netTencent": {
+    "message": "DNSPod"
+  },
+  "netStartHelp": {
+    "message": "ターゲットを選択して、ライブ テストを開始します。"
+  },
+  "netConsole": {
+    "message": "ライブ診断"
+  },
+  "netStop": {
+    "message": "ストップ"
+  },
+  "netRunning": {
+    "message": "ランニング"
+  },
+  "netStopped": {
+    "message": "停止しました"
+  },
+  "netSent": {
+    "message": "送信済み"
+  },
+  "netLoss": {
+    "message": "損失"
+  },
+  "netAverageShort": {
+    "message": "平均"
+  },
+  "netLogClear": {
+    "message": "クリア"
+  },
+  "netFinishing": {
+    "message": "以前のプローブが終了しています…"
+  },
+  "netRound": {
+    "message": "ラウンド"
+  },
+  "netDestination": {
+    "message": "目的地"
+  },
+  "netHop": {
+    "message": "ホップ"
+  },
+  "netAddress": {
+    "message": "IP アドレス"
+  },
+  "netLast": {
+    "message": "最後"
+  },
+  "netConsoleHelp": {
+    "message": "Ping / TCPing / MTR は、プロキシ チェーンではなくシステム ネットワークを使用します。 ICMP の応答が見つからないことは、トラフィック損失を証明するものではありません。ダウンロードでは、ブラウザーのルートと選択したサイズ制限が使用されます。このページを離れるか非表示にすると、テストは停止します。"
+  },
+  "netDirectShort": {
+    "message": "システムネットワーク"
+  },
+  "netIcmpShort": {
+    "message": "いいえ ICMP 返信"
+  },
+  "netProbeError": {
+    "message": "ローカルプローブエラー"
+  },
+  "netNoDestination": {
+    "message": "目的地に到達しませんでした"
+  },
+  "deleteActive": {
+    "message": "システムに切り替えて削除します"
+  },
+  "deleteActiveHelp": {
+    "message": "このプロファイルは有効です。これを削除すると、ブラウザがシステム プロキシに切り替わります。"
+  },
+  "netDownloadSize": {
+    "message": "ダウンロードサイズ"
+  },
+  "netReceived": {
+    "message": "受け取りました"
+  },
+  "netBest": {
+    "message": "ベスト"
+  },
+  "netWorst": {
+    "message": "最悪"
+  },
+  "netStdDev": {
+    "message": "標準開発"
+  },
+  "netLocation": {
+    "message": "場所"
+  },
+  "toolWall": {
+    "message": "ドメインブロックチェック"
+  },
+  "toolSites": {
+    "message": "人気のウェブサイト"
+  },
+  "toolGlobal": {
+    "message": "グローバル診断"
+  },
+  "toolFast": {
+    "message": "Netflix 速度"
+  },
+  "toolSpeed": {
+    "message": "スピードテスト"
+  },
+  "toolStart": {
+    "message": "スタート"
+  },
+  "toolReady": {
+    "message": "準備完了"
+  },
+  "toolResponded": {
+    "message": "返信しました"
+  },
+  "toolNoResponse": {
+    "message": "未確認"
+  },
+  "toolCacheUnsupported": {
+    "message": "このブラウザはサイトごとにキャッシュをクリアできません。ページがリロードされました。"
+  },
+  "toolCacheFailed": {
+    "message": "キャッシュのクリーンアップが完了しませんでした。閉じて再試行してください。"
+  },
+  "toolClose": {
+    "message": "閉じる"
+  },
+  "toolReload": {
+    "message": "リロード"
+  },
+  "toolLoading": {
+    "message": "読み込み中…"
+  },
+  "toolFrameError": {
+    "message": "ロードできませんでした。リロードしてみてください。"
+  },
+  "toolSiteHelp": {
+    "message": "ブラウザーの到達可能性のみ。これはアカウントまたは地域のアクセスを検証しません。"
+  },
+  "toolFallback": {
+    "message": "バックアップ速度テスト"
+  },
+  "toolFullscreen": {
+    "message": "フルスクリーン"
+  },
+  "toolRestore": {
+    "message": "全画面表示を終了する"
+  },
+  "ipReadFailed": {
+    "message": "読み取りに失敗しました。 👉"
+  },
+  "ipViewSource": {
+    "message": "ソースサイトを表示"
+  },
+  "toolDownloadError": {
+    "message": "ダウンロードサーバーに到達できませんでした。もう一度やり直してください。"
+  },
+  "toolAccess": {
+    "message": "サイトアクセスを有効にする"
+  },
+  "toolPermission": {
+    "message": "埋め込みセッションの互換性のために、このサイトへのアクセスを許可します。"
+  },
+  "toolAsia": {
+    "message": "アジア"
+  },
+  "toolEurope": {
+    "message": "ヨーロッパ"
+  },
+  "toolAmerica": {
+    "message": "北アメリカ"
+  },
+  "toolGlobalHelp": {
+    "message": "ブラウザ出口 IP を事前に入力します。パスを比較するには、中国本土または別の地域を選択します。 Start は、表示されたターゲットを最大 3 つの Globalping プローブに送信します。"
+  },
+  "toolServiceError": {
+    "message": "テストサービスが利用できません。もう一度やり直してください。"
+  },
+  "popupOrderHelp": {
+    "message": "押したままドラッグして並べ替えます。 Alt+矢印キーでもこのプロファイルを移動できます。"
+  },
+  "popupOrderSaved": {
+    "message": "注文を保存しました"
+  },
+  "toolGroupIP": {
+    "message": "IP テスト"
+  },
+  "toolGroupWeb": {
+    "message": "ウェブサイトのテスト"
+  },
+  "toolGroupSpeed": {
+    "message": "スピード"
+  },
+  "toolCurrentIP": {
+    "message": "現在の出口 IP"
+  },
+  "toolCurrentIPLoading": {
+    "message": "現在の読み込み終了 IP…"
+  },
+  "toolCurrentIPFailed": {
+    "message": "現在の IP を読み取れませんでした。ターゲットを入力します。"
+  },
+  "speedMode": {
+    "message": "テストモード"
+  },
+  "speedBoth": {
+    "message": "ダウンロード + アップロード"
+  },
+  "speedDownload": {
+    "message": "ダウンロード"
+  },
+  "speedUpload": {
+    "message": "アップロード"
+  },
+  "speedLatency": {
+    "message": "HTTP レイテンシ\nフェーズあたり"
+  },
+  "speedBudget": {
+    "message": "{n} MiB · 合計 {total} MiB、および小さなレイテンシー サンプル。"
+  },
+  "siteCategory": {
+    "message": "ウェブサイトのカテゴリ"
+  },
+  "siteAll": {
+    "message": "すべてのウェブサイト"
+  },
+  "siteAI": {
+    "message": "AI"
+  },
+  "siteDevelopment": {
+    "message": "開発"
+  },
+  "siteVideo": {
+    "message": "ビデオ/音楽"
+  },
+  "siteSocial": {
+    "message": "ソーシャル"
+  },
+  "siteDomestic": {
+    "message": "本土サービス"
+  },
+  "siteServices": {
+    "message": "共通サービス"
+  },
+  "globalMethod": {
+    "message": "測定タイプ"
+  },
+  "localPort": {
+    "message": "ローカルポート:"
+  },
+  "chainChooseNode": {
+    "message": "プロキシ ノードを選択してください"
+  },
+  "chainTitle": {
+    "message": "プロキシチェーン"
+  },
+  "chainSelectExit": {
+    "message": "このカスタム チェーンを保存またはテストするには、以下の特定の出口ノードを選択します。フォローv2rayNはv2rayNが管理しています。"
+  },
+  "chainSelectExitShort": {
+    "message": "出口ノードを選択してください"
+  },
+  "chainAdd": {
+    "message": "+ プロキシレイヤーを追加"
+  },
+  "chainTest": {
+    "message": "テストチェーン"
+  },
+  "chainMode": {
+    "message": "チェーンモード"
+  },
+  "chainBase": {
+    "message": "ベースプロキシ"
+  },
+  "chainExit": {
+    "message": "プロキシの終了"
+  },
+  "chainEgress": {
+    "message": "チェーン出口"
+  },
+  "chainExitBadge": {
+    "message": "出口 IP"
+  },
+  "chainEntry": {
+    "message": "チェーンエントリー"
+  },
+  "chainTransit": {
+    "message": "ブリッジノード"
+  },
+  "chainUntested": {
+    "message": "テストされていません"
+  },
+  "chainMissing": {
+    "message": "ノードが利用できません"
+  },
+  "chainUnresolved": {
+    "message": "継承されたチェーンを解決できません。前の設定を修復するか、カスタム チェーンを選択します。"
+  },
+  "chainUpgrade": {
+    "message": "順序付きチェーンを有効にするためにローカル コンパニオンを更新します。"
+  },
+  "chainBusy": {
+    "message": "別のチェーンテストが実行中です"
+  },
+  "chainOK": {
+    "message": "到達可能"
+  },
+  "chainFailed": {
+    "message": "このテストでホップが失敗しました"
+  },
+  "chainBlocked": {
+    "message": "未テスト · 前のホップが失敗しました"
+  },
+  "chainFailureHelp": {
+    "message": "このホップまたはそのホップへのパスが通過しませんでした。それ以降のホップはテストされていません。"
+  },
+  "chainAllOK": {
+    "message": "すべての累積パスが応答しました"
+  },
+  "chainStopping": {
+    "message": "現在の限界プローブの後に停止しています…"
+  },
+  "globalWorld": {
+    "message": "世界中"
+  },
+  "globalUnavailable": {
+    "message": "ターゲットまたはリージョンが利用できません。ターゲットを確認するか、別の地域を選択してください。"
+  },
+  "globalRateLimited": {
+    "message": "サービス速度制限に達しました。後でもう一度試してください。"
+  },
+  "globalNoResults": {
+    "message": "サービスはプローブ結果を返しませんでした。別の地域を試してください。"
+  },
+  "globalProbeFailed": {
+    "message": "プローブが失敗しました"
+  },
+  "globalProbeOffline": {
+    "message": "オフラインでプローブする"
+  },
+  "globalIcmpCaution": {
+    "message": "ICMP 個の返信が見つからないだけでは、ブロックしているとは証明されません。本土と海外のパスや他のテスト タイプを比較します。"
+  },
+  "speedRealtime": {
+    "message": "ライブスピード"
+  },
+  "speedAverage": {
+    "message": "平均速度"
+  },
+  "ipToolsBrief": {
+    "message": "サードパーティの結果は参考用です。"
+  },
+  "ipReportBrief": {
+    "message": "結果は出口 IP によって異なりますが、参照用です。"
+  },
+  "toolPingPe": {
+    "message": "IP ブロッキングチェック"
+  },
+  "toolTargetIP": {
+    "message": "ターゲット IP"
+  },
+  "toolOpenPingPe": {
+    "message": "オープン公式テスト"
+  },
+  "toolInvalidIP": {
+    "message": "有効な IPv4 または IPv6 アドレスを入力してください。"
+  },
+  "toolInvalidPort": {
+    "message": "TCPポートを1～65535で入力します。"
+  },
+  "toolExternalFailed": {
+    "message": "ウェブサイトを開けませんでした。もう一度やり直してください。"
+  },
+  "ipBrowserReading": {
+    "message": "ブラウザ経由で Ping0 を読んでいます…"
+  },
+  "ipVerifyBrowser": {
+    "message": "認証ページを開く"
+  },
+  "policyCenter": {
+    "message": "プライバシー、宣言、よくある質問"
+  },
+  "policyCenterIntro": {
+    "message": "ローカル データの処理、テストの制限、および一般的な回答。"
+  },
+  "policyPrivacyTitle": {
+    "message": "プライバシーポリシー"
+  },
+  "policyPrivacySummary": {
+    "message": "プロファイルと認証情報はこのデバイスに残ります。ポップアップのチェックと診断は、指定されたプロバイダーに問い合わせてください。広告や行動分析はありません。"
+  },
+  "policyDeclarationTitle": {
+    "message": "使用および測定に関する記述"
+  },
+  "policyDeclarationSummary": {
+    "message": "この拡張機能はローカル ルート マネージャーであり、プロキシや VPN プロバイダーではありません。測定値は、ネットワーク、プロキシ、プロバイダーの条件の影響を受ける参考サンプルです。"
+  },
+  "policyFaqTitle": {
+    "message": "よくある質問"
+  },
+  "policyFaqSummary": {
+    "message": "Windows コンパニオンはローカル ノードと MTR に必要です。待ち時間は、ブラウザー、システム、パブリック プローブ間で異なる場合があります。テストを停止するか、設定からローカル データをクリアします。"
+  },
+  "policyDetailsLink": {
+    "message": "詳細を読む ↗"
+  },
+  "thirdPartyNotice": {
+    "message": "オープンソースに関する通知 ↗"
+  },
+  "columnResizeHelp": {
+    "message": "ドラッグしてサイズを変更します。ダブルクリックしてリセットします。矢印キーを使用して調整します"
+  },
+  "columnResize": {
+    "message": "列のサイズを変更する"
+  },
+  "typeDescription_node": {
+    "message": "プロキシ ノード経由で接続する"
+  },
+  "typeDescription_manual": {
+    "message": "プロキシ設定を手動で入力します"
+  },
+  "typeDescription_auto": {
+    "message": "ルールを使用してノードを選択する"
+  },
+  "typeDescription_pac": {
+    "message": "PAC ルールを使用してトラフィックをルーティングします"
+  },
+  "appDescription": {
+    "message": "独立したブラウザ プロキシ ルート、ノード、ドメイン ルール、接続チェックを管理します。ノード ルートには Windows コンパニオンが必要です。"
+  },
+  "core_title": {
+    "message": "プロキシコア"
+  },
+  "core_checking": {
+    "message": "ローカルコンポーネントを確認しています…"
+  },
+  "core_ready": {
+    "message": "Xray は準備完了です"
+  },
+  "core_missing": {
+    "message": "プロキシ コアがありません"
+  },
+  "core_external": {
+    "message": "カスタムコア: 未検証"
+  },
+  "core_corrupt": {
+    "message": "Xray チェックサムの不一致 - 修復が必要"
+  },
+  "core_unreadable": {
+    "message": "コアファイルをチェックできませんでした"
+  },
+  "core_intro": {
+    "message": "完全な Windows パッケージには Xray が含まれます。 v2rayNはオプションです。"
+  },
+  "core_verify": {
+    "message": "もう一度確認してください"
+  },
+  "core_install": {
+    "message": "コアのインストール/修復"
+  },
+  "core_installing": {
+    "message": "ダウンロードと検証中…"
+  },
+  "core_done": {
+    "message": "コアが検証済みで準備完了"
+  },
+  "core_help": {
+    "message": "修復では、固定された公式 Xray リリースを使用し、そのチェックサムを検証します。既存の接続は引き続き実行されます。"
+  },
+  "core_absent": {
+    "message": "ローカル コンポーネントを一度インストールしてから、ここに戻ってコアを確認します。"
+  },
+  "core_download": {
+    "message": "インストールガイド"
+  },
+  "core_absentHelp": {
+    "message": "一致する Windows パッケージを使用するか、ガイドに従ってソースからビルドし、セットアップを実行します。"
+  },
+  "core_failed": {
+    "message": "コア操作が失敗しました。もう一度試すか、完全な Windows パッケージを使用してください。"
+  },
+  "core_version": {
+    "message": "バージョン"
+  },
+  "error_ACTIVE_PROFILE_DELETE": {
+    "message": "削除する前に別のプロファイルへ切り替えてください"
+  },
+  "error_BACKUP_BINDING_TYPE": {
+    "message": "ルートを関連付けられるのはプロキシプロファイルのみです"
+  },
+  "error_BACKUP_FORMAT3_REQUIRED": {
+    "message": "ノードルールには形式3のポータブルバックアップが必要です"
+  },
+  "error_BACKUP_INDEPENDENT_PATH_REQUIRED": {
+    "message": "バックアップには独立したノード経路が必要です"
+  },
+  "error_BACKUP_INTERNAL_BINDINGS": {
+    "message": "バックアップに内部の関連付けが含まれています"
+  },
+  "error_BACKUP_MESSAGE_LIMIT": {
+    "message": "ノードバックアップがコンパニオンのメッセージサイズ上限を超えています"
+  },
+  "error_BACKUP_NODES_INCOMPLETE": {
+    "message": "ノードバックアップが不完全です"
+  },
+  "error_BACKUP_NODE_MISSING": {
+    "message": "バックアップに必要なノードがありません"
+  },
+  "error_BACKUP_NODE_PATHS_LIMIT": {
+    "message": "バックアップに含められるノード経路は最大{limit}件です"
+  },
+  "error_BACKUP_PATH_INCOMPLETE": {
+    "message": "バックアップのノード経路が不完全です"
+  },
+  "error_BACKUP_PROFILES_LIMIT": {
+    "message": "バックアップに含められるプロファイルは最大{limit}件です"
+  },
+  "error_BACKUP_PROXY_CONFLICT": {
+    "message": "バックアップ内のプロキシ設定が競合しています"
+  },
+  "error_BACKUP_SIZE_LIMIT": {
+    "message": "バックアップが{limit} MBを超えています"
+  },
+  "error_BACKUP_TRANSFER_UNAVAILABLE": {
+    "message": "ノードバックアップを転送するには、コンパニオンを更新または修復してください。"
+  },
+  "error_BACKUP_UNUSED_NODES": {
+    "message": "バックアップに参照されていないノードが含まれています"
+  },
+  "error_BODY_TOO_LARGE": {
+    "message": "サブスクリプションの応答が許容サイズを超えています。"
+  },
+  "error_BROWSER_API_FAILED": {
+    "message": "ブラウザーの操作に失敗しました。技術的な詳細を確認してください。"
+  },
+  "error_BROWSER_PROXY_RESTORE_FAILED": {
+    "message": "操作に失敗し、以前のブラウザープロキシも復元できませんでした"
+  },
+  "error_BROWSER_SCHEDULING_UNAVAILABLE": {
+    "message": "ブラウザーのスケジュール機能を利用できません。"
+  },
+  "error_BUSY": {
+    "message": "別の操作が実行中です。しばらくしてから再試行してください。"
+  },
+  "error_CHAIN_PROBE_FAILED": {
+    "message": "チェーンの検査に失敗しました"
+  },
+  "error_COMPANION_BULK_RELEASE_REQUIRED": {
+    "message": "複数のノードルールを安全に管理するには、ローカルコンパニオンを更新してください"
+  },
+  "error_COMPANION_CHAINS_REQUIRED": {
+    "message": "順序付きチェーンを使うには、ローカルコンパニオンを更新してください"
+  },
+  "error_COMPANION_MESSAGE_LIMIT": {
+    "message": "設定がコンパニオンのメッセージサイズ上限を超えています"
+  },
+  "error_COMPANION_OPERATION_FAILED": {
+    "message": "ローカルコンパニオンの操作に失敗しました。技術的な詳細を確認してください。"
+  },
+  "error_COMPANION_UNAVAILABLE": {
+    "message": "V2Routeコンパニオンをインストールまたは修復してください"
+  },
+  "error_CONNECTION_CLOSED": {
+    "message": "テストが完了する前に接続が閉じられました。"
+  },
+  "error_CORE_INSTALL_FAILED": {
+    "message": "コアのインストールに失敗しました。技術的な詳細を確認してください。"
+  },
+  "error_CORE_OWNERSHIP_FAILED": {
+    "message": "独立したテスト用コアを安全に制御できないため、テストを停止しました。"
+  },
+  "error_CORE_START_FAILED": {
+    "message": "独立したテスト用コアを起動できません。コンパニオンとコアのインストールを確認してください。"
+  },
+  "error_CORE_START_TIMEOUT": {
+    "message": "独立したテスト用コアが制限時間内に準備できませんでした。"
+  },
+  "error_CORE_STATUS_UNAVAILABLE": {
+    "message": "コアの状態を取得できません。技術的な詳細を確認してください。"
+  },
+  "error_CORE_VALIDATION_FAILED": {
+    "message": "Xrayでインポートしたノードを検証できませんでした。設定を確認して再試行してください。"
+  },
+  "error_DETACH_PORT_CONFLICT": {
+    "message": "管理対象のポートは解放されます。別の手動プロキシを入力してください"
+  },
+  "error_DETACH_PROXY_REQUIRED": {
+    "message": "関連付けを解除する前に、代わりの手動プロキシを入力してください"
+  },
+  "error_DNS_BUSY": {
+    "message": "DNS検索が混雑しています。しばらくしてから再試行してください。"
+  },
+  "error_DNS_FAILED": {
+    "message": "DNS検索に失敗しました。アドレスとネットワーク接続を確認してください。"
+  },
+  "error_ENCODING_UNSUPPORTED": {
+    "message": "サブスクリプションが未対応のコンテンツエンコーディングを使用しています。"
+  },
+  "error_FIREFOX_PRIVATE_ACCESS_REQUIRED": {
+    "message": "プロキシ設定を変更する前に、拡張機能の詳細でプライベートウィンドウでのV2Routeの実行を許可してください"
+  },
+  "error_FOLDER_UNAVAILABLE": {
+    "message": "フォルダーを利用できません。パス、アクセス権、コンパニオンのバージョンを確認してください"
+  },
+  "error_GROUP_LIMIT": {
+    "message": "グループ数の上限に達しました。使っていないグループを削除して再試行してください。"
+  },
+  "error_GROUP_NOT_EDITABLE": {
+    "message": "この提供元のグループはここでは編集できません。"
+  },
+  "error_GROUP_NOT_FOUND": {
+    "message": "選択したグループは存在しません。別のグループを選択してください。"
+  },
+  "error_HTTP_ENCODING": {
+    "message": "テストサーバーが未対応のエンコーディングを返しました。"
+  },
+  "error_HTTP_LENGTH": {
+    "message": "テスト応答のサイズが要求したサイズと一致しません。"
+  },
+  "error_HTTP_RESPONSE_TOO_LARGE": {
+    "message": "テスト応答が許容サイズを超えました。"
+  },
+  "error_HTTP_STATUS": {
+    "message": "テストサーバーが成功以外のHTTPステータスを返しました。"
+  },
+  "error_IMPORTED_PROXY_MISSING": {
+    "message": "コンパニオンがインポート済みプロキシを返しませんでした"
+  },
+  "error_IMPORTED_RULE_PATH_CONFLICT": {
+    "message": "インポートしたノードから競合するルール経路が生成されます"
+  },
+  "error_IMPORT_CLEANUP_FAILED": {
+    "message": "インポートに失敗し、一部の一時ノードまたはポートを解放できませんでした。既存のプロファイルは保持されています"
+  },
+  "error_IMPORT_PROFILE_NAME_CONFLICT": {
+    "message": "プロファイル名が重複しているか無効です"
+  },
+  "error_INCOMPLETE_RESPONSE": {
+    "message": "サブスクリプションの応答が不完全でした。再試行してください。"
+  },
+  "error_INVALID_BACKUP": {
+    "message": "無効なV2Routeバックアップです"
+  },
+  "error_INVALID_BACKUP_NODE": {
+    "message": "バックアップのノードが無効または重複しています"
+  },
+  "error_INVALID_BACKUP_NODES": {
+    "message": "バックアップのノードが無効です"
+  },
+  "error_INVALID_BACKUP_PATH": {
+    "message": "バックアップの経路が無効です"
+  },
+  "error_INVALID_BYPASS_ENTRY": {
+    "message": "プロキシ除外項目が無効です"
+  },
+  "error_INVALID_BYPASS_LIST": {
+    "message": "プロキシ除外リストが無効です"
+  },
+  "error_INVALID_CHAIN": {
+    "message": "順序付きチェーンが無効です"
+  },
+  "error_INVALID_CHAIN_PROBE": {
+    "message": "チェーンの検査要求が無効です"
+  },
+  "error_INVALID_COMPANION_RESPONSE": {
+    "message": "ローカルコンパニオンが無効な応答を返しました。更新または修復してください。"
+  },
+  "error_INVALID_CONTENT": {
+    "message": "サブスクリプションの応答に有効な内容がありません。"
+  },
+  "error_INVALID_DOMAIN_PATTERNS": {
+    "message": "ドメインパターンはカンマで区切り、URLはそれぞれ別の行に入力してください"
+  },
+  "error_INVALID_ENCODING": {
+    "message": "サブスクリプションの応答は有効なUTF-8テキストではありません。"
+  },
+  "error_INVALID_FOLDER_REQUEST": {
+    "message": "フォルダー要求が無効です"
+  },
+  "error_INVALID_GROUP_ACTION": {
+    "message": "このグループ操作には対応していません。"
+  },
+  "error_INVALID_HOP_INDEX": {
+    "message": "ホップのインデックスが無効です"
+  },
+  "error_INVALID_LEGACY_PREDECESSOR": {
+    "message": "旧形式の前段プロキシが無効です"
+  },
+  "error_INVALID_LIBRARY_COMMAND": {
+    "message": "このノードライブラリーのコマンドには対応していません。"
+  },
+  "error_INVALID_LIBRARY_REQUEST": {
+    "message": "ライブラリー要求が無効です"
+  },
+  "error_INVALID_NAME": {
+    "message": "制御文字を含まない1～128文字の表示可能な名前を入力してください。"
+  },
+  "error_INVALID_NETWORK_TEST": {
+    "message": "ネットワークテストが無効です"
+  },
+  "error_INVALID_NODE_IMPORT_RESPONSE": {
+    "message": "ノードインポートの応答が無効です"
+  },
+  "error_INVALID_PREDECESSOR": {
+    "message": "このルートの前段プロキシが無効です"
+  },
+  "error_INVALID_PROFILE_NAME": {
+    "message": "プロファイル名が無効です"
+  },
+  "error_INVALID_PROFILE_REFERENCE": {
+    "message": "プロファイル参照が無効です"
+  },
+  "error_INVALID_PROXY_AUTH": {
+    "message": "プロキシ認証が無効です"
+  },
+  "error_INVALID_PROXY_CREDENTIALS": {
+    "message": "プロキシの認証情報が無効です"
+  },
+  "error_INVALID_PROXY_ENDPOINT": {
+    "message": "有効なプロキシホストとポートを入力してください"
+  },
+  "error_INVALID_PROXY_HOST": {
+    "message": "ポート、URL、パス、クエリを含まないDNS名またはIPアドレスを入力してください"
+  },
+  "error_INVALID_ROUTE": {
+    "message": "ルートが無効です"
+  },
+  "error_INVALID_ROUTE_SETTINGS": {
+    "message": "ルート設定が無効です"
+  },
+  "error_INVALID_RULES": {
+    "message": "ルールが無効です"
+  },
+  "error_INVALID_RULE_TARGET": {
+    "message": "各ルールに有効なノードまたはプロファイルを1つ選択してください"
+  },
+  "error_INVALID_SUBSCRIPTION": {
+    "message": "サブスクリプションが無効です"
+  },
+  "error_INVALID_SUBSCRIPTION_REQUEST": {
+    "message": "サブスクリプション要求が無効です"
+  },
+  "error_INVALID_SUBSCRIPTION_SETTINGS": {
+    "message": "サブスクリプション設定が無効です。更新間隔と接続ポリシーを確認してください。"
+  },
+  "error_INVALID_SYSTEM_PROXY_RESPONSE": {
+    "message": "システムプロキシの応答が無効です。コンパニオンを更新または修復してください"
+  },
+  "error_INVALID_TRANSPORT": {
+    "message": "サブスクリプションの接続設定が無効です。"
+  },
+  "error_INVALID_URL": {
+    "message": "ユーザー名やパスワードを含まない有効なHTTP(S)サブスクリプションURLを入力してください。"
+  },
+  "error_LIBRARY_CHANGED": {
+    "message": "ノードライブラリーが別のウィンドウで変更されました。更新して再試行してください。"
+  },
+  "error_MANUAL_CHAIN_UNSUPPORTED": {
+    "message": "手動プロキシではノードチェーンを使用できません"
+  },
+  "error_MANUAL_PROXY_CLEANUP_FAILED": {
+    "message": "保存に失敗し、一時的にインポートしたプロキシがノードライブラリーに残っています"
+  },
+  "error_NATIVE_BINDING_ID": {
+    "message": "ルートの関連付けIDが無効です。"
+  },
+  "error_NATIVE_BINDING_UNKNOWN": {
+    "message": "ルートの関連付けが存在しません。"
+  },
+  "error_NATIVE_BUTTON_NAME": {
+    "message": "ボタン名は1～128文字の表示可能な文字で入力してください。"
+  },
+  "error_NATIVE_CATALOG_UNREADABLE": {
+    "message": "v2rayNの設定を読み取れませんでした。"
+  },
+  "error_NATIVE_CORE_MISSING": {
+    "message": "Xrayを利用できません。コンパニオンパッケージをインストールしてください。"
+  },
+  "error_NATIVE_GROUP_ID_COLLISION": {
+    "message": "グループIDが競合しています。"
+  },
+  "error_NATIVE_GROUP_ORDER": {
+    "message": "グループの順序が無効です。"
+  },
+  "error_NATIVE_NODE_ID_COLLISION": {
+    "message": "ノードIDが競合しています。"
+  },
+  "error_NATIVE_PREDECESSOR_AMBIGUOUS": {
+    "message": "前段プロキシの名前が存在しないか重複しています。特定の前段ノードを選択してください。"
+  },
+  "error_NATIVE_PREDECESSOR_CYCLE": {
+    "message": "前段チェーンが循環しているか、ノード数が6を超えています。"
+  },
+  "error_NATIVE_PREDECESSOR_INVALID": {
+    "message": "有効な前段プロキシを選択してください。"
+  },
+  "error_NATIVE_PREDECESSOR_MISSING": {
+    "message": "選択した前段プロキシは存在しません。別のノードを選択してください。"
+  },
+  "error_NATIVE_PREDECESSOR_SETTINGS": {
+    "message": "前段プロキシの設定が無効です。"
+  },
+  "error_NATIVE_ROUTE_INVALID": {
+    "message": "有効なルートを選択してください。"
+  },
+  "error_NATIVE_ROUTE_MISSING": {
+    "message": "このルートは存在しません。別のルートを選択してください。"
+  },
+  "error_NATIVE_ROUTE_PORTS": {
+    "message": "ルートのポート割り当てが無効です。"
+  },
+  "error_NATIVE_ROUTE_UNAVAILABLE": {
+    "message": "選択したルートを利用できません。技術的な詳細を確認してください。"
+  },
+  "error_NATIVE_SETTINGS_FORMAT": {
+    "message": "設定の形式が無効です。"
+  },
+  "error_NATIVE_SETTINGS_REVISION": {
+    "message": "設定のリビジョンが無効です。"
+  },
+  "error_NATIVE_SUCCESSOR_UNSUPPORTED": {
+    "message": "このグループは未対応の後段プロキシを使用しています。"
+  },
+  "error_NATIVE_UNSUPPORTED_CUSTOM": {
+    "message": "このバージョンはカスタムアウトバウンド設定に対応していません。"
+  },
+  "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
+    "message": "このバージョンはHysteria2に対応していません。"
+  },
+  "error_NATIVE_UNSUPPORTED_TUIC": {
+    "message": "このバージョンにはTUICに必要なsing-boxコアが統合されていません。"
+  },
+  "error_NATIVE_UNSUPPORTED_TYPE": {
+    "message": "このルートの種類には対応していません。"
+  },
+  "error_NATIVE_V2RAYN_PORT": {
+    "message": "v2rayNのローカルポートが無効です。"
+  },
+  "error_NATIVE_V2RAYN_UNAVAILABLE": {
+    "message": "v2rayNを利用できません。インポートしたノードを選択してください。"
+  },
+  "error_NETWORK_FAILED": {
+    "message": "ネットワーク要求に失敗しました。接続を確認して再試行してください。"
+  },
+  "error_NETWORK_TEST_FAILED": {
+    "message": "ネットワーク診断に失敗しました。技術的な詳細を確認してください。"
+  },
+  "error_NODE_LIMIT": {
+    "message": "この操作はノード数の上限を超えます。使っていないノードを削除して再試行してください。"
+  },
+  "error_NODE_MAPPING_INCOMPLETE": {
+    "message": "ノードの対応付けが不完全です"
+  },
+  "error_NODE_NOT_FOUND": {
+    "message": "選択したノードは存在しません。別のノードを選択してください。"
+  },
+  "error_NOT_DUE": {
+    "message": "次の自動更新時刻にはまだ達していません。"
+  },
+  "error_PAC_ENTRY_REQUIRED": {
+    "message": "FindProxyForURLを含むPACソースを入力してください"
+  },
+  "error_PAC_FUNCTION_REQUIRED": {
+    "message": "トップレベルで同期のFindProxyForURL関数、関数変数、または関数への代入を定義してください"
+  },
+  "error_PAC_PARSER_UNAVAILABLE": {
+    "message": "同梱のPACパーサーを利用できません。拡張機能を再インストールしてください"
+  },
+  "error_PAC_RULE_TARGET_UNSUPPORTED": {
+    "message": "自動ルールの宛先にはインラインPACプロファイルを指定できません"
+  },
+  "error_PAC_SOURCE_LIMIT": {
+    "message": "{limit}文字以内のPACソースを入力してください"
+  },
+  "error_PAC_SYNTAX_INVALID": {
+    "message": "PACの構文が無効です"
+  },
+  "error_PAC_SYNTAX_LOCATION": {
+    "message": "{line}行、{column}列のPAC構文が無効です"
+  },
+  "error_PARTIAL_TRANSFER": {
+    "message": "すべてのデータを受信する前にテスト転送が終了しました。"
+  },
+  "error_PRIVATE_DIRECTORY_FAILED": {
+    "message": "専用テストフォルダーを保護できないため、テストを停止しました。"
+  },
+  "error_PRIVATE_TARGET": {
+    "message": "プライベートアドレスやローカルアドレスへのサブスクリプション要求は許可されていません。"
+  },
+  "error_PROFILE_NOT_FOUND": {
+    "message": "プロファイルが見つかりません"
+  },
+  "error_PROFILE_REFERENCE_CYCLE": {
+    "message": "プロファイル参照が循環しています"
+  },
+  "error_PROFILE_REFERENCE_DEPTH": {
+    "message": "自動ルールが最大深度{limit}を超えています"
+  },
+  "error_PROFILE_REFERENCE_MISSING": {
+    "message": "参照先のプロファイルが存在しません：{name}"
+  },
+  "error_PROFILE_SAVE_RESTORE_FAILED": {
+    "message": "保存に失敗しました。ルートの復元状態を確認してください"
+  },
+  "error_PROXY_AUTH_REQUIRED": {
+    "message": "サブスクリプション用プロキシに必要な認証情報を、この要求では提供できません。"
+  },
+  "error_PROXY_CONTROL_UNAVAILABLE": {
+    "message": "別の拡張機能またはポリシーがプロキシを制御しています"
+  },
+  "error_PROXY_DNS_REQUIRED": {
+    "message": "V2RouteではSOCKS5のDNSをプロキシ経由で解決します"
+  },
+  "error_PROXY_FAILED": {
+    "message": "プロキシ接続に失敗しました。選択したルートを確認してください。"
+  },
+  "error_PROXY_PROFILE_REQUIRED": {
+    "message": "プロキシプロファイルを選択してください"
+  },
+  "error_PROXY_ROLLBACK_REFUSED": {
+    "message": "ブラウザーがプロキシのロールバックを拒否しました"
+  },
+  "error_PROXY_SETTING_REFUSED": {
+    "message": "ブラウザーがプロキシ設定を拒否しました"
+  },
+  "error_PROXY_UNAVAILABLE": {
+    "message": "選択したプロキシを利用できません。現在のルートを確認してください。"
+  },
+  "error_PROXY_USERNAME_REQUIRED": {
+    "message": "プロキシのユーザー名を入力してください"
+  },
+  "error_RECOVERY_BINDINGS_LIMIT": {
+    "message": "1回に復元できるノードの関連付けは最大{limit}件です。参照先のプロファイルを個別に開いて保存してください。"
+  },
+  "error_REDIRECT_LIMIT": {
+    "message": "サブスクリプションのリダイレクト回数が多すぎます。URLを確認してください。"
+  },
+  "error_REFERENCED_PROFILE_DELETE": {
+    "message": "このプロファイルは自動ルールから参照されています"
+  },
+  "error_REMOTE_PAC_UNSUPPORTED": {
+    "message": "インラインPACソースを使用してください。リモートPACには対応していません"
+  },
+  "error_ROUTE_PORT_UNAVAILABLE": {
+    "message": "ポートが割り当てられませんでした"
+  },
+  "error_ROUTE_RECOVERY_RESTORE_FAILED": {
+    "message": "ルートの復旧に失敗しました。復元状態を確認してください"
+  },
+  "error_ROUTE_REVISION_CONFLICT": {
+    "message": "ルートが別のウィンドウで変更されました。先に更新してください"
+  },
+  "error_ROUTE_SAVE_ROLLBACK_FAILED": {
+    "message": "ルートの保存に失敗しました。ロールバック状態を確認してください"
+  },
+  "error_ROUTE_UNAVAILABLE": {
+    "message": "テストルートを利用できません。ノードと前段プロキシの設定を確認してください。"
+  },
+  "error_RULE_BINDING_MISSING": {
+    "message": "ノードルールの関連付けがありません。自動プロファイルを開き直して保存してください：{name}"
+  },
+  "error_RULE_NODES_LIMIT": {
+    "message": "自動ルールで使用できる異なるノードは最大{limit}個です"
+  },
+  "error_RULE_NODE_CHANGED": {
+    "message": "ノードルールが利用できないか変更されています。ノードを復元するか、別のノードを選んで保存してください：{name}"
+  },
+  "error_RULE_PATH_CONFLICT": {
+    "message": "ノードルールの経路が競合しています"
+  },
+  "error_RULE_PATTERNS_LIMIT": {
+    "message": "自動ルールで使用できる照合パターンは合計{limit}件までです"
+  },
+  "error_RULE_PORT_UNAVAILABLE": {
+    "message": "ノードルールのポートを利用できません"
+  },
+  "error_RULE_REVISION_CONFLICT": {
+    "message": "ノードルールが別のウィンドウで変更されました。先に更新してください"
+  },
+  "error_SELECTED_NODE_UNAVAILABLE": {
+    "message": "選択したノードを利用できません。復元するか、別のノードを選択してください"
+  },
+  "error_SOCKS_FAILED": {
+    "message": "SOCKS接続を確立できませんでした。"
+  },
+  "error_STARTUP_FALLBACK_REFUSED": {
+    "message": "ブラウザーが起動時の代替プロキシを拒否しました。"
+  },
+  "error_SUBSCRIPTION_CHANGED": {
+    "message": "更新中にサブスクリプションが変更されました。更新して再試行してください。"
+  },
+  "error_SUBSCRIPTION_HTTP_STATUS": {
+    "message": "サブスクリプションサーバーがHTTP {status}を返しました。"
+  },
+  "error_SUBSCRIPTION_LIMIT": {
+    "message": "サブスクリプション数の上限に達しました。使っていないサブスクリプションを削除して再試行してください。"
+  },
+  "error_SUBSCRIPTION_NOT_FOUND": {
+    "message": "選択したサブスクリプションは存在しません。"
+  },
+  "error_SYSTEM_PROXY_SNAPSHOT_UNAVAILABLE": {
+    "message": "適用済みシステムプロキシのスナップショットを利用できません。"
+  },
+  "error_SYSTEM_PROXY_TIMEOUT": {
+    "message": "システムプロキシの読み取りがタイムアウトしました"
+  },
+  "error_SYSTEM_PROXY_UNAVAILABLE": {
+    "message": "システムプロキシを利用できません。技術的な詳細を確認してください。"
+  },
+  "error_TIMEOUT": {
+    "message": "要求がタイムアウトしました。接続を確認して再試行してください。"
+  },
+  "error_TLS_DOWNGRADE": {
+    "message": "サブスクリプションがHTTPSからHTTPにリダイレクトされたため、ブロックしました。"
+  },
+  "error_TLS_FAILED": {
+    "message": "安全な接続を検証できません。サーバーと証明書を確認してください。"
+  },
+  "error_UNSAFE_TEMP_PATH": {
+    "message": "一時テストフォルダーが安全でないため、テストを停止しました。"
+  },
+  "error_UNSUPPORTED_LIBRARY_REQUEST": {
+    "message": "未対応のライブラリー要求です"
+  },
+  "error_UNSUPPORTED_PROFILE_TYPE": {
+    "message": "未対応のプロファイルの種類です"
+  },
+  "error_UNSUPPORTED_REQUEST": {
+    "message": "未対応の要求です"
+  },
+  "error_UNSUPPORTED_RULE_CONDITION": {
+    "message": "ホスト名とURLのワイルドカードルールのみ対応しています"
+  },
+  "error_UPDATE_FAILED": {
+    "message": "サブスクリプションの更新に失敗しました。既存のノードは保持されています。"
+  },
+  "error_VALIDATION_FAILED": {
+    "message": "サブスクリプションの内容を検証できませんでした。既存のノードは保持されています。"
+  },
+  "nativeUnnamedNode": {
+    "message": "名前のないノード"
+  },
+  "nativeProtocolCustom": {
+    "message": "カスタム"
+  },
+  "nativeProtocolOutbound": {
+    "message": "カスタムアウトバウンド"
+  },
+  "nativeProtocolGroup": {
+    "message": "ポリシーグループ"
+  },
+  "nativeProtocolChain": {
+    "message": "プロキシチェーン"
+  },
+  "nativeProtocolUnknown": {
+    "message": "未対応の種類"
+  },
+  "languageLoadFailed": {
+    "message": "選択した言語を読み込めませんでした。再試行してください。"
+  },
+  "invalidBackupJSON": {
+    "message": "バックアップは有効なJSONではありません。"
+  },
+  "noticeBodyLanguages": {
+    "message": "ポリシーの全文は英語と簡体字中国語で提供されています。"
+  },
+  "policyRules": {
+    "message": "プロキシ振り分けルール"
+  },
+  "policyPriority": {
+    "message": "優先順：プロキシを使わないアドレス → 最初に一致するルール → 既定の経路。"
+  },
+  "policyDirectHelp": {
+    "message": "一致しないアドレスには直接接続します。ポップアップの直接接続ボタンにも適用されます。"
+  },
+  "policySystemHelp": {
+    "message": "一致しないアドレスにはシステムプロキシを使います。ポップアップのシステムボタンにも適用されます。"
+  },
+  "policyEmpty": {
+    "message": "ルールはありません。既定の経路を使います。"
+  },
+  "policyAddressHelp": {
+    "message": "ドメイン、ワイルドカードドメイン、IP、IP:ポートに対応。IP ルールは DNS 結果ではなく URL 内の IP と照合します。"
+  },
+  "policyMoveUp": {
+    "message": "ルールを上へ"
+  },
+  "policyMoveDown": {
+    "message": "ルールを下へ"
+  }
+}

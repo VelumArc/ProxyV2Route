@@ -1,0 +1,2150 @@
+{
+  "ruleTargetUnavailable": {
+    "message": "Lengo halipatikani"
+  },
+  "rulePatternPlaceholder": {
+    "message": "example.com, *.example.org, 192.0.2.1:8443"
+  },
+  "rulePatternHelp": {
+    "message": "Tenganisha anwani kwa koma. Kila muundo wa URL kwenye mstari wake. Huenda PAC isione njia za HTTPS."
+  },
+  "defaultChoice_direct": {
+    "message": "Unganisha bila proksi"
+  },
+  "defaultChoice_system": {
+    "message": "Tumia mipangilio ya seva mbadala ya mfumo"
+  },
+  "defaultChoice_node": {
+    "message": "Tumia nodi iliyochaguliwa ya wasifu huu"
+  },
+  "defaultChoice_manual": {
+    "message": "Tumia mipangilio ya seva mbadala ya wasifu huu"
+  },
+  "defaultChoice_auto": {
+    "message": "Tumia sheria za uelekezaji za wasifu huu"
+  },
+  "nlHttpsLatency": {
+    "message": "HTTPS jibu"
+  },
+  "nlLatencyMethod": {
+    "message": "Cloudflare · Kima cha chini zaidi cha majibu mawili · Tumia tena muunganisho inapopatikana"
+  },
+  "nlLatencyFast": {
+    "message": "Haraka"
+  },
+  "nlLatencyModerate": {
+    "message": "Wastani"
+  },
+  "nlLatencySlow": {
+    "message": "Polepole"
+  },
+  "nlSortName": {
+    "message": "Jina"
+  },
+  "nlSortLatency": {
+    "message": "Muda wa Kuchelewa: chini hadi juu"
+  },
+  "nlSortDownload": {
+    "message": "Pakua: juu hadi chini"
+  },
+  "nlSortUpload": {
+    "message": "Pakia: juu hadi chini"
+  },
+  "nlSingle": {
+    "message": "Nodi moja"
+  },
+  "nlGroupBatch": {
+    "message": "Kikundi / kundi"
+  },
+  "nlTestScope": {
+    "message": "Wigo wa majaribio"
+  },
+  "nlCurrentNode": {
+    "message": "Nodi iliyochaguliwa"
+  },
+  "nlCurrentGroup": {
+    "message": "Kikundi kilichochaguliwa"
+  },
+  "nlChooseNode": {
+    "message": "Chagua nodi katika orodha"
+  },
+  "nlStart": {
+    "message": "Anza mtihani"
+  },
+  "nlService": {
+    "message": "Huduma ya majaribio"
+  },
+  "nlMeasured": {
+    "message": "kipimo"
+  },
+  "nlMeanLatency": {
+    "message": "Muda wa wastani wa kusubiri"
+  },
+  "nlGroupBySource": {
+    "message": "Kwa kikundi cha chanzo"
+  },
+  "nlPreviousPage": {
+    "message": "Ukurasa uliotangulia"
+  },
+  "nlNextPage": {
+    "message": "Ukurasa unaofuata"
+  },
+  "nlName": {
+    "message": "Jina"
+  },
+  "nlEdit": {
+    "message": "Hariri"
+  },
+  "nlStop": {
+    "message": "Acha"
+  },
+  "nlConfirm": {
+    "message": "Thibitisha"
+  },
+  "nlAllNodes": {
+    "message": "Nodi zote"
+  },
+  "nlNodeResults": {
+    "message": "Matokeo ya nodi"
+  },
+  "nlTestCenter": {
+    "message": "Kituo cha majaribio"
+  },
+  "nlNewGroup": {
+    "message": "Kikundi kipya"
+  },
+  "nlRenameGroup": {
+    "message": "Badilisha jina la kikundi"
+  },
+  "nlRemoveGroup": {
+    "message": "Ondoa kikundi"
+  },
+  "nlRemoveGroupHelp": {
+    "message": "Weka kila nodi na usajili, na uhamishe hadi nodi Zilizoingizwa."
+  },
+  "nlNode": {
+    "message": "Nodi"
+  },
+  "nlStatus": {
+    "message": "Hali"
+  },
+  "nlActions": {
+    "message": "Vitendo"
+  },
+  "nlSort": {
+    "message": "Panga jedwali hili pekee"
+  },
+  "nlSelected": {
+    "message": "imechaguliwa"
+  },
+  "nlTestNode": {
+    "message": "Mtihani"
+  },
+  "nlProfileShort": {
+    "message": "Wasifu"
+  },
+  "nlQuick": {
+    "message": "Kuchelewa kwa haraka"
+  },
+  "nlFull": {
+    "message": "Pakua + pakia"
+  },
+  "nlTraffic": {
+    "message": "Saizi ya data ya jaribio"
+  },
+  "nlConcurrency": {
+    "message": "Nodi zinazofanana"
+  },
+  "nlTrafficFullOnly": {
+    "message": "Inatumika kwa majaribio ya kupakua na kupakia"
+  },
+  "nlTestMode": {
+    "message": "Hali ya majaribio"
+  },
+  "nlBudget": {
+    "message": "Kiwango cha juu cha trafiki cha malipo"
+  },
+  "nlViaGroup": {
+    "message": "Kupitia seva mbadala ya kikundi"
+  },
+  "nlTestSelected": {
+    "message": "Jaribio limechaguliwa"
+  },
+  "nlTestVisible": {
+    "message": "Jaribio lililoonyeshwa nodi"
+  },
+  "nlTestAll": {
+    "message": "Jaribu nodi zote"
+  },
+  "nlTestGroup": {
+    "message": "Nodi za kikundi cha majaribio"
+  },
+  "nlProgress": {
+    "message": "Maendeleo ya kipimo"
+  },
+  "nlReady": {
+    "message": "Chagua nodi ili kuanza. Hakuna jaribio lililotekelezwa."
+  },
+  "nlStarting": {
+    "message": "Inaanza kipimo cha pekee..."
+  },
+  "nlQueued": {
+    "message": "Imepangwa kwenye foleni"
+  },
+  "nlRunning": {
+    "message": "Upimaji"
+  },
+  "nlStopping": {
+    "message": "Inasimamisha..."
+  },
+  "nlComplete": {
+    "message": "Imekamilika"
+  },
+  "nlFailed": {
+    "message": "Imeshindwa"
+  },
+  "nlStopped": {
+    "message": "Imesimamishwa"
+  },
+  "nlPartial": {
+    "message": "Sehemu"
+  },
+  "nlUntested": {
+    "message": "Haijajaribiwa"
+  },
+  "nlSucceeded": {
+    "message": "kupita"
+  },
+  "nlMeasureDisconnected": {
+    "message": "Muunganisho wa kipimo umeisha. Thamani zisizo kamili sio matokeo ya mwisho."
+  },
+  "nlUpgrade": {
+    "message": "Sasisha Mwenzi wa karibu ili kudhibiti vikundi na usajili. Nodi zilizopo bado zinapatikana."
+  },
+  "nlOperationFailed": {
+    "message": "Operesheni haikuweza kukamilika. Jaribu tena."
+  },
+  "nlEditSubscription": {
+    "message": "Hariri usajili"
+  },
+  "nlPasteContent": {
+    "message": "Viungo vya seva mbadala / yaliyomo"
+  },
+  "nlSubscriptionURL": {
+    "message": "Usajili URL"
+  },
+  "nlKeepURL": {
+    "message": "Acha wazi ili kuweka waliookolewa URL"
+  },
+  "nlConnectionPolicy": {
+    "message": "Sasisha muunganisho"
+  },
+  "nlProxyFirst": {
+    "message": "Wakala kwanza, kisha uelekeze juu ya kutofaulu"
+  },
+  "nlProxyOnly": {
+    "message": "Wakala pekee"
+  },
+  "nlDirectOnly": {
+    "message": "Moja kwa moja pekee"
+  },
+  "nlProxyFirstHelp": {
+    "message": "Wakala husimama kwanza baada ya kuleta mafanikio. Direct inajaribiwa tu ikiwa jaribio la wakala litashindwa."
+  },
+  "nlAutoUpdate": {
+    "message": "Washa masasisho ya kiotomatiki"
+  },
+  "nlInterval": {
+    "message": "Sasisha muda (dakika)"
+  },
+  "nlDestinationGroup": {
+    "message": "Kikundi lengwa"
+  },
+  "nlSubscriptionOwnGroup": {
+    "message": "Kikundi kipya…"
+  },
+  "nlNameGroup": {
+    "message": "Jina (kikundi)"
+  },
+  "nlCustomGroup": {
+    "message": "Kikundi maalum"
+  },
+  "nlNameRequired": {
+    "message": "Andika jina."
+  },
+  "nlContentRequired": {
+    "message": "Bandika viungo vya proksi au maudhui ya usajili."
+  },
+  "nlGroupRequired": {
+    "message": "Chagua kikundi lengwa."
+  },
+  "nlURLRequired": {
+    "message": "Weka usajili wa HTTP(S) URL bila jina la mtumiaji au nenosiri."
+  },
+  "nlIntervalInvalid": {
+    "message": "Weka nambari nzima kutoka dakika 5 hadi 43200."
+  },
+  "folderTitle": {
+    "message": "Chagua v2rayN folda"
+  },
+  "folderHint": {
+    "message": "Chagua folda, kisha uitumie na Hifadhi mipangilio ya muunganisho."
+  },
+  "folderPath": {
+    "message": "Njia kamili ya folda ya ndani"
+  },
+  "folderGo": {
+    "message": "Fungua"
+  },
+  "folderUp": {
+    "message": "Juu"
+  },
+  "folderDrives": {
+    "message": "Hifadhi"
+  },
+  "folderCurrent": {
+    "message": "Njia ya sasa"
+  },
+  "folderChoose": {
+    "message": "Tumia folda hii"
+  },
+  "folderList": {
+    "message": "Folda"
+  },
+  "folderTruncated": {
+    "message": "Uorodheshaji ni mdogo. Ingiza njia kamili hapo juu ili kufungua folda ambayo haijaonyeshwa."
+  },
+  "folderReady": {
+    "message": "v2rayN faili zimepatikana. Tumia folda hii ili kuthibitisha usanidi."
+  },
+  "folderInvalid": {
+    "message": "Chagua folda iliyo na guiConfigs, guiNConfig.json na guiNDB.db."
+  },
+  "folderSelectDrive": {
+    "message": "Chagua hifadhi ya ndani au uweke njia kamili ya folda."
+  },
+  "folderEmpty": {
+    "message": "Hakuna folda ndogo zinazoonekana."
+  },
+  "folderUnavailable": {
+    "message": "Haiwezi kuvinjari folda hii. Angalia njia yake na ufikiaji. Ikiwa Mwenzi ni mzee, isasishe kwanza."
+  },
+  "folderValidating": {
+    "message": "Inathibitisha v2rayN usanidi..."
+  },
+  "folderInvalidConfig": {
+    "message": "v2rayN usanidi au hifadhidata haijakamilika au ni batili. Chagua folda nyingine."
+  },
+  "copyPath": {
+    "message": "Nakili njia"
+  },
+  "pathCopyHint": {
+    "message": "Nakili njia iliyo katika uwanja huu kwa sasa."
+  },
+  "preMode": {
+    "message": "Hali ya proksi ya awali"
+  },
+  "preNode": {
+    "message": "Nodi ya proksi ya awali"
+  },
+  "preIntro": {
+    "message": "Tumia msururu wa kikundi, uruke, au chagua seva mbadala ya wasifu huu."
+  },
+  "healthLabel": {
+    "message": "Hali ya sasa ya muunganisho"
+  },
+  "healthOk": {
+    "message": "Kawaida"
+  },
+  "healthError": {
+    "message": "Isiyo ya kawaida"
+  },
+  "healthChecking": {
+    "message": "Kuangalia"
+  },
+  "healthUnknown": {
+    "message": "Haijathibitishwa"
+  },
+  "autoSystemHelp": {
+    "message": "Sheria za mfumo zinahitaji kipengele cha Windows na nakala ya mipangilio ya proksi isiyobadilika. Tumia tena baada ya mabadiliko. PAC/WPAD hazitumiki; Mfumo bila sheria hutumia mipangilio asili ya kivinjari."
+  },
+  "backgroundUnavailable": {
+    "message": "Mandharinyuma ya kiendelezi hayapatikani."
+  },
+  "backgroundNoResponse": {
+    "message": "Mandharinyuma hayakujibu."
+  },
+  "backupTooLarge": {
+    "message": "Hifadhi rudufu inazidi MB 5."
+  },
+  "proxyUsername": {
+    "message": "Jina la mtumiaji"
+  },
+  "proxyPassword": {
+    "message": "Nenosiri"
+  },
+  "proxyAuthHelp": {
+    "message": "Hiari. Wawakilishi walioidhinishwa huunganishwa kupitia Mwenza. Kitambulisho huhifadhiwa katika usanidi wa kivinjari hiki na Mwenzi, na kujumuishwa katika usafirishaji wa wasifu."
+  },
+  "proxyAuthSocks4": {
+    "message": "SOCKS4 haitumii uthibitishaji huu wa jina la mtumiaji/nenosiri; tumia HTTP(S) au SOCKS5."
+  },
+  "importExamples": {
+    "message": "Mifano ya umbizo"
+  },
+  "ipCopying": {
+    "message": "Inanakili..."
+  },
+  "netDnsUnavailable": {
+    "message": "Anwani ya seva haikuweza kutatuliwa kwa wakati. Angalia mwenyeji au IP anwani na ujaribu tena."
+  },
+  "netCurrentTarget": {
+    "message": "Sehemu ya mwisho ya wakala iliyochaguliwa"
+  },
+  "netCustomTarget": {
+    "message": "Seva maalum"
+  },
+  "netHost": {
+    "message": "Mwenyeji au anwani IP"
+  },
+  "netPort": {
+    "message": "TCP bandari"
+  },
+  "netHostRequired": {
+    "message": "Ingiza seva pangishi au anwani IP."
+  },
+  "netCurrentUnavailable": {
+    "message": "Chagua nodi au wasifu wa proksi mwenyewe, au uweke lengwa maalum."
+  },
+  "netInvalidTarget": {
+    "message": "Ingiza seva pangishi na mlango halali wa uchunguzi."
+  },
+  "netIpv6PingUnavailable": {
+    "message": "IPv6 ICMP haipatikani; tumia TCPing."
+  },
+  "preNeedsFix": {
+    "message": "Chagua seva mbadala sahihi au hakuna seva mbadala kabla ya kuhifadhi."
+  },
+  "preConfigure": {
+    "message": "Sanidi seva mbadala"
+  },
+  "preFollowInvalid": {
+    "message": "Fuata v2rayN haikubali seva mbadala maalum."
+  },
+  "followChainHelp": {
+    "message": "Follow hutumia njia na msururu wa seva mbadala ambao tayari unatumika mwaka v2rayN."
+  },
+  "netTitle": {
+    "message": "Vipimo vya uunganisho"
+  },
+  "ipTestDetails": {
+    "message": "Maelezo ya mtihani"
+  },
+  "netTarget": {
+    "message": "Ping / TCPing lengo"
+  },
+  "netDownload": {
+    "message": "Pakua mtihani"
+  },
+  "netPartial": {
+    "message": "Sehemu ya sampuli"
+  },
+  "netComplete": {
+    "message": "Sampuli imekamilika"
+  },
+  "netDirect": {
+    "message": "Mtandao wa mfumo"
+  },
+  "netUnreachable": {
+    "message": "Hakuna jibu / imeshindwa"
+  },
+  "netAverage": {
+    "message": "Wastani"
+  },
+  "predecessor": {
+    "message": "Wakala wa awali"
+  },
+  "preInherit": {
+    "message": "Tumia msururu wa kikundi v2rayN"
+  },
+  "preNone": {
+    "message": "Hakuna proksi ya awali"
+  },
+  "preSpecific": {
+    "message": "Chagua nodi"
+  },
+  "preHelp": {
+    "message": "Inatumika kwa wasifu huu. Tumia msururu wa kikundi v2rayN, hakuna seva mbadala au nodi mahususi. Follow v2rayN hutumia msururu wake uliopo."
+  },
+  "preSelectRequired": {
+    "message": "Chagua nodi ya seva mbadala, au chagua chaguomsingi ya Kikundi / Hakuna."
+  },
+  "ipPing0Permission": {
+    "message": "Ruhusu Ping0 ufikiaji wa tovuti ili kupakia ripoti ya umma."
+  },
+  "ipPublicChallenge": {
+    "message": "Tovuti inahitaji uthibitishaji. Fungua ukurasa wa Ping0 ili kuikamilisha na kutazama matokeo."
+  },
+  "ipPublicReport": {
+    "message": "Ping0 ripoti ya umma"
+  },
+  "ipPublicSource": {
+    "message": "Chanzo: Ping0 ukurasa wa umma"
+  },
+  "ipPublicOriginal": {
+    "message": "Ping0 ripoti"
+  },
+  "ipPublicPartial": {
+    "message": "Sehemu zilizotolewa kwenye ukurasa wa umma pekee ndizo zinazoonyeshwa, katika lugha yao asilia. Uainishaji na makadirio ya watumiaji-shirikiwa ni kutoka Ping0."
+  },
+  "setupTitle": {
+    "message": "Unganisha Proxy V2Route"
+  },
+  "setupIntro": {
+    "message": "Sakinisha Windows mwandani ili kutumia v2rayN njia au nodi zako mwenyewe zilizoagizwa."
+  },
+  "setupStepOne": {
+    "message": "Toa kifurushi kamili cha Windows kinacholingana hadi kwenye folda ya kudumu."
+  },
+  "setupStepTwo": {
+    "message": "Fungua V2Route-Setup.exe na ubofye Sakinisha."
+  },
+  "setupStepThree": {
+    "message": "Rudi hapa na uangalie muunganisho. Chagua folda v2rayN ikihitajika."
+  },
+  "setupCheck": {
+    "message": "Angalia muunganisho"
+  },
+  "downloadCompanion": {
+    "message": "Mwongozo wa usakinishaji ↗"
+  },
+  "setupDownloadNote": {
+    "message": "Tumia kifurushi cha ndani cha Windows kinacholingana, au fuata mwongozo ili kukiunda kutoka kwa chanzo cha sasa."
+  },
+  "chooseFolder": {
+    "message": "Chagua v2rayN folda..."
+  },
+  "rescanDone": {
+    "message": "Nodi za ndani zimechanganuliwa upya"
+  },
+  "grouping": {
+    "message": "Nodi za kikundi"
+  },
+  "groupByCountry": {
+    "message": "Kulingana na nchi"
+  },
+  "unknownCountry": {
+    "message": "Nyingine / Haijulikani"
+  },
+  "ungrouped": {
+    "message": "Isiyojumuishwa"
+  },
+  "adjustNodeFilters": {
+    "message": "Jaribu kikundi kingine, chanzo au tafuta, au onyesha nodi zilizofichwa."
+  },
+  "rescanLocal": {
+    "message": "Changanua upya v2rayN nodi"
+  },
+  "showHidden": {
+    "message": "Onyesha nodi zilizofichwa"
+  },
+  "hideNode": {
+    "message": "Ficha"
+  },
+  "restoreNode": {
+    "message": "Rejesha"
+  },
+  "hiddenNode": {
+    "message": "Imefichwa"
+  },
+  "hideNodeHelp": {
+    "message": "Ficha pekee kutoka kwa maktaba ya nodi ya kivinjari hiki. v2rayN na wasifu uliopo haujabadilika."
+  },
+  "ipContextTimeout": {
+    "message": "Muda wa kusoma wasifu wa sasa umekwisha. Jaribu tena."
+  },
+  "ipStaleResult": {
+    "message": "Wasifu wa sasa umebadilika. Matokeo haya yanaweza kuwa yamepitwa na wakati; angalia tena."
+  },
+  "ip_tools": {
+    "message": "IP Zana"
+  },
+  "ipIntro": {
+    "message": "Toka kwa sasa IP na ripoti ya umma."
+  },
+  "ipCurrentProfile": {
+    "message": "Wasifu wa sasa wa kivinjari"
+  },
+  "ipRouteCaution": {
+    "message": "Sheria otomatiki na PAC zinaweza kutumia njia tofauti kwa maeneo tofauti. Cheki hii inaelezea ombi lake pekee."
+  },
+  "ipDisclosure": {
+    "message": "Angalia kiotomatiki kutoka IP · Ripoti ya Ping0"
+  },
+  "ipMethod": {
+    "message": "Angalia anwani"
+  },
+  "ipDual": {
+    "message": "IPv4 / IPv6"
+  },
+  "ipCheck": {
+    "message": "Angalia tena"
+  },
+  "ipChecking": {
+    "message": "Inaangalia..."
+  },
+  "ipDualHelp": {
+    "message": "IPv4 / IPv6 hurejesha familia ya anwani iliyotumiwa kwa ombi hili, si anwani zote mbili."
+  },
+  "ipDurationHelp": {
+    "message": "Muda wa ombi Uliopita HTTP unajumuisha muda wa majibu ya mtandao na huduma. Sio ICMP ping au jaribio la kipimo data."
+  },
+  "ipCopy": {
+    "message": "Nakala IP"
+  },
+  "ipCopied": {
+    "message": "Imenakiliwa"
+  },
+  "ipCopyFailed": {
+    "message": "Haikuweza kunakili. Chagua anwani na uinakili wewe mwenyewe."
+  },
+  "ipNoResult": {
+    "message": "Bado hakuna cheki"
+  },
+  "ipContextUnknown": {
+    "message": "Wasifu haupatikani"
+  },
+  "ipTimeout": {
+    "message": "Muda wa hundi umekwisha. Jaribu tena au utumie njia nyingine."
+  },
+  "ipCancelled": {
+    "message": "Hundi imeghairiwa"
+  },
+  "ipNetwork": {
+    "message": "Haikuweza kufikia ipify. Angalia muunganisho na ujaribu tena."
+  },
+  "ipHttp": {
+    "message": "Huduma ya IP haikukubali ombi. Jaribu tena baadaye."
+  },
+  "ipInvalid": {
+    "message": "Huduma ya IP ilileta jibu lisilo sahihi."
+  },
+  "ipFailure": {
+    "message": "Cheki imeshindwa. Jaribu tena."
+  },
+  "ipStale": {
+    "message": "Mipangilio yako ya seva mbadala ilibadilika wakati wa ukaguzi. Matokeo ya zamani yalitupwa; angalia tena."
+  },
+  "ipQuality": {
+    "message": "Zana za nje"
+  },
+  "ipQualityPrivacy": {
+    "message": "Zana huendeshwa kwa kubofya tu. Watoa huduma hupokea data ya kawaida ya uunganisho. Ukaguzi wa tovuti hutuma maombi bila vitambulisho baada ya Anza. Kufunga kusimamisha majaribio ya ndani; vichupo vya nje vinasimamiwa na kivinjari."
+  },
+  "ipReport": {
+    "message": "Nakili ripoti iliyorekebishwa"
+  },
+  "ipReportCopied": {
+    "message": "Ripoti iliyorekebishwa imenakiliwa; no IP au majina ya wasifu yamejumuishwa."
+  },
+  "popupSelected": {
+    "message": "Imechaguliwa"
+  },
+  "popupFooter": {
+    "message": "v2rayN & wasifu wa nodi"
+  },
+  "subtitle": {
+    "message": "Njia za kivinjari zinazojitegemea"
+  },
+  "profiles": {
+    "message": "Wasifu"
+  },
+  "nodes": {
+    "message": "Maktaba ya Nodi"
+  },
+  "settings": {
+    "message": "Mipangilio"
+  },
+  "connected": {
+    "message": "Wasifu unaotumika"
+  },
+  "noProfile": {
+    "message": "Chaguomsingi ya mfumo"
+  },
+  "newProfile": {
+    "message": "Wasifu mpya"
+  },
+  "searchProfiles": {
+    "message": "Tafuta wasifu"
+  },
+  "direct": {
+    "message": "Mtandao wa moja kwa moja"
+  },
+  "system": {
+    "message": "Wakala wa mfumo"
+  },
+  "follow": {
+    "message": "Fuata v2rayN"
+  },
+  "manual": {
+    "message": "Wakala wa mwongozo"
+  },
+  "auto": {
+    "message": "Badili otomatiki"
+  },
+  "pac": {
+    "message": "PAC hati"
+  },
+  "virtual": {
+    "message": "Wasifu pepe"
+  },
+  "profileIntro": {
+    "message": "Chagua njia ya kivinjari bila kubadili njia kuu ya v2rayN."
+  },
+  "nodesIntro": {
+    "message": "Vinjari nodi za ndani v2rayN na viungo vyako vilivyoingizwa."
+  },
+  "settingsIntro": {
+    "message": "Muunganisho wa ndani, lugha na mwonekano."
+  },
+  "refresh": {
+    "message": "Onyesha upya"
+  },
+  "create": {
+    "message": "Unda wasifu"
+  },
+  "name": {
+    "message": "Jina la wasifu"
+  },
+  "type": {
+    "message": "Aina ya wasifu"
+  },
+  "save": {
+    "message": "Hifadhi"
+  },
+  "saved": {
+    "message": "Imehifadhiwa"
+  },
+  "saving": {
+    "message": "Inahifadhi..."
+  },
+  "cancel": {
+    "message": "Ghairi"
+  },
+  "close": {
+    "message": "Funga"
+  },
+  "apply": {
+    "message": "Tumia wasifu huu"
+  },
+  "applied": {
+    "message": "Wasifu umebadilishwa"
+  },
+  "active": {
+    "message": "Inayotumika"
+  },
+  "delete": {
+    "message": "Futa"
+  },
+  "remove": {
+    "message": "Ondoa"
+  },
+  "rename": {
+    "message": "Badilisha jina"
+  },
+  "route": {
+    "message": "Njia ya wakala"
+  },
+  "selectRoute": {
+    "message": "Chagua njia"
+  },
+  "routeMissing": {
+    "message": "Njia haipatikani — chagua nyingine"
+  },
+  "chain": {
+    "message": "Mlolongo wa unganisho"
+  },
+  "connection": {
+    "message": "Muunganisho wa ndani"
+  },
+  "proxy": {
+    "message": "Seva mbadala"
+  },
+  "address": {
+    "message": "Anwani"
+  },
+  "port": {
+    "message": "Bandari"
+  },
+  "scheme": {
+    "message": "Itifaki"
+  },
+  "proxyDns": {
+    "message": "SOCKS5 DNS suluhu kupitia seva mbadala."
+  },
+  "connectedIdle": {
+    "message": "Imeunganishwa · Bila kufanya kitu"
+  },
+  "bypass": {
+    "message": "Orodha ya kupita"
+  },
+  "bypassHelp": {
+    "message": "Kikoa, kikoa cha vibadala, anwani IP au IP:port moja kwa mstari."
+  },
+  "advanced": {
+    "message": "Chaguzi za kina"
+  },
+  "searchRoutes": {
+    "message": "Tafuta vikundi au nodi"
+  },
+  "selectGroup": {
+    "message": "Chagua kikundi"
+  },
+  "empty": {
+    "message": "Hakuna vipengee vinavyolingana"
+  },
+  "unavailable": {
+    "message": "Haipatikani"
+  },
+  "groupHint": {
+    "message": "Shikilia kikundi kwa 250 ms, kisha uburute. Alt + ↑ / ↓ pia hupanga upya. Mabadiliko huhifadhi kiotomatiki."
+  },
+  "searchSort": {
+    "message": "Futa utafutaji kabla ya kupanga."
+  },
+  "dragHint": {
+    "message": "Sogeza juu au chini, kisha uachilie ili kuhifadhi. Esc imeghairi."
+  },
+  "orderSaved": {
+    "message": "Agizo la kikundi limehifadhiwa"
+  },
+  "orderCancelled": {
+    "message": "Kupanga upya kumeghairiwa"
+  },
+  "loading": {
+    "message": "Inapakia..."
+  },
+  "reading": {
+    "message": "Inasoma nodi za ndani…"
+  },
+  "nativeMissing": {
+    "message": "Sehemu ya ndani haijaunganishwa"
+  },
+  "retry": {
+    "message": "Jaribu tena"
+  },
+  "nativeHelp": {
+    "message": "Njia za nodi zinahitaji Windows mwandamani. Wakala wa moja kwa moja, Mfumo na mwongozo zinapatikana sasa."
+  },
+  "imported": {
+    "message": "Imeingizwa"
+  },
+  "v2rayn": {
+    "message": "v2rayN"
+  },
+  "allSources": {
+    "message": "Vyanzo vyote"
+  },
+  "importNodes": {
+    "message": "Leta proksi"
+  },
+  "importTitle": {
+    "message": "Leta proksi"
+  },
+  "importHelp": {
+    "message": "Bandika viungo vya proksi, zinazotoka JSON au usajili wa Base64. SOCKS inakubali vitambulisho wazi au Base64. Anwani zisizo na mpango hutumia HTTP."
+  },
+  "importPrivacy": {
+    "message": "Maelezo ya seva mbadala na stakabadhi hupitishwa kwa mwandani wa karibu Proxy V2Route kwa hifadhi na muunganisho kwa seva mbadala unayochagua. Msanidi programu hapokei habari hii."
+  },
+  "import": {
+    "message": "Ingiza wasifu"
+  },
+  "nodeCount": {
+    "message": "nodi"
+  },
+  "source": {
+    "message": "Chanzo"
+  },
+  "protocol": {
+    "message": "Itifaki"
+  },
+  "useNode": {
+    "message": "Unda wasifu"
+  },
+  "removeNode": {
+    "message": "Ondoa nodi iliyoingizwa?"
+  },
+  "removeNodeHelp": {
+    "message": "Wasifu unaotumia nodi hii lazima ukabidhiwe upya kabla ya kuondolewa."
+  },
+  "deleteProfile": {
+    "message": "Ungependa kufuta wasifu huu?"
+  },
+  "deleteProfileHelp": {
+    "message": "Hii huondoa wasifu huu wa kivinjari pekee. Nodi zilizoingizwa na usanidi v2rayN huhifadhiwa."
+  },
+  "language": {
+    "message": "Lugha"
+  },
+  "automatic": {
+    "message": "Chaguomsingi ya Kivinjari"
+  },
+  "theme": {
+    "message": "Muonekano"
+  },
+  "light": {
+    "message": "Mwanga"
+  },
+  "dark": {
+    "message": "Giza"
+  },
+  "switchToEnglish": {
+    "message": "Badili hadi Kiingereza"
+  },
+  "switchToChinese": {
+    "message": "Badili hadi kwa Kichina Kilichorahisishwa"
+  },
+  "switchToLight": {
+    "message": "Badili hadi mwonekano mwepesi"
+  },
+  "switchToDark": {
+    "message": "Badili hadi mwonekano mweusi"
+  },
+  "localComponent": {
+    "message": "Sehemu ya sahaba"
+  },
+  "ready": {
+    "message": "Imeunganishwa"
+  },
+  "stopped": {
+    "message": "Sio kukimbia"
+  },
+  "discovery": {
+    "message": "v2rayN kugundua"
+  },
+  "rootPath": {
+    "message": "v2rayN folda"
+  },
+  "corePath": {
+    "message": "Msingi wa seva inayoweza kutekelezwa"
+  },
+  "optionalPath": {
+    "message": "Acha wazi kwa utambuzi wa kiotomatiki"
+  },
+  "pathsHelp": {
+    "message": "v2rayN hugunduliwa kiotomatiki; chagua folda yake ikiwa inahitajika. Nodi zilizoingizwa hutumia msingi uliojumuishwa."
+  },
+  "savePaths": {
+    "message": "Hifadhi mipangilio ya muunganisho"
+  },
+  "privacy": {
+    "message": "Mipangilio iliyohifadhiwa ndani"
+  },
+  "privacyText": {
+    "message": "Viungo vya nodi na stakabadhi hukaa kwenye sahaba wa ndani. Trafiki ya kivinjari inapitia proksi uliyochagua hadi tovuti lengwa; msanidi programu haipokei."
+  },
+  "privacyDetails": {
+    "message": "Faragha na mtiririko wa data"
+  },
+  "export": {
+    "message": "Hamisha wasifu"
+  },
+  "about": {
+    "message": "Kuhusu Proxy V2Route"
+  },
+  "aboutText": {
+    "message": "Chagua njia ya kivinjari bila kubadili njia kuu ya v2rayN. Njia za nodi hutumia Windows na nodi zako mwenyewe."
+  },
+  "licenses": {
+    "message": "Notisi za chanzo huria"
+  },
+  "version": {
+    "message": "Toleo"
+  },
+  "fieldRequired": {
+    "message": "Andika jina la wasifu."
+  },
+  "profileExists": {
+    "message": "Wasifu ulio na jina hili tayari upo."
+  },
+  "ruleHelp": {
+    "message": "Tenganisha vikoa katika safu mlalo kwa koma. Safu ya kwanza inayolingana inashinda. Weka njia chaguo-msingi inapatikana."
+  },
+  "rules": {
+    "message": "Kanuni za uelekezaji"
+  },
+  "pattern": {
+    "message": "Muundo wa mwenyeji"
+  },
+  "target": {
+    "message": "Utawala unalenga"
+  },
+  "addRule": {
+    "message": "Ongeza sheria"
+  },
+  "defaultRoute": {
+    "message": "Wasifu chaguo-msingi"
+  },
+  "pacHelp": {
+    "message": "Bandika PAC chanzo kilicho na FindProxyForURL. Hati hii huamua jinsi maombi ya tovuti yanavyopitishwa."
+  },
+  "pacUrl": {
+    "message": "PAC URL"
+  },
+  "pacScript": {
+    "message": "PAC hati"
+  },
+  "noSelection": {
+    "message": "Chagua wasifu au uunde."
+  },
+  "details": {
+    "message": "Maelezo"
+  },
+  "noNodes": {
+    "message": "Bado hakuna nodi"
+  },
+  "noNodesHelp": {
+    "message": "Unganisha v2rayN au leta viungo vya proksi, JSON au usajili ili kuanza."
+  },
+  "openSettings": {
+    "message": "Fungua mipangilio"
+  },
+  "proxySettings": {
+    "message": "Mipangilio ya seva mbadala"
+  },
+  "switching": {
+    "message": "Inabadilisha..."
+  },
+  "updatedElsewhere": {
+    "message": "Wasifu huu ulibadilika katika dirisha lingine. Ifungue tena kabla ya kuhifadhi."
+  },
+  "choose": {
+    "message": "Chagua"
+  },
+  "popupIntro": {
+    "message": "Muunganisho:"
+  },
+  "invalidPort": {
+    "message": "Ingiza bandari kutoka 1 hadi 65535."
+  },
+  "externalControl": {
+    "message": "Kiendelezi au sera nyingine ni kudhibiti seva mbadala ya kivinjari."
+  },
+  "noNativeRoute": {
+    "message": "Unganisha kijenzi cha ndani kabla ya kuunda wasifu wa nodi."
+  },
+  "reload": {
+    "message": "Pakia upya"
+  },
+  "rulesError": {
+    "message": "Kila kanuni inahitaji ruwaza na lengo."
+  },
+  "backupDone": {
+    "message": "Profaili za kivinjari zimehamishwa"
+  },
+  "managed": {
+    "message": "nodi inayosimamiwa"
+  },
+  "netRegion": {
+    "message": "Eneo lengwa"
+  },
+  "netNodeArea": {
+    "message": "Nodi ya wakala"
+  },
+  "netChina": {
+    "message": "Uchina Bara"
+  },
+  "netGlobal": {
+    "message": "Ulimwenguni"
+  },
+  "netAli": {
+    "message": "AliDNS"
+  },
+  "netTencent": {
+    "message": "DNSPod"
+  },
+  "netStartHelp": {
+    "message": "Chagua lengo, kisha uanze jaribio la moja kwa moja."
+  },
+  "netConsole": {
+    "message": "Uchunguzi wa moja kwa moja"
+  },
+  "netStop": {
+    "message": "Acha"
+  },
+  "netRunning": {
+    "message": "Kukimbia"
+  },
+  "netStopped": {
+    "message": "Imesimamishwa"
+  },
+  "netSent": {
+    "message": "Imetumwa"
+  },
+  "netLoss": {
+    "message": "Hasara"
+  },
+  "netAverageShort": {
+    "message": "Wastani"
+  },
+  "netLogClear": {
+    "message": "Wazi"
+  },
+  "netFinishing": {
+    "message": "Uchunguzi uliopita unakamilika..."
+  },
+  "netRound": {
+    "message": "Mzunguko"
+  },
+  "netDestination": {
+    "message": "Lengwa"
+  },
+  "netHop": {
+    "message": "Hop"
+  },
+  "netAddress": {
+    "message": "IP anwani"
+  },
+  "netLast": {
+    "message": "Mwisho"
+  },
+  "netConsoleHelp": {
+    "message": "Ping / TCPing / MTR tumia mtandao wa mfumo, si mnyororo wa seva mbadala. Majibu ICMP yanayokosekana hayathibitishi upotevu wa trafiki. Upakuaji hutumia njia ya kivinjari na kikomo cha ukubwa uliochaguliwa. Majaribio yatakoma unapoondoka au kuficha ukurasa huu."
+  },
+  "netDirectShort": {
+    "message": "Mtandao wa mfumo"
+  },
+  "netIcmpShort": {
+    "message": "Hapana ICMP jibu"
+  },
+  "netProbeError": {
+    "message": "Hitilafu ya ndani ya uchunguzi"
+  },
+  "netNoDestination": {
+    "message": "Marudio hayajafikiwa"
+  },
+  "deleteActive": {
+    "message": "Badili hadi kwenye mfumo na ufute"
+  },
+  "deleteActiveHelp": {
+    "message": "Wasifu huu unatumika. Kuifuta hubadilisha kivinjari kuwa proksi ya mfumo."
+  },
+  "netDownloadSize": {
+    "message": "Ukubwa wa upakuaji"
+  },
+  "netReceived": {
+    "message": "Imepokelewa"
+  },
+  "netBest": {
+    "message": "Bora zaidi"
+  },
+  "netWorst": {
+    "message": "Mbaya zaidi"
+  },
+  "netStdDev": {
+    "message": "Std dev"
+  },
+  "netLocation": {
+    "message": "Mahali"
+  },
+  "toolWall": {
+    "message": "Cheki cha kuzuia kikoa"
+  },
+  "toolSites": {
+    "message": "Tovuti maarufu"
+  },
+  "toolGlobal": {
+    "message": "Uchunguzi wa kimataifa"
+  },
+  "toolFast": {
+    "message": "Kasi ya Netflix"
+  },
+  "toolSpeed": {
+    "message": "Jaribio la kasi"
+  },
+  "toolStart": {
+    "message": "Anza"
+  },
+  "toolReady": {
+    "message": "Tayari"
+  },
+  "toolResponded": {
+    "message": "Alijibu"
+  },
+  "toolNoResponse": {
+    "message": "Haijathibitishwa"
+  },
+  "toolCacheUnsupported": {
+    "message": "Kivinjari hiki hakiwezi kufuta kashe kwa tovuti; ukurasa umepakiwa upya."
+  },
+  "toolCacheFailed": {
+    "message": "Usafishaji wa akiba haukumaliza. Funga na ujaribu tena."
+  },
+  "toolClose": {
+    "message": "Funga"
+  },
+  "toolReload": {
+    "message": "Pakia upya"
+  },
+  "toolLoading": {
+    "message": "Inapakia..."
+  },
+  "toolFrameError": {
+    "message": "Haikuweza kupakia. Jaribu Pakia Upya."
+  },
+  "toolSiteHelp": {
+    "message": "Ufikivu wa Kivinjari pekee. Hii haithibitishi ufikiaji wa akaunti au eneo."
+  },
+  "toolFallback": {
+    "message": "Jaribio la kasi ya chelezo"
+  },
+  "toolFullscreen": {
+    "message": "Skrini nzima"
+  },
+  "toolRestore": {
+    "message": "Ondoka kwenye skrini nzima"
+  },
+  "ipReadFailed": {
+    "message": "Kusoma kumeshindwa. 👉"
+  },
+  "ipViewSource": {
+    "message": "Tazama tovuti chanzo"
+  },
+  "toolDownloadError": {
+    "message": "Haikuweza kufikia seva ya upakuaji. Jaribu tena."
+  },
+  "toolAccess": {
+    "message": "Washa ufikiaji wa tovuti"
+  },
+  "toolPermission": {
+    "message": "Ruhusu ufikiaji wa tovuti hii kwa uoanifu wa kipindi kilichopachikwa."
+  },
+  "toolAsia": {
+    "message": "Asia"
+  },
+  "toolEurope": {
+    "message": "Ulaya"
+  },
+  "toolAmerica": {
+    "message": "Amerika ya Kaskazini"
+  },
+  "toolGlobalHelp": {
+    "message": "Hujaza mapema kutoka kwa kivinjari IP. Chagua China bara au eneo lingine ili kulinganisha njia; Start hutuma shabaha iliyoonyeshwa hadi kwenye uchunguzi tatu Globalping."
+  },
+  "toolServiceError": {
+    "message": "Huduma ya majaribio haipatikani. Jaribu tena."
+  },
+  "popupOrderHelp": {
+    "message": "Shikilia na uburute ili kupanga upya. Vitufe vya Alt+vishale pia huhamisha wasifu huu."
+  },
+  "popupOrderSaved": {
+    "message": "Agizo limehifadhiwa"
+  },
+  "toolGroupIP": {
+    "message": "IP vipimo"
+  },
+  "toolGroupWeb": {
+    "message": "Vipimo vya tovuti"
+  },
+  "toolGroupSpeed": {
+    "message": "Kasi"
+  },
+  "toolCurrentIP": {
+    "message": "Toka kwa sasa IP"
+  },
+  "toolCurrentIPLoading": {
+    "message": "Inapakia njia ya kutoka IP..."
+  },
+  "toolCurrentIPFailed": {
+    "message": "Haikuweza kusoma ya sasa IP. Weka lengo."
+  },
+  "speedMode": {
+    "message": "Hali ya majaribio"
+  },
+  "speedBoth": {
+    "message": "Pakua + pakia"
+  },
+  "speedDownload": {
+    "message": "Pakua"
+  },
+  "speedUpload": {
+    "message": "Pakia"
+  },
+  "speedLatency": {
+    "message": "HTTP muda wa kusubiri"
+  },
+  "speedBudget": {
+    "message": "{n} MiB kwa awamu · {total} MiB jumla, pamoja na sampuli ndogo za muda wa kusubiri."
+  },
+  "siteCategory": {
+    "message": "Aina ya tovuti"
+  },
+  "siteAll": {
+    "message": "Tovuti zote"
+  },
+  "siteAI": {
+    "message": "AI"
+  },
+  "siteDevelopment": {
+    "message": "Maendeleo"
+  },
+  "siteVideo": {
+    "message": "Video / muziki"
+  },
+  "siteSocial": {
+    "message": "Kijamii"
+  },
+  "siteDomestic": {
+    "message": "Huduma za Bara"
+  },
+  "siteServices": {
+    "message": "Huduma za kawaida"
+  },
+  "globalMethod": {
+    "message": "Aina ya kipimo"
+  },
+  "localPort": {
+    "message": "Bandari ya ndani:"
+  },
+  "chainChooseNode": {
+    "message": "Chagua nodi ya wakala"
+  },
+  "chainTitle": {
+    "message": "Mlolongo wa wakala"
+  },
+  "chainSelectExit": {
+    "message": "Chagua njia mahususi ya kutoka hapa chini ili kuhifadhi au kujaribu msururu huu maalum. Follow v2rayN inasimamiwa na v2rayN."
+  },
+  "chainSelectExitShort": {
+    "message": "Chagua nodi ya kutoka"
+  },
+  "chainAdd": {
+    "message": "+ Ongeza safu ya proksi"
+  },
+  "chainTest": {
+    "message": "Msururu wa majaribio"
+  },
+  "chainMode": {
+    "message": "Hali ya mnyororo"
+  },
+  "chainBase": {
+    "message": "Wakala wa Msingi"
+  },
+  "chainExit": {
+    "message": "Toka Wakala"
+  },
+  "chainEgress": {
+    "message": "Kutoka kwa Mnyororo"
+  },
+  "chainExitBadge": {
+    "message": "Toka IP"
+  },
+  "chainEntry": {
+    "message": "Kuingia kwa Mnyororo"
+  },
+  "chainTransit": {
+    "message": "Njia ya Daraja"
+  },
+  "chainUntested": {
+    "message": "Haijajaribiwa"
+  },
+  "chainMissing": {
+    "message": "Nodi haipatikani"
+  },
+  "chainUnresolved": {
+    "message": "Haiwezi kutatua mlolongo wa kurithi. Rekebisha mipangilio iliyotangulia au uchague msururu maalum."
+  },
+  "chainUpgrade": {
+    "message": "Sasisha mwandamani wa ndani ili kuwezesha minyororo iliyoagizwa."
+  },
+  "chainBusy": {
+    "message": "Jaribio lingine la msururu unaendelea"
+  },
+  "chainOK": {
+    "message": "Inapatikana"
+  },
+  "chainFailed": {
+    "message": "Imeshindwa kurukaruka katika jaribio hili"
+  },
+  "chainBlocked": {
+    "message": "Haijajaribiwa · hop iliyotangulia haikufaulu"
+  },
+  "chainFailureHelp": {
+    "message": "Hop hii au njia yake haikupita. Baadaye humle hazijajaribiwa."
+  },
+  "chainAllOK": {
+    "message": "Njia zote limbikizi zilijibu"
+  },
+  "chainStopping": {
+    "message": "Inasimama baada ya uchunguzi wa sasa ulio na mipaka..."
+  },
+  "globalWorld": {
+    "message": "Duniani kote"
+  },
+  "globalUnavailable": {
+    "message": "Lengo au eneo halipatikani. Angalia lengo au chagua eneo lingine."
+  },
+  "globalRateLimited": {
+    "message": "Kiwango cha juu cha kiwango cha huduma kilifikiwa. Jaribu tena baadaye."
+  },
+  "globalNoResults": {
+    "message": "Huduma haikurejesha matokeo ya uchunguzi. Jaribu eneo lingine."
+  },
+  "globalProbeFailed": {
+    "message": "Uchunguzi umeshindwa"
+  },
+  "globalProbeOffline": {
+    "message": "Chunguza nje ya mtandao"
+  },
+  "globalIcmpCaution": {
+    "message": "Majibu ICMP yanayokosekana pekee hayathibitishi kuzuia. Linganisha njia za bara na ng'ambo na aina zingine za majaribio."
+  },
+  "speedRealtime": {
+    "message": "Kasi ya moja kwa moja"
+  },
+  "speedAverage": {
+    "message": "Kasi ya wastani"
+  },
+  "ipToolsBrief": {
+    "message": "Matokeo ya mtu wa tatu ni ya marejeleo."
+  },
+  "ipReportBrief": {
+    "message": "Matokeo hutofautiana kwa kutoka IP na ni kwa ajili ya marejeleo."
+  },
+  "toolPingPe": {
+    "message": "IP hundi ya kuzuia"
+  },
+  "toolTargetIP": {
+    "message": "Lengo IP"
+  },
+  "toolOpenPingPe": {
+    "message": "Fungua mtihani rasmi"
+  },
+  "toolInvalidIP": {
+    "message": "Weka anwani halali ya IPv4 au IPv6."
+  },
+  "toolInvalidPort": {
+    "message": "Weka bandari TCP kutoka 1 hadi 65535."
+  },
+  "toolExternalFailed": {
+    "message": "Haikuweza kufungua tovuti. Jaribu tena."
+  },
+  "ipBrowserReading": {
+    "message": "Kusoma Ping0 kupitia kivinjari..."
+  },
+  "ipVerifyBrowser": {
+    "message": "Fungua ukurasa wa uthibitishaji"
+  },
+  "policyCenter": {
+    "message": "Faragha, tamko na Maswali Yanayoulizwa Mara kwa Mara"
+  },
+  "policyCenterIntro": {
+    "message": "Ushughulikiaji wa data wa ndani, vikomo vya majaribio na majibu ya kawaida."
+  },
+  "policyPrivacyTitle": {
+    "message": "Sera ya faragha"
+  },
+  "policyPrivacySummary": {
+    "message": "Wasifu na kitambulisho hukaa kwenye kifaa hiki. Ukaguzi na uchunguzi wa madirisha ibukizi huwasiliana na watoa huduma waliotajwa. Hakuna utangazaji au uchanganuzi wa tabia."
+  },
+  "policyDeclarationTitle": {
+    "message": "Taarifa ya matumizi na kipimo"
+  },
+  "policyDeclarationSummary": {
+    "message": "Kiendelezi hiki ni kidhibiti njia cha ndani, si proksi au mtoa huduma wa VPN. Vipimo ni sampuli za marejeleo zilizoathiriwa na mtandao, wakala na masharti ya mtoaji."
+  },
+  "policyFaqTitle": {
+    "message": "Maswali Yanayoulizwa Mara kwa Mara"
+  },
+  "policyFaqSummary": {
+    "message": "Windows mwandamani inahitajika kwa nodi za ndani na MTR. Muda wa kusubiri unaweza kutofautiana kati ya kivinjari, mfumo na uchunguzi wa umma. Simamisha jaribio au ufute data ya ndani kutoka kwa Mipangilio."
+  },
+  "policyDetailsLink": {
+    "message": "Soma maelezo kamili ↗"
+  },
+  "thirdPartyNotice": {
+    "message": "Notisi za chanzo huria ↗"
+  },
+  "columnResizeHelp": {
+    "message": "Buruta ili kubadilisha ukubwa; bonyeza mara mbili ili kuweka upya; tumia vitufe vya vishale kurekebisha"
+  },
+  "columnResize": {
+    "message": "Badilisha ukubwa wa safu wima"
+  },
+  "typeDescription_node": {
+    "message": "Unganisha kupitia nodi ya seva mbadala"
+  },
+  "typeDescription_manual": {
+    "message": "Ingiza mipangilio ya seva mbadala wewe mwenyewe"
+  },
+  "typeDescription_auto": {
+    "message": "Chagua nodi kwa kutumia sheria"
+  },
+  "typeDescription_pac": {
+    "message": "Njia za trafiki kwa kutumia sheria PAC"
+  },
+  "appDescription": {
+    "message": "Njia za seva mbadala za kivinjari, nodi na sheria za kikoa. Njia za nodi zinahitaji mwenzi Windows."
+  },
+  "core_title": {
+    "message": "Msingi wa wakala"
+  },
+  "core_checking": {
+    "message": "Inakagua sehemu ya ndani..."
+  },
+  "core_ready": {
+    "message": "Xray iko tayari"
+  },
+  "core_missing": {
+    "message": "Msingi wa wakala haupo"
+  },
+  "core_external": {
+    "message": "Msingi maalum: haujathibitishwa"
+  },
+  "core_corrupt": {
+    "message": "Xray kutolingana - ukarabati unahitajika"
+  },
+  "core_unreadable": {
+    "message": "Faili kuu haikuweza kuangaliwa"
+  },
+  "core_intro": {
+    "message": "Kifurushi kamili cha Windows kinajumuisha Xray. v2rayN ni hiari."
+  },
+  "core_verify": {
+    "message": "Angalia tena"
+  },
+  "core_install": {
+    "message": "Sakinisha / rekebisha msingi"
+  },
+  "core_installing": {
+    "message": "Inapakua na kuthibitisha..."
+  },
+  "core_done": {
+    "message": "Msingi umethibitishwa na uko tayari"
+  },
+  "core_help": {
+    "message": "Ukarabati hutumia toleo rasmi lililobandikwa Xray na kuthibitisha hundi yake. Miunganisho iliyopo inabaki kufanya kazi."
+  },
+  "core_absent": {
+    "message": "Sakinisha kijenzi cha ndani mara moja, kisha urudi hapa ili kuangalia msingi."
+  },
+  "core_download": {
+    "message": "Mwongozo wa usakinishaji"
+  },
+  "core_absentHelp": {
+    "message": "Tumia kifurushi kinacholingana Windows au fuata mwongozo ili kukiunda kutoka kwa chanzo, kisha endesha usanidi."
+  },
+  "core_failed": {
+    "message": "Operesheni kuu imeshindwa. Jaribu tena au utumie kifurushi kamili cha Windows."
+  },
+  "core_version": {
+    "message": "Toleo"
+  },
+  "error_ACTIVE_PROFILE_DELETE": {
+    "message": "Badili kwenda wasifu mwingine kabla ya kufuta"
+  },
+  "error_BACKUP_BINDING_TYPE": {
+    "message": "Wasifu wa proksi pekee unaweza kuwa na viunganisho vya njia"
+  },
+  "error_BACKUP_FORMAT3_REQUIRED": {
+    "message": "Kanuni za nodi zinahitaji nakala rudufu inayohamishika ya umbizo 3"
+  },
+  "error_BACKUP_INDEPENDENT_PATH_REQUIRED": {
+    "message": "Nakala rudufu lazima iwe na njia huru ya nodi"
+  },
+  "error_BACKUP_INTERNAL_BINDINGS": {
+    "message": "Nakala rudufu ina viunganisho vya ndani"
+  },
+  "error_BACKUP_MESSAGE_LIMIT": {
+    "message": "Nakala rudufu ya nodi inazidi kikomo cha ujumbe cha programu saidizi"
+  },
+  "error_BACKUP_NODES_INCOMPLETE": {
+    "message": "Nakala rudufu ya nodi haijakamilika"
+  },
+  "error_BACKUP_NODE_MISSING": {
+    "message": "Nakala rudufu inakosa nodi inayohitajika"
+  },
+  "error_BACKUP_NODE_PATHS_LIMIT": {
+    "message": "Nakala rudufu inaruhusu hadi njia {limit} za nodi"
+  },
+  "error_BACKUP_PATH_INCOMPLETE": {
+    "message": "Njia ya nodi katika nakala rudufu haijakamilika"
+  },
+  "error_BACKUP_PROFILES_LIMIT": {
+    "message": "Nakala rudufu inaruhusu hadi wasifu {limit}"
+  },
+  "error_BACKUP_PROXY_CONFLICT": {
+    "message": "Nakala rudufu ina mipangilio ya proksi inayokinzana"
+  },
+  "error_BACKUP_SIZE_LIMIT": {
+    "message": "Nakala rudufu inazidi MB {limit}"
+  },
+  "error_BACKUP_TRANSFER_UNAVAILABLE": {
+    "message": "Sasisha au rekebisha programu saidizi ili kuhamisha nakala rudufu za nodi."
+  },
+  "error_BACKUP_UNUSED_NODES": {
+    "message": "Nakala rudufu ina nodi ambazo hazijarejelewa"
+  },
+  "error_BODY_TOO_LARGE": {
+    "message": "Jibu la usajili linazidi ukubwa unaoruhusiwa."
+  },
+  "error_BROWSER_API_FAILED": {
+    "message": "Kitendo cha kivinjari kimeshindwa. Angalia maelezo ya kiufundi."
+  },
+  "error_BROWSER_PROXY_RESTORE_FAILED": {
+    "message": "Kitendo kimeshindwa na proksi ya awali ya kivinjari haikuweza kurejeshwa"
+  },
+  "error_BROWSER_SCHEDULING_UNAVAILABLE": {
+    "message": "Upangaji wa ratiba wa kivinjari haupatikani."
+  },
+  "error_BUSY": {
+    "message": "Kitendo kingine kinaendelea. Jaribu tena baada ya muda mfupi."
+  },
+  "error_CHAIN_PROBE_FAILED": {
+    "message": "Ukaguzi wa mnyororo umeshindwa"
+  },
+  "error_COMPANION_BULK_RELEASE_REQUIRED": {
+    "message": "Pandisha toleo la programu saidizi ya ndani ili kusimamia kanuni nyingi za nodi kwa usalama"
+  },
+  "error_COMPANION_CHAINS_REQUIRED": {
+    "message": "Pandisha toleo la programu saidizi ya ndani ili kuwezesha minyororo iliyopangwa"
+  },
+  "error_COMPANION_MESSAGE_LIMIT": {
+    "message": "Mipangilio inazidi kikomo cha ujumbe cha programu saidizi"
+  },
+  "error_COMPANION_OPERATION_FAILED": {
+    "message": "Kitendo cha programu saidizi ya ndani kimeshindwa. Angalia maelezo ya kiufundi."
+  },
+  "error_COMPANION_UNAVAILABLE": {
+    "message": "Sakinisha au rekebisha programu saidizi ya V2Route"
+  },
+  "error_CONNECTION_CLOSED": {
+    "message": "Muunganisho ulifungwa kabla ya jaribio kukamilika."
+  },
+  "error_CORE_INSTALL_FAILED": {
+    "message": "Usakinishaji wa injini umeshindwa. Angalia maelezo ya kiufundi."
+  },
+  "error_CORE_OWNERSHIP_FAILED": {
+    "message": "Injini ya jaribio iliyotengwa haikuweza kudhibitiwa kwa usalama. Jaribio limesimamishwa."
+  },
+  "error_CORE_START_FAILED": {
+    "message": "Injini ya jaribio iliyotengwa haikuweza kuanza. Kagua usakinishaji wa programu saidizi na injini."
+  },
+  "error_CORE_START_TIMEOUT": {
+    "message": "Injini ya jaribio iliyotengwa haikuwa tayari kwa wakati."
+  },
+  "error_CORE_STATUS_UNAVAILABLE": {
+    "message": "Hali ya injini haipatikani. Angalia maelezo ya kiufundi."
+  },
+  "error_CORE_VALIDATION_FAILED": {
+    "message": "Xray haikuweza kuthibitisha nodi zilizoingizwa. Kagua mipangilio yake na ujaribu tena."
+  },
+  "error_DETACH_PORT_CONFLICT": {
+    "message": "Lango linalosimamiwa litaachiliwa. Ingiza proksi nyingine ya mwongozo"
+  },
+  "error_DETACH_PROXY_REQUIRED": {
+    "message": "Ingiza proksi mbadala ya mwongozo kabla ya kutenganisha"
+  },
+  "error_DNS_BUSY": {
+    "message": "Utafutaji wa DNS una shughuli nyingi. Jaribu tena baada ya muda mfupi."
+  },
+  "error_DNS_FAILED": {
+    "message": "Utafutaji wa DNS umeshindwa. Kagua anwani na muunganisho wa mtandao."
+  },
+  "error_ENCODING_UNSUPPORTED": {
+    "message": "Usajili unatumia usimbaji wa maudhui usiotumika."
+  },
+  "error_FIREFOX_PRIVATE_ACCESS_REQUIRED": {
+    "message": "Ruhusu V2Route kwenye madirisha ya faragha katika maelezo ya kiendelezi kabla ya kubadili mipangilio ya proksi"
+  },
+  "error_FOLDER_UNAVAILABLE": {
+    "message": "Folda haipatikani; kagua njia, ruhusa za ufikiaji na toleo la programu saidizi"
+  },
+  "error_GROUP_LIMIT": {
+    "message": "Kikomo cha vikundi kimefikiwa. Ondoa kikundi kisichotumika na ujaribu tena."
+  },
+  "error_GROUP_NOT_EDITABLE": {
+    "message": "Kikundi hiki cha chanzo hakiwezi kuhaririwa hapa."
+  },
+  "error_GROUP_NOT_FOUND": {
+    "message": "Kikundi kilichochaguliwa hakipo tena. Chagua kikundi kingine."
+  },
+  "error_HTTP_ENCODING": {
+    "message": "Seva ya jaribio imerudisha usimbaji usiotumika."
+  },
+  "error_HTTP_LENGTH": {
+    "message": "Ukubwa wa jibu la jaribio haukulingana na ukubwa ulioombwa."
+  },
+  "error_HTTP_RESPONSE_TOO_LARGE": {
+    "message": "Jibu la jaribio lilizidi ukubwa unaoruhusiwa."
+  },
+  "error_HTTP_STATUS": {
+    "message": "Seva ya jaribio imerudisha hali ya HTTP isiyo ya mafanikio."
+  },
+  "error_IMPORTED_PROXY_MISSING": {
+    "message": "Programu saidizi haikurudisha proksi iliyoingizwa"
+  },
+  "error_IMPORTED_RULE_PATH_CONFLICT": {
+    "message": "Nodi zilizoingizwa zinasababisha njia za kanuni zinazokinzana"
+  },
+  "error_IMPORT_CLEANUP_FAILED": {
+    "message": "Uingizaji umeshindwa; baadhi ya nodi au milango ya muda haikuweza kuachiliwa. Wasifu uliopo umehifadhiwa"
+  },
+  "error_IMPORT_PROFILE_NAME_CONFLICT": {
+    "message": "Jina la wasifu limerudiwa au si halali"
+  },
+  "error_INCOMPLETE_RESPONSE": {
+    "message": "Jibu la usajili halikuwa kamili. Jaribu tena."
+  },
+  "error_INVALID_BACKUP": {
+    "message": "Nakala rudufu ya V2Route si halali"
+  },
+  "error_INVALID_BACKUP_NODE": {
+    "message": "Nodi ya nakala rudufu si halali au imerudiwa"
+  },
+  "error_INVALID_BACKUP_NODES": {
+    "message": "Nodi za nakala rudufu si halali"
+  },
+  "error_INVALID_BACKUP_PATH": {
+    "message": "Njia ya nakala rudufu si halali"
+  },
+  "error_INVALID_BYPASS_ENTRY": {
+    "message": "Ingizo la kupita bila proksi si halali"
+  },
+  "error_INVALID_BYPASS_LIST": {
+    "message": "Orodha ya kupita bila proksi si halali"
+  },
+  "error_INVALID_CHAIN": {
+    "message": "Mnyororo uliopangwa si halali"
+  },
+  "error_INVALID_CHAIN_PROBE": {
+    "message": "Ukaguzi wa mnyororo si halali"
+  },
+  "error_INVALID_COMPANION_RESPONSE": {
+    "message": "Programu saidizi ya ndani imerudisha jibu lisilo halali. Isasishe au irekebishe."
+  },
+  "error_INVALID_CONTENT": {
+    "message": "Jibu la usajili halina maudhui halali."
+  },
+  "error_INVALID_DOMAIN_PATTERNS": {
+    "message": "Ingiza ruwaza za vikoa zilizotenganishwa kwa koma; weka kila URL kwenye mstari wake"
+  },
+  "error_INVALID_ENCODING": {
+    "message": "Jibu la usajili si maandishi halali ya UTF-8."
+  },
+  "error_INVALID_FOLDER_REQUEST": {
+    "message": "Ombi la folda si halali"
+  },
+  "error_INVALID_GROUP_ACTION": {
+    "message": "Kitendo hiki cha kikundi hakitumiki."
+  },
+  "error_INVALID_HOP_INDEX": {
+    "message": "Faharasa ya hatua si halali"
+  },
+  "error_INVALID_LEGACY_PREDECESSOR": {
+    "message": "Proksi tangulizi ya zamani si halali"
+  },
+  "error_INVALID_LIBRARY_COMMAND": {
+    "message": "Amri hii ya maktaba ya nodi haitumiki."
+  },
+  "error_INVALID_LIBRARY_REQUEST": {
+    "message": "Ombi la maktaba si halali"
+  },
+  "error_INVALID_NAME": {
+    "message": "Ingiza jina lenye herufi 1–128 zinazoonekana, bila herufi za udhibiti."
+  },
+  "error_INVALID_NETWORK_TEST": {
+    "message": "Jaribio la mtandao si halali"
+  },
+  "error_INVALID_NODE_IMPORT_RESPONSE": {
+    "message": "Jibu la uingizaji wa nodi si halali"
+  },
+  "error_INVALID_PREDECESSOR": {
+    "message": "Proksi tangulizi ya njia hii si halali"
+  },
+  "error_INVALID_PROFILE_NAME": {
+    "message": "Jina la wasifu si halali"
+  },
+  "error_INVALID_PROFILE_REFERENCE": {
+    "message": "Rejeleo la wasifu si halali"
+  },
+  "error_INVALID_PROXY_AUTH": {
+    "message": "Uthibitishaji wa proksi si halali"
+  },
+  "error_INVALID_PROXY_CREDENTIALS": {
+    "message": "Taarifa za kuingia za proksi si halali"
+  },
+  "error_INVALID_PROXY_ENDPOINT": {
+    "message": "Ingiza seva mwenyeji na lango halali la proksi"
+  },
+  "error_INVALID_PROXY_HOST": {
+    "message": "Ingiza jina la DNS au anwani ya IP bila lango, URL, njia au hoja"
+  },
+  "error_INVALID_ROUTE": {
+    "message": "Njia si halali"
+  },
+  "error_INVALID_ROUTE_SETTINGS": {
+    "message": "Mipangilio ya njia si halali"
+  },
+  "error_INVALID_RULES": {
+    "message": "Kanuni si halali"
+  },
+  "error_INVALID_RULE_TARGET": {
+    "message": "Chagua nodi moja halali au wasifu mmoja halali kwa kila kanuni"
+  },
+  "error_INVALID_SUBSCRIPTION": {
+    "message": "Usajili si halali"
+  },
+  "error_INVALID_SUBSCRIPTION_REQUEST": {
+    "message": "Ombi la usajili si halali"
+  },
+  "error_INVALID_SUBSCRIPTION_SETTINGS": {
+    "message": "Mipangilio ya usajili si halali. Kagua muda kati ya masasisho na sera ya muunganisho."
+  },
+  "error_INVALID_SYSTEM_PROXY_RESPONSE": {
+    "message": "Jibu la proksi ya mfumo si halali; sasisha au rekebisha programu saidizi"
+  },
+  "error_INVALID_TRANSPORT": {
+    "message": "Mipangilio ya muunganisho wa usajili si halali."
+  },
+  "error_INVALID_URL": {
+    "message": "Ingiza URL halali ya usajili wa HTTP(S) bila jina la mtumiaji au nenosiri."
+  },
+  "error_LIBRARY_CHANGED": {
+    "message": "Maktaba ya nodi imebadilika kwenye dirisha jingine. Onyesha upya na ujaribu tena."
+  },
+  "error_MANUAL_CHAIN_UNSUPPORTED": {
+    "message": "Proksi za mwongozo hazikubali mnyororo wa nodi"
+  },
+  "error_MANUAL_PROXY_CLEANUP_FAILED": {
+    "message": "Uhifadhi umeshindwa; proksi ya muda iliyoingizwa imebaki kwenye maktaba ya nodi"
+  },
+  "error_NATIVE_BINDING_ID": {
+    "message": "Kitambulisho cha kiunganisho cha njia si halali."
+  },
+  "error_NATIVE_BINDING_UNKNOWN": {
+    "message": "Kiunganisho cha njia hakipo."
+  },
+  "error_NATIVE_BUTTON_NAME": {
+    "message": "Jina la kitufe lazima liwe na herufi 1–128 zinazoonekana."
+  },
+  "error_NATIVE_CATALOG_UNREADABLE": {
+    "message": "Usanidi wa v2rayN haukuweza kusomwa."
+  },
+  "error_NATIVE_CORE_MISSING": {
+    "message": "Xray haipatikani. Sakinisha kifurushi cha programu saidizi."
+  },
+  "error_NATIVE_GROUP_ID_COLLISION": {
+    "message": "Vitambulisho vya vikundi vinakinzana."
+  },
+  "error_NATIVE_GROUP_ORDER": {
+    "message": "Mpangilio wa vikundi si halali."
+  },
+  "error_NATIVE_NODE_ID_COLLISION": {
+    "message": "Vitambulisho vya nodi vinakinzana."
+  },
+  "error_NATIVE_PREDECESSOR_AMBIGUOUS": {
+    "message": "Jina la proksi tangulizi halipo au limerudiwa. Chagua nodi tangulizi mahususi."
+  },
+  "error_NATIVE_PREDECESSOR_CYCLE": {
+    "message": "Mnyororo tangulizi una mzunguko au unazidi nodi sita."
+  },
+  "error_NATIVE_PREDECESSOR_INVALID": {
+    "message": "Chagua proksi tangulizi halali."
+  },
+  "error_NATIVE_PREDECESSOR_MISSING": {
+    "message": "Proksi tangulizi iliyochaguliwa haipo tena. Chagua nodi nyingine."
+  },
+  "error_NATIVE_PREDECESSOR_SETTINGS": {
+    "message": "Mipangilio ya proksi tangulizi si halali."
+  },
+  "error_NATIVE_ROUTE_INVALID": {
+    "message": "Chagua njia halali."
+  },
+  "error_NATIVE_ROUTE_MISSING": {
+    "message": "Njia hii haipo tena. Chagua njia nyingine."
+  },
+  "error_NATIVE_ROUTE_PORTS": {
+    "message": "Ugawaji wa milango ya njia si halali."
+  },
+  "error_NATIVE_ROUTE_UNAVAILABLE": {
+    "message": "Njia iliyochaguliwa haipatikani. Angalia maelezo ya kiufundi."
+  },
+  "error_NATIVE_SETTINGS_FORMAT": {
+    "message": "Umbizo la mipangilio si halali."
+  },
+  "error_NATIVE_SETTINGS_REVISION": {
+    "message": "Nambari ya marekebisho ya mipangilio si halali."
+  },
+  "error_NATIVE_SUCCESSOR_UNSUPPORTED": {
+    "message": "Kikundi hiki kinatumia proksi fuatizi isiyotumika."
+  },
+  "error_NATIVE_UNSUPPORTED_CUSTOM": {
+    "message": "Toleo hili halitumii usanidi maalumu wa kutoka."
+  },
+  "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
+    "message": "Toleo hili halitumii Hysteria2."
+  },
+  "error_NATIVE_UNSUPPORTED_TUIC": {
+    "message": "Toleo hili halijaunganisha injini ya sing-box inayohitajika kwa TUIC."
+  },
+  "error_NATIVE_UNSUPPORTED_TYPE": {
+    "message": "Aina hii ya njia haitumiki."
+  },
+  "error_NATIVE_V2RAYN_PORT": {
+    "message": "Lango la ndani la v2rayN si halali."
+  },
+  "error_NATIVE_V2RAYN_UNAVAILABLE": {
+    "message": "v2rayN haipatikani. Chagua nodi iliyoingizwa."
+  },
+  "error_NETWORK_FAILED": {
+    "message": "Ombi la mtandao limeshindwa. Kagua muunganisho na ujaribu tena."
+  },
+  "error_NETWORK_TEST_FAILED": {
+    "message": "Uchunguzi wa mtandao umeshindwa. Angalia maelezo ya kiufundi."
+  },
+  "error_NODE_LIMIT": {
+    "message": "Kitendo kitazidi kikomo cha nodi. Ondoa nodi zisizotumika na ujaribu tena."
+  },
+  "error_NODE_MAPPING_INCOMPLETE": {
+    "message": "Ulinganishaji wa nodi haujakamilika"
+  },
+  "error_NODE_NOT_FOUND": {
+    "message": "Nodi iliyochaguliwa haipo tena. Chagua nodi nyingine."
+  },
+  "error_NOT_DUE": {
+    "message": "Muda wa sasisho linalofuata lililopangwa bado haujafika."
+  },
+  "error_PAC_ENTRY_REQUIRED": {
+    "message": "Ingiza msimbo chanzo wa PAC wenye FindProxyForURL"
+  },
+  "error_PAC_FUNCTION_REQUIRED": {
+    "message": "Fafanua FindProxyForURL kama kitendakazi kisicho cha asinkroni katika ngazi ya juu, kigeu cha kitendakazi au ugawaji"
+  },
+  "error_PAC_PARSER_UNAVAILABLE": {
+    "message": "Kichanganuzi cha PAC kilichofungashwa hakipatikani; sakinisha kiendelezi tena"
+  },
+  "error_PAC_RULE_TARGET_UNSUPPORTED": {
+    "message": "Kanuni za kiotomatiki haziwezi kulenga wasifu wa PAC uliopachikwa"
+  },
+  "error_PAC_SOURCE_LIMIT": {
+    "message": "Ingiza msimbo chanzo wa PAC wenye herufi zisizozidi {limit}"
+  },
+  "error_PAC_SYNTAX_INVALID": {
+    "message": "Sintaksia ya PAC si halali"
+  },
+  "error_PAC_SYNTAX_LOCATION": {
+    "message": "Sintaksia ya PAC si halali kwenye mstari {line}, safu {column}"
+  },
+  "error_PARTIAL_TRANSFER": {
+    "message": "Uhamishaji wa jaribio uliisha kabla ya data zote kupokelewa."
+  },
+  "error_PRIVATE_DIRECTORY_FAILED": {
+    "message": "Folda ya faragha ya jaribio haikuweza kulindwa. Jaribio limesimamishwa."
+  },
+  "error_PRIVATE_TARGET": {
+    "message": "Maombi ya usajili kwenda anwani za faragha au za ndani hayaruhusiwi."
+  },
+  "error_PROFILE_NOT_FOUND": {
+    "message": "Wasifu haujapatikana"
+  },
+  "error_PROFILE_REFERENCE_CYCLE": {
+    "message": "Marejeleo ya wasifu yanaunda mzunguko"
+  },
+  "error_PROFILE_REFERENCE_DEPTH": {
+    "message": "Kanuni za kiotomatiki zinazidi kina cha juu cha {limit}"
+  },
+  "error_PROFILE_REFERENCE_MISSING": {
+    "message": "Wasifu unaorejelewa haupo: {name}"
+  },
+  "error_PROFILE_SAVE_RESTORE_FAILED": {
+    "message": "Uhifadhi umeshindwa na urejeshaji wa njia unahitaji kushughulikiwa"
+  },
+  "error_PROXY_AUTH_REQUIRED": {
+    "message": "Proksi ya usajili inahitaji uthibitishaji ambao ombi hili haliwezi kutoa."
+  },
+  "error_PROXY_CONTROL_UNAVAILABLE": {
+    "message": "Kiendelezi au sera nyingine inadhibiti proksi"
+  },
+  "error_PROXY_DNS_REQUIRED": {
+    "message": "Katika V2Route, DNS ya SOCKS5 hutafsiriwa kupitia proksi"
+  },
+  "error_PROXY_FAILED": {
+    "message": "Muunganisho wa proksi umeshindwa. Kagua njia iliyochaguliwa."
+  },
+  "error_PROXY_PROFILE_REQUIRED": {
+    "message": "Chagua wasifu wa proksi"
+  },
+  "error_PROXY_ROLLBACK_REFUSED": {
+    "message": "Kivinjari kimekataa kutengua badiliko la proksi"
+  },
+  "error_PROXY_SETTING_REFUSED": {
+    "message": "Kivinjari kimekataa mpangilio wa proksi"
+  },
+  "error_PROXY_UNAVAILABLE": {
+    "message": "Proksi iliyochaguliwa haipatikani. Kagua njia ya sasa."
+  },
+  "error_PROXY_USERNAME_REQUIRED": {
+    "message": "Ingiza jina la mtumiaji wa proksi"
+  },
+  "error_RECOVERY_BINDINGS_LIMIT": {
+    "message": "Urejeshaji unaweza kurudisha hadi viunganisho {limit} vya nodi. Fungua na uhifadhi wasifu unaorejelewa mmoja mmoja."
+  },
+  "error_REDIRECT_LIMIT": {
+    "message": "Usajili umeelekeza upya mara nyingi mno. Kagua URL yake."
+  },
+  "error_REFERENCED_PROFILE_DELETE": {
+    "message": "Wasifu huu unarejelewa na kanuni ya kiotomatiki"
+  },
+  "error_REMOTE_PAC_UNSUPPORTED": {
+    "message": "Tumia msimbo chanzo wa PAC uliopachikwa; PAC ya mbali haitumiki"
+  },
+  "error_ROUTE_PORT_UNAVAILABLE": {
+    "message": "Hakuna lango lililogawiwa"
+  },
+  "error_ROUTE_RECOVERY_RESTORE_FAILED": {
+    "message": "Uokoaji wa njia umeshindwa na urejeshaji unahitaji kushughulikiwa"
+  },
+  "error_ROUTE_REVISION_CONFLICT": {
+    "message": "Njia imebadilika kwenye dirisha jingine. Onyesha upya kwanza"
+  },
+  "error_ROUTE_SAVE_ROLLBACK_FAILED": {
+    "message": "Uhifadhi wa njia umeshindwa na utenguaji unahitaji kushughulikiwa"
+  },
+  "error_ROUTE_UNAVAILABLE": {
+    "message": "Njia ya jaribio haipatikani. Kagua mipangilio ya nodi na proksi tangulizi."
+  },
+  "error_RULE_BINDING_MISSING": {
+    "message": "Kiunganisho cha kanuni ya nodi hakipo. Fungua tena na uhifadhi wasifu wa kiotomatiki: {name}"
+  },
+  "error_RULE_NODES_LIMIT": {
+    "message": "Kanuni za kiotomatiki zinaruhusu hadi nodi {limit} tofauti"
+  },
+  "error_RULE_NODE_CHANGED": {
+    "message": "Kanuni ya nodi haipatikani au imebadilika. Rejesha nodi au chagua nyingine na uhifadhi: {name}"
+  },
+  "error_RULE_PATH_CONFLICT": {
+    "message": "Njia za kanuni za nodi zinakinzana"
+  },
+  "error_RULE_PATTERNS_LIMIT": {
+    "message": "Kanuni za kiotomatiki zinaruhusu jumla ya hadi ruwaza {limit} za kulinganisha"
+  },
+  "error_RULE_PORT_UNAVAILABLE": {
+    "message": "Lango la kanuni ya nodi halipatikani"
+  },
+  "error_RULE_REVISION_CONFLICT": {
+    "message": "Kanuni ya nodi imebadilika kwenye dirisha jingine. Onyesha upya kwanza"
+  },
+  "error_SELECTED_NODE_UNAVAILABLE": {
+    "message": "Nodi iliyochaguliwa haipatikani. Irejeshe au chagua nyingine"
+  },
+  "error_SOCKS_FAILED": {
+    "message": "Muunganisho wa SOCKS haukuweza kuanzishwa."
+  },
+  "error_STARTUP_FALLBACK_REFUSED": {
+    "message": "Kivinjari kimekataa proksi mbadala ya kuanzisha."
+  },
+  "error_SUBSCRIPTION_CHANGED": {
+    "message": "Usajili umebadilika wakati wa sasisho. Onyesha upya na ujaribu tena."
+  },
+  "error_SUBSCRIPTION_HTTP_STATUS": {
+    "message": "Seva ya usajili imerudisha HTTP {status}."
+  },
+  "error_SUBSCRIPTION_LIMIT": {
+    "message": "Kikomo cha usajili kimefikiwa. Ondoa usajili usiotumika na ujaribu tena."
+  },
+  "error_SUBSCRIPTION_NOT_FOUND": {
+    "message": "Usajili uliochaguliwa haupo tena."
+  },
+  "error_SYSTEM_PROXY_SNAPSHOT_UNAVAILABLE": {
+    "message": "Nakala ya hali ya proksi ya mfumo iliyotumika haipatikani."
+  },
+  "error_SYSTEM_PROXY_TIMEOUT": {
+    "message": "Muda wa kusoma proksi ya mfumo umeisha"
+  },
+  "error_SYSTEM_PROXY_UNAVAILABLE": {
+    "message": "Proksi ya mfumo haipatikani. Angalia maelezo ya kiufundi."
+  },
+  "error_TIMEOUT": {
+    "message": "Muda wa ombi umeisha. Kagua muunganisho na ujaribu tena."
+  },
+  "error_TLS_DOWNGRADE": {
+    "message": "Usajili ulielekeza upya kutoka HTTPS kwenda HTTP na ukazuiwa."
+  },
+  "error_TLS_FAILED": {
+    "message": "Muunganisho salama haukuweza kuthibitishwa. Kagua seva na cheti."
+  },
+  "error_UNSAFE_TEMP_PATH": {
+    "message": "Folda ya muda ya jaribio si salama. Jaribio limesimamishwa."
+  },
+  "error_UNSUPPORTED_LIBRARY_REQUEST": {
+    "message": "Ombi la maktaba halitumiki"
+  },
+  "error_UNSUPPORTED_PROFILE_TYPE": {
+    "message": "Aina ya wasifu haitumiki"
+  },
+  "error_UNSUPPORTED_REQUEST": {
+    "message": "Ombi halitumiki"
+  },
+  "error_UNSUPPORTED_RULE_CONDITION": {
+    "message": "Kanuni za kadi-mwitu za mwenyeji na URL pekee ndizo zinazotumika"
+  },
+  "error_UPDATE_FAILED": {
+    "message": "Sasisho la usajili limeshindwa. Nodi zilizopo zimehifadhiwa."
+  },
+  "error_VALIDATION_FAILED": {
+    "message": "Maudhui ya usajili hayakuweza kuthibitishwa. Nodi zilizopo zimehifadhiwa."
+  },
+  "nativeUnnamedNode": {
+    "message": "Nodi isiyo na jina"
+  },
+  "nativeProtocolCustom": {
+    "message": "Maalumu"
+  },
+  "nativeProtocolOutbound": {
+    "message": "Muunganisho maalumu wa kutoka"
+  },
+  "nativeProtocolGroup": {
+    "message": "Kikundi cha sera"
+  },
+  "nativeProtocolChain": {
+    "message": "Mnyororo wa proksi"
+  },
+  "nativeProtocolUnknown": {
+    "message": "Aina isiyotumika"
+  },
+  "languageLoadFailed": {
+    "message": "Lugha iliyochaguliwa haikuweza kupakiwa. Jaribu tena."
+  },
+  "invalidBackupJSON": {
+    "message": "Nakala rudufu si JSON halali."
+  },
+  "noticeBodyLanguages": {
+    "message": "Maandishi kamili ya sera yanapatikana kwa Kiingereza na Kichina Kilichorahisishwa."
+  },
+  "policyRules": {
+    "message": "Sheria za uelekezaji wa proksi"
+  },
+  "policyPriority": {
+    "message": "Mpangilio: anwani zisizotumia proksi → sheria ya kwanza inayolingana → njia chaguomsingi."
+  },
+  "policyDirectHelp": {
+    "message": "Anwani zisizolingana huunganishwa moja kwa moja. Kitufe cha Moja kwa moja pia hutumia sheria hizi."
+  },
+  "policySystemHelp": {
+    "message": "Anwani zisizolingana hutumia proksi ya mfumo. Kitufe cha Mfumo pia hutumia sheria hizi."
+  },
+  "policyEmpty": {
+    "message": "Hakuna sheria bado. Njia chaguomsingi inatumika."
+  },
+  "policyAddressHelp": {
+    "message": "Vikoa, vikoa vya vibadala, IP au IP:port. Sheria za IP hulinganisha IP katika URL, si matokeo ya DNS."
+  },
+  "policyMoveUp": {
+    "message": "Sogeza sheria juu"
+  },
+  "policyMoveDown": {
+    "message": "Sogeza sheria chini"
+  }
+}
