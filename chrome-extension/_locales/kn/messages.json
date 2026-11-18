@@ -740,6 +740,9 @@
   "apply": {
     "message": "ಪ್ರೊಫೈಲ್ ಅನ್ವಯಿಸಿ"
   },
+  "profileApplied": {
+    "message": "ಅನ್ವಯಿಸಲಾಗಿದೆ"
+  },
   "applied": {
     "message": "ಪ್ರೊಫೈಲ್ ಬದಲಾಯಿಸಲಾಗಿದೆ"
   },

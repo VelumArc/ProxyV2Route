@@ -740,6 +740,9 @@
   "apply": {
     "message": "プロファイルを適用"
   },
+  "profileApplied": {
+    "message": "適用済み"
+  },
   "applied": {
     "message": "プロファイルが切り替わりました"
   },

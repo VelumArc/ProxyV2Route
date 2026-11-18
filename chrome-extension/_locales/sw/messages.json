@@ -740,6 +740,9 @@
   "apply": {
     "message": "Tumia wasifu"
   },
+  "profileApplied": {
+    "message": "Imetumika"
+  },
   "applied": {
     "message": "Wasifu umebadilishwa"
   },

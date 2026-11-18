@@ -740,6 +740,9 @@
   "apply": {
     "message": "Taikyti profilį"
   },
+  "profileApplied": {
+    "message": "Pritaikyta"
+  },
   "applied": {
     "message": "Profilis perjungtas"
   },

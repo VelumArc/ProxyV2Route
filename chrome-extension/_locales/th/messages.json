@@ -740,6 +740,9 @@
   "apply": {
     "message": "ใช้โปรไฟล์"
   },
+  "profileApplied": {
+    "message": "ใช้แล้ว"
+  },
   "applied": {
     "message": "เปลี่ยนโปรไฟล์แล้ว"
   },

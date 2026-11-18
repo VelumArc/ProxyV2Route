@@ -740,6 +740,9 @@
   "apply": {
     "message": "تطبيق الملف الشخصي"
   },
+  "profileApplied": {
+    "message": "تم التطبيق"
+  },
   "applied": {
     "message": "تم تبديل الملف الشخصي"
   },

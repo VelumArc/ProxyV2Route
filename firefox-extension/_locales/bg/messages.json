@@ -740,6 +740,9 @@
   "apply": {
     "message": "Прилагане на профила"
   },
+  "profileApplied": {
+    "message": "Приложено"
+  },
   "applied": {
     "message": "Профилът е сменен"
   },

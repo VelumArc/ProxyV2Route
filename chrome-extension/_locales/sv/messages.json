@@ -740,6 +740,9 @@
   "apply": {
     "message": "Använd profil"
   },
+  "profileApplied": {
+    "message": "Tillämpad"
+  },
   "applied": {
     "message": "Profil bytte"
   },

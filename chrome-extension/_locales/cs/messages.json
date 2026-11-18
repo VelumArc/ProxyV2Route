@@ -740,6 +740,9 @@
   "apply": {
     "message": "Použít profil"
   },
+  "profileApplied": {
+    "message": "Použito"
+  },
   "applied": {
     "message": "Profil přepnut"
   },

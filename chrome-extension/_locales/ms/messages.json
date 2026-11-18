@@ -740,6 +740,9 @@
   "apply": {
     "message": "Gunakan profil"
   },
+  "profileApplied": {
+    "message": "Telah digunakan"
+  },
   "applied": {
     "message": "Profil ditukar"
   },

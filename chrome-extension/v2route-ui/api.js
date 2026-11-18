@@ -17,10 +17,11 @@
       });
     });
   }
+  function readProfileState() {
+    return rpc('getState', [['availableProfiles', 'appliedIcon', 'currentProfileName', 'currentProfilePending', 'isSystemProfile', 'proxyNotControllable', 'zeroRouteError','zeroRouteErrorInfo']]);
+  }
   async function read() {
-    const [options, state] = await Promise.all([
-      rpc('getAll'), rpc('getState', [['availableProfiles', 'appliedIcon', 'currentProfileName', 'isSystemProfile', 'proxyNotControllable', 'zeroRouteError','zeroRouteErrorInfo']])
-    ]);
+    const [options, state] = await Promise.all([rpc('getAll'), readProfileState()]);
     return {options, state};
   }
   // Paint saved choices without waiting for background proxy restoration.
@@ -107,6 +108,6 @@
   const routeReason=route=>route?.reasonCode?errorText({code:route.reasonCode,params:route.reasonParams,details:route.reason}):uiText('unavailable','Unavailable');
   const routeProtocol=route=>route?.protocol_key?uiText(route.protocol_key,route.protocol||''):route?.protocol||'';
   const routeGroup=route=>route?.group_key?uiText(route.group_key,route.group||''):route?.group_id==='local-imports'?uiText('imported','Imported'):route?.group||'';
-  root.V2R = {rpc, read, clone, popupProfiles, prefsGet, prefsSet, profiles, groups, move, routeIcon, profileIcon, routeLabel,routeReason,routeProtocol,routeGroup,uiError,errorText};
+  root.V2R = {rpc, read, readProfileState, clone, popupProfiles, prefsGet, prefsSet, profiles, groups, move, routeIcon, profileIcon, routeLabel,routeReason,routeProtocol,routeGroup,uiError,errorText};
   if (typeof module === 'object') module.exports = root.V2R;
 })(typeof globalThis === 'object' ? globalThis : this);

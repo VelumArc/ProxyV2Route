@@ -40,6 +40,26 @@
   }
   async function perform(action,onError,message){if(busy)return;busy=true;document.body.classList.add('busy');try{await action();}catch(error){if(message)message.error(error);else if(!onError)report({error},'error');onError?.(error);}finally{busy=false;document.body.classList.remove('busy');renderPreferences();}}
   function current(){return data.state.isSystemProfile?'system':data.state.currentProfileName;}
+  function updateActiveBadge(row){
+    const badge=row.querySelector('.active-label');
+    if(current()===row.dataset.profile){
+      if(!badge)row.append(el('span','active-label',t('active')));
+    }else badge?.remove();
+  }
+  let stateRead=0;
+  async function refreshProfileState(){
+    if(!data.state.currentProfileName)return;
+    const generation=++stateRead,previous=data;
+    let state;
+    try{state=await V2R.readProfileState();}
+    catch(_){state={...data.state,currentProfilePending:true};}
+    if(previous!==data||generation!==stateRead)return;
+    data.state=state;
+    if(page==='profiles'){
+      for(const row of document.querySelectorAll('.profile-item[data-profile]'))updateActiveBadge(row);
+      activeEditor?.sync();
+    }
+  }
   function profileType(p){return p._zeroRouteSlot&&!p._v2routeManual?t('managed'):({FixedProfile:t('manual'),SwitchProfile:t('auto'),PacProfile:t('pac'),DirectProfile:t('direct'),SystemProfile:t('system'),VirtualProfile:t('virtual')})[p.profileType]||p.profileType;}
   function iconFor(p){if(p.profileType==='SystemProfile'){const icon=el('span','profile-symbol');icon.append(uiIcon('program'));return icon;}const src=V2R.profileIcon(p);if(src){const image=el('img','route-icon');image.src=src;image.alt='';return image;}const n=el('span','profile-symbol',p.profileType==='SwitchProfile'?'⇄':p.profileType==='PacProfile'?'{}':'↗');n.style.setProperty('--profile-color',/^#[a-f\d]{3,6}$/i.test(p.color||'')?p.color:'#368cbd');return n;}
   async function loadCatalog(name){catalogAttempted=true;try{const result=await rpc('zeroRouteGetState',name?[name]:[]);if(!result?.catalog?.routes||!result.catalog.settings)throw V2R.uiError('nativeMissing');native=result;nativeError='';return result;}catch(error){nativeError=error;native=null;return null;}}
@@ -112,7 +132,7 @@
     const search=input();search.type='search';search.placeholder=t('searchProfiles');search.setAttribute('aria-label',t('searchProfiles'));list.append(search);const rows=el('div','profile-items');list.append(rows);
     const custom=profiles(data.options),all=[...['direct','system'].map(name=>data.options['+'+name]).filter(Boolean),...custom];if(!selected||!all.some(p=>p.name===selected))selected=custom[0]?.name||all[0]?.name||null;
     const displayName=p=>p.builtin?t(p.name):p.name;
-    function draw(){rows.replaceChildren();for(const p of all.filter(p=>displayName(p).toLocaleLowerCase().includes(search.value.toLocaleLowerCase()))){const b=button('',()=>{if(busy)return;V2RFeedback.clear();creating=null;selected=p.name;draw();drawEditor(editor,p);},'profile-item'+(p.name===selected?' selected':''));b.dataset.profile=p.name;b.append(iconFor(p));const text=el('span','grow');text.append(el('strong','',displayName(p)));if(!p.builtin)text.append(el('small','muted',profileType(p)));b.append(text);if(current()===p.name)b.append(el('span','active-label',t('active')));rows.append(b);}}
+    function draw(){rows.replaceChildren();for(const p of all.filter(p=>displayName(p).toLocaleLowerCase().includes(search.value.toLocaleLowerCase()))){const b=button('',()=>{if(busy)return;V2RFeedback.clear();creating=null;selected=p.name;draw();drawEditor(editor,p);},'profile-item'+(p.name===selected?' selected':''));b.dataset.profile=p.name;b.append(iconFor(p));const text=el('span','grow');text.append(el('strong','',displayName(p)));if(!p.builtin)text.append(el('small','muted',profileType(p)));b.append(text);updateActiveBadge(b);rows.append(b);}}
     search.oninput=draw;draw();if(creating){const pending=creating.snapshot;drawEditor(editor,creating.profile,true);if(pending)activeEditor?.restore(pending);}else if(selected)drawEditor(editor,all.find(p=>p.name===selected));else{const empty=card(t('noSelection'));empty.append(button('+ '+t('newProfile'),()=>showCreate(),'button primary'));editor.append(empty);}
   }
   function predecessorControl(host,initial,onChange,context={}){
@@ -173,10 +193,14 @@
       const dirty=snapshot()!==baseline;
       if(isNew&&creating)creating.snapshot=draftState();
       const incomplete=type==='node'&&Array.isArray(drafts.node.chain)&&(drafts.node.route==='follow'||drafts.node.chain.some(value=>!/^node:[A-Za-z0-9_-]{1,128}$/.test(value)));
-      saveButton.disabled=saving||incomplete||(!isNew&&!dirty);
+      const saved=!isNew&&!dirty;
+      const applied=saved&&current()===p.name&&!data.state.currentProfilePending&&!data.state.proxyNotControllable&&!data.state.zeroRouteError&&data.state.availableProfiles?.[p.name]?.revision===p.revision;
+      saveButton.disabled=saving||incomplete||saved;
       applyButton.disabled=saving||incomplete;
       saveButton.textContent=t(saving==='save'?'saving':isNew?'create':dirty?'save':'saved');
-      applyButton.textContent=t(saving==='apply'?'switching':'apply');
+      applyButton.textContent=t(saving==='apply'?'switching':applied?'profileApplied':'apply');
+      saveButton.dataset.complete=String(saved&&saving!=='save');
+      applyButton.dataset.complete=String(applied&&saving!=='apply');
       for(const [control,intent] of [[saveButton,'save'],[applyButton,'apply']])control.setAttribute('aria-busy',String(saving===intent));
       if(dirty&&reportValue?.key==='saved')report('');
     }
@@ -285,7 +309,7 @@
     applyButton=mark(button(t('apply'),()=>submit(true,'apply-edited-profile'),'button primary'),'apply-edited-profile');
     actions.append(saveButton,applyButton);
     baseline=snapshot();for(const region of [heading,body]){region.addEventListener('input',sync);region.addEventListener('change',sync);}sync();
-    activeEditor={capture:draftState,restore:s=>{if(s.profile!==p.name)return;drafts=clone(s.drafts);chainDraft=clone(s.chainDraft||null);name.value=s.name;editingName=isNew||!!s.editingName;nameBeforeEdit=s.nameBeforeEdit??s.name;drawName();type=s.type;typeSelect.value=type;drawFields();const advanced=body.querySelector('details');if(advanced)advanced.open=s.advancedOpen;sync();},destroy:()=>{chainControl?.destroy();preControl?.destroy();defaultControl?.destroy();rulePickers.forEach(control=>control.destroy());rulePickers=[];}};
+    activeEditor={sync,capture:draftState,restore:s=>{if(s.profile!==p.name)return;drafts=clone(s.drafts);chainDraft=clone(s.chainDraft||null);name.value=s.name;editingName=isNew||!!s.editingName;nameBeforeEdit=s.nameBeforeEdit??s.name;drawName();type=s.type;typeSelect.value=type;drawFields();const advanced=body.querySelector('details');if(advanced)advanced.open=s.advancedOpen;sync();},destroy:()=>{chainControl?.destroy();preControl?.destroy();defaultControl?.destroy();rulePickers.forEach(control=>control.destroy());rulePickers=[];}};
   }
   function profileChoices(exclude){return [...[['direct',t('direct')],['system',t('system')]].filter(([name])=>name!==exclude),...profiles(data.options).filter(p=>p.name!==exclude&&['FixedProfile','SwitchProfile'].includes(p.profileType)).map(p=>[p.name,p.name])];}
   function profileChoiceType(value){if(value==='direct'||value==='system')return value;const p=data.options['+'+value];return p?.profileType==='SwitchProfile'?'auto':p?._zeroRouteSlot&&!p._v2routeManual?'node':'manual';}
@@ -337,6 +361,8 @@
   $('modal').addEventListener('close',()=>{modalPicker?.destroy();modalPicker=null;});
   function confirm(title,text,action,actionLabel=t('delete')){const content=el('div','modal-body');content.append(el('h2','',title),el('p','muted',text));const actions=el('div','modal-actions'),ok=button(actionLabel,async()=>{if(ok.disabled)return;ok.disabled=true;const message=V2RFeedback.begin(ok,{key:'confirm-profile'});try{await action();if($('modal-content').contains(content)){message.success();setTimeout(()=>{if($('modal-content').contains(content))$('modal').close();},1000);}}catch(error){if($('modal-content').contains(content)){message.error(error);ok.disabled=false;}}},'button danger');actions.append(button(t('cancel'),()=>$('modal').close(),'button subtle'),ok);content.append(actions);showModal(content);}
   window.addEventListener('hashchange',()=>{const next=location.hash.slice(1);page=['profiles','nodes','ip-tools','settings'].includes(next)?next:'profiles';report('');if(page!=='ip-tools'&&!catalogAttempted){V2RIPPanel.stop(true);perform(reload);}else render();});
+  chrome.storage?.onChanged?.addListener((changes,area)=>{if(area==='local'&&changes.v2routeModel)void refreshProfileState();});
+  chrome.proxy?.settings?.onChange?.addListener(refreshProfileState);
   window.addEventListener('unhandledrejection',event=>{report({error:event.reason},'error');});
   async function init(){prefs=explicitPreferences(await V2R.prefsGet());try{await I18n.load(prefs.language);}catch(_){prefs.language='en';}applyTheme();const hash=location.hash.slice(1);page=['profiles','nodes','ip-tools','settings'].includes(hash)?hash:'profiles';report({key:'loading'},'');await reload();report('');}
   init().catch(error=>{render();report({error},'error');});

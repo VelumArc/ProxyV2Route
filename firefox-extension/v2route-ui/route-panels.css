@@ -293,3 +293,14 @@ main { padding-top: 16px; }
 @media(forced-colors:active){.system-v2ray-note{color:CanvasText}}
 .profile-editor .editor-actions{flex-wrap:wrap}
 .profile-editor .editor-actions .button.primary:disabled{opacity:1;box-shadow:none;cursor:default}
+:root .profile-editor .editor-actions .button.primary[data-complete="true"]{
+  background:var(--surface-soft);
+  border-color:var(--border);
+  color:color-mix(in srgb,var(--text) 72%,var(--muted));
+  box-shadow:none;
+}
+:root .profile-editor .editor-actions .button.primary[data-feedback="apply-edited-profile"][data-complete="true"]{
+  background:color-mix(in srgb,#28aa80 15%,var(--surface));
+  border-color:color-mix(in srgb,#28aa80 45%,var(--border));
+  color:color-mix(in srgb,#15926b 44%,var(--text));
+}

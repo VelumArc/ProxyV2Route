@@ -740,6 +740,9 @@
   "apply": {
     "message": "应用情景"
   },
+  "profileApplied": {
+    "message": "已应用"
+  },
   "applied": {
     "message": "已切换情景"
   },

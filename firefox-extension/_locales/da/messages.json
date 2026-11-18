@@ -740,6 +740,9 @@
   "apply": {
     "message": "Anvend profil"
   },
+  "profileApplied": {
+    "message": "Anvendt"
+  },
   "applied": {
     "message": "Profil skiftet"
   },

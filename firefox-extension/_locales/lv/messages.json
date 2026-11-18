@@ -740,6 +740,9 @@
   "apply": {
     "message": "Lietot profilu"
   },
+  "profileApplied": {
+    "message": "Lietots"
+  },
   "applied": {
     "message": "Profils mainīts"
   },

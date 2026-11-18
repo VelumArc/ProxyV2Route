@@ -740,6 +740,9 @@
   "apply": {
     "message": "החלת הפרופיל"
   },
+  "profileApplied": {
+    "message": "הוחל"
+  },
   "applied": {
     "message": "הפרופיל הוחלף"
   },

@@ -740,6 +740,9 @@
   "apply": {
     "message": "প্রোফাইল প্রয়োগ করুন"
   },
+  "profileApplied": {
+    "message": "প্রয়োগ করা হয়েছে"
+  },
   "applied": {
     "message": "প্রোফাইল সুইচ করা হয়েছে"
   },

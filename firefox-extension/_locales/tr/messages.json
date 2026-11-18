@@ -740,6 +740,9 @@
   "apply": {
     "message": "Profili uygula"
   },
+  "profileApplied": {
+    "message": "Uygulandı"
+  },
   "applied": {
     "message": "Profil değiştirildi"
   },

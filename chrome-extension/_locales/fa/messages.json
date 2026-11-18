@@ -740,6 +740,9 @@
   "apply": {
     "message": "اعمال نمایه"
   },
+  "profileApplied": {
+    "message": "اعمال شد"
+  },
   "applied": {
     "message": "نمایه تغییر کرد"
   },

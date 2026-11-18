@@ -740,6 +740,9 @@
   "apply": {
     "message": "Áp dụng hồ sơ"
   },
+  "profileApplied": {
+    "message": "Đã áp dụng"
+  },
   "applied": {
     "message": "Đã chuyển hồ sơ"
   },

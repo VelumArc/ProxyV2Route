@@ -740,6 +740,9 @@
   "apply": {
     "message": "പ്രൊഫൈൽ പ്രയോഗിക്കുക"
   },
+  "profileApplied": {
+    "message": "പ്രയോഗിച്ചു"
+  },
   "applied": {
     "message": "പ്രൊഫൈൽ മാറി"
   },

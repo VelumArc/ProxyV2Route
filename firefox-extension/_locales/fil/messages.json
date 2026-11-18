@@ -740,6 +740,9 @@
   "apply": {
     "message": "Ilapat ang profile"
   },
+  "profileApplied": {
+    "message": "Nailapat"
+  },
   "applied": {
     "message": "Inilipat ang profile"
   },

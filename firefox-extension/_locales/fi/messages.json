@@ -740,6 +740,9 @@
   "apply": {
     "message": "Ota profiili käyttöön"
   },
+  "profileApplied": {
+    "message": "Käytössä"
+  },
   "applied": {
     "message": "Profiili vaihdettu"
   },

@@ -740,6 +740,9 @@
   "apply": {
     "message": "Profiel toepassen"
   },
+  "profileApplied": {
+    "message": "Toegepast"
+  },
   "applied": {
     "message": "Profiel gewijzigd"
   },

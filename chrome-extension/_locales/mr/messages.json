@@ -740,6 +740,9 @@
   "apply": {
     "message": "प्रोफाइल लागू करा"
   },
+  "profileApplied": {
+    "message": "लागू केले"
+  },
   "applied": {
     "message": "प्रोफाइल स्विच केले"
   },

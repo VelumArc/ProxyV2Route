@@ -740,6 +740,9 @@
   "apply": {
     "message": "Rakenda profiil"
   },
+  "profileApplied": {
+    "message": "Rakendatud"
+  },
   "applied": {
     "message": "Profiil vahetatud"
   },

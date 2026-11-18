@@ -740,6 +740,9 @@
   "apply": {
     "message": "መገለጫውን ተግብር"
   },
+  "profileApplied": {
+    "message": "ተተግብሯል"
+  },
   "applied": {
     "message": "መገለጫ ተቀይሯል።"
   },

@@ -740,6 +740,9 @@
   "apply": {
     "message": "Εφαρμογή προφίλ"
   },
+  "profileApplied": {
+    "message": "Εφαρμόστηκε"
+  },
   "applied": {
     "message": "Το προφίλ άλλαξε"
   },

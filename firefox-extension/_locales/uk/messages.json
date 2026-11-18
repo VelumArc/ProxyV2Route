@@ -740,6 +740,9 @@
   "apply": {
     "message": "Застосувати профіль"
   },
+  "profileApplied": {
+    "message": "Застосовано"
+  },
   "applied": {
     "message": "Профіль змінено"
   },

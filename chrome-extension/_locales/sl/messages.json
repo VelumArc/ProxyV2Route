@@ -740,6 +740,9 @@
   "apply": {
     "message": "Uporabi profil"
   },
+  "profileApplied": {
+    "message": "Uporabljeno"
+  },
   "applied": {
     "message": "Profil zamenjan"
   },
