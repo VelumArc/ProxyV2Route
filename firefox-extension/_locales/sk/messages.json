@@ -1331,9 +1331,6 @@
   "chainTest": {
     "message": "Testovací reťazec"
   },
-  "chainMode": {
-    "message": "Reťazový režim"
-  },
   "chainBase": {
     "message": "Základný proxy"
   },

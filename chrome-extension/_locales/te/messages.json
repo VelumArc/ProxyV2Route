@@ -1331,9 +1331,6 @@
   "chainTest": {
     "message": "టెస్ట్ చైన్"
   },
-  "chainMode": {
-    "message": "చైన్ మోడ్"
-  },
   "chainBase": {
     "message": "బేస్ ప్రాక్సీ"
   },

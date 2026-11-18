@@ -9,9 +9,9 @@
 
 ---
 
-**1.2.70** · Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
+**1.2.71** · Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
 
-> [Windows 安装器](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.70/Proxy-V2Route-Setup-1.2.70-Windows-x64.exe) · [完整包与源码](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.70)。安装器包含本地组件与 Xray，目前未作代码签名。Chrome 版可从[应用商店](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm)安装；Firefox 扩展尚未签名，永久安装需 Mozilla 签名。
+> [Windows 安装器](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.71/Proxy-V2Route-Setup-1.2.71-Windows-x64.exe) · [完整包与源码](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.71)。安装器包含本地组件与 Xray，目前未作代码签名。Chrome 版可从[应用商店](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm)安装；Firefox 扩展尚未签名，永久安装需 Mozilla 签名。
 
 直连和系统代理可在情景列表中编辑，工具栏快捷按钮使用同一套规则。节点和手动代理的高级选项支持绕过地址与指定代理策略。规则优先匹配绕过地址，再按顺序选择第一个命中的策略，最后使用情景的默认线路。
 
@@ -26,14 +26,14 @@
 - **情景切换：**节点代理、手动 HTTP(S)/SOCKS 代理、自动规则与 PAC；可切换直连、系统代理或跟随 v2rayN。
 - **域名分流：**指定网站使用节点或已有情景；同一行可用逗号填写多个域名。
 - **节点与订阅：**导入、搜索、隐藏、命名分组与排序；可按需开启订阅定时更新。
-- **前置与链路：**基础、前置和链式代理分别记住配置；切换模式后保存当前线路，三种模式均可逐段检测延迟并停止检测。
+- **前置与链路：**基础、前置和链式代理分别记住配置；保存会记录所选模式，应用后新线路生效，三种模式均可逐段检测延迟并停止检测。
 - **网络检测：**节点测速、出口 IP、下载／上传、Ping、TCPing、MTR 与网站连通检测。
 - **界面与迁移：**55 个语言／地区选项、深浅主题；导出情景及所用节点与链路。新增界面译文为机器翻译初稿，尚未全部经过人工审校。
 
 ## 开始使用
 
 1. 运行安装器，或完整包中的 `V2Route-Setup.exe`，一次安装 Windows 本地组件与 Xray。节点线路与 MTR 需要该组件；无需另装 v2rayN 或 MTR 工具。
-2. Chrome：解压本地 Chrome 包，在 `chrome://extensions` 开启开发者模式并加载包含 `manifest.json` 的目录。Firefox：在 `about:debugging` 临时加载未签名 XPI 或 `firefox-extension/manifest.json`；重启后需重新加载。
+2. Chrome 从[应用商店](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm)安装。使用本地包时，按[安装说明](INSTALL.md#chrome)加载。Firefox：在 `about:debugging` 临时加载未签名 XPI 或 `firefox-extension/manifest.json`；重启后需重新加载。
 3. 导入自己的节点或订阅，创建情景并应用。v2rayN 仅是可选节点来源或“跟随”入口；本项目不提供代理服务器或订阅。
 
 [安装、升级与备份](INSTALL.md) · [从源码构建](SOURCES.md) · [当前源码 ZIP](https://github.com/VelumArc/ProxyV2Route/archive/refs/heads/main.zip)

@@ -1331,9 +1331,6 @@
   "chainTest": {
     "message": "ടെസ്റ്റ് ചെയിൻ"
   },
-  "chainMode": {
-    "message": "ചെയിൻ മോഡ്"
-  },
   "chainBase": {
     "message": "അടിസ്ഥാന പ്രോക്സി"
   },

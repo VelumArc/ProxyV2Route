@@ -1331,9 +1331,6 @@
   "chainTest": {
     "message": "Rantai uji"
   },
-  "chainMode": {
-    "message": "Mode rantai"
-  },
   "chainBase": {
     "message": "Proksi Dasar"
   },

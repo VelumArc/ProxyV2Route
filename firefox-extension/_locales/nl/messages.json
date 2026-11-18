@@ -1331,9 +1331,6 @@
   "chainTest": {
     "message": "Testketen"
   },
-  "chainMode": {
-    "message": "Ketenmodus"
-  },
   "chainBase": {
     "message": "Basisproxy"
   },

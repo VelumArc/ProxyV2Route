@@ -1331,9 +1331,6 @@
   "chainTest": {
     "message": "زنجیره آزمایش"
   },
-  "chainMode": {
-    "message": "حالت زنجیره ای"
-  },
   "chainBase": {
     "message": "پروکسی پایه"
   },

@@ -1331,9 +1331,6 @@
   "chainTest": {
     "message": "Tesztlánc"
   },
-  "chainMode": {
-    "message": "Lánc mód"
-  },
   "chainBase": {
     "message": "Alapproxy"
   },

@@ -1331,9 +1331,6 @@
   "chainTest": {
     "message": "ટેસ્ટ ચેઇન"
   },
-  "chainMode": {
-    "message": "સાંકળ મોડ"
-  },
   "chainBase": {
     "message": "બેઝ પ્રોક્સી"
   },

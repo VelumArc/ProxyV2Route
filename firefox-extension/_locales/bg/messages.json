@@ -1331,9 +1331,6 @@
   "chainTest": {
     "message": "Тестова верига"
   },
-  "chainMode": {
-    "message": "Верижен режим"
-  },
   "chainBase": {
     "message": "Базов прокси"
   },

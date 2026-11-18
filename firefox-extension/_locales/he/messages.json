@@ -1331,9 +1331,6 @@
   "chainTest": {
     "message": "שרשרת בדיקה"
   },
-  "chainMode": {
-    "message": "מצב שרשרת"
-  },
   "chainBase": {
     "message": "פרוקסי בסיס"
   },

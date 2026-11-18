@@ -1331,9 +1331,6 @@
   "chainTest": {
     "message": "Тестовая цепочка"
   },
-  "chainMode": {
-    "message": "Режим цепочки"
-  },
   "chainBase": {
     "message": "Базовый прокси"
   },

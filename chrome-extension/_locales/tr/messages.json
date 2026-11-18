@@ -1331,9 +1331,6 @@
   "chainTest": {
     "message": "Test zinciri"
   },
-  "chainMode": {
-    "message": "Zincir modu"
-  },
   "chainBase": {
     "message": "Temel Proxy"
   },

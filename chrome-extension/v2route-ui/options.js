@@ -52,9 +52,12 @@
     const generation=++stateRead,previous=data;
     let state;
     try{state=await V2R.readProfileState();}
-    catch(_){state={...data.state,currentProfilePending:true};}
+    catch(_){state={...data.state,currentProfileApplied:false};}
     if(previous!==data||generation!==stateRead)return;
     data.state=state;
+    if(state.availableProfiles){
+      data.options=Object.fromEntries(Object.entries(state.availableProfiles).map(([name,profile])=>['+'+name,{...profile}]));
+    }
     if(page==='profiles'){
       for(const row of document.querySelectorAll('.profile-item[data-profile]'))updateActiveBadge(row);
       activeEditor?.sync();
@@ -130,9 +133,25 @@
     appendProfileTransferActions($('header-actions'));$('header-actions').append(button('+ '+t('newProfile'),()=>showCreate(),'button primary'));
     const layout=el('div','profiles-layout'),list=el('section','profile-list'),editor=el('div','profile-editor');layout.append(list,editor);$('content').append(layout);
     const search=input();search.type='search';search.placeholder=t('searchProfiles');search.setAttribute('aria-label',t('searchProfiles'));list.append(search);const rows=el('div','profile-items');list.append(rows);
-    const custom=profiles(data.options),all=[...['direct','system'].map(name=>data.options['+'+name]).filter(Boolean),...custom];if(!selected||!all.some(p=>p.name===selected))selected=custom[0]?.name||all[0]?.name||null;
+    const listProfiles=()=>[...['direct','system'].map(name=>data.options['+'+name]).filter(Boolean),...profiles(data.options)];
+    const all=listProfiles();
+    if(!selected||!all.some(p=>p.name===selected))selected=all.find(p=>!p.builtin)?.name||all[0]?.name||null;
     const displayName=p=>p.builtin?t(p.name):p.name;
-    function draw(){rows.replaceChildren();for(const p of all.filter(p=>displayName(p).toLocaleLowerCase().includes(search.value.toLocaleLowerCase()))){const b=button('',()=>{if(busy)return;V2RFeedback.clear();creating=null;selected=p.name;draw();drawEditor(editor,p);},'profile-item'+(p.name===selected?' selected':''));b.dataset.profile=p.name;b.append(iconFor(p));const text=el('span','grow');text.append(el('strong','',displayName(p)));if(!p.builtin)text.append(el('small','muted',profileType(p)));b.append(text);updateActiveBadge(b);rows.append(b);}}
+    function draw(){
+      rows.replaceChildren();
+      for(const p of listProfiles().filter(p=>displayName(p).toLocaleLowerCase().includes(search.value.toLocaleLowerCase()))){
+        const b=button('',()=>{
+          if(busy)return;
+          const latest=data.options['+'+p.name];
+          if(!latest){draw();return;}
+          V2RFeedback.clear();creating=null;selected=p.name;draw();drawEditor(editor,latest);
+        },'profile-item'+(p.name===selected?' selected':''));
+        b.dataset.profile=p.name;b.append(iconFor(p));
+        const text=el('span','grow');text.append(el('strong','',displayName(p)));
+        if(!p.builtin)text.append(el('small','muted',profileType(p)));
+        b.append(text);updateActiveBadge(b);rows.append(b);
+      }
+    }
     search.oninput=draw;draw();if(creating){const pending=creating.snapshot;drawEditor(editor,creating.profile,true);if(pending)activeEditor?.restore(pending);}else if(selected)drawEditor(editor,all.find(p=>p.name===selected));else{const empty=card(t('noSelection'));empty.append(button('+ '+t('newProfile'),()=>showCreate(),'button primary'));editor.append(empty);}
   }
   function predecessorControl(host,initial,onChange,context={}){
@@ -194,7 +213,7 @@
       if(isNew&&creating)creating.snapshot=draftState();
       const incomplete=type==='node'&&Array.isArray(drafts.node.chain)&&(drafts.node.route==='follow'||drafts.node.chain.some(value=>!/^node:[A-Za-z0-9_-]{1,128}$/.test(value)));
       const saved=!isNew&&!dirty;
-      const applied=saved&&current()===p.name&&!data.state.currentProfilePending&&!data.state.proxyNotControllable&&!data.state.zeroRouteError&&data.state.availableProfiles?.[p.name]?.revision===p.revision;
+      const applied=saved&&current()===p.name&&data.state.currentProfileApplied&&data.state.availableProfiles?.[p.name]?.revision===p.revision;
       saveButton.disabled=saving||incomplete||saved;
       applyButton.disabled=saving||incomplete;
       saveButton.textContent=t(saving==='save'?'saving':isNew?'create':dirty?'save':'saved');

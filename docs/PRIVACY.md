@@ -38,9 +38,9 @@ Node-library tests contact Cloudflare through the selected node and inherited pr
 
 节点库测速通过所选节点及其继承前置链路访问 Cloudflare。完整测速每个方向使用所选 10/25/50/100 MiB，开始前显示分组总量；结果仅保存在当前工作区内存。所属本地会话关闭时回收临时认证核心和配置；不会把节点列表或代理账密作为测速内容发送。
 
-Subscription URLs and tokens are saved only in the private companion database. The extension stores only whether user-enabled updates exist and a shared browser alarm. Refresh contacts the subscription provider using the chosen policy; proxy-first attempts direct access only after the proxy attempt fails. The provider receives normal request information, including its subscription token and the network address used to reach it. Updates use the shared browser alarm.
+Subscription URLs and tokens are saved only in the private companion database. The extension records whether automatic updates are enabled and uses one shared browser alarm. Refresh contacts the subscription provider using the chosen policy; proxy-first attempts direct access only after the proxy attempt fails. The provider receives normal request information, including its subscription token and the network address used to reach it.
 
-订阅链接及令牌只保存于组件私有库；扩展只缓存是否启用自动更新并使用一个共享浏览器定时器。更新按所选策略请求订阅服务商，代理优先仅在代理失败后直连；服务商会接收其订阅令牌、请求信息和访问来源地址。更新使用共享浏览器定时器。
+订阅链接及令牌只保存于组件私有库；扩展只缓存是否启用自动更新并使用一个共享浏览器定时器。更新按所选策略请求订阅服务商，代理优先仅在代理失败后直连；服务商会接收其订阅令牌、请求信息和访问来源地址。
 
 Closing an IP tool unloads its frame and cancels local requests. Chrome uses the browsingData permission to clear HTTP cache and CacheStorage for that tool's exact allowed origin, then waits before reopening. This also affects cached resources from the same origin in other tabs, but does not clear other sites or cookies, passwords, localStorage, IndexedDB or Service Worker registrations. Third-party CDN caches are not included. Firefox cannot safely scope this cache API, so it unloads the tool and reports that cache deletion is unsupported.
 

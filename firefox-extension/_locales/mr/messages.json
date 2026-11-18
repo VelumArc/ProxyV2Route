@@ -1331,9 +1331,6 @@
   "chainTest": {
     "message": "चाचणी साखळी"
   },
-  "chainMode": {
-    "message": "साखळी मोड"
-  },
   "chainBase": {
     "message": "बेस प्रॉक्सी"
   },

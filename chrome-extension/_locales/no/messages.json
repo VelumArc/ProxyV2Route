@@ -1331,9 +1331,6 @@
   "chainTest": {
     "message": "Testkjede"
   },
-  "chainMode": {
-    "message": "Kjedemodus"
-  },
   "chainBase": {
     "message": "Base proxy"
   },

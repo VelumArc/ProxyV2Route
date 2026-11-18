@@ -1331,9 +1331,6 @@
   "chainTest": {
     "message": "Chuỗi thử nghiệm"
   },
-  "chainMode": {
-    "message": "Chế độ chuỗi"
-  },
   "chainBase": {
     "message": "Proxy cơ sở"
   },

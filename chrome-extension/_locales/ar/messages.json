@@ -1331,9 +1331,6 @@
   "chainTest": {
     "message": "سلسلة الاختبار"
   },
-  "chainMode": {
-    "message": "وضع السلسلة"
-  },
   "chainBase": {
     "message": "الوكيل الأساسي"
   },

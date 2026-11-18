@@ -1331,9 +1331,6 @@
   "chainTest": {
     "message": "Bandymo grandinė"
   },
-  "chainMode": {
-    "message": "Grandininis režimas"
-  },
   "chainBase": {
     "message": "Pagrindinis tarpinis serveris"
   },

@@ -1331,9 +1331,6 @@
   "chainTest": {
     "message": "Δοκιμαστική αλυσίδα"
   },
-  "chainMode": {
-    "message": "Λειτουργία αλυσίδας"
-  },
   "chainBase": {
     "message": "Διαμεσολαβητής βάσης"
   },

@@ -1331,9 +1331,6 @@
   "chainTest": {
     "message": "परीक्षण श्रृंखला"
   },
-  "chainMode": {
-    "message": "चेन मोड"
-  },
   "chainBase": {
     "message": "बेस प्रॉक्सी"
   },

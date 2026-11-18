@@ -1331,9 +1331,6 @@
   "chainTest": {
     "message": "ಟೆಸ್ಟ್ ಸರಣಿ"
   },
-  "chainMode": {
-    "message": "ಚೈನ್ ಮೋಡ್"
-  },
   "chainBase": {
     "message": "ಬೇಸ್ ಪ್ರಾಕ್ಸಿ"
   },

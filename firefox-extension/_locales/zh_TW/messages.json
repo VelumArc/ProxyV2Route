@@ -1331,9 +1331,6 @@
   "chainTest": {
     "message": "檢測鏈路"
   },
-  "chainMode": {
-    "message": "鏈路模式"
-  },
   "chainBase": {
     "message": "基礎代理"
   },

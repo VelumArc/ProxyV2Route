@@ -1331,9 +1331,6 @@
   "chainTest": {
     "message": "테스트체인"
   },
-  "chainMode": {
-    "message": "체인 모드"
-  },
   "chainBase": {
     "message": "기본 프록시"
   },

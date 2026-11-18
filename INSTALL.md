@@ -1,10 +1,10 @@
 # 安装与升级 / Installation
 
-**Proxy V2Route 1.2.70** · Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
+**Proxy V2Route 1.2.71** · Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
 
-[Windows 安装器](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.70/Proxy-V2Route-Setup-1.2.70-Windows-x64.exe) · [完整包与源码](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.70)。[从 Chrome 应用商店安装扩展](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm)；Firefox 扩展未签名，供提交审核。自行打包见[来源与构建](SOURCES.md)。
+[Windows 安装器](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.71/Proxy-V2Route-Setup-1.2.71-Windows-x64.exe) · [完整包与源码](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.71)。[从 Chrome 应用商店安装扩展](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm)；Firefox 提供未签名测试包。自行打包见[来源与构建](SOURCES.md)。
 
-[Windows installer](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.70/Proxy-V2Route-Setup-1.2.70-Windows-x64.exe) · [Complete package and source](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.70). [Install from the Chrome Web Store](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm); Firefox is unsigned and prepared for submission. To build packages, see [SOURCES.md](SOURCES.md).
+[Windows installer](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.71/Proxy-V2Route-Setup-1.2.71-Windows-x64.exe) · [Complete package and source](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.71). [Install from the Chrome Web Store](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm); Firefox is available as an unsigned test package. To build packages, see [SOURCES.md](SOURCES.md).
 
 ## 本地组件 / Windows companion
 
@@ -18,13 +18,17 @@ Run the matching setup in a permanent writable folder and click Install. Python 
 
 ### Chrome
 
-解压 `Proxy-V2Route-Chrome-1.2.70.zip`，在 `chrome://extensions` 开启开发者模式，点击“加载已解压的扩展程序”，选择含 `manifest.json` 的目录。完整安装包中对应 `chrome-extension`。
+从[Chrome 应用商店](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm)安装。以下步骤适用于本地扩展包。
+
+Install from the [Chrome Web Store](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm). Follow these steps to load a local package.
+
+解压 `Proxy-V2Route-Chrome-1.2.71.zip`，在 `chrome://extensions` 开启开发者模式，点击“加载已解压的扩展程序”，选择含 `manifest.json` 的目录。完整安装包中对应 `chrome-extension`。
 
 Extract the Chrome ZIP to a permanent folder. Enable Developer mode at `chrome://extensions`, choose **Load unpacked** and select the directory containing `manifest.json`.
 
 ### Firefox
 
-当前测试包未签名。进入 `about:debugging` →“此 Firefox”→“临时载入附加组件”，选择 `Proxy-V2Route-Firefox-1.2.70-unsigned.xpi` 或 `firefox-extension/manifest.json`。临时加载在浏览器重启后失效，永久安装需要 Mozilla 签名。
+当前测试包未签名。进入 `about:debugging` →“此 Firefox”→“临时载入附加组件”，选择 `Proxy-V2Route-Firefox-1.2.71-unsigned.xpi` 或 `firefox-extension/manifest.json`。临时加载在浏览器重启后失效，永久安装需要 Mozilla 签名。
 
 Load the unsigned test XPI through `about:debugging` → **This Firefox** → **Load Temporary Add-on**. Temporary loading lasts until Firefox restarts. Permanent installation requires Mozilla signing.
 
@@ -45,8 +49,8 @@ The extension preserves saved node IDs. A missing node remains unavailable inste
 ## 情景与线路 / Profiles
 
 - 在“情景模式”新建情景，或从“节点库”点击“创建情景”。Choose **New profile** or **Create profile** in Node Library.
-- 基础、前置和链式代理分别保存出口节点及相关配置。点击模式后，保存按钮会记录当前模式；其他模式的配置保留，再切回即可继续使用。要回到单一出口，点击“基础代理”。Basic, predecessor and chain modes retain separate exits and settings. Select a mode and Save to use it; other mode configurations remain available when switching back. Choose Basic proxy for exit-only routing.
-- 保存后点击“切换到此情景”，也可从工具栏切换。Save, then apply the profile from its editor or the toolbar.
+- 基础、前置和链式代理分别保存出口节点及相关配置。点击模式后，保存按钮会记录当前模式；其他模式的配置保留，再切回即可继续使用。要回到单一出口，点击“基础代理”。Basic, predecessor and chain modes retain separate exits and settings. Save the selected mode and apply the profile to switch routes. Other mode settings remain available when you switch back. Choose Basic proxy for exit-only routing.
+- 点击「应用情景」可保存并切换。仅保存的配置也可稍后从工具栏应用。Apply profile saves your edits and switches routes. You can also apply a saved profile from the toolbar.
 - “跟随 v2rayN”使用其正在运行的本地入口。Follow v2rayN uses its running local endpoint.
 - 三种模式的连接顺序卡片均可检测链路，显示每段状态和延迟。点击停止后等待当前有时限的探测结束，不会改动正在使用的线路。“跟随”尚未确定具体节点时无法逐段检测。All three modes offer per-path status, latency and Stop in the connection-order card. Stop waits for the current bounded probe; diagnostics do not change the applied route. Dynamic Follow routes cannot be probed without concrete nodes.
 
@@ -77,9 +81,9 @@ Profile exports include the selected nodes, credentials and predecessor paths, i
 - **“重新检测”会更新核心吗？** 不会。它检查本机组件及固定版本核心的存在和校验状态，不查询上游最新版本。“安装/修复”恢复固定核心；更新请安装新版配套包。
   **Does Check again update the core?** No. It checks the local companion and the presence/checksum status of the pinned core, without querying the latest upstream release. Install/repair restores that pinned core; use a newer complete package to update.
 
-导入代理并同时新建分组需要 1.2.70 或更新版配套组件。本版安装器已包含。
-Importing proxies into a newly created group requires companion 1.2.70 or later, included in this installer.
+导入代理时新建分组需要 1.2.65 或更新版配套组件。
+Importing proxies into a new group requires companion 1.2.65 or later.
 
-在情景列表中选择“直连网络”或“系统代理”可编辑快捷按钮的规则。直连只需填写指定代理策略。系统、节点与手动情景先检查绕过地址，再按从上到下的顺序使用第一条命中策略。以 `*.example.org` 匹配子域名，以 `192.0.2.10:8443` 仅匹配访问该 IP 和端口的请求。IP 规则不解析域名。带规则的系统代理在应用时读取 Windows 手动代理配置，系统使用 PAC 或自动发现时会提示无法应用。包含新版策略的备份需使用 1.2.70 或更高版本。
+在情景列表中选择“直连网络”或“系统代理”可编辑快捷按钮的规则。直连只需填写指定代理策略。系统、节点与手动情景先检查绕过地址，再按从上到下的顺序使用第一条命中策略。以 `*.example.org` 匹配子域名，以 `192.0.2.10:8443` 仅匹配访问该 IP 和端口的请求。IP 规则不解析域名。带规则的系统代理在应用时读取 Windows 手动代理配置，系统使用 PAC 或自动发现时会提示无法应用。包含这些策略的备份需使用 1.2.65 或更新版导入。
 
-Edit Direct and System in Profiles to configure their toolbar shortcuts. Bypasses take priority over ordered proxy policies. Unmatched requests use the profile default. Use a bare IP or specify a port to narrow the match. System policies use a snapshot of manual Windows proxy settings and cannot be applied over PAC or auto-discovery. Restore policy backups with version 1.2.70 or later.
+Edit Direct and System in Profiles to configure their toolbar shortcuts. Bypasses take priority over ordered proxy policies. Unmatched requests use the profile default. Use a bare IP or specify a port to narrow the match. System policies use a snapshot of manual Windows proxy settings and cannot be applied over PAC or auto-discovery. Restore backups containing these policies with version 1.2.65 or later.

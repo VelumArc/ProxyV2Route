@@ -1331,9 +1331,6 @@
   "chainTest": {
     "message": "Łańcuch testowy"
   },
-  "chainMode": {
-    "message": "Tryb łańcuchowy"
-  },
   "chainBase": {
     "message": "Bazowy serwer proxy"
   },

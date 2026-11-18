@@ -1331,9 +1331,6 @@
   "chainTest": {
     "message": "টেস্ট চেইন"
   },
-  "chainMode": {
-    "message": "চেইন মোড"
-  },
   "chainBase": {
     "message": "বেস প্রক্সি"
   },

@@ -1331,9 +1331,6 @@
   "chainTest": {
     "message": "Testni lanac"
   },
-  "chainMode": {
-    "message": "Lančani način rada"
-  },
   "chainBase": {
     "message": "Osnovni proxy"
   },

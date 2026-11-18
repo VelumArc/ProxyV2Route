@@ -1331,9 +1331,6 @@
   "chainTest": {
     "message": "Testkæde"
   },
-  "chainMode": {
-    "message": "Kædetilstand"
-  },
   "chainBase": {
     "message": "Basisproxy"
   },

@@ -460,10 +460,41 @@ function createController(api, firefox=false){
   let failed=false;for(const item of items)if(item?.added)try{await native('removeNode',{id:item.id});}catch(_){failed=true;}
   if(failed)throw error("MANUAL_PROXY_CLEANUP_FAILED",'Save failed; a temporary imported proxy remains in the node library','保存失败；临时导入的代理仍保留在节点库，请检查后手动移除');
  }
+ function browserProxyStatus(name,p,profiles,current){
+  const actual=current?.value||{},type=firefox?actual.proxyType:actual.mode;
+  if(nativeBuiltin(p)){
+   const expected=name==='direct'?(firefox?'none':'direct'):'system';
+   return type===expected?'READY':'NOT_APPLIED';
+  }
+  if(current?.levelOfControl!=='controlled_by_this_extension')return 'NOT_APPLIED';
+  if(appliedConfig){
+   const matches=firefox?type===appliedConfig.proxyType&&actual.autoConfigUrl===appliedConfig.autoConfigUrl&&actual.proxyDNS===appliedConfig.proxyDNS:
+    type===appliedConfig.mode&&actual.pacScript?.data===appliedConfig.pacScript?.data&&actual.pacScript?.mandatory===true;
+   return matches?'READY':'NOT_APPLIED';
+  }
+  if(firefox||needsSystem(name,profiles))return 'UNVERIFIED';
+  if(type!=='pac_script'||actual.pacScript?.mandatory!==true)return 'NOT_APPLIED';
+  const script=p.profileType==='PacProfile'?p.pacScript:pacFor(name,profiles);
+  return actual.pacScript.data===script?'READY':'NOT_APPLIED';
+ }
  async function state(keys){
   const live=effectiveRoute(),active=profile(live.name,live.profiles);
   const appliedIcon=model.appliedRoute&&active?Object.fromEntries(['name','profileType','_zeroRouteIcon','_zeroRouteCountry','_zeroRouteChoice'].filter(k=>Object.hasOwn(active,k)).map(k=>[k,active[k]])):null;
-  const s={appliedIcon,currentProfilePending:!!model.appliedRoute,availableProfiles:{...clone(builtins),...clone(model.profiles)},currentProfileName:model.currentProfileName,isSystemProfile:model.currentProfileName==='system',proxyNotControllable:false,zeroRouteError:model.zeroRouteError||'',zeroRouteErrorInfo:model.zeroRouteErrorInfo||null};try{const p=await call(api.proxy.settings,'get',{});s.proxyNotControllable=['not_controllable','controlled_by_other_extensions'].includes(p?.levelOfControl);}catch(e){s.zeroRouteError=e.message;s.zeroRouteErrorInfo=serializeError(e);}return keys?Object.fromEntries(keys.map(k=>[k,s[k]])):s;}
+  const s={
+   appliedIcon,currentProfilePending:!!model.appliedRoute,currentProfileApplied:false,
+   availableProfiles:{...clone(builtins),...clone(model.profiles)},
+   currentProfileName:model.currentProfileName,isSystemProfile:model.currentProfileName==='system',
+   proxyNotControllable:false,zeroRouteError:model.zeroRouteError||'',zeroRouteErrorInfo:model.zeroRouteErrorInfo||null
+  };
+  try{
+   const current=await call(api.proxy.settings,'get',{});
+   s.proxyNotControllable=['not_controllable','controlled_by_other_extensions'].includes(current?.levelOfControl);
+   if((!keys||keys.includes('currentProfileApplied'))&&active&&!s.currentProfilePending&&!s.proxyNotControllable&&!s.zeroRouteError){
+    s.currentProfileApplied=browserProxyStatus(live.name,active,live.profiles,current)==='READY';
+   }
+  }catch(e){s.zeroRouteError=e.message;s.zeroRouteErrorInfo=serializeError(e);}
+  return keys?Object.fromEntries(keys.map(k=>[k,s[k]])):s;
+ }
  // Read-only effective-setting inspection. It never starts/repairs the Companion
  // or sets a proxy. A separate popup-scoped network check verifies reachability.
  async function connectionState(incognito=false){
@@ -473,19 +504,10 @@ function createController(api, firefox=false){
   const current=await call(api.proxy.settings,'get',firefox?{}:{incognito:incognito===true});
   if(['not_controllable','controlled_by_other_extensions'].includes(current?.levelOfControl))return {...result,status:'error',code:'OVERRIDDEN'};
   if(model.zeroRouteError)return {...result,status:'error',code:'APPLY_FAILED'};
-  const actual=current?.value||{},type=firefox?actual.proxyType:actual.mode;
-  let matches=false;
-  if(nativeBuiltin(p))matches=type===(name==='direct'?(firefox?'none':'direct'):'system');
-  else if(current?.levelOfControl!=='controlled_by_this_extension')return {...result,status:'error',code:'NOT_APPLIED'};
-  else if(appliedConfig){
-   matches=firefox?type===appliedConfig.proxyType&&actual.autoConfigUrl===appliedConfig.autoConfigUrl&&actual.proxyDNS===appliedConfig.proxyDNS:
-    type===appliedConfig.mode&&actual.pacScript?.data===appliedConfig.pacScript?.data&&actual.pacScript?.mandatory===true;
-  }else if(!firefox&&!needsSystem(name,runtime.profiles)){
-   matches=type==='pac_script'&&actual.pacScript?.mandatory===true&&actual.pacScript?.data===(p.profileType==='PacProfile'?p.pacScript:pacFor(name,runtime.profiles));
-  }else return {...result,status:'unknown',code:'UNVERIFIED'};
-  if(!matches)return {...result,status:'error',code:'NOT_APPLIED'};
+  const code=browserProxyStatus(name,p,runtime.profiles,current);
+  if(code!=='READY')return {...result,status:code==='UNVERIFIED'?'unknown':'error',code};
   // Return only a fingerprint; PAC data can include private manual endpoints.
-  const bytes=new TextEncoder().encode(JSON.stringify([name,actual,runtime.profiles]));
+  const bytes=new TextEncoder().encode(JSON.stringify([name,current?.value||{},runtime.profiles]));
   const digest=await crypto.subtle.digest('SHA-256',bytes);
   return {...result,status:'ready',code:'READY',token:Array.from(new Uint8Array(digest),x=>x.toString(16).padStart(2,'0')).join('')};
  }

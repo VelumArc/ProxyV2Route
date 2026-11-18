@@ -9,9 +9,9 @@
 
 ---
 
-**1.2.70** · Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
+**1.2.71** · Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
 
-> [Windows 安裝程式](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.70/Proxy-V2Route-Setup-1.2.70-Windows-x64.exe) · [完整套件與原始碼](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.70)。安裝程式包含本機元件與 Xray，目前未經程式碼簽章。Chrome 版可從[線上應用程式商店](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm)安裝；Firefox 擴充套件尚未簽署，永久安裝需要 Mozilla 簽署。
+> [Windows 安裝程式](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.71/Proxy-V2Route-Setup-1.2.71-Windows-x64.exe) · [完整套件與原始碼](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.71)。安裝程式包含本機元件與 Xray，目前未經程式碼簽章。Chrome 版可從[線上應用程式商店](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm)安裝；Firefox 擴充套件尚未簽署，永久安裝需要 Mozilla 簽署。
 
 可在情境清單中編輯直連與系統代理，工具列捷徑會套用相同規則。節點與手動代理的進階選項支援略過位址及指定代理策略。先檢查略過位址，再依序套用第一條符合的策略，其餘使用情境的預設路線。
 
@@ -26,14 +26,14 @@
 - **情境切換：**節點代理、手動 HTTP(S)/SOCKS 代理、自動規則與 PAC；可切換直接連線、系統代理或跟隨 v2rayN。
 - **網域分流：**指定網站使用節點或既有情境；同一列可用逗號填寫多個網域。
 - **節點與訂閱：**匯入、搜尋、隱藏、命名群組與排序；可視需要開啟訂閱定時更新。
-- **前置與代理鏈：**基礎、前置和鏈式代理分別保留設定；切換模式後儲存目前路線，三種模式皆可逐段檢測延遲並停止檢測。
+- **前置與代理鏈：**基礎、前置和鏈式代理分別保留設定；儲存會記錄所選模式，套用後新路線生效，三種模式皆可逐段檢測延遲並停止檢測。
 - **網路檢測：**節點測速、出口 IP、下載／上傳、Ping、TCPing、MTR 與網站連線檢測。
 - **介面與移轉：**55 個語言／地區選項、明暗主題；匯出情境及所用節點與代理鏈。新增介面譯文為機器翻譯初稿，尚未全部經過人工校對。
 
 ## 開始使用
 
 1. 執行安裝程式或完整套件中的 `V2Route-Setup.exe`，一次安裝 Windows 本機元件與 Xray。節點路線與 MTR 需要此元件；不必另裝 v2rayN 或 MTR 工具。
-2. Chrome：解壓縮本機 Chrome 套件，在 `chrome://extensions` 開啟開發人員模式，載入包含 `manifest.json` 的目錄。Firefox：在 `about:debugging` 暫時載入未簽署的 XPI 或 `firefox-extension/manifest.json`；重新啟動後需再次載入。
+2. Chrome 可從[線上應用程式商店](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm)安裝。使用本機套件時，請依[安裝說明](INSTALL.md#chrome)載入。Firefox：在 `about:debugging` 暫時載入未簽署的 XPI 或 `firefox-extension/manifest.json`；重新啟動後需再次載入。
 3. 匯入自己的節點或訂閱，建立情境並套用。v2rayN 僅是選用的節點來源或「跟隨」入口；本專案不提供代理伺服器或訂閱。
 
 [安裝、升級與備份（簡中／英文）](INSTALL.md) · [原始碼建置](SOURCES.md) · [目前原始碼 ZIP](https://github.com/VelumArc/ProxyV2Route/archive/refs/heads/main.zip)

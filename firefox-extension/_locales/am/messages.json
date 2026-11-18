@@ -1331,9 +1331,6 @@
   "chainTest": {
     "message": "የሙከራ ሰንሰለት"
   },
-  "chainMode": {
-    "message": "ሰንሰለት ሁነታ"
-  },
   "chainBase": {
     "message": "ቤዝ ፕሮክሲ"
   },

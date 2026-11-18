@@ -1331,9 +1331,6 @@
   "chainTest": {
     "message": "Pārbaudes ķēde"
   },
-  "chainMode": {
-    "message": "Ķēdes režīms"
-  },
   "chainBase": {
     "message": "Bāzes starpniekserveris"
   },

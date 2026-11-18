@@ -18,7 +18,7 @@
     });
   }
   function readProfileState() {
-    return rpc('getState', [['availableProfiles', 'appliedIcon', 'currentProfileName', 'currentProfilePending', 'isSystemProfile', 'proxyNotControllable', 'zeroRouteError','zeroRouteErrorInfo']]);
+    return rpc('getState', [['availableProfiles', 'appliedIcon', 'currentProfileName', 'currentProfileApplied', 'isSystemProfile', 'proxyNotControllable', 'zeroRouteError','zeroRouteErrorInfo']]);
   }
   async function read() {
     const [options, state] = await Promise.all([rpc('getAll'), readProfileState()]);

@@ -1331,9 +1331,6 @@
   "chainTest": {
     "message": "Testna veriga"
   },
-  "chainMode": {
-    "message": "Verižni način"
-  },
   "chainBase": {
     "message": "Osnovni posrednik"
   },

@@ -1331,9 +1331,6 @@
   "chainTest": {
     "message": "சோதனை சங்கிலி"
   },
-  "chainMode": {
-    "message": "சங்கிலி முறை"
-  },
   "chainBase": {
     "message": "பேஸ் ப்ராக்ஸி"
   },

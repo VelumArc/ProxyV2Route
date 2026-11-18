@@ -1331,9 +1331,6 @@
   "chainTest": {
     "message": "Katsekett"
   },
-  "chainMode": {
-    "message": "Ahelrežiim"
-  },
   "chainBase": {
     "message": "Põhipuhverserver"
   },

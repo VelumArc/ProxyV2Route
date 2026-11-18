@@ -1331,9 +1331,6 @@
   "chainTest": {
     "message": "Testkedja"
   },
-  "chainMode": {
-    "message": "Kedjeläge"
-  },
   "chainBase": {
     "message": "Basproxy"
   },

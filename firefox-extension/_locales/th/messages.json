@@ -1331,9 +1331,6 @@
   "chainTest": {
     "message": "โซ่ทดสอบ"
   },
-  "chainMode": {
-    "message": "โหมดลูกโซ่"
-  },
   "chainBase": {
     "message": "พร็อกซีฐาน"
   },

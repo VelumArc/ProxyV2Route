@@ -1331,9 +1331,6 @@
   "chainTest": {
     "message": "Lanț de testare"
   },
-  "chainMode": {
-    "message": "Modul în lanț"
-  },
   "chainBase": {
     "message": "Proxy de bază"
   },
