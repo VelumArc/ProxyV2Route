@@ -9,13 +9,13 @@
 
 ---
 
-**1.2.66** · Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
+**1.2.67** · Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
 
-> [Windows-Installer](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.66/Proxy-V2Route-Setup-1.2.66-Windows-x64.exe) · [Komplettpaket und Quellcode](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.66). Der Installer enthält die lokale Begleitkomponente und Xray und ist derzeit nicht codesigniert. Die Chrome-Erweiterung ist im [Chrome Web Store](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm) erhältlich. Die Firefox-Erweiterung ist noch nicht signiert; eine dauerhafte Installation erfordert die Signatur von Mozilla.
+> [Windows-Installer](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.67/Proxy-V2Route-Setup-1.2.67-Windows-x64.exe) · [Komplettpaket und Quellcode](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.67). Der Installer enthält die lokale Begleitkomponente und Xray und ist derzeit nicht codesigniert. Die Chrome-Erweiterung ist im [Chrome Web Store](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm) erhältlich. Die Firefox-Erweiterung ist noch nicht signiert; eine dauerhafte Installation erfordert die Signatur von Mozilla.
 
 Direktverbindung und Systemproxy lassen sich in der Profilliste bearbeiten. Die Schaltflächen in der Symbolleiste verwenden dieselben Regeln. Bei Knoten- und manuellen Profilen haben Ausnahmen Vorrang. Danach gilt die erste passende Proxyregel, sonst die Standardroute.
 
-Speichern übernimmt Änderungen in das Profil. Der Browser verwendet die bisherige Route weiter. „Profil anwenden“ speichert die Änderungen und schaltet Browser und Symbolleiste auf das Profil um.
+Unten sichert „Speichern“ die Änderungen. „Profil anwenden“ speichert sie und wechselt sofort zur neuen Route. Eigene Profile können Sie oben rechts löschen.
 
 [![Profilansicht von Proxy V2Route](docs/assets/workspace-en.png)](docs/assets/workspace-en.png)
 

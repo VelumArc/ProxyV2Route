@@ -2148,6 +2148,9 @@
     "message": "Baixa la regla"
   },
   "systemV2rayNote": {
-    "message": "S’ha detectat v2rayN en aquest dispositiu. Si el Windows utilitza v2rayN com a servidor intermediari del sistema, les seves regles només s’apliquen a les sol·licituds que hi envia el navegador. Deixeu les dues llistes buides per seguir v2rayN per a totes les destinacions."
+    "message": "Exclusions → primera regla coincident → servidor intermediari del sistema. Deixeu les dues llistes buides per seguir v2rayN quan el Windows l’utilitzi."
+  },
+  "deleteProfileAction": {
+    "message": "Suprimeix el perfil"
   }
 }

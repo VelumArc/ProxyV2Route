@@ -2148,6 +2148,9 @@
     "message": "Kuralı aşağı taşı"
   },
   "systemV2rayNote": {
-    "message": "Bu cihazda v2rayN algılandı. Windows sistem proxy’si olarak v2rayN kullanıyorsa v2rayN kuralları yalnızca tarayıcının ona gönderdiği istekler için geçerlidir. Tüm hedeflerde v2rayN’i izlemek için her iki listeyi de boş bırakın."
+    "message": "İstisnalar → eşleşen ilk kural → sistem proxy’si. Windows v2rayN kullanıyorsa onun kurallarını izlemek için iki listeyi de boş bırakın."
+  },
+  "deleteProfileAction": {
+    "message": "Profili sil"
   }
 }

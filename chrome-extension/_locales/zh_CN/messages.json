@@ -2148,6 +2148,9 @@
     "message": "下移策略"
   },
   "systemV2rayNote": {
-    "message": "已检测到本地 v2rayN。当 Windows 系统代理指向 v2rayN 时，只有交给它的请求才按它的路由规则分流。要完全跟随 v2rayN，请将两栏留空。"
+    "message": "不代理的地址 → 首条匹配策略 → 系统代理。Windows 使用 v2rayN 时，两栏留空即可跟随它。"
+  },
+  "deleteProfileAction": {
+    "message": "删除情景"
   }
 }

@@ -2148,6 +2148,9 @@
     "message": "Perkelti taisyklę žemyn"
   },
   "systemV2rayNote": {
-    "message": "Šiame įrenginyje aptikta v2rayN. Jei „Windows“ naudoja v2rayN kaip sistemos tarpinį serverį, jo taisyklės taikomos tik užklausoms, kurias jam perduoda naršyklė. Norėdami naudoti v2rayN visiems adresams, palikite abu sąrašus tuščius."
+    "message": "Išimtys → pirmoji atitinkanti taisyklė → sistemos tarpinis serveris. Jei „Windows“ naudoja v2rayN, palikite abu sąrašus tuščius, kad būtų taikomos jo taisyklės."
+  },
+  "deleteProfileAction": {
+    "message": "Ištrinti profilį"
   }
 }

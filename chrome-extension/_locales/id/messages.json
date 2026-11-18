@@ -2148,6 +2148,9 @@
     "message": "Pindahkan aturan ke bawah"
   },
   "systemV2rayNote": {
-    "message": "v2rayN terdeteksi di perangkat ini. Jika Windows menggunakan v2rayN sebagai proksi sistem, aturan v2rayN hanya berlaku untuk permintaan yang dikirim browser kepadanya. Kosongkan kedua daftar untuk mengikuti v2rayN bagi semua tujuan."
+    "message": "Pengecualian → aturan pertama yang cocok → proksi sistem. Jika Windows memakai v2rayN, kosongkan kedua daftar untuk mengikuti aturannya."
+  },
+  "deleteProfileAction": {
+    "message": "Hapus profil"
   }
 }

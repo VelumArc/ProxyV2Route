@@ -1,6 +1,6 @@
 # 运行环境 / Runtime requirements
 
-Proxy V2Route 1.2.66
+Proxy V2Route 1.2.67
 
 | 项目 / Component | 要求 / Requirement |
 | --- | --- |
@@ -21,4 +21,4 @@ Imported nodes run through the bundled core. Follow v2rayN requires its running 
 
 权限与数据处理见[权限说明](PERMISSIONS.md)和[隐私说明](PRIVACY.md)。See [permissions](PERMISSIONS.md) and [privacy](PRIVACY.md) for access and data handling details.
 
-Save stores the edited profile while the current route stays in effect. Apply profile saves and activates it in the browser and toolbar. The System editor explains routing order when the companion detects a local v2rayN installation.
+Save keeps edits for later. Apply profile saves and switches immediately. Both actions are in the footer. Delete profile is in the header of custom profiles. When local v2rayN is detected, the System profile shows routing order under Advanced options.

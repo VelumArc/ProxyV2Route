@@ -2148,6 +2148,9 @@
     "message": "Siirrä sääntö alas"
   },
   "systemV2rayNote": {
-    "message": "Laitteesta löytyi v2rayN. Jos Windows käyttää v2rayN:ää järjestelmän välityspalvelimena, sen säännöt koskevat vain selaimen sille lähettämiä pyyntöjä. Jätä molemmat luettelot tyhjiksi, jos haluat käyttää v2rayN:n sääntöjä kaikille kohteille."
+    "message": "Poikkeukset → ensimmäinen sopiva sääntö → järjestelmän välityspalvelin. Jos Windows käyttää v2rayN:ää, noudata sen sääntöjä jättämällä molemmat luettelot tyhjiksi."
+  },
+  "deleteProfileAction": {
+    "message": "Poista profiili"
   }
 }

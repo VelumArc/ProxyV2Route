@@ -2148,6 +2148,9 @@
     "message": "下移策略"
   },
   "systemV2rayNote": {
-    "message": "已偵測到本機的 v2rayN。當 Windows 系統代理指向 v2rayN 時，只有送往它的請求才會依照它的路由規則分流。若要完全沿用 v2rayN，請將兩個欄位留白。"
+    "message": "略過代理的位址 → 第一條符合的規則 → 系統代理。Windows 使用 v2rayN 時，兩欄留白即可沿用其規則。"
+  },
+  "deleteProfileAction": {
+    "message": "刪除情境"
   }
 }

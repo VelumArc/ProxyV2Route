@@ -2148,6 +2148,9 @@
     "message": "Regel nach unten"
   },
   "systemV2rayNote": {
-    "message": "v2rayN wurde auf diesem Gerät erkannt. Wenn Windows v2rayN als Systemproxy nutzt, greifen dessen Regeln nur für Anfragen, die der Browser an v2rayN sendet. Lassen Sie beide Listen leer, um für alle Ziele v2rayN zu folgen."
+    "message": "Ausnahmen → erste passende Regel → Systemproxy. Verwendet Windows v2rayN, folgen Sie dessen Regeln, indem Sie beide Listen leer lassen."
+  },
+  "deleteProfileAction": {
+    "message": "Profil löschen"
   }
 }

@@ -2148,6 +2148,9 @@
     "message": "Bajar política"
   },
   "systemV2rayNote": {
-    "message": "Se ha detectado v2rayN en este equipo. Si Windows usa v2rayN como proxy del sistema, v2rayN solo aplica sus reglas a las solicitudes que recibe del navegador. Deja ambas listas vacías para seguir v2rayN en todos los destinos."
+    "message": "Excepciones → primera regla coincidente → proxy del sistema. Si Windows usa v2rayN, deja ambas listas vacías para seguir sus reglas."
+  },
+  "deleteProfileAction": {
+    "message": "Eliminar perfil"
   }
 }

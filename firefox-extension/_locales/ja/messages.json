@@ -2148,6 +2148,9 @@
     "message": "ルールを下へ"
   },
   "systemV2rayNote": {
-    "message": "この端末で v2rayN が見つかりました。Windows のシステムプロキシが v2rayN の場合、v2rayN はブラウザーから渡された通信だけを振り分けます。すべての宛先で v2rayN に従うには、両方のリストを空にしてください。"
+    "message": "除外アドレス → 最初に一致したルール → システムプロキシの順に適用します。Windows で v2rayN を使う場合、両方を空にするとそのルールに従います。"
+  },
+  "deleteProfileAction": {
+    "message": "プロファイルを削除"
   }
 }

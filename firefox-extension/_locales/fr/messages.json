@@ -2148,6 +2148,9 @@
     "message": "Descendre la règle"
   },
   "systemV2rayNote": {
-    "message": "v2rayN a été détecté sur cet appareil. Si Windows utilise v2rayN comme proxy système, ses règles s’appliquent uniquement aux requêtes que le navigateur lui transmet. Laissez les deux listes vides pour suivre v2rayN pour toutes les destinations."
+    "message": "Exceptions → première règle correspondante → proxy système. Si Windows utilise v2rayN, laissez les deux listes vides pour suivre ses règles."
+  },
+  "deleteProfileAction": {
+    "message": "Supprimer le profil"
   }
 }

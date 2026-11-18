@@ -2148,6 +2148,9 @@
     "message": "Pārvietot noteikumu lejup"
   },
   "systemV2rayNote": {
-    "message": "Šajā ierīcē ir atrasts v2rayN. Ja Windows izmanto v2rayN kā sistēmas starpniekserveri, tā kārtulas attiecas tikai uz pieprasījumiem, kurus tam nosūta pārlūks. Lai visiem adresātiem izmantotu v2rayN, atstājiet abus sarakstus tukšus."
+    "message": "Izņēmumi → pirmais atbilstošais noteikums → sistēmas starpniekserveris. Ja Windows izmanto v2rayN, atstājiet abus sarakstus tukšus, lai ievērotu tā noteikumus."
+  },
+  "deleteProfileAction": {
+    "message": "Dzēst profilu"
   }
 }

@@ -2148,6 +2148,9 @@
     "message": "Posunúť pravidlo nadol"
   },
   "systemV2rayNote": {
-    "message": "Na tomto zariadení sa našiel v2rayN. Ak ho Windows používa ako systémový proxy server, jeho pravidlá platia iba pre požiadavky, ktoré mu prehliadač pošle. Ak chcete používať v2rayN pre všetky ciele, nechajte oba zoznamy prázdne."
+    "message": "Výnimky → prvé zodpovedajúce pravidlo → systémový proxy server. Ak Windows používa v2rayN, nechajte oba zoznamy prázdne, aby sa použili jeho pravidlá."
+  },
+  "deleteProfileAction": {
+    "message": "Odstrániť profil"
   }
 }

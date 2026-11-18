@@ -2148,6 +2148,9 @@
     "message": "Pomakni pravilo dolje"
   },
   "systemV2rayNote": {
-    "message": "Na uređaju je pronađen v2rayN. Ako Windows koristi v2rayN kao sistemski proxy, njegova pravila vrijede samo za zahtjeve koje mu preglednik pošalje. Ostavite oba popisa prazna da biste za sva odredišta slijedili v2rayN."
+    "message": "Iznimke → prvo odgovarajuće pravilo → proxy sustava. Ako Windows koristi v2rayN, ostavite oba popisa prazna kako bi se primijenila njegova pravila."
+  },
+  "deleteProfileAction": {
+    "message": "Izbriši profil"
   }
 }

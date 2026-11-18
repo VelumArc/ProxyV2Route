@@ -2148,6 +2148,9 @@
     "message": "Move policy down"
   },
   "systemV2rayNote": {
-    "message": "Local v2rayN detected. If Windows uses v2rayN as its system proxy, v2rayN routes only the requests the browser sends to it. Leave both lists empty to follow v2rayN for all destinations."
+    "message": "Bypass → first matching rule → system proxy. Leave both lists empty to follow v2rayN when Windows uses it."
+  },
+  "deleteProfileAction": {
+    "message": "Delete profile"
   }
 }

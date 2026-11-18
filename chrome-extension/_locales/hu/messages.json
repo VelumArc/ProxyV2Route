@@ -2148,6 +2148,9 @@
     "message": "Szabály lejjebb"
   },
   "systemV2rayNote": {
-    "message": "A v2rayN megtalálható ezen az eszközön. Ha a Windows a v2rayN-t használja rendszerproxyként, a szabályai csak a böngésző által hozzá küldött kérésekre vonatkoznak. Ha minden célhoz a v2rayN szabályait szeretné használni, hagyja mindkét listát üresen."
+    "message": "Kivételek → első egyező szabály → rendszerszintű proxy. Ha a Windows v2rayN-t használ, hagyja üresen mindkét listát a szabályai követéséhez."
+  },
+  "deleteProfileAction": {
+    "message": "Profil törlése"
   }
 }

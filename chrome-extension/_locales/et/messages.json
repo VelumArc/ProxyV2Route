@@ -2148,6 +2148,9 @@
     "message": "Liiguta reegel alla"
   },
   "systemV2rayNote": {
-    "message": "Seadmes tuvastati v2rayN. Kui Windows kasutab süsteemi puhverserverina v2rayN-i, kehtivad selle reeglid ainult päringutele, mille brauser sinna saadab. Kõigi sihtkohtade puhul v2rayN-i järgimiseks jäta mõlemad loendid tühjaks."
+    "message": "Erandid → esimene sobiv reegel → süsteemi puhverserver. Kui Windows kasutab v2rayN-i, jäta selle reeglite järgimiseks mõlemad loendid tühjaks."
+  },
+  "deleteProfileAction": {
+    "message": "Kustuta profiil"
   }
 }

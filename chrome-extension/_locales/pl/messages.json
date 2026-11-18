@@ -2148,6 +2148,9 @@
     "message": "Przenieś regułę w dół"
   },
   "systemV2rayNote": {
-    "message": "Na tym urządzeniu wykryto v2rayN. Jeśli system Windows używa v2rayN jako serwera proxy, jego reguły dotyczą tylko żądań przekazanych mu przez przeglądarkę. Aby używać reguł v2rayN dla wszystkich adresów, pozostaw obie listy puste."
+    "message": "Wyjątki → pierwsza pasująca reguła → systemowy serwer proxy. Jeśli Windows używa v2rayN, pozostaw obie listy puste, aby stosować jego reguły."
+  },
+  "deleteProfileAction": {
+    "message": "Usuń profil"
   }
 }

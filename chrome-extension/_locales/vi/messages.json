@@ -2148,6 +2148,9 @@
     "message": "Chuyển quy tắc xuống"
   },
   "systemV2rayNote": {
-    "message": "Đã phát hiện v2rayN trên thiết bị này. Nếu Windows dùng v2rayN làm proxy hệ thống, quy tắc của v2rayN chỉ áp dụng cho các yêu cầu mà trình duyệt gửi đến nó. Để trống cả hai danh sách để dùng v2rayN cho mọi đích."
+    "message": "Ngoại lệ → quy tắc khớp đầu tiên → proxy hệ thống. Nếu Windows dùng v2rayN, hãy để trống cả hai danh sách để dùng quy tắc của v2rayN."
+  },
+  "deleteProfileAction": {
+    "message": "Xóa hồ sơ"
   }
 }

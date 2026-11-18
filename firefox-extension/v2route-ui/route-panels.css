@@ -287,8 +287,9 @@ main { padding-top: 16px; }
 }
 @media(forced-colors:active){.routing-policies .policy-heading,.policy-default-note{color:CanvasText}.policy-rule-actions .icon-button:disabled{color:GrayText;opacity:1}}
 
-.system-v2ray-note{display:flex;align-items:flex-start;gap:10px;margin:0 0 16px;padding:0 2px;color:#a52b40;font-size:14px;line-height:1.6}
+.system-v2ray-note{display:flex;align-items:flex-start;gap:8px;margin:0;padding:0;color:#a52b40;font-size:14px;line-height:1.6}
 .system-v2ray-note .ui-icon{flex:none;margin-top:3px}
 [data-theme="dark"] .system-v2ray-note{color:#ffacb6}
 @media(forced-colors:active){.system-v2ray-note{color:CanvasText}}
 .profile-editor .editor-actions{flex-wrap:wrap}
+.profile-editor .editor-actions .button.primary:disabled{opacity:1;box-shadow:none;cursor:default}

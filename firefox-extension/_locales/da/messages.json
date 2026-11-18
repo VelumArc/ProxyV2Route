@@ -2148,6 +2148,9 @@
     "message": "Flyt regel ned"
   },
   "systemV2rayNote": {
-    "message": "v2rayN blev fundet på denne enhed. Hvis Windows bruger v2rayN som systemproxy, gælder reglerne i v2rayN kun for de anmodninger, som browseren sender til den. Lad begge lister være tomme for at følge v2rayN for alle destinationer."
+    "message": "Undtagelser → første matchende regel → systemproxy. Lad begge lister være tomme for at følge v2rayN, når Windows bruger det."
+  },
+  "deleteProfileAction": {
+    "message": "Slet profil"
   }
 }

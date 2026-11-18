@@ -9,13 +9,13 @@
 
 ---
 
-**1.2.66** · Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
+**1.2.67** · Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
 
-> [Windows インストーラー](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.66/Proxy-V2Route-Setup-1.2.66-Windows-x64.exe) · [完全パッケージとソースコード](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.66)。インストーラーにはローカル連携コンポーネントと Xray が含まれます。現在、コード署名はありません。Chrome 版は [Chrome ウェブストア](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm) からインストールできます。Firefox 版は未署名で、常用には Mozilla による署名が必要です。
+> [Windows インストーラー](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.67/Proxy-V2Route-Setup-1.2.67-Windows-x64.exe) · [完全パッケージとソースコード](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.67)。インストーラーにはローカル連携コンポーネントと Xray が含まれます。現在、コード署名はありません。Chrome 版は [Chrome ウェブストア](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm) からインストールできます。Firefox 版は未署名で、常用には Mozilla による署名が必要です。
 
 直接接続とシステムプロキシはプロファイル一覧で編集でき、ツールバーからも同じルールが適用されます。ノードと手動プロキシの詳細設定では、除外先を優先し、次に最初に一致したプロキシルールを使います。どちらにも一致しない場合は既定の経路を使います。
 
-「保存」は変更内容を記録し、ブラウザーは現在の経路を使い続けます。「プロファイルを適用」は変更を保存して経路を切り替え、ツールバーにも反映します。
+下部の「保存」は変更を記録し、「プロファイルを適用」は保存と切り替えを同時に行います。自分で作成したプロファイルは右上から削除できます。
 
 [![Proxy V2Route のプロファイル画面](docs/assets/workspace-en.png)](docs/assets/workspace-en.png)
 

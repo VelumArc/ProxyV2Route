@@ -9,13 +9,13 @@
 
 ---
 
-**1.2.66** · Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
+**1.2.67** · Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
 
-> [Windows installer](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.66/Proxy-V2Route-Setup-1.2.66-Windows-x64.exe) · [Complete package and source](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.66). The installer includes the local companion and Xray and is currently unsigned. Install the Chrome extension from the [Chrome Web Store](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm); the Firefox add-on is unsigned and requires Mozilla signing for permanent installation.
+> [Windows installer](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.67/Proxy-V2Route-Setup-1.2.67-Windows-x64.exe) · [Complete package and source](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.67). The installer includes the local companion and Xray and is currently unsigned. Install the Chrome extension from the [Chrome Web Store](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm); the Firefox add-on is unsigned and requires Mozilla signing for permanent installation.
 
 Edit Direct and System in Profiles. Their toolbar shortcuts apply the same rules. For node and manual profiles, Advanced options checks bypass addresses first, then applies the first matching proxy policy. Remaining requests use the profile’s default route.
 
-Save stores edits while the browser keeps its current route. Apply profile saves and switches the browser and toolbar to that profile.
+In the footer, Save keeps your edits for later. Apply profile saves them and switches immediately. You can delete a custom profile from its top-right corner.
 
 [![Proxy V2Route profiles workspace](docs/assets/workspace-en.png)](docs/assets/workspace-en.png)
 

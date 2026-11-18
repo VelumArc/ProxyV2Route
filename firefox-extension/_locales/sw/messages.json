@@ -2148,6 +2148,9 @@
     "message": "Sogeza sheria chini"
   },
   "systemV2rayNote": {
-    "message": "v2rayN imepatikana kwenye kifaa hiki. Ikiwa Windows inatumia v2rayN kama proksi ya mfumo, kanuni zake hutumika tu kwa maombi ambayo kivinjari kinaitumia. Acha orodha zote mbili tupu ili kufuata v2rayN kwa maeneo yote lengwa."
+    "message": "Anwani za kupita moja kwa moja → kanuni ya kwanza inayolingana → proksi ya mfumo. Windows ikitumia v2rayN, acha orodha zote mbili tupu ili kufuata kanuni zake."
+  },
+  "deleteProfileAction": {
+    "message": "Futa wasifu"
   }
 }

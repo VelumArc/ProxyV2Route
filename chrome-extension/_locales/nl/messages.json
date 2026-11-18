@@ -2148,6 +2148,9 @@
     "message": "Regel omlaag"
   },
   "systemV2rayNote": {
-    "message": "v2rayN is op dit apparaat gevonden. Als Windows v2rayN als systeemproxy gebruikt, gelden de regels van v2rayN alleen voor verzoeken die de browser ernaartoe stuurt. Laat beide lijsten leeg om v2rayN voor alle bestemmingen te volgen."
+    "message": "Uitzonderingen → eerste overeenkomende regel → systeemproxy. Als Windows v2rayN gebruikt, laat je beide lijsten leeg om de regels ervan te volgen."
+  },
+  "deleteProfileAction": {
+    "message": "Profiel verwijderen"
   }
 }

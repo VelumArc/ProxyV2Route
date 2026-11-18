@@ -15,7 +15,7 @@
   function area(value='',rows=4){const n=el('textarea');n.value=value;n.rows=rows;n.spellcheck=false;return n;}
   function card(title,subtitle){const n=el('section','card');if(title)n.append(el('h2','',title));if(subtitle)n.append(el('p','muted',subtitle));return n;}
   function uiIcon(kind){
-    const paths={copy:['M8 8h12v13H8V8Z','M16 8V3H3v13h5'],program:['M3 4h18v16H3V4Z','M3 9h18M7 6.5h.2M10 6.5h.2M8 13l-2 2 2 2M12 17h5'],route:['M6 5h8a4 4 0 0 1 0 8H9a3 3 0 0 0 0 6h9','M8 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0','M22 19a3 3 0 1 1-6 0 3 3 0 0 1 6 0'],nodes:['m12 3 10 5-10 5L2 8l10-5Z','m3 12 9 5 9-5M3 16l9 5 9-5'],settings:['M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8Z','m9.5 3 .5-1h4l.5 3 2 .9 2.8-1 2 3.4-2.2 2.1v2.3l2.2 2.1-2 3.4-2.8-1-2 .9-.5 3h-4l-.5-3-2-.9-2.8 1-2-3.4L4.4 13v-2.3L2.2 8.6l2-3.4 2.8 1 2-.9.5-2.3Z'],info:['M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18Z','M12 11v6M12 7v.2'],core:['m12 2 9 5v10l-9 5-9-5V7l9-5Z','m3 7 9 5 9-5M12 12v10'],backup:['M12 16V3m-4 4 4-4 4 4','M4 12v8h16v-8'],refresh:['M20 7v5h-5','M4 17v-5h5','M6 7a7 7 0 0 1 11-2l3 7M4 12l3 7a7 7 0 0 0 11-2'],add:['M12 5v14M5 12h14'],create:['M7 3h10a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Z','M12 8v8M8 12h8'],hide:['m3 3 18 18','M10 10a3 3 0 0 0 4 4','M9 5a11 11 0 0 1 13 7 14 14 0 0 1-4 5M6 6a14 14 0 0 0-4 6 11 11 0 0 0 12 7'],show:['M2 12s3-7 10-7 10 7 10 7-3 7-10 7S2 12 2 12Z','M12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z'],folder:['M3 6h6l2 2h10v12H3V6Z'],save:['M5 3h12l4 4v14H3V3h2Z','M7 3v6h10V3M7 21v-8h10v8'],profiles:['M3 3h7v7H3V3ZM14 3h7v7h-7V3ZM3 14h7v7H3v-7ZM14 14h7v7h-7v-7Z'],'ip-tools':['M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18Z','M3 12h18M12 3a18 18 0 0 1 0 18 18 18 0 0 1 0-18Z']};
+    const paths={copy:['M8 8h12v13H8V8Z','M16 8V3H3v13h5'],program:['M3 4h18v16H3V4Z','M3 9h18M7 6.5h.2M10 6.5h.2M8 13l-2 2 2 2M12 17h5'],route:['M6 5h8a4 4 0 0 1 0 8H9a3 3 0 0 0 0 6h9','M8 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0','M22 19a3 3 0 1 1-6 0 3 3 0 0 1 6 0'],nodes:['m12 3 10 5-10 5L2 8l10-5Z','m3 12 9 5 9-5M3 16l9 5 9-5'],settings:['M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8Z','m9.5 3 .5-1h4l.5 3 2 .9 2.8-1 2 3.4-2.2 2.1v2.3l2.2 2.1-2 3.4-2.8-1-2 .9-.5 3h-4l-.5-3-2-.9-2.8 1-2-3.4L4.4 13v-2.3L2.2 8.6l2-3.4 2.8 1 2-.9.5-2.3Z'],trash:['M3 6h18M9 6V3h6v3M5 6l1 15h12l1-15M10 10v7M14 10v7'],info:['M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18Z','M12 11v6M12 7v.2'],core:['m12 2 9 5v10l-9 5-9-5V7l9-5Z','m3 7 9 5 9-5M12 12v10'],backup:['M12 16V3m-4 4 4-4 4 4','M4 12v8h16v-8'],refresh:['M20 7v5h-5','M4 17v-5h5','M6 7a7 7 0 0 1 11-2l3 7M4 12l3 7a7 7 0 0 0 11-2'],add:['M12 5v14M5 12h14'],create:['M7 3h10a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Z','M12 8v8M8 12h8'],hide:['m3 3 18 18','M10 10a3 3 0 0 0 4 4','M9 5a11 11 0 0 1 13 7 14 14 0 0 1-4 5M6 6a14 14 0 0 0-4 6 11 11 0 0 0 12 7'],show:['M2 12s3-7 10-7 10 7 10 7-3 7-10 7S2 12 2 12Z','M12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z'],folder:['M3 6h6l2 2h10v12H3V6Z'],save:['M5 3h12l4 4v14H3V3h2Z','M7 3v6h10V3M7 21v-8h10v8'],profiles:['M3 3h7v7H3V3ZM14 3h7v7h-7V3ZM3 14h7v7H3v-7ZM14 14h7v7h-7v-7Z'],'ip-tools':['M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18Z','M3 12h18M12 3a18 18 0 0 1 0 18 18 18 0 0 1 0-18Z']};
     const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.classList.add('ui-icon');svg.setAttribute('viewBox','0 0 24 24');svg.setAttribute('aria-hidden','true');svg.setAttribute('focusable','false');svg.setAttribute('fill','none');svg.setAttribute('stroke','currentColor');svg.setAttribute('stroke-width','1.8');svg.setAttribute('stroke-linecap','round');svg.setAttribute('stroke-linejoin','round');for(const d of paths[kind]||paths.info){const path=document.createElementNS(svg.namespaceURI,'path');path.setAttribute('d',d);svg.append(path);}return svg;
   }
   function panelHeading(title,kind,subtitle){const head=el('div','editor-panel-header'),name=el('div','editor-panel-title'),icon=el('span','panel-icon');icon.append(uiIcon(kind));name.append(icon,el('h3','',title));head.append(name);if(subtitle)head.append(el('p','panel-intro',subtitle));return head;}
@@ -157,7 +157,11 @@
       const proxy=p.fallbackProxy,port=Number(proxy?.port);
       return !isNew&&p._zeroRouteSlot&&['127.0.0.1','localhost','::1'].includes(proxy?.host)&&Number.isInteger(port)&&port>0&&port<=65535?port:null;
     }
-    const typeField=field(t('type'),typeSelect);typeField.classList.add('heading-mode');heading.append(title,typeField,isNew?button(t('cancel'),()=>{creating=null;render();},'button subtle'):mark(button(current()===p.name?t('active'):t('apply'),()=>submit(true,'apply-profile'),'button '+(current()===p.name?'subtle':'primary')),'apply-profile'));container.append(heading);
+    const typeField=field(t('type'),typeSelect);typeField.classList.add('heading-mode');
+    heading.append(title,typeField);
+    if(isNew)heading.append(button(t('cancel'),()=>{creating=null;render();},'button subtle'));
+    else if(!builtin)heading.append(iconButton(t('deleteProfileAction'),deleteProfile,'trash','button danger-text delete-profile'));
+    container.append(heading);
     V2RProfileTypeSelect.mount(typeSelect,{label:t('type')});
     const modeHost=el('div','profile-chain-actions');heading.insertBefore(modeHost,typeField);
     const panel=card(),body=el('div','editor-fields'),actions=el('div','editor-actions');panel.append(body,actions);container.append(panel);
@@ -176,8 +180,18 @@
       for(const [control,intent] of [[saveButton,'save'],[applyButton,'apply']])control.setAttribute('aria-busy',String(saving===intent));
       if(dirty&&reportValue?.key==='saved')report('');
     }
-    function drawFields(){modeHost.hidden=type!=='node'||!native;const deletion=actions.querySelector('.danger-text');if(deletion)actions.append(deletion);
+    function deleteProfile(){
+      if(busy||saving)return;
+      const active=current()===p.name;
+      confirm(t('deleteProfile'),t(active?'deleteActiveHelp':'deleteProfileHelp'),async()=>{
+        await rpc('v2routeDeleteProfile',[p.name,p.revision,active?{switchTo:'system'}:null]);
+        selected=null;await reload();
+      },active?t('deleteActive'):t('delete'));
+    }
+    function drawFields(){modeHost.hidden=type!=='node'||!native;
       picker?.destroy();picker=null;chainControl?.destroy();chainControl=null;preControl?.destroy();preControl=null;defaultControl?.destroy();defaultControl=null;rulePickers.forEach(control=>control.destroy());rulePickers=[];body.replaceChildren();controls={};const d=drafts[type];let fieldsHost=body;
+      const discovery=native?.catalog?.discovery;
+      const showV2rayNote=type==='system'&&Boolean((discovery?.ok&&discovery.selected)||discovery?.candidates?.some(item=>item.valid===true));
       if(type==='node'){
         const workspace=el('div','proxy-workspace'),configuration=el('div','proxy-config-column'),preview=el('aside','proxy-path-column');workspace.append(configuration,preview);body.append(workspace);fieldsHost=configuration;preview.hidden=!native;workspace.classList.toggle('without-companion',!native);
         const routeField=el('section','editor-panel route-choice-field proxy-row'),line=el('div','route-choice-line editor-panel-body'),routeHost=el('div','proxy-row-selector');routeField.append(panelHeading(t('chainBase'),'route'),line);line.append(routeHost);configuration.append(routeField);
@@ -212,13 +226,7 @@
       }else if(type==='auto'){
         controls.defaultProfile=select(profileChoices(p.name),d.defaultProfile);body.append(field(t('defaultRoute'),controls.defaultProfile),el('p','muted',t('ruleHelp')),el('p','muted auto-system-help',t('autoSystemHelp')));defaultControl=V2RProfileTypeSelect.mount(controls.defaultProfile,{label:t('defaultRoute'),className:'default-profile-control',icon:profileChoiceType,describe:value=>t('defaultChoice_'+profileChoiceType(value))});drawRules(d,body,false);
       }else if(type==='direct'||type==='system'){
-        const discovery=native?.catalog?.discovery;
-        const localV2ray=type==='system'&&(discovery?.ok&&discovery.selected||discovery?.candidates?.some(item=>item.valid===true));
-        if(localV2ray){
-          const note=el('p','system-v2ray-note');
-          note.append(uiIcon('info'),el('span','',[t('policyPriority'),t('policySystemHelp'),t('systemV2rayNote')].join(' ')));
-          body.append(note);
-        }else{
+        if(!showV2rayNote){
           const defaultNote=el('div','policy-default-note');
           defaultNote.append(uiIcon(type==='direct'?'route':'program'),el('p','muted',t(type==='direct'?'policyDirectHelp':'policySystemHelp')));
           body.append(defaultNote);
@@ -226,8 +234,13 @@
       }else{controls.pacScript=area(d.pacScript,10);controls.pacScript.className='code-input';body.append(field(t('pacScript'),controls.pacScript,t('pacHelp')));}
       if(['node','manual','direct','system'].includes(type)){
         const advanced=el('details','advanced editor-panel routing-policies'),summary=el('summary','editor-panel-header',t('advanced')),inside=el('div','advanced-body');advanced.append(summary,inside);advanced.open=builtin;
+        if(showV2rayNote){
+          const note=el('p','system-v2ray-note');
+          note.append(uiIcon('info'),el('span','',t('systemV2rayNote')));
+          inside.append(note);
+        }
         if(type!=='direct'){const bypass=el('section','policy-section policy-bypass');controls.bypass=area(d.bypass,3);controls.bypass.placeholder="example.com\n*.example.org\n192.0.2.1:8443";controls.bypass.spellcheck=false;bypass.append(field(t('bypass'),controls.bypass,t('bypassHelp')));inside.append(bypass);}
-        const policies=el('section','policy-section policy-overrides');policies.append(el('h3','policy-heading',t('policyRules')),el('p','muted policy-address-help',t('policyAddressHelp')));drawRules(d,policies,true);inside.append(policies);if(type!=='direct'&&!body.querySelector('.system-v2ray-note'))inside.append(el('p','muted policy-priority',t('policyPriority')));fieldsHost.append(advanced);
+        const policies=el('section','policy-section policy-overrides');policies.append(el('h3','policy-heading',t('policyRules')),el('p','muted policy-address-help',t('policyAddressHelp')));drawRules(d,policies,true);inside.append(policies);if(type!=='direct'&&!showV2rayNote)inside.append(el('p','muted policy-priority',t('policyPriority')));fieldsHost.append(advanced);
       }
     }
     function drawRules(d,host,policy){
@@ -268,15 +281,9 @@
         selected=isNew?wanted:p.name;if(isNew)creating=null;await reload();message.success(applyNow?'applied':'saved');
       },null,message);saving=false;heading.inert=false;body.inert=false;if(panel.isConnected)sync();
     }
-    saveButton=mark(button(t('saved'),()=>submit(false,'save-profile'),'button subtle'),'save-profile');
+    saveButton=mark(button(t('saved'),()=>submit(false,'save-profile'),'button primary'),'save-profile');
     applyButton=mark(button(t('apply'),()=>submit(true,'apply-edited-profile'),'button primary'),'apply-edited-profile');
-    actions.append(saveButton,applyButton);if(!isNew&&!builtin)actions.append(button(t('delete'),()=>{
-      const active=current()===p.name;
-      confirm(t('deleteProfile'),t(active?'deleteActiveHelp':'deleteProfileHelp'),async()=>{
-        await rpc('v2routeDeleteProfile',[p.name,p.revision,active?{switchTo:'system'}:null]);
-        selected=null;await reload();
-      },active?t('deleteActive'):t('delete'));
-    },'button danger-text'));
+    actions.append(saveButton,applyButton);
     baseline=snapshot();for(const region of [heading,body]){region.addEventListener('input',sync);region.addEventListener('change',sync);}sync();
     activeEditor={capture:draftState,restore:s=>{if(s.profile!==p.name)return;drafts=clone(s.drafts);chainDraft=clone(s.chainDraft||null);name.value=s.name;editingName=isNew||!!s.editingName;nameBeforeEdit=s.nameBeforeEdit??s.name;drawName();type=s.type;typeSelect.value=type;drawFields();const advanced=body.querySelector('details');if(advanced)advanced.open=s.advancedOpen;sync();},destroy:()=>{chainControl?.destroy();preControl?.destroy();defaultControl?.destroy();rulePickers.forEach(control=>control.destroy());rulePickers=[];}};
   }
