@@ -9,7 +9,7 @@ from pathlib import Path
 import time
 import uuid
 import winreg as R
-from native_host import extension_ids
+from native_host import extension_ids,firefox_extension_ids,LEGACY_FIREFOX_ID
 
 ROOT=Path(__file__).resolve().parent
 NAME='local.v2route'
@@ -55,8 +55,10 @@ class Installer:
         self.product=json.loads((self.root/'product.json').read_text(encoding='utf-8'))
         if self.product.get('product_id')!=PRODUCT_ID or self.product.get('host_name')!=NAME:
             raise RuntimeError('便携包身份无效，未修改注册表')
-        if not re.fullmatch('[a-p]{32}', self.product.get('chrome_id','')) or self.product.get('firefox_id')!='v2route@v2route.local':
+        if not re.fullmatch('[a-p]{32}', self.product.get('chrome_id','')):
             raise RuntimeError('Invalid extension identity / 扩展身份无效，未修改注册表')
+        try:self.firefox_ids=firefox_extension_ids(self.product)
+        except ValueError as exc:raise RuntimeError('Invalid extension identity / 扩展身份无效，未修改注册表') from exc
         self.chrome_ids=extension_ids(self.root)
         if self.chrome_ids[0]!=self.product['chrome_id']:
             raise RuntimeError('Chrome extension identity mismatch / Chrome 扩展身份不一致，未修改注册表')
@@ -66,7 +68,7 @@ class Installer:
         value={'name':NAME,'description':'V2Route local companion',
                'path':str(self.root/'native/V2RouteHost.exe'),'type':'stdio'}
         if browser=='chrome':value['allowed_origins']=['chrome-extension://'+ident+'/' for ident in self.chrome_ids]
-        else:value['allowed_extensions']=[self.product['firefox_id']]
+        else:value['allowed_extensions']=list(self.firefox_ids)
         return value
     def snapshot(self):return {b:{v:self.registry.read(b,v) for v in VIEWS} for b in KEYS}
     def expected(self):
@@ -85,10 +87,18 @@ class Installer:
         try:
             body=json.loads(p.read_text(encoding='utf-8'));oldroot=p.resolve().parent.parent
             product=json.loads((oldroot/'product.json').read_text(encoding='utf-8'))
+            owner_firefox_ids=firefox_extension_ids(product)
+            if not set(owner_firefox_ids).issubset(self.firefox_ids):raise ValueError('Firefox identity')
             expected=self.manifest(browser);expected['path']=str(oldroot/'native/V2RouteHost.exe')
             if browser=='chrome' and body.get('allowed_origins')==['chrome-extension://'+self.product['chrome_id']+'/']:
                 expected['allowed_origins']=body['allowed_origins']
-            identity_keys=('product_id','host_name','chrome_id','firefox_id')
+            if browser=='firefox':
+                expected['allowed_extensions']=owner_firefox_ids
+                # An in-place product update can precede its manifest rewrite.
+                # The original manifest must still pass the exact receipt hash.
+                if oldroot==self.root and body.get('allowed_extensions')==[LEGACY_FIREFOX_ID]:
+                    expected['allowed_extensions']=[LEGACY_FIREFOX_ID]
+            identity_keys=('product_id','host_name','chrome_id')
             if any(product.get(k)!=self.product.get(k) for k in identity_keys) or body!=expected or p.name!=self.manifest_path(browser).name:raise ValueError('identity')
             record=json.loads((oldroot/'data/install-receipt.json').read_text(encoding='utf-8'))
             if record.get('product_id')!=PRODUCT_ID or record.get('manifests',{}).get(browser,{}).get('sha256')!=sha(p):raise ValueError('receipt')

@@ -1,10 +1,10 @@
 # 安装与升级 / Installation
 
-**Proxy V2Route 1.2.72** · Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
+**Proxy V2Route 1.2.73** · Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
 
-[Windows 安装器](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.72/Proxy-V2Route-Setup-1.2.72-Windows-x64.exe) · [完整包与源码](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.72)。[从 Chrome 应用商店安装扩展](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm)；Firefox 提供未签名测试包。自行打包见[来源与构建](SOURCES.md)。
+[Windows 安装器](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.73/Proxy-V2Route-Setup-1.2.73-Windows-x64.exe) · [完整包与源码](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.73)。[从 Chrome 应用商店安装扩展](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm)；Firefox 提供未签名测试包。自行打包见[来源与构建](SOURCES.md)。
 
-[Windows installer](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.72/Proxy-V2Route-Setup-1.2.72-Windows-x64.exe) · [Complete package and source](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.72). [Install from the Chrome Web Store](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm); Firefox is available as an unsigned test package. To build packages, see [SOURCES.md](SOURCES.md).
+[Windows installer](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.73/Proxy-V2Route-Setup-1.2.73-Windows-x64.exe) · [Complete package and source](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.73). [Install from the Chrome Web Store](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm); Firefox is available as an unsigned test package. To build packages, see [SOURCES.md](SOURCES.md).
 
 ## 本地组件 / Windows companion
 
@@ -22,13 +22,13 @@ Run the matching setup in a permanent writable folder and click Install. Python 
 
 Install from the [Chrome Web Store](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm). Follow these steps to load a local package.
 
-解压 `Proxy-V2Route-Chrome-1.2.72.zip`，在 `chrome://extensions` 开启开发者模式，点击“加载已解压的扩展程序”，选择含 `manifest.json` 的目录。完整安装包中对应 `chrome-extension`。
+解压 `Proxy-V2Route-Chrome-1.2.73.zip`，在 `chrome://extensions` 开启开发者模式，点击“加载已解压的扩展程序”，选择含 `manifest.json` 的目录。完整安装包中对应 `chrome-extension`。
 
 Extract the Chrome ZIP to a permanent folder. Enable Developer mode at `chrome://extensions`, choose **Load unpacked** and select the directory containing `manifest.json`.
 
 ### Firefox
 
-当前测试包未签名。进入 `about:debugging` →“此 Firefox”→“临时载入附加组件”，选择 `Proxy-V2Route-Firefox-1.2.72-unsigned.xpi` 或 `firefox-extension/manifest.json`。临时加载在浏览器重启后失效，永久安装需要 Mozilla 签名。
+当前测试包未签名。进入 `about:debugging` →“此 Firefox”→“临时载入附加组件”，选择 `Proxy-V2Route-Firefox-1.2.73-unsigned.xpi` 或 `firefox-extension/manifest.json`。临时加载在浏览器重启后失效，永久安装需要 Mozilla 签名。
 
 Load the unsigned test XPI through `about:debugging` → **This Firefox** → **Load Temporary Add-on**. Temporary loading lasts until Firefox restarts. Permanent installation requires Mozilla signing.
 
@@ -87,3 +87,9 @@ Importing proxies into a new group requires companion 1.2.65 or later.
 在情景列表中选择“直连网络”或“系统代理”可编辑快捷按钮的规则。直连只需填写指定代理策略。系统、节点与手动情景先检查绕过地址，再按从上到下的顺序使用第一条命中策略。以 `*.example.org` 匹配子域名，以 `192.0.2.10:8443` 仅匹配访问该 IP 和端口的请求。IP 规则不解析域名。带规则的系统代理在应用时读取 Windows 手动代理配置。Windows 代理设置更新后，在扩展弹窗再次选择当前情景即可读取新设置。系统使用 PAC 或自动发现时会提示无法应用。包含这些策略的备份需使用 1.2.65 或更新版导入。
 
 Edit Direct and System in Profiles to configure their toolbar shortcuts. Bypasses take priority over ordered proxy policies. Unmatched requests use the profile default. Use a bare IP or specify a port to narrow the match. System policies use a snapshot of manual Windows proxy settings. After changing Windows proxy settings, select the current profile again in the extension popup. System policies require a manual proxy configuration. PAC and auto-discovery are unsupported for these policies. Restore backups containing these policies with version 1.2.65 or later.
+
+## Firefox 1.2.73
+
+Firefox 使用新扩展 ID，请先安装 1.2.73 配套组件。若装过旧测试扩展，请在旧扩展中导出情景，再在新扩展中导入；浏览器不会自动迁移不同 ID 的设置。Chrome 扩展 ID 不变，已有 1.2.72 可继续使用。
+
+Firefox uses a new extension ID and requires companion 1.2.73 or later. If you used the previous test extension, export profiles there and import them into the new extension; browser settings do not migrate automatically between IDs. The Chrome extension ID is unchanged and Chrome 1.2.72 remains compatible.

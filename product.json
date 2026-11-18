@@ -1,10 +1,10 @@
 {
   "product_id": "v2route",
   "name": "Proxy V2Route",
-  "version": "1.2.72",
+  "version": "1.2.73",
   "host_name": "local.v2route",
   "chrome_id": "gkcdkddpmeklphcmdcnijondipndjhba",
-  "firefox_id": "v2route@v2route.local",
+  "firefox_id": "proxy-v2route@velumarc.github.io",
   "platform": "Windows 10/11 x64",
   "store_status": "chrome-listed-firefox-unsigned",
   "chrome_store_url": "https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm"

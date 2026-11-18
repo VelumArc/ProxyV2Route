@@ -19,6 +19,14 @@ COMMANDS.update(MEASURE_COMMANDS|LIBRARY_COMMANDS|BUNDLE_COMMANDS)
 # Its documented breakaway flag keeps the user-requested route service alive.
 # https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_messaging#closing_the_native_app
 BACKGROUND_FLAGS=0x08000000|0x00000200|0x01000000
+FIREFOX_ID='proxy-v2route@velumarc.github.io'
+LEGACY_FIREFOX_ID='v2route@v2route.local'
+
+def firefox_extension_ids(product):
+    ident=product.get('firefox_id')
+    if ident==FIREFOX_ID:return [FIREFOX_ID,LEGACY_FIREFOX_ID]
+    if ident==LEGACY_FIREFOX_ID:return [LEGACY_FIREFOX_ID]
+    raise ValueError('Invalid Firefox extension identity / Firefox 扩展标识无效')
 
 def extension_ids(root=ROOT):
     identity=json.loads((Path(root)/'extension-id.json').read_text(encoding='utf-8'))
@@ -34,13 +42,15 @@ def validate_origin(args):
     if product.get('chrome_id')!=identifiers[0]:raise ValueError('Chrome 扩展标识不一致')
     if args and args[0] in ['chrome-extension://'+ident+'/' for ident in identifiers]:
         return len(args)==1 or (len(args)==2 and re.fullmatch(r'--parent-window=\d+',args[1]) is not None)
-    if len(args)!=2 or args[1]!=product.get('firefox_id'):return False
+    try:firefox_ids=firefox_extension_ids(product)
+    except ValueError:return False
+    if len(args)!=2 or args[1] not in firefox_ids:return False
     expected=ROOT/'native'/(product['host_name']+'.firefox.json')
     try:
         if Path(args[0]).resolve(strict=True)!=expected.resolve(strict=True):return False
         value=json.loads(expected.read_text(encoding='utf-8'))
         return (value.get('name')==product['host_name'] and value.get('type')=='stdio'
-            and value.get('allowed_extensions')==[product['firefox_id']]
+            and value.get('allowed_extensions')==firefox_ids
             and Path(value.get('path','')).resolve(strict=True)==(ROOT/'native/V2RouteHost.exe').resolve(strict=True))
     except (OSError,ValueError,TypeError):return False
 def validate_message(value):
