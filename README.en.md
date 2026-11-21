@@ -9,7 +9,9 @@
 
 ---
 
-**1.2.73** · Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
+**Published versions:** Chrome extension 1.2.72 · Firefox extension 1.2.73 · Windows companion 1.2.73
+
+**Requirements:** Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
 
 ## Get started in three steps
 
@@ -25,22 +27,22 @@
 
 ## Features
 
-- **Profiles:** node routes, manual HTTP(S)/SOCKS proxies, automatic rules and PAC; switch to Direct, System or Follow v2rayN.
-- **Domain routing:** send sites through a node or an existing profile; use commas for multiple domains in one row.
-- **Nodes and subscriptions:** import, search, hide, name groups and reorder them; optionally schedule subscription updates.
-- **Predecessors and chains:** basic, predecessor and chain modes retain separate configurations. Save the selected mode, then apply the profile to use its route; all three offer per-path latency checks and Stop.
+- **Profiles:** node routes, manual HTTP(S)/SOCKS proxies, automatic rules and PAC, with Direct, System and Follow v2rayN modes.
+- **Routing rules:** assign domains, wildcard domains, IP addresses or IP:port pairs to a node or existing profile; separate multiple addresses with commas in one row.
+- **Nodes and subscriptions:** import, search, hide, group and reorder nodes; optionally schedule subscription updates.
+- **Predecessors and chains:** basic, predecessor and chain modes retain separate configurations, with per-path latency checks and cancellation.
 - **Network checks:** node measurements, exit IP, download/upload, Ping, TCPing, MTR and website reachability.
-- **Interface and portability:** 55 language/region options, light/dark themes and profile exports with their nodes and paths. Newly added interface translations are machine-generated drafts and have not all undergone human review.
+- **Interface and portability:** 55 language/region options, light/dark themes and profile exports with their nodes and paths. Some interface translations remain machine-generated and have not been reviewed by a person.
 
-Edit Direct and System in Profiles. Their toolbar shortcuts apply the same rules. For node and manual profiles, Advanced options checks bypass addresses first, then applies the first matching proxy policy. Remaining requests use the profile’s default route.
+Direct and System profiles share their saved rules with the toolbar shortcuts. Routing checks bypass addresses first, then the first matching policy, then the profile’s default route.
 
-In the footer, Save keeps your edits for later. Apply profile saves them and switches immediately. You can delete a custom profile from its top-right corner.
+Save records edits. Apply profile saves and switches immediately.
 
 [Installation, upgrades and backups](INSTALL.md) · [Build from source](SOURCES.md) · [Current source ZIP](https://github.com/VelumArc/ProxyV2Route/archive/refs/heads/main.zip)
 
 ## Privacy and support
 
-Settings and node credentials stay on your device and are not sent to the developer. Network tools contact their providers; opening the popup or IP workspace checks your exit IP. Profile backups contain node credentials and are **not encrypted**. Keep them private. Diagnostic results do not guarantee website, account or regional-service access.
+Settings and node credentials stay on your device and are not sent to the developer. Network tools contact their providers. Opening the popup or IP Tools, or successfully switching routes, triggers bounded exit-IP checks through ipify. Profile backups contain node credentials and are **not encrypted**. Keep them private. Diagnostic results do not guarantee website, account or regional-service access.
 
 [Privacy](docs/PRIVACY.md) · [Browser permissions](docs/PERMISSIONS.md) · [Issues](https://github.com/VelumArc/ProxyV2Route/issues). Include your version and reproduction steps, and remove credentials and personal data. Send sensitive reports to **1313333@gmail.com**.
 

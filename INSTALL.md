@@ -1,119 +1,140 @@
 # 安装与升级 / Installation
 
-**Proxy V2Route** · Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
+**Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+**
 
-当前商店版本 / Current store versions: **Chrome 1.2.72 · Firefox 1.2.73**。Windows 配套组件 / Windows companion: **1.2.73**。
+[简体中文](#zh-install) · [English](#en-install) · [下载 / Downloads](#downloads) · [自行构建 / Build from source](SOURCES.md)
+
+当前公开版本 / Current releases: **Chrome 1.2.72 · Firefox 1.2.73 · Windows 配套组件 / companion 1.2.73**
 
 <a id="windows-companion"></a>
 
-## [下载 Windows 必备组件安装器 1.2.73 / Download Windows companion](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.73/Proxy-V2Route-Setup-1.2.73-Windows-x64.exe)
+## [下载 Windows 必备组件安装器 / Download Windows companion](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.73/Proxy-V2Route-Setup-1.2.73-Windows-x64.exe)
 
-> **使用节点线路必须安装。** 安装器已包含本地组件、Python、Xray 与 MTR 诊断；v2rayN 可选，无需另装核心或 MTR 工具。Windows 安装器目前未作代码签名。
->
-> **Required for node routes.** Includes the companion, Python, Xray and MTR diagnostics. v2rayN is optional; no separate core or MTR tool is needed. The Windows installer is currently unsigned.
+**节点线路必须安装此组件。** 安装器已含 Python、Xray 与 MTR 诊断；v2rayN 可选，无需另装核心或 MTR 工具。Windows 安装器目前未作代码签名。
 
-[完整包与源码 / Complete package and source](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.73) · [自行构建 / Build from source](SOURCES.md)
+**Required for node routes.** Includes Python, Xray and MTR diagnostics. v2rayN is optional; no separate core or MTR tool is needed. The Windows installer is currently unsigned.
 
-## 三步开始使用 / Get started in three steps
+<a id="downloads"></a>
 
-1. **安装浏览器扩展。** 从 [Chrome 应用商店](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm)或 [Firefox 附加组件商店](https://addons.mozilla.org/firefox/addon/proxy-v2route/)安装。
+## 下载入口 / Downloads
 
-   **Install the browser extension.** Get it from the [Chrome Web Store](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm) or [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/proxy-v2route/).
+| 用途 / Purpose | 下载 / Download |
+| --- | --- |
+| <a id="chrome"></a>日常安装 Chrome / Install Chrome extension | [Chrome 应用商店 / Chrome Web Store](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm) |
+| <a id="firefox"></a>日常安装 Firefox / Install Firefox extension | [Firefox 附加组件商店 / Firefox Add-ons](https://addons.mozilla.org/firefox/addon/proxy-v2route/) |
+| Windows 节点组件 / Windows node companion | [安装器 1.2.73 / Installer](#windows-companion) |
+| Firefox 离线安装 / Offline Firefox installation | [Mozilla 签名 XPI / Signed XPI](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.73/Proxy-V2Route-Firefox-1.2.73-signed.xpi) |
+| 给普通用户的组合包 / Customer bundle | [Windows 安装器 + 签名 Firefox + 安装说明](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.73/Proxy-V2Route-1.2.73-Customer-20261121.zip) |
+| 本地测试与源码 / Local testing and source | [完整本地包、源码与校验信息 / Release files](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.73) |
 
-2. **安装 Windows 配套组件。** 运行[上方安装器](#windows-companion)，选择可长期保留、可写的新空文件夹，再点击“安装”。组件为当前 Windows 用户注册；若使用完整 ZIP，运行其中的 `V2Route-Setup.exe` 会直接注册当前目录。
+<a id="zh-install"></a>
 
-   **Install the Windows companion.** Run the [installer above](#windows-companion), choose a new empty, permanent writable folder and click **Install**. It registers the companion for the current Windows user. With the complete ZIP, run its `V2Route-Setup.exe` to register the current folder instead.
+## 简体中文
 
-3. **检查连接，导入并应用。** 在扩展“设置”点击“重新检测”。连接成功后，导入自己的节点或订阅，创建情景并点击“应用情景”，再到 IP 工具确认出口。需要读取 v2rayN 时，可重新扫描或选择其文件夹；本项目不提供代理服务器或订阅。
+### 三步开始使用
 
-   **Check the connection, import and apply.** In extension **Settings**, click **Check again**. Once connected, import your own nodes or subscriptions, create a profile and click **Apply profile**, then check the exit IP in IP Tools. To read v2rayN nodes, rescan or select its folder. This project does not provide proxy servers or subscriptions.
+1. **安装扩展。** 从上方 Chrome 或 Firefox 商店安装。Firefox 扩展详情须启用“允许在隐私窗口中运行”；Chrome 无痕访问也需在扩展详情中允许。每个浏览器配置文件需分别启用扩展。
+2. **安装 Windows 配套组件。** 运行[安装器](#windows-companion)，选择可长期保留、可写的新空文件夹，点击“安装”。组件为当前 Windows 用户注册。使用完整本地 ZIP 时，运行其中的 `V2Route-Setup.exe` 会直接注册当前目录。
+3. **检查连接，导入并应用。** 在扩展“设置”点击“重新检测”；连接成功后，导入自己的节点或订阅，创建情景并点击“应用情景”，再到 IP 工具确认出口。需要读取 v2rayN 时，可重新扫描或选择其文件夹。本项目不提供代理服务器或订阅。
 
-## 浏览器扩展 / Browser extension
+### 升级与旧版迁移
 
-### Chrome
+浏览器扩展与 Windows 配套组件分别更新。扩展更新不会自动安装或替换本机组件；升级组件前，请查看本页要求及发布说明。
 
-从[Chrome 应用商店](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm)安装。以下步骤适用于本地扩展包。
+- **升级组件：** 将匹配的新完整包装入新空文件夹，运行安装器并确认升级。安装器校验已有安装归属，迁移组件设置、导入节点、线路绑定及端口，仅重启已验证的本地组件。随后更新或重新加载扩展，保留相同扩展身份。
+- **Firefox 旧测试版：** 正式版使用新扩展 ID，需要配套组件 1.2.73 或更新版。装过旧测试扩展的用户应先在旧扩展导出情景，再在新扩展导入；不同 ID 的设置不会自动迁移。Chrome 扩展 ID 不变，已有 1.2.72 可继续使用。
+- **节点暂时缺失：** 扩展保留已保存的节点标识，不会自动改为“跟随 v2rayN”。同一标识恢复后可重新识别；节点确已更换或删除时，在情景中重新选择。
 
-Install from the [Chrome Web Store](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm). Follow these steps to load a local package.
+### 情景、规则与检测
 
-解压 `Proxy-V2Route-Chrome-1.2.73.zip`，在 `chrome://extensions` 开启开发者模式，点击“加载已解压的扩展程序”，选择含 `manifest.json` 的目录。完整安装包中对应 `chrome-extension`。
+在“情景模式”点击“新建情景”，或从“节点库”点击“创建情景”。基础、前置和链式代理分别保留出口节点与配置；保存当前模式不会清空其他模式。回到单一出口时选择“基础代理”。
 
-Extract the Chrome ZIP to a permanent folder. Enable Developer mode at `chrome://extensions`, choose **Load unpacked** and select the directory containing `manifest.json`.
+“保存”记录修改；“应用情景”同时保存并切换。已保存的情景也可从工具栏应用。“跟随 v2rayN”使用其正在运行的本地入口。
 
-### Firefox
+三种模式的连接顺序卡片均可检测链路，显示每段状态和延迟。停止操作等待当前有时限的探测结束，不改变正在使用的线路。动态“跟随”尚未确定具体节点时，无法逐段检测。
 
-从 [Firefox 附加组件商店](https://addons.mozilla.org/firefox/addon/proxy-v2route/)安装正式发布版，无需临时加载，浏览器重启后仍可使用。
+| 规则配置 | 生效方式 |
+| --- | --- |
+| 自动切换 | 设置默认直连或系统代理，在规则右侧选择节点库线路。按顺序使用第一条命中规则；节点目标失效时报告错误，不改走其他线路。 |
+| 直连与系统情景 | 在情景列表编辑，工具栏快捷按钮使用同一套规则。直连只需配置“指定代理策略”。 |
+| 系统、节点与手动情景 | 先检查“不代理的地址”，再使用第一条命中的指定代理策略，未命中时使用情景默认线路。 |
+| 域名、IP 与端口 | 普通域名仅匹配该域名；填写 `example.com, *.example.com` 可同时覆盖主域名与子域名，共用右侧目标。`192.0.2.10:8443` 仅匹配该 IP 和端口。IP 规则不解析域名。完整网址规则每行一条。 |
+| 带规则的系统代理 | 应用时读取 Windows 手动代理配置。Windows 设置变更后，在扩展弹窗再次选择当前情景；PAC 或自动发现不能与这些系统规则组合使用。 |
+| PAC 脚本 | 保存前离线检查语法，须提供顶层同步 `FindProxyForURL` 函数。语法通过不保证脚本对所有网址都能正确执行。 |
 
-Install the public release from [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/proxy-v2route/). It remains installed after Firefox restarts; temporary loading is not required.
+兼容要求：节点规则备份需 1.2.53 或更新版；逗号多域名规则备份需 1.2.54 或更新版；指定代理策略备份需 1.2.65 或更新版。导入节点时新建分组需配套组件 1.2.65 或更新版。
 
-离线安装 / Offline installation: [Firefox 1.2.73 签名包 / signed XPI](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.73/Proxy-V2Route-Firefox-1.2.73-signed.xpi) · [完整用户安装包 / Customer bundle](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.73/Proxy-V2Route-1.2.73-Customer-20261121.zip)。
+### 备份与停用
 
-仅开发测试：本地 `Proxy-V2Route-Firefox-1.2.73-unsigned.xpi` 与完整包内的 `firefox-extension` 未签名。进入 `about:debugging` →“此 Firefox”→“临时载入附加组件”，选择 XPI 或 `manifest.json`。此方式在浏览器重启后失效。
+情景导出包含所用节点配置、凭据和完整前置链路，包括扫描节点。新电脑安装组件后导入，可恢复为独立节点。每个情景只导出最近保存时选定的模式，其他模式的配置保留在当前浏览器。
 
-Development testing only: the local `Proxy-V2Route-Firefox-1.2.73-unsigned.xpi` and the complete package's `firefox-extension` are unsigned. Load the XPI or `manifest.json` through `about:debugging` → **This Firefox** → **Load Temporary Add-on**. This loading method lasts only until Firefox restarts.
+**备份文件未加密，请私下保管。** 旧备份缺少凭据时，须在原电脑重新导出。动态“跟随”情景需先选择具体节点；依赖外部本机文件的配置无法迁移。
 
-每个浏览器用户需分别启用扩展，无痕访问需在扩展详情中允许。
+停用组件前切换至“直连”或“系统”，再运行 `uninstall.cmd` 解除注册。
 
-Enable the extension separately in each browser profile and allow private-window access when needed.
+### 本地开发测试
 
-## 升级 / Upgrade
+- **Chrome：** 解压 `Proxy-V2Route-Chrome-1.2.73.zip` 到长期保留的目录，在 `chrome://extensions` 开启开发者模式，点击“加载已解压的扩展程序”，选择含 `manifest.json` 的目录。完整本地包中对应 `chrome-extension`。
+- **Firefox：** 日常安装使用商店版或签名 XPI。`Proxy-V2Route-Firefox-1.2.73-unsigned.xpi` 与完整本地包内的 `firefox-extension` 仅用于开发测试：在 `about:debugging` →“此 Firefox”→“临时载入附加组件”选择 XPI 或 `manifest.json`；重启浏览器后失效。
 
-浏览器扩展与 Windows 配套组件分别更新。扩展更新不会自动安装或替换本机组件；升级组件前，请查看本页的版本要求和发布说明。
+### 常见问题
 
-The browser extension and Windows companion update separately. An extension update does not install or replace the native companion. Check the requirements on this page and the release notes before upgrading the companion.
+**还要安装 v2rayN 或 MTR 吗？** 不需要。Windows 包已包含本地组件、Python、Xray 和网络诊断。v2rayN 仅用于可选节点来源或“跟随”模式。
 
-将匹配的新完整包装入新空文件夹，运行安装器并确认升级。安装器校验已有安装归属，迁移组件设置、导入节点、线路绑定及端口，仅重启已验证的本地组件。随后更新浏览器扩展，保留相同扩展身份并重新加载。
+**“重新检测”会更新核心吗？** 不会。它检查本机组件及固定版本核心的存在和校验状态，不查询上游最新版本。“安装/修复”恢复固定核心；更新请安装新版配套包。
 
-Install the matching complete package into a new empty folder and confirm the verified upgrade. Setup preserves companion settings, imported nodes, route bindings and ports, then restarts the verified companion. Update and reload the browser extension with the same identity.
+<a id="en-install"></a>
 
-扩展保留已保存的节点标识。节点暂时缺失时显示失效，不自动切换到“跟随 v2rayN”；同一标识恢复后可重新识别。节点确已更换或删除时，请在情景的线路选择区重新选择。
+## English
 
-The extension preserves saved node IDs. A missing node remains unavailable instead of silently switching to Follow v2rayN; the same ID can be recognized when it returns. If the node was replaced or deleted, choose its replacement in the profile route selector.
+### Get started in three steps
 
-## 情景与线路 / Profiles
+1. **Install the extension** from the Chrome or Firefox store linked above. In Firefox add-on details, enable **Allow in Private Windows**. For Chrome incognito use, allow access in extension details. Enable the extension separately in each browser profile.
+2. **Install the Windows companion.** Run the [installer](#windows-companion), choose a new empty, permanent writable folder and click **Install**. Registration is for the current Windows user. With the complete local ZIP, run `V2Route-Setup.exe` to register its current folder instead.
+3. **Check the connection, import and apply.** In extension **Settings**, click **Check again**. Once connected, import your own nodes or subscriptions, create a profile and click **Apply profile**, then check the exit IP in IP Tools. To read v2rayN nodes, rescan or select its folder. This project does not provide proxy servers or subscriptions.
 
-- 在“情景模式”新建情景，或从“节点库”点击“创建情景”。Choose **New profile** or **Create profile** in Node Library.
-- 基础、前置和链式代理分别保存出口节点及相关配置。点击模式后，保存按钮会记录当前模式；其他模式的配置保留，再切回即可继续使用。要回到单一出口，点击“基础代理”。Basic, predecessor and chain modes retain separate exits and settings. Save the selected mode and apply the profile to switch routes. Other mode settings remain available when you switch back. Choose Basic proxy for exit-only routing.
-- 点击「应用情景」可保存并切换。仅保存的配置也可稍后从工具栏应用。Apply profile saves your edits and switches routes. You can also apply a saved profile from the toolbar.
-- “跟随 v2rayN”使用其正在运行的本地入口。Follow v2rayN uses its running local endpoint.
-- 三种模式的连接顺序卡片均可检测链路，显示每段状态和延迟。点击停止后等待当前有时限的探测结束，不会改动正在使用的线路。“跟随”尚未确定具体节点时无法逐段检测。All three modes offer per-path status, latency and Stop in the connection-order card. Stop waits for the current bounded probe; diagnostics do not change the applied route. Dynamic Follow routes cannot be probed without concrete nodes.
+### Upgrades and migration
 
-自动切换可设置默认直连或系统代理，再在域名规则右侧选择节点库线路。规则按顺序匹配；节点规则失效时报告错误，不改走其他线路。含节点规则的备份需要 1.2.53 或更新版本导入。
+Browser extensions and the Windows companion update separately. An extension update does not install or replace the companion. Check this page's requirements and the release notes before upgrading it.
 
-多个域名可写在同一行，例如 `example.com,*.example.net`，共用右侧目标；完整网址每行一条。含逗号多域名规则的备份需使用 1.2.54 或更新版本。
+- **Companion upgrade:** Put the matching new complete package in a new empty folder, run Setup and confirm the upgrade. Setup verifies installation ownership, migrates companion settings, imported nodes, route bindings and ports, then restarts only the verified companion. Update or reload the extension while keeping the same extension identity.
+- **Previous Firefox test extension:** The public release uses a new extension ID and requires companion 1.2.73 or later. Export profiles from the old test extension and import them into the new extension; settings do not migrate automatically between IDs. The Chrome ID is unchanged and Chrome 1.2.72 remains compatible.
+- **Missing nodes:** Saved node IDs remain stored instead of silently switching to Follow v2rayN. The same ID can be recognized when it returns. If a node was replaced or deleted, select its replacement in the profile editor.
 
-Automatic profiles can keep a Direct/System default and target library nodes in domain rules. The first matching rule wins; unavailable node-rule targets fail instead of using another route. Backups containing node rules require 1.2.53 or later.
+### Profiles, rules and diagnostics
 
-Separate domains with commas, e.g. `example.com,*.example.net`, to share one row's target. Keep full URL patterns on separate rows. Backups with comma-separated domain rules require 1.2.54 or later.
+Choose **New profile** in Profiles or **Create profile** in Node Library. Basic, predecessor and chain modes retain separate exit nodes and settings. Saving the selected mode preserves the other modes; choose Basic proxy for a single exit.
 
-PAC 在保存前进行离线语法检查，需要顶层同步 `FindProxyForURL` 函数。语法通过不保证任意脚本对所有网址都能正确执行。
+**Save** keeps edits for later. **Apply profile** saves and switches routes; saved profiles can also be applied from the toolbar. **Follow v2rayN** uses its running local endpoint.
 
-PAC syntax is parsed locally before saving and requires an explicit synchronous top-level `FindProxyForURL` function. Syntax validation cannot prove behavior for every URL.
+All three modes offer per-path status, latency and Stop in the connection-order card. Stop waits for the current bounded probe; diagnostics do not change the applied route. Dynamic Follow routes cannot be probed without concrete nodes.
 
-## 备份与停用 / Backup and removal
+| Configuration | Behavior |
+| --- | --- |
+| Automatic profiles | Keep a Direct or System default and select library nodes as rule targets. The first matching rule wins; an unavailable node target reports an error rather than using another route. |
+| Direct and System profiles | Edit them in Profiles to configure the same rules used by their toolbar shortcuts. Direct only needs proxy policies. |
+| System, node and manual profiles | Bypasses take priority, then the first matching proxy policy, then the profile default. |
+| Domains, IP addresses and ports | A plain domain matches only that host. Use `example.com, *.example.com` to cover both the main domain and its subdomains with one row's target. `192.0.2.10:8443` matches that IP and port only. IP rules do not resolve domain names. Put each full URL pattern on a separate row. |
+| System profiles with rules | Applying the profile takes a snapshot of manual Windows proxy settings. After changing those settings, select the current profile again in the extension popup. PAC and auto-discovery cannot be combined with these System rules. |
+| PAC scripts | Local syntax checking runs before saving and requires an explicit synchronous top-level `FindProxyForURL` function. Passing syntax validation cannot prove behavior for every URL. |
 
-导出情景包含所用节点的配置、凭据及完整前置链路，包括扫描节点。新电脑安装组件后导入，即可恢复为独立节点。备份导出每个情景最近保存时选定的模式，其他模式的配置保留在当前浏览器。文件**未加密**，请妥善保管。旧备份缺少的凭据需在原电脑重新导出；动态“跟随”情景须先选择具体节点，依赖外部本机文件的配置无法迁移。
+Backup compatibility: node rules require version 1.2.53 or later; comma-separated domain rules require 1.2.54 or later; proxy policies require 1.2.65 or later. Importing nodes into a new group requires companion 1.2.65 or later.
 
-Profile exports include the selected nodes, credentials and predecessor paths, including scanned nodes. Install the companion on the destination and import the file to restore independent nodes. The backup exports the mode selected in each saved profile. Other saved modes stay in this browser. Backups are **unencrypted**. Re-export on the source computer if an older backup lacks credentials. Select a concrete node for dynamic Follow profiles; configurations using external local files cannot be migrated.
+### Backups and removal
 
-停用前切换至“直连”或“系统”，再运行 `uninstall.cmd` 解除注册。Switch to Direct or System before running `uninstall.cmd` to unregister the companion.
+Profile exports include the selected nodes, credentials and full predecessor paths, including scanned nodes. Install the companion on the destination and import the file to restore independent nodes. Each profile exports its last saved selected mode; other mode settings stay in the current browser.
 
-## 常见问题 / FAQ
+**Backups are unencrypted; keep them private.** Re-export on the source computer if an older backup lacks credentials. Select a concrete node for dynamic Follow profiles. Configurations using external local files cannot be migrated.
 
-- **还要安装 v2rayN 或 MTR 吗？** 不需要。完整包已包含本地组件、Python、Xray 和网络诊断。v2rayN 仅用于可选节点来源或“跟随”模式。
-  **Do I need v2rayN or MTR?** No. The complete package includes the companion, Python, Xray and network diagnostics. v2rayN is only an optional node source or Follow endpoint.
-- **“重新检测”会更新核心吗？** 不会。它检查本机组件及固定版本核心的存在和校验状态，不查询上游最新版本。“安装/修复”恢复固定核心；更新请安装新版配套包。
-  **Does Check again update the core?** No. It checks the local companion and the presence/checksum status of the pinned core, without querying the latest upstream release. Install/repair restores that pinned core; use a newer complete package to update.
+Switch to Direct or System before running `uninstall.cmd` to unregister the companion.
 
-导入代理时新建分组需要 1.2.65 或更新版配套组件。
-Importing proxies into a new group requires companion 1.2.65 or later.
+### Local development testing
 
-在情景列表中选择“直连网络”或“系统代理”可编辑快捷按钮的规则。直连只需填写指定代理策略。系统、节点与手动情景先检查绕过地址，再按从上到下的顺序使用第一条命中策略。以 `*.example.org` 匹配子域名，以 `192.0.2.10:8443` 仅匹配访问该 IP 和端口的请求。IP 规则不解析域名。带规则的系统代理在应用时读取 Windows 手动代理配置。Windows 代理设置更新后，在扩展弹窗再次选择当前情景即可读取新设置。系统使用 PAC 或自动发现时会提示无法应用。包含这些策略的备份需使用 1.2.65 或更新版导入。
+- **Chrome:** Extract `Proxy-V2Route-Chrome-1.2.73.zip` to a permanent folder. Enable Developer mode at `chrome://extensions`, choose **Load unpacked** and select the directory containing `manifest.json`. The complete local package uses the `chrome-extension` folder.
+- **Firefox:** Use the store release or signed XPI for regular installation. The local `Proxy-V2Route-Firefox-1.2.73-unsigned.xpi` and the complete local package's `firefox-extension` are for development testing only. Load the XPI or `manifest.json` through `about:debugging` → **This Firefox** → **Load Temporary Add-on**. Temporary loading lasts only until Firefox restarts.
 
-Edit Direct and System in Profiles to configure their toolbar shortcuts. Bypasses take priority over ordered proxy policies. Unmatched requests use the profile default. Use a bare IP or specify a port to narrow the match. System policies use a snapshot of manual Windows proxy settings. After changing Windows proxy settings, select the current profile again in the extension popup. System policies require a manual proxy configuration. PAC and auto-discovery are unsupported for these policies. Restore backups containing these policies with version 1.2.65 or later.
+### FAQ
 
-## Firefox 1.2.73
+**Do I need v2rayN or MTR?** No. The Windows package includes the companion, Python, Xray and network diagnostics. v2rayN is only an optional node source or Follow endpoint.
 
-Firefox 使用新扩展 ID，请先安装 1.2.73 配套组件。若装过旧测试扩展，请在旧扩展中导出情景，再在新扩展中导入；浏览器不会自动迁移不同 ID 的设置。Chrome 扩展 ID 不变，已有 1.2.72 可继续使用。
-
-Firefox uses a new extension ID and requires companion 1.2.73 or later. If you used the previous test extension, export profiles there and import them into the new extension; browser settings do not migrate automatically between IDs. The Chrome extension ID is unchanged and Chrome 1.2.72 remains compatible.
+**Does Check again update the core?** No. It checks the local companion and the presence and checksum status of the pinned core, without querying the latest upstream release. Install/repair restores that pinned core; use a newer companion package to update.

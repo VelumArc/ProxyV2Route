@@ -9,7 +9,9 @@
 
 ---
 
-**1.2.73** · Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
+**Veröffentlichte Versionen:** Chrome-Erweiterung 1.2.72 · Firefox-Erweiterung 1.2.73 · Windows-Komponente 1.2.73
+
+**Voraussetzungen:** Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
 
 ## In drei Schritten starten
 
@@ -25,22 +27,22 @@
 
 ## Funktionen
 
-- **Profile:** Knotenverbindungen, manuelle HTTP(S)/SOCKS-Proxys, automatische Regeln und PAC; wechsle zu Direktverbindung, System-Proxy oder dem laufenden v2rayN-Endpunkt.
-- **Domain-Regeln:** Leite Websites über einen Knoten oder ein vorhandenes Profil. Mehrere Domains lassen sich in einer Zeile durch Kommas trennen.
-- **Knoten und Abonnements:** importieren, suchen, ausblenden, benannte Gruppen anlegen und sortieren; regelmäßige Abonnement-Aktualisierungen sind optional.
-- **Vorgeschaltete Proxys und Ketten:** Basis-, vorgeschalteter Proxy- und Kettenmodus behalten getrennte Einstellungen. Speichere den gewählten Modus und wende das Profil an, um die Route zu verwenden. Alle drei bieten Latenztests für jeden Pfadabschnitt und eine Stoppfunktion.
+- **Profile:** Knotenverbindungen, manuelle HTTP(S)/SOCKS-Proxys, automatische Regeln und PAC; mit Direktverbindung, System-Proxy oder dem laufenden v2rayN-Endpunkt.
+- **Routingregeln:** Ordne Domains, Wildcard-Domains, IP-Adressen oder IP:Port-Paare einem Knoten oder vorhandenen Profil zu; trenne mehrere Adressen in einer Zeile durch Kommas.
+- **Knoten und Abonnements:** importieren, suchen, ausblenden, gruppieren und sortieren; regelmäßige Abonnement-Aktualisierungen sind optional.
+- **Vorgeschaltete Proxys und Ketten:** Basis-, vorgeschalteter Proxy- und Kettenmodus behalten getrennte Einstellungen. Jeder bietet Latenztests für einzelne Pfadabschnitte und eine Stoppfunktion.
 - **Netzwerkdiagnose:** Knotenmessungen, Ausgangs-IP, Download/Upload, Ping, TCPing, MTR und Erreichbarkeit von Websites.
-- **Oberfläche und Umzug:** 55 Sprach-/Regionsoptionen, helle/dunkle Designs und Profilexport mit den verwendeten Knoten und Routen. Die ergänzten Übersetzungen der Oberfläche sind maschinell erstellte Entwürfe und noch nicht alle manuell geprüft.
+- **Oberfläche und Umzug:** 55 Sprach-/Regionsoptionen, helle/dunkle Designs und Profilexport mit Knoten und Routen. Einige Übersetzungen der Oberfläche sind maschinell erstellt und noch nicht manuell geprüft.
 
-Direktverbindung und Systemproxy lassen sich in der Profilliste bearbeiten. Die Schaltflächen in der Symbolleiste verwenden dieselben Regeln. Bei Knoten- und manuellen Profilen haben Ausnahmen Vorrang. Danach gilt die erste passende Proxyregel, sonst die Standardroute.
+Direktverbindung und System-Proxy verwenden dieselben gespeicherten Regeln wie ihre Schaltflächen in der Symbolleiste. Zuerst gelten Ausnahmen, dann die erste passende Proxyregel und zuletzt die Standardroute des Profils.
 
-Unten sichert „Speichern“ die Änderungen. „Profil anwenden“ speichert sie und wechselt sofort zur neuen Route. Eigene Profile können Sie oben rechts löschen.
+„Speichern“ sichert die Änderungen. „Profil anwenden“ speichert sie und wechselt sofort zur neuen Route.
 
 [Installation, Updates und Sicherungen (Chinesisch/Englisch)](INSTALL.md) · [Aus dem Quellcode bauen](SOURCES.md) · [Aktuelles Quellcode-ZIP](https://github.com/VelumArc/ProxyV2Route/archive/refs/heads/main.zip)
 
 ## Datenschutz und Hilfe
 
-Einstellungen und Zugangsdaten der Knoten bleiben auf deinem Gerät und werden nicht an den Entwickler gesendet. Netzwerkwerkzeuge kontaktieren ihre jeweiligen Anbieter; beim Öffnen des Popups oder IP-Bereichs wird die Ausgangs-IP geprüft. Profilsicherungen enthalten Zugangsdaten und sind **nicht verschlüsselt**. Bewahre sie sicher auf. Testergebnisse garantieren keinen Zugriff auf Websites, Konten oder regionale Dienste.
+Einstellungen und Zugangsdaten der Knoten bleiben auf deinem Gerät und werden nicht an den Entwickler gesendet. Netzwerkwerkzeuge kontaktieren ihre jeweiligen Anbieter. Beim Öffnen des Popups oder IP-Bereichs und nach einem erfolgreichen Routenwechsel erfolgen begrenzte Prüfungen der Ausgangs-IP über ipify. Profilsicherungen enthalten Zugangsdaten und sind **nicht verschlüsselt**. Bewahre sie sicher auf. Testergebnisse garantieren keinen Zugriff auf Websites, Konten oder regionale Dienste.
 
 [Datenschutz](docs/PRIVACY.md) · [Browser-Berechtigungen](docs/PERMISSIONS.md) · [Probleme melden](https://github.com/VelumArc/ProxyV2Route/issues). Nenne die Version und die Schritte zur Reproduktion. Entferne Zugangsdaten und persönliche Informationen; vertrauliche Meldungen bitte an **1313333@gmail.com**.
 
