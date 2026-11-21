@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "Uygulandı"
   },
+  "profileDraftPending": {
+    "message": "Beklemede"
+  },
   "applied": {
     "message": "Profil değiştirildi"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "Profili sil"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: {index}. kural, {browser} tarafından okunamayan bir URL yolu veya sorgusu gerektiriyor. Ana makine kuralı kullanın."
+  },
+  "pacBrowserLimits": {
+    "message": "PAC'nin URL yolu/sorgusuna erişimi sınırlıdır: Firefox'ta HTTP/HTTPS, Chrome'da HTTPS. Ana makine adına göre eşleştirmeyi tercih edin."
   }
 }

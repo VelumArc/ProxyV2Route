@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "Примењено"
   },
+  "profileDraftPending": {
+    "message": "На чекању"
+  },
   "applied": {
     "message": "Профил замењен"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "Избриши профил"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: правило {index} захтева путању или упит URL-а које {browser} не може да прочита. Користите правило за хост."
+  },
+  "pacBrowserLimits": {
+    "message": "PAC приступ путањи/упиту URL-а је ограничен: HTTP/HTTPS у Firefox-у, HTTPS у Chrome-у. Дајте предност подударању имена хоста."
   }
 }

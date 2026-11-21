@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "Aplicat"
   },
+  "profileDraftPending": {
+    "message": "Pendent"
+  },
   "applied": {
     "message": "Perfil canviat"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "Suprimeix el perfil"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: la regla {index} necessita una ruta o consulta d'URL que {browser} no pot llegir. Feu servir una regla de host."
+  },
+  "pacBrowserLimits": {
+    "message": "L'accés PAC a la ruta/consulta de l'URL és limitat: HTTP/HTTPS al Firefox, HTTPS al Chrome. Preferiu la coincidència per host."
   }
 }

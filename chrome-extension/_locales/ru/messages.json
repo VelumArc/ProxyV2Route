@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "Применено"
   },
+  "profileDraftPending": {
+    "message": "Не завершено"
+  },
   "applied": {
     "message": "Профиль переключен"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "Удалить профиль"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: правилу {index} нужен путь или запрос URL, который {browser} не может прочитать. Используйте правило по имени хоста."
+  },
+  "pacBrowserLimits": {
+    "message": "Доступ PAC к пути/запросу URL ограничен: HTTP/HTTPS в Firefox, HTTPS в Chrome. Предпочтительно сопоставление по имени хоста."
   }
 }

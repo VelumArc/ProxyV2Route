@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "ተተግብሯል"
   },
+  "profileDraftPending": {
+    "message": "ያልተጠናቀቀ"
+  },
   "applied": {
     "message": "መገለጫ ተቀይሯል።"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "መገለጫ ሰርዝ"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: ደንብ {index} {browser} ሊያነበው የማይችል የURL መንገድ ወይም መጠይቅ ይፈልጋል። የአስተናጋጅ ስም ደንብ ይጠቀሙ።"
+  },
+  "pacBrowserLimits": {
+    "message": "በPAC ውስጥ የURL መንገድ/መጠይቅ መዳረሻ ውስን ነው፦ HTTP/HTTPS በFirefox፣ HTTPS በChrome። በአስተናጋጅ ስም ማዛመድ ይመረጣል።"
   }
 }

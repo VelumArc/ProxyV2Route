@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "Rakendatud"
   },
+  "profileDraftPending": {
+    "message": "Ootel"
+  },
   "applied": {
     "message": "Profiil vahetatud"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "Kustuta profiil"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: reegel {index} vajab URL-i teed või päringut, mida {browser} ei saa lugeda. Kasutage hostireeglit."
+  },
+  "pacBrowserLimits": {
+    "message": "PAC-i ligipääs URL-i teele/päringule on piiratud: HTTP/HTTPS Firefoxis, HTTPS Chrome'is. Eelistage hostinime järgi sobitamist."
   }
 }

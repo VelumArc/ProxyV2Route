@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "Diterapkan"
   },
+  "profileDraftPending": {
+    "message": "Belum selesai"
+  },
   "applied": {
     "message": "Profil dialihkan"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "Hapus profil"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: aturan {index} memerlukan jalur atau kueri URL yang tidak dapat dibaca {browser}. Gunakan aturan host."
+  },
+  "pacBrowserLimits": {
+    "message": "Akses PAC ke jalur/kueri URL terbatas: HTTP/HTTPS di Firefox, HTTPS di Chrome. Utamakan pencocokan host."
   }
 }

@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "Tillämpad"
   },
+  "profileDraftPending": {
+    "message": "Väntande"
+  },
   "applied": {
     "message": "Profil bytte"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "Ta bort profil"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: regel {index} behöver en URL-sökväg eller fråga som {browser} inte kan läsa. Använd en värdregel."
+  },
+  "pacBrowserLimits": {
+    "message": "PAC-åtkomst till URL-sökväg/fråga är begränsad: HTTP/HTTPS i Firefox, HTTPS i Chrome. Föredra matchning av värdnamn."
   }
 }

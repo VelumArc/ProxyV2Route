@@ -9,7 +9,7 @@
 
 ---
 
-**Versiones publicadas:** extensión de Chrome 1.2.72 · extensión de Firefox 1.2.73 · componente de Windows 1.2.73
+**Versiones publicadas:** extensión de Chrome 1.2.72 · extensión de Firefox 1.2.73 · componente de Windows 1.2.74
 
 **Requisitos:** Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
 
@@ -19,7 +19,7 @@
 2. **[Instala el componente de Windows — obligatorio para las rutas mediante nodos](https://github.com/VelumArc/ProxyV2Route/blob/main/INSTALL.md#windows-companion).** El instalador incluye Python, Xray y diagnóstico MTR; no hace falta instalarlos por separado. v2rayN es solo una fuente de nodos o un destino de seguimiento opcional.
 3. **Comprueba la conexión, importa y conecta.** Abre la configuración de la extensión y vuelve a comprobar la conexión. Una vez conectado el componente, importa tus nodos o suscripciones, crea un perfil y aplícalo. Comprueba después la IP de salida en las herramientas IP.
 
-> El instalador de Windows no tiene firma de código. Este proyecto no proporciona servidores proxy ni suscripciones. [Paquete completo y código fuente](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.73)
+> El instalador de Windows no tiene firma de código. Este proyecto no proporciona servidores proxy ni suscripciones. [Paquete completo y código fuente](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.74)
 
 [![Perfiles de Proxy V2Route](docs/assets/workspace-en.png)](docs/assets/workspace-en.png)
 

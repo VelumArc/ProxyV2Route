@@ -108,6 +108,26 @@ function sanitize(input,existing,previous=existing,portable=false){
  }
  return p;
 }
+// PAC receives a redacted URL in Firefox, and for HTTPS in Chrome. Keep
+// origin-wide patterns, but never pretend a path-dependent rule was applied.
+function checkUrlRules(p,firefox,previous){
+ const retained=new Set((previous?.rules||[]).map(r=>JSON.stringify(r.condition)));
+ (p?.profileType==='PacProfile'||!Array.isArray(p?.rules)?[]:p.rules).forEach((rule,index)=>{
+  const condition=rule?.condition;
+  if(condition?.conditionType!=='UrlWildcardCondition'||typeof condition.pattern!=='string'||retained.has(JSON.stringify(condition)))return;
+  const pattern=condition.pattern;
+  if(/^\*+$/.test(pattern)||/^[^/\s:]+:\/\/[^/\s?#]+\/\*+$/.test(pattern))return;
+  const scheme=/^([^/:]+):\/\//.exec(pattern)?.[1];
+  if(!firefox&&scheme&&!Library.wildcard(scheme,'https'))return;
+  throw error('URL_PATH_RULE_UNSUPPORTED','Rule '+(index+1)+' in '+p.name+' depends on a URL path hidden from '+(firefox?'Firefox':'Chrome HTTPS')+' proxy rules. Use an origin-wide pattern ending in /*','情景“'+p.name+'”的第 '+(index+1)+' 条规则依赖网址路径，'+(firefox?'Firefox':'Chrome 的 HTTPS')+' 代理规则无法读取该路径；请使用以 /* 结尾的整站规则',{browser:firefox?'Firefox':'Chrome',name:p.name,index:index+1});
+ });
+}
+function checkUrlGraph(name,profiles,firefox,seen=new Set()){
+ if(seen.has(name))return;seen.add(name);
+ const p=own(profiles,name)||own(builtins,name);if(!p)return;
+ checkUrlRules(p,firefox);
+ for(const ref of references(p))checkUrlGraph(ref,profiles,firefox,seen);
+}
 function validateGraph(profiles){
  // Memoize subtree height, not just successful visits: a shared subtree can be
  // reached from a longer path later. The PAC permits depths 0 through 64.
@@ -198,12 +218,12 @@ function createController(api, firefox=false){
   })
  });
  const call=(object,method,...args)=>new Promise((resolve,reject)=>{
-  const failed=e=>reject(externalError(e,method==='sendNativeMessage'?'COMPANION_UNAVAILABLE':'BROWSER_API_FAILED',{method}));
+  const failed=e=>reject(externalError(e,method==='sendNativeMessage'?'COMPANION_UNAVAILABLE':'BROWSER_API_FAILED',method==='sendNativeMessage'?{method,host:HOST,command:args[1]?.command}:{method}));
   try{object[method](...args,value=>{const e=api.runtime.lastError;e?failed(e):resolve(value);});}catch(e){failed(e);}
  });
  async function load(){if(!ready)ready=call(api.storage.local,'get',KEY).then(v=>{model=v[KEY]||{version:1,profiles:{},currentProfileName:'system',zeroRouteError:'',zeroRouteErrorInfo:null};}).catch(e=>{ready=null;throw e;});await ready;}
  async function persist(next){await call(api.storage.local,'set',{[KEY]:next});model=next;}
- async function native(command,settings){const request={command};if(settings!==undefined)request.settings=settings;if(new TextEncoder().encode(JSON.stringify(request)).length>900*1024)throw error("COMPANION_MESSAGE_LIMIT",'Settings exceed the Companion message limit','设置超过本地组件传输上限');let c;try{c=await call(api.runtime,'sendNativeMessage',HOST,request);}catch(e){throw error("COMPANION_UNAVAILABLE",'Install or repair the V2Route Companion: '+e.message,'请安装或修复 V2Route 本地组件',{command},e.details||e.message);}if(!c?.catalog?.settings||!c?.status)throw nativeError(c,'INVALID_COMPANION_RESPONSE','Invalid companion response / 本地组件返回无效',{command});if(c.ok===false)throw nativeError(c,'COMPANION_OPERATION_FAILED','Companion operation failed / 本地组件操作失败',{command});latest=c;return c;}
+ async function native(command,settings){const request={command};if(settings!==undefined)request.settings=settings;if(new TextEncoder().encode(JSON.stringify(request)).length>900*1024)throw error("COMPANION_MESSAGE_LIMIT",'Settings exceed the Companion message limit','设置超过本地组件传输上限');let c;try{c=await call(api.runtime,'sendNativeMessage',HOST,request);}catch(e){throw error("COMPANION_UNAVAILABLE",'Install or repair the V2Route Companion: '+e.message,'请安装或修复 V2Route 本地组件',{...e.params,command},e.details||e.message);}if(!c?.catalog?.settings||!c?.status)throw nativeError(c,'INVALID_COMPANION_RESPONSE','Invalid companion response / 本地组件返回无效',{command});if(c.ok===false)throw nativeError(c,'COMPANION_OPERATION_FAILED','Companion operation failed / 本地组件操作失败',{command});latest=c;return c;}
  async function bundleNative(command,settings){
   const request={command,settings};
   if(new TextEncoder().encode(JSON.stringify(request)).length>900*1024)throw error("BACKUP_MESSAGE_LIMIT",'Node backup exceeds the Companion message limit','节点备份超过本地组件传输上限');
@@ -311,10 +331,11 @@ function createController(api, firefox=false){
   }finally{clearTimeout(timeout);}
  }
  async function indicator(p){if(!p)return;try{await call(api.action,'setTitle',{title:'Proxy V2Route · '+p.name});await call(api.action,'setBadgeText',{text:p.profileType==='DirectProfile'?'D':p.profileType==='SystemProfile'?'S':''});}catch(_){}}
+ async function requireProxyPermission(){if(firefox&&!await call(api.extension,'isAllowedIncognitoAccess'))throw error("FIREFOX_PRIVATE_ACCESS_REQUIRED",'Allow V2Route in private windows in extension details before changing proxy settings','请先在扩展详情允许 V2Route 在隐私窗口运行');}
  async function setBrowser(name,snapshot,profiles){
   const p=profile(name,profiles);if(!p)throw error("PROFILE_NOT_FOUND",'Profile not found','情景不存在');
   let nextBlob=null;
-  if(firefox&&!await call(api.extension,'isAllowedIncognitoAccess'))throw error("FIREFOX_PRIVATE_ACCESS_REQUIRED",'Allow V2Route in private windows in extension details before changing proxy settings','请先在扩展详情允许 V2Route 在隐私窗口运行');
+  await requireProxyPermission();
   const control=await call(api.proxy.settings,'get',{});if(control?.levelOfControl==='not_controllable'||control?.levelOfControl==='controlled_by_other_extensions')throw error("PROXY_CONTROL_UNAVAILABLE",'Another extension or policy controls the proxy','其他扩展或策略控制了代理设置');
   let value;
   if(nativeBuiltin(p)&&p.profileType==='DirectProfile')value=firefox?{proxyType:'none'}:{mode:'direct'};
@@ -398,6 +419,8 @@ function createController(api, firefox=false){
   async function apply(name,restore=false,candidate=model){
    const before=model,transaction={undo:[],imported:[]};
    const next=clone(candidate),profiles=restore&&next.appliedRoute?next.appliedRoute.profiles:next.profiles;
+   checkUrlGraph(name,profiles,firefox);
+   await requireProxyPermission();
    try{
     if(!restore)await materialize(name,profiles,transaction);
     model=next;
@@ -683,6 +706,7 @@ function createController(api, firefox=false){
   }
   async function editProfile(input,expected,routeOptions,renameTo,intent){
    const previous=own(model.profiles,input?.name);
+   checkUrlRules(input,firefox,previous);
    if(intent===undefined&&!model.appliedRoute&&!hasPending(previous))return saveProfile(input,expected,routeOptions,renameTo);
    intent??='save';
    if(intent!=='apply'&&intent!=='save')throw error('INVALID_ROUTE_SETTINGS','Unknown profile action','情景操作无效');
@@ -970,6 +994,7 @@ function createController(api, firefox=false){
    // Restoration, its selection decision and failure handling occupy one queue
    // entry, so a subsequent user selection always runs after the entire restore.
    await persist({...model,zeroRouteError:e.message,zeroRouteErrorInfo:serializeError(e)});
+   if(e.code==='URL_PATH_RULE_UNSUPPORTED')return;
    if(firefox){let nextBlob=null;try{
     const control=await call(api.proxy.settings,'get',{});
     if(['not_controllable','controlled_by_other_extensions'].includes(control?.levelOfControl)||!await call(api.extension,'isAllowedIncognitoAccess'))return;

@@ -9,3 +9,7 @@
 :root{--on-accent:#fff}:root[data-theme=dark]{--on-accent:#103037}.button.primary{color:var(--on-accent)}
 @media(prefers-color-scheme:dark){:root[data-theme=auto]{--on-accent:#103037}}
 :root{--accent:#117f8e}
+
+.native-diagnostic{max-width:100%;margin-top:8px}
+.native-diagnostic summary{cursor:pointer}
+.native-diagnostic textarea{display:block;max-width:100%;margin:8px 0;white-space:pre-wrap;overflow-wrap:anywhere;font-family:monospace;font-size:12px}

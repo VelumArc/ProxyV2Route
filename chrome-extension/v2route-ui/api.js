@@ -10,12 +10,43 @@
     return new Promise((resolve, reject) => {
       if (!runtime()) return reject(uiError('backgroundUnavailable'));
       runtime().sendMessage({method, args}, response => {
-        const error = runtime().lastError || response && response.error;
+        const transport = runtime().lastError;
+        if (transport) return reject(Object.assign(uiError('backgroundUnavailable'),{details:transport.message||String(transport)}));
+        const error = response && response.error;
         if (error) return reject(Object.assign(new Error(error.message || error.reason || String(error)),{code:error.code,params:error.params,details:error.details??error.message??error.reason??String(error)}));
         if (!response) return reject(uiError('backgroundNoResponse'));
         resolve(response.result);
       });
     });
+  }
+  function diagnosticText(error, command) {
+    const scrub = value => String(value || '').slice(0,4096)
+      .replace(/[\u0000-\u0008\u000b\u000c\u000e-\u001f]/g,'')
+      .replace(/\b(authorization|proxy-authorization|cookie|set-cookie)\b["']?\s*[:=][^\r\n]*/gi,(_match,key)=>key+'=[redacted]')
+      .replace(/\b[A-Za-z][A-Za-z0-9+.-]*:\/\/[^\s"'<>]+/g,'[redacted URL]')
+      .replace(/\b(password|passwd|token|secret|authorization|cookie|username|user|api[-_]?key|private[-_]?key|uuid)\b["']?\s*[:=]\s*(?:"[^"]*"|'[^']*'|[^\s,;]+)/gi,(_match,key)=>key+'=[redacted]')
+      .replace(/\b[A-Z]:[\\/][^\r\n"'<>]*/gi,'[redacted path]')
+      .replace(/\\\\[^\r\n"'<>]*/g,'[redacted path]')
+      .replace(/\bnode:[^\s,;"']+/g,'node:[redacted]')
+      .replace(/\[?[A-Fa-f0-9]*:[A-Fa-f0-9:]+(?:%[A-Za-z0-9]+)?\]?/g,value=>(value.match(/:/g)||[]).length>=2?'[redacted IP]':value)
+      .replace(/\b(?:\d{1,3}\.){3}\d{1,3}\b/g,'[redacted IP]');
+    const candidate=error?.params?.command||command;
+    return JSON.stringify({code:/^[A-Z][A-Z0-9_]{0,95}$/.test(error?.code||'')?error.code:error?.uiKey||'',
+      details:scrub(error?.details||error?.message),host:'local.v2route',
+      command:['getState','coreStatus','installCore'].includes(candidate)?candidate:'',
+      extension:runtime()?.id||'',version:runtime()?.getManifest?.().version||''},null,2);
+  }
+  function diagnostic(error, command) {
+    const box=document.createElement('details'),summary=document.createElement('summary'),text=document.createElement('textarea'),copy=document.createElement('button');
+    box.className='native-diagnostic';text.readOnly=true;text.rows=5;text.spellcheck=false;text.value=diagnosticText(error,command);
+    copy.type='button';copy.className='button subtle';box.append(summary,text,copy);
+    box.refreshLabels=()=>{summary.textContent=uiText('details','Details');text.setAttribute('aria-label',summary.textContent);copy.textContent=uiText('ipReport','Copy redacted report');};
+    copy.onclick=async()=>{if(copy.disabled)return;copy.disabled=true;const message=root.V2RFeedback?.begin(copy,{key:copy});
+      try{await navigator.clipboard.writeText(text.value);if(box.isConnected)message?.success('ipCopied');}
+      catch(_){if(box.isConnected){text.focus();text.select();message?.show({key:'nlOperationFailed'},'error');}}
+      finally{copy.disabled=false;}
+    };
+    box.refreshLabels();return box;
   }
   function readProfileState() {
     return rpc('getState', [['availableProfiles', 'appliedIcon', 'currentProfileName', 'currentProfileApplied', 'isSystemProfile', 'proxyNotControllable', 'zeroRouteError','zeroRouteErrorInfo']]);
@@ -41,7 +72,17 @@
       } catch (_) { resolve({}); }
     });
   }
-  function prefsGet() { return new Promise(resolve => chrome.storage.local.get('v2routeUi', v => resolve(v.v2routeUi || {}))); }
+  function prefsGet() {
+    return new Promise(resolve => {
+      try {
+        chrome.storage.local.get('v2routeUi', value => {
+          if (chrome.runtime.lastError) return resolve({});
+          const saved = value?.v2routeUi;
+          resolve(saved && typeof saved === 'object' && !Array.isArray(saved) ? saved : {});
+        });
+      } catch (_) { resolve({}); }
+    });
+  }
   function prefsSet(value) { return new Promise((resolve, reject) => chrome.storage.local.set({v2routeUi:value}, () => chrome.runtime.lastError ? reject(Object.assign(new Error(chrome.runtime.lastError.message),{details:chrome.runtime.lastError.message})) : resolve())); }
   function profiles(options) { return Object.keys(options || {}).filter(k => k[0] === '+' && options[k] && !options[k].builtin && !options[k].name.startsWith('_')).map(k => options[k]); }
   function groups(routes, order = []) {
@@ -108,6 +149,6 @@
   const routeReason=route=>route?.reasonCode?errorText({code:route.reasonCode,params:route.reasonParams,details:route.reason}):uiText('unavailable','Unavailable');
   const routeProtocol=route=>route?.protocol_key?uiText(route.protocol_key,route.protocol||''):route?.protocol||'';
   const routeGroup=route=>route?.group_key?uiText(route.group_key,route.group||''):route?.group_id==='local-imports'?uiText('imported','Imported'):route?.group||'';
-  root.V2R = {rpc, read, readProfileState, clone, popupProfiles, prefsGet, prefsSet, profiles, groups, move, routeIcon, profileIcon, routeLabel,routeReason,routeProtocol,routeGroup,uiError,errorText};
+  root.V2R = {rpc, read, readProfileState, clone, popupProfiles, prefsGet, prefsSet, profiles, groups, move, routeIcon, profileIcon, routeLabel,routeReason,routeProtocol,routeGroup,uiError,errorText,diagnosticText,diagnostic};
   if (typeof module === 'object') module.exports = root.V2R;
 })(typeof globalThis === 'object' ? globalThis : this);

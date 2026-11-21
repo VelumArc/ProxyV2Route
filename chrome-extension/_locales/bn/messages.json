@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "প্রয়োগ করা হয়েছে"
   },
+  "profileDraftPending": {
+    "message": "অসম্পূর্ণ"
+  },
   "applied": {
     "message": "প্রোফাইল সুইচ করা হয়েছে"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "প্রোফাইল মুছুন"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: নিয়ম {index}-এর জন্য URL পাথ বা কোয়েরি প্রয়োজন, যা {browser} পড়তে পারে না। হোস্টভিত্তিক নিয়ম ব্যবহার করুন।"
+  },
+  "pacBrowserLimits": {
+    "message": "PAC-এ URL পাথ/কোয়েরি পড়া সীমিত: Firefox-এ HTTP/HTTPS, Chrome-এ HTTPS। হোস্ট অনুযায়ী মিল করাই ভালো।"
   }
 }

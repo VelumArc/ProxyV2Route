@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "Primijenjeno"
   },
+  "profileDraftPending": {
+    "message": "Na čekanju"
+  },
   "applied": {
     "message": "Profil promijenjen"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "Izbriši profil"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: pravilo {index} zahtijeva putanju ili upit URL-a koje {browser} ne može pročitati. Upotrijebite pravilo za domaćina."
+  },
+  "pacBrowserLimits": {
+    "message": "PAC pristup putanji/upitu URL-a ograničen je: HTTP/HTTPS u Firefoxu, HTTPS u Chromeu. Prednost dajte podudaranju naziva domaćina."
   }
 }

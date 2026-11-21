@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "Εφαρμόστηκε"
   },
+  "profileDraftPending": {
+    "message": "Σε εκκρεμότητα"
+  },
   "applied": {
     "message": "Το προφίλ άλλαξε"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "Διαγραφή προφίλ"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: ο κανόνας {index} απαιτεί διαδρομή ή ερώτημα URL που το {browser} δεν μπορεί να διαβάσει. Χρησιμοποιήστε κανόνα κεντρικού υπολογιστή."
+  },
+  "pacBrowserLimits": {
+    "message": "Η πρόσβαση PAC στη διαδρομή/ερώτημα URL είναι περιορισμένη: HTTP/HTTPS στο Firefox, HTTPS στο Chrome. Προτιμήστε αντιστοίχιση ονόματος κεντρικού υπολογιστή."
   }
 }

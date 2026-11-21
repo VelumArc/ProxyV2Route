@@ -9,7 +9,7 @@
 
 ---
 
-**公開バージョン：**Chrome 拡張機能 1.2.72 · Firefox 拡張機能 1.2.73 · Windows 連携コンポーネント 1.2.73
+**公開バージョン：**Chrome 拡張機能 1.2.72 · Firefox 拡張機能 1.2.73 · Windows 連携コンポーネント 1.2.74
 
 **動作環境：**Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
 
@@ -19,7 +19,7 @@
 2. **[Windows 連携コンポーネントをインストール — ノード経由の接続に必須](https://github.com/VelumArc/ProxyV2Route/blob/main/INSTALL.md#windows-companion)。** Python、Xray、MTR 診断が含まれ、別途インストールする必要はありません。v2rayN は任意のノード取得元、または追従先として使えます。
 3. **接続を確認してインポート・適用。** 拡張機能の設定で接続を再確認します。接続できたら自分のノードやサブスクリプションをインポートし、プロファイルを作成して適用します。最後に IP ツールで出口 IP を確認します。
 
-> Windows インストーラーは現在未署名です。このプロジェクトはプロキシサーバーやサブスクリプションを提供しません。[完全パッケージとソースコード](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.73)
+> Windows インストーラーは現在未署名です。このプロジェクトはプロキシサーバーやサブスクリプションを提供しません。[完全パッケージとソースコード](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.74)
 
 [![Proxy V2Route のプロファイル画面](docs/assets/workspace-en.png)](docs/assets/workspace-en.png)
 

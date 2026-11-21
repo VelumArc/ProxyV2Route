@@ -9,7 +9,7 @@
 
 ---
 
-**Published versions:** Chrome extension 1.2.72 · Firefox extension 1.2.73 · Windows companion 1.2.73
+**Published versions:** Chrome extension 1.2.72 · Firefox extension 1.2.73 · Windows companion 1.2.74
 
 **Requirements:** Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
 
@@ -19,7 +19,7 @@
 2. **[Install the Windows companion — required for node routes](https://github.com/VelumArc/ProxyV2Route/blob/main/INSTALL.md#windows-companion).** The installer includes Python, Xray and MTR diagnostics; no separate installation is needed. v2rayN is only an optional node source or Follow endpoint.
 3. **Check the connection, import and connect.** Open extension **Settings** and click **Check again**. Once connected, import your own nodes or subscriptions, create a profile and click **Apply profile**, then check the exit IP in IP Tools.
 
-> The Windows installer is currently unsigned. This project does not provide proxy servers or subscriptions. [Complete package and source](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.73)
+> The Windows installer is currently unsigned. This project does not provide proxy servers or subscriptions. [Complete package and source](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.74)
 
 [![Proxy V2Route profiles workspace](docs/assets/workspace-en.png)](docs/assets/workspace-en.png)
 

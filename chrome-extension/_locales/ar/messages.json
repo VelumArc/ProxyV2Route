@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "تم التطبيق"
   },
+  "profileDraftPending": {
+    "message": "غير مكتمل"
+  },
   "applied": {
     "message": "تم تبديل الملف الشخصي"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "حذف الملف الشخصي"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: تحتاج القاعدة {index} إلى مسار URL أو استعلام لا يستطيع {browser} قراءته. استخدم قاعدة لاسم المضيف."
+  },
+  "pacBrowserLimits": {
+    "message": "الوصول إلى مسار URL والاستعلام في PAC محدود: HTTP/HTTPS في Firefox وHTTPS في Chrome. يُفضّل مطابقة اسم المضيف."
   }
 }

@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "已应用"
   },
+  "profileDraftPending": {
+    "message": "待完成"
+  },
   "applied": {
     "message": "已切换情景"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "删除情景"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "情景“{name}”第 {index} 条规则需要网址路径或查询参数，{browser} 无法读取。请改用域名规则。"
+  },
+  "pacBrowserLimits": {
+    "message": "PAC 获取网址路径/查询参数受浏览器限制：Firefox 的 HTTP/HTTPS、Chrome 的 HTTPS。建议按主机匹配。"
   }
 }

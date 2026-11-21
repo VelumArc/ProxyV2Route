@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "Anvendt"
   },
+  "profileDraftPending": {
+    "message": "Afventer"
+  },
   "applied": {
     "message": "Profil skiftet"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "Slet profil"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: regel {index} kræver en URL-sti eller forespørgsel, som {browser} ikke kan læse. Brug en værtsregel."
+  },
+  "pacBrowserLimits": {
+    "message": "PAC-adgang til URL-sti/forespørgsel er begrænset: HTTP/HTTPS i Firefox, HTTPS i Chrome. Brug helst værtsnavne til matchning."
   }
 }

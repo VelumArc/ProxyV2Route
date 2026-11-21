@@ -143,7 +143,14 @@ class Installer:
         atomic_json(self.receipt,record)
     def prepare(self):
         plan=self.plan()
-        for browser in KEYS:atomic_json(self.manifest_path(browser),self.manifest(browser))
+        changes=[b for b in KEYS if not self.manifest_path(b).is_file()
+                 or json.loads(self.manifest_path(b).read_text(encoding='utf-8'))!=self.manifest(b)]
+        prior=self.previous()
+        registered_here=any(state.get('exists') and Path(state['value']).resolve()==self.manifest_path(b).resolve()
+                            for b,views in plan['before'].items() for state in views.values())
+        if changes and (registered_here or prior and prior.get('state') in ('installed','installing','failed')):
+            raise RuntimeError('Use install/upgrade to update registered host manifests / 已登记组件的宿主清单需要通过安装或升级更新。')
+        for browser in changes:atomic_json(self.manifest_path(browser),self.manifest(browser))
         return {'ok':True,'registered':False,'manifests':{b:str(self.manifest_path(b)) for b in KEYS}}
     def install(self):
         plan=self.plan()

@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "ใช้แล้ว"
   },
+  "profileDraftPending": {
+    "message": "ยังไม่สมบูรณ์"
+  },
   "applied": {
     "message": "เปลี่ยนโปรไฟล์แล้ว"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "ลบโปรไฟล์"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: กฎ {index} ต้องใช้พาธหรือคิวรี URL ที่ {browser} อ่านไม่ได้ โปรดใช้กฎตามชื่อโฮสต์"
+  },
+  "pacBrowserLimits": {
+    "message": "PAC เข้าถึงพาธ/คิวรี URL ได้จำกัด: HTTP/HTTPS ใน Firefox และ HTTPS ใน Chrome แนะนำให้จับคู่ตามชื่อโฮสต์"
   }
 }

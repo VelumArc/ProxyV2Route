@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "הוחל"
   },
+  "profileDraftPending": {
+    "message": "טרם הושלם"
+  },
   "applied": {
     "message": "הפרופיל הוחלף"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "מחיקת הפרופיל"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: כלל {index} דורש נתיב או שאילתת URL ש-{browser} אינו יכול לקרוא. יש להשתמש בכלל לפי שם מארח."
+  },
+  "pacBrowserLimits": {
+    "message": "גישת PAC לנתיב/שאילתת URL מוגבלת: HTTP/HTTPS ב-Firefox,‏ HTTPS ב-Chrome. עדיף להתאים לפי שם מארח."
   }
 }

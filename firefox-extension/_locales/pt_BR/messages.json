@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "Aplicado"
   },
+  "profileDraftPending": {
+    "message": "Pendente"
+  },
   "applied": {
     "message": "Perfil alterado"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "Excluir perfil"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: a regra {index} precisa de um caminho ou consulta de URL que {browser} não consegue ler. Use uma regra de host."
+  },
+  "pacBrowserLimits": {
+    "message": "O acesso do PAC ao caminho/consulta da URL é limitado: HTTP/HTTPS no Firefox, HTTPS no Chrome. Prefira a correspondência por host."
   }
 }

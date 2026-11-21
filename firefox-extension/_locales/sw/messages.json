@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "Imetumika"
   },
+  "profileDraftPending": {
+    "message": "Haujakamilika"
+  },
   "applied": {
     "message": "Wasifu umebadilishwa"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "Futa wasifu"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: kanuni {index} inahitaji njia au hoja ya URL ambayo {browser} haiwezi kusoma. Tumia kanuni ya mwenyeji."
+  },
+  "pacBrowserLimits": {
+    "message": "Ufikiaji wa PAC kwa njia/hoja ya URL una mipaka: HTTP/HTTPS katika Firefox, HTTPS katika Chrome. Pendelea kulinganisha jina la mwenyeji."
   }
 }

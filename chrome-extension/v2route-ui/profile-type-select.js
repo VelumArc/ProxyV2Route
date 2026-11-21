@@ -102,6 +102,8 @@
     });
     control.addEventListener('focusout',event=>{if(opened&&!control.contains(event.relatedTarget))close();});
     menu.addEventListener('pointerdown',event=>event.preventDefault());
+    // Firefox can still move focus on the compatibility mouse event.
+    menu.addEventListener('mousedown',event=>event.preventDefault());
     select.addEventListener('change',sync);select.addEventListener('input',sync);
     Object.defineProperty(select,'value',{configurable:true,enumerable:descriptor.enumerable,get(){return descriptor.get.call(this);},set(value){descriptor.set.call(this,value);sync();}});
     const optionObserver=new MutationObserver(rebuild);optionObserver.observe(select,{childList:true,subtree:true,characterData:true,attributes:true,attributeFilter:['disabled','selected','label']});

@@ -4,11 +4,13 @@
 
 [简体中文](#zh-install) · [English](#en-install) · [下载 / Downloads](#downloads) · [自行构建 / Build from source](SOURCES.md)
 
-当前公开版本 / Current releases: **Chrome 1.2.72 · Firefox 1.2.73 · Windows 配套组件 / companion 1.2.73**
+当前公开版本 / Current releases: **Chrome 1.2.72 · Firefox 1.2.73 · Windows 配套组件 / companion 1.2.74**
+
+扩展 1.2.74 更新包需另行提交商店审核；上方是当前商店版本。Extension update packages 1.2.74 require a separate submission for store review; current store versions are shown above.
 
 <a id="windows-companion"></a>
 
-## [下载 Windows 必备组件安装器 / Download Windows companion](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.73/Proxy-V2Route-Setup-1.2.73-Windows-x64.exe)
+## [下载 Windows 必备组件安装器 / Download Windows companion](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.74/Proxy-V2Route-Setup-1.2.74-Windows-x64.exe)
 
 **节点线路必须安装此组件。** 安装器已含 Python、Xray 与 MTR 诊断；v2rayN 可选，无需另装核心或 MTR 工具。Windows 安装器目前未作代码签名。
 
@@ -22,10 +24,10 @@
 | --- | --- |
 | <a id="chrome"></a>日常安装 Chrome / Install Chrome extension | [Chrome 应用商店 / Chrome Web Store](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm) |
 | <a id="firefox"></a>日常安装 Firefox / Install Firefox extension | [Firefox 附加组件商店 / Firefox Add-ons](https://addons.mozilla.org/firefox/addon/proxy-v2route/) |
-| Windows 节点组件 / Windows node companion | [安装器 1.2.73 / Installer](#windows-companion) |
-| Firefox 离线安装 / Offline Firefox installation | [Mozilla 签名 XPI / Signed XPI](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.73/Proxy-V2Route-Firefox-1.2.73-signed.xpi) |
-| 给普通用户的组合包 / Customer bundle | [Windows 安装器 + 签名 Firefox + 安装说明](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.73/Proxy-V2Route-1.2.73-Customer-20261121.zip) |
-| 本地测试与源码 / Local testing and source | [完整本地包、源码与校验信息 / Release files](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.73) |
+| Windows 节点组件 / Windows node companion | [安装器 1.2.74 / Installer](#windows-companion) |
+| Firefox 离线安装 / Offline Firefox installation | [Mozilla 签名 XPI 1.2.73 / Signed XPI](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.73/Proxy-V2Route-Firefox-1.2.73-signed.xpi) |
+| 给普通用户的组合包 / Customer bundle | [Windows 1.2.74 + Firefox 签名版 1.2.73 + 安装说明](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.74/Proxy-V2Route-1.2.74-Customer-20261122.zip) |
+| 本地测试与源码 / Local testing and source | [完整本地包、源码与校验信息 / Release files](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.74) |
 
 <a id="zh-install"></a>
 
@@ -58,9 +60,9 @@
 | 自动切换 | 设置默认直连或系统代理，在规则右侧选择节点库线路。按顺序使用第一条命中规则；节点目标失效时报告错误，不改走其他线路。 |
 | 直连与系统情景 | 在情景列表编辑，工具栏快捷按钮使用同一套规则。直连只需配置“指定代理策略”。 |
 | 系统、节点与手动情景 | 先检查“不代理的地址”，再使用第一条命中的指定代理策略，未命中时使用情景默认线路。 |
-| 域名、IP 与端口 | 普通域名仅匹配该域名；填写 `example.com, *.example.com` 可同时覆盖主域名与子域名，共用右侧目标。`192.0.2.10:8443` 仅匹配该 IP 和端口。IP 规则不解析域名。完整网址规则每行一条。 |
+| 域名、IP 与端口 | 普通域名仅匹配该域名；填写 `example.com, *.example.com` 可同时覆盖主域名与子域名，共用右侧目标。`192.0.2.10:8443` 仅匹配该 IP 和端口。IP 规则不解析域名。完整网址规则每行一条，建议使用 `https://example.com/*` 匹配整站。本扩展的 PAC 分流规则在 Firefox 中无法读取网址路径，在 Chrome 中无法读取 HTTPS 路径，因此不能应用这些路径条件；Chrome 明确的 HTTP 规则可匹配路径。 |
 | 带规则的系统代理 | 应用时读取 Windows 手动代理配置。Windows 设置变更后，在扩展弹窗再次选择当前情景；PAC 或自动发现不能与这些系统规则组合使用。 |
-| PAC 脚本 | 保存前离线检查语法，须提供顶层同步 `FindProxyForURL` 函数。语法通过不保证脚本对所有网址都能正确执行。 |
+| PAC 脚本 | 保存前离线检查语法，须提供顶层同步 `FindProxyForURL` 函数。语法通过不保证脚本对所有网址都能正确执行；脚本同样受浏览器隐藏网址路径的限制。 |
 
 兼容要求：节点规则备份需 1.2.53 或更新版；逗号多域名规则备份需 1.2.54 或更新版；指定代理策略备份需 1.2.65 或更新版。导入节点时新建分组需配套组件 1.2.65 或更新版。
 
@@ -74,8 +76,8 @@
 
 ### 本地开发测试
 
-- **Chrome：** 解压 `Proxy-V2Route-Chrome-1.2.73.zip` 到长期保留的目录，在 `chrome://extensions` 开启开发者模式，点击“加载已解压的扩展程序”，选择含 `manifest.json` 的目录。完整本地包中对应 `chrome-extension`。
-- **Firefox：** 日常安装使用商店版或签名 XPI。`Proxy-V2Route-Firefox-1.2.73-unsigned.xpi` 与完整本地包内的 `firefox-extension` 仅用于开发测试：在 `about:debugging` →“此 Firefox”→“临时载入附加组件”选择 XPI 或 `manifest.json`；重启浏览器后失效。
+- **Chrome：** 解压 `Proxy-V2Route-Chrome-1.2.74.zip` 到长期保留的目录，在 `chrome://extensions` 开启开发者模式，点击“加载已解压的扩展程序”，选择含 `manifest.json` 的目录。完整本地包中对应 `chrome-extension`。
+- **Firefox：** 日常安装使用商店版或签名 XPI。`Proxy-V2Route-Firefox-1.2.74-unsigned.xpi` 与完整本地包内的 `firefox-extension` 仅用于开发测试：在 `about:debugging` →“此 Firefox”→“临时载入附加组件”选择 XPI 或 `manifest.json`；重启浏览器后失效。
 
 ### 常见问题
 
@@ -114,9 +116,9 @@ All three modes offer per-path status, latency and Stop in the connection-order 
 | Automatic profiles | Keep a Direct or System default and select library nodes as rule targets. The first matching rule wins; an unavailable node target reports an error rather than using another route. |
 | Direct and System profiles | Edit them in Profiles to configure the same rules used by their toolbar shortcuts. Direct only needs proxy policies. |
 | System, node and manual profiles | Bypasses take priority, then the first matching proxy policy, then the profile default. |
-| Domains, IP addresses and ports | A plain domain matches only that host. Use `example.com, *.example.com` to cover both the main domain and its subdomains with one row's target. `192.0.2.10:8443` matches that IP and port only. IP rules do not resolve domain names. Put each full URL pattern on a separate row. |
+| Domains, IP addresses and ports | A plain domain matches only that host. Use `example.com, *.example.com` to cover both the main domain and its subdomains with one row's target. `192.0.2.10:8443` matches that IP and port only. IP rules do not resolve domain names. Put each full URL pattern on a separate row; prefer an origin-wide pattern such as `https://example.com/*`. The PAC-based routing used by this extension cannot read URL paths in Firefox or HTTPS paths in Chrome, so those path-dependent conditions cannot be applied. Explicit HTTP rules in Chrome can match paths. |
 | System profiles with rules | Applying the profile takes a snapshot of manual Windows proxy settings. After changing those settings, select the current profile again in the extension popup. PAC and auto-discovery cannot be combined with these System rules. |
-| PAC scripts | Local syntax checking runs before saving and requires an explicit synchronous top-level `FindProxyForURL` function. Passing syntax validation cannot prove behavior for every URL. |
+| PAC scripts | Local syntax checking runs before saving and requires an explicit synchronous top-level `FindProxyForURL` function. Passing syntax validation cannot prove behavior for every URL; scripts have the same browser URL-path visibility limits. |
 
 Backup compatibility: node rules require version 1.2.53 or later; comma-separated domain rules require 1.2.54 or later; proxy policies require 1.2.65 or later. Importing nodes into a new group requires companion 1.2.65 or later.
 
@@ -130,8 +132,8 @@ Switch to Direct or System before running `uninstall.cmd` to unregister the comp
 
 ### Local development testing
 
-- **Chrome:** Extract `Proxy-V2Route-Chrome-1.2.73.zip` to a permanent folder. Enable Developer mode at `chrome://extensions`, choose **Load unpacked** and select the directory containing `manifest.json`. The complete local package uses the `chrome-extension` folder.
-- **Firefox:** Use the store release or signed XPI for regular installation. The local `Proxy-V2Route-Firefox-1.2.73-unsigned.xpi` and the complete local package's `firefox-extension` are for development testing only. Load the XPI or `manifest.json` through `about:debugging` → **This Firefox** → **Load Temporary Add-on**. Temporary loading lasts only until Firefox restarts.
+- **Chrome:** Extract `Proxy-V2Route-Chrome-1.2.74.zip` to a permanent folder. Enable Developer mode at `chrome://extensions`, choose **Load unpacked** and select the directory containing `manifest.json`. The complete local package uses the `chrome-extension` folder.
+- **Firefox:** Use the store release or signed XPI for regular installation. The local `Proxy-V2Route-Firefox-1.2.74-unsigned.xpi` and the complete local package's `firefox-extension` are for development testing only. Load the XPI or `manifest.json` through `about:debugging` → **This Firefox** → **Load Temporary Add-on**. Temporary loading lasts only until Firefox restarts.
 
 ### FAQ
 

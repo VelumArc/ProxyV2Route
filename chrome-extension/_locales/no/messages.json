@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "Tatt i bruk"
   },
+  "profileDraftPending": {
+    "message": "Avventer"
+  },
   "applied": {
     "message": "Profil byttet"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "Slett profil"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: regel {index} krever en URL-sti eller spørring som {browser} ikke kan lese. Bruk en vertsregel."
+  },
+  "pacBrowserLimits": {
+    "message": "PAC-tilgang til URL-sti/spørring er begrenset: HTTP/HTTPS i Firefox, HTTPS i Chrome. Foretrekk samsvar etter vertsnavn."
   }
 }

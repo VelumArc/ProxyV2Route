@@ -38,11 +38,12 @@ def select_v2(selected=None,interactive=False,rescan=False):
 
 def instructions():
     print('\nProxy V2Route companion registered for this Windows user / 本地配套程序已为当前用户注册。')
-    print('Chrome: chrome://extensions > Developer mode > Load unpacked / 开发者模式 > 加载已解压扩展：')
-    print('  '+str(ROOT/'chrome-extension'))
-    print('Enable per browser profile; allow private browsing if needed / 每个浏览器用户分别启用，需要时允许无痕。')
-    print('Firefox unsigned test: about:debugging > This Firefox > Load Temporary Add-on / 此 Firefox > 临时载入附加组件。')
-    print('Select firefox-extension/manifest.json. Temporary add-ons disappear after restart / 重启后临时扩展消失，永久安装需 Mozilla 签名。')
+    print('Chrome: https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm')
+    print('Firefox: https://addons.mozilla.org/firefox/addon/proxy-v2route/')
+    print('Installation and updates / 安装与更新：https://github.com/VelumArc/ProxyV2Route/blob/main/INSTALL.md')
+    print('In the extension, open Settings > Check again / 返回扩展，打开“设置”并点击“重新检测”。')
+    print('Firefox: enable Allow in Private Windows before applying proxy settings / Firefox 应用代理前，请在扩展详情启用“允许在隐私窗口中运行”。')
+    print('Development only: load chrome-extension in chrome://extensions, or firefox-extension/manifest.json in about:debugging / 仅开发测试：加载本地扩展目录；未签名 Firefox 包只能临时载入，重启后失效。')
     print('Use one proxy manager at a time / 请只启用一种代理管理方式，避免其他代理扩展或原窗口按钮覆盖。')
     print('v2rayN is optional: import your own supported node links in Proxy V2Route / v2rayN 可选，可在设置中导入支持的节点链接。')
     print('After moving the whole folder, run install.cmd again / 移动整个文件夹后，重新运行 install.cmd 更新注册路径。')

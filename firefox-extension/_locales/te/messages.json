@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "వర్తింపజేయబడింది"
   },
+  "profileDraftPending": {
+    "message": "అసంపూర్ణం"
+  },
   "applied": {
     "message": "ప్రొఫైల్ మార్చబడింది"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "ప్రొఫైల్‌ను తొలగించు"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: నియమం {index}కి {browser} చదవలేని URL పాత్ లేదా క్వెరీ అవసరం. హోస్ట్ ఆధారిత నియమాన్ని ఉపయోగించండి."
+  },
+  "pacBrowserLimits": {
+    "message": "PACలో URL పాత్/క్వెరీ యాక్సెస్ పరిమితం: Firefoxలో HTTP/HTTPS, Chromeలో HTTPS. హోస్ట్ పేరు ఆధారంగా సరిపోల్చడానికి ప్రాధాన్యం ఇవ్వండి."
   }
 }

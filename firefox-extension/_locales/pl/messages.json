@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "Zastosowano"
   },
+  "profileDraftPending": {
+    "message": "Oczekuje"
+  },
   "applied": {
     "message": "Profil zmieniony"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "Usuń profil"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: reguła {index} wymaga ścieżki lub zapytania URL, których {browser} nie może odczytać. Użyj reguły hosta."
+  },
+  "pacBrowserLimits": {
+    "message": "Dostęp PAC do ścieżki/zapytania URL jest ograniczony: HTTP/HTTPS w Firefox, HTTPS w Chrome. Preferuj dopasowanie nazwy hosta."
   }
 }

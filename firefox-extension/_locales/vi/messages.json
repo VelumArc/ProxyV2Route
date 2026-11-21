@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "Đã áp dụng"
   },
+  "profileDraftPending": {
+    "message": "Chờ hoàn tất"
+  },
   "applied": {
     "message": "Đã chuyển hồ sơ"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "Xóa hồ sơ"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: quy tắc {index} cần đường dẫn hoặc truy vấn URL mà {browser} không thể đọc. Hãy dùng quy tắc theo tên máy chủ."
+  },
+  "pacBrowserLimits": {
+    "message": "PAC bị hạn chế truy cập đường dẫn/truy vấn URL: HTTP/HTTPS trong Firefox, HTTPS trong Chrome. Nên khớp theo tên máy chủ."
   }
 }

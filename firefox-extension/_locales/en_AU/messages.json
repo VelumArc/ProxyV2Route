@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "Applied"
   },
+  "profileDraftPending": {
+    "message": "Pending"
+  },
   "applied": {
     "message": "Profile switched"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "Delete profile"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: rule {index} needs a URL path or query that {browser} cannot read. Use a host rule."
+  },
+  "pacBrowserLimits": {
+    "message": "PAC URL path/query access is limited: HTTP/HTTPS in Firefox, HTTPS in Chrome. Prefer host matching."
   }
 }

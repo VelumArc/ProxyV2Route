@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "已套用"
   },
+  "profileDraftPending": {
+    "message": "待完成"
+  },
   "applied": {
     "message": "已切換情景"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "刪除情境"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "情境「{name}」第 {index} 條規則需要網址路徑或查詢參數，{browser} 無法讀取。請改用網域規則。"
+  },
+  "pacBrowserLimits": {
+    "message": "PAC 取得網址路徑／查詢參數受瀏覽器限制：Firefox 的 HTTP/HTTPS、Chrome 的 HTTPS。建議依主機比對。"
   }
 }

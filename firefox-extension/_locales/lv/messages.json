@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "Lietots"
   },
+  "profileDraftPending": {
+    "message": "Gaida"
+  },
   "applied": {
     "message": "Profils mainīts"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "Dzēst profilu"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: kārtulai {index} vajadzīgs URL ceļš vai vaicājums, ko {browser} nevar nolasīt. Izmantojiet resursdatora kārtulu."
+  },
+  "pacBrowserLimits": {
+    "message": "PAC piekļuve URL ceļam/vaicājumam ir ierobežota: HTTP/HTTPS pārlūkā Firefox, HTTPS pārlūkā Chrome. Ieteicama atbilstība pēc resursdatora nosaukuma."
   }
 }

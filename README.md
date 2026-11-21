@@ -9,7 +9,7 @@
 
 ---
 
-**已发布版本：**Chrome 扩展 1.2.72 · Firefox 扩展 1.2.73 · Windows 配套组件 1.2.73
+**已发布版本：**Chrome 扩展 1.2.72 · Firefox 扩展 1.2.73 · Windows 配套组件 1.2.74
 
 **环境要求：**Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
 
@@ -19,7 +19,7 @@
 2. **[安装 Windows 配套组件——使用节点线路必需](https://github.com/VelumArc/ProxyV2Route/blob/main/INSTALL.md#windows-companion)。** 安装器已包含 Python、Xray 和 MTR 诊断，无需另装；v2rayN 仅是可选节点来源或“跟随”入口。
 3. **检查连接，导入并使用。** 打开扩展“设置”，点击“重新检测”；连接成功后导入自己的节点或订阅，创建情景并点击“应用情景”，再到 IP 工具确认出口。
 
-> Windows 安装器目前未作代码签名。本项目不提供代理服务器或订阅。[完整包与源码](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.73)
+> Windows 安装器目前未作代码签名。本项目不提供代理服务器或订阅。[完整包与源码](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.74)
 
 [![Proxy V2Route 情景工作区](docs/assets/workspace-zh.png)](docs/assets/workspace-zh.png)
 

@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "Käytössä"
   },
+  "profileDraftPending": {
+    "message": "Kesken"
+  },
   "applied": {
     "message": "Profiili vaihdettu"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "Poista profiili"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: sääntö {index} tarvitsee URL-polun tai kyselyn, jota {browser} ei voi lukea. Käytä isäntänimeen perustuvaa sääntöä."
+  },
+  "pacBrowserLimits": {
+    "message": "PAC:n pääsy URL-polkuun/kyselyyn on rajoitettu: HTTP/HTTPS Firefoxissa, HTTPS Chromessa. Suosi isäntänimeen perustuvaa vastaavuutta."
   }
 }

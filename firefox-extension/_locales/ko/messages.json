@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "적용됨"
   },
+  "profileDraftPending": {
+    "message": "미완료"
+  },
   "applied": {
     "message": "프로필이 전환되었습니다."
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "프로필 삭제"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: 규칙 {index}에 필요한 URL 경로 또는 쿼리를 {browser}에서 읽을 수 없습니다. 호스트 규칙을 사용하세요."
+  },
+  "pacBrowserLimits": {
+    "message": "PAC의 URL 경로/쿼리 접근이 제한됩니다. Firefox는 HTTP/HTTPS, Chrome은 HTTPS가 해당됩니다. 호스트 기준 일치를 권장합니다."
   }
 }

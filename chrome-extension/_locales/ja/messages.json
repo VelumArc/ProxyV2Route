@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "適用済み"
   },
+  "profileDraftPending": {
+    "message": "未完了"
+  },
   "applied": {
     "message": "プロファイルが切り替わりました"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "プロファイルを削除"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: ルール {index} に必要な URL パスまたはクエリを {browser} で読み取れません。ホスト名のルールを使用してください。"
+  },
+  "pacBrowserLimits": {
+    "message": "PAC の URL パス／クエリへのアクセスには制限があります。Firefox は HTTP/HTTPS、Chrome は HTTPS が対象です。ホスト名による照合を推奨します。"
   }
 }

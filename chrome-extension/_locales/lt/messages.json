@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "Pritaikyta"
   },
+  "profileDraftPending": {
+    "message": "Laukiama"
+  },
   "applied": {
     "message": "Profilis perjungtas"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "Ištrinti profilį"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: taisyklei {index} reikia URL kelio arba užklausos, kurių {browser} negali perskaityti. Naudokite taisyklę pagal pagrindinį kompiuterį."
+  },
+  "pacBrowserLimits": {
+    "message": "PAC prieiga prie URL kelio/užklausos ribojama: HTTP/HTTPS naršyklėje Firefox, HTTPS naršyklėje Chrome. Rekomenduojama atitiktis pagal pagrindinio kompiuterio vardą."
   }
 }

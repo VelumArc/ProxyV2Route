@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "Toegepast"
   },
+  "profileDraftPending": {
+    "message": "In afwachting"
+  },
   "applied": {
     "message": "Profiel gewijzigd"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "Profiel verwijderen"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: regel {index} vereist een URL-pad of query die {browser} niet kan lezen. Gebruik een hostregel."
+  },
+  "pacBrowserLimits": {
+    "message": "PAC-toegang tot URL-pad/query is beperkt: HTTP/HTTPS in Firefox, HTTPS in Chrome. Geef de voorkeur aan overeenkomsten op hostnaam."
   }
 }

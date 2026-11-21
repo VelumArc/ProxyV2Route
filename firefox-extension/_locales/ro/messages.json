@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "Aplicat"
   },
+  "profileDraftPending": {
+    "message": "În așteptare"
+  },
   "applied": {
     "message": "Profil schimbat"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "Șterge profilul"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: regula {index} necesită o cale sau interogare URL pe care {browser} nu o poate citi. Folosiți o regulă pentru gazdă."
+  },
+  "pacBrowserLimits": {
+    "message": "Accesul PAC la calea/interogarea URL este limitat: HTTP/HTTPS în Firefox, HTTPS în Chrome. Preferați potrivirea după gazdă."
   }
 }

@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "Alkalmazva"
   },
+  "profileDraftPending": {
+    "message": "Függőben"
+  },
   "applied": {
     "message": "Profil váltva"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "Profil törlése"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: a(z) {index}. szabály olyan URL-útvonalat vagy lekérdezést igényel, amelyet a(z) {browser} nem tud olvasni. Használjon gazdagép-alapú szabályt."
+  },
+  "pacBrowserLimits": {
+    "message": "A PAC URL-útvonalhoz/lekérdezéshez való hozzáférése korlátozott: HTTP/HTTPS a Firefoxban, HTTPS a Chrome-ban. Részesítse előnyben a gazdagépnév egyeztetését."
   }
 }

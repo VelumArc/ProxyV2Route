@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "લાગુ થઈ ગયું"
   },
+  "profileDraftPending": {
+    "message": "બાકી"
+  },
   "applied": {
     "message": "પ્રોફાઇલ સ્વિચ કરી"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "પ્રોફાઇલ કાઢી નાખો"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: નિયમ {index} માટે URL પાથ અથવા ક્વેરી જરૂરી છે, જે {browser} વાંચી શકતું નથી. હોસ્ટ આધારિત નિયમ વાપરો."
+  },
+  "pacBrowserLimits": {
+    "message": "PAC માં URL પાથ/ક્વેરીની ઍક્સેસ મર્યાદિત છે: Firefox માં HTTP/HTTPS, Chrome માં HTTPS. હોસ્ટ મુજબ મેળ કરવો વધુ યોગ્ય છે."
   }
 }

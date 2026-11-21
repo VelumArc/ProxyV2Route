@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "اعمال شد"
   },
+  "profileDraftPending": {
+    "message": "تکمیل‌نشده"
+  },
   "applied": {
     "message": "نمایه تغییر کرد"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "حذف نمایه"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: قانون {index} به مسیر یا پرس‌وجوی URL نیاز دارد که {browser} نمی‌تواند بخواند. از قانون نام میزبان استفاده کنید."
+  },
+  "pacBrowserLimits": {
+    "message": "دسترسی PAC به مسیر/پرس‌وجوی URL محدود است: HTTP/HTTPS در Firefox و HTTPS در Chrome. تطبیق بر اساس نام میزبان ترجیح دارد."
   }
 }

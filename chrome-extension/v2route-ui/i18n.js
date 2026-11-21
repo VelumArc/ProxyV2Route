@@ -59,7 +59,7 @@
     direct:'Direct network', system:'System proxy', follow:'Follow v2rayN', manual:'Manual proxy', auto:'Auto switch', pac:'PAC script', virtual:'Virtual profile',
     profileIntro:"Choose a browser route without switching v2rayN’s main route.", nodesIntro:'Browse local v2rayN nodes and your imported links.', settingsIntro:'Local connection, language and appearance.',
     refresh:'Refresh', create:'Create profile', name:'Profile name', type:'Profile type', save:'Save', saved:'Saved', saving:'Saving…', cancel:'Cancel', close:'Close',
-    deleteProfileAction:"Delete profile", systemV2rayNote:"Bypass → first matching rule → system proxy. Leave both lists empty to follow v2rayN when Windows uses it.", apply:"Apply profile", profileApplied:'Applied', applied:'Profile switched', active:'Active', delete:'Delete', remove:'Remove', rename:'Rename',
+    deleteProfileAction:"Delete profile", systemV2rayNote:"Bypass → first matching rule → system proxy. Leave both lists empty to follow v2rayN when Windows uses it.", apply:"Apply profile", profileApplied:'Applied',profileDraftPending:'Pending', applied:'Profile switched', active:'Active', delete:'Delete', remove:'Remove', rename:'Rename',
     route:'Proxy route', selectRoute:'Select a route', routeMissing:'Route unavailable — select another', chain:'Connection chain',
     connection:'Local connection', proxy:'Proxy server', address:'Address', port:'Port', scheme:'Protocol', proxyDns:'SOCKS5 DNS resolves through the proxy.', connectedIdle:'Connected · Idle',
     bypass:'Bypass list', bypassHelp:"One domain, wildcard domain, IP address or IP:port per line.", advanced:'Advanced options',
@@ -151,7 +151,7 @@
     direct:'直连网络', system:'系统代理', follow:'跟随 v2rayN', manual:'手动代理', auto:'自动切换', pac:'PAC 脚本', virtual:'虚情景',
     profileIntro:"浏览器独立选线，无需切换 v2rayN 主线路。", nodesIntro:'查看本地 v2rayN 线路和独立导入的节点。', settingsIntro:'管理本地连接、语言和外观。',
     refresh:'刷新', create:'创建情景', name:'情景名称', type:'情景类型', save:'保存', saved:'已保存', saving:'正在保存…', cancel:'取消', close:'关闭',
-    deleteProfileAction:"删除情景", systemV2rayNote:"不代理的地址 → 首条匹配策略 → 系统代理。Windows 使用 v2rayN 时，两栏留空即可跟随它。", apply:"应用情景", profileApplied:'已应用', applied:'已切换情景', active:'使用中', delete:'删除', remove:'移除', rename:'重命名', route:'代理线路', selectRoute:'选择线路', routeMissing:'线路不可用，请重新选择', chain:'连接顺序',
+    deleteProfileAction:"删除情景", systemV2rayNote:"不代理的地址 → 首条匹配策略 → 系统代理。Windows 使用 v2rayN 时，两栏留空即可跟随它。", apply:"应用情景", profileApplied:'已应用',profileDraftPending:'待完成', applied:'已切换情景', active:'使用中', delete:'删除', remove:'移除', rename:'重命名', route:'代理线路', selectRoute:'选择线路', routeMissing:'线路不可用，请重新选择', chain:'连接顺序',
      connection:'本地连接', proxy:'代理服务器', address:'地址', port:'端口', scheme:'协议', proxyDns:'SOCKS5 DNS 由代理解析。', connectedIdle:'已连接 · 待命', bypass:'不代理的地址', bypassHelp:"每行一个域名、泛域名、IP 或 IP:端口。", advanced:'高级选项',
     searchRoutes:'搜索分组或节点', selectGroup:'选择分组', empty:'没有匹配的内容', unavailable:'不可用',
     groupHint:'长按分组 250 毫秒后拖动，松开自动保存。也可用 Alt + ↑ / ↓ 排序。', searchSort:'请清空搜索后再排序。', dragHint:'上下拖动，松开保存；Esc 取消。', orderSaved:'分组顺序已保存', orderCancelled:'已取消排序',
@@ -591,6 +591,8 @@
   "noticeBodyLanguages": "完整政策正文提供英文和简体中文版本。",
   "rulesError": "每条规则都需要匹配内容和目标。"
 });
+  Object.assign(en,{"error_URL_PATH_RULE_UNSUPPORTED": "{name}: rule {index} needs a URL path or query that {browser} cannot read. Use a host rule.", "pacBrowserLimits": "PAC URL path/query access is limited: HTTP/HTTPS in Firefox, HTTPS in Chrome. Prefer host matching."});
+  Object.assign(zh,{"error_URL_PATH_RULE_UNSUPPORTED": "情景“{name}”第 {index} 条规则需要网址路径或查询参数，{browser} 无法读取。请改用域名规则。", "pacBrowserLimits": "PAC 获取网址路径/查询参数受浏览器限制：Firefox 的 HTTP/HTTPS、Chrome 的 HTTPS。建议按主机匹配。"});
   const localeCodes='ar am bg bn ca cs da de el en en_AU en_GB en_US es es_419 et fa fi fil fr gu he hi hr hu id it ja kn ko lt lv ml mr ms nl no pl pt_BR pt_PT ro ru sk sl sr sv sw ta te th tr uk vi zh_CN zh_TW'.split(' ');
   const idFor=code=>code==='zh_CN'?'zh':code.replaceAll('_','-');
   const known=new Map(localeCodes.map(code=>[idFor(code).toLowerCase(),idFor(code)]));

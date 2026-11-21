@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "Použité"
   },
+  "profileDraftPending": {
+    "message": "Nedokončené"
+  },
   "applied": {
     "message": "Profil prepnutý"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "Odstrániť profil"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: pravidlo {index} vyžaduje cestu alebo dopyt URL, ktoré {browser} nedokáže prečítať. Použite pravidlo pre hostiteľa."
+  },
+  "pacBrowserLimits": {
+    "message": "Prístup PAC k ceste/dopytu URL je obmedzený: HTTP/HTTPS vo Firefoxe, HTTPS v Chrome. Uprednostnite zhodu podľa hostiteľa."
   }
 }

@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "பயன்படுத்தப்பட்டது"
   },
+  "profileDraftPending": {
+    "message": "முழுமையற்றது"
+  },
   "applied": {
     "message": "சுயவிவரம் மாறியது"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "சுயவிவரத்தை நீக்கு"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: விதி {index}-க்கு {browser} படிக்க முடியாத URL பாதை அல்லது வினவல் தேவை. ஹோஸ்ட் அடிப்படையிலான விதியைப் பயன்படுத்தவும்."
+  },
+  "pacBrowserLimits": {
+    "message": "PAC-இல் URL பாதை/வினவல் அணுகல் வரையறுக்கப்பட்டுள்ளது: Firefox-இல் HTTP/HTTPS, Chrome-இல் HTTPS. ஹோஸ்ட் பெயரின் அடிப்படையில் பொருத்துவதை விரும்பவும்."
   }
 }

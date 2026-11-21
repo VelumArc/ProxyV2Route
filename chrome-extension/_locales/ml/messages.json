@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "പ്രയോഗിച്ചു"
   },
+  "profileDraftPending": {
+    "message": "പൂർത്തിയാകാനുണ്ട്"
+  },
   "applied": {
     "message": "പ്രൊഫൈൽ മാറി"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "പ്രൊഫൈൽ ഇല്ലാതാക്കുക"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: ചട്ടം {index}-ന് {browser}-ന് വായിക്കാനാകാത്ത URL പാതയോ ക്വറിയോ ആവശ്യമാണ്. ഹോസ്റ്റ് അടിസ്ഥാനമാക്കിയ ചട്ടം ഉപയോഗിക്കുക."
+  },
+  "pacBrowserLimits": {
+    "message": "PAC-ൽ URL പാത/ക്വറി ആക്‌സസ് പരിമിതമാണ്: Firefox-ൽ HTTP/HTTPS, Chrome-ൽ HTTPS. ഹോസ്റ്റ് പേരനുസരിച്ചുള്ള പൊരുത്തപ്പെടുത്തൽ തിരഞ്ഞെടുക്കുക."
   }
 }

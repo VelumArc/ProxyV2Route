@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "Angewendet"
   },
+  "profileDraftPending": {
+    "message": "Ausstehend"
+  },
   "applied": {
     "message": "Profil gewechselt"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "Profil löschen"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: Regel {index} benötigt einen URL-Pfad oder eine Abfrage, die {browser} nicht lesen kann. Verwenden Sie eine Host-Regel."
+  },
+  "pacBrowserLimits": {
+    "message": "PAC-Zugriff auf URL-Pfad/Abfrage ist eingeschränkt: HTTP/HTTPS in Firefox, HTTPS in Chrome. Bevorzugen Sie den Abgleich nach Hostnamen."
   }
 }

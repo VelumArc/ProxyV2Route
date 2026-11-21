@@ -6,7 +6,7 @@
     const t=k=>I18n.t('core_'+k);
     const panel=el('section','card core-panel'),state=el('p','component-status'),
       stateIcon=el('span','core-status-icon','✓'),stateLabel=el('span','core-status-label'),
-      detail=el('small','muted core-detail'),versionRow=el('div','core-version'),
+      detail=el('div','muted core-detail'),versionRow=el('div','core-version'),
       versionValue=el('span','core-version-value'),actions=el('div','setup-actions'),notice=el('p','muted');
     state.setAttribute('role','status');state.setAttribute('aria-live','polite');
     stateIcon.setAttribute('aria-hidden','true');stateIcon.hidden=true;
@@ -18,9 +18,9 @@
     check.type=install.type='button';download.href='https://github.com/VelumArc/ProxyV2Route/blob/main/INSTALL.md';
     download.target='_blank';download.rel='noopener noreferrer';
     actions.append(check,install,download);download.hidden=true;install.disabled=true;
-    let busy=false,sequence=0,canRepair=false,statusKey='',noticeKey='',detailError=null;
-    function setStatus(key,status){
-      statusKey=key;stateLabel.textContent=t(key);
+    let busy=false,refreshRequested=false,sequence=0,canRepair=false,statusKey='',noticeKey='';
+    function setStatus(key,status,shared=false){
+      statusKey=shared?key:'core_'+key;stateLabel.textContent=I18n.t(statusKey);
       state.dataset.state=status;
       stateIcon.hidden=status!=='ready';
       state.classList.toggle('error',status==='error');
@@ -30,11 +30,11 @@
       const message=clicked?V2RFeedback.begin(repair?install:check,{key:repair?install:check}):null;
       check.disabled=install.disabled=true;panel.setAttribute('aria-busy','true');
       setStatus(repair?'installing':'checking','checking');
-      versionRow.hidden=true;detailError=null;detail.textContent='';
+      versionRow.hidden=true;detail.textContent='';
       try{
         const response=await V2R.rpc(repair?'v2routeInstallCore':'v2routeCoreStatus'),value=response?.result||response;
         if(ticket!==sequence||!panel.isConnected)return;
-        if(!value||typeof value.installed!=='boolean')throw V2R.uiError('core_absent');
+        if(!value||typeof value.installed!=='boolean')throw Object.assign(new Error('Invalid core status response'),{code:'CORE_STATUS_UNAVAILABLE',details:'Invalid core status response'});
         const verified=value.installed&&value.verified===true,
           invalid=value.integrity==='checksum-mismatch',unreadable=value.integrity==='unreadable';
         const resultKey=verified?(repair?'done':'ready'):unreadable?'unreadable':invalid?'corrupt':value.installed?'external':'missing';
@@ -47,19 +47,21 @@
         message?.clear();
       }catch(error){
         if(ticket!==sequence||!panel.isConnected)return;
-        setStatus(repair?'failed':'absent','error');
-        detailError=message?null:error;detail.textContent=detailError?V2R.errorText(detailError):'';if(!repair)canRepair=false;
+        const disconnected=error?.code==='COMPANION_UNAVAILABLE',background=['backgroundUnavailable','backgroundNoResponse'].includes(error?.uiKey);
+        setStatus(disconnected?'nativeMissing':background?error.uiKey:repair?'core_failed':'error_CORE_STATUS_UNAVAILABLE','error',true);
+        detail.replaceChildren(V2R.diagnostic(error,repair?'installCore':'coreStatus'));if(!repair||disconnected||background)canRepair=false;
         message?.error(error);
-        download.hidden=false;noticeKey=repair?'failed':'absentHelp';notice.textContent=t(noticeKey);
-      }finally{busy=false;check.disabled=false;install.disabled=!canRepair;panel.removeAttribute('aria-busy');}
+        download.hidden=false;noticeKey=disconnected?'absentHelp':repair?'failed':'';notice.textContent=noticeKey?t(noticeKey):'';
+      }finally{busy=false;check.disabled=false;install.disabled=!canRepair;panel.removeAttribute('aria-busy');if(refreshRequested){refreshRequested=false;if(panel.isConnected)void run();}}
     }
     panel.refreshLabels=()=>{
       panel.querySelector('h2').textContent=t('title');panel.querySelector('p.muted').textContent=t('intro');
       panel.querySelector('.core-version-label').textContent=t('version');
       check.textContent=t('verify');install.textContent=t('install');download.textContent=t('download');
-      if(statusKey)stateLabel.textContent=t(statusKey);if(noticeKey)notice.textContent=t(noticeKey);
-      detail.textContent=detailError?V2R.errorText(detailError):'';
+      if(statusKey)stateLabel.textContent=I18n.t(statusKey);if(noticeKey)notice.textContent=t(noticeKey);
+      detail.querySelector('.native-diagnostic')?.refreshLabels();
     };
+    panel.refreshStatus=()=>{if(busy){refreshRequested=true;return;}return run();};
     check.onclick=()=>run(false,true);install.onclick=()=>run(true,true);run();return panel;
   }
   root.V2RCorePanel={create};

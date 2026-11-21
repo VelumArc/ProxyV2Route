@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "Telah digunakan"
   },
+  "profileDraftPending": {
+    "message": "Belum selesai"
+  },
   "applied": {
     "message": "Profil ditukar"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "Padam profil"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: peraturan {index} memerlukan laluan atau pertanyaan URL yang tidak dapat dibaca oleh {browser}. Gunakan peraturan hos."
+  },
+  "pacBrowserLimits": {
+    "message": "Akses PAC kepada laluan/pertanyaan URL adalah terhad: HTTP/HTTPS dalam Firefox, HTTPS dalam Chrome. Utamakan padanan hos."
   }
 }

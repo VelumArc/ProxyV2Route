@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "Nailapat"
   },
+  "profileDraftPending": {
+    "message": "Hindi pa kumpleto"
+  },
   "applied": {
     "message": "Inilipat ang profile"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "Burahin ang profile"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: kailangan ng panuntunang {index} ang URL path o query na hindi mabasa ng {browser}. Gumamit ng panuntunan para sa host."
+  },
+  "pacBrowserLimits": {
+    "message": "Limitado ang access ng PAC sa URL path/query: HTTP/HTTPS sa Firefox, HTTPS sa Chrome. Mas mainam ang pagtutugma ayon sa host."
   }
 }

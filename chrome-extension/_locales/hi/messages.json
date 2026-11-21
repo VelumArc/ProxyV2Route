@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "लागू किया गया"
   },
+  "profileDraftPending": {
+    "message": "अपूर्ण"
+  },
   "applied": {
     "message": "प्रोफ़ाइल स्विच की गई"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "प्रोफ़ाइल हटाएँ"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: नियम {index} को URL पथ या क्वेरी चाहिए जिसे {browser} पढ़ नहीं सकता। होस्ट पर आधारित नियम इस्तेमाल करें।"
+  },
+  "pacBrowserLimits": {
+    "message": "PAC में URL पथ/क्वेरी की पहुँच सीमित है: Firefox में HTTP/HTTPS, Chrome में HTTPS। होस्ट के आधार पर मिलान को प्राथमिकता दें।"
   }
 }

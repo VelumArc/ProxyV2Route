@@ -1,7 +1,7 @@
 {
   "product_id": "v2route",
   "name": "Proxy V2Route",
-  "version": "1.2.73",
+  "version": "1.2.74",
   "host_name": "local.v2route",
   "chrome_id": "gkcdkddpmeklphcmdcnijondipndjhba",
   "firefox_id": "proxy-v2route@velumarc.github.io",

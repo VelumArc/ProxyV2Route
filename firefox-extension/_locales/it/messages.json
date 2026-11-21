@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "Applicato"
   },
+  "profileDraftPending": {
+    "message": "Da completare"
+  },
   "applied": {
     "message": "Profilo cambiato"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "Elimina profilo"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: la regola {index} richiede un percorso o una query URL che {browser} non può leggere. Usa una regola per host."
+  },
+  "pacBrowserLimits": {
+    "message": "L'accesso PAC al percorso/query URL è limitato: HTTP/HTTPS in Firefox, HTTPS in Chrome. Preferisci la corrispondenza per host."
   }
 }

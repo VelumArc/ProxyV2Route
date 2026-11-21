@@ -20,10 +20,10 @@
     }
     appearance();select.before(control);control.append(select,trigger,menu);select.classList.add('themed-select-native');select.tabIndex=-1;select.setAttribute('aria-hidden','true');if(field)field.htmlFor=id;
     const enabled=()=>rows.map((row,i)=>!row.disabled?i:-1).filter(i=>i>=0);
-    function focusOption(index){
+    function focusOption(index,scroll=true){
       if(index<0||!rows[index]||rows[index].disabled)return;
       active=index;rows.forEach((row,i)=>row.element.classList.toggle('is-active',i===index));trigger.setAttribute('aria-activedescendant',rows[index].element.id);
-      rows[index].element.scrollIntoView({block:'nearest'});
+      if(scroll)rows[index].element.scrollIntoView({block:'nearest'});
     }
     function close(focus=false){
       if(opened===api)opened=null;
@@ -64,7 +64,7 @@
         if(option.parentElement.tagName==='OPTGROUP'&&option.parentElement!==group){group=option.parentElement;const title=node('div','themed-select-group');title.textContent=group.label;title.setAttribute('role','presentation');menu.append(title);}
         const element=node('div','themed-select-option'),name=node('span','themed-select-option-label'),check=node('span','themed-select-check');
         element.id=id+'-option-'+index;element.setAttribute('role','option');element.dataset.value=option.value;element.hidden=option.hidden;name.textContent=option.label;check.setAttribute('aria-hidden','true');element.append(name,check);menu.append(element);
-        element.addEventListener('pointermove',()=>{if(opened===api){menu.dataset.inputMode='pointer';focusOption(index);}});element.addEventListener('click',event=>{event.preventDefault();choose(index);});
+        element.addEventListener('pointermove',()=>{if(opened===api){menu.dataset.inputMode='pointer';focusOption(index,false);}});element.addEventListener('click',event=>{event.preventDefault();choose(index);});
         return{option,element,disabled:false};
       });sync();if(opened===api){position();focusOption(select.selectedIndex);}
     }
@@ -84,7 +84,9 @@
         if(index===undefined){search=event.key;index=find(search);}if(index!==undefined){event.preventDefault();opened===api?focusOption(index):open(index);}
       }
     });
-    control.addEventListener('focusout',event=>{if(opened===api&&!control.contains(event.relatedTarget))close();});menu.addEventListener('pointerdown',event=>event.preventDefault());
+    control.addEventListener('focusout',event=>{if(opened===api&&!control.contains(event.relatedTarget))close();});
+    // Firefox can still move focus on mousedown after a cancelled pointerdown.
+    for(const type of ['pointerdown','mousedown'])menu.addEventListener(type,event=>event.preventDefault());
     select.addEventListener('input',sync);select.addEventListener('change',sync);
     for(const key of ['value','selectedIndex']){const descriptor=Object.getOwnPropertyDescriptor(HTMLSelectElement.prototype,key);descriptors[key]=Object.getOwnPropertyDescriptor(select,key);Object.defineProperty(select,key,{configurable:true,enumerable:descriptor.enumerable,get(){return descriptor.get.call(this);},set(value){descriptor.set.call(this,value);sync();}});}
     const observer=new MutationObserver(()=>{appearance();rebuild();});observer.observe(select,{childList:true,subtree:true,characterData:true,attributes:true,attributeFilter:['disabled','selected','hidden','label','value','aria-label','aria-labelledby','class','style']});

@@ -49,7 +49,7 @@ sealed class SetupAction : Button {
 }
 
 static class SetupLauncher {
-    const string Version="1.2.73";
+    const string Version="1.2.74";
     const string Payload="V2Route.Payload.zip";
     static bool Embedded { get { return Array.IndexOf(Assembly.GetExecutingAssembly().GetManifestResourceNames(),Payload)>=0; } }
     static string Base { get { return AppDomain.CurrentDomain.BaseDirectory.TrimEnd(Path.DirectorySeparatorChar); } }
@@ -137,7 +137,7 @@ static class SetupLauncher {
                         }
                     }
                     await Task.Run(()=>RunSetup(target,upgrade?"--install --upgrade":"--install"));
-                    done=true;status.Text="安装完成。返回扩展继续使用。\r\nInstalled. Return to Proxy V2Route to continue.\r\nChrome 本地加载目录："+Path.Combine(target,"chrome-extension");install.Text="完成 / Done";
+                    done=true;status.Text="安装完成。返回扩展，在“设置”中点击“重新检测”。\r\nInstalled. Open extension Settings and click Check again.";install.Text="完成 / Done";
                 }
                 catch(Exception ex){status.Text="未完成 / Not completed";MessageBox.Show(form,ex.Message,"Proxy V2Route",MessageBoxButtons.OK,MessageBoxIcon.Error);browse.Enabled=Embedded;location.ReadOnly=!Embedded;}
                 finally{working=false;install.Enabled=true;}

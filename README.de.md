@@ -9,7 +9,7 @@
 
 ---
 
-**Veröffentlichte Versionen:** Chrome-Erweiterung 1.2.72 · Firefox-Erweiterung 1.2.73 · Windows-Komponente 1.2.73
+**Veröffentlichte Versionen:** Chrome-Erweiterung 1.2.72 · Firefox-Erweiterung 1.2.73 · Windows-Komponente 1.2.74
 
 **Voraussetzungen:** Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
 
@@ -19,7 +19,7 @@
 2. **[Windows-Begleitkomponente installieren — für Knotenverbindungen erforderlich](https://github.com/VelumArc/ProxyV2Route/blob/main/INSTALL.md#windows-companion).** Python, Xray und MTR-Diagnose sind enthalten; eine separate Installation ist nicht nötig. v2rayN dient nur optional als Knotenquelle oder laufender Endpunkt.
 3. **Verbindung prüfen, importieren und verbinden.** Öffne die Einstellungen der Erweiterung und prüfe die Verbindung erneut. Sobald die Komponente verbunden ist, importiere deine Knoten oder Abonnements, erstelle ein Profil und wende es an. Prüfe anschließend die Ausgangs-IP in den IP-Werkzeugen.
 
-> Der Windows-Installer ist derzeit nicht codesigniert. Dieses Projekt stellt keine Proxy-Server oder Abonnements bereit. [Komplettpaket und Quellcode](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.73)
+> Der Windows-Installer ist derzeit nicht codesigniert. Dieses Projekt stellt keine Proxy-Server oder Abonnements bereit. [Komplettpaket und Quellcode](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.74)
 
 [![Profilansicht von Proxy V2Route](docs/assets/workspace-en.png)](docs/assets/workspace-en.png)
 

@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "Uporabljeno"
   },
+  "profileDraftPending": {
+    "message": "Nedokončano"
+  },
   "applied": {
     "message": "Profil zamenjan"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "Izbriši profil"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: pravilo {index} zahteva pot ali poizvedbo URL, ki je {browser} ne more prebrati. Uporabite pravilo za gostitelja."
+  },
+  "pacBrowserLimits": {
+    "message": "Dostop PAC do poti/poizvedbe URL je omejen: HTTP/HTTPS v Firefoxu, HTTPS v Chromu. Prednost dajte ujemanju imena gostitelja."
   }
 }

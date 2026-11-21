@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "Приложено"
   },
+  "profileDraftPending": {
+    "message": "В изчакване"
+  },
   "applied": {
     "message": "Профилът е сменен"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "Изтриване на профила"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: правило {index} изисква URL път или заявка, които {browser} не може да прочете. Използвайте правило за хост."
+  },
+  "pacBrowserLimits": {
+    "message": "Достъпът на PAC до URL път/заявка е ограничен: HTTP/HTTPS във Firefox, HTTPS в Chrome. Предпочитайте съпоставяне по хост."
   }
 }

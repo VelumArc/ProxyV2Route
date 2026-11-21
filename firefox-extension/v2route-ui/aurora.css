@@ -162,6 +162,7 @@ input[type=checkbox]{accent-color:var(--accent)}
   border-color:#ffffffdd;box-shadow:0 5px 16px #557dcd21,inset 0 1px 0 #fff;
 }
 .profile-item.selected::before{background:linear-gradient(#81c9ff,#357aff);box-shadow:0 0 9px #347eff71;width:3px}
+.profile-item.profile-draft{border:1px dashed var(--accent)}
 .profile-item .profile-symbol{background:var(--aurora-soft-glass);color:var(--accent);border:1px solid var(--aurora-stroke);box-shadow:0 2px 6px #4c83cb18}
 .active-label{color:var(--accent);background:var(--surface);box-shadow:0 1px 5px #3c6fc521}
 .profile-editor>.card{background:transparent}

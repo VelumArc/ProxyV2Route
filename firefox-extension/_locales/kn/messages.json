@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "ಅನ್ವಯಿಸಲಾಗಿದೆ"
   },
+  "profileDraftPending": {
+    "message": "ಬಾಕಿ"
+  },
   "applied": {
     "message": "ಪ್ರೊಫೈಲ್ ಬದಲಾಯಿಸಲಾಗಿದೆ"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "ಪ್ರೊಫೈಲ್ ಅಳಿಸಿ"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: ನಿಯಮ {index} ಗೆ {browser} ಓದಲು ಸಾಧ್ಯವಿಲ್ಲದ URL ಪಥ ಅಥವಾ ಪ್ರಶ್ನೆ ಅಗತ್ಯವಿದೆ. ಹೋಸ್ಟ್ ಆಧಾರಿತ ನಿಯಮ ಬಳಸಿ."
+  },
+  "pacBrowserLimits": {
+    "message": "PAC ನಲ್ಲಿ URL ಪಥ/ಪ್ರಶ್ನೆಯ ಪ್ರವೇಶ ಸೀಮಿತವಾಗಿದೆ: Firefox ನಲ್ಲಿ HTTP/HTTPS, Chrome ನಲ್ಲಿ HTTPS. ಹೋಸ್ಟ್ ಹೆಸರಿನ ಹೊಂದಾಣಿಕೆಗೆ ಆದ್ಯತೆ ನೀಡಿ."
   }
 }

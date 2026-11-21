@@ -743,6 +743,9 @@
   "profileApplied": {
     "message": "Застосовано"
   },
+  "profileDraftPending": {
+    "message": "Не завершено"
+  },
   "applied": {
     "message": "Профіль змінено"
   },
@@ -2155,5 +2158,11 @@
   },
   "deleteProfileAction": {
     "message": "Видалити профіль"
+  },
+  "error_URL_PATH_RULE_UNSUPPORTED": {
+    "message": "{name}: правилу {index} потрібен шлях або запит URL, який {browser} не може прочитати. Використовуйте правило за ім’ям хоста."
+  },
+  "pacBrowserLimits": {
+    "message": "Доступ PAC до шляху/запиту URL обмежений: HTTP/HTTPS у Firefox, HTTPS у Chrome. Надавайте перевагу зіставленню за ім’ям хоста."
   }
 }
