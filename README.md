@@ -13,11 +13,11 @@
 
 ## 三步开始使用
 
-1. **安装浏览器扩展。** Chrome 从[应用商店](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm)安装。Firefox 正在等待审核；可按[本地测试说明](INSTALL.md#firefox)临时加载未签名包，浏览器重启后需重新加载。
+1. **安装浏览器扩展。** 从 [Chrome 应用商店](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm)或 [Firefox 附加组件商店](https://addons.mozilla.org/firefox/addon/proxy-v2route/)安装。
 2. **[安装 Windows 配套组件——使用节点线路必需](https://github.com/VelumArc/ProxyV2Route/blob/main/INSTALL.md#windows-companion)。** 安装器已包含 Python、Xray 和 MTR 诊断，无需另装；v2rayN 仅是可选节点来源或“跟随”入口。
 3. **检查连接，导入并使用。** 打开扩展“设置”，点击“重新检测”；连接成功后导入自己的节点或订阅，创建情景并点击“应用情景”，再到 IP 工具确认出口。
 
-> Windows 安装器目前未作代码签名；Firefox 永久安装需 Mozilla 签名。本项目不提供代理服务器或订阅。[完整包与源码](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.73)
+> Windows 安装器目前未作代码签名。本项目不提供代理服务器或订阅。[完整包与源码](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.73)
 
 [![Proxy V2Route 情景工作区](docs/assets/workspace-zh.png)](docs/assets/workspace-zh.png)
 

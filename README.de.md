@@ -13,11 +13,11 @@
 
 ## In drei Schritten starten
 
-1. **Browser-Erweiterung installieren.** Installiere die Chrome-Erweiterung aus dem [Chrome Web Store](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm). Firefox wartet noch auf die Prüfung; die [lokale Testanleitung](INSTALL.md#firefox) erklärt, wie du das unsignierte Paket vorübergehend lädst. Nach einem Firefox-Neustart musst du es erneut laden.
+1. **Browser-Erweiterung installieren.** Installiere sie aus dem [Chrome Web Store](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm) oder von [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/proxy-v2route/).
 2. **[Windows-Begleitkomponente installieren — für Knotenverbindungen erforderlich](https://github.com/VelumArc/ProxyV2Route/blob/main/INSTALL.md#windows-companion).** Python, Xray und MTR-Diagnose sind enthalten; eine separate Installation ist nicht nötig. v2rayN dient nur optional als Knotenquelle oder laufender Endpunkt.
 3. **Verbindung prüfen, importieren und verbinden.** Öffne die Einstellungen der Erweiterung und prüfe die Verbindung erneut. Sobald die Komponente verbunden ist, importiere deine Knoten oder Abonnements, erstelle ein Profil und wende es an. Prüfe anschließend die Ausgangs-IP in den IP-Werkzeugen.
 
-> Der Windows-Installer ist derzeit nicht codesigniert. Eine dauerhafte Firefox-Installation erfordert die Signatur von Mozilla. Dieses Projekt stellt keine Proxy-Server oder Abonnements bereit. [Komplettpaket und Quellcode](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.73)
+> Der Windows-Installer ist derzeit nicht codesigniert. Dieses Projekt stellt keine Proxy-Server oder Abonnements bereit. [Komplettpaket und Quellcode](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.73)
 
 [![Profilansicht von Proxy V2Route](docs/assets/workspace-en.png)](docs/assets/workspace-en.png)
 

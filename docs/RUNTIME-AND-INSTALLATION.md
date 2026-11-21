@@ -6,8 +6,8 @@ Proxy V2Route 1.2.73
 | --- | --- |
 | Windows | 10 / 11 x64 |
 | .NET Framework | 4.5.2+ |
-| Chrome | 120+ |
-| Firefox | 140+，当前测试包临时加载 / Temporary loading for the unsigned test package |
+| Chrome | 120+，[Chrome Web Store](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm) |
+| Firefox | 140+，[Firefox Add-ons](https://addons.mozilla.org/firefox/addon/proxy-v2route/) |
 
 完整 Windows 包包含 Python、Xray 和 `local.v2route` Native Messaging 宿主。组件按 Windows 用户注册，扩展身份需与宿主白名单匹配，安装目录需长期保留且可写。
 

@@ -219,6 +219,7 @@ th, td { text-align: left; vertical-align: top; padding: 12px; border-bottom: 1p
   .hero-intro { margin-top: 17px; }
   .hero-lede { font-size: .96rem; line-height: 1.9; }
   .actions { gap: 13px 18px; margin-top: 20px; }
+  .hero .actions .button { flex: 0 0 100%; }
   .platforms { font-size: .67rem; gap: 6px; margin-top: 17px; }
   .workspace-preview { padding: 5px; border-radius: 18px; }
   .preview-bar { padding: 8px 9px 11px; font-size: .73rem; }

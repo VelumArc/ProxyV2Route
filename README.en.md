@@ -13,11 +13,11 @@
 
 ## Get started in three steps
 
-1. **Install the browser extension.** Install the Chrome extension from the [Chrome Web Store](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm). Firefox is awaiting review; follow the [local testing guide](INSTALL.md#firefox) to load the unsigned package temporarily, and reload it after restarting Firefox.
+1. **Install the browser extension.** Get it from the [Chrome Web Store](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm) or [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/proxy-v2route/).
 2. **[Install the Windows companion — required for node routes](https://github.com/VelumArc/ProxyV2Route/blob/main/INSTALL.md#windows-companion).** The installer includes Python, Xray and MTR diagnostics; no separate installation is needed. v2rayN is only an optional node source or Follow endpoint.
 3. **Check the connection, import and connect.** Open extension **Settings** and click **Check again**. Once connected, import your own nodes or subscriptions, create a profile and click **Apply profile**, then check the exit IP in IP Tools.
 
-> The Windows installer is currently unsigned. Permanent Firefox installation requires Mozilla signing. This project does not provide proxy servers or subscriptions. [Complete package and source](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.73)
+> The Windows installer is currently unsigned. This project does not provide proxy servers or subscriptions. [Complete package and source](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.73)
 
 [![Proxy V2Route profiles workspace](docs/assets/workspace-en.png)](docs/assets/workspace-en.png)
 

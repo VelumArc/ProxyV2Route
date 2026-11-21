@@ -1,6 +1,8 @@
 # 安装与升级 / Installation
 
-**Proxy V2Route 1.2.73** · Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
+**Proxy V2Route** · Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
+
+当前商店版本 / Current store versions: **Chrome 1.2.72 · Firefox 1.2.73**。Windows 配套组件 / Windows companion: **1.2.73**。
 
 <a id="windows-companion"></a>
 
@@ -14,9 +16,9 @@
 
 ## 三步开始使用 / Get started in three steps
 
-1. **安装浏览器扩展。** Chrome 从[应用商店](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm)安装；Firefox 正在等待审核，可按下方 [Firefox 测试说明](#firefox)临时加载未签名包。
+1. **安装浏览器扩展。** 从 [Chrome 应用商店](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm)或 [Firefox 附加组件商店](https://addons.mozilla.org/firefox/addon/proxy-v2route/)安装。
 
-   **Install the browser extension.** Get the Chrome extension from the [Chrome Web Store](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm). Firefox is awaiting review; use the [Firefox testing instructions](#firefox) below to load the unsigned package temporarily.
+   **Install the browser extension.** Get it from the [Chrome Web Store](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm) or [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/proxy-v2route/).
 
 2. **安装 Windows 配套组件。** 运行[上方安装器](#windows-companion)，选择可长期保留、可写的新空文件夹，再点击“安装”。组件为当前 Windows 用户注册；若使用完整 ZIP，运行其中的 `V2Route-Setup.exe` 会直接注册当前目录。
 
@@ -40,9 +42,15 @@ Extract the Chrome ZIP to a permanent folder. Enable Developer mode at `chrome:/
 
 ### Firefox
 
-Firefox 1.2.73 正在等待审核，当前本地测试包未签名。进入 `about:debugging` →“此 Firefox”→“临时载入附加组件”，选择 `Proxy-V2Route-Firefox-1.2.73-unsigned.xpi` 或 `firefox-extension/manifest.json`。临时加载在浏览器重启后失效，永久安装需要 Mozilla 签名。
+从 [Firefox 附加组件商店](https://addons.mozilla.org/firefox/addon/proxy-v2route/)安装正式发布版，无需临时加载，浏览器重启后仍可使用。
 
-Firefox 1.2.73 is awaiting review; the local test package is unsigned. Load it through `about:debugging` → **This Firefox** → **Load Temporary Add-on**, selecting the unsigned XPI or `firefox-extension/manifest.json`. Temporary loading lasts until Firefox restarts. Permanent installation requires Mozilla signing.
+Install the public release from [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/proxy-v2route/). It remains installed after Firefox restarts; temporary loading is not required.
+
+离线安装 / Offline installation: [Firefox 1.2.73 签名包 / signed XPI](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.73/Proxy-V2Route-Firefox-1.2.73-signed.xpi) · [完整用户安装包 / Customer bundle](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.73/Proxy-V2Route-1.2.73-Customer-20261121.zip)。
+
+仅开发测试：本地 `Proxy-V2Route-Firefox-1.2.73-unsigned.xpi` 与完整包内的 `firefox-extension` 未签名。进入 `about:debugging` →“此 Firefox”→“临时载入附加组件”，选择 XPI 或 `manifest.json`。此方式在浏览器重启后失效。
+
+Development testing only: the local `Proxy-V2Route-Firefox-1.2.73-unsigned.xpi` and the complete package's `firefox-extension` are unsigned. Load the XPI or `manifest.json` through `about:debugging` → **This Firefox** → **Load Temporary Add-on**. This loading method lasts only until Firefox restarts.
 
 每个浏览器用户需分别启用扩展，无痕访问需在扩展详情中允许。
 

@@ -13,11 +13,11 @@
 
 ## 三步開始使用
 
-1. **安裝瀏覽器擴充套件。** Chrome 可從[線上應用程式商店](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm)安裝。Firefox 正在等待審核；可依[本機測試說明](INSTALL.md#firefox)暫時載入未簽署套件，瀏覽器重新啟動後需再次載入。
+1. **安裝瀏覽器擴充套件。** 從 [Chrome 線上應用程式商店](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm)或 [Firefox 附加元件商店](https://addons.mozilla.org/firefox/addon/proxy-v2route/)安裝。
 2. **[安裝 Windows 配套元件——使用節點路線必需](https://github.com/VelumArc/ProxyV2Route/blob/main/INSTALL.md#windows-companion)。** 安裝程式已包含 Python、Xray 與 MTR 診斷，不必另裝；v2rayN 僅是選用的節點來源或「跟隨」入口。
 3. **檢查連線，匯入並使用。** 開啟擴充套件「設定」，點選「重新檢測」；連線成功後匯入自己的節點或訂閱，建立情境並點選「套用情境」，再到 IP 工具確認出口。
 
-> Windows 安裝程式目前未經程式碼簽章；Firefox 永久安裝需要 Mozilla 簽署。本專案不提供代理伺服器或訂閱。[完整套件與原始碼](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.73)
+> Windows 安裝程式目前未經程式碼簽章。本專案不提供代理伺服器或訂閱。[完整套件與原始碼](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.73)
 
 [![Proxy V2Route 情境工作區](docs/assets/workspace-zh.png)](docs/assets/workspace-zh.png)
 
