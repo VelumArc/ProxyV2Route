@@ -20,9 +20,9 @@ Export profiles includes the selected nodes' runtime configurations, credentials
 
 ## Exit IP and external tools / 出口 IP 与外部工具
 
-Opening the popup or IP workspace, successfully switching routes, or requesting status triggers bounded exit-IP checks through ipify. Ping0 reports require optional site access. IP tools pre-fill the current browser exit IP; Globalping sends the displayed target to up to three probes in the selected region only after Start, including a China option. Probe availability varies; ICMP loss alone does not establish filtering. Domain checks use GreatFire. FAST.com is a separate embedded speed provider. Each provider receives normal connection data and handles it under its own privacy policy.
+Opening the popup or IP workspace, successfully switching routes, or requesting status triggers bounded exit-IP checks through ipify. Ping0 reports require optional site access. Firefox also requires the optional locationInfo data permission for IP-based location in these reports; this is not device geolocation access. IP tools pre-fill the current browser exit IP; Globalping sends the displayed target to up to three probes in the selected region only after Start, including a China option. Probe availability varies; ICMP loss alone does not establish filtering. Domain checks use GreatFire. FAST.com is a separate embedded speed provider. Each provider receives normal connection data and handles it under its own privacy policy.
 
-打开弹窗或 IP 工具页、成功切换线路或执行状态检查时，会向 ipify 发起有时限的出口 IP 检测。Ping0 报告需允许对应站点访问。IP 工具默认填写当前出口 IP；Globalping 点击开始才向所选区域的最多三个探针发送目标，支持选择中国；可用探针会变化，ICMP 丢包本身不能证明被墙。域名检测使用 GreatFire，FAST.com 为独立嵌入测速站点。服务商会接收常规连接信息，并按自身政策处理。
+打开弹窗或 IP 工具页、成功切换线路或执行状态检查时，会向 ipify 发起有时限的出口 IP 检测。Ping0 报告需允许对应站点访问。Firefox 还需允许可选的 locationInfo 数据许可，用于报告中的 IP 归属地；这不是设备定位权限。IP 工具默认填写当前出口 IP；Globalping 点击开始才向所选区域的最多三个探针发送目标，支持选择中国；可用探针会变化，ICMP 丢包本身不能证明被墙。域名检测使用 GreatFire，FAST.com 为独立嵌入测速站点。服务商会接收常规连接信息，并按自身政策处理。
 
 ## Website checks / 网站检测
 

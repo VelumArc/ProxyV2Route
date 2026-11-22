@@ -6,7 +6,7 @@
     "message": "example.com, *.example.org, 192.0.2.1:8443"
   },
   "rulePatternHelp": {
-    "message": "アドレスはカンマ区切り。URL パターンは1行に1件。PAC では HTTPS のパスが見えない場合があります。"
+    "message": "アドレスはカンマ区切り。URL パターンは1行に1件。PAC の URL パス／クエリへのアクセスには制限があります。Firefox は HTTP/HTTPS、Chrome は HTTPS が対象です。ホスト名による照合を推奨します。"
   },
   "defaultChoice_direct": {
     "message": "プロキシなしで接続する"
@@ -1887,10 +1887,10 @@
     "message": "このグループは未対応の後段プロキシを使用しています。"
   },
   "error_NATIVE_UNSUPPORTED_CUSTOM": {
-    "message": "このバージョンはカスタムアウトバウンド設定に対応していません。"
+    "message": "このカスタムアウトバウンドのレコード形式には対応していません。"
   },
   "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
-    "message": "このバージョンはHysteria2に対応していません。"
+    "message": "このHysteria2ノードのレコード形式には対応していません。"
   },
   "error_NATIVE_UNSUPPORTED_TUIC": {
     "message": "このバージョンにはTUICに必要なsing-boxコアが統合されていません。"

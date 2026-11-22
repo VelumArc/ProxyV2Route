@@ -6,7 +6,7 @@
     "message": "example.com, *.example.org, 192.0.2.1:8443"
   },
   "rulePatternHelp": {
-    "message": "Adressen durch Kommas trennen. Jedes URL-Muster in eine eigene Zeile. HTTPS-Pfade sind für PAC möglicherweise nicht sichtbar."
+    "message": "Adressen durch Kommas trennen. Jedes URL-Muster in eine eigene Zeile. PAC-Zugriff auf URL-Pfad/Abfrage ist eingeschränkt: HTTP/HTTPS in Firefox, HTTPS in Chrome. Bevorzugen Sie den Abgleich nach Hostnamen."
   },
   "defaultChoice_direct": {
     "message": "Verbindung ohne Proxy herstellen"
@@ -1887,10 +1887,10 @@
     "message": "Diese Gruppe verwendet einen nicht unterstützten nachgeschalteten Proxy."
   },
   "error_NATIVE_UNSUPPORTED_CUSTOM": {
-    "message": "Diese Version unterstützt keine benutzerdefinierten Ausgangskonfigurationen."
+    "message": "Dieses Datensatzformat für einen benutzerdefinierten Ausgang wird nicht unterstützt."
   },
   "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
-    "message": "Diese Version unterstützt Hysteria2 nicht."
+    "message": "Dieses Datensatzformat für einen Hysteria2-Knoten wird nicht unterstützt."
   },
   "error_NATIVE_UNSUPPORTED_TUIC": {
     "message": "Diese Version integriert nicht den für TUIC erforderlichen sing-box-Kern."

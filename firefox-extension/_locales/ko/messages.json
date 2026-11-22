@@ -6,7 +6,7 @@
     "message": "example.com, *.example.org, 192.0.2.1:8443"
   },
   "rulePatternHelp": {
-    "message": "주소는 쉼표로 구분하고 URL 패턴은 각 행에 따로 입력하세요. PAC에서 HTTPS 경로를 볼 수 없을 수 있습니다."
+    "message": "주소는 쉼표로 구분하고 URL 패턴은 각 행에 따로 입력하세요. PAC의 URL 경로/쿼리 접근이 제한됩니다. Firefox는 HTTP/HTTPS, Chrome은 HTTPS가 해당됩니다. 호스트 기준 일치를 권장합니다."
   },
   "defaultChoice_direct": {
     "message": "프록시 없이 연결"
@@ -1887,10 +1887,10 @@
     "message": "이 그룹은 지원되지 않는 후행 프록시를 사용합니다."
   },
   "error_NATIVE_UNSUPPORTED_CUSTOM": {
-    "message": "이 버전은 사용자 지정 아웃바운드 설정을 지원하지 않습니다."
+    "message": "이 사용자 지정 아웃바운드 레코드 형식은 지원되지 않습니다."
   },
   "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
-    "message": "이 버전은 Hysteria2를 지원하지 않습니다."
+    "message": "이 Hysteria2 노드 레코드 형식은 지원되지 않습니다."
   },
   "error_NATIVE_UNSUPPORTED_TUIC": {
     "message": "이 버전에는 TUIC에 필요한 sing-box 코어가 통합되어 있지 않습니다."

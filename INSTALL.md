@@ -26,10 +26,8 @@
 | <a id="firefox"></a>日常安装 Firefox / Install Firefox extension | [Firefox 附加组件商店 / Firefox Add-ons](https://addons.mozilla.org/firefox/addon/proxy-v2route/) |
 | Windows 节点组件 / Windows node companion | [安装器 1.2.74 / Installer](#windows-companion) |
 | Firefox 离线安装 / Offline Firefox installation | [Firefox XPI 1.2.74（AMO 官方）/ Official AMO XPI](https://addons.mozilla.org/firefox/downloads/file/5288404/proxy_v2route-1.2.74.xpi) |
-| 历史组合包（2026-11-22）/ Archived customer bundle | [Windows 1.2.74 + Firefox 1.2.73 + 安装说明 / guide](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.74/Proxy-V2Route-1.2.74-Customer-20261122.zip) |
+| 普通用户组合包 / Customer bundle | [Windows 1.2.74 + Firefox 签名版 / signed 1.2.74 + 安装说明 / guide](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.74/Proxy-V2Route-1.2.74-Customer-20261122-AMO.zip) |
 | 本地测试与源码 / Local testing and source | [完整本地包、源码与校验信息 / Release files](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.74) |
-
-历史组合包内的 Firefox 为 1.2.73；请用上方商店或官方 XPI 获取 1.2.74。The archived bundle contains Firefox 1.2.73; use the store or official XPI above for 1.2.74.
 
 <a id="zh-install"></a>
 

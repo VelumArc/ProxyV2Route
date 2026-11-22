@@ -25,9 +25,9 @@ CONFIG_TYPE_NAMES = {**PROTOCOLS,2:'Custom',7:'Hysteria2',8:'TUIC',9:'WireGuard'
     10:'HTTP',11:'AnyTLS',12:'Naive',13:'自定义出站',14:'MASQUE',
     101:'策略组',102:'代理链'}
 UNSUPPORTED_TYPE_MESSAGES = {
-    7:'当前增强版尚未适配 Hysteria2（不是本机缺少核心）',
+    7:'不支持此 Hysteria2 节点记录格式。',
     8:'当前增强版尚未接入 TUIC 所需的 sing-box 核心',
-    13:'当前增强版尚未适配自定义出站配置',
+    13:'不支持此自定义出站记录格式。',
 }
 
 def route_error(code,message):

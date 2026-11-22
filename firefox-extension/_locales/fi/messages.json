@@ -6,7 +6,7 @@
     "message": "example.com, *.example.org, 192.0.2.1:8443"
   },
   "rulePatternHelp": {
-    "message": "Erota osoitteet pilkuilla. Jokainen URL-malli omalle rivilleen. PAC ei välttämättä näe HTTPS-polkuja."
+    "message": "Erota osoitteet pilkuilla. Jokainen URL-malli omalle rivilleen. PAC:n pääsy URL-polkuun/kyselyyn on rajoitettu: HTTP/HTTPS Firefoxissa, HTTPS Chromessa. Suosi isäntänimeen perustuvaa vastaavuutta."
   },
   "defaultChoice_direct": {
     "message": "Yhdistä ilman välityspalvelinta"
@@ -1887,10 +1887,10 @@
     "message": "Tämä ryhmä käyttää seuraavaa välityspalvelinta, jota ei tueta."
   },
   "error_NATIVE_UNSUPPORTED_CUSTOM": {
-    "message": "Tämä versio ei tue mukautettuja ulostulomäärityksiä."
+    "message": "Tätä mukautetun ulostulon tietuemuotoa ei tueta."
   },
   "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
-    "message": "Tämä versio ei tue Hysteria2:ta."
+    "message": "Tätä Hysteria2-solmun tietuemuotoa ei tueta."
   },
   "error_NATIVE_UNSUPPORTED_TUIC": {
     "message": "Tämä versio ei sisällä TUIC:n tarvitsemaa sing-box-ydintä."

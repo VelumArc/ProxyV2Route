@@ -27,6 +27,10 @@
 
   获得站点许可后，报告直接读取失败时可在可见或后台的 Ping0 原站标签页读取有界报告文字和原始官网链接；需要验证时打开原网页由用户处理，不代答验证、不导出 Cookie 或令牌、不改变全局 Cookie 设置。
 
+- Firefox also requires the optional `locationInfo` data permission for IP-based location in Ping0 reports. This is not the device `geolocation` permission.
+
+  Firefox 还需允许可选的 `locationInfo` 数据许可，用于 Ping0 报告中的 IP 归属地；这不是设备定位（`geolocation`）权限。
+
 ## Other network tools / 其他网络工具
 
 Other public tools use ordinary browser requests or contained frames, loaded only after user action. No node-list or credential upload is performed by these tools. / 其他公开工具仅在本人操作后发送普通请求或加载嵌入页，不上传节点列表或账密。

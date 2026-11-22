@@ -6,7 +6,7 @@
     "message": "example.com, *.example.org, 192.0.2.1:8443"
   },
   "rulePatternHelp": {
-    "message": "Paghiwalayin ang mga address gamit ang kuwit. Isang URL pattern bawat linya. Maaaring hindi makita ng PAC ang mga HTTPS path."
+    "message": "Paghiwalayin ang mga address gamit ang kuwit. Isang URL pattern bawat linya. Limitado ang access ng PAC sa URL path/query: HTTP/HTTPS sa Firefox, HTTPS sa Chrome. Mas mainam ang pagtutugma ayon sa host."
   },
   "defaultChoice_direct": {
     "message": "Kumonekta nang walang proxy"
@@ -1887,10 +1887,10 @@
     "message": "Gumagamit ang grupong ito ng successor proxy na hindi sinusuportahan."
   },
   "error_NATIVE_UNSUPPORTED_CUSTOM": {
-    "message": "Hindi sinusuportahan ng bersyong ito ang mga custom outbound configuration."
+    "message": "Hindi sinusuportahan ang format na ito ng custom outbound record."
   },
   "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
-    "message": "Hindi sinusuportahan ng bersyong ito ang Hysteria2."
+    "message": "Hindi sinusuportahan ang format na ito ng Hysteria2 node record."
   },
   "error_NATIVE_UNSUPPORTED_TUIC": {
     "message": "Hindi kasama sa bersyong ito ang sing-box core na kailangan ng TUIC."

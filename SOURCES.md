@@ -29,8 +29,8 @@ Proxy V2Route-authored code uses **GPL-3.0-or-later**. Third-party components re
 | flag-icons | 7.6.0 | MIT · `assets/FLAG-ICONS-LICENSE` · [Source](https://github.com/lipis/flag-icons) |
 | CPython embedded, Windows amd64 | 3.13.17 | PSF + bundled third-party licenses · `licenses/python` · [Distribution](https://www.python.org/ftp/python/3.13.17/) |
 | Xray-core, Windows64 | v26.10.31 | MPL-2.0 · `licenses/xray` · [Source](https://github.com/XTLS/Xray-core/releases/tag/v26.10.31) |
-| parse5 / entities | 7.3.0 / 6.0.1 | MIT / BSD-2-Clause · `v2route-ui/vendor/HTML-PARSER-LICENSE.txt` · [Build recipe](vendor-html/README.md) |
-| Acorn（离线 PAC 语法解析 / offline PAC syntax parser） | 8.15.0 | MIT · `v2route-ui/vendor/acorn/LICENSE.txt` · [Source](https://github.com/acornjs/acorn/tree/8.15.0) |
+| parse5 / entities | 7.3.0 / 6.0.1 | MIT / BSD-2-Clause · [Chrome license](chrome-extension/v2route-ui/vendor/HTML-PARSER-LICENSE.txt) / [Firefox license](firefox-extension/v2route-ui/vendor/HTML-PARSER-LICENSE.txt) · [Build recipe](vendor-html/README.md) |
+| Acorn（离线 PAC 语法解析 / offline PAC syntax parser） | 8.15.0 | MIT · [Chrome license](chrome-extension/v2route-ui/vendor/acorn/LICENSE.txt) / [Firefox license](firefox-extension/v2route-ui/vendor/acorn/LICENSE.txt) · [Source](https://github.com/acornjs/acorn/tree/8.15.0) |
 | PyYAML | 6.0.3 | MIT · `licenses/pyyaml` · [Source](https://github.com/yaml/pyyaml/tree/6.0.3) |
 
 <a id="zh-build"></a>

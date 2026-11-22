@@ -5,6 +5,8 @@
 - **Speed / 测速**: one compact Cloudflare dialog offers download + upload or either direction, HTTP latency, live per-second rates and final averages. Each phase has a 10/50/100 MiB limit. FAST.com remains a separate provider.
 - Ping0 report failures offer a gray same-IP source dialog. The dialog has reload and page-maximize controls; maximizing fills the current browser viewport without entering monitor fullscreen. Site verification remains manual; embedded session recovery does not certify that the provider accepted a verification.
 
+Firefox Ping0 reports also require the optional `locationInfo` data permission for IP-based location, not device geolocation access. / Firefox 的 Ping0 报告还需允许可选的 `locationInfo` 数据许可，用于 IP 归属地，不是设备定位权限。
+
 网络测试是特定时刻、特定测量路径的结果。网站“已响应”不等于地区解锁；远端探针无法单凭一条超时证明 IP 被墙。关闭弹窗停止本地测试。
 
 情景与代理链配置见[安装说明](../INSTALL.md)，选齐节点后保存并应用。

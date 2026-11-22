@@ -6,7 +6,7 @@
     "message": "example.com, *.example.org, 192.0.2.1:8443"
   },
   "rulePatternHelp": {
-    "message": "คั่นที่อยู่ด้วยจุลภาค แยกรูปแบบ URL ไว้บรรทัดละรายการ PAC อาจไม่เห็นพาธ HTTPS"
+    "message": "คั่นที่อยู่ด้วยจุลภาค แยกรูปแบบ URL ไว้บรรทัดละรายการ PAC เข้าถึงพาธ/คิวรี URL ได้จำกัด: HTTP/HTTPS ใน Firefox และ HTTPS ใน Chrome แนะนำให้จับคู่ตามชื่อโฮสต์"
   },
   "defaultChoice_direct": {
     "message": "เชื่อมต่อโดยไม่ต้องใช้พรอกซี"
@@ -1887,10 +1887,10 @@
     "message": "กลุ่มนี้ใช้พร็อกซีถัดไปที่ไม่รองรับ"
   },
   "error_NATIVE_UNSUPPORTED_CUSTOM": {
-    "message": "เวอร์ชันนี้ไม่รองรับการกำหนดค่าขาออกแบบกำหนดเอง"
+    "message": "ไม่รองรับรูปแบบระเบียนขาออกแบบกำหนดเองนี้"
   },
   "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
-    "message": "เวอร์ชันนี้ไม่รองรับ Hysteria2"
+    "message": "ไม่รองรับรูปแบบระเบียนโหนด Hysteria2 นี้"
   },
   "error_NATIVE_UNSUPPORTED_TUIC": {
     "message": "เวอร์ชันนี้ไม่ได้รวมคอร์ sing-box ที่ TUIC ต้องใช้"

@@ -6,7 +6,7 @@
     "message": "example.com, *.example.org, 192.0.2.1:8443"
   },
   "rulePatternHelp": {
-    "message": "Separate addresses with commas. Keep each URL pattern on its own row. PAC may not see HTTPS paths."
+    "message": "Separate addresses with commas. Keep each URL pattern on its own row. PAC URL path/query access is limited: HTTP/HTTPS in Firefox, HTTPS in Chrome. Prefer host matching."
   },
   "defaultChoice_direct": {
     "message": "Connect without a proxy"
@@ -1887,10 +1887,10 @@
     "message": "This group uses a successor proxy that is not supported."
   },
   "error_NATIVE_UNSUPPORTED_CUSTOM": {
-    "message": "This version does not support custom outbound configurations."
+    "message": "This custom outbound record format is not supported."
   },
   "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
-    "message": "This version does not support Hysteria2."
+    "message": "This Hysteria2 node record format is not supported."
   },
   "error_NATIVE_UNSUPPORTED_TUIC": {
     "message": "This version does not integrate the sing-box core required for TUIC."

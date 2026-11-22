@@ -6,7 +6,7 @@
     "message": "example.com, *.example.org, 192.0.2.1:8443"
   },
   "rulePatternHelp": {
-    "message": "સરનામાં અલ્પવિરામથી અલગ કરો. દરેક URL પેટર્ન અલગ લીટીમાં રાખો. PACને HTTPS પાથ ન દેખાય એવું બની શકે."
+    "message": "સરનામાં અલ્પવિરામથી અલગ કરો. દરેક URL પેટર્ન અલગ લીટીમાં રાખો. PAC માં URL પાથ/ક્વેરીની ઍક્સેસ મર્યાદિત છે: Firefox માં HTTP/HTTPS, Chrome માં HTTPS. હોસ્ટ મુજબ મેળ કરવો વધુ યોગ્ય છે."
   },
   "defaultChoice_direct": {
     "message": "પ્રોક્સી વિના કનેક્ટ કરો"
@@ -1887,10 +1887,10 @@
     "message": "આ ગ્રૂપ સમર્થિત ન હોય તેવી અનુવર્તી પ્રોક્સી વાપરે છે."
   },
   "error_NATIVE_UNSUPPORTED_CUSTOM": {
-    "message": "આ વર્ઝન કસ્ટમ આઉટબાઉન્ડ ગોઠવણીને સમર્થન આપતું નથી."
+    "message": "કસ્ટમ આઉટબાઉન્ડ રેકોર્ડનું આ ફોર્મેટ સમર્થિત નથી."
   },
   "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
-    "message": "આ વર્ઝન Hysteria2ને સમર્થન આપતું નથી."
+    "message": "Hysteria2 નોડ રેકોર્ડનું આ ફોર્મેટ સમર્થિત નથી."
   },
   "error_NATIVE_UNSUPPORTED_TUIC": {
     "message": "આ વર્ઝનમાં TUIC માટે જરૂરી sing-box કોર સામેલ નથી."

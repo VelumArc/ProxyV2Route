@@ -6,7 +6,7 @@
     "message": "example.com, *.example.org, 192.0.2.1:8443"
   },
   "rulePatternHelp": {
-    "message": "Phân cách địa chỉ bằng dấu phẩy. Mỗi mẫu URL một dòng. PAC có thể không thấy đường dẫn HTTPS."
+    "message": "Phân cách địa chỉ bằng dấu phẩy. Mỗi mẫu URL một dòng. PAC bị hạn chế truy cập đường dẫn/truy vấn URL: HTTP/HTTPS trong Firefox, HTTPS trong Chrome. Nên khớp theo tên máy chủ."
   },
   "defaultChoice_direct": {
     "message": "Kết nối mà không cần proxy"
@@ -1887,10 +1887,10 @@
     "message": "Nhóm này sử dụng proxy sau không được hỗ trợ."
   },
   "error_NATIVE_UNSUPPORTED_CUSTOM": {
-    "message": "Phiên bản này không hỗ trợ cấu hình đầu ra tùy chỉnh."
+    "message": "Định dạng bản ghi đầu ra tùy chỉnh này không được hỗ trợ."
   },
   "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
-    "message": "Phiên bản này không hỗ trợ Hysteria2."
+    "message": "Định dạng bản ghi nút Hysteria2 này không được hỗ trợ."
   },
   "error_NATIVE_UNSUPPORTED_TUIC": {
     "message": "Phiên bản này không tích hợp lõi sing-box mà TUIC yêu cầu."

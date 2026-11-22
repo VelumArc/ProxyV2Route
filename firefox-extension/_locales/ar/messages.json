@@ -6,7 +6,7 @@
     "message": "example.com, *.example.org, 192.0.2.1:8443"
   },
   "rulePatternHelp": {
-    "message": "افصل العناوين بفواصل. ضع كل نمط URL في سطر مستقل. قد لا يرى PAC مسارات HTTPS."
+    "message": "افصل العناوين بفواصل. ضع كل نمط URL في سطر مستقل. الوصول إلى مسار URL والاستعلام في PAC محدود: HTTP/HTTPS في Firefox وHTTPS في Chrome. يُفضّل مطابقة اسم المضيف."
   },
   "defaultChoice_direct": {
     "message": "الاتصال بدون وكيل"
@@ -1887,10 +1887,10 @@
     "message": "تستخدم هذه المجموعة وكيلًا لاحقًا غير مدعوم."
   },
   "error_NATIVE_UNSUPPORTED_CUSTOM": {
-    "message": "لا يدعم هذا الإصدار إعدادات اتصال صادر مخصصة."
+    "message": "تنسيق سجل الاتصال الصادر المخصص هذا غير مدعوم."
   },
   "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
-    "message": "لا يدعم هذا الإصدار Hysteria2."
+    "message": "تنسيق سجل عقدة Hysteria2 هذا غير مدعوم."
   },
   "error_NATIVE_UNSUPPORTED_TUIC": {
     "message": "لا يدمج هذا الإصدار نواة sing-box المطلوبة لـ TUIC."

@@ -6,7 +6,7 @@
     "message": "example.com, *.example.org, 192.0.2.1:8443"
   },
   "rulePatternHelp": {
-    "message": "Adresleri virgülle ayırın. Her URL kalıbını ayrı satıra yazın. PAC, HTTPS yollarını göremeyebilir."
+    "message": "Adresleri virgülle ayırın. Her URL kalıbını ayrı satıra yazın. PAC'nin URL yolu/sorgusuna erişimi sınırlıdır: Firefox'ta HTTP/HTTPS, Chrome'da HTTPS. Ana makine adına göre eşleştirmeyi tercih edin."
   },
   "defaultChoice_direct": {
     "message": "Proxy olmadan bağlanın"
@@ -1887,10 +1887,10 @@
     "message": "Bu grup desteklenmeyen bir ardıl proxy kullanıyor."
   },
   "error_NATIVE_UNSUPPORTED_CUSTOM": {
-    "message": "Bu sürüm özel giden bağlantı yapılandırmalarını desteklemiyor."
+    "message": "Bu özel giden bağlantı kaydı biçimi desteklenmiyor."
   },
   "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
-    "message": "Bu sürüm Hysteria2 protokolünü desteklemiyor."
+    "message": "Bu Hysteria2 düğüm kaydı biçimi desteklenmiyor."
   },
   "error_NATIVE_UNSUPPORTED_TUIC": {
     "message": "Bu sürüm, TUIC için gereken sing-box çekirdeğini içermiyor."

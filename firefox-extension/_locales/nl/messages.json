@@ -6,7 +6,7 @@
     "message": "example.com, *.example.org, 192.0.2.1:8443"
   },
   "rulePatternHelp": {
-    "message": "Scheid adressen met komma’s. Elk URL-patroon op een eigen regel. PAC kan HTTPS-paden mogelijk niet zien."
+    "message": "Scheid adressen met komma’s. Elk URL-patroon op een eigen regel. PAC-toegang tot URL-pad/query is beperkt: HTTP/HTTPS in Firefox, HTTPS in Chrome. Geef de voorkeur aan overeenkomsten op hostnaam."
   },
   "defaultChoice_direct": {
     "message": "Maak verbinding zonder proxy"
@@ -1887,10 +1887,10 @@
     "message": "Deze groep gebruikt een opvolgende proxy die niet wordt ondersteund."
   },
   "error_NATIVE_UNSUPPORTED_CUSTOM": {
-    "message": "Deze versie ondersteunt geen aangepaste uitgaande configuraties."
+    "message": "Dit recordformaat voor een aangepaste uitgaande verbinding wordt niet ondersteund."
   },
   "error_NATIVE_UNSUPPORTED_HYSTERIA2": {
-    "message": "Deze versie ondersteunt Hysteria2 niet."
+    "message": "Dit recordformaat voor een Hysteria2-node wordt niet ondersteund."
   },
   "error_NATIVE_UNSUPPORTED_TUIC": {
     "message": "Deze versie bevat niet de sing-box-kern die voor TUIC nodig is."
