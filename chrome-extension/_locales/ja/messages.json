@@ -965,6 +965,9 @@
   "aboutText": {
     "message": "v2rayN のメインルートを切り替えずにブラウザルートを選択します。ノード ルートは、Windows コンパニオンと独自のノードを使用します。"
   },
+  "githubSource": {
+    "message": "GitHub のソースコード"
+  },
   "licenses": {
     "message": "オープンソースの通知"
   },

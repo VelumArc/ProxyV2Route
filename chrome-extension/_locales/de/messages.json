@@ -965,6 +965,9 @@
   "aboutText": {
     "message": "Wählen Sie eine Browserroute, ohne die Hauptroute von v2rayN zu wechseln. Knotenrouten verwenden den Begleiter Windows und Ihre eigenen Knoten."
   },
+  "githubSource": {
+    "message": "Quellcode auf GitHub"
+  },
   "licenses": {
     "message": "Open-Source-Hinweise"
   },

@@ -965,6 +965,9 @@
   "aboutText": {
     "message": "Odaberite rutu preglednika bez promjene glavne rute v2rayN. Rute čvorova koriste Windows pratitelja i vaše vlastite čvorove."
   },
+  "githubSource": {
+    "message": "Izvorni kod na GitHubu"
+  },
   "licenses": {
     "message": "Obavijesti otvorenog izvora"
   },

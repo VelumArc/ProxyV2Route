@@ -965,6 +965,9 @@
   "aboutText": {
     "message": "Escolha uma rota do browser sem alterar a rota principal de v2rayN. As rotas dos nós utilizam o companheiro Windows e os seus próprios nós."
   },
+  "githubSource": {
+    "message": "Código-fonte no GitHub"
+  },
   "licenses": {
     "message": "Avisos de código aberto"
   },

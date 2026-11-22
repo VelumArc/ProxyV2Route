@@ -965,6 +965,9 @@
   "aboutText": {
     "message": "Valitse selainreitti vaihtamatta v2rayN:n pääreittiä. Solmureitit käyttävät Windows-kumppania ja omia solmujasi."
   },
+  "githubSource": {
+    "message": "Lähdekoodi GitHubissa"
+  },
   "licenses": {
     "message": "Avoimen lähdekoodin ilmoitukset"
   },

@@ -965,6 +965,9 @@
   "aboutText": {
     "message": "Välj en webbläsarrutt utan att byta huvudrutt för v2rayN. Nodrutter använder följeslagaren Windows och dina egna noder."
   },
+  "githubSource": {
+    "message": "Källkod på GitHub"
+  },
   "licenses": {
     "message": "Meddelanden med öppen källkod"
   },

@@ -965,6 +965,9 @@
   "aboutText": {
     "message": "בחר מסלול דפדפן מבלי להחליף את המסלול הראשי של v2rayN. נתיבי צמתים משתמשים בתוסף Windows ובצמתים משלך."
   },
+  "githubSource": {
+    "message": "קוד המקור ב-GitHub"
+  },
   "licenses": {
     "message": "הודעות קוד פתוח"
   },

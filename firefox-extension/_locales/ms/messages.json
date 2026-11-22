@@ -965,6 +965,9 @@
   "aboutText": {
     "message": "Pilih laluan penyemak imbas tanpa menukar laluan utama v2rayN. Laluan nod menggunakan pasangan Windows dan nod anda sendiri."
   },
+  "githubSource": {
+    "message": "Kod sumber di GitHub"
+  },
   "licenses": {
     "message": "Notis sumber terbuka"
   },

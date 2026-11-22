@@ -965,6 +965,9 @@
   "aboutText": {
     "message": "Trieu una ruta del navegador sense canviar la ruta principal de v2rayN. Les rutes de nodes utilitzen el complement Windows i els vostres propis nodes."
   },
+  "githubSource": {
+    "message": "Codi font a GitHub"
+  },
   "licenses": {
     "message": "Avisos de codi obert"
   },

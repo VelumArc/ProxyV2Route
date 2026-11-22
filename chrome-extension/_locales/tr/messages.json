@@ -965,6 +965,9 @@
   "aboutText": {
     "message": "v2rayN'in ana rotasını değiştirmeden bir tarayıcı rotası seçin. Düğüm rotaları, Windows tamamlayıcısını ve kendi düğümlerinizi kullanır."
   },
+  "githubSource": {
+    "message": "GitHub'da kaynak kodu"
+  },
   "licenses": {
     "message": "Açık kaynak bildirimleri"
   },

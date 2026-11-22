@@ -965,6 +965,9 @@
   "aboutText": {
     "message": "Chagua njia ya kivinjari bila kubadili njia kuu ya v2rayN. Njia za nodi hutumia Windows na nodi zako mwenyewe."
   },
+  "githubSource": {
+    "message": "Msimbo chanzo kwenye GitHub"
+  },
   "licenses": {
     "message": "Notisi za chanzo huria"
   },

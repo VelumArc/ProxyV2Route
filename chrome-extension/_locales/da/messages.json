@@ -965,6 +965,9 @@
   "aboutText": {
     "message": "Vælg en browserrute uden at skifte v2rayNs hovedrute. Noderuter bruger ledsageren Windows og dine egne noder."
   },
+  "githubSource": {
+    "message": "Kildekode på GitHub"
+  },
   "licenses": {
     "message": "Open source-meddelelser"
   },

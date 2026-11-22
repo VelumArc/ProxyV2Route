@@ -965,6 +965,9 @@
   "aboutText": {
     "message": "Choisissez un itinéraire du navigateur sans changer l'itinéraire principal de v2rayN. Les routes de nœuds utilisent le compagnon Windows et vos propres nœuds."
   },
+  "githubSource": {
+    "message": "Code source sur GitHub"
+  },
   "licenses": {
     "message": "Avis open source"
   },

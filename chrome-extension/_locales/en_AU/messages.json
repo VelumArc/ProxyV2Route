@@ -965,6 +965,9 @@
   "aboutText": {
     "message": "Choose a browser route without switching v2rayN’s main route. Node routes use the Windows companion and your own nodes."
   },
+  "githubSource": {
+    "message": "Source on GitHub"
+  },
   "licenses": {
     "message": "Open-source notices"
   },

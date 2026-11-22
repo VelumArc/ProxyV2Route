@@ -965,6 +965,9 @@
   "aboutText": {
     "message": "v2rayN चा मुख्य मार्ग न बदलता ब्राउझर मार्ग निवडा. नोड मार्ग Windows सहचर आणि तुमचे स्वतःचे नोड्स वापरतात."
   },
+  "githubSource": {
+    "message": "GitHub वरील स्रोत कोड"
+  },
   "licenses": {
     "message": "मुक्त स्रोत सूचना"
   },

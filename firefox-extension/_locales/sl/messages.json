@@ -965,6 +965,9 @@
   "aboutText": {
     "message": "Izberite pot brskalnika, ne da bi zamenjali glavno pot v2rayN. Poti vozlišč uporabljajo spremljevalca Windows in vaša lastna vozlišča."
   },
+  "githubSource": {
+    "message": "Izvorna koda na GitHubu"
+  },
   "licenses": {
     "message": "Odprtokodna obvestila"
   },

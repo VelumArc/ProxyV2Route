@@ -965,6 +965,9 @@
   "aboutText": {
     "message": "Alegeți o rută de browser fără a schimba ruta principală a v2rayN. Rutele nodurilor folosesc însoțitorul Windows și propriile noduri."
   },
+  "githubSource": {
+    "message": "Codul sursă pe GitHub"
+  },
   "licenses": {
     "message": "Notificări cu sursă deschisă"
   },

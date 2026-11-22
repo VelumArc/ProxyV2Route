@@ -965,6 +965,9 @@
   "aboutText": {
     "message": "Scegli un percorso del browser senza cambiare il percorso principale di v2rayN. I percorsi dei nodi utilizzano il compagno Windows e i tuoi nodi."
   },
+  "githubSource": {
+    "message": "Codice sorgente su GitHub"
+  },
   "licenses": {
     "message": "Avvisi open source"
   },

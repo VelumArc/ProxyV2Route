@@ -965,6 +965,9 @@
   "aboutText": {
     "message": "Pasirinkite naršyklės maršrutą neperjungdami pagrindinio v2rayN maršruto. Mazgų maršrutai naudoja Windows kompanioną ir jūsų mazgus."
   },
+  "githubSource": {
+    "message": "Šaltinio kodas „GitHub“"
+  },
   "licenses": {
     "message": "Atvirojo kodo pranešimai"
   },

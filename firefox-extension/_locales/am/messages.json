@@ -965,6 +965,9 @@
   "aboutText": {
     "message": "የ v2rayN ዋና መንገድ ሳይቀይሩ የአሳሽ መስመር ይምረጡ። የመስቀለኛ መንገድ መስመሮች Windows አጃቢውን እና የራስዎን ኖዶች ይጠቀማሉ።"
   },
+  "githubSource": {
+    "message": "የምንጭ ኮድ በ GitHub"
+  },
   "licenses": {
     "message": "የክፍት ምንጭ ማስታወቂያዎች"
   },

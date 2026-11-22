@@ -965,6 +965,9 @@
   "aboutText": {
     "message": "Izvēlieties pārlūkprogrammas maršrutu, nepārslēdzot v2rayN galveno maršrutu. Mezglu maršrutos tiek izmantots Windows pavadonis un jūsu pašu mezgli."
   },
+  "githubSource": {
+    "message": "Pirmkods vietnē GitHub"
+  },
   "licenses": {
     "message": "Atvērtā pirmkoda paziņojumi"
   },

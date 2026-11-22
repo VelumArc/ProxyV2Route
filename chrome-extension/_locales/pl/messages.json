@@ -965,6 +965,9 @@
   "aboutText": {
     "message": "Wybierz trasę przeglądarki bez przełączania głównej trasy v2rayN. Trasy węzłów wykorzystują narzędzie towarzyszące Windows i Twoje własne węzły."
   },
+  "githubSource": {
+    "message": "Kod źródłowy na GitHubie"
+  },
   "licenses": {
     "message": "Powiadomienia o otwartym kodzie źródłowym"
   },

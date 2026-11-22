@@ -965,6 +965,9 @@
   "aboutText": {
     "message": "Vyberte trasu prohlížeče bez přepínání hlavní trasy v2rayN. Trasy uzlů používají doprovod Windows a vaše vlastní uzly."
   },
+  "githubSource": {
+    "message": "Zdrojový kód na GitHubu"
+  },
   "licenses": {
     "message": "Oznámení s otevřeným zdrojovým kódem"
   },

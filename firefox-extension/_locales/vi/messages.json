@@ -965,6 +965,9 @@
   "aboutText": {
     "message": "Chọn tuyến trình duyệt mà không cần chuyển tuyến chính của v2rayN. Các tuyến nút sử dụng đồng hành Windows và các nút của riêng bạn."
   },
+  "githubSource": {
+    "message": "Mã nguồn trên GitHub"
+  },
   "licenses": {
     "message": "Thông báo nguồn mở"
   },

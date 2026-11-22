@@ -372,7 +372,22 @@
     }),'button primary'),'save-paths'));
     host.append(pathField(t('rootPath'),rootPath,'folder'),pathField(t('corePath'),corePath,'program'),saveActions);grid.append(host);
     if(!activeCore&&globalThis.V2RCorePanel)activeCore=V2RCorePanel.create();if(activeCore){activeCore.refreshLabels();grid.append(activeCore);}
-    const about=card(t('about'),t('aboutText'));about.classList.add('about-card');about.append(el('p','version',t('version')+' '+chrome.runtime.getManifest().version),el('p','muted',t('privacyText')));const privacy=el('a','text-link',t('privacyDetails'));privacy.href='notices.html#privacy';privacy.target='_blank';const notices=el('a','text-link',t('licenses'));notices.href='notices.html';notices.target='_blank';const aboutLinks=el('div','about-links');aboutLinks.append(privacy,notices);about.append(aboutLinks);grid.append(about);
+    const about=card(t('about'),t('aboutText'));
+    about.classList.add('about-card');
+    about.append(el('p','version',t('version')+' '+chrome.runtime.getManifest().version),el('p','muted',t('privacyText')));
+    const aboutLinks=el('div','about-links');
+    for(const [label,href] of [
+      ['githubSource','https://github.com/VelumArc/ProxyV2Route'],
+      ['licenses','notices.html'],
+      ['privacyDetails','notices.html#privacy'],
+    ]){
+      const link=el('a','text-link',t(label));
+      link.href=href;
+      link.target='_blank';
+      link.rel='noopener noreferrer';
+      aboutLinks.append(link);
+    }
+    about.append(aboutLinks);grid.append(about);
     const policy=card(t('policyCenter'),t('policyCenterIntro'));policy.classList.add('policy-center');
     for(const [titleKey,bodyKey] of [['policyPrivacyTitle','policyPrivacySummary'],['policyDeclarationTitle','policyDeclarationSummary'],['policyFaqTitle','policyFaqSummary']]){
       const item=el('details','policy-item'),summary=el('summary','',t(titleKey));item.append(summary,el('p','muted',t(bodyKey)));policy.append(item);

@@ -965,6 +965,9 @@
   "aboutText": {
     "message": "Válasszon böngészőútvonalat a v2rayN fő útvonalának váltása nélkül. A csomóponti útvonalak a Windows kísérőt és a saját csomópontjait használják."
   },
+  "githubSource": {
+    "message": "Forráskód a GitHubon"
+  },
   "licenses": {
     "message": "Nyílt forráskódú közlemények"
   },

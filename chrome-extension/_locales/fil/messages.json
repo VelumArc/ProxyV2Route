@@ -965,6 +965,9 @@
   "aboutText": {
     "message": "Pumili ng ruta ng browser nang hindi lumilipat sa pangunahing ruta ng v2rayN. Ginagamit ng mga ruta ng node ang Windows kasama at ang iyong sariling mga node."
   },
+  "githubSource": {
+    "message": "Source code sa GitHub"
+  },
   "licenses": {
     "message": "Mga abiso sa open-source"
   },

@@ -965,6 +965,9 @@
   "aboutText": {
     "message": "Pilih rute browser tanpa berpindah rute utama v2rayN. Rute node menggunakan pendamping Windows dan node Anda sendiri."
   },
+  "githubSource": {
+    "message": "Kode sumber di GitHub"
+  },
   "licenses": {
     "message": "Pemberitahuan sumber terbuka"
   },

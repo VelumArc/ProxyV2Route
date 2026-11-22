@@ -965,6 +965,9 @@
   "aboutText": {
     "message": "瀏覽器獨立選線，無需切換 v2rayN 主線路。節點線路需 Windows 本地元件及自備節點。"
   },
+  "githubSource": {
+    "message": "GitHub 原始碼"
+  },
   "licenses": {
     "message": "開源聲明"
   },

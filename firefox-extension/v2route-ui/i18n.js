@@ -593,6 +593,8 @@
 });
   Object.assign(en,{"error_URL_PATH_RULE_UNSUPPORTED": "{name}: rule {index} needs a URL path or query that {browser} cannot read. Use a host rule.", "pacBrowserLimits": "PAC URL path/query access is limited: HTTP/HTTPS in Firefox, HTTPS in Chrome. Prefer host matching."});
   Object.assign(zh,{"error_URL_PATH_RULE_UNSUPPORTED": "情景“{name}”第 {index} 条规则需要网址路径或查询参数，{browser} 无法读取。请改用域名规则。", "pacBrowserLimits": "PAC 获取网址路径/查询参数受浏览器限制：Firefox 的 HTTP/HTTPS、Chrome 的 HTTPS。建议按主机匹配。"});
+  en.githubSource="Source on GitHub";
+  zh.githubSource="GitHub 源码";
   const localeCodes='ar am bg bn ca cs da de el en en_AU en_GB en_US es es_419 et fa fi fil fr gu he hi hr hu id it ja kn ko lt lv ml mr ms nl no pl pt_BR pt_PT ro ru sk sl sr sv sw ta te th tr uk vi zh_CN zh_TW'.split(' ');
   const idFor=code=>code==='zh_CN'?'zh':code.replaceAll('_','-');
   const known=new Map(localeCodes.map(code=>[idFor(code).toLowerCase(),idFor(code)]));

@@ -965,6 +965,9 @@
   "aboutText": {
     "message": "Kies een browserroute zonder de hoofdroute van v2rayN te wijzigen. Knooppuntroutes gebruiken de begeleidende Windows en uw eigen knooppunten."
   },
+  "githubSource": {
+    "message": "Broncode op GitHub"
+  },
   "licenses": {
     "message": "Open-sourcekennisgevingen"
   },

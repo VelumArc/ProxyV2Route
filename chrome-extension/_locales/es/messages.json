@@ -965,6 +965,9 @@
   "aboutText": {
     "message": "Elija una ruta del navegador sin cambiar la ruta principal de v2rayN. Las rutas de nodo utilizan el compañero Windows y sus propios nodos."
   },
+  "githubSource": {
+    "message": "Código fuente en GitHub"
+  },
   "licenses": {
     "message": "Avisos de código abierto"
   },

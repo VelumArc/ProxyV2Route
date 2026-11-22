@@ -965,6 +965,9 @@
   "aboutText": {
     "message": "Valige brauseri marsruut ilma v2rayN põhimarsruuti vahetamata. Sõlmemarsruudid kasutavad kaaslast Windows ja teie enda sõlmi."
   },
+  "githubSource": {
+    "message": "Lähtekood GitHubis"
+  },
   "licenses": {
     "message": "Avatud lähtekoodiga teatised"
   },
