@@ -5,7 +5,7 @@
 <p align="center"><strong>你的瀏覽器。你的獨立路線。</strong></p>
 <p align="center">在同一個工作區管理瀏覽器代理情境、節點與連線檢測。</p>
 <p align="center"><a href="README.md">简体中文</a> · <a href="README.en.md">English</a> · <strong>繁體中文</strong> · <a href="README.ja.md">日本語</a> · <a href="README.es.md">Español</a> · <a href="README.de.md">Deutsch</a></p>
-<p align="center"><a href="https://velumarc.github.io/ProxyV2Route/?lang=zh">專案網站（簡中／英文）</a> · <a href="INSTALL.md">安裝說明</a> · <a href="https://github.com/VelumArc/ProxyV2Route/issues">問題回報</a></p>
+<p align="center"><a href="https://velumarc.github.io/ProxyV2Route/?lang=zh">專案網站（簡中／英文）</a> · <a href="INSTALL.md">安裝說明</a> · <a href="SOURCES.md#source-map">原始碼導覽</a> · <a href="https://github.com/VelumArc/ProxyV2Route/issues">問題回報</a></p>
 
 ---
 
@@ -38,7 +38,7 @@
 
 「儲存」只記錄變更；「套用情境」儲存並立即切換。
 
-[安裝、升級與備份（簡中／英文）](INSTALL.md) · [原始碼建置](SOURCES.md) · [目前原始碼 ZIP](https://github.com/VelumArc/ProxyV2Route/archive/refs/heads/main.zip)
+[安裝、升級與備份（簡中／英文）](INSTALL.md) · [原始碼建置（簡中）](SOURCES.md#zh-build) · [目前原始碼 ZIP](https://github.com/VelumArc/ProxyV2Route/archive/refs/heads/main.zip)
 
 ## 隱私與支援
 

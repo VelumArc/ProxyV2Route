@@ -5,7 +5,7 @@
 <p align="center"><strong>你的浏览器。你的独立线路。</strong></p>
 <p align="center">在一个工作区管理浏览器代理情景、节点与连接检测。</p>
 <p align="center"><strong>简体中文</strong> · <a href="README.en.md">English</a> · <a href="README.zh-TW.md">繁體中文</a> · <a href="README.ja.md">日本語</a> · <a href="README.es.md">Español</a> · <a href="README.de.md">Deutsch</a></p>
-<p align="center"><a href="https://velumarc.github.io/ProxyV2Route/?lang=zh">项目主页</a> · <a href="INSTALL.md">安装说明</a> · <a href="https://github.com/VelumArc/ProxyV2Route/issues">问题反馈</a></p>
+<p align="center"><a href="https://velumarc.github.io/ProxyV2Route/?lang=zh">项目主页</a> · <a href="INSTALL.md">安装说明</a> · <a href="SOURCES.md#source-map">源码导航</a> · <a href="https://github.com/VelumArc/ProxyV2Route/issues">问题反馈</a></p>
 
 ---
 
@@ -38,7 +38,7 @@
 
 「保存」只记录修改；「应用情景」保存并立即切换。
 
-[安装、升级与备份](INSTALL.md) · [从源码构建](SOURCES.md) · [当前源码 ZIP](https://github.com/VelumArc/ProxyV2Route/archive/refs/heads/main.zip)
+[安装、升级与备份](INSTALL.md) · [从源码构建](SOURCES.md#zh-build) · [当前源码 ZIP](https://github.com/VelumArc/ProxyV2Route/archive/refs/heads/main.zip)
 
 ## 隐私与支持
 
