@@ -9,7 +9,7 @@
 
 ---
 
-**Published versions:** Chrome extension 1.2.72 · Firefox extension 1.2.73 · Windows companion 1.2.74
+**Published versions:** Chrome extension 1.2.72 · Firefox extension 1.2.74 · Windows companion 1.2.74
 
 **Requirements:** Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
 

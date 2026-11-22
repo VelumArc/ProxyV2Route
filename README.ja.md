@@ -9,7 +9,7 @@
 
 ---
 
-**公開バージョン：**Chrome 拡張機能 1.2.72 · Firefox 拡張機能 1.2.73 · Windows 連携コンポーネント 1.2.74
+**公開バージョン：**Chrome 拡張機能 1.2.72 · Firefox 拡張機能 1.2.74 · Windows 連携コンポーネント 1.2.74
 
 **動作環境：**Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
 

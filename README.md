@@ -9,7 +9,7 @@
 
 ---
 
-**已发布版本：**Chrome 扩展 1.2.72 · Firefox 扩展 1.2.73 · Windows 配套组件 1.2.74
+**已发布版本：**Chrome 扩展 1.2.72 · Firefox 扩展 1.2.74 · Windows 配套组件 1.2.74
 
 **环境要求：**Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
 

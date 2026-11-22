@@ -9,7 +9,7 @@
 
 ---
 
-**Veröffentlichte Versionen:** Chrome-Erweiterung 1.2.72 · Firefox-Erweiterung 1.2.73 · Windows-Komponente 1.2.74
+**Veröffentlichte Versionen:** Chrome-Erweiterung 1.2.72 · Firefox-Erweiterung 1.2.74 · Windows-Komponente 1.2.74
 
 **Voraussetzungen:** Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
 

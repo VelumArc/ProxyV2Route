@@ -4,9 +4,9 @@
 
 [简体中文](#zh-install) · [English](#en-install) · [下载 / Downloads](#downloads) · [自行构建 / Build from source](SOURCES.md)
 
-当前公开版本 / Current releases: **Chrome 1.2.72 · Firefox 1.2.73 · Windows 配套组件 / companion 1.2.74**
+当前公开版本 / Current releases: **Chrome 1.2.72 · Firefox 1.2.74 · Windows 配套组件 / companion 1.2.74**
 
-扩展 1.2.74 更新包需另行提交商店审核；上方是当前商店版本。Extension update packages 1.2.74 require a separate submission for store review; current store versions are shown above.
+扩展与配套组件分别更新，日常使用请从对应商店安装。Extensions and the companion update separately; use the browser stores for regular installation.
 
 <a id="windows-companion"></a>
 
@@ -25,9 +25,11 @@
 | <a id="chrome"></a>日常安装 Chrome / Install Chrome extension | [Chrome 应用商店 / Chrome Web Store](https://chromewebstore.google.com/detail/proxy-v2route/mngpdlmiimigbloccmolkjbcagonijlm) |
 | <a id="firefox"></a>日常安装 Firefox / Install Firefox extension | [Firefox 附加组件商店 / Firefox Add-ons](https://addons.mozilla.org/firefox/addon/proxy-v2route/) |
 | Windows 节点组件 / Windows node companion | [安装器 1.2.74 / Installer](#windows-companion) |
-| Firefox 离线安装 / Offline Firefox installation | [Mozilla 签名 XPI 1.2.73 / Signed XPI](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.73/Proxy-V2Route-Firefox-1.2.73-signed.xpi) |
-| 给普通用户的组合包 / Customer bundle | [Windows 1.2.74 + Firefox 签名版 1.2.73 + 安装说明](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.74/Proxy-V2Route-1.2.74-Customer-20261122.zip) |
+| Firefox 离线安装 / Offline Firefox installation | [Firefox XPI 1.2.74（AMO 官方）/ Official AMO XPI](https://addons.mozilla.org/firefox/downloads/file/5288404/proxy_v2route-1.2.74.xpi) |
+| 历史组合包（2026-11-22）/ Archived customer bundle | [Windows 1.2.74 + Firefox 1.2.73 + 安装说明 / guide](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.74/Proxy-V2Route-1.2.74-Customer-20261122.zip) |
 | 本地测试与源码 / Local testing and source | [完整本地包、源码与校验信息 / Release files](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.74) |
+
+历史组合包内的 Firefox 为 1.2.73；请用上方商店或官方 XPI 获取 1.2.74。The archived bundle contains Firefox 1.2.73; use the store or official XPI above for 1.2.74.
 
 <a id="zh-install"></a>
 

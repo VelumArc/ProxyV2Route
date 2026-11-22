@@ -1,6 +1,6 @@
 # 运行环境 / Runtime requirements
 
-当前公开版本 / Current releases: **Chrome 1.2.72 · Firefox 1.2.73 · Windows 配套组件 / companion 1.2.74**
+当前公开版本 / Current releases: **Chrome 1.2.72 · Firefox 1.2.74 · Windows 配套组件 / companion 1.2.74**
 
 | 项目 / Component | 要求 / Requirement |
 | --- | --- |
