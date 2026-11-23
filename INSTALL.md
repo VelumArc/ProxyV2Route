@@ -29,6 +29,10 @@
 | 普通用户组合包 / Customer bundle | [Windows 1.2.74 + Firefox 签名版 / signed 1.2.74 + 安装说明 / guide](https://github.com/VelumArc/ProxyV2Route/releases/download/v1.2.74/Proxy-V2Route-1.2.74-Customer-20261122-AMO.zip) |
 | 本地测试与源码 / Local testing and source | [完整本地包、源码与校验信息 / Release files](https://github.com/VelumArc/ProxyV2Route/releases/tag/v1.2.74) |
 
+客户组合包、完整本地包和源码包中的商店版本记录对应打包日期。当前版本和安装步骤以本页及上方官方商店为准。
+
+Store versions mentioned inside the customer, complete local and source ZIPs reflect their packaging dates. Use this guide and the official store links above for current versions and installation steps.
+
 <a id="zh-install"></a>
 
 ## 简体中文

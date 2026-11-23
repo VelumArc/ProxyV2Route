@@ -34,3 +34,7 @@
 ## Other network tools / 其他网络工具
 
 Other public tools use ordinary browser requests or contained frames, loaded only after user action. No node-list or credential upload is performed by these tools. / 其他公开工具仅在本人操作后发送普通请求或加载嵌入页，不上传节点列表或账密。
+
+Submitting a Ping.pe test opens ping.pe or tcp.ping.pe in a browser tab using the selected target IP and, for TCP, the selected port.
+
+提交 Ping.pe 检测会在浏览器标签页打开 ping.pe 或 tcp.ping.pe，并传入目标 IP。TCP 检测还会传入所选端口。
