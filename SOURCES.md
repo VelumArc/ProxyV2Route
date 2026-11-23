@@ -6,23 +6,33 @@
 
 This guide is for developers building from source. For regular installation, use the [installation guide](INSTALL.md).
 
+<a id="source-map"></a>
+
 ## 源码导航 / Source map
 
-| 文件或目录 / Files | 用途 / Purpose |
-| --- | --- |
-| `chrome-extension/` · `firefox-extension/` | 浏览器界面与代理控制 / Browser UI and proxy control |
-| `backend.py` | 本机独立代理入口与线路绑定 / Independent local proxy endpoints and route bindings |
-| `core_manager.py` | 固定版本核心的安装与修复 / Install and repair the pinned core |
-| `discovery.py` | 定位可选的本机 v2rayN / Locate the optional local v2rayN client |
-| `library_store.py` | 本机节点库的持久化与并发写入保护 / Local node-library storage and write coordination |
-| `build_*.py` · `pack_portable.py` | 构建组件与生成发布包 / Build components and release packages |
-| `prepare_source_bundle.py` · `assemble_public_repo.py` | 生成源码包与可公开的源码目录 / Prepare source archives and the public source tree |
+GitHub 文件列表中的文字是该路径最近一次改动的提交标题。标题里出现的旧版本号记录当时的改动。已发布版本和下载见 [Releases](https://github.com/VelumArc/ProxyV2Route/releases)。
+
+GitHub's file list shows the commit title of the last change to each path. Any version number in that title refers to that change. Published versions and downloads are listed under [Releases](https://github.com/VelumArc/ProxyV2Route/releases).
+
+| 模块 / Area | 文件或目录 / Files | 用途 / Purpose |
+| --- | --- | --- |
+| 浏览器扩展 / Browser extensions | [`chrome-extension/`](chrome-extension/) · [`firefox-extension/`](firefox-extension/) | 界面、浏览器代理控制和各自的扩展清单 / UI, browser proxy control and browser-specific manifests |
+| Windows 安装 / Windows setup | [`SetupLauncher.cs`](SetupLauncher.cs) · [`portable_install.py`](portable_install.py) · [`upgrade_install.py`](upgrade_install.py) | 安装器界面、安装和升级 / Installer UI, installation and upgrades |
+| 浏览器与组件通信 / Native messaging | [`NativeHost.cs`](NativeHost.cs) · [`native_host.py`](native_host.py) · [`install_host.py`](install_host.py) | 本机宿主启动、请求处理和浏览器注册 / Host launch, request handling and browser registration |
+| 本机代理与核心 / Local proxy and core | [`backend.py`](backend.py) · [`core_manager.py`](core_manager.py) · [`discovery.py`](discovery.py) | 代理入口、线路绑定、Xray 管理、可选 v2rayN 定位 / Proxy endpoints, route bindings, Xray management and optional v2rayN discovery |
+| 情景和节点 / Profiles and nodes | [`routes.py`](routes.py) · [`library_store.py`](library_store.py) · [`node_import.py`](node_import.py) · [`profile_bundle.py`](profile_bundle.py) | 线路配置、节点持久化、导入及情景备份 / Routes, node storage, imports and profile backups |
+| 线路检测 / Route diagnostics | [`network_diagnostics.py`](network_diagnostics.py) · [`chain_probe.py`](chain_probe.py) · [`node_measure.py`](node_measure.py) | 网络检测、链式线路逐段检测与节点测速 / Network, per-hop chain and node performance tests |
+| 组件构建 / Companion builds | [`build_host.py`](build_host.py) · [`build_runtime.py`](build_runtime.py) · [`build_core.py`](build_core.py) · [`build_setup.py`](build_setup.py) | 构建通信宿主、准备 Python 运行时和 Xray、生成 Windows 安装器 / Build the messaging host, prepare Python and Xray, and build the Windows installer |
+| 打包与源码导出 / Packages and source export | [构建命令 / Build commands](#build-commands) · [`pack_portable.py`](pack_portable.py) · [`prepare_source_bundle.py`](prepare_source_bundle.py) · [`assemble_public_repo.py`](assemble_public_repo.py) | 生成完整包、源码包和公开仓库文件 / Create complete packages, source archives and the public repository tree |
+| 官网与素材 / Website and assets | [`docs/`](docs/) · [`assets/`](assets/) | 官网、产品文档及构建素材 / Website, product documentation and build assets |
+| 第三方依赖 / Third-party dependencies | [`vendor-html/`](vendor-html/) · [`vendor_yaml/`](vendor_yaml/) | HTML 解析器重建配方及随包分发的 PyYAML 源码 / HTML parser rebuild recipe and bundled PyYAML source |
+| 开源许可 / Open-source licenses | [`LICENSE-GPL-3.0.txt`](LICENSE-GPL-3.0.txt) · [`licenses/`](licenses/) | 项目许可证及随包第三方声明 / Project license and bundled third-party notices |
 
 ## 许可与依赖 / Licenses and dependencies
 
-Proxy V2Route 自有代码采用 **GPL-3.0-or-later**，第三方组件保留各自许可与署名。浏览器源码为可读 JavaScript、HTML、CSS，直接复制到扩展包。
+Chrome、Firefox 扩展及 Windows 配套组件的自有代码均在本仓库公开，采用 **GPL-3.0-or-later**。第三方组件保留各自许可与署名。浏览器源码为可读 JavaScript、HTML、CSS，直接复制到扩展包。
 
-Proxy V2Route-authored code uses **GPL-3.0-or-later**. Third-party components retain their licenses and notices. Readable JavaScript, HTML and CSS browser sources are copied directly into extension packages.
+The project code for the Chrome and Firefox extensions and the Windows companion is published in this repository under **GPL-3.0-or-later**. Third-party components retain their licenses and notices. Readable JavaScript, HTML and CSS browser sources are copied directly into extension packages.
 
 | 组件 / Component | 固定版本 / Pinned version | 许可与来源 / License and source |
 | --- | --- | --- |
@@ -60,6 +70,8 @@ Use **Windows 10/11 x64, Python 3.13 and the Windows .NET Framework C# compiler*
 - Python and Xray archives are SHA-256 verified. Xray source references, linked-module notices, Go notices and the SBOM are under `licenses/xray`. See the [outbound adapter guide](docs/OUTBOUND-ADAPTER.md) for supported inputs.
 - Unchanged pure-Python PyYAML sources are vendored. Archive and per-file SHA-256 records are in `licenses/pyyaml/PROVENANCE.json` and verified on every package build. Subscription parsing accepts bounded node data and does not execute YAML constructors, external providers or scripts.
 - The pinned HTML parser rebuild instructions are in [vendor-html/README.md](vendor-html/README.md). Built Firefox packages require Mozilla signing for permanent installation.
+
+<a id="build-commands"></a>
 
 ## 构建命令 / Build commands
 

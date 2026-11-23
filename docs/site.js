@@ -3,6 +3,23 @@
   'use strict';
   const preferenceKey = 'v2route-site-language';
   const languages = new Set(['zh', 'en']);
+  const requested = new URLSearchParams(location.search).get('lang');
+  const languageSwitch = document.querySelector('.language-switch');
+  const languageLinks = document.querySelectorAll('a[data-preserve-language]');
+
+  function setLinkLanguage(language) {
+    for (const link of languageLinks) {
+      const target = new URL(link.href);
+      target.searchParams.set('lang', language);
+      link.href = target.href;
+    }
+  }
+
+  if (!languageSwitch) {
+    if (languages.has(requested)) setLinkLanguage(requested);
+    return;
+  }
+
   const translations = [...document.querySelectorAll('[data-en]')].map(element => ({
     element, zh: [...element.childNodes].map(node => node.cloneNode(true)), en: element.dataset.en
   }));
@@ -19,7 +36,7 @@
     zh: description.content,
     en: 'Proxy V2Route: independent browser proxy routes, profiles, nodes, subscriptions and connection diagnostics in one workspace.'
   };
-  const buttons = [...document.querySelectorAll('[data-language]')];
+  const buttons = [...languageSwitch.querySelectorAll('[data-language]')];
   function applyLanguage(language, userInitiated = false) {
     if (!languages.has(language)) language = 'zh';
     translations.forEach(item => {
@@ -27,6 +44,7 @@
       else item.element.textContent = item.en;
     });
     attributes.forEach(item => { item.element.setAttribute(item.name, item[language]); });
+    setLinkLanguage(language);
     document.documentElement.lang = language === 'zh' ? 'zh-CN' : 'en';
     document.title = title[language];
     description.content = descriptions[language];
@@ -41,10 +59,9 @@
   }
   let saved;
   try { saved = localStorage.getItem(preferenceKey); } catch { /* Optional preference only. */ }
-  const requested = new URLSearchParams(location.search).get('lang');
   applyLanguage(languages.has(requested) ? requested : languages.has(saved) ? saved : 'zh');
   buttons.forEach(button => button.addEventListener('click', () => applyLanguage(button.dataset.language, true)));
-  document.querySelector('.language-switch').hidden = false;
+  languageSwitch.hidden = false;
 
   const preview = document.querySelector('.image-preview');
   if (typeof preview?.showModal === 'function') {

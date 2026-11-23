@@ -24,6 +24,10 @@ Opening the popup or IP workspace, successfully switching routes, or requesting 
 
 打开弹窗或 IP 工具页、成功切换线路或执行状态检查时，会向 ipify 发起有时限的出口 IP 检测。Ping0 报告需允许对应站点访问。Firefox 还需允许可选的 locationInfo 数据许可，用于报告中的 IP 归属地；这不是设备定位权限。IP 工具默认填写当前出口 IP；Globalping 点击开始才向所选区域的最多三个探针发送目标，支持选择中国；可用探针会变化，ICMP 丢包本身不能证明被墙。域名检测使用 GreatFire，FAST.com 为独立嵌入测速站点。服务商会接收常规连接信息，并按自身政策处理。
 
+The Ping.pe tool can pre-fill the current browser exit IP. On submission, the selected target IP is sent to ping.pe for ICMP or to tcp.ping.pe with the selected TCP port for TCP.
+
+Ping.pe 工具可预填当前浏览器出口 IP。提交 ICMP 检测时，目标 IP 会发送给 ping.pe。提交 TCP 检测时，目标 IP 和所选端口会发送给 tcp.ping.pe。
+
 ## Website checks / 网站检测
 
 Website tests contact only selected, visible public homepages/icons after Start, with four concurrent credential-free requests at most. A response confirms browser reachability, not account access, HTTP success or regional unlocking. Timeouts and browser restrictions may produce an unconfirmed result.

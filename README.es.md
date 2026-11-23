@@ -5,7 +5,7 @@
 <p align="center"><strong>Tu navegador. Tu propia ruta.</strong></p>
 <p align="center">Gestiona perfiles de proxy, nodos y pruebas de conexión del navegador desde un solo espacio.</p>
 <p align="center"><a href="README.md">简体中文</a> · <a href="README.en.md">English</a> · <a href="README.zh-TW.md">繁體中文</a> · <a href="README.ja.md">日本語</a> · <strong>Español</strong> · <a href="README.de.md">Deutsch</a></p>
-<p align="center"><a href="https://velumarc.github.io/ProxyV2Route/?lang=en">Sitio web (chino/inglés)</a> · <a href="INSTALL.md">Instalación</a> · <a href="https://github.com/VelumArc/ProxyV2Route/issues">Informar de un problema</a></p>
+<p align="center"><a href="https://velumarc.github.io/ProxyV2Route/?lang=en">Sitio web (chino/inglés)</a> · <a href="INSTALL.md">Instalación</a> · <a href="SOURCES.md#source-map">Mapa del código fuente</a> · <a href="https://github.com/VelumArc/ProxyV2Route/issues">Informar de un problema</a></p>
 
 ---
 
@@ -38,7 +38,7 @@ Los perfiles de conexión directa y del sistema comparten sus reglas guardadas c
 
 «Guardar» conserva los cambios. «Aplicar perfil» los guarda y cambia de ruta al instante.
 
-[Instalación, actualizaciones y copias de seguridad (chino/inglés)](INSTALL.md) · [Compilar desde el código fuente](SOURCES.md) · [ZIP del código fuente actual](https://github.com/VelumArc/ProxyV2Route/archive/refs/heads/main.zip)
+[Instalación, actualizaciones y copias de seguridad (chino/inglés)](INSTALL.md) · [Compilar desde el código fuente (inglés)](SOURCES.md#en-build) · [ZIP del código fuente actual](https://github.com/VelumArc/ProxyV2Route/archive/refs/heads/main.zip)
 
 ## Privacidad y soporte
 

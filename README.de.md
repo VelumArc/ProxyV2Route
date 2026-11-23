@@ -5,7 +5,7 @@
 <p align="center"><strong>Dein Browser. Deine eigene Route.</strong></p>
 <p align="center">Verwalte Proxy-Profile, Knoten und Verbindungstests für deinen Browser an einem Ort.</p>
 <p align="center"><a href="README.md">简体中文</a> · <a href="README.en.md">English</a> · <a href="README.zh-TW.md">繁體中文</a> · <a href="README.ja.md">日本語</a> · <a href="README.es.md">Español</a> · <strong>Deutsch</strong></p>
-<p align="center"><a href="https://velumarc.github.io/ProxyV2Route/?lang=en">Website (Chinesisch/Englisch)</a> · <a href="INSTALL.md">Installation</a> · <a href="https://github.com/VelumArc/ProxyV2Route/issues">Problem melden</a></p>
+<p align="center"><a href="https://velumarc.github.io/ProxyV2Route/?lang=en">Website (Chinesisch/Englisch)</a> · <a href="INSTALL.md">Installation</a> · <a href="SOURCES.md#source-map">Quellcode-Übersicht</a> · <a href="https://github.com/VelumArc/ProxyV2Route/issues">Problem melden</a></p>
 
 ---
 
@@ -38,7 +38,7 @@ Direktverbindung und System-Proxy verwenden dieselben gespeicherten Regeln wie i
 
 „Speichern“ sichert die Änderungen. „Profil anwenden“ speichert sie und wechselt sofort zur neuen Route.
 
-[Installation, Updates und Sicherungen (Chinesisch/Englisch)](INSTALL.md) · [Aus dem Quellcode bauen](SOURCES.md) · [Aktuelles Quellcode-ZIP](https://github.com/VelumArc/ProxyV2Route/archive/refs/heads/main.zip)
+[Installation, Updates und Sicherungen (Chinesisch/Englisch)](INSTALL.md) · [Aus dem Quellcode bauen (Englisch)](SOURCES.md#en-build) · [Aktuelles Quellcode-ZIP](https://github.com/VelumArc/ProxyV2Route/archive/refs/heads/main.zip)
 
 ## Datenschutz und Hilfe
 

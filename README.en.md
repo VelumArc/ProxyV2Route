@@ -5,7 +5,7 @@
 <p align="center"><strong>Your browser. Your own route.</strong></p>
 <p align="center">Manage browser proxy profiles, nodes and connection checks in one workspace.</p>
 <p align="center"><a href="README.md">简体中文</a> · <strong>English</strong> · <a href="README.zh-TW.md">繁體中文</a> · <a href="README.ja.md">日本語</a> · <a href="README.es.md">Español</a> · <a href="README.de.md">Deutsch</a></p>
-<p align="center"><a href="https://velumarc.github.io/ProxyV2Route/?lang=en">Project website</a> · <a href="INSTALL.md">Installation</a> · <a href="https://github.com/VelumArc/ProxyV2Route/issues">Report an issue</a></p>
+<p align="center"><a href="https://velumarc.github.io/ProxyV2Route/?lang=en">Project website</a> · <a href="INSTALL.md">Installation</a> · <a href="SOURCES.md#source-map">Source map</a> · <a href="https://github.com/VelumArc/ProxyV2Route/issues">Report an issue</a></p>
 
 ---
 
@@ -38,7 +38,7 @@ Direct and System profiles share their saved rules with the toolbar shortcuts. R
 
 Save records edits. Apply profile saves and switches immediately.
 
-[Installation, upgrades and backups](INSTALL.md) · [Build from source](SOURCES.md) · [Current source ZIP](https://github.com/VelumArc/ProxyV2Route/archive/refs/heads/main.zip)
+[Installation, upgrades and backups](INSTALL.md) · [Build from source](SOURCES.md#en-build) · [Current source ZIP](https://github.com/VelumArc/ProxyV2Route/archive/refs/heads/main.zip)
 
 ## Privacy and support
 

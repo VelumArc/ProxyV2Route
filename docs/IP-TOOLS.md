@@ -1,6 +1,12 @@
 # IP and network tools / IP 与网络工具
 
 - **IP tests / IP 检测**: Globalping supports Ping, Traceroute and MTR from up to three probes, with global, China, Asia, Europe and North America selections. Availability depends on the selected region. Targets default to the current browser exit IP and remain editable.
+- **Ping.pe** sends the selected IP to ping.pe for ICMP or the IP and selected port to tcp.ping.pe for TCP when submitted. The form can pre-fill the current browser exit IP.
+
+  表单可预填当前浏览器出口 IP。提交 ICMP 时，目标 IP 会发送给 ping.pe。提交 TCP 时，目标 IP 和端口会发送给 tcp.ping.pe。
+- **Local Ping, TCPing and MTR / 本机 Ping、TCPing 与 MTR** run through the Windows companion. They probe the selected target or node endpoint directly from the computer. Use TCPing for IPv6.
+
+  Windows 配套组件从本机直接探测所选目标或节点端点。IPv6 请用 TCPing。
 - **Website tests / 网站检测**: GreatFire checks domains. The local catalog covers 52 public websites in AI, development, video/music, social, mainland and common-service categories. Check only selected visible entries; four requests run concurrently at most.
 - **Speed / 测速**: one compact Cloudflare dialog offers download + upload or either direction, HTTP latency, live per-second rates and final averages. Each phase has a 10/50/100 MiB limit. FAST.com remains a separate provider.
 - Ping0 report failures offer a gray same-IP source dialog. The dialog has reload and page-maximize controls; maximizing fills the current browser viewport without entering monitor fullscreen. Site verification remains manual; embedded session recovery does not certify that the provider accepted a verification.

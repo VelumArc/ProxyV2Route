@@ -5,7 +5,7 @@
 <p align="center"><strong>ブラウザーに、自分だけの接続経路を。</strong></p>
 <p align="center">ブラウザーのプロキシプロファイル、ノード、接続テストを一か所で管理します。</p>
 <p align="center"><a href="README.md">简体中文</a> · <a href="README.en.md">English</a> · <a href="README.zh-TW.md">繁體中文</a> · <strong>日本語</strong> · <a href="README.es.md">Español</a> · <a href="README.de.md">Deutsch</a></p>
-<p align="center"><a href="https://velumarc.github.io/ProxyV2Route/?lang=en">公式サイト（中国語／英語）</a> · <a href="INSTALL.md">インストール</a> · <a href="https://github.com/VelumArc/ProxyV2Route/issues">問題を報告</a></p>
+<p align="center"><a href="https://velumarc.github.io/ProxyV2Route/?lang=en">公式サイト（中国語／英語）</a> · <a href="INSTALL.md">インストール</a> · <a href="SOURCES.md#source-map">ソースコード構成</a> · <a href="https://github.com/VelumArc/ProxyV2Route/issues">問題を報告</a></p>
 
 ---
 
@@ -38,7 +38,7 @@
 
 「保存」は変更を記録します。「プロファイルを適用」は保存と経路の切り替えを同時に行います。
 
-[インストール・更新・バックアップ（中国語／英語）](INSTALL.md) · [ソースからビルド](SOURCES.md) · [現在のソース ZIP](https://github.com/VelumArc/ProxyV2Route/archive/refs/heads/main.zip)
+[インストール・更新・バックアップ（中国語／英語）](INSTALL.md) · [ソースからビルド（英語）](SOURCES.md#en-build) · [現在のソース ZIP](https://github.com/VelumArc/ProxyV2Route/archive/refs/heads/main.zip)
 
 ## プライバシーとサポート
 
