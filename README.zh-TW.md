@@ -9,7 +9,7 @@
 
 ---
 
-**已發布版本：**Chrome 擴充套件 1.2.72 · Firefox 擴充套件 1.2.74 · Windows 配套元件 1.2.74
+**已發布版本：**Chrome 擴充套件 1.2.74 · Firefox 擴充套件 1.2.74 · Windows 配套元件 1.2.74
 
 **環境需求：**Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
 
