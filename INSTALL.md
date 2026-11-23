@@ -4,7 +4,7 @@
 
 [简体中文](#zh-install) · [English](#en-install) · [下载 / Downloads](#downloads) · [自行构建 / Build from source](SOURCES.md)
 
-当前公开版本 / Current releases: **Chrome 1.2.72 · Firefox 1.2.74 · Windows 配套组件 / companion 1.2.74**
+当前公开版本 / Current releases: **Chrome 1.2.74 · Firefox 1.2.74 · Windows 配套组件 / companion 1.2.74**
 
 扩展与配套组件分别更新，日常使用请从对应商店安装。Extensions and the companion update separately; use the browser stores for regular installation.
 

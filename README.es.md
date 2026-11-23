@@ -9,7 +9,7 @@
 
 ---
 
-**Versiones publicadas:** extensión de Chrome 1.2.72 · extensión de Firefox 1.2.74 · componente de Windows 1.2.74
+**Versiones publicadas:** extensión de Chrome 1.2.74 · extensión de Firefox 1.2.74 · componente de Windows 1.2.74
 
 **Requisitos:** Windows 10/11 x64 · .NET Framework 4.5.2+ · Chrome 120+ / Firefox 140+
 
