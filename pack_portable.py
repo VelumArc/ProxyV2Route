@@ -14,6 +14,7 @@ FILES += ('folder_browser.py',)
 FILES += ('profile_bundle.py',)
 FILES += ('node_measure.py','library_store.py','subscriptions.py','subscription_fetch.py','subscription_formats.py')
 FILES += ('vendor-html/package.json','vendor-html/package-lock.json','vendor-html/entry.js','vendor-html/build.mjs','vendor-html/README.md')
+FILES += ('LICENSE',)
 OPTIONAL_SOURCE=('node_import.py','render_ui_icons.py')
 EXT_ROOT=('manifest.json','v2route-background.js','v2route-library.js','v2route-tool-cache.js','v2route-validation.js','LICENSE','COPYING','NOTICES.md','v2route-assets/FLAG-ICONS-LICENSE','v2route-assets/PROVENANCE.json')
 # Explicit locales contain manifest descriptions and bundled UI translations.

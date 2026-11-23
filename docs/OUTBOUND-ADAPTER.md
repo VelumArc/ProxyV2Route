@@ -26,9 +26,9 @@ Credentials enter the private core configuration, not the browser catalog. Defau
 
 ## References and provenance / 参考与来源
 
-An earlier translator referenced v2rayN 7.25.6 `V2rayOutboundService.cs`. Current dependency and source notices are in [SOURCES.md](../SOURCES.md).
+An earlier translator referenced v2rayN 7.25.6 `V2rayOutboundService.cs`. Current dependency and source notices are in [SOURCES.md](https://github.com/VelumArc/ProxyV2Route/blob/main/SOURCES.md).
 
-此前转换器曾参考 v2rayN 7.25.6 的 `V2rayOutboundService.cs`；依赖与来源声明见 [SOURCES.md](../SOURCES.md)。
+此前转换器曾参考 v2rayN 7.25.6 的 `V2rayOutboundService.cs`；依赖与来源声明见 [SOURCES.md](https://github.com/VelumArc/ProxyV2Route/blob/main/SOURCES.md)。
 
 Official configuration references / 官方配置参考：
 

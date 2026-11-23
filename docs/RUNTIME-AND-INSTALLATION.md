@@ -15,7 +15,7 @@
 
 导入节点通过随包核心运行。“跟随 v2rayN”需要其本地代理正在运行；可在扩展“设置”选择 v2rayN 文件夹或重新扫描。
 
-安装、升级、扩展加载与停用见[安装说明](../INSTALL.md)。权限和数据处理见[权限说明](PERMISSIONS.md)与[隐私说明](PRIVACY.md)。
+安装、升级、扩展加载与停用见[安装说明](https://github.com/VelumArc/ProxyV2Route/blob/main/INSTALL.md)。权限和数据处理见[权限说明](PERMISSIONS.md)与[隐私说明](PRIVACY.md)。
 
 ## Windows companion
 
@@ -23,4 +23,4 @@ The complete Windows package includes Python, Xray and the `local.v2route` Nativ
 
 Imported nodes run through the bundled core. Follow v2rayN requires its running local proxy. Extension Settings provides folder selection and rescan controls.
 
-See the [installation guide](../INSTALL.md) for setup, upgrades, extension loading and removal. See [permissions](PERMISSIONS.md) and [privacy](PRIVACY.md) for access and data handling details.
+See the [installation guide](https://github.com/VelumArc/ProxyV2Route/blob/main/INSTALL.md) for setup, upgrades, extension loading and removal. See [permissions](PERMISSIONS.md) and [privacy](PRIVACY.md) for access and data handling details.

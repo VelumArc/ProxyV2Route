@@ -65,12 +65,23 @@ def main():
     target.parent.mkdir(parents=True,exist_ok=True)
     icon,brand=branding()
     # Temporary build inputs stay beside this build's output and are cleaned only by Python.
-    with tempfile.TemporaryDirectory(prefix='v2route-setup-icon-',dir=target.parent) as temporary:
-        icon_path=Path(temporary)/'V2Route.ico';icon_path.write_bytes(icon)
+    with tempfile.TemporaryDirectory(prefix='v2route-setup-',dir=target.parent) as temporary:
+        inputs=Path(temporary)
+        icon_path=inputs/'V2Route.ico'
+        icon_path.write_bytes(icon)
+        metadata=inputs/'AssemblyMetadata.cs'
+        metadata.write_text(
+            'using System.Reflection;\n'
+            '[assembly: AssemblyTitle("Proxy V2Route Windows Companion Setup")]\n'
+            '[assembly: AssemblyProduct("Proxy V2Route")]\n'
+            f'[assembly: AssemblyFileVersion("{version}")]\n'
+            f'[assembly: AssemblyInformationalVersion("{version}")]\n',
+            encoding='utf-8',
+        )
         command=[str(compiler),'/nologo','/target:winexe','/optimize+','/platform:x64','/debug-',
                  '/r:System.Windows.Forms.dll','/r:System.Drawing.dll','/r:System.IO.Compression.dll','/r:System.IO.Compression.FileSystem.dll','/r:System.Web.Extensions.dll',
                  '/win32icon:'+str(icon_path),'/resource:'+str(icon_path)+',V2Route.Brand.ico',
-                 '/resource:'+str(ROOT/brand['header'])+',V2Route.Brand.png','/out:'+str(target),str(source)]
+                 '/resource:'+str(ROOT/brand['header'])+',V2Route.Brand.png','/out:'+str(target),str(source),str(metadata)]
         if args.payload:command.append('/resource:'+str(args.payload.resolve(strict=True))+',V2Route.Payload.zip')
         subprocess.run(command,check=True,creationflags=0x08000000)
     receipt={'version':version,'source':'SetupLauncher.cs','source_sha256':sha(source),'build_script':'build_setup.py','build_script_sha256':sha(Path(__file__)),

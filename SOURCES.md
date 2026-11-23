@@ -6,6 +6,10 @@
 
 This guide is for developers building from source. For regular installation, use the [installation guide](INSTALL.md).
 
+已发布的安装与审核包对应各自的 Release 标签。主分支的源码可能包含已合入、将在后续版本交付的修正。
+
+Installers and store packages correspond to their release tags. The main branch may include fixes intended for later releases.
+
 <a id="source-map"></a>
 
 ## 源码导航 / Source map
@@ -26,7 +30,7 @@ GitHub's file list shows the commit title of the last change to each path. Any v
 | 打包与源码导出 / Packages and source export | [构建命令 / Build commands](#build-commands) · [`pack_portable.py`](pack_portable.py) · [`prepare_source_bundle.py`](prepare_source_bundle.py) · [`assemble_public_repo.py`](assemble_public_repo.py) | 生成完整包、源码包和公开仓库文件 / Create complete packages, source archives and the public repository tree |
 | 官网与素材 / Website and assets | [`docs/`](docs/) · [`assets/`](assets/) | 官网、产品文档及构建素材 / Website, product documentation and build assets |
 | 第三方依赖 / Third-party dependencies | [`vendor-html/`](vendor-html/) · [`vendor_yaml/`](vendor_yaml/) | HTML 解析器重建配方及随包分发的 PyYAML 源码 / HTML parser rebuild recipe and bundled PyYAML source |
-| 开源许可 / Open-source licenses | [`LICENSE-GPL-3.0.txt`](LICENSE-GPL-3.0.txt) · [`licenses/`](licenses/) | 项目许可证及随包第三方声明 / Project license and bundled third-party notices |
+| 开源许可 / Open-source licenses | [`LICENSE`](LICENSE) · [`licenses/`](licenses/) | 项目许可证及随包第三方声明 / Project license and bundled third-party notices |
 
 ## 许可与依赖 / Licenses and dependencies
 

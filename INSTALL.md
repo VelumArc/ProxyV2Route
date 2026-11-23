@@ -64,9 +64,9 @@ Store versions mentioned inside the customer, complete local and source ZIPs ref
 | 自动切换 | 设置默认直连或系统代理，在规则右侧选择节点库线路。按顺序使用第一条命中规则；节点目标失效时报告错误，不改走其他线路。 |
 | 直连与系统情景 | 在情景列表编辑，工具栏快捷按钮使用同一套规则。直连只需配置“指定代理策略”。 |
 | 系统、节点与手动情景 | 先检查“不代理的地址”，再使用第一条命中的指定代理策略，未命中时使用情景默认线路。 |
-| 域名、IP 与端口 | 普通域名仅匹配该域名；填写 `example.com, *.example.com` 可同时覆盖主域名与子域名，共用右侧目标。`192.0.2.10:8443` 仅匹配该 IP 和端口。IP 规则不解析域名。完整网址规则每行一条，建议使用 `https://example.com/*` 匹配整站。本扩展的 PAC 分流规则在 Firefox 中无法读取网址路径，在 Chrome 中无法读取 HTTPS 路径，因此不能应用这些路径条件；Chrome 明确的 HTTP 规则可匹配路径。 |
+| 域名、IP 与端口 | 普通域名仅匹配该域名；填写 `example.com, *.example.com` 可同时覆盖主域名与子域名，共用右侧目标。`192.0.2.10:8443` 仅匹配该 IP 和端口。IP 规则不解析域名。完整网址规则每行一条，建议使用 `https://example.com/*` 匹配整站。本扩展的 PAC 分流规则在 Firefox 中无法读取 HTTP 或 HTTPS 网址的路径及查询参数，在 Chrome 中无法读取 HTTPS 网址的路径及查询参数。Chrome 明确的 HTTP 规则可匹配路径和查询参数。 |
 | 带规则的系统代理 | 应用时读取 Windows 手动代理配置。Windows 设置变更后，在扩展弹窗再次选择当前情景；PAC 或自动发现不能与这些系统规则组合使用。 |
-| PAC 脚本 | 保存前离线检查语法，须提供顶层同步 `FindProxyForURL` 函数。语法通过不保证脚本对所有网址都能正确执行；脚本同样受浏览器隐藏网址路径的限制。 |
+| PAC 脚本 | 保存前离线检查语法，须提供顶层同步 `FindProxyForURL` 函数。语法通过不保证脚本对所有网址都能正确执行；脚本同样受浏览器隐藏网址路径及查询参数的限制。 |
 
 兼容要求：节点规则备份需 1.2.53 或更新版；逗号多域名规则备份需 1.2.54 或更新版；指定代理策略备份需 1.2.65 或更新版。导入节点时新建分组需配套组件 1.2.65 或更新版。
 
@@ -120,9 +120,9 @@ All three modes offer per-path status, latency and Stop in the connection-order 
 | Automatic profiles | Keep a Direct or System default and select library nodes as rule targets. The first matching rule wins; an unavailable node target reports an error rather than using another route. |
 | Direct and System profiles | Edit them in Profiles to configure the same rules used by their toolbar shortcuts. Direct only needs proxy policies. |
 | System, node and manual profiles | Bypasses take priority, then the first matching proxy policy, then the profile default. |
-| Domains, IP addresses and ports | A plain domain matches only that host. Use `example.com, *.example.com` to cover both the main domain and its subdomains with one row's target. `192.0.2.10:8443` matches that IP and port only. IP rules do not resolve domain names. Put each full URL pattern on a separate row; prefer an origin-wide pattern such as `https://example.com/*`. The PAC-based routing used by this extension cannot read URL paths in Firefox or HTTPS paths in Chrome, so those path-dependent conditions cannot be applied. Explicit HTTP rules in Chrome can match paths. |
+| Domains, IP addresses and ports | A plain domain matches only that host. Use `example.com, *.example.com` to cover both the main domain and its subdomains with one row's target. `192.0.2.10:8443` matches that IP and port only. IP rules do not resolve domain names. Put each full URL pattern on a separate row; prefer an origin-wide pattern such as `https://example.com/*`. The PAC-based routing used by this extension cannot read HTTP or HTTPS URL paths and query strings in Firefox or HTTPS URL paths and query strings in Chrome. Explicit HTTP rules in Chrome can match both. |
 | System profiles with rules | Applying the profile takes a snapshot of manual Windows proxy settings. After changing those settings, select the current profile again in the extension popup. PAC and auto-discovery cannot be combined with these System rules. |
-| PAC scripts | Local syntax checking runs before saving and requires an explicit synchronous top-level `FindProxyForURL` function. Passing syntax validation cannot prove behavior for every URL; scripts have the same browser URL-path visibility limits. |
+| PAC scripts | Local syntax checking runs before saving and requires an explicit synchronous top-level `FindProxyForURL` function. Passing syntax validation cannot prove behavior for every URL; scripts have the same browser limits on URL paths and query strings. |
 
 Backup compatibility: node rules require version 1.2.53 or later; comma-separated domain rules require 1.2.54 or later; proxy policies require 1.2.65 or later. Importing nodes into a new group requires companion 1.2.65 or later.
 
